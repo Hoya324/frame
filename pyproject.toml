@@ -36,6 +36,7 @@ packages = ["src/crawler"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-ra -q"
+pythonpath = ["src"]
 markers = [
   "external: tests that hit live external services (excluded by default)",
 ]
