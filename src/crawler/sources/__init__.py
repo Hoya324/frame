@@ -17,6 +17,7 @@ from crawler.sources import (
     photo_sema,  # noqa: F401
     ryugaheon,  # noqa: F401
     sangsangmadang,  # noqa: F401
+    tokyo_photographic_art_museum,  # noqa: F401
 )
 
 # BLOCKED in M3: Naver requires either OAuth (Open API) or JS rendering (Playwright).
