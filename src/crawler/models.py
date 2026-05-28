@@ -14,6 +14,13 @@ class SourceName(StrEnum):
     PHOTO_SEMA = "photo_sema"
     MUSEUM_HANMI = "museum_hanmi"
     KOBA = "koba"
+    GOEUN = "goeun"
+    GALLERY_LUX = "gallery_lux"
+    GALLERY_KONG = "gallery_kong"
+    RYUGAHEON = "ryugaheon"
+    ILWOO_SPACE = "ilwoo_space"
+    SANGSANGMADANG = "sangsangmadang"
+    CANON_GALLERY = "canon_gallery"
 
 
 class Medium(StrEnum):
