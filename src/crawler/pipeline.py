@@ -139,11 +139,18 @@ def run_source(
                 normalized = normalize_exhibition(raw)
                 result = resolve_entities(normalized, state)
 
-                # geocode brand-new venues
+                # geocode brand-new venues; geocoder failures don't drop the venue
                 for v in result.new_venues:
-                    lat, lng = geocoder.geocode(v.address or v.name)
-                    if lat is not None and lng is not None:
-                        v.latitude, v.longitude = lat, lng
+                    try:
+                        lat, lng = geocoder.geocode(v.address or v.name)
+                        if lat is not None and lng is not None:
+                            v.latitude, v.longitude = lat, lng
+                    except Exception as geo_exc:
+                        log.warning(
+                            "geocode failed for venue '%s' in %s: %s; "
+                            "venue saved without coordinates",
+                            v.name, name, geo_exc,
+                        )
                     new_venues_acc.append(v)
                     state.venues.append(v)
 
