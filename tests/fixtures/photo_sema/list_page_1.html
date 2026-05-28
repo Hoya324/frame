@@ -1,0 +1,2108 @@
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+
+<!DOCTYPE HTML>
+<html lang="ko-KR">
+
+
+
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>SeMA - 전시와 프로그램</title>
+	<meta name="format-detection" content="telephone=no"><!-- iOS 전화 자동연결 방지 메타태그 -->
+	
+	<!-- Favicon -->
+	<link rel="SHORTCUT ICON" href="/resources/images/common/favicon.ico">
+	<link rel="apple-touch-icon" href="/resources/images/common/favicon_apple.png"><!-- 애플 아이콘 -->
+	<link rel="apple-touch-icon-precomposed" href="/resources/images/common/favicon_android.png"><!-- 안드로이드,아이폰 바탕화면 아이콘 -->
+
+	<!-- Javascript (필요없는 스크립트로 보임, 백업용도로 남겨둠. (20211021 kskang)
+	<script src="/resources/js/lib/jquery-1.11.3.min.js"></script>
+	<script src="/resources/js/lib/jquery-ui.min.js"></script>
+	<script src="/resources/js/lib/modernizr.custom.31356.js"></script>
+	<script src="/resources/js/new_common.js"></script> -->
+
+	<!-- NEW_CSS -->
+    <link rel="stylesheet" type="text/css" href="/resources/assets/css/pure/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/resources/assets/css/pure/grids-responsive-min.css" />
+    <link rel="stylesheet" type="text/css" href="/resources/assets/css/base.css">
+    <link rel="stylesheet" type="text/css" href="/resources/assets/css/style.css">
+    
+	<!-- NEW_JS -->
+	<script src="/resources/assets/js/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/resources/assets/js/stickyfill.min.js"></script>
+    <script src="/resources/assets/js/base.js"></script>
+    <script src="/resources/assets/js/common.js"></script>
+    <script src="/resources/assets/js/common_util.js"></script>
+    <script src="/resources/assets/js/csi.min.js"></script>
+   	<script src="/resources/js/app.script.js?time_stamp"></script>
+</head>
+
+
+<body>
+	<div id="load"></div>
+
+	<div id="skipNavigation">
+		<ul class="skipNav">
+			<li><a href="#contents">본문 바로가기</a></li>
+			<li><a href="#nav">전체메뉴 바로가기</a></li>
+			<li><a href="#footer">하단 바로가기</a></li>
+		</ul>
+	</div>
+
+	<div id="wrap" class="sub">
+		
+
+
+
+
+
+
+
+	<script src="//www.seoul.go.kr/seoulgnb/gnb.js"></script>
+	<script>
+	window.onload = function() {
+	Yjs.Gnb.init('G079', 'seoul-gnb');
+	};
+</script>
+
+
+
+<!-- header영역(s) -->
+
+
+	<div id="seoul-gnb"></div>
+
+
+<!-- //header영역(e) -->
+
+		<div class="l-global">
+			
+
+
+
+
+
+
+
+
+
+<input type="hidden" id="langStype" value="kr" />
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const submenuItems = document.querySelectorAll('.has-submenu');
+  let activeMenu = null;
+  let isClickOpen = false;
+
+  submenuItems.forEach(menu => {
+    menu.addEventListener('mouseenter', function () {
+      if (!isClickOpen) {
+        menu.classList.add('active');
+      }
+    });
+
+    menu.addEventListener('mouseleave', function () {
+      if (!isClickOpen || activeMenu !== menu) {
+        menu.classList.remove('active');
+      }
+    });
+
+    menu.addEventListener('click', function (e) {
+      e.stopPropagation();
+
+      if (activeMenu && activeMenu !== menu) {
+        activeMenu.classList.remove('active');
+      }
+
+      isClickOpen = !(activeMenu === menu && isClickOpen);
+      menu.classList.toggle('active', isClickOpen);
+      activeMenu = isClickOpen ? menu : null;
+    });
+  });
+
+  document.addEventListener('click', function () {
+    submenuItems.forEach(menu => menu.classList.remove('active'));
+    isClickOpen = false;
+    activeMenu = null;
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+	
+	/* fncMuseumTime(); */
+});
+	
+
+
+function fncMuseumTime(){
+	
+	var time = '';
+
+	$.ajax({
+		url: "/museumTimeAjax",
+		data: {},
+		processData: false,
+		contentType: false,
+		type: 'GET',
+		success: function(json){
+			var oplist = json.opList;
+			for(var i=0;i<oplist.length;i++){
+				time +='<li>';
+				time +='<a href="javascript:void(0)" onclick="fncRloadEeEx(\''+(oplist[i].museumCd)+'\');" class="cate_wrap '+chgOrg(oplist[i].museumCd)+'">\r';
+				time +='<div class="bgclr_black" id="leftOrg'+(oplist[i].museumCd)+'">\r';
+				/* time +='<span class="ing">'+chgOrgTxt(oplist[i].museumCd)+'</span>'; */
+				if(oplist[i].watchExtimeMemo != ''){
+					time +='<span class="category">'+(oplist[i].museumNm);
+				}else{
+					time +='<span class="category">'+(oplist[i].museumNm);
+				}
+				if(oplist[i].watchExtimeMemo != ''){
+					time +='<span class="di-tablet-gt">&nbsp;'+fncChgTxt(oplist[i].watchExtimeMemo)+'</span>';
+				}
+				time +='</span>';
+				time +='</div>';
+				time +='</a>';
+				time +='</li>';
+			}
+			$('#museumTime').html($('#museumTime').html()+time);
+
+			/* $('.tab_cont .btn_cal').on('click', function (){
+				$(this).toggleClass('on');
+				$(this).next().toggle();
+			}); */
+			
+			
+			
+				$('#t_div_tab_m').show(); 
+			
+		}
+	});
+}
+function chgOrg(v){
+
+	switch (v) {
+	  case 'ORG01': v= 'bgclr_bon'; break;
+	  case 'ORG02': v= 'bgclr_bon'; break;
+	  case 'ORG03': v= 'bgclr_nam'; break;
+	  case 'ORG04': v= 'bgclr_nan'; break;
+	  case 'ORG05': v= 'bgclr_bon'; break;
+	  case 'ORG06': v= 'bgclr_bon'; break;
+	  case 'ORG07': v= 'bgclr_bon'; break;
+	  case 'ORG08': v= 'bgclr_buk'; break;
+	  case 'ORG09': v= 'bgclr_bon'; break;
+	  case 'ORG10': v= 'bgclr_back'; break;
+	  case 'ORG11': v= 'bgclr_cang'; break;
+	  case 'ORG12': v= 'bgclr_bung'; break;
+	  case 'ORG16': v= 'bgclr_atr'; break;
+	  default    : v='bgclr_bon';
+	}
+	return v;
+}
+
+function chgOrgTxt(v){
+
+	switch (v) {
+	  case 'ORG01': v= '본'; break;
+	  case 'ORG02': v= '본'; break;
+	  case 'ORG03': v= '남'; break;
+	  case 'ORG04': v= '난'; break;
+	  case 'ORG05': v= '본'; break;
+	  case 'ORG06': v= '본'; break;
+	  case 'ORG07': v= '본'; break;
+	  case 'ORG08': v= '북'; break;
+	  case 'ORG09': v= '본'; break;
+	  case 'ORG10': v= '백'; break;
+	  case 'ORG11': v= '창'; break;
+	  case 'ORG12': v= '벙'; break;
+	  case 'ORG16': v= '미'; break;
+	  default    : v='본';
+	}
+	return v;
+}
+function fncChgTxt(v){
+	if(v == '휴관일'){
+		v = '휴관일';
+	}
+	return v;
+}
+
+</script>
+
+
+
+
+
+
+
+
+<!-- left 메뉴 영역(S) -->
+<div class="l-nav">
+	<h1 class="sr-only">서울시립미술관 SEOUL MUSEUM OF ART</h1>
+	<!-- 모바일용(S) -->
+	<div class="l-nav-mobile is-expandable">
+		<div class="l-nav-mobile-header">
+			<div class="i-lockup i-lockup-black">
+				<a href="/kr/index">
+					<img src="/resources/assets/svg/o_typo_b.svg" alt="서울시립미술관 SEOUL MUSEUM OF ART" class="i-lockup-type"> 
+				</a>
+			</div>
+			<div class="i-lockup i-lockup-white">
+				<a href="/kr/index">
+					<img src="/resources/assets/svg/o_typo_w.svg" alt="서울시립미술관 SEOUL MUSEUM OF ART" class="i-lockup-type"> 
+				</a>
+			</div>
+			<a class="l-nav-mobile-menu l-block is-expandable-toggle" href="javascript:;"><span class="blind">메뉴</span></a>
+		</div>
+		<div class="l-nav-mobile-content l-block is-expandable-content" style="margin-bottom: 0;">
+			<div class="t-nav pure-g">
+				
+					<div class="pure-u-2-3 pure-u-md-1-2">
+				
+				
+				<ul class="primary">
+					<li class="has-submenu">
+						<a href="#">전시</a><!-- 전시 -->
+						<ul class="submenu">
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EX&whatChoice2=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=FROM_TODAY">현재전시</a></li>
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EX&whatChoice2=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=PLAN_DAY">예정전시</a></li>
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EX&whatChoice2=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=PAST_DAY">과거전시</a></li>
+						</ul>
+					</li>
+					<li class="has-submenu">
+						<a href="#">교육·이벤트</a><!-- 교육,이벤트 -->
+						<ul class="submenu">
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EC&whatChoice1=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY">모두</a></li>
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EC&whatChoice1=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY&targetList=EDT05">어린이</a></li>
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EC&whatChoice1=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY&targetList=EDT06">청소년</a></li>
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EC&whatChoice1=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY&targetList=EDT07">성인</a></li>
+						</ul>
+					</li>
+					<li class="has-submenu">
+						<a href="#">소장품과 미술연구</a><!-- 소장품과 미술연구 -->
+						<ul class="submenu">
+							<li><a href="/kr/knowledge_research/collection/landing">SeMA 소장품</a></li>
+							<li><a href="https://sema.seoul.go.kr/semaaa" target="_blank" title="새창 열림">미술아카이브</a></li>
+							<li><a href="http://semacoral.org/" target="_blank" title="새창 열림">모두의 연구실 '코랄'</a></li>
+							<li><a href="/kr/knowledge_research/book/list">SeMA 도서와 자료</a></li>
+							
+								
+							
+						</ul>
+					</li>
+					<li class="has-submenu">
+						<a href="#">서울미디어시티비엔날레</a><!-- 서울미디어시티비엔날레 -->
+						<ul class="submenu">
+							
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EB&whatChoice1=N&whatChoice2=N&whatChoice3=N&whatChoice5=N&whenType=ALL_DAY">모두</a></li>
+							
+								<li><a href="https://mediacityseoul.kr/ko/today" target="_blank" title="새창 열림">SMB 웹시스템</a></li>
+							
+							
+						</ul>
+					</li>
+					<li class="has-submenu">
+						<a href="#">서울사진축제</a><!-- 서울사진축제 -->
+						<ul class="submenu">
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EO&whatChoice1=N&whatChoice2=N&whatChoice3=N&whatChoice4=N&whatChoice5=Y&whenType=ALL_DAY">모두</a></li>
+						</ul>
+					</li>
+					<li class="has-submenu">
+						<a href="#">방문하기</a><!-- 방문하기 -->
+						<ul class="submenu">
+							<li><a href="/kr/visit/webaccess">접근성 안내</a></li>
+							<li><a href="/kr/visit/seosomun">서소문본관</a></li>
+							<li><a href="/kr/visit/bukseoul">북서울미술관</a></li>
+							<li><a href="/kr/visit/seoseoul">서서울미술관</a></li>
+							<li><a href="/kr/visit/art_archive">미술아카이브</a></li>
+							<li><a href="/kr/visit/photosema">사진미술관</a></li>
+							<li><a href="/kr/visit/namseoul">남서울미술관</a></li>
+							<li><a href="/kr/visit/nanji_residency">난지미술창작스튜디오</a></li>
+							<li><a href="/kr/visit/nam_june_paik_house">백남준을 기억하는 집</a></li>
+							
+								<li><a href="/kr/visit/excmmntry">전시해설</a></li>
+							
+						</ul>
+					</li>					
+				</ul>				
+				</div>
+				
+					<div class="pure-u-1-3 pure-u-md-1-2">
+				
+				
+					<ul class="primary color-grey">
+						
+						
+						
+							<li><a href="/kr/login/login" class="grey">로그인</a></li>
+						
+						
+						<li><a href="/kr/sema/search/list" class="grey">검색</a></li>
+						
+						<li><a href="#footer" class="grey">사이트맵</a>
+					
+						
+							<li><a href="/en/index">EN</a></li>
+						
+						
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 모바일용(E) -->
+	
+	<!-- PC용(S) -->
+	<div class="l-nav-symbol l-block">
+		<a href="/kr/index">
+			<div class="i-lockup i-lockup-black">
+				<!-- <img src="/resources/assets/svg/o_symbol_b.svg" alt="서울시립미술관 SEOUL MUSEUM OF ART" class="i-lockup-symbol"> -->
+				<img src="/resources/assets/svg/o_symbol_b_v.svg" alt="서울시립미술관 SEOUL MUSEUM OF ART" class="i-lockup-type">
+			</div>
+			<div class="i-lockup i-lockup-white">
+				<!-- <img src="/resources/assets/svg/o_symbol_w.svg" alt="서울시립미술관 SEOUL MUSEUM OF ART" class="i-lockup-symbol"> -->
+				<img src="/resources/assets/svg/o_symbol_w_v.svg" alt="서울시립미술관 SEOUL MUSEUM OF ART" class="i-lockup-symbol">
+			</div>
+		</a>
+	</div>
+	<div class="l-nav-sticky l-block" style="padding-bottom: 0.5rem;overflow-y:unset;">
+		<div>
+			<a href="/kr/index" class="o_bottom_logo">
+				<div class="i-lockup i-lockup-black">
+					<img src="/resources/assets/svg/o_type_b.svg" alt="서울시립미술관 SEOUL MUSEUM OF ART" class="i-lockup-type">
+				</div>
+				<div class="i-lockup i-lockup-white">
+					<img src="/resources/assets/svg/o_type_w.svg" alt="서울시립미술관 SEOUL MUSEUM OF ART" class="i-lockup-type">
+				</div>
+			</a>
+			<div class="t-nav" id="nav">
+				<ul class="primary">
+					<li class="has-submenu">
+						<a href="#">전시</a><!-- 전시 -->
+						<ul class="submenu">
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EX&whatChoice2=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=FROM_TODAY">현재전시</a></li>
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EX&whatChoice2=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=PLAN_DAY">예정전시</a></li>							
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EX&whatChoice2=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=PAST_DAY">과거전시</a></li>
+						</ul>
+					</li>
+					<li class="has-submenu">
+						<a href="#">교육·이벤트</a><!-- 교육,이벤트 -->
+						<ul class="submenu">
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EC&whatChoice1=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY">모두</a></li>
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EC&whatChoice1=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY&targetList=EDT05">어린이</a></li>
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EC&whatChoice1=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY&targetList=EDT06">청소년</a></li>
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EC&whatChoice1=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY&targetList=EDT07">성인</a></li>
+						</ul>
+					</li>
+					<li class="has-submenu">
+						<a href="#">소장품과 미술연구</a><!-- 소장품과 미술연구 -->
+						<ul class="submenu">
+							<li><a href="/kr/knowledge_research/collection/landing">SeMA 소장품</a></li>
+							<li><a href="https://sema.seoul.go.kr/semaaa" target="_blank" title="새창 열림">미술아카이브</a></li>
+							<li><a href="http://semacoral.org/" target="_blank" title="새창 열림">모두의 연구실 '코랄'</a></li>
+							<li><a href="/kr/knowledge_research/book/list">SeMA 도서와 자료</a></li>
+							
+								
+														
+						</ul>
+					</li>
+					<li class="has-submenu">
+						<a href="#">서울미디어시티비엔날레</a><!-- 서울미디어시티비엔날레 -->
+						<ul class="submenu">
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EB&whatChoice1=N&whatChoice2=N&whatChoice3=N&whatChoice4=Y&whatChoice5=N&whenType=ALL_DAY">모두</a></li>
+							
+								<li><a href="https://mediacityseoul.kr/ko/today" target="_blank" title="새창 열림">SMB 웹시스템</a></li>
+							
+							
+						</ul>
+					</li>
+					<li class="has-submenu">
+						<a href="#">서울사진축제</a><!-- 서울사진축제 -->
+						<ul class="submenu">
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EO&whatChoice1=N&whatChoice2=N&whatChoice3=N&whatChoice4=N&whatChoice5=Y&whenType=ALL_DAY">모두</a></li>
+						</ul>
+					</li>					
+					<li class="has-submenu">
+						<a href="#">방문하기</a><!-- 방문하기 -->
+						<ul class="submenu">
+							<li><a href="/kr/visit/webaccess">접근성 안내</a></li>
+							<li><a href="/kr/visit/seosomun">서소문본관</a></li>
+							<li><a href="/kr/visit/bukseoul">북서울미술관</a></li>
+							<li><a href="/kr/visit/seoseoul">서서울미술관</a></li>
+							<li><a href="/kr/visit/art_archive">미술아카이브</a></li>
+							<li><a href="/kr/visit/photosema">사진미술관</a></li>
+							<li><a href="/kr/visit/namseoul">남서울미술관</a></li>
+							<li><a href="/kr/visit/nanji_residency">난지미술창작스튜디오</a></li>
+							<li><a href="/kr/visit/nam_june_paik_house">백남준을 기억하는 집</a></li>
+							
+								<li><a href="/kr/visit/excmmntry">전시해설</a></li>
+							
+						</ul>
+					</li>					
+				</ul>
+
+				
+
+				<ul class="primary color-grey">
+					
+					
+					
+						<li><a href="/kr/login/login" class="grey">로그인</a></li>
+					
+					
+					<li><a href="/kr/sema/search/list" class="grey">검색</a>
+					
+					<li><a href="#footer" class="grey">사이트맵</a>
+				
+					
+						<li><a href="/en/index">EN</a></li>
+					
+					
+				</ul>
+
+			</div>
+		</div>
+	</div>
+	<!-- PC용(E) -->
+	
+	<!-- 도슨팅 앱용(S) -->
+	<div class="l-nav-app has-back"><!-- 뒤로가기 버튼 있을 때 has-back 사용 없을때 삭제 -->
+		<div class="l-nav-tit" id="appTitle"></div>
+		<a class="l-nav-back l-block"  href="javascript:history.back();" role="button"><span class="blind">뒤로가기</span></a>
+		<a class="l-nav-mobile-menu l-block" href="/kr/app_main" role="button"><span class="blind">메뉴</span></a>
+	</div>
+	<!-- 도슨팅 앱용(E) -->
+</div>
+<!-- left 메뉴 영역(E) -->
+
+			
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function () {
+    // 라디오 버튼 상태에 따라 체크박스 표시/숨김 처리
+    function toggleVisibility() {
+        if ($('input[name="whenType"]:checked').val() === "PAST_DAY" || $('input[name="whenType"]:checked').val() === "DIRECT_DAY") {
+            $('input[value="ORG11"], input[value="ORG12"]').closest('li').show();
+        } else {
+            $('input[value="ORG11"], input[value="ORG12"]').closest('li').hide();
+        }
+    }
+
+    // 초기 설정
+    toggleVisibility();
+
+    // 라디오 버튼 클릭 시 toggleVisibility 호출
+    $('input[name="whenType"]').on('change', toggleVisibility);
+});
+
+$(function () {
+	// 어디서 > 모든분관 > 초기 자세한 필터 선택시
+    if($('#whereChoice1').is(':checked')){
+    	$('.wtPlaceList').prop('checked',true);
+	}
+	
+	// 상세보기
+	$(document).on('click','.viewLink', function(){
+		
+		var vlu = $(this).data('idx');
+
+		// 전시,문화,교육 구분
+		var watsonMenuDiv = $(this).data('whatsonMenuDiv');
+		
+		// 전시관리,서울사진축제 ,디진털미디어 시티 비엔날레, 야외조각 구분
+		var exMenuDiv = $(this).data('exMenuDiv');
+		var url = '';
+		
+		if(watsonMenuDiv == 'EX'){
+			
+			$('#scFrm').find('#exNo').val(vlu);
+			// 전시
+			if(exMenuDiv == 'EXM01'){
+				url = '/'+$('#langStype').val()+'/whatson/exhibition/detail';
+			// 미디어시티 비엔날레	
+			}else if(exMenuDiv == 'EBM01'){
+				url = '/'+$('#langStype').val()+'/whatson/series/detail';
+				// 시리즈에 대하여 구분
+				$('#scFrm').find('[name=clftCd]').val("E1");
+				
+			// 서울사진축제	
+			}else if(exMenuDiv == 'EPF01'){
+				url = '/'+$('#langStype').val()+'/whatson/series/detail';
+				// 시리즈에 대하여 구분
+				$('#scFrm').find('[name=clftCd]').val("E2");
+				
+			// 야외조각전시
+			}else if(exMenuDiv == 'EOM01'){
+				url = '/'+$('#langStype').val()+'/whatson/outdoor/detail';	
+				
+			}else{
+				return false;
+			}
+		
+		}else if(watsonMenuDiv == 'EP'){
+			$('#scFrm').find('#acadmyEeNo').val(vlu);
+			url = '/'+$('#langStype').val()+'/whatson/education/detail';
+		}else if(watsonMenuDiv == 'CE'){
+			$('#scFrm').find('#evtNo').val(vlu);
+			url = '/'+$('#langStype').val()+'/whatson/event/detail';
+		}else{
+			return false;
+		}
+		
+		$('#scFrm').attr('method', 'post');
+		$('#scFrm').attr('action', url);
+		$('#scFrm').submit();
+	});
+
+	// 간단한 필터-자세한 필터 ----------------------------------------------------------
+	if($('.o_filter01').length){
+		
+	    $('.o_filter01 > a').on("click",function(){
+	    	$(this).addClass('o_btn_none');
+	    	$(this).siblings().removeClass('o_btn_none');
+	    	$('.o_moreSearch').hide();	//더 보기 버튼 숨기기
+	    	var filterCheck01 = $(this).closest('.bg-grey-30');
+            var text = $(this).text();
+            if (!(filterCheck01.hasClass('o_open_detail'))) {
+                filterCheck01.addClass('o_open_detail');
+                
+ 				$('#filterFlag').val("detail");
+                
+                // 무엇을 > 전시 > 초기 자세한 필터 선택시
+                if($('#whatChoice1').is(':checked')){
+        			$('[name=exMenuDiv]').prop('checked',true);
+        		}else{
+        			$('[name=exMenuDiv]').prop('checked',false);
+        		}
+                
+                // 무엇을 > 교육 > 초기 자세한 필터 선택시
+                if($('#whatChoice2').is(':checked')){
+        			$('[name=epMenuDiv]').prop('checked',true);
+        		}else{
+        			$('[name=epMenuDiv]').prop('checked',false);
+        		}
+                
+                // 무엇을 > 문화행사 > 초기 자세한 필터 선택시
+                if($('#whatChoice3').is(':checked')){
+        			$('[name=ceMenuDiv]').prop('checked',true);
+        		}else{
+        			$('[name=ceMenuDiv]').prop('checked',false);
+        		}
+                
+                // 대상
+                if('false' == 'true' || $(":input:checkbox[name='targetList']:checked").length ==0 ){
+                	$('[name="targetList"]').prop('checked',true);
+                }
+                
+            } else {
+                filterCheck01.removeClass('o_open_detail');
+                $('.whereChoiceArea').removeClass('o_open_detail');
+                $('.o_moreSearch').show();	//더 보기 버튼 표시
+                
+                $('#filterFlag').val("simple");
+            }
+			$(this).siblings().focus(); //접근성
+	    });
+    };
+    
+	// 더 보기 버튼 ----------------------------------------------------------
+	$('.o_moreSearch').on("click",function(){
+    	$(this).hide();	//더 보기 버튼 숨기기
+    	$('.whereChoiceArea').addClass('o_open_detail');
+		$(this).siblings().focus(); //접근성
+    });
+	
+  	// 자세한필터 조회시 구분
+	if('' === 'simple'){
+		$('.o_filter_box ').removeClass('o_open_detail');
+		$('.o_addfilter').removeClass('o_btn_none');
+		$('.o_simplefilter ').addClass('o_btn_none');
+	}else if('' === 'detail'){
+		$('.o_filter_box ').addClass('o_open_detail');
+		$('.o_addfilter').addClass('o_btn_none');
+		$('.o_simplefilter ').removeClass('o_btn_none');
+		$('.o_moreSearch').hide();	//더 보기 버튼 숨기기
+	}
+	
+	// 모든분관 클릭
+	$(document).on('click','#whereChoice1',function(){
+	    if($('#whereChoice1').is(':checked')){
+	       	$('.wtPlaceList').prop('checked',true);
+	       	$('[name='+$(this).attr('id')+']').val("Y");
+	    }else{
+	    	$('.wtPlaceList').prop('checked',false);
+	    	$('[name='+$(this).attr('id')+']').val("N");
+	    }
+	});
+	
+	
+	// 대상 > 모두 클릭  whereChoice1
+	$(document).on('click','#audienceChoice1',function(){
+		if($('#audienceChoice1').is(':checked')){
+			$('[name=targetList]').prop('checked',true);
+	       
+	    }else{
+	    	$('[name=targetList]').prop('checked',false);
+	    }
+	});
+	
+	// 모든분관외 클릭
+	$(document).on('click','.wtPlaceList',function(){
+		$('#whereChoice1').prop('checked',false);
+		$('[name=whereChoice1]').val('N');
+	});
+	
+	
+	// 누가 > 모두외 클릭시
+	$(document).on('click','[name=targetList]',function(){
+		
+		if($(this).attr('id') != 'audienceChoice1'){
+			
+			$('[name=targetList]').each(function (index, item) {
+				
+				if($(this).attr('id') != 'audienceChoice1'){
+					
+				    if($(this).prop("checked") === false){
+				    	$('#audienceChoice1').prop('checked',false);
+				    }
+				    
+				    if(Number($('[name=targetList]:checked').length) === Number($('[name=targetList]').length) - 1){
+						$('#audienceChoice1').prop('checked',true);
+					}
+				}
+			});
+		}
+	});
+	
+	
+	// 그외모두 클릭시 야외조각전시 추가
+	$(document).on('click','#whatChoice1-3',function(){
+		
+	    if($('#whatChoice1-3').is(':checked')){
+	    	$('#whatChoice1-4').prop("checked",true);
+	    	$('#whatChoice1-2').prop("checked",true);
+	    	
+	    }else{
+	    	$('#whatChoice1-4').prop("checked",false);
+	    	$('#whatChoice1-2').prop("checked",false);
+	    }
+	    
+	});
+	
+	// 무엇을(전시,교육,문화행사)선택여부
+	$(document).on('click','[name=whatsonMenuDivList]',function(e){
+		//전시
+		if(this.id == "whatChoice1"){
+			if($('#whatChoice1').is(':checked')){
+				$('[name=exMenuDiv]').prop('checked',true);
+				$('[name=whatChoice1]').val("");
+			}else{
+				$('[name=exMenuDiv]').prop('checked',false);
+				$('[name=whatChoice1]').val("N");
+			}
+		}
+		
+		//교육
+		if(this.id == "whatChoice2"){
+			if($('#whatChoice2').is(':checked')){
+				$('[name=epMenuDiv]').prop('checked',true);
+				$('[name=whatChoice2]').val("");
+			}else{
+				$('[name=epMenuDiv]').prop('checked',false);
+				$('[name=whatChoice2]').val("N");
+			}
+		}
+		
+		//문화행사
+		if(this.id == "whatChoice3"){
+			if($('#whatChoice3').is(':checked')){
+				$('[name=whatChoice3]').val("");
+			}else{
+				$('[name=whatChoice3]').val("N");
+			}
+		}
+	});
+	
+	// 미디어시티 비엔날레  > 리스트
+	$(document).on('click','#midCityBeinList',function(e){
+		
+		$('#scFrm').attr('action', '/'+$('#langStype').val()+'/whatson/series/list');
+		$('#scFrm').attr('method', 'post');
+		$('#scFrm').submit();
+	});
+	
+	// 서울사진축제  > 리스트
+	$(document).on('click','#seoulPictureList',function(e){
+		
+		$('#scFrm').attr('action', '/'+$('#langStype').val()+'/whatson/seoulpicture/list');
+		$('#scFrm').attr('method', 'post');
+		$('#scFrm').submit();
+	});
+	
+	// 사진아카데미  > 리스트
+	$(document).on('click','#picacaList',function(e){
+		
+		$('#eduFrm').attr('action', '/'+$('#langStype').val()+'/whatson/education/picaca_list');
+		$('#eduFrm').attr('method', 'post');
+		$('#eduFrm').submit();
+	});
+	
+	// 예술가의런치박스  > 리스트
+	$(document).on('click','#artlbxList',function(e){
+		
+		$('#eduFrm').attr('action', '/'+$('#langStype').val()+'/whatson/education/artlbx_list');
+		$('#eduFrm').attr('method', 'post');
+		$('#eduFrm').submit();
+	});
+	
+	// 조회하기
+	$(document).on('click','#schSubmit',function(e){
+		if($('input:radio[name=whenType]:checked').val() == 'DIRECT_DAY'){
+			if($('[name=startDate]').val() == '' || $('[name=startDate]').val() == null){
+				alert("조회할 날짜를 입력해주세요.");
+				$('[name=startDate]').focus();
+				return false;
+			}else if($('[name=endDate]').val() == '' || $('[name=endDate]').val() == null){
+				alert("조회할 날짜를 입력해주세요.");
+				$('[name=endDate]').focus();
+				return false;
+			}
+		}
+		$('#scFrm').find('[name=currentPage]').val(1);
+		$('#scFrm').attr('action', '/'+$('#langStype').val()+'/whatson/landing');
+		$('#scFrm').attr('method', 'post');
+		$('#scFrm').submit();
+	});
+	
+	//도슨팅앱에서 에드워드 호퍼 숨기기 
+	if(currentOS == 'android' && currentOS == 'ios'){
+		$('#dv_1152751').hide();
+	}
+	
+	// 모바일 일때 교육 hide
+	if(currentOS !== 'nomobile' && currentOS !== 'else'){
+		console.log("dd");
+		$('#whatChoice2').val('');
+	}
+
+	//교육프로그램(세부) 선택시 교욕 checked 세팅 
+	$(document).on('click','[name=epMenuDiv]',function(e){
+		if($(this).prop('checked') && !$('#whatChoice2').prop('checked'))  $('#whatChoice2').prop('checked', true);
+		var epMenuDivCheckCnt = $('input:checkbox[name=epMenuDiv]:checked').length;
+		if(epMenuDivCheckCnt == 0){
+			$('#whatChoice2').prop('checked',false);
+		}
+	});
+	
+	//전시(세부) 선택시 전시 checked 세팅 
+	$(document).on('click','[name=exMenuDiv]',function(e){
+		if($(this).prop('checked') && !$('#whatChoice1').prop('checked'))  $('#whatChoice1').prop('checked', true);
+		var exMenuDivCheckCnt = $('input:checkbox[name=exMenuDiv]:checked').length;
+		if(exMenuDivCheckCnt == 0){
+			$('#whatChoice1').prop('checked',false);
+		}
+	});
+
+
+	$(".epEcPlaceNm").each(function(idx, item){
+	    $(item).text($(item).text().replace(/,\s*$/,''));
+	})
+	
+	$("[name='epCeEnddtVal']").each(function(idx, item){
+		var now = new Date();
+		var nYear = now.getFullYear();
+		var nMon = now.getMonth();
+		var nDate = now.getDate();
+		
+		var today  = new Date(nYear, nMon, nDate) ;
+		
+		// 신청기간 끝 날짜
+		var epCeRecruitEnddt = $(this).val();
+		var year = epCeRecruitEnddt.substr(0,4);
+		var mon = epCeRecruitEnddt.substr(4,2)-1;
+		var date = epCeRecruitEnddt.substr(6,2);
+	    var recruitEnddt = new Date(year, mon, date) ;
+	    
+	    var btMs =  today.getTime() - recruitEnddt.getTime();
+	    
+	    // 전시기간 끝 날짜
+	    var epCeEnddt = ''+$(this).data('exEnddt');
+		var year2 = epCeEnddt.substr(0,4);
+		var mon2 = epCeEnddt.substr(4,2)-1;
+		var date2 = epCeEnddt.substr(6,2);
+	    var enddt = new Date(year2, mon2, date2);
+	    
+	    var btMs2 =  today.getTime() - enddt.getTime();
+	    
+	 	// 신청기간 시작 날짜
+	    var epCeRecruitFromdt = ''+$(this).data('recruitFromdt');
+		var year3 = epCeRecruitFromdt.substr(0,4);
+		var mon3 = epCeRecruitFromdt.substr(4,2)-1;
+		var date3 = epCeRecruitFromdt.substr(6,2);
+	    var recruitFromdt = new Date(year3, mon3, date3) ;
+	    
+	    var btMs3 =  today.getTime() - recruitFromdt.getTime();
+	    
+    	if(btMs3 < 0){
+    		if($('#langStype').val() == 'en'){
+				$(this).parent().text("부터 모집 예정 "+year3+"/"+epCeRecruitFromdt.substr(4,2)+"/"+date3); /*--부터 모집 예정--*/
+			}else{
+				$(this).parent().text(year3+"/"+epCeRecruitFromdt.substr(4,2)+"/"+date3+"부터 모집 예정");
+			}
+    	}else if(btMs > 0 && btMs2 < 0){
+	    	$(this).parent().text("모집완료"); /*--모집완료--*/
+	    }else if(btMs2 > 0){
+	    	$(this).parent().text("종료"); /*--종료--*/
+	    }
+	});
+		
+    // 엔터키 검색
+    $('#scFrm').find('#audience').on('keypress', function(event){
+    	
+        var keycode = (event.keyCode ? event.keyCode : event.which);
+        if(keycode == 13){ 
+            event.preventDefault(); 
+            event.stopPropagation(); 
+            $('#scFrm').find('#schSubmit').trigger('click');
+        }
+    });
+	
+	/* 
+	//한줄소개 국문
+	if($('#langStype').val() == 'kr'){
+		var introText = ""
+		//언제
+		var whenVal = $(":input:radio[name='whenType']:checked").parent().find(".o_inputdesc").text(); 
+		if($(":input:radio[name='whenType']:checked").val() == 'DIRECT_DAY') whenVal = '지정된 날짜에 '
+		else if($(":input:radio[name='whenType']:checked").val() == 'FROM_TODAY') whenVal += ' ' ;
+		else whenVal += '에 ';
+
+		//어디서
+		var whereVal = "";
+		var checkedItems = $(':input:checkbox[name="exAllList"]:checked, :input:checkbox[name="exPlace"]:checked');
+		if(checkedItems.length == 0){
+			whereVal = "모든 분관"
+		}else if(checkedItems.length == 1){
+			whereVal = checkedItems.parent().find(".o_inputdesc").text();
+		}else {
+			checkedItems.each(function(idx, item){
+				if(idx < 2) whereVal += $(this).parent().find(".o_inputdesc").text()+', ';
+			});
+			whereVal = whereVal.replace(/,\s*$/,'');
+			if(checkedItems.length > 2) whereVal += " 등 ";
+		}
+		whereVal +="에서 ";
+		
+		//대상
+		var targetVal = "";
+		if($(":input:checkbox[name='targetList']:checked").length!=0){
+			$(":input:checkbox[name='targetList']:checked").each(function(idx, item){
+				targetVal += $(this).parent().find(".o_inputdesc").text()+", ";
+			});
+		}else{
+			$(":input:checkbox[name='targetList']").each(function(idx, item){
+				targetVal += $(this).parent().find(".o_inputdesc").text()+", ";
+			});
+			
+		}
+		targetVal = targetVal.replace(/,\s*$/,'');
+		targetVal += "을(를) 대상으로  ";
+		targetVal += $(":input:radio[name='whenType']:checked").val() == 'PAST_DAY' ? "했던 ": "하는 ";
+ 
+		//무엇을
+		var menuDivVal = ""; 
+		if ($(":input:checkbox[name='whatsonMenuDivList']:checked").length < 3){
+			$(":input:checkbox[name='whatsonMenuDivList']:checked").each(function(idx, item){
+				menuDivVal += $(this).parent().find(".o_inputdesc").text()+", ";
+			});
+			menuDivVal = menuDivVal.replace(/,\s*$/,'');
+			menuDivVal += "의 "
+		}else{
+			menuDivVal = '전시와 프로그램의 ';
+		}
+		
+		introText = whenVal+whereVal+targetVal+menuDivVal+'목록';
+		$('#oneLineIntro').text(introText); 
+	}else{
+		//한줄소개 영문
+	} */
+});
+
+function goPage(pageIndex){
+	
+	$('[name=currentPage]').val(pageIndex);
+	
+	$('#scFrm').attr('action', '/'+$('#langStype').val()+'/whatson/landing');
+	$('#scFrm').attr('method', 'post');
+	$('#scFrm').submit();
+}
+
+function onlyOne(checkbox) {
+    const checkboxes = document.getElementsByName('appEx');
+    checkboxes.forEach((item) => {
+      if (item !== checkbox) {
+    	  item.checked = false;
+      }
+      else {
+    	  //alert("");
+    	  var sgnYn = "";
+    	  if(sgnYn == "Y")
+			location.href = "/kr/whatson/landing?appYn=Y&appEx="+item.value+"&sgnYn=Y&exPlace=&whereChoice1=N&whatChoice2=N&whatsonMenuDivList=EX&whatsonMenuDivList=CE&whatsonMenuDivList=EB";  
+    	  else
+			location.href = "/kr/whatson/landing?appYn=Y&appEx="+item.value+"&exPlace=ORG51&whereChoice1=N&whatChoice2=N&whatsonMenuDivList=EX&whatsonMenuDivList=CE&whatsonMenuDivList=EB";
+    	  		
+      }
+    });
+}
+</script>
+
+
+
+	
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+	
+	
+
+<input type="hidden" id="appTitleNm" value="서울시립 사진미술관"/>
+
+<div class="l-block" id="contents">
+	<h2 class="sr-only">전시와 프로그램</h2>
+	<div class="c-section c-section-norule app-none">
+		<div class="c-header t-header pure-g l-header-whitespace">
+			
+			
+			<div class="pure-u-1 pure-u-md-1-2 l-md-gutter-right o_h1">전시와 프로그램 </div>
+				<div id="oneLineIntro" class="pure-u-1 pure-u-md-1-2 l-md-gutter-right o_h2">원하는 조건의 전시와 프로그램을 검색하실 수 있습니다.</div>
+			
+			
+		</div>
+	</div>
+	<div class="c-section c-section-norule app-none">
+		<div class="l-block bg-grey-30 is-expandable o_filter_box">
+			<div class="t-body is-expandable-toggle is-expandable-toggle-hide">
+				<button type="button" class="is-expandable-caret">필터 보기<!--필터 보기--></button>
+			</div>
+			<form name="scFrm" id="scFrm" onsubmit="return" class="c-form t-meta pure-form pure-form-stacked is-expandable-content">
+				<input type="hidden" name="exNo" id="exNo" value="0"/>
+				<input type="hidden" name="acadmyEeNo" id="acadmyEeNo" value="0"/>
+				<input type="hidden" name="evtNo" id="evtNo" value="0"/>
+				<input type="hidden" name="filterFlag" id="filterFlag" value=""/>
+				<input type="hidden" name="currentPage" id="currentPage" value="1"/>
+				<input type="hidden" name="glolangType" value="KOR"/>
+				<input type="hidden" name="targetDate" value="20260528"/>
+				<input type="hidden" name="exSearchPlace" value=""/>
+				<input type="hidden" name="whatChoice1" value=""/>
+				<input type="hidden" name="whatChoice2" value="N"/>
+				<input type="hidden" name="whatChoice3" value="N"/>
+				<input type="hidden" name="whatChoice4" value="N"/>
+				<input type="hidden" name="whatChoice5" value="N"/>
+				<input type="hidden" name="whereChoice1" value=""/>
+				<input type="hidden" name="clftCd"/>
+				<input type="hidden" name="appYn" value=""/>
+				
+				<fieldset>
+					<div class="pure-g">
+						<div class="c-form-row pure-u-1 pure-u-md-1-3 app-none whereChoiceArea" style="margin-bottom:0.5em;">
+							<div class="o_h1">어디서<!-- 어디서 --></div>
+							<!-- 1dep -->
+							<ul class="o_firdep" style="margin-bottom:0.5em;">
+								<li>
+									<label class="o_inputwrap" for="whereChoice1"> 
+										<input type="checkbox" name="exAllList" id="whereChoice1" value="ALL" checked> 
+										<span class="o_inputdesc">모든 분관<!-- 모든 분관 --></span>
+									</label>
+								</li>
+								
+									<li>
+										<label class="o_inputwrap" for="whereChoice2"> 
+											<input type="checkbox" name="exPlace" id="whereChoice2" class="wtPlaceList" value="ORG60"
+												 
+													
+												> 
+											<span class="o_inputdesc">온라인</span>
+										</label>
+									</li>
+								
+									<li>
+										<label class="o_inputwrap" for="whereChoice3"> 
+											<input type="checkbox" name="exPlace" id="whereChoice3" class="wtPlaceList" value="ORG01"
+												 
+													
+												> 
+											<span class="o_inputdesc">서울시립미술관 서소문본관</span>
+										</label>
+									</li>
+								
+									<li>
+										<label class="o_inputwrap" for="whereChoice4"> 
+											<input type="checkbox" name="exPlace" id="whereChoice4" class="wtPlaceList" value="ORG08"
+												 
+													
+												> 
+											<span class="o_inputdesc">서울시립 북서울미술관</span>
+										</label>
+									</li>
+								
+									<li>
+										<label class="o_inputwrap" for="whereChoice5"> 
+											<input type="checkbox" name="exPlace" id="whereChoice5" class="wtPlaceList" value="ORG50"
+												 
+													
+												> 
+											<span class="o_inputdesc">서울시립 서서울미술관</span>
+										</label>
+									</li>
+								
+									<li>
+										<label class="o_inputwrap" for="whereChoice6"> 
+											<input type="checkbox" name="exPlace" id="whereChoice6" class="wtPlaceList" value="ORG03"
+												 
+													
+												> 
+											<span class="o_inputdesc">서울시립 남서울미술관</span>
+										</label>
+									</li>
+								
+									<li>
+										<label class="o_inputwrap" for="whereChoice7"> 
+											<input type="checkbox" name="exPlace" id="whereChoice7" class="wtPlaceList" value="ORG51"
+												 
+													checked
+												> 
+											<span class="o_inputdesc">서울시립 사진미술관</span>
+										</label>
+									</li>
+								
+									<li>
+										<label class="o_inputwrap" for="whereChoice8"> 
+											<input type="checkbox" name="exPlace" id="whereChoice8" class="wtPlaceList" value="ORG52"
+												 
+													
+												> 
+											<span class="o_inputdesc">서울시립 미술아카이브</span>
+										</label>
+									</li>
+								
+									<li>
+										<label class="o_inputwrap" for="whereChoice9"> 
+											<input type="checkbox" name="exPlace" id="whereChoice9" class="wtPlaceList" value="ORG04"
+												 
+													
+												> 
+											<span class="o_inputdesc">서울시립 난지미술창작스튜디오</span>
+										</label>
+									</li>
+								
+									<li>
+										<label class="o_inputwrap" for="whereChoice10"> 
+											<input type="checkbox" name="exPlace" id="whereChoice10" class="wtPlaceList" value="ORG12"
+												 
+													
+												> 
+											<span class="o_inputdesc">SeMA 벙커</span>
+										</label>
+									</li>
+								
+									<li>
+										<label class="o_inputwrap" for="whereChoice11"> 
+											<input type="checkbox" name="exPlace" id="whereChoice11" class="wtPlaceList" value="ORG11"
+												 
+													
+												> 
+											<span class="o_inputdesc">SeMA 창고</span>
+										</label>
+									</li>
+								
+									<li>
+										<label class="o_inputwrap" for="whereChoice12"> 
+											<input type="checkbox" name="exPlace" id="whereChoice12" class="wtPlaceList" value="ORG10"
+												 
+													
+												> 
+											<span class="o_inputdesc">서울시립 백남준을 기억하는 집</span>
+										</label>
+									</li>
+								
+									<li>
+										<label class="o_inputwrap" for="whereChoice13"> 
+											<input type="checkbox" name="exPlace" id="whereChoice13" class="wtPlaceList" value="ORG61"
+												 
+													
+												> 
+											<span class="o_inputdesc">기타</span>
+										</label>
+									</li>
+								
+							</ul>
+						</div>
+						<div class="c-form-row pure-u-1 pure-u-md-1-3">
+							<div class="o_h1">무엇을<!-- 무엇을 --></div>
+							<!-- 1dep -->
+							<ul class="o_firdep">
+								<li>
+									<label class="o_inputwrap" for="whatChoice1"> 
+										
+										
+											
+												
+											
+										
+										<input type="checkbox" name="whatsonMenuDivList" value="EX" id="whatChoice1" checked>
+										
+										<span class="o_inputdesc">전시<!-- 전시 --></span>
+									</label>
+								</li>
+								<li class="app-none">
+									<label class="o_inputwrap" for="whatChoice2"> 
+										
+										
+											
+										
+										<input type="checkbox" name="whatsonMenuDivList" value="EP" id="whatChoice2" >
+										
+										<span class="o_inputdesc">교육프로그램<!-- 교육프로그램 --></span>
+									</label> 
+									<!-- 2dep -->
+									<ul class="o_secdep o_disabled">
+										 
+											<li>
+												<label class="indent o_inputwrap" for="whatChoice2-0"> 
+													<input type="checkbox" name="epMenuDiv" id="whatChoice2-0" value="EPG01" >
+													<span class="o_inputdesc">
+														미술아카데미
+														
+														<a class="i-button i-button-icon i-button-info i-button-no-border i-button-no-hover modal-open" href="javascript:;" data-modal="#modalInfoEPG01">
+															<span class="blind">상세정보<!--상세정보--></span>
+														</a> 
+													</span>
+												</label>
+											</li>
+										 
+											<li>
+												<label class="indent o_inputwrap" for="whatChoice2-1"> 
+													<input type="checkbox" name="epMenuDiv" id="whatChoice2-1" value="EPG02" >
+													<span class="o_inputdesc">
+														찾아오는 퍼블릭 프로그램
+														
+														<a class="i-button i-button-icon i-button-info i-button-no-border i-button-no-hover modal-open" href="javascript:;" data-modal="#modalInfoEPG02">
+															<span class="blind">상세정보<!--상세정보--></span>
+														</a> 
+													</span>
+												</label>
+											</li>
+										 
+											<li>
+												<label class="indent o_inputwrap" for="whatChoice2-2"> 
+													<input type="checkbox" name="epMenuDiv" id="whatChoice2-2" value="EPG03" >
+													<span class="o_inputdesc">
+														시민큐레이터 양성교육
+														
+														<a class="i-button i-button-icon i-button-info i-button-no-border i-button-no-hover modal-open" href="javascript:;" data-modal="#modalInfoEPG03">
+															<span class="blind">상세정보<!--상세정보--></span>
+														</a> 
+													</span>
+												</label>
+											</li>
+										 
+											<li>
+												<label class="indent o_inputwrap" for="whatChoice2-3"> 
+													<input type="checkbox" name="epMenuDiv" id="whatChoice2-3" value="EPG04" >
+													<span class="o_inputdesc">
+														사진아카데미
+														
+														<a class="i-button i-button-icon i-button-info i-button-no-border i-button-no-hover modal-open" href="javascript:;" data-modal="#modalInfoEPG04">
+															<span class="blind">상세정보<!--상세정보--></span>
+														</a> 
+													</span>
+												</label>
+											</li>
+										 
+											<li>
+												<label class="indent o_inputwrap" for="whatChoice2-4"> 
+													<input type="checkbox" name="epMenuDiv" id="whatChoice2-4" value="EPG05" >
+													<span class="o_inputdesc">
+														도슨트양성교육
+														
+														<a class="i-button i-button-icon i-button-info i-button-no-border i-button-no-hover modal-open" href="javascript:;" data-modal="#modalInfoEPG05">
+															<span class="blind">상세정보<!--상세정보--></span>
+														</a> 
+													</span>
+												</label>
+											</li>
+										 
+											<li>
+												<label class="indent o_inputwrap" for="whatChoice2-5"> 
+													<input type="checkbox" name="epMenuDiv" id="whatChoice2-5" value="EPG06" >
+													<span class="o_inputdesc">
+														예술가의 런치박스
+														
+														<a class="i-button i-button-icon i-button-info i-button-no-border i-button-no-hover modal-open" href="javascript:;" data-modal="#modalInfoEPG06">
+															<span class="blind">상세정보<!--상세정보--></span>
+														</a> 
+													</span>
+												</label>
+											</li>
+										
+									</ul>
+								</li>
+								<li>
+									<label class="o_inputwrap" for="whatChoice3"> 
+										
+										
+											
+										
+										<input type="checkbox" name="whatsonMenuDivList" value="CE" id="whatChoice3" >
+										
+										<span class="o_inputdesc">문화행사<!-- 문화행사 --></span>
+									</label>
+								</li>
+								<li>
+									<label class="o_inputwrap" for="whatChoice4"> 
+										
+										
+											
+										
+										<input type="checkbox" name="whatsonMenuDivList" value="EB" id="whatChoice4" >
+										<span class="o_inputdesc">서울미디어시티비엔날레<!-- 서울미디어시티비엔날레 --></span>
+									</label>
+								</li>
+								<li>
+									<label class="o_inputwrap" for="whatChoice5"> 
+										
+										
+											
+										
+										<input type="checkbox" name="whatsonMenuDivList" value="EO" id="whatChoice5" >
+										<span class="o_inputdesc">서울사진축제<!-- 서울사진축제 --></span>
+									</label>
+								</li>
+							</ul>
+						</div>
+						<div class="c-form-row pure-u-1 pure-u-md-1-3">
+							<div class="o_h1">언제<!-- 언제 --></div>
+							<!-- 1dep -->
+							<ul class="o_firdep">
+								<li>
+									<label class="o_inputwrap" for="whenChoice7"> 
+										<input type="radio" id="whenChoice7" name="whenType" value="ALL_DAY" > 
+										<span class="o_inputdesc">모두<!-- 모두 --></span>
+									</label>
+								</li>
+								<li>
+									<label class="o_inputwrap" for="whenChoice1"> 
+										<input type="radio" id="whenChoice1" name="whenType" value="FROM_TODAY" checked> 
+										<span class="o_inputdesc">현재<!-- 현재 --></span>
+									</label>
+								</li>
+								<li>
+									<label class="o_inputwrap" for="whenChoice6"> 
+										<input type="radio" id="whenChoice6" name="whenType" value="PLAN_DAY" > 
+										<span class="o_inputdesc">예정<!-- 예정 --></span>
+									</label>
+								</li>
+								<li>
+									<label class="o_inputwrap" for="whenChoice4"> 
+										<input type="radio" id="whenChoice4" name="whenType" value="PAST_DAY" > 
+										<span class="o_inputdesc">과거<!-- 과거 --></span>
+									</label>
+								</li>
+								<li class="o_disabled">
+									<label class="o_inputwrap" for="whenChoice5">
+										<input type="radio" id="whenChoice5" name="whenType" value="DIRECT_DAY"  > 
+										<span class="o_inputdesc">직접입력<!-- 직접입력 --></span>
+									</label>
+									<ul class="o_purewrap">
+										
+											<li class="pure-g">
+												<div class="pure-u-1-3 pure-u-md-2-3">
+													<input type="text" name="startDate" value="" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" class="pure-u-23-24" placeholder="YYYYMMDD" maxlength="8" title="직접입력 시작(년월일)"><!--직접입력 시작(년월일)-->
+												</div>
+												<div class="pure-u-1-6 pure-u-md-1-3">
+													<div class="o_midtit">부터<!-- 부터 --></div>
+												</div>
+												<div class="pure-u-1-3 pure-u-md-2-3">
+													<input type="text" name="endDate" value="" class="pure-u-23-24" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" placeholder="YYYYMMDD" maxlength="8" title="직접입력 끝(년월일)"><!--직접입력 끝(년월일)-->
+												</div>
+												<div class="pure-u-1-6 pure-u-md-1-3">
+													<div class="o_midtit">까지<!-- 까지 --></div>
+												</div>
+											</li>
+										
+										
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="c-form-row pure-u-1 pure-u-md-1-3 o_disabled" style="margin-bottom: 0em;">
+							<div class="o_h1">누가<!-- 대상(누가) --></div>
+							<ul>
+								 
+									<li>
+										<label class="o_inputwrap" for="audienceChoice1"> 
+											<input type="checkbox" name="targetList" id="audienceChoice1" value="EDT08" checked> 
+											<span class="o_inputdesc">모두</span>
+										</label>
+									</li>
+								 
+									<li>
+										<label class="o_inputwrap" for="audienceChoice2"> 
+											<input type="checkbox" name="targetList" id="audienceChoice2" value="EDT05" checked> 
+											<span class="o_inputdesc">어린이</span>
+										</label>
+									</li>
+								 
+									<li>
+										<label class="o_inputwrap" for="audienceChoice3"> 
+											<input type="checkbox" name="targetList" id="audienceChoice3" value="EDT06" checked> 
+											<span class="o_inputdesc">청소년</span>
+										</label>
+									</li>
+								 
+									<li>
+										<label class="o_inputwrap" for="audienceChoice4"> 
+											<input type="checkbox" name="targetList" id="audienceChoice4" value="EDT07" checked> 
+											<span class="o_inputdesc">성인</span>
+										</label>
+									</li>
+								
+							</ul>
+						</div>
+						<div class="pure-u-1 pure-u-md-2-3">
+							<div class="c-form-row pure-u-1 o_disabled">
+								<label for="audience">키워드<!-- 키워드 --></label>
+								<input type="hidden" name="kwd" value="subjectOrAuthor"> 
+								<input type="text" name="kwdValue" value="" id="audience" class="pure-input-1" placeholder="제목 또는 작가명" title='키워드'/>
+							</div>
+							<div class="c-form-row pure-u-1 l-align-right" style="margin-bottom: -0.5em;">
+								<div class="o_filterbox o_filter01">
+									<a class="i-button i-button-float i-button-no-border o_addfilter" href="javascript:;">자세한 필터<!-- 자세한 필터 --></a>
+									<a class="i-button i-button-float i-button-no-border o_simplefilter o_btn_none" href="javascript:;">간단한 필터<!-- 간단한 필터 --></a>
+								</div>
+								
+								<button type="button" class="pure-input-1-3 pure-button pure-button-primary" id="schSubmit">조회하기<!-- 조회하기 --></button>
+							</div>
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	
+	<div class="c-section c-section-norule">
+		<div class="c-connected pure-g">
+			
+			
+			    
+			        
+			        
+	                    
+			            
+			        
+			    
+				
+						
+					<div id="dv_1515171" class="pure-u-1-2 pure-u-md-1-4 viewLink app-u-1" data-idx="1515171" data-whatson-menu-div="EX" data-ex-menu-div="EXM01" style="padding:0px 25px 0px 25px;">
+						<a href="javascript:;" class="o_figure">
+							<div class="o_thumb">
+								<img onerror="this.src='/resources/images/common/noimg_none.jpg'" 
+								src="/common/imgFileView?FILE_ID=1006054" 
+								alt=""
+								class="imgexpend"/>
+							</div>
+							<div class="t-metadata o_figcaption">
+								<strong class="o_h1">2026 서울사진축제 《컴백홈》</strong>
+
+								<span class="o_h2 app-none">
+		                        	
+		                            	<span class="ico-ex">전시<!-- 전시 --></span>
+		                            
+		                        	
+		                            
+		                        </span>
+		                        <span class="o_h2 epEcPlaceNm app-none"> 
+		                            
+		                                
+		                                    
+		                                
+		                                
+		                            
+		                                
+		                                    
+		                                
+		                                
+		                            
+		                                
+		                                    
+		                                
+		                                
+		                            
+		                                
+		                                    
+		                                
+		                                
+		                            
+		                                
+		                                    
+		                                
+		                                
+		                            
+		                                
+		                                    서울시립 사진미술관,
+		                                
+		                                
+		                            
+		                                
+		                                    
+		                                
+		                                
+		                            
+		                                
+		                                    
+		                                
+		                                
+		                            
+		                                
+		                                    
+		                                
+		                                
+		                            
+		                                
+		                                    
+		                                
+		                                
+		                            
+		                                
+		                                    
+		                                
+		                                
+		                            
+		                                
+		                                
+		                                	
+		                                
+		                            
+		                        </span>
+		                        
+								<span class="o_h3">
+									
+										
+										
+											
+												
+												 
+												2026/04/09~2026/06/14
+											
+											
+										
+									
+								</span>
+								
+							</div>
+						</a>
+					</div>
+				
+						
+					<div id="dv_1499262" class="pure-u-1-2 pure-u-md-1-4 viewLink app-u-1" data-idx="1499262" data-whatson-menu-div="EX" data-ex-menu-div="EXM01" style="padding:0px 25px 0px 25px;">
+						<a href="javascript:;" class="o_figure">
+							<div class="o_thumb">
+								<img onerror="this.src='/resources/images/common/noimg_none.jpg'" 
+								src="/common/imgFileView?FILE_ID=1003198" 
+								alt=""
+								class="imgexpend"/>
+							</div>
+							<div class="t-metadata o_figcaption">
+								<strong class="o_h1">포토 디스커버리 프로젝트 《사진집》</strong>
+
+								<span class="o_h2 app-none">
+		                        	
+		                            	<span class="ico-ex">전시<!-- 전시 --></span>
+		                            
+		                        	
+		                            
+		                        </span>
+		                        <span class="o_h2 epEcPlaceNm app-none"> 
+		                            
+		                                
+		                                    
+		                                
+		                                
+		                            
+		                                
+		                                    
+		                                
+		                                
+		                            
+		                                
+		                                    
+		                                
+		                                
+		                            
+		                                
+		                                    
+		                                
+		                                
+		                            
+		                                
+		                                    
+		                                
+		                                
+		                            
+		                                
+		                                    서울시립 사진미술관,
+		                                
+		                                
+		                            
+		                                
+		                                    
+		                                
+		                                
+		                            
+		                                
+		                                    
+		                                
+		                                
+		                            
+		                                
+		                                    
+		                                
+		                                
+		                            
+		                                
+		                                    
+		                                
+		                                
+		                            
+		                                
+		                                    
+		                                
+		                                
+		                            
+		                                
+		                                
+		                                	
+		                                
+		                            
+		                        </span>
+		                        
+								<span class="o_h3">
+									
+										
+										
+											
+												
+												 
+												2026/03/18~2026/06/14
+											
+											
+										
+									
+								</span>
+								
+							</div>
+						</a>
+					</div>
+				
+			
+		</div>
+		
+			
+
+
+
+
+<div class="c-pagination t-header pure-g">
+	<div class="c-pagination-marker pure-u-1-2">1 / 1 페이지<!--페이지--></div>
+	<div class="c-pagination-nav pure-u-1-2 l-align-right">
+		
+		
+			
+		
+		
+		
+		
+			
+		
+		
+	</div>
+</div>
+
+		
+	</div>
+	
+	<!-- 안내01 : 미디어시티서울비엔날레 -->
+	<div class="o_popwrap">
+		<div class="c-modal c-modal-narrow is-hidden" id="modalInfo01">
+			<div class="c-header t-header pure-g">
+				<div class="pure-u-3-4">
+					<div class="o_h1">서울미디어시티비엔날레<!--미디어시티서울비엔날레--></div>
+				</div>
+			</div>
+			<div class="c-section c-section-norule">
+				<div class="t-body is-expandable-content">
+					<div>미디어아트를 비롯하여 확장된 방식의 예술을 통해 상상력과 지식의 향유에 주목하는 동시대 미술 축제<!--미디어아트를 비롯하여 확장된 방식의 예술을 통해 상상력과 지식의 향유에 주목하는 동시대 미술 축제--></div>
+				</div>
+			</div>
+			<div class="c-header t-header pure-g o_pfooter">
+				<div class="pure-u-3-4">
+				</div>
+				<div class="pure-u-1-4 l-align-right">
+					<a class="i-button i-button-float t-meta i-button-no-border modal-close" href="javascript:;">닫기<!--닫기--></a>
+				</div>
+			</div>
+		</div>
+		<div class="c-modal-bg"></div>
+	</div>
+	<!-- //안내01 : 미디어시티서울비엔날레 -->
+	
+	<!-- 안내02 : 서울사진축제 -->
+	<div class="o_popwrap">
+		<div class="c-modal c-modal-narrow is-hidden" id="modalInfo02">
+			<div class="c-header t-header pure-g">
+				<div class="pure-u-3-4">
+					<div class="o_h1">서울사진축제<!--서울사진축제--></div>
+				</div>
+			</div>
+			<div class="c-section c-section-norule">
+				<div class="t-body is-expandable-content">
+					<div>동시대 사진의 매체적 특성을 시험하고 미래 사진의 가능성과 확장적 담론을 발굴하는 차별화된 서울의 사진축제<!--동시대 사진의 매체적 특성을 시험하고 미래 사진의 가능성과 확장적 담론을 발굴하는 차별화된 서울의 사진축제--></div>
+				</div>
+			</div>
+			<div class="c-header t-header pure-g o_pfooter">
+				<div class="pure-u-3-4">
+				</div>
+				<div class="pure-u-1-4 l-align-right">
+					<a class="i-button i-button-float t-meta i-button-no-border modal-close" href="javascript:;">닫기<!--닫기--></a>
+				</div>
+			</div>
+		</div>
+		<div class="c-modal-bg"></div>
+	</div>
+	<!-- //안내02 : 서울사진축제 -->
+	
+	<!-- 안내03 : 미술아카데미 -->
+	<div class="o_popwrap">
+		<div class="c-modal c-modal-narrow is-hidden" id="modalInfoEPG01">
+			<div class="c-header t-header pure-g">
+				<div class="pure-u-3-4">
+					<div class="o_h1">미술아카데미<!--미술아카데미--></div>
+				</div>
+			</div>
+			<div class="c-section c-section-norule">
+				<div class="t-body is-expandable-content">
+					<div>어린이, 성인, 전문인, 외국인 등 다양한 계층을 아우르는 맞춤형 교육<!--모든 연령층의 관객과 다양한 관심을 아우르는 맞춤형 교육 프로그램--></div>
+				</div>
+			</div>
+			<div class="c-header t-header pure-g o_pfooter">
+				<div class="pure-u-3-4">
+				</div>
+				<div class="pure-u-1-4 l-align-right">
+					<a class="i-button i-button-float t-meta i-button-no-border modal-close" href="javascript:;">닫기<!--닫기--></a>
+				</div>
+			</div>
+		</div>
+		<div class="c-modal-bg"></div>
+	</div>
+	<!-- //안내03 : 미술아카데미 -->
+	
+	<!-- 안내04 : 찾아오는 퍼블릭 프로그램 -->
+	<div class="o_popwrap">
+		<div class="c-modal c-modal-narrow is-hidden" id="modalInfoEPG02">
+			<div class="c-header t-header pure-g">
+				<div class="pure-u-3-4">
+					<div class="o_h1">찾아오는 퍼블릭 프로그램<!--찾아오는 퍼블릭 프로그램--></div>
+				</div>
+			</div>
+			<div class="c-section c-section-norule">
+				<div class="t-body is-expandable-content">
+					<div>유치원, 학교, 직장, 문화소외시설 등 다양한 커뮤니티를 위한 맞춤형 교육<!--유치원, 학교, 직장, 문화 소외 시설 등 다양한 커뮤니티를 위한 맞춤형 교육 프로그램--></div>
+				</div>
+			</div>
+			<div class="c-header t-header pure-g o_pfooter">
+				<div class="pure-u-3-4">
+				</div>
+				<div class="pure-u-1-4 l-align-right">
+					<a class="i-button i-button-float t-meta i-button-no-border modal-close" href="javascript:;">닫기<!--닫기--></a>
+				</div>
+			</div>
+		</div>
+		<div class="c-modal-bg"></div>
+	</div>
+	<!-- //안내04 : 찾아오는 퍼블릭 프로그램 -->
+	
+	<!-- 안내05 : 시민큐레이터 양성교육 -->
+	<div class="o_popwrap">
+		<div class="c-modal c-modal-narrow is-hidden" id="modalInfoEPG03">
+			<div class="c-header t-header pure-g">
+				<div class="pure-u-3-4">
+					<div class="o_h1">시민큐레이터 양성교육<!--시민큐레이터 양성교육--></div>
+				</div>
+			</div>
+			<div class="c-section c-section-norule">
+				<div class="t-body is-expandable-content">
+					<div>미술과 전시에 관심과 열의가 있는 시민을 대상으로 하는 큐레이터를 양성하기 위한 교육<!--현대미술 전시 기획을 경험해 보고자 하는 시민을 대상으로 하는 큐레이터 양성 교육 프로그램--></div>
+				</div>
+			</div>
+			<div class="c-header t-header pure-g o_pfooter">
+				<div class="pure-u-3-4">
+				</div>
+				<div class="pure-u-1-4 l-align-right">
+					<a class="i-button i-button-float t-meta i-button-no-border modal-close" href="javascript:;">닫기<!--닫기--></a>
+				</div>
+			</div>
+		</div>
+		<div class="c-modal-bg"></div>
+	</div>
+	<!-- //안내05 : 시민큐레이터 양성교육 -->
+	
+	<!-- 안내06 : 사진아카데미 -->
+	<div class="o_popwrap">
+		<div class="c-modal c-modal-narrow is-hidden" id="modalInfoEPG04">
+			<div class="c-header t-header pure-g">
+				<div class="pure-u-3-4">
+					<div class="o_h1">사진아카데미<!--사진아카데미--></div>
+				</div>
+			</div>
+			<div class="c-section c-section-norule">
+				<div class="t-body is-expandable-content">
+					<div>서울시립미술관후원회 SeMA人[in]에서 운영하는 사진 매체에 초첨을 둔 교육<!--사진 매체에 초점을 두고 서울시립미술관 후원회인 SeMA人[in]이 운영하는 교육 프로그램--></div>
+				</div>
+			</div>
+			<div class="c-header t-header pure-g o_pfooter">
+				<div class="pure-u-3-4">
+				</div>
+				<div class="pure-u-1-4 l-align-right">
+					<a class="i-button i-button-float t-meta i-button-no-border modal-close" href="javascript:;">닫기<!--닫기--></a>
+				</div>
+			</div>
+		</div>
+		<div class="c-modal-bg"></div>
+	</div>
+	<!-- //안내06 : 사진아카데미 -->
+	
+	<!-- 안내07 : 도슨트 양성교육 -->
+	<div class="o_popwrap">
+		<div class="c-modal c-modal-narrow is-hidden" id="modalInfoEPG05">
+			<div class="c-header t-header pure-g">
+				<div class="pure-u-3-4">
+					<div class="o_h1">도슨트 양성교육<!--도슨트 양성교육--></div>
+				</div>
+			</div>
+			<div class="c-section c-section-norule">
+				<div class="t-body is-expandable-content">
+					<div>미술관과 전시의 대중화를 위해 일반 시민을 대상으로 하는 도슨트를 양성하기 위한 교육<!--보다 친근한 전시 이해를 위해 일반 시민을 대상으로 하는 도슨트 양성 교육 프로그램--></div>
+				</div>
+			</div>
+			<div class="c-header t-header pure-g o_pfooter">
+				<div class="pure-u-3-4">
+				</div>
+				<div class="pure-u-1-4 l-align-right">
+					<a class="i-button i-button-float t-meta i-button-no-border modal-close" href="javascript:;">닫기<!--닫기--></a>
+				</div>
+			</div>
+		</div>
+		<div class="c-modal-bg"></div>
+	</div>
+	<!-- //안내07 : 도슨트 양성교육 -->
+	
+	<!-- 안내08 : 예술가의 런치박스 -->
+	<div class="o_popwrap">
+		<div class="c-modal c-modal-narrow is-hidden" id="modalInfoEPG06">
+			<div class="c-header t-header pure-g">
+				<div class="pure-u-3-4">
+					<div class="o_h1">예술가의 런치박스<!--예술가의 런치박스--></div>
+				</div>
+			</div>
+			<div class="c-section c-section-norule">
+				<div class="t-body is-expandable-content">
+					<div>‘음식’을 매개로 현대미술을 가까이서 경험할 수 있도록 기획된 교육<!--‘음식’을 매개로 현대미술을 가까이서 경험할 수 있도록 기획된 교육--></div>
+				</div>
+			</div>
+			<div class="c-header t-header pure-g o_pfooter">
+				<div class="pure-u-3-4">
+				</div>
+				<div class="pure-u-1-4 l-align-right">
+					<a class="i-button i-button-float t-meta i-button-no-border modal-close" href="javascript:;">닫기<!--닫기--></a>
+				</div>
+			</div>
+		</div>
+		<div class="c-modal-bg"></div>
+	</div>
+	<!-- //안내08 : 예술가의 런치박스 -->
+	
+</div>
+		</div>
+
+		
+
+
+
+
+
+
+
+
+<script>
+$(document).ready(function(){
+	//푸터 FAQ 목록
+	/* console.log("getFooterFaqList(6)");
+	getFooterFaqList(6);  */
+});
+
+function getFooterFaqList(aCount) {
+	//푸터 FAQ 목록 aCount개
+	$.ajax({
+		method: 'get',
+		url: '/nj/faq/getListAjax',
+		data: {gGroup:'FAC01', organCd:'', qstion:'', TopSer:'', showArticleCount: aCount},
+		type : 'post'
+	}).done(function(d) {
+		$('#faqArea').empty();
+		var ytList = d.faqList;
+		var str = '';
+		if(ytList != null && ytList != ""){
+			str = '';
+			for(var i = 0; i<6; i++){
+				str += '<li>- ' + ytList[i].qstion + '</li>';
+			}
+			/* if(str != '') str = "<ul>" + str + "</ul>"; */
+			$('#faqArea').html(str);
+		}
+	}).fail(function(e){
+		alert('error');
+	}).always(function(){
+	});
+}
+</script>
+
+
+
+<input type="hidden" id="commFooterLangStype" value="kr" /><!-- 삭제 하지 마세요 -->
+
+
+
+
+
+
+
+
+<div class="footer l-block pure-g" id="footer">
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+		<div class="i-lockup i-lockup-black">
+			<a href="/kr/index"> 
+				<img class="i-lockup-type" src="/resources/assets/svg/o_typo_b.svg" alt="서울시립미술관 SEOUL MUSEUM OF ART">
+			</a>
+		</div>
+		<div class="i-lockup i-lockup-white">
+			<a href="/kr/index">
+				<img class="i-lockup-type" src="/resources/assets/svg/o_typo_w.svg" alt="서울시립미술관 SEOUL MUSEUM OF ART">
+			</a>
+		</div>
+	</div>
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav">
+		<ul class="primary">
+			<li><a href="/kr/sema/landing" title="비전과 전략, 연혁, MI, 조직구성, 신규 기관 소개, 미술관 관련 규정을 보실 수 있습니다.">미술관 소개</a></li>
+			
+			<li><a href="/kr/sema/news/landing" title="공지사항, 보도자료, 입찰공고, 채용시험 정보를 보실 수 있습니다.">뉴스와 공지</a></li>
+			
+			<li><a href="/kr/support/landing" title="신진미술인 지원, 난지미술창작스튜디오 입주지원, 시민큐레이터 양성, 도슨트 양성, 하나미술상에 대한 정보를 보실 수 있습니다.">지원과 양성</a></li>
+			
+			
+				<li><a href="/kr/sema/rental/info">시설대관</a></li>
+			
+			
+			
+				<li><a href="/kr/sema/sema_in">후원회 SeMA人[in]</a></li>
+			
+		</ul>
+	</div>
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav">
+		<ul class="primary">
+		
+			
+	
+			
+			
+				<li><a href="https://eungdapso.seoul.go.kr/" style="display: unset;font-weight: bold;" target="_blank" title="새창 열림">응답소</a></li>
+			
+			
+				<li><a href="/kr/sema/newsletters/list">SeMA 뉴스레터</a></li>
+			
+			<li><a href="/kr/sema/app_download">도슨팅앱 다운로드</a></li>
+		</ul>
+	</div>
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav">
+		<div class="o_h1"><a href="/kr/sema/faq/list">자주 묻는 질문</a></div>
+		<ul class="tertiary" id="faqArea">
+			
+				<li><a href="/kr/sema/faq/list?search=309862#0309862">시립미술관에서 발간한 전시 관련 도서 및 도록은 어디서 구매하나요?</a></li>
+			
+				<li><a href="/kr/sema/faq/list?search=173584#0173584">전시실에서 사진 촬영이 가능한가요?</a></li>
+			
+				<li><a href="/kr/sema/faq/list?search=173747#0173747">소장품의 수집은 어떻게 이루어지나요?</a></li>
+			
+				<li><a href="/kr/sema/faq/list?search=1161779#01161779">서울시립 미술아카이브는 어떤곳인가요?</a></li>
+			
+		</ul>
+	</div>
+	
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav"></div>
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav">
+		<div class="o_h1"><a href="/kr/whatson/landing">전시와 프로그램</a></div>
+		<ul class="secondary">
+			<li><a href="/kr/whatson/landing?whatsonMenuDivList=EX&whatChoice2=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY">전시</a></li>
+			<li><a href="/kr/whatson/landing?whatsonMenuDivList=EP&whatChoice1=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY">교육프로그램</a></li>
+			<li><a href="/kr/whatson/landing?whatsonMenuDivList=CE&whatChoice1=N&whatChoice2=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY">문화행사</a></li>
+			<li><a href="/kr/whatson/landing?whenType=FROM_TODAY">현재</a></li>
+			<li><a href="/kr/whatson/landing?whenType=PLAN_DAY">예정</a></li>
+			<li><a href="/kr/whatson/landing?whenType=PAST_DAY">과거</a></li>
+		</ul>
+	</div>
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav">
+		<div class="o_h1"><a href="/kr/knowledge_research/landing">소장품과 미술연구</a></div>
+		<ul class="secondary">
+			<li><a href="/kr/knowledge_research/collection/landing">SeMA 소장품<!--SeMA소장품--></a></li>
+			<li><a class="i-button-icon i-button-arrow-ne i-button-no-hover" href="https://sema.seoul.go.kr/semaaa" target="_blank" title="새창 열림">미술아카이브<!--미술아카이브--></a></li>
+			<li><a class="i-button-icon i-button-arrow-ne i-button-no-hover" href="http://semacoral.org/" target="_blank" title="새창 열림">모두의 연구실 '코랄'<!--모두의 연구실 '코랄'--></a></li>
+			<!-- <li><a class="i-button-icon i-button-arrow-ne i-button-no-hover" href="https://g-s-r.net/ " target="_blank" title="새창 열림">GSR (Game-Sandbox-Residency)</a></li> -->
+			<li><a href="/kr/knowledge_research/book/list">SeMA 도서와 자료</a></li><!--SeMA 도서와 자료-->
+			
+				<li><a href="/kr/knowledge_research/donorhall">기증자 전당</a></li><!--기증자 전당-->
+			
+			
+				
+			
+		</ul>
+	</div>
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav">
+		<div class="o_h1">방문하기</div>
+		<ul class="secondary">
+			<li><a href='/kr/visit/webaccess'>접근성 안내</a></li>
+<li><a href='/kr/visit/seosomun'>서울시립미술관 서소문본관</a></li>
+<li><a href='/kr/visit/bukseoul'>서울시립 북서울미술관</a></li>
+<li><a href='/kr/visit/seoseoul'>서울시립 서서울미술관</a></li>
+<li><a href='/kr/visit/art_archive'>서울시립 미술아카이브</a></li>
+<li><a href='/kr/visit/photosema'>서울시립 사진미술관</a></li>
+<li><a href='/kr/visit/namseoul'>서울시립 남서울미술관</a></li>
+<li><a href='/kr/visit/nanji_residency'>서울시립 난지미술창작스튜디오</a></li>
+<li><a href='/kr/visit/nam_june_paik_house'>서울시립 백남준을 기억하는 집</a></li>
+<li><a href='/kr/visit/excmmntry'>전시해설</a></li>
+				
+		</ul>
+	</div>
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav">
+		<a class="i-logo i-logo-facebook" href="https://www.facebook.com/SeoulMuseumofArt.kr" target="_blank" title="새창 열림"><span class="blind">서울시립미술관 공식 페이스북</span></a> 
+		<a class="i-logo i-logo-twitter" href="https://twitter.com/SeoulSema" target="_blank" title="새창 열림"><span class="blind">서울시립미술관 공식 트위터</span></a> 
+		<a class="i-logo i-logo-instagram" href="https://www.instagram.com/seoulmuseumofart/" target="_blank" title="새창 열림"><span class="blind">서울시립미술관 공식 인스타그램</span></a> 
+		<a class="i-logo i-logo-youtube" href="https://www.youtube.com/user/SeoulMuseumofArt" target="_blank" title="새창 열림"><span class="blind">서울시립미술관 공식 유튜브</span></a> 
+		<a class="i-logo i-logo-navertv" href="https://tv.naver.com/sema" target="_blank" title="새창 열림"><span class="blind">서울시립미술관 공식 네이버TV</span></a> 
+		<a class="i-logo i-logo-naverblog" href="https://blog.naver.com/semaofficial" target="_blank" title="새창 열림"><span class="blind">서울시립미술관 공식 네이버 블로그</span></a>
+	</div>
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav t-nav-micro">
+		<p>
+			서울 중구 덕수궁길 61<!-- 주소 --><br>
+			
+				 (대표자) 최은주, (사업자등록번호) 101-83-02866<br>
+				 (대표번호)<!-- 대표번호 -->
+						
+			02–2124–8800<!-- 전화번호 -->
+			
+				 , 02–120<br> <!-- 전화번호2 -->
+			
+			
+				(직원찾기)<!-- 직원찾기 --> <a href="https://sema.seoul.go.kr/kr/sema/landing#orgArea" style="display: unset;font-weight: bold;">직원 및 연락처</a><br>
+			
+		</p>
+	</div>
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav t-nav-micro">
+		<ul>
+			
+				<li><a href="/kr/sema/privacy"><b>개인정보처리방침</b></a></li>
+				<li><a href="/kr/sema/email_refuse">이메일무단수집거부</a></li>
+			
+			
+		</ul>
+	</div>
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav t-etc">
+		<div>
+			
+				<a class="i-logo i-logo-01" href="http://webwatch.or.kr/Situation/WA_Situation.html?MenuCD=110&npp=9&skey=1&sval=%EC%84%9C%EC%9A%B8%EC%8B%9C%EB%A6%BD%EB%AF%B8%EC%88%A0%EA%B4%80" target="_blank" title="새창 열림 - 과학기술정보통신부 WA(WEB접근성) 품질인증 마크, 웹와치(WebWatch) 2024.2.22 ~ 2025.2.21">
+					<span class="blind">과학기술정보통신부 WA(WEB접근성) 품질인증 마크, 웹와치(WebWatch) 2024.2.22 ~ 2025.2.21</span>
+				</a>
+			 
+			
+			<a class="i-logo i-logo-02" href="https://store.seoul.go.kr/cp/index.html" target="_blank" title="새창 열림"><span class="blind">서울책방</span></a>
+		</div>
+	</div>
+	<div class="l-nav-top">
+		<a class="btn_top" href="#main"><span class="blind">Back to top</span></a>
+	</div>
+</div>
+
+
+<!-- weblog.eseoul.go.kr(S) -->
+
+<script src="//weblog.eseoul.go.kr/wlo/js/install.js" ></script>
+<!-- weblog.eseoul.go.kr(E) -->
+
+	</div>
+
+</body>
+</html>
