@@ -67,3 +67,11 @@ def test_plan_header_error_when_columns_reordered_or_renamed():
     # Shrunk → unsafe (we don't drop user data)
     action, _ = _plan_header_write(["a", "b", "c"], ["a", "b"])
     assert action == "error"
+
+
+def test_init_sheets_venues_includes_country():
+    repo = _RecordingRepo()
+    init_sheets(repo)
+    assert "country" in repo.headers[SheetName.VENUES]
+    # country must be last so prefix-append migration is safe on legacy sheets.
+    assert repo.headers[SheetName.VENUES][-1] == "country"

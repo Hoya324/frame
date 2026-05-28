@@ -354,3 +354,40 @@ def test_recompute_stale_status_noop_when_all_current(header_repo: FakeHeaderRep
     """An empty sheet (no stale rows) returns 0 without raising."""
     patched = recompute_stale_status(header_repo, today=date(2026, 5, 28))
     assert patched == 0
+
+
+def test_venue_from_row_defaults_country_to_KR():
+    """A legacy row without a `country` column hydrates as KR."""
+    from datetime import UTC, datetime
+
+    from crawler.pipeline import _venue_from_row
+
+    row = {
+        "id": "v_kr",
+        "name": "Existing Korean Venue",
+        "venue_type": "gallery",
+        "first_seen_at": datetime.now(UTC).isoformat(),
+        "updated_at": datetime.now(UTC).isoformat(),
+        # no "country" column — legacy row from before migration
+    }
+    v = _venue_from_row(row)
+    assert v is not None
+    assert v.country == "KR"
+
+
+def test_venue_from_row_reads_country_when_present():
+    from datetime import UTC, datetime
+
+    from crawler.pipeline import _venue_from_row
+
+    row = {
+        "id": "v_jp",
+        "name": "東京都写真美術館",
+        "venue_type": "museum",
+        "country": "JP",
+        "first_seen_at": datetime.now(UTC).isoformat(),
+        "updated_at": datetime.now(UTC).isoformat(),
+    }
+    v = _venue_from_row(row)
+    assert v is not None
+    assert v.country == "JP"
