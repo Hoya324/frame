@@ -6,9 +6,6 @@ The site uses a single gnuboard board for all exhibitions (current + past).
 Current exhibitions appear on page 1 near the top.
 Stop when a page returns no cards or max_pages is reached.
 
-The site uses a self-signed TLS certificate; we use the certifi CA bundle which
-works correctly in practice (the chain resolves via a trusted intermediate).
-
 Card structure (verified 2026-05-28, goeunmuseum.kr):
   <div class="list-item">
     <div class="imgframe">
@@ -36,12 +33,10 @@ the real site is goeunmuseum.kr.
 
 from __future__ import annotations
 
-import ssl
 import time
 from collections.abc import Iterable
 from urllib.parse import parse_qs, urljoin, urlparse
 
-import certifi
 import httpx
 from selectolax.parser import HTMLParser
 from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
@@ -75,12 +70,10 @@ class GoeunExtractor:
     ) -> None:
         self.max_pages = max_pages
         self.delay_s = delay_s
-        ssl_ctx = ssl.create_default_context(cafile=certifi.where())
         self._client = httpx.Client(
             timeout=timeout_s,
             headers={"User-Agent": _USER_AGENT},
             follow_redirects=True,
-            verify=ssl_ctx,
         )
 
     @retry(
