@@ -186,3 +186,51 @@ def test_run_source_survives_geocoder_failure(header_repo: FakeHeaderRepo):
     exhibitions = header_repo.read_rows(SheetName.EXHIBITIONS)
     assert len(exhibitions) == 1
     assert exhibitions[0]["venue_id"] == venues[0]["id"]
+
+
+@freeze_time("2026-05-28")
+def test_run_source_skips_malformed_state_rows_instead_of_aborting(
+    header_repo: FakeHeaderRepo, null_geocoder: NullGeocoder, caplog
+):
+    import logging
+    caplog.set_level(logging.WARNING, logger="crawler.pipeline")
+    """Regression: empty datetime cells in an entity sheet must not abort the crawl.
+
+    Earlier the row hydrators called `datetime.fromisoformat(r["first_seen_at"])`
+    directly, so any blank `first_seen_at` propagated as
+    `ValueError: Invalid isoformat string: ''` and killed every source for the
+    whole run (the failure surfaces *before* `extractor.crawl()` is even called,
+    so all sources report 0/0/0/0/1 with the same message).
+    """
+    # Seed three broken rows that would each individually have blown up the old
+    # hydrators: empty datetimes, empty id, and a stray blank row.
+    header_repo.append_rows(SheetName.VENUES, [
+        {
+            "id": "v_broken",
+            "name": "Broken Venue",
+            "first_seen_at": "",  # ← the original crash trigger
+            "updated_at": "",
+        },
+        {
+            "id": "",  # blank id — also skip
+            "name": "Nameless",
+            "first_seen_at": "2026-05-01T00:00:00+00:00",
+            "updated_at": "2026-05-01T00:00:00+00:00",
+        },
+        {},  # entirely blank row
+    ])
+
+    extractor = _DummyExtractor([_raw(1, "A")])
+    report: SourceReport = run_source(
+        extractor=extractor,
+        repo=header_repo,
+        geocoder=null_geocoder,
+        today=date(2026, 5, 28),
+    )
+
+    assert report.failure is None
+    assert report.extracted == 1
+    assert report.new >= 1
+    # The crawl should have logged warnings about the skipped rows
+    skip_warnings = [r for r in caplog.records if "skipping malformed row" in r.getMessage()]
+    assert skip_warnings, "expected at least one skip warning for the broken venue rows"

@@ -116,9 +116,9 @@ def run_source(
     started = time.monotonic()
 
     state = EntityState(
-        artists=[_artist_from_row(r) for r in repo.read_rows(SheetName.ARTISTS)],
-        venues=[_venue_from_row(r) for r in repo.read_rows(SheetName.VENUES)],
-        organizers=[_organizer_from_row(r) for r in repo.read_rows(SheetName.ORGANIZERS)],
+        artists=_hydrate(repo, SheetName.ARTISTS, _artist_from_row, name),
+        venues=_hydrate(repo, SheetName.VENUES, _venue_from_row, name),
+        organizers=_hydrate(repo, SheetName.ORGANIZERS, _organizer_from_row, name),
         overrides=repo.read_rows(SheetName.OVERRIDES),
     )
 
@@ -208,29 +208,81 @@ def run_source(
 # --- helpers: row -> model for state hydration ---
 
 
-def _artist_from_row(r: dict) -> Artist:
+def _hydrate(repo: Repository, sheet: SheetName, builder, source_name: str) -> list:
+    """Materialize rows into entities, skipping (and logging) corrupted ones.
+
+    Rows missing an `id`/`name` or carrying empty datetime fields would
+    otherwise propagate as `ValueError: Invalid isoformat string: ''` and
+    abort the entire crawl. Skipping is safer than failing the run.
+    """
+    out = []
+    skipped = 0
+    for r in repo.read_rows(sheet):
+        try:
+            entity = builder(r)
+        except (ValueError, KeyError) as exc:
+            skipped += 1
+            log.warning(
+                "skipping malformed row in %s during %s: id=%r err=%s",
+                sheet.value, source_name, r.get("id"), exc,
+            )
+            continue
+        if entity is None:
+            skipped += 1
+            log.warning(
+                "skipping malformed row in %s during %s: id=%r (missing required field)",
+                sheet.value, source_name, r.get("id"),
+            )
+            continue
+        out.append(entity)
+    if skipped:
+        log.warning("hydrate %s for %s: skipped %d row(s)", sheet.value, source_name, skipped)
+    return out
+
+
+def _parse_dt(value):
+    """Return a datetime parsed from an ISO string, or None for blank input."""
     from datetime import datetime
+    if value is None:
+        return None
+    s = str(value).strip()
+    if not s:
+        return None
+    return datetime.fromisoformat(s)
+
+
+def _artist_from_row(r: dict) -> Artist | None:
+    row_id = (r.get("id") or "").strip()
+    name = (r.get("name") or "").strip()
+    first_seen = _parse_dt(r.get("first_seen_at"))
+    updated = _parse_dt(r.get("updated_at"))
+    if not row_id or not name or first_seen is None or updated is None:
+        return None
     return Artist(
-        id=r["id"],
-        name=r["name"],
+        id=row_id,
+        name=name,
         name_en=r.get("name_en") or None,
-        name_normalized=r["name_normalized"],
+        name_normalized=r.get("name_normalized") or name,
         bio=r.get("bio") or None,
         instagram=r.get("instagram") or None,
         website=r.get("website") or None,
         sources=[s for s in (r.get("sources") or "").split(",") if s],
-        first_seen_at=datetime.fromisoformat(r["first_seen_at"]),
-        updated_at=datetime.fromisoformat(r["updated_at"]),
+        first_seen_at=first_seen,
+        updated_at=updated,
     )
 
 
-def _venue_from_row(r: dict) -> Venue:
-    from datetime import datetime
-
+def _venue_from_row(r: dict) -> Venue | None:
     from crawler.models import VenueType
+    row_id = (r.get("id") or "").strip()
+    name = (r.get("name") or "").strip()
+    first_seen = _parse_dt(r.get("first_seen_at"))
+    updated = _parse_dt(r.get("updated_at"))
+    if not row_id or not name or first_seen is None or updated is None:
+        return None
     return Venue(
-        id=r["id"],
-        name=r["name"],
+        id=row_id,
+        name=name,
         name_en=r.get("name_en") or None,
         venue_type=VenueType(r.get("venue_type") or "other"),
         region=r.get("region") or None,
@@ -241,23 +293,27 @@ def _venue_from_row(r: dict) -> Venue:
         website=r.get("website") or None,
         open_hours_default=r.get("open_hours_default") or None,
         sources=[s for s in (r.get("sources") or "").split(",") if s],
-        first_seen_at=datetime.fromisoformat(r["first_seen_at"]),
-        updated_at=datetime.fromisoformat(r["updated_at"]),
+        first_seen_at=first_seen,
+        updated_at=updated,
     )
 
 
-def _organizer_from_row(r: dict) -> Organizer:
-    from datetime import datetime
-
+def _organizer_from_row(r: dict) -> Organizer | None:
     from crawler.models import OrganizerType
+    row_id = (r.get("id") or "").strip()
+    name = (r.get("name") or "").strip()
+    first_seen = _parse_dt(r.get("first_seen_at"))
+    updated = _parse_dt(r.get("updated_at"))
+    if not row_id or not name or first_seen is None or updated is None:
+        return None
     return Organizer(
-        id=r["id"],
-        name=r["name"],
+        id=row_id,
+        name=name,
         name_en=r.get("name_en") or None,
-        name_normalized=r["name_normalized"],
+        name_normalized=r.get("name_normalized") or name,
         organizer_type=OrganizerType(r.get("organizer_type") or "other"),
         website=r.get("website") or None,
         sources=[s for s in (r.get("sources") or "").split(",") if s],
-        first_seen_at=datetime.fromisoformat(r["first_seen_at"]),
-        updated_at=datetime.fromisoformat(r["updated_at"]),
+        first_seen_at=first_seen,
+        updated_at=updated,
     )
