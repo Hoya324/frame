@@ -87,7 +87,10 @@ def test_run_source_isolates_item_failure(header_repo: FakeHeaderRepo, null_geoc
 
 
 @freeze_time("2026-06-15")
-def test_run_source_recomputes_status_for_stale_rows(header_repo: FakeHeaderRepo, null_geocoder: NullGeocoder):
+def test_run_source_recomputes_status_for_stale_rows(
+    header_repo: FakeHeaderRepo,
+    null_geocoder: NullGeocoder,
+):
     """A pre-existing exhibition still marked 'upcoming' gets recomputed to 'past'."""
 
     # Pre-seed EXHIBITIONS with a past exhibition still labelled upcoming.

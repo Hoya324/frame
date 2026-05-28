@@ -87,3 +87,35 @@ def test_resolver_applies_override_for_artist_alias():
     out = resolve_entities(_exh(), state)
     assert out.exhibition.artist_ids == [canonical.id]
     assert out.new_artists == []
+
+
+@freeze_time("2026-05-28")
+def test_resolver_propagates_venue_raw_region_to_new_venue():
+    """venue_raw_region from NormalizedExhibition is passed to a newly created Venue."""
+    state = EntityState(artists=[], venues=[], organizers=[], overrides=[])
+    out = resolve_entities(_exh(venue_raw_region="서울"), state)
+    assert len(out.new_venues) == 1
+    assert out.new_venues[0].region == "서울"
+
+
+@freeze_time("2026-05-28")
+def test_resolver_does_not_overwrite_existing_venue_region():
+    """venue_raw_region is NOT applied when the venue already exists with a non-null region."""
+    from crawler.models import Venue, VenueType
+    from crawler.normalize.dedup import venue_id
+
+    existing = Venue(
+        id=venue_id("류가헌", None),
+        name="류가헌",
+        venue_type=VenueType.OTHER,
+        region="부산",          # existing non-null region
+        sources=["naver"],
+        first_seen_at=datetime.now(UTC),
+        updated_at=datetime.now(UTC),
+    )
+    state = EntityState(artists=[], venues=[existing], organizers=[], overrides=[])
+    out = resolve_entities(_exh(venue_raw_region="서울"), state)
+    # No new venue; the existing one is reused
+    assert out.new_venues == []
+    # Existing venue object is not mutated
+    assert existing.region == "부산"

@@ -79,6 +79,7 @@ def normalize_exhibition(raw_payload: RawExhibition) -> NormalizedExhibition:
         open_hours=_opt(raw, "open_hours"),
         artist_raw_names=raw.get("artists") or [],
         venue_raw_name=_opt(raw, "venue_name"),
+        venue_raw_region=_opt(raw, "venue_region"),
         organizer_raw_name=_opt(raw, "organizer"),
         status=Status.UNKNOWN,
         crawled_at=now,

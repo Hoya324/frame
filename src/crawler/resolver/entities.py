@@ -103,6 +103,7 @@ def resolve_entities(
                         id=candidate_id,
                         name=exh.venue_raw_name,
                         venue_type=map_venue_type(exh.venue_raw_name) or VenueType.OTHER,
+                        region=exh.venue_raw_region,
                         sources=[source],
                         first_seen_at=now,
                         updated_at=now,

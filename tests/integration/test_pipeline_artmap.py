@@ -22,7 +22,10 @@ FIXTURE = Path(__file__).parent.parent / "fixtures" / "artmap" / "list_page_1.ht
 
 @respx.mock
 @freeze_time("2026-05-28")
-def test_artmap_end_to_end_writes_to_fake_sheet(header_repo: FakeHeaderRepo, null_geocoder: NullGeocoder):
+def test_artmap_end_to_end_writes_to_fake_sheet(
+    header_repo: FakeHeaderRepo,
+    null_geocoder: NullGeocoder,
+):
     list_html = FIXTURE.read_text(encoding="utf-8")
     # ArtmapExtractor uses POST to /data/new_exhibition.php (not GET to new_list.php)
     respx.post("https://art-map.co.kr/data/new_exhibition.php").mock(
