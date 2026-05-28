@@ -17,6 +17,13 @@ jobs:
           python-version: '3.12'
           cache: 'pip'
       - run: pip install -e .
+      # Idempotent. Verifies sheet headers, and prefix-appends any new
+      # columns added to init_sheets.HEADERS since the last run so the
+      # serializer can actually write them.
+      - run: crawler init-sheets
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SHEET_ID: ${{ secrets.SHEET_ID }}
       - run: crawler run-all
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
