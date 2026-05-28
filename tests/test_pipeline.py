@@ -145,3 +145,44 @@ def test_run_source_recomputes_status_for_stale_rows(
     assert brand_new["status"] == Status.ONGOING.value
     # The updated count must include the status-only patch for stale001
     assert report.updated >= 1
+
+
+class _FlakyGeocoder:
+    """Raises on every call. Simulates Kakao API outage / 403."""
+
+    def geocode(self, query: str) -> tuple[float | None, float | None]:
+        import httpx
+        raise httpx.HTTPStatusError(
+            "403 Forbidden",
+            request=httpx.Request("GET", "https://dapi.kakao.com/x"),
+            response=httpx.Response(403),
+        )
+
+
+@freeze_time("2026-05-28")
+def test_run_source_survives_geocoder_failure(header_repo: FakeHeaderRepo):
+    """Geocoder errors must not drop the venue or fail the item. Coordinates are
+    just left blank; the exhibition and venue still land in the sheet."""
+    extractor = _DummyExtractor([_raw(1, "X")])
+
+    report = run_source(
+        extractor=extractor,
+        repo=header_repo,
+        geocoder=_FlakyGeocoder(),
+        today=date(2026, 5, 28),
+    )
+
+    assert report.failure is None
+    assert report.errors == 0  # geocode failure is NOT an item failure
+    assert report.extracted == 1
+    assert report.new >= 1
+
+    venues = header_repo.read_rows(SheetName.VENUES)
+    assert len(venues) == 1
+    # No coordinates, but venue exists
+    assert venues[0]["latitude"] == ""
+    assert venues[0]["longitude"] == ""
+
+    exhibitions = header_repo.read_rows(SheetName.EXHIBITIONS)
+    assert len(exhibitions) == 1
+    assert exhibitions[0]["venue_id"] == venues[0]["id"]
