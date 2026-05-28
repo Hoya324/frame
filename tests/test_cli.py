@@ -44,3 +44,14 @@ def test_cli_dry_run_artmap_no_network(monkeypatch):
         or '"title": "A"' in result.stdout
         or "title" in result.stdout
     )
+
+
+def test_cli_backfill_help():
+    from typer.testing import CliRunner
+
+    from crawler.cli import app
+
+    runner = CliRunner()
+    result = runner.invoke(app, ["backfill-geocodes", "--help"])
+    assert result.exit_code == 0
+    assert "backfill" in result.stdout.lower()
