@@ -19,7 +19,14 @@ class UpsertEngine:
         self._repo = repo
 
     def upsert(self, sheet: SheetName, rows: list[dict]) -> UpsertReport:
-        existing = {r["id"]: r for r in self._repo.read_rows(sheet)}
+        # Some sheets accumulate blank or partial rows over time (manual edits,
+        # interrupted writes). Drop anything without an id rather than crashing
+        # the entire crawl on KeyError.
+        existing = {
+            r["id"]: r
+            for r in self._repo.read_rows(sheet)
+            if r.get("id")
+        }
         new_rows: list[dict] = []
         patches: list[dict] = []
         unchanged = 0
