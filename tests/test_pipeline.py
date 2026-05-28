@@ -391,3 +391,85 @@ def test_venue_from_row_reads_country_when_present():
     v = _venue_from_row(row)
     assert v is not None
     assert v.country == "JP"
+
+
+@freeze_time("2026-05-28")
+def test_run_source_stamps_country_on_new_venues(
+    header_repo: FakeHeaderRepo,
+    null_geocoder: NullGeocoder,
+):
+    """A JP extractor's new venues land in the sheet with country=JP."""
+
+    class _JpExtractor:
+        name = SourceName.ARTMAP  # any registered name works for the test
+        country = "JP"
+
+        def crawl(self):
+            yield RawExhibition(
+                source=SourceName.ARTMAP,
+                source_url="https://example.jp/exhibition/1",
+                raw={
+                    "title": "Tokyo Test Show",
+                    "venue_name": "Tokyo Test Museum",
+                    "venue_address": "東京都目黒区三田1-13-3",
+                    "artists": ["Hiroshi Sugimoto"],
+                    "date_range": "2026.06.01 ~ 2026.07.01",
+                    "fee_text": "무료",
+                    "exhibition_type_text": "개인전",
+                },
+            )
+
+    report = run_source(
+        extractor=_JpExtractor(),
+        repo=header_repo,
+        geocoder=null_geocoder,
+        today=date(2026, 5, 28),
+    )
+    assert report.failure is None
+
+    venues = header_repo.read_rows(SheetName.VENUES)
+    jp_venues = [v for v in venues if v["name"] == "Tokyo Test Museum"]
+    assert len(jp_venues) == 1
+    assert jp_venues[0]["country"] == "JP"
+
+
+@freeze_time("2026-05-28")
+def test_run_source_passes_country_to_geocoder(header_repo: FakeHeaderRepo):
+    """Geocoder receives the extractor's country so the resolver can dispatch."""
+
+    received: list[tuple[str, str]] = []
+
+    class _RecordingGeocoder:
+        def geocode(
+            self, query: str, country: str = "KR"
+        ) -> tuple[float | None, float | None]:
+            received.append((query, country))
+            return 35.6, 139.7
+
+    class _JpExtractor:
+        name = SourceName.ARTMAP
+        country = "JP"
+
+        def crawl(self):
+            yield RawExhibition(
+                source=SourceName.ARTMAP,
+                source_url="https://example.jp/exhibition/2",
+                raw={
+                    "title": "X",
+                    "venue_name": "JP Venue",
+                    "venue_address": "東京都新宿区",
+                    "artists": [],
+                    "date_range": "2026.06.01 ~ 2026.07.01",
+                },
+            )
+
+    run_source(
+        extractor=_JpExtractor(),
+        repo=header_repo,
+        geocoder=_RecordingGeocoder(),
+        today=date(2026, 5, 28),
+    )
+    assert len(received) == 1
+    query, country = received[0]
+    assert country == "JP"
+    assert "東京都" in query

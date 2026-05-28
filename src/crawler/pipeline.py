@@ -34,7 +34,9 @@ class Extractor(Protocol):
 
 
 class GeocoderProto(Protocol):
-    def geocode(self, query: str) -> tuple[float | None, float | None]: ...
+    def geocode(
+        self, query: str, country: str = "KR"
+    ) -> tuple[float | None, float | None]: ...
 
 
 def _exhibition_row(e: NormalizedExhibition) -> dict:
@@ -168,9 +170,13 @@ def run_source(
                 result = resolve_entities(normalized, state)
 
                 # geocode brand-new venues; geocoder failures don't drop the venue
+                country = getattr(extractor, "country", "KR")
                 for v in result.new_venues:
+                    v.country = country
                     try:
-                        lat, lng = geocoder.geocode(v.address or v.name)
+                        lat, lng = geocoder.geocode(
+                            v.address or v.name, country=country
+                        )
                         if lat is not None and lng is not None:
                             v.latitude, v.longitude = lat, lng
                     except Exception as geo_exc:
