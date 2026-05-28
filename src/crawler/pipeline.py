@@ -37,6 +37,7 @@ class GeocoderProto(Protocol):
 
 
 def _exhibition_row(e: NormalizedExhibition) -> dict:
+    import json
     return {
         "id": e.id,
         "source": e.source.value,
@@ -64,6 +65,15 @@ def _exhibition_row(e: NormalizedExhibition) -> dict:
         "crawled_at": e.crawled_at.isoformat(),
         "updated_at": e.updated_at.isoformat(),
         "_warnings": ",".join(e.warnings),
+        "price_breakdown": (
+            json.dumps(
+                [t.model_dump() for t in e.price_breakdown],
+                ensure_ascii=False,
+            )
+            if e.price_breakdown
+            else ""
+        ),
+        "price_notes": e.price_notes or "",
     }
 
 

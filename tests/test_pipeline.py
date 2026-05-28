@@ -189,6 +189,63 @@ def test_run_source_survives_geocoder_failure(header_repo: FakeHeaderRepo):
 
 
 @freeze_time("2026-05-28")
+def test_run_source_persists_price_breakdown_and_venue_address(
+    header_repo: FakeHeaderRepo, null_geocoder: NullGeocoder
+):
+    """Detail-page enrichment (price tiers / notes / venue address) must round-trip
+    from the raw payload into Exhibitions + Venues rows."""
+    import json
+
+    raw = RawExhibition(
+        source=SourceName.ARTMAP,
+        source_url="https://art-map.co.kr/exhibition/view.php?idx=777",
+        raw={
+            "title": "Tier Test",
+            "venue_name": "사비나미술관",
+            "venue_address": "서울 은평구 진관1로 93",
+            "artists": ["질라 로이테네거"],
+            "date_range": "2026.06.01 ~ 2026.07.01",
+            "exhibition_type_text": "개인전",
+            "price_min": 0,
+            "price_max": 10000,
+            "price_breakdown": [
+                {"label": "성인", "amount": 10000},
+                {"label": "어린이 및 청소년", "amount": 8000},
+                {"label": "36개월 미만 유아", "amount": 0},
+            ],
+            "price_notes": "장애인 50% 할인",
+        },
+    )
+    extractor = _DummyExtractor([raw])
+    report = run_source(
+        extractor=extractor,
+        repo=header_repo,
+        geocoder=null_geocoder,
+        today=date(2026, 5, 28),
+    )
+
+    assert report.failure is None
+    exh_rows = header_repo.read_rows(SheetName.EXHIBITIONS)
+    assert len(exh_rows) == 1
+    row = exh_rows[0]
+
+    # price_breakdown lands as JSON-encoded list
+    decoded = json.loads(row["price_breakdown"])
+    assert decoded == [
+        {"label": "성인", "amount": 10000},
+        {"label": "어린이 및 청소년", "amount": 8000},
+        {"label": "36개월 미만 유아", "amount": 0},
+    ]
+    assert row["price_notes"] == "장애인 50% 할인"
+    assert row["fee_type"] == "partial"
+
+    # And the venue gets the street address from the detail page
+    venues = header_repo.read_rows(SheetName.VENUES)
+    assert len(venues) == 1
+    assert venues[0]["address"] == "서울 은평구 진관1로 93"
+
+
+@freeze_time("2026-05-28")
 def test_run_source_skips_malformed_state_rows_instead_of_aborting(
     header_repo: FakeHeaderRepo, null_geocoder: NullGeocoder, caplog
 ):

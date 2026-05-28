@@ -253,11 +253,15 @@ def _parse_detail(html: str) -> dict:
 
     price_text = out.get("price_text")
     if price_text:
-        pmin, pmax = _parse_price(price_text)
+        pmin, pmax, breakdown, notes = _parse_price(price_text)
         if pmin is not None:
             out["price_min"] = pmin
         if pmax is not None:
             out["price_max"] = pmax
+        if breakdown:
+            out["price_breakdown"] = breakdown
+        if notes:
+            out["price_notes"] = notes
         # Only expose fee_text when the numeric parser found nothing —
         # otherwise the keyword check in map_fee_type would short-circuit
         # to FREE on partial-price lines that contain '무료'.
@@ -288,38 +292,65 @@ def _extract_artists(td_node) -> list[str]:
     return names
 
 
-def _parse_price(text: str) -> tuple[int | None, int | None]:
-    """Parse Korean price text into (price_min, price_max).
+def _parse_price(
+    text: str,
+) -> tuple[int | None, int | None, list[dict], str | None]:
+    """Parse Korean price text into (price_min, price_max, breakdown, notes).
+
+    breakdown is a list of `{label, amount}` dicts — one per tier line we
+    could match. notes is the joined text of any discount lines, or None.
 
     Rules:
-    - Lines containing '할인' are discounts — skip them.
-    - Bare '무료' contributes 0.
-    - Numeric patterns like '10,000원' contribute that integer.
-    - Returns (None, None) if no signal at all.
+    - Lines containing '할인' go into `notes`, not breakdown / amounts.
+    - 'LABEL: N,NNN원' → {label: LABEL, amount: N}
+    - 'LABEL: 무료' → {label: LABEL, amount: 0}
+    - Bare '무료' (no colon) → {label: '기본', amount: 0}
+    - A bare numeric line with no label → label falls back to '기본'.
+    - Returns (None, None, [], None) if there's no signal at all.
     """
     if not text:
-        return None, None
+        return None, None, [], None
     amounts: list[int] = []
     saw_free = False
+    breakdown: list[dict] = []
+    notes_lines: list[str] = []
+
     for raw_line in text.splitlines():
         line = raw_line.strip().lstrip("·").strip()
         if not line:
             continue
         if "할인" in line:
+            notes_lines.append(line)
             continue
-        prices = [int(m.replace(",", "")) for m in _PRICE_RE.findall(line)]
+
+        label, sep, value = line.partition(":")
+        if sep:
+            label = label.strip() or "기본"
+            value_part = value.strip()
+        else:
+            label = "기본"
+            value_part = line
+
+        prices = [int(m.replace(",", "")) for m in _PRICE_RE.findall(value_part)]
         if prices:
             amounts.extend(prices)
+            # Use the highest price on the line as that tier's amount —
+            # rare, but lines like '성인/청소년 10,000원/8,000원' exist.
+            breakdown.append({"label": label, "amount": max(prices)})
             continue
-        if "무료" in line or "free" in line.lower():
+        if "무료" in value_part or "free" in value_part.lower():
             saw_free = True
+            breakdown.append({"label": label, "amount": 0})
+
     if not amounts and not saw_free:
-        return None, None
+        return None, None, [], "\n".join(notes_lines) or None
     if not amounts:
-        return 0, 0
-    pmin = 0 if saw_free else min(amounts)
-    pmax = max(amounts)
-    return pmin, pmax
+        pmin, pmax = 0, 0
+    else:
+        pmin = 0 if saw_free else min(amounts)
+        pmax = max(amounts)
+    notes = "\n".join(notes_lines) or None
+    return pmin, pmax, breakdown, notes
 
 
 # Register on import

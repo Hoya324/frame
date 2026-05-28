@@ -64,6 +64,15 @@ class Status(StrEnum):
     UNKNOWN = "unknown"
 
 
+class PriceTier(BaseModel):
+    """One line of an exhibition's price table (e.g. `성인: 10,000원`)."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    label: str
+    amount: int
+
+
 class RawExhibition(BaseModel):
     """Raw payload from a source extractor. All semantic fields are in `raw`."""
 
@@ -94,6 +103,8 @@ class NormalizedExhibition(BaseModel):
     fee_type: FeeType = FeeType.FREE
     price_min: int | None = None
     price_max: int | None = None
+    price_breakdown: list[PriceTier] = Field(default_factory=list)
+    price_notes: str | None = None
     activities: list[str] = Field(default_factory=list)
 
     start_date: date | None = None
@@ -103,6 +114,7 @@ class NormalizedExhibition(BaseModel):
     artist_raw_names: list[str] = Field(default_factory=list)
     venue_raw_name: str | None = None
     venue_raw_region: str | None = None
+    venue_raw_address: str | None = None
     organizer_raw_name: str | None = None
 
     artist_ids: list[str] = Field(default_factory=list)
