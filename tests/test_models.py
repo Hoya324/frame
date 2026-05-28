@@ -96,3 +96,24 @@ def test_artist_organizer_construct():
         first_seen_at=datetime.now(UTC),
         updated_at=datetime.now(UTC),
     )
+
+
+def test_venue_country_defaults_to_KR():
+    v = Venue(
+        id="v_test",
+        name="Test Venue",
+        first_seen_at=datetime.now(UTC),
+        updated_at=datetime.now(UTC),
+    )
+    assert v.country == "KR"
+
+
+def test_venue_country_can_be_overridden():
+    v = Venue(
+        id="v_test",
+        name="Test Venue",
+        country="JP",
+        first_seen_at=datetime.now(UTC),
+        updated_at=datetime.now(UTC),
+    )
+    assert v.country == "JP"

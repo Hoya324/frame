@@ -6,7 +6,7 @@ import logging
 import time
 from collections.abc import Iterable
 from datetime import date
-from typing import Protocol
+from typing import ClassVar, Protocol
 
 from crawler.models import (
     Artist,
@@ -28,12 +28,15 @@ log = logging.getLogger(__name__)
 
 class Extractor(Protocol):
     name: SourceName
+    country: ClassVar[str]
 
     def crawl(self) -> Iterable[RawExhibition]: ...
 
 
 class GeocoderProto(Protocol):
-    def geocode(self, query: str) -> tuple[float | None, float | None]: ...
+    def geocode(
+        self, query: str, country: str = "KR"
+    ) -> tuple[float | None, float | None]: ...
 
 
 def _exhibition_row(e: NormalizedExhibition) -> dict:
@@ -94,6 +97,7 @@ def _venue_row(v: Venue) -> dict:
         "id": v.id, "name": v.name, "name_en": v.name_en or "",
         "venue_type": v.venue_type.value, "region": v.region or "",
         "district": v.district or "", "address": v.address or "",
+        "country": v.country,
         "latitude": v.latitude if v.latitude is not None else "",
         "longitude": v.longitude if v.longitude is not None else "",
         "website": str(v.website) if v.website else "",
@@ -166,9 +170,13 @@ def run_source(
                 result = resolve_entities(normalized, state)
 
                 # geocode brand-new venues; geocoder failures don't drop the venue
+                country = getattr(extractor, "country", "KR")
                 for v in result.new_venues:
+                    v.country = country
                     try:
-                        lat, lng = geocoder.geocode(v.address or v.name)
+                        lat, lng = geocoder.geocode(
+                            v.address or v.name, country=country
+                        )
                         if lat is not None and lng is not None:
                             v.latitude, v.longitude = lat, lng
                     except Exception as geo_exc:
@@ -335,6 +343,7 @@ def _venue_from_row(r: dict) -> Venue | None:
         region=_opt_s(r.get("region")),
         district=_opt_s(r.get("district")),
         address=_opt_s(r.get("address")),
+        country=_s(r.get("country")) or "KR",
         latitude=_parse_float(r.get("latitude")),
         longitude=_parse_float(r.get("longitude")),
         website=_opt_s(r.get("website")),

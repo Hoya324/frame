@@ -19,7 +19,9 @@ class FakeHeaderRepo(FakeRepository):
 class NullGeocoder:
     """Geocoder stub that always returns (None, None) — no network calls."""
 
-    def geocode(self, query: str) -> tuple[float | None, float | None]:  # noqa: ARG002
+    def geocode(
+        self, query: str, country: str = "KR"  # noqa: ARG002
+    ) -> tuple[float | None, float | None]:
         return None, None
 
 

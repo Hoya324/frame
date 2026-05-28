@@ -12,7 +12,9 @@ logger = logging.getLogger(__name__)
 
 
 class GeocoderProto(Protocol):
-    def geocode(self, query: str) -> tuple[float | None, float | None]: ...
+    def geocode(
+        self, query: str, country: str = "KR"
+    ) -> tuple[float | None, float | None]: ...
 
 
 @dataclass(frozen=True)
@@ -52,8 +54,10 @@ def backfill_geocodes(repo: Repository, geocoder: GeocoderProto) -> BackfillRepo
             no_match += 1
             continue
 
+        country = str(v.get("country") or "KR").strip() or "KR"
+
         try:
-            lat, lng = geocoder.geocode(query)
+            lat, lng = geocoder.geocode(query, country=country)
         except Exception:
             logger.exception("venue %s: geocoder raised an error", venue_id)
             errors += 1

@@ -1,6 +1,7 @@
 from datetime import date
 
 import pytest
+from freezegun import freeze_time
 
 from crawler.normalize.dates import parse_date, parse_date_range
 
@@ -69,3 +70,44 @@ def test_parse_date_range_korean_weekday_suffix(
     start, end = parse_date_range(raw)
     assert start == expected_start, f"start mismatch: {start!r}"
     assert end == expected_end, f"end mismatch: {end!r}"
+
+
+def test_parse_date_japanese_year_month_day():
+    assert parse_date("2026年5月10日") == date(2026, 5, 10)
+    assert parse_date("2026年12月3日") == date(2026, 12, 3)
+
+
+def test_parse_date_range_japanese():
+    s, e = parse_date_range("2026年5月10日 ～ 2026年7月3日")
+    assert s == date(2026, 5, 10)
+    assert e == date(2026, 7, 3)
+
+
+def test_parse_date_range_japanese_compact_separator():
+    """Japanese sites also use 〜 (U+301C) and － (full-width hyphen)."""
+    s, e = parse_date_range("2026/5/10〜2026/7/3")
+    assert s == date(2026, 5, 10)
+    assert e == date(2026, 7, 3)
+
+
+def test_parse_date_range_english_with_year_at_end():
+    """Tokyo Art Beat sometimes renders 'May 10 – Jul 3, 2026'."""
+    s, e = parse_date_range("May 10 – Jul 3, 2026")
+    assert s == date(2026, 5, 10)
+    assert e == date(2026, 7, 3)
+
+
+@freeze_time("2030-01-15")
+def test_parse_date_range_english_year_at_end_uses_explicit_right_year():
+    """If today is 2030 but the string says ',2026', the start must be 2026."""
+    s, e = parse_date_range("May 10 – Jul 3, 2026")
+    assert s == date(2026, 5, 10), f"start: got {s}, expected 2026-05-10"
+    assert e == date(2026, 7, 3), f"end: got {e}, expected 2026-07-03"
+
+
+def test_parse_date_korean_still_works():
+    """Regression guard: Korean patterns must keep parsing identically."""
+    assert parse_date("2026년 5월 10일") == date(2026, 5, 10)
+    s, e = parse_date_range("2026.05.10 ~ 2026.07.03")
+    assert s == date(2026, 5, 10)
+    assert e == date(2026, 7, 3)

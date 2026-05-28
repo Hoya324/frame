@@ -36,6 +36,9 @@ HEADERS: dict[SheetName, list[str]] = {
         "id", "name", "name_en", "venue_type", "region", "district",
         "address", "latitude", "longitude", "website", "open_hours_default",
         "sources", "first_seen_at", "updated_at",
+        # Added 2026-05-28 (japan expansion). Existing sheets get this
+        # appended via _plan_header_write's prefix-append branch.
+        "country",
     ],
     SheetName.ORGANIZERS: [
         "id", "name", "name_en", "name_normalized", "organizer_type",

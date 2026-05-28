@@ -162,6 +162,7 @@ class Venue(BaseModel):
     region: str | None = None
     district: str | None = None
     address: str | None = None
+    country: str = "KR"
     latitude: float | None = None
     longitude: float | None = None
     website: HttpUrl | None = None

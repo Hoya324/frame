@@ -2,8 +2,11 @@
 
 from __future__ import annotations
 
+from datetime import UTC, datetime
+
 from crawler.enrich.backfill import backfill_geocodes
 from crawler.sinks.base import SheetName
+from crawler.sinks.fake import FakeRepository
 
 # ---------------------------------------------------------------------------
 # Minimal geocoder stubs
@@ -17,7 +20,7 @@ class FixedGeocoder:
         self._lng = lng
         self.calls: list[str] = []
 
-    def geocode(self, query: str) -> tuple[float | None, float | None]:
+    def geocode(self, query: str, country: str = "KR") -> tuple[float | None, float | None]:
         self.calls.append(query)
         return self._lat, self._lng
 
@@ -28,7 +31,7 @@ class RaisingGeocoder:
     def __init__(self) -> None:
         self.calls: list[str] = []
 
-    def geocode(self, query: str) -> tuple[float | None, float | None]:
+    def geocode(self, query: str, country: str = "KR") -> tuple[float | None, float | None]:
         self.calls.append(query)
         raise RuntimeError("geocoder exploded")
 
@@ -144,7 +147,7 @@ def test_backfill_report_is_correct_with_mixed_venues(header_repo):
     _seed_venue(header_repo, venue_id="v3", name="", address="", latitude="", longitude="")
 
     class MixedGeocoder:
-        def geocode(self, query: str) -> tuple[float | None, float | None]:
+        def geocode(self, query: str, country: str = "KR") -> tuple[float | None, float | None]:
             if query:
                 return 37.5, 127.0
             return None, None
@@ -177,3 +180,62 @@ def test_backfill_single_patch_rows_call(header_repo, monkeypatch):
 
     assert len(patch_calls) == 1  # exactly one batch
     assert len(patch_calls[0]) == 2  # both venues in the same batch
+
+
+# ---------------------------------------------------------------------------
+# Country-aware geocoder tests (Task 8)
+# ---------------------------------------------------------------------------
+
+class _RecordingGeocoder:
+    def __init__(self):
+        self.calls: list[tuple[str, str]] = []
+
+    def geocode(
+        self, query: str, country: str = "KR"
+    ) -> tuple[float | None, float | None]:
+        self.calls.append((query, country))
+        return 35.6, 139.7
+
+
+def test_backfill_passes_country_to_geocoder():
+    repo = FakeRepository()
+    now = datetime.now(UTC).isoformat()
+    # Seed a JP venue with empty coords
+    repo.append_rows(SheetName.VENUES, [
+        {
+            "id": "v_jp_1",
+            "name": "東京都写真美術館",
+            "venue_type": "museum",
+            "address": "東京都目黒区三田1-13-3",
+            "country": "JP",
+            "first_seen_at": now,
+            "updated_at": now,
+        },
+    ])
+
+    g = _RecordingGeocoder()
+    report = backfill_geocodes(repo, g)
+    assert report.geocoded == 1
+    assert g.calls == [("東京都目黒区三田1-13-3", "JP")]
+
+
+def test_backfill_defaults_country_to_KR_for_legacy_rows():
+    """Existing KR venues with no country column still geocode via KR backend."""
+    repo = FakeRepository()
+    now = datetime.now(UTC).isoformat()
+    repo.append_rows(SheetName.VENUES, [
+        {
+            "id": "v_kr_legacy",
+            "name": "서울 어떤 갤러리",
+            "venue_type": "gallery",
+            "address": "서울특별시 종로구",
+            # no "country" column
+            "first_seen_at": now,
+            "updated_at": now,
+        },
+    ])
+
+    g = _RecordingGeocoder()
+    report = backfill_geocodes(repo, g)
+    assert report.geocoded == 1
+    assert g.calls == [("서울특별시 종로구", "KR")]

@@ -3,13 +3,14 @@
 from __future__ import annotations
 
 from collections.abc import Iterable
-from typing import Protocol
+from typing import ClassVar, Protocol
 
 from crawler.models import RawExhibition, SourceName
 
 
 class SourceExtractor(Protocol):
     name: SourceName
+    country: ClassVar[str]  # ISO 3166-1 alpha-2; defaults to "KR" via pipeline fallback
 
     def crawl(self) -> Iterable[RawExhibition]: ...
 

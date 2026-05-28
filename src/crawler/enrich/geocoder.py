@@ -33,7 +33,9 @@ class KakaoGeocoder:
         r.raise_for_status()
         return r.json()
 
-    def geocode(self, query: str) -> tuple[float | None, float | None]:
+    def geocode(
+        self, query: str, country: str = "KR"  # noqa: ARG002
+    ) -> tuple[float | None, float | None]:
         if not query:
             return None, None
         # Try address search first
