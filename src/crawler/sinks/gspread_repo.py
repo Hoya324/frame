@@ -72,27 +72,53 @@ class GspreadRepository:
         ws.append_rows(values, value_input_option="RAW")
 
     def patch_rows(self, sheet: SheetName, rows: list[dict]) -> None:
+        """Update existing rows in-place by `id`.
+
+        Behaves as a true partial patch: the incoming dict only needs to carry
+        the fields you want to change. Any unmentioned column is preserved
+        from the current sheet value. (Earlier versions reused
+        `_serialize_row`, which filled missing keys with empty strings and so
+        wiped out untouched columns — e.g. backfill-geocodes nuking
+        `first_seen_at` / `name` while patching coords.)
+        """
         if not rows:
             return
         ws = self._ws(sheet)
         headers = self._headers(sheet)
         existing = ws.get_all_values()
-        # row 1 is headers; find id column index
         id_col = headers.index("id")
-        row_index_by_id = {
-            row[id_col]: i + 2  # +2: 1-based, skip header row
-            for i, row in enumerate(existing[1:])
-            if len(row) > id_col
-        }
+        row_index_by_id: dict[str, int] = {}
+        existing_by_id: dict[str, list[str]] = {}
+        for i, row in enumerate(existing[1:]):
+            if len(row) <= id_col:
+                continue
+            rid = row[id_col]
+            if not rid:
+                continue
+            row_index_by_id[rid] = i + 2  # 1-based, skip header
+            existing_by_id[rid] = row
+
         updates: list[dict] = []
         for r in rows:
             row_id = r["id"]
             row_num = row_index_by_id.get(row_id)
             if row_num is None:
                 raise KeyError(f"unknown id {row_id} in {sheet.value}")
+            current = existing_by_id[row_id]
+            # Pad current to header length so a short sheet row doesn't trim
+            # the merged output.
+            if len(current) < len(headers):
+                current = current + [""] * (len(headers) - len(current))
+            merged_values = []
+            for idx, h in enumerate(headers):
+                if h in r:
+                    v = r[h]
+                    merged_values.append("" if v is None else _stringify(v))
+                else:
+                    merged_values.append(current[idx])
             updates.append({
                 "range": f"A{row_num}:{_col_letter(len(headers))}{row_num}",
-                "values": [_serialize_row(headers, r)],
+                "values": [merged_values],
             })
         ws.batch_update(updates, value_input_option="RAW")
 

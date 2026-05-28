@@ -240,20 +240,43 @@ def _hydrate(repo: Repository, sheet: SheetName, builder, source_name: str) -> l
     return out
 
 
+def _s(value) -> str:
+    """Coerce a cell value to a stripped string.
+
+    gspread's `get_all_records` auto-parses numeric-looking cells into int/float
+    (e.g. a venue named '2025' or a numeric latitude), so the bare `.strip()`
+    pattern blows up with `AttributeError`. Going through `str()` keeps the
+    hydrators tolerant of whatever shape gspread hands us.
+    """
+    if value is None:
+        return ""
+    return str(value).strip()
+
+
+def _opt_s(value) -> str | None:
+    s = _s(value)
+    return s or None
+
+
 def _parse_dt(value):
     """Return a datetime parsed from an ISO string, or None for blank input."""
     from datetime import datetime
-    if value is None:
-        return None
-    s = str(value).strip()
+    s = _s(value)
     if not s:
         return None
     return datetime.fromisoformat(s)
 
 
+def _parse_float(value):
+    s = _s(value)
+    if not s:
+        return None
+    return float(s)
+
+
 def _artist_from_row(r: dict) -> Artist | None:
-    row_id = (r.get("id") or "").strip()
-    name = (r.get("name") or "").strip()
+    row_id = _s(r.get("id"))
+    name = _s(r.get("name"))
     first_seen = _parse_dt(r.get("first_seen_at"))
     updated = _parse_dt(r.get("updated_at"))
     if not row_id or not name or first_seen is None or updated is None:
@@ -261,12 +284,12 @@ def _artist_from_row(r: dict) -> Artist | None:
     return Artist(
         id=row_id,
         name=name,
-        name_en=r.get("name_en") or None,
-        name_normalized=r.get("name_normalized") or name,
-        bio=r.get("bio") or None,
-        instagram=r.get("instagram") or None,
-        website=r.get("website") or None,
-        sources=[s for s in (r.get("sources") or "").split(",") if s],
+        name_en=_opt_s(r.get("name_en")),
+        name_normalized=_s(r.get("name_normalized")) or name,
+        bio=_opt_s(r.get("bio")),
+        instagram=_opt_s(r.get("instagram")),
+        website=_opt_s(r.get("website")),
+        sources=[s for s in _s(r.get("sources")).split(",") if s],
         first_seen_at=first_seen,
         updated_at=updated,
     )
@@ -274,8 +297,8 @@ def _artist_from_row(r: dict) -> Artist | None:
 
 def _venue_from_row(r: dict) -> Venue | None:
     from crawler.models import VenueType
-    row_id = (r.get("id") or "").strip()
-    name = (r.get("name") or "").strip()
+    row_id = _s(r.get("id"))
+    name = _s(r.get("name"))
     first_seen = _parse_dt(r.get("first_seen_at"))
     updated = _parse_dt(r.get("updated_at"))
     if not row_id or not name or first_seen is None or updated is None:
@@ -283,16 +306,16 @@ def _venue_from_row(r: dict) -> Venue | None:
     return Venue(
         id=row_id,
         name=name,
-        name_en=r.get("name_en") or None,
-        venue_type=VenueType(r.get("venue_type") or "other"),
-        region=r.get("region") or None,
-        district=r.get("district") or None,
-        address=r.get("address") or None,
-        latitude=float(r["latitude"]) if r.get("latitude") not in (None, "") else None,
-        longitude=float(r["longitude"]) if r.get("longitude") not in (None, "") else None,
-        website=r.get("website") or None,
-        open_hours_default=r.get("open_hours_default") or None,
-        sources=[s for s in (r.get("sources") or "").split(",") if s],
+        name_en=_opt_s(r.get("name_en")),
+        venue_type=VenueType(_s(r.get("venue_type")) or "other"),
+        region=_opt_s(r.get("region")),
+        district=_opt_s(r.get("district")),
+        address=_opt_s(r.get("address")),
+        latitude=_parse_float(r.get("latitude")),
+        longitude=_parse_float(r.get("longitude")),
+        website=_opt_s(r.get("website")),
+        open_hours_default=_opt_s(r.get("open_hours_default")),
+        sources=[s for s in _s(r.get("sources")).split(",") if s],
         first_seen_at=first_seen,
         updated_at=updated,
     )
@@ -300,8 +323,8 @@ def _venue_from_row(r: dict) -> Venue | None:
 
 def _organizer_from_row(r: dict) -> Organizer | None:
     from crawler.models import OrganizerType
-    row_id = (r.get("id") or "").strip()
-    name = (r.get("name") or "").strip()
+    row_id = _s(r.get("id"))
+    name = _s(r.get("name"))
     first_seen = _parse_dt(r.get("first_seen_at"))
     updated = _parse_dt(r.get("updated_at"))
     if not row_id or not name or first_seen is None or updated is None:
@@ -309,11 +332,11 @@ def _organizer_from_row(r: dict) -> Organizer | None:
     return Organizer(
         id=row_id,
         name=name,
-        name_en=r.get("name_en") or None,
-        name_normalized=r.get("name_normalized") or name,
-        organizer_type=OrganizerType(r.get("organizer_type") or "other"),
-        website=r.get("website") or None,
-        sources=[s for s in (r.get("sources") or "").split(",") if s],
+        name_en=_opt_s(r.get("name_en")),
+        name_normalized=_s(r.get("name_normalized")) or name,
+        organizer_type=OrganizerType(_s(r.get("organizer_type")) or "other"),
+        website=_opt_s(r.get("website")),
+        sources=[s for s in _s(r.get("sources")).split(",") if s],
         first_seen_at=first_seen,
         updated_at=updated,
     )
