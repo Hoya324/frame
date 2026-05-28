@@ -112,6 +112,22 @@ def run_all_cmd() -> None:
         sys.exit(1)
 
 
+@app.command("backfill-geocodes")
+def backfill_geocodes_cmd() -> None:
+    """Re-geocode every venue with missing coordinates (one-time recovery)."""
+    from crawler.enrich.backfill import backfill_geocodes
+
+    repo = _build_repo()
+    geocoder = _build_geocoder()
+    report = backfill_geocodes(repo, geocoder)
+    typer.echo(
+        f"backfill: total={report.total_venues}, needed={report.needed_geocoding}, "
+        f"geocoded={report.geocoded}, no_match={report.no_match}, errors={report.errors}"
+    )
+    if report.errors > 0 and report.geocoded == 0:
+        raise typer.Exit(code=1)
+
+
 def main() -> None:  # pragma: no cover
     app()
 
