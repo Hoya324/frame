@@ -1,13 +1,13 @@
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 from freezegun import freeze_time
 
 from crawler.models import (
+    ExhibitionType,
+    Medium,
     NormalizedExhibition,
     SourceName,
     Status,
-    Medium,
-    ExhibitionType,
 )
 from crawler.resolver.entities import EntityState, resolve_entities
 
@@ -24,8 +24,8 @@ def _exh(**over) -> NormalizedExhibition:
         venue_raw_name="류가헌",
         organizer_raw_name=None,
         status=Status.UNKNOWN,
-        crawled_at=datetime.now(timezone.utc),
-        updated_at=datetime.now(timezone.utc),
+        crawled_at=datetime.now(UTC),
+        updated_at=datetime.now(UTC),
     )
     base.update(over)
     return NormalizedExhibition.model_validate(base)
@@ -54,8 +54,8 @@ def test_resolver_reuses_existing_artist_by_normalized_name():
         name="김작가",
         name_normalized=normalize_name("김작가"),
         sources=["naver"],
-        first_seen_at=datetime.now(timezone.utc),
-        updated_at=datetime.now(timezone.utc),
+        first_seen_at=datetime.now(UTC),
+        updated_at=datetime.now(UTC),
     )
     state = EntityState(artists=[existing], venues=[], organizers=[], overrides=[])
     out = resolve_entities(_exh(), state)
@@ -74,8 +74,8 @@ def test_resolver_applies_override_for_artist_alias():
         name="김주현",
         name_normalized=normalize_name("김주현"),
         sources=["naver"],
-        first_seen_at=datetime.now(timezone.utc),
-        updated_at=datetime.now(timezone.utc),
+        first_seen_at=datetime.now(UTC),
+        updated_at=datetime.now(UTC),
     )
     override = {
         "entity_type": "artist",

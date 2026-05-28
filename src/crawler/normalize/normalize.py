@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 from crawler.models import (
     NormalizedExhibition,
@@ -52,7 +52,7 @@ def normalize_exhibition(raw_payload: RawExhibition) -> NormalizedExhibition:
     price_max = raw.get("price_max")
     fee_type = map_fee_type(_opt(raw, "fee_text"), price_min, price_max)
 
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
 
     return NormalizedExhibition(
         id=exhibition_id(

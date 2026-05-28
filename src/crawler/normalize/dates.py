@@ -7,7 +7,6 @@ from datetime import date
 
 from dateutil import parser as dateparser
 
-
 _KOREAN_PATTERN = re.compile(r"(\d{4})\s*년\s*(\d{1,2})\s*월\s*(\d{1,2})\s*일")
 # A plain hyphen used as range separator must be surrounded by spaces to avoid
 # splitting ISO date strings like "2026-05-19". Tilde and em/en-dashes may

@@ -2,11 +2,11 @@
 
 from __future__ import annotations
 
-from enum import Enum
+from enum import StrEnum
 from typing import Protocol
 
 
-class SheetName(str, Enum):
+class SheetName(StrEnum):
     EXHIBITIONS = "Exhibitions"
     ARTISTS = "Artists"
     VENUES = "Venues"

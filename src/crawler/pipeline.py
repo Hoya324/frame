@@ -4,8 +4,9 @@ from __future__ import annotations
 
 import logging
 import time
+from collections.abc import Iterable
 from datetime import date
-from typing import Iterable, Protocol
+from typing import Protocol
 
 from crawler.models import (
     Artist,
@@ -21,7 +22,6 @@ from crawler.reporter import SourceReport
 from crawler.resolver.entities import EntityState, resolve_entities
 from crawler.sinks.base import Repository, SheetName
 from crawler.sinks.upsert import UpsertEngine
-
 
 log = logging.getLogger(__name__)
 
@@ -174,7 +174,9 @@ def run_source(
     new = updated = unchanged = 0
     if exh_rows:
         rep = engine.upsert(SheetName.EXHIBITIONS, exh_rows)
-        new += rep.new; updated += rep.updated; unchanged += rep.unchanged
+        new += rep.new
+        updated += rep.updated
+        unchanged += rep.unchanged
 
     return SourceReport(
         name=name,
@@ -209,6 +211,7 @@ def _artist_from_row(r: dict) -> Artist:
 
 def _venue_from_row(r: dict) -> Venue:
     from datetime import datetime
+
     from crawler.models import VenueType
     return Venue(
         id=r["id"],
@@ -230,6 +233,7 @@ def _venue_from_row(r: dict) -> Venue:
 
 def _organizer_from_row(r: dict) -> Organizer:
     from datetime import datetime
+
     from crawler.models import OrganizerType
     return Organizer(
         id=r["id"],

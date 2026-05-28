@@ -1,4 +1,4 @@
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 from freezegun import freeze_time
 
@@ -44,7 +44,7 @@ def test_normalize_artmap_row():
     assert normalized.artist_raw_names == ["김작가"]
     assert normalized.start_date.isoformat() == "2026-06-01"
     assert normalized.end_date.isoformat() == "2026-07-01"
-    assert normalized.crawled_at == datetime(2026, 5, 28, 12, 0, tzinfo=timezone.utc)
+    assert normalized.crawled_at == datetime(2026, 5, 28, 12, 0, tzinfo=UTC)
     assert normalized.status is Status.UNKNOWN  # status set in a later stage
     assert len(normalized.id) == 12
     assert normalized.warnings == []

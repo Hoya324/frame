@@ -2,7 +2,8 @@
 
 from __future__ import annotations
 
-from typing import Iterable, Protocol, Type
+from collections.abc import Iterable
+from typing import Protocol
 
 from crawler.models import RawExhibition, SourceName
 
@@ -13,18 +14,18 @@ class SourceExtractor(Protocol):
     def crawl(self) -> Iterable[RawExhibition]: ...
 
 
-_REGISTRY: dict[SourceName, Type[SourceExtractor]] = {}
+_REGISTRY: dict[SourceName, type[SourceExtractor]] = {}
 
 
-def register_source(name: SourceName, cls: Type[SourceExtractor]) -> None:
+def register_source(name: SourceName, cls: type[SourceExtractor]) -> None:
     _REGISTRY[name] = cls
 
 
-def get_source(name: SourceName) -> Type[SourceExtractor]:
+def get_source(name: SourceName) -> type[SourceExtractor]:
     if name not in _REGISTRY:
         raise KeyError(f"source not registered: {name.value}")
     return _REGISTRY[name]
 
 
-def all_sources() -> dict[SourceName, Type[SourceExtractor]]:
+def all_sources() -> dict[SourceName, type[SourceExtractor]]:
     return dict(_REGISTRY)

@@ -3,12 +3,12 @@
 from __future__ import annotations
 
 from datetime import date, datetime
-from enum import Enum
+from enum import StrEnum
 
 from pydantic import BaseModel, ConfigDict, Field, HttpUrl
 
 
-class SourceName(str, Enum):
+class SourceName(StrEnum):
     ARTMAP = "artmap"
     NAVER = "naver"
     PHOTO_SEMA = "photo_sema"
@@ -16,14 +16,14 @@ class SourceName(str, Enum):
     KOBA = "koba"
 
 
-class Medium(str, Enum):
+class Medium(StrEnum):
     PHOTO = "photo"
     VIDEO = "video"
     GEAR = "gear"
     MIXED = "mixed"
 
 
-class ExhibitionType(str, Enum):
+class ExhibitionType(StrEnum):
     SOLO = "solo"
     GROUP = "group"
     CURATED = "curated"
@@ -32,13 +32,13 @@ class ExhibitionType(str, Enum):
     PERMANENT = "permanent"
 
 
-class FeeType(str, Enum):
+class FeeType(StrEnum):
     FREE = "free"
     PAID = "paid"
     PARTIAL = "partial"
 
 
-class VenueType(str, Enum):
+class VenueType(StrEnum):
     MUSEUM = "museum"
     GALLERY = "gallery"
     CAFE = "cafe"
@@ -47,7 +47,7 @@ class VenueType(str, Enum):
     OTHER = "other"
 
 
-class OrganizerType(str, Enum):
+class OrganizerType(StrEnum):
     MUSEUM = "museum"
     GALLERY = "gallery"
     FOUNDATION = "foundation"
@@ -57,7 +57,7 @@ class OrganizerType(str, Enum):
     OTHER = "other"
 
 
-class Status(str, Enum):
+class Status(StrEnum):
     UPCOMING = "upcoming"
     ONGOING = "ongoing"
     PAST = "past"

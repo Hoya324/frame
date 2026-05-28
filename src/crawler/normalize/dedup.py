@@ -5,7 +5,6 @@ from __future__ import annotations
 import hashlib
 from datetime import date
 
-
 _HASH_LEN = 12
 
 

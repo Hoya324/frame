@@ -12,13 +12,11 @@ import httpx
 import respx
 from freezegun import freeze_time
 
-from crawler.models import SourceName
 from crawler.pipeline import run_source
 from crawler.sinks.base import SheetName
 from crawler.sinks.fake import FakeRepository
 from crawler.sinks.init_sheets import init_sheets
 from crawler.sources.artmap import ArtmapExtractor
-
 
 FIXTURE = Path(__file__).parent.parent / "fixtures" / "artmap" / "list_page_1.html"
 

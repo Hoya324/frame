@@ -26,7 +26,7 @@ from __future__ import annotations
 
 import re
 import time
-from typing import Iterable
+from collections.abc import Iterable
 
 import httpx
 from selectolax.parser import HTMLParser
@@ -34,7 +34,6 @@ from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_ex
 
 from crawler.models import RawExhibition, SourceName
 from crawler.sources.base import register_source
-
 
 _DATA_URL = "https://art-map.co.kr/data/new_exhibition.php"
 _BASE = "https://art-map.co.kr"

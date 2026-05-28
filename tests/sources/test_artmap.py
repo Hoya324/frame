@@ -7,7 +7,6 @@ import respx
 from crawler.models import SourceName
 from crawler.sources.artmap import ArtmapExtractor
 
-
 FIXTURE_DIR = Path(__file__).parent.parent / "fixtures" / "artmap"
 
 

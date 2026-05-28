@@ -1,11 +1,9 @@
-from datetime import date, datetime, timezone
-from typing import Iterable
+from collections.abc import Iterable
+from datetime import date
 
 from freezegun import freeze_time
 
 from crawler.models import (
-    ExhibitionType,
-    Medium,
     RawExhibition,
     SourceName,
     Status,

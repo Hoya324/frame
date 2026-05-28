@@ -1,10 +1,10 @@
 from datetime import date
 
 from crawler.normalize.dedup import (
-    exhibition_id,
     artist_id,
-    venue_id,
+    exhibition_id,
     organizer_id,
+    venue_id,
 )
 
 

@@ -3,14 +3,14 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 from crawler.models import (
     Artist,
     NormalizedExhibition,
     Organizer,
-    Venue,
     OrganizerType,
+    Venue,
     VenueType,
 )
 from crawler.normalize.categories import map_organizer_type, map_venue_type
@@ -47,7 +47,7 @@ def resolve_entities(
     exh: NormalizedExhibition,
     state: EntityState,
 ) -> ResolveResult:
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
     source = exh.source.value
 
     # --- Artists (N:M) ---
@@ -132,7 +132,10 @@ def resolve_entities(
                         id=new_id,
                         name=exh.organizer_raw_name,
                         name_normalized=norm,
-                        organizer_type=map_organizer_type(exh.organizer_raw_name) or OrganizerType.OTHER,
+                        organizer_type=(
+                            map_organizer_type(exh.organizer_raw_name)
+                            or OrganizerType.OTHER
+                        ),
                         sources=[source],
                         first_seen_at=now,
                         updated_at=now,

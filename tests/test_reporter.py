@@ -1,11 +1,11 @@
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 from crawler.reporter import RunReport, SourceReport, render_markdown
 
 
 def test_render_markdown_includes_table_rows():
     report = RunReport(
-        started_at=datetime(2026, 5, 28, 18, 0, tzinfo=timezone.utc),
+        started_at=datetime(2026, 5, 28, 18, 0, tzinfo=UTC),
         sources=[
             SourceReport(
                 name="artmap", extracted=234, new=12, updated=45,
@@ -26,7 +26,7 @@ def test_render_markdown_includes_table_rows():
 
 def test_render_markdown_no_failures_section_when_clean():
     report = RunReport(
-        started_at=datetime(2026, 5, 28, 18, 0, tzinfo=timezone.utc),
+        started_at=datetime(2026, 5, 28, 18, 0, tzinfo=UTC),
         sources=[
             SourceReport(name="artmap", extracted=1, new=1, updated=0,
                          unchanged=0, errors=0, duration_s=1.0, failure=None),

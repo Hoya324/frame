@@ -5,7 +5,6 @@ from __future__ import annotations
 import re
 import unicodedata
 
-
 _ZERO_WIDTH = re.compile(r"[​-‍﻿]")
 _WS = re.compile(r"\s+")
 _POSTAL_PREFIX = re.compile(r"^\(\s*\d{3,5}\s*\)\s*")

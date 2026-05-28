@@ -1,4 +1,4 @@
-from datetime import date, datetime, timezone
+from datetime import UTC, date, datetime
 
 from crawler.models import (
     Artist,
@@ -44,8 +44,8 @@ def _make_normalized() -> NormalizedExhibition:
         popularity_score=None,
         featured=False,
         status=Status.UPCOMING,
-        crawled_at=datetime.now(timezone.utc),
-        updated_at=datetime.now(timezone.utc),
+        crawled_at=datetime.now(UTC),
+        updated_at=datetime.now(UTC),
         warnings=[],
     )
 
@@ -72,8 +72,8 @@ def test_venue_requires_name():
         venue_type=VenueType.GALLERY,
         region="서울",
         sources=["artmap"],
-        first_seen_at=datetime.now(timezone.utc),
-        updated_at=datetime.now(timezone.utc),
+        first_seen_at=datetime.now(UTC),
+        updated_at=datetime.now(UTC),
     )
     assert v.name == "류가헌"
 
@@ -84,8 +84,8 @@ def test_artist_organizer_construct():
         name="김작가",
         name_normalized="김작가",
         sources=["artmap"],
-        first_seen_at=datetime.now(timezone.utc),
-        updated_at=datetime.now(timezone.utc),
+        first_seen_at=datetime.now(UTC),
+        updated_at=datetime.now(UTC),
     )
     Organizer(
         id="y",
@@ -93,6 +93,6 @@ def test_artist_organizer_construct():
         name_normalized="한국전파진흥협회",
         organizer_type=OrganizerType.ASSOCIATION,
         sources=["koba"],
-        first_seen_at=datetime.now(timezone.utc),
-        updated_at=datetime.now(timezone.utc),
+        first_seen_at=datetime.now(UTC),
+        updated_at=datetime.now(UTC),
     )

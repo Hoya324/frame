@@ -7,7 +7,6 @@ import os
 import httpx
 from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
 
-
 _ADDRESS_URL = "https://dapi.kakao.com/v2/local/search/address.json"
 _KEYWORD_URL = "https://dapi.kakao.com/v2/local/search/keyword.json"
 
@@ -20,7 +19,7 @@ class KakaoGeocoder:
         )
 
     @classmethod
-    def from_env(cls) -> "KakaoGeocoder":
+    def from_env(cls) -> KakaoGeocoder:
         return cls(api_key=os.environ["KAKAO_REST_API_KEY"])
 
     @retry(

@@ -1,7 +1,7 @@
 from crawler.normalize.text import (
     clean_whitespace,
-    normalize_name,
     normalize_address,
+    normalize_name,
 )
 
 

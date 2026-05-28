@@ -39,4 +39,8 @@ def test_cli_dry_run_artmap_no_network(monkeypatch):
     runner = CliRunner()
     result = runner.invoke(app, ["dry-run", "artmap"])
     assert result.exit_code == 0, result.stdout
-    assert "달과 도시" in result.stdout or '"title": "A"' in result.stdout or "title" in result.stdout
+    assert (
+        "달과 도시" in result.stdout
+        or '"title": "A"' in result.stdout
+        or "title" in result.stdout
+    )

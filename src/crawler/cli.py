@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import json
 import sys
-from datetime import date, datetime, timezone
+from datetime import UTC, date, datetime
 
 import typer
 
@@ -12,15 +12,13 @@ from crawler.models import SourceName
 from crawler.normalize import normalize_exhibition
 from crawler.pipeline import run_source
 from crawler.reporter import RunReport, render_markdown
-from crawler.sinks.base import SheetName
 from crawler.sources.base import get_source
-
 
 app = typer.Typer(help="Korean photo/video/camera exhibition crawler.")
 
 
 def _today() -> date:
-    return datetime.now(timezone.utc).date()
+    return datetime.now(UTC).date()
 
 
 def _build_repo():
@@ -48,7 +46,7 @@ def run_cmd(source: str) -> None:
     try:
         src = SourceName(source)
     except ValueError as e:
-        raise typer.BadParameter(str(e))
+        raise typer.BadParameter(str(e)) from e
     extractor_cls = get_source(src)
     report = run_source(
         extractor=extractor_cls(),
@@ -56,7 +54,7 @@ def run_cmd(source: str) -> None:
         geocoder=_build_geocoder(),
         today=_today(),
     )
-    run_report = RunReport(started_at=datetime.now(timezone.utc), sources=[report])
+    run_report = RunReport(started_at=datetime.now(UTC), sources=[report])
     typer.echo(render_markdown(run_report))
     if report.failure:
         raise typer.Exit(code=1)
@@ -68,7 +66,7 @@ def dry_run_cmd(source: str) -> None:
     try:
         src = SourceName(source)
     except ValueError as e:
-        raise typer.BadParameter(str(e))
+        raise typer.BadParameter(str(e)) from e
     extractor_cls = get_source(src)
     extractor = extractor_cls()
     for raw in extractor.crawl():
@@ -82,8 +80,8 @@ def dry_run_cmd(source: str) -> None:
 @app.command("run-all")
 def run_all_cmd() -> None:
     """Crawl every registered source. Per-source failures are isolated."""
-    from crawler.sources.base import all_sources
     from crawler.reporter import SourceReport
+    from crawler.sources.base import all_sources
     repo = _build_repo()
     geocoder = _build_geocoder()
     reports = []
@@ -102,7 +100,7 @@ def run_all_cmd() -> None:
                 failure=f"{type(exc).__name__}: {exc}",
             )
         reports.append(report)
-    run_report = RunReport(started_at=datetime.now(timezone.utc), sources=reports)
+    run_report = RunReport(started_at=datetime.now(UTC), sources=reports)
     md = render_markdown(run_report)
     typer.echo(md)
     # also dump to out/report.md for CI artifacts

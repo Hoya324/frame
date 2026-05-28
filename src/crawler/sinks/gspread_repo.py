@@ -14,7 +14,6 @@ from google.oauth2.service_account import Credentials
 
 from crawler.sinks.base import SheetName
 
-
 _SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 
 
@@ -27,7 +26,7 @@ class GspreadRepository:
         self._cache_headers: dict[SheetName, list[str]] = {}
 
     @classmethod
-    def from_env(cls) -> "GspreadRepository":
+    def from_env(cls) -> GspreadRepository:
         sheet_id = os.environ["SHEET_ID"]
         sa_json = os.environ["GOOGLE_SERVICE_ACCOUNT_JSON"]
         return cls(sheet_id, sa_json)
