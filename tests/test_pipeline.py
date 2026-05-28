@@ -99,3 +99,63 @@ def test_run_source_isolates_item_failure():
     assert report.new == 2
     assert report.errors == 1
     assert report.failure is None  # not promoted to source failure
+
+
+@freeze_time("2026-06-15")
+def test_run_source_recomputes_status_for_stale_rows():
+    """A pre-existing exhibition still marked 'upcoming' gets recomputed to 'past'."""
+    repo = _FakeHeaderRepo()
+    init_sheets(repo)
+
+    # Pre-seed EXHIBITIONS with a past exhibition still labelled upcoming.
+    # Its date range was 2026-01-01 ~ 2026-01-31 (ended 4.5 months ago).
+    stale_row = {
+        "id": "stale001",
+        "source": "artmap",
+        "status": Status.UPCOMING.value,   # WRONG – should be past
+        "source_url": "https://art-map.co.kr/exhibition/view.php?idx=999",
+        "title": "Stale Exhibition",
+        "title_en": "",
+        "description": "",
+        "poster_image_url": "",
+        "medium": "photo",
+        "exhibition_type": "solo",
+        "genre_tags": "",
+        "fee_type": "free",
+        "price_min": "",
+        "price_max": "",
+        "activities": "",
+        "start_date": "2026-01-01",
+        "end_date": "2026-01-31",
+        "open_hours": "",
+        "artist_ids": "",
+        "venue_id": "",
+        "organizer_id": "",
+        "popularity_score": "",
+        "featured": "FALSE",
+        "crawled_at": "2026-01-01T00:00:00+00:00",
+        "updated_at": "2026-01-01T00:00:00+00:00",
+        "_warnings": "",
+    }
+    repo.append_rows(SheetName.EXHIBITIONS, [stale_row])
+
+    # Crawl a brand-new exhibition; the stale one is NOT in today's batch.
+    extractor = _DummyExtractor([_raw(42, "Brand New")])
+
+    report = run_source(
+        extractor=extractor,
+        repo=repo,
+        geocoder=_NullGeocoder(),
+        today=date(2026, 6, 15),
+    )
+
+    assert report.failure is None
+
+    rows_by_id = {r["id"]: r for r in repo.read_rows(SheetName.EXHIBITIONS)}
+    # The stale row must now be past
+    assert rows_by_id["stale001"]["status"] == Status.PAST.value
+    # The new exhibition is upcoming (2026-06-01 ~ 2026-07-01, today = 2026-06-15 → ongoing)
+    brand_new = [r for r in rows_by_id.values() if r["title"] == "Brand New"][0]
+    assert brand_new["status"] == Status.ONGOING.value
+    # The updated count must include the status-only patch for stale001
+    assert report.updated >= 1
