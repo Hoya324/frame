@@ -8,7 +8,7 @@ from crawler.models import (
     SourceName,
     Status,
 )
-from crawler.pipeline import run_source
+from crawler.pipeline import recompute_stale_status, run_source
 from crawler.reporter import SourceReport
 from crawler.sinks.base import SheetName
 from tests.conftest import FakeHeaderRepo, NullGeocoder
@@ -291,3 +291,66 @@ def test_run_source_skips_malformed_state_rows_instead_of_aborting(
     # The crawl should have logged warnings about the skipped rows
     skip_warnings = [r for r in caplog.records if "skipping malformed row" in r.getMessage()]
     assert skip_warnings, "expected at least one skip warning for the broken venue rows"
+
+
+@freeze_time("2026-06-15")
+def test_run_source_skips_status_recompute_when_flag_off(
+    header_repo: FakeHeaderRepo,
+    null_geocoder: NullGeocoder,
+):
+    """run-all toggles recompute_status=False to amortize the cost across all sources."""
+    stale_row = {
+        "id": "stale001",
+        "source": "artmap",
+        "status": Status.UPCOMING.value,  # WRONG – should be past
+        "source_url": "https://art-map.co.kr/exhibition/view.php?idx=999",
+        "title": "Stale",
+        "title_en": "",
+        "description": "",
+        "poster_image_url": "",
+        "medium": "photo",
+        "exhibition_type": "solo",
+        "genre_tags": "",
+        "fee_type": "free",
+        "price_min": "",
+        "price_max": "",
+        "activities": "",
+        "start_date": "2026-01-01",
+        "end_date": "2026-01-31",
+        "open_hours": "",
+        "artist_ids": "",
+        "venue_id": "",
+        "organizer_id": "",
+        "popularity_score": "",
+        "featured": "FALSE",
+        "crawled_at": "2026-01-01T00:00:00+00:00",
+        "updated_at": "2026-01-01T00:00:00+00:00",
+        "_warnings": "",
+    }
+    header_repo.append_rows(SheetName.EXHIBITIONS, [stale_row])
+
+    extractor = _DummyExtractor([_raw(1, "Brand New")])
+    report = run_source(
+        extractor=extractor,
+        repo=header_repo,
+        geocoder=null_geocoder,
+        today=date(2026, 6, 15),
+        recompute_status=False,
+    )
+
+    assert report.failure is None
+    rows_by_id = {r["id"]: r for r in header_repo.read_rows(SheetName.EXHIBITIONS)}
+    # Stale row stays stale; this batch did not recompute.
+    assert rows_by_id["stale001"]["status"] == Status.UPCOMING.value
+
+    # Now drive the global recompute (what run-all does once after all sources).
+    patched = recompute_stale_status(header_repo, today=date(2026, 6, 15))
+    assert patched >= 1
+    rows_by_id = {r["id"]: r for r in header_repo.read_rows(SheetName.EXHIBITIONS)}
+    assert rows_by_id["stale001"]["status"] == Status.PAST.value
+
+
+def test_recompute_stale_status_noop_when_all_current(header_repo: FakeHeaderRepo):
+    """An empty sheet (no stale rows) returns 0 without raising."""
+    patched = recompute_stale_status(header_repo, today=date(2026, 5, 28))
+    assert patched == 0

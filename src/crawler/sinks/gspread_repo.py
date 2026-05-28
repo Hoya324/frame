@@ -2,19 +2,58 @@
 
 Real-world rows are kept as dicts keyed by header. We avoid per-cell calls;
 reads pull the whole sheet, writes use batch operations.
+
+Every gspread call funnels through :func:`_api_call`, which retries on
+HTTP 429 (per-minute read quota) and 503 (transient upstream) with
+exponential backoff. Once the source count grew past ~6, back-to-back
+``run-all`` invocations would burst past the default 60 reads/min/user
+quota and lose entire sources to ``APIError [429]``; the retry plus the
+``run-all`` status-recompute deduplication in :mod:`crawler.pipeline`
+together absorb that burst.
 """
 
 from __future__ import annotations
 
 import json
+import logging
 import os
+from collections.abc import Callable
 
 import gspread
 from google.oauth2.service_account import Credentials
+from tenacity import (
+    retry,
+    retry_if_exception,
+    stop_after_attempt,
+    wait_exponential,
+)
 
 from crawler.sinks.base import SheetName
 
 _SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
+
+log = logging.getLogger(__name__)
+
+def _is_retryable_api_error(exc: BaseException) -> bool:
+    """True for gspread APIErrors carrying 429 (quota) or 503 (transient)."""
+    if not isinstance(exc, gspread.exceptions.APIError):
+        return False
+    response = getattr(exc, "response", None)
+    code = getattr(response, "status_code", None)
+    return code in (429, 503)
+
+
+_retry_quota = retry(
+    retry=retry_if_exception(_is_retryable_api_error),
+    wait=wait_exponential(multiplier=2, min=2, max=64),
+    stop=stop_after_attempt(6),
+    reraise=True,
+)
+
+
+def _api_call[T](fn: Callable[[], T]) -> T:
+    """Invoke a gspread call with 429/503 retry + exponential backoff."""
+    return _retry_quota(fn)()
 
 
 class GspreadRepository:
@@ -33,13 +72,15 @@ class GspreadRepository:
 
     def _ws(self, sheet: SheetName) -> gspread.Worksheet:
         try:
-            return self._book.worksheet(sheet.value)
+            return _api_call(lambda: self._book.worksheet(sheet.value))
         except gspread.WorksheetNotFound:
-            return self._book.add_worksheet(title=sheet.value, rows=1000, cols=40)
+            return _api_call(
+                lambda: self._book.add_worksheet(title=sheet.value, rows=1000, cols=40)
+            )
 
     def write_headers(self, sheet: SheetName, headers: list[str]) -> None:
         ws = self._ws(sheet)
-        existing = ws.row_values(1)
+        existing = _api_call(lambda: ws.row_values(1))
         action, payload = _plan_header_write(existing, headers)
         if action == "noop":
             self._cache_headers[sheet] = list(headers)
@@ -51,21 +92,22 @@ class GspreadRepository:
             )
         if action == "append":
             start_col = _col_letter(len(existing) + 1)
-            ws.update(f"{start_col}1", [payload])
+            _api_call(lambda: ws.update(f"{start_col}1", [payload]))
         else:  # action == "overwrite"
-            ws.update("A1", [headers])
+            _api_call(lambda: ws.update("A1", [headers]))
         self._cache_headers[sheet] = list(headers)
 
     def _headers(self, sheet: SheetName) -> list[str]:
         if sheet in self._cache_headers:
             return self._cache_headers[sheet]
-        headers = self._ws(sheet).row_values(1)
+        ws = self._ws(sheet)
+        headers = _api_call(lambda: ws.row_values(1))
         self._cache_headers[sheet] = headers
         return headers
 
     def read_rows(self, sheet: SheetName) -> list[dict]:
         ws = self._ws(sheet)
-        records = ws.get_all_records()
+        records = _api_call(lambda: ws.get_all_records())
         return [dict(r) for r in records]
 
     def append_rows(self, sheet: SheetName, rows: list[dict]) -> None:
@@ -74,7 +116,7 @@ class GspreadRepository:
         ws = self._ws(sheet)
         headers = self._headers(sheet)
         values = [_serialize_row(headers, r) for r in rows]
-        ws.append_rows(values, value_input_option="RAW")
+        _api_call(lambda: ws.append_rows(values, value_input_option="RAW"))
 
     def patch_rows(self, sheet: SheetName, rows: list[dict]) -> None:
         """Update existing rows in-place by `id`.
@@ -90,7 +132,7 @@ class GspreadRepository:
             return
         ws = self._ws(sheet)
         headers = self._headers(sheet)
-        existing = ws.get_all_values()
+        existing = _api_call(lambda: ws.get_all_values())
         id_col = headers.index("id")
         row_index_by_id: dict[str, int] = {}
         existing_by_id: dict[str, list[str]] = {}
@@ -125,7 +167,7 @@ class GspreadRepository:
                 "range": f"A{row_num}:{_col_letter(len(headers))}{row_num}",
                 "values": [merged_values],
             })
-        ws.batch_update(updates, value_input_option="RAW")
+        _api_call(lambda: ws.batch_update(updates, value_input_option="RAW"))
 
 
 def _plan_header_write(

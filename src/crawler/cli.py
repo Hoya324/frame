@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import logging
 import sys
 from datetime import UTC, date, datetime
 
@@ -13,6 +14,8 @@ from crawler.normalize import normalize_exhibition
 from crawler.pipeline import run_source
 from crawler.reporter import RunReport, render_markdown
 from crawler.sources.base import get_source
+
+log = logging.getLogger(__name__)
 
 app = typer.Typer(help="Korean photo/video/camera exhibition crawler.")
 
@@ -80,10 +83,12 @@ def dry_run_cmd(source: str) -> None:
 @app.command("run-all")
 def run_all_cmd() -> None:
     """Crawl every registered source. Per-source failures are isolated."""
+    from crawler.pipeline import recompute_stale_status
     from crawler.reporter import SourceReport
     from crawler.sources.base import all_sources
     repo = _build_repo()
     geocoder = _build_geocoder()
+    today = _today()
     reports = []
     for src, extractor_cls in all_sources().items():
         try:
@@ -91,7 +96,8 @@ def run_all_cmd() -> None:
                 extractor=extractor_cls(),
                 repo=repo,
                 geocoder=geocoder,
-                today=_today(),
+                today=today,
+                recompute_status=False,  # done once after the loop
             )
         except Exception as exc:  # site-level isolation
             report = SourceReport(
@@ -100,6 +106,10 @@ def run_all_cmd() -> None:
                 failure=f"{type(exc).__name__}: {exc}",
             )
         reports.append(report)
+    try:
+        recompute_stale_status(repo, today)
+    except Exception as exc:
+        log.warning("global status recompute failed: %s", exc)
     run_report = RunReport(started_at=datetime.now(UTC), sources=reports)
     md = render_markdown(run_report)
     typer.echo(md)

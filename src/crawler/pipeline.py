@@ -116,11 +116,27 @@ def _organizer_row(o: Organizer) -> dict:
     }
 
 
+def recompute_stale_status(repo: Repository, today: date) -> int:
+    """Re-classify status across ALL exhibitions; return the patch count.
+
+    Spec §6.1 step 7. Exists as a standalone entry point so `run-all` can
+    invoke it once after every source has finished, instead of every source
+    paying the read+patch cost itself (which exhausts the Sheets API
+    read-per-minute quota once the source count grows past ~6).
+    """
+    rows = repo.read_rows(SheetName.EXHIBITIONS)
+    patches = status_patches_for_all(today, rows)
+    if patches:
+        repo.patch_rows(SheetName.EXHIBITIONS, patches)
+    return len(patches)
+
+
 def run_source(
     extractor: Extractor,
     repo: Repository,
     geocoder: GeocoderProto,
     today: date,
+    recompute_status: bool = True,
 ) -> SourceReport:
     name = extractor.name.value
     started = time.monotonic()
@@ -197,11 +213,9 @@ def run_source(
 
     # Spec §6.1 step 7: recompute status across ALL exhibitions rows,
     # including those not in today's batch (e.g. upcoming → past transitions).
-    all_exh_rows = repo.read_rows(SheetName.EXHIBITIONS)
-    stale_patches = status_patches_for_all(today, all_exh_rows)
-    if stale_patches:
-        repo.patch_rows(SheetName.EXHIBITIONS, stale_patches)
-        updated += len(stale_patches)
+    # run-all skips this per source and does it once at the end of the run.
+    if recompute_status:
+        updated += recompute_stale_status(repo, today)
 
     return SourceReport(
         name=name,
