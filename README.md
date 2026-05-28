@@ -44,6 +44,16 @@ crawler run-all           # crawl every registered source
 4. Add `tests/sources/test_<name>.py` mirroring `test_artmap.py`.
 5. Add the source value to `SourceName` enum in `models.py` if it's new.
 
+## Currently supported sources
+
+| Name | Type | Status |
+|---|---|---|
+| `artmap` | aggregator | ✅ |
+| `naver` | aggregator | ⚠️ BLOCKED (M3 recon: SPA + IP gating, OAuth route deferred to v1.5) |
+| `photo_sema` | museum (Photo SeMA branch only) | ✅ |
+| `museum_hanmi` | museum (삼청 + 삼청별관 branches) | ✅ |
+| `koba` | expo (annual edition) | ✅ |
+
 ## Architecture (one paragraph)
 
 CLI → pipeline → (source extractor → normalizer → entity resolver → geocoder → sheets writer). Each stage is independently testable; sources only know HTTP/HTML, normalizers are pure functions, the resolver only talks to the sink via the Repository protocol, and the gspread implementation is one of two repositories (the other is in-memory for tests).
