@@ -41,6 +41,7 @@ def test_normalize_artmap_row():
     assert normalized.exhibition_type is ExhibitionType.SOLO
     assert normalized.fee_type is FeeType.FREE
     assert normalized.venue_raw_name == "사진위주 류가헌"
+    assert normalized.venue_raw_region == "서울"
     assert normalized.artist_raw_names == ["김작가"]
     assert normalized.start_date.isoformat() == "2026-06-01"
     assert normalized.end_date.isoformat() == "2026-07-01"

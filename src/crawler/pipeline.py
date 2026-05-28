@@ -17,7 +17,7 @@ from crawler.models import (
     Venue,
 )
 from crawler.normalize import normalize_exhibition
-from crawler.normalize.status import compute_status
+from crawler.normalize.status import compute_status, status_patches_for_all
 from crawler.reporter import SourceReport
 from crawler.resolver.entities import EntityState, resolve_entities
 from crawler.sinks.base import Repository, SheetName
@@ -177,6 +177,14 @@ def run_source(
         new += rep.new
         updated += rep.updated
         unchanged += rep.unchanged
+
+    # Spec §6.1 step 7: recompute status across ALL exhibitions rows,
+    # including those not in today's batch (e.g. upcoming → past transitions).
+    all_exh_rows = repo.read_rows(SheetName.EXHIBITIONS)
+    stale_patches = status_patches_for_all(today, all_exh_rows)
+    if stale_patches:
+        repo.patch_rows(SheetName.EXHIBITIONS, stale_patches)
+        updated += len(stale_patches)
 
     return SourceReport(
         name=name,

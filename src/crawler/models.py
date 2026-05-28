@@ -102,6 +102,7 @@ class NormalizedExhibition(BaseModel):
 
     artist_raw_names: list[str] = Field(default_factory=list)
     venue_raw_name: str | None = None
+    venue_raw_region: str | None = None
     organizer_raw_name: str | None = None
 
     artist_ids: list[str] = Field(default_factory=list)
