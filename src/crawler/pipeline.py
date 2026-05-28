@@ -6,7 +6,7 @@ import logging
 import time
 from collections.abc import Iterable
 from datetime import date
-from typing import Protocol
+from typing import ClassVar, Protocol
 
 from crawler.models import (
     Artist,
@@ -28,6 +28,7 @@ log = logging.getLogger(__name__)
 
 class Extractor(Protocol):
     name: SourceName
+    country: ClassVar[str]
 
     def crawl(self) -> Iterable[RawExhibition]: ...
 
