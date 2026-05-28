@@ -160,7 +160,7 @@ def _extract_cards(html: str) -> list[dict]:
 
         # Date range + artist: first two <p> inside .list-details
         ps = item.css("div.list-details.text-muted p")
-        artist: str | None = ps[0].text(strip=True) if len(ps) > 0 else None
+        artist_text = ps[0].text(strip=True) if len(ps) > 0 else ""
         date_range: str | None = ps[1].text(strip=True) if len(ps) > 1 else None
 
         # Poster image
@@ -172,7 +172,7 @@ def _extract_cards(html: str) -> list[dict]:
         cards.append({
             "source_url": url,
             "title": title,
-            "artists": artist or None,
+            "artists": [artist_text] if artist_text else [],
             "venue_name": _VENUE_NAME,
             "venue_region": _VENUE_REGION,
             "venue_address": _VENUE_ADDRESS,
