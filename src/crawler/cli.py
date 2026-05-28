@@ -31,7 +31,12 @@ def _build_repo():
 
 def _build_geocoder():
     from crawler.enrich.geocoder import KakaoGeocoder
-    return KakaoGeocoder.from_env()
+    from crawler.enrich.geocoder_google import GoogleMapsGeocoder
+    from crawler.enrich.geocoder_resolver import GeocoderResolver
+    return GeocoderResolver(
+        kakao=KakaoGeocoder.from_env(),
+        google=GoogleMapsGeocoder.from_env(),
+    )
 
 
 @app.command("init-sheets")
