@@ -21,6 +21,7 @@ class SourceName(StrEnum):
     ILWOO_SPACE = "ilwoo_space"
     SANGSANGMADANG = "sangsangmadang"
     CANON_GALLERY = "canon_gallery"
+    TOKYO_PHOTOGRAPHIC_ART_MUSEUM = "tokyo_photographic_art_museum"
 
 
 class Medium(StrEnum):
