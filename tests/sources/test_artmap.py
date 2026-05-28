@@ -131,11 +131,18 @@ def test_artmap_extractor_keeps_list_data_when_detail_fetch_fails():
 
 
 def test_parse_price_free_only():
-    assert _parse_price("무료") == (0, 0)
+    pmin, pmax, breakdown, notes = _parse_price("무료")
+    assert (pmin, pmax) == (0, 0)
+    assert breakdown == [{"label": "기본", "amount": 0}]
+    assert notes is None
 
 
 def test_parse_price_single_amount():
-    assert _parse_price("성인 10,000원") == (10000, 10000)
+    pmin, pmax, breakdown, notes = _parse_price("성인 10,000원")
+    assert (pmin, pmax) == (10000, 10000)
+    # No colon → label falls back to '기본'
+    assert breakdown == [{"label": "기본", "amount": 10000}]
+    assert notes is None
 
 
 def test_parse_price_partial_mix_treats_free_as_floor():
@@ -145,21 +152,32 @@ def test_parse_price_partial_mix_treats_free_as_floor():
         "· 36개월 미만 유아: 무료\n"
         "· 사비나미술관 멤버십 회원(가입일 기준 1년): 무료"
     )
-    assert _parse_price(text) == (0, 10000)
+    pmin, pmax, breakdown, notes = _parse_price(text)
+    assert (pmin, pmax) == (0, 10000)
+    assert breakdown == [
+        {"label": "성인", "amount": 10000},
+        {"label": "어린이 및 청소년", "amount": 8000},
+        {"label": "36개월 미만 유아", "amount": 0},
+        {"label": "사비나미술관 멤버십 회원(가입일 기준 1년)", "amount": 0},
+    ]
+    assert notes is None
 
 
-def test_parse_price_discount_lines_excluded():
+def test_parse_price_discount_lines_go_to_notes():
     text = (
         "· 성인: 10,000원\n"
         "· 장애인 및 동행자 1인: 50% 할인\n"
         "· 단체: 1,000원 할인"
     )
-    assert _parse_price(text) == (10000, 10000)
+    pmin, pmax, breakdown, notes = _parse_price(text)
+    assert (pmin, pmax) == (10000, 10000)
+    assert breakdown == [{"label": "성인", "amount": 10000}]
+    assert notes == "장애인 및 동행자 1인: 50% 할인\n단체: 1,000원 할인"
 
 
 def test_parse_price_empty():
-    assert _parse_price("") == (None, None)
-    assert _parse_price("   ") == (None, None)
+    assert _parse_price("") == (None, None, [], None)
+    assert _parse_price("   ") == (None, None, [], None)
 
 
 def test_parse_detail_free_fixture():
@@ -170,6 +188,8 @@ def test_parse_detail_free_fixture():
     assert out["venue_address"] == "서울 중구 덕수궁길 61"
     assert out["artists"] == ["유영국"]
     assert "10:00" in out["open_hours"]
+    assert out["price_breakdown"] == [{"label": "기본", "amount": 0}]
+    assert "price_notes" not in out
     # Numeric parse succeeded, so fee_text shortcut is suppressed
     assert "fee_text" not in out
 
@@ -183,6 +203,16 @@ def test_parse_detail_paid_fixture():
     assert out["artists"] == ["질라 로이테네거"]
     assert "10:00" in out["open_hours"]
     assert "fee_text" not in out
+    # Per-tier breakdown survived
+    labels = [tier["label"] for tier in out["price_breakdown"]]
+    assert "성인" in labels
+    assert "어린이 및 청소년" in labels
+    adult = next(t for t in out["price_breakdown"] if t["label"] == "성인")
+    assert adult["amount"] == 10000
+    youth = next(t for t in out["price_breakdown"] if t["label"] == "어린이 및 청소년")
+    assert youth["amount"] == 8000
+    # Discount lines collected separately as price_notes
+    assert "할인" in out["price_notes"]
 
 
 def test_parse_detail_returns_empty_when_table_missing():

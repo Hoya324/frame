@@ -6,6 +6,7 @@ from datetime import UTC, datetime
 
 from crawler.models import (
     NormalizedExhibition,
+    PriceTier,
     RawExhibition,
     Status,
 )
@@ -51,6 +52,12 @@ def normalize_exhibition(raw_payload: RawExhibition) -> NormalizedExhibition:
     price_min = raw.get("price_min")
     price_max = raw.get("price_max")
     fee_type = map_fee_type(_opt(raw, "fee_text"), price_min, price_max)
+    price_breakdown = [
+        PriceTier(label=t["label"], amount=t["amount"])
+        for t in (raw.get("price_breakdown") or [])
+        if isinstance(t, dict) and t.get("label") and t.get("amount") is not None
+    ]
+    price_notes = _opt(raw, "price_notes")
 
     now = datetime.now(UTC)
 
@@ -73,6 +80,8 @@ def normalize_exhibition(raw_payload: RawExhibition) -> NormalizedExhibition:
         fee_type=fee_type,
         price_min=price_min,
         price_max=price_max,
+        price_breakdown=price_breakdown,
+        price_notes=price_notes,
         activities=raw.get("activities") or [],
         start_date=start_date,
         end_date=end_date,
@@ -80,6 +89,7 @@ def normalize_exhibition(raw_payload: RawExhibition) -> NormalizedExhibition:
         artist_raw_names=raw.get("artists") or [],
         venue_raw_name=_opt(raw, "venue_name"),
         venue_raw_region=_opt(raw, "venue_region"),
+        venue_raw_address=_opt(raw, "venue_address"),
         organizer_raw_name=_opt(raw, "organizer"),
         status=Status.UNKNOWN,
         crawled_at=now,

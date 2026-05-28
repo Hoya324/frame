@@ -104,6 +104,7 @@ def resolve_entities(
                         name=exh.venue_raw_name,
                         venue_type=map_venue_type(exh.venue_raw_name) or VenueType.OTHER,
                         region=exh.venue_raw_region,
+                        address=exh.venue_raw_address,
                         sources=[source],
                         first_seen_at=now,
                         updated_at=now,

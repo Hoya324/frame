@@ -40,15 +40,20 @@ class GspreadRepository:
     def write_headers(self, sheet: SheetName, headers: list[str]) -> None:
         ws = self._ws(sheet)
         existing = ws.row_values(1)
-        if existing == headers:
+        action, payload = _plan_header_write(existing, headers)
+        if action == "noop":
             self._cache_headers[sheet] = list(headers)
             return
-        if existing and existing != headers:
+        if action == "error":
             raise RuntimeError(
-                f"sheet {sheet.value} has mismatched headers (got {existing}, expected {headers}); "
-                "refusing to overwrite to protect data"
+                f"sheet {sheet.value} has mismatched headers (got {existing}, "
+                f"expected {headers}); refusing to overwrite to protect data"
             )
-        ws.update("A1", [headers])
+        if action == "append":
+            start_col = _col_letter(len(existing) + 1)
+            ws.update(f"{start_col}1", [payload])
+        else:  # action == "overwrite"
+            ws.update("A1", [headers])
         self._cache_headers[sheet] = list(headers)
 
     def _headers(self, sheet: SheetName) -> list[str]:
@@ -121,6 +126,28 @@ class GspreadRepository:
                 "values": [merged_values],
             })
         ws.batch_update(updates, value_input_option="RAW")
+
+
+def _plan_header_write(
+    existing: list[str], expected: list[str]
+) -> tuple[str, list[str]]:
+    """Decide how to reconcile a sheet's live header row with the expected one.
+
+    Returns ``(action, payload)`` where action is one of:
+      - 'noop'      → live row already matches; payload is unused
+      - 'overwrite' → sheet was empty; payload is unused (caller writes full row)
+      - 'append'    → existing is a strict prefix of expected; payload is the
+                      list of new column labels to append at the end
+      - 'error'     → headers are incompatible (reordered / renamed / shrunk);
+                      caller raises RuntimeError to protect data
+    """
+    if existing == expected:
+        return "noop", []
+    if not existing:
+        return "overwrite", []
+    if expected[: len(existing)] == existing and len(expected) > len(existing):
+        return "append", expected[len(existing):]
+    return "error", []
 
 
 def _serialize_row(headers: list[str], row: dict) -> list:

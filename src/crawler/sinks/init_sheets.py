@@ -23,6 +23,10 @@ HEADERS: dict[SheetName, list[str]] = {
         "start_date", "end_date", "open_hours", "artist_ids", "venue_id",
         "organizer_id", "popularity_score", "featured", "crawled_at",
         "updated_at", "_warnings",
+        # Added 2026-05-28 (price breakdown PR). Kept at the end so
+        # existing sheets can be migrated by appending — see
+        # GspreadRepository.write_headers prefix-append logic.
+        "price_breakdown", "price_notes",
     ],
     SheetName.ARTISTS: [
         "id", "name", "name_en", "name_normalized", "bio", "instagram",
