@@ -1,0 +1,1106 @@
+<link rel="stylesheet" href="../css/exhibition.css">
+<link rel="stylesheet" href="../css/exhibition.css">
+ <!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ARTMAP | Art is Everywhere</title>
+<link rel="canonical" href="https://art-map.co.kr">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="ARTMAP | Art is Everywhere">
+<meta property="og:description" content="미술관을 배달받다 데이터 분석기반 전시회 인바이트 서비스, 나만의 취향을 배달받아 보세요">
+<meta property="og:image" content="https://art-map.co.kr/img/artmap.png">
+<meta property="og:url" content="https://art-map.co.kr">
+
+<meta name="keywords" content="아트맵, artmap">
+<meta name="description" content="미술관을 배달받다 데이터 분석기반 전시회 인바이트 서비스, 나만의 취향을 배달받아 보세요">
+
+<meta name="viewport" content="width=1300, initial-scale=0.3, maximum-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=11" />
+<link type="text/css" rel="stylesheet" href="../css/sy.css">
+<link type="text/css" rel="stylesheet" href="../css/art.css">
+<link type="text/css" rel="stylesheet" href="../css/new.css">
+<link rel="stylesheet" href="../css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/jquery-ui.structure.min.css">
+<link rel="stylesheet" href="../css/jquery-ui.theme.min.css">
+<link rel="stylesheet" href="../css/jquery.bxslider2.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css">
+<link rel="stylesheet" href="../css/flickity.min.css">
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/header.js"></script>
+<script type="text/javascript" src="../js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="../js/jquery-ui.js"></script>
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+<script type="text/javascript" src="../js/instafeed.min.js"></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<script src="../js/flickity.js"></script>
+<script type="text/javascript" src="../js/app_pop.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+<link rel="stylesheet" href="../css/main.css">
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TR6JWTL');</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150689412-1"></script>
+<script>
+	if (document.location.protocol == 'http:') {
+        //document.location.href = document.location.href.replace('http:', 'https:');
+    }
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-150689412-1');
+</script>
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TR6JWTL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+
+<script>
+	// 우측 클릭 방지
+    $(document).ready(function(){
+		$("body").contextmenu( function() {
+			return false;
+		});
+		$("div").contextmenu( function() {
+			return false;
+		});
+		$("table").contextmenu( function() {
+			return false;
+		});
+		$(".container").contextmenu( function() {
+			return false;
+		});
+	});
+
+	//드래그 방지
+	var preventStart = function() {
+	   $('body').on('mousemove touchstart', function(event) {
+		  event.preventDefault();
+	   });
+	}
+
+	$(function() {
+	   preventStart();
+	});
+
+	function onEnterLogin(){
+		var keyCode = window.event.keyCode;
+		var x = document.querySelector(".layer");
+		if (window.getComputedStyle(x).display === "block") {
+			if (keyCode == 13){
+				artmap_login();
+			}
+		}
+	}
+
+</script>
+
+</head>
+<body class="body-header-fixed body-no-margins body-header-fixed body-transparent-header-white" onkeydown="javascript:onEnterLogin();">
+
+<header id="main-layout-header">
+	<div class="main_top1">
+		<div class="main_top_div">
+			<div class="main_top_left">
+				<form action="/search/list.php" method="get" id="search_form">
+					<input type="text" placeholder="작품,작가,전시회 검색" tabindex="1" type="text" name="keyword" id="top_search" onclick="gtag('Web','search_bar',{'event_category' : 'Web'})">
+				</form>
+			</div>
+			<div class="search_result" id="search_result">
+				
+			</div>
+			<div class="main_top_right" style="width:825px;max-width:825px;">
+
+					<a href="http://prestigecollection.kr/shop/list-10" target="_blank" style="width:auto; min-width:100px; color:#87CEEB; font-weight:bold; display:none;" >ART COLLECTION</a>
+
+					<a href="/about/about_all.php" class="product" >PRODUCT</a>
+					<a href="/nows" >NOW</a>
+
+				
+					<a href="javascript:layer_open('layer')">LOGIN</a>
+					<a href="javascript:layer_open('layer')">CART</a>
+
+																			<a href="?lang=en&idx=32332">ENGLISH</a>
+								</div>
+		</div>
+		<div style="cleat:both;"></div>
+	</div>
+
+	<div class="main_top2">
+		<div class="main_wrap">
+			<div class="main_top2_left">
+				<!-- <a href="/"><img src="/img/main/logo_black.png" style='width:150px;'></a> -->
+				<a href="/"><img src="/img/logo@3x.png" style='width:150px;'></a>
+			</div>
+			<div class="main_top2_right">
+				<a href="/exhibition/new_list.php" onmouseover='this.innerHTML="전시회"' onmouseout='this.innerHTML="EXHIBITION"'onclick="gtag('Web','exhibit',{'event_category' : 'Web'})">EXHIBITION</a>
+				<a href="/notice/list.php?b_id=002" onmouseover='this.innerHTML="공고"' onmouseout='this.innerHTML="NEWS"'onclick="gtag('Web','NEWS',{'event_category' : 'Web'})">NEWS</a>
+				<a href="/work/new_list.php" onmouseover='this.innerHTML="작품"' onmouseout='this.innerHTML="ART"' onclick="gtag('Web','art',{'event_category' : 'Web'})">ART</a>
+				<a href="/artists/list.php" onmouseover='this.innerHTML="작가"' onmouseout='this.innerHTML="ARTIST"' onclick="gtag('Web','artist',{'event_category' : 'Web'})">ARTIST</a>
+				<a href="/gallery/new_list.php" onmouseover='this.innerHTML="갤러리"' onmouseout='this.innerHTML="GALLERY"' onclick="gtag('Web','gallery',{'event_category' : 'Web'})">GALLERY</a>
+				<!--
+					<a href="/about.php" onmouseover='this.innerHTML="아트맵소개"' onmouseout='this.innerHTML="ABOUT"' onclick="gtag('Web','about',{'event_category' : 'Web'})">ABOUT</a>
+				-->
+			</div>
+		</div>
+		<div style="clear:both;"></div>
+	</div>
+</header>
+
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "85185df2b3cbc8";
+wcs_do();
+</script>
+<!-- Facebook Pixel Code -->
+<script>
+	!function(f,b,e,v,n,t,s)
+	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];
+	s.parentNode.insertBefore(t,s)}(window, document,'script',
+	'https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '1371989852903012');
+</script>
+
+<script>
+  (function() {
+    var w = window;
+    if (w.ChannelIO) {
+      return (window.console.error || window.console.log || function(){})('ChannelIO script included twice.');
+    }
+    var d = window.document;
+    var ch = function() {
+      ch.c(arguments);
+    };
+    ch.q = [];
+    ch.c = function(args) {
+      ch.q.push(args);
+    };
+    w.ChannelIO = ch;
+    function l() {
+      if (w.ChannelIOInitialized) {
+        return;
+      }
+      w.ChannelIOInitialized = true;
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = 'https://cdn.channel.io/plugin/ch-plugin-web.js';
+      s.charset = 'UTF-8';
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    }
+    if (document.readyState === 'complete') {
+      l();
+    } else if (window.attachEvent) {
+      window.attachEvent('onload', l);
+    } else {
+      window.addEventListener('DOMContentLoaded', l, false);
+      window.addEventListener('load', l, false);
+    }
+  })();
+  ChannelIO('boot', {
+    "pluginKey": "f86258a4-0307-4888-ae97-69919fa49d4a"
+  });
+</script>
+
+<noscript>
+<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1371989852903012&ev=PageView&noscript=1"/></noscript>
+</head>
+<span itemscope="" itemtype="http://schema.org/Organization">
+	 <link itemprop="url" href="https://art-map.co.kr/">
+	 <a itemprop="sameAs" href="https://www.facebook.com/ArtMapApp"></a>
+	 <a itemprop="sameAs" href="https://www.instagram.com/artmapkorea"></a>
+	 <a itemprop="sameAs" href="https://blog.naver.com/artmap-korea"></a>
+	 <a itemprop="sameAs" href="https://play.google.com/store/apps/details?id=kr.co.art_map.artmap"></a>
+</span>
+
+
+		<body style="overflow-x:hidden; width:100%;">
+			<meta name="google-signin-scope" content="profile email">
+			<meta name="google-signin-client_id" content="699440729963-a6pqsl5b168n8apu945v5ma43obvt30g.apps.googleusercontent.com">
+			<script src="https://apis.google.com/js/api:client.js"></script>
+
+			<div class="layer">
+				<div class="bg"></div>
+				<div id="layer" class="pop">
+						<div class="pop-container">
+						<div class="pop-conts">
+						<div class="login_wrap">
+						<form action="/inc/login.php" method="post" onsubmit="return chkForm();" name="login_form" id="login_form">
+						<div class="login_box">
+							<input type="text" placeholder="이메일" name="email" id="email" style="height:60px;">
+							<input type="password" placeholder="비밀번호" name="password" id="password" style="height:60px;">
+							<input type="hidden" name="mode" value="login">
+							<div class="login_option_box" style="width:100%; height:140px;">
+								<a href="/member/find_id.php" class="btn_find_id" style="">아이디 찾기&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+								<a href="/member/find_pw.php" class="btn_find_id" style="">비밀번호 찾기</a>
+								<span style="display:inline-block;  margin-left:135px; ">
+									<a href="/member/join.php" class="btn_find_id" style="">회원가입</a>
+								</span>
+							</div>
+							<div style="margin-top:30px;">
+								<input type="button" value="로그인" style="float:left; width:100%; cursor:pointer; background-color:#E3DBEA;color:#612581;font-weight:bold; height:60px;" class="log_btn" onclick="artmap_login();">
+							</div>
+							<div style="margin-top:100px;">
+								<a href="/member/sns_login.php?service=naver" class="btn_naver" id="nav">
+									<img src="../img/login/logo_naver.png" alt="로고" width="30" height="30">네이버로 로그인 / 회원가입								</a>
+								<a href="/member/sns_login.php?service=kakao" class="btn_kakao" >
+									<img src="../img/login/logo_kakao.png" alt="로고" width="30" height="30">카카오로 로그인 / 회원가입								</a>
+								<a href="/order/check.php" class="btn_order">비회원 주문조회</a>
+							</div>
+							<div style="text-align:center; margin-top:10px; color:#fff;">
+								<a href="/member/join.php" style="color:#fff;"></a>
+							</div>
+							</div>
+						</form>
+						</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				
+	         <style>
+   .right__menu{
+      position:absolute; right: 24px; width:100px; display: flex; justify-content: center; align-items: stretch; flex-direction: column; z-index: 100; top: 500px; transition-property: top; transition-duration: 1s; transition-timing-function: ease-in-out; 
+   }
+
+   @media all and (max-width: 1600px) {
+      .dJbXEu{
+         transform: translateY(50px);
+      }
+      .right__menu{
+         transform: translateY(-100px);
+      }
+   }
+
+   @media all and (min-width: 1600px) {
+      .right__menu{
+         transform: translateY(-50px);
+      }
+   }
+   
+   
+   .rightMenuHeader{
+      display: flex; justify-content: center; align-items: center; flex-direction: column;
+      font-size: 14px;
+      font-weight: bold;
+   }
+   .rightMenuHeader:after{
+      content: "";
+      display: block;
+      width: 0px;
+      border-top: 10px solid #000;
+      border-left: 9px solid transparent;
+      border-right: 9px solid transparent;
+      margin-top: 10px;
+   }
+   .rightMenuWrap{
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      border-radius: 10.6px;
+      background-color: white;
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.22);
+      margin-top: 15px;
+      overflow: hidden;
+   }
+   .rightMenuWrap:before,
+   .rightMenuWrap:after{
+      content: "";
+      height: 10px;
+      background-color: #000;
+   }
+   
+   .rightMenuWrap a{
+      display: block;
+      border-bottom: 0.3px solid #b2b2b2;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+      padding: 20px 0px;
+      transition-property: opacity;
+      transition-duration: 0.3s;
+      transition-timing-function: ease-in-out;
+   }
+   .rightMenuWrap a:hover{
+      opacity: 0.7;
+   }
+   .rightMenuWrap a:last-child{
+      border-bottom: none;
+   }
+   .rightMenuAWrap{
+      padding: 0px 10px;
+   }
+</style>
+
+<div class="right__menu">
+   <div class="rightMenuHeader">안녕하세요!</div>
+   <div class="rightMenuWrap">
+      <div class="rightMenuAWrap">
+         <a href="/write.php" style="" onclick="gtag('Web','apply',{'event_category' : 'Web'})">전시등록</a>
+         <a href="/estimate" style="" onclick="gtag('Web','estimate',{'event_category' : 'Web'})">견적 미리보기</a>
+         <a href="/caption" target="_blank" style="" onclick="gtag('Web','artcaption',{'event_category' : 'Web'})">아트캡션</a>
+         <a href="/download_pp.php" style="" onclick="gtag('Web','hongbo_port',{'event_category' : 'Web'})">상품소개서</a>
+         <a href="/download_artmap.php" style="" onclick="gtag('Web','trans_port',{'event_category' : 'Web'})">회사소개서</a>
+         <a href="javascript:void(0)" onclick="ChannelIO('showMessenger');">문의하기</a>
+      </div>
+   </div>
+</div>
+
+<script>
+
+(function($){
+   $(function($){
+
+      var gap = $(window).height() * 0.5;
+
+      $(window).on("scroll", function(){
+         $(".right__menu").css("top", $(window).scrollTop() + (gap) +"px");
+      });
+      $(".right__menu").css("top", $(window).scrollTop() + (gap) +"px");
+
+   });
+})(jQuery);
+</script>
+								<div id="light3" style="display: none; position: fixed; top: 10%; left: 32.5%; width: 35%; min-width:720px; height: 692px;  background-color: white; z-index: 9999999; overflow: auto; border-radius:18px; box-shadow: 5px 5px 5px 5px rgba(0,0,0,.05), 2px 2px 5px rgba(0,0,0,.1); inset; overflow-y:hidden;" class="la_pop">
+									<div onclick="document.getElementById('light3').style.display='none';document.getElementById('fade3').style.display='none'" style="height:20px; padding-top:21px; padding-right:20px; cursor:pointer; text-align:right;">
+						<img src="/img/index_popX@3x.png" style="width:16px; height:16px;">
+					</div>
+					<div style="width:700px; margin:auto;">
+						<div class="pop_title" style="width:100%; font-size:35px; font-weight:600; line-height:2px; letter-spacing:-0.6px; padding:15px 0px; text-align:center; margin-top:20px; margin-bottom:20px; border:none; margin-top:13px; font-size:26px;">아트맵에 문의하기</div>
+						<input type="hidden" id="inq_type" value="">
+						<div style="padding: 0px 39px 15px 39px; text-align:center;" class="lpop">
+							<div class="pinput_left">성함<font color="#623ff4">*</font></div>
+							<div class="pinput_right"><input type="text" name="name" id="m_name" placeholder="성함"></div>
+							<div style="clear:both;"></div>
+							<div class="pinput_left">연락처<font color="#623ff4">*</font></div>
+							<div class="pinput_right"><input type="text" name="addr" id="m_addr" placeholder="연락처"></div>
+							<div class="pinput_left">이메일<font color="#623ff4">*</font></div>
+							<div class="pinput_right"><input type="text" name="email" id="m_email" placeholder="이메일"></div>
+							<div style="clear:both;"></div>
+
+							<div class="pinput_left">문의내용<font color="#623ff4">*</font></div>
+							<div class="pinput_right">
+								<textarea rows="6" name="content" id="m_content" style="margin-top:10px; border:none; border-bottom:1px solid #b4b4b4; width:500px; outline:0; margin-top:10px; padding:5px;" placeholder="내용을 입력해 주세요"></textarea>
+							</div>
+							<div style="clear:both; height:12px;"></div>
+														<div style="height:195px; border-bottom:1px solid #b4b4b4">
+															<div style="font-size:18px; font-weight:600; text-align:left;">
+								개인정보 수집 및 이용안내								</div>
+								<div class="gain">
+									아트맵은 문의사항 답변을 희망하는 회원을 대상으로 아래와 같이 개인정보를 수집하고 있습니다.<br/>
+									1. 수집 개인정보 항목 : [필수] 회원 성함, 전화번호 이메일주소<br/>
+									2. 개인정보의 수집 및 이용목적:문의 신청에 따른 본인확인 및 원활한 의사소통 경로 확보<br/>
+									<b>3. 개인정보의 보유 및 이용기간: 문의 사항 처리종료 시점으로부터 6개월간 보관 후 파기합니다.</b><br/>
+									4. 동의 거부권리 안내 추가 : 위와 같은 개인정보 수입동의를 거부할 수있습니다.<br/>
+									다만 동의를 거부하는 경우 문의 신청이 제한 됩니다.								</div>
+								<div style="clear:both;"></div>
+								<div class="gain_chk" style="padding-top:10px;">
+									<input type="checkbox" name="" value="stay_log" id="cb1"><label for="cb1"></label>&nbsp;<span style="display:inline-block; cursor:pointer;"><b onclick="request_chk(1)">개인정보 수집 및 이용에 대해서 동의합니다. *</b></span>
+								</div>
+							</div>
+						</div>
+						<div style="text-align:center; margin-top:35px;">
+							<input type="button" value="확인" style="background-color: #6146f4; border: none; color: #fff; padding: 12px 0px; text-align: center; width:166px; border-radius:50px; font-size:18px; cursor:pointer;" onclick="contacus();">
+						</div>
+					</div>
+				</div>
+		
+<script type="text/javascript" src="../js/jquery.flexslider-min.js"></script>
+<link rel="stylesheet" href="../css/flexslider.css">
+
+	<script>
+		fbq('track', '전시회 뷰');
+	</script>
+
+<style>
+
+.flexslider{
+	background-color:transparent;
+	border:0px;
+}
+
+.flexslider .slides img {
+    width: 150px;
+    height: 70px;
+}
+
+.flexslider .slides li{
+	text-align:center;
+}
+
+.flex-viewport{
+	text-align:center;
+	vertical-align:middle;
+}
+
+.eng_th{
+	min-width:150px;
+}
+
+.other_author{
+	display:none;
+}
+#more_author{
+	cursor:pointer;
+}
+.info_img{
+	
+	margin-bottom:30px;
+}
+</style>
+
+
+<style>
+.sub_title{
+	margin-top:100px;
+	width:100%;
+	height:180px;
+	float:left;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	text-align:center;
+	color:#000;
+	font-size:38px;
+	font-weight:600;
+	letter-spacing:-0.88;
+	margin-bottom:90px;
+}
+.sub_title .sub{
+	width:100%;
+	height:110px;
+	padding-top:70px;
+}
+
+
+.main_view {
+  margin-top: 20px;
+  padding: 20px;
+  font-family: 'Pretendard', sans-serif;
+}
+
+/* 포스터 이미지 */
+.image-and-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.image-container {
+  width: 48%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.exhibition-poster {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.exhibition-poster:hover {
+  transform: scale(1.05);
+}
+
+/* 정보 테이블 */
+.exhibition-details {
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.exhibition-details th {
+  padding: 8px;
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+}
+
+.exhibition-details td {
+  padding: 8px;
+  color: #555;
+  font-weight: 400;
+}
+
+.exhibition-location, .external-link {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.authors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.author-card {
+  width: 120px;
+  text-align: center;
+}
+
+.author-img {
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.author-name {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.action-links {
+  text-align: right;
+  padding-top: 20px;
+}
+
+.action-links a {
+  color: #7c7c7c;
+  text-decoration: underline;
+  margin-left: 15px;
+}
+
+.action-links a img {
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+</style>
+
+<!-- 정보수정요청 -->
+		<div id="info_modi" style="display: none; position: fixed; top: 10%; left: 32.5%; width: 35%; min-width:720px; height: 692px;  background-color: white; z-index: 9999999; overflow: auto; border-radius:18px; box-shadow: 5px 5px 5px 5px rgba(0,0,0,.05), 2px 2px 5px rgba(0,0,0,.1); inset; overflow-y:hidden;" class="la_pop">
+			<div onclick="document.getElementById('info_modi').style.display='none';" style="height:20px; padding-top:21px; padding-right:20px; cursor:pointer; text-align:right;">
+			<img src="https://art-map.co.kr/img/index_popX@3x.png" style="width:16px; height:16px;">
+		</div>
+		<div style="width:700px; margin:auto;">
+			<div class="pop_title" style="width:100%; font-size:35px; font-weight:600; line-height:2px; letter-spacing:-0.6px; padding:15px 0px; text-align:center; margin-top:20px; margin-bottom:20px; border:none; margin-top:13px; font-size:26px;">정보 수정 요청서</div>
+			<div style="text-align:center; font-weight:400; margin-top:-10px; margin-bottom:10px;">※ 작가,전시회 담당자가 아닌 경우 요청이 반려될 수 있습니다.</div>
+
+			<div style="padding: 0px 39px 15px 39px; text-align:center;" class="lpop">
+				<div class="pinput_left">성함<font color="#623ff4">*</font></div>
+				<div class="pinput_right"><input type="text" name="name" id="info_name" placeholder="성함"></div>
+				<div style="clear:both;"></div>
+				<div class="pinput_left">연락처<font color="#623ff4">*</font></div>
+				<div class="pinput_right"><input type="text" name="addr" id="info_addr" placeholder="연락처"></div>
+				<div class="pinput_left">이메일<font color="#623ff4">*</font></div>
+				<div class="pinput_right"><input type="text" name="email" id="info_email" placeholder="이메일"></div>
+				<div style="clear:both;"></div>
+
+				<div class="pinput_left">수정내용<font color="#623ff4">*</font></div>
+				<div class="pinput_right">
+					<textarea rows="6" name="content" id="info_content" style="margin-top:10px; border:none; border-bottom:1px solid #b4b4b4; width:500px; outline:0; margin-top:10px; padding:5px;" placeholder="내용을 입력해 주세요"></textarea>
+				</div>
+				<div style="clear:both; height:12px;"></div>
+								<div style="height:195px; border-bottom:1px solid #b4b4b4">
+									<div style="font-size:18px; font-weight:600; text-align:left;">
+					개인정보 수집 및 이용안내					</div>
+					<div class="gain">
+						아트맵은 문의사항 답변을 희망하는 회원을 대상으로 아래와 같이 개인정보를 수집하고 있습니다.<br/>
+						1. 수집 개인정보 항목 : [필수] 회원 성함, 전화번호 이메일주소<br/>
+						2. 개인정보의 수집 및 이용목적:문의 신청에 따른 본인확인 및 원활한 의사소통 경로 확보<br/>
+						<b>3. 개인정보의 보유 및 이용기간: 문의 사항 처리종료 시점으로부터 6개월간 보관 후 파기합니다.</b><br/>
+						4. 동의 거부권리 안내 추가 : 위와 같은 개인정보 수입동의를 거부할 수있습니다.<br/>
+						다만 동의를 거부하는 경우 문의 신청이 제한 됩니다.					</div>
+					<div style="clear:both;"></div>
+					<div class="gain_chk" style="padding-top:10px;">
+						<input type="checkbox" name="" value="stay_log" id="cb99"><label for="cb99"></label>&nbsp;<span style="display:inline-block; cursor:pointer;"><b onclick="request_chk(99)">개인정보 수집 및 이용에 대해서 동의합니다. *</b></span>
+					</div>
+				</div>
+			</div>
+			<div style="text-align:center; margin-top:35px;">
+				<input type="button" value="확인" style="background-color: #6146f4; border: none; color: #fff; padding: 12px 0px; text-align: center; width:166px; border-radius:50px; font-size:18px; cursor:pointer;" onclick="info_modi();">
+			</div>
+		</div>
+	</div>
+	<script>
+		function info_modi(){
+						
+			var name= $("#info_name").val();
+			var addr = $("#info_addr").val();
+			var email = $("#info_email").val();
+			var content = $("#info_content").val();
+			var chbox_use = $("#cb99").prop("checked");
+			var type = "infoeditweb";
+			var page = "exhibition/32332";
+
+			if(!name){
+				alert("성함을 입력해 주세요.");
+				return false;
+			}
+			if(!addr){
+				alert("연락처를 입력해 주세요.");
+				return false;
+			}
+			if(!email){
+				alert("E-mail을 입력해 주세요.");
+				return false;
+			}
+			if(!content){
+				alert("수정 내용을 입력해 주세요");
+				return false;
+			}
+			if(!chbox_use){
+				alert("개인정보 취급방침 확인해 주시기 바랍니다.");
+				return false;
+			}
+			var params = JSON.stringify({"name":name, "tel":addr, "other":content, "email":email,"userno":"" , "type":type, "page":page});
+			if(name && addr && email && content){
+				$.post("../data/inq.php",params,function(data){
+				var res = JSON.parse(data);
+					console.log(data);
+					$("#info_name").val("");
+					$("#info_addr").val("");
+					$("#info_email").val("");
+					$("#info_content").val("");
+				});
+			}
+
+			document.getElementById('info_modi').style.display='none';
+			alert("정보수정요청이 완료 되었습니다.\n담당자 확인 후 남겨주신 이메일 또는 연락처로 답변 드리겠습니다.\n감사합니다.")
+		}
+	</script>
+<!-- 정보수정요청 -->
+
+
+<div class="sub_title" style="background-image:url('/img/new_exhibition_top_bg.png')">
+	<div class='sub'>EXHIBITION</div>	
+</div>
+
+<div class="container">
+	<div style="width:1280px; marign:0 auto; text-align:center; font-size:26px; margin-top:10px;">
+		《유영국: 산은 내 안에 있다》	</div>
+	<div class="main_view" style="min-height:650px; margin-top:5px; display: flex; justify-content: space-between; align-items: flex-start;">
+
+    <!-- 포스터 이미지 -->
+    <div style="width:48%; text-align: center;">
+                <div class="img_wrap">
+            <img src="/art-map/public//upload/2026/05/exhibition/0742bd23f96242f2f933b9280d23bd4a_file64.jpg" alt="Exhibition Poster" style="max-width:100%; max-height:600px; margin:0 auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        </div>
+    </div>
+
+    <!-- 전시회 정보 -->
+    <div style="width:48%; padding-left: 2%; font-family: 'Noto Sans', sans-serif; line-height: 1.6; color: #333;">
+        <table border="0" cellspacing="0" cellpadding="0" style="width:100%; height:580px;" id="view_table">
+            <tr>
+                <th kr_th>기간<span>|</span></th>
+                <td>2026-05-19 - 2026-10-25</td>
+            </tr>
+            <tr>
+                <th kr_th>시간<span>|</span></th>
+                <td style="word-break: break-all; ">
+                                            · 화~목요일 10:00~20:00
+· 금요일 10:00~21:00
+· 토~일요일 10:00~18:00                                    </td>
+            </tr>
+
+                        <tr>
+                <th kr_th>장소<span>|</span></th>
+                <td>
+                    <a href="../gallery/view.php?idx=43" style="color:#777777;">서울시립미술관서소문본관/서울</a>
+                </td>
+            </tr>
+            
+            <tr>
+                <th kr_th>주소<span>|</span></th>
+                <td onclick="urlcopy()" style="cursor:pointer;">
+                    서울 중구 덕수궁길 61                </td>
+            </tr>
+
+            <input type="text" id="urlAddress" style="display:none;" value="서울 중구 덕수궁길 61/">
+
+            <tr>
+                <th kr_th>휴관<span>|</span></th>
+                <td>
+                    월요일                </td>
+            </tr>
+
+            <script>
+            function urlcopy(){
+                var urlAddress = $('#urlAddress');
+                urlAddress.css('display','block').select();
+                document.execCommand("Copy");
+                urlAddress.css('display','none');
+                alert('주소가 복사 되었습니다');
+                return false;
+            }
+            </script>
+
+            <tr>
+                <th kr_th>관람료<span>|</span></th>
+                <td style="word-break: break-all; ">
+                                            무료                                    </td>
+            </tr>
+
+                        <tr>
+                <th kr_th>전화번호<span>|</span></th>
+                <td>02-2124-8800</td>
+            </tr>
+            
+            <tr>
+                <th>사이트<span>|</span></th>
+                                <td><a href="https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1529410&acadmyEeNo=0&evtNo=0&glolangType=KOR" target="_blank" style="text-decoration:underline;">홈페이지 바로가기</a></td>
+                            </tr>
+
+            <tr>
+                <th style="border:0px;">작가<span>|</span></th>
+                <td style="border:0px;">
+                                                    <div class="aut_wrap " onclick="go_author(9413)" style="overflow:hidden; margin-top:15px;">
+                                    <div style="background-image:url(https://art-map.co.kr/art-map/public//upload/author/artmap_20180528_163441721.jpg)" class="aut_img"></div>
+                                    <div class="aut_name">유영국</div>
+                                </div>
+                                                    <div class="aut_wrap_other">
+                                            </div>
+
+                                    </td>
+            </tr>
+
+            <tr>
+                <th colspan="2" style="text-align:right; border:0px;">
+                    <a href="javascript:void(0);" onclick="document.getElementById('info_modi').style.display='';" style="padding:0px 30px; color:#7c7c7c; text-decoration:underline;">정보수정요청</a>
+                    <a href="javascript:want()">
+                        <img src='../img/ei1.png' id="like">
+                    </a>
+                    <a href="javascript:checkin()">
+                        <img src='../img/ei2.png' id="checkin">
+                    </a>
+                    <a href="javascript:layer_open('share_layer');">
+                        <img src="../img/ei4.png"> <!-- 공유하기 -->
+                    </a>
+                </th>
+            </tr>
+        </table>
+    </div>
+</div>
+
+			
+	<div class="info_wrap">
+		<div style="width:1280px; margin:0px auto; ">
+			<p style="margin-bottom:50px; width:1280px; text-align:center; font-size:20px; border-top:1px solid #e6e6e6; padding-top:70px;">전시정보</p>
+			<div class="img_list">
+
+				
+								<li class='info_img'>
+					  						  <img src="/art-map/public//upload/2026/05/exhibition/73ccdc98eac530c5cf78a4b458dcff74_output4038277780.jpg" /><br>
+					  				  					   전시전경<br>
+					      <br>
+					   				  				</li>
+				
+								<li class='info_img'>
+				  <img src="/art-map/public//upload/2026/05/exhibition/a24b92130535b124bb0073c5be474f43_output2640118009.jpg" /><br>
+				  				  					   전시전경<br>
+					       <br>
+					   				  				</li>
+												<li class='info_img'>
+				  <img src="/art-map/public//upload/2026/05/exhibition/f0c2017b95d607260581d039e69facab_IMG8096.jpg" /><br>
+				  				  					   전시전경<br>
+					      <br>
+					   출처: 서울시립미술관 서소문본관				  				</li>
+								
+			</div>
+			<pre style="white-space:pre-line; color:#777; width:1000px; margin:0px auto; line-height:23px;">
+			유영국: 산은 내 안에 있다
+
+서울시립미술관은 한국 추상 미술의 선구자 유영국(1916–2002) 탄생 110주년을 기념하여 유영국미술문화재단과 조선일보사와 함께 역대 최대 규모의 회고전 《유영국: 산은 내 안에 있다》를 개최한다. 미공개작을 포함한 회화, 부조, 사진, 드로잉 작품 및 아카이브 170여 점을 통해 그의 예술을 총체적으로 조망한다. 특히 이번 전시는 서울시립미술관이 새롭게 선보이는 ‘한국 근대 거장전’ 시리즈의 첫 프로젝트로, 이를 통해 한국 근대 미술이 이룩한 성취를 오늘의 시점으로 새롭게 연결하고자 한다. 그 첫 번째 작가로 유영국은 일제 강점기와 한국 전쟁, 민주화와 경제의 압축 성장 같은 한국 근현대사를 관통하면서도 추상 미술이라는 당대의 아방가르드 예술을 삶과 작품으로 올곧이 실천했던 작가이다.
+이번 전시는 1935년 도쿄 문화학원에서 시작된 추상 미술에 대한 실험부터 생애 후반 심상 추상에 이르기까지 60여 년의 유영국 화업을 총체적으로 조명한다. 관람객이 유영국이 선택했던 결단과 몰입, 숭고와 무한의 리듬을 보다 흥미롭게 만날 수 있도록 전통적인 회고전의 방식을 탈피한다. 대신 유영국에게 중요했던 1964년을 기점으로 시간을 역행했다가, 또 순행하는 독특한 시간 여행을 제안한다. 이를 통해 점, 선, 면과 색이라는 회화의 기본 요소로 ‘산’을 추상화했던 유영국의 예술 세계를 보다 입체적으로 볼 수 있을 것이다. 그의 작품에 반복적으로 등장하는 산은 고향 울진의 실제 풍경이자 기억의 총체이며, 동시에 선과 색의 균형으로 이루어진 내면의 구조였다. 산은 그에게 외부의 재현 대상을 넘어 마음속에 존재하는 조형적 본질이다.
+
+유영국 작품이 단지 근대 거장의 미술사적 성취에 머무르지 않고 지금, 여기를 살아가는 우리에게 깊은 울림으로 다가오는 이유는 그의 작품을 통해 한 시대를 만나게 하기 때문이다. 동시에, 그가 구축한 아름다움의 질서는 여전히 시각적 경이로움으로 우리를 이끈다. 디지털과 AI 기술이 창작의 개념을 흔드는 오늘, 유영국의 회화는 창작이란 무엇인가라는 근본적인 질문으로 우리를 호출한다. 특히 유영국 후기 작업이 함축한 무한 너머의 시선은, 회화라는 고유한 매체가 지닌 숭고의 가능성을 보여 준다. 그가 발견한 자신만의 크고 깊은 산처럼 유영국의 작품은 단단한 생명력으로 오늘도 자신의 산을 찾아가는 우리에게 말을 건넨다.
+
+*출처: 서울시립미술관 서소문본관			</pre>
+					</div>
+	</div>
+
+	<div style="clear:both; padding:40px 20px; color:#4C4C4C; width:1050px; margin:auto;">
+		※ 아트맵에 등록된 이미지와 글의 저작권은 각 작가와 필자에게 있습니다.	</div>
+</div>
+
+<script>
+
+	
+	$(document).ready(function(){
+
+		$("#more_author").click(function(){
+			$(".other_author").show();
+			$('#more_author').hide();
+		})
+
+	});
+
+	function want(){
+		var user = "";
+		var id = "32332";
+		if(user){
+		var param = JSON.stringify({"_id":user,"id":id});
+		$.post("/data/want.php",param,function(data){
+			var res = JSON.parse(data);
+			console.log(res.result);
+			if(res.result == 'ok'){
+				$("#like").attr("src","/img/ei1_on.png");
+			}else{
+				$("#like").attr("src","/img/ei1.png");
+			}
+		});
+		}else{
+			alert('로그인이 필요합니다.');
+			layer_open('layer');
+		}
+	}
+
+	function checkin(){
+		var user = "";
+		var id = "32332";
+		if(user){
+		var param = JSON.stringify({"_id":user,"id":id});
+		$.post("/data/checkin.php",param,function(data){
+			var res = JSON.parse(data);
+			console.log(res.result);
+			if(res.result == 'ok'){
+				$("#checkin").attr("src","/img/ei2_on.png");
+			}else{
+				$("#checkin").attr("src","/img/ei2.png");
+			}
+		});
+		}else{
+			alert('로그인이 필요합니다.');
+			layer_open('layer');
+		}
+	}
+
+</script>
+
+<style>
+.pam_wrap input::placeholder {
+	font-size:15.5px;
+	font-family:"NanumSquareR";
+}
+.pam_wrap input {
+	font-size:15.5px;
+	font-family:"NanumSquareR";
+}
+</style>
+<div class="pam_layer">
+	<div class="bg"></div>
+	<div id="pam_layer" class="pop">
+		<div style="width:100%; background:#000; height:60px; font-size:18px; text-align:center; color:#fff; position:relative;">
+			<span style="height:20px; margin-bottom:21px; margin-top:21px; float:left; margin-left:169px; font-family:'NanumSquareB'">팸플릿 신청</span>
+			<img src="../img/p_close.png" style="position:absolute; right:10px; top:10px; cursor:pointer" onclick="$('.pam_layer').fadeOut();">
+		</div>
+		<div style="width:100%; padding:16px; height:577px;">
+			<div style="width:100%; height:100%;" class="pam_wrap"> 
+				<input type="text" placeholder="이름" style="width:100%; padding-left:15px; padding-top:20px; padding-bottom:20px; border:1px solid #a1a1a1;" id="pname">
+				<input type="text" placeholder="주소" style="width:100%; padding-left:15px; padding-top:20px; padding-bottom:20px; border:1px solid #a1a1a1; border-top:0px;" id="paddr1">
+				<input type="text" placeholder="전화번호" style="width:100%; padding-left:15px; padding-top:20px; padding-bottom:20px; border:1px solid #a1a1a1; border-top:0px;" id="pphone">
+				<input type="number" placeholder="매수" style="width:100%; padding-left:15px; padding-top:20px; padding-bottom:20px; border:1px solid #a1a1a1; border-top:0px;" id="pnumber" onKeyUp="if(this.value>6){this.value='5';}else if(this.value<0){this.value='0';}">
+				<input type="text" placeholder="요청사항" style="width:100%; padding-left:15px; padding-top:20px; padding-bottom:20px; border:1px solid #a1a1a1; border-top:0px;" id="content">
+				<input type="hidden" name="exh_id" id="exh_id" value="32332">
+				<input type="hidden" name="gallery_id" id="gallery_id" value="43">
+				<div class="" style="margin-bottom:16px; margin-top:16px;">
+					<input type="checkbox" id="chkbox" class="" style="border:1px solid #a1a1a1; width:20px; height:20px; vertical-align:bottom;">
+					<label for="chkbox" style="font-family:NanumSquareB; font-size:18px; color:#000;">기본 주소로 저장</label>
+				</div>
+				<span style="font-family:NanumSquareR; font-size:15.5px; color:#000; ">
+					*신청 내역은 마이페이지 - 팸플릿 신청에서 확인하실 수 있습니다. 6부 이상 신청시 상단의 고객센터로 문의 바랍니다.
+				</span>
+				<div style="margin:0 auto; position:relative; width:282px; height:65px; font-family:NanumSquareR; font-size:18px; background-color:#000; color:#fff; margin-top:48px; cursor:pointer;" onclick="pamphlet()">
+					<span style="position:absolute; left:126px; top:23px;">확인</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="share_layer">
+	<div class="bg"></div>
+	<div id="share_layer" class="pop" style="position:relative">
+		<div style="font-size:14px; font-family:NanumSquareB; position:absolute; left:176px; top:19px;">
+		공유하기
+		</div>
+		<img src="../img/s_naver.png" style="width:67px; height:67px; position:absolute; left:36px; top:61px; cursor:pointer;" onclick="share('naver')">
+		<img src="../img/s_facebook.png" style="position:absolute; left:123px; top:61px; cursor:pointer; width:67px; height:67px;" onclick="share('facebook')">
+		<img src="../img/s_kakao.png" style="width:67px; height:67px; position:absolute; left:210px; top:61px; cursor:pointer;" onclick="share('kakao')">
+		<img src="../img/s_share.png" style="position:absolute; left:297px; top:61px; cursor:pointer; width:67px; height:67px; " onclick="share('share')">
+		<span style="font-family:NanumSquareR; font-size:14px; left:51px; bottom:25px; position:absolute;">Naver</span>
+		<span style="font-family:NanumSquareR; font-size:14px; left:127px; bottom:25px; position:absolute;">Facebook</span>
+		<span style="font-family:NanumSquareR; font-size:14px; left:207px; bottom:25px; position:absolute;">Kakao story</span>
+		<span style="font-family:NanumSquareR; font-size:14px; left:308px; bottom:25px; position:absolute;">URL 복사</span>
+	</div>
+</div>
+<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+
+<script>
+
+ function go_author(id){
+	location.href='/artists/view.php?idx='+id;
+ }
+
+ function pamphlet(){
+			
+	var user = "";
+	var idx = "32332";
+	var name = $("#pname").val();
+	var addr1 = $("#paddr1").val();
+	var phone = $("#pphone").val();
+	var number = $("#pnumber").val();
+	var exh_id = $("#exh_id").val();
+	var gallery_id = $("#gallery_id").val();
+
+	if(!user){
+		alert("회원만 가능합니다.");
+		return false;
+	}if(!name){
+		alert("이름을 입력해주세요");
+		$("#pname").focus();
+	}else if(!phone){
+		alert("전화번호를 입력해주세요");
+		$("#pphone").focus();
+	}else if(!number){
+		alert("매수를 입력해주세요");
+		$("#pnumber").focus();
+	}else if(!addr1){
+		alert("주소를입력해주세요");
+	}else{
+
+		var param = JSON.stringify({"user":user,"name":name,"addr1":addr1,"tel":phone,"number":number,"exh_id":exh_id,"gallery_id":gallery_id });
+		$.post("/data/pamphlet.php",param,function(data){
+			var res = JSON.parse(data);
+			console.log(res.result);
+			if(res.result == "success"){
+				alert("신청 되었습니다");
+				$('.pam_layer').fadeOut();
+				$("#pname").val("");
+				$("#paddr1").val("");
+				$("#paddr2").val("");
+				$("#pphone").val("");
+				$("#pnumber").val("");
+			}
+		});
+
+	}
+
+ }
+
+
+    function share(t) {
+
+	  var url = encodeURI(window.location.href);
+	  var title = "《유영국: 산은 내 안에 있다》 - 아트맵";
+
+      if(t == 'naver'){
+		  var shareURL = "https://share.naver.com/web/shareView.nhn?url=" + url + "&title=" + encodeURI(title);
+		  window.open(shareURL);
+	  }else if(t == "kakao"){
+		  Kakao.Story.share({
+				url: url,
+				text: title
+		  });
+	  }else if(t == "facebook"){
+		  FB.ui({
+			method: 'share',
+			mobile_iframe: true,
+			href: url,
+		  }, function(response){});
+
+	  }else if(t == "share"){
+
+		var IE=(document.all)?true:false;
+		if (IE) {
+		if(confirm("주소를 복사하시겠습니까?"))
+		window.clipboardData.setData("Text", url);
+		} else {
+			temp = prompt("Ctrl+C를 눌러 클립보드로 복사하세요", url);
+		}
+	  }
+
+    }
+
+
+</script>
+
+<div style="padding-top:30px; background-color:#fff;"></div>
+<style>
+	.popular{
+		float:left;
+		width:100%;
+	}
+	.popular .item {
+		float:left;
+		max-width:150px;
+		position:relative;
+		height:160px;
+		text-align:center;
+	}
+	.popular .item img{
+		max-height:80px;
+		position:absolute;
+		bottom:50%;
+		left:0;
+	}
+	.popular-slider{
+		width:1280px;
+		margin:0 auto;
+		margin-bottom:0px;
+		background-color:#fff;
+		height:130px;
+	}
+	.bxslider3 .bx-wrapper{
+		height:100px !important;
+		float:left;
+	}
+</style>
+
+
+<div style="width:100%; float:left; border-top:1px solid #a4a4a4; padding-top:20px; padding-bottom:20px;  background-color:#fff;">
+<footer class="footer" id="footer">
+<div class="footer_inner" style="position:relative;">
+	<div style="position:absolute; right:0px; float:left;">
+		<img src="/img/good_logo2.webp" style="height:60px;margin-right:5px;">
+		<img src="/img/good_logo3.png" style="height:60px;margin-right:5px">
+		<img src="/img/good_logo.png" style="">
+	</div>
+	
+		<div class="footer_right" style="float:left; width:800px;">
+			<ul class="footer_info">
+				<li>
+					<span style="float:left"><a href="/notice/notice.php?b_id=001">&nbsp;공지사항&FAQ</a> | </span>
+					<span style="float:left"><a href="/about/use.php">&nbsp;약관 및 정책</a></span>
+				</li>
+				<li style="margin-top:10px; color:rgb(95, 0, 128); line-height:25px;">Copyright © 2024 ARTMAP Corp. All Rights Reserved.</li>
+				<li style="margin-top:30px;">상호명 : 아트맵 코리아 &nbsp;&nbsp;|&nbsp;&nbsp; 사업자등록번호 : 631-27-01722 </li>
+				<li style="margin-top:6px;"></li>
+
+				<li style="margin-top:6px;"><span class="atk">대외총괄/제안 : info@art-map.co.kr&nbsp;&nbsp;|&nbsp;&nbsp;전시지원/관리 : contact@art-map.co.kr&nbsp;</span></li>
+				<li style="margin-top:6px;"><span class="atk">홍보/기획 : biz@art-map.co.kr</span></li>
+				</ul>
+		</div>
+	</div>
+	</div>
+</footer>
+	<script>
+	function chg_val(e){
+		var page = e.value;
+		var openNewWindow = window.open("about:blank");
+		openNewWindow.location.href = page;
+	}
+	</script>
+</div>
+</body>
+</html>
