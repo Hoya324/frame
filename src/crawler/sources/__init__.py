@@ -17,6 +17,7 @@ from crawler.sources import (
     photo_sema,  # noqa: F401
     ryugaheon,  # noqa: F401
     sangsangmadang,  # noqa: F401
+    tokyo_art_beat,  # noqa: F401
     tokyo_photographic_art_museum,  # noqa: F401
 )
 
