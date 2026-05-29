@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T18:23:11.540957+00:00",
+  "generated_at": "2026-05-29T20:12:51.199298+00:00",
   "exhibitions": [
     {
       "id": "b22a6127299d",
@@ -8948,7 +8948,7 @@
       "id": "662c28f18517",
       "title": "The Origin 근원",
       "title_en": null,
-      "poster_image_url": "https://www.goeunmuseum.kr/data/file/exhibition/thumb-127_copy_160_76_copy_127_3696652284_59Qnls7q_483fc2aac02750709bf2b55d631b3ad46a2b21da_600x400.jpg",
+      "poster_image_url": "https://www.goeunmuseum.kr/data/file/exhibition/thumb-156_copy_159_151_copy_156_85_copy_151_12_copy_85_3553635910_HqWjfhBg_c2896463fb78bd2710733233056ce17538ff524e_600x400.jpg",
       "description": null,
       "medium": "mixed",
       "exhibition_type": "curated",
@@ -8970,11 +8970,11 @@
       },
       "artists": [
         {
-          "id": "9f5ca1b3eb87",
-          "name": "오상조, 이완교, 이종만, 한정식"
+          "id": "02d2bc17f3b6",
+          "name": "강용석, 권태균, 김보섭, 이갑철, 이상일, 정주하, 최광호"
         }
       ],
-      "source_url": "https://www.goeunmuseum.kr/bbs/board.php?bo_table=exhibition&wr_id=160",
+      "source_url": "https://www.goeunmuseum.kr/bbs/board.php?bo_table=exhibition&wr_id=159",
       "featured": false,
       "popularity_score": null
     },
@@ -12677,7 +12677,7 @@
         "lng": 126.974124287105
       },
       "artists": [],
-      "source_url": "https://www.ilwoo.org/default/m02/p03.php?com_board_basic=read_form&com_board_idx=66&com_board_page=3&com_board_id=10",
+      "source_url": "https://www.ilwoo.org/default/m02/p03.php?com_board_basic=read_form&com_board_idx=2&com_board_page=9&com_board_id=10",
       "featured": false,
       "popularity_score": null
     },
