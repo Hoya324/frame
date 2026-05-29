@@ -30,6 +30,18 @@ jobs:
           SHEET_ID: ${{ secrets.SHEET_ID }}
           KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+      # Sweep up any venues that ended the crawl without coordinates —
+      # mostly TAB venues whose first geocode hit was a transient miss
+      # plus the legacy long-tail of pre-country-field rows. Idempotent;
+      # filtered to venues with empty latitude/longitude. `continue-on-error`
+      # so a backfill blip doesn't mask the actual run-all result above.
+      - run: crawler backfill-geocodes
+        continue-on-error: true
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SHEET_ID: ${{ secrets.SHEET_ID }}
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
       - if: always()
         uses: actions/upload-artifact@v4
         with:
