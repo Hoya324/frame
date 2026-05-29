@@ -11,3 +11,5 @@ build/
 out/
 service-account.json
 .superpowers/
+
+.worktrees/
