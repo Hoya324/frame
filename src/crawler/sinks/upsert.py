@@ -1,10 +1,41 @@
-"""Compute diff vs existing rows and write only what changed."""
+"""Compute diff vs existing rows and write only what changed.
+
+The "did anything change?" question explicitly ignores bookkeeping
+timestamps and warning bags — `crawled_at`, `updated_at`,
+`first_seen_at`, `_warnings`. The normalize layer stamps fresh
+`crawled_at` / `updated_at` on every fetch, so a naive `merged ==
+current` comparison would mark every row as updated every run.
+On a 600-row sheet across 13 sources, that was costing ~600
+batch_update writes per cron — purely to refresh timestamps for rows
+whose actual exhibition facts had not changed.
+
+When a patch is actually needed (real fields differ), we still
+preserve `crawled_at` / `first_seen_at` from the existing row so the
+"when did we first see this" semantics survive across runs.
+"""
 
 from __future__ import annotations
 
 from dataclasses import dataclass
 
 from crawler.sinks.base import Repository, SheetName
+
+# Fields excluded from the diff that decides "should we patch this row?".
+# These are crawl-time bookkeeping, not facts about the exhibition / venue.
+_VOLATILE_FOR_DIFF: frozenset[str] = frozenset({
+    "crawled_at",
+    "updated_at",
+    "first_seen_at",
+    "_warnings",
+})
+
+# Fields whose value on the EXISTING row must survive even when a real
+# patch happens — "first seen" / "first crawled" must not jump forward
+# every time we re-fetch an exhibition whose title got tweaked.
+_PRESERVE_FROM_EXISTING: frozenset[str] = frozenset({
+    "crawled_at",
+    "first_seen_at",
+})
 
 
 @dataclass(frozen=True)
@@ -38,10 +69,16 @@ class UpsertEngine:
                 new_rows.append(incoming)
                 continue
             merged = {**current, **incoming}
-            if merged == current:
+            if _stable(merged) == _stable(current):
                 unchanged += 1
-            else:
-                patches.append(merged)
+                continue
+            # Real change: carry forward the existing row's "first
+            # seen" markers so they don't reset on every fetch.
+            for k in _PRESERVE_FROM_EXISTING:
+                existing_value = current.get(k)
+                if existing_value:
+                    merged[k] = existing_value
+            patches.append(merged)
 
         if new_rows:
             self._repo.append_rows(sheet, new_rows)
@@ -53,3 +90,9 @@ class UpsertEngine:
             updated=len(patches),
             unchanged=unchanged,
         )
+
+
+def _stable(row: dict) -> dict:
+    """Strip volatile bookkeeping fields so two rows can be compared on
+    their *content*, not on the moment they happened to be observed."""
+    return {k: v for k, v in row.items() if k not in _VOLATILE_FOR_DIFF}

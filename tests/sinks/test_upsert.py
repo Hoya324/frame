@@ -49,3 +49,93 @@ def test_upsert_preserves_existing_columns_not_in_patch():
     engine.upsert(SheetName.VENUES, [{"id": "v1", "name": "A prime"}])
     # latitude was not in the patch — must survive
     assert repo.read_rows(SheetName.VENUES)[0]["latitude"] == 37.5
+
+
+def test_upsert_treats_crawled_at_only_change_as_unchanged():
+    """Re-fetching an exhibition gets a fresh crawled_at every time. That
+    alone must not count as 'updated' — otherwise every row on every cron
+    burns a batch_update for zero data change."""
+    repo = FakeRepository()
+    engine = UpsertEngine(repo)
+    engine.upsert(SheetName.EXHIBITIONS, [{
+        "id": "e1",
+        "title": "Show",
+        "crawled_at": "2026-01-01T00:00:00+00:00",
+        "updated_at": "2026-01-01T00:00:00+00:00",
+    }])
+    report = engine.upsert(SheetName.EXHIBITIONS, [{
+        "id": "e1",
+        "title": "Show",
+        "crawled_at": "2026-05-29T01:00:00+00:00",   # fresh fetch
+        "updated_at": "2026-05-29T01:00:00+00:00",   # fresh fetch
+    }])
+    assert report == UpsertReport(new=0, updated=0, unchanged=1)
+    # Sheet stays at original crawled_at (no patch happened)
+    stored = repo.read_rows(SheetName.EXHIBITIONS)[0]
+    assert stored["crawled_at"] == "2026-01-01T00:00:00+00:00"
+
+
+def test_upsert_real_change_preserves_original_crawled_at():
+    """When facts actually changed and we patch, crawled_at must NOT
+    jump forward — it records when we first saw this exhibition, and
+    that doesn't change just because the title got tweaked."""
+    repo = FakeRepository()
+    engine = UpsertEngine(repo)
+    engine.upsert(SheetName.EXHIBITIONS, [{
+        "id": "e1",
+        "title": "Show",
+        "crawled_at": "2026-01-01T00:00:00+00:00",
+        "updated_at": "2026-01-01T00:00:00+00:00",
+    }])
+    report = engine.upsert(SheetName.EXHIBITIONS, [{
+        "id": "e1",
+        "title": "Show (revised title)",                # real change
+        "crawled_at": "2026-05-29T01:00:00+00:00",
+        "updated_at": "2026-05-29T01:00:00+00:00",
+    }])
+    assert report == UpsertReport(new=0, updated=1, unchanged=0)
+    stored = repo.read_rows(SheetName.EXHIBITIONS)[0]
+    assert stored["title"] == "Show (revised title)"
+    # crawled_at frozen at first observation
+    assert stored["crawled_at"] == "2026-01-01T00:00:00+00:00"
+    # updated_at moved forward to reflect when this change landed
+    assert stored["updated_at"] == "2026-05-29T01:00:00+00:00"
+
+
+def test_upsert_real_change_preserves_first_seen_at_for_venues():
+    """Same principle for the Venues sheet: first_seen_at is sticky."""
+    repo = FakeRepository()
+    engine = UpsertEngine(repo)
+    engine.upsert(SheetName.VENUES, [{
+        "id": "v1",
+        "name": "Gallery",
+        "first_seen_at": "2026-01-01T00:00:00+00:00",
+        "updated_at": "2026-01-01T00:00:00+00:00",
+    }])
+    engine.upsert(SheetName.VENUES, [{
+        "id": "v1",
+        "name": "Gallery (renamed)",
+        "first_seen_at": "2026-05-29T01:00:00+00:00",   # don't trust this
+        "updated_at": "2026-05-29T01:00:00+00:00",
+    }])
+    stored = repo.read_rows(SheetName.VENUES)[0]
+    assert stored["first_seen_at"] == "2026-01-01T00:00:00+00:00"
+    assert stored["updated_at"] == "2026-05-29T01:00:00+00:00"
+
+
+def test_upsert_warnings_only_change_is_unchanged():
+    """The _warnings bag is volatile diagnostic noise — its drift alone
+    should not trigger a patch."""
+    repo = FakeRepository()
+    engine = UpsertEngine(repo)
+    engine.upsert(SheetName.EXHIBITIONS, [{
+        "id": "e1", "title": "T", "_warnings": "",
+        "crawled_at": "2026-01-01T00:00:00+00:00",
+        "updated_at": "2026-01-01T00:00:00+00:00",
+    }])
+    report = engine.upsert(SheetName.EXHIBITIONS, [{
+        "id": "e1", "title": "T", "_warnings": "date parse fallback,fee tier missing",
+        "crawled_at": "2026-05-29T01:00:00+00:00",
+        "updated_at": "2026-05-29T01:00:00+00:00",
+    }])
+    assert report == UpsertReport(new=0, updated=0, unchanged=1)
