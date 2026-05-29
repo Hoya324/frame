@@ -30,8 +30,8 @@ jobs:
       - name: Build static export
         run: npm run build
         env:
-          # Project page is served from https://<user>.github.io/allphoto/
-          BASE_PATH: /allphoto
+          # Project page is served from https://<user>.github.io/frame/
+          BASE_PATH: /frame
       - run: touch out/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
