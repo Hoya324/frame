@@ -114,6 +114,12 @@ def _extract_exhibitions(html: str) -> list[dict]:
             continue
         if href.startswith("/"):
             href = urljoin(_BASE_URL, href)
+        if "/movie/" in href:
+            # Film screening events live under /movie/<id>/ and use one-off
+            # multi-date strings like "5月1日(金) ／ 5月8日(金) ／ ..." that
+            # can't be reduced to a single start/end range. They're not
+            # photo exhibitions in the usual sense — drop them at source.
+            continue
         if href in seen:
             continue
 
