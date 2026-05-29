@@ -7,6 +7,7 @@ import { isClosingSoon } from "@/lib/status";
 import { ExhibitionCard } from "@/components/ExhibitionCard";
 import { FilterChips } from "@/components/FilterChips";
 import { PosterImage } from "@/components/PosterImage";
+import { SwipeDeck } from "@/components/SwipeDeck";
 import type { Exhibition } from "@/lib/catalog";
 
 const STATUS_OPTS = [
@@ -23,6 +24,7 @@ const EXTRA_OPTS = [
 export default function Home() {
   const catalog = loadCatalogSync();
   const today = new Date();
+  const [mode, setMode] = useState<"time" | "swipe">("time");
   const [chips, setChips] = useState<string[]>([]);
   const toggle = (v: string) => setChips((c) => (c.includes(v) ? c.filter((x) => x !== v) : [...c, v]));
 
@@ -60,26 +62,58 @@ export default function Home() {
           진행 중 <b className="text-tx">{counts.ongoing}</b> · 이번 주 종료{" "}
           <b className="text-tx">{counts.closing}</b> · 곧 개막 <b className="text-tx">{counts.upcoming}</b>
         </p>
+        <div className="mt-4 flex gap-2">
+          <button
+            type="button"
+            onClick={() => setMode("time")}
+            className={`rounded-full px-4 py-1.5 text-sm transition ${
+              mode === "time"
+                ? "bg-white font-semibold text-black"
+                : "border border-line text-tx2 hover:text-tx"
+            }`}
+          >
+            타임
+          </button>
+          <button
+            type="button"
+            onClick={() => setMode("swipe")}
+            className={`rounded-full px-4 py-1.5 text-sm transition ${
+              mode === "swipe"
+                ? "bg-white font-semibold text-black"
+                : "border border-line text-tx2 hover:text-tx"
+            }`}
+          >
+            스와이프
+          </button>
+        </div>
       </div>
 
-      <div className="pb-7"><FilterChips options={[...STATUS_OPTS, ...EXTRA_OPTS]} active={chips} onToggle={toggle} /></div>
+      {mode === "time" && (
+        <>
+          <div className="pb-7"><FilterChips options={[...STATUS_OPTS, ...EXTRA_OPTS]} active={chips} onToggle={toggle} /></div>
 
-      {featured && (
-        <section className="mb-9 grid overflow-hidden rounded border border-line md:grid-cols-[1.1fr_0.9fr]">
-          <div className="relative min-h-[320px]">
-            <ExhibitionCardHero e={featured} />
-          </div>
-        </section>
+          {featured && (
+            <section className="mb-9 grid overflow-hidden rounded border border-line md:grid-cols-[1.1fr_0.9fr]">
+              <div className="relative min-h-[320px]">
+                <ExhibitionCardHero e={featured} />
+              </div>
+            </section>
+          )}
+
+          {closingSoon.length > 0 && (
+            <Section title="곧 종료" hint="놓치기 전에">
+              {closingSoon.slice(0, 4).map((e) => <ExhibitionCard key={e.id} exhibition={e} today={today} />)}
+            </Section>
+          )}
+          <Section title="진행 중" hint="지금 열려 있는">
+            {ongoing.map((e) => <ExhibitionCard key={e.id} exhibition={e} today={today} />)}
+          </Section>
+        </>
       )}
 
-      {closingSoon.length > 0 && (
-        <Section title="곧 종료" hint="놓치기 전에">
-          {closingSoon.slice(0, 4).map((e) => <ExhibitionCard key={e.id} exhibition={e} today={today} />)}
-        </Section>
+      {mode === "swipe" && (
+        <SwipeDeck items={ongoing} />
       )}
-      <Section title="진행 중" hint="지금 열려 있는">
-        {ongoing.map((e) => <ExhibitionCard key={e.id} exhibition={e} today={today} />)}
-      </Section>
     </main>
   );
 }
