@@ -107,7 +107,13 @@ class GspreadRepository:
 
     def read_rows(self, sheet: SheetName) -> list[dict]:
         ws = self._ws(sheet)
-        records = _api_call(lambda: ws.get_all_records())
+        # numericise_ignore=["all"] keeps every cell as the raw string gspread
+        # received. Without it, gspread coerces numeric-looking cells to int/
+        # float — which silently corrupts all-digit hex `id`s (large ones even
+        # overflow to float("inf"), then collide and serialize as the invalid
+        # JSON token `Infinity`). We write every cell as a string anyway, so a
+        # string round-trip is the consistent, lossless choice.
+        records = _api_call(lambda: ws.get_all_records(numericise_ignore=["all"]))
         return [dict(r) for r in records]
 
     def append_rows(self, sheet: SheetName, rows: list[dict]) -> None:

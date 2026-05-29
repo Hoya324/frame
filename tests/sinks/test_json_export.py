@@ -161,3 +161,42 @@ def test_write_catalog_creates_parent_dirs_and_writes_json(tmp_path: Path):
     assert data["exhibitions"][0]["title"] == "빛과 시간의 기록"
     # Korean must not be escaped
     assert "\\u" not in out.read_text(encoding="utf-8")
+
+
+def _repo_with_corrupt_numerics() -> FakeRepository:
+    """Simulate gspread having numericised id/coordinate cells: a huge all-digit
+    id overflowed to inf, another became a float, and a latitude is NaN."""
+    repo = FakeRepository()
+    repo.append_rows(SheetName.VENUES, [
+        {"id": float("inf"), "name": "고은사진미술관",
+         "latitude": float("nan"), "longitude": 129.0},
+    ])
+    repo.append_rows(SheetName.EXHIBITIONS, [
+        {"id": float("inf"), "title": "부산 이바구", "venue_id": float("inf"),
+         "artist_ids": "", "genre_tags": "", "featured": "FALSE"},
+        {"id": 84051722820000.0, "title": "Gradually",
+         "artist_ids": "", "genre_tags": "", "featured": "FALSE"},
+    ])
+    return repo
+
+
+def test_numeric_ids_are_stringified():
+    catalog = build_catalog(_repo_with_corrupt_numerics(), generated_at=GEN_AT)
+    assert all(isinstance(e["id"], str) for e in catalog["exhibitions"])
+    assert all(isinstance(v["id"], str) for v in catalog["venues"])
+
+
+def test_nonfinite_floats_are_dropped():
+    catalog = build_catalog(_repo_with_corrupt_numerics(), generated_at=GEN_AT)
+    venue = catalog["venues"][0]
+    assert venue["lat"] is None  # NaN dropped
+    assert venue["lng"] == 129.0
+
+
+def test_written_file_is_strict_valid_json(tmp_path: Path):
+    out = tmp_path / "exhibitions.json"
+    write_catalog(_repo_with_corrupt_numerics(), str(out), generated_at=GEN_AT)
+    text = out.read_text(encoding="utf-8")
+    # parse_constant fires only on non-standard Infinity/NaN tokens.
+    json.loads(text, parse_constant=lambda _t: (_ for _ in ()).throw(
+        AssertionError("output contains a non-standard JSON constant")))

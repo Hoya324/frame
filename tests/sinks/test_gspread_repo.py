@@ -80,7 +80,7 @@ class _FakeWorksheet:
         self.append_calls: list[list[list[str]]] = []
         self.batch_update_calls: list[list[dict]] = []
 
-    def get_all_records(self):
+    def get_all_records(self, numericise_ignore=None):
         if self._fail_remaining > 0:
             self._fail_remaining -= 1
             raise _api_error(429)
