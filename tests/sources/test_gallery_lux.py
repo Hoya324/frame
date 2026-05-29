@@ -2,10 +2,16 @@ import json
 from pathlib import Path
 
 import httpx
+import pytest
 import respx
 
 from crawler.models import SourceName
-from crawler.sources.gallery_lux import _BASE_URL, _LIST_URL, GalleryLuxExtractor
+from crawler.sources.gallery_lux import (
+    _BASE_URL,
+    _LIST_URL,
+    GalleryLuxExtractor,
+    SilentlyEmptyListPage,
+)
 
 FIXTURE_DIR = Path(__file__).parent.parent / "fixtures" / "gallery_lux"
 
@@ -56,3 +62,47 @@ def test_gallery_lux_extractor_empty_page_yields_nothing():
     )
     raws = list(GalleryLuxExtractor(delay_s=0.0).crawl())
     assert raws == []
+
+
+@respx.mock
+def test_gallery_lux_extractor_raises_on_silent_zero_with_big_body():
+    """A substantial HTML response with 0 parsed cards is almost always an
+    anti-bot interstitial or selector drift — surface it as a real
+    failure rather than silently reporting extracted=0, which is what
+    the production logs were doing for months."""
+    # 30 KB of meaningless markup — no <article> tags so 0 cards
+    big_body = "<html><body>" + ("<div>filler</div>" * 2000) + "</body></html>"
+    assert len(big_body) > 8 * 1024
+    respx.get(_LIST_URL).mock(
+        return_value=httpx.Response(200, text=big_body)
+    )
+    with pytest.raises(SilentlyEmptyListPage):
+        list(GalleryLuxExtractor(delay_s=0.0).crawl())
+
+
+@respx.mock
+def test_gallery_lux_extractor_retries_on_403_then_succeeds(monkeypatch):
+    """403 from Cloudflare-style transient block must trigger backoff
+    retry, not surface as a hard failure on the first try."""
+    # Speed up wait_exponential for the test
+    import tenacity
+    monkeypatch.setattr(tenacity.wait_exponential, "__call__", lambda *a, **kw: 0)
+
+    fixture = _load_fixture("list_page_1.html")
+    # First call → 403, second → fixture. respx side_effect order matters.
+    calls = {"n": 0}
+
+    def handler(request):
+        calls["n"] += 1
+        if calls["n"] == 1:
+            return httpx.Response(403, text="Forbidden")
+        return httpx.Response(200, text=fixture)
+
+    respx.get(_LIST_URL).mock(side_effect=handler)
+    respx.get(f"{_BASE_URL}/archive/page/2/").mock(
+        return_value=httpx.Response(200, text=_EMPTY_HTML)
+    )
+
+    raws = list(GalleryLuxExtractor(delay_s=0.0).crawl())
+    assert raws, "should have parsed cards on retry"
+    assert calls["n"] >= 2  # at least one retry happened

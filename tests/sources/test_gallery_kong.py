@@ -62,3 +62,38 @@ def test_gallery_kong_extractor_empty_page_yields_nothing():
     )
     raws = list(GalleryKongExtractor(delay_s=0.0).crawl())
     assert raws == []
+
+
+@respx.mock
+def test_gallery_kong_extractor_retries_on_403_then_succeeds(monkeypatch):
+    """Wix-hosted konggallery.com intermittently 403s data-center IPs;
+    retry-with-backoff usually clears it within a few seconds. Verify
+    the source recovers instead of bubbling the first 403 up as a hard
+    failure."""
+    import tenacity
+    monkeypatch.setattr(tenacity.wait_exponential, "__call__", lambda *a, **kw: 0)
+
+    fixture = _load_fixture("list_page_1.html")
+    calls = {"n": 0}
+
+    def handler(request):
+        calls["n"] += 1
+        if calls["n"] == 1:
+            return httpx.Response(403, text="Forbidden")
+        return httpx.Response(200, text=fixture)
+
+    respx.get(_LIST_URL).mock(side_effect=handler)
+    # Detail pages still need to be mocked for the full pipeline to run.
+    respx.get(f"{_BASE_URL}/2022_KwakIntan_palette").mock(
+        return_value=httpx.Response(200, text=_load_fixture("detail_2022_KwakIntan.html"))
+    )
+    respx.get(f"{_BASE_URL}/2022__MichaelKenna").mock(
+        return_value=httpx.Response(200, text=_load_fixture("detail_2022_MichaelKenna.html"))
+    )
+    respx.get(f"{_BASE_URL}/2022_jenpak_IntotheVoid").mock(
+        return_value=httpx.Response(200, text=_load_fixture("detail_2022_jenpak.html"))
+    )
+
+    raws = list(GalleryKongExtractor(delay_s=0.0).crawl())
+    assert raws, "should have parsed cards after retry"
+    assert calls["n"] >= 2  # at least one 403 → retry → success
