@@ -107,3 +107,42 @@ def test_build_catalog_lists_full_venues_and_artists():
     assert catalog["venues"][0]["lat"] == 37.58
     assert catalog["venues"][0]["website"] is None
     assert catalog["artists"][1] == {"id": "a2", "name": "이작가", "name_en": "Lee"}
+
+
+def test_build_catalog_handles_missing_venue_and_no_artists():
+    repo = FakeRepository()
+    repo.append_rows(SheetName.EXHIBITIONS, [{
+        "id": "e9", "source": "artmap", "status": "upcoming",
+        "source_url": "https://src/9", "title": "제목 없는 전시",
+        "title_en": "", "description": "",
+        "poster_image_url": "", "medium": "photo",
+        "exhibition_type": "group", "genre_tags": "", "fee_type": "free",
+        "price_min": "", "price_max": "",
+        "start_date": "2026-06-20", "end_date": "", "open_hours": "",
+        "artist_ids": "", "venue_id": "", "featured": "FALSE",
+        "popularity_score": "",
+    }])
+    catalog = build_catalog(repo, generated_at=GEN_AT)
+    ex = catalog["exhibitions"][0]
+    assert ex["venue"] is None
+    assert ex["artists"] == []
+    assert ex["genre_tags"] == []
+    assert ex["end_date"] is None
+    assert ex["poster_image_url"] is None
+    assert catalog["venues"] == []
+
+
+def test_build_catalog_drops_unknown_artist_ids():
+    repo = FakeRepository()
+    repo.append_rows(SheetName.ARTISTS, [{"id": "a1", "name": "있는작가", "name_en": ""}])
+    repo.append_rows(SheetName.EXHIBITIONS, [{
+        "id": "e8", "source": "artmap", "status": "ongoing",
+        "source_url": "https://src/8", "title": "T", "title_en": "",
+        "description": "", "poster_image_url": "", "medium": "photo",
+        "exhibition_type": "group", "genre_tags": "", "fee_type": "free",
+        "price_min": "", "price_max": "", "start_date": "", "end_date": "",
+        "open_hours": "", "artist_ids": "a1,ghost", "venue_id": "",
+        "featured": "FALSE", "popularity_score": "",
+    }])
+    catalog = build_catalog(repo, generated_at=GEN_AT)
+    assert catalog["exhibitions"][0]["artists"] == [{"id": "a1", "name": "있는작가"}]
