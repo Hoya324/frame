@@ -53,3 +53,19 @@ def test_extractor_dedups_by_source_url():
     rows = _extract_exhibitions(html)
     urls = [r["source_url"] for r in rows]
     assert len(urls) == len(set(urls)), "duplicate source_urls in extractor output"
+
+
+def test_extractor_skips_movie_screening_urls():
+    """Film screening events live under /movie/<id>/ and have one-off
+    multi-date strings that can't be reduced to a normalized range —
+    they're not photo exhibitions in the usual sense and must be dropped
+    at the source level rather than landing as start_date=None rows."""
+    html = (_FIXTURE_DIR / "list_current.html").read_text(encoding="utf-8")
+    rows = _extract_exhibitions(html)
+    assert rows, "fixture should have surviving exhibition cards"
+    for r in rows:
+        assert "/movie/" not in r["source_url"], (
+            f"movie screening leaked through filter: {r['source_url']!r}"
+        )
+        # Every surviving row must be a real exhibition link
+        assert "/exhibition/" in r["source_url"]
