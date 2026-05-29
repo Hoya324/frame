@@ -34,6 +34,7 @@ crawler init-sheets       # create 5 worksheets with headers (idempotent)
 crawler dry-run artmap    # crawl and print normalized JSON, no writes
 crawler run artmap        # crawl one source and upsert
 crawler run-all           # crawl every registered source
+crawler export-json       # write web/public/data/exhibitions.json snapshot
 ```
 
 ## Adding a new source
