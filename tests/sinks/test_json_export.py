@@ -146,3 +146,23 @@ def test_build_catalog_drops_unknown_artist_ids():
     }])
     catalog = build_catalog(repo, generated_at=GEN_AT)
     assert catalog["exhibitions"][0]["artists"] == [{"id": "a1", "name": "있는작가"}]
+
+
+import json
+from pathlib import Path
+
+from crawler.sinks.json_export import write_catalog
+
+
+def test_write_catalog_creates_parent_dirs_and_writes_json(tmp_path: Path):
+    repo = _seed_repo()
+    out = tmp_path / "nested" / "exhibitions.json"
+    count = write_catalog(repo, str(out), generated_at=GEN_AT)
+
+    assert count == 1
+    assert out.exists()
+    data = json.loads(out.read_text(encoding="utf-8"))
+    assert data["generated_at"] == "2026-05-30T06:54:00+00:00"
+    assert data["exhibitions"][0]["title"] == "빛과 시간의 기록"
+    # Korean must not be escaped
+    assert "\\u" not in out.read_text(encoding="utf-8")
