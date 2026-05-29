@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T18:08:39.204999+00:00",
+  "generated_at": "2026-05-29T18:23:11.540957+00:00",
   "exhibitions": [
     {
       "id": "b22a6127299d",
@@ -213,6 +213,10 @@
         "lng": 127.61298983008768
       },
       "artists": [
+        {
+          "id": "74e249610423",
+          "name": "김환기"
+        },
         {
           "id": "c95a0dddde2e",
           "name": "박수근"
@@ -2180,7 +2184,12 @@
         "lat": 37.4743847192162,
         "lng": 126.618553050416
       },
-      "artists": [],
+      "artists": [
+        {
+          "id": "4790328e7109",
+          "name": "구은정, 노찬균, 박주연,원나래,이려진,허영지,희박"
+        }
+      ],
       "source_url": "https://art-map.co.kr/exhibition/view.php?idx=32288",
       "featured": false,
       "popularity_score": null
@@ -7644,7 +7653,7 @@
       "popularity_score": null
     },
     {
-      "id": Infinity,
+      "id": "48585567e713",
       "title": "부산 이바구",
       "title_en": null,
       "poster_image_url": "https://www.goeunmuseum.kr/data/file/exhibition/thumb-33351696_kj5xrz8d_8bf226b01e9db26c68de3031b39633d128fbe2be_600x400.jpg",
@@ -8939,7 +8948,7 @@
       "id": "662c28f18517",
       "title": "The Origin 근원",
       "title_en": null,
-      "poster_image_url": "https://www.goeunmuseum.kr/data/file/exhibition/thumb-156_copy_159_151_copy_156_85_copy_151_12_copy_85_3553635910_HqWjfhBg_c2896463fb78bd2710733233056ce17538ff524e_600x400.jpg",
+      "poster_image_url": "https://www.goeunmuseum.kr/data/file/exhibition/thumb-127_copy_160_76_copy_127_3696652284_59Qnls7q_483fc2aac02750709bf2b55d631b3ad46a2b21da_600x400.jpg",
       "description": null,
       "medium": "mixed",
       "exhibition_type": "curated",
@@ -8961,11 +8970,11 @@
       },
       "artists": [
         {
-          "id": "02d2bc17f3b6",
-          "name": "강용석, 권태균, 김보섭, 이갑철, 이상일, 정주하, 최광호"
+          "id": "9f5ca1b3eb87",
+          "name": "오상조, 이완교, 이종만, 한정식"
         }
       ],
-      "source_url": "https://www.goeunmuseum.kr/bbs/board.php?bo_table=exhibition&wr_id=159",
+      "source_url": "https://www.goeunmuseum.kr/bbs/board.php?bo_table=exhibition&wr_id=160",
       "featured": false,
       "popularity_score": null
     },
@@ -12668,12 +12677,12 @@
         "lng": 126.974124287105
       },
       "artists": [],
-      "source_url": "https://www.ilwoo.org/default/m02/p03.php?com_board_basic=read_form&com_board_idx=2&com_board_page=9&com_board_id=10",
+      "source_url": "https://www.ilwoo.org/default/m02/p03.php?com_board_basic=read_form&com_board_idx=66&com_board_page=3&com_board_id=10",
       "featured": false,
       "popularity_score": null
     },
     {
-      "id": Infinity,
+      "id": "48585567e713",
       "title": "부산 이바구",
       "title_en": null,
       "poster_image_url": "https://www.goeunmuseum.kr/data/file/exhibition/thumb-33351696_kj5xrz8d_8bf226b01e9db26c68de3031b39633d128fbe2be_600x400.jpg",
@@ -12707,7 +12716,7 @@
       "popularity_score": null
     },
     {
-      "id": Infinity,
+      "id": "48585567e713",
       "title": "부산 이바구",
       "title_en": null,
       "poster_image_url": "https://www.goeunmuseum.kr/data/file/exhibition/thumb-33351696_kj5xrz8d_8bf226b01e9db26c68de3031b39633d128fbe2be_600x400.jpg",
@@ -14370,7 +14379,7 @@
       "popularity_score": null
     },
     {
-      "id": Infinity,
+      "id": "48585567e713",
       "title": "부산 이바구",
       "title_en": null,
       "poster_image_url": "https://www.goeunmuseum.kr/data/file/exhibition/thumb-33351696_kj5xrz8d_8bf226b01e9db26c68de3031b39633d128fbe2be_600x400.jpg",
@@ -14636,7 +14645,7 @@
       "popularity_score": null
     },
     {
-      "id": Infinity,
+      "id": "48585567e713",
       "title": "부산 이바구",
       "title_en": null,
       "poster_image_url": "https://www.goeunmuseum.kr/data/file/exhibition/thumb-33351696_kj5xrz8d_8bf226b01e9db26c68de3031b39633d128fbe2be_600x400.jpg",
@@ -16294,7 +16303,7 @@
       "popularity_score": null
     },
     {
-      "id": Infinity,
+      "id": "1e3419224714",
       "title": "佐内正史 「Strong 雷写」",
       "title_en": null,
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4mYFtW3ON331gIvkizh6db/ba7093687662eca9d6adb3d0216e96f7/IMG_7940_2.JPG",
@@ -17222,7 +17231,7 @@
       "popularity_score": null
     },
     {
-      "id": 84051722820000.0,
+      "id": "8405172282e4",
       "title": "水咲奈々 「Gradually」",
       "title_en": null,
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/54KC5yUPk5lJuT8RoE1yQt/a920a7a3ed84e589f4cf3b6830241f20/unnamed.jpg",
@@ -18875,7 +18884,7 @@
       "popularity_score": null
     },
     {
-      "id": Infinity,
+      "id": "48585567e713",
       "title": "부산 이바구",
       "title_en": null,
       "poster_image_url": "https://www.goeunmuseum.kr/data/file/exhibition/thumb-33351696_kj5xrz8d_8bf226b01e9db26c68de3031b39633d128fbe2be_600x400.jpg",
@@ -18938,7 +18947,7 @@
       "popularity_score": null
     },
     {
-      "id": Infinity,
+      "id": "1e3419224714",
       "title": "佐内正史 「Strong 雷写」",
       "title_en": null,
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4mYFtW3ON331gIvkizh6db/ba7093687662eca9d6adb3d0216e96f7/IMG_7940_2.JPG",
@@ -18967,7 +18976,7 @@
       "popularity_score": null
     },
     {
-      "id": 84051722820000.0,
+      "id": "8405172282e4",
       "title": "水咲奈々 「Gradually」",
       "title_en": null,
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/54KC5yUPk5lJuT8RoE1yQt/a920a7a3ed84e589f4cf3b6830241f20/unnamed.jpg",
@@ -19030,7 +19039,7 @@
       "popularity_score": null
     },
     {
-      "id": Infinity,
+      "id": "48585567e713",
       "title": "부산 이바구",
       "title_en": null,
       "poster_image_url": "https://www.goeunmuseum.kr/data/file/exhibition/thumb-33351696_kj5xrz8d_8bf226b01e9db26c68de3031b39633d128fbe2be_600x400.jpg",
@@ -19209,7 +19218,7 @@
       "popularity_score": null
     },
     {
-      "id": Infinity,
+      "id": "1e3419224714",
       "title": "佐内正史 「Strong 雷写」",
       "title_en": null,
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4mYFtW3ON331gIvkizh6db/ba7093687662eca9d6adb3d0216e96f7/IMG_7940_2.JPG",
@@ -19238,7 +19247,7 @@
       "popularity_score": null
     },
     {
-      "id": 84051722820000.0,
+      "id": "8405172282e4",
       "title": "水咲奈々 「Gradually」",
       "title_en": null,
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/54KC5yUPk5lJuT8RoE1yQt/a920a7a3ed84e589f4cf3b6830241f20/unnamed.jpg",
@@ -21921,7 +21930,7 @@
       "name_en": null
     },
     {
-      "id": Infinity,
+      "id": "74e249610423",
       "name": "김환기",
       "name_en": null
     },
@@ -22251,7 +22260,7 @@
       "name_en": null
     },
     {
-      "id": Infinity,
+      "id": "4790328e7109",
       "name": "구은정, 노찬균, 박주연,원나래,이려진,허영지,희박",
       "name_en": null
     },
