@@ -56,28 +56,49 @@ def test_gallery_lux_extractor_parses_cards():
 
 
 @respx.mock
-def test_gallery_lux_extractor_empty_page_yields_nothing():
+def test_gallery_lux_extractor_raises_when_page_one_has_no_article_tag():
+    """A real WordPress archive page renders many <article> elements,
+    one per exhibition card. If page 1 has NONE, we got an anti-bot
+    interstitial, a redirect, or markup drift — even when status is
+    200. The previous version returned silently in that case, which
+    is what masked the bug in production for months.
+
+    gallery_lux's archive has years of history; it can never be
+    legitimately empty. So 'no <article>' is unconditionally a
+    failure for this source."""
     respx.get(_LIST_URL).mock(
         return_value=httpx.Response(200, text="<html><body></body></html>")
     )
-    raws = list(GalleryLuxExtractor(delay_s=0.0).crawl())
-    assert raws == []
+    with pytest.raises(SilentlyEmptyListPage):
+        list(GalleryLuxExtractor(delay_s=0.0).crawl())
 
 
 @respx.mock
-def test_gallery_lux_extractor_raises_on_silent_zero_with_big_body():
-    """A substantial HTML response with 0 parsed cards is almost always an
-    anti-bot interstitial or selector drift — surface it as a real
-    failure rather than silently reporting extracted=0, which is what
-    the production logs were doing for months."""
-    # 30 KB of meaningless markup — no <article> tags so 0 cards
+def test_gallery_lux_extractor_raises_when_big_body_has_no_article_tag():
+    """Belt-and-suspenders: a substantial response that lacks <article>
+    tags is also a failure — covers the interstitial-with-padding case
+    where an attacker hides a CF challenge inside <div> noise."""
     big_body = "<html><body>" + ("<div>filler</div>" * 2000) + "</body></html>"
-    assert len(big_body) > 8 * 1024
     respx.get(_LIST_URL).mock(
         return_value=httpx.Response(200, text=big_body)
     )
     with pytest.raises(SilentlyEmptyListPage):
         list(GalleryLuxExtractor(delay_s=0.0).crawl())
+
+
+@respx.mock
+def test_gallery_lux_extractor_pagination_terminates_silently_when_page_2_empty():
+    """When page 1 succeeds (has <article> + cards) and page 2 returns
+    nothing, we should terminate pagination silently — the raise is
+    only for page 1 specifically, because that's the smoking-gun
+    indicator of an interstitial or drift."""
+    page_1 = _load_fixture("list_page_1.html")
+    respx.get(_LIST_URL).mock(return_value=httpx.Response(200, text=page_1))
+    respx.get(f"{_BASE_URL}/archive/page/2/").mock(
+        return_value=httpx.Response(200, text="<html><body></body></html>")
+    )
+    raws = list(GalleryLuxExtractor(delay_s=0.0).crawl())
+    assert raws, "page 1 should have produced cards from the fixture"
 
 
 @respx.mock

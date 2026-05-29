@@ -53,12 +53,13 @@ _VENUE_NAME = "갤러리 룩스"
 _VENUE_REGION = "서울"
 _VENUE_ADDRESS = "서울특별시 종로구 옥인동 62"
 
-# Production has historically logged extracted=0 from GitHub Actions IPs
-# despite the same fetch returning a populated archive locally; the site
-# (WordPress) occasionally serves a maintenance or anti-bot interstitial.
-# Anything below this size on the FIRST page strongly implies that —
-# raise instead of silently returning an empty crawl.
-_MIN_LIST_PAGE_BYTES = 8 * 1024
+# A real WordPress archive page renders many <article> elements, one per
+# exhibition card. If page 1 has NONE, we got an interstitial / redirect
+# / different page back — even when status is 200 and the body is small.
+# The previous 8 KB size threshold missed exactly this case in production
+# (Actions runner kept getting a short interstitial instead of the full
+# archive). Content-based detection is threshold-free.
+_ARTICLE_MARKER = "<article"
 _RETRYABLE_HTTP_STATUSES = frozenset({403, 429, 500, 502, 503, 504})
 
 
@@ -119,14 +120,16 @@ class GalleryLuxExtractor:
             html = self._get(url)
             cards = _extract_cards(html)
             if not cards:
-                if page_num == 1 and len(html) >= _MIN_LIST_PAGE_BYTES:
-                    # Page 1 returned a substantial body but no exhibition
-                    # cards parsed out. Almost certainly an interstitial
-                    # / markup drift. Raise so the cron report shows it.
+                if page_num == 1 and _ARTICLE_MARKER not in html.lower():
+                    # Page 1 came back without a single <article> element
+                    # — a real WordPress archive page has dozens. This
+                    # almost certainly means an anti-bot interstitial /
+                    # redirect / different page. Raise so the cron report
+                    # shows it instead of silently looking healthy at 0.
                     raise SilentlyEmptyListPage(
                         f"gallery_lux: {url} returned {len(html)} bytes "
-                        "but parsed 0 cards — likely anti-bot interstitial "
-                        "or selector drift"
+                        "with no <article> tags — likely anti-bot "
+                        "interstitial or markup drift"
                     )
                 return
 
