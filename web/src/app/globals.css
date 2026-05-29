@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #000;
+  --color-bg2: #0a0a0a;
+  --color-panel: #0c0c0c;
+  --color-panel2: #141414;
+  --color-line: rgba(255, 255, 255, 0.13);
+  --color-line2: rgba(255, 255, 255, 0.22);
+  --color-tx: #fff;
+  --color-tx2: #9a9a9a;
+  --color-tx3: #5e5e5e;
+}
+
+:root {
+  --bg: #000;
+  --bg2: #0a0a0a;
+  --panel: #0c0c0c;
+  --panel2: #141414;
+  --line: rgba(255, 255, 255, 0.13);
+  --line2: rgba(255, 255, 255, 0.22);
+  --tx: #fff;
+  --tx2: #9a9a9a;
+  --tx3: #5e5e5e;
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--tx);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.01em;
+}
