@@ -1,10 +1,20 @@
+import json
+from datetime import UTC, datetime
+from pathlib import Path
+
+from crawler.sinks.base import SheetName
+from crawler.sinks.fake import FakeRepository
 from crawler.sinks.json_export import (
     _bool,
     _float_or_none,
     _int_or_none,
     _split,
     _str_or_none,
+    build_catalog,
+    write_catalog,
 )
+
+GEN_AT = datetime(2026, 5, 30, 6, 54, tzinfo=UTC)
 
 
 def test_split_returns_list_or_empty():
@@ -38,15 +48,6 @@ def test_bool_reads_sheet_truthiness():
     assert _bool("FALSE") is False
     assert _bool("") is False
     assert _bool(None) is False
-
-
-from datetime import UTC, datetime
-
-from crawler.sinks.base import SheetName
-from crawler.sinks.fake import FakeRepository
-from crawler.sinks.json_export import build_catalog
-
-GEN_AT = datetime(2026, 5, 30, 6, 54, tzinfo=UTC)
 
 
 def _seed_repo() -> FakeRepository:
@@ -146,12 +147,6 @@ def test_build_catalog_drops_unknown_artist_ids():
     }])
     catalog = build_catalog(repo, generated_at=GEN_AT)
     assert catalog["exhibitions"][0]["artists"] == [{"id": "a1", "name": "있는작가"}]
-
-
-import json
-from pathlib import Path
-
-from crawler.sinks.json_export import write_catalog
 
 
 def test_write_catalog_creates_parent_dirs_and_writes_json(tmp_path: Path):
