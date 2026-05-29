@@ -1,0 +1,46 @@
+name: healthcheck
+# Weekly probe of every source's selectors against the live site.
+# Catches markup drift / anti-bot lockouts BEFORE the daily cron silently
+# starts reporting extracted=0. Fails the workflow (red badge, email
+# alert if you have that wired) when any source raises mid-crawl.
+#
+# Reads only — no sheet writes, no geocoder calls. Therefore no secrets
+# required; runs entirely on the public-facing source websites.
+on:
+  schedule:
+    - cron: '0 1 * * 1'  # Mondays 01:00 UTC = 10:00 KST
+  workflow_dispatch:
+concurrency:
+  group: healthcheck
+  cancel-in-progress: true
+jobs:
+  healthcheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+      - run: pip install -e .
+      - id: probe
+        run: |
+          set -o pipefail
+          mkdir -p out
+          crawler healthcheck | tee out/healthcheck.md
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: healthcheck-report
+          path: out/
+          if-no-files-found: warn
+      - if: always()
+        run: |
+          if [ -f out/healthcheck.md ]; then
+            echo "## Source healthcheck — $(date -u +'%Y-%m-%d %H:%M UTC')" \
+              >> "$GITHUB_STEP_SUMMARY"
+            cat out/healthcheck.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "_(no healthcheck.md produced)_" >> "$GITHUB_STEP_SUMMARY"
+          fi

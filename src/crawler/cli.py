@@ -127,6 +127,35 @@ def run_all_cmd() -> None:
         sys.exit(1)
 
 
+@app.command("healthcheck")
+def healthcheck_cmd() -> None:
+    """Probe every registered source — counts extracted items and surfaces
+    selector failures. Does not write to the sheet; safe to run without
+    sheet / geocoder credentials. Exits 1 if any source raised an exception
+    so the workflow goes red and the user sees the alert."""
+    from crawler.sources.base import all_sources
+
+    rows: list[tuple[str, int, str, str]] = []
+    any_failure = False
+    for src, extractor_cls in all_sources().items():
+        try:
+            extractor = extractor_cls()
+            count = sum(1 for _ in extractor.crawl())
+            status = "ok" if count > 0 else "empty"
+            rows.append((src.value, count, status, ""))
+        except Exception as exc:
+            any_failure = True
+            rows.append((src.value, 0, "FAIL", f"{type(exc).__name__}: {exc}"))
+
+    typer.echo("| source | count | status | error |")
+    typer.echo("|--------|-------|--------|-------|")
+    for name, count, status, err in rows:
+        typer.echo(f"| {name} | {count} | {status} | {err} |")
+
+    if any_failure:
+        raise typer.Exit(code=1)
+
+
 @app.command("backfill-geocodes")
 def backfill_geocodes_cmd() -> None:
     """Re-geocode every venue with missing coordinates (one-time recovery)."""
