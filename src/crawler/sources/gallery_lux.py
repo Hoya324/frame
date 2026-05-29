@@ -40,7 +40,7 @@ from urllib.parse import urljoin
 
 import httpx
 from selectolax.parser import HTMLParser
-from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
+from tenacity import retry, retry_if_exception, stop_after_attempt, wait_exponential
 
 from crawler.models import RawExhibition, SourceName
 from crawler.sources.base import register_source
@@ -52,6 +52,32 @@ _USER_AGENT = "PhotoExhibitionCrawler/0.1 (+contact@example.com)"
 _VENUE_NAME = "갤러리 룩스"
 _VENUE_REGION = "서울"
 _VENUE_ADDRESS = "서울특별시 종로구 옥인동 62"
+
+# Production has historically logged extracted=0 from GitHub Actions IPs
+# despite the same fetch returning a populated archive locally; the site
+# (WordPress) occasionally serves a maintenance or anti-bot interstitial.
+# Anything below this size on the FIRST page strongly implies that —
+# raise instead of silently returning an empty crawl.
+_MIN_LIST_PAGE_BYTES = 8 * 1024
+_RETRYABLE_HTTP_STATUSES = frozenset({403, 429, 500, 502, 503, 504})
+
+
+def _should_retry(exc: BaseException) -> bool:
+    if isinstance(exc, httpx.TransportError):
+        return True
+    if isinstance(exc, httpx.HTTPStatusError):
+        return exc.response.status_code in _RETRYABLE_HTTP_STATUSES
+    return False
+
+
+class SilentlyEmptyListPage(RuntimeError):
+    """Server responded 200 with non-trivial body but no archive cards.
+
+    This is almost always (a) an anti-bot interstitial, (b) a maintenance
+    page, or (c) the markup changed under our feet. Surfacing this as a
+    real failure makes it visible in the cron report instead of looking
+    like a normal "no current shows" outcome.
+    """
 
 
 class GalleryLuxExtractor:
@@ -72,9 +98,9 @@ class GalleryLuxExtractor:
         )
 
     @retry(
-        retry=retry_if_exception_type(httpx.TransportError),
-        wait=wait_exponential(multiplier=1, min=1, max=16),
-        stop=stop_after_attempt(3),
+        retry=retry_if_exception(_should_retry),
+        wait=wait_exponential(multiplier=2, min=2, max=60),
+        stop=stop_after_attempt(4),
         reraise=True,
     )
     def _get(self, url: str) -> str:
@@ -93,6 +119,15 @@ class GalleryLuxExtractor:
             html = self._get(url)
             cards = _extract_cards(html)
             if not cards:
+                if page_num == 1 and len(html) >= _MIN_LIST_PAGE_BYTES:
+                    # Page 1 returned a substantial body but no exhibition
+                    # cards parsed out. Almost certainly an interstitial
+                    # / markup drift. Raise so the cron report shows it.
+                    raise SilentlyEmptyListPage(
+                        f"gallery_lux: {url} returned {len(html)} bytes "
+                        "but parsed 0 cards — likely anti-bot interstitial "
+                        "or selector drift"
+                    )
                 return
 
             for c in cards:

@@ -40,7 +40,7 @@ from urllib.parse import urljoin
 
 import httpx
 from selectolax.parser import HTMLParser
-from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
+from tenacity import retry, retry_if_exception, stop_after_attempt, wait_exponential
 
 from crawler.models import RawExhibition, SourceName
 from crawler.sources.base import register_source
@@ -48,6 +48,20 @@ from crawler.sources.base import register_source
 _BASE_URL = "https://www.konggallery.com"
 _LIST_URL = f"{_BASE_URL}/EXHIBITIONS_PAST"
 _USER_AGENT = "PhotoExhibitionCrawler/0.1 (+contact@example.com)"
+
+# Statuses we treat as transient. konggallery.com is on Wix, which
+# occasionally serves 403/429 to data-center IPs (intermittently
+# observed from GitHub Actions runners). Retrying after a backoff
+# usually clears it.
+_RETRYABLE_HTTP_STATUSES = frozenset({403, 429, 500, 502, 503, 504})
+
+
+def _should_retry(exc: BaseException) -> bool:
+    if isinstance(exc, httpx.TransportError):
+        return True
+    if isinstance(exc, httpx.HTTPStatusError):
+        return exc.response.status_code in _RETRYABLE_HTTP_STATUSES
+    return False
 
 _VENUE_NAME = "공근혜갤러리"
 _VENUE_REGION = "서울"
@@ -70,9 +84,9 @@ class GalleryKongExtractor:
         )
 
     @retry(
-        retry=retry_if_exception_type(httpx.TransportError),
-        wait=wait_exponential(multiplier=1, min=1, max=16),
-        stop=stop_after_attempt(3),
+        retry=retry_if_exception(_should_retry),
+        wait=wait_exponential(multiplier=2, min=2, max=60),
+        stop=stop_after_attempt(4),
         reraise=True,
     )
     def _get(self, url: str) -> str:
