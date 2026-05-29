@@ -14,10 +14,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export const metadata: Metadata = {
   title: "FRAME — 전시 디스커버리",
   description: "사진·영상 전시를 찾고 둘러보세요",
-  manifest: "/manifest.webmanifest",
+  manifest: `${basePath}/manifest.webmanifest`,
 };
 
 export const viewport: Viewport = {

@@ -17,7 +17,11 @@ self.addEventListener("fetch", (event) => {
           caches.open(CACHE).then((c) => c.put(request, copy));
           return res;
         })
-        .catch(() => caches.match(request).then((r) => r || caches.match("/"))),
+        .catch(() =>
+          caches
+            .match(request)
+            .then((r) => r || caches.match(new URL("./", self.location.href).pathname)),
+        ),
     );
     return;
   }
