@@ -156,6 +156,17 @@ def healthcheck_cmd() -> None:
         raise typer.Exit(code=1)
 
 
+@app.command("export-json")
+def export_json_cmd(
+    out: str = "web/public/data/exhibitions.json",
+) -> None:
+    """Export the canonical store to a denormalized JSON snapshot for the web frontend."""
+    from crawler.sinks.json_export import write_catalog
+
+    count = write_catalog(_build_repo(), out)
+    typer.echo(f"export-json: wrote {count} exhibitions to {out}")
+
+
 @app.command("backfill-geocodes")
 def backfill_geocodes_cmd() -> None:
     """Re-geocode every venue with missing coordinates (one-time recovery)."""
