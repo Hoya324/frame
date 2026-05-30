@@ -1,5 +1,6 @@
 "use client";
 import { useAuth, useBookmarks } from "@/components/AuthProvider";
+import { SubscriptionSettings } from "@/components/SubscriptionSettings";
 
 export default function MePage() {
   const { user, loading, signIn, signOut } = useAuth();
@@ -32,7 +33,7 @@ export default function MePage() {
           </span>
         </div>
       </div>
-      <div className="mt-4 rounded-lg border border-line p-5 text-sm text-tx3">구독 설정 — 곧 제공</div>
+      <div className="mt-4"><SubscriptionSettings /></div>
       <button
         onClick={() => void signOut()}
         className="mt-6 rounded-md border border-line2 px-4 py-2 text-sm font-medium hover:bg-panel2"
