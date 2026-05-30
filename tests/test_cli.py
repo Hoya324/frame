@@ -8,6 +8,7 @@ def test_cli_help_lists_commands():
     result = runner.invoke(app, ["--help"])
     assert result.exit_code == 0
     assert "init-sheets" in result.stdout
+    assert "reset-sheets" in result.stdout
     assert "run" in result.stdout
     assert "dry-run" in result.stdout
     assert "run-all" in result.stdout

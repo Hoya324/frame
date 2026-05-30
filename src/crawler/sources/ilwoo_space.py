@@ -58,6 +58,30 @@ _VENUE_ADDRESS = "서울시 중구 서소문로 117 대한항공 빌딩 6층"
 _BOARD_ID = "10"
 
 
+def _decode_html(content: bytes, header_encoding: str | None) -> str:
+    """Decode an Ilwoo page, working around its misdeclared charset.
+
+    The live site serves EUC-KR bytes but its Content-Type header reports
+    charset=utf-8, so trusting the header yields U+FFFD mojibake. EUC-KR
+    Korean byte sequences are invalid UTF-8, so a *strict* utf-8 decode raises
+    and we fall back to cp949 (a superset of euc-kr). Genuinely UTF-8 pages
+    (e.g. test fixtures) still decode cleanly on the first attempt.
+    """
+    candidates = [header_encoding] if header_encoding else []
+    candidates += ["utf-8", "cp949"]
+    tried: set[str] = set()
+    for enc in candidates:
+        key = enc.lower()
+        if key in tried:
+            continue
+        tried.add(key)
+        try:
+            return content.decode(enc)
+        except (UnicodeDecodeError, LookupError):
+            continue
+    return content.decode("cp949", errors="replace")
+
+
 def _build_list_url(page: int) -> str:
     """Return the list URL for the given page number (1-indexed)."""
     if page == 1:
@@ -116,11 +140,7 @@ class IlwooSpaceExtractor:
     def _get(self, url: str) -> str:
         r = self._client.get(url)
         r.raise_for_status()
-        # The live site is served as EUC-KR.  Use the response encoding reported
-        # in the Content-Type header so that mocked responses (which use UTF-8)
-        # are also decoded correctly.
-        encoding = r.encoding or "euc-kr"
-        return r.content.decode(encoding, errors="replace")
+        return _decode_html(r.content, r.encoding)
 
     def crawl(self) -> Iterable[RawExhibition]:
         seen: set[str] = set()

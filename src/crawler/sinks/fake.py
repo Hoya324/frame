@@ -22,3 +22,6 @@ class FakeRepository(Repository):
             if row_id not in by_id:
                 raise KeyError(f"unknown id {row_id} in {sheet.value}")
             by_id[row_id].update(patch)
+
+    def clear_sheet(self, sheet: SheetName) -> None:
+        self._data[sheet] = []

@@ -105,6 +105,8 @@ def resolve_entities(
                         venue_type=map_venue_type(exh.venue_raw_name) or VenueType.OTHER,
                         region=exh.venue_raw_region,
                         address=exh.venue_raw_address,
+                        latitude=exh.venue_raw_lat,
+                        longitude=exh.venue_raw_lng,
                         sources=[source],
                         first_seen_at=now,
                         updated_at=now,

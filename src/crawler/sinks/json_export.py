@@ -139,7 +139,16 @@ def build_catalog(repo: Repository, generated_at: datetime) -> dict:
     venues_by_id = {r["id"]: r for r in venue_rows}
     artists_by_id = {r["id"]: r for r in artist_rows}
 
-    kept_rows = [r for r in exhibition_rows if _is_photo_relevant(r)]
+    # Collapse any duplicate exhibition ids that predate the upsert in-batch
+    # dedupe fix, so the snapshot never ships the same exhibition twice.
+    deduped_rows: dict[str, dict] = {}
+    for r in exhibition_rows:
+        rid = _id(r["id"]) if r.get("id") else None
+        if rid is None:
+            continue
+        deduped_rows[rid] = r
+
+    kept_rows = [r for r in deduped_rows.values() if _is_photo_relevant(r)]
 
     # Drop venues/artists that no surviving exhibition references, so the
     # region dropdown and other reference lists don't surface dead entries.

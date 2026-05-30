@@ -72,6 +72,28 @@ def test_events_to_rows_handles_missing_optional_fields():
     assert r["venue_name"] == "X Gallery"
     assert r["venue_region"] is None
     assert r["poster_image_url"] is None
+    # No geoInfo → coords stay None so the pipeline falls back to geocoding.
+    assert r["venue_lat"] is None
+    assert r["venue_lng"] is None
+
+
+def test_events_to_rows_extracts_venue_geoinfo():
+    """When TAB ships venue.fields.geoInfo, the coords flow through so the
+    pipeline can skip the unreliable name-only geocode for small galleries."""
+    events = [{
+        "slug": "geo",
+        "eventName": "Geo Show",
+        "scheduleStartsOn": "2026-06-01",
+        "scheduleEndsOn": "2026-07-01",
+        "categories": [{"fields": {"name": "写真"}}],
+        "venue": {"fields": {
+            "fullName": "PGI",
+            "geoInfo": {"lat": 35.65, "lon": 139.74},
+        }},
+    }]
+    rows = _events_to_rows(events)
+    assert rows[0]["venue_lat"] == 35.65
+    assert rows[0]["venue_lng"] == 139.74
 
 
 def test_events_to_rows_normalizes_image_url_to_https():

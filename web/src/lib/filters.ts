@@ -1,4 +1,5 @@
 import type { Exhibition, Status } from "@/lib/catalog";
+import { regionBucket } from "@/lib/regions";
 
 export interface FilterState {
   statuses: Status[];
@@ -15,8 +16,10 @@ export function applyFilters(list: Exhibition[], f: FilterState): Exhibition[] {
     if (f.types.length && (!e.exhibitionType || !f.types.includes(e.exhibitionType))) return false;
     if (f.freeOnly && e.feeType !== "free") return false;
     if (f.regions.length) {
-      const region = e.venue?.region ?? null;
-      if (!region || !f.regions.includes(region)) return false;
+      // f.regions holds coarse city buckets ("서울", "도쿄", …), not raw venue
+      // regions, so collapse the venue's granular region before matching.
+      const bucket = regionBucket(e.venue?.region);
+      if (!bucket || !f.regions.includes(bucket.city)) return false;
     }
     return true;
   });

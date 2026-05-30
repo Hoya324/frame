@@ -159,6 +159,48 @@ class _FlakyGeocoder:
         )
 
 
+class _ExplodingGeocoder:
+    """Fails the test if geocode() is ever called."""
+
+    def geocode(self, query: str) -> tuple[float | None, float | None]:
+        raise AssertionError(f"geocoder must not be called; got query {query!r}")
+
+
+@freeze_time("2026-05-28")
+def test_run_source_uses_payload_coords_without_geocoding(header_repo: FakeHeaderRepo):
+    """A venue arriving with coords in the payload (e.g. Tokyo Art Beat's
+    geoInfo) must be stored as-is, never sent to the geocoder."""
+    raw = RawExhibition(
+        source=SourceName.TOKYO_ART_BEAT,
+        source_url="https://www.tokyoartbeat.com/events/geo",
+        raw={
+            "title": "Geo Show",
+            "venue_name": "PGI",
+            "venue_region": "麻布台、虎ノ門",
+            "venue_lat": 35.65,
+            "venue_lng": 139.74,
+            "date_range": "2026-06-01 ~ 2026-07-01",
+        },
+    )
+    extractor = _DummyExtractor([raw])
+    extractor.name = SourceName.TOKYO_ART_BEAT
+    extractor.country = "JP"
+
+    report = run_source(
+        extractor=extractor,
+        repo=header_repo,
+        geocoder=_ExplodingGeocoder(),
+        today=date(2026, 5, 28),
+    )
+
+    assert report.errors == 0
+    venues = header_repo.read_rows(SheetName.VENUES)
+    assert len(venues) == 1
+    assert float(venues[0]["latitude"]) == 35.65
+    assert float(venues[0]["longitude"]) == 139.74
+    assert venues[0]["country"] == "JP"
+
+
 @freeze_time("2026-05-28")
 def test_run_source_survives_geocoder_failure(header_repo: FakeHeaderRepo):
     """Geocoder errors must not drop the venue or fail the item. Coordinates are

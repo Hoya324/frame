@@ -42,6 +42,33 @@ def test_upsert_mixed_batch():
     assert report == UpsertReport(new=1, updated=1, unchanged=1)
 
 
+def test_upsert_collapses_duplicate_ids_within_batch():
+    """A source can emit the same exhibition multiple times in one crawl
+    (e.g. goeun's board paginates the same row). Those collapse to a single
+    stored row instead of being appended N times."""
+    repo = FakeRepository()
+    engine = UpsertEngine(repo)
+    report = engine.upsert(SheetName.EXHIBITIONS, [
+        {"id": "e1", "title": "부산 이바구"},
+        {"id": "e1", "title": "부산 이바구"},
+        {"id": "e1", "title": "부산 이바구"},
+    ])
+    assert report == UpsertReport(new=1, updated=0, unchanged=0)
+    assert repo.read_rows(SheetName.EXHIBITIONS) == [{"id": "e1", "title": "부산 이바구"}]
+
+
+def test_upsert_duplicate_ids_within_batch_last_wins():
+    """When the same id appears twice in a batch with differing fields, the
+    later occurrence wins (sources list freshest data last)."""
+    repo = FakeRepository()
+    engine = UpsertEngine(repo)
+    engine.upsert(SheetName.EXHIBITIONS, [
+        {"id": "e1", "title": "old"},
+        {"id": "e1", "title": "new"},
+    ])
+    assert repo.read_rows(SheetName.EXHIBITIONS) == [{"id": "e1", "title": "new"}]
+
+
 def test_upsert_preserves_existing_columns_not_in_patch():
     repo = FakeRepository()
     engine = UpsertEngine(repo)

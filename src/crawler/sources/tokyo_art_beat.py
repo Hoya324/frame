@@ -144,6 +144,13 @@ def _events_to_rows(events: list[dict]) -> list[dict]:
         local_area = (venue.get("localArea") or {}).get("fields") or {}
         venue_region = local_area.get("name")  # may be None
 
+        # TAB ships exact venue coordinates in the payload — use them directly
+        # so the pipeline can skip name-only geocoding, which fails for the
+        # many small galleries TAB lists (e.g. "PURPLE", "PGI").
+        geo = venue.get("geoInfo") or {}
+        venue_lat = geo.get("lat")
+        venue_lng = geo.get("lon")
+
         starts = ev.get("scheduleStartsOn")
         ends = ev.get("scheduleEndsOn")
         date_range = (
@@ -166,6 +173,8 @@ def _events_to_rows(events: list[dict]) -> list[dict]:
             "venue_name": venue_name,
             "venue_region": venue_region,
             "venue_address": None,
+            "venue_lat": venue_lat,
+            "venue_lng": venue_lng,
             "date_range": date_range,
             "poster_image_url": poster_url,
             "artists": [],

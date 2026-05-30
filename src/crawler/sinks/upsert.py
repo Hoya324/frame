@@ -62,7 +62,7 @@ class UpsertEngine:
         patches: list[dict] = []
         unchanged = 0
 
-        for incoming in rows:
+        for incoming in _dedupe_by_id(rows):
             row_id = incoming["id"]
             current = existing.get(row_id)
             if current is None:
@@ -90,6 +90,29 @@ class UpsertEngine:
             updated=len(patches),
             unchanged=unchanged,
         )
+
+
+def _dedupe_by_id(rows: list[dict]) -> list[dict]:
+    """Collapse rows sharing an id within a single batch, last occurrence
+    winning. Without this, a source that emits the same exhibition N times in
+    one crawl would append N identical rows (the existing-row snapshot can't
+    see siblings added earlier in the same batch). Rows without an id pass
+    through untouched."""
+    by_id: dict[str, dict] = {}
+    out: list[dict] = []
+    for row in rows:
+        row_id = row.get("id")
+        if not row_id:
+            out.append(row)
+            continue
+        if row_id in by_id:
+            by_id[row_id].clear()
+            by_id[row_id].update(row)
+        else:
+            slot = dict(row)
+            by_id[row_id] = slot
+            out.append(slot)
+    return out
 
 
 def _stable(row: dict) -> dict:

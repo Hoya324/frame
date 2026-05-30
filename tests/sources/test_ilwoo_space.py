@@ -50,6 +50,40 @@ def test_ilwoo_space_extractor_parses_cards():
 
 
 @respx.mock
+def test_ilwoo_space_decodes_euckr_despite_wrong_header():
+    """The live site serves EUC-KR bytes but declares charset=utf-8 in the
+    Content-Type header. Decoding by the declared charset produces U+FFFD
+    mojibake, so the extractor must detect the real encoding from the bytes."""
+    title = "일우사진상 수상자전 작품 모음"
+    html = (
+        "<html><body><table>"
+        "<tr onclick=\"location.href='/default/m02/p03.php?com_board_basic="
+        "read_form&com_board_idx=99&com_board_id=10'\">"
+        "<td class='bbsno'>99</td>"
+        "<td class='bbsnewf5'><a href=''>"
+        "<a href='/default/m02/p03.php?com_board_basic=read_form"
+        f"&com_board_idx=99&com_board_id=10'>{title}</a></a></td>"
+        "<td class='bbsetc_add1'>2026.5. 1 ~ 2026.5.31</td>"
+        "</tr></table></body></html>"
+    )
+    respx.get(_LIST_URL).mock(
+        return_value=httpx.Response(
+            200,
+            content=html.encode("euc-kr"),
+            headers={"Content-Type": "text/html; charset=utf-8"},
+        )
+    )
+    respx.get(_LIST_URL, params={"com_board_page": "2", "com_board_id": "10"}).mock(
+        return_value=httpx.Response(200, text=_EMPTY_HTML)
+    )
+
+    raws = list(IlwooSpaceExtractor(delay_s=0.0).crawl())
+    assert len(raws) == 1
+    assert raws[0].raw["title"] == title
+    assert "�" not in raws[0].raw["title"]
+
+
+@respx.mock
 def test_ilwoo_space_extractor_empty_page_yields_nothing():
     respx.get(_LIST_URL).mock(
         return_value=httpx.Response(200, text="<html><body></body></html>")

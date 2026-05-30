@@ -133,6 +133,25 @@ def test_build_catalog_handles_missing_venue_and_no_artists():
     assert catalog["venues"] == []
 
 
+def test_build_catalog_collapses_duplicate_exhibition_ids():
+    """Rows that predate the upsert dedupe fix can carry the same id many
+    times (goeun's '부산 이바구' x7). The export must ship each id once."""
+    repo = FakeRepository()
+    dup = {
+        "id": "e1", "source": "goeun", "status": "past",
+        "source_url": "https://src/1", "title": "부산 이바구", "title_en": "",
+        "description": "", "poster_image_url": "", "medium": "photo",
+        "exhibition_type": "group", "genre_tags": "", "fee_type": "free",
+        "price_min": "", "price_max": "", "start_date": "2022-04-30",
+        "end_date": "2022-08-21", "open_hours": "", "artist_ids": "",
+        "venue_id": "", "featured": "FALSE", "popularity_score": "",
+    }
+    repo.append_rows(SheetName.EXHIBITIONS, [dict(dup) for _ in range(7)])
+    catalog = build_catalog(repo, generated_at=GEN_AT)
+    assert len(catalog["exhibitions"]) == 1
+    assert catalog["exhibitions"][0]["id"] == "e1"
+
+
 def test_build_catalog_drops_unknown_artist_ids():
     repo = FakeRepository()
     repo.append_rows(SheetName.ARTISTS, [{"id": "a1", "name": "있는작가", "name_en": ""}])

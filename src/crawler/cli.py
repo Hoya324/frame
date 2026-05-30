@@ -48,6 +48,14 @@ def init_sheets_cmd() -> None:
     typer.echo("init-sheets: done")
 
 
+@app.command("reset-sheets")
+def reset_sheets_cmd() -> None:
+    """DESTRUCTIVE: wipe all sheet data and restore headers for a clean re-crawl."""
+    from crawler.sinks.reset import reset_sheets
+    reset_sheets(_build_repo())
+    typer.echo("reset-sheets: cleared all sheets and restored headers")
+
+
 @app.command("run")
 def run_cmd(source: str) -> None:
     """Crawl one source and upsert into the sheet."""

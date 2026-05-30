@@ -175,6 +175,17 @@ class GspreadRepository:
             })
         _api_call(lambda: ws.batch_update(updates, value_input_option="RAW"))
 
+    def clear_sheet(self, sheet: SheetName) -> None:
+        """Wipe every cell in the worksheet, headers included. Destructive.
+
+        Used by the full-reset flow; callers must re-write headers afterwards
+        (reset_sheets does this via init_sheets). The header cache is dropped so
+        the next write_headers sees the now-empty row 1 and overwrites it.
+        """
+        ws = self._ws(sheet)
+        _api_call(ws.clear)
+        self._cache_headers.pop(sheet, None)
+
 
 def _plan_header_write(
     existing: list[str], expected: list[str]

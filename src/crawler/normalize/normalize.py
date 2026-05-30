@@ -28,6 +28,16 @@ def _opt(raw: dict, key: str) -> str | None:
     return s or None
 
 
+def _opt_float(raw: dict, key: str) -> float | None:
+    v = raw.get(key)
+    if v is None or v == "":
+        return None
+    try:
+        return float(v)
+    except (TypeError, ValueError):
+        return None
+
+
 def normalize_exhibition(raw_payload: RawExhibition) -> NormalizedExhibition:
     raw = raw_payload.raw
     warnings: list[str] = []
@@ -90,6 +100,8 @@ def normalize_exhibition(raw_payload: RawExhibition) -> NormalizedExhibition:
         venue_raw_name=_opt(raw, "venue_name"),
         venue_raw_region=_opt(raw, "venue_region"),
         venue_raw_address=_opt(raw, "venue_address"),
+        venue_raw_lat=_opt_float(raw, "venue_lat"),
+        venue_raw_lng=_opt_float(raw, "venue_lng"),
         organizer_raw_name=_opt(raw, "organizer"),
         status=Status.UNKNOWN,
         crawled_at=now,

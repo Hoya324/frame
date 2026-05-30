@@ -173,10 +173,17 @@ def run_source(
                 country = getattr(extractor, "country", "KR")
                 for v in result.new_venues:
                     v.country = country
+                    # Some sources (e.g. Tokyo Art Beat) ship exact coordinates
+                    # in their payload — trust those and skip the geocoder.
+                    if v.latitude is not None and v.longitude is not None:
+                        new_venues_acc.append(v)
+                        state.venues.append(v)
+                        continue
+                    # No address means a bare venue name; appending the region
+                    # disambiguates it for the geocoder (e.g. "PGI 麻布台").
+                    query = v.address or " ".join(filter(None, [v.name, v.region]))
                     try:
-                        lat, lng = geocoder.geocode(
-                            v.address or v.name, country=country
-                        )
+                        lat, lng = geocoder.geocode(query, country=country)
                         if lat is not None and lng is not None:
                             v.latitude, v.longitude = lat, lng
                     except Exception as geo_exc:

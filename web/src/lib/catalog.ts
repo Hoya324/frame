@@ -27,10 +27,19 @@ export interface Catalog {
 }
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
+
+// Collapse records sharing an id, last occurrence winning — mirrors the
+// crawler's upsert dedup so the UI stays correct even on a pre-dedup data file.
+function dedupeById<T extends { id: string }>(items: T[]): T[] {
+  const byId = new Map<string, T>();
+  for (const item of items) byId.set(item.id, item);
+  return [...byId.values()];
+}
+
 export function parseCatalog(raw: any): Catalog {
   return {
     generatedAt: raw.generated_at,
-    exhibitions: (raw.exhibitions ?? []).map(
+    exhibitions: dedupeById((raw.exhibitions ?? []).map(
       (e: any): Exhibition => ({
         id: e.id, title: e.title, titleEn: e.title_en ?? null,
         posterImageUrl: e.poster_image_url ?? null, description: e.description ?? null,
@@ -47,13 +56,13 @@ export function parseCatalog(raw: any): Catalog {
         sourceUrl: e.source_url ?? null, featured: !!e.featured,
         popularityScore: e.popularity_score ?? null,
       }),
-    ),
-    venues: (raw.venues ?? []).map((v: any): Venue => ({
+    )),
+    venues: dedupeById((raw.venues ?? []).map((v: any): Venue => ({
       id: v.id, name: v.name, nameEn: v.name_en ?? null, venueType: v.venue_type ?? null,
       region: v.region ?? null, district: v.district ?? null, address: v.address ?? null,
       country: v.country ?? null, lat: v.lat ?? null, lng: v.lng ?? null, website: v.website ?? null,
-    })),
-    artists: (raw.artists ?? []).map((a: any) => ({ id: a.id, name: a.name, nameEn: a.name_en ?? null })),
+    }))),
+    artists: dedupeById((raw.artists ?? []).map((a: any) => ({ id: a.id, name: a.name, nameEn: a.name_en ?? null }))),
   };
 }
 
