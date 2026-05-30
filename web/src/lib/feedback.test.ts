@@ -32,6 +32,11 @@ describe("validateFeedbackInput", () => {
     const img = { filename: "a.gif", type: "image/gif", dataBase64: "AAAA" };
     expect(validateFeedbackInput({ ...valid, images: [img] })).toBe("feedback.errorImageType");
   });
+  it("rejects oversized image", () => {
+    const bigB64 = "A".repeat(Math.ceil((5 * 1024 * 1024 + 1) / 3) * 4);
+    const img = { filename: "big.png", type: "image/png", dataBase64: bigB64 };
+    expect(validateFeedbackInput({ ...valid, images: [img] })).toBe("feedback.errorImageSize");
+  });
 });
 
 describe("base64Bytes", () => {
