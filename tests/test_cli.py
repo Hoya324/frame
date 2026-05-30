@@ -92,7 +92,7 @@ def test_backfill_translations_invokes_backfill(monkeypatch):
         return TranslationReport(rows_seen=3, rows_patched=1, fields_translated=2, errors=0)
 
     monkeypatch.setattr(cli, "_build_repo", lambda: object())
-    monkeypatch.setattr(cli, "_build_translator", lambda: object(), raising=False)
+    monkeypatch.setattr(cli, "_build_translator", lambda: object())
     monkeypatch.setattr("crawler.enrich.translate.backfill_translations", fake_backfill)
 
     cli.backfill_translations_cmd()

@@ -54,6 +54,12 @@ def _build_geocoder():
     )
 
 
+def _build_translator():
+    from crawler.enrich.translator import ArgosTranslator
+
+    return ArgosTranslator()
+
+
 @app.command("init-sheets")
 def init_sheets_cmd() -> None:
     """Create the 5 worksheets with headers (idempotent)."""
@@ -214,12 +220,6 @@ def backfill_geocodes_cmd() -> None:
         raise typer.Exit(code=1)
 
 
-def _build_translator():
-    from crawler.enrich.translator import ArgosTranslator
-
-    return ArgosTranslator()
-
-
 @app.command("backfill-translations")
 def backfill_translations_cmd() -> None:
     """Translate exhibition/venue/artist text into the other locales (one-time + incremental)."""
@@ -232,6 +232,8 @@ def backfill_translations_cmd() -> None:
         f"translations: seen={report.rows_seen}, patched={report.rows_patched}, "
         f"fields={report.fields_translated}, errors={report.errors}"
     )
+    if report.errors > 0 and report.rows_patched == 0:
+        raise typer.Exit(code=1)
 
 
 def main() -> None:  # pragma: no cover
