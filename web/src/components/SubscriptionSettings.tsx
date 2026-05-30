@@ -8,15 +8,17 @@ import {
 } from "@/lib/subscriptions";
 import { loadCatalogSync } from "@/lib/catalogClient";
 import { FilterChips } from "@/components/FilterChips";
+import { useLang } from "@/components/LanguageProvider";
 
-const ROWS: { type: SubType; label: string; desc: string }[] = [
-  { type: "weekly_digest", label: "주간 다이제스트", desc: "매주 새로/진행 중인 전시 모음" },
-  { type: "closing_soon", label: "종료 임박 알림", desc: "스크랩한 전시가 곧 끝날 때 (D-3, D-1)" },
-  { type: "custom", label: "맞춤 알림", desc: "관심 조건에 맞는 새 전시" },
+const ROWS: { type: SubType; labelKey: string; descKey: string }[] = [
+  { type: "weekly_digest", labelKey: "sub.weekly", descKey: "sub.weeklyDesc" },
+  { type: "closing_soon", labelKey: "sub.closing", descKey: "sub.closingDesc" },
+  { type: "custom", labelKey: "sub.custom", descKey: "sub.customDesc" },
 ];
 
 export function SubscriptionSettings() {
   const { user } = useAuth();
+  const { t } = useLang();
   const catalog = loadCatalogSync();
   const [subs, setSubs] = useState<SubscriptionMap>({});
   const [loaded, setLoaded] = useState(false);
@@ -59,19 +61,20 @@ export function SubscriptionSettings() {
 
   return (
     <div className="rounded-lg border border-line p-5">
-      <div className="text-sm text-tx3">구독 설정</div>
+      <div className="text-sm text-tx3">{t("sub.title")}</div>
       <div className="mt-4 space-y-4">
         {ROWS.map((row) => {
           const on = subs[row.type]?.enabled ?? false;
+          const label = t(row.labelKey);
           return (
             <div key={row.type}>
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-sm font-medium">{row.label}</div>
-                  <div className="text-xs text-tx3">{row.desc}</div>
+                  <div className="text-sm font-medium">{label}</div>
+                  <div className="text-xs text-tx3">{t(row.descKey)}</div>
                 </div>
                 <button
-                  role="switch" aria-checked={on} aria-label={row.label}
+                  role="switch" aria-checked={on} aria-label={label}
                   onClick={() => void setEnabled(row.type, !on)}
                   disabled={!loaded}
                   className={`relative h-6 w-11 rounded-full transition ${on ? "bg-white" : "bg-panel2 border border-line"}`}
@@ -81,12 +84,12 @@ export function SubscriptionSettings() {
               </div>
               {row.type === "custom" && on && (
                 <div className="mt-3 space-y-2 pl-1">
-                  <div className="text-xs text-tx3">지역</div>
+                  <div className="text-xs text-tx3">{t("sub.region")}</div>
                   <FilterChips options={regions.map((r) => ({ value: r, label: r }))}
                     active={custom?.filters.regions ?? []} onToggle={(v) => toggleFilter("regions", v)} />
-                  <div className="text-xs text-tx3">매체</div>
+                  <div className="text-xs text-tx3">{t("sub.medium")}</div>
                   <FilterChips
-                    options={[{ value: "photo", label: "사진" }, { value: "video", label: "영상" }, { value: "gear", label: "장비" }]}
+                    options={[{ value: "photo", label: t("filter.photo") }, { value: "video", label: t("filter.video") }, { value: "gear", label: t("filter.gear") }]}
                     active={custom?.filters.mediums ?? []} onToggle={(v) => toggleFilter("mediums", v)} />
                 </div>
               )}

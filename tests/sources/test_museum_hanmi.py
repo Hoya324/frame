@@ -5,7 +5,7 @@ import httpx
 import respx
 
 from crawler.models import SourceName
-from crawler.sources.museum_hanmi import MuseumHanmiExtractor
+from crawler.sources.museum_hanmi import MuseumHanmiExtractor, _parse_detail
 
 FIXTURE_DIR = Path(__file__).parent.parent / "fixtures" / "museum_hanmi"
 
@@ -37,7 +37,7 @@ def test_museum_hanmi_extractor_parses_cards():
 
     respx.get(_LIST_URL, params={"pgs": "1"}).mock(side_effect=side_effect)
 
-    extractor = MuseumHanmiExtractor(max_pages=1, delay_s=0.0)
+    extractor = MuseumHanmiExtractor(max_pages=1, delay_s=0.0, with_details=False)
     raws = list(extractor.crawl())
     assert len(raws) >= 1, f"expected at least 1 card, got {len(raws)}"
     assert all(r.source is SourceName.MUSEUM_HANMI for r in raws)
@@ -69,7 +69,16 @@ def test_museum_hanmi_extractor_stops_when_page_empty():
     respx.get(_LIST_URL, params={"pgs": "1"}).mock(side_effect=side_effect)
     respx.get(_LIST_URL, params={"pgs": "2"}).mock(side_effect=side_effect)
 
-    extractor = MuseumHanmiExtractor(max_pages=5, delay_s=0.0)
+    extractor = MuseumHanmiExtractor(max_pages=5, delay_s=0.0, with_details=False)
     raws = list(extractor.crawl())
     assert len(raws) >= 1
     assert call_count == 2, f"expected 2 GET calls, got {call_count}"
+
+
+def test_museum_hanmi_parse_detail_extracts_description():
+    html = _load_fixture("detail_uelsmann.html")
+    out = _parse_detail(html)
+    desc = out.get("description", "")
+    assert desc.startswith("뮤지엄한미는 2026년 하반기 개관 예정인")
+    assert "조합인화 기법" in desc
+    assert len(desc) > 200

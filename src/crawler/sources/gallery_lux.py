@@ -30,6 +30,14 @@ Domain note: the plan listed www.gallerylux.net which redirects to
 gallerylux.net; both work.  The exhibition list URL is /archive/ (not
 /exhibition/ — those paths return 404).
 Verified 2026-05-28.
+
+Description enrichment: intentionally NOT implemented. The per-exhibition
+detail pages carry only the artist CV (학력 / 개인전 / 단체전 lists) with no
+narrative exhibition statement, and expose no og/meta description. The
+exhibition statements appear to be embedded in poster images. Running the
+standard `paragraphs_text` + meta fallback here would store the CV dump as
+the description, which is worse than leaving it blank, so this source stays
+list-only by design.
 """
 
 from __future__ import annotations

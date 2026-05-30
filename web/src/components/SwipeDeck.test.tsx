@@ -1,5 +1,6 @@
-import { fireEvent, render, screen } from "@testing-library/react";
+import { fireEvent, screen } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
+import { renderWithLang } from "@/test/lang";
 
 vi.mock("@/components/AuthProvider", () => ({
   useBookmarks: () => ({ ids: new Set<string>(), isScrapped: () => false, toggle: vi.fn() }),
@@ -19,13 +20,16 @@ function ex(id: string, title: string): Exhibition {
 
 describe("SwipeDeck", () => {
   it("advances to the next card on skip", () => {
-    render(<SwipeDeck items={[ex("a", "첫번째"), ex("b", "두번째")]} />);
-    expect(screen.getByText("첫번째")).toBeInTheDocument();
+    renderWithLang(<SwipeDeck items={[ex("a", "첫번째"), ex("b", "두번째")]} />);
+    const titles = ["첫번째", "두번째"];
+    const first = titles.find((tl) => screen.queryByText(tl));
+    expect(first).toBeTruthy();
     fireEvent.click(screen.getByLabelText("넘기기"));
-    expect(screen.getByText("두번째")).toBeInTheDocument();
+    const remaining = titles.find((tl) => tl !== first)!;
+    expect(screen.getByText(remaining)).toBeInTheDocument();
   });
   it("shows end state when exhausted", () => {
-    render(<SwipeDeck items={[ex("a", "유일")]} />);
+    renderWithLang(<SwipeDeck items={[ex("a", "유일")]} />);
     fireEvent.click(screen.getByLabelText("넘기기"));
     expect(screen.getByText(/모두 둘러봤어요/)).toBeInTheDocument();
   });

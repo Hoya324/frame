@@ -5,7 +5,7 @@ import httpx
 import respx
 
 from crawler.models import SourceName
-from crawler.sources.ryugaheon import _LIST_URL, RyugaheonExtractor
+from crawler.sources.ryugaheon import _LIST_URL, RyugaheonExtractor, _extract_cards
 
 FIXTURE_DIR = Path(__file__).parent.parent / "fixtures" / "ryugaheon"
 
@@ -43,6 +43,32 @@ def test_ryugaheon_extractor_parses_cards():
                 f"mismatch on {exp['source_url']} field {k!r}: "
                 f"got {actual.raw.get(k)!r}, expected {v!r}"
             )
+
+
+def _rss_with_img(img_src: str) -> str:
+    desc = f'<![CDATA[<img src="{img_src}" />]]>'
+    return (
+        '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
+        "<item><title>테스트 전시</title>"
+        "<link>https://blog.naver.com/noongamgo/123?fromRss=true</link>"
+        f"<description>{desc}</description></item>"
+        "</channel></rss>"
+    )
+
+
+def test_ryugaheon_promotes_protocol_relative_poster():
+    cards = _extract_cards(_rss_with_img("//blogthumb.pstatic.net/x.jpg?type=s3"))
+    assert cards[0]["poster_image_url"] == "https://blogthumb.pstatic.net/x.jpg?type=s3"
+
+
+def test_ryugaheon_promotes_site_relative_poster():
+    cards = _extract_cards(_rss_with_img("/img/x.jpg"))
+    assert cards[0]["poster_image_url"] == "https://blog.naver.com/img/x.jpg"
+
+
+def test_ryugaheon_keeps_absolute_poster():
+    cards = _extract_cards(_rss_with_img("https://blogthumb.pstatic.net/x.jpg"))
+    assert cards[0]["poster_image_url"] == "https://blogthumb.pstatic.net/x.jpg"
 
 
 @respx.mock

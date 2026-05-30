@@ -5,7 +5,7 @@ import httpx
 import respx
 
 from crawler.models import SourceName
-from crawler.sources.goeun import GoeunExtractor
+from crawler.sources.goeun import GoeunExtractor, _parse_detail
 
 FIXTURE_DIR = Path(__file__).parent.parent / "fixtures" / "goeun"
 
@@ -34,7 +34,7 @@ def test_goeun_extractor_parses_both_pages():
         return_value=httpx.Response(200, text=_load_fixture("list_upcoming.html"))
     )
 
-    raws = list(GoeunExtractor(delay_s=0.0, max_pages=2).crawl())
+    raws = list(GoeunExtractor(delay_s=0.0, max_pages=2, with_details=False).crawl())
     assert len(raws) >= 1, f"expected at least 1 exhibition, got {len(raws)}"
     assert all(r.source is SourceName.GOEUN for r in raws)
 
@@ -54,5 +54,12 @@ def test_goeun_extractor_empty_pages_yield_nothing():
     empty = "<html><body></body></html>"
     respx.get(_CURRENT_URL).mock(return_value=httpx.Response(200, text=empty))
     respx.get(_UPCOMING_URL).mock(return_value=httpx.Response(200, text=empty))
-    raws = list(GoeunExtractor(delay_s=0.0, max_pages=2).crawl())
+    raws = list(GoeunExtractor(delay_s=0.0, max_pages=2, with_details=False).crawl())
     assert raws == []
+
+
+def test_goeun_parse_detail_extracts_description():
+    html = _load_fixture("detail_244.html")
+    desc = _parse_detail(html).get("description", "")
+    assert desc.startswith("첫 전시회 이후 31년 만에 복원된")
+    assert len(desc) > 300

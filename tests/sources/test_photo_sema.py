@@ -5,7 +5,7 @@ import httpx
 import respx
 
 from crawler.models import SourceName
-from crawler.sources.photo_sema import PhotoSemaExtractor
+from crawler.sources.photo_sema import PhotoSemaExtractor, _parse_detail
 
 FIXTURE_DIR = Path(__file__).parent.parent / "fixtures" / "photo_sema"
 
@@ -37,7 +37,7 @@ def test_photo_sema_extractor_parses_photo_sema_cards():
         return_value=httpx.Response(200, text=list_html)
     )
 
-    extractor = PhotoSemaExtractor(max_pages=1, delay_s=0.0)
+    extractor = PhotoSemaExtractor(max_pages=1, delay_s=0.0, with_details=False)
     raws = list(extractor.crawl())
 
     assert len(raws) >= 2, f"expected at least 2 Photo SeMA cards, got {len(raws)}"
@@ -77,9 +77,16 @@ def test_photo_sema_extractor_stops_when_page_empty():
         side_effect=side_effect
     )
 
-    extractor = PhotoSemaExtractor(max_pages=5, delay_s=0.0)
+    extractor = PhotoSemaExtractor(max_pages=5, delay_s=0.0, with_details=False)
     raws = list(extractor.crawl())
 
     # Should stop after page 2 (empty) rather than continuing to page 5
     assert len(raws) >= 2
     assert call_count == 2, f"expected 2 GET calls, got {call_count}"
+
+
+def test_photo_sema_parse_detail_extracts_description():
+    html = _load_fixture("detail_1515171.html")
+    desc = _parse_detail(html).get("description", "")
+    assert "서울시립 사진미술관은 2026서울사진축제 《컴백홈》을 개최합니다" in desc
+    assert len(desc) > 200

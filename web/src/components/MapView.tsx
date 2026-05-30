@@ -35,20 +35,43 @@ function toFeatureCollection(items: Exhibition[]): GeoJSON.FeatureCollection<Geo
     features.push({
       type: "Feature",
       geometry: { type: "Point", coordinates: [lng, lat] },
-      properties: { id: e.id, title: e.title, venue: e.venue?.name ?? "" },
+      properties: { id: e.id, title: e.title, venue: e.venue?.name ?? "", poster: e.posterImageUrl ?? "" },
     });
   }
   return { type: "FeatureCollection", features };
 }
 
-export function MapView({ items, height = 480, onSelect }:
-  { items: Exhibition[]; height?: number; onSelect?: (id: string) => void }) {
+// A small rounded poster thumbnail used as the DOM marker for an individual point.
+function posterMarkerEl(p: Record<string, unknown>, onClick: () => void): HTMLElement {
+  const el = document.createElement("button");
+  el.type = "button";
+  el.className = "frame-poster-marker";
+  el.title = String(p.title ?? "");
+  const poster = String(p.poster ?? "");
+  if (poster) el.style.backgroundImage = `url("${poster.replace(/"/g, "%22")}")`;
+  el.addEventListener("click", (e) => {
+    e.stopPropagation();
+    onClick();
+  });
+  return el;
+}
+
+export function MapView({ items, height = 480, onSelect, onViewChange, userLocation }: {
+  items: Exhibition[];
+  height?: number;
+  onSelect?: (id: string) => void;
+  onViewChange?: (visibleIds: string[]) => void;
+  userLocation?: [number, number] | null;
+}) {
   const ref = useRef<HTMLDivElement>(null);
-  // Keep latest onSelect without re-initializing the map on every render.
+  const mapRef = useRef<maplibregl.Map | null>(null);
+  // Keep latest callbacks without re-initializing the map on every render.
   const onSelectRef = useRef(onSelect);
-  useEffect(() => {
-    onSelectRef.current = onSelect;
-  }, [onSelect]);
+  const onViewChangeRef = useRef(onViewChange);
+  const itemsRef = useRef(items);
+  useEffect(() => { onSelectRef.current = onSelect; }, [onSelect]);
+  useEffect(() => { onViewChangeRef.current = onViewChange; }, [onViewChange]);
+  useEffect(() => { itemsRef.current = items; }, [items]);
 
   useEffect(() => {
     if (!ref.current) return;
@@ -62,14 +85,46 @@ export function MapView({ items, height = 480, onSelect }:
       zoom: 10,
       attributionControl: { compact: true },
     });
+    mapRef.current = map;
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
 
-    const hoverPopup = new maplibregl.Popup({
-      offset: 14,
-      closeButton: false,
-      closeOnClick: false,
-      className: "frame-map-popup",
-    });
+    // DOM markers for individual (non-clustered) points, synced to the viewport.
+    const markers: Record<string, maplibregl.Marker> = {};
+    let onScreen: Record<string, maplibregl.Marker> = {};
+    const syncMarkers = () => {
+      if (!map.getSource("exhibitions") || !map.isSourceLoaded("exhibitions")) return;
+      const features = map.querySourceFeatures("exhibitions");
+      const next: Record<string, maplibregl.Marker> = {};
+      for (const f of features) {
+        const p = f.properties ?? {};
+        if (p.point_count) continue; // clusters keep the native circle layer
+        const id = p.id as string | undefined;
+        if (!id || next[id]) continue;
+        const coords = (f.geometry as GeoJSON.Point).coordinates as [number, number];
+        let marker = markers[id];
+        if (!marker) {
+          const el = posterMarkerEl(p, () => onSelectRef.current?.(id));
+          marker = markers[id] = new maplibregl.Marker({ element: el }).setLngLat(coords);
+        }
+        next[id] = marker;
+        if (!onScreen[id]) marker.addTo(map);
+      }
+      for (const id in onScreen) if (!next[id]) onScreen[id].remove();
+      onScreen = next;
+    };
+
+    const reportView = () => {
+      const cb = onViewChangeRef.current;
+      if (!cb) return;
+      const b = map.getBounds();
+      const ids: string[] = [];
+      for (const e of itemsRef.current) {
+        const { lat, lng } = e.venue ?? {};
+        if (lat == null || lng == null) continue;
+        if (b.contains([lng, lat])) ids.push(e.id);
+      }
+      cb(ids);
+    };
 
     map.on("load", () => {
       map.addSource("exhibitions", {
@@ -88,7 +143,6 @@ export function MapView({ items, height = 480, onSelect }:
         paint: {
           "circle-color": "#ffffff",
           "circle-opacity": 0.92,
-          // Grow the disc with the number of points it represents.
           "circle-radius": ["step", ["get", "point_count"], 16, 10, 21, 30, 27],
           "circle-stroke-width": 4,
           "circle-stroke-color": "rgba(255,255,255,0.18)",
@@ -106,25 +160,21 @@ export function MapView({ items, height = 480, onSelect }:
         },
         paint: { "text-color": "#000000" },
       });
-      map.addLayer({
-        id: "unclustered-point",
-        type: "circle",
-        source: "exhibitions",
-        filter: ["!", ["has", "point_count"]],
-        paint: {
-          "circle-color": "#ffffff",
-          "circle-radius": 6,
-          "circle-stroke-width": 2,
-          "circle-stroke-color": "#000000",
-        },
-      });
 
       if (pts.length > 1) {
         const bounds = new maplibregl.LngLatBounds();
         for (const f of pts) bounds.extend(f.geometry.coordinates as [number, number]);
         map.fitBounds(bounds, { padding: 56, maxZoom: 14, duration: 0 });
       }
+      syncMarkers();
+      reportView();
     });
+
+    // Recompute the marker set only when the view settles or clustering
+    // recomputes — maplibre repositions existing DOM markers each frame on its
+    // own, so a per-frame handler would thrash the main thread on large sets.
+    map.on("moveend", () => { syncMarkers(); reportView(); });
+    map.on("sourcedata", (e) => { if (e.sourceId === "exhibitions" && e.isSourceLoaded) syncMarkers(); });
 
     // Zoom into a cluster on click.
     map.on("click", "clusters", async (ev) => {
@@ -136,38 +186,32 @@ export function MapView({ items, height = 480, onSelect }:
       map.easeTo({ center: (feature.geometry as GeoJSON.Point).coordinates as [number, number], zoom });
     });
 
-    map.on("click", "unclustered-point", (ev) => {
-      const id = ev.features?.[0]?.properties?.id as string | undefined;
-      if (id) onSelectRef.current?.(id);
-    });
-
     const setPointer = (on: boolean) => () => {
       map.getCanvas().style.cursor = on ? "pointer" : "";
     };
     map.on("mouseenter", "clusters", setPointer(true));
     map.on("mouseleave", "clusters", setPointer(false));
-    map.on("mouseenter", "unclustered-point", (ev) => {
-      map.getCanvas().style.cursor = "pointer";
-      const f = ev.features?.[0];
-      if (!f) return;
-      const p = f.properties ?? {};
-      hoverPopup
-        .setLngLat((f.geometry as GeoJSON.Point).coordinates as [number, number])
-        .setHTML(
-          `<div style="max-width:200px">
-             <div style="font-weight:700;font-size:13px;line-height:1.3">${escapeHtml(String(p.title ?? ""))}</div>
-             <div style="color:#9a9a9a;font-size:11px;margin-top:2px">${escapeHtml(String(p.venue ?? ""))}</div>
-           </div>`,
-        )
-        .addTo(map);
-    });
-    map.on("mouseleave", "unclustered-point", () => {
-      map.getCanvas().style.cursor = "";
-      hoverPopup.remove();
-    });
 
-    return () => map.remove();
+    return () => {
+      for (const id in markers) markers[id].remove();
+      map.remove();
+      mapRef.current = null;
+    };
   }, [items]);
+
+  // "내 위치" marker + fly there, without rebuilding the map.
+  const hereMarker = useRef<maplibregl.Marker | null>(null);
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !userLocation) return;
+    if (!hereMarker.current) {
+      const el = document.createElement("div");
+      el.className = "frame-here-marker";
+      hereMarker.current = new maplibregl.Marker({ element: el });
+    }
+    hereMarker.current.setLngLat(userLocation).addTo(map);
+    map.flyTo({ center: userLocation, zoom: Math.max(map.getZoom(), 12), duration: 700 });
+  }, [userLocation]);
 
   return (
     <div
@@ -175,11 +219,5 @@ export function MapView({ items, height = 480, onSelect }:
       style={{ height }}
       className="w-full overflow-hidden rounded-2xl border border-line [&_.maplibregl-ctrl-attrib]:bg-black/60 [&_.maplibregl-ctrl-attrib_a]:text-tx2"
     />
-  );
-}
-
-function escapeHtml(s: string): string {
-  return s.replace(/[&<>"']/g, (c) =>
-    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!,
   );
 }

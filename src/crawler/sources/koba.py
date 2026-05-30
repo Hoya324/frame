@@ -35,6 +35,7 @@ from selectolax.parser import HTMLParser
 from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
 
 from crawler.models import RawExhibition, SourceName
+from crawler.sources._detail import MIN_DESCRIPTION_LEN, meta_description, paragraphs_text
 from crawler.sources.base import register_source
 
 _INFO_URL = "https://conference.kobashow.com/kor/about/info.asp"
@@ -131,13 +132,25 @@ def _parse_info_page(html: str) -> dict | None:
                 organizer = m.group(1).strip()
                 break
 
-    return {
+    # ── description: the intro paragraphs in #content ────────────────────────
+    # KOBA has no per-edition detail page; the blurb lives in the same info
+    # page's intro <p> block (the table cells are th/td, not <p>, so they
+    # don't bleed in). Fall back to the meta description if the layout moves.
+    content = doc.css_first("#content")
+    description = paragraphs_text(content) if content is not None else ""
+    if len(description) < MIN_DESCRIPTION_LEN:
+        description = meta_description(doc) or description
+
+    payload = {
         "title": title,
         "venue_name": venue_name,
         "date_range": date_range,
         "organizer": organizer,
         "exhibition_type_text": "박람회",
     }
+    if len(description) >= MIN_DESCRIPTION_LEN:
+        payload["description"] = description
+    return payload
 
 
 # Register on import

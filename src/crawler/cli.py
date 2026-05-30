@@ -19,6 +19,21 @@ log = logging.getLogger(__name__)
 
 app = typer.Typer(help="Korean photo/video/camera exhibition crawler.")
 
+# gallery_lux's Korean origin (openresty) geo-blocks foreign datacenter IPs,
+# so it's unreachable from GitHub Actions' free US runners — it returns a
+# 770-byte block page on every CI crawl even though it works fine from a KR
+# IP (and locally). Its failure is expected, so it must not flip the whole
+# run red, which would train us to ignore the red X and miss a *real* failure
+# in another source. It still shows up in the report and auto-recovers if the
+# crawl ever runs from a reachable IP.
+_SOFT_FAIL_SOURCES = frozenset({SourceName.GALLERY_LUX})
+
+
+def _hard_failures(reports: list) -> list:
+    """Failed reports that should fail the run — excludes known soft-fail sources."""
+    soft = {s.value for s in _SOFT_FAIL_SOURCES}
+    return [r for r in reports if r.failure and r.name not in soft]
+
 
 def _today() -> date:
     return datetime.now(UTC).date()
@@ -125,13 +140,21 @@ def run_all_cmd() -> None:
         log.warning("global status recompute failed: %s", exc)
     run_report = RunReport(started_at=datetime.now(UTC), sources=reports)
     md = render_markdown(run_report)
+    soft = {s.value for s in _SOFT_FAIL_SOURCES}
+    tolerated = [r for r in reports if r.failure and r.name in soft]
+    if tolerated:
+        md += (
+            "\n> Tolerated (known CI block, not counted as a run failure): "
+            + ", ".join(r.name for r in tolerated)
+            + "\n"
+        )
     typer.echo(md)
     # also dump to out/report.md for CI artifacts
     import os
     os.makedirs("out", exist_ok=True)
     with open("out/report.md", "w", encoding="utf-8") as f:
         f.write(md)
-    if any(r.failure for r in reports):
+    if _hard_failures(reports):
         sys.exit(1)
 
 

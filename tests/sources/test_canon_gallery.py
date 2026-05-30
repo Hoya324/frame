@@ -5,7 +5,7 @@ import httpx
 import respx
 
 from crawler.models import SourceName
-from crawler.sources.canon_gallery import _LIST_URL, CanonGalleryExtractor
+from crawler.sources.canon_gallery import _LIST_URL, CanonGalleryExtractor, _parse_detail
 
 FIXTURE_DIR = Path(__file__).parent.parent / "fixtures" / "canon_gallery"
 
@@ -30,7 +30,7 @@ def test_canon_gallery_extractor_parses_cards():
         return_value=httpx.Response(200, text=_load_fixture("list_page_1.html"))
     )
 
-    raws = list(CanonGalleryExtractor(max_pages=1, delay_s=0.0).crawl())
+    raws = list(CanonGalleryExtractor(max_pages=1, delay_s=0.0, with_details=False).crawl())
     assert len(raws) >= 1, f"expected at least 1 exhibition, got {len(raws)}"
     assert all(r.source is SourceName.CANON_GALLERY for r in raws)
 
@@ -50,5 +50,12 @@ def test_canon_gallery_extractor_empty_response_yields_nothing():
     respx.post(_LIST_URL).mock(
         return_value=httpx.Response(200, text=_EMPTY_HTML)
     )
-    raws = list(CanonGalleryExtractor(max_pages=1, delay_s=0.0).crawl())
+    raws = list(CanonGalleryExtractor(max_pages=1, delay_s=0.0, with_details=False).crawl())
     assert raws == []
+
+
+def test_canon_gallery_parse_detail_extracts_description():
+    html = _load_fixture("detail_2060.html")
+    desc = _parse_detail(html).get("description", "")
+    assert "임재천" in desc
+    assert len(desc) > 200

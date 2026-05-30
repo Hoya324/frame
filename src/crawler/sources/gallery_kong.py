@@ -23,6 +23,13 @@ Limitation — current / upcoming exhibitions are NOT captured.
   TODO: revisit with a Playwright fallback for /CURRENT and /UPCOMING when a
   headless-browser pipeline lands, so ongoing shows are captured in real time.
 
+Description enrichment: intentionally NOT implemented. The detail pages are
+Wix widgets whose only server-rendered `div[id^="text_"]` block holds the
+title + date line; the exhibition statement itself is baked into the poster
+images (verified across the 2022 fixtures). There is no og/meta description
+either, so there is no prose to extract — this source stays title/date-only
+by design, consistent with [[gallery_lux]].
+
 Domain note: The plan listed gallerykong.com / kong-gallery.com.  Those domains
 are defunct or unrelated as of 2026-05-28.  The live site is konggallery.com
 (redirects from www.konggallery.com).
@@ -161,6 +168,10 @@ def _extract_list_cards(html: str) -> list[dict]:
                 bg = img_div.attributes.get("data-bg", "")
                 if bg:
                     poster = bg.replace("url(", "").replace(")", "").strip() or None
+        # The CDN sometimes emits a site-relative path; absolutize so the
+        # stored URL is always fetchable. urljoin leaves absolute URLs intact.
+        if poster:
+            poster = urljoin(_BASE_URL, poster)
 
         cards.append({"source_url": detail_url, "poster_image_url": poster})
 

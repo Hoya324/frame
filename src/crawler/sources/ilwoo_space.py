@@ -45,6 +45,7 @@ from selectolax.parser import HTMLParser
 from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
 
 from crawler.models import RawExhibition, SourceName
+from crawler.sources._detail import MIN_DESCRIPTION_LEN, meta_description, paragraphs_text
 from crawler.sources.base import register_source
 
 _BASE_URL = "https://www.ilwoo.org"
@@ -122,9 +123,11 @@ class IlwooSpaceExtractor:
         max_pages: int = 20,
         delay_s: float = 1.0,
         timeout_s: float = 20.0,
+        with_details: bool = True,
     ) -> None:
         self.max_pages = max_pages
         self.delay_s = delay_s
+        self.with_details = with_details
         self._client = httpx.Client(
             timeout=timeout_s,
             headers={"User-Agent": _USER_AGENT},
@@ -156,10 +159,18 @@ class IlwooSpaceExtractor:
                 if card_url in seen:
                     continue
                 seen.add(card_url)
+                payload = {k: v for k, v in c.items() if k != "source_url"}
+                if self.with_details:
+                    try:
+                        payload.update(_parse_detail(self._get(card_url)))
+                    except Exception:  # noqa: BLE001
+                        pass
+                    if self.delay_s > 0:
+                        time.sleep(self.delay_s)
                 yield RawExhibition(
                     source=SourceName.ILWOO_SPACE,
                     source_url=card_url,
-                    raw={k: v for k, v in c.items() if k != "source_url"},
+                    raw=payload,
                 )
 
             if self.delay_s > 0:
@@ -220,6 +231,32 @@ def _extract_cards(html: str) -> list[dict]:
         })
 
     return cards
+
+
+def _parse_detail(html: str) -> dict:
+    """Pull the exhibition blurb and poster from an 일우스페이스 detail page.
+
+    The prose sits in `td.board_description`; the poster is the board's
+    uploaded `/u_image/` graphic (list pages carry no poster, so it can only
+    come from here). Falls back to the meta description if the body moves.
+    """
+    doc = HTMLParser(html)
+    out: dict = {}
+
+    body = doc.css_first("td.board_description")
+    text = paragraphs_text(body) if body is not None else ""
+    if len(text) < MIN_DESCRIPTION_LEN:
+        text = meta_description(doc) or text
+    if len(text) >= MIN_DESCRIPTION_LEN:
+        out["description"] = text
+
+    for img in doc.css("img"):
+        src = (img.attributes.get("src", "") or "").strip()
+        if "/u_image/" in src:
+            out["poster_image_url"] = urljoin(_BASE_URL, src)
+            break
+
+    return out
 
 
 register_source(SourceName.ILWOO_SPACE, IlwooSpaceExtractor)

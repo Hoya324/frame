@@ -1,0 +1,3446 @@
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+
+<!DOCTYPE HTML>
+<html lang="ko-KR">
+
+
+
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>SeMA - 전시 상세</title>
+	<meta name="format-detection" content="telephone=no"><!-- iOS 전화 자동연결 방지 메타태그 -->
+	
+	<!-- Favicon -->
+	<link rel="SHORTCUT ICON" href="/resources/images/common/favicon.ico">
+	<link rel="apple-touch-icon" href="/resources/images/common/favicon_apple.png"><!-- 애플 아이콘 -->
+	<link rel="apple-touch-icon-precomposed" href="/resources/images/common/favicon_android.png"><!-- 안드로이드,아이폰 바탕화면 아이콘 -->
+
+	<!-- Javascript (필요없는 스크립트로 보임, 백업용도로 남겨둠. (20211021 kskang)
+	<script src="/resources/js/lib/jquery-1.11.3.min.js"></script>
+	<script src="/resources/js/lib/jquery-ui.min.js"></script>
+	<script src="/resources/js/lib/modernizr.custom.31356.js"></script>
+	<script src="/resources/js/new_common.js"></script> -->
+
+	<!-- NEW_CSS -->
+    <link rel="stylesheet" type="text/css" href="/resources/assets/css/pure/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/resources/assets/css/pure/grids-responsive-min.css" />
+    <link rel="stylesheet" type="text/css" href="/resources/assets/css/base.css">
+    <link rel="stylesheet" type="text/css" href="/resources/assets/css/style.css">
+    
+	<!-- NEW_JS -->
+	<script src="/resources/assets/js/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/resources/assets/js/stickyfill.min.js"></script>
+    <script src="/resources/assets/js/base.js"></script>
+    <script src="/resources/assets/js/common.js"></script>
+    <script src="/resources/assets/js/common_util.js"></script>
+    <script src="/resources/assets/js/csi.min.js"></script>
+   	<script src="/resources/js/app.script.js?time_stamp"></script>
+</head>
+
+
+<body>
+	<div id="load"></div>
+
+	<div id="skipNavigation">
+		<ul class="skipNav">
+			<li><a href="#contents">본문 바로가기</a></li>
+			<li><a href="#nav">전체메뉴 바로가기</a></li>
+			<li><a href="#footer">하단 바로가기</a></li>
+		</ul>
+	</div>
+
+	<div id="wrap" class="sub">
+		
+
+
+
+
+
+
+
+	<script src="//www.seoul.go.kr/seoulgnb/gnb.js"></script>
+	<script>
+	window.onload = function() {
+	Yjs.Gnb.init('G079', 'seoul-gnb');
+	};
+</script>
+
+
+
+<!-- header영역(s) -->
+
+
+	<div id="seoul-gnb"></div>
+
+
+<!-- //header영역(e) -->
+
+		<div class="l-global">
+			
+
+
+
+
+
+
+
+
+
+<input type="hidden" id="langStype" value="kr" />
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const submenuItems = document.querySelectorAll('.has-submenu');
+  let activeMenu = null;
+  let isClickOpen = false;
+
+  submenuItems.forEach(menu => {
+    menu.addEventListener('mouseenter', function () {
+      if (!isClickOpen) {
+        menu.classList.add('active');
+      }
+    });
+
+    menu.addEventListener('mouseleave', function () {
+      if (!isClickOpen || activeMenu !== menu) {
+        menu.classList.remove('active');
+      }
+    });
+
+    menu.addEventListener('click', function (e) {
+      e.stopPropagation();
+
+      if (activeMenu && activeMenu !== menu) {
+        activeMenu.classList.remove('active');
+      }
+
+      isClickOpen = !(activeMenu === menu && isClickOpen);
+      menu.classList.toggle('active', isClickOpen);
+      activeMenu = isClickOpen ? menu : null;
+    });
+  });
+
+  document.addEventListener('click', function () {
+    submenuItems.forEach(menu => menu.classList.remove('active'));
+    isClickOpen = false;
+    activeMenu = null;
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+	
+	/* fncMuseumTime(); */
+});
+	
+
+
+function fncMuseumTime(){
+	
+	var time = '';
+
+	$.ajax({
+		url: "/museumTimeAjax",
+		data: {},
+		processData: false,
+		contentType: false,
+		type: 'GET',
+		success: function(json){
+			var oplist = json.opList;
+			for(var i=0;i<oplist.length;i++){
+				time +='<li>';
+				time +='<a href="javascript:void(0)" onclick="fncRloadEeEx(\''+(oplist[i].museumCd)+'\');" class="cate_wrap '+chgOrg(oplist[i].museumCd)+'">\r';
+				time +='<div class="bgclr_black" id="leftOrg'+(oplist[i].museumCd)+'">\r';
+				/* time +='<span class="ing">'+chgOrgTxt(oplist[i].museumCd)+'</span>'; */
+				if(oplist[i].watchExtimeMemo != ''){
+					time +='<span class="category">'+(oplist[i].museumNm);
+				}else{
+					time +='<span class="category">'+(oplist[i].museumNm);
+				}
+				if(oplist[i].watchExtimeMemo != ''){
+					time +='<span class="di-tablet-gt">&nbsp;'+fncChgTxt(oplist[i].watchExtimeMemo)+'</span>';
+				}
+				time +='</span>';
+				time +='</div>';
+				time +='</a>';
+				time +='</li>';
+			}
+			$('#museumTime').html($('#museumTime').html()+time);
+
+			/* $('.tab_cont .btn_cal').on('click', function (){
+				$(this).toggleClass('on');
+				$(this).next().toggle();
+			}); */
+			
+			
+			
+				$('#t_div_tab_m').show(); 
+			
+		}
+	});
+}
+function chgOrg(v){
+
+	switch (v) {
+	  case 'ORG01': v= 'bgclr_bon'; break;
+	  case 'ORG02': v= 'bgclr_bon'; break;
+	  case 'ORG03': v= 'bgclr_nam'; break;
+	  case 'ORG04': v= 'bgclr_nan'; break;
+	  case 'ORG05': v= 'bgclr_bon'; break;
+	  case 'ORG06': v= 'bgclr_bon'; break;
+	  case 'ORG07': v= 'bgclr_bon'; break;
+	  case 'ORG08': v= 'bgclr_buk'; break;
+	  case 'ORG09': v= 'bgclr_bon'; break;
+	  case 'ORG10': v= 'bgclr_back'; break;
+	  case 'ORG11': v= 'bgclr_cang'; break;
+	  case 'ORG12': v= 'bgclr_bung'; break;
+	  case 'ORG16': v= 'bgclr_atr'; break;
+	  default    : v='bgclr_bon';
+	}
+	return v;
+}
+
+function chgOrgTxt(v){
+
+	switch (v) {
+	  case 'ORG01': v= '본'; break;
+	  case 'ORG02': v= '본'; break;
+	  case 'ORG03': v= '남'; break;
+	  case 'ORG04': v= '난'; break;
+	  case 'ORG05': v= '본'; break;
+	  case 'ORG06': v= '본'; break;
+	  case 'ORG07': v= '본'; break;
+	  case 'ORG08': v= '북'; break;
+	  case 'ORG09': v= '본'; break;
+	  case 'ORG10': v= '백'; break;
+	  case 'ORG11': v= '창'; break;
+	  case 'ORG12': v= '벙'; break;
+	  case 'ORG16': v= '미'; break;
+	  default    : v='본';
+	}
+	return v;
+}
+function fncChgTxt(v){
+	if(v == '휴관일'){
+		v = '휴관일';
+	}
+	return v;
+}
+
+</script>
+
+
+
+
+
+
+
+
+<!-- left 메뉴 영역(S) -->
+<div class="l-nav">
+	<h1 class="sr-only">서울시립미술관 SEOUL MUSEUM OF ART</h1>
+	<!-- 모바일용(S) -->
+	<div class="l-nav-mobile is-expandable">
+		<div class="l-nav-mobile-header">
+			<div class="i-lockup i-lockup-black">
+				<a href="/kr/index">
+					<img src="/resources/assets/svg/o_typo_b.svg" alt="서울시립미술관 SEOUL MUSEUM OF ART" class="i-lockup-type"> 
+				</a>
+			</div>
+			<div class="i-lockup i-lockup-white">
+				<a href="/kr/index">
+					<img src="/resources/assets/svg/o_typo_w.svg" alt="서울시립미술관 SEOUL MUSEUM OF ART" class="i-lockup-type"> 
+				</a>
+			</div>
+			<a class="l-nav-mobile-menu l-block is-expandable-toggle" href="javascript:;"><span class="blind">메뉴</span></a>
+		</div>
+		<div class="l-nav-mobile-content l-block is-expandable-content" style="margin-bottom: 0;">
+			<div class="t-nav pure-g">
+				
+					<div class="pure-u-2-3 pure-u-md-1-2">
+				
+				
+				<ul class="primary">
+					<li class="has-submenu">
+						<a href="#">전시</a><!-- 전시 -->
+						<ul class="submenu">
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EX&whatChoice2=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=FROM_TODAY">현재전시</a></li>
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EX&whatChoice2=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=PLAN_DAY">예정전시</a></li>
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EX&whatChoice2=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=PAST_DAY">과거전시</a></li>
+						</ul>
+					</li>
+					<li class="has-submenu">
+						<a href="#">교육·이벤트</a><!-- 교육,이벤트 -->
+						<ul class="submenu">
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EC&whatChoice1=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY">모두</a></li>
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EC&whatChoice1=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY&targetList=EDT05">어린이</a></li>
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EC&whatChoice1=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY&targetList=EDT06">청소년</a></li>
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EC&whatChoice1=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY&targetList=EDT07">성인</a></li>
+						</ul>
+					</li>
+					<li class="has-submenu">
+						<a href="#">소장품과 미술연구</a><!-- 소장품과 미술연구 -->
+						<ul class="submenu">
+							<li><a href="/kr/knowledge_research/collection/landing">SeMA 소장품</a></li>
+							<li><a href="https://sema.seoul.go.kr/semaaa" target="_blank" title="새창 열림">미술아카이브</a></li>
+							<li><a href="http://semacoral.org/" target="_blank" title="새창 열림">모두의 연구실 '코랄'</a></li>
+							<li><a href="/kr/knowledge_research/book/list">SeMA 도서와 자료</a></li>
+							
+								
+							
+						</ul>
+					</li>
+					<li class="has-submenu">
+						<a href="#">서울미디어시티비엔날레</a><!-- 서울미디어시티비엔날레 -->
+						<ul class="submenu">
+							
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EB&whatChoice1=N&whatChoice2=N&whatChoice3=N&whatChoice5=N&whenType=ALL_DAY">모두</a></li>
+							
+								<li><a href="https://mediacityseoul.kr/ko/today" target="_blank" title="새창 열림">SMB 웹시스템</a></li>
+							
+							
+						</ul>
+					</li>
+					<li class="has-submenu">
+						<a href="#">서울사진축제</a><!-- 서울사진축제 -->
+						<ul class="submenu">
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EO&whatChoice1=N&whatChoice2=N&whatChoice3=N&whatChoice4=N&whatChoice5=Y&whenType=ALL_DAY">모두</a></li>
+						</ul>
+					</li>
+					<li class="has-submenu">
+						<a href="#">방문하기</a><!-- 방문하기 -->
+						<ul class="submenu">
+							<li><a href="/kr/visit/webaccess">접근성 안내</a></li>
+							<li><a href="/kr/visit/seosomun">서소문본관</a></li>
+							<li><a href="/kr/visit/bukseoul">북서울미술관</a></li>
+							<li><a href="/kr/visit/seoseoul">서서울미술관</a></li>
+							<li><a href="/kr/visit/art_archive">미술아카이브</a></li>
+							<li><a href="/kr/visit/photosema">사진미술관</a></li>
+							<li><a href="/kr/visit/namseoul">남서울미술관</a></li>
+							<li><a href="/kr/visit/nanji_residency">난지미술창작스튜디오</a></li>
+							<li><a href="/kr/visit/nam_june_paik_house">백남준을 기억하는 집</a></li>
+							
+								<li><a href="/kr/visit/excmmntry">전시해설</a></li>
+							
+						</ul>
+					</li>					
+				</ul>				
+				</div>
+				
+					<div class="pure-u-1-3 pure-u-md-1-2">
+				
+				
+					<ul class="primary color-grey">
+						
+						
+						
+							<li><a href="/kr/login/login" class="grey">로그인</a></li>
+						
+						
+						<li><a href="/kr/sema/search/list" class="grey">검색</a></li>
+						
+						<li><a href="#footer" class="grey">사이트맵</a>
+					
+						
+							<li><a href="/en/index">EN</a></li>
+						
+						
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 모바일용(E) -->
+	
+	<!-- PC용(S) -->
+	<div class="l-nav-symbol l-block">
+		<a href="/kr/index">
+			<div class="i-lockup i-lockup-black">
+				<!-- <img src="/resources/assets/svg/o_symbol_b.svg" alt="서울시립미술관 SEOUL MUSEUM OF ART" class="i-lockup-symbol"> -->
+				<img src="/resources/assets/svg/o_symbol_b_v.svg" alt="서울시립미술관 SEOUL MUSEUM OF ART" class="i-lockup-type">
+			</div>
+			<div class="i-lockup i-lockup-white">
+				<!-- <img src="/resources/assets/svg/o_symbol_w.svg" alt="서울시립미술관 SEOUL MUSEUM OF ART" class="i-lockup-symbol"> -->
+				<img src="/resources/assets/svg/o_symbol_w_v.svg" alt="서울시립미술관 SEOUL MUSEUM OF ART" class="i-lockup-symbol">
+			</div>
+		</a>
+	</div>
+	<div class="l-nav-sticky l-block" style="padding-bottom: 0.5rem;overflow-y:unset;">
+		<div>
+			<a href="/kr/index" class="o_bottom_logo">
+				<div class="i-lockup i-lockup-black">
+					<img src="/resources/assets/svg/o_type_b.svg" alt="서울시립미술관 SEOUL MUSEUM OF ART" class="i-lockup-type">
+				</div>
+				<div class="i-lockup i-lockup-white">
+					<img src="/resources/assets/svg/o_type_w.svg" alt="서울시립미술관 SEOUL MUSEUM OF ART" class="i-lockup-type">
+				</div>
+			</a>
+			<div class="t-nav" id="nav">
+				<ul class="primary">
+					<li class="has-submenu">
+						<a href="#">전시</a><!-- 전시 -->
+						<ul class="submenu">
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EX&whatChoice2=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=FROM_TODAY">현재전시</a></li>
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EX&whatChoice2=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=PLAN_DAY">예정전시</a></li>							
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EX&whatChoice2=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=PAST_DAY">과거전시</a></li>
+						</ul>
+					</li>
+					<li class="has-submenu">
+						<a href="#">교육·이벤트</a><!-- 교육,이벤트 -->
+						<ul class="submenu">
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EC&whatChoice1=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY">모두</a></li>
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EC&whatChoice1=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY&targetList=EDT05">어린이</a></li>
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EC&whatChoice1=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY&targetList=EDT06">청소년</a></li>
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EC&whatChoice1=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY&targetList=EDT07">성인</a></li>
+						</ul>
+					</li>
+					<li class="has-submenu">
+						<a href="#">소장품과 미술연구</a><!-- 소장품과 미술연구 -->
+						<ul class="submenu">
+							<li><a href="/kr/knowledge_research/collection/landing">SeMA 소장품</a></li>
+							<li><a href="https://sema.seoul.go.kr/semaaa" target="_blank" title="새창 열림">미술아카이브</a></li>
+							<li><a href="http://semacoral.org/" target="_blank" title="새창 열림">모두의 연구실 '코랄'</a></li>
+							<li><a href="/kr/knowledge_research/book/list">SeMA 도서와 자료</a></li>
+							
+								
+														
+						</ul>
+					</li>
+					<li class="has-submenu">
+						<a href="#">서울미디어시티비엔날레</a><!-- 서울미디어시티비엔날레 -->
+						<ul class="submenu">
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EB&whatChoice1=N&whatChoice2=N&whatChoice3=N&whatChoice4=Y&whatChoice5=N&whenType=ALL_DAY">모두</a></li>
+							
+								<li><a href="https://mediacityseoul.kr/ko/today" target="_blank" title="새창 열림">SMB 웹시스템</a></li>
+							
+							
+						</ul>
+					</li>
+					<li class="has-submenu">
+						<a href="#">서울사진축제</a><!-- 서울사진축제 -->
+						<ul class="submenu">
+							<li><a href="/kr/whatson/landing?whatsonMenuDivList=EO&whatChoice1=N&whatChoice2=N&whatChoice3=N&whatChoice4=N&whatChoice5=Y&whenType=ALL_DAY">모두</a></li>
+						</ul>
+					</li>					
+					<li class="has-submenu">
+						<a href="#">방문하기</a><!-- 방문하기 -->
+						<ul class="submenu">
+							<li><a href="/kr/visit/webaccess">접근성 안내</a></li>
+							<li><a href="/kr/visit/seosomun">서소문본관</a></li>
+							<li><a href="/kr/visit/bukseoul">북서울미술관</a></li>
+							<li><a href="/kr/visit/seoseoul">서서울미술관</a></li>
+							<li><a href="/kr/visit/art_archive">미술아카이브</a></li>
+							<li><a href="/kr/visit/photosema">사진미술관</a></li>
+							<li><a href="/kr/visit/namseoul">남서울미술관</a></li>
+							<li><a href="/kr/visit/nanji_residency">난지미술창작스튜디오</a></li>
+							<li><a href="/kr/visit/nam_june_paik_house">백남준을 기억하는 집</a></li>
+							
+								<li><a href="/kr/visit/excmmntry">전시해설</a></li>
+							
+						</ul>
+					</li>					
+				</ul>
+
+				
+
+				<ul class="primary color-grey">
+					
+					
+					
+						<li><a href="/kr/login/login" class="grey">로그인</a></li>
+					
+					
+					<li><a href="/kr/sema/search/list" class="grey">검색</a>
+					
+					<li><a href="#footer" class="grey">사이트맵</a>
+				
+					
+						<li><a href="/en/index">EN</a></li>
+					
+					
+				</ul>
+
+			</div>
+		</div>
+	</div>
+	<!-- PC용(E) -->
+	
+	<!-- 도슨팅 앱용(S) -->
+	<div class="l-nav-app has-back"><!-- 뒤로가기 버튼 있을 때 has-back 사용 없을때 삭제 -->
+		<div class="l-nav-tit" id="appTitle"></div>
+		<a class="l-nav-back l-block"  href="javascript:history.back();" role="button"><span class="blind">뒤로가기</span></a>
+		<a class="l-nav-mobile-menu l-block" href="/kr/app_main" role="button"><span class="blind">메뉴</span></a>
+	</div>
+	<!-- 도슨팅 앱용(E) -->
+</div>
+<!-- left 메뉴 영역(E) -->
+
+			<script type="text/javascript">
+	var refer = "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1515171"; 
+
+	$(function () {
+		// 전시예약이 일시 정지, 등록이 되어 있지 않을때, 과거전시일때, 북서울 미술관일때(1개 전시만 빼고 모두 숨기기) 
+		if('' === "N"  || '' === "" || 'FROM_TODAY' === "PAST_DAY"  || ('ORG51' == "ORG08" && '1515171' != "724665")){
+			$("#exAdvanceReservation").hide();
+			if(!$('#exAdvanceReservation').siblings().length){//버튼영역 버튼 없을 시 아래 간격 제거
+				$('#exAdvanceReservation').parents('.i-button-group').css("margin-bottom", '0')
+			}
+		}else
+			$("#exAdvanceReservation").show();
+		
+		// 한줄설명 상태 값
+		if($('#exEnddtVal').data('exAlwaysYn') != 'Y'){
+			var now = new Date();
+			var nYear = now.getFullYear();
+			var nMon = now.getMonth();
+			var nDate = now.getDate();
+			
+			var exEnddt = $('#exEnddtVal').val();
+			var year = exEnddt.substr(0,4);
+			var mon = exEnddt.substr(4,2)-1;
+			var date = exEnddt.substr(6,2);
+			
+		    var endDate = new Date(year, mon, date) ;
+		    var today  = new Date(nYear, nMon, nDate) ;
+		 
+		    var btMs =  today.getTime() - endDate.getTime();
+		    var btDay = btMs / (1000*60*60*24) ;
+		    if(btDay > 0) $('#exStatusTxt').html(" 전시했습니다.");
+		
+		}
+		
+		// 랜딩페이지 이동
+		$(document).on('click','#goLandingList',function(e){
+			
+			$('#scFrm').attr('action', '/'+$('#commFooterLangStype').val()+'/whatson/landing');
+			$('#scFrm').attr('method', 'get');
+			$('#scFrm').submit();
+		});
+		
+		//전시가 모바일앱일 경우 관심있어요, 공유 삭제
+		var currentOS;
+		var mobile = (/iphone|ipad|ipod|android/i.test(navigator.userAgent.toLowerCase()));
+		if (mobile) {
+			// 유저에이전트를 불러와서 OS를 구분합니다.
+			var userAgent = navigator.userAgent.toLowerCase();
+			if (userAgent.search("sema_android") > -1)
+			{
+				$("#likeBtn").remove();
+				$("#shareBtn").remove();
+			}
+			else if ((userAgent.search("sema_iphone") > -1))
+			{
+				$("#likeBtn").remove();
+				$("#shareBtn").remove();
+			}
+		}
+	});
+
+	function showAllmagerImg(obj){
+		$('#magerWorksArea > .is-expandable-content > .is-swappable.is-swappable-on > .c-connected.pure-g > .pure-u-1-2.pure-u-md-1-3').show();
+		$(obj).parent().parent().hide();
+		
+	}
+	
+	function showAllViewImg(obj){
+		$('#viewArea > .is-expandable-content > .is-swappable.is-swappable-on > .c-connected.pure-g > .pure-u-1-2.pure-u-md-1-3').show();
+		$(obj).parent().parent().hide();
+		
+	}
+	function showMagerWorksImgViewLnk(obj){	
+		var artInfoNo = $(obj).children().children('.photoImg').data('artInfoNo');	
+		var photosketchNo = $(obj).children().children('.photoImg').data('photosketchNo');	
+		if(artInfoNo!=null && photosketchNo!=null && artInfoNo !=0 && photosketchNo !=0 && artInfoNo !='0' && photosketchNo !='0'){	
+			showMagerWorksImgView(artInfoNo, photosketchNo);	
+		}	
+	}
+	// 주요작품
+	function showMagerWorksImgView(artInfoNo, photosketchNo){
+		
+		$('#scFrm').find('#artInfoNo').val(artInfoNo);
+		$('#scFrm').find('[name=photosketchNo]').val(photosketchNo);
+		$('#scFrm').find('#flag').val("MAGER_WORKS_VIEW");
+		$('#scFrm').attr('action', '/'+$('#commFooterLangStype').val()+'/whatson/exhibition/view_image');
+		$('#scFrm').submit();
+	}
+	
+	
+	// 설치전경
+	function showSetImgView(photosketchNo){
+	
+		$('#scFrm').find('[name=photosketchNo]').val(photosketchNo);
+		$('#scFrm').find('#flag').val("SET_PANOMA_VIEW");
+		$('#scFrm').attr('action', '/'+$('#commFooterLangStype').val()+'/whatson/exhibition/view_image');
+		$('#scFrm').submit();
+	}
+	
+	function showSetImgView(photosketchNo, asisYn){
+		
+		$('#scFrm').find('[name=photosketchNo]').val(photosketchNo);
+		$('#scFrm').find('[name=asisYn]').val(asisYn);
+		$('#scFrm').find('#flag').val("SET_PANOMA_VIEW");
+		$('#scFrm').attr('action', '/'+$('#commFooterLangStype').val()+'/whatson/exhibition/view_image');
+		$('#scFrm').submit();
+	}
+	
+	// 이사업에 대하여 자세히 클릭
+	$(document).on('click','.thisProjectAbout',function(e){
+		e.preventDefault();
+		
+		var url = '';
+		if($(this).attr('id') === 'thisProjectAbout1' ){
+			url = '/support/emerging_artist/detail';  //신진 미술인
+			
+		}else if($(this).attr('id') === 'thisProjectAbout2' ){
+			url = '/support/curator/info';  //시민 큐레이터 양성
+			
+		}else if($(this).attr('id') === 'thisProjectAbout3' ){
+			url = '/support/nanji_residency/info';  //난지 미술인
+			
+		}
+		
+		$('#scFrm').attr('action', '/'+$('#commFooterLangStype').val() + url);
+		$('#scFrm').attr('method', 'post');
+		$('#scFrm').submit();
+	});
+
+	//자주 묻는 질문 링크
+	function doSearch() {
+		var url = '/kr/sema/faq/list';
+		$("#searchFrm").attr("action",url);
+		$("#searchFrm").submit();
+	}
+	
+	//예매링크
+	function linkRsrv() {
+		var linkVal = $("#multi_search option:selected").val();
+
+		if(linkVal == 0)
+			alert('예매처를 선택하세요.');
+		else if(linkVal == 1)
+			window.open("https://tickets.interpark.com/goods/23004076");
+		else if(linkVal == 2)
+			window.open("https://booking.kakao.com/detail/ticketStore/60");
+		else if(linkVal == 3)
+			window.open("https://content.29cm.co.kr/post/18500");
+	}
+</script>
+
+<input type="hidden" class="whatsonType" value="EXM01">
+<input id="loginConfirm" type="hidden" value="로그인이 필요한 페이지 입니다.\n로그인 페이지로 이동하시겠습니까?">
+
+<input type="hidden" id="appTitleNm" value="서울시립 사진미술관"/>
+<input type="hidden" id="adminYn" value="N"/>
+<div class="l-block" id="contents">
+	<form name="scFrm" id="scFrm" onsubmit="return">
+		<input type="hidden" class="whatsonNo" name="exNo" value="1515171"/>
+		<input type="hidden" name="audioGuideNo" value="0"/>
+		<input type="hidden" name="artInfoNo" id="artInfoNo" value="0"/>
+		<input type="hidden" name="photosketchNo" value="0"/>
+		<input type="hidden" name="currentPage" id="currentPage" value="1"/>
+		<input type="hidden" name="glolangType" value="KOR"/>
+		<input type="hidden" name="flag"  id="flag"  value=""/>
+		<input type="hidden" name="asisYn"  id="asisYn"  value=""/>
+	</form>
+	<div class="c-section c-section-norule app-pd-0">
+		<div class="c-header t-header pure-g l-header-whitespace">
+			<div class="pure-u-1 pure-u-md-1-2 l-md-gutter-right o_h1">
+				<a class="grey app-none" href="javascript:;" id="goLandingList">전시와 프로그램<!--전시와 프로그램--></a>
+				<br class="app-none">
+				2026 서울사진축제 《컴백홈》<br>
+				20260409-20260614</div>
+			
+			<div class="pure-u-1 pure-u-md-1-2 l-md-gutter-right o_h2 app-none">
+				2026년 06월 14일까지
+									서울시립 사진미술관에서<span id="exStatusTxt"> 전시합니다.</span>
+					<input type="hidden" id="exEnddtVal" value="20260614" data-ex-always-yn="N"/>
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="c-section c-section-norule">
+		<div class="c-image-hero o_figure">
+			<a id="shareBtn" class="t-meta i-button i-button-float i-button-icon i-button-share app-none " href="#scrap" onclick="javascript:urlCopy()"><span class="visually-hidden">URL 주소복사</span></a>
+			<a id="likeBtn" class="t-meta i-button i-button-float i-button-icon i-button-favorite app-none " data-modal="#modalNps"  href="javascript:;"><span class="visually-hidden">관심 있어요</span></a>
+			<div class="c-image-letterbox o_thumb o_img_mh100" role="img" aria-label="2026 서울사진축제 《컴백홈》">
+				<img alt="" aria-hidden="true" onerror="this.src='/resources/images/common/noimg_none.jpg'" src="/common/imgFileView?FILE_ID=1006054"/>
+			</div>
+		</div>
+	</div>
+	
+	<div class="c-section c-section-norule app-none">
+		<div class="t-meta pure-g">
+			<div class="l-stacked l-md-inline pure-u-1 pure-u-md-1-2">
+				<div class="o_h1"><span class="o_no_visible">바로가기<!--이 페이지의 목차--></span></div>
+				<ul class="o_list contShortcuts">
+					<li>
+							<a href="#exGuideArea">전시 안내<!--전시안내--></a>
+						</li>
+					<li id="exAudioGuideContents">
+						<a href="#exAudioGuideArea">음성 안내<!--음성 안내--></a>
+							</li>
+					<li>
+							<a href="#magerWorksArea">주요 작품<!--주요작품--></a>
+						</li>
+					<!-- 분관정보 -->
+					<li>
+										<a href="#accordion_lnk_org">
+											서울시립 사진미술관</a>
+									</li>											
+								<!-- 시민 큐레이터 -->
+					<!-- 신진 미술인 -->
+					<!-- 난지 입주작가 -->
+					<li class="app-none">
+						<a href="#accordion_lnk_ex">관련 전시와 프로그램<!--관련 전시와 프로그램--></a>
+					</li>
+					<li class="app-none">
+							<a href="#accordion_lnk_sojang">관련 소장품<!--관련 소장품--></a>
+						</li>
+					<li class="app-none">
+							<a href="#accordion_lnk_notice">관련 소식<!--관련 소식--></a>
+						</li>
+					<li class="app-none">
+							<a href="#accordion_lnk_publish">관련 출판물<!--관련 출판물--></a>
+						</li>
+					</ul>
+			</div>
+			<div class="l-stacked l-md-inline pure-u-1 pure-u-md-1-2">
+				<div class="i-button-group">
+				    <a class="i-button i-button-fill modal-open app-none" data-modal="#modalRsvp" href="#" id="exAdvanceReservation" onclick="javascript:getRsvCalendarAjax('2026','06','01', 'calenderInfo');">전시 사전 예약<!--전시 사전 예약--></a>
+				</div>
+				<!-- 
+				<div class="o_info">
+					<div class="o_h1">
+					04월
+									09일부터
+									06월
+									14일까지
+								</div>
+					</div>
+				-->
+				<div class="o_info">
+					<!-- 
+					<div class="o_h1">
+						<!- 전시 세부장소 ->
+						서울시립 사진미술관&nbsp;1층<!- 층 ->&nbsp;포토북카페<br>
+							서울시립 사진미술관&nbsp;1층<!- 층 ->&nbsp;로비<br>
+							서울시립 사진미술관&nbsp;2층<!- 층 ->&nbsp;영상홀<br>
+							서울시립 사진미술관&nbsp;2층<!- 층 ->&nbsp;2전시실<br>
+							서울시립 사진미술관&nbsp;2층<!- 층 ->&nbsp;1전시실<br>
+							서울시립 사진미술관&nbsp;3층<!- 층 ->&nbsp;4전시실<br>
+							서울시립 사진미술관&nbsp;3층<!- 층 ->&nbsp;3전시실<br>
+							서울시립 사진미술관&nbsp;4층<!- 층 ->&nbsp;포토라이브러리<br>
+							</div>
+					-->
+					<!-- 전시시간 분관정보 -->
+						<!-- 관람시간 기본  상세형 가장 윗 컬럼-->
+		<!-- 관람시간 기본 상세형 둘째컬럼 선택-->
+		<!-- 관람시간 기본 상세형 3~10월 -->
+		<!-- 관람시간 기본 상세형 11~2월-->
+		<!-- 관람시간 기본 참고형 텍스트 -->
+		<!-- 관람시간 연장  주기형-->
+		<!--  -->
+		<!-- 휴관일 상세형 -->
+		<!-- 휴관일 참고형  -->
+		<!-- 관람시간 기본  상세형 가장 윗 컬럼-->
+		<!-- 관람시간 기본 상세형 둘째컬럼 선택-->
+		<!-- 관람시간 기본 상세형 3~10월 -->
+		<!-- 관람시간 기본 상세형 11~2월-->
+		<!-- 관람시간 기본 참고형 텍스트 -->
+		<!-- 관람시간 연장  주기형-->
+		<!--  -->
+		<!-- 휴관일 상세형 -->
+		<!-- 휴관일 참고형  -->
+		<!-- 관람시간 기본  상세형 가장 윗 컬럼-->
+		<!-- 관람시간 기본 상세형 둘째컬럼 선택-->
+		<!-- 관람시간 기본 상세형 3~10월 -->
+		<!-- 관람시간 기본 상세형 11~2월-->
+		<!-- 관람시간 기본 참고형 텍스트 -->
+		<!-- 관람시간 연장  주기형-->
+		<!--  -->
+		<!-- 휴관일 상세형 -->
+		<!-- 휴관일 참고형  -->
+		<!-- 관람시간 기본  상세형 가장 윗 컬럼-->
+		<!-- 관람시간 기본 상세형 둘째컬럼 선택-->
+		<!-- 관람시간 기본 상세형 3~10월 -->
+		<!-- 관람시간 기본 상세형 11~2월-->
+		<!-- 관람시간 기본 참고형 텍스트 -->
+		<!-- 관람시간 연장  주기형-->
+		<!--  -->
+		<!-- 휴관일 상세형 -->
+		<!-- 휴관일 참고형  -->
+		<!-- 관람시간 기본  상세형 가장 윗 컬럼-->
+		<!-- 관람시간 기본 상세형 둘째컬럼 선택-->
+		<!-- 관람시간 기본 상세형 3~10월 -->
+		<!-- 관람시간 기본 상세형 11~2월-->
+		<!-- 관람시간 기본 참고형 텍스트 -->
+		<!-- 관람시간 연장  주기형-->
+		<!--  -->
+		<!-- 휴관일 상세형 -->
+		<!-- 휴관일 참고형  -->
+		<!-- 관람시간 기본  상세형 가장 윗 컬럼-->
+		<!-- 관람시간 기본 상세형 둘째컬럼 선택-->
+		<!-- 관람시간 기본 상세형 3~10월 -->
+		<!-- 관람시간 기본 상세형 11~2월-->
+		<!-- 관람시간 기본 참고형 텍스트 -->
+		<!-- 관람시간 연장  주기형-->
+		<!--  -->
+		<!-- 휴관일 상세형 -->
+		<!-- 휴관일 참고형  -->
+		<!-- 관람시간 기본  상세형 가장 윗 컬럼-->
+		<!-- 관람시간 기본 상세형 둘째컬럼 선택-->
+		<!-- 관람시간 기본 상세형 3~10월 -->
+		<!-- 관람시간 기본 상세형 11~2월-->
+		<!-- 관람시간 기본 참고형 텍스트 -->
+		<!-- 관람시간 연장  주기형-->
+		<!--  -->
+		<!-- 휴관일 상세형 -->
+		<!-- 휴관일 참고형  -->
+		<!-- 관람시간 기본  상세형 가장 윗 컬럼-->
+		<!-- 관람시간 기본 상세형 둘째컬럼 선택-->
+		<!-- 관람시간 기본 상세형 3~10월 -->
+		<!-- 관람시간 기본 상세형 11~2월-->
+		<!-- 관람시간 기본 참고형 텍스트 -->
+		<!-- 관람시간 연장  주기형-->
+		<!--  -->
+		<!-- 휴관일 상세형 -->
+		<!-- 휴관일 참고형  -->
+		<!-- 관람시간 기본  상세형 가장 윗 컬럼-->
+		<!-- 관람시간 기본 상세형 둘째컬럼 선택-->
+		<!-- 관람시간 기본 상세형 3~10월 -->
+		<!-- 관람시간 기본 상세형 11~2월-->
+		<!-- 관람시간 기본 참고형 텍스트 -->
+		<!-- 관람시간 연장  주기형-->
+		<!--  -->
+		<!-- 휴관일 상세형 -->
+		<!-- 휴관일 참고형  -->
+		<ul class="o_tbl_list o_tbl_long">
+						<!-- 관람시간 평일 ex:(월~토) -->
+									<li><span class=" "> 
+									평일(화&ndash;금)
+												</span> 
+									<!-- 관람시간 평일 ex:(월~토)end --> 
+									<!-- 관람시간 시간 ex: 오전 10시 - 오후 8시 -->
+										<span> 오전<!--오전-->&nbsp;10시&ndash;오후&nbsp;8시</span> <!-- 관람시간 시간 ex: 오전 10시 - 오후 8시 end  --></li>
+									
+									<!-- 서소문본관, 북서울미술관 관람시간 시간 추가  -->
+									<!-- 서소문본관, 북서울미술관 관람시간 시간 추가 end  -->	
+									
+									<li><span class=" "> 
+												토 · 일 · 공휴일</span>
+									<!-- 하절기 -->
+										<span>하절기(3–10월),
+										 오전<!--오전-->&nbsp;10시&ndash;오후&nbsp;7시</span>
+										<!-- 하절기 end-->
+										<!-- 동절기 -->
+										<li>
+										<span></span>
+										<span>동절기(11–2월),
+												오전<!--오전-->&nbsp;10시&ndash;오후&nbsp;6시</span></li>
+									<!-- 동절기 end-->
+									<!-- 입장시간 -->
+							<li>
+								<span>입장시간</span> 
+								<span> 관람 종료 1시간 전까지 입장</span>
+							</li>
+
+
+								<!-- 관람시간연장 주기형 마지막주 수요일(문화가 있는날)연장 체크 시-->
+<!-- 관람시간연장 주기형 마지막주 수요일(문화가 있는날)연장 체크 시 end-->
+							<!-- 관람시간 연장 주기형  end -->
+							<!-- 휴관일 참고형  text -->
+							<!-- 					</ul>
+					<ul class="o_tbl_list">
+					 -->
+							<!-- 휴관일 참고형  text end-->
+							<!-- 휴관일 상세형  text -->
+							<li class="first b">
+									<span> 
+										휴관일</span> 
+									<span>
+										<!-- 매주 월요일 운영일을 휴관일로 등록-->
+										<span></span>
+															<span>
+																	1월1일</span>
+																<!-- 매주 월요일 운영일을 휴관일로 등록end-->
+										, 매주 월요일</span>									
+								</li>
+								<!-- 매주 월요일 운영일을 휴관일로 등록-->
+								<li>
+											<span></span>
+													<span> 월요일이 공휴일인 경우에는 정상 개관합니다. (단, 포토라이브러리는 매주 일, 월, 공휴일 휴관)</span>
+														</li>
+										<!-- 매주 월요일 운영일을 휴관일로 등록end-->
+							</ul>
+
+
+
+</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="c-section o_Ex_more app-none">
+		<div class="t-meta pure-g">
+			<div class="l-stacked l-md-inline pure-u-1 pure-u-md-1-3 l-md-gutter-right">
+				<div class="o_h1">전시장소<!--전시장소--></div>
+				<p>
+					<!-- 전시 세부장소 -->
+					서울시립 사진미술관&nbsp;1층<!-- 층 -->&nbsp;포토북카페<br>
+					서울시립 사진미술관&nbsp;1층<!-- 층 -->&nbsp;로비<br>
+					서울시립 사진미술관&nbsp;2층<!-- 층 -->&nbsp;영상홀<br>
+					서울시립 사진미술관&nbsp;2층<!-- 층 -->&nbsp;2전시실<br>
+					서울시립 사진미술관&nbsp;2층<!-- 층 -->&nbsp;1전시실<br>
+					서울시립 사진미술관&nbsp;3층<!-- 층 -->&nbsp;4전시실<br>
+					서울시립 사진미술관&nbsp;3층<!-- 층 -->&nbsp;3전시실<br>
+					서울시립 사진미술관&nbsp;4층<!-- 층 -->&nbsp;포토라이브러리<br>
+					</p>
+				<div class="o_h1">전시기간<!--전시기간--></div>
+				<p>
+					2026.04.09~2026.06.14</p>
+				<div class="o_h1">관람료<!--관람료--></div>
+				<p>
+				무료<!--무료-->
+					</p>
+				<div class="o_h1">도슨트안내<!--도슨트안내--></div>
+				<p style="white-space:pre-line">매주 화~일요일 11시, 13시, 15시 운영</p>
+				</div>
+			
+			<div class="l-stacked l-md-inline pure-u-1 pure-u-md-1-3 l-md-gutter-right">
+				<div class="o_h1">전시부문<!--전시부문--></div>
+				<p>사진, 설치, 영상 등</p>
+				<div class="o_h1">전시장르<!--전시장르--></div>
+					<p>
+					기획</p>
+				<div class="o_h1">참여작가<!--참여작가--></div>
+				<p>기슬기, 김민, 김소라, 김준, 나나와 펠릭스, 뮌, 박형렬, 손은영, 신수와, 신희수, 양동규, 오석근, 윤태준, 이선민, 이예은, 이한구, 장연호, 정경자, 정정호, 최원준, 하다원, 한영수, 함혜경</p>
+				<div class="o_h1">작품수<!--작품수--></div>
+				<p>350여 점</p>
+				</div>
+			
+			<div class="l-stacked l-md-inline pure-u-1 pure-u-md-1-3">
+				<div class="o_h1">주최 및 후원<!--주최 및 후원--></div>
+				<p>주최: 서울시립 사진미술관, 후원: 한국후지필름(주)</p>
+				<div class="o_h1">전시문의<!--전시문의--></div>
+				<p>
+					박소진, 성석&nbsp;02-2124-7618, 7615</p>
+				<div class="o_h1">관람문의<!--관람문의--></div>
+				<p>
+					안내데스크&nbsp;02-2124-7600</p>
+				</div>
+		</div>
+	</div>
+	<div class="c-section is-expandable is-expanded app-none" id="exGuideArea">
+			<div class="c-header t-header">
+				<div class="o_h1">전시 안내<!--전시 안내--></div>
+			</div>
+			<div class="t-body is-expandable-content o_body o_underline">
+				<div class="o_textmore wordWrap">
+						<!-- 값넣는부분 -->
+		            	<p><span style="font-size: 30px;"><strong class="">2026서울사진축제 《컴백홈》</strong></span><span style="font-size: 24px;"><br><strong class="">2026.4.9.(목)-6.14.(일)</strong></span></p><p><br></p><p><br></p><p>서울시립 사진미술관은 2026서울사진축제 《컴백홈》을 개최합니다.</p><p><br>2010년 첫발을 내디딘 서울사진축제는 동시대 사진의 흐름을 살펴보며 한국 사진의 지형을 확장해 온 서울의 대표 <a href="https://sema.seoul.go.kr/semaaa/front/sissorus/search.do?menuId=18&paramTsId=65" target="_blank" title="새창열림">시각예술</a> 축제로, 전시와 강연, 출판, 시민참여 프로그램 등을 통해 사진을 둘러싼 다양한 담론과 실천을 공유하는 공론장 역할을 해왔습니다. 이번 2026 서울사진축제는 2021년 이후 잠시 멈췄던 행사가 5년 만에 다시 열리는 자리이자, 국내 최초의 사진매체 특화 공립미술관인 서울시립 사진미술관에서 처음 개최된다는 점에서 의미가 큽니다. 그동안 서울 도심 곳곳에서 펼쳐지던 축제가 '사진의 집'을 보금자리로 삼아 새롭게 출발합니다.</p><p><br></p><p>2026 서울사진축제의 주제는 '컴백홈'입니다. 이번 축제는 집을 단순한 거주 공간이 아니라, 각자의 삶 속에서 천천히 만들어지고 이어져 온 관계의 장으로 바라봅니다. 집을 이루는 풍경과 기억, 움직임과 머무름의 시간을 따라가며, 서로 다른 삶의 자리에서 집이 어떻게 마음을 기대게 하고, 관계를 잇고, 다시 살아갈 힘이 되는지 사진을 매개로 풀어냅니다. 한국 사진계를 대표하는 작가부터 신진 작가까지 총 23명의 작가가 참여하는 본 전시는 '집을 이루는 것', &nbsp;'이동하는 집', '길 위에서', '우리의 집' 의 네 개 섹션으로 구성되며, 관람객은 2층부터 3층으로 이어지는 동선을 따라 각 작가의 방을 차례로 방문하는 듯한 경험을 하게 됩니다.</p><p>&nbsp;</p><p>특히 이번 서울사진축제는 전시를 넘어 시민이 직접 참여하고 경험하는 프로그램을 대폭 확대하였습니다. 사진미술관 전관에서 진행되는 다양한 프로그램을 통해, 미술관 공간은 누구나 사진을 통해 자신의 이야기를 나누고 연결되는 장이 됩니다. 1층과 4층 유휴 공간에서는 서울사진축제의 프리뷰 성격으로 포토 디스커버리 프로젝트 《사진집》이 운영되고 있으며, 축제 기간 동안 영상홀, 전시실, 포토라이브러리에서는 다양한 프로그램들이 운영됩니다. 관람객은 사진을 바라보고(Look), 읽고(Read), 대화하고(Talk), 만들고(Make), 공유하는(Share) 다섯 가지 방식으로 사진을 경험하며 축제에 참여할 수 있습니다.</p><p><br></p><!-- 전시장르 시민 큐레이터 일경우만 -->
+					</div>
+
+				 <div class="t-meta pure-g o_btnwrap"> 
+					<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3  l-md-gutter-right">
+						<a class="i-button i-button-fill o_btn_textmore" href="javascript:;">더 보기<!--더보기--></a>
+					</div>
+				</div> 
+			</div> 
+		</div>
+	<!-- 이 전시의 음성 안내 -->
+	<script type="text/javascript">
+$(function () {
+	
+	// 음성안내 초기화(5개)
+	getAudioGuideList(5);
+	
+	// 음성 다운로드 막기
+	 $('audio').attr('controlsList', 'nodownload');
+	
+	//상세보기
+	$(document).on('click','.audioGuideDetail', function(){
+		var audioGuideNo = $(this).data('audioGuideNo');
+		var photosketchNo = $(this).data('photoSketchNo');
+		
+		$('#scVoiceFrm').find('#audioGuideNo').val(audioGuideNo);
+		$('#scVoiceFrm').find('#photosketchNo').val(photosketchNo);
+		
+		//alert($('#photosketchNo').val());
+		
+		$('#scVoiceFrm').attr('action','/'+$('#commFooterLangStype').val()+'/whatson/exhibition/audio_guide');
+		$('#scVoiceFrm').attr('method','get');
+		$('#scVoiceFrm').submit();
+	});
+});
+
+// <,> escapeHtml
+function escapeHtml(tmp){
+	tmp = tmp.replace(/</gi, "&lt;");
+	//tmp = tmp.replace(/>/gi, "&gt;");
+	tmp = tmp.replaceAll(/(\n|\r\n)/g, "<br>");
+	return tmp;
+}
+
+function getAudioGuideList(var1){
+	
+	var param = new Object() ;
+	var adminYn = $('#adminYn').val();
+	var adminUrl = ''
+	if(adminYn != ''){
+		adminUrl += '&adminYn='+adminYn
+	}
+	param = $('#scVoiceFrm').serialize()  + '&showArticleCount='+var1+adminUrl;
+	
+	$.ajax({url: "/whatson/exhibition/audioGuideAjaxList",data : param , async: true, success:function( json ) 
+		{
+			//console.log(json.photoFileList);
+	    	if(json.audioGuideDomainList.length != 0){
+	    	
+		    	var innerHtml = '';
+		    	var errorImgSrc = '/resources/content/1x1.jpg';
+		    	$('#audioGuideDomainList').empty();
+		    	$('#audioGuideDomainCnt').text(json.audioGuideDomainCnt);
+		    	// 6개이상일때만 더보기 보이기 
+		    	
+		    	if(json.audioGuideDomainCnt < 6 ||  var1 == '10000') $('#exAudioGuideDomainToggle').hide();
+		    	
+		    	// 음성안내 리스트
+				json.audioGuideDomainList.forEach(function(itemList,index){
+						
+					//console.log(itemList.photoSketchYN);
+					// 포토스케치 이미지 있을때
+					var tmp = '';
+					
+					
+					
+					if(itemList.photoSketchYN === 'Y'){// 포토스케치 등록이 있을때
+						
+						json.photoFileList.forEach(function(items,index){
+								if(itemList.audioGuideNo  ===  items.listNo){
+									if(tmp  !=  items.listNo){//포토스케치 이미지 한개만 출력
+										
+										tmp = items.listNo;
+										audio = itemList.audioGuideNo;
+										//console.log("itemList.audioGuideNo:" + itemList.audioGuideNo);
+								
+										var filePath = items.filePath;
+										var fileNm = items.fileNm;
+										var fileId = items.fileNo * 7;
+							    	    
+							    	    innerHtml = '<div class="c-table-row c-table-row-tall pure-g audioGuideDetail" data-photo-sketch-no = '+items.photosketchNo+' data-audio-guide-no = '+itemList.audioGuideNo+'>';
+							    		innerHtml += 	'<a href="javascript:;">';
+							    		innerHtml += 		'<div class="pure-u-1-3 pure-u-md-1-6">';
+							    		innerHtml += 			'<div class="o_figure l-gutter-right">';
+							    		innerHtml += 				'<div class="o_thumb">';
+							    		innerHtml += 					'<img alt="" onerror="this.src=\''+errorImgSrc+'\'" src="/common/imgFileView?FILE_ID='+fileId+'">';
+							    		/* innerHtml += 					'<span class="o_h2">'+items.photoSketchDomain.title+'</span>'; */
+							    		innerHtml += 				'</div>';
+							    		innerHtml += 			'</div>';
+							    		innerHtml += 		'</div>';
+							    		innerHtml += 		'<div class="pure-u-2-3 pure-u-md-5-6 o_vice_txt">';
+							    		innerHtml += 			'<div class="o_figcaption">';
+							    		innerHtml += 				'<strong class="o_h1">'+escapeHtml(itemList.artNm)+'</strong>';
+							    		if(itemList.artContent != null && itemList.artContent != ''){
+							    			innerHtml += 				'<span class="o_h2">'+escapeHtml(setCharSubstr(itemList.artContent))+'</span>';
+							    		}
+							    		innerHtml += 			'</div>';
+							    		innerHtml += 		'</div>';
+							    		innerHtml += 	'</a>';
+							    		innerHtml += '</div>';
+							    		
+							    		$('#audioGuideDomainList').append(innerHtml);
+									}
+								}
+						});
+					
+					}else{// 포토스케치 등록이 없을때
+						
+
+						innerHtml = '<div class="c-table-row c-table-row-tall pure-g audioGuideDetail"  data-photo-sketch-no = "1111" data-audio-guide-no = '+itemList.audioGuideNo+'>';
+			    		innerHtml += 	'<a href="javascript:;">';
+			    		innerHtml += 		'<div class="pure-u-1-3 pure-u-md-1-6">';
+			    		innerHtml += 			'<div class="o_figure l-gutter-right">';
+			    		innerHtml += 				'<div class="o_thumb">';
+			    		innerHtml += 					'<img alt="" class="w100p" onerror="this.src=\''+errorImgSrc+'\'" src="/common/imgFileView?FILE_ID=">';
+			    		/*innerHtml += 					'<span class="o_h2"></span>';*/
+			    		innerHtml += 				'</div>';
+			    		innerHtml += 			'</div>';
+			    		innerHtml += 		'</div>';
+			    		innerHtml += 		'<div class="pure-u-2-3 pure-u-md-5-6 o_vice_txt">';
+			    		innerHtml += 			'<div class="o_figcaption">';
+			    		innerHtml += 				'<strong class="o_h1" >'+ escapeHtml(itemList.artNm) +'</strong>';
+			    		if(itemList.artContent != null && itemList.artContent != ''){
+			    			innerHtml += 				'<span class="o_h2">'+escapeHtml(setCharSubstr(itemList.artContent))+'</span>';
+			    		}
+			    		innerHtml += 			'</div>';
+			    		innerHtml += 		'</div>';
+			    		innerHtml += 	'</a>';
+			    		innerHtml += '</div>';
+			    		
+			    		$('#audioGuideDomainList').append(innerHtml);
+					}
+				});
+	    	
+	    	}else{
+	    		
+	    		$('#exAudioGuideContents').remove();//전시안내 목차
+ 	    		$('#exAudioGuideArea').hide();//음성안내 디스플레이 토글
+	    	}
+	    	
+		}
+	});
+}
+
+function setCharSubstr(var1){
+	
+	var artContent = '';
+	if(var1.length > 320 ){
+		artContent = var1.substr(0,320) + '...'
+	}else{
+		artContent = var1;
+	}
+	return artContent; 
+}
+
+</script>
+
+
+<form name="scVoiceFrm" id="scVoiceFrm" onsubmit="return">
+	<input type="hidden" name="exNo" value="1515171"/>
+	<input type="hidden" name="audioGuideNo" id="audioGuideNo" value="0"/>
+	<input type="hidden" name="photosketchNo" id="photosketchNo" value="0"/>
+	<input type="hidden" name="currentPage" value="1"/>
+	<input type="hidden" name="glolangType" value="KOR"/>
+</form>
+
+<div class="c-section is-expandable is-expanded o_de-voice" id="exAudioGuideArea">
+	<div class="c-header t-header is-expandable-toggle">
+	<button class="is-expandable-caret o_h1">음성 안내<!--음성 안내--></button>
+		</div>
+	<div class="c-table t-body is-expandable-content" id="audioGuideDomainList"></div>
+	<div class="t-meta pure-g is-expandable-content" id="audioAllView">
+		<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 l-md-gutter-right">
+			<a class="i-button i-button-fill" href="javascript:getAudioGuideList(10000);" id="exAudioGuideDomainToggle">모두 보기<!--모두보기--> (<span id="audioGuideDomainCnt"></span>)</a>
+		</div>
+	</div>
+</div>
+
+<!-- 주요 작품 -->
+	<div class="c-section is-expandable is-expanded app-none" id="magerWorksArea">
+			<div class="c-header t-header pure-g is-expandable-toggle">
+				<div class="pure-u-3-5">
+					<button class="is-expandable-caret o_h1">주요 작품<!--주요작품--></button>
+				</div>
+				<div class="pure-u-2-5 l-align-right">
+					<a class="i-button i-button-float i-button-no-border t-meta is-swappable-toggle is-swappable-on" href="javascript:;">슬라이드 보기<!--슬라이드 보기--></a>
+					<a class="i-button i-button-float i-button-no-border t-meta is-swappable-toggle" href="javascript:;">그리드 보기<!--그리드 보기--></a>
+				</div>
+			</div>
+			<div class="is-expandable-content">
+				
+				<div class="is-swappable is-swappable-on">
+					<div class="c-connected pure-g">
+						<div class="pure-u-1-2 pure-u-md-1-3" style="">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004234" data-art-info-no="23115" data-photosketch-no="143462" alt="〈기복(祈福) 01, 20, 24, 04〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈기복(祈福) 01, 20, 24, 04〉</span>
+										<span class="o_h2">오석근</span>
+										<span class="o_h2" style="white-space: pre-line;">2023-2024, 185×85cm, 피그먼트 프린트, AP, 작가 소장</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004318" data-art-info-no="23119" data-photosketch-no="143474" alt="〈산으로 존재하기 #80〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈산으로 존재하기 #80〉</span>
+										<span class="o_h2">박형렬</span>
+										<span class="o_h2" style="white-space: pre-line;">2026, 90×120cm, 디지털 잉크젯 프린트, 작가 소장</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004325" data-art-info-no="23092" data-photosketch-no="143475" alt="〈So, Suite_01〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈So, Suite_01〉</span>
+										<span class="o_h2">정경자</span>
+										<span class="o_h2" style="white-space: pre-line;">2018, 60×60cm, 디지털 피그먼트 프린트, ed.2/5, 작가 소장</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004332" data-art-info-no="23093" data-photosketch-no="143476" alt="〈서울〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈서울〉</span>
+										<span class="o_h2">한영수</span>
+										<span class="o_h2" style="white-space: pre-line;">1956-1963, 240×360cm, 디지털 아카이벌 프린트, AP, 한영수문화재단 소장</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004339" data-art-info-no="23120" data-photosketch-no="143477" alt="〈회색 양복의 사나이〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈회색 양복의 사나이〉</span>
+										<span class="o_h2">함혜경</span>
+										<span class="o_h2" style="white-space: pre-line;">2026, 36분, 단채널 비디오, 서울시립 사진미술관 제작지원</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004353" data-art-info-no="23094" data-photosketch-no="143479" alt="〈엉겨붙은 그림자〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈엉겨붙은 그림자〉</span>
+										<span class="o_h2">기슬기</span>
+										<span class="o_h2" style="white-space: pre-line;">2026, 145×122cm, 태피스트리, 서울시립 사진미술관 제작지원</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="display:none;">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004395" data-art-info-no="23096" data-photosketch-no="143485" alt="〈나이지리아에서 온 이구웨(왕) 찰스와 호프 그리고 한국에서 자녀들, 동두천〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈나이지리아에서 온 이구웨(왕) 찰스와 호프 그리고 한국에서 자녀들, 동두천〉</span>
+										<span class="o_h2">최원준</span>
+										<span class="o_h2" style="white-space: pre-line;">2021, 120×145cm, 디지털 잉크젯 프린트, 작가 소장</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="display:none;">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004374" data-art-info-no="23095" data-photosketch-no="143482" alt="〈블루존:부재의 구조 구의역/2016/스크린도어 사망 사고〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈블루존:부재의 구조 구의역/2016/스크린도어 사망 사고〉</span>
+										<span class="o_h2">신희수</span>
+										<span class="o_h2" style="white-space: pre-line;">2026, 165×110cm, 디지털 잉크젯 프린트, 서울시립 사진미술관 제작지원</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="display:none;">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1003961" data-art-info-no="23104" data-photosketch-no="143423" alt="〈플라워 크래커 30〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈플라워 크래커 30〉</span>
+										<span class="o_h2">김민</span>
+										<span class="o_h2" style="white-space: pre-line;">2024, 80×120cm, 잉크젯 프린트, 작가 소장</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="display:none;">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1003982" data-art-info-no="23085" data-photosketch-no="143426" alt="〈루트비히스부르크 궁전〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈루트비히스부르크 궁전〉</span>
+										<span class="o_h2">김소라</span>
+										<span class="o_h2" style="white-space: pre-line;">2023, 가변설치, 피그먼트 프린트, C-프린트, 디지털 프린트, 작가 소장</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="display:none;">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004003" data-art-info-no="23086" data-photosketch-no="143429" alt="〈무빙, 유동하는, 차상민의 방〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈무빙, 유동하는, 차상민의 방〉</span>
+										<span class="o_h2">이선민</span>
+										<span class="o_h2" style="white-space: pre-line;">2023~, 150×120cm, C-프린트, 작가 소장</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="display:none;">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1003996" data-art-info-no="23105" data-photosketch-no="143428" alt="〈카메라, 담배, 위스키 그리고 하늘에 계신 우리 아버지〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈카메라, 담배, 위스키 그리고 하늘에 계신 우리 아버지〉</span>
+										<span class="o_h2">나나와 펠릭스</span>
+										<span class="o_h2" style="white-space: pre-line;">2016-2026, 가변설치, 발견한 액자, 아카이벌 피그먼트 프린트, 서울시립 사진미술관 제작지원</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="display:none;">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004010" data-art-info-no="23087" data-photosketch-no="143430" alt="〈감탑〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈감탑〉</span>
+										<span class="o_h2">하다원</span>
+										<span class="o_h2" style="white-space: pre-line;">2017, 81×54cm, 피그먼트 프린트, ed.1/5+2AP, 작가 소장</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="display:none;">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004017" data-art-info-no="23088" data-photosketch-no="143431" alt="〈인왕산 기도터〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈인왕산 기도터〉</span>
+										<span class="o_h2">정정호</span>
+										<span class="o_h2" style="white-space: pre-line;">2025, 120×180cm, 아카이벌 피그먼트 프린트, ed.1/3, 작가 소장</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="display:none;">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004024" data-art-info-no="23107" data-photosketch-no="143432" alt="〈군용1989 #002〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈군용1989 #002〉</span>
+										<span class="o_h2">이한구</span>
+										<span class="o_h2" style="white-space: pre-line;">1989~1992(2026 재제작), 72×105cm, 피그먼트 프린트, ed.2/15, 작가 소장</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="display:none;">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004094" data-art-info-no="23108" data-photosketch-no="143442" alt="〈사라진 소리〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈사라진 소리〉</span>
+										<span class="o_h2">김준</span>
+										<span class="o_h2" style="white-space: pre-line;">2026, 가변설치, 스피커, 앰프, 이미지, 이미지 북, 목재, 다채널 사운드, 서울시립 사진미술관 제작지원</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="display:none;">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004038" data-art-info-no="23089" data-photosketch-no="143434" alt="〈격랑〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈격랑〉</span>
+										<span class="o_h2">양동규</span>
+										<span class="o_h2" style="white-space: pre-line;">2026, 110×160cm, 한지에 아카이벌 피그먼트 프린트, ed.1/5, 작가 소장</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="display:none;">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004045" data-art-info-no="23090" data-photosketch-no="143435" alt="〈시선〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈시선〉</span>
+										<span class="o_h2">윤태준</span>
+										<span class="o_h2" style="white-space: pre-line;">2025, 110×138cm, 잉크젯 프린트, 디본드 프레임, ed.1/10, 작가 소장</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="display:none;">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004052" data-art-info-no="23109" data-photosketch-no="143436" alt="〈붉은 빌라〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈붉은 빌라〉</span>
+										<span class="o_h2">손은영</span>
+										<span class="o_h2" style="white-space: pre-line;">2024, 160×140cm, 아카이벌 피그먼트 프린트, ed.1/5, 작가 소장</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="display:none;">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004073" data-art-info-no="23110" data-photosketch-no="143439" alt="〈실내온도 높이기〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈실내온도 높이기〉</span>
+										<span class="o_h2">이예은</span>
+										<span class="o_h2" style="white-space: pre-line;">2021, 240×360cm, 디지털 잉크젯 프린트, 작가 소장</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="display:none;">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004059" data-art-info-no="23111" data-photosketch-no="143437" alt="〈서브텍스트 (당신이 들어온 문)〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈서브텍스트 (당신이 들어온 문)〉</span>
+										<span class="o_h2">뮌</span>
+										<span class="o_h2" style="white-space: pre-line;">2014, 175.5×117.5cm(3pcs), 디지털 C-프린트, 서울시립미술관 소장</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="display:none;">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004080" data-art-info-no="23112" data-photosketch-no="143440" alt="〈Be 누(累)〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈Be 누(累)〉</span>
+										<span class="o_h2">신수와</span>
+										<span class="o_h2" style="white-space: pre-line;">2024, 12×14cm (종이, 100pcs), 12×14.4cm (사진, 100pcs), ed.1/5, 작가 소장</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-3" style="display:none;">
+						
+							<!-- 그리드보기 : 이미지 일 경우 -->
+							<a href="javascript:;" onclick="showMagerWorksImgViewLnk(this)" class="o_figure">	
+									<div class="o_thumb">	
+										<!-- 중복제거 출력 -->	
+													<img class="photoImg" onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004087" data-art-info-no="23113" data-photosketch-no="143441" alt="〈40, Forty, 불혹(不惑)〉">	
+										</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈40, Forty, 불혹(不惑)〉</span>
+										<span class="o_h2">장연호</span>
+										<span class="o_h2" style="white-space: pre-line;">2025, 6채널 비디오, 사운드, 35분, 작가 소장</span>
+									</div>
+								</a>
+							<!-- 그리드보기 : 영상일 경우 -->
+							</div>
+						</div>
+					<div class="t-meta pure-g">
+						<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+							<a class="i-button i-button-fill" href="javascript:;" onclick="showAllmagerImg(this)">모두 보기<!--모두보기--> (23)</a>
+							</div>
+					</div>
+				</div>
+				
+				<div class="is-swappable">
+					<div class="c-gallery is-advanceable">
+						<button class="t-header c-gallery-prev is-advanceable-prev">이전<!--이전--></button>
+						<div class="is-advanceable-items">
+						<div class="c-gallery-slide c-gallery-slide-image is-current">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004234" alt="〈기복(祈福) 01, 20, 24, 04〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈기복(祈福) 01, 20, 24, 04〉</span>
+										<span class="o_h2" style="white-space: pre-line;">2023-2024, 185×85cm, 피그먼트 프린트, AP, 작가 소장</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004318" alt="〈산으로 존재하기 #80〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈산으로 존재하기 #80〉</span>
+										<span class="o_h2" style="white-space: pre-line;">2026, 90×120cm, 디지털 잉크젯 프린트, 작가 소장</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004325" alt="〈So, Suite_01〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈So, Suite_01〉</span>
+										<span class="o_h2" style="white-space: pre-line;">2018, 60×60cm, 디지털 피그먼트 프린트, ed.2/5, 작가 소장</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004332" alt="〈서울〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈서울〉</span>
+										<span class="o_h2" style="white-space: pre-line;">1956-1963, 240×360cm, 디지털 아카이벌 프린트, AP, 한영수문화재단 소장</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004339" alt="〈회색 양복의 사나이〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈회색 양복의 사나이〉</span>
+										<span class="o_h2" style="white-space: pre-line;">2026, 36분, 단채널 비디오, 서울시립 사진미술관 제작지원</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004353" alt="〈엉겨붙은 그림자〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈엉겨붙은 그림자〉</span>
+										<span class="o_h2" style="white-space: pre-line;">2026, 145×122cm, 태피스트리, 서울시립 사진미술관 제작지원</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004395" alt="〈나이지리아에서 온 이구웨(왕) 찰스와 호프 그리고 한국에서 자녀들, 동두천〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈나이지리아에서 온 이구웨(왕) 찰스와 호프 그리고 한국에서 자녀들, 동두천〉</span>
+										<span class="o_h2" style="white-space: pre-line;">2021, 120×145cm, 디지털 잉크젯 프린트, 작가 소장</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004374" alt="〈블루존:부재의 구조 구의역/2016/스크린도어 사망 사고〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈블루존:부재의 구조 구의역/2016/스크린도어 사망 사고〉</span>
+										<span class="o_h2" style="white-space: pre-line;">2026, 165×110cm, 디지털 잉크젯 프린트, 서울시립 사진미술관 제작지원</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1003961" alt="〈플라워 크래커 30〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈플라워 크래커 30〉</span>
+										<span class="o_h2" style="white-space: pre-line;">2024, 80×120cm, 잉크젯 프린트, 작가 소장</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1003982" alt="〈루트비히스부르크 궁전〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈루트비히스부르크 궁전〉</span>
+										<span class="o_h2" style="white-space: pre-line;">2023, 가변설치, 피그먼트 프린트, C-프린트, 디지털 프린트, 작가 소장</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004003" alt="〈무빙, 유동하는, 차상민의 방〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈무빙, 유동하는, 차상민의 방〉</span>
+										<span class="o_h2" style="white-space: pre-line;">2023~, 150×120cm, C-프린트, 작가 소장</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1003996" alt="〈카메라, 담배, 위스키 그리고 하늘에 계신 우리 아버지〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈카메라, 담배, 위스키 그리고 하늘에 계신 우리 아버지〉</span>
+										<span class="o_h2" style="white-space: pre-line;">2016-2026, 가변설치, 발견한 액자, 아카이벌 피그먼트 프린트, 서울시립 사진미술관 제작지원</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004010" alt="〈감탑〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈감탑〉</span>
+										<span class="o_h2" style="white-space: pre-line;">2017, 81×54cm, 피그먼트 프린트, ed.1/5+2AP, 작가 소장</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004017" alt="〈인왕산 기도터〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈인왕산 기도터〉</span>
+										<span class="o_h2" style="white-space: pre-line;">2025, 120×180cm, 아카이벌 피그먼트 프린트, ed.1/3, 작가 소장</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004024" alt="〈군용1989 #002〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈군용1989 #002〉</span>
+										<span class="o_h2" style="white-space: pre-line;">1989~1992(2026 재제작), 72×105cm, 피그먼트 프린트, ed.2/15, 작가 소장</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004094" alt="〈사라진 소리〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈사라진 소리〉</span>
+										<span class="o_h2" style="white-space: pre-line;">2026, 가변설치, 스피커, 앰프, 이미지, 이미지 북, 목재, 다채널 사운드, 서울시립 사진미술관 제작지원</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004038" alt="〈격랑〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈격랑〉</span>
+										<span class="o_h2" style="white-space: pre-line;">2026, 110×160cm, 한지에 아카이벌 피그먼트 프린트, ed.1/5, 작가 소장</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004045" alt="〈시선〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈시선〉</span>
+										<span class="o_h2" style="white-space: pre-line;">2025, 110×138cm, 잉크젯 프린트, 디본드 프레임, ed.1/10, 작가 소장</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004052" alt="〈붉은 빌라〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈붉은 빌라〉</span>
+										<span class="o_h2" style="white-space: pre-line;">2024, 160×140cm, 아카이벌 피그먼트 프린트, ed.1/5, 작가 소장</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004073" alt="〈실내온도 높이기〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈실내온도 높이기〉</span>
+										<span class="o_h2" style="white-space: pre-line;">2021, 240×360cm, 디지털 잉크젯 프린트, 작가 소장</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004059" alt="〈서브텍스트 (당신이 들어온 문)〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈서브텍스트 (당신이 들어온 문)〉</span>
+										<span class="o_h2" style="white-space: pre-line;">2014, 175.5×117.5cm(3pcs), 디지털 C-프린트, 서울시립미술관 소장</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004080" alt="〈Be 누(累)〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈Be 누(累)〉</span>
+										<span class="o_h2" style="white-space: pre-line;">2024, 12×14cm (종이, 100pcs), 12×14.4cm (사진, 100pcs), ed.1/5, 작가 소장</span>
+									</div>
+								</div>
+							</div>
+							<div class="c-gallery-slide c-gallery-slide-image">
+								<div class="o_figure">
+									<div class="o_thumb">
+										<img onerror="this.src='/resources/content/3x2.jpg'" src="/common/imgFileView?FILE_ID=1004087" alt="〈40, Forty, 불혹(不惑)〉">
+												<!-- 중복제거 출력 -->
+													</div>
+									<div class="t-metadata o_figcaption">
+										<span class="o_h2">〈40, Forty, 불혹(不惑)〉</span>
+										<span class="o_h2" style="white-space: pre-line;">2025, 6채널 비디오, 사운드, 35분, 작가 소장</span>
+									</div>
+								</div>
+							</div>
+							</div>
+						<button class="t-header c-gallery-next is-advanceable-next">다음<!--다음--></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- 설치 전경 -->
+	<!-- 관련 영상정보 -->
+	<script type="text/javascript">
+
+
+</script>
+
+<!-- 영상 모음 -->
+<!-- 관련분관정보 -->
+	<!-- 관람시간 기본  상세형 가장 윗 컬럼-->
+		<!-- 관람시간 기본 상세형 둘째컬럼 선택-->
+		<!-- 관람시간 기본 상세형 3~10월 -->
+		<!-- 관람시간 기본 상세형 11~2월-->
+		<!-- 관람시간 기본 참고형 텍스트 -->
+		<!-- 관람시간 연장  주기형-->
+		<!--  -->
+		<!-- 휴관일 상세형 -->
+		<!-- 휴관일 참고형  -->
+		<!-- 관람시간 기본  상세형 가장 윗 컬럼-->
+		<!-- 관람시간 기본 상세형 둘째컬럼 선택-->
+		<!-- 관람시간 기본 상세형 3~10월 -->
+		<!-- 관람시간 기본 상세형 11~2월-->
+		<!-- 관람시간 기본 참고형 텍스트 -->
+		<!-- 관람시간 연장  주기형-->
+		<!--  -->
+		<!-- 휴관일 상세형 -->
+		<!-- 휴관일 참고형  -->
+		<!-- 관람시간 기본  상세형 가장 윗 컬럼-->
+		<!-- 관람시간 기본 상세형 둘째컬럼 선택-->
+		<!-- 관람시간 기본 상세형 3~10월 -->
+		<!-- 관람시간 기본 상세형 11~2월-->
+		<!-- 관람시간 기본 참고형 텍스트 -->
+		<!-- 관람시간 연장  주기형-->
+		<!--  -->
+		<!-- 휴관일 상세형 -->
+		<!-- 휴관일 참고형  -->
+		<!-- 관람시간 기본  상세형 가장 윗 컬럼-->
+		<!-- 관람시간 기본 상세형 둘째컬럼 선택-->
+		<!-- 관람시간 기본 상세형 3~10월 -->
+		<!-- 관람시간 기본 상세형 11~2월-->
+		<!-- 관람시간 기본 참고형 텍스트 -->
+		<!-- 관람시간 연장  주기형-->
+		<!--  -->
+		<!-- 휴관일 상세형 -->
+		<!-- 휴관일 참고형  -->
+		<!-- 관람시간 기본  상세형 가장 윗 컬럼-->
+		<!-- 관람시간 기본 상세형 둘째컬럼 선택-->
+		<!-- 관람시간 기본 상세형 3~10월 -->
+		<!-- 관람시간 기본 상세형 11~2월-->
+		<!-- 관람시간 기본 참고형 텍스트 -->
+		<!-- 관람시간 연장  주기형-->
+		<!--  -->
+		<!-- 휴관일 상세형 -->
+		<!-- 휴관일 참고형  -->
+		<!-- 관람시간 기본  상세형 가장 윗 컬럼-->
+		<!-- 관람시간 기본 상세형 둘째컬럼 선택-->
+		<!-- 관람시간 기본 상세형 3~10월 -->
+		<!-- 관람시간 기본 상세형 11~2월-->
+		<!-- 관람시간 기본 참고형 텍스트 -->
+		<!-- 관람시간 연장  주기형-->
+		<!--  -->
+		<!-- 휴관일 상세형 -->
+		<!-- 휴관일 참고형  -->
+		<!-- 관람시간 기본  상세형 가장 윗 컬럼-->
+		<!-- 관람시간 기본 상세형 둘째컬럼 선택-->
+		<!-- 관람시간 기본 상세형 3~10월 -->
+		<!-- 관람시간 기본 상세형 11~2월-->
+		<!-- 관람시간 기본 참고형 텍스트 -->
+		<!-- 관람시간 연장  주기형-->
+		<!--  -->
+		<!-- 휴관일 상세형 -->
+		<!-- 휴관일 참고형  -->
+		<!-- 관람시간 기본  상세형 가장 윗 컬럼-->
+		<!-- 관람시간 기본 상세형 둘째컬럼 선택-->
+		<!-- 관람시간 기본 상세형 3~10월 -->
+		<!-- 관람시간 기본 상세형 11~2월-->
+		<!-- 관람시간 기본 참고형 텍스트 -->
+		<!-- 관람시간 연장  주기형-->
+		<!--  -->
+		<!-- 휴관일 상세형 -->
+		<!-- 휴관일 참고형  -->
+		<!-- 관람시간 기본  상세형 가장 윗 컬럼-->
+		<!-- 관람시간 기본 상세형 둘째컬럼 선택-->
+		<!-- 관람시간 기본 상세형 3~10월 -->
+		<!-- 관람시간 기본 상세형 11~2월-->
+		<!-- 관람시간 기본 참고형 텍스트 -->
+		<!-- 관람시간 연장  주기형-->
+		<!--  -->
+		<!-- 휴관일 상세형 -->
+		<!-- 휴관일 참고형  -->
+		<div class="c-section is-expandable is-expanded app-none" id="accordion_lnk_org">
+	<div class="c-header t-header is-expandable-toggle">
+		<button class="is-expandable-caret o_h1">서울시립 사진미술관</button>
+	</div>
+	<div class="t-meta pure-g is-expandable-content">
+		<div
+			class="l-stacked l-md-inline pure-u-1 pure-u-md-1-2 l-md-gutter-right">
+			<div class="o_figure">
+				<div class="o_thumb">
+					<img alt="서울시립 사진미술관" id="idAuthorPhoto"
+						onerror="this.src='/resources/images/common/noimg_none.jpg'"
+						src="/common/imgFileView?FILE_ID=967449" />
+				</div>
+			</div>
+		</div>
+		<div class="l-stacked l-md-inline pure-u-1 pure-u-md-1-2">
+				<div class="o_info">
+					<ul class="o_tbl_list o_tbl_long o_tbl_visit">
+						<!-- 관람시간 평일 ex:(월~토) -->
+									<li><span class="o_h1"> 
+									평일(화&ndash;금)
+												</span> 
+									<!-- 관람시간 평일 ex:(월~토)end --> 
+									<!-- 관람시간 시간 ex: 오전 10시 - 오후 8시 -->
+										<span> 오전<!--오전-->&nbsp;10시&ndash;오후&nbsp;8시</span> <!-- 관람시간 시간 ex: 오전 10시 - 오후 8시 end  --></li>
+
+									<!-- 서소문본관, 북서울미술관 관람시간 시간 추가  -->
+									<!-- 서소문본관, 북서울미술관 관람시간 시간 추가 end  -->	
+
+									<li><span class="o_h1"> 
+												토 · 일 · 공휴일</span>
+									<!-- 하절기 -->
+										<li><span>&ndash;&nbsp;하절기(3–10월)</span><span>
+												오전<!--오전-->&nbsp;10시&ndash;오후7시</span></li>
+										<!-- 하절기 end-->
+										<!-- 동절기 -->
+										<li><span>&ndash;&nbsp;동절기(11–2월)</span> <span> 오전<!--오전-->&nbsp;10시&ndash;오후&nbsp;6시</span></li>
+									<!-- 동절기 end-->
+									<!-- 관람시간 연장 주기형  end -->
+							<!-- 휴관일 참고형  text -->
+							<!-- 					</ul>
+					<ul class="o_tbl_list">
+					 -->
+				<!-- 	 <br> -->
+							<!-- 휴관일 참고형  text end-->
+							<!-- 휴관일 상세형  text -->
+							<li class="first o_gap">
+									<span class="o_h1"> 
+										휴관</span>
+									<span>
+								<!-- 매주 월요일 운영일을 휴관일로 등록-->
+								<span></span>
+												<span>
+														1월1일</span>
+													<!-- 매주 월요일 운영일을 휴관일로 등록end-->
+								, 매주 월요일</span>
+								</li>
+								<!-- 매주 월요일 운영일을 휴관일로 등록-->
+								<li>
+											<span></span>
+													<span> 월요일이 공휴일인 경우에는 정상 개관합니다. (단, 포토라이브러리는 매주 일, 월, 공휴일 휴관)</span>
+														</li>
+										<!-- 매주 월요일 운영일을 휴관일로 등록end-->
+							<!-- <br> -->
+						<!-- 입장시간  -->
+						<li class="first o_gap"><span class="o_h1"> 
+							입장시간</span> 
+							<span> 관람 종료 1시간 전까지 입장</span>
+						</li>
+
+
+						<!-- 관람료 -->
+						<li class="first">
+							<span class="o_h1"> 
+								관람료</span> 
+							<span> 무료</span>
+						</li>
+
+						<!-- 주소 -->
+
+						<li class="first"><span class="o_h1"> 주소</span> <span> 우편번호&nbsp;&nbsp;01411<br />
+									서울 도봉구 마들로13길 68 (창동)­</span></li>
+
+						<!-- 대표번호 -->
+						<li class="first">
+							<span class="o_h1"> 대표번호</span> 
+							<span><a href="tel:02-2124-7600">02&ndash;2124&ndash;7600</a></span>
+						</li>
+						<!-- 이메일
+						<li class="first">
+							<span class="o_h1">이메일</span> 
+							<span> windy7171@seoul.go.kr</span>
+						</li> -->
+					</ul>
+				</div>
+		</div>
+	</div>
+	<div class="t-body is-expandable-content l-gutter-top">
+			<!-- SeMA 창고는 서울의 근대사가 살아 숨 쉬는 전시 공간입니다. 1962년 적벽돌로 쌓아 올려 지은 건물로 1990년대까지 옛 질병본부의 시약 창고로 사용되다가 시민들이 즐겨 찾을 수 있는 실험적인 전시 프로그램을 위한 공간으로 전환되었습니다. 자연광이 그대로 들어오는 목조 천장과 오래된 선반이 상징하는 근대사의 흔적과 현대미술의 실험성이 만나 새로운 경험을 제공합니다. -->
+			<p>서울시립 사진미술관은 사진 중심의 전시와 다채로운 프로그램으로 오늘날 사회, 문화에서 중요한 역할을 하고 있는 사진의 영향력과 &nbsp;예술적 가치를 경험하고, 국내외 시각문화 생산자와 사용자들이 활발히 교류하고 소통하는 사진 특화 미술관입니다. 사진미술관은 또한, 사진의 과거와 현재, 미래를 연구하고 관련 작품과 자료를 수집, 보존합니다.&nbsp;</p><p>(전경사진: ⓒ Yoon,Joonhwan)</p><div class="t-meta pure-g is-expandable-content o_btnwrap">
+			<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 l-md-gutter-right">
+<a class="i-button i-button-fill app-none" href="/kr/visit/photosema">자세히<!--자세히--></a> 
+			</div>
+		</div>
+	</div>
+</div><!-- 신진 미술인 -->
+	<!-- 시민 큐레이터 -->
+	<!-- 난지 입주작가 -->
+	<!-- 관련 전시와 프로그램  -->
+	<script>
+	$(function(){
+		
+		$(".epEcPlaceNm").each(function(idx, item){
+		    $(item).text($(item).text().replace(/,\s*$/,''));
+		})
+		
+		$("[name='epCeEnddtVal']").each(function(idx, item){
+			var now = new Date();
+			var nYear = now.getFullYear();
+			var nMon = now.getMonth();
+			var nDate = now.getDate();
+			
+			var today  = new Date(nYear, nMon, nDate) ;
+			
+			// 신청기간 끝 날짜
+			var epCeRecruitEnddt = $(this).val();
+			var year = epCeRecruitEnddt.substr(0,4);
+			var mon = epCeRecruitEnddt.substr(4,2)-1;
+			var date = epCeRecruitEnddt.substr(6,2);
+		    var recruitEnddt = new Date(year, mon, date) ;
+		    
+		    var btMs =  today.getTime() - recruitEnddt.getTime();
+		    
+		    // 전시기간 끝 날짜
+		    var epCeEnddt = ''+$(this).data('exEnddt');
+			var year2 = epCeEnddt.substr(0,4);
+			var mon2 = epCeEnddt.substr(4,2)-1;
+			var date2 = epCeEnddt.substr(6,2);
+		    var enddt = new Date(year2, mon2, date2);
+		    
+		    var btMs2 =  today.getTime() - enddt.getTime();
+		    
+		 	// 신청기간 시작 날짜
+		    var epCeRecruitFromdt = ''+$(this).data('recruitFromdt');
+			var year3 = epCeRecruitFromdt.substr(0,4);
+			var mon3 = epCeRecruitFromdt.substr(4,2)-1;
+			var date3 = epCeRecruitFromdt.substr(6,2);
+		    var recruitFromdt = new Date(year3, mon3, date3) ;
+		    
+		    var btMs3 =  today.getTime() - recruitFromdt.getTime();
+		    
+	    	if(btMs3 < 0){
+	    		if($('#langStype').val() == 'en'){
+					$(this).parent().text("부터 모집 예정 "+year3+"/"+epCeRecruitFromdt.substr(4,2)+"/"+date3); /*--부터 모집 예정--*/
+				}else{
+					$(this).parent().text(year3+"/"+epCeRecruitFromdt.substr(4,2)+"/"+date3+"부터 모집 예정");
+				}
+	    	}else if(btMs > 0 && btMs2 < 0){
+		    	$(this).parent().text("모집완료"); /*--모집완료--*/
+		    }else if(btMs2 > 0){
+		    	$(this).parent().text("종료"); /*--종료--*/
+		    }
+		});
+	});
+	
+	function goLnkOrgProgramDetail(obj){
+		var vlu = $(obj).data('idx');
+		var watsonMenuDiv = $(obj).data('whatsonMenuDiv');
+		
+		// 전시관리,서울사진축제 ,디진털미디어 시티 비엔날레, 야외조각 구분
+		var exMenuDiv = $(obj).data('exMenuDiv');
+		var url = '';
+		
+		if(watsonMenuDiv == 'EX'){
+			$('#lnkOrgProgramFrm').find('[name=exNo]').val(vlu);
+			//1.전시
+			if(exMenuDiv == 'EXM01'){
+				url = '/'+$('#langStype').val()+'/whatson/exhibition/detail';
+			//2.비엔날레	
+			}else if(exMenuDiv == 'EBM01'){
+				url = '/'+$('#langStype').val()+'/whatson/series/detail';
+			//3.서울사진축제	
+			}else if(exMenuDiv == 'EPF01'){
+				url = '/'+$('#langStype').val()+'/whatson/series/detail';		
+			//4.야외조각전시
+			}else if(exMenuDiv == 'EOM01'){
+				url = '/'+$('#langStype').val()+'/whatson/outdoor/detail';	
+			}else{
+				return false;
+			}
+		}else if(watsonMenuDiv == 'EP'){
+			//5.교육
+			$('#lnkOrgProgramFrm').find('[name=acadmyEeNo]').val(vlu);
+			url = '/'+$('#langStype').val()+'/whatson/education/detail';
+		}else if(watsonMenuDiv == 'CE'){
+			//6.문화
+			$('#lnkOrgProgramFrm').find('[name=evtNo]').val(vlu);
+			url = '/'+$('#langStype').val()+'/whatson/event/detail';
+		}else{
+			alert("URL을 확인하세요!")/* URL을 확인하세요! */
+			return false;
+		}
+		
+		$('#lnkOrgProgramFrm').attr('action', url);
+		$('#lnkOrgProgramFrm').attr('method','get');
+		$('#lnkOrgProgramFrm').submit();
+	}
+	
+
+</script>
+
+<form name="lnkOrgProgramFrm" id="lnkOrgProgramFrm">
+		<input type="hidden" name="exNo" value="0"/>
+		<input type="hidden" name="acadmyEeNo" value="0"/>
+		<input type="hidden" name="evtNo" value="0"/>
+		<input type="hidden" name="glolangType" value="KOR"/>
+	</form>
+	<div class="c-section is-expandable is-expanded app-none" id="accordion_lnk_ex">
+				<!-- 타이틀 -->
+				<div class="c-header t-header is-expandable-toggle">
+					<button class="is-expandable-caret o_h1">
+						관련 전시와 프로그램<!--관련 전시와 프로그램-->
+					</button>
+				</div>
+				<!-- 연관정보 있을때 리스트 -->
+				<div class="c-connected pure-g is-expandable-content">
+					<div class="pure-u-1-2 pure-u-md-1-6">
+							<!-- 연계한 전시를 역으로 조회시 -->
+							<!-- 서울사진축제 -->
+										<a href="/kr/whatson/series/detail?exNo=1534728" class="o_figure">
+									<div class="o_thumb">
+								<img onerror="this.src='/resources/images/common/noimg_none.jpg'"
+									src="/common/imgFileView?FILE_ID=1008882"  
+									alt="2026 서울사진축제 X 한국후지필름 워크숍" 
+									class="js-color-mask-el"
+								/>						
+							</div>
+							<div class="t-metadata o_figcaption">
+								<strong class="o_h1">2026 서울사진축제 X 한국후지필름 워크숍</strong> 
+								<span class="o_h2">
+		                        	<span class="ico-ex">전시<!-- 전시 --></span>
+		                            </span>
+								<span class="o_h2 epEcPlaceNm"> 
+		                            서울시립 사진미술관,</span>
+								<span class="o_h3">
+									2026/05/05~2026/05/05</span>
+								</div>
+							</a>
+						</div>
+					<div class="pure-u-1-2 pure-u-md-1-6">
+							<!-- 연계한 전시를 역으로 조회시 -->
+							<!-- 서울사진축제 -->
+										<a href="/kr/whatson/series/detail?exNo=1521281" class="o_figure">
+									<div class="o_thumb">
+								<img onerror="this.src='/resources/images/common/noimg_none.jpg'"
+									src="/common/imgFileView?FILE_ID=1008686"  
+									alt="2026 서울사진축제 : 이동 서가 프로젝트 〈무빙 라이브러리〉" 
+									class="js-color-mask-el"
+								/>						
+							</div>
+							<div class="t-metadata o_figcaption">
+								<strong class="o_h1">2026 서울사진축제 : 이동 서가 프로젝트 〈무빙 라이브러리〉</strong> 
+								<span class="o_h2">
+		                        	<span class="ico-ex">전시<!-- 전시 --></span>
+		                            </span>
+								<span class="o_h2 epEcPlaceNm"> 
+		                            서울시립 사진미술관,</span>
+								<span class="o_h3">
+									2026/04/09~2026/06/14</span>
+								</div>
+							</a>
+						</div>
+					<div class="pure-u-1-2 pure-u-md-1-6">
+							<!-- 연계한 전시를 역으로 조회시 -->
+							<!-- 서울사진축제 -->
+										<a href="/kr/whatson/series/detail?exNo=1521250" class="o_figure">
+									<div class="o_thumb">
+								<img onerror="this.src='/resources/images/common/noimg_none.jpg'"
+									src="/common/imgFileView?FILE_ID=1008693"  
+									alt="2026 서울사진축제 : 아티스트 토크 〈작가의 방〉" 
+									class="js-color-mask-el"
+								/>						
+							</div>
+							<div class="t-metadata o_figcaption">
+								<strong class="o_h1">2026 서울사진축제 : 아티스트 토크 〈작가의 방〉</strong> 
+								<span class="o_h2">
+		                        	<span class="ico-ex">전시<!-- 전시 --></span>
+		                            </span>
+								<span class="o_h2 epEcPlaceNm"> 
+		                            서울시립 사진미술관,</span>
+								<span class="o_h3">
+									2026/04/16~2026/05/25</span>
+								</div>
+							</a>
+						</div>
+					<div class="pure-u-1-2 pure-u-md-1-6">
+							<!-- 연계한 전시를 역으로 조회시 -->
+							<!-- 서울사진축제 -->
+										<a href="/kr/whatson/series/detail?exNo=1521489" class="o_figure">
+									<div class="o_thumb">
+								<img onerror="this.src='/resources/images/common/noimg_none.jpg'"
+									src="/common/imgFileView?FILE_ID=1008672"  
+									alt="2026 서울사진축제 : 인터뷰 〈축제의 시간〉" 
+									class="js-color-mask-el"
+								/>						
+							</div>
+							<div class="t-metadata o_figcaption">
+								<strong class="o_h1">2026 서울사진축제 : 인터뷰 〈축제의 시간〉</strong> 
+								<span class="o_h2">
+		                        	<span class="ico-ex">전시<!-- 전시 --></span>
+		                            </span>
+								<span class="o_h2 epEcPlaceNm"> 
+		                            서울시립 사진미술관,</span>
+								<span class="o_h3">
+									2026/04/09~2026/06/14</span>
+								</div>
+							</a>
+						</div>
+					<div class="pure-u-1-2 pure-u-md-1-6">
+							<!-- 연계한 전시를 역으로 조회시 -->
+							<!-- 서울사진축제 -->
+										<a href="/kr/whatson/series/detail?exNo=1521582" class="o_figure">
+									<div class="o_thumb">
+								<img onerror="this.src='/resources/images/common/noimg_none.jpg'"
+									src="/common/imgFileView?FILE_ID=1008665"  
+									alt="2026 서울사진축제 : 작가 워크숍 〈모두의 사진술〉" 
+									class="js-color-mask-el"
+								/>						
+							</div>
+							<div class="t-metadata o_figcaption">
+								<strong class="o_h1">2026 서울사진축제 : 작가 워크숍 〈모두의 사진술〉</strong> 
+								<span class="o_h2">
+		                        	<span class="ico-ex">전시<!-- 전시 --></span>
+		                            </span>
+								<span class="o_h2 epEcPlaceNm"> 
+		                            서울시립 사진미술관,</span>
+								<span class="o_h3">
+									2026/05/02~2026/06/14</span>
+								</div>
+							</a>
+						</div>
+					<div class="pure-u-1-2 pure-u-md-1-6">
+							<!-- 연계한 전시를 역으로 조회시 -->
+							<!-- 서울사진축제 -->
+										<a href="/kr/whatson/series/detail?exNo=1521609" class="o_figure">
+									<div class="o_thumb">
+								<img onerror="this.src='/resources/images/common/noimg_none.jpg'"
+									src="/common/imgFileView?FILE_ID=1008651"  
+									alt="2026 서울사진축제 : 포토부스" 
+									class="js-color-mask-el"
+								/>						
+							</div>
+							<div class="t-metadata o_figcaption">
+								<strong class="o_h1">2026 서울사진축제 : 포토부스</strong> 
+								<span class="o_h2">
+		                        	<span class="ico-ex">전시<!-- 전시 --></span>
+		                            </span>
+								<span class="o_h2 epEcPlaceNm"> 
+		                            서울시립 사진미술관,</span>
+								<span class="o_h3">
+									2026/04/09~2026/06/14</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				<!-- 하단 버튼 -->
+				<div class="t-meta pure-g is-expandable-content o_btnwrap">
+					<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3  l-md-gutter-right">
+						<a class="i-button i-button-fill" href="/kr/whatson/landing">모든 전시와 프로그램<!--모든 전시와 프로그램--></a>
+					</div>
+				</div>
+			</div>
+		<!-- 관련 소장품 -->
+	<div class="c-section is-expandable is-expanded app-none" id="accordion_lnk_sojang">
+		<!-- 타이틀 -->
+		<div class="c-header t-header is-expandable-toggle">
+			<!-- 관련소장품  -->
+			<button class="is-expandable-caret o_h1">
+				관련 소장품<!--관련 소장품-->
+			</button>
+		</div>
+		
+		<!-- 리스트 -->
+		<div class="c-connected pure-g is-expandable-content">
+			<div class="pure-u-1-2 pure-u-md-1-6">
+					<a href="/kr/knowledge_research/collection/collection_detail?artSeq=WORK_0000004054" class="o_figure">
+						<div class="o_thumb">
+							<img onerror="this.src='/resources/images/common/noimg_none.jpg'" 
+							src="//collections.eseoul.go.kr/common/file/getImage.do?size=700&amp;fileSeq=FILE_0000052865-6345" alt="서브텍스트 (당신이 들어온 문)">
+				
+						</div>
+						<div class="t-metadata o_figcaption">
+							<strong class="o_h1">서브텍스트 (당신이 들어온 문)</strong> 
+							<span class="o_h2">뮌</span> 
+							<span class="o_h3">2014</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		
+		<!-- 하단 버튼 -->
+		<div class="t-meta pure-g is-expandable-content o_btnwrap">
+			<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3  l-md-gutter-right">
+				<a class="i-button i-button-fill" href="/kr/knowledge_research/collection/list">소장품 검색<!--소장품 검색--></a>
+			</div>
+		</div>
+	</div>
+<!-- 관련 소식 -->
+	<div class="c-section is-expandable is-expanded app-none"
+		id="accordion_lnk_notice">
+		<div class="c-header t-header is-expandable-toggle">
+			<button class="is-expandable-caret o_h1">
+				관련 소식<!--관련 소식-->
+			</button>
+		</div>
+		<div class="c-table t-body is-expandable-content o_table">
+			<div class="c-table-row is-expandable is-expanded">
+					<div class="is-expandable-toggle pure-g">
+							<div class="pure-u-1 pure-u-md-2-3 l-md-gutter-right en-u-2-3 en-u-md-2-3">
+								<a href="/kr/bbs/610221/getBbsDetail?bbsNo=1512690">서울시립 사진미술관 운영 안내 (3.18~4.8.)</a>
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-6 l-md-gutter-right">공지사항</div>
+						<div class="pure-u-1-2 pure-u-md-1-6 l-align-right en-u-1-3 en-u-md-1-3">
+									2026.03.18</div>
+					</div>
+				</div>
+			<div class="c-table-row is-expandable is-expanded">
+					<div class="is-expandable-toggle pure-g">
+							<div class="pure-u-1 pure-u-md-2-3 l-md-gutter-right en-u-2-3 en-u-md-2-3">
+								<a href="/kr/bbs/611389/getBbsDetail?bbsNo=1510837">2026년 서울형 매력일자리 &#039;시립미술관 전시큐레이터 운영사업&#039; 상반기 (학예, 사서) 참여자 2차 신규채용 모집공고</a>
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-6 l-md-gutter-right">채용시험</div>
+						<div class="pure-u-1-2 pure-u-md-1-6 l-align-right en-u-1-3 en-u-md-1-3">
+									2026.03.13</div>
+					</div>
+				</div>
+			<div class="c-table-row is-expandable is-expanded">
+					<div class="is-expandable-toggle pure-g">
+							<div class="pure-u-1 pure-u-md-2-3 l-md-gutter-right en-u-2-3 en-u-md-2-3">
+								<a href="/kr/bbs/611389/getBbsDetail?bbsNo=1486062">서울시립미술관 기간제노동자 채용시험 공고</a>
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-6 l-md-gutter-right">채용시험</div>
+						<div class="pure-u-1-2 pure-u-md-1-6 l-align-right en-u-1-3 en-u-md-1-3">
+									2026.01.07</div>
+					</div>
+				</div>
+			<div class="c-table-row is-expandable is-expanded">
+					<div class="is-expandable-toggle pure-g">
+							<div class="pure-u-1 pure-u-md-2-3 l-md-gutter-right en-u-2-3 en-u-md-2-3">
+								<a href="/kr/bbs/611389/getBbsDetail?bbsNo=1485116">2026년 서울형 매력일자리 ‘시립미술관 전시큐레이터 운영사업’ 상반기 (학예, 홍보) 참여자 신규채용 모집공고</a>
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-6 l-md-gutter-right">채용시험</div>
+						<div class="pure-u-1-2 pure-u-md-1-6 l-align-right en-u-1-3 en-u-md-1-3">
+									2026.01.02</div>
+					</div>
+				</div>
+			<div class="c-table-row is-expandable is-expanded">
+					<div class="is-expandable-toggle pure-g">
+							<div class="pure-u-1 pure-u-md-2-3 l-md-gutter-right en-u-2-3 en-u-md-2-3">
+								<a href="/kr/bbs/611389/getBbsDetail?bbsNo=1459928">서울시립미술관 기간제노동자[일반종사원] 채용 최종합격자 공고</a>
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-6 l-md-gutter-right">채용시험</div>
+						<div class="pure-u-1-2 pure-u-md-1-6 l-align-right en-u-1-3 en-u-md-1-3">
+									2025.10.24</div>
+					</div>
+				</div>
+			<div class="c-table-row is-expandable is-expanded">
+					<div class="is-expandable-toggle pure-g">
+							<div class="pure-u-1 pure-u-md-2-3 l-md-gutter-right en-u-2-3 en-u-md-2-3">
+								<a href="/kr/bbs/611389/getBbsDetail?bbsNo=1457143">서울시립미술관 기간제노동자  서류심사 합격자 발표 및 면접시험 계획 공고</a>
+							</div>
+						<div class="pure-u-1-2 pure-u-md-1-6 l-md-gutter-right">채용시험</div>
+						<div class="pure-u-1-2 pure-u-md-1-6 l-align-right en-u-1-3 en-u-md-1-3">
+									2025.10.15</div>
+					</div>
+				</div>
+			<div class="c-table-row t-meta pure-g is-expandable-content o_btnwrap">
+				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 l-md-gutter-right">
+					<a class="i-button i-button-fill" href="/kr/sema/news/landing">뉴스와 공지<!--뉴스와 공지--></a>
+					</div>
+			</div>
+		</div>
+
+	</div>
+<!-- 관련 출판물 -->
+	<div class="c-section is-expandable is-expanded app-none" id="accordion_lnk_publish">
+		<!-- 타이틀 -->
+		<div class="c-header t-header is-expandable-toggle">
+			<!-- 관련 출판물  -->
+			<button class="is-expandable-caret o_h1">
+				관련 출판물<!--관련 출판물-->
+			</button>
+		</div>
+		
+		<!-- 리스트 -->
+		<div class="c-connected pure-g is-expandable-content">
+			<div class="pure-u-1-2 pure-u-md-1-6">
+					<a href="/kr/knowledge_research/publish_detail?museumDataNo=1518215" class="o_figure">
+						<div class="o_thumb">
+							<img onerror="this.src='/resources/images/common/noimg_none.jpg'"
+								src="/common/imgFileView?FILE_ID=1004976"  
+								alt="2026 서울사진축제 《컴백홈》(국문)" 
+								class="js-color-mask-el"
+							/>						
+						</div>
+						<div class="t-metadata o_figcaption">
+							<strong class="o_h1">2026 서울사진축제 《컴백홈》(국문)</strong> 
+							<span class="o_h2">전시</span> 
+							<span class="o_h3">리플릿</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		
+		<!-- 하단 버튼 -->
+		<div class="t-meta pure-g is-expandable-content o_btnwrap">
+			<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3  l-md-gutter-right">
+			</div>
+		</div>
+	</div>
+</div>
+
+	<!-- 관심있어요 버튼 클릭시 팝업  by lyh -->
+	<!-- 관심있어요 버튼 클릭시 -> 관심 전시 팝업창 노출 -->
+<div class="o_popwrap">
+	<div class="c-modal is-hidden" id="modalNps">
+		<div class="c-header t-header pure-g">
+			<div class="pure-u-3-4">
+				<div class="o_h1">나의 관심 전시 및 프로그램에 저장되었습니다.<!--나의 관심 전시 및 프로그램에 저장되었습니다.--></div>
+			</div>
+		</div>
+		<div class="t-body">
+			<p>이 전시를 동료나 친구들에게 추천할 의향이 얼마나 있으십니까?<!--이 전시를 동료나 친구들에게 추천할 의향이 얼마나 되시나요?--></p>
+		</div>
+		<div class="t-meta pure-u-1">
+			<div>
+				<div class="i-nps">
+					<a href="javascript:;">안함<!--안함--></a>
+					<a class="likeBtn modal-close" data-score="1" href="javascript:;">1</a>
+					<a class="likeBtn modal-close" data-score="2" href="javascript:;">2</a>
+					<a class="likeBtn modal-close" data-score="3" href="javascript:;">3</a>
+					<a class="likeBtn modal-close" data-score="4" href="javascript:;">4</a>
+					<a class="likeBtn modal-close" data-score="5" href="javascript:;">5</a>
+					<a class="likeBtn modal-close" data-score="6" href="javascript:;">6</a>
+					<a class="likeBtn modal-close" data-score="7" href="javascript:;">7</a>
+					<a class="likeBtn modal-close" data-score="8" href="javascript:;">8</a>
+					<a class="likeBtn modal-close" data-score="9" href="javascript:;">9</a>
+					<a class="likeBtn modal-close" data-score="10" href="javascript:;">10</a>
+					<a href="javascript:;">추천함<!--추천함--></a>
+				</div>
+			</div>
+		</div>
+		<div class="c-header t-header pure-g o_pfooter">
+			<div class="pure-u-3-4">
+			</div>
+			<div class="pure-u-1-4 l-align-right">
+				<a class="i-button i-button-float t-meta i-button-no-border modal-close" href="javascript:;">닫기<!--닫기--></a>
+			</div>
+		</div>
+	</div>
+	<div class="c-modal-bg"></div>
+</div>
+
+<!-- 전시 사전예약 팝업  -->
+<script type="text/javascript">
+var stdDate = "";
+	// 전시 달력 예약 처리  *serviceStatus 는예약가능상태 로 변경될수 있어 일단 홀딩
+	function getRsvCalendarAjax(year, month, day, divFlag){
+		// 로그인 여부 체크
+		if(isBlank('')){
+			
+			$('#modalRsvp').hide();
+			$('.c-modal-bg').hide();
+			
+			if(confirm("로그인이 필요한 페이지 입니다.\n로그인 페이지로 이동하시겠습니까?")){ /*로그인이 필요한 페이지 입니다.\n로그인 페이지로 이동하시겠습니까?*/
+				
+			
+			var retUrl;
+			
+			// 전시와 방문하기에서 예약시 전시장소 코드 구분
+			if($('#exNo').val() == 0){//방문하기 예약
+				retUrl = $('#museumReturnUrl').val();
+			}else{// 전시예약
+				
+				if('EXM01' == 'EXM01' || 'EXM01' == 'EOM01'){//전시, 야외조각
+					retUrl = "/"+$('#relangStype').val()+"/whatson/exhibition/detail?exNo="+$('#schRsvFrm').find("#exNo").val()+"&glolangType="+$('#schRsvFrm').find("#glolangType").val();
+				}else { // 비엔날레, 미디어 시티
+					retUrl = "/"+$('#relangStype').val()+"/whatson/series/detail?exNo="+$('#schRsvFrm').find("#exNo").val()+"&glolangType="+$('#schRsvFrm').find("#glolangType").val();
+				}
+			}
+			
+			$('#schRsvFrm').attr('action','/'+$('#relangStype').val()+'/login/login?retUrl='+retUrl);
+			$('#schRsvFrm').attr('method','POST');
+			$('#schRsvFrm').submit();
+			return false;
+		}else{
+			return false;
+		}
+			
+		}
+		
+		// 전시와 방문하기에서 예약시 전시장소 코드 구분
+		if($('#exNo').val() === '0' || $('#exNo').val() === ""){//방문하기 예약
+			orgCd = 'ORG51';
+			$('#rsvDivType').val('VIST_RSV');
+		}else{// 전시예약
+			orgCd = $('.getCdId').text();
+			$('#rsvDivType').val('EX_RSV');
+		}
+		
+		// 분관코드 셋팅
+		$('#schRsvFrm').find('#rsvOrgCd').val(orgCd);
+		
+		// 달력 년월셋팅
+		$('.setRevYearClass').text(year);
+		$('.setRevMonthClass').text(isEmpty(month));
+		$('.setRevDayClass').text(isEmpty(day));
+		if(stdDate == "") stdDate = year + "" + month + "" + day;
+		
+		//방문날짜
+		var rsvUseDt = year.toString() + isEmpty(month).toString() + isEmpty(day).toString();
+		$('#schRsvFrm').find('#rsvUseDt').val(rsvUseDt);
+		
+			$.ajax({ 
+				method: 'POST',
+				url: '/whatson/exhibition/getRsvCalendarAjax', 
+				data : {setYear: year , setMonth: isEmpty(month).toString(), setDay:isEmpty(day).toString(), orgCd : orgCd},
+				success: function(json){
+
+				var innerHtml = '';
+				var unavailable = '';
+				var maxAppcatNumple = '';
+					
+				// 날짜 클릭시 시간만 셋팅
+				if(divFlag == 'calenderInfo'){
+						
+					$('#setCalendarInfo').empty();
+					
+					//달력
+					json.rsvCalendar.forEach(function(items,index){
+						
+						sun = isEmpty(items.sun); mon = isEmpty(items.mon); tue = isEmpty(items.tue); 
+						wed = isEmpty(items.wed); thu = isEmpty(items.thu); fri = isEmpty(items.fri); sat = isEmpty(items.sat);
+						
+						innerHtml = '<tr class="i-calendar-row">';
+							// 1일부터 달력나열 오늘 이전의 데이터는 unavailable 처리
+							if("20260601" <= (year + month + sun) || sun == ''){
+								// 예약여부 체크
+								var rsvChk = setRsvChk(sun);
+								
+								if(rsvChk !== '' || sun == ''){
+									unavailable = 'is-available';
+									rsvCalendarFunc = 'getRsvCalendarAjax('+year+','+month+','+sun+',\'noCalendar\');';
+								}else{
+									unavailable = 'is-unavailable';
+									rsvCalendarFunc = '';
+								}
+								
+								innerHtml += '<td class="i-calendar-cell '+unavailable+'"><a class="setRcvCalendarInfo" href="javascript:'+rsvCalendarFunc+'">'+sun;
+								if(sun !== '' && rsvChk !== ''){
+									innerHtml += setRsvTotal(sun);
+								}
+								innerHtml += '</a></td>';
+							}else{
+								
+								unavailable = 'is-unavailable';
+								rsvCalendarFunc = '';
+								innerHtml += '<td class="i-calendar-cell '+unavailable+'"><a href="javascript:;">'+sun;
+								innerHtml += '</a></td>';
+								
+							}
+							
+							if("20260601" <= year + month + mon || mon == ''){
+								
+								var rsvChk = setRsvChk(mon);
+								if(rsvChk !== '' || mon == ''){
+									unavailable = 'is-available';
+									rsvCalendarFunc = 'getRsvCalendarAjax('+year+','+month+','+mon+',\'noCalendar\');';
+								}else{
+									unavailable = 'is-unavailable';
+									rsvCalendarFunc = '';
+								}
+								
+								innerHtml += '<td class="i-calendar-cell '+unavailable+'"><a href="javascript:'+rsvCalendarFunc+'">'+mon;
+								if(mon !== '' && rsvChk !== '') {
+									innerHtml += setRsvTotal(mon);
+								}
+								innerHtml += '</a></td>';
+							}else{
+								
+								unavailable = 'is-unavailable';
+								rsvCalendarFunc = '';
+								innerHtml += '<td class="i-calendar-cell '+unavailable+'"><a href="javascript:;">'+mon;
+								innerHtml += '</a></td>';
+							}
+	
+							if("20260601" <= year + month + tue || tue == ''){
+								
+								var rsvChk = setRsvChk(tue);
+								if(rsvChk !== '' || tue == ''){
+									unavailable = 'is-available';
+									rsvCalendarFunc = 'getRsvCalendarAjax('+year+','+month+','+tue+',\'noCalendar\');';
+								}else{
+									unavailable = 'is-unavailable';
+									rsvCalendarFunc = '';
+								}
+								
+								innerHtml += '<td class="i-calendar-cell '+unavailable+'"><a href="javascript:'+rsvCalendarFunc+'">'+tue;
+								if(tue !== '' && rsvChk !== ''){
+									innerHtml += setRsvTotal(tue);
+								}
+								innerHtml += '</a></td>';
+								
+							}else{
+								
+								unavailable = 'is-unavailable';
+								rsvCalendarFunc = '';
+								innerHtml += '<td class="i-calendar-cell '+unavailable+'"><a href="javascript:;">'+tue;
+								innerHtml += '</a></td>';
+							}
+							
+							if("20260601" <= year + month + wed || wed == ''){
+								
+								var rsvChk = setRsvChk(wed);
+								if(rsvChk !== '' || wed == ''){
+									unavailable = 'is-available';
+									rsvCalendarFunc = 'getRsvCalendarAjax('+year+','+month+','+wed+',\'noCalendar\');';
+								}else{
+									unavailable = 'is-unavailable';
+									rsvCalendarFunc = '';
+								}
+								
+								innerHtml += '<td class="i-calendar-cell '+unavailable+'"><a href="javascript:'+rsvCalendarFunc+'">'+wed;
+								if(wed !== '' && rsvChk !== ''){
+									innerHtml += setRsvTotal(wed);
+								}
+								innerHtml += '</a></td>';
+								
+							}else{
+								
+								unavailable = 'is-unavailable';
+								rsvCalendarFunc = '';
+								innerHtml += '<td class="i-calendar-cell '+unavailable+'"><a href="javascript:;">'+wed;
+								innerHtml += '</a></td>';
+							}
+							
+							if("20260601" <= year + month + thu || thu == ''){
+								
+								var rsvChk = setRsvChk(thu);
+								if(rsvChk !== '' || thu == ''){
+									unavailable = 'is-available';
+									rsvCalendarFunc = 'getRsvCalendarAjax('+year+','+month+','+thu+',\'noCalendar\');';
+								}else{
+									unavailable = 'is-unavailable';
+									rsvCalendarFunc = '';
+								}
+								
+								innerHtml += '<td class="i-calendar-cell '+unavailable+'"><a href="javascript:'+rsvCalendarFunc+'">'+thu;
+								if(thu !== '' && rsvChk !== ''){
+									innerHtml += setRsvTotal(thu);
+								}
+								innerHtml += '</a></td>';
+								
+							}else{
+								
+								unavailable = 'is-unavailable';
+								rsvCalendarFunc = '';
+								innerHtml += '<td class="i-calendar-cell '+unavailable+'"><a href="javascript:;">'+thu;
+								innerHtml += '</a></td>';
+							}
+							
+							if("20260601" <= year + month + fri || fri == ''){
+								
+								var rsvChk = setRsvChk(fri);
+								if(rsvChk !== '' || fri == ''){
+									unavailable = 'is-available';
+									rsvCalendarFunc = 'getRsvCalendarAjax('+year+','+month+','+fri+',\'noCalendar\');';
+								}else{
+									unavailable = 'is-unavailable';
+									rsvCalendarFunc = '';
+								}
+								
+								innerHtml += '<td class="i-calendar-cell '+unavailable+'"><a href="javascript:'+rsvCalendarFunc+'">'+fri;
+								if(fri !== '' && rsvChk !== ''){
+									innerHtml += setRsvTotal(fri);
+								}
+								innerHtml += '</a></td>';
+								
+							}else{
+								
+								unavailable = 'is-unavailable';
+								rsvCalendarFunc = '';
+								innerHtml += '<td class="i-calendar-cell '+unavailable+'"><a href="javascript:;">'+fri;
+								innerHtml += '</a></td>';
+							}
+							
+							if("20260601" <= year + month + sat || sat == ''){
+								
+								var rsvChk = setRsvChk(sat);
+								if(rsvChk !== '' || sat == ''){
+									unavailable = 'is-available';
+									rsvCalendarFunc = 'getRsvCalendarAjax('+year+','+month+','+sat+',\'noCalendar\');';
+								}else{
+									unavailable = 'is-unavailable';
+									rsvCalendarFunc = '';
+								}
+								
+								innerHtml += '<td class="i-calendar-cell '+unavailable+'"><a href="javascript:'+rsvCalendarFunc+'">'+sat;
+								if(sat !== '' && rsvChk !== ''){
+									innerHtml += setRsvTotal(sat);
+								}
+								innerHtml += '</a></td>';
+							}else{
+								
+								unavailable = 'is-unavailable';
+								rsvCalendarFunc = '';
+								innerHtml += '<td class="i-calendar-cell '+unavailable+'"><a href="javascript:;">'+sat;
+								innerHtml += '</a></td>';
+							}
+							
+						innerHtml += '</tr>';
+						
+						$('#setCalendarInfo').append(innerHtml);
+					});
+				}
+
+				// 시간 셋팅
+				var innerOption = '';
+				var dayDiv = '';
+				$('#exRsvInfoList').empty();
+				json.rsvInfo.forEach(function(items,index){
+					//console.log(JSON.stringify(items));
+					// 달전체 조회 중에서 해당하는 날짜만 
+					if(items.rsvDt.substr(6,2) === $('.setRevDayClass').text() && Number(items.maxAppcatNumple) > 0){
+						dayDiv = '오전<!--오전-->';
+						if (items.stHour >= 12  &&  items.stHour  < 24) dayDiv = '오후<!--오후-->';
+						cmpRsvcount = items.maxAppcatNumple == null ? 0 : Number(items.maxAppcatNumple)-Number(items.rsvCount);
+						cmpMaxcount = items.maxAppcatNumple == null ? '0' : items.maxAppcatNumple;
+						strClose = "";
+						if(cmpRsvcount == 0) strClose = ' 마감';
+						innerOption += '<option value='+items.watchSeq+' data-st-hour='+items.stHour+' data-st-min='+items.stMin+' data-rsv-count='+Number(items.rsvCount)+' data-max-appcat-numple='+Number(items.maxAppcatNumple)+'>'+dayDiv+' '+items.stHour+':'+items.stMin+'('+((items.maxAppcatNumple == null ? 0 : Number(items.maxAppcatNumple))-Number(items.rsvCount))+'/'+(items.maxAppcatNumple == null ? '0' : items.maxAppcatNumple)+')' + strClose + '</option>';
+					}
+				});
+				innerOption =  '<option value="">시간 (예약가능인원/총인원)</option>' + innerOption;  <!--시간 (예약가능인원/총인원)-->
+
+				$('#exRsvInfoList').html(innerOption);
+				
+				// 예약인원 및 예약가능인원 합계
+				function setRsvTotal(day){
+					var appcatNumpleTotal = '';// 예약가능총합계
+					var rsvTotal = '';// 예약합계
+					var innerHtml = '';
+					json.rsvInfo.forEach(function(rsvItems,index){
+						
+						// 예약날짜와 넘어온 날짜가 같을때
+						if(rsvItems.rsvDt.substr(6,2) === day){
+							appcatNumpleTotal =  Number(appcatNumpleTotal) + Number(rsvItems.maxAppcatNumple);
+							rsvTotal =  Number(rsvTotal) + Number(rsvItems.rsvCount);
+							innerHtml = '<span><i>'+(appcatNumpleTotal - rsvTotal)+'</i>/<i>'+appcatNumpleTotal+'</i></span>';
+						}
+					});
+					
+					return innerHtml;
+				}
+				
+				// 예약여부 체크
+				function setRsvChk(day){
+					var total = '';
+					var innerHtml = '';
+					json.rsvInfo.forEach(function(rsvItems,index){
+						
+						if(rsvItems.rsvDt.substr(6,2) === day){
+							total =  Number(total) + Number(rsvItems.maxAppcatNumple);
+						}
+					});
+					if(total == 0) total = '';
+					
+					return total;
+				}
+
+				// 오늘을 기준으로 해당본관에 해당하는 전시 가져오기
+				var exRsvHtml = '';
+				if(json.exRsvList !== null){
+					json.exRsvList.forEach(function(exRsvList,index){
+						//console.log(exRsvList.exNm);
+						exRsvHtml += '<div class="o_h1">'+exRsvList.exNm+'</div>';
+						if(exRsvList.exAlwaysYn === 'Y'){
+							exRsvHtml += '<div class="o_h2">상시<!--상시--></div>';
+						}else{
+							var glolangType = $('#glolangType').val();
+							if($('#langStype').val() == 'en'){
+								exRsvHtml += '<div class="o_h2">thru '+exRsvList.exEnddt.substr(4,2)+'/'+exRsvList.exEnddt.substr(6,2)+'</div>';
+							}else{
+								exRsvHtml += '<div class="o_h2">'+exRsvList.exEnddt.substr(4,2)+'월'+exRsvList.exEnddt.substr(6,2)+'까지</div>';
+							}
+							/* if(glolangType == 'kor'){
+								exRsvHtml += '<div class="o_h2">'+exRsvList.exEnddt.substr(4,2)+'월'+exRsvList.exEnddt.substr(6,2)+'까지</div>';								
+							}else{
+								exRsvHtml += '<div class="o_h2">'+exRsvList.exEnddt.substr(4,2)+'/'+exRsvList.exEnddt.substr(6,2)+'To</div>';								
+
+							} */
+						}
+					});
+				}
+				
+				$('#exRsvListByPlace').html(exRsvHtml);
+				
+				
+				//console.log("json.exRsvDomain" + json.exRsvDomain);
+				
+				// 개인정보 및 관람정보 동의값 셋팅
+				if(json.exRsvDomain.notificationAgreeEng != null || json.exRsvDomain.notificationAgreeKor != null){
+					$("#ex_reserve_ch02").parents("li").show();
+					$('#notificationAgreeEng').html(json.exRsvDomain.notificationAgreeEng);	
+					$('#notificationAgreeKor').html(json.exRsvDomain.notificationAgreeKor);	
+				} else {
+					$("#ex_reserve_ch02").parents("li").hide();
+				}
+				if(json.exRsvDomain.privacyUseAgreeEng != null || json.exRsvDomain.privacyUseAgreeKor != null){
+					$("#ex_reserve_ch01").parents("li").show();
+					$('#privacyUseAgreeEng').html(json.exRsvDomain.privacyUseAgreeEng);	
+					$('#privacyUseAgreeKor').html(json.exRsvDomain.privacyUseAgreeKor);	
+				} else {
+					$("#ex_reserve_ch01").parents("li").hide();
+				}
+				
+				
+				$(".rsvInfoTit").html(json.exRsvDomain.rsvInfoKor);
+				
+				
+			}
+			,error:function(request,status,error){
+	             console.log("code:"+request.status+"\n"+"message:"+request.responseText+"\n"+"error:"+error);
+	        }
+		});
+	}
+	
+	
+	function isEmpty(value){
+		if(value === null || value === '' || value === 0) {
+			return "";
+		} else if(value.toString().length < 2){
+			return '0'+ value;
+		}else{
+            return value;
+		}
+	}
+	    
+	// 달력
+	function setCommCalendar(div) {
+		var nowDate = new Date($(".setRevYearClass").html()+"-"+$(".setRevMonthClass").html()+"-01");
+		// 이전달
+		if(div === 'pre'){
+			nowDate = new Date(nowDate.getFullYear(), nowDate.getMonth() - 1, 1);	//nowDate.getDate()
+		// 다음달	
+		}else if(div === 'next'){
+			nowDate = new Date(nowDate.getFullYear(), nowDate.getMonth() + 1, 1);	//nowDate.getDate()
+		// 현제달	
+		}else if(div === 'curr'){
+			nowDate=new Date(stdDate.substr(0,4), stdDate.substr(4, 2)-1, stdDate.substr(6,2));
+		}
+
+		var year = nowDate.getFullYear();
+		// 한자리 날짜에 0추가
+		var month = ('0' + (nowDate.getMonth() + 1)).slice(-2);
+		var day = ('0' + (nowDate.getDate())).slice(-2);
+		getRsvCalendarAjax(year,month,day,'calenderInfo');
+	}
+	
+	
+	// 예약등록
+	function saveRsvRqst(){
+
+		//이메일 체크 정규식
+		var regExpEmail = /^[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*\.[a-zA-Z]{2,3}$/i; 
+
+		//휴대폰번호 체크 정규식
+		var regExpCelPhone = /^01([0|1|6|7|8|9]?)-?([0-9]{3,4})-?([0-9]{4})$/;
+		
+		//생년월일 체크 정규식
+		var regExpDateOfBirth = /^(19[0-9][0-9]|20\d{2})-(0[0-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])$/;
+		
+		//예약 가능인원수 valid 체크
+		var rsvCountTotal = Number($("#exRsvInfoList option:selected").data("maxAppcatNumple")) - (Number($("#exRsvInfoList option:selected").data("rsvCount")) + Number($('#multi_staff').val()));;
+		
+		if(Number(rsvCountTotal) < 0){
+			alert("예약가능인원을 초과했습니다.");/* 예약가능인원을 초과했습니다. */
+			return false;
+		}
+		
+		if ($('#exRsvInfoList').val() === "" || $('#exRsvInfoList').val() === null){
+			alert("예약 시간을 선택하세요.");/* 예약 시간을 선택하세요. */
+			$('#exRsvInfoList').focus();
+			return false
+		}
+		
+		if ($('#multi_pop04').val() === ""){
+			alert("신청자 이름을 입력하세요.");/* 신청자 이름을 입력하세요. */
+			$('#multi_pop04').focus();
+			return false
+		}
+		
+		if($('#multi_pop05').val() == '') {
+			alert("생년월일 입력은 필수 항목입니다."); /*생년월일 입력은 필수 항목입니다.*/
+			$('#multi_pop05').focus();
+			return false;
+		}
+		
+		if(!regExpDateOfBirth.test($('#multi_pop05').val())){
+			alert("생년월일 유형이 틀립니다.(YYYY-MM-DD)"); /*생년월일 유형이 틀립니다.(YYYY-MM-DD)*/
+			$('#multi_pop05').focus();
+		 	return false
+		}
+		
+		if (!regExpCelPhone.test( $('#multi_pop06').val()) ){
+			alert("잘못된 휴대폰번호입니다. 정확히 입력하세요.");/* 잘못된 휴대폰번호입니다. 정확히 입력하세요. */
+			$('#multi_pop06').focus();
+			return false
+		}
+
+		if (!regExpEmail.test( $('#multi_pop07').val()) ){
+			$('#multi_pop07').focus();
+			alert("잘못된 이메일입니다. @를 포함해서 정확히 입력하세요.");/* 잘못된 이메일입니다. @를 포함해서 정확히 입력하세요. */
+			return false
+		}
+		
+		if($("#ex_reserve_ch01").parents("li").is(':visible') == true && $('#ex_reserve_ch01').is(':checked') == false){
+			$('#ex_reserve_ch01').focus();
+			alert("개인정보처리에 동의해주세요."); /*개인정보처리에 동의해주세요.*/
+			return false
+		}
+		
+		if($("#ex_reserve_ch02").parents("li").is(':visible') == true && $('#ex_reserve_ch02').is(':checked') == false){
+			$('#ex_reserve_ch02').focus();
+			alert("관람시 유의사항에 동의해주세요."); /*관람시 유의사항에 동의해주세요.*/
+			return false
+		}
+		
+		//방문 시간 설정
+		var stHour = $('#schRsvFrm').find("#exRsvInfoList option:selected").data('stHour');
+		var stMin = $('#schRsvFrm').find("#exRsvInfoList option:selected").data('stMin');
+		
+		if(stHour  === '' || stMin  === ''){
+			alert("방문 시간을 선택하세요"); /*방문 시간을 선택하세요*/
+			return false;
+		}
+		
+		// 마지막 회차 구하기
+		if($('#schRsvFrm').find('#exRsvInfoList > option').last().val() ===  $('#schRsvFrm').find('#exRsvInfoList').val() ){
+			$('#lastRsvSeqYN').val('Y');
+		}else{
+			$('#lastRsvSeqYN').val('N');
+		}
+		
+		$('#schRsvFrm').find("#exRsvStHour").val(stHour);
+		$('#schRsvFrm').find("#exRsvStMin").val(stMin);
+		
+		$('#multi_pop05').val($('#multi_pop05').val().replace(/\-/gi, ""));	
+		//alert($('#schRsvFrm').find('#getCdId').text());
+		//alert($('#schRsvFrm').find('#rsvOrgCd').val());
+		
+		$('#schRsvFrm').attr('action','/whatson/exhibition/reservation');
+		$('#schRsvFrm').attr('method','POST');
+		$('#schRsvFrm').submit();
+	}
+	
+</script>
+
+<input type="hidden" id="relangStype" value="kr" />
+
+<div class="o_popwrap">
+	<div class="c-modal is-hidden" id="modalRsvp">
+	<div class="c-header t-header pure-g">
+				<div class="pure-u-3-4">
+					<div class="o_h1">
+						<!-- 전시 사전예약 -->
+						서울시립 사진미술관<!-- 방문하기 분관명 -->
+						<!-- 전시명 -->
+						<span style="display:none" class="getCdId">ORG51</span>
+						전시 사전 예약<!--전시 사전 예약-->
+					</div>
+				</div>
+			</div>
+		<!-- 방문예약신청 -->
+		<form name="schRsvFrm" id="schRsvFrm" class="c-form t-meta pure-form pure-form-stacked">
+			<input type="hidden" name="ExRsvDomain.exNo" id="exNo" value="1515171"/>
+			<input type="hidden" name="ExRsvDomain.glolangType" id="glolangType" value="KOR"/>
+			<input type="hidden" name="ExRsvDomain.orgCd" id="rsvOrgCd" value=""/><!-- 관코드 -->
+			<input type="hidden" name="ExRsvDomain.privacyUseAgree" value="Y"> 
+			<input type="hidden" name="ExRsvDomain.notificationUseAgree" value="Y"> 
+			<input type="hidden" name="ExRsvDomain.stHour" id="exRsvStHour" value=""><!-- 전시예약 시간 -->
+			<input type="hidden" name="ExRsvDomain.stMin" id="exRsvStMin" value=""> <!-- 전시예약분 -->
+			<input type="hidden" name="ExRsvDomain.lastRsvSeqYN" id="lastRsvSeqYN" value=""> <!-- 회차가 마지막인지 셋팅 -->
+			<input type="hidden" name="ExRsvDomain.rsvDivType" id="rsvDivType" value=""> <!-- 전시, 방문하기 예약 구분 -->
+			<input type="hidden" id="museumReturnUrl" value="/kr/visit/photosema">
+			
+			<div class="c-section">
+				<fieldset>
+					<div class="pure-g">
+						<div class="c-form-row pure-u-1 pure-u-md-1-3 l-md-gutter-right">
+							<label>방문 날짜<!--방문 날짜-->*</label>
+							<input type="hidden" name="ExRsvDomain.useDt" id="rsvUseDt" value="" title='방문 날짜'>
+							<a class="i-button i-button-fill i-button-icon i-button-calendar pure-u-1" href="javascript:;" title='방문 날짜'><!--방문 날짜-->*<span class="setRevYearClass"></span>년 <span class="setRevMonthClass"></span>월<span class="setRevDayClass"></span>일</a>
+							</div>
+						<div class="pure-u-1 t-meta pure-g c-calendar-inset">
+							<div class="i-calendar pure-u-1 pure-u-md-1-2 o_disabled">
+								<div class="i-calendar-header pure-g">
+									<div class="i-calendar-header-title pure-u-2-3">
+										<div class="o_h1">
+										<a href="javascript:;"
+												onclick="javascript:setCommCalendar('pre');"> ←<span
+												class="blind">이전달</span>
+												</a> <span class="setRevYearClass"></span>년 <span
+												class="setRevMonthClass"></span>월 
+												<a href="javascript:;"
+												onclick="javascript:setCommCalendar('next');"> →<span
+												class="blind">다음달</span>
+												</a>
+											</div>
+									</div>
+									<div class="i-calendar-header-nav pure-u-1-3">
+										<div class="o_h1">
+											<a href="javascript:;"
+												onclick="javascript:setCommCalendar('curr');">오늘</a>
+											</div>
+									</div>
+								</div>
+								<table>
+									<caption>달력(일,월,화,수,목,금,토)</caption>
+									<thead>
+										<tr class="i-calendar-row">
+											<th scope="col" class="i-calendar-cell">일</th>
+											<th scope="col" class="i-calendar-cell">월</th>
+											<th scope="col" class="i-calendar-cell">화</th>
+											<th scope="col" class="i-calendar-cell">수</th>
+											<th scope="col" class="i-calendar-cell">목</th>
+											<th scope="col" class="i-calendar-cell">금</th>
+											<th scope="col" class="i-calendar-cell">토</th>
+
+										</tr>
+									</thead>
+									<tbody id=setCalendarInfo>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<div class="c-form-row pure-u-1 pure-u-md-1-3 l-md-gutter-right">
+							<label for="exRsvInfoList">시간<!--시간-->*</label>
+							<select class="pure-u-1" name="ExRsvDomain.watchSeq" id="exRsvInfoList" title='시간'>
+							</select>
+						</div>
+						<div class="c-form-row pure-u-1 pure-u-md-1-3 l-md-gutter-right">
+							<label for="multi_staff">인원<!--인원-->*</label>
+							<select class="pure-u-1" name="ExRsvDomain.appcatNumple" id="multi_staff" title='인원'>
+								<option value="1">1명</option>
+								<option value="2">2명</option>
+								<option value="3">3명</option>
+								<option value="4">4명</option>
+								<option value="5">5명</option>
+							</select>
+						</div>
+					</div>
+				</fieldset>
+				
+			</div>
+			<div class="c-section c-section-norule">
+				<div class="t-body is-expandable-content">
+					<p>	해당일  
+								<!-- 방문하기 분관명 -->
+								서울시립 사진미술관
+								에서는 다음의 전시를 관람할 수 있습니다.
+							</p>
+						</div>
+			</div>
+			<div class="c-section c-section-norule">
+				<div class="t-body pure-g is-expandable-content">
+					<div class="pure-u-1 pure-u-md-1-2 l-md-gutter-right l-gutter-bottom">
+						<div class="c-image-letterbox o_thumb o_img_reserve">
+							<div class="o_inner">
+								<!-- 전시 이미지 -->
+								<img alt="20260413121047_2825a502a338449d8b85e3f7c63c954a_93bb62b9c5024fefb5a4ee0c9ecbf733" onerror="this.src='/resources/content/2x3.jpg'" src="/common/imgFileView?FILE_ID=1006054"/>
+									<!-- 방문하기 이미지 -->
+							</div>
+						</div>
+					</div>
+					<div class="pure-u-1 pure-u-md-1-2" id="exRsvListByPlace"></div>
+				</div>
+			</div>
+			<div class="c-section c-section-norule">
+					<fieldset>
+						<div class="pure-g">
+							<div class="c-form-row pure-u-1 pure-u-md-1-3 l-md-gutter-right en-u-md-1-2">
+								<label for="multi_pop04">신청자 이름<!--신청자 이름--> *</label>
+								<input type="text" name="ExRsvDomain.appcatNm" id="multi_pop04" value="" title='신청자 이름' class="pure-u-1" readonly>
+							</div>
+							<div class="c-form-row pure-u-1 pure-u-md-1-3 l-md-gutter-right en-u-md-1-2 en-no-right">
+								<label for="multi_pop05">생년월일<!--생년월일--> *</label>
+								<input type="text" name="ExRsvDomain.birthDt" id="multi_pop05" pattern="\d*" class="pure-u-1 numChkYMD" title='생년월일' placeholder="YYYYMMDD" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="10">
+							</div>
+						</div>
+						<div class="pure-g">
+							<div class="c-form-row pure-u-1 pure-u-md-1-3 l-md-gutter-right en-u-md-1-2">
+								<label for="multi_pop06">휴대폰<!--휴대폰--> *</label>
+								<input type="text" name="ExRsvDomain.celPhone" id="multi_pop06" pattern="\d*" class="pure-u-1 numChkPhone" title='휴대폰' oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="11" placeholder='번호입력'>
+							</div>
+							<div class="c-form-row pure-u-1 pure-u-md-1-3 l-md-gutter-right en-u-md-1-2 en-no-right">
+								<label for="multi_pop07">이메일<!--이메일--> *</label>
+								<input type="text" name="ExRsvDomain.eMail" id="multi_pop07" class="pure-u-1" title='이메일' placeholder='이메일주소입력'>
+							</div>
+						</div>
+					</fieldset>
+				
+				<div class="t-body is-expandable-content">
+					<p class="rsvInfoTit"></p>
+				</div>
+			</div>
+		</form>
+		<div class="c-section pb0">
+			<form class="c-form t-meta pure-form pure-form-stacked">
+				<fieldset>
+					<div class="pure-g">
+						<div class="c-form-row pure-u-1 t-body">
+							<ul class="o_firdep">
+								<li>
+									<label class="o_inputwrap" for="ex_reserve_ch01"> <input type="checkbox" id="ex_reserve_ch01" title="개인정보처리 동의(필수)">
+										<span><a href="javascript:;" data-modal="#modalPrivacy" class="modal-open">개인정보처리 동의 (필수)<!--개인정보처리 동의 (필수)--></a></span>
+									</label>
+								</li>
+								<li>
+									<label class="o_inputwrap" for="ex_reserve_ch02"> <input type="checkbox" id="ex_reserve_ch02" title="관람시 유의사항에 동의(필수)"> 
+										<span><a href="javascript:;" data-modal="#modalNotice" class="modal-open">전시관람 유의사항 동의 (필수)<!--전시관람 유의사항 동의 (필수)--></a></span>
+									</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+		<div class="t-header c-section c-section-norule c-section-last">
+			<a href="#saveRsvRqst" onclick="javascript:saveRsvRqst();" class="i-button i-button-submit">신청하기<!--신청하기--></a> <!-- modal-close -->
+		</div>
+		<div class="c-header t-header pure-g o_pfooter">
+			<div class="pure-u-3-4"></div>
+			<div class="pure-u-1-4 l-align-right">
+				<a class="i-button i-button-float t-meta i-button-no-border modal-close" href="javascript:;">닫기<!--닫기--></a>
+			</div>
+		</div>
+	</div>
+	<div class="c-modal-bg"></div>
+</div>
+	
+<!-- 개인정보처리방침 -->
+<div class="o_popwrap">
+	<div class="c-modal o_doublepop is-hidden" id="modalPrivacy">
+		<div class="c-header t-header pure-g">
+			<div class="pure-u-3-4">
+				<div class="o_h1">개인정보처리방침<!--개인정보처리방침--></div>
+			</div>
+		</div>		
+		<div class="c-section c-section-norule">
+			<div class="t-body is-expandable-content">
+				<div >
+				<span id="privacyUseAgreeKor" style="white-space: pre-line"></span>
+					</div>
+			</div>
+		</div>
+		<div class="c-header t-header pure-g o_pfooter">
+			<div class="pure-u-3-4">
+			</div>
+			<div class="pure-u-1-4 l-align-right">
+				<a class="i-button i-button-float t-meta i-button-no-border modal-close" href="javascript:;">닫기<!--닫기--></a>
+			</div>
+		</div>
+	</div>
+	<div class="c-modal-bg"></div>
+</div>
+	
+<!-- 관람시 유의사항 -->
+<div class="o_popwrap">
+	<div class="c-modal o_doublepop is-hidden" id="modalNotice">
+		<div class="c-header t-header pure-g">
+			<div class="pure-u-3-4">
+				<div class="o_h1">전시관람 유의사항 동의 (필수)<!--전시관람 유의사항 동의 (필수)--></div>
+			</div>
+		</div>		
+		<div class="c-section c-section-norule">
+			<div class="t-body is-expandable-content">
+				<div>
+				<span id="notificationAgreeKor" style="white-space: pre-line"></span>
+					</div>
+			</div>
+		</div>
+		<div class="c-header t-header pure-g o_pfooter">
+			<div class="pure-u-3-4">
+			</div>
+			<div class="pure-u-1-4 l-align-right">
+				<a class="i-button i-button-float t-meta i-button-no-border modal-close" href="javascript:;">닫기<!--닫기--></a>
+			</div>
+		</div>
+	</div>
+	<div class="c-modal-bg"></div>
+</div>
+
+
+<script>
+var topTitle = $(document).attr('title');
+$(document).attr('title', topTitle + ' - 2026 서울사진축제 《컴백홈》');
+</script>
+<form id="searchFrm" method="post">
+	<input type="hidden" name="organCd" id="multi_search" value="">
+	<input type="hidden" name="KwdValue" id="multi_keywords" value="에드워드 호퍼">
+</form>
+		</div>
+
+		
+
+
+
+
+
+
+
+
+<script>
+$(document).ready(function(){
+	//푸터 FAQ 목록
+	/* console.log("getFooterFaqList(6)");
+	getFooterFaqList(6);  */
+});
+
+function getFooterFaqList(aCount) {
+	//푸터 FAQ 목록 aCount개
+	$.ajax({
+		method: 'get',
+		url: '/nj/faq/getListAjax',
+		data: {gGroup:'FAC01', organCd:'', qstion:'', TopSer:'', showArticleCount: aCount},
+		type : 'post'
+	}).done(function(d) {
+		$('#faqArea').empty();
+		var ytList = d.faqList;
+		var str = '';
+		if(ytList != null && ytList != ""){
+			str = '';
+			for(var i = 0; i<6; i++){
+				str += '<li>- ' + ytList[i].qstion + '</li>';
+			}
+			/* if(str != '') str = "<ul>" + str + "</ul>"; */
+			$('#faqArea').html(str);
+		}
+	}).fail(function(e){
+		alert('error');
+	}).always(function(){
+	});
+}
+</script>
+
+
+
+<input type="hidden" id="commFooterLangStype" value="kr" /><!-- 삭제 하지 마세요 -->
+
+
+
+
+
+
+
+
+<div class="footer l-block pure-g" id="footer">
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+		<div class="i-lockup i-lockup-black">
+			<a href="/kr/index"> 
+				<img class="i-lockup-type" src="/resources/assets/svg/o_typo_b.svg" alt="서울시립미술관 SEOUL MUSEUM OF ART">
+			</a>
+		</div>
+		<div class="i-lockup i-lockup-white">
+			<a href="/kr/index">
+				<img class="i-lockup-type" src="/resources/assets/svg/o_typo_w.svg" alt="서울시립미술관 SEOUL MUSEUM OF ART">
+			</a>
+		</div>
+	</div>
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav">
+		<ul class="primary">
+			<li><a href="/kr/sema/landing" title="비전과 전략, 연혁, MI, 조직구성, 신규 기관 소개, 미술관 관련 규정을 보실 수 있습니다.">미술관 소개</a></li>
+			
+			<li><a href="/kr/sema/news/landing" title="공지사항, 보도자료, 입찰공고, 채용시험 정보를 보실 수 있습니다.">뉴스와 공지</a></li>
+			
+			<li><a href="/kr/support/landing" title="신진미술인 지원, 난지미술창작스튜디오 입주지원, 시민큐레이터 양성, 도슨트 양성, 하나미술상에 대한 정보를 보실 수 있습니다.">지원과 양성</a></li>
+			
+			
+				<li><a href="/kr/sema/rental/info">시설대관</a></li>
+			
+			
+			
+				<li><a href="/kr/sema/sema_in">후원회 SeMA人[in]</a></li>
+			
+		</ul>
+	</div>
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav">
+		<ul class="primary">
+		
+			
+	
+			
+			
+				<li><a href="https://eungdapso.seoul.go.kr/" style="display: unset;font-weight: bold;" target="_blank" title="새창 열림">응답소</a></li>
+			
+			
+				<li><a href="/kr/sema/newsletters/list">SeMA 뉴스레터</a></li>
+			
+			<li><a href="/kr/sema/app_download">도슨팅앱 다운로드</a></li>
+		</ul>
+	</div>
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav">
+		<div class="o_h1"><a href="/kr/sema/faq/list">자주 묻는 질문</a></div>
+		<ul class="tertiary" id="faqArea">
+			
+				<li><a href="/kr/sema/faq/list?search=309862#0309862">시립미술관에서 발간한 전시 관련 도서 및 도록은 어디서 구매하나요?</a></li>
+			
+				<li><a href="/kr/sema/faq/list?search=173584#0173584">전시실에서 사진 촬영이 가능한가요?</a></li>
+			
+				<li><a href="/kr/sema/faq/list?search=173747#0173747">소장품의 수집은 어떻게 이루어지나요?</a></li>
+			
+				<li><a href="/kr/sema/faq/list?search=1161779#01161779">서울시립 미술아카이브는 어떤곳인가요?</a></li>
+			
+		</ul>
+	</div>
+	
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav"></div>
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav">
+		<div class="o_h1"><a href="/kr/whatson/landing">전시와 프로그램</a></div>
+		<ul class="secondary">
+			<li><a href="/kr/whatson/landing?whatsonMenuDivList=EX&whatChoice2=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY">전시</a></li>
+			<li><a href="/kr/whatson/landing?whatsonMenuDivList=EP&whatChoice1=N&whatChoice3=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY">교육프로그램</a></li>
+			<li><a href="/kr/whatson/landing?whatsonMenuDivList=CE&whatChoice1=N&whatChoice2=N&whatChoice4=N&whatChoice5=N&whenType=ALL_DAY">문화행사</a></li>
+			<li><a href="/kr/whatson/landing?whenType=FROM_TODAY">현재</a></li>
+			<li><a href="/kr/whatson/landing?whenType=PLAN_DAY">예정</a></li>
+			<li><a href="/kr/whatson/landing?whenType=PAST_DAY">과거</a></li>
+		</ul>
+	</div>
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav">
+		<div class="o_h1"><a href="/kr/knowledge_research/landing">소장품과 미술연구</a></div>
+		<ul class="secondary">
+			<li><a href="/kr/knowledge_research/collection/landing">SeMA 소장품<!--SeMA소장품--></a></li>
+			<li><a class="i-button-icon i-button-arrow-ne i-button-no-hover" href="https://sema.seoul.go.kr/semaaa" target="_blank" title="새창 열림">미술아카이브<!--미술아카이브--></a></li>
+			<li><a class="i-button-icon i-button-arrow-ne i-button-no-hover" href="http://semacoral.org/" target="_blank" title="새창 열림">모두의 연구실 '코랄'<!--모두의 연구실 '코랄'--></a></li>
+			<!-- <li><a class="i-button-icon i-button-arrow-ne i-button-no-hover" href="https://g-s-r.net/ " target="_blank" title="새창 열림">GSR (Game-Sandbox-Residency)</a></li> -->
+			<li><a href="/kr/knowledge_research/book/list">SeMA 도서와 자료</a></li><!--SeMA 도서와 자료-->
+			
+				<li><a href="/kr/knowledge_research/donorhall">기증자 전당</a></li><!--기증자 전당-->
+			
+			
+				
+			
+		</ul>
+	</div>
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav">
+		<div class="o_h1">방문하기</div>
+		<ul class="secondary">
+			<li><a href='/kr/visit/webaccess'>접근성 안내</a></li>
+<li><a href='/kr/visit/seosomun'>서울시립미술관 서소문본관</a></li>
+<li><a href='/kr/visit/bukseoul'>서울시립 북서울미술관</a></li>
+<li><a href='/kr/visit/seoseoul'>서울시립 서서울미술관</a></li>
+<li><a href='/kr/visit/art_archive'>서울시립 미술아카이브</a></li>
+<li><a href='/kr/visit/photosema'>서울시립 사진미술관</a></li>
+<li><a href='/kr/visit/namseoul'>서울시립 남서울미술관</a></li>
+<li><a href='/kr/visit/nanji_residency'>서울시립 난지미술창작스튜디오</a></li>
+<li><a href='/kr/visit/nam_june_paik_house'>서울시립 백남준을 기억하는 집</a></li>
+<li><a href='/kr/visit/excmmntry'>전시해설</a></li>
+				
+		</ul>
+	</div>
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav">
+		<a class="i-logo i-logo-facebook" href="https://www.facebook.com/SeoulMuseumofArt.kr" target="_blank" title="새창 열림"><span class="blind">서울시립미술관 공식 페이스북</span></a> 
+		<a class="i-logo i-logo-twitter" href="https://twitter.com/SeoulSema" target="_blank" title="새창 열림"><span class="blind">서울시립미술관 공식 트위터</span></a> 
+		<a class="i-logo i-logo-instagram" href="https://www.instagram.com/seoulmuseumofart/" target="_blank" title="새창 열림"><span class="blind">서울시립미술관 공식 인스타그램</span></a> 
+		<a class="i-logo i-logo-youtube" href="https://www.youtube.com/user/SeoulMuseumofArt" target="_blank" title="새창 열림"><span class="blind">서울시립미술관 공식 유튜브</span></a> 
+		<a class="i-logo i-logo-navertv" href="https://tv.naver.com/sema" target="_blank" title="새창 열림"><span class="blind">서울시립미술관 공식 네이버TV</span></a> 
+		<a class="i-logo i-logo-naverblog" href="https://blog.naver.com/semaofficial" target="_blank" title="새창 열림"><span class="blind">서울시립미술관 공식 네이버 블로그</span></a>
+	</div>
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav t-nav-micro">
+		<p>
+			서울 중구 덕수궁길 61<!-- 주소 --><br>
+			
+				 (대표자) 최은주, (사업자등록번호) 101-83-02866<br>
+				 (대표번호)<!-- 대표번호 -->
+						
+			02–2124–8800<!-- 전화번호 -->
+			
+				 , 02–120<br> <!-- 전화번호2 -->
+			
+			
+				(직원찾기)<!-- 직원찾기 --> <a href="https://sema.seoul.go.kr/kr/sema/landing#orgArea" style="display: unset;font-weight: bold;">직원 및 연락처</a><br>
+			
+		</p>
+	</div>
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav t-nav-micro">
+		<ul>
+			
+				<li><a href="/kr/sema/privacy"><b>개인정보처리방침</b></a></li>
+				<li><a href="/kr/sema/email_refuse">이메일무단수집거부</a></li>
+			
+			
+		</ul>
+	</div>
+	<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 t-nav t-etc">
+		<div>
+			
+				<a class="i-logo i-logo-01" href="http://webwatch.or.kr/Situation/WA_Situation.html?MenuCD=110&npp=9&skey=1&sval=%EC%84%9C%EC%9A%B8%EC%8B%9C%EB%A6%BD%EB%AF%B8%EC%88%A0%EA%B4%80" target="_blank" title="새창 열림 - 과학기술정보통신부 WA(WEB접근성) 품질인증 마크, 웹와치(WebWatch) 2024.2.22 ~ 2025.2.21">
+					<span class="blind">과학기술정보통신부 WA(WEB접근성) 품질인증 마크, 웹와치(WebWatch) 2024.2.22 ~ 2025.2.21</span>
+				</a>
+			 
+			
+			<a class="i-logo i-logo-02" href="https://store.seoul.go.kr/cp/index.html" target="_blank" title="새창 열림"><span class="blind">서울책방</span></a>
+		</div>
+	</div>
+	<div class="l-nav-top">
+		<a class="btn_top" href="#main"><span class="blind">Back to top</span></a>
+	</div>
+</div>
+
+
+<!-- weblog.eseoul.go.kr(S) -->
+
+<script src="//weblog.eseoul.go.kr/wlo/js/install.js" ></script>
+<!-- weblog.eseoul.go.kr(E) -->
+
+	</div>
+
+</body>
+</html>

@@ -8,22 +8,23 @@ import { ExhibitionCard } from "@/components/ExhibitionCard";
 import { FilterChips } from "@/components/FilterChips";
 import { PosterImage } from "@/components/PosterImage";
 import { SwipeDeck } from "@/components/SwipeDeck";
+import { useLang } from "@/components/LanguageProvider";
 import type { Exhibition } from "@/lib/catalog";
-
-const STATUS_OPTS = [
-  { value: "ongoing", label: "진행중" },
-  { value: "closing", label: "곧 종료" },
-  { value: "upcoming", label: "예정" },
-];
-const EXTRA_OPTS = [
-  { value: "free", label: "무료" },
-  { value: "photo", label: "사진" },
-  { value: "solo", label: "개인전" },
-];
 
 export default function Home() {
   const catalog = loadCatalogSync();
   const today = new Date();
+  const { t } = useLang();
+  const STATUS_OPTS = [
+    { value: "ongoing", label: t("filter.ongoing") },
+    { value: "closing", label: t("filter.closing") },
+    { value: "upcoming", label: t("filter.upcoming") },
+  ];
+  const EXTRA_OPTS = [
+    { value: "free", label: t("filter.free") },
+    { value: "photo", label: t("filter.photo") },
+    { value: "solo", label: t("filter.solo") },
+  ];
   const [mode, setMode] = useState<"time" | "swipe">("time");
   const [chips, setChips] = useState<string[]>([]);
   const toggle = (v: string) => setChips((c) => (c.includes(v) ? c.filter((x) => x !== v) : [...c, v]));
@@ -55,12 +56,12 @@ export default function Home() {
     <main className="mx-auto max-w-[1180px] px-7">
       <div className="py-10">
         <div className="text-xs font-semibold uppercase tracking-wide text-tx3">
-          {today.toISOString().slice(0, 10)} · 서울
+          {today.toISOString().slice(0, 10)} · {t("home.todayTag").split("·").pop()?.trim()}
         </div>
-        <h1 className="mt-2.5 text-[38px] font-extrabold leading-none tracking-tight">지금 볼 수 있는 전시</h1>
+        <h1 className="mt-2.5 text-[38px] font-extrabold leading-none tracking-tight">{t("home.heading")}</h1>
         <p className="mt-3 text-sm text-tx2">
-          진행 중 <b className="text-tx">{counts.ongoing}</b> · 이번 주 종료{" "}
-          <b className="text-tx">{counts.closing}</b> · 곧 개막 <b className="text-tx">{counts.upcoming}</b>
+          {t("home.ongoing")} <b className="text-tx">{counts.ongoing}</b> · {t("home.closing")}{" "}
+          <b className="text-tx">{counts.closing}</b> · {t("home.upcoming")} <b className="text-tx">{counts.upcoming}</b>
         </p>
         <div className="mt-4 flex gap-2">
           <button
@@ -72,7 +73,7 @@ export default function Home() {
                 : "border border-line text-tx2 hover:text-tx"
             }`}
           >
-            타임
+            {t("home.tabTime")}
           </button>
           <button
             type="button"
@@ -83,7 +84,7 @@ export default function Home() {
                 : "border border-line text-tx2 hover:text-tx"
             }`}
           >
-            스와이프
+            {t("home.tabSwipe")}
           </button>
         </div>
       </div>
@@ -101,11 +102,11 @@ export default function Home() {
           )}
 
           {closingSoon.length > 0 && (
-            <Section title="곧 종료" hint="놓치기 전에">
+            <Section title={t("home.sectionClosing")} hint={t("home.sectionClosingHint")}>
               {closingSoon.slice(0, 4).map((e) => <ExhibitionCard key={e.id} exhibition={e} today={today} />)}
             </Section>
           )}
-          <Section title="진행 중" hint="지금 열려 있는">
+          <Section title={t("home.sectionOngoing")} hint={t("home.sectionOngoingHint")}>
             {ongoing.map((e) => <ExhibitionCard key={e.id} exhibition={e} today={today} />)}
           </Section>
         </>
@@ -131,11 +132,12 @@ function Section({ title, hint, children }: { title: string; hint: string; child
 }
 
 function ExhibitionCardHero({ e }: { e: Exhibition }) {
+  const { t } = useLang();
   return (
     <Link href={`/exhibitions/${e.id}`} className="absolute inset-0">
       <PosterImage src={e.posterImageUrl} alt={e.title} />
       <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/90 to-transparent p-6">
-        <div className="text-[11px] font-semibold uppercase tracking-widest text-tx2">이달의 전시</div>
+        <div className="text-[11px] font-semibold uppercase tracking-widest text-tx2">{t("home.featured")}</div>
         <h2 className="mt-2 text-2xl font-extrabold tracking-tight">{e.title}</h2>
         <div className="mt-2 text-sm text-tx2">
           {e.venue?.name} · {e.startDate}–{e.endDate}

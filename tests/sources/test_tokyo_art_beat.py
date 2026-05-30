@@ -69,6 +69,9 @@ def test_events_to_rows_handles_missing_optional_fields():
     rows = _events_to_rows(events)
     assert len(rows) == 1
     r = rows[0]
+    # The slug is a path fragment; TAB's real event route needs the "-" segment
+    # (/events/-/<slug>), otherwise the catch-all renders the generic listing.
+    assert r["source_url"] == "https://www.tokyoartbeat.com/events/-/minimal"
     assert r["venue_name"] == "X Gallery"
     assert r["venue_region"] is None
     assert r["poster_image_url"] is None

@@ -1,5 +1,6 @@
-import { render, screen } from "@testing-library/react";
+import { screen } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
+import { renderWithLang } from "@/test/lang";
 
 vi.mock("@/components/AuthProvider", () => ({
   useBookmarks: () => ({ ids: new Set<string>(), isScrapped: () => false, toggle: vi.fn() }),
@@ -19,7 +20,7 @@ const E: Exhibition = {
 
 describe("ExhibitionCard", () => {
   it("renders title, venue and D-day", () => {
-    render(<ExhibitionCard exhibition={E} today={new Date("2026-05-30T00:00:00+09:00")} />);
+    renderWithLang(<ExhibitionCard exhibition={E} today={new Date("2026-05-30T00:00:00+09:00")} />);
     expect(screen.getByText("을지로의 밤")).toBeInTheDocument();
     expect(screen.getByText(/갤러리 룩스/)).toBeInTheDocument();
     expect(screen.getByText("D-3")).toBeInTheDocument();

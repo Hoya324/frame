@@ -5,7 +5,7 @@ import httpx
 import respx
 
 from crawler.models import SourceName
-from crawler.sources.ilwoo_space import _LIST_URL, IlwooSpaceExtractor
+from crawler.sources.ilwoo_space import _LIST_URL, IlwooSpaceExtractor, _parse_detail
 
 FIXTURE_DIR = Path(__file__).parent.parent / "fixtures" / "ilwoo_space"
 
@@ -34,7 +34,7 @@ def test_ilwoo_space_extractor_parses_cards():
         return_value=httpx.Response(200, text=_EMPTY_HTML)
     )
 
-    raws = list(IlwooSpaceExtractor(delay_s=0.0).crawl())
+    raws = list(IlwooSpaceExtractor(delay_s=0.0, with_details=False).crawl())
     assert len(raws) >= 1, f"expected at least 1 exhibition, got {len(raws)}"
     assert all(r.source is SourceName.ILWOO_SPACE for r in raws)
 
@@ -77,7 +77,7 @@ def test_ilwoo_space_decodes_euckr_despite_wrong_header():
         return_value=httpx.Response(200, text=_EMPTY_HTML)
     )
 
-    raws = list(IlwooSpaceExtractor(delay_s=0.0).crawl())
+    raws = list(IlwooSpaceExtractor(delay_s=0.0, with_details=False).crawl())
     assert len(raws) == 1
     assert raws[0].raw["title"] == title
     assert "�" not in raws[0].raw["title"]
@@ -88,5 +88,14 @@ def test_ilwoo_space_extractor_empty_page_yields_nothing():
     respx.get(_LIST_URL).mock(
         return_value=httpx.Response(200, text="<html><body></body></html>")
     )
-    raws = list(IlwooSpaceExtractor(delay_s=0.0).crawl())
+    raws = list(IlwooSpaceExtractor(delay_s=0.0, with_details=False).crawl())
     assert raws == []
+
+
+def test_ilwoo_space_parse_detail_extracts_description_and_poster():
+    html = _load_fixture("detail_93.html")
+    info = _parse_detail(html)
+    assert "일우재단" in info.get("description", "")
+    assert len(info["description"]) > 200
+    assert "/u_image/" in info.get("poster_image_url", "")
+    assert info["poster_image_url"].startswith("https://www.ilwoo.org/")

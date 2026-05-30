@@ -9,6 +9,7 @@ from crawler.models import SourceName
 from crawler.sources.tokyo_photographic_art_museum import (
     TokyoPhotographicArtMuseumExtractor,
     _extract_exhibitions,
+    _parse_detail,
 )
 
 _FIXTURE_DIR = Path(__file__).parent.parent / "fixtures" / "tokyo_photographic_art_museum"
@@ -69,3 +70,10 @@ def test_extractor_skips_movie_screening_urls():
         )
         # Every surviving row must be a real exhibition link
         assert "/exhibition/" in r["source_url"]
+
+
+def test_parse_detail_extracts_description():
+    html = (_FIXTURE_DIR / "detail_5095.html").read_text(encoding="utf-8")
+    desc = _parse_detail(html).get("description", "")
+    assert "W. ユージン・スミス" in desc
+    assert len(desc) > 300

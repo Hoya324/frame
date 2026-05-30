@@ -14,6 +14,10 @@ describe("status helpers", () => {
     expect(ddayLabel("2026-05-30", TODAY)).toBe("D-day");
     expect(ddayLabel(null, TODAY)).toBeNull();
   });
+  it("ddayLabel returns null for already-ended shows", () => {
+    expect(ddayLabel("2026-05-29", TODAY)).toBeNull();
+    expect(ddayLabel("2021-02-28", TODAY)).toBeNull();
+  });
   it("isClosingSoon within 7 days inclusive", () => {
     expect(isClosingSoon("2026-06-06", TODAY)).toBe(true);
     expect(isClosingSoon("2026-06-30", TODAY)).toBe(false);

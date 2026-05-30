@@ -6,11 +6,13 @@ import { applyFilters, searchExhibitions, type FilterState } from "@/lib/filters
 import { CITY_ORDER, regionBucket, type Country } from "@/lib/regions";
 import { ExhibitionCard } from "@/components/ExhibitionCard";
 import { FilterChips } from "@/components/FilterChips";
+import { useLang } from "@/components/LanguageProvider";
 
 const COUNTRY_ORDER: Country[] = ["한국", "일본"];
 
 export default function SearchPage() {
   const catalog = loadCatalogSync();
+  const { t } = useLang();
   const [q, setQ] = useState("");
   const [chips, setChips] = useState<string[]>([]);
   const toggle = (v: string) => setChips((c) => (c.includes(v) ? c.filter((x) => x !== v) : [...c, v]));
@@ -50,13 +52,13 @@ export default function SearchPage() {
     <main className="mx-auto max-w-[1180px] px-7 py-8">
       <div className="mb-5 flex items-center gap-2 rounded-lg border border-line px-3 py-2.5">
         <Search size={16} className="text-tx3" />
-        <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="전시 · 작가 · 장소"
+        <input value={q} onChange={(e) => setQ(e.target.value)} placeholder={t("search.placeholder")}
           className="w-full bg-transparent text-sm outline-none placeholder:text-tx3" />
       </div>
       <div className="mb-3"><FilterChips active={chips} onToggle={toggle} options={[
-        { value: "ongoing", label: "진행중" }, { value: "upcoming", label: "예정" }, { value: "past", label: "종료" },
-        { value: "photo", label: "사진" }, { value: "video", label: "영상" }, { value: "gear", label: "장비" },
-        { value: "solo", label: "개인전" }, { value: "group", label: "단체전" }, { value: "free", label: "무료" },
+        { value: "ongoing", label: t("filter.ongoing") }, { value: "upcoming", label: t("filter.upcoming") }, { value: "past", label: t("filter.past") },
+        { value: "photo", label: t("filter.photo") }, { value: "video", label: t("filter.video") }, { value: "gear", label: t("filter.gear") },
+        { value: "solo", label: t("filter.solo") }, { value: "group", label: t("filter.group") }, { value: "free", label: t("filter.free") },
       ]} /></div>
       {cityGroups.map((g) => (
         <div key={g.country} className="mb-3 flex items-center gap-2">
@@ -65,9 +67,9 @@ export default function SearchPage() {
             options={g.cities.map((c) => ({ value: c, label: c }))} />
         </div>
       ))}
-      <div className="mb-4 text-sm text-tx3">{results.length}건</div>
+      <div className="mb-4 text-sm text-tx3">{t("search.results").replace("{n}", String(results.length))}</div>
       {results.length === 0 ? (
-        <div className="py-20 text-center text-tx3">조건에 맞는 전시가 없어요</div>
+        <div className="py-20 text-center text-tx3">{t("search.empty")}</div>
       ) : (
         <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
           {results.map((e) => <ExhibitionCard key={e.id} exhibition={e} />)}

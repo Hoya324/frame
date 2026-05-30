@@ -12,8 +12,10 @@ export function daysUntil(endDate: string | null, today: Date = new Date()): num
 
 export function ddayLabel(endDate: string | null, today: Date = new Date()): string | null {
   const d = daysUntil(endDate, today);
-  if (d === null) return null;
-  return d <= 0 ? "D-day" : `D-${d}`;
+  // d < 0 means the show already ended — no countdown applies. "D-day" is
+  // reserved for the final day only (d === 0), not for any past date.
+  if (d === null || d < 0) return null;
+  return d === 0 ? "D-day" : `D-${d}`;
 }
 
 export function isClosingSoon(endDate: string | null, today: Date = new Date()): boolean {

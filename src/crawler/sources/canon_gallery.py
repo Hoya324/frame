@@ -45,6 +45,7 @@ from selectolax.parser import HTMLParser
 from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
 
 from crawler.models import RawExhibition, SourceName
+from crawler.sources._detail import MIN_DESCRIPTION_LEN, meta_description, paragraphs_text
 from crawler.sources.base import register_source
 
 _BASE_URL = "https://kr.canon"
@@ -67,9 +68,11 @@ class CanonGalleryExtractor:
         max_pages: int = 20,
         delay_s: float = 1.0,
         timeout_s: float = 20.0,
+        with_details: bool = True,
     ) -> None:
         self.max_pages = max_pages
         self.delay_s = delay_s
+        self.with_details = with_details
         self._client = httpx.Client(
             timeout=timeout_s,
             headers={
@@ -91,6 +94,17 @@ class CanonGalleryExtractor:
             _LIST_URL,
             data={"pageUnit": str(_PAGE_UNIT), "pageIndex": str(page)},
         )
+        r.raise_for_status()
+        return r.text
+
+    @retry(
+        retry=retry_if_exception_type(httpx.TransportError),
+        wait=wait_exponential(multiplier=1, min=1, max=16),
+        stop=stop_after_attempt(3),
+        reraise=True,
+    )
+    def _get_url(self, url: str) -> str:
+        r = self._client.get(url)
         r.raise_for_status()
         return r.text
 
@@ -116,10 +130,18 @@ class CanonGalleryExtractor:
                 if card_url in seen:
                     continue
                 seen.add(card_url)
+                payload = {k: v for k, v in c.items() if k != "source_url"}
+                if self.with_details:
+                    try:
+                        payload.update(_parse_detail(self._get_url(card_url)))
+                    except Exception:  # noqa: BLE001
+                        pass
+                    if self.delay_s > 0:
+                        time.sleep(self.delay_s)
                 yield RawExhibition(
                     source=SourceName.CANON_GALLERY,
                     source_url=card_url,
-                    raw={k: v for k, v in c.items() if k != "source_url"},
+                    raw=payload,
                 )
 
             if total_pages is not None and page_num >= total_pages:
@@ -178,6 +200,20 @@ def _extract_cards(fragment: str) -> list[dict]:
         })
 
     return cards
+
+
+def _parse_detail(html_text: str) -> dict:
+    """Pull the exhibition blurb from a 캐논 갤러리 detail page.
+
+    The intro prose sits in `div.mid-cont`. Falls back to the meta
+    description if that container moves.
+    """
+    doc = HTMLParser(html_text)
+    node = doc.css_first("div.mid-cont")
+    text = paragraphs_text(node) if node is not None else ""
+    if len(text) < MIN_DESCRIPTION_LEN:
+        text = meta_description(doc) or text
+    return {"description": text} if len(text) >= MIN_DESCRIPTION_LEN else {}
 
 
 register_source(SourceName.CANON_GALLERY, CanonGalleryExtractor)

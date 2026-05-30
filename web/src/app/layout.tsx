@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Nav } from "@/components/Nav";
 import { AuthProvider } from "@/components/AuthProvider";
+import { LanguageProvider } from "@/components/LanguageProvider";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
 import "./globals.css";
 
@@ -38,11 +39,13 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <AuthProvider>
-          <Nav />
-          <ServiceWorkerRegister />
-          <div className="pb-24 md:pb-0">{children}</div>
-        </AuthProvider>
+        <LanguageProvider>
+          <AuthProvider>
+            <Nav />
+            <ServiceWorkerRegister />
+            <div className="pb-24 md:pb-0">{children}</div>
+          </AuthProvider>
+        </LanguageProvider>
       </body>
     </html>
   );

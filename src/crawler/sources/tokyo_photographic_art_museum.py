@@ -43,6 +43,7 @@ from selectolax.parser import HTMLParser
 from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
 
 from crawler.models import RawExhibition, SourceName
+from crawler.sources._detail import MIN_DESCRIPTION_LEN, meta_description, paragraphs_text
 from crawler.sources.base import register_source
 
 _BASE_URL = "https://topmuseum.jp"
@@ -59,8 +60,14 @@ class TokyoPhotographicArtMuseumExtractor:
     name = SourceName.TOKYO_PHOTOGRAPHIC_ART_MUSEUM
     country = "JP"
 
-    def __init__(self, delay_s: float = 1.0, timeout_s: float = 20.0) -> None:
+    def __init__(
+        self,
+        delay_s: float = 1.0,
+        timeout_s: float = 20.0,
+        with_details: bool = True,
+    ) -> None:
         self.delay_s = delay_s
+        self.with_details = with_details
         self._client = httpx.Client(
             timeout=timeout_s,
             headers={"User-Agent": _USER_AGENT},
@@ -81,10 +88,17 @@ class TokyoPhotographicArtMuseumExtractor:
     def crawl(self) -> Iterable[RawExhibition]:
         html = self._get(_LIST_URL)
         for row in _extract_exhibitions(html):
+            url = row["source_url"]
+            payload = {k: v for k, v in row.items() if k != "source_url"}
+            if self.with_details:
+                try:
+                    payload.update(_parse_detail(self._get(url)))
+                except Exception:  # noqa: BLE001
+                    pass
             yield RawExhibition(
                 source=SourceName.TOKYO_PHOTOGRAPHIC_ART_MUSEUM,
-                source_url=row["source_url"],
-                raw={k: v for k, v in row.items() if k != "source_url"},
+                source_url=url,
+                raw=payload,
             )
             if self.delay_s > 0:
                 time.sleep(self.delay_s)
@@ -172,6 +186,21 @@ def _extract_exhibitions(html: str) -> list[dict]:
         })
 
     return out
+
+
+def _parse_detail(html: str) -> dict:
+    """Pull the exhibition blurb from a 東京都写真美術館 detail page.
+
+    The intro prose lives in `div.exhibition_box5` (the description block in
+    the museum's WordPress template, after the schedule/fee box). Falls back
+    to the meta description if that container moves.
+    """
+    doc = HTMLParser(html)
+    body = doc.css_first("div.exhibition_box5")
+    text = paragraphs_text(body) if body is not None else ""
+    if len(text) < MIN_DESCRIPTION_LEN:
+        text = meta_description(doc) or text
+    return {"description": text} if len(text) >= MIN_DESCRIPTION_LEN else {}
 
 
 register_source(SourceName.TOKYO_PHOTOGRAPHIC_ART_MUSEUM, TokyoPhotographicArtMuseumExtractor)

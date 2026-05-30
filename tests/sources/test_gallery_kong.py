@@ -5,7 +5,12 @@ import httpx
 import respx
 
 from crawler.models import SourceName
-from crawler.sources.gallery_kong import _BASE_URL, _LIST_URL, GalleryKongExtractor
+from crawler.sources.gallery_kong import (
+    _BASE_URL,
+    _LIST_URL,
+    GalleryKongExtractor,
+    _extract_list_cards,
+)
 
 FIXTURE_DIR = Path(__file__).parent.parent / "fixtures" / "gallery_kong"
 
@@ -53,6 +58,30 @@ def test_gallery_kong_extractor_parses_cards():
                 f"mismatch on {exp['source_url']} field {k!r}: "
                 f"got {actual.raw.get(k)!r}, expected {v!r}"
             )
+
+
+def test_gallery_kong_absolutizes_relative_poster():
+    html = """
+    <div class="section_wrap"><div class="_item item_gallary">
+      <a class="item_container _item_container _fade_link" href="/show_x">
+        <div class="img_wrap _img_wrap" data-src="/thumbnail/rel.jpg"></div>
+      </a>
+    </div></div>
+    """
+    cards = _extract_list_cards(html)
+    assert cards[0]["poster_image_url"] == f"{_BASE_URL}/thumbnail/rel.jpg"
+
+
+def test_gallery_kong_keeps_absolute_poster():
+    html = """
+    <div class="section_wrap"><div class="_item item_gallary">
+      <a class="item_container _item_container _fade_link" href="/show_y">
+        <div class="img_wrap _img_wrap" data-src="https://cdn.imweb.me/t/abs.jpg"></div>
+      </a>
+    </div></div>
+    """
+    cards = _extract_list_cards(html)
+    assert cards[0]["poster_image_url"] == "https://cdn.imweb.me/t/abs.jpg"
 
 
 @respx.mock

@@ -69,6 +69,7 @@ from selectolax.parser import HTMLParser
 from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
 
 from crawler.models import RawExhibition, SourceName
+from crawler.sources._detail import MIN_DESCRIPTION_LEN, meta_description, paragraphs_text
 from crawler.sources.base import register_source
 
 _BASE = "https://sema.seoul.go.kr"
@@ -94,9 +95,11 @@ class PhotoSemaExtractor:
         max_pages: int = 10,
         delay_s: float = 1.0,
         timeout_s: float = 20.0,
+        with_details: bool = True,
     ) -> None:
         self.max_pages = max_pages
         self.delay_s = delay_s
+        self.with_details = with_details
         self._client = httpx.Client(
             timeout=timeout_s,
             headers={"User-Agent": _USER_AGENT},
@@ -117,6 +120,17 @@ class PhotoSemaExtractor:
         r.raise_for_status()
         return r.text
 
+    @retry(
+        retry=retry_if_exception_type(httpx.TransportError),
+        wait=wait_exponential(multiplier=1, min=1, max=16),
+        stop=stop_after_attempt(3),
+        reraise=True,
+    )
+    def _get_url(self, url: str) -> str:
+        r = self._client.get(url)
+        r.raise_for_status()
+        return r.text
+
     def crawl(self) -> Iterable[RawExhibition]:
         seen: set[str] = set()
         for page_num in range(1, self.max_pages + 1):
@@ -130,10 +144,18 @@ class PhotoSemaExtractor:
                 if url in seen:
                     continue
                 seen.add(url)
+                payload = {k: v for k, v in c.items() if k != "source_url"}
+                if self.with_details:
+                    try:
+                        payload.update(_parse_detail(self._get_url(url)))
+                    except Exception:  # noqa: BLE001
+                        pass
+                    if self.delay_s > 0:
+                        time.sleep(self.delay_s)
                 yield RawExhibition(
                     source=SourceName.PHOTO_SEMA,
                     source_url=url,
-                    raw={k: v for k, v in c.items() if k != "source_url"},
+                    raw=payload,
                 )
 
             if self.delay_s > 0:
@@ -208,6 +230,20 @@ def _extract_cards(html: str) -> list[dict]:
         })
 
     return cards
+
+
+def _parse_detail(html: str) -> dict:
+    """Pull the exhibition blurb from a 서울시립 사진미술관 detail page.
+
+    The intro prose lives in `div.o_body` (the expandable 전시 안내 section).
+    Falls back to the meta description if that container moves.
+    """
+    doc = HTMLParser(html)
+    body = doc.css_first("div.o_body")
+    text = paragraphs_text(body) if body is not None else ""
+    if len(text) < MIN_DESCRIPTION_LEN:
+        text = meta_description(doc) or text
+    return {"description": text} if len(text) >= MIN_DESCRIPTION_LEN else {}
 
 
 # Register on import

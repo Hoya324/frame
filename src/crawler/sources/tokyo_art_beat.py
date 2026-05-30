@@ -16,11 +16,21 @@ Pipeline:
    sangsangmadang for Korean expansion)
 4. Map each event to the RawExhibition raw shape
 
-Detail-page enrichment is intentionally out of scope for the first
-iteration. Artists come back as []; venue_address as None (the pipeline
-will geocode using venue.name via GeocoderResolver → GoogleMapsGeocoder).
-A future enhancement can populate latitude/longitude from
-venue.fields.geoInfo to skip geocoding for TAB venues entirely.
+Detail-page enrichment is intentionally out of scope. Artists come back as [];
+venue_address as None (the pipeline will geocode using venue.name via
+GeocoderResolver → GoogleMapsGeocoder). Latitude/longitude are populated from
+venue.fields.geoInfo so TAB venues skip name-only geocoding.
+
+Description enrichment: intentionally NOT implemented. The EventSearch event
+objects expose no description/body field (keys are eventName, venue,
+categories, schedule, imageposter, counts — nothing prose-bearing), and the
+`/events/<slug>` URL is a Next.js catch-all (`/events/[[...q]]`) that just
+re-renders the list page, so the per-event statement is never SSR'd — it is
+fetched client-side from an event API whose base is not exposed in
+__NEXT_DATA__. The only meta description is generic listing boilerplate.
+Surfacing a real description here would require reverse-engineering that
+client API, so this JP source stays list-only by design, consistent with
+[[gallery_lux]], [[gallery_kong]] and [[sangsangmadang]].
 """
 
 from __future__ import annotations
@@ -168,7 +178,10 @@ def _events_to_rows(events: list[dict]) -> list[dict]:
             )
 
         out.append({
-            "source_url": f"{_BASE_URL}/events/{slug}",
+            # The slug is a path fragment (name/id/date); TAB's real event
+            # route is /events/-/<slug> — without the "-" segment the catch-all
+            # falls back to the generic listing page instead of the event.
+            "source_url": f"{_BASE_URL}/events/-/{slug}",
             "title": title,
             "venue_name": venue_name,
             "venue_region": venue_region,

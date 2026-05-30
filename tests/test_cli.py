@@ -58,6 +58,29 @@ def test_cli_backfill_help():
     assert "backfill" in result.stdout.lower()
 
 
+def test_hard_failures_excludes_soft_fail_sources():
+    """gallery_lux fails every CI crawl (origin geo-blocks foreign datacenter
+    IPs). Its failure is tolerated and must not be counted as a run failure,
+    while any other source's failure still is."""
+    from crawler.cli import _hard_failures
+    from crawler.reporter import SourceReport
+
+    def _rep(name, failure):
+        return SourceReport(
+            name=name, extracted=0, new=0, updated=0, unchanged=0,
+            errors=1 if failure else 0, duration_s=0.0, failure=failure,
+        )
+
+    # Only gallery_lux failed → no hard failures.
+    reports = [_rep("artmap", None), _rep("gallery_lux", "blocked: 770 bytes")]
+    assert _hard_failures(reports) == []
+
+    # A non-soft source failing → counted.
+    reports = [_rep("gallery_lux", "blocked"), _rep("goeun", "selector drift")]
+    hard = _hard_failures(reports)
+    assert [r.name for r in hard] == ["goeun"]
+
+
 def test_export_json_writes_file(tmp_path, monkeypatch):
     from crawler.sinks.base import SheetName
     from crawler.sinks.fake import FakeRepository

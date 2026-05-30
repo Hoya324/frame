@@ -36,6 +36,7 @@ from __future__ import annotations
 import re
 import xml.etree.ElementTree as ET
 from collections.abc import Iterable
+from urllib.parse import urljoin
 
 import httpx
 from selectolax.parser import HTMLParser
@@ -142,8 +143,18 @@ def _extract_cards(xml_text: str) -> list[dict]:
             desc_doc = HTMLParser(desc_html)
             img = desc_doc.css_first("img")
             if img:
-                src = img.attributes.get("src", "") or ""
-                poster = src if src.startswith("http") else None
+                src = (img.attributes.get("src", "") or "").strip()
+                # Naver's RSS snippets often use protocol-relative (`//host/…`)
+                # or site-relative paths; promote both to absolute https URLs
+                # instead of dropping them.
+                if src.startswith("//"):
+                    poster = f"https:{src}"
+                elif src.startswith("http"):
+                    poster = src
+                elif src.startswith("/"):
+                    poster = urljoin(_BASE_URL, src)
+                else:
+                    poster = None
 
         cards.append({
             "source_url": source_url,

@@ -45,6 +45,11 @@ def test_koba_extractor_parses_current_edition():
                 f"got {actual.raw.get(k)!r}, expected {v!r}"
             )
 
+    # Description is pulled from the info page's intro paragraphs.
+    desc = raws[0].raw.get("description", "")
+    assert "KOBA 전시회" in desc
+    assert len(desc) > 200
+
 
 @respx.mock
 def test_koba_extractor_handles_empty_page():

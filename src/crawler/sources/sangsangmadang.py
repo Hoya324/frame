@@ -33,6 +33,14 @@ Detail URL is /display/detail/{contentsSeq} (GET).  The detail page itself is
 largely static HTML; all structured data needed (title, term, venue, poster)
 is already present in the list-API response, so we do not fetch detail pages.
 
+Description enrichment: intentionally NOT implemented. The detail page exposes
+no narrative statement — its `div.contents` body is a double-escaped
+"■ 전시명 / 기간 / 장소 / 참여자 / 문의" info block (literal `<br />` text) that
+merely restates the title / date / venue we already capture, and the only meta
+description is the bare site name "KT&G상상마당". There is no prose worth
+extracting, so this source stays list-only by design, consistent with
+[[gallery_lux]] and [[gallery_kong]].
+
 Pagination: stop when ``displayListInfo.displayList`` is empty.
 """
 
