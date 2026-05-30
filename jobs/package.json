@@ -1,0 +1,21 @@
+{
+  "name": "frame-jobs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "weekly-digest": "tsx src/weekly-digest.ts",
+    "closing-soon": "tsx src/closing-soon.ts",
+    "custom-alerts": "tsx src/custom-alerts.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2",
+    "resend": "^4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsx": "^4",
+    "typescript": "^5",
+    "vitest": "^2"
+  }
+}
