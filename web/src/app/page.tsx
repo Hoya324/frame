@@ -1,5 +1,5 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { loadCatalogSync } from "@/lib/catalogClient";
 import { applyFilters, type FilterState } from "@/lib/filters";
@@ -30,6 +30,15 @@ export default function Home() {
   const [chips, setChips] = useState<string[]>([]);
   const toggle = (v: string) => setChips((c) => (c.includes(v) ? c.filter((x) => x !== v) : [...c, v]));
 
+  // Swipe mode is a fixed, full-viewport view — lock page scroll while it's active.
+  useEffect(() => {
+    if (mode !== "swipe") return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => { document.body.style.overflow = prev; };
+  }, [mode]);
+  const swipeMode = mode === "swipe";
+
   const f: FilterState = useMemo(() => ({
     statuses: chips.filter((c) => ["ongoing", "upcoming"].includes(c)) as FilterState["statuses"],
     mediums: chips.includes("photo") ? ["photo"] : [],
@@ -54,17 +63,24 @@ export default function Home() {
   };
 
   return (
-    <main className="mx-auto max-w-[1180px] px-7">
-      <div className="py-10">
-        <div className="text-xs font-semibold uppercase tracking-wide text-tx3">
-          {today.toISOString().slice(0, 10)} · {t("home.todayTag").split("·").pop()?.trim()}
-        </div>
-        <h1 className="mt-2.5 text-[38px] font-extrabold leading-none tracking-tight">{t("home.heading")}</h1>
-        <p className="mt-3 text-sm text-tx2">
-          {t("home.ongoing")} <b className="text-tx">{counts.ongoing}</b> · {t("home.closing")}{" "}
-          <b className="text-tx">{counts.closing}</b> · {t("home.upcoming")} <b className="text-tx">{counts.upcoming}</b>
-        </p>
-        <div className="mt-4 flex gap-2">
+    <main
+      className={
+        swipeMode
+          ? "mx-auto flex h-[calc(100dvh-9rem)] max-w-[1180px] flex-col overflow-hidden px-7 md:h-[calc(100dvh-3.5rem)]"
+          : "mx-auto max-w-[1180px] px-7"
+      }
+    >
+      <div className={swipeMode ? "shrink-0 pt-6" : "py-10"}>
+        {!swipeMode && (
+          <>
+            <h1 className="text-[38px] font-extrabold leading-none tracking-tight">{t("home.heading")}</h1>
+            <p className="mt-3 text-sm text-tx2">
+              {t("home.ongoing")} <b className="text-tx">{counts.ongoing}</b> · {t("home.closing")}{" "}
+              <b className="text-tx">{counts.closing}</b> · {t("home.upcoming")} <b className="text-tx">{counts.upcoming}</b>
+            </p>
+          </>
+        )}
+        <div className={`flex gap-2 ${swipeMode ? "" : "mt-4"}`}>
           <button
             type="button"
             onClick={() => setMode("time")}
@@ -90,7 +106,7 @@ export default function Home() {
         </div>
       </div>
 
-      {mode === "time" && (
+      {!swipeMode && (
         <>
           <div className="pb-7"><FilterChips options={[...STATUS_OPTS, ...EXTRA_OPTS]} active={chips} onToggle={toggle} /></div>
 
@@ -113,8 +129,17 @@ export default function Home() {
         </>
       )}
 
-      {mode === "swipe" && (
-        <SwipeDeck items={ongoing} />
+      {swipeMode && (
+        <>
+          <div className="shrink-0 py-4">
+            <FilterChips options={EXTRA_OPTS} active={chips} onToggle={toggle} />
+          </div>
+          <div className="min-h-0 flex-1 pb-4">
+            {/* Re-key on the active filter so the deck rebuilds from the filtered
+                list — but not on unrelated re-renders like a bookmark toggle. */}
+            <SwipeDeck key={chips.join(",")} items={ongoing} />
+          </div>
+        </>
       )}
     </main>
   );

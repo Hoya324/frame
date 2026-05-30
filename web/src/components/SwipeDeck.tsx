@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 import { X, Heart, Share2 } from "lucide-react";
 import { PosterImage } from "@/components/PosterImage";
 import { StatusBadge } from "@/components/StatusBadge";
@@ -19,6 +20,8 @@ function shuffle<T>(input: T[]): T[] {
 }
 
 const SWIPE_THRESHOLD = 90;
+// Below this much pointer travel, a release counts as a tap (not a drag).
+const TAP_THRESHOLD = 8;
 
 export function SwipeDeck({ items }: { items: Exhibition[] }) {
   // Shuffle once on mount. `items` is a fresh array on every parent render
@@ -36,6 +39,10 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
   useEffect(() => () => { if (leaveTimer.current) clearTimeout(leaveTimer.current); }, []);
   const { toggle, isScrapped } = useBookmarks();
   const { t } = useLang();
+  const router = useRouter();
+  const [copied, setCopied] = useState(false);
+  const copiedTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  useEffect(() => () => { if (copiedTimer.current) clearTimeout(copiedTimer.current); }, []);
 
   const current = deck[i];
 
@@ -71,9 +78,34 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
     if (!dragging.current) return;
     dragging.current = false;
     const dx = drag.x;
+    const dy = drag.y;
     setDrag({ x: 0, y: 0 });
     if (dx > SWIPE_THRESHOLD) fling("right");
     else if (dx < -SWIPE_THRESHOLD) fling("left");
+    else if (Math.abs(dx) < TAP_THRESHOLD && Math.abs(dy) < TAP_THRESHOLD)
+      router.push(`/exhibitions/${current.id}`);
+  };
+
+  const share = async () => {
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+    const url = `${window.location.origin}${basePath}/exhibitions/${current.id}`;
+    const title = bilingual(current.title, current.titleEn);
+    if (typeof navigator !== "undefined" && navigator.share) {
+      try {
+        await navigator.share({ title, url });
+      } catch {
+        // user dismissed the share sheet — nothing to do
+      }
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(url);
+      setCopied(true);
+      if (copiedTimer.current) clearTimeout(copiedTimer.current);
+      copiedTimer.current = setTimeout(() => setCopied(false), 1600);
+    } catch {
+      // clipboard unavailable (e.g. insecure context) — silently ignore
+    }
   };
 
   const rot = drag.x / 18;
@@ -83,7 +115,7 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
   const skipOpacity = Math.max(0, Math.min(1, -drag.x / SWIPE_THRESHOLD));
 
   return (
-    <div className="relative mx-auto h-[70vh] max-w-md select-none" data-i={i}>
+    <div className="relative mx-auto h-full max-w-md select-none" data-i={i}>
       {/* ghost: the card that was just flung, animating off-screen then removed */}
       {leaving && (
         <div
@@ -106,7 +138,7 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
         onPointerMove={onPointerMove}
         onPointerUp={onPointerUp}
         onPointerCancel={onPointerUp}
-        style={{ transform, transition, touchAction: "pan-y" }}
+        style={{ transform, transition, touchAction: "none" }}
         className="absolute inset-0 animate-[cardIn_.3s_cubic-bezier(.22,.61,.36,1)] cursor-grab touch-none overflow-hidden rounded-2xl border border-line active:cursor-grabbing"
       >
         <PosterImage src={current.posterImageUrl} alt={current.title} />
@@ -143,11 +175,19 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
           className="flex h-16 w-16 items-center justify-center rounded-full bg-white text-black transition active:scale-90 hover:scale-105">
           <Heart size={22} fill={isScrapped(current.id) ? "currentColor" : "none"} />
         </button>
-        <button aria-label={t("common.share")}
-          className="flex h-14 w-14 items-center justify-center rounded-full border border-line2 bg-black/50 text-white transition active:scale-90">
+        <button aria-label={t("common.share")} onClick={share}
+          className="flex h-14 w-14 items-center justify-center rounded-full border border-line2 bg-black/50 text-white transition active:scale-90 hover:border-white">
           <Share2 size={18} />
         </button>
       </div>
+
+      {copied && (
+        <div className="pointer-events-none absolute inset-x-0 bottom-24 z-40 flex justify-center">
+          <div className="animate-[fadeIn_.2s_ease] rounded-full bg-white px-4 py-2 text-sm font-medium text-black shadow-lg">
+            {t("common.linkCopied")}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
