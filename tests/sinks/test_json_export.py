@@ -149,6 +149,52 @@ def test_build_catalog_drops_unknown_artist_ids():
     assert catalog["exhibitions"][0]["artists"] == [{"id": "a1", "name": "있는작가"}]
 
 
+def _repo_mixed_relevance() -> FakeRepository:
+    repo = FakeRepository()
+    repo.append_rows(SheetName.VENUES, [
+        {"id": "v_keep", "name": "사진갤러리", "latitude": 37.5, "longitude": 127.0},
+        {"id": "v_drop", "name": "회화갤러리", "latitude": 37.6, "longitude": 127.1},
+    ])
+    repo.append_rows(SheetName.ARTISTS, [
+        {"id": "a_keep", "name": "사진작가", "name_en": ""},
+        {"id": "a_drop", "name": "회화작가", "name_en": ""},
+    ])
+    base = {
+        "title_en": "", "description": "", "poster_image_url": "",
+        "exhibition_type": "solo", "genre_tags": "", "fee_type": "free",
+        "price_min": "", "price_max": "", "start_date": "", "end_date": "",
+        "open_hours": "", "featured": "FALSE", "popularity_score": "",
+        "status": "ongoing",
+    }
+    repo.append_rows(SheetName.EXHIBITIONS, [
+        # general source + photo medium → kept
+        {**base, "id": "e1", "source": "artmap", "source_url": "https://s/1",
+         "title": "사진전", "medium": "photo", "venue_id": "v_keep",
+         "artist_ids": "a_keep"},
+        # general source + non-photo medium → dropped
+        {**base, "id": "e2", "source": "artmap", "source_url": "https://s/2",
+         "title": "회화전", "medium": "mixed", "venue_id": "v_drop",
+         "artist_ids": "a_drop"},
+        # photo-dedicated source keeps its row regardless of medium
+        {**base, "id": "e3", "source": "gallery_lux", "source_url": "https://s/3",
+         "title": "룩스전", "medium": "mixed", "venue_id": "v_keep",
+         "artist_ids": ""},
+    ])
+    return repo
+
+
+def test_general_source_rows_dropped_when_not_photo_relevant():
+    catalog = build_catalog(_repo_mixed_relevance(), generated_at=GEN_AT)
+    ids = {e["id"] for e in catalog["exhibitions"]}
+    assert ids == {"e1", "e3"}  # artmap+mixed (e2) excluded
+
+
+def test_orphan_venues_and_artists_pruned():
+    catalog = build_catalog(_repo_mixed_relevance(), generated_at=GEN_AT)
+    assert {v["id"] for v in catalog["venues"]} == {"v_keep"}
+    assert {a["id"] for a in catalog["artists"]} == {"a_keep"}
+
+
 def test_write_catalog_creates_parent_dirs_and_writes_json(tmp_path: Path):
     repo = _seed_repo()
     out = tmp_path / "nested" / "exhibitions.json"

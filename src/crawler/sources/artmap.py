@@ -97,7 +97,9 @@ class ArtmapExtractor:
                 "wrap": str(wrap),
                 "type": "ing",
                 "area": "0",
-                "cate": "",
+                # cate=4 is artmap's 사진 (photography) category. Filtering
+                # server-side keeps the non-photo flood out of the crawl.
+                "cate": "4",
                 "od": "2",
                 "v_cnt": "0",
                 "online": "0",
@@ -204,6 +206,11 @@ def _extract_cards(html: str) -> list[dict]:
         cards.append({
             "source_url": source_url,
             "title": title,
+            # All cards come from the 사진 (cate=4) batch, so tag them as
+            # photography — artmap titles rarely contain the keyword, and
+            # without this the medium classifier would default to MIXED and
+            # the export-time relevance filter would drop them.
+            "category": "사진",
             "venue_name": venue_name,
             "venue_region": venue_region,
             "date_range": date_range or None,
@@ -223,16 +230,26 @@ _DETAIL_FIELD_MAP = {
 def _parse_detail(html: str) -> dict:
     """Parse the view_table on an Artmap detail page into a normalized dict.
 
-    Returns a dict with any subset of: open_hours, venue_address, price_text,
-    price_min, price_max, artists. Missing fields are simply omitted so callers
-    can `.update()` without overwriting None.
+    Returns a dict with any subset of: description, open_hours, venue_address,
+    price_text, price_min, price_max, artists. Missing fields are simply omitted
+    so callers can `.update()` without overwriting None.
     """
     doc = HTMLParser(html)
+    out: dict = {}
+
+    # The prose exhibition description lives in a <pre> inside .info_wrap;
+    # artwork captions and installation-view labels sit in a sibling
+    # .img_list, so the <pre> isolates the actual blurb.
+    desc_node = doc.css_first("div.info_wrap pre")
+    if desc_node is not None:
+        description = _clean_cell_text(desc_node.text())
+        if description:
+            out["description"] = description
+
     table = doc.css_first("table#view_table")
     if table is None:
-        return {}
+        return out
 
-    out: dict = {}
     for tr in table.css("tr"):
         th = tr.css_first("th")
         td = tr.css_first("td")

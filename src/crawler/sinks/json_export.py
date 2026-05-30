@@ -50,6 +50,20 @@ def _bool(value: object) -> bool:
     return str(value).strip().upper() == "TRUE"
 
 
+# Sources that crawl all art genres, not just photography. Their rows are only
+# kept when the classified medium is photo-adjacent. Every other source is
+# photo-dedicated (or already photo-filtered at the source), so its rows are
+# always kept regardless of medium.
+_GENERAL_SOURCES = {"artmap", "naver"}
+_PHOTO_MEDIUMS = {"photo", "video", "gear"}
+
+
+def _is_photo_relevant(row: dict) -> bool:
+    if _str_or_none(row.get("source")) not in _GENERAL_SOURCES:
+        return True
+    return _str_or_none(row.get("medium")) in _PHOTO_MEDIUMS
+
+
 def _venue_full(row: dict) -> dict:
     return {
         "id": _id(row["id"]),
@@ -125,13 +139,28 @@ def build_catalog(repo: Repository, generated_at: datetime) -> dict:
     venues_by_id = {r["id"]: r for r in venue_rows}
     artists_by_id = {r["id"]: r for r in artist_rows}
 
+    kept_rows = [r for r in exhibition_rows if _is_photo_relevant(r)]
+
+    # Drop venues/artists that no surviving exhibition references, so the
+    # region dropdown and other reference lists don't surface dead entries.
+    referenced_venues = {_str_or_none(r.get("venue_id")) for r in kept_rows}
+    referenced_artists = {
+        aid for r in kept_rows for aid in _split(r.get("artist_ids"))
+    }
+
     return {
         "generated_at": generated_at.isoformat(),
         "exhibitions": [
-            _exhibition_json(r, venues_by_id, artists_by_id) for r in exhibition_rows
+            _exhibition_json(r, venues_by_id, artists_by_id) for r in kept_rows
         ],
-        "venues": [_venue_full(r) for r in venue_rows],
-        "artists": [_artist_full(r) for r in artist_rows],
+        "venues": [
+            _venue_full(r) for r in venue_rows if _id(r["id"]) in referenced_venues
+        ],
+        "artists": [
+            _artist_full(r)
+            for r in artist_rows
+            if _id(r["id"]) in referenced_artists
+        ],
     }
 
 

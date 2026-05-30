@@ -192,6 +192,9 @@ def test_parse_detail_free_fixture():
     assert "price_notes" not in out
     # Numeric parse succeeded, so fee_text shortcut is suppressed
     assert "fee_text" not in out
+    # Prose description pulled from .info_wrap > pre
+    assert out["description"].startswith("유영국: 산은 내 안에 있다")
+    assert "서울시립미술관" in out["description"]
 
 
 def test_parse_detail_paid_fixture():
@@ -217,3 +220,23 @@ def test_parse_detail_paid_fixture():
 
 def test_parse_detail_returns_empty_when_table_missing():
     assert _parse_detail("<html><body><p>no table here</p></body></html>") == {}
+
+
+def test_parse_detail_extracts_description_without_table():
+    html = (
+        "<html><body><div class='info_wrap'>"
+        "<p>전시정보</p><div class='img_list'>작품 캡션</div>"
+        "<pre>이 전시는 사진의 본질을 탐구한다.</pre>"
+        "</div></body></html>"
+    )
+    out = _parse_detail(html)
+    assert out == {"description": "이 전시는 사진의 본질을 탐구한다."}
+
+
+def test_extract_cards_tags_photography_category():
+    html = _load_fixture("list_page_1.html")
+    from crawler.sources.artmap import _extract_cards
+
+    cards = _extract_cards(html)
+    assert cards
+    assert all(c["category"] == "사진" for c in cards)
