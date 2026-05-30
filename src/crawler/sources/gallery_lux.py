@@ -63,7 +63,19 @@ _ARTICLE_MARKER = "<article"
 _RETRYABLE_HTTP_STATUSES = frozenset({403, 429, 500, 502, 503, 504})
 
 
+class _InterstitialResponse(RuntimeError):
+    """200 OK whose body lacks any <article> markup.
+
+    On the runner IP this is almost always a transient anti-bot interstitial
+    (production once got a 770-byte block page). Treated as retryable so a
+    single bad fetch doesn't kill the whole source — only a block that
+    survives every retry is escalated to SilentlyEmptyListPage.
+    """
+
+
 def _should_retry(exc: BaseException) -> bool:
+    if isinstance(exc, _InterstitialResponse):
+        return True
     if isinstance(exc, httpx.TransportError):
         return True
     if isinstance(exc, httpx.HTTPStatusError):
@@ -104,10 +116,17 @@ class GalleryLuxExtractor:
         stop=stop_after_attempt(4),
         reraise=True,
     )
-    def _get(self, url: str) -> str:
+    def _get(self, url: str, *, require_articles: bool = False) -> str:
         r = self._client.get(url)
         r.raise_for_status()
-        return r.text
+        text = r.text
+        if require_articles and _ARTICLE_MARKER not in text.lower():
+            # 200 OK but no archive markup — retryable transient interstitial.
+            raise _InterstitialResponse(
+                f"gallery_lux: {url} returned {len(text)} bytes with no "
+                "<article> tags"
+            )
+        return text
 
     def crawl(self) -> Iterable[RawExhibition]:
         seen: set[str] = set()
@@ -117,20 +136,18 @@ class GalleryLuxExtractor:
             else:
                 url = urljoin(_BASE_URL, f"/archive/page/{page_num}/")
 
-            html = self._get(url)
+            # Page 1 must contain <article> cards; a body without them is an
+            # interstitial worth retrying. _get raises after exhausting
+            # retries, which we escalate to a visible hard failure.
+            try:
+                html = self._get(url, require_articles=(page_num == 1))
+            except _InterstitialResponse as exc:
+                raise SilentlyEmptyListPage(
+                    f"{exc} after retries — likely persistent anti-bot "
+                    "interstitial or markup drift"
+                ) from exc
             cards = _extract_cards(html)
             if not cards:
-                if page_num == 1 and _ARTICLE_MARKER not in html.lower():
-                    # Page 1 came back without a single <article> element
-                    # — a real WordPress archive page has dozens. This
-                    # almost certainly means an anti-bot interstitial /
-                    # redirect / different page. Raise so the cron report
-                    # shows it instead of silently looking healthy at 0.
-                    raise SilentlyEmptyListPage(
-                        f"gallery_lux: {url} returned {len(html)} bytes "
-                        "with no <article> tags — likely anti-bot "
-                        "interstitial or markup drift"
-                    )
                 return
 
             for c in cards:

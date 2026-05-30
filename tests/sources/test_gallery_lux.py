@@ -56,7 +56,37 @@ def test_gallery_lux_extractor_parses_cards():
 
 
 @respx.mock
-def test_gallery_lux_extractor_raises_when_page_one_has_no_article_tag():
+def test_gallery_lux_extractor_retries_interstitial_then_succeeds(monkeypatch):
+    """A 200-OK response whose body lacks <article> is almost always a
+    transient anti-bot interstitial served to the runner IP — exactly what
+    killed the source in production (770 bytes, no cards). It must be
+    retried with backoff like a 403, not surfaced as a hard failure on the
+    first hit."""
+    import tenacity
+    monkeypatch.setattr(tenacity.wait_exponential, "__call__", lambda *a, **kw: 0)
+
+    fixture = _load_fixture("list_page_1.html")
+    calls = {"n": 0}
+
+    def handler(request):
+        calls["n"] += 1
+        if calls["n"] == 1:
+            # 770-byte interstitial: 200 OK, no <article>
+            return httpx.Response(200, text="<html><body>blocked</body></html>")
+        return httpx.Response(200, text=fixture)
+
+    respx.get(_LIST_URL).mock(side_effect=handler)
+    respx.get(f"{_BASE_URL}/archive/page/2/").mock(
+        return_value=httpx.Response(200, text=_EMPTY_HTML)
+    )
+
+    raws = list(GalleryLuxExtractor(delay_s=0.0).crawl())
+    assert raws, "should have parsed cards after retrying past the interstitial"
+    assert calls["n"] >= 2  # at least one retry happened
+
+
+@respx.mock
+def test_gallery_lux_extractor_raises_when_page_one_has_no_article_tag(monkeypatch):
     """A real WordPress archive page renders many <article> elements,
     one per exhibition card. If page 1 has NONE, we got an anti-bot
     interstitial, a redirect, or markup drift — even when status is
@@ -64,8 +94,10 @@ def test_gallery_lux_extractor_raises_when_page_one_has_no_article_tag():
     is what masked the bug in production for months.
 
     gallery_lux's archive has years of history; it can never be
-    legitimately empty. So 'no <article>' is unconditionally a
-    failure for this source."""
+    legitimately empty. So 'no <article>' that survives every retry is
+    unconditionally a failure for this source."""
+    import tenacity
+    monkeypatch.setattr(tenacity.wait_exponential, "__call__", lambda *a, **kw: 0)
     respx.get(_LIST_URL).mock(
         return_value=httpx.Response(200, text="<html><body></body></html>")
     )
@@ -74,10 +106,12 @@ def test_gallery_lux_extractor_raises_when_page_one_has_no_article_tag():
 
 
 @respx.mock
-def test_gallery_lux_extractor_raises_when_big_body_has_no_article_tag():
+def test_gallery_lux_extractor_raises_when_big_body_has_no_article_tag(monkeypatch):
     """Belt-and-suspenders: a substantial response that lacks <article>
     tags is also a failure — covers the interstitial-with-padding case
     where an attacker hides a CF challenge inside <div> noise."""
+    import tenacity
+    monkeypatch.setattr(tenacity.wait_exponential, "__call__", lambda *a, **kw: 0)
     big_body = "<html><body>" + ("<div>filler</div>" * 2000) + "</body></html>"
     respx.get(_LIST_URL).mock(
         return_value=httpx.Response(200, text=big_body)
