@@ -4,6 +4,7 @@ import { Nav } from "@/components/Nav";
 import { AuthProvider } from "@/components/AuthProvider";
 import { LanguageProvider } from "@/components/LanguageProvider";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
+import { InstallPrompt } from "@/components/InstallPrompt";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -43,6 +44,7 @@ export default function RootLayout({
           <AuthProvider>
             <Nav />
             <ServiceWorkerRegister />
+            <InstallPrompt />
             <div className="pb-24 md:pb-0">{children}</div>
           </AuthProvider>
         </LanguageProvider>

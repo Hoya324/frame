@@ -1,9 +1,14 @@
 {
   "name": "FRAME — 전시 디스커버리",
   "short_name": "FRAME",
+  "description": "사진·영상 전시를 찾고 둘러보세요",
+  "lang": "ko",
+  "dir": "ltr",
+  "categories": ["lifestyle", "entertainment"],
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [

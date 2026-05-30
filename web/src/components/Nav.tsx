@@ -31,6 +31,11 @@ export function Nav() {
           </nav>
           <div className="ml-auto flex items-center gap-3">
             <LanguageSwitcher />
+            <Link href="/me"
+              className="flex items-center gap-1.5 rounded-md px-2 py-1.5 text-sm font-medium text-tx3 hover:text-tx">
+              <User size={16} />
+              {t("nav.me")}
+            </Link>
             <LoginButton />
           </div>
         </div>

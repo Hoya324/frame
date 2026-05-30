@@ -27,28 +27,57 @@ const STYLE: StyleSpecification = {
 
 const SEOUL: [number, number] = [126.98, 37.57];
 
+// Aggregate exhibitions into one feature per venue. Many venues host dozens of
+// exhibitions at the exact same coordinate (e.g. 캐논 갤러리 has 100+); plotting
+// each as its own point produces clusters that can never expand on zoom because
+// the members are coincident. One marker per venue keeps clusters separable and
+// lets the marker show a count badge for multi-exhibition venues.
 function toFeatureCollection(items: Exhibition[]): GeoJSON.FeatureCollection<GeoJSON.Point> {
-  const features: GeoJSON.Feature<GeoJSON.Point>[] = [];
+  const byVenue = new Map<string, {
+    lng: number; lat: number; count: number; poster: string; venueName: string; firstId: string;
+  }>();
   for (const e of items) {
     const { lat, lng } = e.venue ?? {};
     if (lat == null || lng == null) continue;
+    const key = e.venue?.id ?? `${lng},${lat}`;
+    const agg = byVenue.get(key);
+    if (agg) {
+      agg.count += 1;
+      if (!agg.poster && e.posterImageUrl) agg.poster = e.posterImageUrl;
+    } else {
+      byVenue.set(key, {
+        lng, lat, count: 1, poster: e.posterImageUrl ?? "",
+        venueName: e.venue?.name ?? "", firstId: e.id,
+      });
+    }
+  }
+  const features: GeoJSON.Feature<GeoJSON.Point>[] = [];
+  for (const [venueId, v] of byVenue) {
     features.push({
       type: "Feature",
-      geometry: { type: "Point", coordinates: [lng, lat] },
-      properties: { id: e.id, title: e.title, venue: e.venue?.name ?? "", poster: e.posterImageUrl ?? "" },
+      geometry: { type: "Point", coordinates: [v.lng, v.lat] },
+      properties: { venueId, venueName: v.venueName, count: v.count, poster: v.poster, firstId: v.firstId },
     });
   }
   return { type: "FeatureCollection", features };
 }
 
-// A small rounded poster thumbnail used as the DOM marker for an individual point.
+// A small rounded poster thumbnail used as the DOM marker for a venue. Venues
+// with more than one exhibition get a count badge.
 function posterMarkerEl(p: Record<string, unknown>, onClick: () => void): HTMLElement {
   const el = document.createElement("button");
   el.type = "button";
   el.className = "frame-poster-marker";
-  el.title = String(p.title ?? "");
+  el.title = String(p.venueName ?? "");
   const poster = String(p.poster ?? "");
   if (poster) el.style.backgroundImage = `url("${poster.replace(/"/g, "%22")}")`;
+  const count = Number(p.count ?? 1);
+  if (count > 1) {
+    const badge = document.createElement("span");
+    badge.className = "frame-marker-badge";
+    badge.textContent = count > 99 ? "99+" : String(count);
+    el.appendChild(badge);
+  }
   el.addEventListener("click", (e) => {
     e.stopPropagation();
     onClick();
@@ -56,10 +85,11 @@ function posterMarkerEl(p: Record<string, unknown>, onClick: () => void): HTMLEl
   return el;
 }
 
-export function MapView({ items, height = 480, onSelect, onViewChange, userLocation }: {
+export function MapView({ items, height = 480, onSelect, onVenueSelect, onViewChange, userLocation }: {
   items: Exhibition[];
   height?: number;
   onSelect?: (id: string) => void;
+  onVenueSelect?: (venueId: string, venueName: string) => void;
   onViewChange?: (visibleIds: string[]) => void;
   userLocation?: [number, number] | null;
 }) {
@@ -67,9 +97,11 @@ export function MapView({ items, height = 480, onSelect, onViewChange, userLocat
   const mapRef = useRef<maplibregl.Map | null>(null);
   // Keep latest callbacks without re-initializing the map on every render.
   const onSelectRef = useRef(onSelect);
+  const onVenueSelectRef = useRef(onVenueSelect);
   const onViewChangeRef = useRef(onViewChange);
   const itemsRef = useRef(items);
   useEffect(() => { onSelectRef.current = onSelect; }, [onSelect]);
+  useEffect(() => { onVenueSelectRef.current = onVenueSelect; }, [onVenueSelect]);
   useEffect(() => { onViewChangeRef.current = onViewChange; }, [onViewChange]);
   useEffect(() => { itemsRef.current = items; }, [items]);
 
@@ -98,16 +130,21 @@ export function MapView({ items, height = 480, onSelect, onViewChange, userLocat
       for (const f of features) {
         const p = f.properties ?? {};
         if (p.point_count) continue; // clusters keep the native circle layer
-        const id = p.id as string | undefined;
-        if (!id || next[id]) continue;
+        const venueId = p.venueId as string | undefined;
+        if (!venueId || next[venueId]) continue;
         const coords = (f.geometry as GeoJSON.Point).coordinates as [number, number];
-        let marker = markers[id];
+        let marker = markers[venueId];
         if (!marker) {
-          const el = posterMarkerEl(p, () => onSelectRef.current?.(id));
-          marker = markers[id] = new maplibregl.Marker({ element: el }).setLngLat(coords);
+          // Single-exhibition venue → open it directly; multi → select the
+          // venue so the sidebar lists all of its exhibitions.
+          const el = posterMarkerEl(p, () => {
+            if (Number(p.count ?? 1) > 1) onVenueSelectRef.current?.(venueId, String(p.venueName ?? ""));
+            else onSelectRef.current?.(String(p.firstId));
+          });
+          marker = markers[venueId] = new maplibregl.Marker({ element: el }).setLngLat(coords);
         }
-        next[id] = marker;
-        if (!onScreen[id]) marker.addTo(map);
+        next[venueId] = marker;
+        if (!onScreen[venueId]) marker.addTo(map);
       }
       for (const id in onScreen) if (!next[id]) onScreen[id].remove();
       onScreen = next;

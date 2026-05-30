@@ -2,7 +2,7 @@
 import dynamic from "next/dynamic";
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import { MapPin, Loader2 } from "lucide-react";
+import { MapPin, Loader2, X } from "lucide-react";
 import { loadCatalogSync } from "@/lib/catalogClient";
 import { CITY_ORDER, regionBucket, type Country } from "@/lib/regions";
 import { ExhibitionCard } from "@/components/ExhibitionCard";
@@ -30,10 +30,13 @@ export default function MapPage() {
   const { t } = useLang();
   const [cities, setCities] = useState<string[]>([]);
   const [visibleIds, setVisibleIds] = useState<Set<string> | null>(null);
+  const [venue, setVenue] = useState<{ id: string; name: string } | null>(null);
   const [userLoc, setUserLoc] = useState<[number, number] | null>(null);
   const [locState, setLocState] = useState<"idle" | "locating" | "error">("idle");
-  const toggle = (v: string) =>
+  const toggle = (v: string) => {
+    setVenue(null);
     setCities((c) => (c.includes(v) ? c.filter((x) => x !== v) : [...c, v]));
+  };
 
   // Only exhibitions with coordinates can plot; tag each with its city bucket.
   const mappable = useMemo(
@@ -67,16 +70,21 @@ export default function MapPage() {
   );
 
   // The sidebar mirrors what is currently on screen, so the list count always
-  // matches the markers the user can see. When located, sort by proximity.
+  // matches the markers the user can see. Clicking a multi-exhibition venue
+  // marker pins the list to that venue. When located, sort by proximity.
   const listed = useMemo(() => {
-    const inView = visibleIds ? items.filter((e) => visibleIds.has(e.id)) : items;
-    if (!userLoc) return inView;
-    return [...inView].sort((a, b) => {
+    const base = venue
+      ? items.filter((e) => e.venue?.id === venue.id)
+      : visibleIds
+        ? items.filter((e) => visibleIds.has(e.id))
+        : items;
+    if (!userLoc) return base;
+    return [...base].sort((a, b) => {
       const da = distanceKm(userLoc, [a.venue!.lng!, a.venue!.lat!]);
       const db = distanceKm(userLoc, [b.venue!.lng!, b.venue!.lat!]);
       return da - db;
     });
-  }, [items, visibleIds, userLoc]);
+  }, [items, venue, visibleIds, userLoc]);
 
   const locate = () => {
     if (!("geolocation" in navigator)) {
@@ -122,6 +130,16 @@ export default function MapPage() {
         {userLoc && locState === "idle" && (
           <span className="rounded-full border border-line px-3 py-1 text-xs text-tx2">{t("map.nearbyOn")}</span>
         )}
+        {venue && (
+          <button
+            type="button"
+            onClick={() => setVenue(null)}
+            className="flex items-center gap-1.5 rounded-full bg-white px-3 py-1 text-xs font-semibold text-black transition active:scale-95"
+          >
+            {venue.name}
+            <X size={13} />
+          </button>
+        )}
         <span className="ml-auto text-xs text-tx3">{t("map.showing")} <b className="text-tx2">{listed.length}</b></span>
       </div>
 
@@ -131,6 +149,7 @@ export default function MapPage() {
           height={560}
           userLocation={userLoc}
           onViewChange={(ids) => setVisibleIds(new Set(ids))}
+          onVenueSelect={(id, name) => setVenue({ id, name })}
           onSelect={(id) => router.push(`/exhibitions/${id}`)}
         />
         <div className="grid max-h-[560px] grid-cols-2 gap-4 overflow-y-auto md:grid-cols-1">

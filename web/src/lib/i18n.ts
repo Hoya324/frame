@@ -85,6 +85,11 @@ const ko: Dict = {
   "map.resetView": "전체 보기",
   "map.nearbyOn": "근처순",
   "map.showing": "이 화면의 전시",
+  "pwa.title": "FRAME 앱으로 설치하기",
+  "pwa.desc": "홈 화면에 추가하면 더 빠르게 전시를 둘러볼 수 있어요.",
+  "pwa.install": "설치",
+  "pwa.dismiss": "닫기",
+  "pwa.iosHint": "공유 버튼 → '홈 화면에 추가'를 눌러 설치하세요.",
 };
 
 const en: Dict = {
@@ -162,6 +167,11 @@ const en: Dict = {
   "map.resetView": "Reset view",
   "map.nearbyOn": "Nearest",
   "map.showing": "In view",
+  "pwa.title": "Install the FRAME app",
+  "pwa.desc": "Add it to your home screen to browse exhibitions faster.",
+  "pwa.install": "Install",
+  "pwa.dismiss": "Dismiss",
+  "pwa.iosHint": "Tap the Share button → 'Add to Home Screen' to install.",
 };
 
 const ja: Dict = {
@@ -239,6 +249,11 @@ const ja: Dict = {
   "map.resetView": "全体表示",
   "map.nearbyOn": "近い順",
   "map.showing": "表示中の展示",
+  "pwa.title": "FRAMEアプリをインストール",
+  "pwa.desc": "ホーム画面に追加すると、より速く展示を見られます。",
+  "pwa.install": "インストール",
+  "pwa.dismiss": "閉じる",
+  "pwa.iosHint": "共有ボタン →「ホーム画面に追加」でインストールできます。",
 };
 
 const DICTS: Record<Locale, Dict> = { ko, en, ja };

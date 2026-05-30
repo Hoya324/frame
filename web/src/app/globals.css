@@ -50,6 +50,10 @@ html, body {
 @keyframes flingLeft {
   to { transform: translate(-120%, -8%) rotate(-18deg); opacity: 0; }
 }
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 
 /* Dark-themed map popups (maplibre defaults are white). */
 .frame-map-popup .maplibregl-popup-content {
@@ -67,6 +71,7 @@ html, body {
 
 /* Poster-thumbnail map markers for individual exhibitions. */
 .frame-poster-marker {
+  position: relative;
   width: 38px;
   height: 50px;
   border-radius: 6px;
@@ -80,6 +85,23 @@ html, body {
 .frame-poster-marker:hover {
   transform: scale(1.12);
   z-index: 1;
+}
+/* Count badge for venues hosting more than one exhibition. */
+.frame-marker-badge {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  border-radius: 9px;
+  background: #fff;
+  color: #000;
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 18px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* "내 위치" pulsing dot. */
