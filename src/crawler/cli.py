@@ -214,6 +214,26 @@ def backfill_geocodes_cmd() -> None:
         raise typer.Exit(code=1)
 
 
+def _build_translator():
+    from crawler.enrich.translator import ArgosTranslator
+
+    return ArgosTranslator()
+
+
+@app.command("backfill-translations")
+def backfill_translations_cmd() -> None:
+    """Translate exhibition/venue/artist text into the other locales (one-time + incremental)."""
+    from crawler.enrich.translate import backfill_translations
+
+    repo = _build_repo()
+    translator = _build_translator()
+    report = backfill_translations(repo, translator)
+    typer.echo(
+        f"translations: seen={report.rows_seen}, patched={report.rows_patched}, "
+        f"fields={report.fields_translated}, errors={report.errors}"
+    )
+
+
 def main() -> None:  # pragma: no cover
     app()
 
