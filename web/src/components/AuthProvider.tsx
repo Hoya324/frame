@@ -55,14 +55,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     };
   }, [supabase]);
 
-  // Load bookmarks whenever the user changes.
+  // Load bookmarks whenever the user changes; an empty set when signed out.
   useEffect(() => {
-    if (!user) {
-      setIds(new Set());
-      return;
-    }
     let active = true;
-    listBookmarkIds(supabase, user.id)
+    const load = async () =>
+      user ? await listBookmarkIds(supabase, user.id) : new Set<string>();
+    load()
       .then((s) => {
         if (active) setIds(s);
       })
