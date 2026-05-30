@@ -23,6 +23,10 @@ class SourceName(StrEnum):
     CANON_GALLERY = "canon_gallery"
     TOKYO_PHOTOGRAPHIC_ART_MUSEUM = "tokyo_photographic_art_museum"
     TOKYO_ART_BEAT = "tokyo_art_beat"
+    FUJIFILM_SQUARE = "fujifilm_square"
+    GALLERY_BRESSON = "gallery_bresson"
+    PGI = "pgi"
+    ZEN_FOTO = "zen_foto"
 
 
 class Medium(StrEnum):

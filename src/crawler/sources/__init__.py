@@ -8,17 +8,21 @@ side-effecting `register_source(...)` call at the bottom of each module.
 from crawler.sources import (
     artmap,  # noqa: F401
     canon_gallery,  # noqa: F401
+    fujifilm_square,  # noqa: F401
+    gallery_bresson,  # noqa: F401
     gallery_kong,  # noqa: F401
     gallery_lux,  # noqa: F401
     goeun,  # noqa: F401
     ilwoo_space,  # noqa: F401
     koba,  # noqa: F401
     museum_hanmi,  # noqa: F401
+    pgi,  # noqa: F401
     photo_sema,  # noqa: F401
     ryugaheon,  # noqa: F401
     sangsangmadang,  # noqa: F401
     tokyo_art_beat,  # noqa: F401
     tokyo_photographic_art_museum,  # noqa: F401
+    zen_foto,  # noqa: F401
 )
 
 # BLOCKED in M3: Naver requires either OAuth (Open API) or JS rendering (Playwright).

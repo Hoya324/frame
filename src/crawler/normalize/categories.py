@@ -11,9 +11,9 @@ def _has(haystack: str, *needles: str) -> bool:
 
 def map_medium(text: str) -> Medium:
     t = (text or "").lower()
-    photo = _has(t, "사진", "photo")
-    video = _has(t, "영상", "video", "film", "movie", "미디어")
-    gear = _has(t, "카메라", "camera", "장비", "기자재", "imaging")
+    photo = _has(t, "사진", "photo", "写真", "フォト")
+    video = _has(t, "영상", "video", "film", "movie", "미디어", "映像", "動画")
+    gear = _has(t, "카메라", "camera", "장비", "기자재", "imaging", "カメラ", "機材")
     if photo and video:
         return Medium.MIXED
     if gear and not (photo or video):

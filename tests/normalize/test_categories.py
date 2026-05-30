@@ -19,6 +19,12 @@ from crawler.normalize.categories import (
         ("카메라 박람회", Medium.GEAR),
         ("camera show", Medium.GEAR),
         ("사진/영상", Medium.MIXED),
+        ("写真展", Medium.PHOTO),
+        ("フォトグラフ", Medium.PHOTO),
+        ("映像作品", Medium.VIDEO),
+        ("動画", Medium.VIDEO),
+        ("写真と映像", Medium.MIXED),
+        ("カメラ機材展", Medium.GEAR),
     ],
 )
 def test_map_medium(text: str, expected: Medium):
