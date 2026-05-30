@@ -9,7 +9,7 @@ export function ExhibitionCard({ exhibition: e, today }: { exhibition: Exhibitio
     <Link href={`/exhibitions/${e.id}`} className="group block">
       <div className="relative aspect-[3/4] overflow-hidden rounded-[3px] border border-line">
         <PosterImage src={e.posterImageUrl} alt={e.title} />
-        <div className="absolute right-2.5 top-2.5"><ScrapButton /></div>
+        <div className="absolute right-2.5 top-2.5"><ScrapButton exhibitionId={e.id} /></div>
         <div className="absolute bottom-2.5 left-2.5"><StatusBadge e={e} today={today} /></div>
       </div>
       <div className="pt-2.5">

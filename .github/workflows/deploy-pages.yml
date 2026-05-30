@@ -32,6 +32,10 @@ jobs:
         env:
           # Project page is served from https://<user>.github.io/frame/
           BASE_PATH: /frame
+          # Public by design: NEXT_PUBLIC_* values are inlined into the client
+          # bundle, and the publishable key is browser-safe (RLS guards data).
+          NEXT_PUBLIC_SUPABASE_URL: https://muxzrjtncgrozlnefexu.supabase.co
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: sb_publishable_4VVyeQtqiSfZLouI8H85Zg_VcmRsaj3
       - run: touch out/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:

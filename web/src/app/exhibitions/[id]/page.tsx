@@ -37,7 +37,7 @@ export default async function ExhibitionDetail({ params }: { params: Promise<{ i
           </div>
           {e.description && <p className="mt-6 whitespace-pre-line text-[14px] leading-relaxed text-tx2">{e.description}</p>}
           <div className="mt-7 flex items-center gap-3">
-            <ScrapButton />
+            <ScrapButton exhibitionId={e.id} />
             {e.sourceUrl && (
               <a href={e.sourceUrl} target="_blank" rel="noopener noreferrer"
                 className="rounded-lg border border-line2 px-4 py-2 text-sm font-medium hover:bg-panel2">

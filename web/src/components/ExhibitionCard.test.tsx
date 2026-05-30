@@ -1,5 +1,10 @@
 import { render, screen } from "@testing-library/react";
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
+
+vi.mock("@/components/AuthProvider", () => ({
+  useBookmarks: () => ({ ids: new Set<string>(), isScrapped: () => false, toggle: vi.fn() }),
+}));
+
 import { ExhibitionCard } from "@/components/ExhibitionCard";
 import type { Exhibition } from "@/lib/catalog";
 

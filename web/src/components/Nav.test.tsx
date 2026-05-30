@@ -1,5 +1,10 @@
 import { render, screen } from "@testing-library/react";
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
+
+vi.mock("@/components/AuthProvider", () => ({
+  useAuth: () => ({ user: null, session: null, loading: false, signIn: vi.fn(), signOut: vi.fn() }),
+}));
+
 import { Nav } from "@/components/Nav";
 
 describe("Nav", () => {

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Compass, Search, Map, Heart, User } from "lucide-react";
+import { LoginButton } from "@/components/LoginButton";
 
 const ITEMS = [
   { href: "/", label: "둘러보기", icon: Compass },
@@ -24,9 +25,7 @@ export function Nav() {
               </Link>
             ))}
           </nav>
-          <button className="ml-auto rounded-md bg-white px-4 py-2 text-sm font-semibold text-black">
-            로그인
-          </button>
+          <div className="ml-auto"><LoginButton /></div>
         </div>
       </header>
 

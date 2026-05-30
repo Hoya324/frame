@@ -3,10 +3,12 @@ import { useState } from "react";
 import { X, Heart, Share2 } from "lucide-react";
 import { PosterImage } from "@/components/PosterImage";
 import { StatusBadge } from "@/components/StatusBadge";
+import { useBookmarks } from "@/components/AuthProvider";
 import type { Exhibition } from "@/lib/catalog";
 
 export function SwipeDeck({ items }: { items: Exhibition[] }) {
   const [i, setI] = useState(0);
+  const { toggle, isScrapped } = useBookmarks();
   const current = items[i];
   if (!current) {
     return <div className="flex min-h-[60vh] items-center justify-center text-tx3">모두 둘러봤어요</div>;
@@ -27,9 +29,10 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
           className="flex h-14 w-14 items-center justify-center rounded-full border border-line2 bg-black/50 text-white">
           <X size={20} />
         </button>
-        <button aria-label="스크랩" onClick={() => setI((n) => n + 1)}
+        <button aria-label={isScrapped(current.id) ? "스크랩 취소" : "스크랩"}
+          onClick={() => { void toggle(current.id); setI((n) => n + 1); }}
           className="flex h-16 w-16 items-center justify-center rounded-full bg-white text-black">
-          <Heart size={22} />
+          <Heart size={22} fill={isScrapped(current.id) ? "currentColor" : "none"} />
         </button>
         <button aria-label="공유"
           className="flex h-14 w-14 items-center justify-center rounded-full border border-line2 bg-black/50 text-white">
