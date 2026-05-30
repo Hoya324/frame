@@ -31,8 +31,9 @@ export function FeedbackForm() {
     const files = Array.from(e.target.files ?? []);
     e.target.value = "";
     setErrorKey(null);
-    for (const f of files) {
-      if (images.length >= MAX_IMAGES) { setErrorKey("feedback.errorImageCount"); break; }
+    const room = MAX_IMAGES - images.length;
+    if (files.length > room) setErrorKey("feedback.errorImageCount");
+    for (const f of files.slice(0, room)) {
       if (!ALLOWED_IMAGE_TYPES.includes(f.type)) { setErrorKey("feedback.errorImageType"); continue; }
       if (f.size > MAX_IMAGE_BYTES) { setErrorKey("feedback.errorImageSize"); continue; }
       const dataBase64 = await fileToBase64(f);
@@ -70,7 +71,7 @@ export function FeedbackForm() {
         {FEEDBACK_TYPES.map((ty) => {
           const on = type === ty;
           return (
-            <button key={ty} type="button" onClick={() => setType(ty)}
+            <button key={ty} type="button" aria-pressed={on} onClick={() => { setType(ty); if (status === "sent") setStatus("idle"); }}
               className={`rounded-full px-3.5 py-1.5 text-[13px] font-medium transition ${
                 on ? "border border-white bg-white font-semibold text-black"
                    : "border border-line text-tx2 hover:text-tx"}`}>
@@ -82,7 +83,7 @@ export function FeedbackForm() {
 
       <label htmlFor="fb-message" className="mt-4 block text-xs text-tx3">{t("feedback.messageLabel")}</label>
       <textarea id="fb-message" value={message} rows={4}
-        onChange={(e) => setMessage(e.target.value)}
+        onChange={(e) => { setMessage(e.target.value); if (status === "sent") setStatus("idle"); }}
         placeholder={t("feedback.messagePlaceholder")}
         className="mt-1 w-full resize-y rounded-md border border-line bg-panel2 px-3 py-2 text-sm outline-none focus:border-line2" />
 
