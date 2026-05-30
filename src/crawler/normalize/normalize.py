@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 from datetime import UTC, datetime
 
 from crawler.models import (
@@ -26,6 +27,23 @@ def _opt(raw: dict, key: str) -> str | None:
         return None
     s = str(v).strip()
     return s or None
+
+
+# Source sites serve a generic "no image / coming soon" graphic when a poster
+# isn't ready yet (e.g. topmuseum.jp's coming-soon.jpg). These load fine (HTTP
+# 200) so they can't be caught downstream — drop them here so the UI falls back
+# to its placeholder instead of showing an unrelated graphic.
+_PLACEHOLDER_IMG_RE = re.compile(
+    r"coming[-_]?soon|no[-_]?image|noimg|placeholder|dummy",
+    re.IGNORECASE,
+)
+
+
+def _poster_image_url(raw: dict) -> str | None:
+    url = _opt(raw, "poster_image_url")
+    if url is None or _PLACEHOLDER_IMG_RE.search(url):
+        return None
+    return url
 
 
 def _opt_float(raw: dict, key: str) -> float | None:
@@ -83,7 +101,7 @@ def normalize_exhibition(raw_payload: RawExhibition) -> NormalizedExhibition:
         title=title,
         title_en=_opt(raw, "title_en"),
         description=_opt(raw, "description"),
-        poster_image_url=_opt(raw, "poster_image_url"),
+        poster_image_url=_poster_image_url(raw),
         medium=medium,
         exhibition_type=exhibition_type,
         genre_tags=raw.get("genre_tags") or [],

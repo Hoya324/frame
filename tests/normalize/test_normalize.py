@@ -68,6 +68,38 @@ def test_normalize_records_warning_when_date_unparseable():
     assert "date_range" in normalized.warnings
 
 
+def test_normalize_keeps_real_poster_url():
+    raw = RawExhibition(
+        source=SourceName.ARTMAP,
+        source_url="https://art-map.co.kr/exhibition/view.php?idx=1",
+        raw={
+            "title": "X",
+            "venue_name": "Y",
+            "poster_image_url": "https://art-map.co.kr/upload/poster123.jpg",
+        },
+    )
+    normalized = normalize_exhibition(raw)
+    assert str(normalized.poster_image_url) == "https://art-map.co.kr/upload/poster123.jpg"
+
+
+def test_normalize_drops_placeholder_poster_url():
+    placeholders = [
+        "https://topmuseum.jp/wp-content/uploads/2026/05/coming-soon.jpg",
+        "https://example.com/img/coming_soon.png",
+        "https://example.com/no-image.png",
+        "https://example.com/noimage.gif",
+        "https://example.com/assets/placeholder.jpg",
+        "https://example.com/dummy.jpg",
+    ]
+    for url in placeholders:
+        raw = RawExhibition(
+            source=SourceName.ARTMAP,
+            source_url="https://art-map.co.kr/exhibition/view.php?idx=1",
+            raw={"title": "X", "venue_name": "Y", "poster_image_url": url},
+        )
+        assert normalize_exhibition(raw).poster_image_url is None, url
+
+
 def test_normalize_requires_title():
     raw = RawExhibition(
         source=SourceName.ARTMAP,
