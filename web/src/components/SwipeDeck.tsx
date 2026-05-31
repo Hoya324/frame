@@ -6,7 +6,7 @@ import { PosterImage } from "@/components/PosterImage";
 import { StatusBadge } from "@/components/StatusBadge";
 import { useBookmarks } from "@/components/AuthProvider";
 import { useLang } from "@/components/LanguageProvider";
-import type { Exhibition } from "@/lib/catalog";
+import { localized, type Exhibition } from "@/lib/catalog";
 
 // Fisher–Yates shuffle so the deck order is fresh on every mount.
 function shuffle<T>(input: T[]): T[] {
@@ -37,7 +37,7 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
   const leaveTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   useEffect(() => () => { if (leaveTimer.current) clearTimeout(leaveTimer.current); }, []);
   const { toggle, isScrapped } = useBookmarks();
-  const { t } = useLang();
+  const { t, locale } = useLang();
   const router = useRouter();
   const [copied, setCopied] = useState(false);
   const copiedTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -88,7 +88,7 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
   const share = async () => {
     const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
     const url = `${window.location.origin}${basePath}/exhibitions/${current.id}`;
-    const title = bilingual(current.title, current.titleEn);
+    const title = localized(current.title, current.tr, locale, "title") ?? current.title;
     if (typeof navigator !== "undefined" && navigator.share) {
       try {
         await navigator.share({ title, url });
