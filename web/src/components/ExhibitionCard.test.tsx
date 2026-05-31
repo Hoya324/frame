@@ -10,12 +10,13 @@ import { ExhibitionCard } from "@/components/ExhibitionCard";
 import type { Exhibition } from "@/lib/catalog";
 
 const E: Exhibition = {
-  id: "e1", title: "을지로의 밤", titleEn: null, posterImageUrl: "https://x/p.jpg",
+  id: "e1", title: "을지로의 밤", posterImageUrl: "https://x/p.jpg",
   description: null, medium: "photo", exhibitionType: "group", genreTags: [],
   feeType: "free", priceMin: null, priceMax: null, startDate: "2026-05-01",
   endDate: "2026-06-02", status: "ongoing", openHours: null,
-  venue: { id: "v", name: "갤러리 룩스", region: "서울", district: "을지로", lat: null, lng: null },
+  venue: { id: "v", name: "갤러리 룩스", region: "서울", district: "을지로", lat: null, lng: null, lang: null, tr: {} },
   artists: [], sourceUrl: null, featured: false, popularityScore: null,
+  lang: null, tr: {},
 };
 
 describe("ExhibitionCard", () => {

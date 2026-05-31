@@ -24,7 +24,6 @@ export function ExhibitionDetailView({ e }: { e: Exhibition }) {
             {[e.medium, e.exhibitionType].filter(Boolean).join(" · ")}
           </div>
           <h1 className="mt-3 text-3xl font-extrabold tracking-tight">{e.title}</h1>
-          {e.titleEn && <div className="mt-1 text-tx2">{e.titleEn}</div>}
           <div className="mt-5 space-y-1.5 text-sm">
             <div><span className="text-tx3">{t("detail.venue")}</span>  {e.venue?.name ?? t("common.tbd")}{e.venue?.district ? ` · ${e.venue.district}` : ""}</div>
             <div className="flex items-center gap-2"><span><span className="text-tx3">{t("detail.period")}</span>  {e.startDate} – {e.endDate}</span><StatusBadge e={e} /></div>

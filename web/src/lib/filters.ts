@@ -30,7 +30,7 @@ export function searchExhibitions(list: Exhibition[], q: string): Exhibition[] {
   if (!query) return list;
   return list.filter((e) => {
     const hay = [
-      e.title, e.titleEn ?? "", e.venue?.name ?? "",
+      e.title, e.venue?.name ?? "",
       ...e.artists.map((a) => a.name), ...e.genreTags,
     ].join(" ").toLowerCase();
     return hay.includes(query);

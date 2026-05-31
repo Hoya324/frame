@@ -4,12 +4,11 @@ import { PosterImage } from "@/components/PosterImage";
 import { StatusBadge } from "@/components/StatusBadge";
 import { ScrapButton } from "@/components/ScrapButton";
 import { useLang } from "@/components/LanguageProvider";
-import { bilingual } from "@/lib/i18n";
 import type { Exhibition } from "@/lib/catalog";
 
 export function ExhibitionCard({ exhibition: e, today }: { exhibition: Exhibition; today?: Date }) {
   const { t } = useLang();
-  const title = bilingual(e.title, e.titleEn);
+  const title = e.title;
   return (
     <Link href={`/exhibitions/${e.id}`} className="group block">
       <div className="relative aspect-[3/4] overflow-hidden rounded-[3px] border border-line">

@@ -5,7 +5,6 @@ import { PosterImage } from "@/components/PosterImage";
 import { StatusBadge } from "@/components/StatusBadge";
 import { useBookmarks } from "@/components/AuthProvider";
 import { useLang } from "@/components/LanguageProvider";
-import { bilingual } from "@/lib/i18n";
 import type { Exhibition } from "@/lib/catalog";
 
 // Fisher–Yates shuffle so the deck order is fresh on every mount.
@@ -128,7 +127,7 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
         </div>
 
         <div className="absolute inset-x-0 bottom-24 px-6">
-          <h2 className="text-3xl font-extrabold tracking-tight">{bilingual(current.title, current.titleEn)}</h2>
+          <h2 className="text-3xl font-extrabold tracking-tight">{current.title}</h2>
           <div className="mt-2 text-sm text-tx2">{current.venue?.name ?? t("common.venueTbd")}</div>
         </div>
       </div>

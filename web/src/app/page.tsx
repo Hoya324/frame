@@ -9,7 +9,6 @@ import { FilterChips } from "@/components/FilterChips";
 import { PosterImage } from "@/components/PosterImage";
 import { SwipeDeck } from "@/components/SwipeDeck";
 import { useLang } from "@/components/LanguageProvider";
-import { bilingual } from "@/lib/i18n";
 import type { Exhibition } from "@/lib/catalog";
 
 export default function Home() {
@@ -139,7 +138,7 @@ function ExhibitionCardHero({ e }: { e: Exhibition }) {
       <PosterImage src={e.posterImageUrl} alt={e.title} />
       <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/90 to-transparent p-6">
         <div className="text-[11px] font-semibold uppercase tracking-widest text-tx2">{t("home.featured")}</div>
-        <h2 className="mt-2 text-2xl font-extrabold tracking-tight">{bilingual(e.title, e.titleEn)}</h2>
+        <h2 className="mt-2 text-2xl font-extrabold tracking-tight">{e.title}</h2>
         <div className="mt-2 text-sm text-tx2">
           {e.venue?.name} · {e.startDate}–{e.endDate}
         </div>
