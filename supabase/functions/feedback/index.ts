@@ -45,47 +45,63 @@ Deno.serve(async (req) => {
   if (req.method === "OPTIONS") return new Response("ok", { headers: cors });
   if (req.method !== "POST") return json({ error: "method not allowed" }, 405, cors);
 
-  let body: unknown;
+  // Wrap the whole handler so that any unexpected throw still returns a
+  // response carrying CORS headers. Without this, an uncaught exception makes
+  // the Edge runtime emit a bare 500 with no CORS headers, which the browser
+  // surfaces only as an opaque "CORS error" instead of a readable status.
   try {
-    body = await req.json();
-  } catch {
-    return json({ error: "invalid json" }, 400, cors);
+    let body: unknown;
+    try {
+      body = await req.json();
+    } catch {
+      return json({ error: "invalid json" }, 400, cors);
+    }
+
+    const validationError = validate(body);
+    if (validationError) return json({ error: validationError }, 400, cors);
+
+    const apiKey = Deno.env.get("RESEND_API_KEY");
+    const to = Deno.env.get("FEEDBACK_TO");
+    const from = Deno.env.get("FEEDBACK_FROM");
+    if (!apiKey || !to || !from) {
+      console.error("feedback: missing RESEND_API_KEY / FEEDBACK_TO / FEEDBACK_FROM");
+      return json({ error: "server misconfigured" }, 500, cors);
+    }
+
+    const b = body as { type: string; message: string; replyTo: string; images?: { filename: string; dataBase64: string }[] };
+    const userId = userIdFromJwt(req.headers.get("authorization"));
+    const typeLabel = TYPE_LABEL[b.type] ?? b.type;
+    const subject = `[FRAME 제보][${typeLabel}] ${b.message.slice(0, 40)}`;
+    const html = [
+      "<h2>FRAME 제보</h2>",
+      `<p><b>유형:</b> ${escapeHtml(typeLabel)}</p>`,
+      `<p><b>제보자 이메일:</b> ${escapeHtml(b.replyTo)}</p>`,
+      `<p><b>user_id:</b> ${escapeHtml(userId)}</p>`,
+      "<hr/>",
+      `<p style="white-space:pre-wrap">${escapeHtml(b.message)}</p>`,
+    ].join("");
+    const attachments = (b.images ?? []).map((img) => ({ filename: img.filename, content: img.dataBase64 }));
+
+    let res: Response;
+    try {
+      res = await fetch("https://api.resend.com/emails", {
+        method: "POST",
+        headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
+        body: JSON.stringify({ from, to, reply_to: b.replyTo, subject, html, attachments }),
+      });
+    } catch (err) {
+      console.error("feedback: resend fetch threw", err);
+      return json({ error: "email failed", detail: String(err) }, 502, cors);
+    }
+
+    if (!res.ok) {
+      const detail = await res.text();
+      console.error("feedback: resend failed", res.status, detail);
+      return json({ error: "email failed", detail }, 502, cors);
+    }
+    return json({ ok: true }, 200, cors);
+  } catch (err) {
+    console.error("feedback: unhandled error", err);
+    return json({ error: "internal", detail: String(err) }, 500, cors);
   }
-
-  const validationError = validate(body);
-  if (validationError) return json({ error: validationError }, 400, cors);
-
-  const apiKey = Deno.env.get("RESEND_API_KEY");
-  const to = Deno.env.get("FEEDBACK_TO");
-  const from = Deno.env.get("FEEDBACK_FROM");
-  if (!apiKey || !to || !from) {
-    console.error("feedback: missing RESEND_API_KEY / FEEDBACK_TO / FEEDBACK_FROM");
-    return json({ error: "server misconfigured" }, 500, cors);
-  }
-
-  const b = body as { type: string; message: string; replyTo: string; images?: { filename: string; dataBase64: string }[] };
-  const userId = userIdFromJwt(req.headers.get("authorization"));
-  const typeLabel = TYPE_LABEL[b.type] ?? b.type;
-  const subject = `[FRAME 제보][${typeLabel}] ${b.message.slice(0, 40)}`;
-  const html = [
-    "<h2>FRAME 제보</h2>",
-    `<p><b>유형:</b> ${escapeHtml(typeLabel)}</p>`,
-    `<p><b>제보자 이메일:</b> ${escapeHtml(b.replyTo)}</p>`,
-    `<p><b>user_id:</b> ${escapeHtml(userId)}</p>`,
-    "<hr/>",
-    `<p style="white-space:pre-wrap">${escapeHtml(b.message)}</p>`,
-  ].join("");
-  const attachments = (b.images ?? []).map((img) => ({ filename: img.filename, content: img.dataBase64 }));
-
-  const res = await fetch("https://api.resend.com/emails", {
-    method: "POST",
-    headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
-    body: JSON.stringify({ from, to, reply_to: b.replyTo, subject, html, attachments }),
-  });
-
-  if (!res.ok) {
-    console.error("feedback: resend failed", res.status, await res.text());
-    return json({ error: "email failed" }, 502, cors);
-  }
-  return json({ ok: true }, 200, cors);
 });
