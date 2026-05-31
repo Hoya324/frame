@@ -43,12 +43,24 @@ def _row_lang(row: dict, fields: tuple[str, ...]) -> str:
 
 
 def _backfill_sheet(
-    repo: Repository, sheet: SheetName, fields: tuple[str, ...], translator: Translator
+    repo: Repository,
+    sheet: SheetName,
+    fields: tuple[str, ...],
+    translator: Translator,
+    flush_every: int,
 ) -> tuple[int, int, int, int]:
     rows = repo.read_rows(sheet)
-    patches: list[dict] = []
+    pending: list[dict] = []
+    rows_patched = 0
     fields_translated = 0
     errors = 0
+
+    def flush() -> None:
+        nonlocal rows_patched
+        if pending:
+            repo.patch_rows(sheet, list(pending))
+            rows_patched += len(pending)
+            pending.clear()
 
     for row in rows:
         try:
@@ -80,21 +92,27 @@ def _backfill_sheet(
                     errors += 1
 
         if changed:
-            patches.append({
+            pending.append({
                 "id": row["id"],
                 "tr": json.dumps(existing, ensure_ascii=False),
                 "lang": _row_lang(row, fields),
             })
+            if len(pending) >= flush_every:
+                flush()
 
-    if patches:
-        repo.patch_rows(sheet, patches)
-    return len(rows), len(patches), fields_translated, errors
+    flush()
+    return len(rows), rows_patched, fields_translated, errors
 
 
-def backfill_translations(repo: Repository, translator: Translator) -> TranslationReport:
+def backfill_translations(
+    repo: Repository, translator: Translator, flush_every: int = 25
+) -> TranslationReport:
+    # Flush patches in batches so a partial run (e.g. a CI timeout mid-backfill)
+    # persists what it finished. Re-runs skip already-translated rows, so the
+    # backfill converges across runs instead of losing a whole sheet's work.
     seen = patched = translated = errors = 0
     for sheet, fields in _FIELDS.items():
-        s, p, t, e = _backfill_sheet(repo, sheet, fields, translator)
+        s, p, t, e = _backfill_sheet(repo, sheet, fields, translator, flush_every)
         seen += s
         patched += p
         translated += t

@@ -14,7 +14,10 @@ concurrency:
 jobs:
   crawl:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    # Raised from 20: the first translation backfill (Argos, CPU-only) is heavy.
+    # Each run flushes progress in batches and skips already-translated rows, so
+    # even if a run hits this ceiling the backfill converges over later runs.
+    timeout-minutes: 45
     permissions:
       contents: write
     steps:
@@ -24,6 +27,13 @@ jobs:
           python-version: '3.12'
           cache: 'pip'
       - run: pip install -e .
+      # Persist the Argos language packages (~hundreds of MB) across runs so the
+      # translation backfill below doesn't re-download them every day.
+      - name: Cache Argos translation models
+        uses: actions/cache@v4
+        with:
+          path: ~/.local/share/argos-translate
+          key: argos-models-v1
       # Full reset: only on a manual run with the `reset` box checked. Wipes
       # every sheet's data (and restores headers) so the crawl below starts
       # from a clean store — purges stale non-photo rows, duplicates, and
@@ -65,6 +75,20 @@ jobs:
           SHEET_ID: ${{ secrets.SHEET_ID }}
           KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+      # Pre-translate title/description/name into the other locales (ko/en/ja)
+      # so the web UI can offer a translation toggle. Idempotent and batched:
+      # only missing locale/field combos are translated, and progress is flushed
+      # in chunks, so a run that hits the timeout still advances the backfill.
+      # `if: always()` mirrors the geocode step (run-all exits 1 by design on a
+      # per-source failure); `continue-on-error` so a translate blip can't strand
+      # the export/commit below on stale data.
+      - name: Backfill missing translations
+        if: always()
+        run: crawler backfill-translations
+        continue-on-error: true
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SHEET_ID: ${{ secrets.SHEET_ID }}
       # Regenerate the static catalog snapshot the web app reads, then commit
       # it back so the deployed site picks up the latest crawl. Runs even when
       # run-all exits non-zero (e.g. a single source 403s) — the sheet is

@@ -11,12 +11,14 @@ class FakeRepo:
                       SheetName.VENUES: rows.get("ven", []),
                       SheetName.ARTISTS: rows.get("art", [])}
         self.patched = {}
+        self.patch_calls = {}  # sheet -> list of per-flush row batches
 
     def read_rows(self, sheet):
         return [dict(r) for r in self._rows[sheet]]
 
     def patch_rows(self, sheet, rows):
-        self.patched[sheet] = rows
+        self.patch_calls.setdefault(sheet, []).append(list(rows))
+        self.patched[sheet] = [r for batch in self.patch_calls[sheet] for r in batch]
 
     def append_rows(self, sheet, rows): ...
     def clear_sheet(self, sheet): ...
@@ -62,6 +64,19 @@ def test_korean_row_with_no_other_locales_is_left_untouched():
     tr = json.loads(row["tr"])
     assert set(tr.keys()) == {"en", "ja"}
     assert tr["ja"]["title"] == "[ja]을지로의 밤"
+
+
+def test_flushes_incrementally_so_partial_progress_persists():
+    # 7 changed rows with flush_every=3 -> flush at 3, at 6, then a final flush
+    # of the trailing 1 => 3 writes. A CI timeout after any flush keeps that
+    # progress (the next run skips already-translated rows), so the backfill
+    # converges across runs instead of restarting from zero each time.
+    rows = [{"id": f"e{i}", "title": f"제목{i}", "description": "", "tr": "", "lang": ""}
+            for i in range(7)]
+    repo = FakeRepo({"exh": rows})
+    backfill_translations(repo, FakeTranslator(), flush_every=3)
+    assert len(repo.patch_calls[SheetName.EXHIBITIONS]) == 3
+    assert len(repo.patched[SheetName.EXHIBITIONS]) == 7
 
 
 def test_venue_and_artist_fields():
