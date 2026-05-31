@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 # sheet -> fields we translate
 _FIELDS: dict[SheetName, tuple[str, ...]] = {
     SheetName.EXHIBITIONS: ("title", "description"),
-    SheetName.VENUES: ("name", "region", "district"),
+    SheetName.VENUES: ("name",),
     SheetName.ARTISTS: ("name",),
 }
 

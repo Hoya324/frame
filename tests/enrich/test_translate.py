@@ -75,7 +75,7 @@ def test_venue_and_artist_fields():
     vtr = json.loads(v["tr"])
     # name 은 라틴(en)으로 판정 -> en 제외, ko/ja 로 번역
     assert vtr["ko"]["name"] == "[ko]BOOK AND SONS"
-    # region '世田谷' 은 ja 로 판정 -> ko/en 으로 번역
-    assert vtr["ko"]["region"] == "[ko]世田谷"
+    # region/district 는 UI 에 노출되지 않으므로 번역하지 않는다
+    assert "region" not in vtr["ko"]
     a = repo.patched[SheetName.ARTISTS][0]
     assert json.loads(a["tr"])["ko"]["name"] == "[ko]戎康友"

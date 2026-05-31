@@ -18,7 +18,7 @@ export interface Exhibition {
   startDate: string | null; endDate: string | null;
   status: Status; openHours: string | null;
   venue: VenueEmbed | null;
-  artists: { id: string; name: string; tr: TrMap }[];
+  artists: { id: string; name: string; lang: string | null; tr: TrMap }[];
   sourceUrl: string | null; featured: boolean; popularityScore: number | null;
   lang: string | null; tr: TrMap;
 }
@@ -32,7 +32,7 @@ export interface Catalog {
   generatedAt: string;
   exhibitions: Exhibition[];
   venues: Venue[];
-  artists: { id: string; name: string; tr: TrMap }[];
+  artists: { id: string; name: string; lang: string | null; tr: TrMap }[];
 }
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
@@ -66,7 +66,7 @@ export function parseCatalog(raw: any): Catalog {
               district: e.venue.district ?? null, lat: e.venue.lat ?? null, lng: e.venue.lng ?? null,
               lang: e.venue.lang ?? null, tr: trOf(e.venue.tr) }
           : null,
-        artists: (e.artists ?? []).map((a: any) => ({ id: a.id, name: a.name, tr: trOf(a.tr) })),
+        artists: (e.artists ?? []).map((a: any) => ({ id: a.id, name: a.name, lang: a.lang ?? null, tr: trOf(a.tr) })),
         sourceUrl: e.source_url ?? null, featured: !!e.featured,
         popularityScore: e.popularity_score ?? null,
         lang: e.lang ?? null, tr: trOf(e.tr),
@@ -78,7 +78,7 @@ export function parseCatalog(raw: any): Catalog {
       country: v.country ?? null, lat: v.lat ?? null, lng: v.lng ?? null, website: v.website ?? null,
       lang: v.lang ?? null, tr: trOf(v.tr),
     }))),
-    artists: dedupeById((raw.artists ?? []).map((a: any) => ({ id: a.id, name: a.name, tr: trOf(a.tr) }))),
+    artists: dedupeById((raw.artists ?? []).map((a: any) => ({ id: a.id, name: a.name, lang: a.lang ?? null, tr: trOf(a.tr) }))),
   };
 }
 

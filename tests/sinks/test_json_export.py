@@ -103,8 +103,8 @@ def test_build_catalog_embeds_venue_and_artists():
         "region": "서울", "district": "삼청", "lat": 37.58, "lng": 126.98,
     }
     assert ex["artists"] == [
-        {"id": "a1", "name": "김작가", "tr": {}},
-        {"id": "a2", "name": "이작가", "tr": {}},
+        {"id": "a1", "name": "김작가", "lang": None, "tr": {}},
+        {"id": "a2", "name": "이작가", "lang": None, "tr": {}},
     ]
 
 
@@ -170,7 +170,9 @@ def test_build_catalog_drops_unknown_artist_ids():
         "featured": "FALSE", "popularity_score": "",
     }])
     catalog = build_catalog(repo, generated_at=GEN_AT)
-    assert catalog["exhibitions"][0]["artists"] == [{"id": "a1", "name": "있는작가", "tr": {}}]
+    assert catalog["exhibitions"][0]["artists"] == [
+        {"id": "a1", "name": "있는작가", "lang": None, "tr": {}}
+    ]
 
 
 def _repo_mixed_relevance() -> FakeRepository:

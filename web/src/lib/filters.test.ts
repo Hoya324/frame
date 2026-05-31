@@ -40,7 +40,7 @@ describe("searchExhibitions", () => {
   it("matches title, artist, venue (case-insensitive)", () => {
     const list = [
       ex({ id: "a", title: "도시의 표면" }),
-      ex({ id: "b", artists: [{ id: "1", name: "Kim Test", tr: {} }] }),
+      ex({ id: "b", artists: [{ id: "1", name: "Kim Test", lang: null, tr: {} }] }),
       ex({ id: "c", venue: { id: "v", name: "류가헌", region: null, district: null, lat: null, lng: null, lang: null, tr: {} } }),
     ];
     expect(searchExhibitions(list, "도시").map((e) => e.id)).toEqual(["a"]);

@@ -140,6 +140,7 @@ def _exhibition_json(row: dict, venues: dict[str, dict], artists: dict[str, dict
             {
                 "id": _id(artists[aid]["id"]),
                 "name": artists[aid]["name"],
+                "lang": _str_or_none(artists[aid].get("lang")),
                 "tr": _tr(artists[aid].get("tr")),
             }
             for aid in artist_ids
