@@ -53,3 +53,31 @@ def test_argos_translator_blank_passthrough(monkeypatch):
     _install_fake_argos(monkeypatch)
     t = ArgosTranslator()
     assert t.translate("   ", "en", "ko") == "   "
+
+
+def test_pivots_ko_to_ja_through_english(monkeypatch):
+    # Argos has no direct KO<->JA package and does not auto-pivot, so a non-English
+    # pair must be routed from->en then en->to. Earlier this raised AttributeError
+    # in CI and dropped every Japanese translation of Korean content.
+    from crawler.enrich.translator import ArgosTranslator
+
+    _pkg, trans = _install_fake_argos(monkeypatch)
+    t = ArgosTranslator()
+    assert t.translate("제목", "ko", "ja") == "[ja][en]제목"
+    assert trans.translate.call_args_list == [
+        (("제목", "ko", "en"),),
+        (("[en]제목", "en", "ja"),),
+    ]
+
+
+def test_ensure_installs_both_pivot_legs(monkeypatch):
+    from crawler.enrich.translator import ArgosTranslator
+
+    pkg, _trans = _install_fake_argos(monkeypatch)
+    ko_en = MagicMock(from_code="ko", to_code="en")
+    en_ja = MagicMock(from_code="en", to_code="ja")
+    pkg.get_available_packages = MagicMock(return_value=[ko_en, en_ja])
+    t = ArgosTranslator()
+    t.translate("제목", "ko", "ja")
+    ko_en.install.assert_called_once()
+    en_ja.install.assert_called_once()

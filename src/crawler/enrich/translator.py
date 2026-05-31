@@ -39,10 +39,19 @@ class Translator(Protocol):
 
 class ArgosTranslator:
     """Argos Translate wrapper. Installs missing language-pair packages on
-    first use, then delegates to argostranslate's auto-pivoting translate()."""
+    first use. Argos ships no direct KO<->JA package and does not auto-pivot,
+    so non-English pairs are routed through English (from->en->to)."""
 
     def __init__(self) -> None:
         self._ensured: set[tuple[str, str]] = set()
+
+    @staticmethod
+    def _legs(from_code: str, to_code: str) -> list[tuple[str, str]]:
+        """Legs to walk for a translation. English-touching pairs go direct;
+        any other pair pivots through English: from->en then en->to."""
+        if from_code == "en" or to_code == "en":
+            return [(from_code, to_code)]
+        return [(from_code, "en"), ("en", to_code)]
 
     def _ensure_pair(self, from_code: str, to_code: str) -> None:
         if (from_code, to_code) in self._ensured:
@@ -77,5 +86,8 @@ class ArgosTranslator:
             return text
         import argostranslate.translate as tr
 
-        self._ensure_pair(from_code, to_code)
-        return tr.translate(text, from_code, to_code)
+        out = text
+        for frm, to in self._legs(from_code, to_code):
+            self._ensure_pair(frm, to)
+            out = tr.translate(out, frm, to)
+        return out
