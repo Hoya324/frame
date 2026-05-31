@@ -221,13 +221,24 @@ def backfill_geocodes_cmd() -> None:
 
 
 @app.command("backfill-translations")
-def backfill_translations_cmd() -> None:
+def backfill_translations_cmd(
+    max_seconds: float = typer.Option(
+        1200.0,
+        help=(
+            "Wall-clock budget in seconds; the backfill stops (after flushing "
+            "progress) once exhausted so a CI job's later steps still run. The "
+            "next run resumes. Pass 0 to disable the budget and run to "
+            "completion (use for a one-shot full backfill with a high timeout)."
+        ),
+    ),
+) -> None:
     """Translate exhibition/venue/artist text into the other locales (one-time + incremental)."""
     from crawler.enrich.translate import backfill_translations
 
     repo = _build_repo()
     translator = _build_translator()
-    report = backfill_translations(repo, translator)
+    budget = max_seconds if max_seconds > 0 else None
+    report = backfill_translations(repo, translator, max_seconds=budget)
     typer.echo(
         f"translations: seen={report.rows_seen}, patched={report.rows_patched}, "
         f"fields={report.fields_translated}, errors={report.errors}"

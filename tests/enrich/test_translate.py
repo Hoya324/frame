@@ -79,6 +79,21 @@ def test_flushes_incrementally_so_partial_progress_persists():
     assert len(repo.patched[SheetName.EXHIBITIONS]) == 7
 
 
+def test_stops_at_time_budget_and_flushes_progress():
+    # The CI job has a fixed timeout; an unbounded backfill starves the later
+    # export/commit steps (the web JSON never refreshes). A wall-clock budget
+    # makes the backfill yield after flushing what it finished, so progress
+    # persists and the run still exports. Here a fake clock advances 1s/row and
+    # the 3s budget lets exactly 3 rows through before stopping.
+    rows = [{"id": f"e{i}", "title": f"제목{i}", "description": "", "tr": "", "lang": ""}
+            for i in range(10)]
+    repo = FakeRepo({"exh": rows})
+    clock = iter([0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+    backfill_translations(repo, FakeTranslator(), flush_every=100,
+                          max_seconds=3, now=lambda: next(clock))
+    assert len(repo.patched[SheetName.EXHIBITIONS]) == 3
+
+
 def test_venue_and_artist_fields():
     repo = FakeRepo({
         "ven": [{"id": "v1", "name": "BOOK AND SONS", "region": "世田谷",

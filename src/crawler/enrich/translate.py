@@ -10,6 +10,8 @@ from __future__ import annotations
 
 import json
 import logging
+import time
+from collections.abc import Callable
 from dataclasses import dataclass
 
 from crawler.enrich.translator import Translator, detect_lang, targets_for
@@ -48,12 +50,15 @@ def _backfill_sheet(
     fields: tuple[str, ...],
     translator: Translator,
     flush_every: int,
-) -> tuple[int, int, int, int]:
+    deadline: float | None,
+    now: Callable[[], float],
+) -> tuple[int, int, int, int, bool]:
     rows = repo.read_rows(sheet)
     pending: list[dict] = []
     rows_patched = 0
     fields_translated = 0
     errors = 0
+    stopped = False
 
     def flush() -> None:
         nonlocal rows_patched
@@ -63,6 +68,9 @@ def _backfill_sheet(
             pending.clear()
 
     for row in rows:
+        if deadline is not None and now() >= deadline:
+            stopped = True
+            break
         try:
             existing = json.loads(row.get("tr") or "{}")
         except (ValueError, TypeError):
@@ -101,20 +109,33 @@ def _backfill_sheet(
                 flush()
 
     flush()
-    return len(rows), rows_patched, fields_translated, errors
+    return len(rows), rows_patched, fields_translated, errors, stopped
 
 
 def backfill_translations(
-    repo: Repository, translator: Translator, flush_every: int = 25
+    repo: Repository,
+    translator: Translator,
+    flush_every: int = 25,
+    max_seconds: float | None = None,
+    now: Callable[[], float] = time.monotonic,
 ) -> TranslationReport:
     # Flush patches in batches so a partial run (e.g. a CI timeout mid-backfill)
     # persists what it finished. Re-runs skip already-translated rows, so the
     # backfill converges across runs instead of losing a whole sheet's work.
+    #
+    # max_seconds bounds the wall-clock budget: when exhausted the backfill stops
+    # (after flushing) so the CI job's later export/commit steps still run. The
+    # next run resumes where this one left off, so the JSON refreshes every run.
+    deadline = None if max_seconds is None else now() + max_seconds
     seen = patched = translated = errors = 0
     for sheet, fields in _FIELDS.items():
-        s, p, t, e = _backfill_sheet(repo, sheet, fields, translator, flush_every)
+        s, p, t, e, stopped = _backfill_sheet(
+            repo, sheet, fields, translator, flush_every, deadline, now
+        )
         seen += s
         patched += p
         translated += t
         errors += e
+        if stopped:
+            break
     return TranslationReport(seen, patched, translated, errors)

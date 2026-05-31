@@ -87,16 +87,21 @@ def test_backfill_translations_invokes_backfill(monkeypatch):
 
     calls = {}
 
-    def fake_backfill(repo, translator):
+    def fake_backfill(repo, translator, max_seconds=None):
         calls["called"] = True
+        calls["max_seconds"] = max_seconds
         return TranslationReport(rows_seen=3, rows_patched=1, fields_translated=2, errors=0)
 
     monkeypatch.setattr(cli, "_build_repo", lambda: object())
     monkeypatch.setattr(cli, "_build_translator", lambda: object())
     monkeypatch.setattr("crawler.enrich.translate.backfill_translations", fake_backfill)
 
-    cli.backfill_translations_cmd()
+    cli.backfill_translations_cmd(max_seconds=900.0)
     assert calls["called"] is True
+    assert calls["max_seconds"] == 900.0
+    # 0 disables the budget -> run to completion
+    cli.backfill_translations_cmd(max_seconds=0.0)
+    assert calls["max_seconds"] is None
 
 
 def test_export_json_writes_file(tmp_path, monkeypatch):
