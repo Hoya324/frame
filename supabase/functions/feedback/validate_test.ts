@@ -22,3 +22,9 @@ Deno.test("base64Bytes estimates length", () => {
   assertEq(base64Bytes("AAAA"), 3, "b64-3");
   assertEq(base64Bytes("AA=="), 1, "b64-1");
 });
+Deno.test("rejects null body", () => assertEq(validate(null), "invalid body", "null"));
+Deno.test("rejects oversized image", () => {
+  const big = "A".repeat(Math.ceil((5 * 1024 * 1024 + 1) / 3) * 4);
+  const img = { filename: "big.png", type: "image/png", dataBase64: big };
+  assertEq(validate({ type: "bug", message: "hi", replyTo: "a@b.co", images: [img] }), "image too large", "big");
+});
