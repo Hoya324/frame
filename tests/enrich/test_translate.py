@@ -66,7 +66,8 @@ def test_korean_row_with_no_other_locales_is_left_untouched():
 
 def test_venue_and_artist_fields():
     repo = FakeRepo({
-        "ven": [{"id": "v1", "name": "BOOK AND SONS", "region": "世田谷", "district": "", "tr": "", "lang": ""}],
+        "ven": [{"id": "v1", "name": "BOOK AND SONS", "region": "世田谷",
+                 "district": "", "tr": "", "lang": ""}],
         "art": [{"id": "a1", "name": "戎康友", "tr": "", "lang": ""}],
     })
     backfill_translations(repo, FakeTranslator())
