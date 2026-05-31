@@ -50,6 +50,17 @@ def _bool(value: object) -> bool:
     return str(value).strip().upper() == "TRUE"
 
 
+def _tr(value: object) -> dict:
+    """Parse the stored ``tr`` JSON column into a nested {locale:{field:text}} dict."""
+    if not value:
+        return {}
+    try:
+        parsed = json.loads(value) if isinstance(value, str) else value
+    except (ValueError, TypeError):
+        return {}
+    return parsed if isinstance(parsed, dict) else {}
+
+
 # Sources that crawl all art genres, not just photography. Their rows are only
 # kept when the classified medium is photo-adjacent. Every other source is
 # photo-dedicated (or already photo-filtered at the source), so its rows are
@@ -68,7 +79,8 @@ def _venue_full(row: dict) -> dict:
     return {
         "id": _id(row["id"]),
         "name": row.get("name", ""),
-        "name_en": _str_or_none(row.get("name_en")),
+        "lang": _str_or_none(row.get("lang")),
+        "tr": _tr(row.get("tr")),
         "venue_type": _str_or_none(row.get("venue_type")),
         "region": _str_or_none(row.get("region")),
         "district": _str_or_none(row.get("district")),
@@ -84,6 +96,8 @@ def _venue_embed(row: dict) -> dict:
     return {
         "id": _id(row["id"]),
         "name": row.get("name", ""),
+        "lang": _str_or_none(row.get("lang")),
+        "tr": _tr(row.get("tr")),
         "region": _str_or_none(row.get("region")),
         "district": _str_or_none(row.get("district")),
         "lat": _float_or_none(row.get("latitude")),
@@ -95,7 +109,8 @@ def _artist_full(row: dict) -> dict:
     return {
         "id": _id(row["id"]),
         "name": row.get("name", ""),
-        "name_en": _str_or_none(row.get("name_en")),
+        "lang": _str_or_none(row.get("lang")),
+        "tr": _tr(row.get("tr")),
     }
 
 
@@ -106,7 +121,8 @@ def _exhibition_json(row: dict, venues: dict[str, dict], artists: dict[str, dict
     return {
         "id": _id(row["id"]),
         "title": row.get("title", ""),
-        "title_en": _str_or_none(row.get("title_en")),
+        "lang": _str_or_none(row.get("lang")),
+        "tr": _tr(row.get("tr")),
         "poster_image_url": _str_or_none(row.get("poster_image_url")),
         "description": _str_or_none(row.get("description")),
         "medium": _str_or_none(row.get("medium")),
@@ -121,7 +137,11 @@ def _exhibition_json(row: dict, venues: dict[str, dict], artists: dict[str, dict
         "open_hours": _str_or_none(row.get("open_hours")),
         "venue": _venue_embed(venue_row) if venue_row else None,
         "artists": [
-            {"id": _id(artists[aid]["id"]), "name": artists[aid]["name"]}
+            {
+                "id": _id(artists[aid]["id"]),
+                "name": artists[aid]["name"],
+                "tr": _tr(artists[aid].get("tr")),
+            }
             for aid in artist_ids
             if aid in artists
         ],

@@ -5,11 +5,14 @@ from pathlib import Path
 from crawler.sinks.base import SheetName
 from crawler.sinks.fake import FakeRepository
 from crawler.sinks.json_export import (
+    _artist_full,
     _bool,
+    _exhibition_json,
     _float_or_none,
     _int_or_none,
     _split,
     _str_or_none,
+    _venue_full,
     build_catalog,
     write_catalog,
 )
@@ -87,19 +90,21 @@ def test_build_catalog_embeds_venue_and_artists():
     ex = catalog["exhibitions"][0]
     assert ex["id"] == "e1"
     assert ex["title"] == "빛과 시간의 기록"
-    assert ex["title_en"] is None
+    assert "title_en" not in ex
+    assert ex["tr"] == {}
+    assert ex["lang"] is None
     assert ex["genre_tags"] == ["documentary", "portrait"]
     assert ex["fee_type"] == "free"
     assert ex["price_min"] is None
     assert ex["featured"] is True
     assert ex["status"] == "ongoing"
     assert ex["venue"] == {
-        "id": "v1", "name": "한미사진미술관", "region": "서울",
-        "district": "삼청", "lat": 37.58, "lng": 126.98,
+        "id": "v1", "name": "한미사진미술관", "lang": None, "tr": {},
+        "region": "서울", "district": "삼청", "lat": 37.58, "lng": 126.98,
     }
     assert ex["artists"] == [
-        {"id": "a1", "name": "김작가"},
-        {"id": "a2", "name": "이작가"},
+        {"id": "a1", "name": "김작가", "tr": {}},
+        {"id": "a2", "name": "이작가", "tr": {}},
     ]
 
 
@@ -107,7 +112,7 @@ def test_build_catalog_lists_full_venues_and_artists():
     catalog = build_catalog(_seed_repo(), generated_at=GEN_AT)
     assert catalog["venues"][0]["lat"] == 37.58
     assert catalog["venues"][0]["website"] is None
-    assert catalog["artists"][1] == {"id": "a2", "name": "이작가", "name_en": "Lee"}
+    assert catalog["artists"][1] == {"id": "a2", "name": "이작가", "lang": None, "tr": {}}
 
 
 def test_build_catalog_handles_missing_venue_and_no_artists():
@@ -165,7 +170,7 @@ def test_build_catalog_drops_unknown_artist_ids():
         "featured": "FALSE", "popularity_score": "",
     }])
     catalog = build_catalog(repo, generated_at=GEN_AT)
-    assert catalog["exhibitions"][0]["artists"] == [{"id": "a1", "name": "있는작가"}]
+    assert catalog["exhibitions"][0]["artists"] == [{"id": "a1", "name": "있는작가", "tr": {}}]
 
 
 def _repo_mixed_relevance() -> FakeRepository:
@@ -256,6 +261,36 @@ def test_nonfinite_floats_are_dropped():
     venue = catalog["venues"][0]
     assert venue["lat"] is None  # NaN dropped
     assert venue["lng"] == 129.0
+
+
+def test_exhibition_json_emits_tr_and_lang_no_title_en():
+    row = {
+        "id": "e1", "title": "戎康友 展",
+        "lang": "ja",
+        "tr": json.dumps({"ko": {"title": "에비스 전", "description": "캘리포니아"}}),
+        "venue_id": "", "artist_ids": "",
+    }
+    out = _exhibition_json(row, {}, {})
+    assert out["lang"] == "ja"
+    assert out["tr"]["ko"]["title"] == "에비스 전"
+    assert "title_en" not in out
+
+
+def test_venue_and_artist_emit_tr_no_name_en():
+    v = _venue_full({"id": "v1", "name": "BOOK AND SONS",
+                     "lang": "en", "tr": json.dumps({"ko": {"name": "북앤선즈"}})})
+    assert v["tr"]["ko"]["name"] == "북앤선즈"
+    assert "name_en" not in v
+    a = _artist_full({"id": "a1", "name": "戎康友",
+                      "lang": "ja", "tr": json.dumps({"ko": {"name": "에비스"}})})
+    assert a["tr"]["ko"]["name"] == "에비스"
+    assert "name_en" not in a
+
+
+def test_tr_defaults_to_empty_dict_when_missing():
+    out = _exhibition_json({"id": "e1", "title": "x", "venue_id": "", "artist_ids": ""}, {}, {})
+    assert out["tr"] == {}
+    assert out["lang"] is None
 
 
 def test_written_file_is_strict_valid_json(tmp_path: Path):
