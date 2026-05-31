@@ -27,10 +27,16 @@ HEADERS: dict[SheetName, list[str]] = {
         # existing sheets can be migrated by appending — see
         # GspreadRepository.write_headers prefix-append logic.
         "price_breakdown", "price_notes",
+        # Added 2026-05-31 (translation backfill). Kept last so existing
+        # sheets get these via prefix-append migration, not a mismatch error.
+        "lang", "tr",
     ],
     SheetName.ARTISTS: [
         "id", "name", "name_en", "name_normalized", "bio", "instagram",
         "website", "sources", "first_seen_at", "updated_at",
+        # Added 2026-05-31 (translation backfill). Kept last so existing
+        # sheets get these via prefix-append migration, not a mismatch error.
+        "lang", "tr",
     ],
     SheetName.VENUES: [
         "id", "name", "name_en", "venue_type", "region", "district",
@@ -39,6 +45,9 @@ HEADERS: dict[SheetName, list[str]] = {
         # Added 2026-05-28 (japan expansion). Existing sheets get this
         # appended via _plan_header_write's prefix-append branch.
         "country",
+        # Added 2026-05-31 (translation backfill). Kept last so existing
+        # sheets get these via prefix-append migration, not a mismatch error.
+        "lang", "tr",
     ],
     SheetName.ORGANIZERS: [
         "id", "name", "name_en", "name_normalized", "organizer_type",
