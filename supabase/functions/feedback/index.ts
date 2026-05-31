@@ -31,7 +31,9 @@ function escapeHtml(s: string): string {
 function userIdFromJwt(auth: string | null): string {
   if (!auth) return "unknown";
   try {
-    const payload = JSON.parse(atob(auth.replace("Bearer ", "").split(".")[1]));
+    const seg = auth.replace("Bearer ", "").split(".")[1];
+    const b64 = seg.replace(/-/g, "+").replace(/_/g, "/");
+    const payload = JSON.parse(atob(b64));
     return payload.sub ?? "unknown";
   } catch {
     return "unknown";

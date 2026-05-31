@@ -80,7 +80,8 @@ Resend로 메일을 보낸다. 클라이언트는 로그인 JWT로만 호출할 
 
     supabase functions deploy feedback
 
-`functions deploy`는 기본적으로 JWT 검증을 켠 채 배포한다(`--no-verify-jwt` 금지).
+JWT 검증은 `supabase/config.toml`의 `[functions.feedback] verify_jwt = true`로
+고정되어 있다. 배포 기본값에 의존하지 않으며 `--no-verify-jwt`는 금지.
 
 ### 로컬 테스트
 
