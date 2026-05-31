@@ -60,3 +60,29 @@ crawler export-json       # write web/public/data/exhibitions.json snapshot
 CLI → pipeline → (source extractor → normalizer → entity resolver → geocoder → sheets writer). Each stage is independently testable; sources only know HTTP/HTML, normalizers are pure functions, the resolver only talks to the sink via the Repository protocol, and the gspread implementation is one of two repositories (the other is in-memory for tests).
 
 See `docs/superpowers/specs/2026-05-28-photo-exhibition-crawler-design.md` for full design.
+
+## 피드백 제보 (Supabase Edge Function)
+
+마이페이지의 버그·피드백 폼은 `supabase/functions/feedback` Edge Function을 통해
+Resend로 메일을 보낸다. 클라이언트는 로그인 JWT로만 호출할 수 있다(verify_jwt 기본 활성).
+
+### 시크릿 설정 (한 번)
+
+    supabase secrets set RESEND_API_KEY=re_xxx
+    supabase secrets set FEEDBACK_TO=hoyana1225@gmail.com
+    supabase secrets set FEEDBACK_FROM="FRAME <notify@frame-photo.cloud>"
+    # 선택: 허용 오리진 (기본 https://frame-photo.cloud,http://localhost:3000)
+    supabase secrets set FEEDBACK_ALLOWED_ORIGINS="https://frame-photo.cloud"
+
+`FEEDBACK_FROM`의 도메인은 Resend에서 검증된 발신 도메인이어야 한다.
+
+### 배포
+
+    supabase functions deploy feedback
+
+JWT 검증은 `supabase/config.toml`의 `[functions.feedback] verify_jwt = true`로
+고정되어 있다. 배포 기본값에 의존하지 않으며 `--no-verify-jwt`는 금지.
+
+### 로컬 테스트
+
+    cd supabase/functions/feedback && deno test

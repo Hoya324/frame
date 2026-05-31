@@ -1,6 +1,7 @@
 "use client";
 import { useAuth, useBookmarks } from "@/components/AuthProvider";
 import { SubscriptionSettings } from "@/components/SubscriptionSettings";
+import { FeedbackForm } from "@/components/FeedbackForm";
 import { useLang } from "@/components/LanguageProvider";
 
 export default function MePage() {
@@ -36,6 +37,7 @@ export default function MePage() {
         </div>
       </div>
       <div className="mt-4"><SubscriptionSettings /></div>
+      <div className="mt-4"><FeedbackForm /></div>
       <button
         onClick={() => void signOut()}
         className="mt-6 rounded-md border border-line2 px-4 py-2 text-sm font-medium hover:bg-panel2"
