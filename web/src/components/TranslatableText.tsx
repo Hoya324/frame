@@ -25,6 +25,7 @@ export function TranslatableText({
       </span>
       <button
         type="button"
+        aria-pressed={showTr}
         onClick={(e) => { e.preventDefault(); e.stopPropagation(); setShowTr((v) => !v); }}
         className="ml-1.5 rounded-full border border-line2 px-1.5 py-0.5 align-middle text-[9.5px] text-tx3 hover:bg-panel2"
       >
