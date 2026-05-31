@@ -81,6 +81,24 @@ def test_hard_failures_excludes_soft_fail_sources():
     assert [r.name for r in hard] == ["goeun"]
 
 
+def test_backfill_translations_invokes_backfill(monkeypatch):
+    import crawler.cli as cli
+    from crawler.enrich.translate import TranslationReport
+
+    calls = {}
+
+    def fake_backfill(repo, translator):
+        calls["called"] = True
+        return TranslationReport(rows_seen=3, rows_patched=1, fields_translated=2, errors=0)
+
+    monkeypatch.setattr(cli, "_build_repo", lambda: object())
+    monkeypatch.setattr(cli, "_build_translator", lambda: object())
+    monkeypatch.setattr("crawler.enrich.translate.backfill_translations", fake_backfill)
+
+    cli.backfill_translations_cmd()
+    assert calls["called"] is True
+
+
 def test_export_json_writes_file(tmp_path, monkeypatch):
     from crawler.sinks.base import SheetName
     from crawler.sinks.fake import FakeRepository

@@ -4,11 +4,11 @@ import type { Exhibition } from "@/lib/catalog";
 
 function ex(p: Partial<Exhibition>): Exhibition {
   return {
-    id: "x", title: "T", titleEn: null, posterImageUrl: null, description: null,
+    id: "x", title: "T", posterImageUrl: null, description: null,
     medium: "photo", exhibitionType: "solo", genreTags: [], feeType: "free",
     priceMin: null, priceMax: null, startDate: "2026-05-01", endDate: "2026-06-30",
     status: "ongoing", openHours: null, venue: null, artists: [],
-    sourceUrl: null, featured: false, popularityScore: null, ...p,
+    sourceUrl: null, featured: false, popularityScore: null, lang: null, tr: {}, ...p,
   };
 }
 const EMPTY: FilterState = { statuses: [], mediums: [], types: [], freeOnly: false, regions: [] };
@@ -29,8 +29,8 @@ describe("applyFilters", () => {
   });
   it("filters by region from venue", () => {
     const out = applyFilters(
-      [ex({ id: "a", venue: { id: "v", name: "n", region: "서울", district: "삼청", lat: null, lng: null } }),
-       ex({ id: "b", venue: { id: "v2", name: "n", region: "부산", district: null, lat: null, lng: null } })],
+      [ex({ id: "a", venue: { id: "v", name: "n", region: "서울", district: "삼청", lat: null, lng: null, lang: null, tr: {} } }),
+       ex({ id: "b", venue: { id: "v2", name: "n", region: "부산", district: null, lat: null, lng: null, lang: null, tr: {} } })],
       { ...EMPTY, regions: ["서울"] });
     expect(out.map((e) => e.id)).toEqual(["a"]);
   });
@@ -40,8 +40,8 @@ describe("searchExhibitions", () => {
   it("matches title, artist, venue (case-insensitive)", () => {
     const list = [
       ex({ id: "a", title: "도시의 표면" }),
-      ex({ id: "b", artists: [{ id: "1", name: "Kim Test" }] }),
-      ex({ id: "c", venue: { id: "v", name: "류가헌", region: null, district: null, lat: null, lng: null } }),
+      ex({ id: "b", artists: [{ id: "1", name: "Kim Test", tr: {} }] }),
+      ex({ id: "c", venue: { id: "v", name: "류가헌", region: null, district: null, lat: null, lng: null, lang: null, tr: {} } }),
     ];
     expect(searchExhibitions(list, "도시").map((e) => e.id)).toEqual(["a"]);
     expect(searchExhibitions(list, "kim").map((e) => e.id)).toEqual(["b"]);

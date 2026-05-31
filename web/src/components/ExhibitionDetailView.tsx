@@ -2,6 +2,8 @@
 import { PosterImage } from "@/components/PosterImage";
 import { ScrapButton } from "@/components/ScrapButton";
 import { StatusBadge } from "@/components/StatusBadge";
+import { TranslatableText } from "@/components/TranslatableText";
+import { TranslationPopover } from "@/components/TranslationPopover";
 import { useLang } from "@/components/LanguageProvider";
 import type { Exhibition } from "@/lib/catalog";
 
@@ -23,16 +25,29 @@ export function ExhibitionDetailView({ e }: { e: Exhibition }) {
           <div className="text-[11px] font-semibold uppercase tracking-widest text-tx3">
             {[e.medium, e.exhibitionType].filter(Boolean).join(" · ")}
           </div>
-          <h1 className="mt-3 text-3xl font-extrabold tracking-tight">{e.title}</h1>
-          {e.titleEn && <div className="mt-1 text-tx2">{e.titleEn}</div>}
+          <h1 className="mt-3 text-3xl font-extrabold tracking-tight">
+            <TranslatableText original={e.title} tr={e.tr} field="title" />
+          </h1>
           <div className="mt-5 space-y-1.5 text-sm">
-            <div><span className="text-tx3">{t("detail.venue")}</span>  {e.venue?.name ?? t("common.tbd")}{e.venue?.district ? ` · ${e.venue.district}` : ""}</div>
+            <div><span className="text-tx3">{t("detail.venue")}</span>  {e.venue ? <TranslatableText original={e.venue.name} tr={e.venue.tr} field="name" /> : t("common.tbd")}{e.venue?.district ? ` · ${e.venue.district}` : ""}</div>
             <div className="flex items-center gap-2"><span><span className="text-tx3">{t("detail.period")}</span>  {e.startDate} – {e.endDate}</span><StatusBadge e={e} /></div>
             <div><span className="text-tx3">{t("detail.fee")}</span>  {price}</div>
-            {e.artists.length > 0 && <div><span className="text-tx3">{t("detail.artists")}</span>  {e.artists.map((a) => a.name).join(", ")}</div>}
+            {e.artists.length > 0 && <div><span className="text-tx3">{t("detail.artists")}</span>  {e.artists.map((a, i) => (
+              <span key={a.id}>
+                {i > 0 ? ", " : ""}
+                <TranslatableText original={a.name} tr={a.tr} field="name" />
+              </span>
+            ))}</div>}
             {e.openHours && <div><span className="text-tx3">{t("detail.hours")}</span>  {e.openHours}</div>}
           </div>
-          {e.description && <p className="mt-6 whitespace-pre-line text-[14px] leading-relaxed text-tx2">{e.description}</p>}
+          {e.description && (
+            <TranslationPopover
+              original={e.description}
+              tr={e.tr}
+              field="description"
+              className="mt-6 whitespace-pre-line text-[14px] leading-relaxed text-tx2"
+            />
+          )}
           <div className="mt-7 flex items-center gap-3">
             <ScrapButton exhibitionId={e.id} />
             {e.sourceUrl && (

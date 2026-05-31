@@ -73,5 +73,18 @@ def test_init_sheets_venues_includes_country():
     repo = _RecordingRepo()
     init_sheets(repo)
     assert "country" in repo.headers[SheetName.VENUES]
-    # country must be last so prefix-append migration is safe on legacy sheets.
-    assert repo.headers[SheetName.VENUES][-1] == "country"
+    # country was added after the original columns; it must appear before
+    # lang/tr (the most recently appended pair) so old sheets can migrate via
+    # prefix-append without a mismatch error.
+    headers = repo.headers[SheetName.VENUES]
+    assert headers.index("country") < headers.index("lang")
+
+
+def test_init_sheets_translation_columns_present_and_last():
+    repo = _RecordingRepo()
+    init_sheets(repo)
+    for sheet in (SheetName.EXHIBITIONS, SheetName.VENUES, SheetName.ARTISTS):
+        headers = repo.headers[sheet]
+        assert "lang" in headers and "tr" in headers
+        # tail placement keeps prefix-append migration safe on legacy sheets
+        assert headers[-2:] == ["lang", "tr"]
