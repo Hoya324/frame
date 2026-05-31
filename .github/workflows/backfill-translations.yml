@@ -1,0 +1,57 @@
+name: backfill-translations
+# One-shot, manual full translation backfill. The daily `crawl` job runs the
+# backfill under a 20-minute wall-clock budget so it never starves export/commit;
+# that converges over several days. This workflow instead runs the backfill to
+# completion (`--max-seconds 0`) under a long timeout to populate everything in a
+# single pass, then exports + commits the refreshed catalog. Re-run it any time
+# (e.g. after a full sheet reset). Idempotent: it only fills missing translations.
+on:
+  workflow_dispatch:
+# Share the crawl group so a manual backfill never writes/commits the sheet at
+# the same time as the daily crawl.
+concurrency:
+  group: crawl
+  cancel-in-progress: false
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    # Argos is CPU-only and the first full pass over every row is heavy. If even
+    # this ceiling is hit, batched flushes persist progress and a re-run resumes.
+    timeout-minutes: 350
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+      - run: pip install -e .
+      # Same cache key as crawl.yml so the two workflows share Argos packages.
+      - name: Cache Argos translation models
+        uses: actions/cache@v4
+        with:
+          path: ~/.local/share/argos-translate
+          key: argos-models-v1
+      # --max-seconds 0 disables the per-run budget: translate everything now.
+      - name: Backfill all translations
+        run: crawler backfill-translations --max-seconds 0
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SHEET_ID: ${{ secrets.SHEET_ID }}
+      # Regenerate the static catalog snapshot the web app reads, then commit it
+      # back so the deployed site picks up the freshly translated content.
+      - name: Export catalog JSON for web
+        if: always()
+        run: crawler export-json --out web/public/data/exhibitions.json
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SHEET_ID: ${{ secrets.SHEET_ID }}
+      - name: Commit updated catalog
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/public/data/exhibitions.json
+          git diff --staged --quiet || git commit -m "chore(data): refresh exhibitions.json (full translation backfill)"
+          git push
