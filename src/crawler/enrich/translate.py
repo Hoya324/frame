@@ -19,11 +19,14 @@ from crawler.sinks.base import Repository, SheetName
 
 logger = logging.getLogger(__name__)
 
-# sheet -> fields we translate
+# sheet -> fields we translate. Venue and artist ``name`` are proper nouns:
+# offline MT maps them to unrelated phrases (e.g. 육명심 -> "About Us"), which is
+# worse than the original, so they are deliberately NOT translated. Out-of-scope
+# fields are pruned from existing ``tr`` on the next run (see _backfill_sheet).
 _FIELDS: dict[SheetName, tuple[str, ...]] = {
     SheetName.EXHIBITIONS: ("title", "description"),
-    SheetName.VENUES: ("name",),
-    SheetName.ARTISTS: ("name",),
+    SheetName.VENUES: (),
+    SheetName.ARTISTS: (),
 }
 
 
@@ -79,6 +82,22 @@ def _backfill_sheet(
             existing = {}
 
         changed = False
+
+        # Prune translations whose field is no longer in scope (e.g. proper-noun
+        # name fields we stopped translating). Re-running the backfill after a
+        # scope change self-heals stale/garbage translations out of the sheet.
+        for loc in list(existing.keys()):
+            bucket = existing[loc]
+            if not isinstance(bucket, dict):
+                del existing[loc]
+                changed = True
+                continue
+            for f in [k for k in bucket if k not in fields]:
+                del bucket[f]
+                changed = True
+            if not bucket:
+                del existing[loc]
+
         for field in fields:
             text = str(row.get(field) or "").strip()
             if not text:
@@ -102,8 +121,10 @@ def _backfill_sheet(
         if changed:
             pending.append({
                 "id": row["id"],
-                "tr": json.dumps(existing, ensure_ascii=False),
-                "lang": _row_lang(row, fields),
+                # Cleared to empty when pruning leaves no translations, so a
+                # sheet dropped from scope ends up with blank tr/lang again.
+                "tr": json.dumps(existing, ensure_ascii=False) if existing else "",
+                "lang": _row_lang(row, fields) if existing else "",
             })
             if len(pending) >= flush_every:
                 flush()
