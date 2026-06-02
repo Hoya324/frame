@@ -55,8 +55,21 @@ def _build_geocoder():
 
 
 def _build_translator():
+    # Prefer the Gemini LLM (far better on proper nouns / mixed scripts than
+    # offline Argos). Fall back to Argos only when no API key is configured so
+    # local runs without a key still work.
+    import os
+
+    if os.environ.get("GEMINI_API_KEY"):
+        from crawler.enrich.translator import GeminiTranslator
+
+        return GeminiTranslator.from_env()
+
     from crawler.enrich.translator import ArgosTranslator
 
+    log.warning(
+        "GEMINI_API_KEY not set; falling back to Argos offline MT (low quality)"
+    )
     return ArgosTranslator()
 
 
@@ -231,6 +244,17 @@ def backfill_translations_cmd(
             "completion (use for a one-shot full backfill with a high timeout)."
         ),
     ),
+    reset: bool = typer.Option(
+        False,
+        "--reset",
+        help=(
+            "Clear existing in-scope translations first, then refill them (e.g. "
+            "after switching translation engines). The clear covers EVERY row "
+            "regardless of the budget, so a budget-cut run still persists the "
+            "cleared state and the recurring incremental job resumes refilling. "
+            "Run once; the recurring job must stay incremental (no --reset)."
+        ),
+    ),
 ) -> None:
     """Translate exhibition/venue/artist text into the other locales (one-time + incremental)."""
     from crawler.enrich.translate import backfill_translations
@@ -238,7 +262,7 @@ def backfill_translations_cmd(
     repo = _build_repo()
     translator = _build_translator()
     budget = max_seconds if max_seconds > 0 else None
-    report = backfill_translations(repo, translator, max_seconds=budget)
+    report = backfill_translations(repo, translator, max_seconds=budget, reset=reset)
     typer.echo(
         f"translations: seen={report.rows_seen}, patched={report.rows_patched}, "
         f"fields={report.fields_translated}, errors={report.errors}"

@@ -87,21 +87,42 @@ def test_backfill_translations_invokes_backfill(monkeypatch):
 
     calls = {}
 
-    def fake_backfill(repo, translator, max_seconds=None):
+    def fake_backfill(repo, translator, max_seconds=None, reset=False):
         calls["called"] = True
         calls["max_seconds"] = max_seconds
+        calls["reset"] = reset
         return TranslationReport(rows_seen=3, rows_patched=1, fields_translated=2, errors=0)
 
     monkeypatch.setattr(cli, "_build_repo", lambda: object())
     monkeypatch.setattr(cli, "_build_translator", lambda: object())
     monkeypatch.setattr("crawler.enrich.translate.backfill_translations", fake_backfill)
 
-    cli.backfill_translations_cmd(max_seconds=900.0)
+    cli.backfill_translations_cmd(max_seconds=900.0, reset=False)
     assert calls["called"] is True
     assert calls["max_seconds"] == 900.0
+    assert calls["reset"] is False  # incremental by default
     # 0 disables the budget -> run to completion
-    cli.backfill_translations_cmd(max_seconds=0.0)
+    cli.backfill_translations_cmd(max_seconds=0.0, reset=False)
     assert calls["max_seconds"] is None
+    # --reset rebuilds stale translations (one-shot full backfill)
+    cli.backfill_translations_cmd(max_seconds=0.0, reset=True)
+    assert calls["reset"] is True
+
+
+def test_build_translator_prefers_gemini_when_key_set(monkeypatch):
+    import crawler.cli as cli
+    from crawler.enrich.translator import GeminiTranslator
+
+    monkeypatch.setenv("GEMINI_API_KEY", "fake-key")
+    assert isinstance(cli._build_translator(), GeminiTranslator)
+
+
+def test_build_translator_falls_back_to_argos_without_key(monkeypatch):
+    import crawler.cli as cli
+    from crawler.enrich.translator import ArgosTranslator
+
+    monkeypatch.delenv("GEMINI_API_KEY", raising=False)
+    assert isinstance(cli._build_translator(), ArgosTranslator)
 
 
 def test_export_json_writes_file(tmp_path, monkeypatch):

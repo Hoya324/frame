@@ -55,6 +55,7 @@ def _backfill_sheet(
     flush_every: int,
     deadline: float | None,
     now: Callable[[], float],
+    reset: bool,
 ) -> tuple[int, int, int, int, bool]:
     rows = repo.read_rows(sheet)
     pending: list[dict] = []
@@ -69,6 +70,45 @@ def _backfill_sheet(
             repo.patch_rows(sheet, list(pending))
             rows_patched += len(pending)
             pending.clear()
+
+    # Reset: clear in-scope translations from EVERY row first (cheap, no API),
+    # persisting the cleared state. The fill loop below then treats those fields
+    # as missing and refills them with the current engine. Unlike an in-place
+    # overwrite this survives a budget cut — rows this pass never reaches are
+    # still cleared, so the recurring incremental backfill resumes and converges
+    # (an overwrite would leave stale translations that later runs skip).
+    if reset:
+        for row in rows:
+            try:
+                existing = json.loads(row.get("tr") or "{}")
+            except (ValueError, TypeError):
+                existing = {}
+            if not isinstance(existing, dict):
+                existing = {}
+            cleared = False
+            for loc in list(existing.keys()):
+                bucket = existing[loc]
+                if not isinstance(bucket, dict):
+                    del existing[loc]
+                    cleared = True
+                    continue
+                for f in [k for k in bucket if k in fields]:
+                    del bucket[f]
+                    cleared = True
+                if not bucket:
+                    del existing[loc]
+            if cleared:
+                # Mutate the in-memory row so the fill loop below sees it cleared
+                # without a re-read; the patch persists it for the next run.
+                row["tr"] = json.dumps(existing, ensure_ascii=False) if existing else ""
+                pending.append({
+                    "id": row["id"],
+                    "tr": row["tr"],
+                    "lang": _row_lang(row, fields) if existing else "",
+                })
+                if len(pending) >= flush_every:
+                    flush()
+        flush()
 
     for row in rows:
         if deadline is not None and now() >= deadline:
@@ -107,6 +147,8 @@ def _backfill_sheet(
                 bucket = existing.setdefault(loc, {})
                 if bucket.get(field):
                     continue  # already translated — idempotent skip
+                    # (reset already cleared stale in-scope fields above, so this
+                    # only skips fresh ones — keeping the run resumable).
                 try:
                     bucket[field] = translator.translate(text, src, loc)
                     fields_translated += 1
@@ -139,6 +181,7 @@ def backfill_translations(
     flush_every: int = 25,
     max_seconds: float | None = None,
     now: Callable[[], float] = time.monotonic,
+    reset: bool = False,
 ) -> TranslationReport:
     # Flush patches in batches so a partial run (e.g. a CI timeout mid-backfill)
     # persists what it finished. Re-runs skip already-translated rows, so the
@@ -151,7 +194,7 @@ def backfill_translations(
     seen = patched = translated = errors = 0
     for sheet, fields in _FIELDS.items():
         s, p, t, e, stopped = _backfill_sheet(
-            repo, sheet, fields, translator, flush_every, deadline, now
+            repo, sheet, fields, translator, flush_every, deadline, now, reset
         )
         seen += s
         patched += p

@@ -1,10 +1,15 @@
-"""Offline translation (Argos) plus source-language detection by script."""
+"""Translation backends (LLM via Gemini, offline Argos fallback) plus
+source-language detection by script."""
 
 from __future__ import annotations
 
 import logging
+import os
 import re
 from typing import Protocol
+
+import httpx
+from tenacity import retry, retry_if_exception, stop_after_attempt, wait_exponential
 
 logger = logging.getLogger(__name__)
 
@@ -91,3 +96,105 @@ class ArgosTranslator:
             self._ensure_pair(frm, to)
             out = tr.translate(out, frm, to)
         return out
+
+
+_LANG_NAMES: dict[str, str] = {"ko": "Korean", "en": "English", "ja": "Japanese"}
+
+_GEMINI_URL = (
+    "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+)
+
+# Gemini 2.0 Flash is deprecated (2026-06-01); 2.5 Flash is the current free-tier
+# default. Override with GEMINI_MODEL when a newer Flash model is preferred.
+_DEFAULT_GEMINI_MODEL = "gemini-2.5-flash"
+
+
+def _is_retryable_gemini(exc: BaseException) -> bool:
+    """Retry transient transport errors and 429/5xx; never retry 4xx like a bad
+    request or an unknown model — those won't fix themselves."""
+    if isinstance(exc, httpx.TransportError):
+        return True
+    if isinstance(exc, httpx.HTTPStatusError):
+        return exc.response.status_code in (429, 500, 502, 503, 504)
+    return False
+
+
+class GeminiTranslator:
+    """Google Gemini LLM translator. Unlike Argos it needs no language-pair
+    packages and no English pivot — a single prompt handles any pair, and the
+    prompt instructs the model to preserve proper nouns (artist/venue/work
+    names) instead of mistranslating them into unrelated words."""
+
+    def __init__(
+        self,
+        api_key: str,
+        model: str = _DEFAULT_GEMINI_MODEL,
+        timeout: float = 30.0,
+    ) -> None:
+        self._key = api_key
+        self._model = model
+        self._client = httpx.Client(timeout=timeout)
+
+    @classmethod
+    def from_env(cls) -> GeminiTranslator:
+        return cls(
+            api_key=os.environ["GEMINI_API_KEY"],
+            model=os.environ.get("GEMINI_MODEL", _DEFAULT_GEMINI_MODEL),
+        )
+
+    @staticmethod
+    def _prompt(text: str, from_code: str, to_code: str) -> str:
+        src = _LANG_NAMES.get(from_code, from_code)
+        tgt = _LANG_NAMES.get(to_code, to_code)
+        return (
+            f"Translate the following photography-exhibition text from {src} "
+            f"to {tgt}.\n"
+            "Rules:\n"
+            "- Preserve proper nouns (artist names, gallery/venue names, "
+            "artwork titles): transliterate them naturally instead of "
+            "translating their literal meaning; keep names already written in "
+            "the target script or the Latin alphabet as they are.\n"
+            "- Translate the meaning faithfully and naturally. Do not add, "
+            "repeat, omit, or explain anything.\n"
+            "- Output ONLY the translation, with no quotes, labels, or "
+            "surrounding text.\n\n"
+            f"Text:\n{text}"
+        )
+
+    @retry(
+        retry=retry_if_exception(_is_retryable_gemini),
+        wait=wait_exponential(multiplier=1, min=1, max=30),
+        stop=stop_after_attempt(4),
+        reraise=True,
+    )
+    def _generate(self, prompt: str) -> dict:
+        r = self._client.post(
+            _GEMINI_URL.format(model=self._model),
+            params={"key": self._key},
+            json={
+                "contents": [{"parts": [{"text": prompt}]}],
+                "generationConfig": {"temperature": 0},
+            },
+        )
+        r.raise_for_status()
+        return r.json()
+
+    @staticmethod
+    def _extract(data: dict) -> str:
+        candidates = data.get("candidates") or []
+        if not candidates:
+            return ""
+        parts = (candidates[0].get("content") or {}).get("parts") or []
+        return "".join(p.get("text", "") for p in parts)
+
+    def translate(self, text: str, from_code: str, to_code: str) -> str:
+        if not text or not text.strip():
+            return text
+        data = self._generate(self._prompt(text, from_code, to_code))
+        out = self._extract(data).strip()
+        # Empty / safety-blocked response: keep the original rather than wiping
+        # the field to "" (which the UI would render as a blank translation).
+        return out or text
+
+    def close(self) -> None:
+        self._client.close()

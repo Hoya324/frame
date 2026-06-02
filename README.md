@@ -25,6 +25,10 @@ Create a Google Cloud service account, download its JSON key, and share the targ
 export SHEET_ID="1KjhDcaWVQizAcltjp4HHoWhMonztAeADAMMaaRtKRXI"
 export GOOGLE_SERVICE_ACCOUNT_JSON="$(cat service-account.json)"
 export KAKAO_REST_API_KEY="..."
+# Optional: LLM translation (Google AI Studio free tier). When set, the
+# translation backfill uses Gemini instead of the offline Argos fallback.
+export GEMINI_API_KEY="..."
+export GEMINI_MODEL="gemini-2.5-flash"  # optional override (default shown)
 ```
 
 ## CLI
@@ -35,7 +39,17 @@ crawler dry-run artmap    # crawl and print normalized JSON, no writes
 crawler run artmap        # crawl one source and upsert
 crawler run-all           # crawl every registered source
 crawler export-json       # write web/public/data/exhibitions.json snapshot
+crawler backfill-translations            # fill missing ko/en/ja translations (incremental)
+crawler backfill-translations --reset    # clear + rebuild all translations (run once)
 ```
+
+Translation uses Gemini (LLM) when `GEMINI_API_KEY` is set, else the offline
+Argos engine. After switching engines, run the backfill once with `--reset`: it
+clears every row's in-scope translations (regardless of the time budget) and
+refills what the budget allows. On the free tier a full rebuild can't finish in
+one run, so the daily `crawl` job — which runs the backfill incrementally — picks
+up where it left off and converges over the following days. The recurring job
+must stay incremental (no `--reset`).
 
 ## Adding a new source
 

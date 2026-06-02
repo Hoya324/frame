@@ -1,8 +1,21 @@
+import json
 import sys
 import types
 from unittest.mock import MagicMock
 
+import httpx
+import respx
+
 from crawler.enrich.translator import TARGET_LOCALES, detect_lang, targets_for
+
+_GEMINI_URL = (
+    "https://generativelanguage.googleapis.com/v1beta/models/"
+    "gemini-2.5-flash:generateContent"
+)
+
+
+def _candidate(text: str) -> dict:
+    return {"candidates": [{"content": {"parts": [{"text": text}]}}]}
 
 
 def test_detect_lang_hangul():
@@ -81,3 +94,69 @@ def test_ensure_installs_both_pivot_legs(monkeypatch):
     t.translate("제목", "ko", "ja")
     ko_en.install.assert_called_once()
     en_ja.install.assert_called_once()
+
+
+@respx.mock
+def test_gemini_translates_with_target_language_and_text_in_prompt():
+    from crawler.enrich.translator import GeminiTranslator
+
+    route = respx.post(_GEMINI_URL).mock(
+        return_value=httpx.Response(200, json=_candidate("정상\n"))
+    )
+    t = GeminiTranslator(api_key="fake-key", model="gemini-2.5-flash")
+    # Single-leg, no English pivot: the LLM goes straight ja -> ko.
+    assert t.translate("頂上", "ja", "ko") == "정상"
+
+    sent = json.loads(route.calls.last.request.content)
+    prompt = sent["contents"][0]["parts"][0]["text"]
+    assert "頂上" in prompt  # source text is included
+    assert "Korean" in prompt  # target language spelled out
+    assert "Japanese" in prompt  # source language spelled out
+
+
+@respx.mock
+def test_gemini_preserves_proper_nouns_instruction():
+    from crawler.enrich.translator import GeminiTranslator
+
+    route = respx.post(_GEMINI_URL).mock(
+        return_value=httpx.Response(200, json=_candidate("x"))
+    )
+    GeminiTranslator(api_key="k").translate("육명심", "ko", "en")
+    prompt = json.loads(route.calls.last.request.content)["contents"][0]["parts"][0][
+        "text"
+    ]
+    assert "proper noun" in prompt.lower()
+
+
+def test_gemini_blank_passthrough_makes_no_request():
+    from crawler.enrich.translator import GeminiTranslator
+
+    # No respx routes registered: any HTTP call would raise, proving none is made.
+    t = GeminiTranslator(api_key="k")
+    assert t.translate("   ", "ko", "en") == "   "
+
+
+@respx.mock
+def test_gemini_empty_candidates_returns_original():
+    from crawler.enrich.translator import GeminiTranslator
+
+    # Safety-blocked / empty responses must not overwrite the field with "".
+    respx.post(_GEMINI_URL).mock(return_value=httpx.Response(200, json={}))
+    t = GeminiTranslator(api_key="k")
+    assert t.translate("원문 그대로", "ko", "en") == "원문 그대로"
+
+
+def test_gemini_retry_predicate():
+    from crawler.enrich.translator import _is_retryable_gemini
+
+    req = httpx.Request("POST", _GEMINI_URL)
+
+    def status_error(code: int) -> httpx.HTTPStatusError:
+        resp = httpx.Response(code, request=req)
+        return httpx.HTTPStatusError("err", request=req, response=resp)
+
+    assert _is_retryable_gemini(httpx.ConnectError("boom", request=req)) is True
+    assert _is_retryable_gemini(status_error(429)) is True  # rate limited
+    assert _is_retryable_gemini(status_error(503)) is True  # transient
+    assert _is_retryable_gemini(status_error(400)) is False  # bad request
+    assert _is_retryable_gemini(status_error(404)) is False  # wrong model

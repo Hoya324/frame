@@ -55,6 +55,54 @@ def test_idempotent_skips_existing():
     assert tr["en"]["title"] == "[en]戎康友 展"  # 누락분만 채움
 
 
+def test_reset_rebuilds_existing_in_scope_translations():
+    # Switching translators leaves old garbage in place because the backfill is
+    # idempotent. reset=True clears in-scope fields then refills them, so a new
+    # engine rebuilds the translations (here in one unbudgeted pass).
+    existing = json.dumps({"ko": {"title": "OLD-GARBAGE", "description": "OLD"}})
+    repo = FakeRepo({"exh": [
+        {"id": "e1", "title": "戎康友 展", "description": "カリフォルニア",
+         "tr": existing, "lang": "ja"},
+    ]})
+    backfill_translations(repo, FakeTranslator(), reset=True)
+    tr = json.loads({r["id"]: r for r in repo.patched[SheetName.EXHIBITIONS]}["e1"]["tr"])
+    assert tr["ko"]["title"] == "[ko]戎康友 展"          # rebuilt, not the old value
+    assert tr["ko"]["description"] == "[ko]カリフォルニア"
+    assert tr["en"]["title"] == "[en]戎康友 展"          # other locales filled too
+
+
+def test_reset_clears_every_row_even_past_the_budget_so_a_later_run_resumes():
+    # The clear phase ignores the wall-clock budget: even rows the fill phase
+    # never reaches get their stale translations wiped and persisted. A later
+    # incremental run (no reset) then sees them as missing and refills them, so
+    # a free-tier-throttled rebuild converges across runs instead of stranding
+    # old garbage that idempotent skips would never replace.
+    rows = [{"id": f"e{i}", "title": f"頂上{i}", "description": "",
+             "tr": json.dumps({"ko": {"title": "OLD"}}), "lang": "ja"}
+            for i in range(3)]
+    repo = FakeRepo({"exh": rows})
+    # deadline = 0 + 1; the first fill-loop clock read (100) is already past it,
+    # so the fill phase translates nothing — only the clear phase runs.
+    clock = iter([0, 100, 100, 100, 100])
+    backfill_translations(repo, FakeTranslator(), flush_every=100,
+                          max_seconds=1, now=lambda: next(clock), reset=True)
+    persisted = {r["id"]: r for r in repo.patched[SheetName.EXHIBITIONS]}
+    assert set(persisted) == {"e0", "e1", "e2"}  # all cleared, none skipped
+    for i in range(3):
+        assert "OLD" not in (persisted[f"e{i}"]["tr"] or "")
+
+    # Next run reads the persisted (cleared) state — model it as a fresh repo —
+    # and fills the now-missing translations with the new engine, no reset.
+    resumed = FakeRepo({"exh": [
+        {"id": f"e{i}", "title": f"頂上{i}", "description": "",
+         "tr": persisted[f"e{i}"]["tr"], "lang": persisted[f"e{i}"]["lang"]}
+        for i in range(3)
+    ]})
+    backfill_translations(resumed, FakeTranslator())  # incremental, no reset
+    out = {r["id"]: r for r in resumed.patched[SheetName.EXHIBITIONS]}
+    assert json.loads(out["e0"]["tr"])["ko"]["title"] == "[ko]頂上0"
+
+
 def test_korean_row_with_no_other_locales_is_left_untouched():
     repo = FakeRepo({"exh": [
         {"id": "e1", "title": "을지로의 밤", "description": "", "tr": "", "lang": ""},

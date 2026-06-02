@@ -1,12 +1,19 @@
 name: backfill-translations
-# One-shot, manual full translation backfill. The daily `crawl` job runs the
-# backfill under a 20-minute wall-clock budget so it never starves export/commit;
-# that converges over several days. This workflow instead runs the backfill to
-# completion (`--max-seconds 0`) under a long timeout to populate everything in a
-# single pass, then exports + commits the refreshed catalog. Re-run it any time
-# (e.g. after a full sheet reset). Idempotent: it only fills missing translations.
+# Manual translation backfill, then export + commit the refreshed catalog.
+# Idempotent: by default only fills MISSING translations. Tick `reset` once to
+# rebuild everything after switching translation engines — it clears each row's
+# in-scope translations (covering every row regardless of the budget) and refills
+# what the budget/quota allows. The daily `crawl` job then resumes the rest: with
+# the free-tier Gemini key a full rebuild can't finish in one run (per-minute /
+# per-day rate limits), so this kicks it off and the daily incremental backfill
+# converges over the following days. Re-run any time.
 on:
   workflow_dispatch:
+    inputs:
+      reset:
+        description: "Rebuild ALL in-scope translations (clear + refill). Use once after switching translation engines; the daily job finishes the rest."
+        type: boolean
+        default: false
 # Share the crawl group so a manual backfill never writes/commits the sheet at
 # the same time as the daily crawl.
 concurrency:
@@ -15,9 +22,8 @@ concurrency:
 jobs:
   backfill:
     runs-on: ubuntu-latest
-    # Argos is CPU-only and the first full pass over every row is heavy. If even
-    # this ceiling is hit, batched flushes persist progress and a re-run resumes.
-    timeout-minutes: 350
+    # Bounded by the per-run budget below; the daily job resumes what's left.
+    timeout-minutes: 45
     permissions:
       contents: write
     steps:
@@ -33,12 +39,18 @@ jobs:
         with:
           path: ~/.local/share/argos-translate
           key: argos-models-v1
-      # --max-seconds 0 disables the per-run budget: translate everything now.
-      - name: Backfill all translations
-        run: crawler backfill-translations --max-seconds 0
+      # Budgeted (30 min) so a free-tier-throttled run stops cleanly instead of
+      # thrashing on rate-limit retries; the daily crawl job resumes the rest.
+      # --reset (optional input) clears + rebuilds all translations — tick once
+      # after switching translation engines.
+      - name: Backfill translations
+        run: crawler backfill-translations --max-seconds 1800 ${{ inputs.reset && '--reset' || '' }}
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           SHEET_ID: ${{ secrets.SHEET_ID }}
+          # Use the Gemini LLM translator when the key is configured; without it
+          # the crawler falls back to the offline Argos engine.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       # Regenerate the static catalog snapshot the web app reads, then commit it
       # back so the deployed site picks up the freshly translated content.
       - name: Export catalog JSON for web
