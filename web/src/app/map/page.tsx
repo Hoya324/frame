@@ -2,11 +2,12 @@
 import dynamic from "next/dynamic";
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import { MapPin, Loader2, X } from "lucide-react";
+import { MapPin, Loader2 } from "lucide-react";
 import { loadCatalogSync } from "@/lib/catalogClient";
 import { CITY_ORDER, regionBucket, type Country } from "@/lib/regions";
 import { ExhibitionCard } from "@/components/ExhibitionCard";
 import { FilterChips } from "@/components/FilterChips";
+import { VenueSheet } from "@/components/VenueSheet";
 import { useLang } from "@/components/LanguageProvider";
 
 const MapView = dynamic(() => import("@/components/MapView").then((m) => m.MapView), { ssr: false });
@@ -30,11 +31,10 @@ export default function MapPage() {
   const { t } = useLang();
   const [cities, setCities] = useState<string[]>([]);
   const [visibleIds, setVisibleIds] = useState<Set<string> | null>(null);
-  const [venue, setVenue] = useState<{ id: string; name: string } | null>(null);
+  const [sheetVenueId, setSheetVenueId] = useState<string | null>(null);
   const [userLoc, setUserLoc] = useState<[number, number] | null>(null);
   const [locState, setLocState] = useState<"idle" | "locating" | "error">("idle");
   const toggle = (v: string) => {
-    setVenue(null);
     setCities((c) => (c.includes(v) ? c.filter((x) => x !== v) : [...c, v]));
   };
 
@@ -73,18 +73,22 @@ export default function MapPage() {
   // matches the markers the user can see. Clicking a multi-exhibition venue
   // marker pins the list to that venue. When located, sort by proximity.
   const listed = useMemo(() => {
-    const base = venue
-      ? items.filter((e) => e.venue?.id === venue.id)
-      : visibleIds
-        ? items.filter((e) => visibleIds.has(e.id))
-        : items;
+    const base = visibleIds ? items.filter((e) => visibleIds.has(e.id)) : items;
     if (!userLoc) return base;
     return [...base].sort((a, b) => {
       const da = distanceKm(userLoc, [a.venue!.lng!, a.venue!.lat!]);
       const db = distanceKm(userLoc, [b.venue!.lng!, b.venue!.lat!]);
       return da - db;
     });
-  }, [items, venue, visibleIds, userLoc]);
+  }, [items, visibleIds, userLoc]);
+
+  const sheet = useMemo(() => {
+    if (!sheetVenueId) return null;
+    const exhibitions = items.filter((e) => e.venue?.id === sheetVenueId);
+    const venueMeta = exhibitions[0]?.venue ?? null;
+    if (!venueMeta) return null;
+    return { venue: venueMeta, exhibitions };
+  }, [items, sheetVenueId]);
 
   const locate = () => {
     if (!("geolocation" in navigator)) {
@@ -130,16 +134,6 @@ export default function MapPage() {
         {userLoc && locState === "idle" && (
           <span className="rounded-full border border-line px-3 py-1 text-xs text-tx2">{t("map.nearbyOn")}</span>
         )}
-        {venue && (
-          <button
-            type="button"
-            onClick={() => setVenue(null)}
-            className="flex items-center gap-1.5 rounded-full bg-white px-3 py-1 text-xs font-semibold text-black transition active:scale-95"
-          >
-            {venue.name}
-            <X size={13} />
-          </button>
-        )}
         <span className="ml-auto text-xs text-tx3">{t("map.showing")} <b className="text-tx2">{listed.length}</b></span>
       </div>
 
@@ -148,14 +142,22 @@ export default function MapPage() {
           items={items}
           height={560}
           userLocation={userLoc}
+          selectedVenueId={sheetVenueId}
           onViewChange={(ids) => setVisibleIds(new Set(ids))}
-          onVenueSelect={(id, name) => setVenue({ id, name })}
+          onVenueSelect={(id) => setSheetVenueId(id)}
           onSelect={(id) => router.push(`/exhibitions/${id}`)}
         />
         <div className="grid max-h-[560px] grid-cols-2 gap-4 overflow-y-auto md:grid-cols-1">
           {listed.map((e) => <ExhibitionCard key={e.id} exhibition={e} />)}
         </div>
       </div>
+      {sheet && (
+        <VenueSheet
+          venue={sheet.venue}
+          exhibitions={sheet.exhibitions}
+          onClose={() => setSheetVenueId(null)}
+        />
+      )}
     </main>
   );
 }
