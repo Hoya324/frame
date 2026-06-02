@@ -34,8 +34,8 @@ describe("ExhibitionCard", () => {
       venue: { ...E.venue!, name: "BOOK AND SONS", lang: "en", tr: { ko: { name: "북앤선즈" } } },
     };
     renderWithLang(<ExhibitionCard exhibition={JP} today={new Date("2026-05-30T00:00:00+09:00")} />, { locale: "ko" });
-    expect(screen.getByText("戎康友 展")).toBeInTheDocument();            // 기본 = 원문
-    fireEvent.click(screen.getAllByRole("button", { name: "번역" })[0]);  // 첫 번역 칩(제목) 토글
-    expect(screen.getByText("에비스 전")).toBeInTheDocument();
+    expect(screen.getByText("에비스 전")).toBeInTheDocument();            // 기본 = 헤더 언어 번역
+    fireEvent.click(screen.getAllByRole("button", { name: "원문" })[0]);  // 첫 원문 칩(제목) 토글
+    expect(screen.getByText("戎康友 展")).toBeInTheDocument();
   });
 });

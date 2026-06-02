@@ -18,23 +18,25 @@ export function TranslationPopover({
 
   if (!translation) return <p className={className}>{text}</p>;
 
+  // Default to the machine translation in the header language; the original is
+  // one tap away in a popover.
   return (
     <div className="relative">
-      <p className={className}>{text}</p>
+      <p className={className}>{translation}</p>
       <button
         type="button"
         onClick={() => setOpen(true)}
         className="mt-2 rounded-full border border-line2 px-2.5 py-1 text-[11px] text-tx3 hover:bg-panel2"
       >
-        {t("tr.showTranslation")}
+        {t("tr.machine")} · {t("tr.showOriginal")}
       </button>
       {open && (
         <div className="mt-2 rounded-lg border border-line bg-panel p-3 shadow-lg">
           <div className="mb-1.5 flex items-center justify-between text-[10px] text-tx3">
-            <span>{t("tr.machine")}</span>
+            <span>{t("tr.showOriginal")}</span>
             <button type="button" aria-label={t("tr.close")} onClick={() => setOpen(false)}>✕</button>
           </div>
-          <p className="whitespace-pre-line text-[13px] leading-relaxed">{translation}</p>
+          <p className="whitespace-pre-line text-[13px] leading-relaxed">{text}</p>
         </div>
       )}
     </div>
