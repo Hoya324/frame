@@ -31,6 +31,9 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
   // The card currently flying off-screen, rendered as a throwaway ghost overlay.
   const [leaving, setLeaving] = useState<{ card: Exhibition; dir: "left" | "right" } | null>(null);
   const dragging = useRef(false);
+  // Mirrors `dragging` in state purely so the render below can decide the CSS
+  // transition without reading a ref during render (refs aren't reactive).
+  const [isDragging, setIsDragging] = useState(false);
   const start = useRef({ x: 0, y: 0 });
   // Fallback timer to drop the ghost even when animationend never fires
   // (reduced-motion users, or environments that disable CSS animations).
@@ -66,6 +69,7 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
 
   const onPointerDown = (e: React.PointerEvent) => {
     dragging.current = true;
+    setIsDragging(true);
     start.current = { x: e.clientX, y: e.clientY };
     (e.target as HTMLElement).setPointerCapture?.(e.pointerId);
   };
@@ -76,6 +80,7 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
   const onPointerUp = () => {
     if (!dragging.current) return;
     dragging.current = false;
+    setIsDragging(false);
     const dx = drag.x;
     const dy = drag.y;
     setDrag({ x: 0, y: 0 });
@@ -109,7 +114,7 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
 
   const rot = drag.x / 18;
   const transform = `translate(${drag.x}px, ${drag.y * 0.4}px) rotate(${rot}deg)`;
-  const transition = dragging.current ? "none" : "transform .28s cubic-bezier(.22,.61,.36,1)";
+  const transition = isDragging ? "none" : "transform .28s cubic-bezier(.22,.61,.36,1)";
   const likeOpacity = Math.max(0, Math.min(1, drag.x / SWIPE_THRESHOLD));
   const skipOpacity = Math.max(0, Math.min(1, -drag.x / SWIPE_THRESHOLD));
 
