@@ -12,24 +12,26 @@ export function TranslatableText({
   className?: string;
 }) {
   const { locale, t } = useLang();
-  const [showTr, setShowTr] = useState(false);
+  const [showOriginal, setShowOriginal] = useState(false);
   const translation = localized(original, tr, locale, field);
   const text = original ?? "";
 
+  // No translation for the current header locale → just the original text.
   if (!translation) return <span className={className}>{text}</span>;
 
+  // Default to the header-language translation; one tap reveals the original.
   return (
     <span className={className}>
       <span className="border-b border-dotted border-tx3">
-        {showTr ? translation : text}
+        {showOriginal ? text : translation}
       </span>
       <button
         type="button"
-        aria-pressed={showTr}
-        onClick={(e) => { e.preventDefault(); e.stopPropagation(); setShowTr((v) => !v); }}
+        aria-pressed={showOriginal}
+        onClick={(e) => { e.preventDefault(); e.stopPropagation(); setShowOriginal((v) => !v); }}
         className="ml-1.5 rounded-full border border-line2 px-1.5 py-0.5 align-middle text-[9.5px] text-tx3 hover:bg-panel2"
       >
-        {showTr ? t("tr.showOriginal") : t("tr.showTranslation")}
+        {showOriginal ? t("tr.showTranslation") : t("tr.showOriginal")}
       </button>
     </span>
   );
