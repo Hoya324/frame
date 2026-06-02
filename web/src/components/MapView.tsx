@@ -176,6 +176,10 @@ export function MapView({ items, height = 480, onSelect, onVenueSelect, onViewCh
         cluster: true,
         clusterRadius: 48,
         clusterMaxZoom: 14,
+        // Each feature is one venue carrying its own exhibition `count`; sum them
+        // so the cluster badge reflects the number of EXHIBITIONS in the area,
+        // not the number of venues (a single venue can host 100+ shows).
+        clusterProperties: { exhibitions: ["+", ["coalesce", ["get", "count"], 1]] },
       });
 
       map.addLayer({
@@ -186,7 +190,7 @@ export function MapView({ items, height = 480, onSelect, onVenueSelect, onViewCh
         paint: {
           "circle-color": "#ffffff",
           "circle-opacity": 0.92,
-          "circle-radius": ["step", ["get", "point_count"], 16, 10, 21, 30, 27],
+          "circle-radius": ["step", ["get", "exhibitions"], 16, 25, 21, 100, 27],
           "circle-stroke-width": 4,
           "circle-stroke-color": "rgba(255,255,255,0.18)",
         },
@@ -197,7 +201,11 @@ export function MapView({ items, height = 480, onSelect, onVenueSelect, onViewCh
         source: "exhibitions",
         filter: ["has", "point_count"],
         layout: {
-          "text-field": ["get", "point_count_abbreviated"],
+          "text-field": [
+            "case",
+            [">", ["get", "exhibitions"], 999], "999+",
+            ["to-string", ["get", "exhibitions"]],
+          ],
           "text-font": ["Open Sans Bold", "Arial Unicode MS Bold"],
           "text-size": 13,
         },
