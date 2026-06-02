@@ -146,12 +146,25 @@ export default function Home() {
       {swipeMode && (
         <>
           <div className="shrink-0 py-4">
-            <FilterChips options={EXTRA_OPTS} active={chips} onToggle={toggle} />
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
+              <FilterGroup label={t("controls.status")}>
+                <FilterChips options={STATUS_OPTS} active={chips} onToggle={toggle} />
+              </FilterGroup>
+              <span className="h-4 w-px bg-line2" aria-hidden="true" />
+              <FilterGroup label={t("controls.more")}>
+                <FilterChips options={EXTRA_OPTS} active={chips} onToggle={toggle} />
+              </FilterGroup>
+            </div>
           </div>
           <div className="min-h-0 flex-1 pb-4">
-            {/* Re-key on the active filter so the deck rebuilds from the filtered
-                list — but not on unrelated re-renders like a bookmark toggle. */}
-            <SwipeDeck key={chips.join(",")} items={list.filter((e) => e.status === "ongoing")} />
+            {/* Same filtered + sorted list as the time view, but a swipe deck is
+                for finding something to go see — so drop ended shows unless the
+                user explicitly opts into 종료. Re-key on filter + sort so the
+                deck rebuilds from the new list (not on a bookmark toggle). */}
+            <SwipeDeck
+              key={`${chips.join(",")}-${sort}`}
+              items={chips.includes("past") ? mainList : mainList.filter((e) => e.status !== "past")}
+            />
           </div>
         </>
       )}
