@@ -44,6 +44,13 @@ export function VenueSheet({
     return () => window.removeEventListener("keydown", onKey);
   }, [onClose]);
 
+  // 시트는 전체 화면을 덮는 모달이므로 열려 있는 동안 뒤 페이지 스크롤을 잠근다.
+  useEffect(() => {
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => { document.body.style.overflow = prev; };
+  }, []);
+
   const summary = venueSummary(exhibitions);
   const sorted = sortForSheet(exhibitions, sort);
 
