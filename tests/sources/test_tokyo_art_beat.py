@@ -8,7 +8,9 @@ from pathlib import Path
 from crawler.models import SourceName
 from crawler.sources.tokyo_art_beat import (
     TokyoArtBeatExtractor,
+    _detail_to_fields,
     _events_to_rows,
+    _extract_detail_from_html,
     _extract_events_from_html,
 )
 
@@ -125,3 +127,46 @@ def test_events_to_rows_catches_english_photography_label():
         "venue": {"fields": {"fullName": "X"}},
     }]
     assert len(_events_to_rows(events)) == 1
+
+
+# --- detail-page enrichment (description + artists) ---------------------------
+
+
+def test_extract_detail_from_html_unwraps_event_detail():
+    """The detail stub exposes one EventDetail object in __NEXT_DATA__."""
+    html = (_FIXTURE_DIR / "detail_page.html").read_text(encoding="utf-8")
+    item = _extract_detail_from_html(html)
+    assert item["slug"] == "test-slug"
+    assert item["eventName"] == "Test"
+
+
+def test_extract_detail_from_html_missing_blob_returns_empty():
+    assert _extract_detail_from_html("<html><body>no data</body></html>") == {}
+
+
+def test_detail_to_fields_extracts_description_and_artists():
+    html = (_FIXTURE_DIR / "detail_page.html").read_text(encoding="utf-8")
+    fields = _detail_to_fields(_extract_detail_from_html(html))
+    # Real exhibition statement, paragraph break preserved.
+    assert "作家たちの共演" in fields["description"]
+    assert "\n\n[関連イベント]" in fields["description"]
+    # CJK-comma artist string split into a clean list.
+    assert fields["artists"] == ["谷崎夏未", "RiN", "mayuko"]
+
+
+def test_detail_to_fields_drops_short_description():
+    """A stray caption below the minimum length is not a real blurb."""
+    fields = _detail_to_fields({"description": "短い", "artists": None})
+    assert "description" not in fields
+    assert "artists" not in fields
+
+
+def test_detail_to_fields_handles_missing_fields():
+    assert _detail_to_fields({}) == {}
+
+
+def test_detail_to_fields_ignores_venue_only_description():
+    """The venue blurb lives under venue.fields.description and must NOT be
+    surfaced as the exhibition description."""
+    item = {"venue": {"fields": {"description": "ギャラリーの説明です。" * 10}}}
+    assert "description" not in _detail_to_fields(item)

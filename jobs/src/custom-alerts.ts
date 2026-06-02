@@ -3,7 +3,7 @@ import { makeAdminClient, subscribersOf } from "./lib/supabaseAdmin";
 import { loadSentRefs, recordSent } from "./lib/emailLog";
 import { makeResendMailer, type Mailer } from "./lib/resendClient";
 import { matchCustom, type CustomFilters } from "./lib/match";
-import { renderCustom } from "./lib/render";
+import { renderCustom, emailStrings } from "./lib/render";
 import { env } from "./lib/env";
 
 export async function runCustomAlerts(deps?: { mailer?: Mailer }): Promise<number> {
@@ -20,7 +20,7 @@ export async function runCustomAlerts(deps?: { mailer?: Mailer }): Promise<numbe
     const fresh = matched.filter((e) => !already.has(e.id));
     if (fresh.length === 0) continue;
 
-    await mailer.send(sub.email, "관심 조건에 맞는 새 전시", renderCustom(fresh.slice(0, 12), env.siteUrl()));
+    await mailer.send(sub.email, emailStrings(sub.locale).customSubject, renderCustom(fresh.slice(0, 12), env.siteUrl(), sub.locale));
     await recordSent(client, sub.userId, "custom", fresh.map((e) => e.id));
     sent++;
   }

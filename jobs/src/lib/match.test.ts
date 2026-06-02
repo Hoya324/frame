@@ -4,9 +4,10 @@ import type { JobExhibition } from "./catalog";
 
 function ex(p: Partial<JobExhibition>): JobExhibition {
   return {
-    id: "x", title: "T", medium: "photo", exhibitionType: "solo", genreTags: [],
+    id: "x", title: "T", titleTr: {}, medium: "photo", exhibitionType: "solo", genreTags: [],
     feeType: "free", startDate: "2026-05-01", endDate: "2026-06-30", status: "ongoing",
-    posterImageUrl: null, sourceUrl: null, venueName: "V", region: "서울", artistNames: [], ...p,
+    posterImageUrl: null, sourceUrl: null, venueName: "V", venueNameTr: {}, region: "서울",
+    artistNames: [], ...p,
   };
 }
 const TODAY = new Date("2026-05-30T00:00:00+09:00");

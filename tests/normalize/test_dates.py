@@ -111,3 +111,35 @@ def test_parse_date_korean_still_works():
     s, e = parse_date_range("2026.05.10 ~ 2026.07.03")
     assert s == date(2026, 5, 10)
     assert e == date(2026, 7, 3)
+
+
+@pytest.mark.parametrize(
+    "raw, expected_start, expected_end",
+    [
+        # KOBA: "YYYY년 M월 D일(요일) ~ D일(요일)" — end carries only the day,
+        # so year+month must be back-filled from the start.
+        (
+            "2025년 5월 20일(화) ~ 23일(금)",
+            date(2025, 5, 20),
+            date(2025, 5, 23),
+        ),
+        # End spans into a new month — back-fill only the year.
+        (
+            "2025년 5월 20일 ~ 6월 3일",
+            date(2025, 5, 20),
+            date(2025, 6, 3),
+        ),
+        # Japanese 年/月/日 with a day-only end.
+        (
+            "2025年5月20日 ～ 23日",
+            date(2025, 5, 20),
+            date(2025, 5, 23),
+        ),
+    ],
+)
+def test_parse_date_range_back_fills_abbreviated_end(
+    raw: str, expected_start: date, expected_end: date
+):
+    start, end = parse_date_range(raw)
+    assert start == expected_start, f"start: {start!r}"
+    assert end == expected_end, f"end: {end!r}"

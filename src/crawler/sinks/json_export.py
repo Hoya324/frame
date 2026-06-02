@@ -120,6 +120,7 @@ def _exhibition_json(row: dict, venues: dict[str, dict], artists: dict[str, dict
     artist_ids = _split(row.get("artist_ids"))
     return {
         "id": _id(row["id"]),
+        "source": _str_or_none(row.get("source")),
         "title": row.get("title", ""),
         "lang": _str_or_none(row.get("lang")),
         "tr": _tr(row.get("tr")),

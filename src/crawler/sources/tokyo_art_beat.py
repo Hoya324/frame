@@ -16,26 +16,27 @@ Pipeline:
    sangsangmadang for Korean expansion)
 4. Map each event to the RawExhibition raw shape
 
-Detail-page enrichment is intentionally out of scope. Artists come back as [];
-venue_address as None (the pipeline will geocode using venue.name via
-GeocoderResolver → GoogleMapsGeocoder). Latitude/longitude are populated from
-venue.fields.geoInfo so TAB venues skip name-only geocoding.
+Venue coords/address: latitude/longitude are populated from venue.fields.geoInfo
+so TAB venues skip name-only geocoding; venue_address stays None (the pipeline
+geocodes using venue.name via GeocoderResolver → GoogleMapsGeocoder).
 
-Description enrichment: intentionally NOT implemented. The EventSearch event
-objects expose no description/body field (keys are eventName, venue,
-categories, schedule, imageposter, counts — nothing prose-bearing), and the
-`/events/<slug>` URL is a Next.js catch-all (`/events/[[...q]]`) that just
-re-renders the list page, so the per-event statement is never SSR'd — it is
-fetched client-side from an event API whose base is not exposed in
-__NEXT_DATA__. The only meta description is generic listing boilerplate.
-Surfacing a real description here would require reverse-engineering that
-client API, so this JP source stays list-only by design, consistent with
-[[gallery_lux]], [[gallery_kong]] and [[sangsangmadang]].
+Detail-page enrichment (description + artists): the EventSearch list objects
+expose no prose field, but the per-event page IS server-rendered — the catch-all
+route `/events/-/<slug>` SSRs a second SWR cache entry keyed
+`{"name":"EventDetail",...}` whose `data[0]` carries the exhibition's own
+top-level `description` string AND an `artists` string (CJK-comma separated).
+So when `with_details` is on (the default) we fetch each photo event's detail
+page and merge those in. ~85% of photo events ship a real, multi-paragraph
+Japanese statement this way — no client-API reverse-engineering needed, contrary
+to the earlier list-only assumption. NOTE: `venue.fields.description` also exists
+but describes the gallery, not the show, so it is deliberately ignored.
 """
 
 from __future__ import annotations
 
 import json
+import re
+import time
 from collections.abc import Iterable
 
 import httpx
@@ -43,6 +44,8 @@ from selectolax.parser import HTMLParser
 from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
 
 from crawler.models import RawExhibition, SourceName
+from crawler.normalize.text import clean_whitespace
+from crawler.sources._detail import MIN_DESCRIPTION_LEN
 from crawler.sources.base import register_source
 
 _BASE_URL = "https://www.tokyoartbeat.com"
@@ -51,15 +54,27 @@ _USER_AGENT = "PhotoExhibitionCrawler/0.1 (+contact@example.com)"
 
 _PHOTO_KEYWORDS = ("写真", "フォト", "photography", "photo")
 
+# TAB ships the artist roster as one string joined by CJK/full-width/ASCII commas.
+_ARTIST_SEP_RE = re.compile(r"[、，,]")
+
 
 class TokyoArtBeatExtractor:
     name = SourceName.TOKYO_ART_BEAT
     country = "JP"
 
-    def __init__(self, timeout_s: float = 30.0) -> None:
+    def __init__(
+        self,
+        timeout_s: float = 30.0,
+        with_details: bool = True,
+        delay_s: float = 1.0,
+    ) -> None:
         # /events is ~2MB so timeout is generous; no per-page pagination —
         # the SSR payload caps at limit=1000 in the SWR call params and we
-        # take that as the snapshot for the day.
+        # take that as the snapshot for the day. with_details fetches each
+        # photo event's detail page for its description+artists, throttled by
+        # delay_s to stay polite (~140 photo events per snapshot).
+        self.with_details = with_details
+        self.delay_s = delay_s
         self._client = httpx.Client(
             timeout=timeout_s,
             headers={
@@ -84,10 +99,20 @@ class TokyoArtBeatExtractor:
         html = self._get(_LIST_URL)
         events = _extract_events_from_html(html)
         for row in _events_to_rows(events):
+            url = row["source_url"]
+            payload = {k: v for k, v in row.items() if k != "source_url"}
+            if self.with_details:
+                try:
+                    detail = _extract_detail_from_html(self._get(url))
+                    payload.update(_detail_to_fields(detail))
+                except Exception:  # noqa: BLE001
+                    pass  # list row still ships even if the detail fetch fails
+                if self.delay_s > 0:
+                    time.sleep(self.delay_s)
             yield RawExhibition(
                 source=SourceName.TOKYO_ART_BEAT,
-                source_url=row["source_url"],
-                raw={k: v for k, v in row.items() if k != "source_url"},
+                source_url=url,
+                raw=payload,
             )
 
 
@@ -192,6 +217,73 @@ def _events_to_rows(events: list[dict]) -> list[dict]:
             "poster_image_url": poster_url,
             "artists": [],
         })
+    return out
+
+
+def _extract_detail_from_html(html: str) -> dict:
+    """Pull the single EventDetail object out of a TAB detail page's __NEXT_DATA__.
+
+    Mirrors _extract_events_from_html but targets the `EventDetail` SWR cache
+    entry instead of `EventSearch`. Returns {} if the blob is missing/malformed
+    so the caller can treat it as "no enrichment available".
+    """
+    doc = HTMLParser(html)
+    script = doc.css_first("script#__NEXT_DATA__")
+    if script is None:
+        return {}
+    try:
+        data = json.loads(script.text())
+    except json.JSONDecodeError:
+        return {}
+    fallback = data.get("props", {}).get("pageProps", {}).get("fallback", {})
+    if not isinstance(fallback, dict):
+        return {}
+    for key, value in fallback.items():
+        if '"name":"EventDetail"' in key and isinstance(value, dict):
+            rows = value.get("data")
+            if isinstance(rows, list) and rows and isinstance(rows[0], dict):
+                return rows[0]
+    return {}
+
+
+def _clean_description(text: str) -> str:
+    """Collapse intra-line whitespace while preserving paragraph breaks.
+
+    TAB stores the statement as a single string with `\\n` paragraph breaks;
+    clean_whitespace alone would flatten those, so we clean per line and rejoin,
+    collapsing runs of blank lines to a single break.
+    """
+    lines = [clean_whitespace(ln) for ln in text.split("\n")]
+    out: list[str] = []
+    for ln in lines:
+        if not ln and (not out or not out[-1]):
+            continue  # skip leading/duplicate blank lines
+        out.append(ln)
+    return "\n".join(out).strip()
+
+
+def _detail_to_fields(item: dict) -> dict:
+    """Extract the exhibition `description` and `artists` from an EventDetail item.
+
+    The description must clear MIN_DESCRIPTION_LEN to count as a real statement;
+    venue.fields.description (the gallery blurb) is intentionally not consulted.
+    Artists arrive as one comma-joined string and are split into a clean list.
+    """
+    out: dict = {}
+
+    desc = item.get("description")
+    if isinstance(desc, str):
+        cleaned = _clean_description(desc)
+        if len(cleaned) >= MIN_DESCRIPTION_LEN:
+            out["description"] = cleaned
+
+    raw_artists = item.get("artists")
+    if isinstance(raw_artists, str):
+        names = [n.strip() for n in _ARTIST_SEP_RE.split(raw_artists)]
+        names = [n for n in names if n]
+        if names:
+            out["artists"] = names
+
     return out
 
 

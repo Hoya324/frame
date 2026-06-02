@@ -2,7 +2,7 @@ import { loadCatalog, daysUntil } from "./lib/catalog";
 import { makeAdminClient, subscribersOf } from "./lib/supabaseAdmin";
 import { loadSentRefs, recordSent } from "./lib/emailLog";
 import { makeResendMailer, type Mailer } from "./lib/resendClient";
-import { renderDigest } from "./lib/render";
+import { renderDigest, emailStrings } from "./lib/render";
 import { env } from "./lib/env";
 
 function isoWeek(d: Date): string {
@@ -35,7 +35,7 @@ export async function runWeeklyDigest(deps?: { mailer?: Mailer; today?: Date }):
   for (const sub of await subscribersOf(client, "weekly_digest")) {
     const already = await loadSentRefs(client, sub.userId, "weekly_digest");
     if (already.has(ref)) continue;
-    await mailer.send(sub.email, "FRAME 주간 다이제스트", renderDigest(featured, env.siteUrl()));
+    await mailer.send(sub.email, emailStrings(sub.locale).digestSubject, renderDigest(featured, env.siteUrl(), sub.locale));
     await recordSent(client, sub.userId, "weekly_digest", [ref]);
     sent++;
   }

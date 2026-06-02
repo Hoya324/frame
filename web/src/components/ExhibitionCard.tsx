@@ -6,9 +6,15 @@ import { ScrapButton } from "@/components/ScrapButton";
 import { useLang } from "@/components/LanguageProvider";
 import { TranslatableText } from "@/components/TranslatableText";
 import type { Exhibition } from "@/lib/catalog";
+import { sourceLabel } from "@/lib/sources";
 
 export function ExhibitionCard({ exhibition: e, today }: { exhibition: Exhibition; today?: Date }) {
   const { t } = useLang();
+  const label = sourceLabel(e.source, e.sourceUrl);
+  // For single-venue sources the label is just the venue name again — only
+  // show it when it adds information (aggregators like ARTMAP / Tokyo Art Beat).
+  const source = label && label !== e.venue?.name ? label : null;
+  const meta = [e.medium, e.exhibitionType].filter(Boolean).join(" · ");
   return (
     <Link href={`/exhibitions/${e.id}`} className="group block">
       <div className="relative aspect-[3/4] overflow-hidden rounded-[3px] border border-line">
@@ -31,7 +37,7 @@ export function ExhibitionCard({ exhibition: e, today }: { exhibition: Exhibitio
           ) : t("common.venueTbd")}
         </div>
         <div className="mt-1.5 text-[11.5px] text-tx3">
-          {[e.medium, e.exhibitionType].filter(Boolean).join(" · ")}
+          {[meta, source].filter(Boolean).join("  ·  ")}
         </div>
       </div>
     </Link>
