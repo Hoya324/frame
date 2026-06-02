@@ -4,8 +4,11 @@ import Link from "next/link";
 import { loadCatalogSync } from "@/lib/catalogClient";
 import { applyFilters, type FilterState } from "@/lib/filters";
 import { isClosingSoon } from "@/lib/status";
+import { sortExhibitions, type SortKey } from "@/lib/sort";
 import { ExhibitionCard } from "@/components/ExhibitionCard";
 import { FilterChips } from "@/components/FilterChips";
+import { FilterGroup } from "@/components/controls/FilterGroup";
+import { SortChips } from "@/components/controls/SortChips";
 import { PosterImage } from "@/components/PosterImage";
 import { SwipeDeck } from "@/components/SwipeDeck";
 import { useLang } from "@/components/LanguageProvider";
@@ -17,8 +20,8 @@ export default function Home() {
   const { t } = useLang();
   const STATUS_OPTS = [
     { value: "ongoing", label: t("filter.ongoing") },
-    { value: "closing", label: t("filter.closing") },
     { value: "upcoming", label: t("filter.upcoming") },
+    { value: "past", label: t("filter.past") },
   ];
   const EXTRA_OPTS = [
     { value: "free", label: t("filter.free") },
@@ -27,6 +30,7 @@ export default function Home() {
   ];
   const [mode, setMode] = useState<"time" | "swipe">("time");
   const [chips, setChips] = useState<string[]>([]);
+  const [sort, setSort] = useState<SortKey>("recommended");
   const toggle = (v: string) => setChips((c) => (c.includes(v) ? c.filter((x) => x !== v) : [...c, v]));
 
   // Swipe mode is a fixed, full-viewport view — lock page scroll while it's active.
@@ -39,21 +43,20 @@ export default function Home() {
   const swipeMode = mode === "swipe";
 
   const f: FilterState = useMemo(() => ({
-    statuses: chips.filter((c) => ["ongoing", "upcoming"].includes(c)) as FilterState["statuses"],
+    statuses: chips.filter((c) => ["ongoing", "upcoming", "past"].includes(c)) as FilterState["statuses"],
     mediums: chips.includes("photo") ? ["photo"] : [],
     types: chips.includes("solo") ? ["solo"] : [],
     freeOnly: chips.includes("free"),
     regions: [],
   }), [chips]);
 
-  let list = applyFilters(catalog.exhibitions, f);
-  if (chips.includes("closing")) list = list.filter((e) => isClosingSoon(e.endDate, today));
+  const list = applyFilters(catalog.exhibitions, f);
 
   const featured = catalog.exhibitions.find((e) => e.featured) ?? catalog.exhibitions[0];
   const closingSoon = catalog.exhibitions
     .filter((e) => e.status === "ongoing" && isClosingSoon(e.endDate, today))
     .sort((a, b) => (a.endDate ?? "").localeCompare(b.endDate ?? ""));
-  const ongoing = list.filter((e) => e.status === "ongoing");
+  const mainList = sortExhibitions(list, sort, { today });
 
   const counts = {
     ongoing: catalog.exhibitions.filter((e) => e.status === "ongoing").length,
@@ -107,7 +110,19 @@ export default function Home() {
 
       {!swipeMode && (
         <>
-          <div className="pb-7"><FilterChips options={[...STATUS_OPTS, ...EXTRA_OPTS]} active={chips} onToggle={toggle} /></div>
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-2 pb-7">
+            <FilterGroup label={t("controls.status")}>
+              <FilterChips options={STATUS_OPTS} active={chips} onToggle={toggle} />
+            </FilterGroup>
+            <span className="h-4 w-px bg-line2" aria-hidden="true" />
+            <FilterGroup label={t("controls.more")}>
+              <FilterChips options={EXTRA_OPTS} active={chips} onToggle={toggle} />
+            </FilterGroup>
+            <span className="h-4 w-px bg-line2" aria-hidden="true" />
+            <FilterGroup label={t("controls.sort")}>
+              <SortChips value={sort} options={["recommended", "closing", "recent"]} onChange={setSort} />
+            </FilterGroup>
+          </div>
 
           {featured && (
             <section className="mb-9 grid overflow-hidden rounded border border-line md:grid-cols-[1.1fr_0.9fr]">
@@ -123,7 +138,7 @@ export default function Home() {
             </Section>
           )}
           <Section title={t("home.sectionOngoing")} hint={t("home.sectionOngoingHint")}>
-            {ongoing.map((e) => <ExhibitionCard key={e.id} exhibition={e} today={today} />)}
+            {mainList.map((e) => <ExhibitionCard key={e.id} exhibition={e} today={today} />)}
           </Section>
         </>
       )}
@@ -136,7 +151,7 @@ export default function Home() {
           <div className="min-h-0 flex-1 pb-4">
             {/* Re-key on the active filter so the deck rebuilds from the filtered
                 list — but not on unrelated re-renders like a bookmark toggle. */}
-            <SwipeDeck key={chips.join(",")} items={ongoing} />
+            <SwipeDeck key={chips.join(",")} items={list.filter((e) => e.status === "ongoing")} />
           </div>
         </>
       )}
