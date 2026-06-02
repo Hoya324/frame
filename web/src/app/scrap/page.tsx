@@ -1,10 +1,14 @@
 "use client";
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { loadCatalogSync } from "@/lib/catalogClient";
 import { useAuth, useBookmarks } from "@/components/AuthProvider";
 import { ExhibitionCard } from "@/components/ExhibitionCard";
 import { useLang } from "@/components/LanguageProvider";
-import { daysUntil } from "@/lib/status";
+import { applyFilters, type FilterState } from "@/lib/filters";
+import { sortExhibitions, type SortKey } from "@/lib/sort";
+import { FilterChips } from "@/components/FilterChips";
+import { FilterGroup } from "@/components/controls/FilterGroup";
+import { SortChips } from "@/components/controls/SortChips";
 
 export default function ScrapPage() {
   const catalog = loadCatalogSync();
@@ -13,12 +17,19 @@ export default function ScrapPage() {
   const { t } = useLang();
   const today = new Date();
 
+  const [statuses, setStatuses] = useState<string[]>([]);
+  const [sort, setSort] = useState<SortKey>("closing");
+  const toggleStatus = (v: string) =>
+    setStatuses((s) => (s.includes(v) ? s.filter((x) => x !== v) : [...s, v]));
+
   const saved = useMemo(() => {
-    const list = catalog.exhibitions.filter((e) => ids.has(e.id));
-    const rank = (d: number | null) => (d == null ? Number.POSITIVE_INFINITY : d < 0 ? 1e6 - d : d);
-    return list.sort((a, b) => rank(daysUntil(a.endDate, today)) - rank(daysUntil(b.endDate, today)));
+    const base = catalog.exhibitions.filter((e) => ids.has(e.id));
+    const f: FilterState = {
+      statuses: statuses as FilterState["statuses"], mediums: [], types: [], freeOnly: false, regions: [],
+    };
+    return sortExhibitions(applyFilters(base, f), sort, { today });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [catalog.exhibitions, ids]);
+  }, [catalog.exhibitions, ids, statuses, sort]);
 
   if (loading) return <main className="mx-auto max-w-[1180px] px-7 py-16 text-tx3">{t("common.loading")}</main>;
   if (!user) {
@@ -39,6 +50,19 @@ export default function ScrapPage() {
     <main className="mx-auto max-w-[1180px] px-7 py-8">
       <h1 className="text-[28px] font-extrabold tracking-tight">{t("scrap.title")}</h1>
       <p className="mt-2 text-sm text-tx3">{t("scrap.subtitle").replace("{n}", String(saved.length))}</p>
+      <div className="mt-5 flex flex-wrap items-center gap-x-3 gap-y-2">
+        <FilterGroup label={t("controls.status")}>
+          <FilterChips active={statuses} onToggle={toggleStatus} options={[
+            { value: "ongoing", label: t("filter.ongoing") },
+            { value: "upcoming", label: t("filter.upcoming") },
+            { value: "past", label: t("filter.past") },
+          ]} />
+        </FilterGroup>
+        <span className="h-4 w-px bg-line2" aria-hidden="true" />
+        <FilterGroup label={t("controls.sort")}>
+          <SortChips value={sort} options={["recommended", "closing", "recent"]} onChange={setSort} />
+        </FilterGroup>
+      </div>
       {saved.length === 0 ? (
         <div className="py-20 text-center text-tx3">{t("scrap.empty")}</div>
       ) : (
