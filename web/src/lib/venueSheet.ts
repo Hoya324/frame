@@ -1,6 +1,9 @@
-import type { Exhibition, Status } from "@/lib/catalog";
+import type { Exhibition } from "@/lib/catalog";
 
-export type SortMode = "ongoing" | "closing" | "recent";
+// 정렬(언제나 하나 선택) — 상태 필터와 별개 축이다.
+export type SortMode = "closing" | "recent";
+// 상태 필터(다중 선택 가능, 비어 있으면 전체).
+export type StatusFilter = "ongoing" | "upcoming";
 
 export interface VenueSummary {
   total: number;
@@ -18,15 +21,18 @@ export function venueSummary(items: Exhibition[]): VenueSummary {
   return { total: items.length, ongoing, upcoming };
 }
 
-// 진행중 → 예정 → 정보없음 → 종료 순으로 노출.
-const STATUS_RANK: Record<Status, number> = { ongoing: 0, upcoming: 1, unknown: 2, past: 3 };
+// 상태 필터: 선택된 상태만 남긴다. 아무것도 선택하지 않으면 전체를 그대로 반환.
+export function filterByStatus(items: Exhibition[], statuses: StatusFilter[]): Exhibition[] {
+  if (statuses.length === 0) return items;
+  const set = new Set<string>(statuses);
+  return items.filter((e) => set.has(e.status));
+}
 
 // Array.prototype.sort는 최신 엔진에서 안정 정렬이므로 동순위 입력 순서를 보존한다.
 export function sortForSheet(items: Exhibition[], mode: SortMode): Exhibition[] {
   const copy = [...items];
-  if (mode === "ongoing") {
-    copy.sort((a, b) => STATUS_RANK[a.status] - STATUS_RANK[b.status]);
-  } else if (mode === "closing") {
+  if (mode === "closing") {
+    // 아직 진행중인(=관람 가능한) 전시를 마감 임박 순으로 위에, 종료된 건 아래로.
     copy.sort((a, b) => {
       const ao = a.status === "ongoing" ? 0 : 1;
       const bo = b.status === "ongoing" ? 0 : 1;
@@ -34,6 +40,7 @@ export function sortForSheet(items: Exhibition[], mode: SortMode): Exhibition[] 
       return (a.endDate ?? "9999-99-99").localeCompare(b.endDate ?? "9999-99-99");
     });
   } else {
+    // recent: 시작일 최신순.
     copy.sort((a, b) => (b.startDate ?? "").localeCompare(a.startDate ?? ""));
   }
   return copy;

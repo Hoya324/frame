@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { venueSummary, sortForSheet, nextSnap } from "@/lib/venueSheet";
+import { venueSummary, sortForSheet, filterByStatus, nextSnap } from "@/lib/venueSheet";
 import type { Exhibition } from "@/lib/catalog";
 
 function ex(p: Partial<Exhibition> & { id: string }): Exhibition {
@@ -34,13 +34,6 @@ describe("sortForSheet", () => {
     ex({ id: "up", status: "upcoming", startDate: "2026-08-01", endDate: "2026-09-01" }),
   ];
 
-  it("ongoing mode puts ongoing first, then upcoming, then past", () => {
-    const ids = sortForSheet(items, "ongoing").map((e) => e.id);
-    expect(ids.slice(0, 2).sort()).toEqual(["later", "soon"]);
-    expect(ids[2]).toBe("up");
-    expect(ids[3]).toBe("past");
-  });
-
   it("closing mode orders ongoing by soonest endDate first", () => {
     const ids = sortForSheet(items, "closing").map((e) => e.id);
     expect(ids[0]).toBe("soon");
@@ -56,6 +49,33 @@ describe("sortForSheet", () => {
   it("does not mutate the input array", () => {
     const copy = [...items];
     sortForSheet(items, "recent");
+    expect(items.map((e) => e.id)).toEqual(copy.map((e) => e.id));
+  });
+});
+
+describe("filterByStatus", () => {
+  const items = [
+    ex({ id: "past", status: "past" }),
+    ex({ id: "soon", status: "ongoing" }),
+    ex({ id: "later", status: "ongoing" }),
+    ex({ id: "up", status: "upcoming" }),
+  ];
+
+  it("returns everything when no status is selected", () => {
+    expect(filterByStatus(items, []).map((e) => e.id)).toEqual(["past", "soon", "later", "up"]);
+  });
+
+  it("keeps only ongoing when ongoing is selected", () => {
+    expect(filterByStatus(items, ["ongoing"]).map((e) => e.id)).toEqual(["soon", "later"]);
+  });
+
+  it("keeps ongoing and upcoming when both are selected (hides ended)", () => {
+    expect(filterByStatus(items, ["ongoing", "upcoming"]).map((e) => e.id)).toEqual(["soon", "later", "up"]);
+  });
+
+  it("does not mutate the input array", () => {
+    const copy = [...items];
+    filterByStatus(items, ["ongoing"]);
     expect(items.map((e) => e.id)).toEqual(copy.map((e) => e.id));
   });
 });

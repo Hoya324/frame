@@ -61,15 +61,35 @@ describe("VenueSheet", () => {
     expect(screen.getByText("지난전시")).toBeInTheDocument();
   });
 
-  it("default ongoing sort lists ongoing exhibitions before past", () => {
+  it("defaults to '마감임박' sort: ongoing first, ended (past) last", () => {
     renderWithLang(<VenueSheet venue={VENUE} exhibitions={ITEMS} onClose={vi.fn()} />);
     expect(cardTitlesInOrder()[2]).toBe("지난전시");
   });
 
-  it("switching to '마감임박' puts the soonest-closing ongoing first", () => {
+  it("switching to '최신순' orders by newest start date first", () => {
     renderWithLang(<VenueSheet venue={VENUE} exhibitions={ITEMS} onClose={vi.fn()} />);
-    fireEvent.click(screen.getByRole("button", { name: "마감임박" }));
-    expect(cardTitlesInOrder()[0]).toBe("곧마감");
+    fireEvent.click(screen.getByRole("button", { name: "최신순" }));
+    expect(cardTitlesInOrder()[0]).toBe("여유전시"); // 2026-05-20, 가장 최근 시작
+  });
+
+  it("'진행중' filter hides ended exhibitions", () => {
+    renderWithLang(<VenueSheet venue={VENUE} exhibitions={ITEMS} onClose={vi.fn()} />);
+    fireEvent.click(screen.getByRole("button", { name: "진행중" }));
+    expect(screen.queryByText("지난전시")).not.toBeInTheDocument();
+    expect(screen.getByText("곧마감")).toBeInTheDocument();
+    expect(screen.getByText("여유전시")).toBeInTheDocument();
+  });
+
+  it("'예정' filter shows only upcoming exhibitions", () => {
+    const withUpcoming: Exhibition[] = [
+      ...ITEMS,
+      ex("e-up", { title: "예정전시", status: "upcoming", startDate: "2026-09-01", endDate: "2026-10-01" }),
+    ];
+    renderWithLang(<VenueSheet venue={VENUE} exhibitions={withUpcoming} onClose={vi.fn()} />);
+    fireEvent.click(screen.getByRole("button", { name: "예정" }));
+    expect(screen.getByText("예정전시")).toBeInTheDocument();
+    expect(screen.queryByText("곧마감")).not.toBeInTheDocument();
+    expect(screen.queryByText("지난전시")).not.toBeInTheDocument();
   });
 
   it("calls onClose when the backdrop is clicked (after the exit animation)", async () => {

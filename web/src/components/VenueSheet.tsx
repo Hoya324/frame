@@ -4,11 +4,19 @@ import { X } from "lucide-react";
 import { ExhibitionCard } from "@/components/ExhibitionCard";
 import { TranslatableText } from "@/components/TranslatableText";
 import { useLang } from "@/components/LanguageProvider";
-import { venueSummary, sortForSheet, nextSnap, type SortMode } from "@/lib/venueSheet";
+import {
+  venueSummary, sortForSheet, filterByStatus, nextSnap,
+  type SortMode, type StatusFilter,
+} from "@/lib/venueSheet";
 import type { Exhibition, VenueEmbed } from "@/lib/catalog";
 
+// 상태 필터(다중 선택, 비어 있으면 전체). 라벨은 기존 filter.* 키 재사용.
+const STATUS_FILTERS: { value: StatusFilter; key: string }[] = [
+  { value: "ongoing", key: "filter.ongoing" },
+  { value: "upcoming", key: "filter.upcoming" },
+];
+// 정렬(언제나 하나 선택).
 const SORTS: { mode: SortMode; key: string }[] = [
-  { mode: "ongoing", key: "venue.sortOngoing" },
   { mode: "closing", key: "venue.sortClosing" },
   { mode: "recent", key: "venue.sortRecent" },
 ];
@@ -21,7 +29,8 @@ export function VenueSheet({
   onClose: () => void;
 }) {
   const { t } = useLang();
-  const [sort, setSort] = useState<SortMode>("ongoing");
+  const [statuses, setStatuses] = useState<StatusFilter[]>([]);
+  const [sort, setSort] = useState<SortMode>("closing");
   const [snap, setSnap] = useState<"full" | "peek">("full");
   const [dragY, setDragY] = useState(0);
   const [startY, setStartY] = useState<number | null>(null);
@@ -40,7 +49,8 @@ export function VenueSheet({
   const [prevVenueId, setPrevVenueId] = useState(venue.id);
   if (prevVenueId !== venue.id) {
     setPrevVenueId(venue.id);
-    setSort("ongoing");
+    setStatuses([]);
+    setSort("closing");
     setSnap("full");
     setDragY(0);
     setStartY(null);
@@ -85,7 +95,11 @@ export function VenueSheet({
   }, []);
 
   const summary = venueSummary(exhibitions);
-  const sorted = sortForSheet(exhibitions, sort);
+  // 요약은 항상 전체 기준(전시 N · 진행중 X · 예정 Y), 목록은 필터 후 정렬.
+  const shown = sortForSheet(filterByStatus(exhibitions, statuses), sort);
+
+  const toggleStatus = (v: StatusFilter) =>
+    setStatuses((prev) => (prev.includes(v) ? prev.filter((x) => x !== v) : [...prev, v]));
 
   const onPointerDown = (e: React.PointerEvent) => {
     setStartY(e.clientY);
@@ -163,8 +177,27 @@ export function VenueSheet({
             </button>
           </div>
 
-          {/* 정렬 칩 */}
-          <div className="mt-3 flex gap-2">
+          {/* 상태 필터(다중) · 구분선 · 정렬(단일) */}
+          <div className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-2">
+            <span className="text-[11px] text-tx3">{t("venue.statusLabel")}</span>
+            {STATUS_FILTERS.map((f) => {
+              const on = statuses.includes(f.value);
+              return (
+                <button
+                  key={f.value}
+                  type="button"
+                  onClick={() => toggleStatus(f.value)}
+                  aria-pressed={on}
+                  className={`rounded-full px-3 py-1 text-xs font-semibold transition ${
+                    on ? "bg-white text-black" : "border border-line2 text-tx2"
+                  }`}
+                >
+                  {t(f.key)}
+                </button>
+              );
+            })}
+            <span className="mx-1 h-4 w-px bg-line2" aria-hidden="true" />
+            <span className="text-[11px] text-tx3">{t("venue.sortLabel")}</span>
             {SORTS.map((s) => (
               <button
                 key={s.mode}
@@ -183,7 +216,7 @@ export function VenueSheet({
 
         {/* 포스터 2열 그리드 */}
         <div className="grid grid-cols-2 gap-4 overflow-y-auto p-5">
-          {sorted.map((e) => (
+          {shown.map((e) => (
             <ExhibitionCard key={e.id} exhibition={e} />
           ))}
         </div>
