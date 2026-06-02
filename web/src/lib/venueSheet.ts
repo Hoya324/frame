@@ -1,6 +1,7 @@
 import type { Exhibition } from "@/lib/catalog";
+import { sortExhibitions } from "@/lib/sort";
 
-// 정렬(언제나 하나 선택) — 상태 필터와 별개 축이다.
+// 정렬(언제나 하나 선택) — 상태 필터와 별개 축이다. 공용 SortKey의 부분집합.
 export type SortMode = "closing" | "recent";
 // 상태 필터(다중 선택 가능, 비어 있으면 전체).
 export type StatusFilter = "ongoing" | "upcoming";
@@ -28,22 +29,9 @@ export function filterByStatus(items: Exhibition[], statuses: StatusFilter[]): E
   return items.filter((e) => set.has(e.status));
 }
 
-// Array.prototype.sort는 최신 엔진에서 안정 정렬이므로 동순위 입력 순서를 보존한다.
+// 공용 정렬 로직에 위임(중복 제거). 공간시트는 closing/recent만 노출.
 export function sortForSheet(items: Exhibition[], mode: SortMode): Exhibition[] {
-  const copy = [...items];
-  if (mode === "closing") {
-    // 아직 진행중인(=관람 가능한) 전시를 마감 임박 순으로 위에, 종료된 건 아래로.
-    copy.sort((a, b) => {
-      const ao = a.status === "ongoing" ? 0 : 1;
-      const bo = b.status === "ongoing" ? 0 : 1;
-      if (ao !== bo) return ao - bo;
-      return (a.endDate ?? "9999-99-99").localeCompare(b.endDate ?? "9999-99-99");
-    });
-  } else {
-    // recent: 시작일 최신순.
-    copy.sort((a, b) => (b.startDate ?? "").localeCompare(a.startDate ?? ""));
-  }
-  return copy;
+  return sortExhibitions(items, mode);
 }
 
 // 모바일 바텀시트 드래그 종료 시 다음 스냅 위치 판정.

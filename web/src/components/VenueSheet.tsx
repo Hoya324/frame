@@ -17,8 +17,8 @@ const STATUS_FILTERS: { value: StatusFilter; key: string }[] = [
 ];
 // 정렬(언제나 하나 선택).
 const SORTS: { mode: SortMode; key: string }[] = [
-  { mode: "closing", key: "venue.sortClosing" },
-  { mode: "recent", key: "venue.sortRecent" },
+  { mode: "closing", key: "sort.closing" },
+  { mode: "recent", key: "sort.recent" },
 ];
 
 export function VenueSheet({
@@ -179,7 +179,7 @@ export function VenueSheet({
 
           {/* 상태 필터(다중) · 구분선 · 정렬(단일) */}
           <div className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-2">
-            <span className="text-[11px] text-tx3">{t("venue.statusLabel")}</span>
+            <span className="text-[11px] text-tx3">{t("controls.status")}</span>
             {STATUS_FILTERS.map((f) => {
               const on = statuses.includes(f.value);
               return (
@@ -188,8 +188,9 @@ export function VenueSheet({
                   type="button"
                   onClick={() => toggleStatus(f.value)}
                   aria-pressed={on}
-                  className={`rounded-full px-3 py-1 text-xs font-semibold transition ${
-                    on ? "bg-white text-black" : "border border-line2 text-tx2"
+                  className={`rounded-full px-3.5 py-1.5 text-[13px] font-medium transition ${
+                    on ? "border border-white bg-white font-semibold text-black"
+                       : "border border-line text-tx2 hover:text-tx"
                   }`}
                 >
                   {t(f.key)}
@@ -197,15 +198,16 @@ export function VenueSheet({
               );
             })}
             <span className="mx-1 h-4 w-px bg-line2" aria-hidden="true" />
-            <span className="text-[11px] text-tx3">{t("venue.sortLabel")}</span>
+            <span className="text-[11px] text-tx3">{t("controls.sort")}</span>
             {SORTS.map((s) => (
               <button
                 key={s.mode}
                 type="button"
                 onClick={() => setSort(s.mode)}
                 aria-pressed={sort === s.mode}
-                className={`rounded-full px-3 py-1 text-xs font-semibold transition ${
-                  sort === s.mode ? "bg-white text-black" : "border border-line2 text-tx2"
+                className={`rounded-full px-3.5 py-1.5 text-[13px] font-medium transition ${
+                  sort === s.mode ? "border border-white bg-white font-semibold text-black"
+                                  : "border border-line text-tx2 hover:text-tx"
                 }`}
               >
                 {t(s.key)}
