@@ -6,6 +6,8 @@ from __future__ import annotations
 import logging
 import os
 import re
+import time
+from collections.abc import Callable
 from typing import Protocol
 
 import httpx
@@ -108,6 +110,11 @@ _GEMINI_URL = (
 # default. Override with GEMINI_MODEL when a newer Flash model is preferred.
 _DEFAULT_GEMINI_MODEL = "gemini-2.5-flash"
 
+# Free-tier Flash allows ~15 requests/minute. Space calls ~4.5s apart (~13 RPM)
+# so the backfill stays under the cap instead of tripping 429 on every burst and
+# wasting the run on retry backoff. Override with GEMINI_MIN_INTERVAL_SEC.
+_DEFAULT_GEMINI_MIN_INTERVAL = 4.5
+
 
 def _is_retryable_gemini(exc: BaseException) -> bool:
     """Retry transient transport errors and 429/5xx; never retry 4xx like a bad
@@ -130,17 +137,39 @@ class GeminiTranslator:
         api_key: str,
         model: str = _DEFAULT_GEMINI_MODEL,
         timeout: float = 30.0,
+        min_interval: float = _DEFAULT_GEMINI_MIN_INTERVAL,
+        sleep: Callable[[float], None] = time.sleep,
+        monotonic: Callable[[], float] = time.monotonic,
     ) -> None:
         self._key = api_key
         self._model = model
         self._client = httpx.Client(timeout=timeout)
+        self._min_interval = min_interval
+        self._sleep = sleep
+        self._monotonic = monotonic
+        self._next_at = 0.0
 
     @classmethod
     def from_env(cls) -> GeminiTranslator:
         return cls(
             api_key=os.environ["GEMINI_API_KEY"],
             model=os.environ.get("GEMINI_MODEL", _DEFAULT_GEMINI_MODEL),
+            min_interval=float(
+                os.environ.get(
+                    "GEMINI_MIN_INTERVAL_SEC", str(_DEFAULT_GEMINI_MIN_INTERVAL)
+                )
+            ),
         )
+
+    def _throttle(self) -> None:
+        """Block until at least min_interval has elapsed since the last call so
+        the request rate stays under the free-tier RPM cap."""
+        if self._min_interval <= 0:
+            return
+        wait = self._next_at - self._monotonic()
+        if wait > 0:
+            self._sleep(wait)
+        self._next_at = self._monotonic() + self._min_interval
 
     @staticmethod
     def _prompt(text: str, from_code: str, to_code: str) -> str:
@@ -190,6 +219,7 @@ class GeminiTranslator:
     def translate(self, text: str, from_code: str, to_code: str) -> str:
         if not text or not text.strip():
             return text
+        self._throttle()
         data = self._generate(self._prompt(text, from_code, to_code))
         out = self._extract(data).strip()
         # Empty / safety-blocked response: keep the original rather than wiping

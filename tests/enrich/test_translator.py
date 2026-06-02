@@ -146,6 +146,40 @@ def test_gemini_empty_candidates_returns_original():
     assert t.translate("원문 그대로", "ko", "en") == "원문 그대로"
 
 
+@respx.mock
+def test_gemini_throttles_requests_to_respect_the_rate_limit():
+    # The free tier caps RPM; without client-side spacing the backfill fires
+    # requests flat-out, trips 429 immediately, and burns the run retrying. A
+    # min interval between calls keeps it under the limit so requests succeed.
+    from crawler.enrich.translator import GeminiTranslator
+
+    respx.post(_GEMINI_URL).mock(return_value=httpx.Response(200, json=_candidate("x")))
+    clock = {"t": 100.0}
+    slept: list[float] = []
+
+    def fake_sleep(s):
+        slept.append(s)
+        clock["t"] += s
+
+    t = GeminiTranslator(
+        api_key="k", min_interval=4.5, sleep=fake_sleep, monotonic=lambda: clock["t"]
+    )
+    t.translate("a", "ja", "ko")  # first call: no prior request, no wait
+    t.translate("b", "ja", "ko")  # must wait one interval
+    t.translate("c", "ja", "ko")  # and again
+    assert slept == [4.5, 4.5]
+
+
+def test_gemini_no_throttle_when_interval_zero():
+    from crawler.enrich.translator import GeminiTranslator
+
+    slept: list[float] = []
+    t = GeminiTranslator(api_key="k", min_interval=0, sleep=lambda s: slept.append(s))
+    # blank passthrough makes no request; just assert the knob disables sleeping
+    t.translate("   ", "ja", "ko")
+    assert slept == []
+
+
 def test_gemini_retry_predicate():
     from crawler.enrich.translator import _is_retryable_gemini
 
