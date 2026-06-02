@@ -89,6 +89,7 @@ def test_build_catalog_embeds_venue_and_artists():
 
     ex = catalog["exhibitions"][0]
     assert ex["id"] == "e1"
+    assert ex["source"] == "artmap"
     assert ex["title"] == "빛과 시간의 기록"
     assert "title_en" not in ex
     assert ex["tr"] == {}

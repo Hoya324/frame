@@ -4,7 +4,7 @@ import type { Exhibition } from "@/lib/catalog";
 
 function ex(p: Partial<Exhibition>): Exhibition {
   return {
-    id: "x", title: "T", posterImageUrl: null, description: null,
+    id: "x", source: null, title: "T", posterImageUrl: null, description: null,
     medium: "photo", exhibitionType: "solo", genreTags: [], feeType: "free",
     priceMin: null, priceMax: null, startDate: "2026-05-01", endDate: "2026-06-30",
     status: "ongoing", openHours: null, venue: null, artists: [],

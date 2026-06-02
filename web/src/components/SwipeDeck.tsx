@@ -7,6 +7,7 @@ import { StatusBadge } from "@/components/StatusBadge";
 import { useBookmarks } from "@/components/AuthProvider";
 import { useLang } from "@/components/LanguageProvider";
 import { localized, type Exhibition } from "@/lib/catalog";
+import { sourceLabel } from "@/lib/sources";
 
 // Fisher–Yates shuffle so the deck order is fresh on every mount.
 function shuffle<T>(input: T[]): T[] {
@@ -166,6 +167,9 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
         <div className="absolute inset-x-0 bottom-24 px-6">
           <h2 className="text-3xl font-extrabold tracking-tight">{current.title}</h2>
           <div className="mt-2 text-sm text-tx2">{current.venue?.name ?? t("common.venueTbd")}</div>
+          {sourceLabel(current.source, current.sourceUrl) && (
+            <div className="mt-1 text-xs text-tx3">{t("detail.from")} · {sourceLabel(current.source, current.sourceUrl)}</div>
+          )}
         </div>
       </div>
 

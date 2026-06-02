@@ -11,7 +11,7 @@ export interface VenueEmbed {
   lang: string | null; tr: TrMap;
 }
 export interface Exhibition {
-  id: string; title: string;
+  id: string; source: string | null; title: string;
   posterImageUrl: string | null; description: string | null;
   medium: string | null; exhibitionType: string | null; genreTags: string[];
   feeType: string | null; priceMin: number | null; priceMax: number | null;
@@ -54,7 +54,7 @@ export function parseCatalog(raw: any): Catalog {
     generatedAt: raw.generated_at,
     exhibitions: dedupeById((raw.exhibitions ?? []).map(
       (e: any): Exhibition => ({
-        id: e.id, title: e.title,
+        id: e.id, source: e.source ?? null, title: e.title,
         posterImageUrl: e.poster_image_url ?? null, description: e.description ?? null,
         medium: e.medium ?? null, exhibitionType: e.exhibition_type ?? null,
         genreTags: e.genre_tags ?? [], feeType: e.fee_type ?? null,

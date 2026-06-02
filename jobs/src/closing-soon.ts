@@ -2,7 +2,7 @@ import { loadCatalog, daysUntil } from "./lib/catalog";
 import { makeAdminClient, subscribersOf, bookmarksOf } from "./lib/supabaseAdmin";
 import { loadSentRefs, recordSent } from "./lib/emailLog";
 import { makeResendMailer, type Mailer } from "./lib/resendClient";
-import { renderClosingSoon } from "./lib/render";
+import { renderClosingSoon, emailStrings } from "./lib/render";
 import { env } from "./lib/env";
 
 export async function runClosingSoon(deps?: { mailer?: Mailer; today?: Date }): Promise<number> {
@@ -28,7 +28,7 @@ export async function runClosingSoon(deps?: { mailer?: Mailer; today?: Date }): 
     const fresh = due.filter(({ e, dday }) => !already.has(`${e.id}:${dday}`));
     if (fresh.length === 0) continue;
 
-    await mailer.send(sub.email, "곧 종료되는 스크랩 전시", renderClosingSoon(fresh, env.siteUrl()));
+    await mailer.send(sub.email, emailStrings(sub.locale).closingSubject, renderClosingSoon(fresh, env.siteUrl(), sub.locale));
     await recordSent(client, sub.userId, "closing_soon", fresh.map(({ e, dday }) => `${e.id}:${dday}`));
     sent++;
   }

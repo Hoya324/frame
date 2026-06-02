@@ -7,7 +7,12 @@ export function makeAdminClient(): SupabaseClient {
   });
 }
 
-export interface Subscriber { userId: string; email: string; filters: Record<string, string[]>; }
+export type Locale = "ko" | "en" | "ja";
+const LOCALES: Locale[] = ["ko", "en", "ja"];
+
+export interface Subscriber {
+  userId: string; email: string; filters: Record<string, string[]>; locale: Locale;
+}
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /**
@@ -31,19 +36,29 @@ export async function subscribersOf(
   const userIds = [...new Set(rows.map((r: any) => r.user_id as string))];
   const { data: profiles, error: profErr } = await client
     .from("profiles")
-    .select("id, email")
+    .select("id, email, locale")
     .in("id", userIds);
   if (profErr) throw profErr;
-  const emailById = new Map<string, string>(
-    (profiles ?? []).map((p: any) => [p.id as string, (p.email ?? "") as string]),
+  const profileById = new Map<string, { email: string; locale: Locale }>(
+    (profiles ?? []).map((p: any) => {
+      const loc = p.locale as string | null;
+      return [p.id as string, {
+        email: (p.email ?? "") as string,
+        locale: loc && LOCALES.includes(loc as Locale) ? (loc as Locale) : "ko",
+      }];
+    }),
   );
 
   return rows
-    .map((r: any): Subscriber => ({
-      userId: r.user_id,
-      email: emailById.get(r.user_id) ?? "",
-      filters: r.filters ?? {},
-    }))
+    .map((r: any): Subscriber => {
+      const prof = profileById.get(r.user_id);
+      return {
+        userId: r.user_id,
+        email: prof?.email ?? "",
+        filters: r.filters ?? {},
+        locale: prof?.locale ?? "ko",
+      };
+    })
     .filter((s: Subscriber) => s.email);
 }
 

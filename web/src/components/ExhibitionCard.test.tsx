@@ -10,7 +10,7 @@ import { ExhibitionCard } from "@/components/ExhibitionCard";
 import type { Exhibition } from "@/lib/catalog";
 
 const E: Exhibition = {
-  id: "e1", title: "을지로의 밤", posterImageUrl: "https://x/p.jpg",
+  id: "e1", source: "artmap", title: "을지로의 밤", posterImageUrl: "https://x/p.jpg",
   description: null, medium: "photo", exhibitionType: "group", genreTags: [],
   feeType: "free", priceMin: null, priceMax: null, startDate: "2026-05-01",
   endDate: "2026-06-02", status: "ongoing", openHours: null,
@@ -25,6 +25,7 @@ describe("ExhibitionCard", () => {
     expect(screen.getByText("을지로의 밤")).toBeInTheDocument();
     expect(screen.getByText(/갤러리 룩스/)).toBeInTheDocument();
     expect(screen.getByText("D-3")).toBeInTheDocument();
+    expect(screen.getByText(/ARTMAP/)).toBeInTheDocument();
   });
 
   it("offers translation toggle when tr exists for current locale", () => {

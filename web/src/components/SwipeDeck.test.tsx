@@ -14,7 +14,7 @@ import type { Exhibition } from "@/lib/catalog";
 
 function ex(id: string, title: string): Exhibition {
   return {
-    id, title, posterImageUrl: "https://x/p.jpg", description: null,
+    id, source: null, title, posterImageUrl: "https://x/p.jpg", description: null,
     medium: "photo", exhibitionType: "solo", genreTags: [], feeType: "free",
     priceMin: null, priceMax: null, startDate: null, endDate: null, status: "ongoing",
     openHours: null, venue: null, artists: [], sourceUrl: null, featured: false, popularityScore: null,

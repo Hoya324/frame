@@ -5,7 +5,7 @@ const RAW = {
   generated_at: "2026-05-30T06:54:00+00:00",
   exhibitions: [
     {
-      id: "e1", title: "빛과 시간의 기록",
+      id: "e1", source: "artmap", title: "빛과 시간의 기록",
       poster_image_url: "https://x/p.jpg", description: "d",
       medium: "photo", exhibition_type: "solo", genre_tags: ["doc"],
       fee_type: "free", price_min: null, price_max: null,
@@ -40,7 +40,12 @@ describe("parseCatalog", () => {
     expect(cat.exhibitions).toHaveLength(1);
     expect(cat.exhibitions[0].venue?.district).toBe("삼청");
     expect(cat.exhibitions[0].featured).toBe(true);
+    expect(cat.exhibitions[0].source).toBe("artmap");
     expect(cat.generatedAt).toBe("2026-05-30T06:54:00+00:00");
+  });
+
+  it("defaults source to null when absent", () => {
+    expect(parseCatalog(raw).exhibitions[0].source).toBeNull();
   });
 });
 

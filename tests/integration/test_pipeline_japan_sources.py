@@ -36,7 +36,7 @@ def test_tab_pipeline_smoke(header_repo, monkeypatch):
     monkeypatch.setattr(TokyoArtBeatExtractor, "_get", lambda self, url: html)
 
     report = run_source(
-        extractor=TokyoArtBeatExtractor(timeout_s=5),
+        extractor=TokyoArtBeatExtractor(timeout_s=5, delay_s=0),
         repo=header_repo,
         geocoder=_NullGeocoder(),
         today=date(2026, 5, 28),

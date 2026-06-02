@@ -26,6 +26,14 @@ _RANGE_SPLIT = re.compile(r"\s*[~–—〜～－]\s*|\s+-\s+")
 # where only the right half has the year; without back-filling from the right
 # half, dateutil silently defaults the left half to today's year.
 _FOUR_DIGIT_YEAR = re.compile(r"\b(\d{4})\b")
+# An abbreviated end half that carries no four-digit year, e.g. KOBA's
+# "23일", "6월 3일", or the Japanese "23日". We back-fill the missing month
+# and/or year from the already-parsed start date. Group 1 = optional month,
+# group 2 = day. Handles 월/月 (CJK) and bare numerics ("6.3", "23").
+_ABBREV_END = re.compile(
+    r"^\s*(?:(\d{1,2})\s*[월月.\-/]\s*)?(\d{1,2})\s*[일日]?\s*"
+    r"(?:[（(]\s*[월화수목금토일月火水木金土日]\s*[）)])?\s*$"
+)
 
 
 def parse_date(raw: str | None) -> date | None:
@@ -86,4 +94,18 @@ def parse_date_range(raw: str | None) -> tuple[date | None, date | None]:
             patched_left = parse_date(patched)
             if patched_left is not None:
                 left = patched_left
+    # Symmetric case: the end half omits the year (and maybe the month), e.g.
+    # KOBA's "2025년 5월 20일 ~ 23일". Back-fill year/month from the start so the
+    # show gets a real end date instead of staying "ongoing" forever.
+    if left is not None and right is None:
+        m = _ABBREV_END.match(right_raw)
+        if m:
+            month = int(m.group(1)) if m.group(1) else left.month
+            day = int(m.group(2))
+            try:
+                right = date(left.year, month, day)
+                if right < left:  # span rolls into the next year (Dec → Jan)
+                    right = date(left.year + 1, month, day)
+            except ValueError:
+                right = None
     return left, right

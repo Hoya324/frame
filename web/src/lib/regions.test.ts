@@ -4,7 +4,7 @@ import type { Exhibition } from "@/lib/catalog";
 
 function ex(id: string, region: string | null, lat: number | null): Exhibition {
   return {
-    id, title: id, posterImageUrl: null, description: null, medium: null,
+    id, source: null, title: id, posterImageUrl: null, description: null, medium: null,
     exhibitionType: null, genreTags: [], feeType: null, priceMin: null, priceMax: null,
     startDate: null, endDate: null, status: "ongoing", openHours: null,
     venue: region || lat ? { id: "v", name: "v", region, district: null, lat, lng: lat, lang: null, tr: {} } : null,

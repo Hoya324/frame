@@ -6,9 +6,11 @@ import { TranslatableText } from "@/components/TranslatableText";
 import { TranslationPopover } from "@/components/TranslationPopover";
 import { useLang } from "@/components/LanguageProvider";
 import type { Exhibition } from "@/lib/catalog";
+import { sourceLabel } from "@/lib/sources";
 
 export function ExhibitionDetailView({ e }: { e: Exhibition }) {
   const { t } = useLang();
+  const source = sourceLabel(e.source, e.sourceUrl);
   const price =
     e.feeType === "free"
       ? t("common.free")
@@ -48,12 +50,19 @@ export function ExhibitionDetailView({ e }: { e: Exhibition }) {
               className="mt-6 whitespace-pre-line text-[14px] leading-relaxed text-tx2"
             />
           )}
-          <div className="mt-7 flex items-center gap-3">
+          {source && (
+            <div className="mt-6 text-[12.5px] text-tx3">
+              {t("detail.from")} <span className="text-tx2">{source}</span>
+            </div>
+          )}
+          <div className="mt-3 flex items-center gap-3">
             <ScrapButton exhibitionId={e.id} />
             {e.sourceUrl && (
               <a href={e.sourceUrl} target="_blank" rel="noopener noreferrer"
-                className="rounded-lg border border-line2 px-4 py-2 text-sm font-medium hover:bg-panel2">
-                {t("detail.source")}
+                aria-label={source ? `${t("detail.from")} ${source}` : t("detail.source")}
+                className="inline-flex items-center gap-1 rounded-lg border border-line2 px-4 py-2 text-sm font-medium hover:bg-panel2">
+                {source ?? t("detail.source")}
+                <span aria-hidden className="text-tx3">↗</span>
               </a>
             )}
           </div>
