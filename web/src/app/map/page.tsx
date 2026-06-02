@@ -9,21 +9,14 @@ import { ExhibitionCard } from "@/components/ExhibitionCard";
 import { FilterChips } from "@/components/FilterChips";
 import { VenueSheet } from "@/components/VenueSheet";
 import { useLang } from "@/components/LanguageProvider";
+import { applyFilters, type FilterState } from "@/lib/filters";
+import { sortExhibitions, type SortKey } from "@/lib/sort";
+import { FilterGroup } from "@/components/controls/FilterGroup";
+import { SortChips } from "@/components/controls/SortChips";
 
 const MapView = dynamic(() => import("@/components/MapView").then((m) => m.MapView), { ssr: false });
 
 const COUNTRY_ORDER: Country[] = ["한국", "일본"];
-
-function distanceKm(a: [number, number], b: [number, number]): number {
-  const R = 6371;
-  const toRad = (d: number) => (d * Math.PI) / 180;
-  const dLat = toRad(b[1] - a[1]);
-  const dLng = toRad(b[0] - a[0]);
-  const s =
-    Math.sin(dLat / 2) ** 2 +
-    Math.cos(toRad(a[1])) * Math.cos(toRad(b[1])) * Math.sin(dLng / 2) ** 2;
-  return 2 * R * Math.asin(Math.sqrt(s));
-}
 
 export default function MapPage() {
   const router = useRouter();
@@ -34,9 +27,13 @@ export default function MapPage() {
   const [sheetVenueId, setSheetVenueId] = useState<string | null>(null);
   const [userLoc, setUserLoc] = useState<[number, number] | null>(null);
   const [locState, setLocState] = useState<"idle" | "locating" | "error">("idle");
+  const [statuses, setStatuses] = useState<string[]>([]);
+  const [sort, setSort] = useState<SortKey>("recommended");
   const toggle = (v: string) => {
     setCities((c) => (c.includes(v) ? c.filter((x) => x !== v) : [...c, v]));
   };
+  const toggleStatus = (v: string) =>
+    setStatuses((s) => (s.includes(v) ? s.filter((x) => x !== v) : [...s, v]));
 
   // Only exhibitions with coordinates can plot; tag each with its city bucket.
   const mappable = useMemo(
@@ -61,26 +58,23 @@ export default function MapPage() {
     })).filter((g) => g.cities.length > 0);
   }, [mappable]);
 
-  const items = useMemo(
-    () =>
-      mappable
-        .filter(({ bucket }) => cities.length === 0 || (bucket && cities.includes(bucket.city)))
-        .map(({ e }) => e),
-    [mappable, cities],
-  );
+  const items = useMemo(() => {
+    const base = mappable
+      .filter(({ bucket }) => cities.length === 0 || (bucket && cities.includes(bucket.city)))
+      .map(({ e }) => e);
+    const f: FilterState = {
+      statuses: statuses as FilterState["statuses"], mediums: [], types: [], freeOnly: false, regions: [],
+    };
+    return applyFilters(base, f);
+  }, [mappable, cities, statuses]);
 
   // The sidebar mirrors what is currently on screen, so the list count always
   // matches the markers the user can see. Clicking a multi-exhibition venue
   // marker pins the list to that venue. When located, sort by proximity.
   const listed = useMemo(() => {
     const base = visibleIds ? items.filter((e) => visibleIds.has(e.id)) : items;
-    if (!userLoc) return base;
-    return [...base].sort((a, b) => {
-      const da = distanceKm(userLoc, [a.venue!.lng!, a.venue!.lat!]);
-      const db = distanceKm(userLoc, [b.venue!.lng!, b.venue!.lat!]);
-      return da - db;
-    });
-  }, [items, visibleIds, userLoc]);
+    return sortExhibitions(base, sort, { userLoc: userLoc ?? undefined });
+  }, [items, visibleIds, userLoc, sort]);
 
   const sheet = useMemo(() => {
     if (!sheetVenueId) return null;
@@ -99,6 +93,7 @@ export default function MapPage() {
     navigator.geolocation.getCurrentPosition(
       (pos) => {
         setUserLoc([pos.coords.longitude, pos.coords.latitude]);
+        setSort("nearby");
         setLocState("idle");
       },
       () => setLocState("error"),
@@ -116,6 +111,25 @@ export default function MapPage() {
               options={g.cities.map((c) => ({ value: c, label: c }))} />
           </div>
         ))}
+      </div>
+
+      <div className="mb-3 flex flex-wrap items-center gap-x-3 gap-y-2">
+        <FilterGroup label={t("controls.status")}>
+          <FilterChips active={statuses} onToggle={toggleStatus} options={[
+            { value: "ongoing", label: t("filter.ongoing") },
+            { value: "upcoming", label: t("filter.upcoming") },
+            { value: "past", label: t("filter.past") },
+          ]} />
+        </FilterGroup>
+        <span className="h-4 w-px bg-line2" aria-hidden="true" />
+        <FilterGroup label={t("controls.sort")}>
+          <SortChips
+            value={sort}
+            options={["recommended", "closing", "recent", "nearby"]}
+            onChange={setSort}
+            disabled={{ nearby: !userLoc }}
+          />
+        </FilterGroup>
       </div>
 
       <div className="mb-3 flex flex-wrap items-center gap-3">
