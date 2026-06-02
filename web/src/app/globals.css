@@ -104,6 +104,35 @@ html, body {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
 }
 
+/* 여러 전시를 여는 venue: 뒤에 카드가 겹쳐 쌓인 모양으로 "한 공간 다수 전시"를 암시 */
+.frame-poster-marker--stacked::before,
+.frame-poster-marker--stacked::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 6px;
+  border: 2px solid #fff;
+  background: #2a2a2a;
+  z-index: -1;
+}
+.frame-poster-marker--stacked::before {
+  transform: translate(3px, 4px) rotate(4deg);
+}
+.frame-poster-marker--stacked::after {
+  transform: translate(6px, 7px) rotate(7deg);
+}
+
+/* 시트로 선택된 마커 강조 */
+.frame-poster-marker--selected {
+  transform: scale(1.18);
+  border-color: #fbbf24;
+  box-shadow: 0 0 0 3px rgba(251, 191, 36, 0.5), 0 2px 8px rgba(0, 0, 0, 0.55);
+  z-index: 2;
+}
+.frame-poster-marker--selected:hover {
+  transform: scale(1.18);
+}
+
 /* "내 위치" pulsing dot. */
 .frame-here-marker {
   width: 16px;

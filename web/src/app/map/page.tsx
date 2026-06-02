@@ -142,6 +142,7 @@ export default function MapPage() {
           items={items}
           height={560}
           userLocation={userLoc}
+          selectedVenueId={sheetVenueId}
           onViewChange={(ids) => setVisibleIds(new Set(ids))}
           onVenueSelect={(id) => setSheetVenueId(id)}
           onSelect={(id) => router.push(`/exhibitions/${id}`)}

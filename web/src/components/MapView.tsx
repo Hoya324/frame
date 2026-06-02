@@ -73,6 +73,7 @@ function posterMarkerEl(p: Record<string, unknown>, onClick: () => void): HTMLEl
   if (poster) el.style.backgroundImage = `url("${poster.replace(/"/g, "%22")}")`;
   const count = Number(p.count ?? 1);
   if (count > 1) {
+    el.classList.add("frame-poster-marker--stacked");
     const badge = document.createElement("span");
     badge.className = "frame-marker-badge";
     badge.textContent = count > 99 ? "99+" : String(count);
@@ -85,16 +86,20 @@ function posterMarkerEl(p: Record<string, unknown>, onClick: () => void): HTMLEl
   return el;
 }
 
-export function MapView({ items, height = 480, onSelect, onVenueSelect, onViewChange, userLocation }: {
+export function MapView({ items, height = 480, onSelect, onVenueSelect, onViewChange, userLocation, selectedVenueId }: {
   items: Exhibition[];
   height?: number;
   onSelect?: (id: string) => void;
-  onVenueSelect?: (venueId: string, venueName: string) => void;
+  onVenueSelect?: (venueId: string) => void;
   onViewChange?: (visibleIds: string[]) => void;
   userLocation?: [number, number] | null;
+  selectedVenueId?: string | null;
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
+  const markerEls = useRef<Record<string, HTMLElement>>({});
+  const selectedVenueRef = useRef<string | null>(selectedVenueId ?? null);
+  useEffect(() => { selectedVenueRef.current = selectedVenueId ?? null; }, [selectedVenueId]);
   // Keep latest callbacks without re-initializing the map on every render.
   const onSelectRef = useRef(onSelect);
   const onVenueSelectRef = useRef(onVenueSelect);
@@ -135,12 +140,13 @@ export function MapView({ items, height = 480, onSelect, onVenueSelect, onViewCh
         const coords = (f.geometry as GeoJSON.Point).coordinates as [number, number];
         let marker = markers[venueId];
         if (!marker) {
-          // Single-exhibition venue → open it directly; multi → select the
-          // venue so the sidebar lists all of its exhibitions.
+          // 단일 전시 venue → 바로 상세로; 멀티 → 공간 시트 오픈.
           const el = posterMarkerEl(p, () => {
-            if (Number(p.count ?? 1) > 1) onVenueSelectRef.current?.(venueId, String(p.venueName ?? ""));
+            if (Number(p.count ?? 1) > 1) onVenueSelectRef.current?.(venueId);
             else onSelectRef.current?.(String(p.firstId));
           });
+          if (venueId === selectedVenueRef.current) el.classList.add("frame-poster-marker--selected");
+          markerEls.current[venueId] = el;
           marker = markers[venueId] = new maplibregl.Marker({ element: el }).setLngLat(coords);
         }
         next[venueId] = marker;
@@ -231,10 +237,18 @@ export function MapView({ items, height = 480, onSelect, onVenueSelect, onViewCh
 
     return () => {
       for (const id in markers) markers[id].remove();
+      markerEls.current = {};
       map.remove();
       mapRef.current = null;
     };
   }, [items]);
+
+  // 시트로 선택된 venue 마커를 강조 (지도 재생성 없이 클래스만 토글).
+  useEffect(() => {
+    for (const id in markerEls.current) {
+      markerEls.current[id].classList.toggle("frame-poster-marker--selected", id === selectedVenueId);
+    }
+  }, [selectedVenueId, items]);
 
   // "내 위치" marker + fly there, without rebuilding the map.
   const hereMarker = useRef<maplibregl.Marker | null>(null);
