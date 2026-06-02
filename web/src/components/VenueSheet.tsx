@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { X } from "lucide-react";
 import { ExhibitionCard } from "@/components/ExhibitionCard";
 import { TranslatableText } from "@/components/TranslatableText";
@@ -25,6 +25,15 @@ export function VenueSheet({
   const [snap, setSnap] = useState<"full" | "peek">("full");
   const [dragY, setDragY] = useState(0);
   const [startY, setStartY] = useState<number | null>(null);
+  // 닫혀 있는(=화면 밖) 상태에서 시작해 마운트 직후 visible을 켜 열림 애니메이션을 만든다.
+  const [visible, setVisible] = useState(false);
+  // 뷰포트 폭에 따라 슬라이드 방향을 결정: 모바일은 아래→위, 데스크탑은 우측→안쪽.
+  const [isDesktop, setIsDesktop] = useState(
+    () =>
+      typeof window !== "undefined" &&
+      typeof window.matchMedia === "function" &&
+      window.matchMedia("(min-width: 768px)").matches,
+  );
 
   // 다른 venue가 열리면 시트를 처음 상태로 리셋. (렌더 중 파생 상태 패턴으로,
   // effect 내 setState 없이 prop 변경에 동기적으로 반응한다.)
@@ -37,12 +46,36 @@ export function VenueSheet({
     setStartY(null);
   }
 
+  // 마운트 직후 한 프레임 뒤 visible을 켜 열림(슬라이드 인) 애니메이션을 트리거.
+  useEffect(() => {
+    const id = requestAnimationFrame(() => setVisible(true));
+    return () => cancelAnimationFrame(id);
+  }, []);
+
+  // 뷰포트 폭 변화를 구독해 슬라이드 방향(모바일/데스크탑)을 갱신.
+  useEffect(() => {
+    if (typeof window === "undefined" || typeof window.matchMedia !== "function") return;
+    const mq = window.matchMedia("(min-width: 768px)");
+    const update = (e: MediaQueryListEvent) => setIsDesktop(e.matches);
+    mq.addEventListener("change", update);
+    return () => mq.removeEventListener("change", update);
+  }, []);
+
+  // 닫기: 먼저 내려가는(슬라이드 아웃) 애니메이션을 보여준 뒤 부모에 언마운트를 알린다.
+  const closingRef = useRef(false);
+  const requestClose = useCallback(() => {
+    if (closingRef.current) return;
+    closingRef.current = true;
+    setVisible(false);
+    window.setTimeout(onClose, 280);
+  }, [onClose]);
+
   // Esc로 닫기.
   useEffect(() => {
-    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); };
+    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") requestClose(); };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [onClose]);
+  }, [requestClose]);
 
   // 시트는 전체 화면을 덮는 모달이므로 열려 있는 동안 뒤 페이지 스크롤을 잠근다.
   useEffect(() => {
@@ -67,23 +100,32 @@ export function VenueSheet({
     const target = nextSnap(snap, e.clientY - startY);
     setStartY(null);
     setDragY(0);
-    if (target === "closed") onClose();
+    if (target === "closed") requestClose();
     else setSnap(target);
   };
 
   const basePct = snap === "full" ? 0 : 45;
+  const dragging = startY !== null;
+  // 화면 밖(닫힘) → 제자리(열림). 데스크탑은 우측에서, 모바일은 아래에서 슬라이드.
+  const transform = isDesktop
+    ? `translateX(${visible ? 0 : 100}%)`
+    : visible
+      ? `translateY(calc(${basePct}% + ${dragY}px))`
+      : "translateY(100%)";
 
   return (
     <div className="fixed inset-0 z-[60]" role="dialog" aria-modal="true">
       <button
         type="button"
         aria-label={t("venue.close")}
-        onClick={onClose}
-        className="absolute inset-0 bg-black/50 md:bg-black/30"
+        onClick={requestClose}
+        className={`absolute inset-0 bg-black/50 transition-opacity duration-300 md:bg-black/30 ${
+          visible ? "opacity-100" : "opacity-0"
+        }`}
       />
       <div
-        className="absolute inset-x-0 bottom-0 flex max-h-[88vh] flex-col rounded-t-2xl border border-line bg-bg shadow-[0_-8px_40px_rgba(0,0,0,0.6)] transition-transform duration-200 md:inset-y-0 md:left-auto md:right-0 md:max-h-none md:w-[400px] md:rounded-none md:border-l md:!translate-y-0"
-        style={{ transform: `translateY(calc(${basePct}% + ${dragY}px))` }}
+        className="absolute inset-x-0 bottom-0 flex max-h-[88vh] flex-col rounded-t-2xl border border-line bg-bg shadow-[0_-8px_40px_rgba(0,0,0,0.6)] transition-[transform,opacity] duration-300 ease-out md:inset-y-0 md:left-auto md:right-0 md:max-h-none md:w-[400px] md:rounded-none md:border-l"
+        style={{ transform, opacity: visible ? 1 : 0, transitionDuration: dragging ? "0ms" : undefined }}
       >
         {/* 모바일 드래그 핸들 */}
         <div
@@ -113,7 +155,7 @@ export function VenueSheet({
             </div>
             <button
               type="button"
-              onClick={onClose}
+              onClick={requestClose}
               aria-label={t("venue.close")}
               className="hidden rounded-full p-1.5 text-tx2 transition hover:bg-line md:block"
             >

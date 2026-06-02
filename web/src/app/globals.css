@@ -132,6 +132,11 @@ html, body {
 .frame-poster-marker--selected:hover {
   transform: scale(1.18);
 }
+/* 쌓인 카드까지 노란 테두리로 감싸 스택 전체를 한 덩어리로 강조 */
+.frame-poster-marker--selected.frame-poster-marker--stacked::before,
+.frame-poster-marker--selected.frame-poster-marker--stacked::after {
+  border-color: #fbbf24;
+}
 
 /* "내 위치" pulsing dot. */
 .frame-here-marker {

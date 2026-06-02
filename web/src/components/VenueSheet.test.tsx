@@ -1,4 +1,4 @@
-import { screen, fireEvent } from "@testing-library/react";
+import { screen, fireEvent, waitFor } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
 import { renderWithLang } from "@/test/lang";
 
@@ -72,10 +72,10 @@ describe("VenueSheet", () => {
     expect(cardTitlesInOrder()[0]).toBe("곧마감");
   });
 
-  it("calls onClose when the backdrop is clicked", () => {
+  it("calls onClose when the backdrop is clicked (after the exit animation)", async () => {
     const onClose = vi.fn();
     renderWithLang(<VenueSheet venue={VENUE} exhibitions={ITEMS} onClose={onClose} />);
     fireEvent.click(screen.getAllByRole("button", { name: "닫기" })[0]);
-    expect(onClose).toHaveBeenCalled();
+    await waitFor(() => expect(onClose).toHaveBeenCalled());
   });
 });
