@@ -29,7 +29,7 @@ export function TranslatableText({
         type="button"
         aria-pressed={showOriginal}
         onClick={(e) => { e.preventDefault(); e.stopPropagation(); setShowOriginal((v) => !v); }}
-        className="ml-1.5 rounded-full border border-line2 px-1.5 py-0.5 align-middle text-[9.5px] text-tx3 hover:bg-panel2"
+        className="ml-1.5 rounded-full border border-line2 px-2 py-0.5 align-middle text-[11px] text-tx3 hover:bg-panel2"
       >
         {showOriginal ? t("tr.showTranslation") : t("tr.showOriginal")}
       </button>
