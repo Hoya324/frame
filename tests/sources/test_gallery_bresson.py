@@ -106,3 +106,22 @@ def test_crawl_empty_list_yields_nothing():
 
     raws = list(GalleryBressonExtractor(delay_s=0.0).crawl())
     assert raws == []
+
+
+@respx.mock
+def test_crawl_retries_on_transient_non_json_body():
+    # The host sometimes returns a 200 with an empty/HTML body (JSONDecodeError);
+    # that is transient, so the extractor must retry and recover, not fail.
+    valid = (FIXTURE_DIR / "posts_current.json").read_text(encoding="utf-8")
+    respx.route(
+        method="GET",
+        url__regex=r"gallerybresson\.com/index\.php",
+    ).mock(
+        side_effect=[
+            httpx.Response(200, text="<html>blocked</html>"),
+            httpx.Response(200, text=valid),
+        ]
+    )
+
+    raws = list(GalleryBressonExtractor(delay_s=0.0).crawl())
+    assert len(raws) == 8

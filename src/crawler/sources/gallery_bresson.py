@@ -54,6 +54,17 @@ _VENUE_NAME = "갤러리 브레송"
 _VENUE_REGION = "서울"
 _VENUE_ADDRESS = "서울특별시 중구 퇴계로 163"
 
+
+class _BadResponse(Exception):
+    """A 2xx response whose body is not the expected JSON list.
+
+    The WordPress host occasionally returns a 200 with an empty/HTML body (a
+    momentary nginx/PHP hiccup or anti-bot interstitial), which surfaces as a
+    JSONDecodeError. That is transient, so we treat it as retryable rather than
+    failing the whole crawl on a one-off bad response.
+    """
+
+
 def _featured_image(post: dict) -> str | None:
     media = (post.get("_embedded") or {}).get("wp:featuredmedia") or []
     if media and isinstance(media[0], dict):
@@ -104,7 +115,7 @@ class GalleryBressonExtractor:
         )
 
     @retry(
-        retry=retry_if_exception_type(httpx.TransportError),
+        retry=retry_if_exception_type((httpx.TransportError, _BadResponse)),
         wait=wait_exponential(multiplier=1, min=1, max=16),
         stop=stop_after_attempt(3),
         reraise=True,
@@ -112,7 +123,14 @@ class GalleryBressonExtractor:
     def _get_posts(self) -> list[dict]:
         r = self._client.get(_LIST_URL, params=_LIST_PARAMS)
         r.raise_for_status()
-        return r.json()
+        try:
+            data = r.json()
+        except ValueError as exc:
+            # 200 but non-JSON body (empty/HTML) — transient; retry.
+            raise _BadResponse(f"non-JSON body ({len(r.content)} bytes)") from exc
+        if not isinstance(data, list):
+            raise _BadResponse(f"unexpected JSON shape: {type(data).__name__}")
+        return data
 
     def crawl(self) -> Iterable[RawExhibition]:
         for post in self._get_posts():
