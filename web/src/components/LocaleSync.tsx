@@ -33,6 +33,16 @@ export function LocaleSync() {
   const lastSynced = useRef<Locale | null>(null);
 
   // Hydrate once per signed-in user.
+  //
+  // We mark this user as hydrated *synchronously* (and seed `lastSynced` with
+  // the current on-site locale) the moment we kick off the account read — NOT
+  // inside the async `.then`. This is the crux of the persistence fix: the
+  // persist effect below is gated on `hydratedFor`, so if we only set it after
+  // a *successful* read, any failed read (missing profiles row → `.single()`
+  // PGRST116, RLS denial, transient error) would gate the persist effect off
+  // forever and silently drop every language switch. Seeding `lastSynced` with
+  // the current locale keeps that gate from firing a spurious write for the
+  // value we already have.
   useEffect(() => {
     if (!user) {
       hydratedFor.current = null;
@@ -40,6 +50,8 @@ export function LocaleSync() {
       return;
     }
     if (hydratedFor.current === user.id) return;
+    hydratedFor.current = user.id;
+    lastSynced.current = latest.current;
     const localeAtStart = latest.current;
     let cancelled = false;
     getSupabase()
@@ -48,21 +60,17 @@ export function LocaleSync() {
       .eq("id", user.id)
       .single()
       .then(({ data, error }) => {
-        if (cancelled || error) return;
-        hydratedFor.current = user.id;
+        if (cancelled) return;
+        // The user switched while the fetch was in flight — their choice wins;
+        // the persist effect has already written it. Don't adopt the stale value.
+        if (latest.current !== localeAtStart) return;
+        if (error) return; // can't read the account locale — nothing to adopt
         const stored = data?.locale as string | undefined;
-        const userPickedSinceStart = latest.current !== localeAtStart;
-        if (userPickedSinceStart) {
-          // The user switched while the fetch was in flight — respect their
-          // choice and push it to the account instead of overwriting it.
-          lastSynced.current = latest.current;
-          void getSupabase().from("profiles").update({ locale: latest.current }).eq("id", user.id);
-        } else if (stored && (LOCALES as string[]).includes(stored)) {
+        if (stored && (LOCALES as string[]).includes(stored)) {
           lastSynced.current = stored as Locale;
           if (stored !== latest.current) setLocale(stored as Locale);
         } else {
           // No usable stored value — seed the account from the current choice.
-          lastSynced.current = latest.current;
           void getSupabase().from("profiles").update({ locale: latest.current }).eq("id", user.id);
         }
       });
