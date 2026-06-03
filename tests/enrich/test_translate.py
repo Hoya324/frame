@@ -238,26 +238,29 @@ def test_stops_at_time_budget_and_flushes_progress():
     assert len(repo.patched[SheetName.EXHIBITIONS]) == 3
 
 
-def test_venue_and_artist_names_are_not_translated():
-    # 고유명사(인명·기관명)는 오프라인 MT 가 엉뚱하게 번역하므로 아예 번역하지 않는다.
+def test_venue_and_artist_names_are_translated():
+    # 고유명사도 LLM 이 음역으로 잘 보존하므로 venue/artist name 도 번역 범위에 든다.
     repo = FakeRepo({
-        "ven": [{"id": "v1", "name": "BOOK AND SONS", "tr": "", "lang": ""}],
+        "ven": [{"id": "v1", "name": "공근혜갤러리", "tr": "", "lang": ""}],
         "art": [{"id": "a1", "name": "戎康友", "tr": "", "lang": ""}],
     })
     backfill_translations(repo, FakeTranslator())
-    # 번역할 필드가 없으므로 patch 자체가 일어나지 않는다.
-    assert SheetName.VENUES not in repo.patched
-    assert SheetName.ARTISTS not in repo.patched
+    v = json.loads({r["id"]: r for r in repo.patched[SheetName.VENUES]}["v1"]["tr"])
+    assert v["en"]["name"] == "[en]공근혜갤러리"  # ko -> en
+    assert v["ja"]["name"] == "[ja]공근혜갤러리"  # ko -> ja
+    a = json.loads({r["id"]: r for r in repo.patched[SheetName.ARTISTS]}["a1"]["tr"])
+    assert a["ko"]["name"] == "[ko]戎康友"        # ja -> ko
 
 
 def test_prunes_out_of_scope_translations():
-    # 범위에서 빠진 필드(여기선 name)의 기존 번역은 재실행 시 제거된다 — 과거
-    # 오역 데이터를 번역 단계에서 자가 치유한다.
-    existing = json.dumps({"ko": {"name": "[ko]오역"}, "en": {"name": "About Us"}})
+    # 범위에서 빠진 필드의 기존 번역은 재실행 시 제거된다 (자가 치유). 여기선 더는
+    # 다루지 않는 "blurb" 필드. 범위 안 "name" 은 보존·보충된다.
+    existing = json.dumps({"en": {"name": "[en]keep", "blurb": "stale"}})
     repo = FakeRepo({
-        "ven": [{"id": "v1", "name": "공근혜갤러리", "tr": existing, "lang": "ja"}],
+        "ven": [{"id": "v1", "name": "공근혜갤러리", "tr": existing, "lang": "ko"}],
     })
     backfill_translations(repo, FakeTranslator())
-    v = {r["id"]: r for r in repo.patched[SheetName.VENUES]}["v1"]
-    assert v["tr"] == ""    # 남은 번역이 없으면 tr/lang 을 비운다
-    assert v["lang"] == ""
+    tr = json.loads({r["id"]: r for r in repo.patched[SheetName.VENUES]}["v1"]["tr"])
+    assert "blurb" not in tr.get("en", {})        # out-of-scope field pruned
+    assert tr["en"]["name"] == "[en]keep"          # in-scope kept (idempotent)
+    assert tr["ja"]["name"] == "[ja]공근혜갤러리"   # missing locale filled

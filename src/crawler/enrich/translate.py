@@ -22,14 +22,14 @@ from crawler.sinks.base import Repository, SheetName
 
 logger = logging.getLogger(__name__)
 
-# sheet -> fields we translate. Venue and artist ``name`` are proper nouns:
-# offline MT maps them to unrelated phrases (e.g. 육명심 -> "About Us"), which is
-# worse than the original, so they are deliberately NOT translated. Out-of-scope
-# fields are pruned from existing ``tr`` on the next run (see _backfill_sheet).
+# sheet -> fields we translate. Venue/artist ``name`` are proper nouns; the LLM
+# translator preserves them (transliterating rather than mistranslating, e.g.
+# 캐논 갤러리 -> "Canon Gallery" / キヤノンギャラリー), so they're now in scope.
+# Fields removed from scope here are pruned from existing ``tr`` on the next run.
 _FIELDS: dict[SheetName, tuple[str, ...]] = {
     SheetName.EXHIBITIONS: ("title", "description"),
-    SheetName.VENUES: (),
-    SheetName.ARTISTS: (),
+    SheetName.VENUES: ("name",),
+    SheetName.ARTISTS: ("name",),
 }
 
 # How many field→locale translation jobs to pack into one batched API request.
