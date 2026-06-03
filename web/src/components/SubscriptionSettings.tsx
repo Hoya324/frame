@@ -18,7 +18,7 @@ const ROWS: { type: SubType; labelKey: string; descKey: string }[] = [
 ];
 
 export function SubscriptionSettings() {
-  const { user } = useAuth();
+  const { user, signIn } = useAuth();
   const { t } = useLang();
   const catalog = loadCatalogSync();
   const [subs, setSubs] = useState<SubscriptionMap>({});
@@ -39,20 +39,20 @@ export function SubscriptionSettings() {
   );
 
   async function setEnabled(type: SubType, enabled: boolean) {
+    if (!user) { await signIn(); return; }
     const prev = subs[type];
     const filters = prev?.filters ?? {};
     track(EVENTS.subscriptionToggle, { type, enabled });
     setSubs((s) => ({ ...s, [type]: { type, enabled, filters } }));
-    if (user) await upsertSubscription(getSupabase(), user.id, type, enabled, filters);
+    await upsertSubscription(getSupabase(), user.id, type, enabled, filters);
   }
 
   async function setFilters(type: SubType, filters: CustomFilters) {
+    if (!user) { await signIn(); return; }
     const enabled = subs[type]?.enabled ?? true;
     setSubs((s) => ({ ...s, [type]: { type, enabled, filters } }));
-    if (user) await upsertSubscription(getSupabase(), user.id, type, enabled, filters);
+    await upsertSubscription(getSupabase(), user.id, type, enabled, filters);
   }
-
-  if (!user) return null;
 
   const custom = subs.custom;
   const toggleFilter = (key: keyof CustomFilters, value: string) => {
@@ -64,6 +64,16 @@ export function SubscriptionSettings() {
   return (
     <div className="rounded-lg border border-line p-5">
       <div className="text-sm text-tx3">{t("sub.title")}</div>
+      {!user && (
+        <button
+          type="button"
+          onClick={() => void signIn()}
+          className="mt-3 flex w-full items-center justify-between rounded-md border border-line2 bg-panel2 px-3.5 py-2.5 text-left text-sm text-tx2 hover:text-tx"
+        >
+          <span>{t("sub.loginBanner")}</span>
+          <span className="ml-3 shrink-0 font-semibold text-tx">{t("common.signIn")}</span>
+        </button>
+      )}
       <div className="mt-4 space-y-4">
         {ROWS.map((row) => {
           const on = subs[row.type]?.enabled ?? false;
@@ -78,7 +88,7 @@ export function SubscriptionSettings() {
                 <button
                   role="switch" aria-checked={on} aria-label={label}
                   onClick={() => void setEnabled(row.type, !on)}
-                  disabled={!loaded}
+                  disabled={!!user && !loaded}
                   className={`relative h-6 w-11 rounded-full transition ${on ? "bg-white" : "bg-panel2 border border-line"}`}
                 >
                   <span className={`absolute top-0.5 h-5 w-5 rounded-full transition ${on ? "left-[22px] bg-black" : "left-0.5 bg-tx2"}`} />
