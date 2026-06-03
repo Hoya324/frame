@@ -6,6 +6,8 @@ import { LanguageProvider } from "@/components/LanguageProvider";
 import { LocaleSync } from "@/components/LocaleSync";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
 import { InstallPrompt } from "@/components/InstallPrompt";
+import { OnboardingProvider } from "@/components/OnboardingProvider";
+import { OnboardingOverlay } from "@/components/OnboardingOverlay";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -43,11 +45,14 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <LanguageProvider>
           <AuthProvider>
-            <LocaleSync />
-            <Nav />
-            <ServiceWorkerRegister />
-            <InstallPrompt />
-            <div className="pb-24 md:pb-0">{children}</div>
+            <OnboardingProvider>
+              <LocaleSync />
+              <Nav />
+              <ServiceWorkerRegister />
+              <InstallPrompt />
+              <div className="pb-24 md:pb-0">{children}</div>
+              <OnboardingOverlay />
+            </OnboardingProvider>
           </AuthProvider>
         </LanguageProvider>
       </body>
