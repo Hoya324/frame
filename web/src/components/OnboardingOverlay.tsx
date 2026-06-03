@@ -23,7 +23,7 @@ export function OnboardingOverlay() {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex flex-col justify-end bg-black/80 backdrop-blur-sm animate-[fadeIn_.2s_ease]"
+      className="fixed inset-0 z-50 flex flex-col justify-end bg-gradient-to-t from-black/80 via-black/45 to-black/30 animate-[fadeIn_.2s_ease]"
       role="dialog"
       aria-modal="true"
       aria-label={t(step.titleKey)}
