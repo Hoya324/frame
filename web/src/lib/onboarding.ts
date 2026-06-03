@@ -24,6 +24,50 @@ export const ONBOARDING_STEPS: OnboardingStep[] = [
   { id: "feedback", route: "/me", titleKey: "onb.feedback.title", bodyKey: "onb.feedback.body" },
 ];
 
+// In-progress tour state, persisted to sessionStorage so the walkthrough
+// survives a full remount. The deployed app is a static export served through
+// a service worker, so a tab-to-tab navigation can trigger a hard page load
+// that wipes React state — without this the tour would silently vanish
+// mid-flow (e.g. "stops at the scrap step"). sessionStorage is per-tab and
+// survives reloads, but not a brand-new visit, which is exactly the scope we want.
+const PROGRESS_KEY = "frame.onboarding.progress";
+
+export interface OnboardingProgress {
+  active: boolean;
+  stepIndex: number;
+}
+
+export function readOnboardingProgress(): OnboardingProgress | null {
+  if (typeof sessionStorage === "undefined") return null;
+  try {
+    const raw = sessionStorage.getItem(PROGRESS_KEY);
+    if (!raw) return null;
+    const p = JSON.parse(raw) as OnboardingProgress;
+    if (typeof p?.active !== "boolean" || typeof p?.stepIndex !== "number") return null;
+    return p;
+  } catch {
+    return null;
+  }
+}
+
+export function writeOnboardingProgress(p: OnboardingProgress): void {
+  if (typeof sessionStorage === "undefined") return;
+  try {
+    sessionStorage.setItem(PROGRESS_KEY, JSON.stringify(p));
+  } catch {
+    // storage full / disabled — non-fatal
+  }
+}
+
+export function clearOnboardingProgress(): void {
+  if (typeof sessionStorage === "undefined") return;
+  try {
+    sessionStorage.removeItem(PROGRESS_KEY);
+  } catch {
+    // non-fatal
+  }
+}
+
 export function hasSeenOnboarding(): boolean {
   if (typeof localStorage === "undefined") return false;
   return localStorage.getItem(ONBOARDING_KEY) != null;

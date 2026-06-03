@@ -3,8 +3,11 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useState } 
 import { usePathname, useRouter } from "next/navigation";
 import {
   ONBOARDING_STEPS,
+  clearOnboardingProgress,
   hasSeenOnboarding,
   markOnboardingSeen,
+  readOnboardingProgress,
+  writeOnboardingProgress,
   type OnboardingStep,
 } from "@/lib/onboarding";
 
@@ -38,13 +41,19 @@ export function OnboardingProvider({ children }: { children: React.ReactNode }) 
     if (pathname !== step.route) router.push(step.route);
   }, [active, step, pathname, router]);
 
-  const start = useCallback(() => {
-    setStepIndex(0);
+  // Progress is persisted imperatively in each action (not via a reactive
+  // effect) so writes are deterministic and never clobber a just-restored value.
+  const goTo = useCallback((index: number) => {
+    setStepIndex(index);
     setActive(true);
+    writeOnboardingProgress({ active: true, stepIndex: index });
   }, []);
+
+  const start = useCallback(() => goTo(0), [goTo]);
 
   const finish = useCallback(() => {
     markOnboardingSeen();
+    clearOnboardingProgress();
     setActive(false);
   }, []);
 
@@ -53,17 +62,25 @@ export function OnboardingProvider({ children }: { children: React.ReactNode }) 
       finish();
       return;
     }
-    setStepIndex((i) => i + 1);
-  }, [stepIndex, total, finish]);
+    goTo(stepIndex + 1);
+  }, [stepIndex, total, finish, goTo]);
 
-  const prev = useCallback(() => setStepIndex((i) => Math.max(0, i - 1)), []);
+  const prev = useCallback(() => goTo(Math.max(0, stepIndex - 1)), [goTo, stepIndex]);
   const skip = useCallback(() => finish(), [finish]);
 
-  // Auto-start once on the first visit to the discover route.
+  // On mount: resume an in-progress tour (survives the hard navigations that a
+  // static-export + service-worker setup can trigger between tabs), otherwise
+  // auto-start once on the first visit to the discover route.
   useEffect(() => {
-    if (pathname === "/" && !hasSeenOnboarding()) {
+    const saved = readOnboardingProgress();
+    if (saved?.active) {
       // eslint-disable-next-line react-hooks/set-state-in-effect
+      setStepIndex(Math.min(Math.max(0, saved.stepIndex), total - 1));
       setActive(true);
+      return;
+    }
+    if (pathname === "/" && !hasSeenOnboarding()) {
+      goTo(0);
     }
     // run once on mount
     // eslint-disable-next-line react-hooks/exhaustive-deps

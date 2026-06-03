@@ -2,9 +2,12 @@ import { beforeEach, describe, expect, it } from "vitest";
 import {
   ONBOARDING_KEY,
   ONBOARDING_STEPS,
+  clearOnboardingProgress,
   hasSeenOnboarding,
   markOnboardingSeen,
+  readOnboardingProgress,
   resetOnboarding,
+  writeOnboardingProgress,
 } from "@/lib/onboarding";
 
 describe("onboarding localStorage gating", () => {
@@ -24,6 +27,30 @@ describe("onboarding localStorage gating", () => {
     markOnboardingSeen();
     resetOnboarding();
     expect(hasSeenOnboarding()).toBe(false);
+  });
+});
+
+describe("onboarding progress (survives remount)", () => {
+  beforeEach(() => sessionStorage.clear());
+
+  it("is null by default", () => {
+    expect(readOnboardingProgress()).toBeNull();
+  });
+
+  it("round-trips active step state", () => {
+    writeOnboardingProgress({ active: true, stepIndex: 3 });
+    expect(readOnboardingProgress()).toEqual({ active: true, stepIndex: 3 });
+  });
+
+  it("clears progress", () => {
+    writeOnboardingProgress({ active: true, stepIndex: 2 });
+    clearOnboardingProgress();
+    expect(readOnboardingProgress()).toBeNull();
+  });
+
+  it("ignores malformed payloads", () => {
+    sessionStorage.setItem("frame.onboarding.progress", "{not json");
+    expect(readOnboardingProgress()).toBeNull();
   });
 });
 
