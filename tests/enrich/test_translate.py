@@ -25,8 +25,15 @@ class FakeRepo:
 
 
 class FakeTranslator:
+    def __init__(self):
+        self.batch_calls = []  # list of job-count per translate_batch call
+
     def translate(self, text, from_code, to_code):
         return f"[{to_code}]{text}"
+
+    def translate_batch(self, jobs):
+        self.batch_calls.append(len(jobs))
+        return [f"[{to}]{text}" for text, _src, to in jobs]
 
 
 def test_fills_missing_translations_for_japanese_exhibition():
@@ -53,6 +60,23 @@ def test_idempotent_skips_existing():
     tr = json.loads({r["id"]: r for r in repo.patched[SheetName.EXHIBITIONS]}["e1"]["tr"])
     assert tr["ko"]["title"] == "KEEP"          # 기존 값 보존
     assert tr["en"]["title"] == "[en]戎康友 展"  # 누락분만 채움
+
+
+def test_backfill_batches_many_fields_into_few_requests():
+    # 10 Korean exhibitions, each title+description -> en+ja = 4 jobs = 40 jobs.
+    # The free tier caps requests, not tokens, so these must collapse into a few
+    # translate_batch calls instead of 40 single requests.
+    rows = [{"id": f"e{i}", "title": f"제목{i}", "description": f"설명{i}",
+             "tr": "", "lang": ""} for i in range(10)]
+    repo = FakeRepo({"exh": rows})
+    tr = FakeTranslator()
+    backfill_translations(repo, tr)
+    assert sum(tr.batch_calls) == 40        # every field/locale translated
+    assert len(tr.batch_calls) < 40         # but in far fewer requests
+    out = {r["id"]: r for r in repo.patched[SheetName.EXHIBITIONS]}
+    tr0 = json.loads(out["e0"]["tr"])
+    assert tr0["en"]["title"] == "[en]제목0"
+    assert tr0["ja"]["description"] == "[ja]설명0"
 
 
 def test_reset_rebuilds_existing_in_scope_translations():

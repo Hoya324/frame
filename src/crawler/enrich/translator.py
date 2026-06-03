@@ -3,6 +3,7 @@ source-language detection by script."""
 
 from __future__ import annotations
 
+import json
 import logging
 import os
 import re
@@ -42,6 +43,11 @@ def targets_for(source_lang: str) -> list[str]:
 
 class Translator(Protocol):
     def translate(self, text: str, from_code: str, to_code: str) -> str: ...
+
+    def translate_batch(self, jobs: list[tuple[str, str, str]]) -> list[str]:
+        """Translate many (text, from_code, to_code) jobs, returning results
+        aligned by index. Backends that can't truly batch loop translate()."""
+        ...
 
 
 class ArgosTranslator:
@@ -98,6 +104,10 @@ class ArgosTranslator:
             self._ensure_pair(frm, to)
             out = tr.translate(out, frm, to)
         return out
+
+    def translate_batch(self, jobs: list[tuple[str, str, str]]) -> list[str]:
+        # Argos is local/offline; there's no request to batch, so just loop.
+        return [self.translate(text, src, tgt) for text, src, tgt in jobs]
 
 
 _LANG_NAMES: dict[str, str] = {"ko": "Korean", "en": "English", "ja": "Japanese"}
@@ -190,20 +200,44 @@ class GeminiTranslator:
             f"Text:\n{text}"
         )
 
+    @staticmethod
+    def _batch_prompt(jobs: list[tuple[str, str, str]]) -> str:
+        # Items are passed as a JSON array so multi-line text survives intact;
+        # the model returns a JSON array of translations aligned by index.
+        items = [
+            {
+                "from": _LANG_NAMES.get(src, src),
+                "to": _LANG_NAMES.get(tgt, tgt),
+                "text": text,
+            }
+            for text, src, tgt in jobs
+        ]
+        return (
+            "Translate each photography-exhibition item below from its `from` "
+            "language to its `to` language.\n"
+            "Rules:\n"
+            "- Preserve proper nouns (artist names, gallery/venue names, "
+            "artwork titles): transliterate them naturally instead of "
+            "translating their literal meaning; keep names already written in "
+            "the target script or the Latin alphabet as they are.\n"
+            "- Translate the meaning faithfully and naturally. Do not add, "
+            "repeat, omit, or explain anything.\n"
+            "- Return ONLY a JSON array of strings with exactly one element per "
+            "item, in the same order: element i is the translation of item i.\n\n"
+            "Items (JSON):\n" + json.dumps(items, ensure_ascii=False)
+        )
+
     @retry(
         retry=retry_if_exception(_is_retryable_gemini),
         wait=wait_exponential(multiplier=1, min=1, max=30),
         stop=stop_after_attempt(4),
         reraise=True,
     )
-    def _generate(self, prompt: str) -> dict:
+    def _post(self, payload: dict) -> dict:
         r = self._client.post(
             _GEMINI_URL.format(model=self._model),
             params={"key": self._key},
-            json={
-                "contents": [{"parts": [{"text": prompt}]}],
-                "generationConfig": {"temperature": 0},
-            },
+            json=payload,
         )
         r.raise_for_status()
         return r.json()
@@ -216,11 +250,48 @@ class GeminiTranslator:
         parts = (candidates[0].get("content") or {}).get("parts") or []
         return "".join(p.get("text", "") for p in parts)
 
+    def translate_batch(self, jobs: list[tuple[str, str, str]]) -> list[str]:
+        """Translate many (text, source, target) jobs in a single request and
+        return translations aligned by index. The free tier limits requests, not
+        tokens, so batching many jobs per call is the throughput lever."""
+        if not jobs:
+            return []
+        self._throttle()
+        data = self._post({
+            "contents": [{"parts": [{"text": self._batch_prompt(jobs)}]}],
+            # No maxOutputTokens: let the model default (large) apply so a big
+            # batch's JSON array isn't truncated, which would fail parsing.
+            "generationConfig": {
+                "temperature": 0,
+                "responseMimeType": "application/json",
+            },
+        })
+        raw = self._extract(data).strip()
+        try:
+            parsed = json.loads(raw) if raw else None
+        except ValueError as e:
+            raise ValueError(f"gemini batch: invalid JSON response: {raw[:120]}") from e
+        if isinstance(parsed, dict):  # tolerate {"translations": [...]} shapes
+            parsed = next((v for v in parsed.values() if isinstance(v, list)), None)
+        if not isinstance(parsed, list) or len(parsed) != len(jobs):
+            raise ValueError(
+                f"gemini batch: expected {len(jobs)} items, got "
+                f"{len(parsed) if isinstance(parsed, list) else type(parsed).__name__}"
+            )
+        out: list[str] = []
+        for (text, _src, _tgt), got in zip(jobs, parsed, strict=True):
+            s = got.strip() if isinstance(got, str) else ""
+            out.append(s or text)  # blank/blocked item keeps the original
+        return out
+
     def translate(self, text: str, from_code: str, to_code: str) -> str:
         if not text or not text.strip():
             return text
         self._throttle()
-        data = self._generate(self._prompt(text, from_code, to_code))
+        data = self._post({
+            "contents": [{"parts": [{"text": self._prompt(text, from_code, to_code)}]}],
+            "generationConfig": {"temperature": 0},
+        })
         out = self._extract(data).strip()
         # Empty / safety-blocked response: keep the original rather than wiping
         # the field to "" (which the UI would render as a blank translation).

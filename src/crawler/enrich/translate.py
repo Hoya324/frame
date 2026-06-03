@@ -29,6 +29,12 @@ _FIELDS: dict[SheetName, tuple[str, ...]] = {
     SheetName.ARTISTS: (),
 }
 
+# How many field→locale translation jobs to pack into one batched API request.
+# The free tier limits requests (RPM/RPD), not tokens (TPM is huge), so batching
+# many jobs per call is what makes a full rebuild finish in a run or two instead
+# of thousands of single requests over many days.
+_BATCH_JOBS = 20
+
 
 @dataclass(frozen=True)
 class TranslationReport:
@@ -110,6 +116,51 @@ def _backfill_sheet(
                     flush()
         flush()
 
+    # Fill missing translations, buffering many field→locale jobs across rows so
+    # they go out in one batched request (the free tier caps requests, not
+    # tokens). Each work item keeps its row's parsed ``tr`` and the jobs it still
+    # needs; run_batch() translates the whole buffer at once and writes results
+    # back. A row whose only change is a prune still gets patched (no jobs).
+    work: list[dict] = []
+    pending_jobs = 0
+
+    def run_batch() -> None:
+        nonlocal fields_translated, errors, pending_jobs
+        if not work:
+            return
+        jobs = [(text, src, loc) for w in work for (_f, loc, text, src) in w["jobs"]]
+        results: list[str] | None = None
+        if jobs:
+            try:
+                results = translator.translate_batch(jobs)
+            except Exception:
+                logger.exception("translate_batch failed for %d jobs", len(jobs))
+                results = None
+        idx = 0
+        for w in work:
+            existing = w["existing"]
+            changed = w["changed"]
+            for field, loc, _text, _src in w["jobs"]:
+                if results is not None:
+                    existing.setdefault(loc, {})[field] = results[idx]
+                    fields_translated += 1
+                    changed = True
+                else:
+                    errors += 1
+                idx += 1
+            if changed:
+                pending.append({
+                    "id": w["row"]["id"],
+                    # Cleared to empty when pruning leaves no translations, so a
+                    # sheet dropped from scope ends up with blank tr/lang again.
+                    "tr": json.dumps(existing, ensure_ascii=False) if existing else "",
+                    "lang": _row_lang(w["row"], fields) if existing else "",
+                })
+                if len(pending) >= flush_every:
+                    flush()
+        work.clear()
+        pending_jobs = 0
+
     for row in rows:
         if deadline is not None and now() >= deadline:
             stopped = True
@@ -138,39 +189,25 @@ def _backfill_sheet(
             if not bucket:
                 del existing[loc]
 
+        # Collect the field→locale jobs this row still needs (reset already
+        # cleared stale ones above, so this only fills fresh gaps — resumable).
+        jobs: list[tuple[str, str, str, str]] = []
         for field in fields:
             text = str(row.get(field) or "").strip()
             if not text:
                 continue
             src = detect_lang(text)
             for loc in targets_for(src):
-                bucket = existing.setdefault(loc, {})
-                if bucket.get(field):
+                if (existing.get(loc) or {}).get(field):
                     continue  # already translated — idempotent skip
-                    # (reset already cleared stale in-scope fields above, so this
-                    # only skips fresh ones — keeping the run resumable).
-                try:
-                    bucket[field] = translator.translate(text, src, loc)
-                    fields_translated += 1
-                    changed = True
-                except Exception:
-                    logger.exception(
-                        "translate failed: sheet=%s id=%s field=%s %s->%s",
-                        sheet, row.get("id"), field, src, loc,
-                    )
-                    errors += 1
+                jobs.append((field, loc, text, src))
 
-        if changed:
-            pending.append({
-                "id": row["id"],
-                # Cleared to empty when pruning leaves no translations, so a
-                # sheet dropped from scope ends up with blank tr/lang again.
-                "tr": json.dumps(existing, ensure_ascii=False) if existing else "",
-                "lang": _row_lang(row, fields) if existing else "",
-            })
-            if len(pending) >= flush_every:
-                flush()
+        work.append({"row": row, "existing": existing, "changed": changed, "jobs": jobs})
+        pending_jobs += len(jobs)
+        if pending_jobs >= _BATCH_JOBS:
+            run_batch()
 
+    run_batch()
     flush()
     return len(rows), rows_patched, fields_translated, errors, stopped
 

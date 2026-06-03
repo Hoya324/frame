@@ -4,6 +4,7 @@ import types
 from unittest.mock import MagicMock
 
 import httpx
+import pytest
 import respx
 
 from crawler.enrich.translator import TARGET_LOCALES, detect_lang, targets_for
@@ -178,6 +179,78 @@ def test_gemini_no_throttle_when_interval_zero():
     # blank passthrough makes no request; just assert the knob disables sleeping
     t.translate("   ", "ja", "ko")
     assert slept == []
+
+
+@respx.mock
+def test_gemini_batch_translates_many_jobs_in_one_request():
+    # The free tier caps requests, not tokens, so the backfill packs many
+    # (text, src, tgt) jobs into a single call and gets an aligned JSON array.
+    from crawler.enrich.translator import GeminiTranslator
+
+    route = respx.post(_GEMINI_URL).mock(
+        return_value=httpx.Response(200, json=_candidate('["정상", "頂上です"]'))
+    )
+    t = GeminiTranslator(api_key="k", min_interval=0)
+    out = t.translate_batch([("頂上", "ja", "ko"), ("Top", "en", "ja")])
+    assert out == ["정상", "頂上です"]
+    assert route.call_count == 1  # one HTTP request for both jobs
+    body = json.loads(route.calls.last.request.content)
+    assert body["generationConfig"]["responseMimeType"] == "application/json"
+    prompt = body["contents"][0]["parts"][0]["text"]
+    assert "proper noun" in prompt.lower()
+
+
+def test_gemini_batch_empty_jobs_makes_no_request():
+    from crawler.enrich.translator import GeminiTranslator
+
+    # No respx route registered: a request would raise. Empty in -> empty out.
+    assert GeminiTranslator(api_key="k").translate_batch([]) == []
+
+
+@respx.mock
+def test_gemini_batch_keeps_original_on_blank_item():
+    from crawler.enrich.translator import GeminiTranslator
+
+    respx.post(_GEMINI_URL).mock(
+        return_value=httpx.Response(200, json=_candidate('["", "x"]'))
+    )
+    t = GeminiTranslator(api_key="k", min_interval=0)
+    out = t.translate_batch([("원문", "ko", "en"), ("a", "ko", "en")])
+    assert out == ["원문", "x"]  # blank/blocked item falls back to the original
+
+
+@respx.mock
+def test_gemini_batch_raises_on_count_mismatch():
+    # A misaligned array must not silently mis-map translations onto fields.
+    from crawler.enrich.translator import GeminiTranslator
+
+    respx.post(_GEMINI_URL).mock(
+        return_value=httpx.Response(200, json=_candidate('["only one"]'))
+    )
+    t = GeminiTranslator(api_key="k", min_interval=0)
+    with pytest.raises(ValueError):
+        t.translate_batch([("a", "ja", "ko"), ("b", "ja", "ko")])
+
+
+@respx.mock
+def test_gemini_batch_throttles_once_per_request():
+    from crawler.enrich.translator import GeminiTranslator
+
+    respx.post(_GEMINI_URL).mock(
+        return_value=httpx.Response(200, json=_candidate('["a","b","c"]'))
+    )
+    clock = {"t": 100.0}
+    slept: list[float] = []
+
+    def fake_sleep(s):
+        slept.append(s)
+        clock["t"] += s
+
+    t = GeminiTranslator(
+        api_key="k", min_interval=4.5, sleep=fake_sleep, monotonic=lambda: clock["t"]
+    )
+    t.translate_batch([("a", "ko", "en"), ("b", "ko", "en"), ("c", "ko", "en")])
+    assert slept == []  # first request, no prior call -> no wait
 
 
 def test_gemini_retry_predicate():
