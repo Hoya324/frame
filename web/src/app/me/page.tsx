@@ -5,6 +5,7 @@ import { SubscriptionSettings } from "@/components/SubscriptionSettings";
 import { FeedbackForm } from "@/components/FeedbackForm";
 import { useLang } from "@/components/LanguageProvider";
 import { useOnboarding } from "@/components/OnboardingProvider";
+import { InstallAppCard } from "@/components/InstallAppCard";
 import { resetOnboarding } from "@/lib/onboarding";
 
 export default function MePage() {
@@ -48,6 +49,7 @@ export default function MePage() {
         </div>
       )}
 
+      <div className="mt-4"><InstallAppCard /></div>
       <div className="mt-4"><SubscriptionSettings /></div>
       <div className="mt-4"><FeedbackForm /></div>
 

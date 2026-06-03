@@ -146,7 +146,7 @@ const ko: Dict = {
   "onb.install.title": "앱으로 설치하기",
   "onb.install.body": "홈 화면에 추가하면 앱처럼 더 빠르게 전시를 둘러볼 수 있어요.",
   "onb.install.oneClick": "아래 ‘설치’ 버튼을 누르면 한 번에 홈 화면에 추가돼요.",
-  "onb.install.manual": "브라우저 메뉴에서 ‘홈 화면에 추가’를 선택해 설치할 수 있어요.",
+  "onb.install.manual": "이미 설치했다면 주소창의 ‘앱에서 열기’로 실행하세요. 아직이면 브라우저 메뉴에서 ‘홈 화면에 추가’를 선택하면 돼요.",
   "onb.install.already": "이미 앱으로 사용 중이에요. 바로 시작해 보세요!",
 };
 
@@ -286,7 +286,7 @@ const en: Dict = {
   "onb.install.title": "Install the app",
   "onb.install.body": "Add it to your home screen to browse exhibitions faster, like a native app.",
   "onb.install.oneClick": "Tap 'Install' below to add it to your home screen in one step.",
-  "onb.install.manual": "Use your browser menu and choose 'Add to Home Screen' to install.",
+  "onb.install.manual": "If it's already installed, open it via 'Open in app' in the address bar. Otherwise choose 'Add to Home Screen' from the browser menu.",
   "onb.install.already": "You're already using the app. Jump right in!",
 };
 
@@ -426,7 +426,7 @@ const ja: Dict = {
   "onb.install.title": "アプリとしてインストール",
   "onb.install.body": "ホーム画面に追加すると、アプリのようにもっと速く展示を見られます。",
   "onb.install.oneClick": "下の「インストール」を押すと、ワンタップでホーム画面に追加できます。",
-  "onb.install.manual": "ブラウザのメニューから「ホーム画面に追加」を選んでインストールできます。",
+  "onb.install.manual": "すでにインストール済みならアドレスバーの「アプリで開く」から起動してください。まだなら、ブラウザメニューの「ホーム画面に追加」を選んでください。",
   "onb.install.already": "すでにアプリとしてご利用中です。さっそく始めましょう！",
 };
 
