@@ -27,9 +27,9 @@ export GOOGLE_SERVICE_ACCOUNT_JSON="$(cat service-account.json)"
 export KAKAO_REST_API_KEY="..."
 # Optional: LLM translation (Google AI Studio free tier). When set, the
 # translation backfill uses Gemini instead of the offline Argos fallback.
-export GEMINI_API_KEY="..."
+export GEMINI_API_KEY="..."              # one key, or several comma-separated (each ideally a separate project) to combine free-tier quotas
 export GEMINI_MODEL="gemini-2.5-flash"   # optional override (default shown)
-export GEMINI_MIN_INTERVAL_SEC="4.5"     # optional: spacing between calls to stay under the free-tier RPM
+export GEMINI_MIN_INTERVAL_SEC="4.5"     # optional: per-key spacing between calls to stay under the free-tier RPM
 ```
 
 ## CLI

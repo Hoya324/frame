@@ -79,6 +79,31 @@ def test_backfill_batches_many_fields_into_few_requests():
     assert tr0["ja"]["description"] == "[ja]설명0"
 
 
+def test_backfill_gives_up_after_consecutive_batch_failures():
+    # When the daily request quota is exhausted every batch 429s. The backfill
+    # must trip a circuit breaker and stop instead of hammering every remaining
+    # row (which only burns the quota harder and wastes the run). The cleared/
+    # unfilled rows are picked up by the next run once quota resets.
+    class FailingTranslator:
+        def __init__(self):
+            self.calls = 0
+
+        def translate(self, text, from_code, to_code):
+            raise RuntimeError("429")
+
+        def translate_batch(self, jobs):
+            self.calls += 1
+            raise RuntimeError("429")
+
+    rows = [{"id": f"e{i}", "title": f"제목{i}", "description": "", "tr": "", "lang": ""}
+            for i in range(100)]
+    repo = FakeRepo({"exh": rows})
+    t = FailingTranslator()
+    report = backfill_translations(repo, t)
+    assert t.calls <= 6                 # stopped early, didn't try all ~10 batches
+    assert report.fields_translated == 0
+
+
 def test_reset_rebuilds_existing_in_scope_translations():
     # Switching translators leaves old garbage in place because the backfill is
     # idempotent. reset=True clears in-scope fields then refills them, so a new

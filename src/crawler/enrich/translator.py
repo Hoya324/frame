@@ -144,25 +144,35 @@ class GeminiTranslator:
 
     def __init__(
         self,
-        api_key: str,
+        api_key: str | list[str],
         model: str = _DEFAULT_GEMINI_MODEL,
         timeout: float = 30.0,
         min_interval: float = _DEFAULT_GEMINI_MIN_INTERVAL,
         sleep: Callable[[float], None] = time.sleep,
         monotonic: Callable[[], float] = time.monotonic,
     ) -> None:
-        self._key = api_key
+        self._keys = [api_key] if isinstance(api_key, str) else list(api_key)
+        if not self._keys:
+            raise ValueError("GeminiTranslator needs at least one API key")
         self._model = model
         self._client = httpx.Client(timeout=timeout)
         self._min_interval = min_interval
         self._sleep = sleep
         self._monotonic = monotonic
-        self._next_at = 0.0
+        # Each key (typically a separate free-tier project) has its own quota, so
+        # round-robin spreads load and the per-key cooldown lets the aggregate
+        # rate scale ~linearly with the number of keys.
+        self._next_at = [0.0] * len(self._keys)
+        self._key_idx = 0
 
     @classmethod
     def from_env(cls) -> GeminiTranslator:
+        # GEMINI_API_KEY may hold several comma-separated keys (each ideally in a
+        # separate project) to combine their free-tier quotas.
+        raw = os.environ["GEMINI_API_KEY"]
+        keys = [k.strip() for k in raw.split(",") if k.strip()]
         return cls(
-            api_key=os.environ["GEMINI_API_KEY"],
+            api_key=keys,
             model=os.environ.get("GEMINI_MODEL", _DEFAULT_GEMINI_MODEL),
             min_interval=float(
                 os.environ.get(
@@ -171,15 +181,17 @@ class GeminiTranslator:
             ),
         )
 
-    def _throttle(self) -> None:
-        """Block until at least min_interval has elapsed since the last call so
-        the request rate stays under the free-tier RPM cap."""
-        if self._min_interval <= 0:
-            return
-        wait = self._next_at - self._monotonic()
-        if wait > 0:
-            self._sleep(wait)
-        self._next_at = self._monotonic() + self._min_interval
+    def _acquire_key(self) -> str:
+        """Pick the next key round-robin, blocking only until that key's own
+        min_interval has elapsed (so N keys give ~N× the request rate)."""
+        i = self._key_idx
+        self._key_idx = (self._key_idx + 1) % len(self._keys)
+        if self._min_interval > 0:
+            wait = self._next_at[i] - self._monotonic()
+            if wait > 0:
+                self._sleep(wait)
+            self._next_at[i] = self._monotonic() + self._min_interval
+        return self._keys[i]
 
     @staticmethod
     def _prompt(text: str, from_code: str, to_code: str) -> str:
@@ -233,10 +245,10 @@ class GeminiTranslator:
         stop=stop_after_attempt(4),
         reraise=True,
     )
-    def _post(self, payload: dict) -> dict:
+    def _post(self, payload: dict, key: str) -> dict:
         r = self._client.post(
             _GEMINI_URL.format(model=self._model),
-            params={"key": self._key},
+            params={"key": key},
             json=payload,
         )
         r.raise_for_status()
@@ -256,7 +268,7 @@ class GeminiTranslator:
         tokens, so batching many jobs per call is the throughput lever."""
         if not jobs:
             return []
-        self._throttle()
+        key = self._acquire_key()
         data = self._post({
             "contents": [{"parts": [{"text": self._batch_prompt(jobs)}]}],
             # No maxOutputTokens: let the model default (large) apply so a big
@@ -265,7 +277,7 @@ class GeminiTranslator:
                 "temperature": 0,
                 "responseMimeType": "application/json",
             },
-        })
+        }, key)
         raw = self._extract(data).strip()
         try:
             parsed = json.loads(raw) if raw else None
@@ -287,11 +299,11 @@ class GeminiTranslator:
     def translate(self, text: str, from_code: str, to_code: str) -> str:
         if not text or not text.strip():
             return text
-        self._throttle()
+        key = self._acquire_key()
         data = self._post({
             "contents": [{"parts": [{"text": self._prompt(text, from_code, to_code)}]}],
             "generationConfig": {"temperature": 0},
-        })
+        }, key)
         out = self._extract(data).strip()
         # Empty / safety-blocked response: keep the original rather than wiping
         # the field to "" (which the UI would render as a blank translation).

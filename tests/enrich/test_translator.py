@@ -253,6 +253,55 @@ def test_gemini_batch_throttles_once_per_request():
     assert slept == []  # first request, no prior call -> no wait
 
 
+@respx.mock
+def test_gemini_rotates_across_multiple_keys():
+    # Separate projects each have their own free-tier quota, so rotating keys
+    # round-robin multiplies aggregate throughput.
+    from crawler.enrich.translator import GeminiTranslator
+
+    route = respx.post(_GEMINI_URL).mock(
+        return_value=httpx.Response(200, json=_candidate("x"))
+    )
+    t = GeminiTranslator(api_key=["k1", "k2", "k3"], min_interval=0)
+    for _ in range(4):
+        t.translate("a", "ja", "ko")
+    used = [c.request.url.params.get("key") for c in route.calls]
+    assert used == ["k1", "k2", "k3", "k1"]
+
+
+def test_gemini_from_env_parses_comma_separated_keys(monkeypatch):
+    from crawler.enrich.translator import GeminiTranslator
+
+    monkeypatch.setenv("GEMINI_API_KEY", " k1 , k2 ,k3 ")
+    t = GeminiTranslator.from_env()
+    assert t._keys == ["k1", "k2", "k3"]
+
+
+@respx.mock
+def test_gemini_throttles_each_key_independently():
+    # With 3 keys round-robin, the first request on each key needs no wait, so
+    # the per-key spacing only kicks in once a key is reused — ~3x the rate.
+    from crawler.enrich.translator import GeminiTranslator
+
+    respx.post(_GEMINI_URL).mock(return_value=httpx.Response(200, json=_candidate("x")))
+    clock = {"t": 100.0}
+    slept: list[float] = []
+
+    def fake_sleep(s):
+        slept.append(s)
+        clock["t"] += s
+
+    t = GeminiTranslator(
+        api_key=["k1", "k2", "k3"],
+        min_interval=4.5,
+        sleep=fake_sleep,
+        monotonic=lambda: clock["t"],
+    )
+    for _ in range(3):  # one request per key, all fresh -> no waiting
+        t.translate("a", "ja", "ko")
+    assert slept == []
+
+
 def test_gemini_retry_predicate():
     from crawler.enrich.translator import _is_retryable_gemini
 

@@ -35,6 +35,12 @@ _FIELDS: dict[SheetName, tuple[str, ...]] = {
 # of thousands of single requests over many days.
 _BATCH_JOBS = 20
 
+# Stop the run after this many consecutive batch failures. That almost always
+# means the daily request quota is exhausted (every request 429s), so hammering
+# on only burns time and the next day's quota; the cleared/unfilled rows resume
+# on the next run once quota resets.
+_MAX_CONSECUTIVE_BATCH_FAILS = 5
+
 
 @dataclass(frozen=True)
 class TranslationReport:
@@ -123,9 +129,12 @@ def _backfill_sheet(
     # back. A row whose only change is a prune still gets patched (no jobs).
     work: list[dict] = []
     pending_jobs = 0
+    consecutive_fails = 0
+    circuit_open = False
 
     def run_batch() -> None:
         nonlocal fields_translated, errors, pending_jobs
+        nonlocal consecutive_fails, circuit_open
         if not work:
             return
         jobs = [(text, src, loc) for w in work for (_f, loc, text, src) in w["jobs"]]
@@ -133,9 +142,13 @@ def _backfill_sheet(
         if jobs:
             try:
                 results = translator.translate_batch(jobs)
+                consecutive_fails = 0
             except Exception:
                 logger.exception("translate_batch failed for %d jobs", len(jobs))
                 results = None
+                consecutive_fails += 1
+                if consecutive_fails >= _MAX_CONSECUTIVE_BATCH_FAILS:
+                    circuit_open = True
         idx = 0
         for w in work:
             existing = w["existing"]
@@ -162,7 +175,7 @@ def _backfill_sheet(
         pending_jobs = 0
 
     for row in rows:
-        if deadline is not None and now() >= deadline:
+        if circuit_open or (deadline is not None and now() >= deadline):
             stopped = True
             break
         try:
