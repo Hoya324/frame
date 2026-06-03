@@ -43,7 +43,11 @@ jobs:
       # thrashing on rate-limit retries; the daily crawl job resumes the rest.
       # --reset (optional input) clears + rebuilds all translations — tick once
       # after switching translation engines.
+      # continue-on-error: a run that does nothing (quota exhausted / Gemini
+      # overload) exits non-zero but is expected and resumable — it must not flag
+      # the workflow red. The export/commit steps below still run (if: always()).
       - name: Backfill translations
+        continue-on-error: true
         run: crawler backfill-translations --max-seconds 1800 ${{ inputs.reset && '--reset' || '' }}
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}

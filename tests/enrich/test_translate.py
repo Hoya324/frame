@@ -1,6 +1,8 @@
 # tests/enrich/test_translate.py
 import json
 
+import httpx
+
 from crawler.enrich.translate import backfill_translations
 from crawler.sinks.base import SheetName
 
@@ -84,16 +86,21 @@ def test_backfill_gives_up_after_consecutive_batch_failures():
     # must trip a circuit breaker and stop instead of hammering every remaining
     # row (which only burns the quota harder and wastes the run). The cleared/
     # unfilled rows are picked up by the next run once quota resets.
+    def _err_429():
+        req = httpx.Request("POST", "https://x/")
+        resp = httpx.Response(429, request=req)
+        return httpx.HTTPStatusError("rate limited", request=req, response=resp)
+
     class FailingTranslator:
         def __init__(self):
             self.calls = 0
 
         def translate(self, text, from_code, to_code):
-            raise RuntimeError("429")
+            raise _err_429()
 
         def translate_batch(self, jobs):
             self.calls += 1
-            raise RuntimeError("429")
+            raise _err_429()
 
     rows = [{"id": f"e{i}", "title": f"제목{i}", "description": "", "tr": "", "lang": ""}
             for i in range(100)]
@@ -102,6 +109,34 @@ def test_backfill_gives_up_after_consecutive_batch_failures():
     report = backfill_translations(repo, t)
     assert t.calls <= 6                 # stopped early, didn't try all ~10 batches
     assert report.fields_translated == 0
+
+
+def test_backfill_does_not_give_up_on_transient_503s():
+    # A brief Gemini overload (503) is transient and must NOT trip the circuit
+    # breaker — only a sustained 429 (quota) should. The run keeps trying every
+    # batch (the time budget bounds a truly stuck run).
+    def _err(code):
+        req = httpx.Request("POST", "https://x/")
+        resp = httpx.Response(code, request=req)
+        return httpx.HTTPStatusError("err", request=req, response=resp)
+
+    class Overloaded:
+        def __init__(self):
+            self.calls = 0
+
+        def translate(self, *a):
+            raise _err(503)
+
+        def translate_batch(self, jobs):
+            self.calls += 1
+            raise _err(503)
+
+    rows = [{"id": f"e{i}", "title": f"제목{i}", "description": "", "tr": "", "lang": ""}
+            for i in range(100)]
+    repo = FakeRepo({"exh": rows})
+    t = Overloaded()
+    backfill_translations(repo, t)
+    assert t.calls >= 9   # tried every batch (~10), breaker never tripped on 503
 
 
 def test_reset_rebuilds_existing_in_scope_translations():

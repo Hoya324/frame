@@ -14,6 +14,8 @@ import time
 from collections.abc import Callable
 from dataclasses import dataclass
 
+import httpx
+
 from crawler.enrich.translator import Translator, detect_lang, targets_for
 from crawler.sinks.base import Repository, SheetName
 
@@ -35,11 +37,12 @@ _FIELDS: dict[SheetName, tuple[str, ...]] = {
 # of thousands of single requests over many days.
 _BATCH_JOBS = 20
 
-# Stop the run after this many consecutive batch failures. That almost always
-# means the daily request quota is exhausted (every request 429s), so hammering
-# on only burns time and the next day's quota; the cleared/unfilled rows resume
-# on the next run once quota resets.
-_MAX_CONSECUTIVE_BATCH_FAILS = 5
+# Stop the run after this many consecutive *quota* (429) batch failures — that
+# means every key's daily request quota is exhausted, so hammering on only burns
+# time and the next day's quota. Transient 503s (Gemini overload) do NOT count:
+# they recover, and the time budget already bounds a sustained-503 run. The
+# cleared/unfilled rows resume on the next run once quota resets.
+_MAX_CONSECUTIVE_QUOTA_FAILS = 5
 
 
 @dataclass(frozen=True)
@@ -129,12 +132,12 @@ def _backfill_sheet(
     # back. A row whose only change is a prune still gets patched (no jobs).
     work: list[dict] = []
     pending_jobs = 0
-    consecutive_fails = 0
+    consecutive_quota_fails = 0
     circuit_open = False
 
     def run_batch() -> None:
         nonlocal fields_translated, errors, pending_jobs
-        nonlocal consecutive_fails, circuit_open
+        nonlocal consecutive_quota_fails, circuit_open
         if not work:
             return
         jobs = [(text, src, loc) for w in work for (_f, loc, text, src) in w["jobs"]]
@@ -142,13 +145,20 @@ def _backfill_sheet(
         if jobs:
             try:
                 results = translator.translate_batch(jobs)
-                consecutive_fails = 0
-            except Exception:
+                consecutive_quota_fails = 0
+            except Exception as exc:
                 logger.exception("translate_batch failed for %d jobs", len(jobs))
                 results = None
-                consecutive_fails += 1
-                if consecutive_fails >= _MAX_CONSECUTIVE_BATCH_FAILS:
-                    circuit_open = True
+                # Only a 429 (quota) trips the breaker; transient 503s recover and
+                # must not count, or a brief Gemini overload aborts the whole run.
+                is_quota = (
+                    isinstance(exc, httpx.HTTPStatusError)
+                    and exc.response.status_code == 429
+                )
+                if is_quota:
+                    consecutive_quota_fails += 1
+                    if consecutive_quota_fails >= _MAX_CONSECUTIVE_QUOTA_FAILS:
+                        circuit_open = True
         idx = 0
         for w in work:
             existing = w["existing"]
