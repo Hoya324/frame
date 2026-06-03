@@ -4,12 +4,11 @@ import { PosterImage } from "@/components/PosterImage";
 import { StatusBadge } from "@/components/StatusBadge";
 import { ScrapButton } from "@/components/ScrapButton";
 import { useLang } from "@/components/LanguageProvider";
-import { TranslatableText } from "@/components/TranslatableText";
-import type { Exhibition } from "@/lib/catalog";
+import { inLocale, type Exhibition } from "@/lib/catalog";
 import { sourceLabel } from "@/lib/sources";
 
 export function ExhibitionCard({ exhibition: e, today }: { exhibition: Exhibition; today?: Date }) {
-  const { t } = useLang();
+  const { locale, t } = useLang();
   const label = sourceLabel(e.source, e.sourceUrl);
   // For single-venue sources the label is just the venue name again — only
   // show it when it adds information (aggregators like ARTMAP / Tokyo Art Beat).
@@ -26,15 +25,12 @@ export function ExhibitionCard({ exhibition: e, today }: { exhibition: Exhibitio
       </div>
       <div className="pt-2.5">
         <div className="text-[14.5px] font-semibold leading-tight">
-          <TranslatableText original={e.title} tr={e.tr} field="title" />
+          {inLocale(e.title, e.tr, locale, "title")}
         </div>
         <div className="mt-1 text-[12.5px] text-tx2">
-          {e.venue ? (
-            <>
-              <TranslatableText original={e.venue.name} tr={e.venue.tr} field="name" />
-              {e.venue.district ? ` · ${e.venue.district}` : ""}
-            </>
-          ) : t("common.venueTbd")}
+          {e.venue
+            ? inLocale(e.venue.name, e.venue.tr, locale, "name") + (e.venue.district ? ` · ${e.venue.district}` : "")
+            : t("common.venueTbd")}
         </div>
         <div className="mt-1.5 text-[11.5px] text-tx3">
           {[meta, source].filter(Boolean).join("  ·  ")}

@@ -1,4 +1,4 @@
-import { screen, fireEvent } from "@testing-library/react";
+import { screen } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
 import { renderWithLang } from "@/test/lang";
 
@@ -28,15 +28,16 @@ describe("ExhibitionCard", () => {
     expect(screen.getByText(/ARTMAP/)).toBeInTheDocument();
   });
 
-  it("offers translation toggle when tr exists for current locale", () => {
+  it("shows the header-locale translation, no toggle", () => {
     const JP: Exhibition = {
       ...E, id: "e2", title: "戎康友 展", lang: "ja",
       tr: { ko: { title: "에비스 전" } },
       venue: { ...E.venue!, name: "BOOK AND SONS", lang: "en", tr: { ko: { name: "북앤선즈" } } },
     };
     renderWithLang(<ExhibitionCard exhibition={JP} today={new Date("2026-05-30T00:00:00+09:00")} />, { locale: "ko" });
-    expect(screen.getByText("에비스 전")).toBeInTheDocument();            // 기본 = 헤더 언어 번역
-    fireEvent.click(screen.getAllByRole("button", { name: "원문" })[0]);  // 첫 원문 칩(제목) 토글
-    expect(screen.getByText("戎康友 展")).toBeInTheDocument();
+    expect(screen.getByText("에비스 전")).toBeInTheDocument();         // 제목: 헤더(ko) 번역
+    expect(screen.getByText(/북앤선즈/)).toBeInTheDocument();          // 장소명: ko 번역
+    // 카드는 헤더 언어로만 — 원문/번역 토글 없음
+    expect(screen.queryByRole("button", { name: "원문" })).toBeNull();
   });
 });

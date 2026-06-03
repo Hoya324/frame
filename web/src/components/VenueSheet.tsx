@@ -2,13 +2,12 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { X } from "lucide-react";
 import { ExhibitionCard } from "@/components/ExhibitionCard";
-import { TranslatableText } from "@/components/TranslatableText";
 import { useLang } from "@/components/LanguageProvider";
 import {
   venueSummary, sortForSheet, filterByStatus, nextSnap,
   type SortMode, type StatusFilter,
 } from "@/lib/venueSheet";
-import type { Exhibition, VenueEmbed } from "@/lib/catalog";
+import { inLocale, type Exhibition, type VenueEmbed } from "@/lib/catalog";
 
 // 상태 필터(다중 선택, 비어 있으면 전체). 라벨은 기존 filter.* 키 재사용.
 const STATUS_FILTERS: { value: StatusFilter; key: string }[] = [
@@ -28,7 +27,7 @@ export function VenueSheet({
   exhibitions: Exhibition[];
   onClose: () => void;
 }) {
-  const { t } = useLang();
+  const { locale, t } = useLang();
   const [statuses, setStatuses] = useState<StatusFilter[]>([]);
   const [sort, setSort] = useState<SortMode>("closing");
   const [snap, setSnap] = useState<"full" | "peek">("full");
@@ -156,7 +155,7 @@ export function VenueSheet({
           <div className="flex items-start gap-3">
             <div className="min-w-0 flex-1">
               <h2 className="truncate text-[18px] font-bold leading-tight">
-                <TranslatableText original={venue.name} tr={venue.tr} field="name" />
+                {inLocale(venue.name, venue.tr, locale, "name")}
               </h2>
               <div className="mt-1 text-[12.5px] text-tx2">
                 {[venue.region, venue.district].filter(Boolean).join(" · ")}

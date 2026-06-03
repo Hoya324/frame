@@ -6,7 +6,7 @@ import { PosterImage } from "@/components/PosterImage";
 import { StatusBadge } from "@/components/StatusBadge";
 import { useBookmarks } from "@/components/AuthProvider";
 import { useLang } from "@/components/LanguageProvider";
-import { localized, type Exhibition } from "@/lib/catalog";
+import { inLocale, type Exhibition } from "@/lib/catalog";
 import { sourceLabel } from "@/lib/sources";
 
 // Fisher–Yates shuffle so the deck order is fresh on every mount.
@@ -31,10 +31,6 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
   const [drag, setDrag] = useState({ x: 0, y: 0 });
   // The card currently flying off-screen, rendered as a throwaway ghost overlay.
   const [leaving, setLeaving] = useState<{ card: Exhibition; dir: "left" | "right" } | null>(null);
-  // Default to the header-language translation; one tap on the card's pill
-  // reveals the original. Resets per card (see fling) so each new card starts
-  // on the translation rather than inheriting the previous card's choice.
-  const [showOriginal, setShowOriginal] = useState(false);
   const dragging = useRef(false);
   // Mirrors `dragging` in state purely so the render below can decide the CSS
   // transition without reading a ref during render (refs aren't reactive).
@@ -67,7 +63,6 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
   const fling = (dir: "left" | "right") => {
     if (dir === "right") void toggle(current.id);
     setLeaving({ card: current, dir });
-    setShowOriginal(false);
     setI((n) => n + 1);
     if (leaveTimer.current) clearTimeout(leaveTimer.current);
     leaveTimer.current = setTimeout(() => setLeaving(null), 360);
@@ -99,7 +94,7 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
   const share = async () => {
     const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
     const url = `${window.location.origin}${basePath}/exhibitions/${current.id}`;
-    const title = localized(current.title, current.tr, locale, "title") ?? current.title;
+    const title = inLocale(current.title, current.tr, locale, "title");
     if (typeof navigator !== "undefined" && navigator.share) {
       try {
         await navigator.share({ title, url });
@@ -118,14 +113,12 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
     }
   };
 
-  // Translation for the current header locale (null when the original already
-  // matches the locale, so a Korean show in a Korean header shows no pill).
-  const titleTr = localized(current.title, current.tr, locale, "title");
-  const venueTr = current.venue ? localized(current.venue.name, current.venue.tr, locale, "name") : null;
-  const hasTr = Boolean(titleTr || venueTr);
-  const venueName = current.venue?.name ?? t("common.venueTbd");
-  const titleText = !showOriginal && titleTr ? titleTr : current.title;
-  const venueText = !showOriginal && venueTr ? venueTr : venueName;
+  // Swipe always shows the header-language version (translation when available,
+  // else the original) — no per-card switch; the detail page is where you pick.
+  const titleText = inLocale(current.title, current.tr, locale, "title");
+  const venueText = current.venue
+    ? inLocale(current.venue.name, current.venue.tr, locale, "name")
+    : t("common.venueTbd");
 
   const rot = drag.x / 18;
   const transform = `translate(${drag.x}px, ${drag.y * 0.4}px) rotate(${rot}deg)`;
@@ -183,19 +176,6 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
           <div className="mt-2 text-sm text-tx2">{venueText}</div>
           {sourceLabel(current.source, current.sourceUrl) && (
             <div className="mt-1 text-xs text-tx3">{t("detail.from")} · {sourceLabel(current.source, current.sourceUrl)}</div>
-          )}
-          {hasTr && (
-            // stopPropagation on pointerdown keeps the card from starting a drag
-            // or registering a tap-to-open when the pill is pressed.
-            <button
-              type="button"
-              aria-pressed={showOriginal}
-              onPointerDown={(e) => e.stopPropagation()}
-              onClick={(e) => { e.stopPropagation(); setShowOriginal((v) => !v); }}
-              className="mt-3 rounded-full border border-white/30 bg-black/40 px-2.5 py-1 text-[11px] text-white/80 backdrop-blur-sm transition active:scale-95 hover:bg-black/60"
-            >
-              {showOriginal ? t("tr.showTranslation") : t("tr.showOriginal")}
-            </button>
           )}
         </div>
       </div>

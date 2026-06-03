@@ -37,26 +37,17 @@ describe("SwipeDeck", () => {
     fireEvent.click(screen.getByLabelText("넘기기"));
     expect(screen.getByText(/모두 둘러봤어요/)).toBeInTheDocument();
   });
-  it("shows the locale translation with a pill that toggles to the original", () => {
-    push.mockClear();
+  it("shows the header-locale translation, no per-card toggle", () => {
     // Japanese original with a Korean translation; default header locale is ko.
     const item: Exhibition = { ...ex("a", "頂上"), tr: { ko: { title: "이름" } } };
     renderWithLang(<SwipeDeck items={[item]} />);
-    const heading = () => screen.getByRole("heading", { level: 2 });
-    expect(heading()).toHaveTextContent("이름");
-
-    const pill = screen.getByRole("button", { name: "원문" });
-    // A tap on the pill must not start a drag or open the detail page.
-    fireEvent.pointerDown(pill, { clientX: 10, clientY: 10 });
-    fireEvent.pointerUp(pill, { clientX: 10, clientY: 10 });
-    fireEvent.click(pill);
-    expect(heading()).toHaveTextContent("頂上");
-    expect(screen.getByRole("button", { name: "번역" })).toBeInTheDocument();
-    expect(push).not.toHaveBeenCalled();
-  });
-  it("shows no translation pill when the original matches the locale", () => {
-    renderWithLang(<SwipeDeck items={[ex("a", "한글 제목")]} />);
+    expect(screen.getByRole("heading", { level: 2 })).toHaveTextContent("이름");
+    // Swipe shows the header language only — there is no original/translation pill.
     expect(screen.queryByRole("button", { name: "원문" })).toBeNull();
+    expect(screen.queryByRole("button", { name: "번역" })).toBeNull();
+  });
+  it("falls back to the original when no translation exists for the locale", () => {
+    renderWithLang(<SwipeDeck items={[ex("a", "한글 제목")]} />);
     expect(screen.getByRole("heading", { level: 2 })).toHaveTextContent("한글 제목");
   });
   it("opens the detail page on a tap with no drag", () => {

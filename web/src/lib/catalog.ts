@@ -99,3 +99,14 @@ export function localized(
   if (text === (original ?? "")) return null;
   return text;
 }
+
+// The text to actually display in a chosen language: the translation when one
+// exists, otherwise the original (so a not-yet-translated field still shows).
+export function inLocale(
+  original: string | null | undefined,
+  tr: TrMap | undefined,
+  locale: Locale,
+  field: string,
+): string {
+  return localized(original, tr, locale, field) ?? original ?? "";
+}
