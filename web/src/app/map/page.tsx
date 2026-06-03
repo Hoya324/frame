@@ -13,6 +13,7 @@ import { applyFilters, type FilterState } from "@/lib/filters";
 import { sortExhibitions, type SortKey } from "@/lib/sort";
 import { FilterGroup } from "@/components/controls/FilterGroup";
 import { SortChips } from "@/components/controls/SortChips";
+import { EVENTS, track } from "@/lib/analytics";
 
 const MapView = dynamic(() => import("@/components/MapView").then((m) => m.MapView), { ssr: false });
 
@@ -85,6 +86,7 @@ export default function MapPage() {
   }, [items, sheetVenueId]);
 
   const locate = () => {
+    track(EVENTS.mapLocate, {});
     if (!("geolocation" in navigator)) {
       setLocState("error");
       return;
@@ -128,6 +130,7 @@ export default function MapPage() {
             options={["recommended", "closing", "recent", "nearby"]}
             onChange={setSort}
             disabled={{ nearby: !userLoc }}
+            context="map"
           />
         </FilterGroup>
       </div>
@@ -158,7 +161,7 @@ export default function MapPage() {
           userLocation={userLoc}
           selectedVenueId={sheetVenueId}
           onViewChange={(ids) => setVisibleIds(new Set(ids))}
-          onVenueSelect={(id) => setSheetVenueId(id)}
+          onVenueSelect={(id) => { track(EVENTS.venueSheetOpen, { venue_id: id }); setSheetVenueId(id); }}
           onSelect={(id) => router.push(`/exhibitions/${id}`)}
         />
         <div className="grid max-h-[560px] grid-cols-2 gap-4 overflow-y-auto md:grid-cols-1">

@@ -12,6 +12,7 @@ import { SortChips } from "@/components/controls/SortChips";
 import { PosterImage } from "@/components/PosterImage";
 import { SwipeDeck } from "@/components/SwipeDeck";
 import { useLang } from "@/components/LanguageProvider";
+import { EVENTS, track } from "@/lib/analytics";
 import type { Exhibition } from "@/lib/catalog";
 
 export default function Home() {
@@ -32,6 +33,10 @@ export default function Home() {
   const [chips, setChips] = useState<string[]>([]);
   const [sort, setSort] = useState<SortKey>("recommended");
   const toggle = (v: string) => setChips((c) => (c.includes(v) ? c.filter((x) => x !== v) : [...c, v]));
+  const selectMode = (m: "time" | "swipe") => {
+    if (m !== mode) track(EVENTS.homeViewMode, { mode: m });
+    setMode(m);
+  };
 
   // Swipe mode is a fixed, full-viewport view — lock page scroll while it's active.
   useEffect(() => {
@@ -85,7 +90,7 @@ export default function Home() {
         <div className={`flex gap-2 ${swipeMode ? "" : "mt-4"}`}>
           <button
             type="button"
-            onClick={() => setMode("time")}
+            onClick={() => selectMode("time")}
             className={`rounded-full px-4 py-1.5 text-sm transition ${
               mode === "time"
                 ? "bg-white font-semibold text-black"
@@ -96,7 +101,7 @@ export default function Home() {
           </button>
           <button
             type="button"
-            onClick={() => setMode("swipe")}
+            onClick={() => selectMode("swipe")}
             className={`rounded-full px-4 py-1.5 text-sm transition ${
               mode === "swipe"
                 ? "bg-white font-semibold text-black"
@@ -120,7 +125,7 @@ export default function Home() {
             </FilterGroup>
             <span className="h-4 w-px bg-line2" aria-hidden="true" />
             <FilterGroup label={t("controls.sort")}>
-              <SortChips value={sort} options={["recommended", "closing", "recent"]} onChange={setSort} />
+              <SortChips value={sort} options={["recommended", "closing", "recent"]} onChange={setSort} context="home" />
             </FilterGroup>
           </div>
 

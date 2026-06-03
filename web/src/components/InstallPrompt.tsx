@@ -10,6 +10,7 @@ import {
   isSafari,
   type PromptMode,
 } from "@/lib/pwa";
+import { EVENTS, track } from "@/lib/analytics";
 
 interface BeforeInstallPromptEvent extends Event {
   prompt: () => Promise<void>;
@@ -69,6 +70,7 @@ export function InstallPrompt() {
   }, []);
 
   const dismiss = useCallback(() => {
+    track(EVENTS.pwaInstallPrompt, { result: "dismissed" });
     localStorage.setItem(DISMISS_KEY, String(Date.now()));
     setMode("none");
   }, []);
@@ -77,7 +79,8 @@ export function InstallPrompt() {
     const evt = deferred.current;
     if (!evt) return;
     await evt.prompt();
-    await evt.userChoice;
+    const choice = await evt.userChoice;
+    track(EVENTS.pwaInstallPrompt, { result: choice.outcome });
     deferred.current = null;
     localStorage.setItem(DISMISS_KEY, String(Date.now()));
     setMode("none");

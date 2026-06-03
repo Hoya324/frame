@@ -60,7 +60,7 @@ export default function ScrapPage() {
         </FilterGroup>
         <span className="h-4 w-px bg-line2" aria-hidden="true" />
         <FilterGroup label={t("controls.sort")}>
-          <SortChips value={sort} options={["recommended", "closing", "recent"]} onChange={setSort} />
+          <SortChips value={sort} options={["recommended", "closing", "recent"]} onChange={setSort} context="scrap" />
         </FilterGroup>
       </div>
       {saved.length === 0 ? (
