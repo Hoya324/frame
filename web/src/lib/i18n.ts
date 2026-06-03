@@ -145,6 +145,12 @@ const ko: Dict = {
   "onb.subscribe.body": "주간 다이제스트·종료 임박·맞춤 알림을 설정하면 가입한 이메일로 받아볼 수 있어요. (로그인 필요)",
   "onb.feedback.title": "버그·피드백 제보",
   "onb.feedback.body": "불편한 점이나 제안이 있으면 마이페이지에서 보내주세요. 로그인 후 이용할 수 있어요.",
+  "onb.done": "완료",
+  "onb.install.title": "앱으로 설치하기",
+  "onb.install.body": "홈 화면에 추가하면 앱처럼 더 빠르게 전시를 둘러볼 수 있어요.",
+  "onb.install.oneClick": "아래 ‘설치’ 버튼을 누르면 한 번에 홈 화면에 추가돼요.",
+  "onb.install.manual": "브라우저 메뉴에서 ‘홈 화면에 추가’를 선택해 설치할 수 있어요.",
+  "onb.install.already": "이미 앱으로 사용 중이에요. 바로 시작해 보세요!",
 };
 
 const en: Dict = {
@@ -282,6 +288,12 @@ const en: Dict = {
   "onb.subscribe.body": "Set up weekly digests, closing-soon, and custom alerts to get them by email. (Sign-in required)",
   "onb.feedback.title": "Report a bug or feedback",
   "onb.feedback.body": "Tell us about issues or ideas from the Me page. Available after you sign in.",
+  "onb.done": "Done",
+  "onb.install.title": "Install the app",
+  "onb.install.body": "Add it to your home screen to browse exhibitions faster, like a native app.",
+  "onb.install.oneClick": "Tap 'Install' below to add it to your home screen in one step.",
+  "onb.install.manual": "Use your browser menu and choose 'Add to Home Screen' to install.",
+  "onb.install.already": "You're already using the app. Jump right in!",
 };
 
 const ja: Dict = {
@@ -419,6 +431,12 @@ const ja: Dict = {
   "onb.subscribe.body": "週間ダイジェスト・終了間近・カスタム通知を設定すると、登録メールで受け取れます。（ログインが必要）",
   "onb.feedback.title": "バグ・フィードバック報告",
   "onb.feedback.body": "不具合や提案はマイページからお送りください。ログイン後にご利用いただけます。",
+  "onb.done": "完了",
+  "onb.install.title": "アプリとしてインストール",
+  "onb.install.body": "ホーム画面に追加すると、アプリのようにもっと速く展示を見られます。",
+  "onb.install.oneClick": "下の「インストール」を押すと、ワンタップでホーム画面に追加できます。",
+  "onb.install.manual": "ブラウザのメニューから「ホーム画面に追加」を選んでインストールできます。",
+  "onb.install.already": "すでにアプリとしてご利用中です。さっそく始めましょう！",
 };
 
 const DICTS: Record<Locale, Dict> = { ko, en, ja };

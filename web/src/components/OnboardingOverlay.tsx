@@ -1,7 +1,17 @@
 "use client";
-import { ArrowLeft, ArrowRight, Compass, Heart, Layers, Bell, MessageSquare, X } from "lucide-react";
+import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
+import { ArrowLeft, ArrowRight, Compass, Download, Heart, Layers, Bell, MessageSquare, X } from "lucide-react";
 import { useOnboarding } from "@/components/OnboardingProvider";
 import { useLang } from "@/components/LanguageProvider";
+import { isIOS, isSafari } from "@/lib/pwa";
+import {
+  getCanInstall,
+  getServerCanInstall,
+  initPwaInstall,
+  isStandalone,
+  promptInstall,
+  subscribeInstall,
+} from "@/lib/pwaInstall";
 
 const STEP_ICON: Record<string, typeof Compass> = {
   welcome: Compass,
@@ -10,16 +20,51 @@ const STEP_ICON: Record<string, typeof Compass> = {
   scrap: Heart,
   subscribe: Bell,
   feedback: MessageSquare,
+  install: Download,
 };
 
 export function OnboardingOverlay() {
-  const { active, step, stepIndex, total, isSwipeStep, next, prev, skip } = useOnboarding();
+  const { active, step, stepIndex, total, isSwipeStep, isInstallStep, next, prev, skip } = useOnboarding();
   const { t } = useLang();
+
+  // PWA install availability (shared store) — drives the one-click install button.
+  useEffect(() => initPwaInstall(), []);
+  const canInstall = useSyncExternalStore(subscribeInstall, getCanInstall, getServerCanInstall);
+  const installEnv = useMemo(() => {
+    if (typeof navigator === "undefined") return { iosSafari: false, standalone: false };
+    const ua = navigator.userAgent;
+    return {
+      iosSafari: isIOS(ua, navigator.maxTouchPoints) && isSafari(ua),
+      standalone: isStandalone(),
+    };
+  }, []);
+  const [installing, setInstalling] = useState(false);
 
   if (!active || !step) return null;
 
   const Icon = STEP_ICON[step.id] ?? Compass;
   const isLast = stepIndex >= total - 1;
+
+  // On the install step, the primary button triggers the real native install
+  // when available; otherwise it just finishes the tour.
+  const onPrimary = async () => {
+    if (isInstallStep && canInstall) {
+      setInstalling(true);
+      try {
+        await promptInstall();
+      } finally {
+        setInstalling(false);
+      }
+    }
+    next();
+  };
+  const primaryLabel = isInstallStep
+    ? canInstall
+      ? t("pwa.install")
+      : t("onb.done")
+    : isLast
+      ? t("onb.start")
+      : t("onb.next");
 
   return (
     <div
@@ -62,6 +107,18 @@ export function OnboardingOverlay() {
             </div>
           )}
 
+          {isInstallStep && (
+            <div className="mt-4 rounded-xl border border-line bg-black/40 px-4 py-3 text-xs leading-relaxed text-tx2">
+              {installEnv.standalone
+                ? t("onb.install.already")
+                : canInstall
+                  ? t("onb.install.oneClick")
+                  : installEnv.iosSafari
+                    ? t("pwa.iosHint")
+                    : t("onb.install.manual")}
+            </div>
+          )}
+
           {/* step dots */}
           <div className="mt-5 flex items-center gap-1.5" aria-hidden="true">
             {Array.from({ length: total }).map((_, i) => (
@@ -94,10 +151,12 @@ export function OnboardingOverlay() {
               )}
               <button
                 type="button"
-                onClick={next}
-                className="rounded-md bg-white px-5 py-2 text-sm font-semibold text-black hover:bg-white/90"
+                onClick={() => void onPrimary()}
+                disabled={installing}
+                className="inline-flex items-center gap-1.5 rounded-md bg-white px-5 py-2 text-sm font-semibold text-black hover:bg-white/90 disabled:opacity-60"
               >
-                {isLast ? t("onb.start") : t("onb.next")}
+                {isInstallStep && canInstall && <Download size={15} />}
+                {primaryLabel}
               </button>
             </div>
           </div>

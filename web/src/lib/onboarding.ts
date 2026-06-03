@@ -11,8 +11,9 @@ export interface OnboardingStep {
   route: string;
   titleKey: string;
   bodyKey: string;
-  /** "swipe" steps switch the discover view into swipe mode while active. */
-  kind?: "swipe";
+  /** "swipe" switches the discover view into swipe mode while active;
+   *  "install" renders the PWA one-click install affordance. */
+  kind?: "swipe" | "install";
 }
 
 export const ONBOARDING_STEPS: OnboardingStep[] = [
@@ -22,6 +23,7 @@ export const ONBOARDING_STEPS: OnboardingStep[] = [
   { id: "scrap", route: "/scrap", titleKey: "onb.scrap.title", bodyKey: "onb.scrap.body" },
   { id: "subscribe", route: "/me", titleKey: "onb.subscribe.title", bodyKey: "onb.subscribe.body" },
   { id: "feedback", route: "/me", titleKey: "onb.feedback.title", bodyKey: "onb.feedback.body" },
+  { id: "install", route: "/", titleKey: "onb.install.title", bodyKey: "onb.install.body", kind: "install" },
 ];
 
 // In-progress tour state, persisted to sessionStorage so the walkthrough
