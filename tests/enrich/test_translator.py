@@ -316,3 +316,57 @@ def test_gemini_retry_predicate():
     assert _is_retryable_gemini(status_error(503)) is True  # transient
     assert _is_retryable_gemini(status_error(400)) is False  # bad request
     assert _is_retryable_gemini(status_error(404)) is False  # wrong model
+
+
+def _err_429(body: dict) -> httpx.HTTPStatusError:
+    req = httpx.Request("POST", _GEMINI_URL)
+    resp = httpx.Response(429, request=req, json=body)
+    return httpx.HTTPStatusError("rate limited", request=req, response=resp)
+
+
+def test_gemini_retry_delay_parsed_from_retryinfo():
+    from crawler.enrich.translator import _gemini_retry_delay
+
+    exc = _err_429({"error": {"details": [
+        {"@type": "type.googleapis.com/google.rpc.RetryInfo", "retryDelay": "37s"},
+    ]}})
+    assert _gemini_retry_delay(exc) == 37.0
+    assert _gemini_retry_delay(_err_429({})) is None  # no RetryInfo
+
+
+def test_gemini_waits_short_block_but_gives_up_on_daily():
+    from crawler.enrich.translator import _is_retryable_gemini
+
+    short = _err_429({"error": {"details": [
+        {"@type": "type.googleapis.com/google.rpc.RetryInfo", "retryDelay": "20s"},
+    ]}})
+    assert _is_retryable_gemini(short) is True  # per-minute: wait it out
+
+    huge = _err_429({"error": {"details": [
+        {"@type": "type.googleapis.com/google.rpc.RetryInfo", "retryDelay": "3600s"},
+    ]}})
+    assert _is_retryable_gemini(huge) is False  # too long to wait -> give up
+
+    daily = _err_429({"error": {"status": "RESOURCE_EXHAUSTED", "details": [
+        {"@type": "type.googleapis.com/google.rpc.QuotaFailure", "violations": [
+            {"quotaId": "GenerateContentRequestsPerDayPerProjectPerModel"},
+        ]},
+    ]}})
+    assert _is_retryable_gemini(daily) is False  # per-day block -> resume next run
+
+
+def test_gemini_wait_honors_retry_delay():
+    from crawler.enrich.translator import _gemini_wait
+
+    class _State:
+        def __init__(self, exc, n):
+            self.attempt_number = n
+            self.outcome = type("O", (), {"exception": lambda self_: exc})()
+
+    short = _err_429({"error": {"details": [
+        {"@type": "type.googleapis.com/google.rpc.RetryInfo", "retryDelay": "12s"},
+    ]}})
+    assert _gemini_wait(_State(short, 1)) == 13.0  # 12s + 1s margin
+    # transport error (no delay) -> exponential fallback
+    req = httpx.Request("POST", _GEMINI_URL)
+    assert _gemini_wait(_State(httpx.ConnectError("x", request=req), 3)) == 4.0

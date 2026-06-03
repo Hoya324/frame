@@ -12,7 +12,7 @@ from collections.abc import Callable
 from typing import Protocol
 
 import httpx
-from tenacity import retry, retry_if_exception, stop_after_attempt, wait_exponential
+from tenacity import retry, retry_if_exception, stop_after_attempt
 
 logger = logging.getLogger(__name__)
 
@@ -125,15 +125,73 @@ _DEFAULT_GEMINI_MODEL = "gemini-2.5-flash"
 # wasting the run on retry backoff. Override with GEMINI_MIN_INTERVAL_SEC.
 _DEFAULT_GEMINI_MIN_INTERVAL = 4.5
 
+# Longest a 429 RetryInfo delay we'll actually wait out before giving up. A
+# per-minute block clears in well under this; a per-day block reports a delay far
+# beyond it (or is flagged daily), so we fail fast and let the next run resume.
+_MAX_RETRY_WAIT = 90.0
+
+
+def _gemini_retry_delay(exc: BaseException) -> float | None:
+    """Seconds from a 429's RetryInfo, or None if not a parseable 429 delay."""
+    if not isinstance(exc, httpx.HTTPStatusError) or exc.response.status_code != 429:
+        return None
+    try:
+        details = exc.response.json().get("error", {}).get("details", [])
+    except Exception:
+        return None
+    for d in details:
+        if isinstance(d, dict) and str(d.get("@type", "")).endswith("RetryInfo"):
+            m = re.match(r"^([0-9.]+)s$", str(d.get("retryDelay", "")))
+            if m:
+                return float(m.group(1))
+    return None
+
+
+def _gemini_is_daily_429(exc: BaseException) -> bool:
+    """True when a 429 is a per-day quota block (vs a transient per-minute one)."""
+    if not isinstance(exc, httpx.HTTPStatusError) or exc.response.status_code != 429:
+        return False
+    try:
+        details = exc.response.json().get("error", {}).get("details", [])
+    except Exception:
+        return False
+    for d in details:
+        if not isinstance(d, dict):
+            continue
+        for v in d.get("violations", []) or []:
+            blob = f"{v.get('quotaId', '')} {v.get('quotaMetric', '')}".lower()
+            if "perday" in blob.replace("_", "").replace(" ", "") or "daily" in blob:
+                return True
+    return False
+
 
 def _is_retryable_gemini(exc: BaseException) -> bool:
-    """Retry transient transport errors and 429/5xx; never retry 4xx like a bad
-    request or an unknown model — those won't fix themselves."""
+    """Retry transient transport errors and 5xx. For 429: retry a short
+    (per-minute) block — honoring its RetryInfo delay — but give up immediately on
+    a per-day block or one whose delay exceeds _MAX_RETRY_WAIT, so the run fails
+    fast and resumes next time instead of hanging for hours."""
     if isinstance(exc, httpx.TransportError):
         return True
     if isinstance(exc, httpx.HTTPStatusError):
-        return exc.response.status_code in (429, 500, 502, 503, 504)
+        code = exc.response.status_code
+        if code in (500, 502, 503, 504):
+            return True
+        if code == 429:
+            if _gemini_is_daily_429(exc):
+                return False
+            delay = _gemini_retry_delay(exc)
+            return delay is None or delay <= _MAX_RETRY_WAIT
     return False
+
+
+def _gemini_wait(retry_state) -> float:
+    """Wait the 429's RetryInfo delay (capped) when present, else back off
+    exponentially for transport/5xx errors."""
+    exc = retry_state.outcome.exception() if retry_state.outcome else None
+    delay = _gemini_retry_delay(exc) if exc is not None else None
+    if delay is not None:
+        return min(delay + 1.0, _MAX_RETRY_WAIT)
+    return min(2.0 ** (retry_state.attempt_number - 1), 30.0)
 
 
 class GeminiTranslator:
@@ -241,7 +299,7 @@ class GeminiTranslator:
 
     @retry(
         retry=retry_if_exception(_is_retryable_gemini),
-        wait=wait_exponential(multiplier=1, min=1, max=30),
+        wait=_gemini_wait,
         stop=stop_after_attempt(4),
         reraise=True,
     )
