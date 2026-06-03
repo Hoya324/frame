@@ -139,7 +139,7 @@ const ko: Dict = {
   "onb.scrap.title": "스크랩 탭",
   "onb.scrap.body": "마음에 든 전시는 여기 스크랩 탭에 모여요. 스크랩은 로그인해야 저장돼요.",
   "onb.subscribe.title": "구독 알림",
-  "onb.subscribe.body": "마이페이지에서 로그인하면 주간 다이제스트·종료 임박·맞춤 알림을 설정할 수 있어요.",
+  "onb.subscribe.body": "주간 다이제스트·종료 임박·맞춤 알림을 설정하면 가입한 이메일로 받아볼 수 있어요. (로그인 필요)",
   "onb.feedback.title": "버그·피드백 제보",
   "onb.feedback.body": "불편한 점이나 제안이 있으면 마이페이지에서 보내주세요. 로그인 후 이용할 수 있어요.",
 };
@@ -273,7 +273,7 @@ const en: Dict = {
   "onb.scrap.title": "Saved tab",
   "onb.scrap.body": "Exhibitions you like collect here in the Saved tab. Sign in to save them.",
   "onb.subscribe.title": "Alerts",
-  "onb.subscribe.body": "Sign in on the Me page to set up weekly digests, closing-soon, and custom alerts.",
+  "onb.subscribe.body": "Set up weekly digests, closing-soon, and custom alerts to get them by email. (Sign-in required)",
   "onb.feedback.title": "Report a bug or feedback",
   "onb.feedback.body": "Tell us about issues or ideas from the Me page. Available after you sign in.",
 };
@@ -407,7 +407,7 @@ const ja: Dict = {
   "onb.scrap.title": "保存タブ",
   "onb.scrap.body": "気になる展示はこの保存タブにまとまります。保存にはログインが必要です。",
   "onb.subscribe.title": "通知設定",
-  "onb.subscribe.body": "マイページでログインすると、週間ダイジェスト・終了間近・カスタム通知を設定できます。",
+  "onb.subscribe.body": "週間ダイジェスト・終了間近・カスタム通知を設定すると、登録メールで受け取れます。（ログインが必要）",
   "onb.feedback.title": "バグ・フィードバック報告",
   "onb.feedback.body": "不具合や提案はマイページからお送りください。ログイン後にご利用いただけます。",
 };
