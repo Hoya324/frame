@@ -273,8 +273,10 @@ def test_gemini_from_env_parses_comma_separated_keys(monkeypatch):
     from crawler.enrich.translator import GeminiTranslator
 
     monkeypatch.setenv("GEMINI_API_KEY", " k1 , k2 ,k3 ")
+    monkeypatch.setenv("GEMINI_TIMEOUT_SEC", "200")
     t = GeminiTranslator.from_env()
     assert t._keys == ["k1", "k2", "k3"]
+    assert t._timeout == 200.0  # generous timeout for slow batch generation
 
 
 @respx.mock

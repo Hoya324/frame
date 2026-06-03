@@ -81,6 +81,18 @@ def test_backfill_batches_many_fields_into_few_requests():
     assert tr0["ja"]["description"] == "[ja]설명0"
 
 
+def test_backfill_batch_size_is_env_configurable(monkeypatch):
+    # Smaller batches keep each request fast enough to beat the timeout.
+    monkeypatch.setenv("GEMINI_BATCH_JOBS", "4")
+    rows = [{"id": f"e{i}", "title": f"제목{i}", "description": f"설명{i}",
+             "tr": "", "lang": ""} for i in range(10)]  # 10 * 4 jobs = 40
+    repo = FakeRepo({"exh": rows})
+    tr = FakeTranslator()
+    backfill_translations(repo, tr)
+    assert sum(tr.batch_calls) == 40
+    assert all(n <= 4 for n in tr.batch_calls)  # honored the cap
+
+
 def test_backfill_gives_up_after_consecutive_batch_failures():
     # When the daily request quota is exhausted every batch 429s. The backfill
     # must trip a circuit breaker and stop instead of hammering every remaining

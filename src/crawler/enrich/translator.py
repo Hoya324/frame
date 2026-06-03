@@ -204,7 +204,10 @@ class GeminiTranslator:
         self,
         api_key: str | list[str],
         model: str = _DEFAULT_GEMINI_MODEL,
-        timeout: float = 30.0,
+        # Generous read timeout: a batched request asks the model to generate a
+        # whole JSON array, which (with 2.5-flash thinking) can take well over the
+        # old 30s and was timing the requests out. Override with GEMINI_TIMEOUT_SEC.
+        timeout: float = 120.0,
         min_interval: float = _DEFAULT_GEMINI_MIN_INTERVAL,
         sleep: Callable[[float], None] = time.sleep,
         monotonic: Callable[[], float] = time.monotonic,
@@ -213,6 +216,7 @@ class GeminiTranslator:
         if not self._keys:
             raise ValueError("GeminiTranslator needs at least one API key")
         self._model = model
+        self._timeout = timeout
         self._client = httpx.Client(timeout=timeout)
         self._min_interval = min_interval
         self._sleep = sleep
@@ -232,6 +236,7 @@ class GeminiTranslator:
         return cls(
             api_key=keys,
             model=os.environ.get("GEMINI_MODEL", _DEFAULT_GEMINI_MODEL),
+            timeout=float(os.environ.get("GEMINI_TIMEOUT_SEC", "120")),
             min_interval=float(
                 os.environ.get(
                     "GEMINI_MIN_INTERVAL_SEC", str(_DEFAULT_GEMINI_MIN_INTERVAL)

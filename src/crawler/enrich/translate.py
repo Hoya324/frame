@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import json
 import logging
+import os
 import time
 from collections.abc import Callable
 from dataclasses import dataclass
@@ -32,10 +33,10 @@ _FIELDS: dict[SheetName, tuple[str, ...]] = {
 }
 
 # How many field→locale translation jobs to pack into one batched API request.
-# The free tier limits requests (RPM/RPD), not tokens (TPM is huge), so batching
-# many jobs per call is what makes a full rebuild finish in a run or two instead
-# of thousands of single requests over many days.
-_BATCH_JOBS = 20
+# The free tier limits requests (RPM/RPD), not tokens, so batching is the
+# throughput lever — but too large a batch makes the model's generation slow
+# enough to hit the request timeout, so keep it modest. Override GEMINI_BATCH_JOBS.
+_BATCH_JOBS = 10
 
 # Stop the run after this many consecutive *quota* (429) batch failures — that
 # means every key's daily request quota is exhausted, so hammering on only burns
@@ -71,6 +72,7 @@ def _backfill_sheet(
     deadline: float | None,
     now: Callable[[], float],
     reset: bool,
+    batch_jobs: int,
 ) -> tuple[int, int, int, int, bool]:
     rows = repo.read_rows(sheet)
     pending: list[dict] = []
@@ -227,7 +229,7 @@ def _backfill_sheet(
 
         work.append({"row": row, "existing": existing, "changed": changed, "jobs": jobs})
         pending_jobs += len(jobs)
-        if pending_jobs >= _BATCH_JOBS:
+        if pending_jobs >= batch_jobs:
             run_batch()
 
     run_batch()
@@ -251,10 +253,12 @@ def backfill_translations(
     # (after flushing) so the CI job's later export/commit steps still run. The
     # next run resumes where this one left off, so the JSON refreshes every run.
     deadline = None if max_seconds is None else now() + max_seconds
+    batch_jobs = max(1, int(os.environ.get("GEMINI_BATCH_JOBS", _BATCH_JOBS)))
     seen = patched = translated = errors = 0
     for sheet, fields in _FIELDS.items():
         s, p, t, e, stopped = _backfill_sheet(
-            repo, sheet, fields, translator, flush_every, deadline, now, reset
+            repo, sheet, fields, translator, flush_every, deadline, now, reset,
+            batch_jobs,
         )
         seen += s
         patched += p
