@@ -63,45 +63,50 @@ def _row_lang(row: dict, fields: tuple[str, ...]) -> str:
     return "ko"
 
 
-def _backfill_sheet(
+def _parse_tr(row: dict) -> dict:
+    try:
+        existing = json.loads(row.get("tr") or "{}")
+    except (ValueError, TypeError):
+        existing = {}
+    return existing if isinstance(existing, dict) else {}
+
+
+def _round_robin(lists: list[list]) -> list:
+    """Merge per-sheet lists by taking one item from each in turn. Interleaving
+    the work means a budget/quota cut spreads across sheets instead of letting
+    the first (largest) sheet consume the whole run before the others get a turn."""
+    iters = [iter(lst) for lst in lists]
+    done = [False] * len(iters)
+    out: list = []
+    while not all(done):
+        for i, it in enumerate(iters):
+            if done[i]:
+                continue
+            try:
+                out.append(next(it))
+            except StopIteration:
+                done[i] = True
+    return out
+
+
+def _collect_work(
     repo: Repository,
     sheet: SheetName,
     fields: tuple[str, ...],
-    translator: Translator,
-    flush_every: int,
-    deadline: float | None,
-    now: Callable[[], float],
     reset: bool,
-    batch_jobs: int,
-) -> tuple[int, int, int, int, bool]:
+    queue_patch: Callable[[SheetName, tuple[str, ...], dict, dict], None],
+    flush: Callable[[SheetName], None],
+) -> tuple[int, list[dict]]:
+    """Read a sheet, apply the reset-clear and out-of-scope prune (queuing those
+    no-API patches), and return the work items still needing translation."""
     rows = repo.read_rows(sheet)
-    pending: list[dict] = []
-    rows_patched = 0
-    fields_translated = 0
-    errors = 0
-    stopped = False
-
-    def flush() -> None:
-        nonlocal rows_patched
-        if pending:
-            repo.patch_rows(sheet, list(pending))
-            rows_patched += len(pending)
-            pending.clear()
 
     # Reset: clear in-scope translations from EVERY row first (cheap, no API),
-    # persisting the cleared state. The fill loop below then treats those fields
-    # as missing and refills them with the current engine. Unlike an in-place
-    # overwrite this survives a budget cut — rows this pass never reaches are
-    # still cleared, so the recurring incremental backfill resumes and converges
-    # (an overwrite would leave stale translations that later runs skip).
+    # persisting the cleared state so a budget-cut run still resumes from empty
+    # (an in-place overwrite would strand stale translations later runs skip).
     if reset:
         for row in rows:
-            try:
-                existing = json.loads(row.get("tr") or "{}")
-            except (ValueError, TypeError):
-                existing = {}
-            if not isinstance(existing, dict):
-                existing = {}
+            existing = _parse_tr(row)
             cleared = False
             for loc in list(existing.keys()):
                 bucket = existing[loc]
@@ -115,34 +120,114 @@ def _backfill_sheet(
                 if not bucket:
                     del existing[loc]
             if cleared:
-                # Mutate the in-memory row so the fill loop below sees it cleared
-                # without a re-read; the patch persists it for the next run.
+                # Mutate the in-memory row so the collection below sees it cleared.
                 row["tr"] = json.dumps(existing, ensure_ascii=False) if existing else ""
-                pending.append({
-                    "id": row["id"],
-                    "tr": row["tr"],
-                    "lang": _row_lang(row, fields) if existing else "",
-                })
-                if len(pending) >= flush_every:
-                    flush()
-        flush()
+                queue_patch(sheet, fields, row, existing)
+        flush(sheet)
 
-    # Fill missing translations, buffering many field→locale jobs across rows so
-    # they go out in one batched request (the free tier caps requests, not
-    # tokens). Each work item keeps its row's parsed ``tr`` and the jobs it still
-    # needs; run_batch() translates the whole buffer at once and writes results
-    # back. A row whose only change is a prune still gets patched (no jobs).
     work: list[dict] = []
-    pending_jobs = 0
+    for row in rows:
+        existing = _parse_tr(row)
+        changed = False
+        # Prune translations whose field is no longer in scope — self-heals stale
+        # data (e.g. fields dropped from scope) on the next run.
+        for loc in list(existing.keys()):
+            bucket = existing[loc]
+            if not isinstance(bucket, dict):
+                del existing[loc]
+                changed = True
+                continue
+            for f in [k for k in bucket if k not in fields]:
+                del bucket[f]
+                changed = True
+            if not bucket:
+                del existing[loc]
+        # Collect the field→locale jobs this row still needs (reset already
+        # cleared stale ones above, so this only fills fresh gaps — resumable).
+        jobs: list[tuple[str, str, str, str]] = []
+        for field in fields:
+            text = str(row.get(field) or "").strip()
+            if not text:
+                continue
+            src = detect_lang(text)
+            for loc in targets_for(src):
+                if (existing.get(loc) or {}).get(field):
+                    continue  # already translated — idempotent skip
+                jobs.append((field, loc, text, src))
+        work.append({
+            "sheet": sheet, "fields": fields, "row": row,
+            "existing": existing, "changed": changed, "jobs": jobs,
+        })
+    return len(rows), work
+
+
+def backfill_translations(
+    repo: Repository,
+    translator: Translator,
+    flush_every: int = 25,
+    max_seconds: float | None = None,
+    now: Callable[[], float] = time.monotonic,
+    reset: bool = False,
+) -> TranslationReport:
+    # Flush patches in batches so a partial run (e.g. a CI timeout mid-backfill)
+    # persists what it finished. Re-runs skip already-translated rows, so the
+    # backfill converges across runs instead of losing a whole sheet's work.
+    #
+    # max_seconds bounds the wall-clock budget; when exhausted the run stops after
+    # flushing so the next run resumes. Work from all sheets is interleaved
+    # round-robin so the largest sheet can't consume the whole run's quota before
+    # the smaller ones (e.g. venue/artist names) get any.
+    deadline = None if max_seconds is None else now() + max_seconds
+    batch_jobs = max(1, int(os.environ.get("GEMINI_BATCH_JOBS", _BATCH_JOBS)))
+
+    pending: dict[SheetName, list[dict]] = {sheet: [] for sheet in _FIELDS}
+    rows_patched = 0
+    fields_translated = 0
+    errors = 0
+
+    def flush(sheet: SheetName) -> None:
+        nonlocal rows_patched
+        if pending[sheet]:
+            repo.patch_rows(sheet, list(pending[sheet]))
+            rows_patched += len(pending[sheet])
+            pending[sheet].clear()
+
+    def queue_patch(
+        sheet: SheetName, fields: tuple[str, ...], row: dict, existing: dict
+    ) -> None:
+        pending[sheet].append({
+            "id": row["id"],
+            # Cleared to empty when nothing remains, so a row dropped from scope
+            # ends up with blank tr/lang again.
+            "tr": json.dumps(existing, ensure_ascii=False) if existing else "",
+            "lang": _row_lang(row, fields) if existing else "",
+        })
+        if len(pending[sheet]) >= flush_every:
+            flush(sheet)
+
+    # Phase 1: read every sheet, apply reset-clear + prune, collect remaining work.
+    seen = 0
+    per_sheet_work: list[list[dict]] = []
+    for sheet, fields in _FIELDS.items():
+        s, work = _collect_work(repo, sheet, fields, reset, queue_patch, flush)
+        seen += s
+        per_sheet_work.append(work)
+    work_items = _round_robin(per_sheet_work)
+
+    # Phase 2: fill missing translations, batching many field→locale jobs into one
+    # request (the free tier caps requests, not tokens). Items carry their sheet,
+    # so a mixed batch's results are written back to the right rows.
+    work_buf: list[dict] = []
+    buf_jobs = 0
     consecutive_quota_fails = 0
     circuit_open = False
 
     def run_batch() -> None:
-        nonlocal fields_translated, errors, pending_jobs
+        nonlocal fields_translated, errors, buf_jobs
         nonlocal consecutive_quota_fails, circuit_open
-        if not work:
+        if not work_buf:
             return
-        jobs = [(text, src, loc) for w in work for (_f, loc, text, src) in w["jobs"]]
+        jobs = [(text, src, loc) for w in work_buf for (_f, loc, text, src) in w["jobs"]]
         results: list[str] | None = None
         if jobs:
             try:
@@ -162,7 +247,7 @@ def _backfill_sheet(
                     if consecutive_quota_fails >= _MAX_CONSECUTIVE_QUOTA_FAILS:
                         circuit_open = True
         idx = 0
-        for w in work:
+        for w in work_buf:
             existing = w["existing"]
             changed = w["changed"]
             for field, loc, _text, _src in w["jobs"]:
@@ -174,96 +259,19 @@ def _backfill_sheet(
                     errors += 1
                 idx += 1
             if changed:
-                pending.append({
-                    "id": w["row"]["id"],
-                    # Cleared to empty when pruning leaves no translations, so a
-                    # sheet dropped from scope ends up with blank tr/lang again.
-                    "tr": json.dumps(existing, ensure_ascii=False) if existing else "",
-                    "lang": _row_lang(w["row"], fields) if existing else "",
-                })
-                if len(pending) >= flush_every:
-                    flush()
-        work.clear()
-        pending_jobs = 0
+                queue_patch(w["sheet"], w["fields"], w["row"], existing)
+        work_buf.clear()
+        buf_jobs = 0
 
-    for row in rows:
+    for item in work_items:
         if circuit_open or (deadline is not None and now() >= deadline):
-            stopped = True
             break
-        try:
-            existing = json.loads(row.get("tr") or "{}")
-        except (ValueError, TypeError):
-            existing = {}
-        if not isinstance(existing, dict):
-            existing = {}
-
-        changed = False
-
-        # Prune translations whose field is no longer in scope (e.g. proper-noun
-        # name fields we stopped translating). Re-running the backfill after a
-        # scope change self-heals stale/garbage translations out of the sheet.
-        for loc in list(existing.keys()):
-            bucket = existing[loc]
-            if not isinstance(bucket, dict):
-                del existing[loc]
-                changed = True
-                continue
-            for f in [k for k in bucket if k not in fields]:
-                del bucket[f]
-                changed = True
-            if not bucket:
-                del existing[loc]
-
-        # Collect the field→locale jobs this row still needs (reset already
-        # cleared stale ones above, so this only fills fresh gaps — resumable).
-        jobs: list[tuple[str, str, str, str]] = []
-        for field in fields:
-            text = str(row.get(field) or "").strip()
-            if not text:
-                continue
-            src = detect_lang(text)
-            for loc in targets_for(src):
-                if (existing.get(loc) or {}).get(field):
-                    continue  # already translated — idempotent skip
-                jobs.append((field, loc, text, src))
-
-        work.append({"row": row, "existing": existing, "changed": changed, "jobs": jobs})
-        pending_jobs += len(jobs)
-        if pending_jobs >= batch_jobs:
+        work_buf.append(item)
+        buf_jobs += len(item["jobs"])
+        if buf_jobs >= batch_jobs:
             run_batch()
-
     run_batch()
-    flush()
-    return len(rows), rows_patched, fields_translated, errors, stopped
+    for sheet in _FIELDS:
+        flush(sheet)
 
-
-def backfill_translations(
-    repo: Repository,
-    translator: Translator,
-    flush_every: int = 25,
-    max_seconds: float | None = None,
-    now: Callable[[], float] = time.monotonic,
-    reset: bool = False,
-) -> TranslationReport:
-    # Flush patches in batches so a partial run (e.g. a CI timeout mid-backfill)
-    # persists what it finished. Re-runs skip already-translated rows, so the
-    # backfill converges across runs instead of losing a whole sheet's work.
-    #
-    # max_seconds bounds the wall-clock budget: when exhausted the backfill stops
-    # (after flushing) so the CI job's later export/commit steps still run. The
-    # next run resumes where this one left off, so the JSON refreshes every run.
-    deadline = None if max_seconds is None else now() + max_seconds
-    batch_jobs = max(1, int(os.environ.get("GEMINI_BATCH_JOBS", _BATCH_JOBS)))
-    seen = patched = translated = errors = 0
-    for sheet, fields in _FIELDS.items():
-        s, p, t, e, stopped = _backfill_sheet(
-            repo, sheet, fields, translator, flush_every, deadline, now, reset,
-            batch_jobs,
-        )
-        seen += s
-        patched += p
-        translated += t
-        errors += e
-        if stopped:
-            break
-    return TranslationReport(seen, patched, translated, errors)
+    return TranslationReport(seen, rows_patched, fields_translated, errors)

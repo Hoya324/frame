@@ -151,6 +151,25 @@ def test_backfill_does_not_give_up_on_transient_503s():
     assert t.calls >= 9   # tried every batch (~10), breaker never tripped on 503
 
 
+def test_backfill_interleaves_sheets_so_names_are_not_starved():
+    # Exhibitions plus venues/artists. With a tight budget the old per-sheet order
+    # finished exhibitions first and never reached the name sheets. Interleaving
+    # must give every sheet at least some translations under the same budget.
+    exh = [{"id": f"e{i}", "title": f"제목{i}", "description": "", "tr": "", "lang": ""}
+           for i in range(20)]
+    ven = [{"id": f"v{i}", "name": f"갤러리{i}", "tr": "", "lang": ""} for i in range(20)]
+    art = [{"id": f"a{i}", "name": f"작가{i}", "tr": "", "lang": ""} for i in range(20)]
+    repo = FakeRepo({"exh": exh, "ven": ven, "art": art})
+    # deadline = 0 + 4; the loop advances the clock 1 per item, so ~4 items (one
+    # round-robin round + a bit) get buffered before it stops.
+    clock = iter([0, 0, 1, 2, 3, 4, 5, 6, 7, 8])
+    backfill_translations(repo, FakeTranslator(), flush_every=100,
+                          max_seconds=4, now=lambda: next(clock))
+    assert SheetName.EXHIBITIONS in repo.patched
+    assert SheetName.VENUES in repo.patched   # name sheets no longer starved
+    assert SheetName.ARTISTS in repo.patched
+
+
 def test_reset_rebuilds_existing_in_scope_translations():
     # Switching translators leaves old garbage in place because the backfill is
     # idempotent. reset=True clears in-scope fields then refills them, so a new
