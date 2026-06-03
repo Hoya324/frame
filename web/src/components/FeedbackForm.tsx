@@ -16,7 +16,7 @@ const TYPE_LABEL_KEY: Record<FeedbackType, string> = {
 };
 
 export function FeedbackForm() {
-  const { user } = useAuth();
+  const { user, signIn } = useAuth();
   const { t } = useLang();
   const [type, setType] = useState<FeedbackType | null>(null);
   const [message, setMessage] = useState("");
@@ -24,8 +24,6 @@ export function FeedbackForm() {
   const [images, setImages] = useState<FeedbackImage[]>([]);
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [errorKey, setErrorKey] = useState<string | null>(null);
-
-  if (!user) return null;
 
   async function onPickFiles(e: ChangeEvent<HTMLInputElement>) {
     const files = Array.from(e.target.files ?? []);
@@ -46,6 +44,7 @@ export function FeedbackForm() {
   }
 
   async function onSubmit() {
+    if (!user) { await signIn(); return; }
     setErrorKey(null);
     const invalid = validateFeedbackInput({ type, message, replyTo, images });
     if (invalid) { setStatus("error"); setErrorKey(invalid); return; }
@@ -65,6 +64,17 @@ export function FeedbackForm() {
     <div className="rounded-lg border border-line p-5">
       <div className="text-sm text-tx3">{t("feedback.title")}</div>
       <p className="mt-1 text-xs text-tx3">{t("feedback.desc")}</p>
+
+      {!user && (
+        <button
+          type="button"
+          onClick={() => void signIn()}
+          className="mt-3 flex w-full items-center justify-between rounded-md border border-line2 bg-panel2 px-3.5 py-2.5 text-left text-sm text-tx2 hover:text-tx"
+        >
+          <span>{t("feedback.loginBanner")}</span>
+          <span className="ml-3 shrink-0 font-semibold text-tx">{t("common.signIn")}</span>
+        </button>
+      )}
 
       <div className="mt-4 text-xs text-tx3">{t("feedback.typeLabel")}</div>
       <div className="mt-2 flex flex-wrap gap-2">

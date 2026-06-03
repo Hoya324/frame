@@ -12,6 +12,7 @@ import { SortChips } from "@/components/controls/SortChips";
 import { PosterImage } from "@/components/PosterImage";
 import { SwipeDeck } from "@/components/SwipeDeck";
 import { useLang } from "@/components/LanguageProvider";
+import { useOnboarding } from "@/components/OnboardingProvider";
 import type { Exhibition } from "@/lib/catalog";
 
 export default function Home() {
@@ -29,18 +30,22 @@ export default function Home() {
     { value: "solo", label: t("filter.solo") },
   ];
   const [mode, setMode] = useState<"time" | "swipe">("time");
+  const { isSwipeStep } = useOnboarding();
   const [chips, setChips] = useState<string[]>([]);
   const [sort, setSort] = useState<SortKey>("recommended");
   const toggle = (v: string) => setChips((c) => (c.includes(v) ? c.filter((x) => x !== v) : [...c, v]));
 
+  // The onboarding tour forces swipe mode on its swipe step so the user sees
+  // what the explanation points at; otherwise it follows the tab toggle.
+  const swipeMode = mode === "swipe" || isSwipeStep;
+
   // Swipe mode is a fixed, full-viewport view — lock page scroll while it's active.
   useEffect(() => {
-    if (mode !== "swipe") return;
+    if (!swipeMode) return;
     const prev = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     return () => { document.body.style.overflow = prev; };
-  }, [mode]);
-  const swipeMode = mode === "swipe";
+  }, [swipeMode]);
 
   const f: FilterState = useMemo(() => ({
     statuses: chips.filter((c) => ["ongoing", "upcoming", "past"].includes(c)) as FilterState["statuses"],
