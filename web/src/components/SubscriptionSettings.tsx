@@ -64,6 +64,7 @@ export function SubscriptionSettings() {
   return (
     <div className="rounded-lg border border-line p-5">
       <div className="text-sm text-tx3">{t("sub.title")}</div>
+      <p className="mt-1 text-xs text-tx3">{t("sub.emailNote")}</p>
       {!user && (
         <button
           type="button"

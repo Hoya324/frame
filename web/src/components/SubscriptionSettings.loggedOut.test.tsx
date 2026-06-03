@@ -21,7 +21,7 @@ import { SubscriptionSettings } from "@/components/SubscriptionSettings";
 describe("SubscriptionSettings when logged out", () => {
   it("renders the settings with a sign-in banner", () => {
     renderWithLang(<SubscriptionSettings />);
-    expect(screen.getByText("로그인하면 알림을 설정할 수 있어요.")).toBeInTheDocument();
+    expect(screen.getByText("로그인하면 이메일로 알림을 받을 수 있어요.")).toBeInTheDocument();
     expect(screen.getByText("주간 다이제스트")).toBeInTheDocument();
   });
 
