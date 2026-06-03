@@ -1,5 +1,5 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Search } from "lucide-react";
 import { loadCatalogSync } from "@/lib/catalogClient";
 import { applyFilters, searchExhibitions, type FilterState } from "@/lib/filters";
@@ -10,6 +10,7 @@ import { useLang } from "@/components/LanguageProvider";
 import { sortExhibitions, type SortKey } from "@/lib/sort";
 import { FilterGroup } from "@/components/controls/FilterGroup";
 import { SortChips } from "@/components/controls/SortChips";
+import { EVENTS, track } from "@/lib/analytics";
 
 const COUNTRY_ORDER: Country[] = ["한국", "일본"];
 
@@ -52,6 +53,18 @@ export default function SearchPage() {
   };
   const results = sortExhibitions(searchExhibitions(applyFilters(catalog.exhibitions, f), q), sort);
 
+  // Track searches once typing settles, not on every keystroke. Only meaningful
+  // queries (2+ chars) are reported, with the resulting hit count.
+  const resultCount = results.length;
+  useEffect(() => {
+    const query = q.trim();
+    if (query.length < 2) return;
+    const id = setTimeout(() => {
+      track(EVENTS.searchQuery, { query, results: resultCount });
+    }, 600);
+    return () => clearTimeout(id);
+  }, [q, resultCount]);
+
   return (
     <main className="mx-auto max-w-[1180px] px-7 py-8">
       <div className="mb-5 flex items-center gap-2 rounded-lg border border-line px-3 py-2.5">
@@ -80,7 +93,7 @@ export default function SearchPage() {
         </FilterGroup>
         <span className="h-4 w-px bg-line2" aria-hidden="true" />
         <FilterGroup label={t("controls.sort")}>
-          <SortChips value={sort} options={["recommended", "closing", "recent"]} onChange={setSort} />
+          <SortChips value={sort} options={["recommended", "closing", "recent"]} onChange={setSort} context="search" />
         </FilterGroup>
       </div>
       {cityGroups.map((g) => (

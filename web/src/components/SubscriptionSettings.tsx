@@ -9,6 +9,7 @@ import {
 import { loadCatalogSync } from "@/lib/catalogClient";
 import { FilterChips } from "@/components/FilterChips";
 import { useLang } from "@/components/LanguageProvider";
+import { EVENTS, track } from "@/lib/analytics";
 
 const ROWS: { type: SubType; labelKey: string; descKey: string }[] = [
   { type: "weekly_digest", labelKey: "sub.weekly", descKey: "sub.weeklyDesc" },
@@ -41,6 +42,7 @@ export function SubscriptionSettings() {
     if (!user) { await signIn(); return; }
     const prev = subs[type];
     const filters = prev?.filters ?? {};
+    track(EVENTS.subscriptionToggle, { type, enabled });
     setSubs((s) => ({ ...s, [type]: { type, enabled, filters } }));
     await upsertSubscription(getSupabase(), user.id, type, enabled, filters);
   }

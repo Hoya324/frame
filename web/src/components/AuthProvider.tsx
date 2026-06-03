@@ -3,6 +3,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useState } 
 import type { Session, User } from "@supabase/supabase-js";
 import { getSupabase } from "@/lib/supabase";
 import { addBookmark, listBookmarkIds, removeBookmark } from "@/lib/bookmarks";
+import { EVENTS, track } from "@/lib/analytics";
 
 interface AuthCtx {
   user: User | null;
@@ -71,6 +72,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, [supabase, user]);
 
   const signIn = useCallback(async () => {
+    track(EVENTS.signInClicked);
     await supabase.auth.signInWithOAuth({
       provider: "google",
       options: { redirectTo: redirectTarget() },
@@ -78,6 +80,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, [supabase]);
 
   const signOut = useCallback(async () => {
+    track(EVENTS.signedOut);
     await supabase.auth.signOut();
   }, [supabase]);
 
@@ -88,6 +91,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         return;
       }
       const has = ids.has(id);
+      track(EVENTS.exhibitionScrap, {
+        exhibition_id: id,
+        action: has ? "remove" : "add",
+      });
       // optimistic
       setIds((prev) => {
         const next = new Set(prev);

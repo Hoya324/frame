@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { PosterImage } from "@/components/PosterImage";
 import { ScrapButton } from "@/components/ScrapButton";
 import { StatusBadge } from "@/components/StatusBadge";
@@ -7,6 +7,7 @@ import { useLang } from "@/components/LanguageProvider";
 import { inLocale, type Exhibition } from "@/lib/catalog";
 import { LOCALES, LOCALE_LABEL, translate, type Locale } from "@/lib/i18n";
 import { sourceLabel } from "@/lib/sources";
+import { EVENTS, track } from "@/lib/analytics";
 
 export function ExhibitionDetailView({ e }: { e: Exhibition }) {
   const { locale } = useLang();
@@ -22,6 +23,19 @@ export function ExhibitionDetailView({ e }: { e: Exhibition }) {
   // The whole page (labels + content) follows the picked language, so the
   // selection gives a coherent single-language view of the exhibition.
   const t = (key: string) => translate(lang, key);
+
+  // One view event per exhibition opened (re-fires if the user navigates to a
+  // different exhibition without a full remount).
+  useEffect(() => {
+    track(EVENTS.exhibitionView, {
+      exhibition_id: e.id,
+      title: e.title,
+      venue: e.venue?.name,
+      status: e.status,
+      medium: e.medium,
+      source: e.source,
+    });
+  }, [e.id, e.title, e.venue?.name, e.status, e.medium, e.source]);
 
   const source = sourceLabel(e.source, e.sourceUrl);
   const price =
@@ -85,6 +99,7 @@ export function ExhibitionDetailView({ e }: { e: Exhibition }) {
             <ScrapButton exhibitionId={e.id} />
             {e.sourceUrl && (
               <a href={e.sourceUrl} target="_blank" rel="noopener noreferrer"
+                onClick={() => track(EVENTS.sourceLinkClick, { exhibition_id: e.id, source: e.source })}
                 aria-label={source ? `${t("detail.from")} ${source}` : t("detail.source")}
                 className="inline-flex items-center gap-1 rounded-lg border border-line2 px-4 py-2 text-sm font-medium hover:bg-panel2">
                 {source ?? t("detail.source")}

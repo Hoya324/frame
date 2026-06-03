@@ -8,6 +8,7 @@ import {
   FEEDBACK_TYPES, MAX_IMAGES, MAX_IMAGE_BYTES, ALLOWED_IMAGE_TYPES,
   type FeedbackType, type FeedbackImage,
 } from "@/lib/feedback";
+import { EVENTS, track } from "@/lib/analytics";
 
 const TYPE_LABEL_KEY: Record<FeedbackType, string> = {
   bug: "feedback.typeBug",
@@ -51,6 +52,7 @@ export function FeedbackForm() {
     setStatus("sending");
     try {
       await submitFeedback(getSupabase(), { type, message, replyTo, images });
+      track(EVENTS.feedbackSubmit, { type, has_images: images.length > 0 });
       setStatus("sent");
       setType(null); setMessage(""); setImages([]);
     } catch (e) {

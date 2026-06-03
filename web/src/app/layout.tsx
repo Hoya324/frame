@@ -4,6 +4,7 @@ import { Nav } from "@/components/Nav";
 import { AuthProvider } from "@/components/AuthProvider";
 import { LanguageProvider } from "@/components/LanguageProvider";
 import { LocaleSync } from "@/components/LocaleSync";
+import { AnalyticsProvider } from "@/components/AnalyticsProvider";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
 import { InstallPrompt } from "@/components/InstallPrompt";
 import { OnboardingProvider } from "@/components/OnboardingProvider";
@@ -45,6 +46,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <LanguageProvider>
           <AuthProvider>
+            <AnalyticsProvider />
             <OnboardingProvider>
               <LocaleSync />
               <Nav />

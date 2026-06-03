@@ -8,6 +8,7 @@ import { useBookmarks } from "@/components/AuthProvider";
 import { useLang } from "@/components/LanguageProvider";
 import { inLocale, type Exhibition } from "@/lib/catalog";
 import { sourceLabel } from "@/lib/sources";
+import { EVENTS, track } from "@/lib/analytics";
 
 // Fisher–Yates shuffle so the deck order is fresh on every mount.
 function shuffle<T>(input: T[]): T[] {
@@ -60,7 +61,12 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
   // Advance synchronously, then let the ghost animate away on its own. Keeping
   // the index update in the click/release handler (not a delayed timer) avoids
   // stale-closure / double-fiber races.
-  const fling = (dir: "left" | "right") => {
+  const fling = (dir: "left" | "right", method: "drag" | "button" = "button") => {
+    track(EVENTS.swipeAction, {
+      exhibition_id: current.id,
+      action: dir === "right" ? "like" : "skip",
+      method,
+    });
     if (dir === "right") void toggle(current.id);
     setLeaving({ card: current, dir });
     setI((n) => n + 1);
@@ -85,8 +91,8 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
     const dx = drag.x;
     const dy = drag.y;
     setDrag({ x: 0, y: 0 });
-    if (dx > SWIPE_THRESHOLD) fling("right");
-    else if (dx < -SWIPE_THRESHOLD) fling("left");
+    if (dx > SWIPE_THRESHOLD) fling("right", "drag");
+    else if (dx < -SWIPE_THRESHOLD) fling("left", "drag");
     else if (Math.abs(dx) < TAP_THRESHOLD && Math.abs(dy) < TAP_THRESHOLD)
       router.push(`/exhibitions/${current.id}`);
   };
@@ -95,6 +101,7 @@ export function SwipeDeck({ items }: { items: Exhibition[] }) {
     const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
     const url = `${window.location.origin}${basePath}/exhibitions/${current.id}`;
     const title = inLocale(current.title, current.tr, locale, "title");
+    track(EVENTS.swipeShare, { exhibition_id: current.id });
     if (typeof navigator !== "undefined" && navigator.share) {
       try {
         await navigator.share({ title, url });
