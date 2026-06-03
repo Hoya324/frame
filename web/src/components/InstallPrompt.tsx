@@ -1,21 +1,17 @@
 "use client";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useState, useSyncExternalStore } from "react";
 import { Download, X } from "lucide-react";
 import { useLang } from "@/components/LanguageProvider";
-import {
-  decidePromptMode,
-  DISMISS_KEY,
-  isDismissActive,
-  isIOS,
-  isSafari,
-  type PromptMode,
-} from "@/lib/pwa";
+import { decidePromptMode, DISMISS_KEY, isDismissActive, isIOS, isSafari } from "@/lib/pwa";
 import { EVENTS, track } from "@/lib/analytics";
-
-interface BeforeInstallPromptEvent extends Event {
-  prompt: () => Promise<void>;
-  userChoice: Promise<{ outcome: "accepted" | "dismissed" }>;
-}
+import {
+  getCanInstall,
+  getServerCanInstall,
+  initPwaInstall,
+  isStandalone,
+  promptInstall,
+  subscribeInstall,
+} from "@/lib/pwaInstall";
 
 function readDismissedAt(): number | null {
   const raw = localStorage.getItem(DISMISS_KEY);
@@ -23,68 +19,48 @@ function readDismissedAt(): number | null {
   return Number.isFinite(n) ? n : null;
 }
 
-function isStandalone(): boolean {
-  return (
-    window.matchMedia("(display-mode: standalone)").matches ||
-    (window.navigator as { standalone?: boolean }).standalone === true
-  );
-}
-
 export function InstallPrompt() {
   const { t } = useLang();
-  const [mode, setMode] = useState<PromptMode>("none");
-  const deferred = useRef<BeforeInstallPromptEvent | null>(null);
+  // The captured beforeinstallprompt lives in a shared store so the onboarding
+  // step can offer the same one-click install.
+  const canInstall = useSyncExternalStore(subscribeInstall, getCanInstall, getServerCanInstall);
+  // Static, browser-only environment facts; read once after mount to stay
+  // hydration-safe (server renders nothing).
+  const [env, setEnv] = useState<{ standalone: boolean; iosSafari: boolean } | null>(null);
+  const [dismissed, setDismissed] = useState(false);
 
   useEffect(() => {
-    const standalone = isStandalone();
-    const dismissed = isDismissActive(readDismissedAt(), Date.now());
+    initPwaInstall();
     const ua = navigator.userAgent;
-    const iosSafari = isIOS(ua, navigator.maxTouchPoints) && isSafari(ua);
-
-    // Read once after mount: these depend on browser-only APIs, and deferring
-    // past hydration is what keeps the prerendered (null) markup consistent.
     // eslint-disable-next-line react-hooks/set-state-in-effect
-    setMode(
-      decidePromptMode({ standalone, dismissed, hasDeferredPrompt: false, iosSafari }),
-    );
-
-    const onBeforeInstall = (e: Event) => {
-      e.preventDefault();
-      deferred.current = e as BeforeInstallPromptEvent;
-      setMode(
-        decidePromptMode({ standalone, dismissed, hasDeferredPrompt: true, iosSafari }),
-      );
-    };
-    const onInstalled = () => {
-      deferred.current = null;
-      localStorage.setItem(DISMISS_KEY, String(Date.now()));
-      setMode("none");
-    };
-
-    window.addEventListener("beforeinstallprompt", onBeforeInstall);
-    window.addEventListener("appinstalled", onInstalled);
-    return () => {
-      window.removeEventListener("beforeinstallprompt", onBeforeInstall);
-      window.removeEventListener("appinstalled", onInstalled);
-    };
+    setEnv({
+      standalone: isStandalone(),
+      iosSafari: isIOS(ua, navigator.maxTouchPoints) && isSafari(ua),
+    });
+    setDismissed(isDismissActive(readDismissedAt(), Date.now()));
   }, []);
 
   const dismiss = useCallback(() => {
     track(EVENTS.pwaInstallPrompt, { result: "dismissed" });
     localStorage.setItem(DISMISS_KEY, String(Date.now()));
-    setMode("none");
+    setDismissed(true);
   }, []);
 
   const install = useCallback(async () => {
-    const evt = deferred.current;
-    if (!evt) return;
-    await evt.prompt();
-    const choice = await evt.userChoice;
-    track(EVENTS.pwaInstallPrompt, { result: choice.outcome });
-    deferred.current = null;
+    const result = await promptInstall();
+    track(EVENTS.pwaInstallPrompt, { result });
     localStorage.setItem(DISMISS_KEY, String(Date.now()));
-    setMode("none");
+    setDismissed(true);
   }, []);
+
+  if (!env) return null;
+
+  const mode = decidePromptMode({
+    standalone: env.standalone,
+    dismissed,
+    hasDeferredPrompt: canInstall,
+    iosSafari: env.iosSafari,
+  });
 
   if (mode === "none") return null;
 

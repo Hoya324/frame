@@ -17,6 +17,7 @@ interface OnboardingCtx {
   stepIndex: number;
   total: number;
   isSwipeStep: boolean;
+  isInstallStep: boolean;
   start: () => void;
   next: () => void;
   prev: () => void;
@@ -93,6 +94,7 @@ export function OnboardingProvider({ children }: { children: React.ReactNode }) 
       stepIndex,
       total,
       isSwipeStep: step?.kind === "swipe",
+      isInstallStep: step?.kind === "install",
       start,
       next,
       prev,
@@ -111,6 +113,7 @@ const NOOP: OnboardingCtx = {
   stepIndex: 0,
   total: ONBOARDING_STEPS.length,
   isSwipeStep: false,
+  isInstallStep: false,
   start: () => {},
   next: () => {},
   prev: () => {},

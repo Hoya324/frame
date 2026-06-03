@@ -55,7 +55,7 @@ describe("onboarding progress (survives remount)", () => {
 });
 
 describe("ONBOARDING_STEPS", () => {
-  it("follows the welcome → timeline → swipe → scrap → subscribe → feedback order", () => {
+  it("follows the welcome → timeline → swipe → scrap → subscribe → feedback → install order", () => {
     expect(ONBOARDING_STEPS.map((s) => s.id)).toEqual([
       "welcome",
       "timeline",
@@ -63,10 +63,11 @@ describe("ONBOARDING_STEPS", () => {
       "scrap",
       "subscribe",
       "feedback",
+      "install",
     ]);
   });
 
-  it("routes the discover steps to /, scrap to /scrap, account steps to /me", () => {
+  it("routes the discover steps to /, scrap to /scrap, account steps to /me, install back to /", () => {
     const route = (id: string) => ONBOARDING_STEPS.find((s) => s.id === id)?.route;
     expect(route("welcome")).toBe("/");
     expect(route("timeline")).toBe("/");
@@ -74,10 +75,12 @@ describe("ONBOARDING_STEPS", () => {
     expect(route("scrap")).toBe("/scrap");
     expect(route("subscribe")).toBe("/me");
     expect(route("feedback")).toBe("/me");
+    expect(route("install")).toBe("/");
   });
 
-  it("flags only the swipe step as the swipe kind", () => {
+  it("flags only the swipe step as the swipe kind and the install step as install", () => {
     expect(ONBOARDING_STEPS.filter((s) => s.kind === "swipe").map((s) => s.id)).toEqual(["swipe"]);
+    expect(ONBOARDING_STEPS.filter((s) => s.kind === "install").map((s) => s.id)).toEqual(["install"]);
   });
 
   it("gives every step a title and body i18n key", () => {
