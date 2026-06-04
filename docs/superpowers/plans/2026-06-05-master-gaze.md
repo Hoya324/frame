@@ -2093,8 +2093,8 @@ Create `web/src/components/FeaturedCarousel.test.tsx`:
 
 ```tsx
 import { describe, expect, it, vi, beforeEach, afterEach } from "vitest";
-import { render, screen, act } from "@testing-library/react";
-import { LangProvider } from "@/test/lang";
+import { screen, act } from "@testing-library/react";
+import { renderWithLang } from "@/test/lang";
 import { FeaturedCarousel } from "./FeaturedCarousel";
 import type { Master } from "@/lib/masters";
 
@@ -2115,20 +2115,16 @@ describe("FeaturedCarousel", () => {
   afterEach(() => vi.useRealTimers());
 
   it("renders a master slide with the master name", () => {
-    render(
-      <LangProvider>
-        <FeaturedCarousel exhibitions={[]} masters={[master("a")]} rng={() => 0} />
-      </LangProvider>,
+    renderWithLang(
+      <FeaturedCarousel exhibitions={[]} masters={[master("a")]} rng={() => 0} />,
     );
     expect(screen.getByText("Name-a")).toBeInTheDocument();
   });
 
   it("advances to the next slide after 1.4s", () => {
-    render(
-      <LangProvider>
-        <FeaturedCarousel exhibitions={[]} masters={[master("a"), master("b")]}
-          rng={() => 0} masterCount={2} />
-      </LangProvider>,
+    renderWithLang(
+      <FeaturedCarousel exhibitions={[]} masters={[master("a"), master("b")]}
+        rng={() => 0} masterCount={2} />,
     );
     const firstActive = screen.getByTestId("carousel-active").textContent;
     act(() => { vi.advanceTimersByTime(1400); });
@@ -2138,9 +2134,10 @@ describe("FeaturedCarousel", () => {
 });
 ```
 
-NOTE: confirm the existing test helper export name in `web/src/test/lang.tsx` (the home/
-component tests already use it). If it exports `LanguageProvider` rather than `LangProvider`,
-import that name instead and wrap with it.
+NOTE: the test helper is `renderWithLang(ui, locale?)` from `@/test/lang` (verified — it
+wraps the UI in `LanguageProvider`). `useLang()` returns `{ locale, setLocale, t }`.
+`PosterImage` uses `next/image` with `fill`, so it must sit inside a positioned + sized
+parent — in the carousel the `<Link className="absolute inset-0">` provides that.
 
 - [ ] **Step 2: Run it red**
 
@@ -2358,6 +2355,7 @@ import { useMemo } from "react";
 import { PosterImage } from "@/components/PosterImage";
 import { useLang } from "@/components/LanguageProvider";
 import { inLocale } from "@/lib/catalog";
+import type { Locale } from "@/lib/i18n";
 import { parseMasters, masterFaceImage, type Master, type Region } from "@/lib/masters";
 import mastersRaw from "../../../public/data/masters.json";
 
@@ -2392,7 +2390,9 @@ export default function MastersPage() {
   );
 }
 
-function MasterCard({ m, locale, t }: { m: Master; locale: any; t: (k: string, v?: any) => string }) {
+function MasterCard({ m, locale, t }: {
+  m: Master; locale: Locale; t: (k: string, v?: Record<string, string | number>) => string;
+}) {
   const name = inLocale(m.name, m.tr, locale, "name");
   const tagline = inLocale(m.tagline, m.tr, locale, "tagline");
   const years = m.birthYear ? t("masters.years", { birth: m.birthYear, death: m.deathYear ?? "" }) : "";
@@ -2430,46 +2430,35 @@ git commit -m "feat(web): /masters list page grouped by region"
 ## Task 19: Master detail page (`/masters/[id]`)
 
 **Files:**
-- Create: `web/src/app/masters/[id]/page.tsx`
+- Create: `web/src/app/masters/[id]/page.tsx` (SERVER component)
+- Create: `web/src/components/MasterDetailView.tsx` (CLIENT component)
 
-- [ ] **Step 1: Implement the detail page**
+VERIFIED pattern (from `web/src/app/exhibitions/[id]/page.tsx`): the app uses `output:
+"export"`, and dynamic routes are **server components** that export an async
+`generateStaticParams`, `await params`, load data async, `notFound()` on miss, and delegate
+rendering to a `"use client"` view component (e.g. `ExhibitionDetailView`). `generateStaticParams`
+MUST NOT live in a client component — mirror this split exactly.
 
-This app statically exports (GitHub Pages), so a dynamic route needs
-`generateStaticParams`. Check an existing dynamic route — `web/src/app/exhibitions/[id]/page.tsx`
-— and mirror exactly how it declares params and reads the route param (client vs server
-component, `generateStaticParams` signature, how it gets `id`). Create
-`web/src/app/masters/[id]/page.tsx` following that same pattern, rendering:
+- [ ] **Step 1: Create the client view component**
+
+Create `web/src/components/MasterDetailView.tsx`:
 
 ```tsx
 "use client";
-import { use, useMemo } from "react";
 import Link from "next/link";
 import { PosterImage } from "@/components/PosterImage";
 import { useLang } from "@/components/LanguageProvider";
 import { inLocale } from "@/lib/catalog";
-import { parseMasters, type Master, type MasterWork } from "@/lib/masters";
-import mastersRaw from "../../../../public/data/masters.json";
+import type { Locale } from "@/lib/i18n";
+import type { Master, MasterWork } from "@/lib/masters";
 
-// Mirror generateStaticParams from app/exhibitions/[id]/page.tsx:
-export function generateStaticParams() {
-  return parseMasters(mastersRaw).masters.map((m) => ({ id: m.id }));
-}
-
-export default function MasterDetail({ params }: { params: Promise<{ id: string }> }) {
-  // Match how exhibitions/[id] unwraps params (this app's Next version). If that
-  // file uses `use(params)`, keep this; if it destructures directly, match it.
-  const { id } = use(params);
+export function MasterDetailView({ master }: { master: Master }) {
   const { t, locale } = useLang();
-  const master = useMemo(
-    () => parseMasters(mastersRaw).masters.find((m) => m.id === id) ?? null,
-    [id],
-  );
-  if (!master) {
-    return <main className="mx-auto max-w-[900px] px-7 py-16 text-tx2">{t("common.loading")}</main>;
-  }
   const name = inLocale(master.name, master.tr, locale, "name");
   const bio = inLocale(master.bio, master.tr, locale, "bio");
-  const years = master.birthYear ? t("masters.years", { birth: master.birthYear, death: master.deathYear ?? "" }) : "";
+  const years = master.birthYear
+    ? t("masters.years", { birth: master.birthYear, death: master.deathYear ?? "" })
+    : "";
 
   return (
     <main className="mx-auto max-w-[900px] px-7 py-10">
@@ -2482,7 +2471,9 @@ export default function MasterDetail({ params }: { params: Promise<{ id: string 
         )}
         <div>
           <h1 className="text-[28px] font-extrabold tracking-tight">{name}</h1>
-          <div className="text-sm text-tx3">{years}{master.nationality ? ` · ${master.nationality}` : ""}</div>
+          <div className="text-sm text-tx3">
+            {years}{master.nationality ? ` · ${master.nationality}` : ""}
+          </div>
         </div>
       </header>
       {bio && <p className="mt-4 text-[15px] leading-relaxed text-tx2">{bio}</p>}
@@ -2494,13 +2485,17 @@ export default function MasterDetail({ params }: { params: Promise<{ id: string 
   );
 }
 
-function WorkBlock({ w, locale, t }: { w: MasterWork; locale: any; t: (k: string) => string }) {
+function WorkBlock({ w, locale, t }: {
+  w: MasterWork; locale: Locale; t: (k: string, v?: Record<string, string | number>) => string;
+}) {
   const title = inLocale(w.title, w.tr, locale, "title");
   const commentary = inLocale(w.commentary, w.tr, locale, "commentary");
   return (
     <article>
+      {/* PosterImage uses next/image `fill`, so it needs a positioned + sized
+          parent — give the link a relative box with an aspect ratio. */}
       <a href={w.sourceUrl ?? "#"} target="_blank" rel="noreferrer"
-        className="relative block w-full overflow-hidden rounded bg-black/30">
+        className="relative block aspect-[4/3] w-full overflow-hidden rounded bg-black/30">
         <PosterImage src={w.imageUrl} alt={title} />
       </a>
       <div className="mt-3">
@@ -2512,7 +2507,7 @@ function WorkBlock({ w, locale, t }: { w: MasterWork; locale: any; t: (k: string
           <p className="mt-2 text-[14px] leading-relaxed text-tx2">{commentary}</p>
         )}
         <div className="mt-2 text-[12px] text-tx3">
-          {t("masters.source")}: {w.credit}{" · "}
+          {t("masters.source")}: {w.credit}{w.sourceUrl ? " · " : ""}
           {w.sourceUrl && (
             <a href={w.sourceUrl} target="_blank" rel="noreferrer" className="underline hover:text-tx">
               {t("masters.viewOriginal")}
@@ -2525,18 +2520,36 @@ function WorkBlock({ w, locale, t }: { w: MasterWork; locale: any; t: (k: string
 }
 ```
 
-IMPORTANT: `PosterImage` may render a fixed aspect via absolute positioning (it's used inside
-`relative` containers elsewhere). Check `web/src/components/PosterImage.tsx`; if it requires a
-sized `relative` parent, wrap the work image in `<div className="relative aspect-[4/3]">…</div>`
-like the list card does, instead of a bare anchor.
+- [ ] **Step 2: Create the server page**
 
-- [ ] **Step 2: Verify + commit**
+Create `web/src/app/masters/[id]/page.tsx` (mirrors `app/exhibitions/[id]/page.tsx`):
+
+```tsx
+import { notFound } from "next/navigation";
+import { loadMasters } from "@/lib/masters";
+import { MasterDetailView } from "@/components/MasterDetailView";
+
+export async function generateStaticParams() {
+  const cat = await loadMasters();
+  return cat.masters.map((m) => ({ id: m.id }));
+}
+
+export default async function MasterDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const cat = await loadMasters();
+  const master = cat.masters.find((m) => m.id === id);
+  if (!master) notFound();
+  return <MasterDetailView master={master} />;
+}
+```
+
+- [ ] **Step 3: Verify + commit**
 
 Run (in `web/`): `npm run lint` then `npm run build` → succeeds (static params generated for
-each master id).
+each master id; `/masters/<id>` pages emitted).
 
 ```bash
-git add web/src/app/masters/
+git add web/src/app/masters/\[id\]/page.tsx web/src/components/MasterDetailView.tsx
 git commit -m "feat(web): /masters/[id] detail page with works gallery + commentary"
 ```
 
