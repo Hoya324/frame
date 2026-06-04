@@ -196,23 +196,21 @@ git commit -m "feat(masters): RawWork + MasterSeed pipeline models"
 ## Task 2: The Met museum client
 
 The Met Collection API is free and keyless. Endpoints:
-- Search: `GET https://collectionapi.metmuseum.org/public/collection/v1/search?q={name}&artistOrCulture=true&medium=Photographs` → `{"total": N, "objectIDs": [int,...] | null}`.
-- Object: `GET .../public/collection/v1/objects/{id}` → fields used: `objectID`, `isPublicDomain` (bool), `primaryImage`, `primaryImageSmall`, `title`, `objectDate`, `medium`, `objectURL`, `creditLine`, `isHighlight`.
+- Search: `GET https://collectionapi.metmuseum.org/public/collection/v1/search?q={name}&hasImages=true` → `{"total": N, "objectIDs": [int,...] | null}`. NOTE: the Met's `artistOrCulture=true` filter returns 0 results for these artist names (verified 2026-06-05) — use `hasImages=true`. The `q` search is broad full-text, so the client filters returned objects by artist-name match + public-domain + image.
+- Object: `GET .../public/collection/v1/objects/{id}` → fields used: `objectID`, `isPublicDomain` (bool), `primaryImage`, `primaryImageSmall`, `title`, `objectDate`, `medium`, `artistDisplayName`, `objectURL`, `creditLine`, `isHighlight`, `classification`.
 
 **Files:**
 - Create: `src/crawler/masters/museums/__init__.py` (empty), `src/crawler/masters/museums/base.py`, `src/crawler/masters/museums/the_met.py`
-- Create: `tests/fixtures/masters/met_object_269725.json`, `tests/fixtures/masters/met_search_atget.json`
+- Use (already committed by controller): `tests/fixtures/masters/met_object_269434.json` (Julia Margaret Cameron, "Thomas Carlyle", `isPublicDomain: true`, `classification: "Photographs"`), `tests/fixtures/masters/met_search_cameron.json` (search for "Julia Margaret Cameron" with `hasImages=true`; its `objectIDs` include `269434`).
 - Test: `tests/masters/test_the_met.py`
 
-- [ ] **Step 1: Capture fixtures**
+- [ ] **Step 1: Confirm fixtures present**
 
+The controller already captured and committed the fixtures. Verify:
 ```bash
-mkdir -p tests/fixtures/masters
-curl -sL 'https://collectionapi.metmuseum.org/public/collection/v1/search?q=Eug%C3%A8ne%20Atget&artistOrCulture=true&medium=Photographs' -o tests/fixtures/masters/met_search_atget.json
-# pick a public-domain object id from the search result's objectIDs, then:
-curl -sL 'https://collectionapi.metmuseum.org/public/collection/v1/objects/269725' -o tests/fixtures/masters/met_object_269725.json
+python -c "import json;d=json.load(open('tests/fixtures/masters/met_object_269434.json'));print(d['artistDisplayName'], d['isPublicDomain'], d['classification'])"
 ```
-Open `met_object_269725.json`; confirm `isPublicDomain` and `primaryImage` are present. If 269725 is not public-domain in the live data, pick an id whose object JSON has `"isPublicDomain": true` and a non-empty `primaryImage`, save it under that id, and use that id in the test below.
+Expect: `Julia Margaret Cameron True Photographs`. Do not re-capture.
 
 - [ ] **Step 2: Write the failing test**
 
@@ -231,44 +229,53 @@ FIX = Path(__file__).parent.parent / "fixtures" / "masters"
 
 
 def _obj():
-    return json.loads((FIX / "met_object_269725.json").read_text())
-
-
-def _search():
-    return json.loads((FIX / "met_search_atget.json").read_text())
+    return json.loads((FIX / "met_object_269434.json").read_text())
 
 
 @respx.mock
 def test_fetch_by_ids_maps_public_domain_object():
     respx.get(
-        "https://collectionapi.metmuseum.org/public/collection/v1/objects/269725"
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/269434"
     ).mock(return_value=httpx.Response(200, json=_obj()))
 
     client = MetClient()
-    works = client.fetch_by_ids(["269725"])
+    works = client.fetch_by_ids(["269434"])
 
     assert len(works) == 1
     w = works[0]
     assert w.source == "the_met"
-    assert w.source_object_id == "269725"
+    assert w.source_object_id == "269434"
     assert w.is_public_domain is True
     assert w.image_url  # primaryImage
     assert w.source_url.startswith("https://www.metmuseum.org/")
-    assert w.work_id == "the_met-269725"
+    assert w.work_id == "the_met-269434"
 
 
 @respx.mock
-def test_search_works_pulls_objects_for_query():
-    search_json = {"total": 1, "objectIDs": [269725]}
+def test_search_filters_to_artist_pd_with_image():
+    # Broad full-text search returns the object id; the client keeps it only
+    # because the artist name matches the query.
     respx.get(
         "https://collectionapi.metmuseum.org/public/collection/v1/search"
-    ).mock(return_value=httpx.Response(200, json=search_json))
+    ).mock(return_value=httpx.Response(200, json={"total": 1, "objectIDs": [269434]}))
     respx.get(
-        "https://collectionapi.metmuseum.org/public/collection/v1/objects/269725"
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/269434"
     ).mock(return_value=httpx.Response(200, json=_obj()))
 
-    works = MetClient().search_works("Eugène Atget", limit=5)
-    assert [w.source_object_id for w in works] == ["269725"]
+    works = MetClient().search_works("Julia Margaret Cameron", limit=5)
+    assert [w.source_object_id for w in works] == ["269434"]
+
+
+@respx.mock
+def test_search_drops_objects_by_other_artists():
+    # Same object (Cameron) but a query for a different artist → filtered out.
+    respx.get(
+        "https://collectionapi.metmuseum.org/public/collection/v1/search"
+    ).mock(return_value=httpx.Response(200, json={"total": 1, "objectIDs": [269434]}))
+    respx.get(
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/269434"
+    ).mock(return_value=httpx.Response(200, json=_obj()))
+    assert MetClient().search_works("Walker Evans", limit=5) == []
 
 
 @respx.mock
@@ -340,35 +347,40 @@ class MetClient:
         r.raise_for_status()
         return r.json()
 
-    def _object(self, object_id: str) -> RawWork | None:
+    def _object_data(self, object_id: str) -> dict | None:
         try:
-            data = self._get(f"{_BASE}/objects/{object_id}")
+            return self._get(f"{_BASE}/objects/{object_id}")
         except httpx.HTTPStatusError:
             logger.warning("the_met: object %s fetch failed", object_id)
             return None
-        return _to_work(data)
 
     def fetch_by_ids(self, object_ids: list[str]) -> list[RawWork]:
         out: list[RawWork] = []
         for oid in object_ids:
-            w = self._object(oid)
-            if w is not None:
-                out.append(w)
+            data = self._object_data(oid)
+            if data is not None:
+                out.append(_to_work(data))
         return out
 
     def search_works(self, query: str, limit: int) -> list[RawWork]:
-        data = self._get(
-            f"{_BASE}/search",
-            params={"q": query, "artistOrCulture": "true", "medium": "Photographs"},
-        )
+        # The Met has no artist-scoped search that works for these names
+        # (artistOrCulture=true returns 0), so we use a broad full-text search
+        # with hasImages and filter the returned objects to this artist's
+        # public-domain, image-bearing works. The last token of the query (the
+        # surname) must appear in artistDisplayName.
+        data = self._get(f"{_BASE}/search", params={"q": query, "hasImages": "true"})
         ids = data.get("objectIDs") or []
+        needle = query.split()[-1].lower() if query.split() else query.lower()
         works: list[RawWork] = []
-        # Search returns many ids ranked by relevance; walk until we have `limit`
-        # public-domain, image-bearing works (cap the walk so a bad query can't
-        # fan out into hundreds of object requests).
-        for oid in ids[: max(limit * 4, limit)]:
-            w = self._object(str(oid))
-            if w is not None and w.is_public_domain and w.has_image:
+        # Cap the walk so a broad query can't fan out into hundreds of requests.
+        for oid in ids[: max(limit * 6, limit)]:
+            obj = self._object_data(str(oid))
+            if obj is None:
+                continue
+            if needle not in (obj.get("artistDisplayName") or "").lower():
+                continue
+            w = _to_work(obj)
+            if w.is_public_domain and w.has_image:
                 works.append(w)
             if len(works) >= limit:
                 break
@@ -398,9 +410,10 @@ Run: `pytest tests/masters/test_the_met.py -q` → PASS. If a field assertion fa
 - [ ] **Step 6: Commit**
 
 ```bash
-git add src/crawler/masters/museums/ tests/masters/test_the_met.py tests/fixtures/masters/met_*.json
+git add src/crawler/masters/museums/__init__.py src/crawler/masters/museums/base.py src/crawler/masters/museums/the_met.py tests/masters/test_the_met.py
 git commit -m "feat(masters): The Met open-access client"
 ```
+(Fixtures are already committed; don't re-add them.)
 
 ---
 
@@ -413,17 +426,16 @@ AIC API is free and keyless (politeness UA recommended). Endpoints:
 
 **Files:**
 - Create: `src/crawler/masters/museums/aic.py`
-- Create: `tests/fixtures/masters/aic_search_stieglitz.json`, `tests/fixtures/masters/aic_object.json`
+- Use (already committed by controller): `tests/fixtures/masters/aic_search_stieglitz.json`, `tests/fixtures/masters/aic_object.json` (AIC artwork 66315, "The Flatiron" by Alfred Stieglitz, `is_public_domain: true`, non-null `image_id`).
 - Test: `tests/masters/test_aic.py`
 
-- [ ] **Step 1: Capture fixtures**
+- [ ] **Step 1: Confirm fixtures present**
 
+The controller already captured these. Verify:
 ```bash
-curl -sL -A 'frame-photo (hoyana1225@gmail.com)' 'https://api.artic.edu/api/v1/artworks/search?q=Alfred%20Stieglitz&fields=id,title,date_display,medium_display,image_id,is_public_domain&limit=10' -o tests/fixtures/masters/aic_search_stieglitz.json
-# pick an id from data[] that has is_public_domain=true and a non-null image_id, then:
-curl -sL -A 'frame-photo (hoyana1225@gmail.com)' 'https://api.artic.edu/api/v1/artworks/<ID>?fields=id,title,date_display,medium_display,image_id,is_public_domain' -o tests/fixtures/masters/aic_object.json
+python -c "import json;d=json.load(open('tests/fixtures/masters/aic_object.json'))['data'];print(d['title'], d['is_public_domain'], bool(d['image_id']))"
 ```
-Note the id you saved; use it in the test below.
+Expect: `The Flatiron True True`. Do not re-capture. (The unit tests below use inline JSON for assertions and don't depend on the fixture contents, but the fixtures document the live shape.)
 
 - [ ] **Step 2: Write the failing test**
 
@@ -450,15 +462,21 @@ def _object():
 
 
 @respx.mock
-def test_search_builds_iiif_urls_and_filters_to_pd_with_image():
+def test_search_builds_iiif_urls_and_filters_to_artist_pd_with_image():
     data = {
         "data": [
             {"id": 100, "title": "The Steerage", "date_display": "1907",
-             "medium_display": "Photogravure", "image_id": "abc", "is_public_domain": True},
+             "medium_display": "Photogravure", "image_id": "abc",
+             "is_public_domain": True, "artist_title": "Alfred Stieglitz"},
             {"id": 101, "title": "No Image", "date_display": "1910",
-             "medium_display": "Print", "image_id": None, "is_public_domain": True},
+             "medium_display": "Print", "image_id": None,
+             "is_public_domain": True, "artist_title": "Alfred Stieglitz"},
             {"id": 102, "title": "In Copyright", "date_display": "1950",
-             "medium_display": "Print", "image_id": "def", "is_public_domain": False},
+             "medium_display": "Print", "image_id": "def",
+             "is_public_domain": False, "artist_title": "Alfred Stieglitz"},
+            {"id": 103, "title": "Other Artist", "date_display": "1907",
+             "medium_display": "Print", "image_id": "ghi",
+             "is_public_domain": True, "artist_title": "Someone Else"},
         ]
     }
     respx.get("https://api.artic.edu/api/v1/artworks/search").mock(
@@ -467,7 +485,8 @@ def test_search_builds_iiif_urls_and_filters_to_pd_with_image():
 
     works = AicClient().search_works("Alfred Stieglitz", limit=10)
 
-    assert [w.source_object_id for w in works] == ["100"]  # only PD + has image
+    # Only PD + has image + artist surname matches the query.
+    assert [w.source_object_id for w in works] == ["100"]
     w = works[0]
     assert w.source == "aic"
     assert w.image_url == "https://www.artic.edu/iiif/2/abc/full/843,/0/default.jpg"
@@ -477,14 +496,14 @@ def test_search_builds_iiif_urls_and_filters_to_pd_with_image():
 
 
 @respx.mock
-def test_fetch_by_ids_maps_object():
+def test_fetch_by_ids_maps_object_without_artist_filter():
     obj = {"data": {"id": 100, "title": "The Steerage", "date_display": "1907",
                     "medium_display": "Photogravure", "image_id": "abc",
-                    "is_public_domain": True}}
+                    "is_public_domain": True, "artist_title": "Alfred Stieglitz"}}
     respx.get("https://api.artic.edu/api/v1/artworks/100").mock(
         return_value=httpx.Response(200, json=obj)
     )
-    works = AicClient().fetch_by_ids(["100"])
+    works = AicClient().fetch_by_ids(["100"])  # explicit ids skip the artist filter
     assert works[0].work_id == "aic-100"
     assert works[0].is_public_domain is True
 ```
@@ -514,7 +533,7 @@ logger = logging.getLogger(__name__)
 
 _BASE = "https://api.artic.edu/api/v1/artworks"
 _IIIF = "https://www.artic.edu/iiif/2"
-_FIELDS = "id,title,date_display,medium_display,image_id,is_public_domain"
+_FIELDS = "id,title,date_display,medium_display,image_id,is_public_domain,artist_title"
 _UA = "frame-photo (hoyana1225@gmail.com)"
 
 
@@ -531,12 +550,23 @@ class AicClient:
         return r.json()
 
     def search_works(self, query: str, limit: int) -> list[RawWork]:
-        data = self._get(f"{_BASE}/search", params={"q": query, "fields": _FIELDS, "limit": limit})
+        # AIC search `q` is broad full-text; request extra results and keep only
+        # this artist's public-domain, image-bearing works (surname must appear
+        # in artist_title), then cap at `limit`.
+        data = self._get(
+            f"{_BASE}/search",
+            params={"q": query, "fields": _FIELDS, "limit": max(limit * 3, limit)},
+        )
+        needle = query.split()[-1].lower() if query.split() else query.lower()
         out: list[RawWork] = []
         for rec in data.get("data") or []:
+            if needle not in (rec.get("artist_title") or "").lower():
+                continue
             w = _to_work(rec)
             if w is not None and w.is_public_domain and w.has_image:
                 out.append(w)
+            if len(out) >= limit:
+                break
         return out
 
     def fetch_by_ids(self, object_ids: list[str]) -> list[RawWork]:
@@ -582,9 +612,10 @@ Run: `pytest tests/masters/test_aic.py -q` → PASS.
 - [ ] **Step 6: Commit**
 
 ```bash
-git add src/crawler/masters/museums/aic.py tests/masters/test_aic.py tests/fixtures/masters/aic_*.json
+git add src/crawler/masters/museums/aic.py tests/masters/test_aic.py
 git commit -m "feat(masters): Art Institute of Chicago open-access client"
 ```
+(Fixtures are already committed; don't re-add them.)
 
 ---
 
@@ -1373,18 +1404,22 @@ Run: `pytest tests/masters/test_roster.py -q` → FAIL.
 
 - [ ] **Step 3: Implement**
 
-Create `src/crawler/masters/roster.py`. Start from this list; fill/verify `object_ids` by
-running the museum search (Task 2/3 clients) for each artist and picking PD, image-bearing
-iconic works. Where verification is pending, leave a `query` entry (auto-pull). Portrait URLs
-are PD images from Wikimedia Commons — open each master's Commons page and copy a direct
-`upload.wikimedia.org/...` file URL.
+Create `src/crawler/masters/roster.py` with the list below. These masters were verified
+(2026-06-05) to have public-domain, image-bearing works at the Art Institute of Chicago
+(AIC) — counts in comments. AIC is the primary source; The Met is added as a secondary
+source for masters who also have Met holdings, and as the best-effort source for the
+Japan/Korea seeds (whose AIC CC0 coverage is thin — `build_masters` drops any master that
+returns zero usable works, so a barren seed simply won't appear). `portrait_url` is left
+`None` for the MVP (the UI falls back to the master's representative work image); curated
+Wikimedia PD portraits can be added later by editing this file. Do NOT invent
+`upload.wikimedia.org` URLs — an unverified portrait URL would 404.
 
 ```python
 """Curated roster of public-domain photography masters (MVP).
 
-Foreign classic masters form the backbone; a few early Korean/Japanese figures
-are included where public-domain images exist. Fill object_ids with verified PD
-object ids; until verified, a query auto-pulls from the museum API."""
+Foreign 19th–early-20th-c masters form the backbone (verified PD coverage at the
+Art Institute of Chicago); a few early Japan/Korea seeds are best-effort via the
+Met. A master with zero usable PD works is dropped at build time."""
 
 from __future__ import annotations
 
@@ -1392,53 +1427,72 @@ from crawler.masters.models import MasterSeed, SourceQuery
 
 ROSTER: list[MasterSeed] = [
     MasterSeed(
-        id="eugene-atget", name="Eugène Atget", region="foreign", nationality="FR",
-        birth_year=1857, death_year=1927,
-        portrait_url="https://upload.wikimedia.org/wikipedia/commons/0/0a/Eugene_Atget.jpg",
-        sources=[SourceQuery(source="the_met", query="Eugène Atget"),
-                 SourceQuery(source="aic", query="Eugène Atget")],
-    ),
-    MasterSeed(
         id="julia-margaret-cameron", name="Julia Margaret Cameron", region="foreign",
         nationality="GB", birth_year=1815, death_year=1879, portrait_url=None,
-        sources=[SourceQuery(source="the_met", query="Julia Margaret Cameron")],
+        sources=[SourceQuery(source="aic", query="Julia Margaret Cameron")],  # AIC 39
     ),
     MasterSeed(
         id="alfred-stieglitz", name="Alfred Stieglitz", region="foreign", nationality="US",
         birth_year=1864, death_year=1946, portrait_url=None,
-        sources=[SourceQuery(source="the_met", query="Alfred Stieglitz"),
-                 SourceQuery(source="aic", query="Alfred Stieglitz")],
+        sources=[SourceQuery(source="aic", query="Alfred Stieglitz")],  # AIC 10+
     ),
     MasterSeed(
-        id="dorothea-lange", name="Dorothea Lange", region="foreign", nationality="US",
-        birth_year=1895, death_year=1965, portrait_url=None,
-        sources=[SourceQuery(source="the_met", query="Dorothea Lange")],
-    ),
-    MasterSeed(
-        id="walker-evans", name="Walker Evans", region="foreign", nationality="US",
-        birth_year=1903, death_year=1975, portrait_url=None,
-        sources=[SourceQuery(source="the_met", query="Walker Evans"),
-                 SourceQuery(source="aic", query="Walker Evans")],
-    ),
-    MasterSeed(
-        id="timothy-osullivan", name="Timothy H. O'Sullivan", region="foreign",
-        nationality="US", birth_year=1840, death_year=1882, portrait_url=None,
-        sources=[SourceQuery(source="the_met", query="Timothy O'Sullivan")],
+        id="eugene-atget", name="Eugène Atget", region="foreign", nationality="FR",
+        birth_year=1857, death_year=1927, portrait_url=None,
+        sources=[SourceQuery(source="aic", query="Eugène Atget")],  # AIC: some PD
     ),
     MasterSeed(
         id="carleton-watkins", name="Carleton Watkins", region="foreign", nationality="US",
         birth_year=1829, death_year=1916, portrait_url=None,
-        sources=[SourceQuery(source="the_met", query="Carleton Watkins")],
+        sources=[SourceQuery(source="aic", query="Carleton Watkins")],  # AIC 35
+    ),
+    MasterSeed(
+        id="gustave-le-gray", name="Gustave Le Gray", region="foreign", nationality="FR",
+        birth_year=1820, death_year=1884, portrait_url=None,
+        sources=[SourceQuery(source="aic", query="Gustave Le Gray")],  # AIC 40
     ),
     MasterSeed(
         id="nadar", name="Nadar (Gaspard-Félix Tournachon)", region="foreign",
         nationality="FR", birth_year=1820, death_year=1910, portrait_url=None,
-        sources=[SourceQuery(source="the_met", query="Nadar")],
+        sources=[SourceQuery(source="aic", query="Nadar")],  # AIC 28
     ),
+    MasterSeed(
+        id="roger-fenton", name="Roger Fenton", region="foreign", nationality="GB",
+        birth_year=1819, death_year=1869, portrait_url=None,
+        sources=[SourceQuery(source="aic", query="Roger Fenton")],  # AIC 40
+    ),
+    MasterSeed(
+        id="william-henry-fox-talbot", name="William Henry Fox Talbot", region="foreign",
+        nationality="GB", birth_year=1800, death_year=1877, portrait_url=None,
+        sources=[SourceQuery(source="aic", query="William Henry Fox Talbot")],  # AIC 40
+    ),
+    MasterSeed(
+        id="charles-marville", name="Charles Marville", region="foreign", nationality="FR",
+        birth_year=1813, death_year=1879, portrait_url=None,
+        sources=[SourceQuery(source="aic", query="Charles Marville")],  # AIC 14
+    ),
+    MasterSeed(
+        id="edward-curtis", name="Edward S. Curtis", region="foreign", nationality="US",
+        birth_year=1868, death_year=1952, portrait_url=None,
+        sources=[SourceQuery(source="aic", query="Edward S. Curtis")],  # AIC 26
+    ),
+    MasterSeed(
+        id="peter-henry-emerson", name="Peter Henry Emerson", region="foreign",
+        nationality="GB", birth_year=1856, death_year=1936, portrait_url=None,
+        sources=[SourceQuery(source="aic", query="Peter Henry Emerson")],  # AIC 40
+    ),
+    MasterSeed(
+        id="eadweard-muybridge", name="Eadweard Muybridge", region="foreign",
+        nationality="GB", birth_year=1830, death_year=1904, portrait_url=None,
+        sources=[SourceQuery(source="aic", query="Eadweard Muybridge")],  # AIC 5
+    ),
+    # Japan/Korea seeds — early photography, best-effort via the Met (AIC CC0
+    # coverage is thin). Dropped at build time if no usable PD works return.
     MasterSeed(
         id="felice-beato", name="Felice Beato", region="jp", nationality="IT",
         birth_year=1832, death_year=1909, portrait_url=None,
-        sources=[SourceQuery(source="the_met", query="Felice Beato")],
+        sources=[SourceQuery(source="the_met", query="Felice Beato"),
+                 SourceQuery(source="aic", query="Felice Beato")],
     ),
     MasterSeed(
         id="kusakabe-kimbei", name="Kusakabe Kimbei (日下部金兵衛)", region="jp",
@@ -1446,21 +1500,9 @@ ROSTER: list[MasterSeed] = [
         sources=[SourceQuery(source="the_met", query="Kusakabe Kimbei")],
     ),
     MasterSeed(
-        id="adolfo-farsari", name="Adolfo Farsari", region="jp", nationality="IT",
-        birth_year=1841, death_year=1898, portrait_url=None,
-        sources=[SourceQuery(source="the_met", query="Adolfo Farsari")],
-    ),
-    MasterSeed(
-        id="raimund-von-stillfried", name="Raimund von Stillfried", region="jp",
-        nationality="AT", birth_year=1839, death_year=1911, portrait_url=None,
-        sources=[SourceQuery(source="the_met", query="Stillfried")],
-    ),
-    # Early Korea photography is sparse in CC0 collections; these query the Met's
-    # 19th-c "Korea" holdings and are kept only if usable PD works come back.
-    MasterSeed(
         id="early-korea-photography", name="조선 풍경 사진 (19c)", region="kr",
         nationality="KR", birth_year=None, death_year=None, portrait_url=None,
-        sources=[SourceQuery(source="the_met", query="Korea photograph")],
+        sources=[SourceQuery(source="the_met", query="Korea")],
     ),
 ]
 ```
