@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
 import { PosterImage } from "@/components/PosterImage";
 import { ScrapButton } from "@/components/ScrapButton";
 import { StatusBadge } from "@/components/StatusBadge";
@@ -8,6 +9,9 @@ import { inLocale, type Exhibition } from "@/lib/catalog";
 import { LOCALES, LOCALE_LABEL, translate, type Locale } from "@/lib/i18n";
 import { sourceLabel } from "@/lib/sources";
 import { EVENTS, track } from "@/lib/analytics";
+
+// maplibre-gl touches `window`, so the venue mini-map is client-only.
+const MapView = dynamic(() => import("@/components/MapView").then((m) => m.MapView), { ssr: false });
 
 export function ExhibitionDetailView({ e }: { e: Exhibition }) {
   const { locale } = useLang();
@@ -47,6 +51,15 @@ export function ExhibitionDetailView({ e }: { e: Exhibition }) {
 
   const title = inLocale(e.title, e.tr, lang, "title");
   const description = e.description ? inLocale(e.description, e.tr, lang, "description") : "";
+
+  const venueName = e.venue ? inLocale(e.venue.name, e.venue.tr, lang, "name") : "";
+  const hasCoords = e.venue?.lat != null && e.venue?.lng != null;
+  // Google Maps Universal URL — lat,lng as destination lands on the exact point
+  // regardless of locale or place-name ambiguity. travelmode=transit suits the
+  // mostly-urban exhibition venues; users can switch modes inside Google Maps.
+  const directionsUrl = hasCoords
+    ? `https://www.google.com/maps/dir/?api=1&destination=${e.venue!.lat},${e.venue!.lng}&travelmode=transit`
+    : null;
 
   return (
     <main className="mx-auto max-w-[1100px] px-7 py-8">
@@ -109,6 +122,36 @@ export function ExhibitionDetailView({ e }: { e: Exhibition }) {
           </div>
         </div>
       </div>
+
+      {hasCoords && (
+        <section className="mt-10">
+          <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
+            <h2 className="text-sm font-semibold uppercase tracking-widest text-tx3">
+              {t("detail.location")}
+            </h2>
+            <a
+              href={directionsUrl!}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() =>
+                track(EVENTS.directionsClick, {
+                  exhibition_id: e.id,
+                  venue_id: e.venue?.id,
+                })
+              }
+              className="inline-flex items-center gap-1 rounded-lg border border-line2 px-4 py-2 text-sm font-medium hover:bg-panel2"
+            >
+              {t("detail.directions")}
+              <span aria-hidden className="text-tx3">↗</span>
+            </a>
+          </div>
+          <MapView items={[e]} height={320} />
+          <div className="mt-2 text-[12.5px] text-tx3">
+            {venueName}
+            {e.venue?.district ? ` · ${e.venue.district}` : ""}
+          </div>
+        </section>
+      )}
     </main>
   );
 }

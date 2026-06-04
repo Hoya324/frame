@@ -84,6 +84,7 @@ export const EVENTS = {
   mapLocate: "map_locate",
   venueSheetOpen: "venue_sheet_open",
   sourceLinkClick: "source_link_click",
+  directionsClick: "directions_click",
   feedbackSubmit: "feedback_submit",
   subscriptionToggle: "subscription_toggle",
   pwaInstallPrompt: "pwa_install_prompt",
