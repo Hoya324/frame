@@ -143,3 +143,44 @@ def test_parse_date_range_back_fills_abbreviated_end(
     start, end = parse_date_range(raw)
     assert start == expected_start, f"start: {start!r}"
     assert end == expected_end, f"end: {end!r}"
+
+
+@freeze_time("2026-06-05")
+@pytest.mark.parametrize(
+    "raw",
+    [
+        # K.O.N.G Gallery poster format: English month-name start, end half is
+        # day-only followed by the year ("Oct 15 ~ 30 , 2021"). The year lives
+        # only on the right and must back-fill the start (NOT default to today's
+        # year), and the day-only end must be recovered with that same year.
+        "Oct 15 ~ 30 , 2021",
+        "Oct 15 ~ 30, 2021",
+    ],
+)
+def test_parse_date_range_english_month_start_day_only_end_with_year(raw: str):
+    s, e = parse_date_range(raw)
+    assert s == date(2021, 10, 15), f"start: got {s}, expected 2021-10-15"
+    assert e == date(2021, 10, 30), f"end: got {e}, expected 2021-10-30"
+
+
+@freeze_time("2026-06-05")
+@pytest.mark.parametrize(
+    "raw, expected_start, expected_end",
+    [
+        # Gallery Lux format: start carries the year, end is "M. D" with NO
+        # year. dateutil would default the end to *today's* year, making old
+        # shows span years into the future (a 2021 show ending "2026-07-02").
+        # The end year must back-fill from the start.
+        ("2021. 6. 4 - 7. 2", date(2021, 6, 4), date(2021, 7, 2)),
+        ("2020.12. 3 - 12. 24", date(2020, 12, 3), date(2020, 12, 24)),
+        ("2019. 10. 4 - 11. 3", date(2019, 10, 4), date(2019, 11, 3)),
+        # End rolls into the next calendar year (Dec → Jan): year+1, not today.
+        ("2020. 12. 30 - 1. 5", date(2020, 12, 30), date(2021, 1, 5)),
+    ],
+)
+def test_parse_date_range_yearless_numeric_end_backfills_start_year(
+    raw: str, expected_start: date, expected_end: date
+):
+    s, e = parse_date_range(raw)
+    assert s == expected_start, f"start: got {s}"
+    assert e == expected_end, f"end: got {e}"
