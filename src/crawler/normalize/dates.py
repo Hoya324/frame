@@ -27,9 +27,10 @@ _RANGE_SPLIT = re.compile(r"\s*[~–—〜～－]\s*|\s+-\s+")
 # half, dateutil silently defaults the left half to today's year.
 _FOUR_DIGIT_YEAR = re.compile(r"\b(\d{4})\b")
 # An abbreviated end half that carries no four-digit year, e.g. KOBA's
-# "23일", "6월 3일", or the Japanese "23日". We back-fill the missing month
-# and/or year from the already-parsed start date. Group 1 = optional month,
-# group 2 = day. Handles 월/月 (CJK) and bare numerics ("6.3", "23").
+# "23일", "6월 3일", the Japanese "23日", or Gallery Lux's numeric "7. 2".
+# We back-fill the missing month and/or year from the already-parsed start.
+# Group 1 = optional month, group 2 = day. Handles 월/月 (CJK) and bare
+# numerics ("6.3", "23").
 _ABBREV_END = re.compile(
     r"^\s*(?:(\d{1,2})\s*[월月.\-/]\s*)?(\d{1,2})\s*[일日]?\s*"
     r"(?:[（(]\s*[월화수목금토일月火水木金土日]\s*[）)])?\s*$"
@@ -97,25 +98,39 @@ def parse_date_range(raw: str | None) -> tuple[date | None, date | None]:
         patched_left = parse_date(f"{left_raw.strip()}, {right_year_match.group(1)}")
         if patched_left is not None:
             left = patched_left
-    # Symmetric case: the end half omits the month (and maybe the year), e.g.
-    # KOBA's "2025년 5월 20일 ~ 23일" (day only) or KONG's "Oct 15 ~ 30, 2021"
-    # (day + trailing year, no month). Strip any explicit year off the end
-    # first, then back-fill month from the start and year from the end half
-    # when present, else from the start — so the show gets a real end date
-    # instead of staying "ongoing" forever.
-    if left is not None and right is None:
-        end_core = _FOUR_DIGIT_YEAR.sub("", right_raw).strip(" ,. ")
+
+    # Resolve the end half's year/month from the start when the end half omits
+    # them. Two variants of the same bug, both of which otherwise let dateutil
+    # stamp *today's* year onto the end:
+    #   (a) No explicit year in the end half — e.g. Gallery Lux's
+    #       "2021. 6. 4 - 7. 2" (end "7. 2") or KOBA's "...~ 23일" (day only).
+    #       dateutil may even parse "7. 2" to a current-year date, so we must
+    #       re-derive regardless of whether `right` already parsed: the year
+    #       comes from the start, the month from the end when present (else the
+    #       start), and a backwards span rolls into the next year (Dec → Jan).
+    #   (b) An explicit year IS present but the end couldn't be parsed as a full
+    #       date — KONG's "30, 2021" (day + year, no month). Use that year and
+    #       back-fill the month from the start.
+    if left is not None and right_year_match is None:
+        m = _ABBREV_END.match(right_raw.strip())
+        if m:
+            month = int(m.group(1)) if m.group(1) else left.month
+            day = int(m.group(2))
+            try:
+                candidate = date(left.year, month, day)
+                if candidate < left:  # span rolls into the next year (Dec → Jan)
+                    candidate = date(left.year + 1, month, day)
+                right = candidate
+            except ValueError:
+                pass  # keep whatever `right` parsed to
+    elif left is not None and right is None:
+        end_core = _FOUR_DIGIT_YEAR.sub("", right_raw).strip(" ,.")
         m = _ABBREV_END.match(end_core)
         if m:
             month = int(m.group(1)) if m.group(1) else left.month
             day = int(m.group(2))
-            year = int(right_year_match.group(1)) if right_year_match else left.year
             try:
-                right = date(year, month, day)
-                # Only a yearless end can roll into the next year (Dec → Jan);
-                # an explicit end year is authoritative and is left as-is.
-                if right < left and right_year_match is None:
-                    right = date(year + 1, month, day)
+                right = date(int(right_year_match.group(1)), month, day)
             except ValueError:
-                right = None
+                pass
     return left, right
