@@ -2,8 +2,12 @@
 
 from __future__ import annotations
 
+import logging
+
 from crawler.masters.models import MasterSeed, RawWork
 from crawler.masters.museums.base import MuseumClient
+
+logger = logging.getLogger(__name__)
 
 
 def _rank_key(w: RawWork) -> tuple:
@@ -27,10 +31,18 @@ def select_works(
         client = clients.get(sq.source)
         if client is None:
             continue
-        if sq.object_ids:
-            explicit.extend(client.fetch_by_ids(sq.object_ids))
-        elif sq.query:
-            pulled.extend(client.search_works(sq.query, limit=cap))
+        # A single source failing (network, 403, rate limit) must not sink the
+        # whole master — skip that source and keep whatever the others return.
+        try:
+            if sq.object_ids:
+                explicit.extend(client.fetch_by_ids(sq.object_ids))
+            elif sq.query:
+                pulled.extend(client.search_works(sq.query, limit=cap))
+        except Exception:
+            logger.warning(
+                "masters: source %s failed for %s; skipping", sq.source, seed.id,
+                exc_info=True,
+            )
 
     pulled.sort(key=_rank_key, reverse=True)
 

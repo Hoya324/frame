@@ -23,6 +23,33 @@ class FakeClient:
         return self._by_query[:limit]
 
 
+class FailingClient:
+    source = "the_met"
+
+    def fetch_by_ids(self, ids):
+        raise RuntimeError("403 Forbidden")
+
+    def search_works(self, query, limit):
+        raise RuntimeError("403 Forbidden")
+
+
+def test_failing_source_is_skipped_other_sources_survive():
+    # A 403/network failure on one source must not crash select_works; works
+    # from the healthy source are still returned.
+    seed = MasterSeed(
+        id="m", name="M", region="foreign", nationality="US", birth_year=None,
+        death_year=None, portrait_url=None,
+        sources=[SourceQuery(source="the_met", query="M"),
+                 SourceQuery(source="aic", query="M")],
+    )
+    clients = {
+        "the_met": FailingClient(),
+        "aic": FakeClient("aic", by_query=[_work("1", source="aic")]),
+    }
+    works = select_works(seed, clients, cap=10)
+    assert [w.source_object_id for w in works] == ["1"]
+
+
 def test_explicit_ids_preserved_in_order_and_filtered():
     seed = MasterSeed(
         id="m", name="M", region="foreign", nationality="US", birth_year=None,
