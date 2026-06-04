@@ -7,7 +7,7 @@
 | 항목 | 상태 |
 |---|---|
 | GitHub | https://github.com/Hoya324/allphoto (main) |
-| 시트 | https://docs.google.com/spreadsheets/d/1KjhDcaWVQizAcltjp4HHoWhMonztAeADAMMaaRtKRXI |
+| 시트 | https://docs.google.com/spreadsheets/d/<your-sheet-id> |
 | Service account | `allphoto-crawler-sa@allphoto-crawler.iam.gserviceaccount.com` (시트 편집자) |
 | Sheets API | ✅ 활성화 |
 | Kakao Local API | ✅ 활성화 |
@@ -27,7 +27,7 @@ cd /Users/hoyana/Desktop/01_sideproject/photo-exhibition-crawler
 export PYTHONPATH=src
 
 # 시크릿 (매 shell마다 export)
-export SHEET_ID="1KjhDcaWVQizAcltjp4HHoWhMonztAeADAMMaaRtKRXI"
+export SHEET_ID="<your-sheet-id>"
 export GOOGLE_SERVICE_ACCOUNT_JSON="$(cat /Users/hoyana/Downloads/allphoto-crawler-7857be59dae5.json)"
 export KAKAO_REST_API_KEY="58b99f1ce43d7d02e84693af4964e603"
 
