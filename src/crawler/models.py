@@ -27,6 +27,10 @@ class SourceName(StrEnum):
     GALLERY_BRESSON = "gallery_bresson"
     PGI = "pgi"
     ZEN_FOTO = "zen_foto"
+    PLACE_M = "place_m"
+    TOTEM_POLE = "totem_pole"
+    GALLERY_TOSEI = "gallery_tosei"
+    ART_SPACE_J = "art_space_j"
 
 
 class Medium(StrEnum):
