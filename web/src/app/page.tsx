@@ -19,7 +19,7 @@ import mastersRaw from "../../public/data/masters.json";
 export default function Home() {
   const catalog = loadCatalogSync();
   const today = new Date();
-  const masters: Master[] = parseMasters(mastersRaw).masters;
+  const masters: Master[] = useMemo(() => parseMasters(mastersRaw).masters, []);
   const { t } = useLang();
   const STATUS_OPTS = [
     { value: "ongoing", label: t("filter.ongoing") },

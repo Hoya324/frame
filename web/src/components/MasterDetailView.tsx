@@ -58,7 +58,12 @@ function WorkBlock({ w, locale, t }: {
           {[w.year, w.medium].filter(Boolean).join(" · ")}
         </div>
         {commentary && (
-          <p className="mt-2 text-[14px] leading-relaxed text-tx2">{commentary}</p>
+          <div className="mt-3">
+            <div className="text-[11px] font-semibold uppercase tracking-widest text-tx3">
+              {t("masters.whyGreat")}
+            </div>
+            <p className="mt-1 text-[14px] leading-relaxed text-tx2">{commentary}</p>
+          </div>
         )}
         <div className="mt-2 text-[12px] text-tx3">
           {t("masters.source")}: {w.credit}{w.sourceUrl ? " · " : ""}
