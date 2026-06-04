@@ -84,3 +84,43 @@ def test_map_fee_type_paid():
 
 def test_map_fee_type_partial():
     assert map_fee_type("일부 유료", 0, 10000) is FeeType.PARTIAL
+
+
+@pytest.mark.parametrize(
+    "title, expected",
+    [
+        ("손모아 개인전 <단편의 조각들>", ExhibitionType.SOLO),  # KR solo in title
+        ("原直久 個展「柘榴」", ExhibitionType.SOLO),  # JP 個展 = solo
+        ("변웅필 개인전", ExhibitionType.SOLO),
+        ("청춘 단체전", ExhibitionType.GROUP),
+        # A free-form art title containing 'show' must NOT be read as an EXPO —
+        # broad keywords apply only to the controlled type-text field.
+        ("The Show Must Go On", ExhibitionType.CURATED),
+        ("西成", ExhibitionType.CURATED),  # bare title, no signal
+    ],
+)
+def test_map_exhibition_type_from_title(title: str, expected: ExhibitionType):
+    assert map_exhibition_type("", title=title) is expected
+
+
+@pytest.mark.parametrize(
+    "artist_count, expected",
+    [
+        (1, ExhibitionType.SOLO),
+        (2, ExhibitionType.GROUP),
+        (5, ExhibitionType.GROUP),
+        (0, ExhibitionType.CURATED),
+        (None, ExhibitionType.CURATED),
+    ],
+)
+def test_map_exhibition_type_artist_count_fallback(
+    artist_count, expected: ExhibitionType
+):
+    assert map_exhibition_type("", artist_count=artist_count) is expected
+
+
+def test_map_exhibition_type_text_keyword_beats_artist_count():
+    # An explicit '단체전' in type-text wins even if only one artist is listed.
+    assert (
+        map_exhibition_type("단체전", artist_count=1) is ExhibitionType.GROUP
+    )

@@ -25,7 +25,34 @@ def map_medium(text: str) -> Medium:
     return Medium.MIXED
 
 
-def map_exhibition_type(text: str) -> ExhibitionType:
+# High-precision solo/group phrases that are safe to detect inside a free-form
+# exhibition *title* (unlike the broad "show"/"fair"/"solo" substrings below,
+# which would false-positive on artwork titles). 個展 = JP solo show; 2인전/3인전
+# = KR two-/three-person shows.
+_SOLO_TITLE = ("개인전", "個展", "solo exhibition", "solo show")
+_GROUP_TITLE = (
+    "단체전",
+    "그룹전",
+    "2인전",
+    "3인전",
+    "group exhibition",
+    "group show",
+)
+
+
+def map_exhibition_type(
+    text: str,
+    *,
+    title: str | None = None,
+    artist_count: int | None = None,
+) -> ExhibitionType:
+    """Classify an exhibition's type.
+
+    Precedence: (1) the controlled ``exhibition_type_text`` field, where broad
+    keywords like "show"/"fair" are unambiguous; (2) high-precision phrases in
+    the free-form ``title`` (개인전/個展 → solo, 단체전 → group); (3) the artist
+    count as a fallback (1 → solo, ≥2 → group). Defaults to curated.
+    """
     t = (text or "").lower()
     if _has(t, "개인전", "solo"):
         return ExhibitionType.SOLO
@@ -39,6 +66,18 @@ def map_exhibition_type(text: str) -> ExhibitionType:
         return ExhibitionType.PERMANENT
     if _has(t, "기획", "curated"):
         return ExhibitionType.CURATED
+
+    # The type-text field carried no signal; fall back to the title's
+    # high-precision phrases, then to the artist count.
+    tt = (title or "").lower()
+    if _has(tt, *_SOLO_TITLE):
+        return ExhibitionType.SOLO
+    if _has(tt, *_GROUP_TITLE):
+        return ExhibitionType.GROUP
+    if artist_count == 1:
+        return ExhibitionType.SOLO
+    if artist_count is not None and artist_count >= 2:
+        return ExhibitionType.GROUP
     return ExhibitionType.CURATED
 
 
