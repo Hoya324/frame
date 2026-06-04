@@ -30,6 +30,7 @@ class SourceName(StrEnum):
     PLACE_M = "place_m"
     TOTEM_POLE = "totem_pole"
     GALLERY_TOSEI = "gallery_tosei"
+    ART_SPACE_J = "art_space_j"
 
 
 class Medium(StrEnum):

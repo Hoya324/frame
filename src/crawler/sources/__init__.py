@@ -6,6 +6,7 @@ side-effecting `register_source(...)` call at the bottom of each module.
 
 # Order doesn't matter; we just need each module to be imported.
 from crawler.sources import (
+    art_space_j,  # noqa: F401
     artmap,  # noqa: F401
     canon_gallery,  # noqa: F401
     fujifilm_square,  # noqa: F401
