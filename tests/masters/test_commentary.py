@@ -33,9 +33,10 @@ def test_master_text_generates_ko_then_translates(tmp_path):
     g = FakeGemini()
     w = CommentaryWriter(g, CommentaryCache(tmp_path / "c.json"))
     out = w.master_text(_seed())
+    assert g.generate_calls == 2  # bio + tagline
     assert out.ko == "한국어 본문"
+    assert out.ko_tagline == "한국어 본문"
     assert out.en == "en:한국어 본문"
-    assert out.ja == "ja:한국어 본문"
 
 
 def test_master_text_cached_second_call_skips_generation(tmp_path):
