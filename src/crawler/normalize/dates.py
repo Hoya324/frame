@@ -83,29 +83,39 @@ def parse_date_range(raw: str | None) -> tuple[date | None, date | None]:
     left_raw, right_raw = parts[0], parts[1]
     left = parse_date(left_raw)
     right = parse_date(right_raw)
+    # An explicit four-digit year often appears only in the END half, e.g.
+    # "May 10 – Jul 3, 2026" or K.O.N.G Gallery's "Oct 15 ~ 30, 2021". Capture
+    # it once so it can back-fill both the yearless start and a day-only end.
+    right_year_match = _FOUR_DIGIT_YEAR.search(right_raw)
     # If the left half lacks an explicit year but the right half has one,
-    # re-parse the left with the right's year appended. Without this,
-    # "May 10 – Jul 3, 2026" would assign today's year to the start date —
-    # correct-by-luck only when today's year matches the right-side year.
-    if right is not None and not _FOUR_DIGIT_YEAR.search(left_raw):
-        right_year_match = _FOUR_DIGIT_YEAR.search(right_raw)
-        if right_year_match:
-            patched = f"{left_raw.strip()}, {right_year_match.group(1)}"
-            patched_left = parse_date(patched)
-            if patched_left is not None:
-                left = patched_left
-    # Symmetric case: the end half omits the year (and maybe the month), e.g.
-    # KOBA's "2025년 5월 20일 ~ 23일". Back-fill year/month from the start so the
-    # show gets a real end date instead of staying "ongoing" forever.
+    # re-parse the left with the right's year appended. Without this, dateutil
+    # assigns *today's* year to the start date — correct-by-luck only when
+    # today happens to match the right-side year. This must fire even when the
+    # end half itself didn't parse to a full date (KONG's "30, 2021" is a
+    # day + year, with no month, so `right` is None there).
+    if right_year_match and not _FOUR_DIGIT_YEAR.search(left_raw):
+        patched_left = parse_date(f"{left_raw.strip()}, {right_year_match.group(1)}")
+        if patched_left is not None:
+            left = patched_left
+    # Symmetric case: the end half omits the month (and maybe the year), e.g.
+    # KOBA's "2025년 5월 20일 ~ 23일" (day only) or KONG's "Oct 15 ~ 30, 2021"
+    # (day + trailing year, no month). Strip any explicit year off the end
+    # first, then back-fill month from the start and year from the end half
+    # when present, else from the start — so the show gets a real end date
+    # instead of staying "ongoing" forever.
     if left is not None and right is None:
-        m = _ABBREV_END.match(right_raw)
+        end_core = _FOUR_DIGIT_YEAR.sub("", right_raw).strip(" ,. ")
+        m = _ABBREV_END.match(end_core)
         if m:
             month = int(m.group(1)) if m.group(1) else left.month
             day = int(m.group(2))
+            year = int(right_year_match.group(1)) if right_year_match else left.year
             try:
-                right = date(left.year, month, day)
-                if right < left:  # span rolls into the next year (Dec → Jan)
-                    right = date(left.year + 1, month, day)
+                right = date(year, month, day)
+                # Only a yearless end can roll into the next year (Dec → Jan);
+                # an explicit end year is authoritative and is left as-is.
+                if right < left and right_year_match is None:
+                    right = date(year + 1, month, day)
             except ValueError:
                 right = None
     return left, right
