@@ -18,6 +18,7 @@ from crawler.sources import (
     museum_hanmi,  # noqa: F401
     pgi,  # noqa: F401
     photo_sema,  # noqa: F401
+    place_m,  # noqa: F401
     ryugaheon,  # noqa: F401
     sangsangmadang,  # noqa: F401
     tokyo_art_beat,  # noqa: F401

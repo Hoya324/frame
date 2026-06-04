@@ -27,6 +27,7 @@ class SourceName(StrEnum):
     GALLERY_BRESSON = "gallery_bresson"
     PGI = "pgi"
     ZEN_FOTO = "zen_foto"
+    PLACE_M = "place_m"
 
 
 class Medium(StrEnum):
