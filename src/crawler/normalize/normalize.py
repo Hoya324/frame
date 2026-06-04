@@ -75,7 +75,12 @@ def normalize_exhibition(raw_payload: RawExhibition) -> NormalizedExhibition:
     )
     medium = map_medium(medium_text)
 
-    exhibition_type = map_exhibition_type(_opt(raw, "exhibition_type_text") or "")
+    exhibition_type = map_exhibition_type(
+        _opt(raw, "exhibition_type_text") or "",
+        title=title,
+        # Empty artist list → no signal (None), not a zero-artist "group".
+        artist_count=len(raw.get("artists") or []) or None,
+    )
 
     price_min = raw.get("price_min")
     price_max = raw.get("price_max")
