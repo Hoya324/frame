@@ -18,7 +18,7 @@ import {
 interface LangCtx {
   locale: Locale;
   setLocale: (l: Locale) => void;
-  t: (key: string) => string;
+  t: (key: string, vars?: Record<string, string | number>) => string;
 }
 
 const Ctx = createContext<LangCtx | null>(null);
@@ -28,7 +28,15 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
   const setLocale = useCallback((l: Locale) => setStoredLocale(l), []);
 
-  const t = useCallback((key: string) => translate(locale, key), [locale]);
+  const t = useCallback((key: string, vars?: Record<string, string | number>) => {
+    let s = translate(locale, key);
+    if (vars) {
+      for (const [k, v] of Object.entries(vars)) {
+        s = s.replace(new RegExp(`\\{${k}\\}`, "g"), String(v));
+      }
+    }
+    return s;
+  }, [locale]);
 
   return <Ctx.Provider value={{ locale, setLocale, t }}>{children}</Ctx.Provider>;
 }
