@@ -1,0 +1,2197 @@
+{
+  "generated_at": "2026-06-04T16:07:42.769299+00:00",
+  "masters": [
+    {
+      "id": "julia-margaret-cameron",
+      "name": "Julia Margaret Cameron",
+      "lang": "ko",
+      "region": "foreign",
+      "nationality": "GB",
+      "birthYear": 1815,
+      "deathYear": 1879,
+      "tagline": "",
+      "bio": "",
+      "portraitUrl": null,
+      "tr": {
+        "en": {
+          "tagline": "",
+          "bio": ""
+        },
+        "ja": {
+          "tagline": "",
+          "bio": ""
+        }
+      },
+      "works": [
+        {
+          "id": "aic-29230",
+          "title": "Julia Jackson",
+          "year": "1867",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/7582416c-67cd-3682-bf97-5f9883bdd972/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/7582416c-67cd-3682-bf97-5f9883bdd972/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/29230",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-18089",
+          "title": "Anne Thackeray Ritchie",
+          "year": "May 1870",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/e726dfa6-69f0-c73c-5881-905816b8f89a/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/e726dfa6-69f0-c73c-5881-905816b8f89a/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/18089",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-20654",
+          "title": "A Study of the Beatrice Cenci",
+          "year": "September 1870",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/77232fed-fa29-49f8-baca-5f527905824b/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/77232fed-fa29-49f8-baca-5f527905824b/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/20654",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-157056",
+          "title": "Mrs. Herbert Duckworth",
+          "year": "April 1867",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/a50be06e-0072-24a5-9fa5-3e172c638fee/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/a50be06e-0072-24a5-9fa5-3e172c638fee/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/157056",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-136861",
+          "title": "Alfred, Lord Tennyson (Dirty Monk)",
+          "year": "1865, printed c. 1893",
+          "medium": "Photogravure, plate 3 from the album \"Lord Tennyson and his Friends\" (1893)",
+          "imageUrl": "https://www.artic.edu/iiif/2/d24428b4-6084-ea9d-9ce7-de74986ee85c/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/d24428b4-6084-ea9d-9ce7-de74986ee85c/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/136861",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-29203",
+          "title": "Mrs. Herbert Duckworth with Florence Fisher, George Duckworth, and Herbert Fisher",
+          "year": "August 1872",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/0f9bae40-3c56-01b4-7bca-2d07ada60db1/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/0f9bae40-3c56-01b4-7bca-2d07ada60db1/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/29203",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-118150",
+          "title": "Julia Jackson (\"Saint Julia\", \"My Niece Julia\", \"My Favorite Picture\")",
+          "year": "1867",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/79d112af-2309-2146-6cf4-08cbd21ab6ee/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/79d112af-2309-2146-6cf4-08cbd21ab6ee/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/118150",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-34840",
+          "title": "Untitled (Ceylon)",
+          "year": "1875/79",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/4f64e1bb-de0e-d763-5f49-d900fd9b8f2b/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/4f64e1bb-de0e-d763-5f49-d900fd9b8f2b/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/34840",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "alfred-stieglitz",
+      "name": "Alfred Stieglitz",
+      "lang": "ko",
+      "region": "foreign",
+      "nationality": "US",
+      "birthYear": 1864,
+      "deathYear": 1946,
+      "tagline": "",
+      "bio": "",
+      "portraitUrl": null,
+      "tr": {
+        "en": {
+          "tagline": "",
+          "bio": ""
+        },
+        "ja": {
+          "tagline": "",
+          "bio": ""
+        }
+      },
+      "works": [
+        {
+          "id": "aic-66489",
+          "title": "Georgia O'Keeffe—Torso",
+          "year": "1918",
+          "medium": "Gelatin silver print",
+          "imageUrl": "https://www.artic.edu/iiif/2/4d9dcaa1-5a21-5596-5b60-b3808492d443/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/4d9dcaa1-5a21-5596-5b60-b3808492d443/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/66489",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-66303",
+          "title": "The Hand of Man",
+          "year": "1902, printed 1920/39",
+          "medium": "Gelatin silver print",
+          "imageUrl": "https://www.artic.edu/iiif/2/7ae8cca1-a81b-9d01-5246-316b82602a13/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/7ae8cca1-a81b-9d01-5246-316b82602a13/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/66303",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-66424",
+          "title": "Georgia O'Keeffe",
+          "year": "1918",
+          "medium": "Gelatin silver print",
+          "imageUrl": "https://www.artic.edu/iiif/2/7e30ee9a-e19c-2a0c-1ff5-7cc55a23bffd/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/7e30ee9a-e19c-2a0c-1ff5-7cc55a23bffd/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/66424",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-66434",
+          "title": "Georgia O'Keeffe—Hands and Thimble",
+          "year": "1919",
+          "medium": "Palladium print",
+          "imageUrl": "https://www.artic.edu/iiif/2/62fdbcae-4491-91c3-6fdc-728e1cf4b547/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/62fdbcae-4491-91c3-6fdc-728e1cf4b547/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/66434",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-66284",
+          "title": "Sun Rays—Paula, Berlin",
+          "year": "1889, printed 1920/39",
+          "medium": "Gelatin silver print",
+          "imageUrl": "https://www.artic.edu/iiif/2/c68643ad-3cc8-986a-8542-f10f47e6e7e8/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/c68643ad-3cc8-986a-8542-f10f47e6e7e8/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/66284",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-66394",
+          "title": "Rebecca Salsbury Strand",
+          "year": "1922",
+          "medium": "Gelatin silver print",
+          "imageUrl": "https://www.artic.edu/iiif/2/f6d06aad-e3e6-69d9-2caa-9b10e3059a34/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/f6d06aad-e3e6-69d9-2caa-9b10e3059a34/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/66394",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-66315",
+          "title": "The Flatiron",
+          "year": "1903, printed 1920/39",
+          "medium": "Gelatin silver print",
+          "imageUrl": "https://www.artic.edu/iiif/2/e9bddf43-8c16-7a8d-a59b-858909c8cad9/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/e9bddf43-8c16-7a8d-a59b-858909c8cad9/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/66315",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-66275",
+          "title": "Rebecca Salsbury Strand",
+          "year": "1922",
+          "medium": "Gelatin silver print",
+          "imageUrl": "https://www.artic.edu/iiif/2/db914850-f585-6bc6-4d7b-80df56db042b/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/db914850-f585-6bc6-4d7b-80df56db042b/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/66275",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "eugene-atget",
+      "name": "Eugène Atget",
+      "lang": "ko",
+      "region": "foreign",
+      "nationality": "FR",
+      "birthYear": 1857,
+      "deathYear": 1927,
+      "tagline": "",
+      "bio": "",
+      "portraitUrl": null,
+      "tr": {
+        "en": {
+          "tagline": "",
+          "bio": ""
+        },
+        "ja": {
+          "tagline": "",
+          "bio": ""
+        }
+      },
+      "works": [
+        {
+          "id": "aic-55394",
+          "title": "Joueur d'orgue (Organ Player)",
+          "year": "1898/99",
+          "medium": "Gelatin silver printing out print",
+          "imageUrl": "https://www.artic.edu/iiif/2/b0bbd380-e176-e2ee-41c8-5f5a6957e365/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/b0bbd380-e176-e2ee-41c8-5f5a6957e365/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/55394",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-70742",
+          "title": "Marchand abat-jours",
+          "year": "1899/1900",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/f218d011-5c7d-91e7-f7a3-dabb0b5ccfff/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/f218d011-5c7d-91e7-f7a3-dabb0b5ccfff/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/70742",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-18967",
+          "title": "Versailles, Coin de Parc",
+          "year": "1904",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/b3c58950-d321-b2e6-32ad-fd5b2fb74487/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/b3c58950-d321-b2e6-32ad-fd5b2fb74487/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/18967",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-223184",
+          "title": "Cabaret de l'Homme Armé, Rue des Blancs-Manteaux",
+          "year": "1900",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/8312ee04-06f2-47a1-9898-34e88ebac134/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/8312ee04-06f2-47a1-9898-34e88ebac134/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/223184",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-124050",
+          "title": "Versailles, Grand Trianon",
+          "year": "1905",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/996ec22d-9a86-dc32-b495-8fece030368e/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/996ec22d-9a86-dc32-b495-8fece030368e/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/124050",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-60482",
+          "title": "Olivier, Nice (Olive Tree, Nice)",
+          "year": "c. 1900",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/8c24d3c9-c89a-7aa9-deed-1ee95811d24b/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/8c24d3c9-c89a-7aa9-deed-1ee95811d24b/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/60482",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-55402",
+          "title": "Porteuse de pain, from the series \"Small Trades\"",
+          "year": "c. 1899/1900",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/4837cc09-6944-3872-87c9-881adaa0c04c/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/4837cc09-6944-3872-87c9-881adaa0c04c/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/55402",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-158771",
+          "title": "Porte de Gentilly, Bd Kellermann",
+          "year": "1907",
+          "medium": "Albumen print, from \"Fortifications\"",
+          "imageUrl": "https://www.artic.edu/iiif/2/f9d72953-2667-a597-48c0-8770914428da/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/f9d72953-2667-a597-48c0-8770914428da/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/158771",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "carleton-watkins",
+      "name": "Carleton Watkins",
+      "lang": "ko",
+      "region": "foreign",
+      "nationality": "US",
+      "birthYear": 1829,
+      "deathYear": 1916,
+      "tagline": "",
+      "bio": "",
+      "portraitUrl": null,
+      "tr": {
+        "en": {
+          "tagline": "",
+          "bio": ""
+        },
+        "ja": {
+          "tagline": "",
+          "bio": ""
+        }
+      },
+      "works": [
+        {
+          "id": "aic-63554",
+          "title": "Big River, from the Rancherie, Mendocino, California",
+          "year": "1863",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/0ac9663b-e17e-471d-e4e3-6c60fc800704/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/0ac9663b-e17e-471d-e4e3-6c60fc800704/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/63554",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-105101",
+          "title": "First View of the Yosemite Valley from the Mariposa Trail",
+          "year": "1865/66",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/09b6a369-8934-7a4d-0370-90509dde6607/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/09b6a369-8934-7a4d-0370-90509dde6607/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/105101",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-145389",
+          "title": "Mirror View, Yosemite Valley, Mariposa County, Cal.",
+          "year": "1861/76",
+          "medium": "Albumen print, stereo",
+          "imageUrl": "https://www.artic.edu/iiif/2/9c2a8555-40c7-c0d7-cc0d-b5ab6e5f444e/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/9c2a8555-40c7-c0d7-cc0d-b5ab6e5f444e/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/145389",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-65801",
+          "title": "Copy of Carleton Watkins' \"Galen Clark Before the Grizzly Giant,\"",
+          "year": "c. 1863",
+          "medium": "Print on paper from woodcut engraving",
+          "imageUrl": "https://www.artic.edu/iiif/2/9108ce42-4ef1-23c4-531d-5f582bcba8cd/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/9108ce42-4ef1-23c4-531d-5f582bcba8cd/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/65801",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-104033",
+          "title": "Section of the Grizzly Giant with Galen Clark, Mariposa Grove, Yosemite",
+          "year": "1865/66",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/679b28a9-ef51-9dc7-0340-c876b254c084/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/679b28a9-ef51-9dc7-0340-c876b254c084/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/104033",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-145376",
+          "title": "Agassiz Column from Glacier Point Trail, Yosemite, from the series \"Watkins' Pacific Coast\"",
+          "year": "1861/76",
+          "medium": "Albumen print, stereo",
+          "imageUrl": "https://www.artic.edu/iiif/2/06e30c79-d19e-b6ca-cc02-2239fd60aa4e/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/06e30c79-d19e-b6ca-cc02-2239fd60aa4e/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/145376",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-145387",
+          "title": "Mirror View of El Capitan, Yosemite Valley, Mariposa County, Cal., No. 1119 from the series \"Watkins' Pacific Coast\"",
+          "year": "1861/76",
+          "medium": "Albumen print, stereo",
+          "imageUrl": "https://www.artic.edu/iiif/2/195fad61-806d-e8f7-cf89-bd6fb21cedc3/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/195fad61-806d-e8f7-cf89-bd6fb21cedc3/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/145387",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-145368",
+          "title": "Cathedral Spires, Yosemite, from the series \"Watkins' Pacific Coast\"",
+          "year": "1861/76",
+          "medium": "Albumen print, stereo",
+          "imageUrl": "https://www.artic.edu/iiif/2/9bfbafb5-c0ab-472d-85d2-6cf11b1ea4bc/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/9bfbafb5-c0ab-472d-85d2-6cf11b1ea4bc/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/145368",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "gustave-le-gray",
+      "name": "Gustave Le Gray",
+      "lang": "ko",
+      "region": "foreign",
+      "nationality": "FR",
+      "birthYear": 1820,
+      "deathYear": 1884,
+      "tagline": "",
+      "bio": "",
+      "portraitUrl": null,
+      "tr": {
+        "en": {
+          "tagline": "",
+          "bio": ""
+        },
+        "ja": {
+          "tagline": "",
+          "bio": ""
+        }
+      },
+      "works": [
+        {
+          "id": "aic-126479",
+          "title": "Brig on the Water",
+          "year": "1856",
+          "medium": "Albumen print, from the album \"Vistas del Mar\"",
+          "imageUrl": "https://www.artic.edu/iiif/2/20964c63-4ac9-c086-326f-3da495cc77a6/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/20964c63-4ac9-c086-326f-3da495cc77a6/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/126479",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-126485",
+          "title": "Cloudy Sky, Mediterranean Sea",
+          "year": "1857",
+          "medium": "Albumen print, No. 16 from the album \"Vistas del Mar\"",
+          "imageUrl": "https://www.artic.edu/iiif/2/03911f46-250d-79f7-5cbb-37cfabc37c09/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/03911f46-250d-79f7-5cbb-37cfabc37c09/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/126485",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-36848",
+          "title": "The Great Wave, Sète",
+          "year": "1857",
+          "medium": "Albumen print, No. 17 from the Vistas del Mar album",
+          "imageUrl": "https://www.artic.edu/iiif/2/2eb727fe-0e5f-24fc-d07e-463e8cce57d0/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/2eb727fe-0e5f-24fc-d07e-463e8cce57d0/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/36848",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-68994",
+          "title": "Tree, Forest of Fontainebleau",
+          "year": "c. 1856",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/b68ad501-5d05-27c8-2794-32d764fc833d/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/b68ad501-5d05-27c8-2794-32d764fc833d/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/68994",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-144430",
+          "title": "Chalons Encampment: Maneuvers on October 3 (Camp de Châlons: manoeuvres du 3 octobre)",
+          "year": "1857",
+          "medium": "Albumen print, from the album \"Souvenirs du Camp de Châlons\"",
+          "imageUrl": "https://www.artic.edu/iiif/2/49024b3b-06c0-b07f-9683-de7c8cfb9c89/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/49024b3b-06c0-b07f-9683-de7c8cfb9c89/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/144430",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-126481",
+          "title": "Solar Effect in the Clouds-Ocean",
+          "year": "1856/57",
+          "medium": "Albumen print, from the album \"Vistas del Mar\"",
+          "imageUrl": "https://www.artic.edu/iiif/2/74fa185b-6163-aae0-a040-6907cc1fd15d/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/74fa185b-6163-aae0-a040-6907cc1fd15d/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/126481",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-126487",
+          "title": "Ships in the Harbor at Sète",
+          "year": "1857",
+          "medium": "Albumen print, No. 10 from the album \"Vistas del Mar\"",
+          "imageUrl": "https://www.artic.edu/iiif/2/eb2c6693-2a9e-7f31-9a13-9fbc4056325c/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/eb2c6693-2a9e-7f31-9a13-9fbc4056325c/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/126487",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-126483",
+          "title": "The Beach at Sainte-Adresse, with the Dumont Baths",
+          "year": "1856/57",
+          "medium": "Albumen print, from the album \"Vistas del Mar\"",
+          "imageUrl": "https://www.artic.edu/iiif/2/c8a269d9-d12b-2b70-4f8a-a5286ce94c59/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/c8a269d9-d12b-2b70-4f8a-a5286ce94c59/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/126483",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "nadar",
+      "name": "Nadar (Gaspard-Félix Tournachon)",
+      "lang": "ko",
+      "region": "foreign",
+      "nationality": "FR",
+      "birthYear": 1820,
+      "deathYear": 1910,
+      "tagline": "",
+      "bio": "",
+      "portraitUrl": null,
+      "tr": {
+        "en": {
+          "tagline": "",
+          "bio": ""
+        },
+        "ja": {
+          "tagline": "",
+          "bio": ""
+        }
+      },
+      "works": [
+        {
+          "id": "aic-92202",
+          "title": "Le Geant, Champ de Mars",
+          "year": "October 18, 1863, probably printed 1880/89",
+          "medium": "Gelatin silver printing out paper print",
+          "imageUrl": "https://www.artic.edu/iiif/2/adab5952-9ced-6048-3e3d-0e21b71843e1/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/adab5952-9ced-6048-3e3d-0e21b71843e1/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/92202",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-92204",
+          "title": "Marie-Eugène Chevreul",
+          "year": "1886",
+          "medium": "Gelatin silver print",
+          "imageUrl": "https://www.artic.edu/iiif/2/56a0fcee-67fd-72f1-c087-c07614107815/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/56a0fcee-67fd-72f1-c087-c07614107815/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/92204",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-92203",
+          "title": "Le Neptune, Place Saint-Pierre à Montmartre",
+          "year": "September 23, 1870",
+          "medium": "Gelatin silver printing out print",
+          "imageUrl": "https://www.artic.edu/iiif/2/17ea427d-49a6-e658-9922-40581a133354/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/17ea427d-49a6-e658-9922-40581a133354/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/92203",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-50176",
+          "title": "Gustave Doré",
+          "year": "1856-58",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/54d63a6f-eb72-b18d-bd5b-621e2585ca84/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/54d63a6f-eb72-b18d-bd5b-621e2585ca84/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/50176",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-74800",
+          "title": "Interior of Le Géant Inflating",
+          "year": "1863, printed later",
+          "medium": "Gelatin silver print",
+          "imageUrl": "https://www.artic.edu/iiif/2/af638b3e-3862-b766-e4c3-237094bf37d7/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/af638b3e-3862-b766-e4c3-237094bf37d7/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/74800",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-92201",
+          "title": "Édouard Manet (French painter, 1832-1883)",
+          "year": "1865",
+          "medium": "Woodburytype, from the periodical “Galerie Contemporaine Littéraire, Artistique” (1876), volume 1",
+          "imageUrl": "https://www.artic.edu/iiif/2/58b458cd-c653-0bf9-4200-fb62ff2567d6/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/58b458cd-c653-0bf9-4200-fb62ff2567d6/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/92201",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-144607",
+          "title": "George Sand (born Amantine Lucile Aurore Dupin, French novelist, 1804-1876)",
+          "year": "1864",
+          "medium": "Woodburytype, from the periodical “Galerie Contemporaine Littéraire, Artistique” (1877), volume 2",
+          "imageUrl": "https://www.artic.edu/iiif/2/ee99f208-e073-a1e6-56fb-99cdf6e0b271/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/ee99f208-e073-a1e6-56fb-99cdf6e0b271/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/144607",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-144578",
+          "title": "Champfleury (born Jules François Felix Fleury-Husson, French critic and novelist, 1821-1889)",
+          "year": "c. 1855/59",
+          "medium": "Woodburytype, from the periodical “Galerie Contemporaine Littéraire, Artistique” (1878), volume 6",
+          "imageUrl": "https://www.artic.edu/iiif/2/246736da-807b-30f0-b41d-27b712484bb7/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/246736da-807b-30f0-b41d-27b712484bb7/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/144578",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "roger-fenton",
+      "name": "Roger Fenton",
+      "lang": "ko",
+      "region": "foreign",
+      "nationality": "GB",
+      "birthYear": 1819,
+      "deathYear": 1869,
+      "tagline": "",
+      "bio": "",
+      "portraitUrl": null,
+      "tr": {
+        "en": {
+          "tagline": "",
+          "bio": ""
+        },
+        "ja": {
+          "tagline": "",
+          "bio": ""
+        }
+      },
+      "works": [
+        {
+          "id": "aic-123407",
+          "title": "The Valley of the Shadow of Death",
+          "year": "1855",
+          "medium": "Salted paper print, from the album \"Photographic Pictures of the Seat of War in the Crimea\" (1856)",
+          "imageUrl": "https://www.artic.edu/iiif/2/40b5d8dc-45a8-6629-5ace-32c86c0905e1/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/40b5d8dc-45a8-6629-5ace-32c86c0905e1/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/123407",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-126336",
+          "title": "Captain Verschoyle, Grenadier Guards (an Early Photographer), Taken at the Crimea",
+          "year": "1855",
+          "medium": "Thinly albumenized print",
+          "imageUrl": "https://www.artic.edu/iiif/2/b469947a-c6ce-3511-4c76-c3dcc6b77c50/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/b469947a-c6ce-3511-4c76-c3dcc6b77c50/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/126336",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-126333",
+          "title": "A Council of War: Lord Raglan, Omar Pacha and Pelissier, Taken the eve Before the Taking of the Mankelen, Crimea",
+          "year": "1855",
+          "medium": "Thinly albumenized print",
+          "imageUrl": "https://www.artic.edu/iiif/2/99e0b066-84cb-9c84-679b-0bf8af7b1041/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/99e0b066-84cb-9c84-679b-0bf8af7b1041/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/126333",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-146079",
+          "title": "A Quiet Day in the Mortar Battery",
+          "year": "1855",
+          "medium": "Salted paper print,  from the album \"Photographic Pictures of the Seat of War in the Crimea\" (1856)",
+          "imageUrl": "https://www.artic.edu/iiif/2/5ba94de0-67a9-4424-3749-d191905bca39/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/5ba94de0-67a9-4424-3749-d191905bca39/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/146079",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-146114",
+          "title": "The Valley of the Shadow of Death",
+          "year": "1855",
+          "medium": "Salted paper print, plate 8 from the album \"Photographs Taken in the Crimea\" (1856)",
+          "imageUrl": "https://www.artic.edu/iiif/2/eaa6a13d-f3cd-1d8a-fd36-565a84759f05/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/eaa6a13d-f3cd-1d8a-fd36-565a84759f05/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/146114",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-123394",
+          "title": "Sebastopol from Cathcart's Hill",
+          "year": "1855",
+          "medium": "Salted paper print, from the album \"Photographic Pictures of the Seat of War in the Crimea\" (1856)",
+          "imageUrl": "https://www.artic.edu/iiif/2/de489f7d-5acf-8ee0-dd40-b0e8b18c7426/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/de489f7d-5acf-8ee0-dd40-b0e8b18c7426/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/123394",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-146117",
+          "title": "Lieutenant General Sir de Lacy Evans, G.C.B.",
+          "year": "1855",
+          "medium": "Salted paper print, plate 11 from the album \"Photographs Taken in the Crimea\" (1856)",
+          "imageUrl": "https://www.artic.edu/iiif/2/957572ff-3174-1648-a2b8-10dbd2975365/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/957572ff-3174-1648-a2b8-10dbd2975365/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/146117",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-123412",
+          "title": "Cemetery, Cathcart's Hill",
+          "year": "1855",
+          "medium": "Salted paper print, from the album \"Photographic Pictures of the Seat of War in the Crimea\" (1856)",
+          "imageUrl": "https://www.artic.edu/iiif/2/9dc693e8-c887-690b-91f3-3719730b4efa/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/9dc693e8-c887-690b-91f3-3719730b4efa/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/123412",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "william-henry-fox-talbot",
+      "name": "William Henry Fox Talbot",
+      "lang": "ko",
+      "region": "foreign",
+      "nationality": "GB",
+      "birthYear": 1800,
+      "deathYear": 1877,
+      "tagline": "",
+      "bio": "",
+      "portraitUrl": null,
+      "tr": {
+        "en": {
+          "tagline": "",
+          "bio": ""
+        },
+        "ja": {
+          "tagline": "",
+          "bio": ""
+        }
+      },
+      "works": [
+        {
+          "id": "aic-38930",
+          "title": "Two Plant Specimens",
+          "year": "1839",
+          "medium": "Photogenic drawing",
+          "imageUrl": "https://www.artic.edu/iiif/2/f4b72c7b-83e4-3008-d66f-46d87c30ca96/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/f4b72c7b-83e4-3008-d66f-46d87c30ca96/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/38930",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-27047",
+          "title": "\"A Scene in York\" - York Minster from Lop Lane",
+          "year": "July 28, 1845",
+          "medium": "Salted paper print",
+          "imageUrl": "https://www.artic.edu/iiif/2/fc3f4dd3-ca6f-ebb8-10ee-44da8c5e8d92/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/fc3f4dd3-ca6f-ebb8-10ee-44da8c5e8d92/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/27047",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-39038",
+          "title": "Some Account of the Art of Photogenic Drawing, or the Process by which Natural Objects May Be Made to Delineate Themselves without the Aid of the Artist's Pencil",
+          "year": "Read before the Royal Society, January 31, 1839",
+          "medium": "Thirteen pages of text on paper (approximately 6500 words) without illustrations, published by R. & J.E. Taylor, London, 1839",
+          "imageUrl": "https://www.artic.edu/iiif/2/30043a9f-bbe6-f53d-362e-8512dbb23c77/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/30043a9f-bbe6-f53d-362e-8512dbb23c77/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/39038",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-39020",
+          "title": "Bust of Patroclus",
+          "year": "August 9, 1843",
+          "medium": "Salted paper print",
+          "imageUrl": "https://www.artic.edu/iiif/2/40b91bc5-18c3-15cc-e498-675c1e6003b4/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/40b91bc5-18c3-15cc-e498-675c1e6003b4/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/39020",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-27057",
+          "title": "Nelson's Column under Construction, Trafalgar Square, London",
+          "year": "April 1844",
+          "medium": "Salted paper print",
+          "imageUrl": "https://www.artic.edu/iiif/2/f10bc39d-f0dc-e9b1-a3fc-c7f304992384/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/f10bc39d-f0dc-e9b1-a3fc-c7f304992384/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/27057",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-38945",
+          "title": "Portrait of Talbot's Wife (Constance) or Half-Sister (Caroline or Horatia)",
+          "year": "c. 1842",
+          "medium": "Calotype negative",
+          "imageUrl": "https://www.artic.edu/iiif/2/b0bdfc41-e0d4-41e6-3849-c7a6fd7f7f12/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/b0bdfc41-e0d4-41e6-3849-c7a6fd7f7f12/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/38945",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-27083",
+          "title": "The Chess Players",
+          "year": "c. 1843/47",
+          "medium": "Salted paper print",
+          "imageUrl": "https://www.artic.edu/iiif/2/804e8309-75eb-25ab-3045-47b5cf7d46ff/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/804e8309-75eb-25ab-3045-47b5cf7d46ff/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/27083",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-227552",
+          "title": "Articles of China",
+          "year": "1843-44",
+          "medium": "Salted paper print",
+          "imageUrl": "https://www.artic.edu/iiif/2/252bafc9-bd60-4ccc-c133-9e0e0b9c5327/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/252bafc9-bd60-4ccc-c133-9e0e0b9c5327/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/227552",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "charles-marville",
+      "name": "Charles Marville",
+      "lang": "ko",
+      "region": "foreign",
+      "nationality": "FR",
+      "birthYear": 1813,
+      "deathYear": 1879,
+      "tagline": "",
+      "bio": "",
+      "portraitUrl": null,
+      "tr": {
+        "en": {
+          "tagline": "",
+          "bio": ""
+        },
+        "ja": {
+          "tagline": "",
+          "bio": ""
+        }
+      },
+      "works": [
+        {
+          "id": "aic-181558",
+          "title": "Rue de la Montagne-Sainte-Geneviève near the Intersection of Rue LaPlace (Rue de la Montagne-Sainte-Geneviève prés de carrefour de la rue LaPlace)",
+          "year": "1865/69",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/76d6a66a-4276-3966-e9aa-90d74f04cd3e/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/76d6a66a-4276-3966-e9aa-90d74f04cd3e/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/181558",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-181557",
+          "title": "Rue Chartière (impasse Chartière) de la rue de Reims",
+          "year": "1865/69",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/f5ebe394-5d71-670c-b85e-183ed4c2b7cc/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/f5ebe394-5d71-670c-b85e-183ed4c2b7cc/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/181557",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-181925",
+          "title": "Church of Villeneuve le Comte, Seine-et-Marne (Eglise de Villeneuve le Comte, Seine-et-Marne)",
+          "year": "1862",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/f7a060ef-2a22-2023-a682-9d8574cdc01c/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/f7a060ef-2a22-2023-a682-9d8574cdc01c/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/181925",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-68063",
+          "title": "Untitled, from the series \"Bois de Boulogne\"",
+          "year": "c. 1850",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/8c9c46f7-c7a1-871d-aaf7-ad01e4b497ff/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/8c9c46f7-c7a1-871d-aaf7-ad01e4b497ff/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/68063",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-68039",
+          "title": "Untitled, from the series \"Bois de Boulogne\"",
+          "year": "c. 1850",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/ab35f1b8-8765-cdb4-477c-26d9f31238af/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/ab35f1b8-8765-cdb4-477c-26d9f31238af/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/68039",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-68043",
+          "title": "Untitled, from the series \"Bois de Boulogne\"",
+          "year": "c. 1850",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/7f0fa097-e5b9-85ad-1eb4-b4fb842d4f76/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/7f0fa097-e5b9-85ad-1eb4-b4fb842d4f76/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/68043",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-68044",
+          "title": "Untitled, from the series Bois de Boulogne\"",
+          "year": "c. 1850",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/1bd5a149-8c73-031e-a501-e2eb6cd89e6f/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/1bd5a149-8c73-031e-a501-e2eb6cd89e6f/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/68044",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-68054",
+          "title": "Untitled, from the series \"Bois de Boulogne\"",
+          "year": "c. 1850",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/2f793a28-c672-93e6-fa90-de9616dc5c0c/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/2f793a28-c672-93e6-fa90-de9616dc5c0c/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/68054",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "edward-curtis",
+      "name": "Edward S. Curtis",
+      "lang": "ko",
+      "region": "foreign",
+      "nationality": "US",
+      "birthYear": 1868,
+      "deathYear": 1952,
+      "tagline": "",
+      "bio": "",
+      "portraitUrl": null,
+      "tr": {
+        "en": {
+          "tagline": "",
+          "bio": ""
+        },
+        "ja": {
+          "tagline": "",
+          "bio": ""
+        }
+      },
+      "works": [
+        {
+          "id": "aic-50019",
+          "title": "New Chest-Piegan",
+          "year": "1910",
+          "medium": "Photogravure, plate 200 from \"The North American Indian, Volume 6\" (1911)",
+          "imageUrl": "https://www.artic.edu/iiif/2/c698d257-74ee-6f22-efa0-a6d32463efec/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/c698d257-74ee-6f22-efa0-a6d32463efec/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/50019",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-50062",
+          "title": "Wolf - Apsaroke",
+          "year": "1908",
+          "medium": "Photogravure, plate 142 from \"The North American Indian, Volume 4\" (1909)",
+          "imageUrl": "https://www.artic.edu/iiif/2/4eacc6cd-f435-7e4b-23f2-8423a1e77549/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/4eacc6cd-f435-7e4b-23f2-8423a1e77549/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/50062",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-50024",
+          "title": "Puget Sound Baskets",
+          "year": "1912",
+          "medium": "Photogravure, plate 309 from \"The North American Indian, Volume 9\" (1913)",
+          "imageUrl": "https://www.artic.edu/iiif/2/0a89fef5-5268-ee93-38ee-b70c79d54273/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/0a89fef5-5268-ee93-38ee-b70c79d54273/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/50024",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-49956",
+          "title": "Lummi Type",
+          "year": "1899",
+          "medium": "Photogravure, plate 320 from \"The North American Indian, Volume 9\" (1913)",
+          "imageUrl": "https://www.artic.edu/iiif/2/c166cbf3-cfc9-22c2-b351-70978e5b2532/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/c166cbf3-cfc9-22c2-b351-70978e5b2532/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/49956",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-49916",
+          "title": "Watching the Dancers",
+          "year": "1906",
+          "medium": "Photogravure, plate 405 from \"The North American Indian, Volume 12\" (1922)",
+          "imageUrl": "https://www.artic.edu/iiif/2/11b54ec6-b295-8157-e24e-c7d5f0962ed8/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/11b54ec6-b295-8157-e24e-c7d5f0962ed8/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/49916",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-49957",
+          "title": "A Hopi Mother",
+          "year": "1921",
+          "medium": "Photogravure, plate 403 from \"The North American Indian, Volume 12\" (1922)",
+          "imageUrl": "https://www.artic.edu/iiif/2/dfc8a384-fa63-b37d-ed5d-60f2077202e1/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/dfc8a384-fa63-b37d-ed5d-60f2077202e1/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/49957",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-49931",
+          "title": "The Seaweed Gatherer",
+          "year": "1915",
+          "medium": "Photogravure, plate 369 from \"The North American Indian, Volume 11\" (1916)",
+          "imageUrl": "https://www.artic.edu/iiif/2/49782774-f346-df03-5c06-2235807a551f/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/49782774-f346-df03-5c06-2235807a551f/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/49931",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-49940",
+          "title": "The Bowman",
+          "year": "1915",
+          "medium": "Photogravure, plate 365 from \"The North American Indian, Volume 11\" (1916)",
+          "imageUrl": "https://www.artic.edu/iiif/2/0a51b7ad-0e0b-495d-c3eb-a85ac022daa1/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/0a51b7ad-0e0b-495d-c3eb-a85ac022daa1/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/49940",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "peter-henry-emerson",
+      "name": "Peter Henry Emerson",
+      "lang": "ko",
+      "region": "foreign",
+      "nationality": "GB",
+      "birthYear": 1856,
+      "deathYear": 1936,
+      "tagline": "",
+      "bio": "",
+      "portraitUrl": null,
+      "tr": {
+        "en": {
+          "tagline": "",
+          "bio": ""
+        },
+        "ja": {
+          "tagline": "",
+          "bio": ""
+        }
+      },
+      "works": [
+        {
+          "id": "aic-145664",
+          "title": "\"Pickering Tor,\" Dove Dale",
+          "year": "1880s",
+          "medium": "Photogravure, plate XLVII from the album \"The Compleat Angler or the Contemplative Man's Recreation, Volume II\" (1888)",
+          "imageUrl": "https://www.artic.edu/iiif/2/be0c8b70-8e79-cbfe-19a8-08af1c884f27/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/be0c8b70-8e79-cbfe-19a8-08af1c884f27/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/145664",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-145668",
+          "title": "\"Pike Pool\" (from below)",
+          "year": "1880s",
+          "medium": "Photogravure, plate LI from the album \"The Compleat Angler or the Contemplative Man's Recreation, Volume II\" (1888)",
+          "imageUrl": "https://www.artic.edu/iiif/2/c3930844-edf2-6095-ff32-b74cf66e6e66/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/c3930844-edf2-6095-ff32-b74cf66e6e66/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/145668",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-145667",
+          "title": "\"Pike Pool,\" Beresford Dale",
+          "year": "1880s",
+          "medium": "Photogravure, plate L from the album \"The Compleat Angler or the Contemplative Man's Recreation, Volume II\" (1888)",
+          "imageUrl": "https://www.artic.edu/iiif/2/a608f3fd-1985-b080-3784-3b16f03c3ee6/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/a608f3fd-1985-b080-3784-3b16f03c3ee6/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/145667",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-124612",
+          "title": "A Stiff Pull, (Suffolk)",
+          "year": "c. 1883/87, printed 1888",
+          "medium": "Photogravure, plate IV from \"Pictures of East Anglian Life,\" published by Sampson Low, Marston, Searle & Rivington (1888)",
+          "imageUrl": "https://www.artic.edu/iiif/2/6fddf410-6a76-5fa5-212d-77addd397dd6/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/6fddf410-6a76-5fa5-212d-77addd397dd6/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/124612",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-124635",
+          "title": "A Toad in the Path: Early Spring in Norfolk",
+          "year": "c. 1883/87, printed 1888",
+          "medium": "Photogravure, pl. XXVII from the album \"Pictures of East Anglian Life\" (1888)",
+          "imageUrl": "https://www.artic.edu/iiif/2/f342bf43-bf95-2fde-47a2-1c6b097cd1c2/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/f342bf43-bf95-2fde-47a2-1c6b097cd1c2/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/124635",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-48809",
+          "title": "Poling the Marsh Hay",
+          "year": "1886",
+          "medium": "Platinum print, pl. XVII from the album \"Life and Landscape on the Norfolk Broads\" (1886)",
+          "imageUrl": "https://www.artic.edu/iiif/2/25c08e4e-6d82-fada-dc11-54d5bd12b97f/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/25c08e4e-6d82-fada-dc11-54d5bd12b97f/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/48809",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-145566",
+          "title": "Coming Home from the Marshes",
+          "year": "1886",
+          "medium": "Platinum print, pl. I from the album \"Life and Landscape on the Norfolk Broads\" (1886)",
+          "imageUrl": "https://www.artic.edu/iiif/2/742ca603-01bb-4b24-8ddd-c8778de5db0d/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/742ca603-01bb-4b24-8ddd-c8778de5db0d/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/145566",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-145585",
+          "title": "During the Reed Harvest",
+          "year": "1886",
+          "medium": "Platinum print, pl. XXVIII from the album \"Life and Landscape on the Norfolk Broads\" (1886)",
+          "imageUrl": "https://www.artic.edu/iiif/2/414a9708-a526-73fe-6482-c7bf30f4e5f8/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/414a9708-a526-73fe-6482-c7bf30f4e5f8/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/145585",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "eadweard-muybridge",
+      "name": "Eadweard Muybridge",
+      "lang": "ko",
+      "region": "foreign",
+      "nationality": "GB",
+      "birthYear": 1830,
+      "deathYear": 1904,
+      "tagline": "",
+      "bio": "",
+      "portraitUrl": null,
+      "tr": {
+        "en": {
+          "tagline": "",
+          "bio": ""
+        },
+        "ja": {
+          "tagline": "",
+          "bio": ""
+        }
+      },
+      "works": [
+        {
+          "id": "aic-195560",
+          "title": "Animal Locomotion, Plate 758",
+          "year": "1887",
+          "medium": "Collotype, from \"Animal Locomotion\"",
+          "imageUrl": "https://www.artic.edu/iiif/2/b0371e84-c3de-3e81-626e-bfcbd57af964/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/b0371e84-c3de-3e81-626e-bfcbd57af964/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/195560",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-212168",
+          "title": "Animal Locomotion, Plate 535",
+          "year": "1887",
+          "medium": "Collotype, from \"Animal Locomotion\"",
+          "imageUrl": "https://www.artic.edu/iiif/2/f32fc3f3-2642-e8b3-6062-f1663eeee6f5/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/f32fc3f3-2642-e8b3-6062-f1663eeee6f5/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/212168",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-195558",
+          "title": "Animal Locomotion, Plate 319",
+          "year": "1887",
+          "medium": "Collotype, from \"Animal Locomotion\"",
+          "imageUrl": "https://www.artic.edu/iiif/2/dfe9128c-e9cd-e9fd-48ea-64be128d23cd/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/dfe9128c-e9cd-e9fd-48ea-64be128d23cd/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/195558",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-212169",
+          "title": "Animal Locomotion, Plate 174",
+          "year": "1887",
+          "medium": "Collotype, from \"Animal Locomotion\"",
+          "imageUrl": "https://www.artic.edu/iiif/2/c063e76e-4808-3147-d70e-90f6c77b14d5/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/c063e76e-4808-3147-d70e-90f6c77b14d5/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/212169",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "aic-195559",
+          "title": "Animal Locomotion, Plate 469",
+          "year": "1887",
+          "medium": "Collotype, from \"Animal Locomotive\"",
+          "imageUrl": "https://www.artic.edu/iiif/2/34150316-4700-1893-d0fb-383798d2d173/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/34150316-4700-1893-d0fb-383798d2d173/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/195559",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "felice-beato",
+      "name": "Felice Beato",
+      "lang": "ko",
+      "region": "jp",
+      "nationality": "IT",
+      "birthYear": 1832,
+      "deathYear": 1909,
+      "tagline": "",
+      "bio": "",
+      "portraitUrl": null,
+      "tr": {
+        "en": {
+          "tagline": "",
+          "bio": ""
+        },
+        "ja": {
+          "tagline": "",
+          "bio": ""
+        }
+      },
+      "works": [
+        {
+          "id": "aic-202955",
+          "title": "Temple, Egypt",
+          "year": "c. 1870s",
+          "medium": "Albumen print",
+          "imageUrl": "https://www.artic.edu/iiif/2/a2dc8102-4147-07ce-1e62-c5cd9f3a7904/full/843,/0/default.jpg",
+          "thumbUrl": "https://www.artic.edu/iiif/2/a2dc8102-4147-07ce-1e62-c5cd9f3a7904/full/200,/0/default.jpg",
+          "source": "aic",
+          "sourceUrl": "https://www.artic.edu/artworks/202955",
+          "credit": "Art Institute of Chicago · CC0",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
