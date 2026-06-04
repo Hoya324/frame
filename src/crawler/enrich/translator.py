@@ -372,5 +372,18 @@ class GeminiTranslator:
         # the field to "" (which the UI would render as a blank translation).
         return out or text
 
+    def generate(self, prompt: str, *, temperature: float = 0.4) -> str:
+        """Generate free-form text from a prompt (not a translation). Reuses the
+        same key rotation + retry/quota handling as translate(). Returns the
+        model text, or "" when the response is empty/blocked."""
+        if not prompt or not prompt.strip():
+            return ""
+        key = self._acquire_key()
+        data = self._post({
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"temperature": temperature},
+        }, key)
+        return self._extract(data).strip()
+
     def close(self) -> None:
         self._client.close()
