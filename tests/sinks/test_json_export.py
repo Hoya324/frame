@@ -303,3 +303,38 @@ def test_written_file_is_strict_valid_json(tmp_path: Path):
     # parse_constant fires only on non-standard Infinity/NaN tokens.
     json.loads(text, parse_constant=lambda _t: (_ for _ in ()).throw(
         AssertionError("output contains a non-standard JSON constant")))
+
+
+def test_build_catalog_sanitizes_description_and_tr_but_keeps_titles():
+    # Scraped rows leak a third-party email and an inline <script> into the
+    # description (and its LLM translation). The export must strip both, while
+    # preserving legitimate angle-bracket artwork titles.
+    repo = FakeRepository()
+    repo.append_rows(SheetName.EXHIBITIONS, [{
+        "id": "e1", "source": "ilwoo_space", "status": "ongoing",
+        "source_url": "https://src/1", "title": "수상기념 <패 : FAIT>",
+        "description": (
+            "성남훈 작가. 이메일 np-sung@hanmail.net "
+            "<script>function resizeImage(){var a=1;}</script>"
+        ),
+        "tr": json.dumps({"en": {
+            "title": "<패 : FAIT>",
+            "description": "By Sung. Email np-sung@hanmail.net <script>x()</script>",
+        }}),
+        "poster_image_url": "https://example.com/p.jpg",
+        "medium": "photo", "genre_tags": "", "fee_type": "free",
+        "start_date": "2026-05-30", "end_date": "2026-07-20",
+        "artist_ids": "", "venue_id": "", "featured": "FALSE",
+    }])
+
+    ex = build_catalog(repo, generated_at=GEN_AT)["exhibitions"][0]
+
+    assert "np-sung@hanmail.net" not in ex["description"]
+    assert "<script" not in ex["description"]
+    assert "resizeImage" not in ex["description"]
+    assert ex["description"] == "성남훈 작가."
+    # Titles are not description-sanitized: legit angle brackets survive.
+    assert ex["title"] == "수상기념 <패 : FAIT>"
+    assert ex["tr"]["en"]["title"] == "<패 : FAIT>"
+    assert "np-sung@hanmail.net" not in ex["tr"]["en"]["description"]
+    assert "<script" not in ex["tr"]["en"]["description"]

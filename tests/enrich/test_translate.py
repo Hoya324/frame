@@ -93,26 +93,52 @@ def test_backfill_batch_size_is_env_configurable(monkeypatch):
     assert all(n <= 4 for n in tr.batch_calls)  # honored the cap
 
 
-def test_backfill_gives_up_after_consecutive_batch_failures():
-    # When the daily request quota is exhausted every batch 429s. The backfill
-    # must trip a circuit breaker and stop instead of hammering every remaining
-    # row (which only burns the quota harder and wastes the run). The cleared/
-    # unfilled rows are picked up by the next run once quota resets.
-    def _err_429():
-        req = httpx.Request("POST", "https://x/")
-        resp = httpx.Response(429, request=req)
-        return httpx.HTTPStatusError("rate limited", request=req, response=resp)
+def _daily_429():
+    # A per-day quota 429 carries a QuotaFailure violation whose id names a
+    # PerDay quota — that's what marks the daily budget as truly exhausted.
+    req = httpx.Request("POST", "https://x/")
+    resp = httpx.Response(
+        429,
+        request=req,
+        json={"error": {"details": [
+            {"@type": "type.googleapis.com/google.rpc.QuotaFailure",
+             "violations": [{"quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier"}]},
+        ]}},
+    )
+    return httpx.HTTPStatusError("rate limited", request=req, response=resp)
 
+
+def _per_minute_429():
+    # A per-minute (RPM) 429 names a PerMinute quota and clears within seconds —
+    # it must NOT be treated as the daily budget being exhausted.
+    req = httpx.Request("POST", "https://x/")
+    resp = httpx.Response(
+        429,
+        request=req,
+        json={"error": {"details": [
+            {"@type": "type.googleapis.com/google.rpc.QuotaFailure",
+             "violations": [{"quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"}]},
+        ]}},
+    )
+    return httpx.HTTPStatusError("rate limited", request=req, response=resp)
+
+
+def test_backfill_gives_up_after_consecutive_daily_quota_failures():
+    # When the daily request quota is exhausted every batch 429s with a PerDay
+    # violation. The backfill must trip a circuit breaker and stop instead of
+    # hammering every remaining row (which only burns time and the next day's
+    # quota). The cleared/unfilled rows are picked up by the next run once the
+    # daily quota resets.
     class FailingTranslator:
         def __init__(self):
             self.calls = 0
 
         def translate(self, text, from_code, to_code):
-            raise _err_429()
+            raise _daily_429()
 
         def translate_batch(self, jobs):
             self.calls += 1
-            raise _err_429()
+            raise _daily_429()
 
     rows = [{"id": f"e{i}", "title": f"제목{i}", "description": "", "tr": "", "lang": ""}
             for i in range(100)]
@@ -121,6 +147,31 @@ def test_backfill_gives_up_after_consecutive_batch_failures():
     report = backfill_translations(repo, t)
     assert t.calls <= 6                 # stopped early, didn't try all ~10 batches
     assert report.fields_translated == 0
+
+
+def test_backfill_does_not_give_up_on_per_minute_429():
+    # A per-minute (RPM) 429 is transient — it clears within the minute and the
+    # translator's own retry/backoff absorbs it. It must NOT trip the circuit
+    # breaker, or a brief RPM spike would abort a run whose daily quota is fine
+    # (the symptom: "quota left but it stopped"). The time budget bounds a run
+    # that keeps hitting RPM limits.
+    class RateLimited:
+        def __init__(self):
+            self.calls = 0
+
+        def translate(self, *a):
+            raise _per_minute_429()
+
+        def translate_batch(self, jobs):
+            self.calls += 1
+            raise _per_minute_429()
+
+    rows = [{"id": f"e{i}", "title": f"제목{i}", "description": "", "tr": "", "lang": ""}
+            for i in range(100)]
+    repo = FakeRepo({"exh": rows})
+    t = RateLimited()
+    backfill_translations(repo, t)
+    assert t.calls >= 9   # tried every batch (~10), breaker never tripped on RPM 429
 
 
 def test_backfill_does_not_give_up_on_transient_503s():

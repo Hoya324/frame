@@ -3538,7 +3538,7 @@ ruff check src/ tests/
 Create a Google Cloud service account, download its JSON key, and share the target sheet with the service-account email as an Editor.
 
 ```bash
-export SHEET_ID="1KjhDcaWVQizAcltjp4HHoWhMonztAeADAMMaaRtKRXI"
+export SHEET_ID="<your-sheet-id>"
 export GOOGLE_SERVICE_ACCOUNT_JSON="$(cat service-account.json)"
 export KAKAO_REST_API_KEY="..."
 ```

@@ -1,13 +1,19 @@
 name: backfill-translations
-# Manual translation backfill, then export + commit the refreshed catalog.
+# Translation backfill, then export + commit the refreshed catalog. Runs on a
+# 3-hourly schedule (incremental) so freshly crawled rows get translated quickly,
+# and on demand via workflow_dispatch (with an optional one-off `reset`).
 # Idempotent: by default only fills MISSING translations. Tick `reset` once to
 # rebuild everything after switching translation engines — it clears each row's
 # in-scope translations (covering every row regardless of the budget) and refills
-# what the budget/quota allows. The daily `crawl` job then resumes the rest: with
-# the free-tier Gemini key a full rebuild can't finish in one run (per-minute /
-# per-day rate limits), so this kicks it off and the daily incremental backfill
-# converges over the following days. Re-run any time.
+# what the budget/quota allows. Scheduled runs never reset (the `reset` input is
+# absent off workflow_dispatch). With several comma-separated GEMINI_API_KEY keys
+# the per-minute rate limit effectively disappears and the backlog clears in a
+# run or two; a single key converges over more runs.
 on:
+  schedule:
+    # Every 3 hours at :30 — offset from the daily crawl (18:00 UTC) so they
+    # don't queue on top of each other (both share the `crawl` concurrency group).
+    - cron: '30 */3 * * *'
   workflow_dispatch:
     inputs:
       reset:

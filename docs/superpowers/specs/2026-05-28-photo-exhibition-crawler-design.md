@@ -476,7 +476,7 @@ jobs:
 | 이름 | 발급 | 권한 |
 |---|---|---|
 | `GOOGLE_SERVICE_ACCOUNT_JSON` | GCP 콘솔 서비스 계정 키. **시트에 서비스 이메일 편집자 공유** | 시트 1개에만 |
-| `SHEET_ID` | 시드 시트 ID: `1KjhDcaWVQizAcltjp4HHoWhMonztAeADAMMaaRtKRXI` | n/a |
+| `SHEET_ID` | 시드 시트 ID: `<your-sheet-id>` | n/a |
 | `KAKAO_REST_API_KEY` | 카카오 개발자 콘솔 → 앱 → REST API 키 | 로컬 API만 |
 
 ### 9.3 시드 (`python -m crawler init-sheets`)
