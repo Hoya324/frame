@@ -69,5 +69,16 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add web/public/data/exhibitions.json
-          git diff --staged --quiet || git commit -m "chore(data): refresh exhibitions.json (full translation backfill)"
-          git push
+          git diff --staged --quiet && exit 0
+          git commit -m "chore(data): refresh exhibitions.json (full translation backfill)"
+          # main can move ahead between checkout and push (human pushes, prior
+          # runs). Rebase onto origin/main and retry; exhibitions.json is fully
+          # regenerated from the sheet, so favor our freshly-exported copy on
+          # conflict (-X theirs = the commit being replayed during rebase).
+          for attempt in 1 2 3 4 5; do
+            if git push; then exit 0; fi
+            echo "push rejected (attempt $attempt), rebasing onto origin/main..."
+            git pull --rebase -X theirs --autostash origin main
+          done
+          echo "::error::failed to push refreshed catalog after 5 attempts"
+          exit 1
