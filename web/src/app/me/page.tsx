@@ -6,6 +6,7 @@ import { FeedbackForm } from "@/components/FeedbackForm";
 import { useLang } from "@/components/LanguageProvider";
 import { useOnboarding } from "@/components/OnboardingProvider";
 import { InstallAppCard } from "@/components/InstallAppCard";
+import { ServiceInfo } from "@/components/ServiceInfo";
 import { resetOnboarding } from "@/lib/onboarding";
 
 export default function MePage() {
@@ -52,6 +53,7 @@ export default function MePage() {
       <div className="mt-4"><InstallAppCard /></div>
       <div className="mt-4"><SubscriptionSettings /></div>
       <div className="mt-4"><FeedbackForm /></div>
+      <div className="mt-4"><ServiceInfo /></div>
 
       <div className="mt-6 flex items-center gap-3">
         <button
