@@ -63,6 +63,9 @@ class CommentaryWriter:
         en, ja = self._engine.translate_batch([(ko, "ko", "en"), (ko, "ko", "ja")])
         value = LocalizedText(ko=ko, en=en, ja=ja)
         self._cache.put(key, facts_hash, value)
+        # Persist after every generation so a run interrupted by the daily quota
+        # cap keeps its progress and the next run resumes from the cache.
+        self._cache.save()
         return value
 
     def master_text(self, seed: MasterSeed) -> LocalizedText:
@@ -79,6 +82,7 @@ class CommentaryWriter:
         value = LocalizedText(ko=bio_ko, en=en_bio, ja=ja_bio,
                               ko_tagline=tag_ko, en_tagline=en_tag, ja_tagline=ja_tag)
         self._cache.put(f"master:{seed.id}", h, value)
+        self._cache.save()  # persist incrementally (see _localize)
         return value
 
     def work_text(self, work: RawWork, master_name: str) -> LocalizedText:
