@@ -15,9 +15,12 @@ import time
 from collections.abc import Callable
 from dataclasses import dataclass
 
-import httpx
-
-from crawler.enrich.translator import Translator, detect_lang, targets_for
+from crawler.enrich.translator import (
+    Translator,
+    _gemini_is_daily_429,
+    detect_lang,
+    targets_for,
+)
 from crawler.sinks.base import Repository, SheetName
 
 logger = logging.getLogger(__name__)
@@ -236,16 +239,19 @@ def backfill_translations(
             except Exception as exc:
                 logger.exception("translate_batch failed for %d jobs", len(jobs))
                 results = None
-                # Only a 429 (quota) trips the breaker; transient 503s recover and
-                # must not count, or a brief Gemini overload aborts the whole run.
-                is_quota = (
-                    isinstance(exc, httpx.HTTPStatusError)
-                    and exc.response.status_code == 429
-                )
-                if is_quota:
+                # Only a per-DAY quota 429 trips the breaker — that means the
+                # day's request budget is gone, so retrying only burns time and
+                # tomorrow's quota. Transient 503s (overload) and per-MINUTE 429s
+                # (RPM spikes) recover on their own — the translator's retry/backoff
+                # absorbs them — so they must NOT count, or a brief blip would abort
+                # a run whose daily quota is fine ("quota left but it stopped"). The
+                # time budget bounds a run that keeps hitting transient limits.
+                if _gemini_is_daily_429(exc):
                     consecutive_quota_fails += 1
                     if consecutive_quota_fails >= _MAX_CONSECUTIVE_QUOTA_FAILS:
                         circuit_open = True
+                else:
+                    consecutive_quota_fails = 0
         idx = 0
         for w in work_buf:
             existing = w["existing"]
