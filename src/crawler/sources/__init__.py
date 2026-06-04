@@ -12,6 +12,7 @@ from crawler.sources import (
     gallery_bresson,  # noqa: F401
     gallery_kong,  # noqa: F401
     gallery_lux,  # noqa: F401
+    gallery_tosei,  # noqa: F401
     goeun,  # noqa: F401
     ilwoo_space,  # noqa: F401
     koba,  # noqa: F401
