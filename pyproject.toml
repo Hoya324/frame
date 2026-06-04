@@ -6,6 +6,8 @@ build-backend = "hatchling.build"
 name = "photo-exhibition-crawler"
 version = "0.1.0"
 description = "Crawler for Korean photo/video/camera exhibitions"
+license = { file = "LICENSE" }
+classifiers = ["License :: Other/Proprietary License"]
 requires-python = ">=3.12"
 dependencies = [
   "pydantic>=2.6,<3",
