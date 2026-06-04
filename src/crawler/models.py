@@ -16,6 +16,7 @@ class SourceName(StrEnum):
     KOBA = "koba"
     GOEUN = "goeun"
     GALLERY_LUX = "gallery_lux"
+    GALLERY_NOW = "gallery_now"
     GALLERY_KONG = "gallery_kong"
     RYUGAHEON = "ryugaheon"
     ILWOO_SPACE = "ilwoo_space"
