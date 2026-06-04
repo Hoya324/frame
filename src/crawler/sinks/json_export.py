@@ -7,6 +7,7 @@ import math
 import os
 from datetime import UTC, datetime
 
+from crawler.normalize.text import sanitize_description
 from crawler.sinks.base import Repository, SheetName
 
 
@@ -51,14 +52,28 @@ def _bool(value: object) -> bool:
 
 
 def _tr(value: object) -> dict:
-    """Parse the stored ``tr`` JSON column into a nested {locale:{field:text}} dict."""
+    """Parse the stored ``tr`` JSON column into a nested {locale:{field:text}} dict.
+
+    Translated ``description`` fields are sanitized on the way out — they are
+    LLM translations of the source description and inherit the same leaked
+    <script>/email chrome, so the published snapshot stays clean even when the
+    sheet row predates the crawl-time sanitization."""
     if not value:
         return {}
     try:
         parsed = json.loads(value) if isinstance(value, str) else value
     except (ValueError, TypeError):
         return {}
-    return parsed if isinstance(parsed, dict) else {}
+    if not isinstance(parsed, dict):
+        return {}
+    for bucket in parsed.values():
+        if isinstance(bucket, dict) and bucket.get("description"):
+            cleaned = sanitize_description(bucket["description"])
+            if cleaned:
+                bucket["description"] = cleaned
+            else:
+                del bucket["description"]
+    return parsed
 
 
 # Sources that crawl all art genres, not just photography. Their rows are only
@@ -125,7 +140,7 @@ def _exhibition_json(row: dict, venues: dict[str, dict], artists: dict[str, dict
         "lang": _str_or_none(row.get("lang")),
         "tr": _tr(row.get("tr")),
         "poster_image_url": _str_or_none(row.get("poster_image_url")),
-        "description": _str_or_none(row.get("description")),
+        "description": _str_or_none(sanitize_description(_str_or_none(row.get("description")))),
         "medium": _str_or_none(row.get("medium")),
         "exhibition_type": _str_or_none(row.get("exhibition_type")),
         "genre_tags": _split(row.get("genre_tags")),

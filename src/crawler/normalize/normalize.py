@@ -18,7 +18,7 @@ from crawler.normalize.categories import (
 )
 from crawler.normalize.dates import parse_date_range
 from crawler.normalize.dedup import exhibition_id
-from crawler.normalize.text import clean_whitespace
+from crawler.normalize.text import clean_whitespace, sanitize_description
 
 
 def _opt(raw: dict, key: str) -> str | None:
@@ -105,7 +105,7 @@ def normalize_exhibition(raw_payload: RawExhibition) -> NormalizedExhibition:
         source_url=raw_payload.source_url,
         title=title,
         title_en=_opt(raw, "title_en"),
-        description=_opt(raw, "description"),
+        description=sanitize_description(_opt(raw, "description")) or None,
         poster_image_url=_poster_image_url(raw),
         medium=medium,
         exhibition_type=exhibition_type,
