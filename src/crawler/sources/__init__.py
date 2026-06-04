@@ -23,6 +23,7 @@ from crawler.sources import (
     sangsangmadang,  # noqa: F401
     tokyo_art_beat,  # noqa: F401
     tokyo_photographic_art_museum,  # noqa: F401
+    totem_pole,  # noqa: F401
     zen_foto,  # noqa: F401
 )
 

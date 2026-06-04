@@ -28,6 +28,7 @@ class SourceName(StrEnum):
     PGI = "pgi"
     ZEN_FOTO = "zen_foto"
     PLACE_M = "place_m"
+    TOTEM_POLE = "totem_pole"
 
 
 class Medium(StrEnum):
