@@ -13,3 +13,6 @@ service-account.json
 .superpowers/
 
 .worktrees/
+.cache/
+.claude/
+.venv
