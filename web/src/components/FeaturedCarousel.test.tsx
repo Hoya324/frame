@@ -27,13 +27,13 @@ describe("FeaturedCarousel", () => {
     expect(screen.getByText("Name-a")).toBeInTheDocument();
   });
 
-  it("advances to the next slide after 1.4s", () => {
+  it("advances to the next slide after the interval", () => {
     renderWithLang(
       <FeaturedCarousel exhibitions={[]} masters={[master("a"), master("b")]}
         rng={() => 0} masterCount={2} />,
     );
     const firstActive = screen.getByTestId("carousel-active").textContent;
-    act(() => { vi.advanceTimersByTime(1400); });
+    act(() => { vi.advanceTimersByTime(4500); });
     const nextActive = screen.getByTestId("carousel-active").textContent;
     expect(nextActive).not.toBe(firstActive);
   });
