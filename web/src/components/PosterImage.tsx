@@ -18,7 +18,12 @@ export function PosterImage({ src, alt }: { src: string | null; alt: string }) {
     );
   }
   return (
+    // referrerPolicy=no-referrer: Naver's blogthumb.pstatic.net (gallery_now /
+    // ryugaheon posters) returns 403 when a non-Naver Referer is sent. The site
+    // is a static export rendering a plain <img>, so without this every
+    // Naver-hosted poster breaks (browser sends the frame-photo.cloud Referer).
     <Image src={src} alt={alt} fill sizes="(max-width:760px) 50vw, 280px"
-      className="object-cover" unoptimized onError={() => setFailedSrc(src)} />
+      className="object-cover" unoptimized referrerPolicy="no-referrer"
+      onError={() => setFailedSrc(src)} />
   );
 }
