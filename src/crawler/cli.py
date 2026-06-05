@@ -274,7 +274,7 @@ def backfill_translations_cmd(
 @app.command("build-masters")
 def build_masters_cmd(
     output: str = "web/public/data/masters.json",
-    cache_path: str = ".cache/masters_commentary.json",
+    cache_path: str = "data/masters_commentary_cache.json",
     cap: int = 10,
     reset: bool = False,
 ) -> None:

@@ -20,12 +20,18 @@ jobs:
       - name: Build masters.json
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # Set repo var GEMINI_MODEL=gemini-2.5-flash-lite (or gemini-2.5-flash);
+          # the free tier is ~20 generate-requests/day per model, so a full
+          # backfill converges over several runs (the commentary cache is
+          # committed below and resumes each run).
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
         run: crawler build-masters
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add web/public/data/masters.json
-          git diff --cached --quiet || git commit -m "data(masters): refresh masters.json"
+          # Commit BOTH the output and the commentary cache so each run resumes
+          # from the last and the free-tier backfill converges over time.
+          git add web/public/data/masters.json data/masters_commentary_cache.json
+          git diff --cached --quiet || git commit -m "data(masters): refresh masters.json + commentary cache"
           git push
