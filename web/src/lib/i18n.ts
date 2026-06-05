@@ -156,6 +156,15 @@ const ko: Dict = {
   "onb.install.oneClick": "아래 ‘설치’ 버튼을 누르면 한 번에 홈 화면에 추가돼요.",
   "onb.install.manual": "이미 설치했다면 주소창의 ‘앱에서 열기’로 실행하세요. 아직이면 브라우저 메뉴에서 ‘홈 화면에 추가’를 선택하면 돼요.",
   "onb.install.already": "이미 앱으로 사용 중이에요. 바로 시작해 보세요!",
+  "masters.title": "거장의 시선",
+  "masters.subtitle": "사진의 거장들, 그리고 왜 위대한가",
+  "masters.regionKr": "한국",
+  "masters.regionJp": "일본",
+  "masters.regionForeign": "해외",
+  "masters.whyGreat": "왜 좋은 사진인가",
+  "masters.source": "출처",
+  "masters.viewOriginal": "원본 보기",
+  "masters.years": "{birth}–{death}",
 };
 
 const en: Dict = {
@@ -304,6 +313,15 @@ const en: Dict = {
   "onb.install.oneClick": "Tap 'Install' below to add it to your home screen in one step.",
   "onb.install.manual": "If it's already installed, open it via 'Open in app' in the address bar. Otherwise choose 'Add to Home Screen' from the browser menu.",
   "onb.install.already": "You're already using the app. Jump right in!",
+  "masters.title": "The Master's Gaze",
+  "masters.subtitle": "Masters of photography — and why they matter",
+  "masters.regionKr": "Korea",
+  "masters.regionJp": "Japan",
+  "masters.regionForeign": "International",
+  "masters.whyGreat": "Why it's a great photograph",
+  "masters.source": "Source",
+  "masters.viewOriginal": "View original",
+  "masters.years": "{birth}–{death}",
 };
 
 const ja: Dict = {
@@ -452,6 +470,15 @@ const ja: Dict = {
   "onb.install.oneClick": "下の「インストール」を押すと、ワンタップでホーム画面に追加できます。",
   "onb.install.manual": "すでにインストール済みならアドレスバーの「アプリで開く」から起動してください。まだなら、ブラウザメニューの「ホーム画面に追加」を選んでください。",
   "onb.install.already": "すでにアプリとしてご利用中です。さっそく始めましょう！",
+  "masters.title": "巨匠のまなざし",
+  "masters.subtitle": "写真の巨匠たち、そしてその偉大さ",
+  "masters.regionKr": "韓国",
+  "masters.regionJp": "日本",
+  "masters.regionForeign": "海外",
+  "masters.whyGreat": "なぜ優れた写真なのか",
+  "masters.source": "出典",
+  "masters.viewOriginal": "オリジナルを見る",
+  "masters.years": "{birth}–{death}",
 };
 
 const DICTS: Record<Locale, Dict> = { ko, en, ja };

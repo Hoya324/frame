@@ -1,6 +1,5 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
-import Link from "next/link";
 import { loadCatalogSync } from "@/lib/catalogClient";
 import { applyFilters, type FilterState } from "@/lib/filters";
 import { isClosingSoon } from "@/lib/status";
@@ -9,16 +8,18 @@ import { ExhibitionCard } from "@/components/ExhibitionCard";
 import { FilterChips } from "@/components/FilterChips";
 import { FilterGroup } from "@/components/controls/FilterGroup";
 import { SortChips } from "@/components/controls/SortChips";
-import { PosterImage } from "@/components/PosterImage";
 import { SwipeDeck } from "@/components/SwipeDeck";
 import { useLang } from "@/components/LanguageProvider";
 import { EVENTS, track } from "@/lib/analytics";
 import { useOnboarding } from "@/components/OnboardingProvider";
-import type { Exhibition } from "@/lib/catalog";
+import { FeaturedCarousel } from "@/components/FeaturedCarousel";
+import { parseMasters, type Master } from "@/lib/masters";
+import mastersRaw from "../../public/data/masters.json";
 
 export default function Home() {
   const catalog = loadCatalogSync();
   const today = new Date();
+  const masters: Master[] = useMemo(() => parseMasters(mastersRaw).masters, []);
   const { t } = useLang();
   const STATUS_OPTS = [
     { value: "ongoing", label: t("filter.ongoing") },
@@ -134,13 +135,10 @@ export default function Home() {
             </FilterGroup>
           </div>
 
-          {featured && (
-            <section className="mb-9 grid overflow-hidden rounded border border-line md:grid-cols-[1.1fr_0.9fr]">
-              <div className="relative min-h-[320px]">
-                <ExhibitionCardHero e={featured} />
-              </div>
-            </section>
-          )}
+          <FeaturedCarousel
+            exhibitions={featured ? [featured] : []}
+            masters={masters}
+          />
 
           {closingSoon.length > 0 && (
             <Section title={t("home.sectionClosing")} hint={t("home.sectionClosingHint")}>
@@ -191,21 +189,5 @@ function Section({ title, hint, children }: { title: string; hint: string; child
       </div>
       <div className="grid grid-cols-2 gap-4 md:grid-cols-4">{children}</div>
     </section>
-  );
-}
-
-function ExhibitionCardHero({ e }: { e: Exhibition }) {
-  const { t } = useLang();
-  return (
-    <Link href={`/exhibitions/${e.id}`} className="absolute inset-0">
-      <PosterImage src={e.posterImageUrl} alt={e.title} />
-      <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/90 to-transparent p-6">
-        <div className="text-[11px] font-semibold uppercase tracking-widest text-tx2">{t("home.featured")}</div>
-        <h2 className="mt-2 text-2xl font-extrabold tracking-tight">{e.title}</h2>
-        <div className="mt-2 text-sm text-tx2">
-          {e.venue?.name} · {e.startDate}–{e.endDate}
-        </div>
-      </div>
-    </Link>
   );
 }
