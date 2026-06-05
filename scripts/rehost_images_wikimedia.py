@@ -95,7 +95,18 @@ def main() -> None:
             w["credit"] = "Wikimedia Commons · Public domain"
             new_works.append(w)
             kept += 1
-        m["works"] = new_works
+        # Different works with similar titles can resolve to the SAME Commons
+        # file (e.g. several "Untitled, Bois de Boulogne" views) — that would show
+        # the same image + near-identical caption twice. Keep one per image.
+        seen_img: set[str] = set()
+        deduped = []
+        for w in new_works:
+            if w["imageUrl"] in seen_img:
+                kept -= 1
+                continue
+            seen_img.add(w["imageUrl"])
+            deduped.append(w)
+        m["works"] = deduped
         print(f"  {m['id']:24s} {len(new_works)} works (portrait={'y' if m.get('portraitUrl') else 'n'})")
 
     # drop masters that ended up with no works
