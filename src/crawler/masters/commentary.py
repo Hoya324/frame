@@ -6,10 +6,15 @@ translator to produce en/ja. Results are cached by a hash of the inputs."""
 from __future__ import annotations
 
 import hashlib
+import logging
 from typing import Protocol
 
 from crawler.masters.cache import CommentaryCache, LocalizedText
 from crawler.masters.models import MasterSeed, RawWork
+
+logger = logging.getLogger(__name__)
+
+_EMPTY = LocalizedText(ko="", en="", ja="")
 
 
 class TextEngine(Protocol):
@@ -59,8 +64,15 @@ class CommentaryWriter:
         hit = self._cache.get(key, facts_hash)
         if hit is not None:
             return hit
-        ko = self._engine.generate(prompt)
-        en, ja = self._engine.translate_batch([(ko, "ko", "en"), (ko, "ko", "ja")])
+        try:
+            ko = self._engine.generate(prompt)
+            en, ja = self._engine.translate_batch([(ko, "ko", "en"), (ko, "ko", "ja")])
+        except Exception:
+            # A quota/network failure on one item must not sink the whole build.
+            # Return empty (so the work still ships, just without commentary) and
+            # DON'T cache it, so a later run retries this item.
+            logger.warning("commentary: generation failed for %s; leaving empty", key)
+            return _EMPTY
         value = LocalizedText(ko=ko, en=en, ja=ja)
         self._cache.put(key, facts_hash, value)
         # Persist after every generation so a run interrupted by the daily quota
@@ -73,12 +85,16 @@ class CommentaryWriter:
         hit = self._cache.get(f"master:{seed.id}", h)
         if hit is not None:
             return hit
-        bio_ko = self._engine.generate(_master_prompt(seed))
-        tag_ko = self._engine.generate(_tagline_prompt(seed))
-        en_bio, ja_bio, en_tag, ja_tag = self._engine.translate_batch([
-            (bio_ko, "ko", "en"), (bio_ko, "ko", "ja"),
-            (tag_ko, "ko", "en"), (tag_ko, "ko", "ja"),
-        ])
+        try:
+            bio_ko = self._engine.generate(_master_prompt(seed))
+            tag_ko = self._engine.generate(_tagline_prompt(seed))
+            en_bio, ja_bio, en_tag, ja_tag = self._engine.translate_batch([
+                (bio_ko, "ko", "en"), (bio_ko, "ko", "ja"),
+                (tag_ko, "ko", "en"), (tag_ko, "ko", "ja"),
+            ])
+        except Exception:
+            logger.warning("commentary: generation failed for master:%s; leaving empty", seed.id)
+            return _EMPTY
         value = LocalizedText(ko=bio_ko, en=en_bio, ja=ja_bio,
                               ko_tagline=tag_ko, en_tagline=en_tag, ja_tagline=ja_tag)
         self._cache.put(f"master:{seed.id}", h, value)

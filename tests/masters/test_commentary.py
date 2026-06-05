@@ -55,3 +55,31 @@ def test_work_text_generates_and_translates(tmp_path):
     out = w.work_text(_work(), master_name="Eugène Atget")
     assert out.ko == "한국어 본문"
     assert out.en.startswith("en:")
+
+
+class FailingGemini:
+    def generate(self, prompt, *, temperature=0.4):
+        raise RuntimeError("429 Too Many Requests")
+
+    def translate_batch(self, jobs):
+        raise RuntimeError("429 Too Many Requests")
+
+
+def test_generation_failure_returns_empty_not_cached(tmp_path):
+    # A quota/network failure on one item must not crash the build: the item
+    # comes back empty and is NOT cached, so a recovered run retries it.
+    cache = CommentaryCache(tmp_path / "c.json")
+    w = CommentaryWriter(FailingGemini(), cache)
+
+    out = w.work_text(_work(), master_name="Eugène Atget")
+    assert out.ko == "" and out.en == "" and out.ja == ""
+    assert cache.get(f"work:{_work().work_id}", "any") is None  # not cached
+
+    mt = w.master_text(_seed())
+    assert mt.ko == "" and mt.ko_tagline == ""
+
+    # A subsequent successful engine fills it in (proves the empty wasn't cached).
+    g = FakeGemini()
+    w2 = CommentaryWriter(g, cache)
+    out2 = w2.work_text(_work(), master_name="Eugène Atget")
+    assert out2.ko == "한국어 본문"
