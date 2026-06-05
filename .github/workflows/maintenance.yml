@@ -1,0 +1,77 @@
+name: maintenance
+# Catalog maintenance between daily crawls: backfill any venues still missing
+# coordinates, then re-export the static snapshot and commit it. The export now
+# also collapses cross-source duplicates (the same exhibition listed by both its
+# primary source and an aggregator like artmap / tokyo_art_beat) — see
+# json_export._collapse_cross_source — so a maintenance run is what propagates a
+# fresh dedupe to the deployed site without waiting for the next full crawl.
+#
+# Idempotent and read-mostly: geocode backfill only touches venues with empty
+# lat/lng, and the dedupe is computed purely at export time (the sheet is never
+# mutated, so no exhibition data can be lost). A run that finds nothing to do
+# commits nothing.
+on:
+  schedule:
+    # 09:00 UTC = 18:00 KST — offset from the daily crawl (18:00 UTC) and the
+    # 3-hourly translation backfill so they don't queue on the shared `crawl`
+    # concurrency group at the same time.
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+# Share the crawl group so maintenance never writes/commits the sheet snapshot
+# at the same time as the daily crawl or a translation backfill.
+concurrency:
+  group: crawl
+  cancel-in-progress: false
+jobs:
+  maintenance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+      - run: pip install -e .
+      # Sweep up venues that ended a crawl without coordinates (mostly TAB
+      # venues whose first geocode hit was a transient miss). Idempotent;
+      # filtered to venues with empty latitude/longitude. continue-on-error so a
+      # geocode blip can't strand the export/commit below on stale data.
+      - name: Backfill missing geocodes
+        continue-on-error: true
+        run: crawler backfill-geocodes
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SHEET_ID: ${{ secrets.SHEET_ID }}
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+      # Regenerate the static catalog the web app reads. This step also applies
+      # the cross-source dedupe, so it's what removes duplicates from the live
+      # site. Always runs even if the geocode step failed.
+      - name: Export catalog JSON for web
+        if: always()
+        run: crawler export-json --out web/public/data/exhibitions.json
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SHEET_ID: ${{ secrets.SHEET_ID }}
+      - name: Commit updated catalog
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/public/data/exhibitions.json
+          git diff --staged --quiet && exit 0
+          git commit -m "chore(data): maintenance refresh (dedupe + geocodes)"
+          # main can move ahead between checkout and push (human pushes, prior
+          # runs). Rebase onto origin/main and retry; exhibitions.json is fully
+          # regenerated from the sheet, so favor our freshly-exported copy on
+          # conflict (-X theirs = the commit being replayed during rebase).
+          for attempt in 1 2 3 4 5; do
+            if git push; then exit 0; fi
+            echo "push rejected (attempt $attempt), rebasing onto origin/main..."
+            git pull --rebase -X theirs --autostash origin main
+          done
+          echo "::error::failed to push refreshed catalog after 5 attempts"
+          exit 1

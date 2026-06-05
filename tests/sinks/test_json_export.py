@@ -158,6 +158,87 @@ def test_build_catalog_collapses_duplicate_exhibition_ids():
     assert catalog["exhibitions"][0]["id"] == "e1"
 
 
+def _cross_source_pair() -> FakeRepository:
+    """The same exhibition crawled from an aggregator (artmap) and from the
+    venue's primary source (museum_hanmi). Different ids (the natural key
+    includes `source`), same title/start/end. The aggregator carries the artist
+    association; the primary carries the richer description."""
+    repo = FakeRepository()
+    repo.append_rows(SheetName.ARTISTS, [{"id": "a1", "name": "육명심", "name_en": ""}])
+    base = {
+        "title": "《모든 순간이 꽃봉오리인 것을》", "title_en": "",
+        "poster_image_url": "", "medium": "photo", "exhibition_type": "group",
+        "fee_type": "free", "price_min": "", "price_max": "",
+        "start_date": "2026-03-27", "end_date": "2026-07-19", "open_hours": "",
+        "venue_id": "", "featured": "FALSE", "popularity_score": "",
+        "status": "ongoing",
+    }
+    repo.append_rows(SheetName.EXHIBITIONS, [
+        {**base, "id": "e_artmap", "source": "artmap", "source_url": "https://s/a",
+         "description": "짧은 설명", "genre_tags": "documentary",
+         "artist_ids": "a1"},
+        {**base, "id": "e_hanmi", "source": "museum_hanmi", "source_url": "https://s/h",
+         "description": "훨씬 더 긴 공식 설명 텍스트", "genre_tags": "",
+         "artist_ids": ""},
+    ])
+    return repo
+
+
+def test_build_catalog_collapses_cross_source_duplicates():
+    catalog = build_catalog(_cross_source_pair(), generated_at=GEN_AT)
+    assert len(catalog["exhibitions"]) == 1
+    ex = catalog["exhibitions"][0]
+    # Primary (non-aggregator) source wins over the artmap aggregator row.
+    assert ex["source"] == "museum_hanmi"
+    assert ex["id"] == "e_hanmi"
+    # The aggregator's artist + genre associations are grafted onto the winner
+    # so collapsing never loses data.
+    assert ex["artists"] == [{"id": "a1", "name": "육명심", "lang": None, "tr": {}}]
+    assert ex["genre_tags"] == ["documentary"]
+    # The grafted artist is still referenced, so it survives the orphan prune.
+    assert {a["id"] for a in catalog["artists"]} == {"a1"}
+
+
+def test_build_catalog_keeps_recurring_shows_with_different_dates():
+    """Same title, different start_date → genuinely different (annual) shows.
+    The (title, start, end) key keeps them separate; only true duplicates merge."""
+    repo = FakeRepository()
+    base = {
+        "title": "올해의 작가전", "title_en": "", "description": "",
+        "poster_image_url": "", "medium": "photo", "exhibition_type": "group",
+        "genre_tags": "", "fee_type": "free", "price_min": "", "price_max": "",
+        "open_hours": "", "artist_ids": "", "venue_id": "", "featured": "FALSE",
+        "popularity_score": "", "status": "past", "source": "goeun",
+    }
+    repo.append_rows(SheetName.EXHIBITIONS, [
+        {**base, "id": "y2024", "source_url": "https://s/1",
+         "start_date": "2024-12-20", "end_date": "2025-02-20"},
+        {**base, "id": "y2023", "source_url": "https://s/2",
+         "start_date": "2023-11-25", "end_date": "2024-01-25"},
+    ])
+    catalog = build_catalog(repo, generated_at=GEN_AT)
+    assert {e["id"] for e in catalog["exhibitions"]} == {"y2024", "y2023"}
+
+
+def test_build_catalog_does_not_merge_rows_missing_title_or_start():
+    """Rows without a title or start_date can't be safely matched, so they pass
+    through untouched rather than collapsing into one blank bucket."""
+    repo = FakeRepository()
+    base = {
+        "title_en": "", "description": "", "poster_image_url": "",
+        "medium": "photo", "exhibition_type": "group", "genre_tags": "",
+        "fee_type": "free", "price_min": "", "price_max": "", "end_date": "",
+        "open_hours": "", "artist_ids": "", "venue_id": "", "featured": "FALSE",
+        "popularity_score": "", "status": "ongoing", "source": "pgi",
+    }
+    repo.append_rows(SheetName.EXHIBITIONS, [
+        {**base, "id": "e1", "source_url": "https://s/1", "title": "", "start_date": ""},
+        {**base, "id": "e2", "source_url": "https://s/2", "title": "", "start_date": ""},
+    ])
+    catalog = build_catalog(repo, generated_at=GEN_AT)
+    assert {e["id"] for e in catalog["exhibitions"]} == {"e1", "e2"}
+
+
 def test_build_catalog_drops_unknown_artist_ids():
     repo = FakeRepository()
     repo.append_rows(SheetName.ARTISTS, [{"id": "a1", "name": "있는작가", "name_en": ""}])

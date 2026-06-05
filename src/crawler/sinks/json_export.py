@@ -3,12 +3,16 @@
 from __future__ import annotations
 
 import json
+import logging
 import math
 import os
+import re
 from datetime import UTC, datetime
 
 from crawler.normalize.text import sanitize_description
 from crawler.sinks.base import Repository, SheetName
+
+log = logging.getLogger(__name__)
 
 
 def _id(value: object) -> str:
@@ -88,6 +92,101 @@ def _is_photo_relevant(row: dict) -> bool:
     if _str_or_none(row.get("source")) not in _GENERAL_SOURCES:
         return True
     return _str_or_none(row.get("medium")) in _PHOTO_MEDIUMS
+
+
+# Aggregator sources re-list exhibitions that originate elsewhere (the venue's
+# own site, an official museum feed). When the same show is crawled both from
+# its primary source and from an aggregator, the two rows carry different ids
+# (the natural key in normalize/dedup.py includes `source`), so the id-collapse
+# above can't merge them. We collapse them here, preferring the primary
+# (non-aggregator) row. tokyo_art_beat is Japan's cross-venue aggregator, the
+# JP analogue of artmap.
+_AGGREGATOR_SOURCES = {"artmap", "naver", "tokyo_art_beat"}
+
+# Title noise stripped before matching: bracket/quote ornaments and all
+# whitespace. Two sources punctuate the same title differently, so we compare
+# the bare characters.
+_DEDUP_STRIP = re.compile(r"[《》「」『』\"'“”‘’()\[\]\s]")
+
+
+def _dedup_title_key(title: object) -> str:
+    if not title:
+        return ""
+    return _DEDUP_STRIP.sub("", str(title)).lower()
+
+
+def _primary_sort_key(row: dict) -> tuple:
+    """Order duplicates so the most authoritative/complete row sorts first.
+
+    Primary source beats aggregator; then richer description, more artists, a
+    poster; finally the id for a stable, deterministic tiebreak."""
+    src = _str_or_none(row.get("source")) or ""
+    return (
+        0 if src not in _AGGREGATOR_SOURCES else 1,
+        -len(_str_or_none(row.get("description")) or ""),
+        -len(_split(row.get("artist_ids"))),
+        0 if _str_or_none(row.get("poster_image_url")) else 1,
+        _id(row.get("id")),
+    )
+
+
+def _merge_duplicate(members: list[dict]) -> dict:
+    """Collapse a set of duplicate rows into one, keeping the primary row's
+    prose (description/poster stay internally consistent with its `source`)
+    while grafting on the union of every member's artist/genre associations so
+    the merge never drops data the aggregator carried but the primary lacked."""
+    winner = dict(min(members, key=_primary_sort_key))
+    artist_ids = _split(winner.get("artist_ids"))
+    genres = _split(winner.get("genre_tags"))
+    seen_a, seen_g = set(artist_ids), set(genres)
+    for row in members:
+        for aid in _split(row.get("artist_ids")):
+            if aid not in seen_a:
+                seen_a.add(aid)
+                artist_ids.append(aid)
+        for genre in _split(row.get("genre_tags")):
+            if genre not in seen_g:
+                seen_g.add(genre)
+                genres.append(genre)
+    winner["artist_ids"] = ",".join(artist_ids)
+    winner["genre_tags"] = ",".join(genres)
+    return winner
+
+
+def _collapse_cross_source(rows: list[dict]) -> list[dict]:
+    """Merge cross-source duplicates keyed on (normalized title, start, end).
+
+    The (title, start, end) triple is tight enough that recurring annual shows
+    (same title, different dates) stay separate, while the same exhibition
+    listed by two sources collapses to one. Rows missing a title or start_date
+    can't be matched safely, so they pass through untouched. Output order
+    follows first appearance, so the snapshot stays stable run-to-run."""
+    slots: dict[tuple, int] = {}
+    buckets: list[list[dict]] = []
+    for row in rows:
+        title_key = _dedup_title_key(row.get("title"))
+        start = _str_or_none(row.get("start_date"))
+        if not title_key or not start:
+            buckets.append([row])
+            continue
+        key = (title_key, start, _str_or_none(row.get("end_date")))
+        if key in slots:
+            buckets[slots[key]].append(row)
+        else:
+            slots[key] = len(buckets)
+            buckets.append([row])
+
+    collapsed = 0
+    out: list[dict] = []
+    for members in buckets:
+        if len(members) == 1:
+            out.append(members[0])
+            continue
+        collapsed += len(members) - 1
+        out.append(_merge_duplicate(members))
+    if collapsed:
+        log.info("collapsed %d cross-source duplicate exhibition(s)", collapsed)
+    return out
 
 
 def _venue_full(row: dict) -> dict:
@@ -186,6 +285,9 @@ def build_catalog(repo: Repository, generated_at: datetime) -> dict:
         deduped_rows[rid] = r
 
     kept_rows = [r for r in deduped_rows.values() if _is_photo_relevant(r)]
+    # Merge the same exhibition listed by both its primary source and an
+    # aggregator (different ids, so the id-collapse above misses them).
+    kept_rows = _collapse_cross_source(kept_rows)
 
     # Drop venues/artists that no surviving exhibition references, so the
     # region dropdown and other reference lists don't surface dead entries.
