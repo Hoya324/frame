@@ -1,8 +1,21 @@
-const CACHE = "frame-v1";
+// Bump CACHE when shipped data/assets change so clients drop the stale copy.
+// (v1 cached the old masters.json with broken AIC image URLs.)
+const CACHE = "frame-v2";
 const IMG_CACHE = "frame-img-v1";
 
 self.addEventListener("install", () => self.skipWaiting());
-self.addEventListener("activate", (event) => event.waitUntil(self.clients.claim()));
+self.addEventListener("activate", (event) =>
+  event.waitUntil(
+    caches
+      .keys()
+      .then((keys) =>
+        Promise.all(
+          keys.filter((k) => k !== CACHE && k !== IMG_CACHE).map((k) => caches.delete(k)),
+        ),
+      )
+      .then(() => self.clients.claim()),
+  ),
+);
 
 self.addEventListener("fetch", (event) => {
   const { request } = event;
