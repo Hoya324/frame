@@ -26,6 +26,12 @@ jobs:
           # committed below and resumes each run).
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
         run: crawler build-masters
+      - name: Re-host images to Wikimedia Commons
+        # AIC's IIIF server Cloudflare-blocks cross-origin <img> embedding, so the
+        # build's AIC image URLs 403 for end users. Re-point each work to the same
+        # public-domain work on Wikimedia Commons (reliable hotlinking) and fill
+        # master portraits. Keeps commentary; drops works with no Commons match.
+        run: python scripts/rehost_images_wikimedia.py
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
