@@ -44,6 +44,9 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        {/* Warm up the connection to the masters' image host for faster first paint. */}
+        <link rel="preconnect" href="https://upload.wikimedia.org" crossOrigin="" />
+        <link rel="dns-prefetch" href="https://upload.wikimedia.org" />
         <LanguageProvider>
           <AuthProvider>
             <AnalyticsProvider />
