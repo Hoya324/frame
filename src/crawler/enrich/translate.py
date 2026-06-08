@@ -55,6 +55,16 @@ class TranslationReport:
     rows_patched: int
     fields_translated: int
     errors: int
+    # Total field→locale jobs that were missing at the start of this run (the
+    # whole backlog, regardless of the time budget). ``fields_remaining`` below
+    # is the slice this run didn't get to — the convergence signal a CI summary
+    # needs to tell "still working through it" apart from "done / stuck".
+    fields_pending: int = 0
+
+    @property
+    def fields_remaining(self) -> int:
+        """In-scope translations still missing after this run (pending minus done)."""
+        return max(0, self.fields_pending - self.fields_translated)
 
 
 def _row_lang(row: dict, fields: tuple[str, ...]) -> str:
@@ -216,6 +226,9 @@ def backfill_translations(
         seen += s
         per_sheet_work.append(work)
     work_items = _round_robin(per_sheet_work)
+    # The full translation backlog at run start — what the CI summary divides
+    # into "done this run" vs "still remaining" so progress is legible.
+    fields_pending = sum(len(item["jobs"]) for item in work_items)
 
     # Phase 2: fill missing translations, batching many field→locale jobs into one
     # request (the free tier caps requests, not tokens). Items carry their sheet,
@@ -280,4 +293,6 @@ def backfill_translations(
     for sheet in _FIELDS:
         flush(sheet)
 
-    return TranslationReport(seen, rows_patched, fields_translated, errors)
+    return TranslationReport(
+        seen, rows_patched, fields_translated, errors, fields_pending=fields_pending
+    )

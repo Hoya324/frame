@@ -93,6 +93,31 @@ def test_backfill_batch_size_is_env_configurable(monkeypatch):
     assert all(n <= 4 for n in tr.batch_calls)  # honored the cap
 
 
+def test_report_tracks_pending_and_remaining_backlog():
+    # The CI summary needs the full backlog to show convergence. Two Korean
+    # exhibitions, title+description each -> en+ja = 4 jobs/row = 8 pending.
+    rows = [{"id": f"e{i}", "title": f"제목{i}", "description": f"설명{i}",
+             "tr": "", "lang": ""} for i in range(2)]
+    repo = FakeRepo({"exh": rows})
+    report = backfill_translations(repo, FakeTranslator())
+    assert report.fields_pending == 8
+    assert report.fields_translated == 8
+    assert report.fields_remaining == 0   # fully caught up
+
+
+def test_report_remaining_reflects_unfinished_work_on_budget_cut():
+    # A zero time budget stops before any batch runs, so the whole backlog is
+    # still pending and 'remaining' equals it — the "not done yet" signal.
+    rows = [{"id": f"e{i}", "title": f"제목{i}", "description": "",
+             "tr": "", "lang": ""} for i in range(3)]   # title -> en+ja = 6 jobs
+    repo = FakeRepo({"exh": rows})
+    report = backfill_translations(repo, FakeTranslator(), max_seconds=0.0001,
+                                   now=iter([0.0, 1.0, 2.0, 3.0, 4.0]).__next__)
+    assert report.fields_pending == 6
+    assert report.fields_translated == 0
+    assert report.fields_remaining == 6
+
+
 def _daily_429():
     # A per-day quota 429 carries a QuotaFailure violation whose id names a
     # PerDay quota — that's what marks the daily budget as truly exhausted.

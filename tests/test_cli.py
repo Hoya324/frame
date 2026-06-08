@@ -109,6 +109,32 @@ def test_backfill_translations_invokes_backfill(monkeypatch):
     assert calls["reset"] is True
 
 
+def test_backfill_translations_writes_github_step_summary(monkeypatch, tmp_path):
+    import crawler.cli as cli
+    from crawler.enrich.translate import TranslationReport
+
+    def fake_backfill(repo, translator, max_seconds=None, reset=False):
+        # 10 in scope, 6 done this run -> 4 remaining (still converging).
+        return TranslationReport(
+            rows_seen=5, rows_patched=3, fields_translated=6, errors=1,
+            fields_pending=10,
+        )
+
+    monkeypatch.setattr(cli, "_build_repo", lambda: object())
+    monkeypatch.setattr(cli, "_build_translator", lambda: object())
+    monkeypatch.setattr("crawler.enrich.translate.backfill_translations", fake_backfill)
+
+    summary = tmp_path / "summary.md"
+    monkeypatch.setenv("GITHUB_STEP_SUMMARY", str(summary))
+    cli.backfill_translations_cmd(max_seconds=1800.0, reset=False)
+
+    text = summary.read_text(encoding="utf-8")
+    assert "Translation backfill" in text
+    assert "in progress" in text          # remaining > 0
+    assert "| **fields remaining** | **4** |" in text
+    assert "| rows patched | 3 |" in text
+
+
 def test_build_translator_prefers_gemini_when_key_set(monkeypatch):
     import crawler.cli as cli
     from crawler.enrich.translator import GeminiTranslator

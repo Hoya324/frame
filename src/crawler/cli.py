@@ -263,12 +263,54 @@ def backfill_translations_cmd(
     translator = _build_translator()
     budget = max_seconds if max_seconds > 0 else None
     report = backfill_translations(repo, translator, max_seconds=budget, reset=reset)
+    engine = type(translator).__name__
     typer.echo(
-        f"translations: seen={report.rows_seen}, patched={report.rows_patched}, "
-        f"fields={report.fields_translated}, errors={report.errors}"
+        f"translations [{engine}]: seen={report.rows_seen}, "
+        f"patched={report.rows_patched}, fields={report.fields_translated}, "
+        f"remaining={report.fields_remaining}, errors={report.errors}"
     )
+    # Surface the same numbers in the GitHub Actions run summary so a glance at
+    # the CI page shows whether the backfill is converging (remaining shrinking)
+    # without digging through step logs. No-op locally (env var unset).
+    _write_translation_summary(report, engine=engine, budget=budget, reset=reset)
     if report.errors > 0 and report.rows_patched == 0:
         raise typer.Exit(code=1)
+
+
+def _write_translation_summary(report, *, engine: str, budget, reset: bool) -> None:
+    """Append a markdown summary of a translation backfill to GITHUB_STEP_SUMMARY.
+
+    Does nothing outside GitHub Actions (the env var is unset). The same numbers
+    print to stdout regardless; this only makes them visible on the run page.
+    """
+    import os
+
+    path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if not path:
+        return
+    done = report.fields_pending == 0 or report.fields_remaining == 0
+    status = "✅ caught up" if done else "⏳ in progress"
+    budget_label = f"{int(budget)}s" if budget else "unbounded"
+    lines = [
+        "### 🌐 Translation backfill",
+        "",
+        f"**{status}** · engine `{engine}` · budget {budget_label}"
+        + (" · **reset**" if reset else ""),
+        "",
+        "| metric | count |",
+        "| --- | ---: |",
+        f"| rows seen | {report.rows_seen} |",
+        f"| rows patched | {report.rows_patched} |",
+        f"| fields translated this run | {report.fields_translated} |",
+        f"| **fields remaining** | **{report.fields_remaining}** |",
+        f"| errors | {report.errors} |",
+        "",
+    ]
+    try:
+        with open(path, "a", encoding="utf-8") as fh:
+            fh.write("\n".join(lines) + "\n")
+    except OSError:
+        log.warning("could not write GITHUB_STEP_SUMMARY at %s", path, exc_info=True)
 
 
 @app.command("build-masters")
