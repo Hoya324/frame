@@ -32,6 +32,7 @@ jobs:
     timeout-minutes: 45
     permissions:
       contents: write
+      actions: write  # dispatch deploy-pages after a data push
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -71,6 +72,8 @@ jobs:
           SHEET_ID: ${{ secrets.SHEET_ID }}
       - name: Commit updated catalog
         if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -82,7 +85,15 @@ jobs:
           # regenerated from the sheet, so favor our freshly-exported copy on
           # conflict (-X theirs = the commit being replayed during rebase).
           for attempt in 1 2 3 4 5; do
-            if git push; then exit 0; fi
+            if git push; then
+              # github-actions[bot] pushes via GITHUB_TOKEN, which (anti-recursion)
+              # does NOT trigger deploy-pages' on:push — so dispatch it explicitly
+              # to publish the refreshed data (workflow_dispatch IS exempt from the
+              # GITHUB_TOKEN no-trigger rule). Non-fatal: the data is already pushed.
+              gh workflow run deploy-pages.yml --ref main \
+                || echo "::warning::deploy-pages dispatch failed; data pushed, site updates on next deploy"
+              exit 0
+            fi
             echo "push rejected (attempt $attempt), rebasing onto origin/main..."
             git pull --rebase -X theirs --autostash origin main
           done
