@@ -305,6 +305,27 @@ def test_korean_row_with_no_other_locales_is_left_untouched():
     assert tr["ja"]["title"] == "[ja]을지로의 밤"
 
 
+def test_reset_cleared_row_still_records_detected_lang():
+    # `lang` is a script-detected label, independent of whether any translation
+    # survives. A reset wipes a row's in-scope tr (existing -> empty), but the
+    # persisted row must still carry its detected source language so downstream
+    # consumers (and a later resume) see correct metadata rather than a blank.
+    existing = json.dumps({"ko": {"title": "OLD"}})
+    repo = FakeRepo({"exh": [
+        {"id": "e1", "title": "頂上", "description": "",
+         "tr": existing, "lang": "ja"},
+    ]})
+    # deadline=1 with a clock that's already past it: the clear phase runs and
+    # persists, but the fill phase translates nothing — so the patched row's tr
+    # ends up empty, exercising the "no translation, still set lang" path.
+    clock = iter([0, 100, 100, 100, 100])
+    backfill_translations(repo, FakeTranslator(), flush_every=100,
+                          max_seconds=1, now=lambda: next(clock), reset=True)
+    row = {r["id"]: r for r in repo.patched[SheetName.EXHIBITIONS]}["e1"]
+    assert (row["tr"] or "") == ""   # tr cleared, nothing refilled this run
+    assert row["lang"] == "ja"       # ...but lang is still recorded
+
+
 def test_flushes_incrementally_so_partial_progress_persists():
     # 7 changed rows with flush_every=3 -> flush at 3, at 6, then a final flush
     # of the trailing 1 => 3 writes. A CI timeout after any flush keeps that

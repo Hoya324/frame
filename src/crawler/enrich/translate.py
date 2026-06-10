@@ -210,10 +210,12 @@ def backfill_translations(
     ) -> None:
         pending[sheet].append({
             "id": row["id"],
-            # Cleared to empty when nothing remains, so a row dropped from scope
-            # ends up with blank tr/lang again.
+            # Cleared to empty when no translation survives (e.g. a reset or an
+            # out-of-scope prune), but `lang` is a script-detected source label,
+            # independent of translation — record it regardless so downstream
+            # consumers see correct metadata even before/without any tr.
             "tr": json.dumps(existing, ensure_ascii=False) if existing else "",
-            "lang": _row_lang(row, fields) if existing else "",
+            "lang": _row_lang(row, fields),
         })
         if len(pending[sheet]) >= flush_every:
             flush(sheet)
