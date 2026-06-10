@@ -322,14 +322,15 @@ def build_masters_cmd(
 ) -> None:
     """Build the 거장의 시선 masters.json from the curated roster + museum APIs.
 
-    Pulls public-domain works from The Met / AIC, writes ko/en/ja commentary with
-    Gemini (cached), and emits masters.json for the web app. --reset clears the
-    commentary cache and regenerates everything."""
+    Pulls public-domain works from The Met / AIC / Wikimedia Commons, writes
+    ko/en/ja commentary with Gemini (cached), and emits masters.json for the web
+    app. --reset clears the commentary cache and regenerates everything."""
     from crawler.enrich.translator import GeminiTranslator
     from crawler.masters.build import build_masters, write_masters
     from crawler.masters.cache import CommentaryCache
     from crawler.masters.commentary import CommentaryWriter
     from crawler.masters.museums.aic import AicClient
+    from crawler.masters.museums.commons import CommonsClient
     from crawler.masters.museums.the_met import MetClient
     from crawler.masters.roster import ROSTER
 
@@ -338,7 +339,7 @@ def build_masters_cmd(
     if reset:
         cache.clear()
     writer = CommentaryWriter(engine, cache)
-    clients = {"the_met": MetClient(), "aic": AicClient()}
+    clients = {"the_met": MetClient(), "aic": AicClient(), "wikimedia": CommonsClient()}
     catalog = build_masters(
         roster=ROSTER, clients=clients, writer=writer,
         generated_at=datetime.now(UTC), cap=cap,

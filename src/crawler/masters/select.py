@@ -36,6 +36,8 @@ def select_works(
         try:
             if sq.object_ids:
                 explicit.extend(client.fetch_by_ids(sq.object_ids))
+            elif sq.query and sq.artist:
+                pulled.extend(client.search_works(sq.query, limit=cap, artist=sq.artist))
             elif sq.query:
                 pulled.extend(client.search_works(sq.query, limit=cap))
         except Exception:

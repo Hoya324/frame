@@ -14,6 +14,9 @@ class MuseumClient(Protocol):
         """Fetch specific objects by their museum ids, preserving order."""
         ...
 
-    def search_works(self, query: str, limit: int) -> list[RawWork]:
-        """Search by artist/name and return up to ``limit`` candidate works."""
+    def search_works(self, query: str, limit: int, artist: str | None = None) -> list[RawWork]:
+        """Search by artist/name and return up to ``limit`` candidate works.
+
+        ``artist`` overrides the artist-match needle (default: query's last
+        token), for queries that aren't a bare artist name."""
         ...

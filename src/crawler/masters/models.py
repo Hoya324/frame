@@ -35,11 +35,16 @@ class RawWork:
 class SourceQuery:
     """Where to pull one master's works from a single museum. Provide
     ``object_ids`` to hand-pick exact iconic works (preferred), OR ``query`` to
-    auto-pull by artist search. Exactly one of the two should be set."""
+    auto-pull by artist search. Exactly one of the two should be set.
+
+    ``artist`` overrides the artist-match needle for query searches; without it
+    clients fall back to the query's last token, which breaks for queries like
+    "Percival Lowell Korea" (needle would be "Korea")."""
 
     source: str
     query: str | None = None
     object_ids: list[str] | None = None
+    artist: str | None = None
 
 
 @dataclass(frozen=True)

@@ -30,7 +30,7 @@ class AicClient:
         r.raise_for_status()
         return r.json()
 
-    def search_works(self, query: str, limit: int) -> list[RawWork]:
+    def search_works(self, query: str, limit: int, artist: str | None = None) -> list[RawWork]:
         # AIC search `q` is broad full-text; request extra results and keep only
         # this artist's public-domain, image-bearing works (surname must appear
         # in artist_title), then cap at `limit`.
@@ -38,7 +38,7 @@ class AicClient:
             f"{_BASE}/search",
             params={"q": query, "fields": _FIELDS, "limit": max(limit * 3, limit)},
         )
-        needle = query.split()[-1].lower() if query.split() else query.lower()
+        needle = (artist or (query.split()[-1] if query.split() else query)).lower()
         out: list[RawWork] = []
         for rec in data.get("data") or []:
             if needle not in (rec.get("artist_title") or "").lower():

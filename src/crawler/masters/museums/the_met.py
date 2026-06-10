@@ -41,15 +41,15 @@ class MetClient:
                 out.append(_to_work(data))
         return out
 
-    def search_works(self, query: str, limit: int) -> list[RawWork]:
+    def search_works(self, query: str, limit: int, artist: str | None = None) -> list[RawWork]:
         # The Met has no artist-scoped search that works for these names
         # (artistOrCulture=true returns 0), so we use a broad full-text search
         # with hasImages and filter the returned objects to this artist's
-        # public-domain, image-bearing works. The last token of the query (the
-        # surname) must appear in artistDisplayName.
+        # public-domain, image-bearing works. The artist needle (default: the
+        # query's last token, the surname) must appear in artistDisplayName.
         data = self._get(f"{_BASE}/search", params={"q": query, "hasImages": "true"})
         ids = data.get("objectIDs") or []
-        needle = query.split()[-1].lower() if query.split() else query.lower()
+        needle = (artist or (query.split()[-1] if query.split() else query)).lower()
         works: list[RawWork] = []
         # Cap the walk so a broad query can't fan out into hundreds of requests.
         for oid in ids[: max(limit * 6, limit)]:

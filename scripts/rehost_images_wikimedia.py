@@ -71,15 +71,23 @@ def main() -> None:
     kept = dropped = 0
     for m in data["masters"]:
         surname = m["name"].split("(")[0].strip().split()[-1]
-        # master portrait
-        pp = _search_files(f"{m['name']} portrait", 8) or _search_files(m["name"], 8)
-        port = _pick(pp, surname)
-        if port:
-            m["portraitUrl"] = port["thumburl"]
-        time.sleep(0.2)
+        # master portrait — only for actual persons; anthology entries (no birth
+        # year) would just pick up a random PD image as their card face.
+        if m.get("birthYear"):
+            pp = _search_files(f"{m['name']} portrait", 8) or _search_files(m["name"], 8)
+            port = _pick(pp, surname)
+            if port:
+                m["portraitUrl"] = port["thumburl"]
+            time.sleep(0.2)
 
         new_works = []
         for w in m["works"]:
+            # Works already sourced from Commons hotlink fine — keep them as-is;
+            # re-searching by name+title would only risk dropping them.
+            if w.get("source") == "wikimedia":
+                new_works.append(w)
+                kept += 1
+                continue
             ct = _clean_title(w["title"])
             ii = _pick(_search_files(f'{m["name"]} {ct}', 8), surname)
             if not ii:
@@ -107,7 +115,8 @@ def main() -> None:
             seen_img.add(w["imageUrl"])
             deduped.append(w)
         m["works"] = deduped
-        print(f"  {m['id']:24s} {len(new_works)} works (portrait={'y' if m.get('portraitUrl') else 'n'})")
+        has_port = "y" if m.get("portraitUrl") else "n"
+        print(f"  {m['id']:24s} {len(new_works)} works (portrait={has_port})")
 
     # drop masters that ended up with no works
     before = len(data["masters"])
