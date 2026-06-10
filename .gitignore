@@ -16,3 +16,7 @@ service-account.json
 .cache/
 .claude/
 .venv
+
+# iCloud/macOS sync conflict copies ("Foo 2.tsx", ".env 2.local", "data 3/")
+* [0-9].*
+* [0-9]
