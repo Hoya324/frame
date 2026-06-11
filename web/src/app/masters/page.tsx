@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useMemo } from "react";
+import { CinemaSection } from "@/components/CinemaSection";
 import { ContemporaryRail } from "@/components/ContemporaryRail";
 import { PosterImage } from "@/components/PosterImage";
 import { useLang } from "@/components/LanguageProvider";
@@ -26,9 +27,14 @@ export default function MastersPage() {
       <h1 className="text-[32px] font-extrabold tracking-tight">{t("masters.title")}</h1>
       <p className="mt-2 text-sm text-tx2">{t("masters.subtitle")}</p>
 
+      <div className="mt-8 border-t border-line pt-8">
+        <CinemaSection />
+      </div>
+
       <ContemporaryRail />
 
-      <div className="grid grid-cols-2 gap-4 pt-9 md:grid-cols-4">
+      <h2 className="mt-10 text-lg font-bold tracking-tight">{t("masters.title")}</h2>
+      <div className="grid grid-cols-2 gap-4 pt-5 md:grid-cols-4">
         {masters.map((m) => <MasterCard key={m.id} m={m} locale={locale} t={t} />)}
       </div>
     </main>

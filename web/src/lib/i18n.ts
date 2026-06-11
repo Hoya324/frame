@@ -165,6 +165,11 @@ const ko: Dict = {
   "masters.source": "출처",
   "masters.viewOriginal": "원본 보기",
   "masters.years": "{birth}–{death}",
+  "cinema.title": "영화, 한 프레임",
+  "cinema.subtitle": "한 장면에서 배우는 구도·빛·색. 영화가 사진에게 건네는 것들.",
+  "cinema.pdLabel": "퍼블릭 도메인 명장면",
+  "cinema.modernLabel": "색을 배우는 현대 시네마",
+  "cinema.modernNote": "비평·교육 목적의 인용 · 저작권은 각 영화사에 있습니다",
 };
 
 const en: Dict = {
@@ -322,6 +327,11 @@ const en: Dict = {
   "masters.source": "Source",
   "masters.viewOriginal": "View original",
   "masters.years": "{birth}–{death}",
+  "cinema.title": "Cinema, one frame",
+  "cinema.subtitle": "Composition, light and colour, learned from a single shot — what film hands to photography.",
+  "cinema.pdLabel": "Public-domain scenes",
+  "cinema.modernLabel": "Modern cinema, by its colour",
+  "cinema.modernNote": "Quoted for criticism and study · © the respective studios",
 };
 
 const ja: Dict = {
@@ -479,6 +489,11 @@ const ja: Dict = {
   "masters.source": "出典",
   "masters.viewOriginal": "オリジナルを見る",
   "masters.years": "{birth}–{death}",
+  "cinema.title": "映画、ひとつのフレーム",
+  "cinema.subtitle": "一場面から学ぶ構図・光・色。映画が写真に手渡すもの。",
+  "cinema.pdLabel": "パブリックドメインの名場面",
+  "cinema.modernLabel": "色で学ぶ現代シネマ",
+  "cinema.modernNote": "批評・教育目的の引用 · 著作権は各映画会社に帰属します",
 };
 
 const DICTS: Record<Locale, Dict> = { ko, en, ja };
