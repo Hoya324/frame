@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useMemo } from "react";
+import { ContemporaryRail } from "@/components/ContemporaryRail";
 import { PosterImage } from "@/components/PosterImage";
 import { useLang } from "@/components/LanguageProvider";
 import { inLocale } from "@/lib/catalog";
@@ -24,6 +25,8 @@ export default function MastersPage() {
     <main className="mx-auto max-w-[1180px] px-7 py-10">
       <h1 className="text-[32px] font-extrabold tracking-tight">{t("masters.title")}</h1>
       <p className="mt-2 text-sm text-tx2">{t("masters.subtitle")}</p>
+
+      <ContemporaryRail />
 
       <div className="grid grid-cols-2 gap-4 pt-9 md:grid-cols-4">
         {masters.map((m) => <MasterCard key={m.id} m={m} locale={locale} t={t} />)}
