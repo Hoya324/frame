@@ -6,8 +6,10 @@ Met flags most photography images as not-open-access, so Commons is the only
 free source with real coverage there. Korean photographers of the modern era
 (임응식 등) are still in copyright (death + 70y), so the Korea section is
 honest about what IS public domain: foreign masters who documented Joseon,
-plus a hand-picked open-era (개화기) archive. A master with zero usable PD
-works is dropped at build time."""
+plus a hand-picked open-era (개화기) archive. The modern (20th-c) section
+rides on U.S. government-commissioned work (FSA/OWI, NPS Mural Project) and
+gifted-to-LOC archives, which are PD regardless of the photographer's death
+year. A master with zero usable PD works is dropped at build time."""
 
 from __future__ import annotations
 
@@ -89,6 +91,66 @@ ROSTER: list[MasterSeed] = [
         nationality="JP", birth_year=1823, death_year=1914, portrait_url=None,
         sources=[SourceQuery(source="wikimedia", query="Shimooka Renjo",
                              artist="Shimooka")],  # Commons 8 PD
+    ),
+    # ── Modern (20th century) ────────────────────────────────────────────
+    # Living-memory masters are still in copyright, but U.S. government
+    # commissions (FSA/OWI documentary program, NPS Mural Project) and
+    # gifted-to-LOC archives are public domain — that's what these draw on.
+    MasterSeed(
+        id="dorothea-lange", name="Dorothea Lange", region="modern", nationality="US",
+        birth_year=1895, death_year=1965, portrait_url=None,
+        sources=[SourceQuery(source="wikimedia", query="Dorothea Lange",
+                             artist="Lange")],  # Commons 36 PD (FSA)
+    ),
+    MasterSeed(
+        id="walker-evans", name="Walker Evans", region="modern", nationality="US",
+        birth_year=1903, death_year=1975, portrait_url=None,
+        sources=[SourceQuery(source="wikimedia", query="Walker Evans FSA",
+                             artist="Evans")],  # Commons 38 PD (FSA)
+    ),
+    MasterSeed(
+        id="gordon-parks", name="Gordon Parks", region="modern", nationality="US",
+        birth_year=1912, death_year=2006, portrait_url=None,
+        sources=[SourceQuery(source="wikimedia", query="Gordon Parks",
+                             artist="Parks")],  # Commons 7 PD (FSA/OWI)
+    ),
+    MasterSeed(
+        id="ansel-adams", name="Ansel Adams", region="modern", nationality="US",
+        birth_year=1902, death_year=1984, portrait_url=None,
+        # NPS Mural Project (1941-42) — U.S. government work, PD.
+        sources=[SourceQuery(source="wikimedia", query="Ansel Adams National Archives",
+                             artist="Adams")],  # Commons 40 PD
+    ),
+    MasterSeed(
+        id="arthur-rothstein", name="Arthur Rothstein", region="modern", nationality="US",
+        birth_year=1915, death_year=1985, portrait_url=None,
+        sources=[SourceQuery(source="wikimedia", query="Arthur Rothstein",
+                             artist="Rothstein")],  # Commons 38 PD (FSA)
+    ),
+    MasterSeed(
+        id="jack-delano", name="Jack Delano", region="modern", nationality="US",
+        birth_year=1914, death_year=1997, portrait_url=None,
+        sources=[SourceQuery(source="wikimedia", query="Jack Delano",
+                             artist="Delano")],  # Commons 37 PD (FSA Kodachrome)
+    ),
+    MasterSeed(
+        id="russell-lee", name="Russell Lee", region="modern", nationality="US",
+        birth_year=1903, death_year=1986, portrait_url=None,
+        sources=[SourceQuery(source="wikimedia", query="Russell Lee FSA",
+                             artist="Lee")],  # Commons 38 PD (FSA)
+    ),
+    MasterSeed(
+        id="toni-frissell", name="Toni Frissell", region="modern", nationality="US",
+        birth_year=1907, death_year=1988, portrait_url=None,
+        # Her archive was gifted to the Library of Congress, public domain.
+        sources=[SourceQuery(source="wikimedia", query="Toni Frissell",
+                             artist="Frissell")],  # Commons 38 PD
+    ),
+    MasterSeed(
+        id="esther-bubley", name="Esther Bubley", region="modern", nationality="US",
+        birth_year=1921, death_year=1998, portrait_url=None,
+        sources=[SourceQuery(source="wikimedia", query="Esther Bubley",
+                             artist="Bubley")],  # Commons 39 PD (OWI/SONJ-era PD set)
     ),
     # ── International ────────────────────────────────────────────────────
     MasterSeed(

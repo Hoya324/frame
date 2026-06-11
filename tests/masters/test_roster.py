@@ -8,7 +8,7 @@ def test_roster_nonempty_and_well_formed():
     assert len(ids) == len(set(ids)), "master ids must be unique"
     for m in ROSTER:
         assert isinstance(m, MasterSeed)
-        assert m.region in {"kr", "jp", "foreign"}
+        assert m.region in {"kr", "jp", "modern", "foreign"}
         assert m.sources, f"{m.id} has no sources"
         for sq in m.sources:
             assert sq.source in {"the_met", "aic", "wikimedia"}
@@ -22,6 +22,6 @@ def test_roster_kr_and_jp_have_multiple_masters():
     assert len(by_region["jp"]) >= 5
 
 
-def test_roster_covers_all_three_regions():
+def test_roster_covers_all_regions():
     regions = {m.region for m in ROSTER}
-    assert {"kr", "jp", "foreign"} <= regions
+    assert {"kr", "jp", "modern", "foreign"} <= regions

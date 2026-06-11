@@ -8,9 +8,10 @@ import type { Locale } from "@/lib/i18n";
 import { parseMasters, masterFaceImage, type Master, type Region } from "@/lib/masters";
 import mastersRaw from "../../../public/data/masters.json";
 
-const REGION_ORDER: Region[] = ["kr", "jp", "foreign"];
+const REGION_ORDER: Region[] = ["kr", "jp", "modern", "foreign"];
 const REGION_KEY: Record<Region, string> = {
-  kr: "masters.regionKr", jp: "masters.regionJp", foreign: "masters.regionForeign",
+  kr: "masters.regionKr", jp: "masters.regionJp",
+  modern: "masters.regionModern", foreign: "masters.regionForeign",
 };
 
 export default function MastersPage() {

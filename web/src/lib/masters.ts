@@ -1,6 +1,6 @@
 import type { TrMap } from "@/lib/catalog";
 
-export type Region = "kr" | "jp" | "foreign";
+export type Region = "kr" | "jp" | "modern" | "foreign";
 
 export interface MasterWork {
   id: string;

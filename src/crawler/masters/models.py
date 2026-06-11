@@ -53,7 +53,7 @@ class MasterSeed:
 
     id: str  # stable kebab-case slug
     name: str  # original-language display name
-    region: str  # "kr" | "jp" | "foreign"
+    region: str  # "kr" | "jp" | "modern" | "foreign"
     nationality: str  # ISO 3166-1 alpha-2
     birth_year: int | None
     death_year: int | None
