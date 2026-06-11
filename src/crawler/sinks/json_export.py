@@ -115,6 +115,25 @@ def _dedup_title_key(title: object) -> str:
     return _DEDUP_STRIP.sub("", str(title)).lower()
 
 
+# Bracketed-core extractor: aggregators reformat the surrounding title (insert
+# 写真展/個展, drop a venue's subtitle, re-punctuate), but the bracketed core
+# 「…」/『…』/《…》 is the stable part both sources carry. Falls back to the whole
+# title when there's no bracket (e.g. a bare "Sunburn" from the venue source).
+_CORE_TITLE = re.compile(r"[「『《【](.+?)[」』》】]")
+
+
+def _core_title_key(title: object) -> str:
+    if not title:
+        return ""
+    m = _CORE_TITLE.search(str(title))
+    core = m.group(1) if m else str(title)
+    return _DEDUP_STRIP.sub("", core).lower()
+
+
+def _is_aggregator(row: dict) -> bool:
+    return _str_or_none(row.get("source")) in _AGGREGATOR_SOURCES
+
+
 def _primary_sort_key(row: dict) -> tuple:
     """Order duplicates so the most authoritative/complete row sorts first.
 
@@ -153,32 +172,87 @@ def _merge_duplicate(members: list[dict]) -> dict:
     return winner
 
 
-def _collapse_cross_source(rows: list[dict]) -> list[dict]:
-    """Merge cross-source duplicates keyed on (normalized title, start, end).
+def _same_show(a: dict, b: dict) -> bool:
+    """Whether two rows in the same date range are the same exhibition.
 
-    The (title, start, end) triple is tight enough that recurring annual shows
-    (same title, different dates) stay separate, while the same exhibition
-    listed by two sources collapses to one. Rows missing a title or start_date
-    can't be matched safely, so they pass through untouched. Output order
+    Three precise signals, each chosen to avoid collapsing genuinely different
+    shows that merely share a venue and dates (galleries run several at once):
+
+    1. Identical full normalized title — the same show, any sources.
+    2. Same poster image AND same source — a crawl re-listed one show twice
+       (e.g. a title typo'd into two rows); the shared image is decisive.
+    3. Aggregator relisting: exactly ONE side is an aggregator (tokyo_art_beat/
+       artmap/naver) that reformats the venue's title and renames the venue, so
+       a shared venue_id OR bracketed core title identifies it. Requiring *one*
+       aggregator (not "either") keeps two different aggregator listings at one
+       venue — or two primary shows — from merging on venue+dates alone."""
+    if _dedup_title_key(a.get("title")) == _dedup_title_key(b.get("title")):
+        return True
+    img = _str_or_none(a.get("poster_image_url"))
+    if (
+        img
+        and img == _str_or_none(b.get("poster_image_url"))
+        and _str_or_none(a.get("source")) == _str_or_none(b.get("source"))
+    ):
+        return True
+    if _is_aggregator(a) == _is_aggregator(b):  # both or neither -> not a relisting
+        return False
+    va, vb = _str_or_none(a.get("venue_id")), _str_or_none(b.get("venue_id"))
+    if va and va == vb:
+        return True
+    ca, cb = _core_title_key(a.get("title")), _core_title_key(b.get("title"))
+    return bool(ca) and ca == cb
+
+
+def _collapse_cross_source(rows: list[dict]) -> list[dict]:
+    """Merge the same exhibition listed by multiple sources into one row.
+
+    Within a single (start, end) date range, rows are unioned via ``_same_show``
+    — exact-title for any pair, plus venue_id/core-title for aggregator
+    relistings whose titles were reformatted (or are in a different script, so
+    they share no characters). Anchoring on the exact date range keeps recurring
+    annual shows (same title, different dates) separate. Rows missing a title or
+    start_date can't be matched safely and pass through untouched. Output order
     follows first appearance, so the snapshot stays stable run-to-run."""
-    slots: dict[tuple, int] = {}
-    buckets: list[list[dict]] = []
-    for row in rows:
-        title_key = _dedup_title_key(row.get("title"))
-        start = _str_or_none(row.get("start_date"))
-        if not title_key or not start:
-            buckets.append([row])
+    n = len(rows)
+    parent = list(range(n))
+
+    def find(i: int) -> int:
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    # Only rows with a title and start_date are matchable; bucket them by date
+    # range and union same-show pairs within each bucket.
+    by_dates: dict[tuple, list[int]] = {}
+    for i, row in enumerate(rows):
+        if not _dedup_title_key(row.get("title")) or not _str_or_none(
+            row.get("start_date")
+        ):
             continue
-        key = (title_key, start, _str_or_none(row.get("end_date")))
-        if key in slots:
-            buckets[slots[key]].append(row)
-        else:
-            slots[key] = len(buckets)
-            buckets.append([row])
+        key = (_str_or_none(row.get("start_date")), _str_or_none(row.get("end_date")))
+        by_dates.setdefault(key, []).append(i)
+
+    for idxs in by_dates.values():
+        for a in range(len(idxs)):
+            for b in range(a + 1, len(idxs)):
+                if _same_show(rows[idxs[a]], rows[idxs[b]]):
+                    parent[find(idxs[a])] = find(idxs[b])
+
+    members_by_root: dict[int, list[dict]] = {}
+    for i in range(n):
+        members_by_root.setdefault(find(i), []).append(rows[i])
 
     collapsed = 0
     out: list[dict] = []
-    for members in buckets:
+    emitted: set[int] = set()
+    for i in range(n):
+        root = find(i)
+        if root in emitted:
+            continue
+        emitted.add(root)
+        members = members_by_root[root]
         if len(members) == 1:
             out.append(members[0])
             continue

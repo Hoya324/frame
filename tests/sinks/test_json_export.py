@@ -239,6 +239,85 @@ def test_build_catalog_does_not_merge_rows_missing_title_or_start():
     assert {e["id"] for e in catalog["exhibitions"]} == {"e1", "e2"}
 
 
+def test_collapse_aggregator_relisting_with_reformatted_title():
+    """tokyo_art_beat reformats a venue's title — inserting 写真展, dropping the
+    subtitle — so the full normalized titles differ and the exact-key collapse
+    misses them. The shared bracketed core 「…」 + identical dates still identify
+    the same show; the primary (venue) row wins over the aggregator."""
+    repo = FakeRepository()
+    base = {
+        "title_en": "", "poster_image_url": "", "medium": "photo",
+        "exhibition_type": "solo", "fee_type": "free", "price_min": "",
+        "price_max": "", "start_date": "2026-05-29", "end_date": "2026-06-11",
+        "open_hours": "", "featured": "FALSE", "popularity_score": "",
+        "status": "ongoing", "genre_tags": "", "artist_ids": "",
+    }
+    repo.append_rows(SheetName.EXHIBITIONS, [
+        {**base, "id": "e_tab", "source": "tokyo_art_beat", "source_url": "https://t",
+         "venue_id": "v_tab", "title": "井上博道 「大和のこころとかたち」",
+         "description": "짧은"},
+        {**base, "id": "e_fuji", "source": "fujifilm_square", "source_url": "https://f",
+         "venue_id": "v_fuji",  # aggregator uses a different venue name -> diff id
+         "title": "井上博道写真展「大和のこころとかたち」―今よみがえる、奈良の写真遺産―",
+         "description": "긴 공식 설명"},
+    ])
+    catalog = build_catalog(repo, generated_at=GEN_AT)
+    assert len(catalog["exhibitions"]) == 1
+    assert catalog["exhibitions"][0]["id"] == "e_fuji"  # primary (venue) wins
+
+
+def test_collapse_aggregator_relisting_by_venue_when_title_script_differs():
+    """Sony World Photography Awards: the museum lists it in katakana, the
+    aggregator in English — zero shared title characters. Same venue_id +
+    identical dates still collapse them; the primary museum row wins."""
+    repo = FakeRepository()
+    base = {
+        "title_en": "", "poster_image_url": "", "medium": "photo",
+        "exhibition_type": "group", "fee_type": "paid", "price_min": "",
+        "price_max": "", "start_date": "2026-06-20", "end_date": "2026-07-20",
+        "open_hours": "", "venue_id": "v_top", "featured": "FALSE",
+        "popularity_score": "", "status": "ongoing", "genre_tags": "",
+        "artist_ids": "",
+    }
+    repo.append_rows(SheetName.EXHIBITIONS, [
+        {**base, "id": "e_tab", "source": "tokyo_art_beat", "source_url": "https://t",
+         "title": "Sony World Photography Awards 2026", "description": "a"},
+        {**base, "id": "e_top", "source": "tokyo_photographic_art_museum",
+         "source_url": "https://m", "title": "ソニーワールドフォトグラフィーアワード2026",
+         "description": "공식 설명"},
+    ])
+    catalog = build_catalog(repo, generated_at=GEN_AT)
+    assert len(catalog["exhibitions"]) == 1
+    assert catalog["exhibitions"][0]["id"] == "e_top"  # primary museum wins
+
+
+def test_collapse_does_not_merge_distinct_show_at_other_venue_same_dates():
+    """An aggregator row for one show must not collapse into a different show
+    that merely shares its dates. Within one date range: the Sunburn aggregator
+    + venue pair merges (same venue), while a third row at another venue with an
+    unrelated title stays separate."""
+    repo = FakeRepository()
+    base = {
+        "title_en": "", "poster_image_url": "", "medium": "photo",
+        "exhibition_type": "solo", "fee_type": "free", "price_min": "",
+        "price_max": "", "start_date": "2026-05-26", "end_date": "2026-06-07",
+        "open_hours": "", "featured": "FALSE", "popularity_score": "",
+        "status": "ongoing", "genre_tags": "", "artist_ids": "",
+    }
+    repo.append_rows(SheetName.EXHIBITIONS, [
+        {**base, "id": "e_sun_tab", "source": "tokyo_art_beat", "venue_id": "v_totem",
+         "source_url": "https://t1", "title": "蔡嘉辰 「Sunburn」", "description": "a"},
+        {**base, "id": "e_sun_totem", "source": "totem_pole", "venue_id": "v_totem",
+         "source_url": "https://t2", "title": "Sunburn", "description": "공식"},
+        {**base, "id": "e_other", "source": "tokyo_art_beat", "venue_id": "v_hiko",
+         "source_url": "https://t3",
+         "title": "「ファン・ホーが紡ぐ香港のヒューマニズム」", "description": "b"},
+    ])
+    catalog = build_catalog(repo, generated_at=GEN_AT)
+    ids = {e["id"] for e in catalog["exhibitions"]}
+    assert ids == {"e_sun_totem", "e_other"}  # Sunburn pair merged; other kept
+
+
 def test_build_catalog_drops_unknown_artist_ids():
     repo = FakeRepository()
     repo.append_rows(SheetName.ARTISTS, [{"id": "a1", "name": "있는작가", "name_en": ""}])
