@@ -16,7 +16,7 @@ export function MasterDetailView({ master }: { master: Master }) {
 
   return (
     <main className="mx-auto max-w-[900px] px-7 py-10">
-      <Link href="/masters" className="text-sm text-tx3 hover:text-tx">← {t("masters.title")}</Link>
+      <Link href="/masters/photographers" className="text-sm text-tx3 hover:text-tx">← {t("masters.title")}</Link>
       <header className="mt-4 flex items-center gap-4">
         {master.portraitUrl && (
           // eslint-disable-next-line @next/next/no-img-element

@@ -14,6 +14,7 @@ import { EVENTS, track } from "@/lib/analytics";
 import { useOnboarding } from "@/components/OnboardingProvider";
 import { FeaturedCarousel } from "@/components/FeaturedCarousel";
 import { parseMasters, type Master } from "@/lib/masters";
+import { CINEMA_MODERN, CINEMA_PD } from "@/lib/cinema";
 import mastersRaw from "../../public/data/masters.json";
 
 export default function Home() {
@@ -138,6 +139,7 @@ export default function Home() {
           <FeaturedCarousel
             exhibitions={featured ? [featured] : []}
             masters={masters}
+            cinema={[...CINEMA_PD, ...CINEMA_MODERN]}
           />
 
           {closingSoon.length > 0 && (

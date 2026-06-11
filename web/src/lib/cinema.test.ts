@@ -37,4 +37,23 @@ describe("cinema curation data", () => {
       expect(s.studio, s.id).toBeTruthy();
     }
   });
+
+  it("modern stills are low-res TMDB images (the 인용 'amount' factor)", () => {
+    for (const s of CINEMA_MODERN) {
+      // sourced as a low-res still, not the studio's full-res master
+      expect(s.image, s.id).toMatch(/^https:\/\/image\.tmdb\.org\/t\/p\/w\d+\//);
+    }
+  });
+
+  it("modern films carry a gallery and a trilingual curation for the detail page", () => {
+    for (const s of CINEMA_MODERN) {
+      expect(s.gallery?.length ?? 0, s.id).toBeGreaterThanOrEqual(1);
+      for (const g of s.gallery ?? []) {
+        expect(g, s.id).toMatch(/^https:\/\/image\.tmdb\.org\//);
+      }
+      for (const l of LOCALES) {
+        expect(s.curation?.[l], `${s.id} curation.${l}`).toBeTruthy();
+      }
+    }
+  });
 });

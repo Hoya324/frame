@@ -170,6 +170,12 @@ const ko: Dict = {
   "cinema.pdLabel": "퍼블릭 도메인 명장면",
   "cinema.modernLabel": "색을 배우는 현대 시네마",
   "cinema.modernNote": "비평·교육 목적의 인용 · 저작권은 각 영화사에 있습니다",
+  "cinema.lessonLabel": "이 프레임에서 배우는 것",
+  "cinema.viewMore": "TMDB에서 더 보기",
+  "curation.title": "큐레이션",
+  "curation.subtitle": "사진과 영화, 거장들의 시선에서 배우는 것들",
+  "curation.viewAll": "전체 보기",
+  "curation.cinemaTag": "영화",
 };
 
 const en: Dict = {
@@ -332,6 +338,12 @@ const en: Dict = {
   "cinema.pdLabel": "Public-domain scenes",
   "cinema.modernLabel": "Modern cinema, by its colour",
   "cinema.modernNote": "Quoted for criticism and study · © the respective studios",
+  "cinema.lessonLabel": "What this frame teaches",
+  "cinema.viewMore": "More on TMDB",
+  "curation.title": "Curation",
+  "curation.subtitle": "Ways of seeing, learned from photography and film",
+  "curation.viewAll": "See all",
+  "curation.cinemaTag": "Cinema",
 };
 
 const ja: Dict = {
@@ -494,6 +506,12 @@ const ja: Dict = {
   "cinema.pdLabel": "パブリックドメインの名場面",
   "cinema.modernLabel": "色で学ぶ現代シネマ",
   "cinema.modernNote": "批評・教育目的の引用 · 著作権は各映画会社に帰属します",
+  "cinema.lessonLabel": "このフレームから学ぶこと",
+  "cinema.viewMore": "TMDBでもっと見る",
+  "curation.title": "キュレーション",
+  "curation.subtitle": "写真と映画、巨匠たちの視線から学ぶこと",
+  "curation.viewAll": "すべて見る",
+  "curation.cinemaTag": "映画",
 };
 
 const DICTS: Record<Locale, Dict> = { ko, en, ja };

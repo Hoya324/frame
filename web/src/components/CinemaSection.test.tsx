@@ -2,27 +2,42 @@ import { describe, expect, it } from "vitest";
 import { screen } from "@testing-library/react";
 import { renderWithLang } from "@/test/lang";
 import { CinemaSection } from "./CinemaSection";
-import { CINEMA_PD } from "@/lib/cinema";
+import { CINEMA_MODERN, CINEMA_PD } from "@/lib/cinema";
 
 describe("CinemaSection", () => {
-  it("renders every public-domain scene as a card that links out", () => {
-    renderWithLang(<CinemaSection />);
-    expect(screen.getByText("영화, 한 프레임")).toBeInTheDocument();
-    // each PD scene's title shows, and the card is an external link
-    for (const s of CINEMA_PD) {
+  it("full variant renders every scene as a card linking to its detail page", () => {
+    renderWithLang(<CinemaSection variant="full" />);
+    for (const s of [...CINEMA_MODERN, ...CINEMA_PD]) {
       const title = screen.getByText(s.title.ko);
       const link = title.closest("a");
       expect(link, s.id).not.toBeNull();
-      expect(link).toHaveAttribute("href", s.url);
-      expect(link).toHaveAttribute("target", "_blank");
-      expect(link).toHaveAttribute("rel", expect.stringContaining("noopener"));
+      expect(link).toHaveAttribute("href", `/masters/cinema/${s.id}`);
     }
   });
 
-  it("hides the modern subsection while no modern still is sourced", () => {
-    // CINEMA_MODERN entries currently have no `image`, so the in-copyright
-    // block must not render (no broken cards, no orphan heading).
-    renderWithLang(<CinemaSection />);
-    expect(screen.queryByText("색을 배우는 현대 시네마")).toBeNull();
+  it("shows modern label before the public-domain label (colour cinema leads)", () => {
+    renderWithLang(<CinemaSection variant="full" />);
+    const modern = screen.getByText("색을 배우는 현대 시네마");
+    const pd = screen.getByText("퍼블릭 도메인 명장면");
+    // modern heading appears earlier in DOM order
+    expect(modern.compareDocumentPosition(pd) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+  });
+
+  it("full variant shows each modern still with its © studio credit", () => {
+    renderWithLang(<CinemaSection variant="full" />);
+    for (const s of CINEMA_MODERN) {
+      // some studios (e.g. Warner Bros.) recur across films → getAllByText
+      expect(screen.getAllByText(`© ${s.studio}`).length, s.id).toBeGreaterThan(0);
+    }
+  });
+
+  it("preview variant shows only a few cards and a 전체 보기 link to the full page", () => {
+    renderWithLang(<CinemaSection variant="preview" />);
+    const seeAll = screen.getByText(/전체 보기/);
+    expect(seeAll.closest("a")).toHaveAttribute("href", "/masters/cinema");
+    const cards = screen.getAllByRole("link").filter((a) =>
+      a.getAttribute("href")?.startsWith("/masters/cinema/"));
+    expect(cards.length).toBeGreaterThan(0);
+    expect(cards.length).toBeLessThan(CINEMA_MODERN.length + CINEMA_PD.length);
   });
 });

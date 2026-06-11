@@ -1,5 +1,7 @@
 import type { Master } from "@/lib/masters";
 import { masterFaceImage, masterHeroImage } from "@/lib/masters";
+import type { CinemaScene } from "@/lib/cinema";
+import type { Locale } from "@/lib/i18n";
 
 export interface ExhibitionSlide {
   kind: "exhibition";
@@ -16,10 +18,20 @@ export interface MasterSlide {
   face: string | null;  // portrait
 }
 
-export type CarouselSlide = ExhibitionSlide | MasterSlide;
+export interface CinemaSlide {
+  kind: "cinema";
+  id: string;
+  title: Record<Locale, string>;
+  credit: Record<Locale, string>;
+  image: string; // the still
+}
+
+export type CarouselSlide = ExhibitionSlide | MasterSlide | CinemaSlide;
 
 export interface BuildOptions {
   masterCount?: number;
+  cinema?: CinemaScene[];
+  cinemaCount?: number;
   rng?: () => number; // returns [0,1); defaults to Math.random
 }
 
@@ -40,6 +52,7 @@ export function buildCarouselSlides(
 ): CarouselSlide[] {
   const rng = opts.rng ?? Math.random;
   const masterCount = opts.masterCount ?? 6;
+  const cinemaCount = opts.cinemaCount ?? 4;
 
   const exhibitionSlides: ExhibitionSlide[] = exhibitions.map((e) => ({
     kind: "exhibition", id: e.id, exhibition: e,
@@ -53,7 +66,15 @@ export function buildCarouselSlides(
       image: masterHeroImage(m) as string, face: masterFaceImage(m),
     }));
 
-  // Interleave so masters and exhibitions alternate where possible, then keep
-  // any leftovers. The whole sequence is shuffled by rng for variety per load.
-  return shuffle([...exhibitionSlides, ...masterSlides], rng);
+  const cinemaScenes = (opts.cinema ?? []).filter((s) => s.image);
+  const cinemaSlides: CinemaSlide[] = shuffle(cinemaScenes, rng)
+    .slice(0, cinemaCount)
+    .map((s) => ({
+      kind: "cinema", id: s.id, title: s.title, credit: s.credit,
+      image: s.image as string,
+    }));
+
+  // Mix exhibitions, photo masters and cinema frames into one pool, shuffled by
+  // rng for variety per load.
+  return shuffle([...exhibitionSlides, ...masterSlides, ...cinemaSlides], rng);
 }

@@ -52,4 +52,17 @@ describe("buildCarouselSlides", () => {
       .find((s) => s.kind === "master");
     expect(first?.id).not.toBe(second?.id);
   });
+
+  it("mixes in cinema slides (only those with an image), capped at cinemaCount", () => {
+    const cinema = [
+      { id: "c1", title: { ko: "ㄱ", en: "g", ja: "ガ" }, credit: { ko: "x", en: "x", ja: "x" },
+        lesson: { ko: "l", en: "l", ja: "l" }, url: "https://x/c1", image: "https://img/c1.jpg" },
+      { id: "c2", title: { ko: "ㄴ", en: "n", ja: "ナ" }, credit: { ko: "y", en: "y", ja: "y" },
+        lesson: { ko: "l", en: "l", ja: "l" }, url: "https://x/c2" }, // no image → excluded
+    ];
+    const slides = buildCarouselSlides([], [], { cinema, cinemaCount: 4, rng: seeded([0]) });
+    const cine = slides.filter((s) => s.kind === "cinema");
+    expect(cine).toHaveLength(1);
+    expect(cine[0].id).toBe("c1");
+  });
 });

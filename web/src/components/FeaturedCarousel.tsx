@@ -3,9 +3,11 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { PosterImage } from "@/components/PosterImage";
 import { useLang } from "@/components/LanguageProvider";
-import { buildCarouselSlides, type CarouselSlide, type MasterSlide } from "@/lib/carousel";
+import { buildCarouselSlides, type CarouselSlide, type CinemaSlide, type MasterSlide } from "@/lib/carousel";
 import type { Master } from "@/lib/masters";
+import type { CinemaScene } from "@/lib/cinema";
 import type { Exhibition } from "@/lib/catalog";
+import type { Locale } from "@/lib/i18n";
 
 // Auto-advance interval. Slow enough to read each slide's caption.
 const ADVANCE_MS = 4500;
@@ -21,19 +23,23 @@ function prefersReducedMotion(): boolean {
 export function FeaturedCarousel({
   exhibitions,
   masters,
+  cinema = [],
   masterCount = 6,
+  cinemaCount = 4,
   rng,
 }: {
   exhibitions: Exhibition[];
   masters: Master[];
+  cinema?: CinemaScene[];
   masterCount?: number;
+  cinemaCount?: number;
   rng?: () => number;
 }) {
-  const { t } = useLang();
+  const { t, locale } = useLang();
   // Build the slide list once per mount so it stays stable while advancing, but
-  // is reshuffled (random masters) on each fresh load.
+  // is reshuffled (random masters/cinema) on each fresh load.
   const slides = useMemo<CarouselSlide[]>(
-    () => buildCarouselSlides(exhibitions, masters, { masterCount, rng }),
+    () => buildCarouselSlides(exhibitions, masters, { masterCount, cinema, cinemaCount, rng }),
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [],
   );
@@ -77,6 +83,8 @@ export function FeaturedCarousel({
           >
             {s.kind === "master"
               ? <MasterCarouselSlide slide={s} active={isActive} t={t} />
+              : s.kind === "cinema"
+              ? <CinemaCarouselSlide slide={s} active={isActive} t={t} locale={locale} />
               : <ExhibitionCarouselSlide exhibition={s.exhibition as Exhibition} active={isActive} t={t} />}
           </div>
         );
@@ -137,6 +145,25 @@ function MasterCarouselSlide({ slide, active, t }: { slide: MasterSlide; active:
             {slide.tagline && <div className="mt-1 text-sm text-tx2">{slide.tagline}</div>}
           </div>
         </div>
+      </div>
+    </Link>
+  );
+}
+
+function CinemaCarouselSlide({ slide, active, t, locale }: {
+  slide: CinemaSlide; active: boolean; t: T; locale: Locale;
+}) {
+  return (
+    <Link href="/masters/cinema" className="absolute inset-0" tabIndex={active ? 0 : -1}>
+      <div className={zoomClass(active)}>
+        <PosterImage src={slide.image} alt={slide.title[locale]} />
+      </div>
+      <div className={captionClass(active)}>
+        <div className="text-[11px] font-semibold uppercase tracking-widest text-tx2">
+          {t("cinema.title")}
+        </div>
+        <h2 className="mt-2 text-2xl font-extrabold tracking-tight">{slide.title[locale]}</h2>
+        <div className="mt-1 text-sm text-tx2">{slide.credit[locale]}</div>
       </div>
     </Link>
   );
