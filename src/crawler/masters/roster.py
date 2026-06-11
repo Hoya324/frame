@@ -43,19 +43,10 @@ ROSTER: list[MasterSeed] = [
         ])],
     ),
     # ── Japan ────────────────────────────────────────────────────────────
-    MasterSeed(
-        id="felice-beato", name="Felice Beato", region="jp", nationality="IT",
-        birth_year=1832, death_year=1909, portrait_url=None,
-        # 1871 신미양요(Korea) 종군 사진 2점을 명시적으로 앞세우고, 나머지는
-        # Commons/Met/AIC 검색으로 채운다.
-        sources=[SourceQuery(source="wikimedia", object_ids=[
-                     "File:First known photo of Koreans 1871.jpg",
-                     "File:1871sujagi.jpg",
-                 ]),
-                 SourceQuery(source="wikimedia", query="Felice Beato", artist="Beato"),
-                 SourceQuery(source="the_met", query="Felice Beato"),
-                 SourceQuery(source="aic", query="Felice Beato")],
-    ),
+    # NOTE: deliberately excluded as too controversial for the app's tone:
+    # Felice Beato (staged corpses in war photos; embedded with the US force
+    # in the 1871 invasion of Joseon), Edward S. Curtis (staged/romanticized
+    # "vanishing race" framing), Eadweard Muybridge (killed his wife's lover).
     MasterSeed(
         id="kusakabe-kimbei", name="Kusakabe Kimbei (日下部金兵衛)", region="jp",
         nationality="JP", birth_year=1841, death_year=1934, portrait_url=None,
@@ -138,6 +129,9 @@ ROSTER: list[MasterSeed] = [
         birth_year=1903, death_year=1986, portrait_url=None,
         sources=[SourceQuery(source="wikimedia", query="Russell Lee FSA",
                              artist="Lee")],  # Commons 38 PD (FSA)
+        # Iconic anti-segregation document, but the period caption's language
+        # is jarring as a casual gallery title.
+        exclude_titles=['drinking at "colored" water cooler'],
     ),
     MasterSeed(
         id="toni-frissell", name="Toni Frissell", region="modern", nationality="US",
@@ -205,19 +199,9 @@ ROSTER: list[MasterSeed] = [
                              artist="Marville")],
     ),
     MasterSeed(
-        id="edward-curtis", name="Edward S. Curtis", region="foreign", nationality="US",
-        birth_year=1868, death_year=1952, portrait_url=None,
-        sources=[SourceQuery(source="aic", query="Edward S. Curtis")],  # AIC 26
-    ),
-    MasterSeed(
         id="peter-henry-emerson", name="Peter Henry Emerson", region="foreign",
         nationality="GB", birth_year=1856, death_year=1936, portrait_url=None,
         sources=[SourceQuery(source="aic", query="Peter Henry Emerson")],  # AIC 40
-    ),
-    MasterSeed(
-        id="eadweard-muybridge", name="Eadweard Muybridge", region="foreign",
-        nationality="GB", birth_year=1830, death_year=1904, portrait_url=None,
-        sources=[SourceQuery(source="aic", query="Eadweard Muybridge")],  # AIC 5
     ),
     MasterSeed(
         id="timothy-osullivan", name="Timothy H. O'Sullivan", region="foreign",

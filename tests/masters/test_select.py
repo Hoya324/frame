@@ -77,6 +77,23 @@ def test_query_results_ranked_highlight_first_and_capped():
     assert len(works) == 2
 
 
+def test_exclude_titles_drops_matching_works_case_insensitively():
+    seed = MasterSeed(
+        id="m", name="M", region="foreign", nationality="US", birth_year=None,
+        death_year=None, portrait_url=None,
+        sources=[SourceQuery(source="the_met", query="M")],
+        exclude_titles=["water cooler"],
+    )
+    keep = _work("1")
+    drop = RawWork(
+        source="the_met", source_object_id="2", title='Drinking at "Colored" Water Cooler',
+        year="1939", medium="m", image_url="https://x/i.jpg", thumb_url="https://x/i.jpg",
+        source_url="https://x/2", credit="c", is_public_domain=True,
+    )
+    works = select_works(seed, {"the_met": FakeClient("the_met", by_query=[keep, drop])}, cap=10)
+    assert [w.source_object_id for w in works] == ["1"]
+
+
 def test_dedupes_same_work_id_across_sources():
     seed = MasterSeed(
         id="m", name="M", region="foreign", nationality="US", birth_year=None,

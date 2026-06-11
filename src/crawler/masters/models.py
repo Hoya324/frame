@@ -59,3 +59,6 @@ class MasterSeed:
     death_year: int | None
     portrait_url: str | None  # PD portrait (Wikimedia), curated here
     sources: list[SourceQuery] = field(default_factory=list)
+    # Case-insensitive title substrings to drop at select time — for works
+    # whose subject or period caption doesn't fit the app's tone.
+    exclude_titles: list[str] = field(default_factory=list)

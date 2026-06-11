@@ -48,10 +48,13 @@ def select_works(
 
     pulled.sort(key=_rank_key, reverse=True)
 
+    excludes = [t.lower() for t in seed.exclude_titles]
     out: list[RawWork] = []
     seen: set[str] = set()
     for w in [*explicit, *pulled]:
         if not (w.is_public_domain and w.has_image):
+            continue
+        if any(t in w.title.lower() for t in excludes):
             continue
         if w.work_id in seen:
             continue
