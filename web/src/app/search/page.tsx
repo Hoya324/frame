@@ -18,7 +18,7 @@ export default function SearchPage() {
   const catalog = loadCatalogSync();
   const { t } = useLang();
   const [q, setQ] = useState("");
-  const [chips, setChips] = useState<string[]>([]);
+  const [chips, setChips] = useState<string[]>(["ongoing", "upcoming"]);
   const [sort, setSort] = useState<SortKey>("recommended");
   const toggle = (v: string) => setChips((c) => (c.includes(v) ? c.filter((x) => x !== v) : [...c, v]));
 

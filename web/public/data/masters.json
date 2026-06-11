@@ -24,26 +24,6 @@
       },
       "works": [
         {
-          "id": "wikimedia-4029856",
-          "title": "Percival Lowell - an afterglow",
-          "year": "1921",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Percival_Lowell_-_an_afterglow.djvu/page1-1280px-Percival_Lowell_-_an_afterglow.djvu.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Percival_Lowell_-_an_afterglow.djvu/page1-1280px-Percival_Lowell_-_an_afterglow.djvu.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Percival_Lowell_-_an_afterglow.djvu",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1916년 세상을 떠난 로웰을 기리며 1921년에 펴낸 회고 기록과 함께 전해지는 이미지입니다. 조선의 기록자에서 화성의 관측자로 이어진 한 사람의 생애를 되돌아보게 하는 자료로, 사진이 인물의 삶을 기억하는 매체이기도 하다는 사실을 일깨워 줍니다.",
-          "tr": {
-            "en": {
-              "commentary": "This image has come down to us alongside a 1921 memorial volume honoring Lowell, who died in 1916. It invites us to look back on a life that ran from chronicler of Joseon to observer of Mars, reminding us that photography is also a medium for remembering a person's life."
-            },
-            "ja": {
-              "commentary": "1916年に世を去ったローウェルを偲んで1921年に刊行された回顧録とともに伝わるイメージです。朝鮮の記録者から火星の観測者へと続いた一人の生涯を振り返らせる資料であり、写真が人の人生を記憶する媒体でもあることを思い起こさせます。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-11033718",
           "title": "Emperor Gojong of the Korean Empire by Percival Lowell, 1884",
           "year": "1884",
@@ -60,26 +40,6 @@
             },
             "ja": {
               "commentary": "1884年にローウェルが撮影した高宗の肖像で、現存する高宗の写真の中で最も早い時期のものに数えられます。君主がカメラの前に立つこと自体が珍しかった時代に、抑制された構図が人物の威厳を静かに伝えます。一枚の肖像がそのまま韓国写真史の出発点となった、歴史的な場面です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-2814687",
-          "title": "Choson. the Land of the Morning Calm-Percival Lowell",
-          "year": "1885",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Choson._the_Land_of_the_Morning_Calm-Percival_Lowell.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Choson._the_Land_of_the_Morning_Calm-Percival_Lowell.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Choson._the_Land_of_the_Morning_Calm-Percival_Lowell.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "로웰이 조선 체류의 기록을 묶어 펴낸 『조선, 고요한 아침의 나라』(1886)와 관련된 도판입니다. 사진과 글이 어우러진 이 책은 서양 독자에게 조선의 풍경과 사람들을 처음으로 생생하게 전한 시각 기록이었습니다. 시대의 공기를 머금은 도판에서 초기 기행 사진의 정직한 시선을 읽을 수 있습니다.",
-          "tr": {
-            "en": {
-              "commentary": "A plate associated with \"Chosön, the Land of the Morning Calm\" (1886), the book in which Lowell gathered the record of his stay in Korea. Weaving photographs and prose together, it was the first vivid visual account to bring Korea's landscapes and people to Western readers. In a plate steeped in the air of its era, one can read the honest gaze of early travel photography."
-            },
-            "ja": {
-              "commentary": "ローウェルが朝鮮滞在の記録をまとめた『朝鮮、静かな朝の国』(1886)に関わる図版です。写真と文章が織りなすこの本は、西洋の読者に朝鮮の風景と人々を初めて生き生きと伝えた視覚記録でした。時代の空気をたたえた図版から、初期紀行写真の誠実なまなざしを読み取ることができます。"
             }
           }
         },
@@ -120,26 +80,6 @@
             },
             "ja": {
               "commentary": "1883年頃のソウル・北村一帯を収めた写真で、ソウルの都市風景を記録した最も早い写真群に属します。連なる瓦屋根の眺めから、当時の漢陽の密度と秩序がひと目で伝わってきます。今は失われた風景を証言する、都市写真の原型のような作品です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-4028496",
-          "title": "The Solar System - Six Lectures - Lowell",
-          "year": "1903",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/The_Solar_System_-_Six_Lectures_-_Lowell.djvu/page1-1280px-The_Solar_System_-_Six_Lectures_-_Lowell.djvu.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/The_Solar_System_-_Six_Lectures_-_Lowell.djvu/page1-1280px-The_Solar_System_-_Six_Lectures_-_Lowell.djvu.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Solar_System_-_Six_Lectures_-_Lowell.djvu",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "로웰이 1903년에 펴낸 천문학 강연집 『태양계』와 관련된 도판입니다. 조선을 기록한 여행가에서 로웰 천문대를 세운 천문학자로 이어지는 그의 또 다른 면모를 보여 주는 자료로, 보이는 것을 끝까지 관측하고 기록하려 한 일관된 열정을 읽을 수 있습니다.",
-          "tr": {
-            "en": {
-              "commentary": "A plate associated with \"The Solar System,\" the collection of six astronomy lectures Lowell published in 1903. It shows the other side of the man—the traveler who documented Joseon become the astronomer who founded Lowell Observatory—and reveals a constant passion for observing and recording the visible world to the very end."
-            },
-            "ja": {
-              "commentary": "ローウェルが1903年に刊行した天文学講演集『太陽系』に関わる図版です。朝鮮を記録した旅行家から、ローウェル天文台を築いた天文学者へと続く彼のもう一つの顔を示す資料であり、見えるものを最後まで観測し記録しようとした一貫した情熱が読み取れます。"
             }
           }
         },
@@ -200,26 +140,6 @@
             },
             "ja": {
               "commentary": "朝鮮末期に領議政を務めた洪淳穆の1884年の肖像写真です。激動の一年を前にした老政治家の姿を静かに記録した作品で、初期肖像写真ならではの静謐な緊張感が漂います。甲申政変前後の時代の支配層を証言する貴重な人物史料です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-4029444",
-          "title": "Mars",
-          "year": null,
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Mars_-_Lowell.djvu/page1-1280px-Mars_-_Lowell.djvu.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Mars_-_Lowell.djvu/page1-1280px-Mars_-_Lowell.djvu.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mars_-_Lowell.djvu",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "화성 표면을 관측하고 기록한 로웰의 작업과 관련된 이미지입니다. 그는 애리조나에 로웰 천문대를 세우고 생애 후반을 화성 관측에 바쳤으며, 그 기록들은 당대의 상상력을 자극하며 행성 연구의 대중화에 큰 영향을 미쳤습니다. 조선의 거리에서 화성의 표면까지, 보이는 것을 기록하려는 그의 집요한 시선을 보여 주는 자료입니다.",
-          "tr": {
-            "en": {
-              "commentary": "An image connected with Lowell's work observing and recording the surface of Mars. He founded Lowell Observatory in Arizona and devoted the latter half of his life to studying the planet; his records fired the imagination of his age and did much to popularize planetary science. From the streets of Joseon to the surface of Mars, it speaks of his tenacious drive to record whatever could be seen."
-            },
-            "ja": {
-              "commentary": "火星の表面を観測し記録したローウェルの仕事に関わるイメージです。彼はアリゾナにローウェル天文台を築き、後半生を火星観測に捧げました。その記録は同時代の想像力をかき立て、惑星研究の大衆化に大きな影響を与えました。朝鮮の街角から火星の表面まで、見えるものを記録しようとする彼の執念のまなざしを示す資料です。"
             }
           }
         }
@@ -304,26 +224,6 @@
             },
             "ja": {
               "commentary": "1900年頃の平壌・七星門を収めた写真です。平壌城の北側の門であった七星門は、牡丹峰の山裾の地形と溶け合う姿で早くから写真家たちの目を引きました。いまは直接訪れることのできない平壌の昔の姿を伝える貴重な記録です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-2901805",
-          "title": "Korea-Portrait of Emperor Gojong-01",
-          "year": "1893",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Korea-Portrait_of_Emperor_Gojong-01.jpg/1280px-Korea-Portrait_of_Emperor_Gojong-01.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Korea-Portrait_of_Emperor_Gojong-01.jpg/1280px-Korea-Portrait_of_Emperor_Gojong-01.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korea-Portrait_of_Emperor_Gojong-01.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1893년에 촬영된 고종의 초상입니다. 대한제국 선포를 몇 해 앞둔 시기의 군주를 기록한 사진으로, 왕실 초상이 회화에서 사진으로 옮겨 가던 전환기의 면모를 보여 줍니다. 시대의 무게를 짊어진 인물을 가까이에서 마주하게 하는 작품입니다.",
-          "tr": {
-            "en": {
-              "commentary": "A portrait of Gojong photographed in 1893. Recording the monarch a few years before the proclamation of the Korean Empire, it captures the moment when royal portraiture was shifting from painting to photography. The image brings us face to face with a figure bearing the full weight of his era."
-            },
-            "ja": {
-              "commentary": "1893年に撮影された高宗の肖像です。大韓帝国の宣布を数年後に控えた時期の君主を記録した写真で、王室の肖像が絵画から写真へと移り変わる転換期の様相を示しています。時代の重みを背負った人物と間近に向き合わせてくれる作品です。"
             }
           }
         },
@@ -492,26 +392,6 @@
           }
         },
         {
-          "id": "wikimedia-10490073",
-          "title": "Kusakabe Kimbei - Advertisement",
-          "year": "1893",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Kusakabe_Kimbei_-_Advertisement.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Kusakabe_Kimbei_-_Advertisement.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kusakabe_Kimbei_-_Advertisement.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "긴베이 스튜디오의 광고물로, 사진이 이미 하나의 산업이 되었던 메이지 시대의 단면을 보여 줍니다. 외국인 여행자를 겨냥한 요코하마 사진 상점들의 치열한 경쟁 속에서 광고 또한 정교한 시각물로 만들어졌습니다. 작품 그 자체보다 사진의 유통과 소비를 증언한다는 점에서 흥미로운 자료입니다.",
-          "tr": {
-            "en": {
-              "commentary": "An advertisement for Kimbei's studio, offering a glimpse of the Meiji era, when photography had already become an industry. Amid fierce competition among Yokohama photo shops courting foreign travelers, even advertising was crafted as a polished visual object. It fascinates less as an artwork than as testimony to how photographs were marketed and consumed."
-            },
-            "ja": {
-              "commentary": "金兵衛スタジオの広告物で、写真がすでにひとつの産業となっていた明治時代の一面を伝えます。外国人旅行者をめぐる横浜の写真店どうしの激しい競争のなかで、広告もまた精巧な視覚物として作られました。作品そのものよりも、写真の流通と消費を証言する点で興味深い資料です。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-86376861",
           "title": "Samurai-in-Armour-by-Kusakabe-Kimbei",
           "year": "1860",
@@ -588,46 +468,6 @@
             },
             "ja": {
               "commentary": "踊りの宴の場面をとらえた風俗写真です。人物の所作と配置を細やかに演出し、一枚の写真のなかに公演のリズムを凝縮しています。手彩色が施された衣装の色彩は、当時の西洋人を魅了した日本風俗イメージの典型を示しています。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-53383059",
-          "title": "Portrait of Kusakabe Kimbei",
-          "year": null,
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Portrait_of_Kusakabe_Kimbei.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Portrait_of_Kusakabe_Kimbei.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Kusakabe_Kimbei.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "사진가 구사카베 긴베이 본인을 담은 초상입니다. 평생 카메라 뒤에서 일본의 풍경과 사람들을 기록해 온 인물이 모처럼 카메라 앞에 선 모습이라는 점에서 각별합니다. 요코하마 사진의 전성기를 이끈 거장의 얼굴을 확인할 수 있는 귀중한 자료입니다.",
-          "tr": {
-            "en": {
-              "commentary": "A portrait of the photographer Kusakabe Kimbei himself. There is a special poignancy in seeing the man who spent his life behind the camera, recording Japan's landscapes and people, standing for once in front of it. It is a precious document of the face of the master who led Yokohama photography at its height."
-            },
-            "ja": {
-              "commentary": "写真家・日下部金兵衛その人をとらえた肖像です。生涯カメラの後ろから日本の風景と人々を記録してきた人物が、めずらしくカメラの前に立った姿という点で格別です。横浜写真の全盛期を牽引した巨匠の顔を確かめられる、貴重な資料です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-33838096",
-          "title": "Kusakabe Kimbei - advertisement 2",
-          "year": null,
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Kusakabe_Kimbei_-_advertisement_2.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Kusakabe_Kimbei_-_advertisement_2.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kusakabe_Kimbei_-_advertisement_2.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "긴베이 스튜디오의 또 다른 광고물입니다. 사진관의 이름과 상품을 알리는 인쇄물에서도 시각적 완성도를 추구한 흔적이 엿보입니다. 메이지 시대 사진업의 상업적 면모를 전해 주는 기록으로서 가치가 있습니다.",
-          "tr": {
-            "en": {
-              "commentary": "Another advertisement from Kimbei's studio. Even in printed matter announcing the studio's name and wares, one senses a pursuit of visual polish. It holds value as a record of the commercial side of the photography trade in Meiji Japan."
-            },
-            "ja": {
-              "commentary": "金兵衛スタジオのもうひとつの広告物です。写真館の名前と商品を知らせる印刷物にも、視覚的な完成度を追求した跡がうかがえます。明治時代の写真業の商業的な側面を伝える記録として価値があります。"
             }
           }
         },
@@ -852,26 +692,6 @@
             },
             "ja": {
               "commentary": "日光東照宮・陽明門の一部を間近にとらえた写真です。「日暮し見ても飽きない」と称された絢爛たる彫刻装飾が、写真の精密な描写力によってよみがえります。建築の細部を記録する写真の力を示す、小川の日光連作の一枚です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-47620448",
-          "title": "Ogawa Kazumasa",
-          "year": null,
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Ogawa_Kazumasa.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Ogawa_Kazumasa.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ogawa_Kazumasa.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "사진가 오가와 가즈마사 본인의 초상입니다. 콜로타이프 인쇄와 채색 사진으로 메이지 사진계를 이끈 인물의 모습을 확인할 수 있습니다. 일본 사진 인쇄 기술의 역사를 증언하는 자료적 의미가 큰 한 장입니다.",
-          "tr": {
-            "en": {
-              "commentary": "A portrait of the photographer Ogawa Kazumasa himself. Here is the face of the man who led the Meiji photographic world through collotype printing and hand-tinted photography. The image carries great documentary significance as a witness to the history of photographic printing in Japan."
-            },
-            "ja": {
-              "commentary": "写真家・小川一眞その人の肖像です。コロタイプ印刷と彩色写真によって明治の写真界を牽引した人物の姿を確かめることができます。日本の写真印刷技術の歴史を証言する、資料的意義の大きい一枚です。"
             }
           }
         },
@@ -1224,66 +1044,6 @@
           }
         },
         {
-          "id": "wikimedia-430882",
-          "title": "Ueno Hikoma",
-          "year": null,
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ueno_Hikoma.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ueno_Hikoma.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ueno_Hikoma.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "일본 사진의 개척자 우에노 히코마 본인의 모습을 전하는 초상 사진입니다. 화학 연구에서 출발해 사진술을 익힌 그는 스스로가 일본 사진사의 산 증인이었습니다. 한 시대의 기술과 직업을 개척한 인물의 면모를 마주할 수 있다는 점에서 각별한 의미를 지닌 한 장입니다.",
-          "tr": {
-            "en": {
-              "commentary": "A portrait conveying the likeness of Ueno Hikoma himself, the pioneer of Japanese photography. Having come to the camera by way of chemical study, he was in his own person a living witness to the history of photography in Japan. The picture holds special meaning in letting us meet, face to face, the man who opened up a technology and a profession for his era."
-            },
-            "ja": {
-              "commentary": "日本写真の開拓者・上野彦馬その人の姿を伝える肖像写真です。化学の研究から出発して写真術を修めた彼は、自身が日本写真史の生き証人でした。ひとつの時代の技術と職業を切り開いた人物の風貌に向き合える点で、格別の意味を持つ一枚です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-2264204",
-          "title": "Ueno Hikoma M5260",
-          "year": null,
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Ueno_Hikoma_M5260.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Ueno_Hikoma_M5260.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ueno_Hikoma_M5260.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "우에노 히코마의 나가사키 사진관에서 제작된 작품입니다. 막말과 메이지에 걸쳐 그의 스튜디오는 수많은 인물과 풍경을 습판과 알부민 프린트로 기록하는, 일본 사진의 산실이었습니다. 정제된 화면 운용에서 화학자 출신 사진가다운 기술적 완성도를 확인할 수 있습니다.",
-          "tr": {
-            "en": {
-              "commentary": "A work produced at Ueno Hikoma's Nagasaki studio. Across the late Edo and Meiji eras, his studio was a cradle of Japanese photography, recording countless figures and views in wet plate and albumen print. In the refined handling of the image one can recognize the technical command of a photographer who began as a chemist."
-            },
-            "ja": {
-              "commentary": "上野彦馬の長崎写真館で制作された作品です。幕末から明治にかけて、彼のスタジオは無数の人物と風景を湿板と鶏卵紙プリントで記録する、日本写真の揺籃の地でした。整った画面の扱いに、化学者出身の写真家ならではの技術的完成度がうかがえます。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-2264218",
-          "title": "Ueno Hikoma M5261",
-          "year": null,
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ueno_Hikoma_M5261.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ueno_Hikoma_M5261.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ueno_Hikoma_M5261.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "우에노 히코마 스튜디오의 작업을 보여주는 또 하나의 작품입니다. 그의 사진관은 초상에서 풍경까지 폭넓은 주제를 한결같은 완성도로 소화하며 일본 사진의 표준을 세워 갔습니다. 초창기의 까다로운 습판 공정을 안정적으로 다룬 흔적이 화면 곳곳에서 읽히는, 기술사적으로도 흥미로운 자료입니다.",
-          "tr": {
-            "en": {
-              "commentary": "Another work demonstrating the practice of Ueno Hikoma's studio. From portraits to landscapes, his establishment handled a broad range of subjects with unwavering finish, setting the standard for photography in Japan. Traces of his steady command of the demanding early wet-plate process can be read throughout the image, making it a document of interest for the history of technique as well."
-            },
-            "ja": {
-              "commentary": "上野彦馬のスタジオの仕事を示すもうひとつの作品です。彼の写真館は肖像から風景まで幅広い主題を一貫した完成度でこなし、日本写真の標準を打ち立てていきました。初期の扱いの難しい湿板プロセスを安定して操った跡が画面の随所に読み取れる、技術史的にも興味深い資料です。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-14650480",
           "title": "Ueno Hikoma antique shop",
           "year": null,
@@ -1367,26 +1127,6 @@
         }
       },
       "works": [
-        {
-          "id": "wikimedia-156529006",
-          "title": "Tamamura Kozaburo",
-          "year": "1910",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Tamamura_Kozaburo.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Tamamura_Kozaburo.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tamamura_Kozaburo.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1910년경, 다마무라 고자부로의 만년 활동기를 전하는 사진입니다. 1880년대부터 요코하마 수출 사진의 중심에 섰던 그의 스튜디오는 이 무렵까지 한 시대를 풍미한 사진 산업의 역사를 증언하고 있었습니다. 사진엽서와 인쇄물의 시대로 넘어가던 전환기, 거장의 후기 행보를 보여주는 자료입니다.",
-          "tr": {
-            "en": {
-              "commentary": "A photograph from around 1910, conveying the late period of Tamamura Kōzaburō's career. His studio, at the center of Yokohama export photography since the 1880s, by this time stood witness to the history of a photographic industry that had defined an era. It is a document of the master's later path at the turning point when the age of the postcard and printed image was taking over."
-            },
-            "ja": {
-              "commentary": "1910年頃、玉村康三郎の晩年の活動期を伝える写真です。1880年代から横浜輸出写真の中心に立ってきた彼のスタジオは、この頃まで、一時代を風靡した写真産業の歴史を証言していました。絵葉書と印刷物の時代へと移り変わる転換期における、巨匠の後期の歩みを示す資料です。"
-            }
-          }
-        },
         {
           "id": "wikimedia-61190348",
           "title": "Band of Kobe by Tamamura Kozaburo, Honolulu Museum of Art",
@@ -1528,26 +1268,6 @@
           }
         },
         {
-          "id": "wikimedia-82415252",
-          "title": "Sanjusangendo 1979.1.55P01B (cropped)",
-          "year": "1880",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Sanjusangendo_1979.1.55P01B_%28cropped%29.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Sanjusangendo_1979.1.55P01B_%28cropped%29.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sanjusangendo_1979.1.55P01B_(cropped).jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1880년대 교토 산주산겐도를 담은 사진의 부분 화면입니다. 화면을 잘라내자 목조 불당의 기둥과 처마가 만드는 반복의 리듬이 한층 또렷하게 드러납니다. 건축의 세부를 통해 명소 사진을 다시 읽게 하는, 원본과는 다른 감상의 결을 지닌 이미지입니다.",
-          "tr": {
-            "en": {
-              "commentary": "A cropped view from a 1880s photograph of Sanjūsangendō in Kyoto. With the frame cut down, the rhythm of repetition created by the wooden hall's pillars and eaves emerges all the more clearly. Through architectural detail it invites a rereading of the famous-site photograph, offering a texture of appreciation distinct from the original."
-            },
-            "ja": {
-              "commentary": "1880年代、京都・三十三間堂を写した写真の部分画面です。画面を切り取ることで、木造仏堂の柱と軒が生み出す反復のリズムがいっそう鮮明に浮かび上がります。建築のディテールを通して名所写真を読み直させる、原版とは異なる鑑賞の趣を持つイメージです。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-4488903",
           "title": "Nagoya Castle 1979.1.48P01B",
           "year": "1880",
@@ -1591,26 +1311,6 @@
         }
       },
       "works": [
-        {
-          "id": "wikimedia-13315734",
-          "title": "Shimooka Renjo - Painting",
-          "year": "1863",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Shimooka_Renjo_-_Painting.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Shimooka_Renjo_-_Painting.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shimooka_Renjo_-_Painting.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "화가 출신인 시모오카 렌조의 회화적 면모와 닿아 있는 1863년의 작품입니다. 사진술이 막 뿌리내리던 시기, 그림과 사진이라는 두 매체를 오간 그의 이력은 일본 초기 사진의 형성 과정을 잘 보여 줍니다. 매체의 경계가 아직 유동적이던 여명기의 흥미로운 기록입니다.",
-          "tr": {
-            "en": {
-              "commentary": "A work from 1863 that touches on the painterly side of Shimooka Renjō, who began his career as a painter. At a moment when photography was only just taking root, his movement between painting and the camera illuminates how early Japanese photography took shape. It is a fascinating record of a dawn era when the boundaries between media were still fluid."
-            },
-            "ja": {
-              "commentary": "画家出身である下岡蓮杖の絵画的な側面につながる、1863年の作品です。写真術がようやく根づきはじめた時期、絵と写真というふたつの媒体を行き来した彼の経歴は、日本初期写真の形成過程をよく物語ります。媒体の境界がまだ流動的だった黎明期の、興味深い記録です。"
-            }
-          }
-        },
         {
           "id": "wikimedia-45491797",
           "title": "Kowairozukai, ca. 1870 by Shimooka Renjo",
@@ -1710,46 +1410,6 @@
               "commentary": "1867年、横浜で撮影された西洋商社の職員たちの集合肖像です。開港場に集った外国人たちの姿が、初期集合写真ならではの静的な構図のなかに収められています。幕末横浜の国際的な顔ぶれを伝える記録写真です。"
             }
           }
-        },
-        {
-          "id": "wikimedia-110197354",
-          "title": "Shimooka Renjō",
-          "year": null,
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Shimooka_Renj%C5%8D.jpg/1280px-Shimooka_Renj%C5%8D.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Shimooka_Renj%C5%8D.jpg/1280px-Shimooka_Renj%C5%8D.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shimooka_Renj%C5%8D.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "일본 사진의 개척자 시모오카 렌조 본인의 초상입니다. 화가에서 사진가로 전신해 요코하마에 스튜디오를 연 인물의 모습을 마주할 수 있습니다. 일본 사진사의 출발점을 증언하는 얼굴이라 할 만합니다.",
-          "tr": {
-            "en": {
-              "commentary": "A portrait of Shimooka Renjō himself, a pioneer of Japanese photography. Here we meet the man who turned from painting to photography and opened his studio in Yokohama. His is a face that bears witness to the very starting point of the history of photography in Japan."
-            },
-            "ja": {
-              "commentary": "日本写真の開拓者、下岡蓮杖その人の肖像です。画家から写真家へ転身し、横浜にスタジオを開いた人物の姿と向き合うことができます。日本写真史の出発点を証言する顔と言ってよいでしょう。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-183985494",
-          "title": "Renjō Shimooka (in Bakumatsu Period)",
-          "year": null,
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Renj%C5%8D_Shimooka_%28in_Bakumatsu_Period%29.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Renj%C5%8D_Shimooka_%28in_Bakumatsu_Period%29.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Renj%C5%8D_Shimooka_(in_Bakumatsu_Period).jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "막말 시기의 시모오카 렌조를 담은 초상입니다. 사진술 도입의 최전선에 섰던 개척자의 이른 시절 모습이라는 점에서 사료적 가치가 큽니다. 일본 사진 여명기의 공기를 함께 전해 주는 한 장입니다.",
-          "tr": {
-            "en": {
-              "commentary": "A portrait of Shimooka Renjō in the Bakumatsu period. Its documentary value is great, showing the pioneer in his earlier years, when he stood at the very front line of photography's introduction to Japan. The image carries with it the air of Japanese photography's dawn."
-            },
-            "ja": {
-              "commentary": "幕末期の下岡蓮杖をとらえた肖像です。写真術導入の最前線に立った開拓者の早い時期の姿という点で、史料的価値の高い作品です。日本写真の黎明期の空気をともに伝えてくれる一枚です。"
-            }
-          }
         }
       ]
     },
@@ -1796,26 +1456,6 @@
           }
         },
         {
-          "id": "wikimedia-53038",
-          "title": "Dorothea Lange 1936",
-          "year": "1936",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Dorothea_Lange_1936.jpg/1280px-Dorothea_Lange_1936.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Dorothea_Lange_1936.jpg/1280px-Dorothea_Lange_1936.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dorothea_Lange_1936.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "카메라 뒤의 기록자가 카메라 앞에 선 순간입니다. 「이주민 어머니」가 태어난 1936년, 농업안정국 현장을 누비던 시기의 도로시아 랭을 담은 기록입니다. 사진가 자신 또한 역사적 기록의 일부가 된다는 사실을 일깨우는 한 장입니다.",
-          "tr": {
-            "en": {
-              "commentary": "Here the recorder behind the camera steps in front of it. This image shows Dorothea Lange in 1936 — the very year \"Migrant Mother\" was made — during her fieldwork for the Farm Security Administration. It reminds us that the photographer, too, becomes part of the historical record."
-            },
-            "ja": {
-              "commentary": "カメラの後ろにいた記録者が、カメラの前に立った瞬間です。「移民の母」が生まれた1936年、農業安定局の現場を駆け回っていた時期のドロシア・ラングを写した記録です。写真家自身もまた歴史的記録の一部になることを思い出させてくれる一枚です。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-49179423",
           "title": "Broke, baby sick, and car trouble! - Dorothea Langes photo of a Missouri family of five in the vicinity of Tracy, California",
           "year": "1937",
@@ -1856,46 +1496,6 @@
           }
         },
         {
-          "id": "wikimedia-3948901",
-          "title": "Dorothea Lange atop automobile in California",
-          "year": "1936",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Dorothea_Lange_atop_automobile_in_California.jpg/1280px-Dorothea_Lange_atop_automobile_in_California.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Dorothea_Lange_atop_automobile_in_California.jpg/1280px-Dorothea_Lange_atop_automobile_in_California.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dorothea_Lange_atop_automobile_in_California.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "자동차 지붕 위에 올라 대형 카메라를 다루는 도로시아 랭의 모습입니다. 캘리포니아의 들판을 누비던 그녀에게 자동차는 이동 수단이자 촬영대였고, 이 한 장은 현장 사진가의 노동이 어떤 것이었는지를 생생하게 증언합니다. 「이주민 어머니」 같은 걸작이 어떤 발품 끝에 태어났는지를 보여주는 귀중한 기록입니다.",
-          "tr": {
-            "en": {
-              "commentary": "Dorothea Lange handling her large camera atop an automobile. For a photographer who roamed the fields of California, the car was both transport and camera platform, and this frame vividly testifies to the physical labor of fieldwork. It is a precious record of the legwork behind masterpieces like \"Migrant Mother.\""
-            },
-            "ja": {
-              "commentary": "自動車の屋根に上り、大型カメラを操るドロシア・ラングの姿です。カリフォルニアの平野を駆け回った彼女にとって、車は移動手段であり撮影台でもありました。この一枚は、現場写真家の労働がどんなものだったかを生々しく証言しています。「移民の母」のような傑作がどれほどの足労の末に生まれたかを伝える貴重な記録です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-9968330",
-          "title": "Dorothea Lange 1936 portrait",
-          "year": "1936",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Dorothea_Lange_1936_portrait.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Dorothea_Lange_1936_portrait.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dorothea_Lange_1936_portrait.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1936년, 농업안정국 사진가로 활동하던 시기의 도로시아 랭 초상입니다. 그녀가 평생 타인의 얼굴에서 시대를 읽어냈듯, 이 초상은 우리에게 기록자 자신의 얼굴을 들여다볼 기회를 줍니다. 미국 다큐멘터리 사진의 황금기를 증언하는 인물 기록입니다.",
-          "tr": {
-            "en": {
-              "commentary": "A 1936 portrait of Dorothea Lange during her years as a Farm Security Administration photographer. Just as she spent her life reading an era in other people's faces, this portrait lets us look into the face of the recorder herself. It is a human document of the golden age of American documentary photography."
-            },
-            "ja": {
-              "commentary": "1936年、農業安定局の写真家として活動していた時期のドロシア・ラングの肖像です。彼女が生涯、他者の顔から時代を読み取ったように、この肖像は私たちに記録者自身の顔を見つめる機会を与えてくれます。アメリカのドキュメンタリー写真の黄金期を証言する人物記録です。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-68826678",
           "title": "Migrant Mother by Dorothea Lange (original)",
           "year": "1936",
@@ -1912,46 +1512,6 @@
             },
             "ja": {
               "commentary": "「移民の母」の修整前のオリジナルで、画面右下にトンプソンの親指がそのまま残っています。のちのプリント工程で消されたこの小さな痕跡は、傑作が作られる過程、そしてドキュメンタリー写真の「真実」をめぐる興味深い議論の手がかりとなりました。オリジナルであるがゆえに、1936年ニポモのあの日がいっそう生々しく迫ってきます。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-92311414",
-          "title": "Dorothea Lange, Resettlement Administration photographer, in California",
-          "year": "1936",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Dorothea_Lange_atop_automobile_in_California_%28restored%29_%28cropped%29.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Dorothea_Lange_atop_automobile_in_California_%28restored%29_%28cropped%29.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dorothea_Lange_atop_automobile_in_California_(restored)_(cropped).jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "재정착국(농업안정국의 전신) 사진가 도로시아 랭이 캘리포니아 현장에서 일하는 모습입니다. 정부 기록 사업의 일원으로 카메라를 든 그녀의 모습에서, 사진이 공공의 기억을 만드는 도구였던 시대를 읽을 수 있습니다. 기록자를 기록한, 메타적인 한 장입니다.",
-          "tr": {
-            "en": {
-              "commentary": "Dorothea Lange at work in California as a photographer for the Resettlement Administration, the forerunner of the FSA. In her figure, camera in hand as part of a government documentation program, we can read an era when photography served as a tool for building public memory. A meta-image: the recorder, recorded."
-            },
-            "ja": {
-              "commentary": "再定住局(農業安定局の前身)の写真家ドロシア・ラングが、カリフォルニアの現場で働く姿です。政府の記録事業の一員としてカメラを手にする彼女の姿から、写真が公共の記憶をつくる道具だった時代を読み取ることができます。記録者を記録した、メタ的な一枚です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-86946563",
-          "title": "Migrant mother, Nipomo, California label QS:Len,\"Migrant Mother\" label QS:Lar,\"الأُمُّ المُهاجرة\"",
-          "year": "1936",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Dorothea_Lange%E2%80%99s_1936_photograph_%E2%80%9CMigrant_Mother%E2%80%9D.jpg/1280px-Dorothea_Lange%E2%80%99s_1936_photograph_%E2%80%9CMigrant_Mother%E2%80%9D.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Dorothea_Lange%E2%80%99s_1936_photograph_%E2%80%9CMigrant_Mother%E2%80%9D.jpg/1280px-Dorothea_Lange%E2%80%99s_1936_photograph_%E2%80%9CMigrant_Mother%E2%80%9D.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dorothea_Lange%E2%80%99s_1936_photograph_%E2%80%9CMigrant_Mother%E2%80%9D.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "캘리포니아 니포모의 완두콩 수확 캠프에서 태어난 「이주민 어머니」입니다. 플로렌스 오웬스 톰프슨의 깊게 패인 얼굴과 어머니에게 얼굴을 묻은 아이들이 이루는 구도는 한 시대의 고통을 하나의 도상으로 응축했습니다. 이 사진이 보도된 뒤 캠프에 긴급 구호가 이루어졌다는 일화는 다큐멘터리 사진의 힘을 보여주는 가장 유명한 사례로 남아 있습니다.",
-          "tr": {
-            "en": {
-              "commentary": "\"Migrant Mother,\" born at a pea-pickers' camp in Nipomo, California. The composition — Florence Owens Thompson's deeply lined face and the children burying their faces against her — condensed the suffering of an era into a single icon. The story that emergency relief reached the camp after the photograph was published remains the most famous case of documentary photography's power."
-            },
-            "ja": {
-              "commentary": "カリフォルニア州ニポモの豆摘みキャンプで生まれた「移民の母」です。フローレンス・オーウェンス・トンプソンの深く刻まれた顔と、母に顔をうずめる子どもたちが作る構図は、一つの時代の苦しみを一個の図像へと凝縮しました。この写真の報道後、キャンプに緊急救援が届けられたという逸話は、ドキュメンタリー写真の力を示すもっとも有名な事例として残っています。"
             }
           }
         },
@@ -2100,46 +1660,6 @@
           }
         },
         {
-          "id": "wikimedia-2245656",
-          "title": "Walker Evans 1937-02",
-          "year": "1937",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Walker_Evans_1937-02.jpg/1280px-Walker_Evans_1937-02.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Walker_Evans_1937-02.jpg/1280px-Walker_Evans_1937-02.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Walker_Evans_1937-02.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1937년, 농업안정국 활동 시기의 워커 에반스를 담은 초상입니다. 늘 카메라 뒤에 서 있던 그가 렌즈 앞에 선 드문 기록으로, 다큐멘터리 사진의 기준을 세워 가던 30대의 에반스를 만날 수 있습니다. 기록의 시대를 살았던 기록자 자신의 초상이라는 점에서 의미가 깊습니다.",
-          "tr": {
-            "en": {
-              "commentary": "A 1937 portrait of Walker Evans from his Farm Security Administration years. A rare record of a man who always stood behind the camera now facing the lens, it shows Evans in his thirties, in the midst of setting the standard for documentary photography. Its meaning runs deep: a portrait of the recorder himself, in the age of the record."
-            },
-            "ja": {
-              "commentary": "1937年、農業安定局時代のウォーカー・エヴァンスを写した肖像です。常にカメラの後ろに立っていた彼がレンズの前に立った珍しい記録で、ドキュメンタリー写真の基準を打ち立てつつあった30代のエヴァンスに出会えます。記録の時代を生きた記録者自身の肖像という点で、意味の深い一枚です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-147062335",
-          "title": "Walker Evans 1937-02 closeup",
-          "year": "1937",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Walker_Evans_1937-02_closeup.jpg/1280px-Walker_Evans_1937-02_closeup.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Walker_Evans_1937-02_closeup.jpg/1280px-Walker_Evans_1937-02_closeup.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Walker_Evans_1937-02_closeup.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1937년 워커 에반스 초상의 얼굴 부분을 가까이 들여다본 컷입니다. 타인의 일상을 집요하게 응시했던 사진가의 눈빛을 정면에서 마주하게 됩니다. 기록자의 얼굴 또한 하나의 역사적 기록임을 일깨우는 사진입니다.",
-          "tr": {
-            "en": {
-              "commentary": "A close-up detail of the 1937 portrait of Walker Evans. Here we meet, head-on, the gaze of a photographer who stared so persistently into the everyday lives of others. The image reminds us that the recorder's face is itself a historical record."
-            },
-            "ja": {
-              "commentary": "1937年のウォーカー・エヴァンス肖像の、顔の部分を間近に見つめたカットです。他者の日常を執拗に見つめ続けた写真家の眼差しと、真正面から向き合うことになります。記録者の顔もまた一つの歴史的記録であることを思い出させる写真です。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-146661389",
           "title": "Fairchild House, Waveland, Mississippi by Walker Evans crop",
           "year": "1935",
@@ -2244,122 +1764,102 @@
           }
         },
         {
-          "id": "wikimedia-5999774",
-          "title": "Gordon Parks",
-          "year": "1963",
+          "id": "wikimedia-95305822",
+          "title": "Service-pnp-fsa-8d25000-8d25500-8d25515r",
+          "year": "1943",
           "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Gordon_Parks.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Gordon_Parks.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Service-pnp-fsa-8d25000-8d25500-8d25515r.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Service-pnp-fsa-8d25000-8d25500-8d25515r.jpg",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gordon_Parks.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Service-pnp-fsa-8d25000-8d25500-8d25515r.jpg",
           "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1963년의 고든 파크스를 담은 초상입니다. 『라이프』지의 사진가로, 또 민권운동의 기록자로 가장 치열하게 활동하던 시기의 모습입니다. 카메라로 차별과 싸운 한 예술가의 얼굴을 마주하게 되는 기록입니다.",
+          "commentary": "1943년 미국 농업안정국(FSA)·전시정보국 시기에 고든 파크스가 워싱턴에서 남긴 다큐멘터리 기록입니다. 인물과 일상의 디테일을 정면으로 응시하는 그의 카메라는 전시 미국 사회, 특히 흑인 공동체의 삶을 존엄하게 담아냈습니다. 절제된 구도와 자연광의 활용이 기록사진을 넘어선 초상적 깊이를 만들어냅니다.",
           "tr": {
             "en": {
-              "commentary": "A portrait of Gordon Parks in 1963 — the period of his most intense activity as a Life magazine photographer and a chronicler of the civil rights movement. It is a record in which we come face to face with an artist who fought discrimination with a camera."
+              "commentary": "This is a documentary record Gordon Parks made in Washington in 1943, during his time with the U.S. Farm Security Administration and Office of War Information. His camera, gazing squarely at people and the details of everyday life, captured wartime American society—especially the lives of the Black community—with dignity. The restrained composition and use of natural light give the image a portrait-like depth that goes beyond documentary photography."
             },
             "ja": {
-              "commentary": "1963年のゴードン・パークスを写した肖像です。『ライフ』誌の写真家として、また公民権運動の記録者として、もっとも熾烈に活動していた時期の姿です。カメラで差別と闘った一人の芸術家の顔と向き合うことになる記録です。"
+              "commentary": "1943年、米国農業安定局(FSA)・戦時情報局時代にゴードン・パークスがワシントンで残したドキュメンタリーの記録です。人物と日常のディテールを正面から見つめる彼のカメラは、戦時下のアメリカ社会、とりわけ黒人コミュニティの暮らしを尊厳をもって写し取りました。抑制された構図と自然光の活かし方が、記録写真を超えた肖像的な深みを生み出しています。"
             }
           }
         },
         {
-          "id": "wikimedia-85758000",
-          "title": "Gordon parks",
-          "year": "1963",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gordon_parks.gif",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gordon_parks.gif",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gordon_parks.gif",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "민권운동이 절정으로 치닫던 1963년의 고든 파크스입니다. 그는 이 시기 흑인 미국인의 삶과 투쟁을 주류 매체의 한복판에서 기록하고 있었습니다. 기록자이면서 동시에 당사자였던 그의 이중의 자리가 읽히는 초상입니다.",
-          "tr": {
-            "en": {
-              "commentary": "Gordon Parks in 1963, as the civil rights movement reached its height. In these years he was documenting Black American life and struggle from the very center of the mainstream press. The portrait lets us read his double position — at once recorder and participant."
-            },
-            "ja": {
-              "commentary": "公民権運動が頂点へと向かっていた1963年のゴードン・パークスです。この時期、彼は黒人アメリカ人の生と闘いを、主流メディアの真ん中で記録していました。記録者であると同時に当事者でもあった、彼の二重の立場が読み取れる肖像です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-16633380",
-          "title": "Civil Rights March on Washington, D.C. [Photographer Gordon Parks.]",
-          "year": "1963",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Civil_Rights_March_on_Washington%2C_D.C._%28Photographer_Gordon_Parks.%29_-_NARA_-_542074.tif/lossy-page1-1280px-Civil_Rights_March_on_Washington%2C_D.C._%28Photographer_Gordon_Parks.%29_-_NARA_-_542074.tif.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Civil_Rights_March_on_Washington%2C_D.C._%28Photographer_Gordon_Parks.%29_-_NARA_-_542074.tif/lossy-page1-1280px-Civil_Rights_March_on_Washington%2C_D.C._%28Photographer_Gordon_Parks.%29_-_NARA_-_542074.tif.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Civil_Rights_March_on_Washington,_D.C._(Photographer_Gordon_Parks.)_-_NARA_-_542074.tif",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1963년 워싱턴 대행진 현장의 고든 파크스를 담은 기록입니다. '나에게는 꿈이 있습니다'라는 연설이 울려 퍼진 그날, 그는 카메라를 들고 역사의 한가운데에 서 있었습니다. 기록자 자신이 역사적 장면의 일부가 된 의미 깊은 사진입니다.",
-          "tr": {
-            "en": {
-              "commentary": "A record of Gordon Parks at the 1963 March on Washington. On the day \"I Have a Dream\" rang out, he stood at the center of history, camera in hand. It is a deeply meaningful photograph in which the recorder himself becomes part of the historic scene."
-            },
-            "ja": {
-              "commentary": "1963年、ワシントン大行進の現場にいたゴードン・パークスを写した記録です。「私には夢がある」の演説が響き渡ったその日、彼はカメラを手に歴史の真ん中に立っていました。記録者自身が歴史的場面の一部となった、意味深い写真です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-620001",
-          "title": "GordonParks3",
-          "year": "1963",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/GordonParks3.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/GordonParks3.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:GordonParks3.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1963년의 고든 파크스를 담은 또 하나의 초상입니다. 사진가이자 작가, 훗날 영화감독으로까지 영역을 넓혀 간 그의 전성기 모습을 보여줍니다. 한 사람의 얼굴 위로 미국 현대사의 격동이 겹쳐 보이는 기록입니다.",
-          "tr": {
-            "en": {
-              "commentary": "Another portrait of Gordon Parks from 1963, showing him at the height of his powers — photographer, writer, and later filmmaker. In this one face, the turbulence of modern American history seems to come into view."
-            },
-            "ja": {
-              "commentary": "1963年のゴードン・パークスを写したもう一つの肖像です。写真家であり作家であり、のちに映画監督へと領域を広げていった、彼の全盛期の姿を示しています。一人の顔の上に、アメリカ現代史の激動が重なって見える記録です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-115649325",
-          "title": "Gordon Parks, RIT NandE Vol13Num34 1981 Oct29 Complete",
-          "year": "1981",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Gordon_Parks%2C_RIT_NandE_Vol13Num34_1981_Oct29_Complete.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Gordon_Parks%2C_RIT_NandE_Vol13Num34_1981_Oct29_Complete.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gordon_Parks,_RIT_NandE_Vol13Num34_1981_Oct29_Complete.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1981년 로체스터 공과대학(RIT)의 소식지에 실린 고든 파크스 관련 기록물입니다. 사진과 영화, 문학을 넘나든 그가 후배 세대와 교육 현장에서 어떻게 받아들여졌는지를 보여주는 자료입니다. 작품 너머, 한 거장의 영향력을 증언하는 아카이브입니다.",
-          "tr": {
-            "en": {
-              "commentary": "An archival item connected to Gordon Parks from a 1981 newsletter of the Rochester Institute of Technology (RIT). It shows how an artist who moved across photography, film, and literature was received by younger generations and in educational settings. Beyond the works themselves, it is an archive testifying to a master's influence."
-            },
-            "ja": {
-              "commentary": "1981年、ロチェスター工科大学(RIT)の会報に掲載されたゴードン・パークス関連の記録資料です。写真と映画、文学を行き来した彼が、後進の世代や教育の現場でどのように受け止められたかを示す資料です。作品の向こう側にある、一人の巨匠の影響力を証言するアーカイヴです。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-166394524",
-          "title": "American Gothic (Q17522178)",
+          "id": "wikimedia-2740688",
+          "title": "Ella Watson and Her Grandchildren, Washington, D.C.",
           "year": "1942",
           "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Gordon_Parks_-_American_Gothic_full.jpg/1280px-Gordon_Parks_-_American_Gothic_full.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Gordon_Parks_-_American_Gothic_full.jpg/1280px-Gordon_Parks_-_American_Gothic_full.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/GordonParksFSA.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/GordonParksFSA.jpg",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gordon_Parks_-_American_Gothic_full.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:GordonParksFSA.jpg",
           "credit": "Wikimedia Commons · Public domain",
-          "commentary": "고든 파크스의 1942년 작 「아메리칸 고딕」입니다. 워싱턴 D.C. 정부 청사의 청소부 엘라 왓슨을 성조기 앞에 세운 이 초상은, 미국이 내건 이상과 흑인 시민이 살아내는 현실 사이의 간극을 단 한 장으로 보여줍니다. 20세기 미국 사진에서 가장 강력한 사회적 발언으로 꼽히는 작품입니다.",
+          "commentary": "1942년 워싱턴에서 고든 파크스가 정부 청소노동자 엘라 왓슨과 손주들을 촬영한 작품으로, 그의 대표작 '아메리칸 고딕'과 짝을 이루는 유명한 부엌 장면입니다. 좁은 생활 공간에 스며드는 빛과 세대를 아우르는 인물 배치가 한 흑인 가족의 일상을 기념비적으로 승화시킵니다. 인종 차별의 현실을 고발하면서도 피사체의 존엄을 잃지 않는 파크스 다큐멘터리의 정수를 보여줍니다.",
           "tr": {
             "en": {
-              "commentary": "Gordon Parks's 1942 \"American Gothic.\" By placing Ella Watson, a cleaner in a Washington, D.C. government building, before the American flag, this portrait reveals in a single frame the gap between the ideals America proclaims and the reality its Black citizens live. It is counted among the most powerful social statements in twentieth-century American photography."
+              "commentary": "Taken in Washington in 1942, this photograph of government charwoman Ella Watson with her grandchildren is the famous kitchen scene that serves as a companion to Parks's iconic 'American Gothic.' The light seeping into the cramped living space and the arrangement of figures spanning generations elevate one Black family's daily life into something monumental. It shows the essence of Parks's documentary work, exposing the reality of racial discrimination while never losing the dignity of his subjects."
             },
             "ja": {
-              "commentary": "ゴードン・パークスの1942年作「アメリカン・ゴシック」です。ワシントンD.C.の政府庁舎で働く清掃員エラ・ワトソンを星条旗の前に立たせたこの肖像は、アメリカが掲げる理想と黒人市民が生きる現実との隔たりを、たった一枚で示します。20世紀アメリカ写真におけるもっとも強力な社会的発言のひとつに数えられる作品です。"
+              "commentary": "1942年、ワシントンでゴードン・パークスが政府庁舎の清掃労働者エラ・ワトソンとその孫たちを撮影した作品で、代表作「アメリカン・ゴシック」と対をなす有名な台所のシーンです。狭い生活空間に差し込む光と、世代をまたぐ人物の配置が、ひとりの黒人家族の日常を記念碑的に昇華させています。人種差別の現実を告発しながらも被写体の尊厳を失わない、パークスのドキュメンタリーの真髄を示す一枚です。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-25573931",
+          "title": "A young boy who lives near the nation's capitol, fsa.8b14755, edit",
+          "year": "1942",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/A_young_boy_who_lives_near_the_nation%27s_capitol%2C_fsa.8b14755%2C_edit.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/A_young_boy_who_lives_near_the_nation%27s_capitol%2C_fsa.8b14755%2C_edit.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_young_boy_who_lives_near_the_nation%27s_capitol,_fsa.8b14755,_edit.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1942년 FSA 시기, 고든 파크스가 미국 수도 인근에 사는 한 흑인 소년을 촬영한 초상입니다. 아이의 맑은 시선과 주변 환경의 대비가 수도 워싱턴의 화려함 이면에 놓인 빈곤과 불평등을 조용히 증언합니다. 연민이 아닌 존중의 거리에서 피사체를 바라보는 파크스 특유의 시선이 돋보이는 작품입니다.",
+          "tr": {
+            "en": {
+              "commentary": "This is a portrait Gordon Parks made in 1942, during his FSA period, of a young Black boy living near the nation's capital. The contrast between the child's clear gaze and his surroundings quietly testifies to the poverty and inequality lying behind the splendor of Washington. The work stands out for Parks's characteristic way of seeing his subject from a distance of respect rather than pity."
+            },
+            "ja": {
+              "commentary": "1942年のFSA時代、ゴードン・パークスが首都ワシントン近郊に暮らす黒人の少年を撮影したポートレートです。子どもの澄んだまなざしと周囲の環境との対比が、首都の華やかさの裏にある貧困と不平等を静かに証言しています。憐れみではなく敬意の距離から被写体を見つめる、パークスならではの視線が際立つ作品です。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-4454351",
+          "title": "A.-Phillip-Randolph",
+          "year": "1942",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/A.-Phillip-Randolph.png",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/A.-Phillip-Randolph.png",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:A.-Phillip-Randolph.png",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1942년 고든 파크스가 촬영한 노동운동 지도자 A. 필립 랜돌프의 초상입니다. 침대차 짐꾼 노조를 이끌고 인종 차별 철폐 행진을 조직한 랜돌프의 결연한 위엄이 단정한 조명과 정면 구도 속에 응축되어 있습니다. 흑인 민권운동의 거인을 기록한 역사적 가치와 초상사진의 품격을 동시에 갖춘 작품입니다.",
+          "tr": {
+            "en": {
+              "commentary": "This is Gordon Parks's 1942 portrait of labor leader A. Philip Randolph. The resolute dignity of Randolph, who led the sleeping-car porters' union and organized marches against racial discrimination, is condensed in the composed lighting and frontal framing. The work carries both the historical weight of documenting a giant of the Black civil rights movement and the refinement of fine portraiture."
+            },
+            "ja": {
+              "commentary": "1942年にゴードン・パークスが撮影した労働運動指導者A・フィリップ・ランドルフのポートレートです。寝台車ポーターの労働組合を率い、人種差別撤廃の行進を組織したランドルフの毅然たる威厳が、端正な照明と正面構図の中に凝縮されています。黒人公民権運動の巨人を記録した歴史的価値と、肖像写真としての品格を兼ね備えた作品です。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-1286322",
+          "title": "Charles S. Johnson",
+          "year": "1935",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Charles_S._Johnson.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Charles_S._Johnson.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charles_S._Johnson.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "고든 파크스가 남긴 흑인 사회학자 찰스 S. 존슨의 초상입니다. 하워드·피스크 대학에서 인종 관계 연구를 이끈 학자의 지적인 면모가 차분한 조명과 안정된 구도 속에 드러납니다. 흑인 지식인의 위상을 정면으로 기록했다는 점에서 파크스 초상 작업의 역사적 의미를 잘 보여주는 작품입니다.",
+          "tr": {
+            "en": {
+              "commentary": "This is Gordon Parks's portrait of the Black sociologist Charles S. Johnson. The intellectual presence of the scholar who led race-relations research at Fisk University emerges through the calm lighting and stable composition. In recording the standing of a Black intellectual head-on, the work captures the historical significance of Parks's portrait practice."
+            },
+            "ja": {
+              "commentary": "ゴードン・パークスが残した黒人社会学者チャールズ・S・ジョンソンのポートレートです。フィスク大学で人種関係の研究を主導した学者の知的な風貌が、落ち着いた照明と安定した構図の中に表れています。黒人知識人の存在を正面から記録した点で、パークスの肖像作品の歴史的意義をよく示す一枚です。"
             }
           }
         }
@@ -2612,66 +2112,6 @@
       },
       "works": [
         {
-          "id": "wikimedia-188464135",
-          "title": "Arthur Rothstein, FSA (Farm Security Administration) photographer",
-          "year": "1938",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Farm_Security_Administration_portrait_of_Arthur_Rothstein.jpg/1280px-Farm_Security_Administration_portrait_of_Arthur_Rothstein.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Farm_Security_Administration_portrait_of_Arthur_Rothstein.jpg/1280px-Farm_Security_Administration_portrait_of_Arthur_Rothstein.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farm_Security_Administration_portrait_of_Arthur_Rothstein.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "캡션이 전하듯 FSA 사진가 아서 로스타인 본인을 담은 1938년의 초상입니다. FSA는 현장의 사진가들 자신도 기록으로 남겼고, 덕분에 우리는 대공황의 풍경 뒤에 서 있던 젊은 기록자의 얼굴을 마주할 수 있습니다. 카메라를 든 사람이 카메라 앞에 선 순간이라는 점에서 다큐멘터리 역사의 흥미로운 각주이기도 합니다.",
-          "tr": {
-            "en": {
-              "commentary": "As the caption tells us, this 1938 portrait shows FSA photographer Arthur Rothstein himself. The FSA also documented its own photographers in the field, which is why we can meet the face of the young chronicler who stood behind the scenes of the Depression. A moment when the man who holds the camera stands before one — an intriguing footnote in documentary history."
-            },
-            "ja": {
-              "commentary": "キャプションが伝える通り、FSAの写真家アーサー・ロースタイン本人を写した1938年の肖像です。FSAは現場の写真家たち自身も記録に残しており、おかげで私たちは大恐慌の風景の背後に立っていた若き記録者の顔と向き合うことができます。カメラを持つ者がカメラの前に立つ瞬間という点で、ドキュメンタリー史の興味深い脚注でもあります。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-67129037",
-          "title": "Arthur Rothstein 8a22587r (retouch)",
-          "year": "1938",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Arthur_Rothstein_8a22587r_%28retouch%29.jpg/1280px-Arthur_Rothstein_8a22587r_%28retouch%29.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Arthur_Rothstein_8a22587r_%28retouch%29.jpg/1280px-Arthur_Rothstein_8a22587r_%28retouch%29.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arthur_Rothstein_8a22587r_(retouch).jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "미국 의회도서관의 FSA 아카이브 번호(8a22587)로 남아 있는 1938년의 기록으로, 보정을 거친 판본입니다. FSA 프로젝트가 한창이던 이 시기 로스타인은 농촌과 소도시를 오가며 대공황기 미국의 일상을 집요하게 수집했습니다. 번호로만 불리는 사진 한 장에도 시대의 공기가 고스란히 배어 있습니다.",
-          "tr": {
-            "en": {
-              "commentary": "A 1938 record surviving under its Library of Congress FSA archive number (8a22587), seen here in a retouched version. At the height of the FSA project, Rothstein moved between farms and small towns, doggedly collecting the everyday life of Depression-era America. Even a photograph known only by a number carries the air of its time intact."
-            },
-            "ja": {
-              "commentary": "米議会図書館のFSAアーカイブ番号(8a22587)で残る1938年の記録で、修整を施した版です。FSAプロジェクトの只中にあったこの時期、ロースタインは農村や小さな町を巡り、大恐慌期アメリカの日常を粘り強く集めていました。番号でしか呼ばれない一枚の写真にも、時代の空気がそのまま染み込んでいます。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-107021338",
-          "title": "Photographer Arthur Rothstein on L Street in Washington, D.C",
-          "year": "1938",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Photographer_Arthur_Rothstein_on_L_Street_in_Washington%2C_D.C.jpg/1280px-Photographer_Arthur_Rothstein_on_L_Street_in_Washington%2C_D.C.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Photographer_Arthur_Rothstein_on_L_Street_in_Washington%2C_D.C.jpg/1280px-Photographer_Arthur_Rothstein_on_L_Street_in_Washington%2C_D.C.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Photographer_Arthur_Rothstein_on_L_Street_in_Washington,_D.C.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1938년 워싱턴 L가에서 카메라를 든 로스타인의 모습을 담은 사진입니다. 현장으로 나서는 사진가의 일상적인 순간이지만, 대공황기의 미국을 기록하던 FSA 프로젝트의 생생한 이면을 보여주는 귀중한 자료입니다. 기록하는 사람을 기록한 사진은 언제나 역사에 또 하나의 층위를 더합니다.",
-          "tr": {
-            "en": {
-              "commentary": "Rothstein with his camera on L Street in Washington, D.C., in 1938. An ordinary moment of a photographer heading into the field, yet a precious document of the working life behind the FSA's portrait of Depression-era America. A photograph that records the recorder always adds another layer to history."
-            },
-            "ja": {
-              "commentary": "1938年、ワシントンのL街でカメラを手にしたロースタインの姿です。現場へ向かう写真家の何気ない瞬間ですが、大恐慌期のアメリカを記録したFSAプロジェクトの舞台裏を伝える貴重な資料でもあります。記録する者を記録した写真は、歴史にもうひとつの層を加えてくれます。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-92835221",
           "title": "No Known Restrictions- Boys sitting on truck parked at the FSA ... labor camp, Robston, Texas by Arthur Rothstein, 1942 (LOC)",
           "year": "1942",
@@ -2692,66 +2132,6 @@
           }
         },
         {
-          "id": "wikimedia-67121456",
-          "title": "Mr. Arthur Rothstein, Farm Security Administration photographer LCCN2017765617",
-          "year": "1935",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Mr._Arthur_Rothstein%2C_Farm_Security_Administration_photographer_LCCN2017765617.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Mr._Arthur_Rothstein%2C_Farm_Security_Administration_photographer_LCCN2017765617.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mr._Arthur_Rothstein,_Farm_Security_Administration_photographer_LCCN2017765617.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "FSA 프로젝트가 출범한 1935년, 스무 살의 나이로 첫 번째 사진가로 합류한 로스타인의 초상입니다. 컬럼비아 대학에서 로이 스트라이커를 만나 역사적 프로젝트의 문을 연 청년의 모습이 담겨 있습니다. 이후 수십 년간 미국 다큐멘터리 사진을 이끌 경력의 출발점을 보여주는 기록입니다.",
-          "tr": {
-            "en": {
-              "commentary": "A portrait of Rothstein in 1935, the year the FSA project began and he joined as its first photographer at just twenty. Here is the young man who, having met Roy Stryker at Columbia University, stepped through the door of a historic undertaking. The image marks the starting point of a career that would shape American documentary photography for decades."
-            },
-            "ja": {
-              "commentary": "FSAプロジェクトが発足した1935年、二十歳で最初の写真家として加わったロースタインの肖像です。コロンビア大学でロイ・ストライカーと出会い、歴史的プロジェクトの扉を開いた青年の姿がここにあります。その後数十年にわたりアメリカのドキュメンタリー写真を牽引するキャリアの出発点を示す記録です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-2741201",
-          "title": "Arthur Rothstein 8a22587r",
-          "year": "1938",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Arthur_Rothstein_8a22587r.jpg/1280px-Arthur_Rothstein_8a22587r.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Arthur_Rothstein_8a22587r.jpg/1280px-Arthur_Rothstein_8a22587r.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arthur_Rothstein_8a22587r.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "의회도서관 FSA 컬렉션의 원판 번호 8a22587로 전해지는 1938년의 사진입니다. 로스타인은 이 무렵 이미 더스트볼의 상징적 이미지를 남긴 뒤였고, 미국 전역을 돌며 변모하는 농촌의 표정을 차곡차곡 기록하고 있었습니다. 아카이브 번호 그대로 남은 제목이 오히려 기록 사진의 본질을 담담하게 말해 줍니다.",
-          "tr": {
-            "en": {
-              "commentary": "A 1938 photograph preserved under negative number 8a22587 in the Library of Congress FSA collection. By this point Rothstein had already made the defining image of the Dust Bowl and was traveling the country, steadily recording the changing face of rural America. The title left as a bare archive number speaks, plainly and aptly, to the very nature of documentary photography."
-            },
-            "ja": {
-              "commentary": "議会図書館FSAコレクションの原板番号8a22587として伝わる1938年の写真です。この頃ロースタインはすでにダストボウルの象徴的イメージを残しており、全米を巡って変わりゆく農村の表情を着実に記録していました。アーカイブ番号のまま残された題名が、かえって記録写真の本質を淡々と物語っています。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-67121376",
-          "title": "Arthur Rothstein, FSA (Farm Security Administration) photographer LCCN2017723736",
-          "year": "1938",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Arthur_Rothstein%2C_FSA_%28Farm_Security_Administration%29_photographer_LCCN2017723736.jpg/1280px-Arthur_Rothstein%2C_FSA_%28Farm_Security_Administration%29_photographer_LCCN2017723736.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Arthur_Rothstein%2C_FSA_%28Farm_Security_Administration%29_photographer_LCCN2017723736.jpg/1280px-Arthur_Rothstein%2C_FSA_%28Farm_Security_Administration%29_photographer_LCCN2017723736.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arthur_Rothstein,_FSA_(Farm_Security_Administration)_photographer_LCCN2017723736.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "의회도서관 소장 기록(LCCN 2017723736)으로 남은 1938년의 초상으로, FSA 사진가로 활동하던 로스타인의 모습을 담고 있습니다. 정부 프로젝트의 일원으로서 사진가들 역시 기록의 대상이 되었고, 그 덕분에 이 시대의 다큐멘터리는 만든 이들의 얼굴까지 함께 보존하고 있습니다. 역사를 찍은 사람의 역사라는 점에서 각별한 의미를 지닙니다.",
-          "tr": {
-            "en": {
-              "commentary": "A 1938 portrait preserved in the Library of Congress (LCCN 2017723736), showing Rothstein during his years as an FSA photographer. As members of a government project, the photographers themselves became subjects of the record, and so the documentary legacy of this era preserves the faces of its makers as well. It carries a special meaning as the history of the man who photographed history."
-            },
-            "ja": {
-              "commentary": "議会図書館の所蔵記録(LCCN 2017723736)として残る1938年の肖像で、FSA写真家として活動していた頃のロースタインを写しています。政府プロジェクトの一員として写真家自身も記録の対象となり、そのおかげでこの時代のドキュメンタリーは作り手たちの顔まで保存しています。歴史を撮った人間の歴史という点で、格別の意味を持つ一枚です。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-31405030",
           "title": "Arthur Rothstein - Chinese junk on river ppmsca.07797",
           "year": "1946",
@@ -2768,26 +2148,6 @@
             },
             "ja": {
               "commentary": "第二次世界大戦直後の1946年、ロースタインが国連救済復興機関(UNRRA)の写真家として中国に滞在していた時期の作品です。川に浮かぶジャンク船は、戦争の傷跡の中でも続いていく長い生活の風景を見せてくれます。ダストボウルの記録者がアジアの川辺で見出した、もうひとつの生の回復力です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-67127361",
-          "title": "Arthur Rothstein 8a22587r (retouched)",
-          "year": "1938",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Arthur_Rothstein_8a22587r_%28retouched%29.jpg/1280px-Arthur_Rothstein_8a22587r_%28retouched%29.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Arthur_Rothstein_8a22587r_%28retouched%29.jpg/1280px-Arthur_Rothstein_8a22587r_%28retouched%29.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arthur_Rothstein_8a22587r_(retouched).jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "FSA 아카이브 번호 8a22587의 또 다른 복원 판본입니다. 같은 원판이 여러 차례 보정과 복원을 거치며 공유된다는 사실 자체가, 이 시대의 기록 사진들이 오늘날에도 활발히 살아 있는 공공의 유산임을 보여줍니다. 디지털 복원은 1938년의 흑백 계조에 새 숨을 불어넣습니다.",
-          "tr": {
-            "en": {
-              "commentary": "Another restored version of FSA archive negative 8a22587. That a single original circulates through repeated retouching and restoration is itself proof that these documentary photographs remain a living public heritage today. Digital restoration breathes new life into the black-and-white tones of 1938."
-            },
-            "ja": {
-              "commentary": "FSAアーカイブ番号8a22587のもうひとつの復元版です。ひとつの原板が幾度も修整・復元されて共有されるという事実そのものが、この時代の記録写真が今なお生きた公共の遺産であることを示しています。デジタル復元が1938年のモノクロ階調に新たな息を吹き込みます。"
             }
           }
         },
@@ -2835,26 +2195,6 @@
         }
       },
       "works": [
-        {
-          "id": "wikimedia-33761718",
-          "title": "Jack Delano by John Collier 1942",
-          "year": "1942",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Jack_Delano_by_John_Collier_1942_.jpg/1280px-Jack_Delano_by_John_Collier_1942_.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Jack_Delano_by_John_Collier_1942_.jpg/1280px-Jack_Delano_by_John_Collier_1942_.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jack_Delano_by_John_Collier_1942_.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "동료 FSA 사진가 존 콜리어가 1942년에 찍은 잭 델라노의 초상입니다. 같은 프로젝트의 사진가들이 서로를 기록한 이런 이미지들은 FSA라는 공동체의 동료애를 보여주는 따뜻한 부산물입니다. 노동자의 품격을 찍던 사진가가 이번에는 피사체가 되어, 기록자의 얼굴을 역사에 남겼습니다.",
-          "tr": {
-            "en": {
-              "commentary": "A portrait of Jack Delano taken in 1942 by fellow FSA photographer John Collier. Images like this, in which photographers of the same project recorded one another, are warm byproducts of the camaraderie within the FSA. The man who photographed the dignity of workers here becomes the subject, leaving the recorder's own face to history."
-            },
-            "ja": {
-              "commentary": "同僚のFSA写真家ジョン・コリアーが1942年に撮影したジャック・デラーノの肖像です。同じプロジェクトの写真家同士が互いを記録したこうしたイメージは、FSAという共同体の連帯感を伝える温かな副産物です。労働者の尊厳を撮り続けた写真家が、ここでは被写体となり、記録者の顔を歴史に残しました。"
-            }
-          }
-        },
         {
           "id": "wikimedia-33815505",
           "title": "Mrs Irene Bracker by Jack Delano b 1943",
@@ -2912,46 +2252,6 @@
             },
             "ja": {
               "commentary": "1942年、機関車修理工場の風景です。戦争物資の輸送を支えた鉄道の裏側には、巨大な機械と格闘する整備労働者たちがおり、デラーノはその現場の重みを誠実に画面へ移しました。産業空間を記録したこの連作は、労働の物語に劇的な深みを与えています。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-2721689",
-          "title": "Portrait of Jack Delano , Office of War Information photographer",
-          "year": "1934",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Jack_Delano_8b00038r.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Jack_Delano_8b00038r.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jack_Delano_8b00038r.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "전시정보국 사진가 잭 델라노를 담은 초상 기록입니다. 우크라이나 태생의 이민자였던 그는 음악가를 꿈꾸다 카메라를 잡았고, FSA와 OWI를 거치며 미국 다큐멘터리 사진의 핵심 인물로 성장했습니다. 기록 너머에 있던 사람, 사진가 자신의 모습을 전해 주는 자료입니다.",
-          "tr": {
-            "en": {
-              "commentary": "A portrait record of Jack Delano, photographer for the Office of War Information. An immigrant born in Ukraine, he had dreamed of being a musician before taking up the camera, and through the FSA and OWI grew into a central figure of American documentary photography. The image hands down the person beyond the records — the photographer himself."
-            },
-            "ja": {
-              "commentary": "戦時情報局の写真家ジャック・デラーノを写した肖像記録です。ウクライナ生まれの移民だった彼は、音楽家を志した末にカメラを手にし、FSAとOWIを経てアメリカ・ドキュメンタリー写真の中心人物へと成長しました。記録の向こう側にいた人物、写真家自身の姿を伝える資料です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-12748180",
-          "title": "Jack Delano - Jack Delano, Farm Security Administration Office of War Information photographer, full-length portrait, holding camera, standing on front of locomotive",
-          "year": "1943",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Jack_Delano_-_Jack_Delano%2C_Farm_Security_Administration_Office_of_War_Information_photographer%2C_full-length_portrait%2C_holding_camera%2C_standing_on_front_of_locomotive.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Jack_Delano_-_Jack_Delano%2C_Farm_Security_Administration_Office_of_War_Information_photographer%2C_full-length_portrait%2C_holding_camera%2C_standing_on_front_of_locomotive.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jack_Delano_-_Jack_Delano,_Farm_Security_Administration_Office_of_War_Information_photographer,_full-length_portrait,_holding_camera,_standing_on_front_of_locomotive.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1943년, 기관차 앞에 카메라를 들고 선 델라노의 전신 초상입니다. 화물열차에 동승해 대륙을 횡단하며 철도 노동을 기록하던 시기의 모습으로, 현장에 몸을 두는 그의 작업 방식을 그대로 보여줍니다. 사진가와 그가 사랑한 피사체인 철도가 한 화면에 담긴 상징적인 장면입니다.",
-          "tr": {
-            "en": {
-              "commentary": "A full-length portrait of Delano standing at the front of a locomotive, camera in hand, in 1943. It shows him in the period when he rode freight trains across the continent to document railroad labor — proof of a working method that placed his own body on site. A symbolic frame uniting the photographer and the railroad, the subject he loved."
-            },
-            "ja": {
-              "commentary": "1943年、機関車の前にカメラを手にして立つデラーノの全身像です。貨物列車に同乗して大陸を横断し、鉄道労働を記録していた時期の姿で、現場に身を置く彼の仕事の流儀をそのまま示しています。写真家と、彼が愛した被写体である鉄道がひとつの画面に収まった象徴的な場面です。"
             }
           }
         },
@@ -3060,86 +2360,6 @@
       },
       "works": [
         {
-          "id": "wikimedia-149972245",
-          "title": "Portrait of Russell Lee, FSA (Farm Security Administration) photographer",
-          "year": "1942",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Portrait_of_Russell_Lee%2C_FSA_%28Farm_Security_Administration%29_photographer.jpg/1280px-Portrait_of_Russell_Lee%2C_FSA_%28Farm_Security_Administration%29_photographer.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Portrait_of_Russell_Lee%2C_FSA_%28Farm_Security_Administration%29_photographer.jpg/1280px-Portrait_of_Russell_Lee%2C_FSA_%28Farm_Security_Administration%29_photographer.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Russell_Lee,_FSA_(Farm_Security_Administration)_photographer.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "늘 카메라 뒤에 서 있던 FSA 사진가 러셀 리가 모처럼 렌즈 앞에 선 1942년의 초상입니다. 대공황과 전쟁 사이 미국 전역을 누비며 수만 장의 기록을 남긴 다큐멘터리스트의 면모가 담담한 인물 사진 속에 응축되어 있습니다.",
-          "tr": {
-            "en": {
-              "commentary": "A 1942 portrait of Russell Lee, the FSA photographer who usually stood behind the camera, here standing in front of the lens for once. The understated portrait distills the character of a documentarian who crisscrossed America between the Depression and the war, leaving tens of thousands of images behind."
-            },
-            "ja": {
-              "commentary": "いつもカメラの後ろに立っていたFSA写真家ラッセル・リーが、珍しくレンズの前に立った1942年の肖像です。大恐慌と戦争のはざまにアメリカ全土を巡り、数万枚の記録を残したドキュメンタリストの姿が、淡々とした人物写真の中に凝縮されています。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-149972022",
-          "title": "Portrait of Russell Lee, FSA (Farm Security Administration) photographer - Original",
-          "year": "1942",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Portrait_of_Russell_Lee%2C_FSA_%28Farm_Security_Administration%29_photographer_-_Original.tif/lossy-page1-1280px-Portrait_of_Russell_Lee%2C_FSA_%28Farm_Security_Administration%29_photographer_-_Original.tif.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Portrait_of_Russell_Lee%2C_FSA_%28Farm_Security_Administration%29_photographer_-_Original.tif/lossy-page1-1280px-Portrait_of_Russell_Lee%2C_FSA_%28Farm_Security_Administration%29_photographer_-_Original.tif.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Russell_Lee,_FSA_(Farm_Security_Administration)_photographer_-_Original.tif",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1942년에 촬영된 러셀 리 초상의 원본 판본입니다. 평생 타인의 일상을 기록해 온 사진가의 얼굴에서, 피사체를 향한 그의 차분하고 성실한 태도를 거꾸로 읽어낼 수 있는 흥미로운 자료입니다.",
-          "tr": {
-            "en": {
-              "commentary": "The original version of the 1942 portrait of Russell Lee. In the face of a photographer who spent his life recording the daily lives of others, one can read, in reverse, the calm and conscientious attitude he brought to his subjects."
-            },
-            "ja": {
-              "commentary": "1942年に撮影されたラッセル・リーの肖像のオリジナル版です。生涯にわたり他者の日常を記録してきた写真家の顔から、被写体に向けた彼の落ち着いた誠実な態度を逆に読み取ることのできる、興味深い資料です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-160236791",
-          "title": "Portrait of Russell Lee, FSA photographer (3x4 cropped)",
-          "year": "1942",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Portrait_of_Russell_Lee%2C_FSA_photographer_%283x4_cropped%29.jpg/1280px-Portrait_of_Russell_Lee%2C_FSA_photographer_%283x4_cropped%29.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Portrait_of_Russell_Lee%2C_FSA_photographer_%283x4_cropped%29.jpg/1280px-Portrait_of_Russell_Lee%2C_FSA_photographer_%283x4_cropped%29.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Russell_Lee,_FSA_photographer_(3x4_cropped).jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1942년 러셀 리 초상을 인물 중심으로 다듬은 판본입니다. 주변부를 덜어낸 프레임이 시선을 사진가의 표정에 모으며, 미국 전역을 기록하던 한 다큐멘터리스트의 활동기를 증언하는 자료로서의 가치를 지닙니다.",
-          "tr": {
-            "en": {
-              "commentary": "A version of the 1942 Russell Lee portrait cropped to center on the figure. The pared-down frame draws the eye to the photographer's expression, and the image holds value as a document of the working years of a man who recorded America from coast to coast."
-            },
-            "ja": {
-              "commentary": "1942年のラッセル・リー肖像を人物中心にトリミングした版です。周辺部をそぎ落としたフレームが視線を写真家の表情に集め、アメリカ全土を記録していたドキュメンタリストの活動期を証言する資料としての価値を持ちます。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-149972149",
-          "title": "Portrait of Russell Lee, FSA (Farm Security Administration) photographer",
-          "year": "1942",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Portrait_of_Russell_Lee%2C_FSA_%28Farm_Security_Administration%29_photographer.png/1280px-Portrait_of_Russell_Lee%2C_FSA_%28Farm_Security_Administration%29_photographer.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Portrait_of_Russell_Lee%2C_FSA_%28Farm_Security_Administration%29_photographer.png/1280px-Portrait_of_Russell_Lee%2C_FSA_%28Farm_Security_Administration%29_photographer.png",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Russell_Lee,_FSA_(Farm_Security_Administration)_photographer.png",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "FSA에서 활동하던 시기의 러셀 리를 담은 1942년 초상입니다. 파이타운을 비롯한 미국 소도시의 삶을 가장 가까이에서 기록한 사진가가 이번에는 기록의 대상이 된, 아카이브 속의 흥미로운 한 장면입니다.",
-          "tr": {
-            "en": {
-              "commentary": "A 1942 portrait of Russell Lee during his FSA years. The photographer who recorded the life of small-town America, from Pie Town onward, at closer range than anyone here becomes the subject of the record himself, an intriguing moment within the archive."
-            },
-            "ja": {
-              "commentary": "FSAで活動していた時期のラッセル・リーをとらえた1942年の肖像です。パイタウンをはじめとするアメリカの小さな町の暮らしを誰よりも近くで記録した写真家が、今度は記録の対象となった、アーカイブの中の興味深い一場面です。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-114997438",
           "title": "Highway leading down to the gorge at the Columbia River by Russell Lee fsa 8c22365",
           "year": "1941",
@@ -3156,26 +2376,6 @@
             },
             "ja": {
               "commentary": "コロンビア川の峡谷へ下っていくハイウェイをとらえた1941年の風景です。長く伸びる道路の線が画面に奥行きを生み、西部の広大な地形と、その上を横切る人間の道をひとつのフレームに重ねます。人だけでなくアメリカという大地そのものを記録した、リーのもうひとつの顔を見せる作品です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-114997197",
-          "title": "Highway leading down to the gorge at the Columbia River by Russell Lee fsa 8c22366",
-          "year": "1941",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Highway_leading_down_to_the_gorge_at_the_Columbia_River_by_Russell_Lee_fsa_8c22366.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Highway_leading_down_to_the_gorge_at_the_Columbia_River_by_Russell_Lee_fsa_8c22366.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Highway_leading_down_to_the_gorge_at_the_Columbia_River_by_Russell_Lee_fsa_8c22366.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "같은 시기 컬럼비아강 협곡의 도로에서 촬영된 연속 프레임 중 한 장입니다. 한 장소를 여러 각도로 집요하게 기록하던 FSA의 작업 방식이 잘 드러나며, 도로와 협곡이 만드는 완만한 곡선이 화면에 조용한 리듬을 부여합니다.",
-          "tr": {
-            "en": {
-              "commentary": "One of a sequence of frames taken on the road above the Columbia River gorge in the same period. It shows the FSA's working method of recording a single place persistently from multiple angles, while the gentle curves of road and gorge give the frame a quiet rhythm."
-            },
-            "ja": {
-              "commentary": "同じ時期、コロンビア川峡谷の道路で撮影された連続フレームのうちの一枚です。ひとつの場所をさまざまな角度から執拗に記録するFSAの仕事の流儀がよく表れており、道路と峡谷が描くゆるやかな曲線が画面に静かなリズムを与えています。"
             }
           }
         },
@@ -3216,26 +2416,6 @@
             },
             "ja": {
               "commentary": "アイダホ州カスケードの目抜き通りをとらえた1941年の写真です。アメリカが戦争に巻き込まれる直前、小さな町の穏やかな空気が街の風景の中にそのまま残されており、メインストリートという最もアメリカ的な空間の肖像として読める作品です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-150056360",
-          "title": "Russell W. Lee, Farm Security Administration, between 1934 and 1942",
-          "year": "1935",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Russell_W._Lee%2C_Farm_Security_Administration%2C_between_1934_and_1942.png/1280px-Russell_W._Lee%2C_Farm_Security_Administration%2C_between_1934_and_1942.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Russell_W._Lee%2C_Farm_Security_Administration%2C_between_1934_and_1942.png/1280px-Russell_W._Lee%2C_Farm_Security_Administration%2C_between_1934_and_1942.png",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Russell_W._Lee,_Farm_Security_Administration,_between_1934_and_1942.png",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "FSA 시절의 러셀 리를 담은 또 한 장의 초상입니다. 1930년대 중반 프로젝트에 합류해 가장 많은 사진을 남긴 단원으로 꼽히는 그의 활동기를 증언하는 기록으로, 대공황기 다큐멘터리 프로젝트의 인적 풍경을 엿보게 합니다.",
-          "tr": {
-            "en": {
-              "commentary": "Another portrait of Russell Lee from his FSA years. It documents the working life of a photographer who joined the project in the mid-1930s and is counted among its most prolific members, offering a glimpse of the people behind the great Depression-era documentary project."
-            },
-            "ja": {
-              "commentary": "FSA時代のラッセル・リーをとらえたもう一枚の肖像です。1930年代半ばにプロジェクトに加わり、最も多くの写真を残したメンバーに数えられる彼の活動期を証言する記録であり、大恐慌期のドキュメンタリー・プロジェクトを支えた人々の風景を垣間見せてくれます。"
             }
           }
         }
@@ -3320,126 +2500,6 @@
             },
             "ja": {
               "commentary": "フロリダ州ウィーキー・ワーチーの泉で撮影された1947年の水中写真です。水の中でふわりと広がるドレスの裾が描く幻想的なシルエットは、スタジオを飛び出したフリッセルの冒険心が生んだ名場面であり、水中ファッション写真の古典に数えられる作品です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-5963176",
-          "title": "Toni Frissell (1907-1988) in 1942",
-          "year": "1942",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Toni_Frissell_%281907-1988%29_in_1942.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Toni_Frissell_%281907-1988%29_in_1942.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toni_Frissell_(1907-1988)_in_1942.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1942년의 토니 프리셀 본인을 담은 사진입니다. 패션 사진가에서 전쟁 한복판의 종군 사진가로 변모하던 시기의 기록으로, 카메라를 든 여성 사진가가 드물던 시대에 그녀가 걸어간 길을 떠올리게 합니다.",
-          "tr": {
-            "en": {
-              "commentary": "A photograph of Toni Frissell herself in 1942. It records the period when she was transforming from fashion photographer into a war photographer in the thick of the conflict, recalling the path she walked in an era when women behind the camera were rare."
-            },
-            "ja": {
-              "commentary": "1942年のトニ・フリッセル本人をとらえた写真です。ファッション写真家から戦争の只中の従軍写真家へと変貌していった時期の記録であり、カメラを手にした女性写真家が稀だった時代に彼女が歩んだ道を思い起こさせます。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-29613345",
-          "title": "[Toni Frissell, sitting, holding camera on her lap, with several children standing around her, somewhere in Europe]",
-          "year": "1945",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Toni_Frissell%2C_sitting.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Toni_Frissell%2C_sitting.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toni_Frissell,_sitting.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1945년 유럽 어딘가에서, 무릎에 카메라를 올려놓은 프리셀을 아이들이 둘러싼 장면입니다. 전쟁 말기의 폐허 속에서도 사진가와 아이들 사이에 흐르는 호기심과 친밀함이 화면을 데우며, 그녀가 피사체와 맺던 관계를 보여주는 귀중한 기록입니다.",
-          "tr": {
-            "en": {
-              "commentary": "Somewhere in Europe in 1945, children gather around Frissell as she sits with her camera on her lap. Even amid the rubble of the war's final months, the curiosity and warmth flowing between photographer and children heat the frame, a precious record of the relationship she built with her subjects."
-            },
-            "ja": {
-              "commentary": "1945年、ヨーロッパのどこかで、膝にカメラを置いたフリッセルを子どもたちが取り囲む場面です。戦争末期の瓦礫の中でも、写真家と子どもたちの間に流れる好奇心と親密さが画面を温め、彼女が被写体と結んだ関係を物語る貴重な記録です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-29613723",
-          "title": "Toni Frissell , sitting, holding camera on her lap, with several children standing around her, somewhere in Europe",
-          "year": "1945",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Toni_Frissell_with_several_children_around_her%2C_somewhere_in_Europe_-_19005u.tiff/lossy-page1-1280px-Toni_Frissell_with_several_children_around_her%2C_somewhere_in_Europe_-_19005u.tiff.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Toni_Frissell_with_several_children_around_her%2C_somewhere_in_Europe_-_19005u.tiff/lossy-page1-1280px-Toni_Frissell_with_several_children_around_her%2C_somewhere_in_Europe_-_19005u.tiff.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toni_Frissell_with_several_children_around_her,_somewhere_in_Europe_-_19005u.tiff",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "종군 사진가로 활동하던 1945년, 유럽의 아이들에게 둘러싸인 프리셀의 모습입니다. 렌즈 반대편에 선 사진가의 표정과 아이들의 시선이 만들어내는 자연스러운 군상이, 전장 기록 너머의 인간적인 순간을 전합니다.",
-          "tr": {
-            "en": {
-              "commentary": "Frissell surrounded by European children in 1945, during her years as a war photographer. The natural grouping formed by the expression of the photographer on the other side of the lens and the gazes of the children conveys a human moment beyond the records of the battlefield."
-            },
-            "ja": {
-              "commentary": "従軍写真家として活動していた1945年、ヨーロッパの子どもたちに囲まれたフリッセルの姿です。レンズの反対側に立つ写真家の表情と子どもたちの視線がつくり出す自然な群像が、戦場の記録の向こうにある人間的な瞬間を伝えています。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-5946502",
-          "title": "[Toni Frissell, sitting, holding camera on her lap, with several children standing around her, somewhere in Europe]",
-          "year": "1945",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Toni_Frissell_in_Europe_ppmsca19005u.jpg/1280px-Toni_Frissell_in_Europe_ppmsca19005u.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Toni_Frissell_in_Europe_ppmsca19005u.jpg/1280px-Toni_Frissell_in_Europe_ppmsca19005u.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toni_Frissell_in_Europe_ppmsca19005u.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "카메라를 무릎에 둔 채 유럽의 아이들과 함께한 1945년의 프리셀입니다. 터스키기 에어맨과 여군, 런던의 아이까지 기록한 그녀의 전쟁 사진 이력 한가운데 놓인 장면으로, 기록하는 사람 또한 역사 속의 인물임을 일깨웁니다.",
-          "tr": {
-            "en": {
-              "commentary": "Frissell in 1945, camera on her lap, among children in Europe. Set at the heart of a wartime career that recorded the Tuskegee Airmen, women in uniform, and a child in London's rubble, the scene reminds us that the one who records is also a figure within history."
-            },
-            "ja": {
-              "commentary": "カメラを膝に置き、ヨーロッパの子どもたちとともに過ごす1945年のフリッセルです。タスキーギ・エアメンや女性兵士、ロンドンの子どもまで記録した彼女の戦争写真の経歴の真ん中に置かれた場面であり、記録する者もまた歴史の中の人物であることを思い出させます。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-88492650",
-          "title": "Toni Frissell in sunglasses at ski resort",
-          "year": "1940",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Toni_Frissell_in_sunglasses_at_ski_resort.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Toni_Frissell_in_sunglasses_at_ski_resort.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toni_Frissell_in_sunglasses_at_ski_resort.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1940년 스키 리조트에서 선글라스를 쓴 프리셀의 모습입니다. 야외 스포츠와 햇빛, 활동적인 여성상은 그녀가 패션 사진에 불어넣은 새로운 감각 그 자체였고, 이 한 장은 그 미감을 사진가 자신이 체현하고 있음을 보여줍니다.",
-          "tr": {
-            "en": {
-              "commentary": "Frissell in sunglasses at a ski resort in 1940. Outdoor sport, sunlight, and the image of the active woman were exactly the new sensibility she breathed into fashion photography, and this single frame shows the photographer embodying that aesthetic herself."
-            },
-            "ja": {
-              "commentary": "1940年、スキーリゾートでサングラスをかけたフリッセルの姿です。アウトドアスポーツと太陽の光、活動的な女性像は、彼女がファッション写真に吹き込んだ新しい感覚そのものであり、この一枚は写真家自身がその美学を体現していたことを示しています。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-3705470",
-          "title": "Toni Frissell",
-          "year": "1935",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Toni_Frissell.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Toni_Frissell.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toni_Frissell.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "경력 초기인 1935년의 토니 프리셀을 담은 사진입니다. 보그에서 막 활동을 시작하던 시기의 기록으로, 이후 패션 사진의 무대를 스튜디오 밖 야외로 옮겨놓을 한 사진가의 출발점을 증언합니다.",
-          "tr": {
-            "en": {
-              "commentary": "A photograph of Toni Frissell in 1935, early in her career. A record from the years when she was just beginning her work at Vogue, it bears witness to the starting point of a photographer who would go on to move the stage of fashion photography out of the studio and into the open air."
-            },
-            "ja": {
-              "commentary": "キャリア初期、1935年のトニ・フリッセルをとらえた写真です。『ヴォーグ』で活動を始めたばかりの時期の記録であり、のちにファッション写真の舞台をスタジオの外、戸外へと移すことになる一人の写真家の出発点を証言しています。"
             }
           }
         },
@@ -3588,26 +2648,6 @@
           }
         },
         {
-          "id": "wikimedia-97932378",
-          "title": "Esther Bubley - An instructor of the Capitol Transit Company teaching a woman to operate a one-man streetcar",
-          "year": "1943",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Esther_Bubley_-_An_instructor_of_the_Capitol_Transit_Company_teaching_a_woman_to_operate_a_one-man_streetcar.png/1280px-Esther_Bubley_-_An_instructor_of_the_Capitol_Transit_Company_teaching_a_woman_to_operate_a_one-man_streetcar.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Esther_Bubley_-_An_instructor_of_the_Capitol_Transit_Company_teaching_a_woman_to_operate_a_one-man_streetcar.png/1280px-Esther_Bubley_-_An_instructor_of_the_Capitol_Transit_Company_teaching_a_woman_to_operate_a_one-man_streetcar.png",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Esther_Bubley_-_An_instructor_of_the_Capitol_Transit_Company_teaching_a_woman_to_operate_a_one-man_streetcar.png",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1943년 캐피털 트랜짓의 교관이 여성에게 1인 운전 전차의 조작을 가르치는 장면입니다. 남성들이 전장으로 떠난 도시에서 여성이 새로운 역할을 익혀가던 순간을 가까운 거리에서 포착해, 후방 다큐멘터리의 정수를 보여줍니다.",
-          "tr": {
-            "en": {
-              "commentary": "A 1943 scene of a Capitol Transit Company instructor teaching a woman to operate a one-man streetcar. Captured at close range, the moment of a woman learning a new role in a city whose men had left for the front shows the essence of home-front documentary."
-            },
-            "ja": {
-              "commentary": "1943年、キャピタル・トランジット社の教官が女性にワンマン路面電車の操作を教える場面です。男性たちが戦場へ去った都市で、女性が新しい役割を身につけていく瞬間を間近にとらえており、銃後ドキュメンタリーの真髄を示しています。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-11159349",
           "title": "Esther Bubley, Woman cleaner at the Greyhound garage, Pittsburgh, 1943",
           "year": "1943",
@@ -3644,26 +2684,6 @@
             },
             "ja": {
               "commentary": "インディアナポリスのグレイハウンドバスの前で、恋人たちとともに立つ兵士たちをとらえた1943年の場面です。バス旅行の連作で移動するアメリカを記録したバブリーらしく、別れと旅立ちが日常だった戦時の空気を一コマに凝縮しています。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-98205973",
-          "title": "Esther Bubley - An instructor of the Capitol Transit Company teaching a woman to operate a one-man streetcar - Original",
-          "year": "1943",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Esther_Bubley_-_An_instructor_of_the_Capitol_Transit_Company_teaching_a_woman_to_operate_a_one-man_streetcar_-_Original.tiff/lossy-page1-1280px-Esther_Bubley_-_An_instructor_of_the_Capitol_Transit_Company_teaching_a_woman_to_operate_a_one-man_streetcar_-_Original.tiff.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Esther_Bubley_-_An_instructor_of_the_Capitol_Transit_Company_teaching_a_woman_to_operate_a_one-man_streetcar_-_Original.tiff/lossy-page1-1280px-Esther_Bubley_-_An_instructor_of_the_Capitol_Transit_Company_teaching_a_woman_to_operate_a_one-man_streetcar_-_Original.tiff.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Esther_Bubley_-_An_instructor_of_the_Capitol_Transit_Company_teaching_a_woman_to_operate_a_one-man_streetcar_-_Original.tiff",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "여성에게 전차 운전을 가르치는 1943년 교습 장면의 원본 판본입니다. 계기판 앞에 나란히 선 두 사람의 자세와 시선이 교육 현장의 집중을 생생하게 전하며, 전시 여성 노동의 역사를 보여주는 1차 자료로서 가치가 큽니다.",
-          "tr": {
-            "en": {
-              "commentary": "The original version of the 1943 scene of a woman being taught to operate a streetcar. The posture and gaze of the two figures standing side by side at the controls vividly convey the concentration of the training floor, and the image holds great value as a primary source on women's wartime labor."
-            },
-            "ja": {
-              "commentary": "女性に路面電車の運転を教える1943年の教習場面のオリジナル版です。操作盤の前に並んで立つ二人の姿勢と視線が、教習現場の集中を生き生きと伝えており、戦時の女性労働の歴史を示す一次資料として大きな価値を持ちます。"
             }
           }
         },
@@ -4426,26 +3446,6 @@
               "commentary": "ギュスターヴ・ル・グレイのこの作品は、当時の写真技術における難題であった空と海の同時露光の問題を「合成印画」技法で解決し、写真の芸術的可能性を広げた先駆的な試みです。『Vistas del Mar』アルバムの一部として、太陽の光が雲と海に差し込む劇的な瞬間を捉え、自然の雄大さと叙情的な雰囲気を卓越して表現し、初期風景写真の傑作と評価されています。"
             }
           }
-        },
-        {
-          "id": "aic-126478",
-          "title": "The Breaking Wave",
-          "year": "1857",
-          "medium": "Albumen print, No. 15 from the album \"Vistas del Mar\"",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Orlando_Gray_Wales_-_%2C_breaking_waves_on_rocky_coast%2C_signed_lower_right_%E2%80%9CO.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Orlando_Gray_Wales_-_%2C_breaking_waves_on_rocky_coast%2C_signed_lower_right_%E2%80%9CO.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orlando_Gray_Wales_-_,_breaking_waves_on_rocky_coast,_signed_lower_right_%E2%80%9CO.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1857년 귀스타브 르 그레이의 이 작품은 당시 사진 기술의 한계를 뛰어넘어 바다의 역동적인 순간을 포착하려는 예술적 시도를 보여줍니다. 파도가 부서지는 찰나의 순간을 포착한 뛰어난 타이밍과 빛이 물보라와 파도의 질감을 섬세하게 드러내는 방식은 자연의 숭고함을 담아낸 초기 사진술의 걸작으로 평가받습니다. 'Vistas del Mar' 앨범의 대표작 중 하나로, 사진이 단순한 기록을 넘어 회화적 표현력을 추구했음을 증명하는 역사적 의미를 지닙니다.",
-          "tr": {
-            "en": {
-              "commentary": "This work by Gustave Le Gray from 1857 demonstrates an artistic attempt to capture the dynamic moments of the sea, transcending the limitations of photographic technology at the time. Its excellent timing, capturing the fleeting moment of breaking waves, and the way light delicately reveals the texture of the spray and waves, make it regarded as a masterpiece of early photography that encapsulates the sublime beauty of nature. As one of the representative works from the 'Vistas del Mar' album, it holds historical significance, proving that photography pursued painterly expressiveness beyond mere documentation."
-            },
-            "ja": {
-              "commentary": "1857年のギュスターヴ・ル・グレイによるこの作品は、当時の写真技術の限界を超え、海のダイナミックな瞬間を捉えようとする芸術的な試みを示しています。波が砕ける刹那の瞬間を捉えた優れたタイミングと、光が水しぶきや波の質感を繊細に表現する方法は、自然の崇高さを捉えた初期写真術の傑作と評価されています。『Vistas del Mar』アルバムの代表作の一つとして、写真が単なる記録を超えて絵画的な表現力を追求したことを証明する歴史的意義を持っています。"
-            }
-          }
         }
       ]
     },
@@ -4548,26 +3548,6 @@
             },
             "ja": {
               "commentary": "ナダールのジョルジュ・サンドの肖像は、人物の内面を深く探求する作家特有の洞察力を示しています。自然光を活用した柔らかな照明と抑制された構図は、サンドの知的な側面と強靭な精神を繊細に捉え、これは単なる記録を超えた心理的肖像画の典型をなしています。1864年に撮影され、1877年に「現代文学芸術ギャラリー」にウッドベリータイプで掲載されたこの作品は、当代で最も影響力のある女性作家の姿を記録し、写真が人物研究と大衆的普及に貢献した歴史的文脈を明確に示しています。"
-            }
-          }
-        },
-        {
-          "id": "aic-144578",
-          "title": "Champfleury (born Jules François Felix Fleury-Husson, French critic and novelist, 1821-1889)",
-          "year": "c. 1855/59",
-          "medium": "Woodburytype, from the periodical “Galerie Contemporaine Littéraire, Artistique” (1878), volume 6",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Nadar_-_Charles_Baudelaire_intime%2C_1911_%28page_89_crop%29_Champfleury.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Nadar_-_Charles_Baudelaire_intime%2C_1911_%28page_89_crop%29_Champfleury.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nadar_-_Charles_Baudelaire_intime,_1911_(page_89_crop)_Champfleury.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "나다르는 이 사진에서 부드러운 조명과 절제된 구도를 활용하여 샹플뢰리의 지적이고 사색적인 면모를 깊이 있게 포착했습니다. 이는 19세기 파리 지식인의 내면을 드러내는 나다르 특유의 심리적 초상 기법을 잘 보여주며, 당대 주요 인물을 기록하고 대중에게 알린 중요한 문화적 기록물로서 가치를 지닙니다.",
-          "tr": {
-            "en": {
-              "commentary": "In this photograph, Nadar utilized soft lighting and a restrained composition to deeply capture Champfleury's intellectual and contemplative side. This well demonstrates Nadar's unique psychological portrait technique, which reveals the inner world of 19th-century Parisian intellectuals, and holds value as an important cultural record that documented and introduced key figures of the era to the public."
-            },
-            "ja": {
-              "commentary": "ナダールはこの写真で、柔らかな照明と抑制された構図を用いてシャンフルーリの知的で思索的な側面を深く捉えました。これは19世紀パリの知識人の内面を明らかにするナダール特有の心理的肖像技法をよく示しており、当時の主要人物を記録し、大衆に知らしめた重要な文化的記録物として価値を持ちます。"
             }
           }
         },
@@ -4942,6 +3922,106 @@
               "commentary": "マルヴィルは、新たに造成されたブローニュの森の風景を静かなまなざしで捉えました。湖と遊歩道、丹念に植えられた木々が調和するこの情景は、近代パリが市民のための公園をつくっていった時代の空気を伝えます。"
             }
           }
+        },
+        {
+          "id": "wikimedia-152122953",
+          "title": "Rue Tirechape (de la rue de Rivoli)",
+          "year": "1853",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Charles_Marville%2C_Rue_Tirechape%2C_de_la_rue_de_Rivoli%2C_ca._1853%E2%80%9370%2C_edited.jpg/1280px-Charles_Marville%2C_Rue_Tirechape%2C_de_la_rue_de_Rivoli%2C_ca._1853%E2%80%9370%2C_edited.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Charles_Marville%2C_Rue_Tirechape%2C_de_la_rue_de_Rivoli%2C_ca._1853%E2%80%9370%2C_edited.jpg/1280px-Charles_Marville%2C_Rue_Tirechape%2C_de_la_rue_de_Rivoli%2C_ca._1853%E2%80%9370%2C_edited.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charles_Marville,_Rue_Tirechape,_de_la_rue_de_Rivoli,_ca._1853%E2%80%9370,_edited.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1853년 샤를 마르빌이 촬영한 파리 티르샤프 거리의 풍경으로, 오스만 남작의 대개조로 사라지기 전 옛 파리의 모습을 담은 귀중한 기록입니다. 좁은 골목으로 떨어지는 빛과 건물 외벽의 질감 묘사가 도시 기록사진을 회화적 차원으로 끌어올립니다. 곧 철거될 운명의 거리를 정밀하게 보존한 시선에서 사진의 기록적 사명이 읽히는 작품입니다.",
+          "tr": {
+            "en": {
+              "commentary": "This 1853 view of Rue Tirechape by Charles Marville is a precious record of old Paris before it vanished under Baron Haussmann's great renovation. The light falling into the narrow street and the rendering of textures on the building facades lift urban documentary photography to a painterly level. In its precise preservation of a street destined for demolition, the work reveals photography's documentary mission."
+            },
+            "ja": {
+              "commentary": "1853年にシャルル・マルヴィルが撮影したパリのティルシャプ通りの風景で、オスマン男爵の大改造によって消える前の古いパリの姿を伝える貴重な記録です。狭い路地に落ちる光と建物外壁の質感描写が、都市の記録写真を絵画的な次元へと引き上げています。やがて取り壊される運命の街路を精密に保存したまなざしから、写真の記録的使命が読み取れる作品です。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-30009763",
+          "title": "Théâtre du Vaudeville, Paris, France",
+          "year": "1853",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Charles_Marville%2C_Th%C3%A9%C3%A2tre_du_Vaudeville%2C_ca._1853%E2%80%9370.jpg/1280px-Charles_Marville%2C_Th%C3%A9%C3%A2tre_du_Vaudeville%2C_ca._1853%E2%80%9370.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Charles_Marville%2C_Th%C3%A9%C3%A2tre_du_Vaudeville%2C_ca._1853%E2%80%9370.jpg/1280px-Charles_Marville%2C_Th%C3%A9%C3%A2tre_du_Vaudeville%2C_ca._1853%E2%80%9370.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charles_Marville,_Th%C3%A9%C3%A2tre_du_Vaudeville,_ca._1853%E2%80%9370.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1853년 샤를 마르빌이 촬영한 파리 보드빌 극장의 파사드입니다. 건축의 장식적 디테일과 입체감을 살리는 빛의 각도가 초기 건축사진의 높은 완성도를 보여줍니다. 제2제정기 파리의 극장 문화와 도시 경관을 증언하는 시각 자료로서도 가치가 큰 작품입니다.",
+          "tr": {
+            "en": {
+              "commentary": "This is Charles Marville's 1853 photograph of the facade of the Théâtre du Vaudeville in Paris. The angle of light, bringing out the architecture's ornamental detail and dimensionality, demonstrates the high accomplishment of early architectural photography. The work is also valuable as visual testimony to the theater culture and urban landscape of Second Empire Paris."
+            },
+            "ja": {
+              "commentary": "1853年にシャルル・マルヴィルが撮影したパリのヴォードヴィル座のファサードです。建築の装飾的ディテールと立体感を引き出す光の角度が、初期建築写真の高い完成度を示しています。第二帝政期パリの劇場文化と都市景観を証言する視覚資料としても価値の高い作品です。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-6176207",
+          "title": "Marville-Autoportrait-1861",
+          "year": "1861",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Marville-Autoportrait-1861.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Marville-Autoportrait-1861.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marville-Autoportrait-1861.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1861년 샤를 마르빌이 남긴 자화상입니다. 오스만 대개조 이전의 옛 파리를 기록한 공식 사진가가 카메라 앞에 선 보기 드문 순간으로, 절제된 포즈와 조명이 19세기 중반 초상사진의 격조를 보여줍니다. 도시의 기록자가 스스로를 기록했다는 점에서 사진사적 흥미를 더하는 작품입니다.",
+          "tr": {
+            "en": {
+              "commentary": "This is a self-portrait left by Charles Marville in 1861. It is a rare moment in which the official photographer who documented old Paris before Haussmann's renovation stood before the camera himself, the restrained pose and lighting displaying the refinement of mid-nineteenth-century portraiture. That the chronicler of the city turned the record on himself adds to the work's interest in the history of photography."
+            },
+            "ja": {
+              "commentary": "1861年にシャルル・マルヴィルが残した自画像です。オスマンの大改造以前の古いパリを記録した公式写真家がカメラの前に立った稀有な瞬間であり、抑制されたポーズと照明が19世紀半ばの肖像写真の格調を示しています。都市の記録者が自らを記録したという点で、写真史的な興味を添える作品です。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-174322261",
+          "title": "Charles Marville, Rue Zacharie",
+          "year": null,
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Charles_Marville%2C_Rue_Zacharie.jpg/1280px-Charles_Marville%2C_Rue_Zacharie.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Charles_Marville%2C_Rue_Zacharie.jpg/1280px-Charles_Marville%2C_Rue_Zacharie.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charles_Marville,_Rue_Zacharie.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "샤를 마르빌이 촬영한 파리 자카리 거리의 풍경입니다. 오스만 대개조로 철거될 운명이었던 좁고 오래된 골목을 정면에서 포착해, 사라져 가는 중세적 파리의 마지막 모습을 보존했습니다. 젖은 포석에 반사되는 빛과 깊은 원근감이 기록사진에 서정적 밀도를 부여하는 작품입니다.",
+          "tr": {
+            "en": {
+              "commentary": "This is Charles Marville's view of Rue Zacharie in Paris. By capturing head-on a narrow, ancient alley fated for demolition in Haussmann's renovation, he preserved the last image of a vanishing medieval Paris. The light reflecting off the wet paving stones and the deep perspective give this documentary photograph a lyrical density."
+            },
+            "ja": {
+              "commentary": "シャルル・マルヴィルが撮影したパリのザシャリ通りの風景です。オスマンの大改造で取り壊される運命にあった狭く古い路地を正面から捉え、消えゆく中世的パリの最後の姿を保存しました。濡れた敷石に反射する光と深い遠近感が、記録写真に叙情的な密度を与えている作品です。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-174327496",
+          "title": "Charles Marville, Théâtre Saint-Marcel",
+          "year": null,
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Charles_Marville%2C_Th%C3%A9%C3%A2tre_Saint-Marcel.jpg/1280px-Charles_Marville%2C_Th%C3%A9%C3%A2tre_Saint-Marcel.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Charles_Marville%2C_Th%C3%A9%C3%A2tre_Saint-Marcel.jpg/1280px-Charles_Marville%2C_Th%C3%A9%C3%A2tre_Saint-Marcel.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charles_Marville,_Th%C3%A9%C3%A2tre_Saint-Marcel.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "샤를 마르빌이 촬영한 파리 생마르셀 극장의 모습입니다. 서민 동네의 극장 건물을 꼼꼼하게 기록한 이 사진은 화려한 대로변이 아닌 일상 속 파리의 문화 공간을 증언합니다. 건축의 질감과 간판의 디테일까지 살려낸 정밀함이 마르빌 도시 기록의 신뢰도를 보여주는 작품입니다.",
+          "tr": {
+            "en": {
+              "commentary": "This is Charles Marville's photograph of the Théâtre Saint-Marcel in Paris. Meticulously recording a theater building in a working-class neighborhood, the image testifies to the cultural spaces of everyday Paris rather than the grand boulevards. The precision that renders even the textures of the architecture and the details of the signage shows the reliability of Marville's urban documentation."
+            },
+            "ja": {
+              "commentary": "シャルル・マルヴィルが撮影したパリのサン=マルセル座の姿です。庶民的な街区の劇場建築を丹念に記録したこの写真は、華やかな大通りではなく日常の中のパリの文化空間を証言しています。建築の質感や看板のディテールまで写し取る精密さが、マルヴィルの都市記録の信頼性を示す作品です。"
+            }
+          }
         }
       ]
     },
@@ -4967,26 +4047,6 @@
         }
       },
       "works": [
-        {
-          "id": "aic-145668",
-          "title": "\"Pike Pool\" (from below)",
-          "year": "1880s",
-          "medium": "Photogravure, plate LI from the album \"The Compleat Angler or the Contemplative Man's Recreation, Volume II\" (1888)",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Memoirs_of_Margaret_Fuller_Ossoli_%28Volume_1%29.djvu/page1-1280px-Memoirs_of_Margaret_Fuller_Ossoli_%28Volume_1%29.djvu.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Memoirs_of_Margaret_Fuller_Ossoli_%28Volume_1%29.djvu/page1-1280px-Memoirs_of_Margaret_Fuller_Ossoli_%28Volume_1%29.djvu.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Memoirs_of_Margaret_Fuller_Ossoli_(Volume_1).djvu",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "도브 강의 '파이크 풀'을 아래에서 올려다본 이 장면은, 강물과 바위, 하늘이 어우러진 영국 전원의 고요를 담습니다. 에머슨은 회화를 모방하기보다 자연의 실제 인상을 충실히 옮기려 했으며, 이 작품은 그 신념을 잘 보여줍니다.",
-          "tr": {
-            "en": {
-              "commentary": "Looking up at 'Pike Pool' on the River Dove from below, this scene holds the quiet of the English countryside where river, rock, and sky meet. Rather than imitate painting, Emerson sought to render nature's actual impression faithfully, and this work shows that conviction well."
-            },
-            "ja": {
-              "commentary": "ダヴ川の『パイク・プール』を下から見上げたこの場面は、川と岩、空が溶け合うイングランドの田園の静けさを収めます。エマーソンは絵画を模倣するより自然の実際の印象を忠実に写そうとし、この作品はその信念をよく示しています。"
-            }
-          }
-        },
         {
           "id": "aic-124612",
           "title": "A Stiff Pull, (Suffolk)",
@@ -5212,46 +4272,6 @@
           }
         },
         {
-          "id": "aic-210783",
-          "title": "Navajo Brave and his Mother. The Navajo were formerly a warlike tribe until subdued by U.S. Troops, in 1859-60. Many of them now have fine flocks, and herds of horses, sheeps and goats, No. 29 from the series \"Geographical Explorations and Surveys West of the 100th Meridian\"",
-          "year": "1873",
-          "medium": "Albumen print, stereo",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Navajo_brave_and_his_mother_-_DPLA_-_d300c33b928b74e82999d33207dc2bc1_%28page_2%29.jpg/1280px-Navajo_brave_and_his_mother_-_DPLA_-_d300c33b928b74e82999d33207dc2bc1_%28page_2%29.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Navajo_brave_and_his_mother_-_DPLA_-_d300c33b928b74e82999d33207dc2bc1_%28page_2%29.jpg/1280px-Navajo_brave_and_his_mother_-_DPLA_-_d300c33b928b74e82999d33207dc2bc1_%28page_2%29.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Navajo_brave_and_his_mother_-_DPLA_-_d300c33b928b74e82999d33207dc2bc1_(page_2).jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "휠러 탐사대 연작에 수록된 나바호족 모자(母子)의 초상입니다. 측량 사업의 일부로 제작된 인류학적 기록이지만, 카메라 앞에 선 두 인물의 존재감은 단순한 자료 사진을 넘어서는 긴장을 만들어 냅니다. 19세기 미국 정부의 시선과 원주민의 삶이 교차하는 복합적인 역사 문서로 읽히는 사진입니다.",
-          "tr": {
-            "en": {
-              "commentary": "This portrait of a Navajo man and his mother belongs to the Wheeler survey series. Though made as an ethnographic record within a government surveying project, the presence of the two figures before the camera generates a tension that exceeds mere documentation. The photograph reads as a layered historical document where the gaze of the nineteenth-century American government intersects with Native lives."
-            },
-            "ja": {
-              "commentary": "ホイーラー探検隊の連作に収められた、ナバホ族の母子の肖像です。測量事業の一環として作られた人類学的記録でありながら、カメラの前に立つ二人の存在感は、単なる資料写真を超える緊張を生み出しています。19世紀アメリカ政府のまなざしと先住民の暮らしが交差する、重層的な歴史文書として読める写真です。"
-            }
-          }
-        },
-        {
-          "id": "aic-210767",
-          "title": "Types of Mojave Indians. This tribe inhabits the region of the lower Colorado, or western Arizona.Physically, they are the finest specimens in all the West, many of the males attaining to the height of 6 feet, No. 5 from the series \"Geographical Explorations and Surveys West of the 100th Meridian\"",
-          "year": "1871",
-          "medium": "Albumen print, stereo",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Types_of_Mojave_Indians_-_DPLA_-_5c087af14ac45c6119e206caa9fe7194_%28page_2%29.jpg/1280px-Types_of_Mojave_Indians_-_DPLA_-_5c087af14ac45c6119e206caa9fe7194_%28page_2%29.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Types_of_Mojave_Indians_-_DPLA_-_5c087af14ac45c6119e206caa9fe7194_%28page_2%29.jpg/1280px-Types_of_Mojave_Indians_-_DPLA_-_5c087af14ac45c6119e206caa9fe7194_%28page_2%29.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Types_of_Mojave_Indians_-_DPLA_-_5c087af14ac45c6119e206caa9fe7194_(page_2).jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "콜로라도강 하류 지역에 거주하던 모하비족 사람들을 담은 휠러 탐사대 연작의 스테레오 사진입니다. '유형(Types)'이라는 제목이 보여주듯 당대의 분류학적 시선이 깔려 있지만, 사진 속 인물들의 모습은 그 틀에 갇히지 않는 생생함을 지닙니다. 서부 탐사 사진이 지닌 기록적 가치와 시대적 한계를 함께 생각하게 하는 작품입니다.",
-          "tr": {
-            "en": {
-              "commentary": "This stereo photograph from the Wheeler survey series depicts Mojave people of the lower Colorado River region. As the word 'Types' in the title suggests, it carries the classificatory gaze of its era, yet the people in the frame possess a vividness that refuses to be contained by it. The work invites us to weigh the documentary value of Western survey photography against the limitations of its time."
-            },
-            "ja": {
-              "commentary": "コロラド川下流域に暮らしていたモハーヴェ族の人々を撮った、ホイーラー探検隊連作のステレオ写真です。「タイプ（類型）」という題名が示すとおり当時の分類学的なまなざしが敷かれていますが、写真の中の人々はその枠に収まらない生々しさを湛えています。西部探検写真の記録的価値と時代的限界を、ともに考えさせる作品です。"
-            }
-          }
-        },
-        {
           "id": "aic-140435",
           "title": "Historic Spanish Record of the Conquest, South Side of Inscription Rock, N.M.",
           "year": "1873",
@@ -5472,26 +4492,6 @@
             },
             "ja": {
               "commentary": "北軍将校たちが収監された、リッチモンドの悪名高いリビー監獄を記録した写真です。ありふれた倉庫建築の外観と、その内側で行われた過酷な収監生活との対比が、見る者を粛然とさせます。戦闘場面なしに戦争の苦しみを証言する、記録写真の力を示す作品です。"
-            }
-          }
-        },
-        {
-          "id": "aic-27501",
-          "title": "Photographic Sketch Book of the Civil War, Volume I",
-          "year": "1861/65",
-          "medium": "Bound volume of albumen prints (20)",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Gardner%27s_photographic_sketch_book_of_the_war_-_A.R._Ward_%28i.e.%2C_Waud%29%2C_del._LCCN2002713083.jpg/1280px-Gardner%27s_photographic_sketch_book_of_the_war_-_A.R._Ward_%28i.e.%2C_Waud%29%2C_del._LCCN2002713083.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Gardner%27s_photographic_sketch_book_of_the_war_-_A.R._Ward_%28i.e.%2C_Waud%29%2C_del._LCCN2002713083.jpg/1280px-Gardner%27s_photographic_sketch_book_of_the_war_-_A.R._Ward_%28i.e.%2C_Waud%29%2C_del._LCCN2002713083.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gardner%27s_photographic_sketch_book_of_the_war_-_A.R._Ward_(i.e.,_Waud),_del._LCCN2002713083.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "남북전쟁을 사진과 글로 엮어 1866년 출간한 기념비적 사진집의 제1권입니다. 가드너는 각 사진마다 촬영자의 이름을 명기해 사진가의 저작자성을 분명히 한 선구적 편집을 보여 주었습니다. 사진집이라는 형식으로 전쟁을 증언한 초기의 본보기로, 포토저널리즘과 사진책 역사의 출발점에 놓이는 작품입니다.",
-          "tr": {
-            "en": {
-              "commentary": "This is the first volume of the monumental album, published in 1866, that wove the Civil War together in photographs and text. Gardner's editing was pioneering: each plate names the photographer who made it, asserting the authorship of the individual photographer. As an early model of bearing witness to war through the form of the photobook, it stands at the origin of both photojournalism and the history of the photographic book."
-            },
-            "ja": {
-              "commentary": "南北戦争を写真と文章で編み、1866年に刊行された記念碑的写真集の第1巻です。ガードナーは一枚一枚に撮影者の名を記し、写真家の作者性を明確にする先駆的な編集を示しました。写真集という形式で戦争を証言した初期の範例として、フォトジャーナリズムと写真集の歴史の出発点に位置づけられる作品です。"
             }
           }
         }
@@ -5946,26 +4946,6 @@
               "commentary": "ハトホル女神に捧げられたデンデラ神殿の柱廊を収めた1857年の写真です。当時、神殿は何世紀にもわたって積もった砂に一部が埋もれており、フリスのレンズは柱のレリーフと砂の対比を通じて、発掘以前の古代遺跡の姿を正確に保存しました。柱の反復が生むリズムと深い影が画面に荘厳な秩序を与える、考古学的記録であると同時に優れた建築写真です。"
             }
           }
-        },
-        {
-          "id": "aic-157944",
-          "title": "Entrance to the Great Temple, Luxor",
-          "year": "1857",
-          "medium": "Albumen print, plate 12 from the album \"Egypt and Palestine, Volume I,\" (1858)",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Entrance_to_the_Great_Temple%2C_Luxor.jpg/1280px-Entrance_to_the_Great_Temple%2C_Luxor.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Entrance_to_the_Great_Temple%2C_Luxor.jpg/1280px-Entrance_to_the_Great_Temple%2C_Luxor.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entrance_to_the_Great_Temple,_Luxor.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "룩소르 대신전의 입구를 담은 1857년의 사진으로, 「이집트와 팔레스타인」 제1권에 실렸습니다. 거대한 탑문과 석상 앞에 선 카메라는 인간의 척도를 훌쩍 넘어서는 고대 건축의 규모를 정직하게 기록합니다. 회화적 과장 없이 빛과 비례만으로 장엄함을 전달하는 이 절제된 시선이, 프리스를 단순한 여행 기록자가 아닌 풍경 사진의 거장으로 만들었습니다.",
-          "tr": {
-            "en": {
-              "commentary": "An 1857 photograph of the entrance to the Great Temple at Luxor, published in \"Egypt and Palestine, Volume I.\" Standing before the colossal pylon and statuary, the camera honestly registers a scale of ancient architecture far beyond human measure. This restrained gaze — conveying grandeur through light and proportion alone, without painterly exaggeration — is what made Frith not merely a travel recorder but a master of landscape photography."
-            },
-            "ja": {
-              "commentary": "ルクソール大神殿の入口を収めた1857年の写真で、『Egypt and Palestine』第1巻に掲載されました。巨大な塔門と石像の前に据えられたカメラは、人間の尺度をはるかに超える古代建築の規模を正直に記録します。絵画的な誇張なしに、光と比例だけで荘厳さを伝えるこの抑制された眼差しこそが、フリスを単なる旅の記録者ではなく風景写真の巨匠にしたのです。"
-            }
-          }
         }
       ]
     },
@@ -6008,6 +4988,86 @@
             },
             "ja": {
               "commentary": "イーリー大聖堂のガリラヤ・ポーチから身廊へと続く扉を写したエヴァンスの初期作です。石のアーチを抜ける光と闇の重なりを用いて、扉の向こうの空間へと視線を引き込む奥行きを生み出しています。幻灯スライドという媒体は、彼の建築写真が講演や鑑賞の場で光となって甦り、観客と出会っていたことを物語る痕跡でもあります。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-91300668",
+          "title": "Frederick H. Evans - London. Embankment",
+          "year": "1908",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Frederick_H._Evans_-_London._Embankment.jpg/1280px-Frederick_H._Evans_-_London._Embankment.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Frederick_H._Evans_-_London._Embankment.jpg/1280px-Frederick_H._Evans_-_London._Embankment.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frederick_H._Evans_-_London._Embankment.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1908년 프레더릭 H. 에번스가 촬영한 런던 템스 강변의 풍경입니다. 대성당 내부 사진으로 이름난 그가 도시 풍경에서도 안개와 빛의 미묘한 계조를 살려, 픽토리얼리즘 특유의 회화적 분위기를 만들어냈습니다. 강변의 공기감과 톤의 절제가 에번스의 순수 사진적 감각을 보여주는 작품입니다.",
+          "tr": {
+            "en": {
+              "commentary": "This is Frederick H. Evans's 1908 view of the Thames Embankment in London. Renowned for his cathedral interiors, Evans here brings the subtle gradations of mist and light to an urban scene, creating the painterly atmosphere characteristic of Pictorialism. The riverside air and the restraint of tone reveal Evans's purist photographic sensibility."
+            },
+            "ja": {
+              "commentary": "1908年にフレデリック・H・エヴァンスが撮影したロンドン、テムズ河岸の風景です。大聖堂の内部写真で名高い彼が、都市風景においても霧と光の微妙な階調を活かし、ピクトリアリズム特有の絵画的な雰囲気を作り上げました。河岸の空気感とトーンの抑制が、エヴァンスの純粋写真的な感覚を示す作品です。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-11533328",
+          "title": "Frederick H. Evans Wells Cathedral",
+          "year": "1890",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Frederick_H._Evans_Wells_Cathedral.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Frederick_H._Evans_Wells_Cathedral.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frederick_H._Evans_Wells_Cathedral.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1890년대 프레더릭 H. 에번스가 촬영한 웰스 대성당 내부입니다. 석조 아치 사이로 스며드는 빛과 풍부한 중간 계조를 살린 플래티넘 프린트의 깊이가 고딕 건축의 영적인 공간감을 그대로 전합니다. 조작 없이 빛과 구도만으로 건축사진의 정점에 도달한 에번스 미학의 정수를 보여주는 작품입니다.",
+          "tr": {
+            "en": {
+              "commentary": "This is Frederick H. Evans's interior of Wells Cathedral from the 1890s. The light filtering between the stone arches and the depth of the platinum print, with its rich middle tones, convey the spiritual sense of space in Gothic architecture. The work shows the essence of Evans's aesthetic, reaching the summit of architectural photography through light and composition alone, without manipulation."
+            },
+            "ja": {
+              "commentary": "1890年代にフレデリック・H・エヴァンスが撮影したウェルズ大聖堂の内部です。石造アーチの間に染み込む光と、豊かな中間調を活かしたプラチナプリントの深みが、ゴシック建築の霊的な空間感をそのまま伝えています。加工に頼らず光と構図だけで建築写真の頂点に達した、エヴァンスの美学の真髄を示す作品です。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-98050744",
+          "title": "Frederick H. Evans (British, 1853-1943) - Gloucester Cathedral from the Southeast - 2019.101 - Cleveland Museum of Art",
+          "year": null,
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Frederick_H._Evans_%28British%2C_1853-1943%29_-_Gloucester_Cathedral_from_the_Southeast_-_2019.101_-_Cleveland_Museum_of_Art.jpg/1280px-Frederick_H._Evans_%28British%2C_1853-1943%29_-_Gloucester_Cathedral_from_the_Southeast_-_2019.101_-_Cleveland_Museum_of_Art.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Frederick_H._Evans_%28British%2C_1853-1943%29_-_Gloucester_Cathedral_from_the_Southeast_-_2019.101_-_Cleveland_Museum_of_Art.jpg/1280px-Frederick_H._Evans_%28British%2C_1853-1943%29_-_Gloucester_Cathedral_from_the_Southeast_-_2019.101_-_Cleveland_Museum_of_Art.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frederick_H._Evans_(British,_1853-1943)_-_Gloucester_Cathedral_from_the_Southeast_-_2019.101_-_Cleveland_Museum_of_Art.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "프레더릭 H. 에번스가 남동쪽에서 바라본 글로스터 대성당의 전경으로, 클리블랜드 미술관 소장작입니다. 첨탑과 석조 구조의 수직선이 만들어내는 리듬과 부드러운 자연광의 계조가 영국 고딕 건축의 위용을 차분하게 드러냅니다. 대성당 사진의 대가로 불린 에번스의 정밀한 시선과 톤 감각이 응축된 작품입니다.",
+          "tr": {
+            "en": {
+              "commentary": "This is Frederick H. Evans's view of Gloucester Cathedral from the southeast, held by the Cleveland Museum of Art. The rhythm of vertical lines formed by the tower and stonework, together with the soft gradations of natural light, calmly reveal the grandeur of English Gothic architecture. The work condenses the precise eye and tonal sensibility of Evans, celebrated as the master of cathedral photography."
+            },
+            "ja": {
+              "commentary": "フレデリック・H・エヴァンスが南東から望んだグロスター大聖堂の全景で、クリーブランド美術館の所蔵作品です。尖塔と石造構造の垂直線が生むリズムと、柔らかな自然光の階調が、イギリス・ゴシック建築の威容を静かに浮かび上がらせます。大聖堂写真の巨匠と呼ばれたエヴァンスの精緻なまなざしとトーンの感覚が凝縮された作品です。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-11533327",
+          "title": "Frederick H. Evans Kelmscott Manor",
+          "year": "1896",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Frederick_H._Evans_Kelmscott_Manor.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Frederick_H._Evans_Kelmscott_Manor.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frederick_H._Evans_Kelmscott_Manor.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1896년 프레더릭 H. 에번스가 윌리엄 모리스의 거처였던 켈름스콧 매너를 촬영한 작품입니다. 공예운동의 정신적 고향인 이 저택의 고즈넉한 분위기를, 절제된 빛과 플래티넘 프린트의 섬세한 계조로 담아냈습니다. 모리스와 교류했던 에번스가 그 세계에 바친 시각적 헌사라는 점에서 역사적 의미가 깊은 작품입니다.",
+          "tr": {
+            "en": {
+              "commentary": "This is Frederick H. Evans's 1896 photograph of Kelmscott Manor, the home of William Morris. He captured the serene atmosphere of this house, the spiritual home of the Arts and Crafts movement, through restrained light and the delicate gradations of the platinum print. As a visual homage that Evans, who knew Morris, offered to that world, the work carries deep historical significance."
+            },
+            "ja": {
+              "commentary": "1896年、フレデリック・H・エヴァンスがウィリアム・モリスの住まいであったケルムスコット・マナーを撮影した作品です。アーツ・アンド・クラフツ運動の精神的故郷であるこの邸宅の静謐な雰囲気を、抑制された光とプラチナプリントの繊細な階調で写し取りました。モリスと交流のあったエヴァンスがその世界に捧げた視覚的オマージュとして、歴史的意義の深い一枚です。"
             }
           }
         }
@@ -6076,42 +5136,62 @@
           }
         },
         {
-          "id": "aic-23756",
-          "title": "Chaise dans un Jardin",
-          "year": "1842/50, printed 1965",
-          "medium": "Gelatin silver print, No. 4 from the portfolio \"Bayard: XXV Calotypes, 1842-1850\" (1965)",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Suzette%2C_com%C3%A9die-vaudeville_en_2_actes%2C_1837.djvu/page1-1280px-Suzette%2C_com%C3%A9die-vaudeville_en_2_actes%2C_1837.djvu.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Suzette%2C_com%C3%A9die-vaudeville_en_2_actes%2C_1837.djvu/page1-1280px-Suzette%2C_com%C3%A9die-vaudeville_en_2_actes%2C_1837.djvu.jpg",
+          "id": "wikimedia-60498122",
+          "title": "[Windmills, Montmartre]",
+          "year": "1839",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/-Windmills%2C_Montmartre-_MET_DP167356.jpg/1280px--Windmills%2C_Montmartre-_MET_DP167356.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/-Windmills%2C_Montmartre-_MET_DP167356.jpg/1280px--Windmills%2C_Montmartre-_MET_DP167356.jpg",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suzette,_com%C3%A9die-vaudeville_en_2_actes,_1837.djvu",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:-Windmills,_Montmartre-_MET_DP167356.jpg",
           "credit": "Wikimedia Commons · Public domain",
-          "commentary": "정원에 놓인 의자 하나를 피사체로 삼은 바야르의 칼로타입입니다. 사람이 비운 자리를 응시하는 이 조용한 화면은, 사건도 인물도 없는 일상의 사물이 사진의 주제가 될 수 있음을 일찍이 보여주었습니다. 자신의 정원을 작업실 삼아 빛과 사물을 실험하던 바야르의 태도는, 한 세기 뒤 일상을 향한 모더니즘 사진의 시선을 예고합니다.",
+          "commentary": "사진술 발명기인 1839년 무렵, 이폴리트 바야르가 몽마르트르 언덕의 풍차들을 촬영한 풍경입니다. 다게르와 별개로 직접 양화 방식을 고안한 발명가의 초기 실험이 담긴 기록으로, 아직 전원이었던 몽마르트르의 모습을 전하는 희귀한 시각 자료입니다. 사진이라는 매체가 막 태어나던 순간의 빛과 풍경을 간직했다는 점에서 역사적 가치가 큰 작품입니다.",
           "tr": {
             "en": {
-              "commentary": "A calotype by Bayard that takes a single chair in a garden as its subject. This quiet image, gazing at a place someone has left empty, showed early on that an everyday object — no event, no figure — could be photography's subject. Bayard's habit of using his own garden as a studio for experiments in light and things anticipates, a century in advance, modernism's photographic attention to the ordinary."
+              "commentary": "Around 1839, at the very birth of photography, Hippolyte Bayard photographed the windmills on the hill of Montmartre. The image records the early experiments of the inventor who devised a direct-positive process independently of Daguerre, and it is a rare visual document of Montmartre when it was still countryside. Preserving the light and landscape of the moment the medium itself was born, the work holds great historical value."
             },
             "ja": {
-              "commentary": "庭に置かれた一脚の椅子を被写体としたバヤールのカロタイプです。人が去った場所を見つめるこの静かな画面は、事件も人物もない日常の事物が写真の主題になり得ることを早くから示しました。自らの庭をアトリエとして光と事物を実験したバヤールの態度は、一世紀後の、日常へ向かうモダニズム写真のまなざしを予告しています。"
+              "commentary": "写真術発明期の1839年頃、イポリット・バヤールがモンマルトルの丘の風車群を撮影した風景です。ダゲールとは別に直接陽画方式を考案した発明家の初期実験を伝える記録であり、まだ田園であったモンマルトルの姿を伝える稀少な視覚資料でもあります。写真というメディアが生まれたばかりの瞬間の光と風景をとどめている点で、歴史的価値の大きい作品です。"
             }
           }
         },
         {
-          "id": "aic-23784",
-          "title": "Vieille Maison en Restauration",
-          "year": "1842/50, printed 1965",
-          "medium": "Gelatin silver print, No. 13 from the portfolio \"Bayard: XXV Calotypes, 1842-1850\" (1965)",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Groupe_Bayard_-_La_Croix%2C_1_d%C3%A9cembre_1880.djvu/page1-960px-Groupe_Bayard_-_La_Croix%2C_1_d%C3%A9cembre_1880.djvu.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Groupe_Bayard_-_La_Croix%2C_1_d%C3%A9cembre_1880.djvu/page1-960px-Groupe_Bayard_-_La_Croix%2C_1_d%C3%A9cembre_1880.djvu.jpg",
+          "id": "wikimedia-128860683",
+          "title": "1839 Hippolyte Bayard Self-portrait 1",
+          "year": "1839",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/1839_Hippolyte_Bayard_Self-portrait_1.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/1839_Hippolyte_Bayard_Self-portrait_1.jpg",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Groupe_Bayard_-_La_Croix,_1_d%C3%A9cembre_1880.djvu",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:1839_Hippolyte_Bayard_Self-portrait_1.jpg",
           "credit": "Wikimedia Commons · Public domain",
-          "commentary": "수리 중인 낡은 집을 담은 바야르의 칼로타입으로, 변모해 가는 19세기 중반 파리의 한 장면입니다. 비계와 벗겨진 벽이 드러내는 시간의 켜는, 도시가 허물어지고 다시 세워지는 과정 자체를 사진의 주제로 끌어올립니다. 무너져 가는 것을 기록하려는 이 충동은 훗날 아제로 이어지는 '사라지는 파리'의 사진 계보, 그 첫 장에 해당합니다.",
+          "commentary": "1839년 이폴리트 바야르가 남긴 자화상으로, 사진술이 공표되던 바로 그 해에 발명가 자신이 피사체가 된 기록입니다. 직접 양화 방식을 고안한 그의 실험 정신이 자신을 향한 카메라에서도 드러나며, 초기 인물 사진의 긴 노출이 만들어내는 정적인 밀도가 인상적입니다. 사진의 탄생과 함께한 인물의 얼굴을 마주한다는 점에서 사진사적 의미가 각별한 작품입니다.",
           "tr": {
             "en": {
-              "commentary": "A calotype by Bayard of an old house under restoration — one scene from mid-nineteenth-century Paris in transformation. The layers of time exposed by scaffolding and stripped walls elevate the very process of a city being torn down and rebuilt into photography's subject. This impulse to record what is crumbling belongs to the first chapter of the photographic lineage of \"vanishing Paris\" that would later lead to Atget."
+              "commentary": "This 1839 self-portrait by Hippolyte Bayard is a record in which the inventor became his own subject in the very year photography was announced to the world. The experimental spirit of the man who devised a direct-positive process shows even in the camera turned upon himself, and the still density produced by the long exposures of early portraiture is striking. To face the features of a figure present at photography's birth gives the work a special place in the history of the medium."
             },
             "ja": {
-              "commentary": "修復中の古い家を写したバヤールのカロタイプで、変貌していく19世紀半ばのパリの一場面です。足場と剥がれた壁が露わにする時間の層は、都市が壊され再び築かれる過程そのものを写真の主題へと引き上げます。崩れゆくものを記録しようとするこの衝動は、のちにアジェへとつながる「消えゆくパリ」の写真系譜、その最初の一章にあたります。"
+              "commentary": "1839年にイポリット・バヤールが残した自画像で、写真術が公表されたまさにその年に、発明家自身が被写体となった記録です。直接陽画方式を考案した彼の実験精神は、自らに向けられたカメラにも表れており、初期人物写真の長時間露光が生む静謐な密度が印象的です。写真の誕生に立ち会った人物の顔と向き合えるという点で、写真史的に格別な意味を持つ作品です。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-87383736",
+          "title": "Hippolyte Bayard, Self‐Portrait as a Drowned Man (Le Noyé), 1840",
+          "year": "1840",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Hippolyte_Bayard%2C_Self%E2%80%90Portrait_as_a_Drowned_Man_%28Le_Noy%C3%A9%29%2C_1840.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Hippolyte_Bayard%2C_Self%E2%80%90Portrait_as_a_Drowned_Man_%28Le_Noy%C3%A9%29%2C_1840.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hippolyte_Bayard,_Self%E2%80%90Portrait_as_a_Drowned_Man_(Le_Noy%C3%A9),_1840.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1840년 이폴리트 바야르가 익사체로 분장하고 촬영한 '익사한 남자로서의 자화상'으로, 사진사 최초의 연출된 항의 이미지로 꼽힙니다. 다게르에게 밀려 자신의 발명이 외면당한 데 대한 항변을 한 장의 허구적 주검으로 표현한 발상이 놀랍습니다. 사진이 기록을 넘어 허구와 퍼포먼스의 매체가 될 수 있음을 탄생 직후에 증명한, 개념적으로도 선구적인 작품입니다.",
+          "tr": {
+            "en": {
+              "commentary": "In 1840 Hippolyte Bayard posed as a drowned corpse for his 'Self-Portrait as a Drowned Man,' regarded as photography's first staged protest image. The idea of expressing his grievance—that his invention had been overlooked in favor of Daguerre—through a single fictional corpse is astonishing. Conceptually pioneering, the work proved almost at the medium's birth that photography could be a vehicle for fiction and performance, not just record."
+            },
+            "ja": {
+              "commentary": "1840年、イポリット・バヤールが溺死体に扮して撮影した「溺死者としての自画像」で、写真史上初の演出された抗議イメージとされています。ダゲールに押されて自らの発明が顧みられなかったことへの抗弁を、一枚の虚構の亡骸として表現した発想は驚くべきものです。写真が記録を超えてフィクションとパフォーマンスのメディアになり得ることを、誕生直後に証明した概念的にも先駆的な作品です。"
             }
           }
         }
@@ -6139,26 +5219,6 @@
         }
       },
       "works": [
-        {
-          "id": "aic-105473",
-          "title": "Portrait of Honoré Daumier",
-          "year": "1862",
-          "medium": "Lithograph in black, with scraping on stone, on light gray China paper laid down using chine collé on white wove paper",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Portrait_of_Honor%C3%A9_Daumier_MET_DP805560.jpg/1280px-Portrait_of_Honor%C3%A9_Daumier_MET_DP805560.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Portrait_of_Honor%C3%A9_Daumier_MET_DP805560.jpg/1280px-Portrait_of_Honor%C3%A9_Daumier_MET_DP805560.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Honor%C3%A9_Daumier_MET_DP805560.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "사진가 카르자가 석판화로 제작한 오노레 도미에의 초상으로, 풍자화가로 출발한 그의 또 다른 얼굴을 보여주는 작품입니다. 19세기 풍자 판화의 거장 도미에를 같은 길을 걸은 후배가 그려 냈다는 점에서, 한 캐리커처 작가가 다른 캐리커처 작가에게 바치는 오마주로 읽힙니다. 돌 위를 긁어 낸 자국까지 살린 표현은 카르자가 사진 못지않게 능숙한 판화가였음을 증언합니다.",
-          "tr": {
-            "en": {
-              "commentary": "A portrait of Honoré Daumier that Carjat made as a lithograph, revealing the other face of a man who began as a caricaturist. Depicting Daumier, the master of nineteenth-century satirical printmaking, by a younger artist who walked the same road, it reads as one caricaturist's homage to another. The handling — down to the marks scraped into the stone — testifies that Carjat was as accomplished a printmaker as he was a photographer."
-            },
-            "ja": {
-              "commentary": "写真家カルジャがリトグラフで制作したオノレ・ドーミエの肖像で、風刺画家として出発した彼のもう一つの顔を示す作品です。19世紀風刺版画の巨匠ドーミエを、同じ道を歩んだ後輩が描き出したという点で、一人のカリカチュリストから別のカリカチュリストへのオマージュとして読めます。石の上を掻き取った跡まで活かした表現は、カルジャが写真に劣らず熟達した版画家であったことを証言しています。"
-            }
-          }
-        },
         {
           "id": "aic-86945",
           "title": "Charles Baudelaire (French poet, critic, and writer, 1821-1867)",
@@ -6322,6 +5382,86 @@
               "commentary": "ハインが社会調査写真家としてもっとも精力的に活動していた1910年頃の作品です。この時期、彼は工場や街頭、移民街を歩き、働き暮らす人々の日常を記録しました。ゼラチン・シルバー・プリントの飾らないトーンは、彼のドキュメンタリー精神とまっすぐに響き合っています。題名の残らない一枚にも、人間へ向けられた彼の変わらぬまなざしが滲んでいます。"
             }
           }
+        },
+        {
+          "id": "wikimedia-118963",
+          "title": "Lewis Hine Power house mechanic working on steam pump",
+          "year": "1920",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Lewis_Hine_Power_house_mechanic_working_on_steam_pump.jpg/1280px-Lewis_Hine_Power_house_mechanic_working_on_steam_pump.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Lewis_Hine_Power_house_mechanic_working_on_steam_pump.jpg/1280px-Lewis_Hine_Power_house_mechanic_working_on_steam_pump.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lewis_Hine_Power_house_mechanic_working_on_steam_pump.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1920년 루이스 하인이 촬영한 '증기 펌프를 다루는 발전소 정비공'으로, 산업 노동을 다룬 그의 대표작입니다. 거대한 기계의 원형 구도와 렌치를 쥔 노동자의 긴장된 신체가 완벽하게 맞물리며, 인간과 기계의 관계를 영웅적 도상으로 끌어올렸습니다. 아동노동 고발로 사회를 바꾼 하인이 노동의 존엄을 찬미한 작품으로, 20세기 사진사에서 가장 널리 알려진 이미지 중 하나입니다.",
+          "tr": {
+            "en": {
+              "commentary": "Lewis Hine's 1920 'Powerhouse Mechanic Working on Steam Pump' is his iconic image of industrial labor. The circular composition of the massive machine and the tensed body of the worker gripping his wrench interlock perfectly, raising the relationship between human and machine to a heroic icon. Made by the photographer whose exposure of child labor changed society, this celebration of the dignity of work is one of the most widely known images in twentieth-century photography."
+            },
+            "ja": {
+              "commentary": "1920年にルイス・ハインが撮影した「蒸気ポンプに取り組む発電所の整備工」で、産業労働を扱った彼の代表作です。巨大な機械の円形構図とレンチを握る労働者の張りつめた身体が完璧に噛み合い、人間と機械の関係を英雄的な図像へと高めました。児童労働の告発で社会を変えたハインが労働の尊厳を讃えた作品であり、20世紀写真史で最も広く知られたイメージのひとつです。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-68831260",
+          "title": "Lewis Wickes Hine, The charter member of the Red Cross Boy Scout Troop Paris, September 1918 - Library of Congress",
+          "year": "1918",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Lewis_Wickes_Hine%2C_The_charter_member_of_the_Red_Cross_Boy_Scout_Troop_Paris%2C_September_1918_-_Library_of_Congress.jpg/1280px-Lewis_Wickes_Hine%2C_The_charter_member_of_the_Red_Cross_Boy_Scout_Troop_Paris%2C_September_1918_-_Library_of_Congress.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Lewis_Wickes_Hine%2C_The_charter_member_of_the_Red_Cross_Boy_Scout_Troop_Paris%2C_September_1918_-_Library_of_Congress.jpg/1280px-Lewis_Wickes_Hine%2C_The_charter_member_of_the_Red_Cross_Boy_Scout_Troop_Paris%2C_September_1918_-_Library_of_Congress.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lewis_Wickes_Hine,_The_charter_member_of_the_Red_Cross_Boy_Scout_Troop_Paris,_September_1918_-_Library_of_Congress.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1918년 9월 파리에서 루이스 하인이 적십자 보이스카우트 부대의 창립 단원을 촬영한 기록으로, 미국 의회도서관 소장작입니다. 1차 세계대전 말기 적십자 활동을 취재하던 하인은 전쟁의 그늘 속에서도 아이들의 일상과 회복을 포착했습니다. 아동을 사회 변화의 증인으로 세워 온 그의 일관된 시선이 유럽 전선의 기록에서도 이어지는 작품입니다.",
+          "tr": {
+            "en": {
+              "commentary": "This photograph, in the Library of Congress, shows a charter member of the Red Cross Boy Scout Troop, taken by Lewis Hine in Paris in September 1918. Covering Red Cross relief work at the end of the First World War, Hine captured children's daily lives and recovery even in the shadow of war. The work shows his consistent vision, which had long placed children as witnesses to social change, carrying over into his record of the European front."
+            },
+            "ja": {
+              "commentary": "1918年9月、パリでルイス・ハインが赤十字ボーイスカウト部隊の創設メンバーを撮影した記録で、米国議会図書館の所蔵作品です。第一次世界大戦末期に赤十字の救援活動を取材していたハインは、戦争の影の中でも子どもたちの日常と回復を捉えました。子どもを社会変革の証人として位置づけてきた彼の一貫したまなざしが、ヨーロッパ戦線の記録にも続いていることを示す作品です。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-30522663",
+          "title": "Lewis Hine selfportrait",
+          "year": "1930",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Lewis_Hine_selfportrait.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Lewis_Hine_selfportrait.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lewis_Hine_selfportrait.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1930년 무렵 루이스 하인이 남긴 자화상입니다. 아동노동의 참상을 고발하고 노동의 존엄을 기록해 온 사진가가 카메라 앞에 선 모습에서, 평생 기록자로 살아온 이의 단단한 자의식이 읽힙니다. 사회적 사진의 개척자가 스스로를 어떻게 바라보았는지 보여 주는 귀중한 기록입니다.",
+          "tr": {
+            "en": {
+              "commentary": "This is a self-portrait left by Lewis Hine around 1930. In the figure of the photographer who exposed the horrors of child labor and recorded the dignity of work now standing before the camera, one reads the firm self-awareness of a man who lived his whole life as a documentarian. It is a precious record of how a pioneer of social photography saw himself."
+            },
+            "ja": {
+              "commentary": "1930年頃にルイス・ハインが残した自画像です。児童労働の惨状を告発し、労働の尊厳を記録してきた写真家がカメラの前に立つ姿からは、生涯を記録者として生きた者の確かな自意識が読み取れます。ソーシャル・フォトグラフィーの開拓者が自らをどう見つめていたかを示す貴重な記録です。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-22178764",
+          "title": "Self-Portrait with Newsboy title QS:P1476,en:\"Self-Portrait with Newsboy\" label QS:Len,\"Self-Portrait with Newsboy\"",
+          "year": "1908",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Lewis_W._Hine_%28American_-_Self-Portrait_with_Newsboy_-_Google_Art_Project.jpg/1280px-Lewis_W._Hine_%28American_-_Self-Portrait_with_Newsboy_-_Google_Art_Project.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Lewis_W._Hine_%28American_-_Self-Portrait_with_Newsboy_-_Google_Art_Project.jpg/1280px-Lewis_W._Hine_%28American_-_Self-Portrait_with_Newsboy_-_Google_Art_Project.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lewis_W._Hine_(American_-_Self-Portrait_with_Newsboy_-_Google_Art_Project.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1908년 루이스 하인이 신문팔이 소년과 함께 자신을 담은 '신문팔이 소년과의 자화상'입니다. 아동노동 현장에 직접 들어가 아이들과 같은 눈높이에서 촬영하던 그의 작업 방식을 스스로 시연해 보인 셈으로, 다큐멘터리 윤리에 대한 이른 자기 성찰이 담겨 있습니다. 기록자와 피사체의 관계를 화면 안에 함께 세웠다는 점에서 개념적으로도 흥미로운 작품입니다.",
+          "tr": {
+            "en": {
+              "commentary": "In 'Self-Portrait with Newsboy' (1908), Lewis Hine placed himself in the frame alongside a newsboy. It effectively demonstrates his working method of entering the sites of child labor and photographing at the children's own eye level, embodying an early self-reflection on documentary ethics. By setting the recorder and the subject together within the picture, the work is conceptually fascinating as well."
+            },
+            "ja": {
+              "commentary": "1908年、ルイス・ハインが新聞売りの少年とともに自らを写した「新聞売りの少年との自画像」です。児童労働の現場に自ら入り、子どもたちと同じ目線で撮影するという彼の手法を自ら実演してみせた一枚で、ドキュメンタリーの倫理に対する早い自己省察が込められています。記録者と被写体の関係を画面の中に並べて示した点で、概念的にも興味深い作品です。"
+            }
+          }
         }
       ]
     },
@@ -6388,142 +5528,22 @@
           }
         },
         {
-          "id": "wikimedia-57253978",
-          "title": "Gertrude Käsebier by Adolf de Meyer",
-          "year": "1900",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Gertrude_K%C3%A4sebier_by_Adolf_de_Meyer.jpg/1280px-Gertrude_K%C3%A4sebier_by_Adolf_de_Meyer.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Gertrude_K%C3%A4sebier_by_Adolf_de_Meyer.jpg/1280px-Gertrude_K%C3%A4sebier_by_Adolf_de_Meyer.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gertrude_K%C3%A4sebier_by_Adolf_de_Meyer.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "동료 사진가 아돌프 드 마이어가 1900년 무렵 촬영한 케제비어의 초상입니다. 우아한 조명 감각으로 이름난 드 마이어의 렌즈 앞에 선 케제비어의 모습은, 픽토리얼리즘 전성기의 사진가들이 서로를 기록하며 교류하던 풍경을 보여줍니다. 카메라 뒤의 거장이 카메라 앞에 선 순간을 확인할 수 있는 귀한 자료입니다.",
-          "tr": {
-            "en": {
-              "commentary": "A portrait of Käsebier taken around 1900 by her fellow photographer Adolf de Meyer. Standing before the lens of de Meyer, renowned for his elegant sense of lighting, she embodies a scene from the height of Pictorialism, when photographers recorded one another as friends and peers. It is a precious document of a master from behind the camera stepping in front of it."
-            },
-            "ja": {
-              "commentary": "同じ写真家のアドルフ・ド・マイヤーが1900年頃に撮影したケーゼビアの肖像です。優雅な照明の感覚で知られたド・マイヤーのレンズの前に立つ彼女の姿は、ピクトリアリズム全盛期の写真家たちが互いを記録し合い交流していた光景を伝えてくれます。カメラの後ろにいた巨匠がカメラの前に立った瞬間を確かめられる、貴重な資料です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-5151754",
-          "title": "Gertrude Kasebier-Portrait",
-          "year": "1899",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Gertrude_Kasebier-Portrait.jpg/1280px-Gertrude_Kasebier-Portrait.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Gertrude_Kasebier-Portrait.jpg/1280px-Gertrude_Kasebier-Portrait.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gertrude_Kasebier-Portrait.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "포토 세세션 결성을 앞둔 1899년 무렵의 케제비어를 담은 초상 사진입니다. 당시 그는 뉴욕 5번가에 스튜디오를 열고 초상 사진가로 한창 명성을 쌓아가던 시기였습니다. 시대를 앞서간 여성 사진가의 얼굴을 직접 마주할 수 있다는 점에서 사진사적 가치가 큰 한 장입니다.",
-          "tr": {
-            "en": {
-              "commentary": "A portrait of Käsebier from around 1899, in the years just before the founding of the Photo-Secession. At the time she had opened her studio on Fifth Avenue in New York and was rapidly building her reputation as a portrait photographer. As an image that lets us meet face to face a woman photographer ahead of her era, it holds real value for the history of the medium."
-            },
-            "ja": {
-              "commentary": "フォト・セセッション結成を間近に控えた1899年頃のケーゼビアを写した肖像写真です。当時の彼女はニューヨーク五番街にスタジオを構え、肖像写真家として名声を高めつつあった時期でした。時代を先駆けた女性写真家の顔と直接向き合える、写真史的に価値の高い一枚です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-100781892",
-          "title": "Gertrude Käsebier, c. 1905",
+          "id": "wikimedia-78127798",
+          "title": "Portrait of a Boy label QS:Len,\"Portrait of a Boy\"",
           "year": "1905",
           "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Gertrude_K%C3%A4sebier%2C_c._1905.jpg/1280px-Gertrude_K%C3%A4sebier%2C_c._1905.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Gertrude_K%C3%A4sebier%2C_c._1905.jpg/1280px-Gertrude_K%C3%A4sebier%2C_c._1905.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Gertrude_K%C3%A4sebier%2C_Portrait_of_a_Boy%2C_c._1905%2C_Platinum_print%2C_19.1_x_24.1_cm%2C_MoMA%2C_533.1964.png",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Gertrude_K%C3%A4sebier%2C_Portrait_of_a_Boy%2C_c._1905%2C_Platinum_print%2C_19.1_x_24.1_cm%2C_MoMA%2C_533.1964.png",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gertrude_K%C3%A4sebier,_c._1905.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gertrude_K%C3%A4sebier,_Portrait_of_a_Boy,_c._1905,_Platinum_print,_19.1_x_24.1_cm,_MoMA,_533.1964.png",
           "credit": "Wikimedia Commons · Public domain",
-          "commentary": "경력의 정점에 서 있던 1905년 무렵의 케제비어를 보여주는 초상입니다. 이 시기 그는 포토 세세션의 기관지 '카메라 워크' 창간호의 주인공으로 소개될 만큼 미국 사진계에서 가장 주목받는 인물이었습니다. 한 장의 초상이 당대 여성 사진가가 도달한 위상을 조용히 증언합니다.",
+          "commentary": "1905년 무렵 거트루드 케이즈비어가 촬영한 '소년의 초상'입니다. 픽토리얼리즘의 대표 주자였던 그는 부드러운 초점과 회화적인 톤으로 아이의 내면적 분위기를 섬세하게 끌어냈습니다. 어머니와 아이라는 주제를 평생 탐구하며 여성 사진가의 길을 연 케이즈비어의 따뜻하고 기품 있는 시선이 잘 드러나는 작품입니다.",
           "tr": {
             "en": {
-              "commentary": "A portrait showing Käsebier around 1905, at the height of her career. By then she was among the most celebrated figures in American photography, having been featured in the inaugural issue of 'Camera Work', the journal of the Photo-Secession. A single portrait quietly testifies to the standing a woman photographer had achieved in her day."
+              "commentary": "This is Gertrude Käsebier's 'Portrait of a Boy,' from around 1905. A leading figure of Pictorialism, she drew out the child's inner mood with delicate sensitivity through soft focus and painterly tones. The work clearly shows the warm and dignified vision of Käsebier, who explored the theme of mothers and children throughout her life and opened the path for women photographers."
             },
             "ja": {
-              "commentary": "キャリアの頂点にあった1905年頃のケーゼビアを示す肖像です。この時期の彼女は、フォト・セセッションの機関誌『カメラ・ワーク』創刊号の主役として紹介されるほど、アメリカ写真界でもっとも注目される存在でした。一枚の肖像が、当時の女性写真家が到達した地位を静かに証言しています。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-101353271",
-          "title": "Gertrude Käsebier, mid 1890s",
-          "year": "1890",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Gertrude_K%C3%A4sebier%2C_mid_1890s.jpg/1280px-Gertrude_K%C3%A4sebier%2C_mid_1890s.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Gertrude_K%C3%A4sebier%2C_mid_1890s.jpg/1280px-Gertrude_K%C3%A4sebier%2C_mid_1890s.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gertrude_K%C3%A4sebier,_mid_1890s.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "사진가로서 첫발을 내딛던 1890년대 중반의 케제비어를 담은 초상입니다. 그는 30대 후반의 나이에 프랫 인스티튜트에서 미술을 공부한 뒤 뒤늦게 사진의 길에 들어섰습니다. 곧 미국 픽토리얼리즘을 이끌게 될 한 사진가의 출발점을 보여주는 소중한 기록입니다.",
-          "tr": {
-            "en": {
-              "commentary": "A portrait of Käsebier from the mid-1890s, as she was taking her first steps as a photographer. She had come to photography late, after studying art at the Pratt Institute in her late thirties. It is a precious record of the starting point of a photographer who would soon lead American Pictorialism."
-            },
-            "ja": {
-              "commentary": "写真家として歩み始めたばかりの1890年代半ばのケーゼビアを写した肖像です。彼女は30代後半でプラット・インスティテュートで美術を学んだのち、遅咲きで写真の道に入りました。やがてアメリカ・ピクトリアリズムを率いることになる一人の写真家の出発点を示す、貴重な記録です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-101578996",
-          "title": "Gertrude Käsebier with hand-held camera",
-          "year": "1907",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Gertrude_K%C3%A4sebier_with_hand-held_camera.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Gertrude_K%C3%A4sebier_with_hand-held_camera.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gertrude_K%C3%A4sebier_with_hand-held_camera.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1907년 무렵 휴대용 카메라를 손에 든 케제비어의 모습을 담은 사진입니다. 스튜디오의 대형 카메라가 아닌 손에 쥔 작은 카메라는, 일상의 순간으로 성큼 다가서던 20세기 초 사진의 변화를 함께 보여줍니다. 도구를 다루는 자연스러운 자세에서 평생을 카메라와 함께한 이의 친밀함이 묻어납니다.",
-          "tr": {
-            "en": {
-              "commentary": "A photograph showing Käsebier around 1907 with a hand-held camera. The small camera in her hands, rather than the large studio apparatus, also reflects how photography in the early twentieth century was stepping closer to the moments of everyday life. In her easy way of handling the instrument, one senses the intimacy of someone who spent a lifetime with the camera."
-            },
-            "ja": {
-              "commentary": "1907年頃、手持ちカメラを手にしたケーゼビアの姿をとらえた写真です。スタジオの大型カメラではなく手の中の小さなカメラは、日常の瞬間へと歩み寄っていった20世紀初頭の写真の変化をも映し出しています。道具を扱う自然な姿勢には、生涯をカメラとともに歩んだ人ならではの親密さが滲んでいます。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-101355656",
-          "title": "Gertrude Käsebier and Adolf de Meyer",
-          "year": "1905",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Gertrude_K%C3%A4sebier_and_Adolf_de_Meyer.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Gertrude_K%C3%A4sebier_and_Adolf_de_Meyer.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gertrude_K%C3%A4sebier_and_Adolf_de_Meyer.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "케제비어와 아돌프 드 마이어가 함께한 1905년 무렵의 기록 사진입니다. 두 사람 모두 포토 세세션을 둘러싼 국제적 픽토리얼리즘 무대에서 활약한 사진가로, 이 한 장은 당대 사진가들 사이의 우정과 교류를 생생하게 증언합니다. 사진의 예술적 지위를 함께 끌어올린 동료들의 모습이라는 점에서 의미가 깊습니다.",
-          "tr": {
-            "en": {
-              "commentary": "A photograph from around 1905 showing Käsebier together with Adolf de Meyer. Both were photographers active on the international Pictorialist stage surrounding the Photo-Secession, and this single frame vividly testifies to the friendships and exchanges among photographers of the era. It carries special meaning as an image of colleagues who together raised photography's standing as an art."
-            },
-            "ja": {
-              "commentary": "ケーゼビアとアドルフ・ド・マイヤーがともに写る1905年頃の記録写真です。二人はいずれもフォト・セセッションを軸とする国際的ピクトリアリズムの舞台で活躍した写真家であり、この一枚は当時の写真家たちの友情と交流を生き生きと証言しています。写真の芸術的地位を共に押し上げた仲間たちの姿という点で、意味深い一枚です。"
-            }
-          }
-        },
-        {
-          "id": "wikimedia-101354266",
-          "title": "Gertrude Käsebier with her mother and daughters by Samuel Hector Lifshey",
-          "year": "1910",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Gertrude_K%C3%A4sebier_with_her_mother_and_daughters_by_Samuel_Hector_Lifshey.jpg/1280px-Gertrude_K%C3%A4sebier_with_her_mother_and_daughters_by_Samuel_Hector_Lifshey.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Gertrude_K%C3%A4sebier_with_her_mother_and_daughters_by_Samuel_Hector_Lifshey.jpg/1280px-Gertrude_K%C3%A4sebier_with_her_mother_and_daughters_by_Samuel_Hector_Lifshey.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gertrude_K%C3%A4sebier_with_her_mother_and_daughters_by_Samuel_Hector_Lifshey.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "사진가 새뮤얼 헥터 리프시가 1910년 무렵 촬영한, 케제비어가 어머니, 딸들과 함께한 모습입니다. 한 화면에 3대의 여성이 나란히 담겨 있어, 평생 모성을 가장 중요한 주제로 삼았던 사진가가 정작 자신의 가족 안에서는 딸이자 어머니로 서 있는 모습이 잔잔한 울림을 줍니다. 그의 작품 세계를 삶의 자리에서 이해하게 해 주는 더없이 좋은 기록입니다.",
-          "tr": {
-            "en": {
-              "commentary": "A photograph taken around 1910 by the photographer Samuel Hector Lifshey, showing Käsebier with her mother and her daughters. With three generations of women gathered in a single frame, there is a quiet resonance in seeing the photographer who made motherhood her lifelong subject standing within her own family as both daughter and mother. It is an ideal record for understanding her artistic world from the place where her life was lived."
-            },
-            "ja": {
-              "commentary": "写真家サミュエル・ヘクター・リフシーが1910年頃に撮影した、ケーゼビアが母と娘たちとともに写る一枚です。三世代の女性が同じ画面に並んでおり、生涯にわたり母性を最大の主題とした写真家が、自らの家族の中では娘であり母として立っている姿が静かな余韻を残します。彼女の作品世界を、その人生の場から理解させてくれる得がたい記録です。"
+              "commentary": "1905年頃にガートルード・ケーゼビアが撮影した「少年の肖像」です。ピクトリアリズムを代表する存在であった彼女は、ソフトフォーカスと絵画的なトーンによって子どもの内面的な雰囲気を繊細に引き出しました。母と子というテーマを生涯探求し、女性写真家の道を切り開いたケーゼビアの、温かく気品あるまなざしがよく表れた作品です。"
             }
           }
         }

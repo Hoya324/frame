@@ -12,6 +12,27 @@ function ex(p: Partial<Exhibition>): Exhibition {
   };
 }
 const EMPTY: FilterState = { statuses: [], mediums: [], types: [], freeOnly: false, regions: [] };
+// Default filter applied on all browse/search/map/scrap pages at initial load.
+const DEFAULT_STATUSES: FilterState = { ...EMPTY, statuses: ["ongoing", "upcoming"] };
+
+describe("default status filter (ongoing + upcoming)", () => {
+  it("shows ongoing and upcoming, hides past", () => {
+    const list = [
+      ex({ id: "a", status: "ongoing" }),
+      ex({ id: "b", status: "upcoming" }),
+      ex({ id: "c", status: "past" }),
+    ];
+    const out = applyFilters(list, DEFAULT_STATUSES);
+    expect(out.map((e) => e.id)).toEqual(["a", "b"]);
+  });
+  it("all statuses present when filter is empty (legacy no-filter fallback)", () => {
+    const list = [
+      ex({ id: "a", status: "ongoing" }),
+      ex({ id: "b", status: "past" }),
+    ];
+    expect(applyFilters(list, EMPTY)).toHaveLength(2);
+  });
+});
 
 describe("applyFilters", () => {
   it("filters by status", () => {

@@ -33,7 +33,7 @@ export default function Home() {
   ];
   const [mode, setMode] = useState<"time" | "swipe">("time");
   const { isSwipeStep } = useOnboarding();
-  const [chips, setChips] = useState<string[]>([]);
+  const [chips, setChips] = useState<string[]>(["ongoing", "upcoming"]);
   const [sort, setSort] = useState<SortKey>("recommended");
   const toggle = (v: string) => setChips((c) => (c.includes(v) ? c.filter((x) => x !== v) : [...c, v]));
   const selectMode = (m: "time" | "swipe") => {

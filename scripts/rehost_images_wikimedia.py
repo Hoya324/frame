@@ -46,7 +46,10 @@ def _search_files(query: str, limit: int = 8) -> list[dict]:
     return sorted(pages.values(), key=lambda p: p.get("index", 999))
 
 
-def _pick(pages: list[dict], surname: str) -> dict | None:
+def _pick(pages: list[dict], full_name: str) -> dict | None:
+    # Require the FULL artist name in the title/credit — surname-only matching
+    # once swapped Hippolyte Bayard's garden calotype for a play script by the
+    # playwright Bayard (2026-06-11 audit).
     for p in pages:
         ii = (p.get("imageinfo") or [{}])[0]
         if not ii or "image" not in (ii.get("mime") or ""):
@@ -55,7 +58,7 @@ def _pick(pages: list[dict], surname: str) -> dict | None:
         if not _is_pd(em):
             continue
         hay = (p.get("title", "") + " " + (em.get("Artist", {}).get("value") or "")).lower()
-        if surname.lower() not in hay:
+        if full_name.lower() not in hay:
             continue
         return ii
     return None
@@ -70,12 +73,13 @@ def main() -> None:
     data = json.load(open(MJ, encoding="utf-8"))
     kept = dropped = 0
     for m in data["masters"]:
-        surname = m["name"].split("(")[0].strip().split()[-1]
+        full_name = m["name"].split("(")[0].strip()
+        surname = full_name.split()[-1]
         # master portrait — only for actual persons; anthology entries (no birth
         # year) would just pick up a random PD image as their card face.
         if m.get("birthYear"):
             pp = _search_files(f"{m['name']} portrait", 8) or _search_files(m["name"], 8)
-            port = _pick(pp, surname)
+            port = _pick(pp, full_name)
             if port:
                 m["portraitUrl"] = port["thumburl"]
             time.sleep(0.2)
@@ -89,9 +93,9 @@ def main() -> None:
                 kept += 1
                 continue
             ct = _clean_title(w["title"])
-            ii = _pick(_search_files(f'{m["name"]} {ct}', 8), surname)
+            ii = _pick(_search_files(f'{m["name"]} {ct}', 8), full_name)
             if not ii:
-                ii = _pick(_search_files(f'{surname} {ct}', 8), surname)
+                ii = _pick(_search_files(f'{surname} {ct}', 8), full_name)
             time.sleep(0.2)
             if not ii:
                 dropped += 1

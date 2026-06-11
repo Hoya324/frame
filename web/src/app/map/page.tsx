@@ -28,7 +28,7 @@ export default function MapPage() {
   const [sheetVenueId, setSheetVenueId] = useState<string | null>(null);
   const [userLoc, setUserLoc] = useState<[number, number] | null>(null);
   const [locState, setLocState] = useState<"idle" | "locating" | "error">("idle");
-  const [statuses, setStatuses] = useState<string[]>([]);
+  const [statuses, setStatuses] = useState<string[]>(["ongoing", "upcoming"]);
   const [sort, setSort] = useState<SortKey>("recommended");
   const toggle = (v: string) => {
     setCities((c) => (c.includes(v) ? c.filter((x) => x !== v) : [...c, v]));

@@ -17,7 +17,7 @@ export default function ScrapPage() {
   const { t } = useLang();
   const today = new Date();
 
-  const [statuses, setStatuses] = useState<string[]>([]);
+  const [statuses, setStatuses] = useState<string[]>(["ongoing", "upcoming"]);
   const [sort, setSort] = useState<SortKey>("closing");
   const toggleStatus = (v: string) =>
     setStatuses((s) => (s.includes(v) ? s.filter((x) => x !== v) : [...s, v]));

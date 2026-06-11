@@ -105,9 +105,16 @@ class CommonsClient:
         for page in sorted(pages.values(), key=lambda p: p.get("index", 999)):
             ii = (page.get("imageinfo") or [{}])[0]
             extmeta = ii.get("extmetadata") or {}
-            hay = (page.get("title", "") + " "
-                   + (extmeta.get("Artist", {}).get("value") or "")).lower()
-            if needle not in hay:
+            credited = _strip_html(extmeta.get("Artist", {}).get("value") or "").lower()
+            # A credited file must credit OUR artist — this is what keeps
+            # portraits OF the photographer (taken by someone else) and
+            # same-surname strangers out of the works list.
+            if credited:
+                if needle not in credited:
+                    continue
+            elif needle not in (page.get("title", "") or "").lower():
+                continue
+            if _looks_like_non_work(page, extmeta, query, needle):
                 continue
             w = _to_work(page)
             if w is not None and w.is_public_domain and w.has_image:
@@ -115,6 +122,28 @@ class CommonsClient:
             if len(out) >= limit:
                 break
         return out
+
+
+def _looks_like_non_work(page: dict, extmeta: dict, query: str, surname: str) -> bool:
+    """Heuristics for files that are about the master rather than by them, or
+    aren't photographs at all (vision-audit findings, 2026-06-11)."""
+    cats = (extmeta.get("Categories", {}).get("value") or "").lower()
+    if re.search(r"book covers|title pages|advertisements|paintings|drawings", cats):
+        return True
+    name = re.sub(r"^File:|\.[A-Za-z]{3,4}$", "", page.get("title") or "").strip().lower()
+    # "Portrait of <the master>" — a picture of them, not by them. The master's
+    # own portrait subjects survive ("Portrait of Honoré Daumier" lacks the
+    # surname after "portrait of").
+    if re.match(rf"^\[?\s*portrait of [^,]*\b{re.escape(surname)}\b", name):
+        return True
+    # Title that is just the master's name (± a year/number) is almost always
+    # a portrait of them; "Name - Actual Title" authorship prefixes survive.
+    for prefix in {query.lower(), " ".join(reversed(query.lower().split()))}:
+        if name.startswith(prefix):
+            rest = re.sub(r"^[\s\-–—,.]+", "", name[len(prefix):])
+            if re.fullmatch(r"|\(?c?\.? ?1[89]\d\d\)?|m?\d{1,6}|portrait", rest.strip()):
+                return True
+    return False
 
 
 def _to_work(page: dict) -> RawWork | None:

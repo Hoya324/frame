@@ -62,3 +62,12 @@ class MasterSeed:
     # Case-insensitive title substrings to drop at select time — for works
     # whose subject or period caption doesn't fit the app's tone.
     exclude_titles: list[str] = field(default_factory=list)
+    # Exact work_ids ("<source>-<object_id>") to drop at select time. These
+    # come from the 2026-06-11 vision audit: files that searches keep
+    # returning but that are NOT works by the master (portraits of them,
+    # book covers, text scans, paintings, near-duplicate variants).
+    exclude_ids: list[str] = field(default_factory=list)
+    # work_id -> display title, for files whose Commons name is junk
+    # (e.g. "GordonParksFSA"). Applied at select time so commentary cache
+    # keys stay stable across rebuilds.
+    title_overrides: dict[str, str] = field(default_factory=dict)

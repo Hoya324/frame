@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+from dataclasses import replace
 
 from crawler.masters.models import MasterSeed, RawWork
 from crawler.masters.museums.base import MuseumClient
@@ -49,16 +50,21 @@ def select_works(
     pulled.sort(key=_rank_key, reverse=True)
 
     excludes = [t.lower() for t in seed.exclude_titles]
+    excluded_ids = set(seed.exclude_ids)
     out: list[RawWork] = []
     seen: set[str] = set()
     for w in [*explicit, *pulled]:
         if not (w.is_public_domain and w.has_image):
+            continue
+        if w.work_id in excluded_ids:
             continue
         if any(t in w.title.lower() for t in excludes):
             continue
         if w.work_id in seen:
             continue
         seen.add(w.work_id)
+        if w.work_id in seed.title_overrides:
+            w = replace(w, title=seed.title_overrides[w.work_id])
         out.append(w)
         if len(out) >= cap:
             break

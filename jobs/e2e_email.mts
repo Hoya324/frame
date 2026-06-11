@@ -1,0 +1,12 @@
+import { loadCatalog } from "./src/lib/catalog.ts";
+import { renderDigest, emailStrings } from "./src/lib/render.ts";
+const cat = loadCatalog();
+const e = cat.exhibitions.find(x => x.titleTr.en && x.titleTr.en !== x.title)!;
+console.log("subject(en):", emailStrings("en").digestSubject);
+console.log("orig:", e.title, "| en:", e.titleTr.en);
+const html = renderDigest([e], "https://frame.example", "en");
+console.log("EN title present:", html.includes(e.titleTr.en!));
+console.log("original present:", html.includes(e.title));
+console.log("EN chrome:", html.includes(emailStrings("en").digestTitle), "| KO chrome:", html.includes(emailStrings("ko").digestTitle));
+const i = html.indexOf(e.titleTr.en!);
+console.log("snippet:", html.slice(i-90, i+240).replace(/\s+/g,' '));
