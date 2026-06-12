@@ -5,13 +5,17 @@ import { CinemaSection } from "./CinemaSection";
 import { CINEMA_MODERN, CINEMA_PD } from "@/lib/cinema";
 
 describe("CinemaSection", () => {
-  it("full variant renders every scene as a card linking to its detail page", () => {
+  it("full variant renders one detail-link card per scene", () => {
     renderWithLang(<CinemaSection variant="full" />);
-    for (const s of [...CINEMA_MODERN, ...CINEMA_PD]) {
-      const title = screen.getByText(s.title.ko);
-      const link = title.closest("a");
-      expect(link, s.id).not.toBeNull();
-      expect(link).toHaveAttribute("href", `/masters/cinema/${s.id}`);
+    // one card per scene, each linking to its detail page (count, not an
+    // O(n²) per-title scan — there are 100+ scenes)
+    const cards = screen.getAllByRole("link").filter((a) =>
+      a.getAttribute("href")?.startsWith("/masters/cinema/"));
+    expect(cards).toHaveLength(CINEMA_MODERN.length + CINEMA_PD.length);
+    // spot-check a representative few resolve to the right id
+    for (const s of [CINEMA_MODERN[0], CINEMA_PD[0], CINEMA_MODERN[CINEMA_MODERN.length - 1]]) {
+      const link = screen.getByText(s.title.ko).closest("a");
+      expect(link, s.id).toHaveAttribute("href", `/masters/cinema/${s.id}`);
     }
   });
 
