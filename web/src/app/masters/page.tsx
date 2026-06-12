@@ -30,7 +30,7 @@ export default function MastersHub() {
       <p className="mt-2 text-sm text-tx2">{t("curation.subtitle")}</p>
 
       <div className="mt-9">
-        <CinemaSection variant="preview" />
+        <CinemaSection />
       </div>
 
       <div className="mt-12">
