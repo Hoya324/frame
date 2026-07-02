@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T17:47:02.294676+00:00",
+  "generated_at": "2026-07-02T19:47:03.726630+00:00",
   "exhibitions": [
     {
       "id": "da49addcd28e",
@@ -23829,7 +23829,7 @@
       "price_max": null,
       "start_date": "2026-07-02",
       "end_date": "2026-09-21",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ebe6d0623fa0",
@@ -24276,7 +24276,7 @@
       "price_max": null,
       "start_date": "2026-06-10",
       "end_date": "2026-07-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "a580ee5bac9f",
@@ -27973,7 +27973,7 @@
       "price_max": null,
       "start_date": "2026-06-18",
       "end_date": "2026-07-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "8d7aa6d3b645",
@@ -40784,7 +40784,7 @@
       "price_max": null,
       "start_date": "2026-07-02",
       "end_date": "2026-07-05",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "838c559a265c",
@@ -42495,7 +42495,7 @@
       "price_max": null,
       "start_date": "2026-06-25",
       "end_date": "2026-07-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "88cb1cebd561",
@@ -42947,7 +42947,7 @@
       "price_max": null,
       "start_date": "2026-07-02",
       "end_date": "2026-07-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "4636db3d7de8",
@@ -43277,7 +43277,7 @@
       "price_max": null,
       "start_date": "2026-06-26",
       "end_date": "2026-07-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "23129cff8bfd",
@@ -46740,7 +46740,7 @@
       "price_max": null,
       "start_date": "2026-07-02",
       "end_date": "2026-07-14",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "33e2eeae1f83",
@@ -47602,7 +47602,7 @@
       "price_max": null,
       "start_date": "2026-07-02",
       "end_date": "2026-07-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "88cb1cebd561",
@@ -47709,8 +47709,15 @@
       "venue": {
         "id": "0dc4fba72bd9",
         "name": "パシフィコ横浜",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "파시피코 요코하마"
+          },
+          "en": {
+            "name": "Pacifico Yokohama"
+          }
+        },
         "region": "神奈川県",
         "district": null,
         "lat": 35.459781269546745,
@@ -47751,8 +47758,15 @@
       "venue": {
         "id": "ac7b7daf2602",
         "name": "寺田倉庫G1ビル",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "테라다 소코 G1 빌딩"
+          },
+          "en": {
+            "name": "Terada Warehouse G1 Building"
+          }
+        },
         "region": "天王洲、品川",
         "district": null,
         "lat": 35.62070515128009,
@@ -47896,8 +47910,15 @@
       "venue": {
         "id": "68e82b6b6f51",
         "name": "新宿眼科画廊",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "신주쿠 간카 가로"
+          },
+          "en": {
+            "name": "Shinjuku Ganka Garou"
+          }
+        },
         "region": "新宿、初台、四ツ谷",
         "district": null,
         "lat": 35.694618390076414,
@@ -47947,8 +47968,15 @@
       "venue": {
         "id": "0eaacd434922",
         "name": "ISSEY MIYAKE GINZA | CUBE",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "ISSEY MIYAKE GINZA | CUBE"
+          },
+          "ja": {
+            "name": "ISSEY MIYAKE GINZA | CUBE"
+          }
+        },
         "region": "銀座、丸の内",
         "district": null,
         "lat": 35.6721,
@@ -48100,7 +48128,7 @@
       "title": "日本の新進作家 vol.23（仮）",
       "lang": null,
       "tr": {},
-      "poster_image_url": null,
+      "poster_image_url": "https://topmuseum.jp/wp-content/uploads/2026/03/white.jpg",
       "description": "写真・映像の可能性に挑戦する創造的精神を支援し、将来性のある作家を発掘する「日本の新進作家」展の23回目。実際に存在した記憶や素材をもとに、AIやデジタル技術を用いて作品を制作する現代作家たち。記憶、素材、技術などが持つコンテクストを、彼らが制作において再構築するプロセスを探ります。真偽にまどわされることが多い日常での情報との向き合い方を改めて考える機会となることでしょう。",
       "medium": "mixed",
       "exhibition_type": "curated",
@@ -48131,6 +48159,572 @@
       },
       "artists": [],
       "source_url": "https://topmuseum.jp/exhibition/5423/",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "8f93ebdeeeb1",
+      "source": "gallery_tosei",
+      "title": "加納満写真展",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/jpg/EXHIBITIONS/PAST/2026/2606/2606.jpg",
+      "description": "かわいまひと 河合真人写真展\n\nずっとあなたを探している\n\n2026年6月26日(金) - 7月12日(日)\n\n11:00-19:00\n\n＊毎週木曜日は22:00までOPEN\n\n月曜のみ休廊\n\nかのうみつる 加納満写真展\n\n独りにもどる場所\n\n2026年7月15日(水) - 8月1日(土)\n\n11:00-19:00\n\n＊毎週木曜日は22:00までOPEN\n\n日曜・月曜・祝日休廊\n\n2026\n\n2025\n\n2024\n\n2023\n\n2022\n\n2021\n\n2020\n\n2019\n\n2017\n\n2016\n\n2015\n\n2014\n\n2013\n\n2012\n\n2011\n\n2010\n\n2009\n\n2008\n\n2007\n\n2006\n\n2005",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-15",
+      "end_date": "2026-08-01",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "1ab862183c75",
+        "name": "Gallery Tosei",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Gallery Tosei"
+          },
+          "ja": {
+            "name": "Gallery Tosei"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.6986456,
+        "lng": 139.6628774
+      },
+      "artists": [],
+      "source_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/html/EXHIBITIONS/j_exhibitions.html#show2",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "e6cc3c8f2d4b",
+      "source": "tokyo_art_beat",
+      "title": "「第34回 20＋（プラス）無限大」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/6fvxWKVejGX7b3t30nJ53e/ba03f6a4bb70ae747eb6a1da1abbadfb/9a61361d-4c80-402d-b1fa-5b00e8ddc66e.jpeg",
+      "description": "＋（プラス）無限大展の第1回は1987年〜その後不定期に開催し今回が34回目となります。20名のアーティストによる、平面、立体、映像、インスタレーション など様々な表現のアートワークと、ダンスパフォーマンスが開催されます。",
+      "medium": "video",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-14",
+      "end_date": "2026-07-20",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "a6bc0a72e92f",
+        "name": "目黒区美術館",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "메구로구 미술관"
+          },
+          "en": {
+            "name": "Meguro Museum of Art"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.63494978028795,
+        "lng": 139.70769998681402
+      },
+      "artists": [
+        {
+          "id": "707e0cca083b",
+          "name": "臼井勝彦",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d429a813dc75",
+          "name": "大寺博",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "917a9df9bf15",
+          "name": "岡部彩子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d227290a71d8",
+          "name": "小野寺紳",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c7e4d3d3db69",
+          "name": "鹿島寛",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a2b1198cdc11",
+          "name": "樺山カナヤ真理",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4888b4a42668",
+          "name": "三枝聡",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8a8aa15e3641",
+          "name": "酒井和佳子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "99d8364a9f54",
+          "name": "篠田徂徠",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "6a4ee6d69dea",
+          "name": "田中太賀志",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "36f5a951046c",
+          "name": "田村悠",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "13e280c05066",
+          "name": "富丘誠",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "fa46052e3443",
+          "name": "中西一夫",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8ed38aa4e237",
+          "name": "仲森仁",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "7f72817c76c5",
+          "name": "西山ひろみ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "9846c252b6c6",
+          "name": "藤原祥",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "fa66a8877e48",
+          "name": "万城目純",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "bb95e8c11f0a",
+          "name": "三瀬有紀",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4ebde03082d2",
+          "name": "吉田光治",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e32b3145f901",
+          "name": "鷲田恭",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/The-34th-20-Exhibition/81-DBF-2-E0/2026-07-14",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "fa07b259e3ee",
+      "source": "tokyo_art_beat",
+      "title": "「収蔵品展 『都市と幻影〜夢の底にねむるまち〜』」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/5s6CTuXx6JVNB2wvwHrwT1/1b0bef92f6d38ab49e97d21f72d3bf53/20260612134931.jpg",
+      "description": "本展は街並みや建物、そしてその空間における人々の営みが内包する幻想性やノスタルジー、そして人間の心象風景に焦点を当てた収蔵品展です。本展では、夢と現実の狭間をさまようかのような「まち」の姿を、5人の所蔵作家の作品を通して紹介します。小説『風の生涯』（辻井喬 著、2000年）に登場する勇払の情景を、脚色を織り交ぜながらセピア調の挿絵として繊細に描いた酒井信義（さかい・のぶよし／1944～）。コンクリートの壁面とともに、未来への不安と希望が混在する子どもの姿を描いた菅原勇（すがわら・いさむ／1945～2002）。苫小牧の夜景に自らの心象を仮託し、煌びやかな電飾とともにショーケースへと収めた坂東史樹（ばんどう・ふみき／1963～）。失われた街並みや都市の元形ともいえる村落の姿を郷愁的に描いた沼田卓（ぬまた・たく／1936～1999）。そして、物語の一場面を彷彿とさせるメルヘンチックな情景を描いた町田徹哉（まちだ・てつや／1932～2013）。夢の底でまどろむかのように、現実と虚構のあわいで静かに息づく彼らの作品群は、私たちの心の奥深くに眠る「まち」へといざなうことでしょう。",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-11",
+      "end_date": "2026-08-30",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "0c605605ba68",
+        "name": "苫小牧市美術博物館",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "도마코마이 시 미술 박물관"
+          },
+          "en": {
+            "name": "Tomakomai City Museum of Art"
+          }
+        },
+        "region": "北海道",
+        "district": null,
+        "lat": 42.63750862083518,
+        "lng": 141.61302338161468
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Urban-Phantoms-A-City-Slumbering-Deep-Within-Dreams/tomakomai-city-museum/2026-07-11",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "37a6887271a5",
+      "source": "tokyo_art_beat",
+      "title": "佐内正史 「佐内さん」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4oa8ogXyzzYeZC7x7szTxl/a5ac0b728dbec90266f219a7e63dcde5/sanai-1-1__1_.jpg",
+      "description": "このたび、ふげん社は、2026年7月31日（金）から9月6日（日）まで、雑誌『写真』Sha Shin Magazine vol.9刊行記念・佐内正史写真展「佐内さん」を開催いたします。写真家・佐内正史は1997年に写真集『生きている』で鮮烈なデビューを果たし、2003年写真集『MAP』で第28回木村伊兵衛写真賞を受賞。90年代から現在まで、雑誌や広告の分野から自主レーベル写真集などのパーソナルワークまで幅広く活動し、多くの人々に影響を与え続けてきました。日本写真史の記念碑的作品といえる写真集『生きている』が30年の時を経て復刊される今年、7月1日発売の雑誌『写真』（Sha Shin Magazine）vol.9（ふげん社）では、岡本太郎のアトリエに遺された絵と全国に点在するオブジェを訪ね歩く「雷写」と近作「Strong Memory」を往還する新作「オレの素」、そしてロングインタビュー（聞き手：飯沢耕太郎）を掲載しています。本展では、今号の刊行記念展として、撮り下ろしの新作を展示します。\n\n「瞬間的に出会いと別れを繰り返しているのが写真の道だと思う」と本誌インタビューで本人が語るように、佐内の写真は、世界が言葉で腑分けされる前の、まるで擬態語に満ちた空間で、被写体との一瞬の交感が写し取られています。日々の生活の中で、研ぎ澄まされたアンテナで世界の全てを等価に受け止めた写真群は、佐内の写真論の「元型」つまり「オレの素」が最もピュアに現れていると言えるでしょう。また、本展は、フィルムでの撮影・印画紙での発表にこだわりのある作家のプリントを購入できる貴重な機会でもあります。ぜひご来場ください。初日7月31日（金）はオープニング・レセプションを開催。8月5日（水）には、佐内正史と曽我部恵一による詩の朗読と音楽がブレンドした異質のユニット”擬態屋”によるライブとトークを開催いたします。\n\n[関連イベント]\n”擬態屋” ライブとトーク\n日時: 2026年8月5日19:00〜20:30\n登壇者: 佐内正史、曽我部恵一\n料金: 2500円\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-31",
+      "end_date": "2026-09-06",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "37f737766ac5",
+        "name": "ふげん社",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "후겐사"
+          },
+          "en": {
+            "name": "Fugen-sha"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.630687162511016,
+        "lng": 139.70241720946206
+      },
+      "artists": [
+        {
+          "id": "aeb80c15cad6",
+          "name": "佐内正史",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사나이 마사후미"
+            },
+            "en": {
+              "name": "Masafumi Sanai"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Masafumi-Sanai-Sanai-San/EBF-7-BCA-5/2026-07-31",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "38a669ab59e5",
+      "source": "tokyo_art_beat",
+      "title": "片山達貴 「ククルたち / Kukurs」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/7w5jl4r1oQA72JbhKWvELC/7fca62a07a3f0873c2c55e6966ada1a2/61158698-e6c0-4b2b-ae80-de4f33427ddf.jpg",
+      "description": "本企画は、追手門学院大学 社会文化デザインコースの授業の一環として、学外から美術作家を招聘し開催される展覧会です。学生たちが展覧会の運営や作家の制作プロセスを間近で学び、今後の創作活動へと繋げることを目的としています。第3回となる今回は、写真家・片山達貴の個展を開催します。これまで「自己と他者との関係性」をテーマに作品を制作してきた片山は、近年、私たちにとって身近な「犬」という存在に着目しています。長きにわたり人間と共生してきた彼らの姿を通して、私たちの社会や制度をあらためて見つめ直す契機となれば幸いです。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-16",
+      "end_date": "2026-07-21",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5647eee879e5",
+        "name": "茨木市立ギャラリー",
+        "lang": null,
+        "tr": {},
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.81617993458671,
+        "lng": 135.57533735882345
+      },
+      "artists": [
+        {
+          "id": "760a43d15b1f",
+          "name": "片山達貴",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Tatsuki-Katayama-Kukurs/the-gallery-of-ibaraki/2026-07-16",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "674992cc6103",
+      "source": "tokyo_art_beat",
+      "title": "山田荘一朗 「それが、それ以上に」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/2wy3ZqudL9ic7whewKwqkT/e1283f04275a2a41f7b2d5f83bcc018b/6071209f-8fed-488e-9f07-0687e3a6283e.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-06",
+      "end_date": "2026-07-11",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "b9dd092bd850",
+        "name": "ギャラリー58",
+        "lang": null,
+        "tr": {},
+        "region": "銀座、丸の内",
+        "district": null,
+        "lat": 35.6721165368179,
+        "lng": 139.76476437301636
+      },
+      "artists": [
+        {
+          "id": "2ef875cae345",
+          "name": "山田荘一朗",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Souichirou-Yamada-Exhibition/0-E250-B96/2026-07-06",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "d26bcece0e60",
+      "source": "tokyo_art_beat",
+      "title": "「つながる世界 : パレスチナのこどもたち 写真展 ＋ 絵本作家の絵画展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/2SKoMHj0houH4YwGxZFDrs/032c9e9b388e1ddee91e688dfd7a427a/image002.jpg",
+      "description": "パレスチナではイスラエルによる占領と暴力が70 年以上も続いており、2023年10月以降は攻撃が激化し、現在までにパレスチナ全土でパレスチナ人の死者数は70,000人を超え、こどもたちの死者数は20,000人を超えていると言われています。私たち絵本作家は、こどもたちに向けて児童書を作っています。今もなお、大勢のこどもたちが血を流し、泣き叫ぶ状況に対し、私たちが声を上げること、表現すべきことがあるのではないか？と考え、展覧会を開催しようと考えました。絵本作家による絵画作品と、パレスチナのこどもたちの写真が並ぶ展覧会です。2026年6月にスタートした「つながる世界」の巡回展示は「OGU MAG」の展示で終了します。\n\n[関連イベント]\n1. 「ガザの人形遣いマフディーさんの上映会・絵本作家のトークイベント」①\n日時: 2026年7月4日17:00〜\n料金: 1000円\n2. 「ガザの人形遣いマフディーさんの上映会・絵本作家のトークイベント」②\n日時: 2026年7月11日17:00〜\n料金: 1000円\n3. 「ハニンさんのパレスチナお話し会」\n日時: 2026年7月18日17:00〜\n登壇者: ハニン、吉田尚令\n料金: 1000円\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-02",
+      "end_date": "2026-07-19",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "10849331c937",
+        "name": "OGU MAG",
+        "lang": null,
+        "tr": {},
+        "region": "東京：その他",
+        "district": null,
+        "lat": 35.74187638979451,
+        "lng": 139.76654576374148
+      },
+      "artists": [
+        {
+          "id": "2022df8012bf",
+          "name": "あおきひろえ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e6931ac5a740",
+          "name": "石川えりこ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "3c49a4296e93",
+          "name": "市居みか",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8928c49274cf",
+          "name": "えがしらみちこ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "12885db9e772",
+          "name": "こしだミカ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "835c4312b985",
+          "name": "酒井駒子",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사카이 코마코"
+            },
+            "en": {
+              "name": "Komako Sakai"
+            }
+          }
+        },
+        {
+          "id": "862fc9be6ab5",
+          "name": "さこももみ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "ea30e6d08d79",
+          "name": "ささめやゆき",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0d64721746e7",
+          "name": "田島征三",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c6b38ba4b4f3",
+          "name": "tupera tupera",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "14a20a6b87a2",
+          "name": "どいかや",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d3c6d7fa23c5",
+          "name": "長谷川義史",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a90758d3e624",
+          "name": "浜田桂子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "808d81f8f669",
+          "name": "早川純子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b301a3873c96",
+          "name": "ひろかわさえこ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5e43ae34a78e",
+          "name": "ふしはらのじこ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "39fed4bd2663",
+          "name": "降矢なな",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c7fcf0df7c17",
+          "name": "堀川理万子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a6fddb632313",
+          "name": "町田尚子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b4d081f84d49",
+          "name": "松田奈那子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a6e24259abb4",
+          "name": "まつむらまいこ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e6c6dad3bc2e",
+          "name": "山口マオ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "698cf04caf77",
+          "name": "marini*monteany",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "49780f6971ca",
+          "name": "山福朱実",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "ca0b28541b9e",
+          "name": "吉田尚令",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/A-Connected-World-Palestinian-Children-Photography-Exhibition-Picture-Book-Illustrators-Art-Exhibition/504-CB-5-A2/2026-07-02",
       "featured": false,
       "popularity_score": null
     }
@@ -52920,8 +53514,15 @@
     {
       "id": "0dc4fba72bd9",
       "name": "パシフィコ横浜",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "파시피코 요코하마"
+        },
+        "en": {
+          "name": "Pacifico Yokohama"
+        }
+      },
       "venue_type": "other",
       "region": "神奈川県",
       "district": null,
@@ -52934,8 +53535,15 @@
     {
       "id": "ac7b7daf2602",
       "name": "寺田倉庫G1ビル",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "테라다 소코 G1 빌딩"
+        },
+        "en": {
+          "name": "Terada Warehouse G1 Building"
+        }
+      },
       "venue_type": "other",
       "region": "天王洲、品川",
       "district": null,
@@ -52948,8 +53556,15 @@
     {
       "id": "68e82b6b6f51",
       "name": "新宿眼科画廊",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "신주쿠 간카 가로"
+        },
+        "en": {
+          "name": "Shinjuku Ganka Garou"
+        }
+      },
       "venue_type": "other",
       "region": "新宿、初台、四ツ谷",
       "district": null,
@@ -52962,8 +53577,15 @@
     {
       "id": "0eaacd434922",
       "name": "ISSEY MIYAKE GINZA | CUBE",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "ISSEY MIYAKE GINZA | CUBE"
+        },
+        "ja": {
+          "name": "ISSEY MIYAKE GINZA | CUBE"
+        }
+      },
       "venue_type": "other",
       "region": "銀座、丸の内",
       "district": null,
@@ -52971,6 +53593,69 @@
       "country": "JP",
       "lat": 35.6721,
       "lng": 139.765,
+      "website": null
+    },
+    {
+      "id": "a6bc0a72e92f",
+      "name": "目黒区美術館",
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "메구로구 미술관"
+        },
+        "en": {
+          "name": "Meguro Museum of Art"
+        }
+      },
+      "venue_type": "other",
+      "region": "恵比寿、代官山、中目黒",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.63494978028795,
+      "lng": 139.70769998681402,
+      "website": null
+    },
+    {
+      "id": "5647eee879e5",
+      "name": "茨木市立ギャラリー",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "大阪府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.81617993458671,
+      "lng": 135.57533735882345,
+      "website": null
+    },
+    {
+      "id": "b9dd092bd850",
+      "name": "ギャラリー58",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "銀座、丸の内",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.6721165368179,
+      "lng": 139.76476437301636,
+      "website": null
+    },
+    {
+      "id": "10849331c937",
+      "name": "OGU MAG",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "東京：その他",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.74187638979451,
+      "lng": 139.76654576374148,
       "website": null
     }
   ],
@@ -63071,6 +63756,282 @@
     {
       "id": "90fb15ca418d",
       "name": "湯浅克俊",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "707e0cca083b",
+      "name": "臼井勝彦",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d429a813dc75",
+      "name": "大寺博",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "917a9df9bf15",
+      "name": "岡部彩子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d227290a71d8",
+      "name": "小野寺紳",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c7e4d3d3db69",
+      "name": "鹿島寛",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a2b1198cdc11",
+      "name": "樺山カナヤ真理",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4888b4a42668",
+      "name": "三枝聡",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8a8aa15e3641",
+      "name": "酒井和佳子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "99d8364a9f54",
+      "name": "篠田徂徠",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6a4ee6d69dea",
+      "name": "田中太賀志",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "36f5a951046c",
+      "name": "田村悠",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "13e280c05066",
+      "name": "富丘誠",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fa46052e3443",
+      "name": "中西一夫",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8ed38aa4e237",
+      "name": "仲森仁",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7f72817c76c5",
+      "name": "西山ひろみ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9846c252b6c6",
+      "name": "藤原祥",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fa66a8877e48",
+      "name": "万城目純",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "bb95e8c11f0a",
+      "name": "三瀬有紀",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4ebde03082d2",
+      "name": "吉田光治",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e32b3145f901",
+      "name": "鷲田恭",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "760a43d15b1f",
+      "name": "片山達貴",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2ef875cae345",
+      "name": "山田荘一朗",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2022df8012bf",
+      "name": "あおきひろえ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e6931ac5a740",
+      "name": "石川えりこ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3c49a4296e93",
+      "name": "市居みか",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8928c49274cf",
+      "name": "えがしらみちこ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "12885db9e772",
+      "name": "こしだミカ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "862fc9be6ab5",
+      "name": "さこももみ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ea30e6d08d79",
+      "name": "ささめやゆき",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0d64721746e7",
+      "name": "田島征三",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c6b38ba4b4f3",
+      "name": "tupera tupera",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "14a20a6b87a2",
+      "name": "どいかや",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d3c6d7fa23c5",
+      "name": "長谷川義史",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a90758d3e624",
+      "name": "浜田桂子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "808d81f8f669",
+      "name": "早川純子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b301a3873c96",
+      "name": "ひろかわさえこ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5e43ae34a78e",
+      "name": "ふしはらのじこ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "39fed4bd2663",
+      "name": "降矢なな",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c7fcf0df7c17",
+      "name": "堀川理万子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a6fddb632313",
+      "name": "町田尚子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b4d081f84d49",
+      "name": "松田奈那子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a6e24259abb4",
+      "name": "まつむらまいこ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e6c6dad3bc2e",
+      "name": "山口マオ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "698cf04caf77",
+      "name": "marini*monteany",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "49780f6971ca",
+      "name": "山福朱実",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ca0b28541b9e",
+      "name": "吉田尚令",
       "lang": null,
       "tr": {}
     }
