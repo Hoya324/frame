@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T17:24:26.349655+00:00",
+  "generated_at": "2026-07-03T19:40:52.917054+00:00",
   "exhibitions": [
     {
       "id": "da49addcd28e",
@@ -22642,7 +22642,7 @@
       "price_max": null,
       "start_date": "2026-06-18",
       "end_date": "2026-07-02",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "b1326790d703",
@@ -34791,7 +34791,7 @@
       "price_max": null,
       "start_date": "2026-06-19",
       "end_date": "2026-07-02",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "fa66fa67ffb6",
@@ -39050,7 +39050,7 @@
       "price_max": null,
       "start_date": "2026-07-03",
       "end_date": "2026-07-19",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "7a6765269871",
@@ -41265,7 +41265,7 @@
       "price_max": null,
       "start_date": "2026-07-03",
       "end_date": "2026-07-16",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "fa66fa67ffb6",
@@ -43379,7 +43379,7 @@
       "price_max": null,
       "start_date": "2026-07-03",
       "end_date": "2026-07-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "37f737766ac5",
@@ -43460,7 +43460,7 @@
         "lng": 139.6628774
       },
       "artists": [],
-      "source_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/html/EXHIBITIONS/j_Kawai.html",
+      "source_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/html/TOSEI-NEW-HP/html/EXHIBITIONS/j_2607_Kawai.html",
       "featured": false,
       "popularity_score": null
     },
@@ -43864,7 +43864,7 @@
       "price_max": null,
       "start_date": "2026-07-03",
       "end_date": "2026-07-25",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "e70f23fda50d",
@@ -46632,7 +46632,7 @@
       "price_max": null,
       "start_date": "2026-07-03",
       "end_date": "2026-07-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "9efa2f2108b1",
@@ -47280,7 +47280,7 @@
         }
       },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/C9FrlArEC463zAjud42K6/03324d0c0b5028b33b4ad7392b453076/40902ce2-7a7f-4494-9433-1b0a1aaf8ce9.png",
-      "description": "会場では、昨年ベルリンで開催した個展『（UN）TITLING』の再構成とともに、独立後10年間手掛けてきた数々のプロダクト、グラフィック、ポスターなどを展示・販売。ブランドの本質を育み続けるための新たなコレクティブ「POST BRANDING」の思想を基にした、独自のデザインアプローチを提示する。グラフィック／プロダクト／写真／空間／WEBなど、類を見ない幅広さで各領域を横断し、強固な芯を持ったデザイン・ブランディングを手掛けてきた黒野氏。その思考と美学の結晶を公開。",
+      "description": "会場では、昨年ベルリンで開催した個展『（UN）TITLING』の再構成とともに、独立後10年間手掛けてきた数々のプロダクト、グラフィック、ポスターなどを展示・販売。ブランドの本質を育み続けるための新たなコレクティブ「POST BRANDING」の思想を基にした、独自のデザインアプローチを提示する。グラフィック／プロダクト／写真／空間／WEBなど、類を見ない幅広さで各領域を横断し、強固な芯を持ったデザイン・ブランディングを手掛けてきた黒野氏。その思考と美学の結晶を公開。また、7.3 (fri) 18:00-20:00にレセプションパーティーを開催（自由参加）。\n\n＜Special Program＞\n→ Sound Installation by Shinji Wakasa\n音楽家 / アーティスト・若狭真司によるサウンドインスタレーション。観察と記述、素材と身体、機能と感情 - 複数の軸が交差する場所に立ち上がる、思考の風景。\n\n→ Book Selection by North East\n黒野氏が日頃から大きな影響を受けているブックストア「North East」による、本展テーマにあわせた書籍セレクション。POST BRANDINGの思想と響き合う書籍を販売。\n\n→ Food Installation by Eiji Kunii\n数々のレストランやイベントで活躍するシェフ・国井英司による、一夜限りのフードインスタレーション。黒野氏が最も信頼を寄せる料理人の一人として、POST BRANDINGの世界観を「食」という表現で拡張する。*レセプションパーティー限定\n\n→ Limited Beer by NORM\n極限まで研ぎ澄まされた、純粋なラガービール。通常は限られた場所・数量でのみ販売されている「NORM No.3 KAMIKATZ CRAFT LAGER」を、本展のために特別にご提供します。*レセプションパーティー限定\n\n→ Recovery Experience by Alc.WHOL\n黒野氏自身にとって、デザインを手掛けたこと以上に、今では生活に欠かせない存在となった二日酔いケアサプリメント「Alc.WHOL」をご用意しました。展示の余韻とともに、新しい翌朝をお迎えください。*レセプションパーティー・数量限定",
       "medium": "photo",
       "exhibition_type": "solo",
       "genre_tags": [],
@@ -47548,7 +47548,7 @@
       "price_max": null,
       "start_date": "2026-07-03",
       "end_date": "2026-07-21",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "98dfee56f137",
@@ -47905,7 +47905,7 @@
       "price_max": null,
       "start_date": "2026-07-03",
       "end_date": "2026-07-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "68e82b6b6f51",
@@ -48073,7 +48073,7 @@
       "price_max": null,
       "start_date": "2026-07-03",
       "end_date": "2026-08-02",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8f6186553b18",
@@ -48169,7 +48169,7 @@
       "lang": null,
       "tr": {},
       "poster_image_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/jpg/EXHIBITIONS/PAST/2026/2606/2606.jpg",
-      "description": "かわいまひと 河合真人写真展\n\nずっとあなたを探している\n\n2026年6月26日(金) - 7月12日(日)\n\n11:00-19:00\n\n＊毎週木曜日は22:00までOPEN\n\n月曜のみ休廊\n\nかのうみつる 加納満写真展\n\n独りにもどる場所\n\n2026年7月15日(水) - 8月1日(土)\n\n11:00-19:00\n\n＊毎週木曜日は22:00までOPEN\n\n日曜・月曜・祝日休廊\n\n2026\n\n2025\n\n2024\n\n2023\n\n2022\n\n2021\n\n2020\n\n2019\n\n2017\n\n2016\n\n2015\n\n2014\n\n2013\n\n2012\n\n2011\n\n2010\n\n2009\n\n2008\n\n2007\n\n2006\n\n2005",
+      "description": null,
       "medium": "photo",
       "exhibition_type": "curated",
       "genre_tags": [],
@@ -48198,7 +48198,7 @@
         "lng": 139.6628774
       },
       "artists": [],
-      "source_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/html/EXHIBITIONS/j_exhibitions.html#show2",
+      "source_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/html/TOSEI-NEW-HP/html/EXHIBITIONS/j_2609_MitsuruKano.html",
       "featured": false,
       "popularity_score": null
     },
@@ -48725,6 +48725,281 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/A-Connected-World-Palestinian-Children-Photography-Exhibition-Picture-Book-Illustrators-Art-Exhibition/504-CB-5-A2/2026-07-02",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "3f9b7eb38bef",
+      "source": "canon_gallery",
+      "title": "EOS R6 V 숏 필름 전시 <너와 나의 포토테라피>",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://image.kr.canon/pds/support/1783048374036_lgqw8rLxMD.jpg",
+      "description": "One Camera, Many Stories\n\n: EOS R6 V와 추경엽 감독이 기록한 시선\n\n영화 〈너와 나의 포토테라피〉를 통해 일상의 찰나를 따뜻한 영상 언어로 풀어낸 추경엽 감독의 시선을 빌려,\n\n캐논이 새롭게 선보이는 영상 특화 풀프레임 미러리스 카메라 EOS R6 V를 소개합니다.\n\n\"One Camera, Many Stories\"라는 캐논의 메시지처럼,\n\nEOS R6 V는 단 하나의 카메라로도 무한한 이야기를 써 내려갈 수 있게 돕는 가장 강력한 도구입니다.\n\n이 작은 바디 안에 담긴 프로급의 퍼포먼스는 창작자가 오롯이 피사체의 숨결과 화면의 미학에만 집중할 수 있는 자유를 선물합니다.\n\n이번 전시는 추경엽 감독이 EOS R6 V와 함께 포착한 순간들을 나누기 위해 마련되었습니다.\n\n전시장에 들어서면 가장 먼저 신세휘의 OST 〈벚꽃이 피었다〉 뮤직비디오가 흐르는 공간을 만나실 수 있으며,\n\n이어지는 동선을 따라 영화의 아름다운 장면들을 담아낸 영상 스틸 컷과 촬영 현장의 생생한 호흡을 느낄 수 있는 비하인드 사진들까지 차례로 감상하실 수 있습니다.\n\n[이벤트 안내]\n\n＊ SWEET EVENT: 티켓 부스에서 달콤한 간식을 증정합니다. (매일 준비된 수량이 한정되어 있어, 조기 소진될 수 있습니다.)\n\n＊ SNS EVENT: EOS R6 V 제품 소개 존에서 특별한 기록을 남겨주세요. SNS 인증 시 소정의 사은품을 드립니다.\n\n[상영관 안내]\n\n본편 영화는 매시 정각과 30분에 상영됩니다.\n\n11시부터 30분 간격으로 진행되며, 마지막 상영은 19시에 시작되오니 관람에 참고해 주시기 바랍니다.\n\n여러분의 이야기가 이 카메라를 통해 어떻게 영화 같은 장면으로 거듭날 수 있을지 전시장을 거닐며 천천히 느껴보시길 바랍니다.",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-06",
+      "end_date": "2026-08-02",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "8bc60f268986",
+        "name": "캐논 갤러리",
+        "lang": "ko",
+        "tr": {
+          "en": {
+            "name": "Canon Gallery"
+          },
+          "ja": {
+            "name": "キャノンギャラリー"
+          }
+        },
+        "region": "서울",
+        "district": null,
+        "lat": 37.5081818217753,
+        "lng": 127.035729361993
+      },
+      "artists": [],
+      "source_url": "https://kr.canon/canongallery/detail?gllyDispSeq=2100",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "250ca4e7a95a",
+      "source": "tokyo_art_beat",
+      "title": "アブラハム・デイビッド・クリスチャン 「道 Forty Years of Work」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/CBH8HvULnapJW5EJrgvRU/22dafbb7ae37f75547dbfbc7ca2bbd1b/_DSC2627.JPG",
+      "description": "YOKOTA TOKYO では「Abraham David Christian - 道 Forty Years of Work」展を開催いたします。クリスチャンは、道をもうひとつの世界への通過(Transit)ととらえ、その場所に身を置くことから作品を生み出してきました。彼と日本との縁が結ばれたのは 1984 年。日本で開催された国際展への参加をきっかけに、初めて日本の地を踏みます。その翌年、ドイツでは Forty Years of Work と題する展覧会が開かれました。当時 33 歳であった彼が、自らの作品に込めた「40 年」という時間。それは、特別な意味とどこか遠くへ向かう道行きのようでもあります。そして、この頃、たどり着いた場所――葉山での制作が始まります。ゆかりの作品とともに、この「40 年」をご覧ください。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-06",
+      "end_date": "2026-07-31",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "0a450e7fa335",
+        "name": "YOKOTA TOKYO",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "요코타 도쿄"
+          },
+          "ja": {
+            "name": "YOKOTA TOKYO"
+          }
+        },
+        "region": "お台場、湾岸",
+        "district": null,
+        "lat": 35.65309878301556,
+        "lng": 139.7606783389459
+      },
+      "artists": [
+        {
+          "id": "47246bc826c8",
+          "name": "アブラハム・デイビッド・クリスチャン",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Abraham-David-Christian-The-Way-Forty-Years-of-Work/91-A3187-E/2026-07-06",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "790ddbe87271",
+      "source": "tokyo_art_beat",
+      "title": "薈田純一 「書棚 ─ 佇まいの彼方」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/6NKIUTE96eNg2S0UoVyrgt/6c6b3ffc15d8eee99c4eddb155dd67c6/e8e599c7-f7a4-41d8-989f-557a06e45543.jpg",
+      "description": "書棚は、単なる本の収納ではなく、記憶や知の痕跡を静かにたたえた空間です。本展では、写真家・薈田純一が記録してきた作家、編集者、研究者、古書店主たちの書棚を紹介します。書棚そのものを主題とした写真は、個人の思考や時間が立ちのぼるような「佇まい」に焦点を当て、観る者を思索的な読書空間へと誘います。メディアはすべて写真作品で、大半はカラーで構成されています。静謐な構成で、多視点的な構造と空間性を重視しています。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-06",
+      "end_date": "2026-08-11",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "a6bc0a72e92f",
+        "name": "目黒区美術館",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "메구로구 미술관"
+          },
+          "en": {
+            "name": "Meguro Museum of Art"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.63494978028795,
+        "lng": 139.70769998681402
+      },
+      "artists": [
+        {
+          "id": "3ae5520a9010",
+          "name": "薈田純一",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Junichi-Wajda-Book-Shelves-Retrospective-Beyond-Presence/81-DBF-2-E0/2026-08-06",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "0b2fa9f4eb2f",
+      "source": "tokyo_art_beat",
+      "title": "新山発現 「湾岸センター」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4nGFBSlNmAGUBJ3dGNPaay/87feab8f81f1925203e869c5857d86eb/8b5b1400-6d69-4d4f-94fc-ccb774bc9737.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-14",
+      "end_date": "2026-07-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "651dc68ae219",
+        "name": "サードディストリクトギャラリー",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "사드 디스트릭트 갤러리"
+          },
+          "en": {
+            "name": "Third District Gallery"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.690704046311424,
+        "lng": 139.7066861790392
+      },
+      "artists": [
+        {
+          "id": "59833a5c8a3c",
+          "name": "新山発現",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hatsugen-Niiyama-Exhibition/27-A212-FB/2026-07-14",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "250d5c8ecc45",
+      "source": "tokyo_art_beat",
+      "title": "古佳⽴ 「理想と荒野のあいだ」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/6OfqoDoa7LxCxTPRVuBq41/123a03ac150b18846fbd304eca8197bd/A_town_in_wating_01.jpg",
+      "description": "今回の展示は台北で開催されている写真フェア「Photo ONE」と連動した企画となり、photographers’ galleryとPlace Mとの共同開催として、台湾出身の若手写真家を三名を紹介いたします。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-03",
+      "end_date": "2026-08-16",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5163e693d1ea",
+        "name": "Totem Pole Photo Gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "토템 폴 포토 갤러리"
+          },
+          "ja": {
+            "name": "Totem Pole Photo Gallery"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.6901810430105,
+        "lng": 139.71638630984123
+      },
+      "artists": [
+        {
+          "id": "1ae0dd2b26e2",
+          "name": "古佳⽴",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Koo-Jia-Lih-A-Town-in-Waiting/2-D82-C04-B/2026-08-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "bdeecc37b545",
+      "source": "tokyo_art_beat",
+      "title": "小林健太 「PARALLAX//TOKYO」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3C6hACbsWi9G7M9rczJGmB/0449cbe2c659d29471a4134ef1514270/main_compressed.jpg",
+      "description": "WAITINGROOM（東京）では、2026年7月18日（土）から8月9日（日）まで、特別展示：小林健太『PARALLAX//TOKYO』を開催いたします。本展は、アートコレクターであり横浜美術大学教授の宮津大輔氏とビクトリア国立美術館（メルボルン・オーストラリア）ヤング・アンバサダーのジャクソン・フォックス・ピカード氏による共同キュレーションによって構成されます。小林健太は、写真や映像、彫刻、インスタレーションなど多様なメディウムを横断しながら、都市イメージやデジタル環境における記憶の流動性を探求してきました。代表作《#smudge》シリーズでは、Photoshopの指先ツールによって写真のピクセルを引き延ばし、「編集行為そのもの」を視覚表現として提示しました。また、昨年WAITINGROOMで開催した個展『#copycat』では、都市風景を写した自身の過去作をAIに学習させ、特定の作品タイトルを想起させるプロンプトから生成されたイメージをレンチキュラー、映像、プリントとして発表するなど、「真を写すとは何か？」という問いを軸に新たな試みを続けています。本展では、小林の作品を所蔵する2人のコレクターがキュレーションを担い、新旧の作品を交差させながら、小林が多様なメディウムを通して展開してきた実践を再考します。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-18",
+      "end_date": "2026-08-09",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "851ebc31063a",
+        "name": "WAITINGROOM",
+        "lang": null,
+        "tr": {},
+        "region": "市ヶ谷、神楽坂",
+        "district": null,
+        "lat": 35.70991727940781,
+        "lng": 139.73627474933488
+      },
+      "artists": [
+        {
+          "id": "425e58ca1e9d",
+          "name": "小林健太",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "고바야시 켄타"
+            },
+            "en": {
+              "name": "Kenta Kobayashi"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kenta-Cobayashi-Parallax/Tokyo/1-DF-6-F166/2026-07-18",
       "featured": false,
       "popularity_score": null
     }
@@ -53656,6 +53931,20 @@
       "country": "JP",
       "lat": 35.74187638979451,
       "lng": 139.76654576374148,
+      "website": null
+    },
+    {
+      "id": "851ebc31063a",
+      "name": "WAITINGROOM",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "市ヶ谷、神楽坂",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.70991727940781,
+      "lng": 139.73627474933488,
       "website": null
     }
   ],
@@ -64032,6 +64321,30 @@
     {
       "id": "ca0b28541b9e",
       "name": "吉田尚令",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "47246bc826c8",
+      "name": "アブラハム・デイビッド・クリスチャン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3ae5520a9010",
+      "name": "薈田純一",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "59833a5c8a3c",
+      "name": "新山発現",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1ae0dd2b26e2",
+      "name": "古佳⽴",
       "lang": null,
       "tr": {}
     }
