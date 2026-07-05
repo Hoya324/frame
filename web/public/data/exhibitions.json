@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T17:05:41.596506+00:00",
+  "generated_at": "2026-07-05T19:41:56.433305+00:00",
   "exhibitions": [
     {
       "id": "da49addcd28e",
@@ -20284,7 +20284,7 @@
       "price_max": null,
       "start_date": "2026-06-12",
       "end_date": "2026-07-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ebeb55911efb",
@@ -23274,7 +23274,7 @@
       "price_max": null,
       "start_date": "2026-05-30",
       "end_date": "2026-07-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "131c8bbe24ca",
@@ -36818,7 +36818,7 @@
       "price_max": null,
       "start_date": "2026-06-12",
       "end_date": "2026-07-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "75b6ca2ad503",
@@ -40070,7 +40070,7 @@
       "price_max": null,
       "start_date": "2026-07-04",
       "end_date": "2026-07-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "11877aac439b",
@@ -48478,8 +48478,15 @@
       "venue": {
         "id": "5647eee879e5",
         "name": "茨木市立ギャラリー",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "이바라키 시립 갤러리"
+          },
+          "en": {
+            "name": "Ibaraki City Gallery"
+          }
+        },
         "region": "大阪府",
         "district": null,
         "lat": 34.81617993458671,
@@ -48518,8 +48525,15 @@
       "venue": {
         "id": "b9dd092bd850",
         "name": "ギャラリー58",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 58"
+          },
+          "en": {
+            "name": "Gallery 58"
+          }
+        },
         "region": "銀座、丸の内",
         "district": null,
         "lat": 35.6721165368179,
@@ -48558,8 +48572,15 @@
       "venue": {
         "id": "10849331c937",
         "name": "OGU MAG",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "OGU MAG"
+          },
+          "ja": {
+            "name": "OGU MAG"
+          }
+        },
         "region": "東京：その他",
         "district": null,
         "lat": 35.74187638979451,
@@ -48910,13 +48931,13 @@
       "popularity_score": null
     },
     {
-      "id": "250d5c8ecc45",
-      "source": "tokyo_art_beat",
-      "title": "古佳⽴ 「理想と荒野のあいだ」",
+      "id": "2fa9d35cb9bf",
+      "source": "totem_pole",
+      "title": "A Town in Waiting",
       "lang": null,
       "tr": {},
-      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/6OfqoDoa7LxCxTPRVuBq41/123a03ac150b18846fbd304eca8197bd/A_town_in_wating_01.jpg",
-      "description": "今回の展示は台北で開催されている写真フェア「Photo ONE」と連動した企画となり、photographers’ galleryとPlace Mとの共同開催として、台湾出身の若手写真家を三名を紹介いたします。",
+      "poster_image_url": "https://tppg.jp/wp/wp-content/uploads/2026/06/A-town-in-wating-01.jpg",
+      "description": "PhotoONE連動企画台湾若手写真家展\n\n古佳⽴ / Koo Jia Lih\n\n理想と荒野のあいだ / A Town in Waiting\n\n2026.8.3 (mon) – 8.16 (sun)\n\nOpen 12:00 – 19:00\n\nカメラを⽚⼿にこの場所を彷徨っていた⽇々、時間はゆっくりと流れていた。穏やかで美しい幻想に包まれることもあれば、不安や恐れに呑み込まれることもある。時折、⼩さな驚きにも出会った。私はこの新しい街に、未来への幻想を重ねていた。そこには未知や希望、無⼒感、そして恐れが混ざり合っている。淡海ニュータウンは、都市中⼼部への⼈⼜集中や住宅不⾜、住宅価格の⾼騰を緩和するために、淡⽔で開発が始まった新しい街である。街へ⾜を踏み入れると、⾼くそびえる建築群が⽴ち並び、フェンスで囲われた広⼤な荒れ地が広がっている。農地もあれば、穏やかな海辺もある。ここでは時間の感覚が曖昧になっていく。急速に積み上がっていく建設と、⼈も⾞も少ないゆるやかな時間。その両⽅が共存することで、淡海にはまるで仮想都市のような、どこか現実感の薄い空気が漂っている。1990年代末に⽣まれ、台北の密集した都市の中で育った私は、ずっと、もっと広く静かな場所で暮らすことを夢⾒てきた。だからこそ、この場所に強く惹かれているのだと思う。淡海は私にとって、やさしく、無限の可能性を秘めた⼟地であり、理想の場所への憧れそのものでもある。しかし、いま⽬の前で進んでいるこの開発が、本当に理想郷へ向かっているのか、それとも儚い夢の崩壊なのか、私にはまだ分からない。しばらく時間を置いて再び淡海を訪れると、長く閉鎖されていた道路では⼯事が始まり、海沿いには新たな⼯事⽤フェンスが⽴ち並んでいた。⼣⽇を眺めていた秘密の場所にも、ショベルカーや仮設の警備⼩屋が現れている。私たちはただ、過去に別れを告げ続けながら、この街がどこへ向かおうとしているのかを⾒つめている。\n\n古佳⽴1998年⽣まれ、台北出身。淡江⼤学マス・コミュニケーション学科卒業。現在はフリーランスのフォトグラファーとして活動。環境や⾃身の感情、⼼理状態を主題に制作を⾏う。個⼈的な記憶と響き合い、⾃身の内⾯世界に重なるイメージを、カメラを通して探し続けている。ランドスケープ、ストリートスナップ、⽇常の記録、プライベートフォトを主な表現⼿法とし、静けさを帯びた空気感のある作品を特徴とする。2021 「Emerging from the Wilderness」ヤング・ポートフォリオ、清⾥フォトアートミュージアム、山梨、⽇本2023 台湾報道写真賞 シリーズ部⾨ 第三位「淡海ニュータウン―理想の⼿前で」2020 台湾報道写真賞 シリーズ部⾨ 優選「独棟風景」Website: https://jialihs940222.wixsite.com/portfolioInstagram: https://www.instagram.com/jialihkoo/\n\n【会期中イベント】今回の展示は台北で開催されている写真フェア「Photo ONE」と連動した企画となり、photographers’ gallery と Place M との共同開催として、台湾出身の若手写真家を三名を紹介いたします。8月8日（土）には以下のタイムスケジュールにて、三ヶ所のギャラリーを巡り、それぞれの展示作家のフロアトークを行います。この機会、お誘い合わせのうえぜひご参加下さい。\n\n※スマートフォンでは左右にスクロールしてご覧ください。",
       "medium": "photo",
       "exhibition_type": "solo",
       "genre_tags": [],
@@ -48946,13 +48967,19 @@
       },
       "artists": [
         {
+          "id": "fb8433158db4",
+          "name": "古佳⽴ / Jialih Koo",
+          "lang": null,
+          "tr": {}
+        },
+        {
           "id": "1ae0dd2b26e2",
           "name": "古佳⽴",
           "lang": null,
           "tr": {}
         }
       ],
-      "source_url": "https://www.tokyoartbeat.com/events/-/Koo-Jia-Lih-A-Town-in-Waiting/2-D82-C04-B/2026-08-03",
+      "source_url": "https://tppg.jp/a-town-in-waiting/",
       "featured": false,
       "popularity_score": null
     },
@@ -48977,8 +49004,15 @@
       "venue": {
         "id": "851ebc31063a",
         "name": "WAITINGROOM",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "WAITINGROOM"
+          },
+          "ja": {
+            "name": "WAITINGROOM"
+          }
+        },
         "region": "市ヶ谷、神楽坂",
         "district": null,
         "lat": 35.70991727940781,
@@ -49000,6 +49034,148 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Kenta-Cobayashi-Parallax/Tokyo/1-DF-6-F166/2026-07-18",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "fd225114dcf3",
+      "source": "tokyo_art_beat",
+      "title": "「CERTAINLY TOKYO」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/1t1DLKlUcLBKHrA38i1MIO/c1dc2eaa26c3111d7c257d3be3a6098f/092A4219.jpg",
+      "description": "この度Serakai Studioは、Serakai Studio共同創設者 兼 キュレトリアル・ディレクターのトビアス・バーガーがキュレーションするグループ展「CERTAINLY TOKYO」を、東京・表参道のPath Omotesando にて開催いたします。本展は、2026年3月に香港のサロン「GOLD」にて初めて開催された「CERTAINLY」の第二章として東京で展開いたします。\n\nCERTAINLY TOKYOは、アーティストであり作曲家でもあるラ・モンテ・ヤングが1960年に発表した先駆的な指示作品《Composition 1960 #10》に着想を得ている。そのスコアはたった一行の指令からなる——「直線を引き、それに従え」。一見すると単純なこの指示は、実践してみれば驚くほど複雑な問いを孕みはじめる。線は揺らぎ、ときに逸れ、ときに思いがけない方向へ向かう。そこには、創造の営みや意思決定のプロセス、そして私たちの人生を形づくる偶然や予期せぬ出来事の姿が重なる。\n\nCERTAINLY TOKYOにおいて、このパラドックスは芸術的実践の出発点となる。制御と自由、計画と即興のあわいを交渉しながら。本展は、不確かさという状況に直接的に、あるいは間接的に応答するアーティストたちを集め、逸脱を制御の失敗ではなく、生成的な力として受け入れる実践を照射する。\n参加アーティストは、白雙全 / Pak Sheung Chuen（香港）、サウス・ホー・シウ・ナム / South Ho Siu Nam（香港）、ラウジー / Lousy（香港）、チャン・ヨンヘ重工業 / Young-Hae Chang Heavy Industries（韓国/米国）、サンティアゴ・シエラ / Santiago Sierra（スペイン）、大竹伸朗 / Shinro Ohtake（日本）、ピーター・ロビンソン / Peter Robinson（ニュージーランド）、ウォン・イウ・ウォン / Weng Io Wong（マカオ）。メディアや手法は異なるが、各アーティストはいずれも完全な予測の不可能性を問い、システムや構造、期待が崩れはじめるときに立ち現れる創造の空間を照射する。\n\nラ・モンテ・ヤングとその同時代の作家たちが提示した指示に基づく作品群は、形式や結果と同様に、プロセス、時間、経験そのものが芸術における本質的な価値を持つことを示した。CERTAINLY TOKYOはその探求を引き継ぎ、不確かさに宿る豊かさを問い続ける。ここでは、制度的な期待という「直線」が、芸術・文化・コミュニティ・創造産業の間に交わされる生きた対話として描き直される。\nCERTAINLY TOKYOの思想的な枠組みは、Serakai Studioの創設理念とも深く響き合う。意義深い文化的前進は、対話、実験、協働、そして予期せぬものへの開かれた姿勢のなかでこそ育まれる。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-05",
+      "end_date": "2026-09-20",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "fc7dabdc1ffd",
+        "name": "Path表参道",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "Path 오모테산도"
+          },
+          "en": {
+            "name": "Path Omotesando"
+          }
+        },
+        "region": "表参道、青山",
+        "district": null,
+        "lat": 35.66603410140105,
+        "lng": 139.70878967954516
+      },
+      "artists": [
+        {
+          "id": "678201bd5ae6",
+          "name": "白雙全",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "97c0adb66155",
+          "name": "サウス・ホー・シウ・ナム",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "288d92c0cdc6",
+          "name": "ラウジー",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "31cc1f853fde",
+          "name": "チャン・ヨンヘ重工業",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "de46486a7843",
+          "name": "サンティアゴ・シエラ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "98b505e49865",
+          "name": "大竹伸朗",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "68d217d37572",
+          "name": "ピーター・ロビンソン",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5aa03937fd4c",
+          "name": "マリア・タニグチ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0f9069be6309",
+          "name": "ウォン・イウ・ウォン",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Certainly-Tokyo/path-omotesando/2026-07-05",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "a5d7bb647521",
+      "source": "tokyo_art_beat",
+      "title": "Nerhol 「Flora」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4UN54KgggG7HO607tJmVeb/431340343a380bfcfbbda5b3deeb4648/unnamed.jpg",
+      "description": "写真（2D）と彫刻（3D）の境界を往来し、時間の積層を物質化するアーティストデュオ・Nerholが、ISETAN THE SPACEで2度目となる展覧会「Flora」を開催します。本展は植物（Flora）を題材に、「平面作品」「積層作品」「現物」の三つの視点で構成された“トリプレット”を提案。百貨店という場において、Nerholが拾い上げた「自然物」の価値と時間の層を問い直し、日常とアートをつなぐ贅沢な購入体験をお届けします。\n\n会場: 伊勢丹新宿店 本館2階 イセタン ザ・スペース",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-09",
+      "end_date": "2026-08-02",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "0d192b00a22e",
+        "name": "伊勢丹新宿店本館",
+        "lang": null,
+        "tr": {},
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.69180866439245,
+        "lng": 139.7046772073249
+      },
+      "artists": [
+        {
+          "id": "ff9377a7edf2",
+          "name": "Nerhol",
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "너홀"
+            },
+            "ja": {
+              "name": "ネルホル"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Nerhol-Flora/B471-F11-A/2026-07-09",
       "featured": false,
       "popularity_score": null
     }
@@ -53894,8 +54070,15 @@
     {
       "id": "5647eee879e5",
       "name": "茨木市立ギャラリー",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이바라키 시립 갤러리"
+        },
+        "en": {
+          "name": "Ibaraki City Gallery"
+        }
+      },
       "venue_type": "other",
       "region": "大阪府",
       "district": null,
@@ -53908,8 +54091,15 @@
     {
       "id": "b9dd092bd850",
       "name": "ギャラリー58",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "갤러리 58"
+        },
+        "en": {
+          "name": "Gallery 58"
+        }
+      },
       "venue_type": "other",
       "region": "銀座、丸の内",
       "district": null,
@@ -53922,8 +54112,15 @@
     {
       "id": "10849331c937",
       "name": "OGU MAG",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "OGU MAG"
+        },
+        "ja": {
+          "name": "OGU MAG"
+        }
+      },
       "venue_type": "other",
       "region": "東京：その他",
       "district": null,
@@ -53936,8 +54133,15 @@
     {
       "id": "851ebc31063a",
       "name": "WAITINGROOM",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "WAITINGROOM"
+        },
+        "ja": {
+          "name": "WAITINGROOM"
+        }
+      },
       "venue_type": "other",
       "region": "市ヶ谷、神楽坂",
       "district": null,
@@ -53945,6 +54149,41 @@
       "country": "JP",
       "lat": 35.70991727940781,
       "lng": 139.73627474933488,
+      "website": null
+    },
+    {
+      "id": "fc7dabdc1ffd",
+      "name": "Path表参道",
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "Path 오모테산도"
+        },
+        "en": {
+          "name": "Path Omotesando"
+        }
+      },
+      "venue_type": "other",
+      "region": "表参道、青山",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.66603410140105,
+      "lng": 139.70878967954516,
+      "website": null
+    },
+    {
+      "id": "0d192b00a22e",
+      "name": "伊勢丹新宿店本館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "新宿、初台、四ツ谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.69180866439245,
+      "lng": 139.7046772073249,
       "website": null
     }
   ],
@@ -64345,6 +64584,66 @@
     {
       "id": "1ae0dd2b26e2",
       "name": "古佳⽴",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "678201bd5ae6",
+      "name": "白雙全",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "97c0adb66155",
+      "name": "サウス・ホー・シウ・ナム",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "288d92c0cdc6",
+      "name": "ラウジー",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "31cc1f853fde",
+      "name": "チャン・ヨンヘ重工業",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "de46486a7843",
+      "name": "サンティアゴ・シエラ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "98b505e49865",
+      "name": "大竹伸朗",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "68d217d37572",
+      "name": "ピーター・ロビンソン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5aa03937fd4c",
+      "name": "マリア・タニグチ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0f9069be6309",
+      "name": "ウォン・イウ・ウォン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fb8433158db4",
+      "name": "古佳⽴ / Jialih Koo",
       "lang": null,
       "tr": {}
     }
