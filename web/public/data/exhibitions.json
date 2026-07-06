@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T16:36:44.870085+00:00",
+  "generated_at": "2026-07-06T20:19:09.245979+00:00",
   "exhibitions": [
     {
       "id": "da49addcd28e",
@@ -20345,7 +20345,7 @@
       "price_max": null,
       "start_date": "2026-06-24",
       "end_date": "2026-07-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "018b6124fde6",
@@ -20406,7 +20406,7 @@
       "price_max": null,
       "start_date": "2026-06-24",
       "end_date": "2026-07-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "018b6124fde6",
@@ -26347,7 +26347,7 @@
       "price_max": null,
       "start_date": "2026-04-25",
       "end_date": "2026-07-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "49a2ebfcbf1b",
@@ -26652,7 +26652,7 @@
       "price_max": null,
       "start_date": "2026-06-30",
       "end_date": "2026-07-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "5163e693d1ea",
@@ -31300,7 +31300,7 @@
       "price_max": null,
       "start_date": "2026-04-11",
       "end_date": "2026-07-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "1c44e36c0970",
@@ -32262,7 +32262,7 @@
       "price_max": null,
       "start_date": "2026-06-26",
       "end_date": "2026-07-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "afe71f7d0299",
@@ -35256,7 +35256,7 @@
       "price_max": null,
       "start_date": "2026-06-29",
       "end_date": "2026-07-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -35319,7 +35319,7 @@
       "price_max": null,
       "start_date": "2026-05-23",
       "end_date": "2026-07-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "f463daf15a4a",
@@ -35494,7 +35494,7 @@
       "price_max": null,
       "start_date": "2026-07-06",
       "end_date": "2026-07-12",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -35515,69 +35515,6 @@
       },
       "artists": [],
       "source_url": "https://www.placem.com/schedule/2026/main/20260706/exhibition.php",
-      "featured": false,
-      "popularity_score": null
-    },
-    {
-      "id": "26bd7e6c0685",
-      "source": "place_m",
-      "title": "とある、径行の中で",
-      "lang": "ja",
-      "tr": {
-        "ko": {
-          "title": "어떤, 경행 속에서",
-          "description": "2026.07.13 - 2026.07.19 키쿠치 히데아키 어떤, 경행 속에서. '경행'이라는 제목의 의미는 매일 걷고 카메라로 계속 촬영하는 일종의 수행과 같은 일을 하고 있습니다. 일상의 한 순간을 찍어 무심하게 잘라내고, 어디에나 있을 법한 풍경을 피사체로 삼아, 그 너머에 있는 무언가를 찾아 계속 방황하고 있습니다."
-        },
-        "en": {
-          "title": "In a Certain Journey",
-          "description": "2026.07.13 - 2026.07.19 Hideaki Kikuchi In a Certain Journey. The meaning of the title \"Keikō\" is that I am engaged in a kind of practice, walking every day and continuously taking photos with my camera. I capture moments of daily life, casually cropping them, making ordinary scenes my subjects, and I continue to wander, searching for something beyond that."
-        }
-      },
-      "poster_image_url": "https://www.placem.com/schedule/2026/main/20260713/kiku_01.jpg",
-      "description": "2026.07.13 - 2026.07.19 菊地秀彰 とある、径行の中で 径行とゆうタイトルの意味は日々歩き、カメラで撮り続ける一種の修行の様な事をしております。日常の一瞬を撮り無造作に切り取る、どこにでもあるような光景を被写体にする、その彼方にある何かを求めて彷徨い続けて、おります。",
-      "medium": "photo",
-      "exhibition_type": "solo",
-      "genre_tags": [],
-      "fee_type": "free",
-      "price_min": null,
-      "price_max": null,
-      "start_date": "2026-07-13",
-      "end_date": "2026-07-19",
-      "status": "upcoming",
-      "open_hours": null,
-      "venue": {
-        "id": "2da18874aafa",
-        "name": "Place M",
-        "lang": "en",
-        "tr": {
-          "ko": {
-            "name": "Place M"
-          },
-          "ja": {
-            "name": "Place M"
-          }
-        },
-        "region": "東京",
-        "district": null,
-        "lat": 35.6877688,
-        "lng": 139.7125787
-      },
-      "artists": [
-        {
-          "id": "14605f61356d",
-          "name": "菊地秀彰",
-          "lang": "ja",
-          "tr": {
-            "ko": {
-              "name": "키쿠치 히데아키"
-            },
-            "en": {
-              "name": "Hideaki Kikuchi"
-            }
-          }
-        }
-      ],
-      "source_url": "https://www.placem.com/schedule/2026/main/20260713/exhibition.php",
       "featured": false,
       "popularity_score": null
     },
@@ -35638,6 +35575,19 @@
             },
             "en": {
               "name": "Hitomi Yoshida"
+            }
+          }
+        },
+        {
+          "id": "14605f61356d",
+          "name": "菊地秀彰",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "키쿠치 히데아키"
+            },
+            "en": {
+              "name": "Hideaki Kikuchi"
             }
           }
         }
@@ -35797,7 +35747,7 @@
       "price_max": null,
       "start_date": "2026-06-20",
       "end_date": "2026-07-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "439250cf2289",
@@ -38033,7 +37983,7 @@
       "price_max": null,
       "start_date": "2026-06-30",
       "end_date": "2026-07-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "8882c8060b40",
@@ -38360,7 +38310,7 @@
       "price_max": null,
       "start_date": "2026-06-30",
       "end_date": "2026-07-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "54c1740b50d0",
@@ -38817,7 +38767,7 @@
       "price_max": null,
       "start_date": "2026-06-12",
       "end_date": "2026-07-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ab4c6132700b",
@@ -39427,7 +39377,7 @@
       "price_max": null,
       "start_date": "2026-07-06",
       "end_date": "2026-07-11",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "57bd0e5ca649",
@@ -40634,7 +40584,7 @@
       "price_max": null,
       "start_date": "2026-06-25",
       "end_date": "2026-07-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "dca0d3914130",
@@ -40784,7 +40734,7 @@
       "price_max": null,
       "start_date": "2026-07-02",
       "end_date": "2026-07-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "838c559a265c",
@@ -41155,7 +41105,7 @@
       "price_max": null,
       "start_date": "2026-06-19",
       "end_date": "2026-07-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "0923603ff7b6",
@@ -41377,7 +41327,7 @@
       "price_max": null,
       "start_date": "2026-06-30",
       "end_date": "2026-07-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "bad41612e0e3",
@@ -42621,7 +42571,7 @@
       "price_max": null,
       "start_date": "2026-06-26",
       "end_date": "2026-07-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "a54e05097c7d",
@@ -43086,7 +43036,7 @@
       "price_max": null,
       "start_date": "2026-07-01",
       "end_date": "2026-07-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "56f172501426",
@@ -43162,7 +43112,7 @@
       "price_max": null,
       "start_date": "2026-07-04",
       "end_date": "2026-07-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "4c8b9e298440",
@@ -46794,7 +46744,7 @@
       "price_max": null,
       "start_date": "2026-07-04",
       "end_date": "2026-07-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "14e8cec0c494",
@@ -47450,7 +47400,7 @@
       "price_max": null,
       "start_date": "2026-07-04",
       "end_date": "2026-07-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "1f5735c11fa2",
@@ -48520,7 +48470,7 @@
       "price_max": null,
       "start_date": "2026-07-06",
       "end_date": "2026-07-11",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "b9dd092bd850",
@@ -48765,7 +48715,7 @@
       "price_max": null,
       "start_date": "2026-07-06",
       "end_date": "2026-08-02",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8bc60f268986",
@@ -48805,7 +48755,7 @@
       "price_max": null,
       "start_date": "2026-07-06",
       "end_date": "2026-07-31",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "0a450e7fa335",
@@ -49153,8 +49103,15 @@
       "venue": {
         "id": "0d192b00a22e",
         "name": "伊勢丹新宿店本館",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "이세탄 신주쿠점 본관"
+          },
+          "en": {
+            "name": "Isetan Shinjuku Store Main Building"
+          }
+        },
         "region": "新宿、初台、四ツ谷",
         "district": null,
         "lat": 35.69180866439245,
@@ -49176,6 +49133,327 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Nerhol-Flora/B471-F11-A/2026-07-09",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "a7db861e6a2a",
+      "source": "tokyo_art_beat",
+      "title": "Aiki 「To Unleash Your Mind...」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3nec9rPgFSEB2lvunSCRzI/5fdc706a61b97b6e4fb5ddfd79cfb276/Blockhouse_-_Aiki_Hanazono__1_.png",
+      "description": "Block House 4Fで、Aikiの初めての個展を開催します。「Unleash Your Mind…」は、展示場という名の白い箱のようなスペースを使って、いかに自分の脳を解放し、自由になれるかを追求する展示です。「私の部屋は、私が自分でいられる場所。年を重ねるにつれ、部屋の外では本当の自分らしくいることが難しくなってきた気がします。それは、大人になることの副作用ってやつなのかもしれません。私の部屋は、人の不在を感じる広くもなく、閉塞感を感じるほど狭くもない、自分らしく考えて振る舞うことができる場所です。」今回の個展を通じて、誰もが自分の心とありのままの自分を解放できるような空間と機会を作り上げたいと考えています。そして、その「解放する」という行為を通じて、私たちを日々形作っているこのシステマチックな社会の中でも、一人ひとりがもう少し生きやすさ、そして心地よさを見つけられたらと思います。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-25",
+      "end_date": "2026-08-02",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "ce5ff8679249",
+        "name": "BLOCK HOUSE",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "BLOCK HOUSE"
+          },
+          "ja": {
+            "name": "BLOCK HOUSE"
+          }
+        },
+        "region": "表参道、青山",
+        "district": null,
+        "lat": 35.66618048512734,
+        "lng": 139.70441261268692
+      },
+      "artists": [
+        {
+          "id": "190bdcd701ad",
+          "name": "Aiki",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Aiki-To-Unleash-Your-Mind/99-D0045-B/2026-07-25",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "86d0042431b0",
+      "source": "tokyo_art_beat",
+      "title": "伊賀美和子 「the Seen and the Unseen｜秘密の遺物 第二章」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/1yvIBbYPMKTTuI82YiETjV/5d007779a6929b1a0bad6e6a5fb0022f/unnamed__1_.jpg",
+      "description": "「もし歴史とは、事実ではなく、人がもっともらしく語ることで成立するものだとしたら。」\n本展では、架空の考古学者エミール・ヴェルナールによる発掘記録を手がかりに、伊賀美和子が“失われた文明”の遺物を再構成する。陶器の破片、女性像、祭祀具、謎めいたレリーフ…それらは一見、古代の信仰や死生観を物語る考古学的資料のようでありながら、どこか人間くさく、少し可笑しい。\n\n伊賀の作品は、神話や歴史、博物館的な展示形式を借りながら、その権威やもっともらしさを軽やかにずらしていく。発掘されたとされる彫刻作品群には、生命、死、再生といった壮大なテーマが漂う一方で、人物たちの表情や佇まいには、どこか日常の気配やユーモアが滲む。会場では、ヴェルナールが発見したとされる遺物の彫刻作品に加え、それらをマイクロカメラで撮影した写真作品も発表する。肉眼では見過ごしてしまう表面の凹凸や傷、質感は、まるで重大な発見の証拠写真のようでありながら、同時に「本当にそうなのか？」という小さな疑いも呼び起こす。\n\n本展は、歴史の真偽を問うというよりも、人が失われたものに意味を与え、物語を作り上げてしまう営みそのものを、少し真面目に、少しふざけながら見つめる試みである。ヴェルナールが見たものは、人類共通の記憶の断片なのか。それとも、ただの勘違いだったのか。答えは、たぶん会場のどこかにある。あるいは、ない。また会期中の8月1日（土）には、本展の世界観から派生した一夜限りのイベント「マダムキューカンBAR」を開催。展示空間が架空のスナックへと姿を変え、遺物、記憶、噂話がゆるやかに交差する特別な夜となる。\n\n[関連イベント]\nマダムキューカンBAR\n日時: 2026年8月1日18:00〜20:00\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-18",
+      "end_date": "2026-08-02",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "0009d9a4dd1d",
+        "name": "DIGINNER GALLERY WORKSHOP",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "DIGINNER GALLERY WORKSHOP"
+          },
+          "ja": {
+            "name": "DIGINNER GALLERY WORKSHOP"
+          }
+        },
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.60834960306977,
+        "lng": 139.66946792665152
+      },
+      "artists": [
+        {
+          "id": "e6fc9a5a890f",
+          "name": "伊賀美和子",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Miwako-Iga-the-Seen-and-the-Unseen/9-ADCD-068/2026-07-18",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "17aaab48206c",
+      "source": "tokyo_art_beat",
+      "title": "「COMMON by CAMINANDO」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/6LQL6kSHKzUH7E3nh6GY0f/eae159e4988aa006352e9b380c429486/unnamed__1_.jpg",
+      "description": "日本発のシューズブランドCAMINANDO（カミナンド）は、インスタレーション&POP UPイベント｢COMMON by CAMINANDO（コモン バイ カミナンド）｣を、2026年7月25日（土）～26日（日）の2日間、代官山のギャラリースペースRodin（ロダン）にて開催します。\n\nCAMINANDOは日本でデザインを行い、シーズンごとに高品質な素材を厳選し、世界各地の優れたものづくりの現場と協業しながら、一足一足を丁寧に作り上げています。同ブランドが開催するPOP UPイベント「COMMON by CAMINANDO」は、シューズ本来の目的である“歩くこと”や“出かけること” を起点に、自らの意思で街へ踏み出し、その先にある人・もの・文化との出会いを楽しむ女性たちに向け、ブランドの価値観に共鳴するクリエイターやショップをCAMINANDOがキューレーションし、プロダクト、写真、空間を通してブランドの世界観を体験できる特別なイベントとして展開。\n\n今回は、CAMINANDOの新作シューズの販売に加え、カナダ出身のインダストリアルデザイナー、マハ・アラヴィが主宰する「MAHA ALAVI STUDIO」による真鍮やブロンズを用いたホームウェア、逗子の「EYEON general store」がセレクトしたヴィンテージ雑貨、「LAVER」が手掛ける、L.A.の自由な感性とメキシコ・タスコの伝統技術から生まれたシルバーアクセサリー、さらに福岡・薬院新川沿いに店を構える、視覚文化を基軸とした書店「本屋青旗」が本イベントのために特別に選書したアートブックも販売します。また、空間ディレクションは村山圭氏が担当。写真やプロダクトと呼応しながら、ブランドの世界観をより立体的に体感できるインスタレーション演出を行います。さらに、ブランドのコンセプトを旅を通じて表現したフォトグラファー・栗田真帆氏による写真作品も展示。今回の撮影地であるロンドンを舞台に、シューズ本来の目的である「歩く、動く、行動する」ことに着目し、その先に広がる風景や新たな視点を切り取った作品を紹介します。\n\nCAMINANDOが大切にする“歩くこと”の先に広がる風景やライフスタイルを、プロダクトや写真、空間を通して体感いただける2日間。ぜひお立ち寄りください。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-25",
+      "end_date": "2026-07-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "aef7cfc74f92",
+        "name": "Rodin",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Rodin"
+          },
+          "ja": {
+            "name": "Rodin"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.65261511500698,
+        "lng": 139.7051350597643
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Common-by-Caminando/rodin/2026-07-25",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "4760d1530ed8",
+      "source": "tokyo_art_beat",
+      "title": "アンドレア・パラシュティ + 菅亮平 「榨の儀礼」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/Z0KHyV9NBD1ZheSiZRDzK/f829c8b75381a74f55ecd5d1aadf4069/23c09a66-cd89-4ecb-8864-56b637bdb81d.png",
+      "description": "この度、2026年7⽉7⽇（⽕）より東京藝術⼤学上野キャンパス・⼤学会館展⽰室にて、国際芸術創造研究科の学⽣がキュレーションする展覧会「榨（しめぎ）の儀礼」を開催いたします。\n\n「榨（しめぎ）」とは、植物を圧搾して油や酒を取り出すための道具です。本展は、⼈間社会が植物に⽤途や意味を与え、利⽤してきたその営み──「榨」というふるまいそのもの──を再解釈することを試みます。展⽰作品である蚊取り線⾹となった菊、戦時下の代⽤燃料となった松。両者に共通するのは、⼈間社会の歴史的⽂脈のなかで不可視化されながら意味を与えられてきたという点です。本展は、⼈間と植物との、とりわけ条件づけられた状況下における関係について語ります。\n\n展⽰作品が⽰すのは、とある共通する構造です。菊も松も、そもそも殺⾍剤の原料や燃料として存在していたわけではありません。それぞれの時代に課せられた条件が、その植物に対し、意味を与えてきました。本展が⾒つめるのは、⼈間が⾃分⾃⾝を中⼼とした社会を築き、その社会構造のなかで植物に意味を与え、⽤途を割り当て、利⽤してきたという事実そのものです。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-07",
+      "end_date": "2026-07-09",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "273602e093af",
+        "name": "東京藝術大学 上野キャンパス",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "도쿄 예술대학 우에노 캠퍼스"
+          },
+          "en": {
+            "name": "Tokyo University of the Arts Ueno Campus"
+          }
+        },
+        "region": "上野、谷中",
+        "district": null,
+        "lat": 35.718839944541045,
+        "lng": 139.7717413930026
+      },
+      "artists": [
+        {
+          "id": "e10667017d26",
+          "name": "アンドレア・パラシュティ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "676dc979a9d4",
+          "name": "菅亮平",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Andrea-Palasti-Ryohei-Kan-The-Ritual-of-Rendering/B60-BDF-95/2026-07-07",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "7baba05d78ed",
+      "source": "tokyo_art_beat",
+      "title": "シ・ウェンビン 「白河夜船」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/6Gx6Lw2cCcXg8jrNDsUDvr/6beeb64cf08e6b7cd487fd0c5df996f8/7eca9255-c91d-4654-b6b9-bfdd7c8ffa61.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-25",
+      "end_date": "2026-08-30",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5163e693d1ea",
+        "name": "Totem Pole Photo Gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "토템 폴 포토 갤러리"
+          },
+          "ja": {
+            "name": "Totem Pole Photo Gallery"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.6901810430105,
+        "lng": 139.71638630984123
+      },
+      "artists": [
+        {
+          "id": "db3d7ecc03f0",
+          "name": "シ・ウェンビン",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Wenbin-Shi-Moonlight-Voyage/2-D82-C04-B/2026-08-25",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "7f624c54a274",
+      "source": "tokyo_art_beat",
+      "title": "水島貴大 「雙北青年 / Youth in East Asia, Taipei and New Taipei」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4R7D5ptKgBJ7d1j82FmRvj/a2d1655e0099504953b597e8a9656161/img001.jpg",
+      "description": "台湾の首都である台北市と、それを取り囲むように位置する新北市、その二つの市を合わせた総称\"雙北\"\"（双北）。その大都市圏内で撮影された、今を生きる若者たちの記録。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-18",
+      "end_date": "2026-08-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5163e693d1ea",
+        "name": "Totem Pole Photo Gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "토템 폴 포토 갤러리"
+          },
+          "ja": {
+            "name": "Totem Pole Photo Gallery"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.6901810430105,
+        "lng": 139.71638630984123
+      },
+      "artists": [
+        {
+          "id": "8de4db1c0fd2",
+          "name": "水島貴大",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Takahiro-Mizushima-Youth-in-East-Asia-Taipei-and-New-Taipei/2-D82-C04-B/2026-08-18",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "0b7ded89c048",
+      "source": "tokyo_art_beat",
+      "title": "澄毅 「Rhythm wears Life」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4NXlpBOt6zl5dahX0BTsqO/a5ab77e809879aea5dca4bae6b2c2d8c/main.jpg",
+      "description": "アーティスト・澄毅（すみたけし）による個展「Rhythm wears Life」を、2026年7月10日（金）から7月29日（水）まで東京・南青山のGARDE ART GALLERYで開催いたします。\n今年4月に刊行された3冊目の写真集「Rhythm wears Life」に収録された作品を主に紹介、写真集にも触れていただけます。本展タイトル「Rhythm wears Life」に込められた「命は繋がっていく」という澄の作品世界をぜひ会場でご体感ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-10",
+      "end_date": "2026-07-29",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "fd184af3d277",
+        "name": "GARDE ART GALLERY",
+        "lang": null,
+        "tr": {},
+        "region": "表参道、青山",
+        "district": null,
+        "lat": 35.66412,
+        "lng": 139.7137
+      },
+      "artists": [
+        {
+          "id": "42b30726d3d9",
+          "name": "澄毅",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Takeshi-Sumi-Rhythm-wears-Life/garde-art-gallery/2026-07-10",
       "featured": false,
       "popularity_score": null
     }
@@ -54175,8 +54453,15 @@
     {
       "id": "0d192b00a22e",
       "name": "伊勢丹新宿店本館",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이세탄 신주쿠점 본관"
+        },
+        "en": {
+          "name": "Isetan Shinjuku Store Main Building"
+        }
+      },
       "venue_type": "other",
       "region": "新宿、初台、四ツ谷",
       "district": null,
@@ -54184,6 +54469,104 @@
       "country": "JP",
       "lat": 35.69180866439245,
       "lng": 139.7046772073249,
+      "website": null
+    },
+    {
+      "id": "ce5ff8679249",
+      "name": "BLOCK HOUSE",
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "BLOCK HOUSE"
+        },
+        "ja": {
+          "name": "BLOCK HOUSE"
+        }
+      },
+      "venue_type": "other",
+      "region": "表参道、青山",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.66618048512734,
+      "lng": 139.70441261268692,
+      "website": null
+    },
+    {
+      "id": "0009d9a4dd1d",
+      "name": "DIGINNER GALLERY WORKSHOP",
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "DIGINNER GALLERY WORKSHOP"
+        },
+        "ja": {
+          "name": "DIGINNER GALLERY WORKSHOP"
+        }
+      },
+      "venue_type": "gallery",
+      "region": "世田谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.60834960306977,
+      "lng": 139.66946792665152,
+      "website": null
+    },
+    {
+      "id": "aef7cfc74f92",
+      "name": "Rodin",
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "Rodin"
+        },
+        "ja": {
+          "name": "Rodin"
+        }
+      },
+      "venue_type": "other",
+      "region": "恵比寿、代官山、中目黒",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.65261511500698,
+      "lng": 139.7051350597643,
+      "website": null
+    },
+    {
+      "id": "273602e093af",
+      "name": "東京藝術大学 上野キャンパス",
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "도쿄 예술대학 우에노 캠퍼스"
+        },
+        "en": {
+          "name": "Tokyo University of the Arts Ueno Campus"
+        }
+      },
+      "venue_type": "other",
+      "region": "上野、谷中",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.718839944541045,
+      "lng": 139.7717413930026,
+      "website": null
+    },
+    {
+      "id": "fd184af3d277",
+      "name": "GARDE ART GALLERY",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "表参道、青山",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.66412,
+      "lng": 139.7137,
       "website": null
     }
   ],
@@ -64644,6 +65027,48 @@
     {
       "id": "fb8433158db4",
       "name": "古佳⽴ / Jialih Koo",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "190bdcd701ad",
+      "name": "Aiki",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e6fc9a5a890f",
+      "name": "伊賀美和子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e10667017d26",
+      "name": "アンドレア・パラシュティ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "676dc979a9d4",
+      "name": "菅亮平",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "db3d7ecc03f0",
+      "name": "シ・ウェンビン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8de4db1c0fd2",
+      "name": "水島貴大",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "42b30726d3d9",
+      "name": "澄毅",
       "lang": null,
       "tr": {}
     }
