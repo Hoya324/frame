@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T20:48:24.213964+00:00",
+  "generated_at": "2026-07-09T23:19:08.239916+00:00",
   "exhibitions": [
     {
       "id": "da49addcd28e",
@@ -47132,14 +47132,28 @@
         {
           "id": "97102513c018",
           "name": "武田紗也加",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "다케다 사야카"
+            },
+            "en": {
+              "name": "Sayaka Takeda"
+            }
+          }
         },
         {
           "id": "ac6b81fbede1",
           "name": "ナカスジミナミ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나카스지 미나미"
+            },
+            "en": {
+              "name": "Minami Nakasuji"
+            }
+          }
         },
         {
           "id": "6651de12f4a1",
@@ -47357,8 +47371,17 @@
       "id": "41adcf7718d9",
       "source": "tokyo_art_beat",
       "title": "片岡司 「写心伝心 青絵 — Philosophie d’Azur」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "가타오카 쓰카사 「사신전심 아오에 — Philosophie d’Azur」",
+          "description": "본 전시에서는 '파랑'을 주제로 한 새로운 시리즈 <아오에>와 함께, 풍경을 만다라적 구조로 포착한 <풍경 만다라> 작품들을 함께 전시합니다. 가타오카의 작품은 단순한 풍경의 기록이 아니라, 빛과 공기, 시간의 겹침을 통해 눈에 보이지 않는 감각과 내면의 고요함을 표현하는 것입니다. '사신(写心)'이란 풍경을 찍는 것이 아니라, 그 안에 있는 마음의 기운을 담아내는 사상이며, 본 전시는 그 이념을 다각적으로 제시하는 시도이기도 합니다. 본 전시에 앞서, 이 작품들은 고야산 진언종 총본산 곤고부지의 별전에서 전시되어, 기도의 장소에서 그 정신성을 깊게 해왔습니다. 파랑의 정적(靜寂)한 세계와 만다라적 구조를 가진 풍경 표현은 감상자의 내면과 조용히 호응하며, 각자의 마음에 다른 풍경을 비춥니다. 또한 본 전시는 2026년 가을 프랑스 파리에서 개최 예정인 개인전 「Philosophie d’Azur」를 향한 전개의 일환으로 자리매김하고 있습니다."
+        },
+        "en": {
+          "title": "Tsukasa Kataoka 「Shashin Denshin Aoe — Philosophie d’Azur」",
+          "description": "This exhibition will feature a new series titled <Aoe>, themed around \"blue,\" alongside <Fukei Mandara> works that capture landscapes as mandala-like structures. Kataoka's works are not merely records of scenery; they express unseen sensations and inner tranquility through the layering of light, air, and time. \"Shashin\" (写心) is the philosophy of capturing not just the scenery, but the presence of the heart hidden within it, and this exhibition is an attempt to present this philosophy from multiple perspectives. Prior to this exhibition, these works were displayed at a separate hall of Koyasan Shingon-shu Sohonzan Kongobu-ji, deepening their spirituality in a place of prayer. The serene world of blue and the landscape expressions with a mandala-like structure quietly resonate with the viewer's inner self, reflecting different sceneries in each heart. This exhibition is also positioned as part of the development towards a solo exhibition, \"Philosophie d’Azur,\" scheduled to be held in Paris, France, in the autumn of 2026."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/1kDtwXczI449fjRmYVMWSF/5903c93b2fd2f108daeacc66f6482e80/274c819c-a1e6-4d90-a6e8-79a7e3d11a2d.png",
       "description": "本展では、「青」を主題とした新シリーズ〈青絵〉に加え、風景を曼荼羅的構造として捉えた〈風景曼荼羅〉作品をあわせて展示いたします。片岡の作品は、単なる風景の記録ではなく、光や空気、時間の重なりを通して、目に見えない感覚や内面の静けさを表現するものです。「写心」とは、風景を写すのではなく、その奥にある心の気配を写し取るという思想であり、本展はその理念を多角的に提示する試みでもあります。本展に先立ち、本作品群は高野山真言宗総本山 金剛峯寺の別殿にて展示され、祈りの場においてその精神性を深めてきました。青の静謐な世界と、曼荼羅的な構造を持つ風景表現は、鑑賞者の内面と静かに呼応し、それぞれの心に異なる景色を映し出します。なお本展は、2026年秋にフランス・パリで開催予定の個展「Philosophie d’Azur」に向けた展開の一環として位置づけられています。",
       "medium": "mixed",
@@ -47411,8 +47434,17 @@
       "id": "92a4f178058e",
       "source": "tokyo_art_beat",
       "title": "長島有里枝 「before the dog, behind the cat」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "나가시마 유리에 「before the dog, behind the cat」",
+          "description": "본 전시에서는 '아카이브'를 기점으로, 시간의 경과에 따라 작품이 어떻게 경험될 수 있는지, 그리고 작가에게 어떤 존재로 계속 남아있을지를 고찰합니다. 박물관은 본래 기록과 보존을 위한 장치입니다. 그 기록은 고정된 것이 아니라, 누구의 시점에 의해 선택되고 어떻게 편집되는지에 따라 다른 모습으로 변화합니다. 나가시마 유리에(長島有里枝)는 지금까지 사진을 사건의 증거로서가 아니라, 관계 속에서 생성되는 '흔적'으로 파악하고, 셀프 포트레이트와 스냅을 통해 시간 속에서 계속 변화하는 자신과 타인의 모습을 기록해왔습니다.\n본 전시는 3가지 시리즈의 작품으로 구성됩니다. ①2025년 'Garage Sale' 전시에서 발표한, 기존 작품에 고양이 사진과 그림을 콜라주한 시리즈 ②MINA의 소재지가 시부야인 점을 고려하여, 1994년 센터가이 입구에서 티슈 배포 아르바이트를 할 때 촬영한 스트리트 스냅 ③네거티브 필름 속에 있는, 언제 촬영했는지 기억나지 않는 사진을 합판에 아날로그 프린트한 흑백 작품(2018년 제작)을 MINA의 테이블로 리메이크\n이번 전시는 1990년대부터 2020년대까지 각 연대별 대표작들이 아카이브처럼 같은 공간에 전시되는 첫 번째 전시가 됩니다. 본 전시는 변화하고 계속 사용되는 '살아있는 아카이브'로 구상되었습니다. 작품이 계속 변화할 가능성을 멈추지 않는 것. 그 실천을 통해 기록이란 무엇이며, 작품은 시간 속에서 어떻게 존재할 수 있는지를 질문합니다.\n\n[관련 이벤트]\n아티스트 토크\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Yurie Nagashima 「before the dog, behind the cat」",
+          "description": "This exhibition explores how artworks can be experienced over time, starting from the concept of \"archive,\" and what they continue to be for the artist. A museum is inherently a device for recording and preserving. Such records are not fixed; they change their appearance depending on whose perspective they are selected from and how they are edited. Yurie Nagashima has consistently viewed photographs not as evidence of events, but as \"traces\" generated within relationships, and through self-portraits and snapshots, she has documented the ever-changing nature of herself and others over time.\nThis exhibition consists of works from three series: ①A series presented at the \"Garage Sale\" exhibition in 2025, featuring collages of cat photos and drawings onto older works. ②Street snapshots taken in 1994 when she was working part-time distributing tissues at the entrance of Center-gai, given that MINA is located in Shibuya. ③Monochrome works (produced in 2018) of photos from negatives that she cannot recall when they were taken, analog-printed onto plywood and remade into MINA's table.\nThis will be the first exhibition where representative works from each decade, from the 1990s to the 2020s, are displayed together in the same space like an archive. This exhibition is conceived as a \"living archive\" that continues to change and be used. It aims not to stop the potential for artworks to keep changing. Through this practice, it questions what a record is and how artworks continue to exist over time.\n\n[Related Events]\nArtist Talk\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3tU5cZ6oYs45M94hn3Jtt9/5065c33029a067fd422ec53363c5a66e/A4_flyer_nagashima_-_Shibuya_MINA.jpg",
       "description": "本展では、「アーカイブ」を起点に、時間の経過により作品はどのように経験されうるのか、また作家にとってどのような存在としてあり続けるのかを考察します。ミュージアムは本来、記録と保存のための装置です。その記録は固定されたものではなく、誰の視点によって選ばれ、どのように編集されるのかによって異なる姿に変化します。長島有里枝はこれまで、写真を出来事の証拠としてではなく、関係のなかで生成される「痕跡」として捉え、セルフポートレートやスナップを通して、時間の中で変化し続ける自己や他者のあり方を記録してきました。\n本展は3つのシリーズの作品で構成されます。①2025年の「Garage Sale」展で発表した、旧作に猫の写真と絵をコラージュしたシリーズ②MINAの所在地が渋谷であることから、1994年にセンター街の入り口でティッシュ配りのアルバイトをしていたとき撮影したストリートスナップ③ネガの中にある、いつ撮影したか思い出せない写真を合板にアナログプリントしたモノクロ作品（2018年製作）をMINAのテーブルにリメイク\n今回、1990年代〜2020年代まで各年代ごとの代表作がアーカイブのように同じ空間に展示されることになる初めての展示となります。本展は、変化し、使用され続ける「生きているアーカイブ」として構想されています。作品の変化し続ける可能性を止めないこと。その実践を通して、記録とは何か、そして作品はいかに時間の中で在り続けるのかを問いかけます。\n\n[関連イベント]\nアーティストトーク\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -47572,8 +47604,15 @@
         {
           "id": "8f96a599281f",
           "name": "Aika",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "아이카"
+            },
+            "ja": {
+              "name": "アイカ"
+            }
+          }
         },
         {
           "id": "5b476c43f6e9",
@@ -48163,8 +48202,15 @@
         {
           "id": "65ca56ea11c9",
           "name": "Ryu Ika",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "류 이카"
+            },
+            "ja": {
+              "name": "リュウ・イカ"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Meet-Your-Art-Festival-2026-Reflux-Rising-Signs/1-F677-B0-B/2026-10-09",
@@ -48219,8 +48265,15 @@
         {
           "id": "ac86d5009e12",
           "name": "アスル・チュリケル",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "아스르 추리케르"
+            },
+            "en": {
+              "name": "Aslı Çelikel"
+            }
+          }
         },
         {
           "id": "05173f97d460",
@@ -48433,8 +48486,17 @@
       "id": "00188eaea1a2",
       "source": "tokyo_art_beat",
       "title": "「NEW YORK ALIVE Ⅰ 都市の記憶」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「NEW YORK ALIVE Ⅰ 도시의 기억」",
+          "description": "SMP 갤러리의 원점은 미국 뉴욕입니다. 1986년 맨해튼에서 창업했습니다. 올해 40주년을 기념하는 기획전을 개최합니다. 이번 전시에서는 1980년대부터 뉴욕을 여행하거나 거주했던 사진작가와 판화가들이 추억을 공유하듯이 각자의 뉴욕을 담아낸 작품들을 선보입니다. 도시 속의 번잡함과 고요함, 마천루에 숨어있는 무기물과 자연, 흑백과 컬러. 작품 속에 지금도 살아 숨 쉬는 뉴욕, 도시의 기억을 꼭 감상해 주십시오."
+        },
+        "en": {
+          "title": "\"NEW YORK ALIVE Ⅰ Memories of the City\"",
+          "description": "The origin of SMP GALLERY is New York, USA. It was founded in Manhattan in 1986. This year, we will hold a special exhibition commemorating its 40th anniversary. In this exhibition, photographers and printmakers who traveled or lived in New York from the 1980s onwards will present works capturing their respective New Yorks, as if sharing memories. The hustle and bustle and the tranquility within the city, the inorganic and nature hidden in the skyscrapers, monochrome and color. Please come and see the New York that still breathes in these works, the memories of the city."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4l0T9VsRBPRJEZIGquYzI/8944765efffb2cfd4ad9a1c397e52359/2026_NewYorkAlive_omote_DM_20260618-2-4_-_Masako_Matsuura.jpg",
       "description": "SMP GALLERYの原点は米国、ニューヨーク。1986年マンハッタンで創業。今年40周年を記念した企画展を開催します。本展では、1980年代〜ニューヨークを旅したり、暮らした写真家、版画家たちが、思い出を共有するように、それぞれのニューヨークを捉えた作品を展示します。都会の中の喧騒と静寂、摩天楼に潜む無機質と自然、モノクロームとカラー。作品に、今も息づくニューヨーク、都市の記憶を、ぜひご覧ください。",
       "medium": "photo",
@@ -50228,8 +50290,17 @@
       "id": "4760d1530ed8",
       "source": "tokyo_art_beat",
       "title": "アンドレア・パラシュティ + 菅亮平 「榨の儀礼」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "안드레아 파라슈티 + 스가 료헤이 「시메기의 의례」",
+          "description": "이번에 2026년 7월 7일 (화)부터 도쿄 예술대학 우에노 캠퍼스 대학회관 전시실에서 국제 예술 창조 연구과 학생들이 큐레이션하는 전시회 「시메기의 의례」를 개최합니다.\n\n「시메기」란 식물을 압착하여 기름이나 술을 추출하는 도구입니다. 본 전시는 인간 사회가 식물에 용도와 의미를 부여하고 이용해 온 그 행위, 즉 「시메기」라는 행위 자체를 재해석하고자 합니다. 전시 작품인 모기향이 된 국화, 전시 중 대체 연료가 된 소나무. 이 둘의 공통점은 인간 사회의 역사적 맥락 속에서 비가시화되면서도 의미를 부여받아 왔다는 점입니다. 본 전시는 인간과 식물 간의, 특히 조건 지어진 상황 하에서의 관계에 대해 이야기합니다.\n\n전시 작품이 보여주는 것은 어떤 공통된 구조입니다. 국화도 소나무도 애초에 살충제 원료나 연료로 존재했던 것은 아닙니다. 각 시대에 부과된 조건이 그 식물에 의미를 부여해 왔습니다. 본 전시가 주목하는 것은 인간이 자신을 중심으로 한 사회를 구축하고, 그 사회 구조 속에서 식물에 의미를 부여하고, 용도를 할당하고, 이용해 온 사실 그 자체입니다."
+        },
+        "en": {
+          "title": "Andrea Parashti + Ryohei Suga \"The Ritual of Shimegi\"",
+          "description": "We are pleased to announce that the exhibition \"The Ritual of Shimegi,\" curated by students of the Graduate School of Global Arts, will be held from Tuesday, July 7, 2026, at the University Hall Exhibition Room, Ueno Campus, Tokyo University of the Arts.\n\n\"Shimegi\" refers to a tool used to press plants to extract oil or alcohol. This exhibition attempts to re-interpret the human society's practice of assigning uses and meanings to plants and utilizing them—the very act of \"shimegi\" itself. The exhibited works include chrysanthemums transformed into mosquito coils and pine trees used as substitute fuel during wartime. What both have in common is that they have been given meaning while being rendered invisible within the historical context of human society. This exhibition speaks about the relationship between humans and plants, particularly under conditioned circumstances.\n\nThe exhibited works reveal a certain common structure. Neither chrysanthemums nor pine trees originally existed as ingredients for insecticides or as fuel. The conditions imposed by each era have given meaning to these plants. This exhibition focuses on the very fact that humans have built a society centered on themselves, and within that social structure, have assigned meaning and uses to plants, and utilized them."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/Z0KHyV9NBD1ZheSiZRDzK/f829c8b75381a74f55ecd5d1aadf4069/23c09a66-cd89-4ecb-8864-56b637bdb81d.png",
       "description": "この度、2026年7⽉7⽇（⽕）より東京藝術⼤学上野キャンパス・⼤学会館展⽰室にて、国際芸術創造研究科の学⽣がキュレーションする展覧会「榨（しめぎ）の儀礼」を開催いたします。\n\n「榨（しめぎ）」とは、植物を圧搾して油や酒を取り出すための道具です。本展は、⼈間社会が植物に⽤途や意味を与え、利⽤してきたその営み──「榨」というふるまいそのもの──を再解釈することを試みます。展⽰作品である蚊取り線⾹となった菊、戦時下の代⽤燃料となった松。両者に共通するのは、⼈間社会の歴史的⽂脈のなかで不可視化されながら意味を与えられてきたという点です。本展は、⼈間と植物との、とりわけ条件づけられた状況下における関係について語ります。\n\n展⽰作品が⽰すのは、とある共通する構造です。菊も松も、そもそも殺⾍剤の原料や燃料として存在していたわけではありません。それぞれの時代に課せられた条件が、その植物に対し、意味を与えてきました。本展が⾒つめるのは、⼈間が⾃分⾃⾝を中⼼とした社会を築き、その社会構造のなかで植物に意味を与え、⽤途を割り当て、利⽤してきたという事実そのものです。",
       "medium": "mixed",
@@ -50295,8 +50366,15 @@
       "id": "7baba05d78ed",
       "source": "tokyo_art_beat",
       "title": "シ・ウェンビン 「白河夜船」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "시 원빈 「시라카와 요후네」"
+        },
+        "en": {
+          "title": "Shi Wenbin 'Shirakawa Yofune'"
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/6Gx6Lw2cCcXg8jrNDsUDvr/6beeb64cf08e6b7cd487fd0c5df996f8/7eca9255-c91d-4654-b6b9-bfdd7c8ffa61.jpg",
       "description": null,
       "medium": "mixed",
@@ -50475,8 +50553,17 @@
       "id": "befebb27c9bb",
       "source": "tokyo_art_beat",
       "title": "「写真展 星野道夫 悠久の時を旅する」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「사진전 호시노 미치오 유구한 시간을 여행하다」",
+          "description": "소년 시절부터 북쪽 자연을 동경하며, 극북의 땅 알래스카에서 살았던 호시노 미치오. 취재 중 사고로 사망했으며, 30년이 지난 현재에도 감동적인 대자연과 동물 사진, 아름다운 글로 많은 팬들을 매료시키고 있습니다. 북극권의 대자연, 그곳에 살아 숨 쉬는 야생동물과 사람들, 그리고 전해 내려오는 신화…… 호시노는 수많은 '만남'을 통해 사색을 깊게 하고, 사진가로서 성장해 나갔습니다. 본 전시에서는 20세에 처음 발을 들인 알래스카 마을의 기록부터, 사망 직전까지 촬영했던 러시아 캄차카반도의 사진까지 한눈에 볼 수 있습니다. 또한, 20세에 처음 시슈마레프 마을 촌장에게 보낸 편지를 비롯한 귀중한 자료 전시를 곁들여, 여행을 마치지 못하고 급서한 호시노 미치오의 발자취를 따라갑니다. 미완의 작품들을 통해 '자연과 인간의 관계'를 끊임없이 추구했던 호시노의 새로운 여정을 상상해 주시면 감사하겠습니다."
+        },
+        "en": {
+          "title": "「Photography Exhibition: Michio Hoshino, Traveling Through Eternal Time」",
+          "description": "Michio Hoshino, who yearned for the nature of the North since his boyhood and lived in Alaska, the land of the far north. He died in an accident during his fieldwork, and even 30 years later, his moving photographs of nature and animals, along with his beautiful writings, continue to captivate many fans. The vast nature of the Arctic Circle, the wild animals and people living there, and the myths passed down through generations... Hoshino deepened his thoughts through numerous \"encounters\" and grew as a photographer. This exhibition offers a comprehensive view, from records of an Alaskan village he first visited at the age of 20 to photographs taken in Russia's Kamchatka Peninsula just before his death. Additionally, through valuable archival displays, including a letter he wrote to the chief of Shishmaref Village when he was 20, we trace the footsteps of Michio Hoshino, who passed away suddenly without completing his journey. We hope you will reflect on Hoshino's new journey, which continuously pursued \"the relationship between nature and humans,\" through his unfinished body of work."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/5JiN5aV6Yh31gl2nvKxndC/0fec040792efef7187fb769a4fd7b8fe/main.jpg",
       "description": "少年の頃から北の自然に憧れ、極北の大地アラスカに生きた星野道夫。取材中に事故で亡くなり、30年を経た現在においても、心打つ大自然や動物の写真と美しい文章で、多くのファンを魅了しています。北極圏の大自然、そこに息づく野生動物や人々、そして語り継がれた神話……\n星野は多くの「出会い」を通じて思索を深め、写真家として成長していきました。本展では、20歳の時に初めて足を踏み入れたアラスカの村の記録から、亡くなる直前まで撮影していたロシアのカムチャツカ半島での写真までを一望します。また、20歳の時に初めてシシュマレフ村の村長に宛てて書いた手紙をはじめ、貴重な資料展示を交え、旅を終えることなく急逝した星野道夫の足跡を辿ります。未完の作品群から、「自然と人の関わり」を追い続けた星野の新たな旅に思いを馳せていただければ幸いです。",
       "medium": "photo",
@@ -50529,8 +50616,17 @@
       "id": "5ecd3e163a35",
       "source": "tokyo_art_beat",
       "title": "「名古屋学芸大学 映像メディア学科 写真領域学生による作品展 『PRE展』｣",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「나고야 학예대학 영상 미디어학과 사진 영역 학생 작품전 'PRE전'」",
+          "description": "본 전시는 나고야 학예대학 미디어 조형학부 영상 미디어학과 사진 영역 학생들의 작품전입니다. 사진은 누구나 일상적으로 접하는 친숙한 미디어이자, 영상 표현의 기초이기도 합니다. 사진 영역에서는 '무엇을', '어떻게' 찍을 것인가를 질문하며, 사진을 단순한 기록이 아닌 자신의 생각과 감정을 표현하는 수단으로 여기고 작품 제작에 임하고 있습니다.\n\n4학년 학생들은 2027년 1월에 개최될 졸업 작품전의 전초전으로 개인 작품을 전시합니다. 자기 자신을 되돌아보는 작품이나 가족과 마주하는 작품 등, 학생 개개인의 사고와 감정을 담아낸 다양한 작품들이 전시됩니다. 3학년 학생들은 사진 영역 수업 수강생 21명 전원이 제작한 포토북을 전시합니다. 제작을 통해 사진을 보고, 선택하고, 읽고, 구성하는 것을 시도했습니다. 또한 본 전시는 교원의 지도 아래 학생들이 주체가 되어 기획 및 운영을 진행하고 있습니다. 작품 전시뿐만 아니라, 전시회 자체를 학생들이 직접 만들어가는 실천의 장이기도 합니다. 전시 기간 중에는 같은 전시장 내(제3·4·5·6 전시실)에서 설치 미술 영역 수강 학생들의 전시회 'VMIC전'도 동시 개최됩니다.\n\n사진 표현을 축으로 한 'PRE전'과 공간 표현을 축으로 한 'VMIC전'. 서로 다른 접근 방식에 따른 학생들의 다양한 표현을 한 번에 관람할 수 있는 기회입니다. 또한, 7월 18일 (토)에는 출품 학생들이 릴레이 형식으로 작품 해설 투어를 진행합니다. 제작 배경과 작품에 담긴 생각을 학생들이 직접 설명해 드립니다. 학생 개개인의 시점에서 탄생한 다양한 작품과 사진 표현의 가능성을 이 기회에 꼭 관람해 주시기 바랍니다."
+        },
+        "en": {
+          "title": "「Nagoya University of Arts and Sciences, Department of Moving Image and Media Arts, Photography Course Student Exhibition 'PRE Exhibition'」",
+          "description": "This exhibition features works by students from the Photography Course, Department of Moving Image and Media Arts, Faculty of Media Arts, Nagoya University of Arts and Sciences. Photography is a familiar medium that everyone encounters daily, and it also forms the foundation of visual expression. In the Photography Course, students engage in creative work by questioning \"what\" and \"how\" to photograph, viewing photography not merely as a record but as a means to express their own thoughts and emotions.\n\nFourth-year students will exhibit individual works as a prelude to the graduation exhibition scheduled for January 2027. A diverse range of works will be on display, reflecting the thoughts and emotions of each student, including pieces that encourage self-reflection and those that explore family relationships. Third-year students will exhibit a photobook created by all 21 participants of the Photography Course class. Through this creation process, they attempted to see, select, read, and compose photographs. Furthermore, this exhibition is planned and managed primarily by the students themselves, under the guidance of their instructors. It is not only a display of works but also a practical opportunity for students to create the exhibition itself. During the exhibition period, the \"VMIC Exhibition\" by students from the Installation Art Course will also be held concurrently in the same venue (Exhibition Rooms 3, 4, 5, and 6).\n\nThe \"PRE Exhibition,\" centered on photographic expression, and the \"VMIC Exhibition,\" centered on spatial expression. This provides an opportunity to view the diverse expressions of students through different approaches all at once. Additionally, on July 18 (Saturday), participating students will conduct a relay-style artwork commentary tour. They will share the background of their creation and the thoughts embedded in their works in their own words. We invite you to take this opportunity to appreciate the diverse works born from each student's perspective and the possibilities of photographic expression."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/7j91mwDX7HE8D5CnHciv6E/e7f0f7f99307eea43753b4b1cc4a27f5/0eea8f4d-afea-4371-a1d8-a2711283e250.jpg",
       "description": "本展は、名古屋学芸大学メディア造形学部 映像メディア学科 写真領域の学生による作品展です。写真は誰もが日常的に触れる身近なメディアであり、映像表現の基礎でもあります。写真領域では、「何を」「どのように」撮るのかを問いながら、写真を単なる記録としてではなく、自身の考えや感情を表現する手段として捉え、作品制作に取り組んでいます。\n\n4年生は、2027年1月に開催される卒業制作展の前哨として個人作品を展示します。自分自身を見つめ直す作品や家族と向き合う作品など、学生一人ひとりの思考や感情を写し取った多様な作品が並びます。3年生は、写真領域授業の受講生21名全員で制作したフォトブックを展示します。制作を通して、写真を見ること、選ぶこと、読むこと、そして構成することを試みました。また本展は、教員の指導のもと学生自身が主体となって企画・運営を行っています。作品展示だけでなく、展覧会そのものを学生たちの手でつくり上げる実践の場でもあります。会期中は同会場内（第3・4・5・6展示室）にて、インスタレーション領域履修学生による展覧会「VMIC展」も同時開催いたします。\n\n写真表現を軸とした「PRE展」と、空間表現を軸とした「VMIC展」。異なるアプローチによる学生たちの多様な表現を、一度にご覧いただける機会となっています。さらに、7月18日（土）には出展学生による作品解説ツアーをリレー形式で実施いたします。制作背景や作品に込めた思いを学生自身の言葉でお伝えします。学生一人ひとりの視点から生まれた多様な作品と、写真表現の可能性を、ぜひこの機会にご高覧ください。",
       "medium": "mixed",
@@ -50666,8 +50762,17 @@
       "id": "6c509c47877c",
       "source": "tokyo_art_beat",
       "title": "「日仏アートフォト展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "일불 아트 사진전",
+          "description": "[관련 이벤트]\n1. 『프랑크 넴니 부부 방일 기념 이벤트』 ①\n일시: 7월 18일 13:00~\n등단자: 미타니 나츠카(코토), 타니무라 타케히코(Gt.), 미나미노 아즈사(Vl.), Hidemi Tokutake, YUYU, 카야페루\n2. 『프랑크 넴니 부부 방일 기념 이벤트』 ②\n일시: 11월 2일 17:00~\n등단자: 쿠보타 아키코(Sp.), 타니무라 타케히코(Gt.), Orienal Love(Elec.), Hidemi Tokutake, YUYU, 카야페루\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Japan-France Art Photo Exhibition",
+          "description": "[Related Events]\n1. 『Commemorative Event for Franck Nemni and his Wife's Visit to Japan』 ①\nDate & Time: July 18th, 13:00~\nSpeakers/Performers: Natsuka Mitani (Koto), Takehiko Tanimura (Gt.), Azusa Minamino (Vl.), Hidemi Tokutake, YUYU, Kayaperu\n2. 『Commemorative Event for Franck Nemni and his Wife's Visit to Japan』 ②\nDate & Time: November 2nd, 17:00~\nSpeakers/Performers: Akiko Kubota (Sp.), Takehiko Tanimura (Gt.), Orienal Love (Elec.), Hidemi Tokutake, YUYU, Kayaperu\n※Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/7GPwYGWtr1y2BeGJWeoOaq/53d4d83c2de35a5b99ba7da976d56f9c/minamino_main-tate_-_Creative_Lounge_MOV_aiiima.png",
       "description": "[関連イベント]\n1. 『Franck Nemni夫妻来日記念イベント』 ①\n日時: 7月18日13:00〜\n登壇者: 三谷夏香（琴）、谷村武彦（Gt.）、南野梓（Vl.）、Hidemi Tokutake、YUYU、カヤぺる\n2. 『Franck Nemni夫妻来日記念イベント』 ②\n日時: 11月2日17:00〜\n登壇者: 窪田晶子（Sp.）、谷村武彦（Gt.）、Orienal Love（Elec.）、Hidemi Tokutake、YUYU、カヤぺる\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -50706,8 +50811,17 @@
       "id": "7bc873f58ec8",
       "source": "tokyo_art_beat",
       "title": "土屋じゅり + 佐藤真那人 「ずれて、重なる」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "츠치야 주리 + 사토 마나토 「엇갈리고, 겹치다」",
+          "description": "사진작가 츠치야 주리와 사토 마나토의 첫 2인전. 츠치야는 현실 풍경에 여러 시간과 기억의 층을 겹치고, 일본 종이와 일본화 재료로 덧칠한 작품을 발표한다. 사토는 흑백 사진을 중심으로 다중 노출과 구축된 공간을 활용하여 존재와 순환을 표현한다. 서로 다른 접근 방식을 통해 현실과 환상, 시간과 기억이 「엇갈리고, 겹치는」 순간을 제시하는 사진전이다."
+        },
+        "en": {
+          "title": "Juri Tsuchiya + Manato Sato 「Misaligned, Overlapping」",
+          "description": "The first duo exhibition by photographers Juri Tsuchiya and Manato Sato. Tsuchiya presents works that layer multiple temporal and memory strata onto real landscapes, with additions using Japanese paper and traditional Japanese painting materials. Sato, focusing on monochrome photography, expresses existence and circulation using multiple exposures and constructed spaces. This photography exhibition, through different approaches, presents moments where reality and fantasy, time and memory 'misalign and overlap'."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/l0zgWBDA39EZbJ5gZojcX/5e7896ad53e8cbb53390c91290627a5f/92e10eb4-a66e-4f9d-8c11-9fce2e713da7.jpg",
       "description": "写真家・土屋じゅりと佐藤真那人による初の二人展。土屋は現実の風景に複数の時間や記憶の層を重ね、和紙や日本画材による加筆を施した作品を発表。佐藤はモノクロ写真を軸に、多重露光や構築した空間を用いて存在や循環を表現する。異なるアプローチを通して、現実と幻想、時間や記憶が「ずれて、重なる」瞬間を提示する写真展。",
       "medium": "photo",
@@ -50759,8 +50873,17 @@
       "id": "59e11f221d2c",
       "source": "tokyo_art_beat",
       "title": "「花と獣 いろとかたち」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「꽃과 짐승 색과 형태」",
+          "description": "풀꽃의 색채, 사계절의 변화를 그림에 담고, 동물의 위엄 있는 모습이나 천진난만한 몸짓을 조각하는 — 사람들은 그 생명의 빛에 매료되어 예로부터 창조의 원천으로 삼아왔습니다. 미술가들의 시선을 통해 그려지고 조각된 동식물의 모습에서, 오랜 세월 이어져 온 생명의 존엄함과 무게를 발견할 수도 있을 것입니다.\n본 전시에서는 동식물을 주제로 한 회화, 조각, 사진 등을 미술관 전시실뿐만 아니라 삿포로 예술의 숲 공원 내 야외 공간에도 전시합니다. 각각의 작가들이 생명과 마주하며 「색」과 「형태」로 표현한 꽃과 짐승의 세계를 자연이 풍부한 예술의 숲을 거닐며 즐겨 주십시오."
+        },
+        "en": {
+          "title": "「Flowers and Beasts: Colors and Forms」",
+          "description": "Capturing the colors of plants and flowers, the transitions of the four seasons in paintings, and sculpting the dignified postures and innocent gestures of animals—people have been captivated by the brilliance of life, and since ancient times, have made it a source of creation. Through the gaze of artists, in the depicted and sculpted forms of flora and fauna, one can also discover the preciousness and weight of life that has been connected for a long time.\nThis exhibition will feature paintings, sculptures, photographs, and more, with flora and fauna as their theme, displayed not only in the museum exhibition rooms but also in the outdoor spaces within Sapporo Art Park. Please enjoy the world of flowers and beasts, expressed by each artist confronting life through 'colors' and 'forms,' while strolling through the nature-rich Art Park."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/NgKSxQSUT2JSHIj0Xli7Y/57c91f640d1c3db90b71edb54d985d9e/c40c3ca7ade5e3a3dcdc6ba1775ca78d-768x1085.jpg",
       "description": "草花の彩り、四季のうつろいを絵に留めて、動物の凛とした佇まいやあどけないしぐさを彫刻する――人はその命の輝きに魅せられ、古来、創造の源泉としてきました。美術家たちの眼差しを通じて描かれ、彫り出された動植物の姿に、永きに渡って繋がれてきた生命の尊さや重さを見出すこともできるでしょう。\n本展では動植物を主題とした絵画、彫刻、写真などを、美術館展示室のみならず、札幌芸術の森園内屋外スペースにも展示します。それぞれの作家が生命と向き合い、「いろ」や「かたち」で表現した花と獣の世界を自然豊かな芸術の森をめぐりながら、お楽しみください。",
       "medium": "photo",
@@ -51232,8 +51355,17 @@
       "id": "74b3ab1e7e6e",
       "source": "tokyo_art_beat",
       "title": "嶌村吉祥丸 「what matters」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "시마무라 킷쇼마루 「what matters」",
+          "description": "라이카 카메라 재팬은 이번에 사진작가 시마무라 킷쇼마루의 사진전 「what matters」를 개최합니다. 본 전시는 미국 체류 중 방문했던 뉴욕, 포틀랜드, 로스앤젤레스에서 촬영된 신작들로 구성됩니다. 여행 중 시마무라는 미리 목적지나 피사체를 정하지 않고, 거리를 걷고 사람들을 만나며 그 땅에 흐르는 시간에 몸을 맡긴 채 촬영을 이어갔습니다. 예전에 살았던 적이 있는 포틀랜드에서는 옛 친구들과 재회하며 카페나 공원, 스케이트 파크와 같은 일상의 풍경 속에서 많은 시간을 보냈습니다."
+        },
+        "en": {
+          "title": "Kisshomaru Shimamura 「what matters」",
+          "description": "Leica Camera Japan will hold a photo exhibition titled \"what matters\" by photographer Kisshomaru Shimamura. This exhibition consists of new works photographed in New York, Portland, and Los Angeles, which Shimamura visited during his stay in the United States. During his travels, Shimamura did not predetermine destinations or subjects, but rather walked through cities, met people, and continued shooting while entrusting himself to the flow of time in each place. In Portland, where he once lived, he reconnected with old friends and spent a lot of time amidst everyday scenes such as cafes, parks, and skate parks."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/7DZp0Spu66SBIKT8d3F37E/0c23c947ef66aba4dd3e550409c9057a/ad5086b0-19bf-4dd3-8784-1364bed4348c.jpg",
       "description": "ライカカメラジャパンはこのたび、写真家・嶌村 吉祥丸による写真展「what matters」を開催いたします。本展はアメリカ滞在中に訪れたニューヨーク、ポートランド、ロサンゼルスで撮影された新作で構成されます。旅のなかで嶌村はあらかじめ目的地や被写体を定めるのではなく、街を歩き、人と会い、その土地に流れる時間に身を委ねながら撮影を続けました。かつて暮らしたことのあるポートランドでは旧友との再会を重ね、カフェや公園、スケートパークといった日常の風景のなかで多くの時間を過ごしています。",
       "medium": "photo",
@@ -51279,8 +51411,17 @@
       "id": "c840c1d04a4e",
       "source": "tokyo_art_beat",
       "title": "嶌村吉祥丸 「what matters」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "시마무라 킷쇼마루 「what matters」",
+          "description": "라이카 카메라 재팬은 이번에 사진작가 시마무라 킷쇼마루의 사진전 「what matters」를 개최합니다. 본 전시는 미국 체류 중 방문했던 뉴욕, 포틀랜드, 로스앤젤레스에서 촬영된 신작들로 구성됩니다. 여행 중 시마무라는 미리 목적지나 피사체를 정하지 않고, 거리를 걷고 사람들을 만나며 그 땅에 흐르는 시간에 몸을 맡긴 채 촬영을 이어갔습니다. 예전에 살았던 적이 있는 포틀랜드에서는 옛 친구들과 재회하며 카페나 공원, 스케이트 파크와 같은 일상의 풍경 속에서 많은 시간을 보냈습니다."
+        },
+        "en": {
+          "title": "Kisshomaru Shimamura 「what matters」",
+          "description": "Leica Camera Japan will hold a photo exhibition titled \"what matters\" by photographer Kisshomaru Shimamura. This exhibition consists of new works photographed in New York, Portland, and Los Angeles, which Shimamura visited during his stay in the United States. During his travels, Shimamura did not predetermine destinations or subjects, but rather walked through cities, met people, and continued shooting while entrusting himself to the flow of time in each place. In Portland, where he once lived, he reconnected with old friends and spent a lot of time amidst everyday scenes such as cafes, parks, and skate parks."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/6U2gD1rysBxdwUuqE8uU2q/c5ce1661fe8668608ee3e346ea5683ef/06f5073e-ea63-4ca2-b7ce-f7de5a220b74.jpg",
       "description": "ライカカメラジャパンはこのたび、写真家・嶌村 吉祥丸による写真展「what matters」を開催いたします。本展はアメリカ滞在中に訪れたニューヨーク、ポートランド、ロサンゼルスで撮影された新作で構成されます。旅のなかで嶌村はあらかじめ目的地や被写体を定めるのではなく、街を歩き、人と会い、その土地に流れる時間に身を委ねながら撮影を続けました。かつて暮らしたことのあるポートランドでは旧友との再会を重ね、カフェや公園、スケートパークといった日常の風景のなかで多くの時間を過ごしています。",
       "medium": "photo",
@@ -51326,8 +51467,17 @@
       "id": "8a2f89fe2255",
       "source": "tokyo_art_beat",
       "title": "サラ・ファン・ライ + ダヴィット・ファン・デル・レーウ 「Temps mort」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "사라 판 라이 + 다비트 판 데르 레이우 「Temps mort」",
+          "description": "SOM 갤러리는 2026년 7월 10일(금)부터 8월 2일(일)까지 사라 판 라이와 다비트 판 데르 레이우의 2인전 「Temps mort」를 개최합니다.\n\n발견이란 무엇일까요? 일반적으로 그것은 지금까지 알려지지 않았던 사물이나 현상을 찾아내는 것으로 이해됩니다. 그러나 그 정의만으로는 포착할 수 없는 측면이 있는 것 같습니다. 예를 들어, 중력은 뉴턴 이전부터 존재했습니다. 발견되기 전에도 세상은 이미 그곳에 있었습니다. 그럼에도 불구하고 우리는 어떤 순간을 기점으로 그것을 '발견'이라고 부릅니다. 만약 세상이 변하지 않았다면, 변한 것은 무엇이었을까요?\n\n세상은 변하지 않습니다. 변하는 것은 우리와 세상과의 관계 방식입니다. 뉴턴이 발견한 것은 중력 그 자체가 아니었을지도 모릅니다. 나무에서 떨어지는 사과와 밤하늘을 도는 달. 지금까지 별개의 현상으로 이해되던 것들 사이에 하나의 연결고리를 찾아낸 것입니다. 발견이란 새로운 대상을 찾는 것이 아니라, 지금까지 보이지 않던 관계가 드러나는 것일지도 모릅니다.\n\n영화 이론에는 temps mort('죽은 시간')라는 개념이 있습니다. 이는 이야기 전개와 직접적인 관계가 없는 장면, 즉 이야기의 인과관계에서 분리된 시간을 의미합니다. 누군가가 창밖을 바라보고 있거나, 바람이 커튼을 흔드는 장면 등이 그 전형적인 예입니다. 흥미로운 점은 그러한 장면들이 이야기에 거의 기여하지 않음에도 불구하고, 종종 영화 전체의 인상을 결정짓는다는 것입니다. 거기서는 새로운 정보가 제시되는 것이 아닙니다. 오히려 정보의 흐름이 일시적으로 멈춤으로써, 평소에는 배경으로 처리되던 빛이나 공간, 시간 그 자체가 경험의 전경으로 나타납니다.\n\n이러한 구조는 발견이라는 행위를 생각할 때도 시사하는 바가 큽니다. 발견이란 정보가 늘어나는 것이 아닙니다. 우리와 세상과의 관계가 재구성되는 것이며, 지금까지 배경이었던 것이 경험의 중심으로 이동하는 것입니다. 이러한 관점에서 보면 현대 미술에서의 사진 표현 또한 다른 위치를 가집니다. 사진은 기록이라는 기능을 전제로 하면서도, 그 이미지가 우리에게 어떤 경험을 가져다주는지, 혹은 세상과의 관계를 어떻게 구축하는지에 대한 질문으로 전개되어 왔습니다. 중요한 것은 사진이 무엇을 찍고 있는지가 아니라, 그 이미지가 어떤 경험을 가능하게 하는가 하는 것입니다.\n\n판 라이와 판 데르 레이우의 작업 또한 그 맥락 안에 위치시킬 수 있습니다. 그러나 그들이 관심을 기울이는 것은 사진이라는 매체 자체를 비판하는 것이 아닙니다. 영화적인 구성과 시간 감각을 도입하면서, 하나의 이미지가 단일한 이야기로 닫히지 않고, 보는 이의 경험이나 기억 사이에 여러 연결을 만들어내는 데 있습니다. 그들의 사진에 찍힌 것은 도시, 인물, 꽃, 창문, 반사, 그림자 등 우리에게 결코 특별하지 않은 대상들입니다. 그러나 그것들은 하나의 의미로 수렴되지 않고, 빛과 그림자, 안과 밖, 현실과 반사, 정물과 공간과 같은 여러 관계 속에서 흔들리고 있습니다. 화면 속에서 일어나는 것은 사건이 아니라 관계의 생성이며, 그 관계는 보는 이의 경험과 기억에 의해 반복적으로 재결합됩니다.\n\n그들의 작품이 촉구하는 것은 새로운 의미를 제시하는 것이 아닙니다. 하나의 이미지를 하나의 이야기로 닫는 것을 계속 거부하는 것입니다. 사진은 하나의 순간을 고정시키는 매체입니다. 그러나 그 이미지는 결코 고정된 경험을 만들어내지 않습니다. 사라 판 라이와 다비트 판 데르 레이우의 작품은 의미를 닫지 않고, 보는 이의 경험이나 기억 사이에 새로운 관계를 계속해서 만들어냅니다. 그것은 완전히 해석되는 것이 아니라, 반복적으로 되돌아보기를 요구하는 사진인 것입니다."
+        },
+        "en": {
+          "title": "Sara van Rij + David van der Leeuw 「Temps mort」",
+          "description": "SOM GALLERY will present a duo exhibition titled \"Temps mort\" by Sara van Rij and David van der Leeuw from Friday, July 10 to Sunday, August 2, 2026.\n\nWhat is discovery? Generally, it is understood as finding things or phenomena that were previously unknown. However, it seems there are aspects that cannot be fully captured by this definition alone. For example, gravity existed before Newton. The world was already there even before it was discovered. Nevertheless, we call it a \"discovery\" from a certain moment onwards. If the world hasn't changed, then what has?\n\nThe world does not change. What changes is our relationship with the world. Perhaps what Newton discovered was not gravity itself. He found a connection between things previously understood as separate phenomena: an apple falling from a tree and the moon orbiting the night sky. Discovery might not be about finding new objects, but rather about the emergence of previously unseen relationships.\n\nIn film theory, there is a concept called temps mort (\"dead time\"). This refers to scenes that are not directly related to the plot's progression, i.e., time detached from the causal chain of the narrative. Typical examples include someone gazing out a window or wind rustling curtains. What's interesting is that even though these scenes contribute little to the story, they often determine the overall impression of the film. No new information is presented there. Rather, by temporarily halting the flow of information, light, space, and time itself—usually processed as background—emerge into the foreground of experience.\n\nThis structure is also suggestive when considering the act of discovery. Discovery is not about increasing information. It is about the reconfiguration of our relationship with the world, where what was previously background shifts to the center of experience. From this perspective, photographic expression in contemporary art also holds a different position. While photography is premised on its function as a record, its images have evolved to raise questions about what kind of experience they bring us, or how they establish our relationship with the world. What is important is not what the photograph depicts, but what kind of experience its image enables.\n\nThe practices of van Rij and van der Leeuw can also be situated within this context. However, their interest is not in critiquing the medium of photography itself. By incorporating cinematic composition and a sense of time, their aim is to create multiple connections between a single image and the viewer's experience and memory, without the image closing into a single narrative. Their photographs depict subjects that are by no means special to us: cities, people, flowers, windows, reflections, shadows. Yet, these do not converge into a single meaning; instead, they fluctuate within multiple relationships such as light and shadow, inside and outside, reality and reflection, still life and space. What occurs within the frame is not an event, but the generation of relationships, and these relationships are repeatedly re-established by the viewer's experience and memory.\n\nWhat their work encourages is not the presentation of new meanings. It is the continuous refusal to allow a single image to close into a single narrative. Photography is a medium that fixes a single moment. However, its images never produce a fixed experience. The works of Sara van Rij and David van der Leeuw continue to create new relationships between the viewer's experience and memory without closing off meaning. These are photographs that demand to be revisited repeatedly, rather than being fully interpreted."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4h3RV00uM6OsxfQuu4IgRW/30f3e78a03cc851ac6b1aa9bfb941529/UXm1dgOBkNQ118kIcOOumWujDU__1_.jpg",
       "description": "SOM GALLERYは、2026年7月10日（金）から8月2日（日）まで、サラ・ファン・ライとダヴィット・ファン・デル・レーウによる二人展「Temps mort」を開催する。\n\n発見とはなんだろうか。一般にそれは、それまで知られていなかった物事や現象を見出すこととして理解されている。しかし、その定義だけでは捉えきれない側面があるように思える。たとえば、重力はニュートン以前から存在していた。発見される以前にも、世界はすでにそこにあったのである。それにもかかわらず、私たちはある瞬間を境にそれを「発見」と呼ぶ。もし世界が変わっていないのだとすれば、変化したのは何だったのだろうか。\n\n世界は変わらない。変わるのは私たちと世界との関わり方である。ニュートンが発見したのは重力そのものではなかったのかもしれない。木から落ちるリンゴと、夜空を巡る月。それまで別々の現象として理解されていたもののあいだに、ひとつのつながりを見出したのである。発見とは、新しい対象を見つけることではなく、それまで見えていなかった関係が立ち現れることなのかもしれない。\n\n映画理論には temps mort（「死んだ時間」）という概念がある。物語の展開とは直接関係しない場面、すなわち物語の因果関係から切り離された時間を指す。誰かが窓の外を見つめている、風がカーテンを揺らしている、といった場面はその典型である。興味深いのは、それらの場面が物語にほとんど寄与しないにもかかわらず、しばしば映画全体の印象を決定づけることである。そこでは新しい情報が提示されるわけではない。むしろ情報の流れが一時的に停止することで、普段は背景として処理されている光や空間、時間そのものが経験の前景へと現れる。\n\nこの構造は、発見という行為を考える上でも示唆的である。発見とは情報が増えることではない。私たちと世界との関係が組み替えられることであり、それまで背景だったものが経験の中心へと移行することである。この視点から考えると、現代美術における写真表現もまた異なる位置づけを持つ。写真は記録という機能を前提としながらも、そのイメージが私たちにどのような経験をもたらすのか、あるいは世界との関係をどのように立ち上げるのかという問いへと展開してきた。重要なのは、写真が何を写しているかではなく、そのイメージがどのような経験を可能にするかということである。\n\nファン・ライとファン・デル・レーウの実践もまた、その文脈の中に位置づけることができる。しかし彼らが関心を寄せているのは、写真というメディア自体を批評することではない。映画的な構成や時間感覚を取り込みながら、一枚のイメージが単一の物語へと閉じることなく、見る者の経験や記憶とのあいだに複数の接続を生み出すことにある。彼らの写真に写されているのは、都市、人物、花、窓、反射、影といった、私たちにとって決して特別ではない対象である。しかし、それらは一つの意味へと収束することなく、光と影、内と外、現実と反射、静物と空間といった複数の関係のなかで揺れ動いている。画面の中で起きているのは出来事ではなく、関係の生成であり、その関係は見る者の経験や記憶によって繰り返し結び直されていく。\n\n彼らの作品が促しているのは、新しい意味を提示することではない。一枚のイメージを、一つの物語へと閉じることを拒み続けることである。写真は、一つの瞬間を定着させるメディアである。しかし、そのイメージは決して固定された経験を生み出すわけではない。サラ・ファン・ライとダヴィット・ファン・デル・レーウの作品は、意味を閉じることなく、見る者の経験や記憶とのあいだに新たな関係を生み出し続ける。それは解釈され尽くすことではなく、繰り返し立ち返られることを求める写真なのである。",
       "medium": "photo",
@@ -67360,14 +67510,28 @@
     {
       "id": "97102513c018",
       "name": "武田紗也加",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "다케다 사야카"
+        },
+        "en": {
+          "name": "Sayaka Takeda"
+        }
+      }
     },
     {
       "id": "ac6b81fbede1",
       "name": "ナカスジミナミ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "나카스지 미나미"
+        },
+        "en": {
+          "name": "Minami Nakasuji"
+        }
+      }
     },
     {
       "id": "6651de12f4a1",
@@ -67528,8 +67692,15 @@
     {
       "id": "8f96a599281f",
       "name": "Aika",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "아이카"
+        },
+        "ja": {
+          "name": "アイカ"
+        }
+      }
     },
     {
       "id": "5b476c43f6e9",
@@ -67820,14 +67991,28 @@
     {
       "id": "65ca56ea11c9",
       "name": "Ryu Ika",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "류 이카"
+        },
+        "ja": {
+          "name": "リュウ・イカ"
+        }
+      }
     },
     {
       "id": "ac86d5009e12",
       "name": "アスル・チュリケル",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "아스르 추리케르"
+        },
+        "en": {
+          "name": "Aslı Çelikel"
+        }
+      }
     },
     {
       "id": "05173f97d460",
