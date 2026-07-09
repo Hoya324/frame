@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T16:17:43.247002+00:00",
+  "generated_at": "2026-07-09T19:38:01.698439+00:00",
   "exhibitions": [
     {
       "id": "da49addcd28e",
@@ -42057,7 +42057,7 @@
       "price_max": null,
       "start_date": "2026-07-09",
       "end_date": "2026-07-14",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "b4255c9d988c",
@@ -47911,7 +47911,7 @@
       "price_max": null,
       "start_date": "2026-07-02",
       "end_date": "2026-07-08",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "88cb1cebd561",
@@ -48263,7 +48263,7 @@
       "price_max": null,
       "start_date": "2026-07-03",
       "end_date": "2026-07-08",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "68e82b6b6f51",
@@ -50007,7 +50007,7 @@
       "price_max": null,
       "start_date": "2026-07-09",
       "end_date": "2026-08-02",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "0d192b00a22e",
@@ -51466,6 +51466,579 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Gilbert-and-George-Art-Exhibition/62826-D7-D/2027-09-17",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "8a0cc86773d6",
+      "source": "tokyo_art_beat",
+      "title": "ジュリア・グラッシー 「In Search of Lost Paradise」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/28Ysi91NPbGh0PfEp2aE2d/0b430ca3ba9f55bd0178bb9cb95342e1/Julia_Grassi01.jpeg",
+      "description": "20年以上の歳月にわたる本展「In Search of Lost Paradise」は、命を脅かす大病を患った幼少期から大人へと成長していく、ジュリアの姪・エリザの姿を追ったものです。親密なポートレートと自然界を織り交ぜることで、本シリーズは彼女自身の現実を超えた「パラレルワールド（並行世界）」を創り出します。それは、幼少期の記憶をそっと再構築し、生きることの美しさに目を開かせるための空間です。病を記録するのではなく、写真はその表層の奥へと手を伸ばします。自然はエリザの強さと幸福の源となり、彼女の内面世界が静かに花開くための土台となります。「悲しみは精神の力を発達させる」というプルーストの言葉は、彼女の物語に深く響き渡っています。彼女の病は単なる傷ではなく、覚醒への触媒でした。そして二人が共に築き上げたパラレルワールドは、決して現実逃避ではなく、内側からの癒やしを物語る静かな証（あかし）なのです。精神分析医アリス・ミラーの「幼少期の強烈な感情の世界を恐れる必要がなくなったとき、私たちは真の自己へとアクセスできるようになる」という思想にインスピレーションを得た本作は、幼少期の記憶を、現実と想像の狭間にある比喩的な空間へと昇華させています。光の移ろい、身振り、静寂の瞬間。そのひとつひとつが引き金となり、エリザの内面世界が静かに現れていきます。「In Search of Lost Paradise」は、目に見えるものと見えないものの狭間にある空間を静かに見つめ、その中に息づく、不屈の精神がもたらす生命の美しさを祝福する──そんな、視覚で描かれた一編の詩であり、鑑賞者への誘いです。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-18",
+      "end_date": "2026-08-09",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "71b55351615f",
+        "name": "OBG eu.",
+        "lang": null,
+        "tr": {},
+        "region": "兵庫県",
+        "district": null,
+        "lat": 34.70694049939977,
+        "lng": 135.19804827976228
+      },
+      "artists": [
+        {
+          "id": "59cf955ec2b3",
+          "name": "ジュリア・グラッシー",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Julia-Grassi-In-Search-of-Lost-Paradise/obg-eu/2026-07-18",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "7ffc4a249e78",
+      "source": "tokyo_art_beat",
+      "title": "荒木経惟 「アラーキー『愛の皮膜』」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/7LgM4zbM1szhpeUIOWLr3/359a721ee49de0771dcec4cba30c9ed8/unnamed.jpg",
+      "description": "アラーキーの呼称で親しまれる荒木経惟（あらき・のぶよし）は、日本の写真史における一つの巨大な現象といえる存在です。1940年、東京・三ノ輪に生まれた彼は、千葉大学で写真印刷工学を学び、電通に入社。広告写真の最前線で経験を積みながら、その対極にある私的な領域へと視線を深めていきました。1964年、学生時代に撮りためた作品集『さっちん』で第一回太陽賞を受賞。その後1971年、妻・陽子との新婚旅行を題材とした写真集『センチメンタルな旅』を自費出版します。この作品を提示した彼は、自らの写真を「私小説」になぞらえ、「私写真（ししゃしん）」と宣言、90年、陽子は病に侵され没しますが、翌年、荒木は彼女の死をテーマに据えた『センチメンタルな旅・冬の旅』を刊行し、大きな反響を呼び起こします。家族という親密な対象にレンズを向ける行為は古くから存在しますが、彼が他の写真家たちと決定的に異なるのは、その「私事」を単なる思い出の記録としてではなく、今この瞬間に消えゆく時間を繋ぎ止めるための、切実な「時間の略奪」として機能させた点にあります。いわば彼にとって写真は、社会的な記録や芸術的な昇華を目的とする以前に、自己と他者の関係性を剥き出しの感触のまま留める手段です。\n\n荒木の歩みは、既成の境界線を軽やかに越えていくものでした。世界的な美術館で高い評価を得る一方で、国内だけでも約500タイトルに及ぶ写真集を世に送り出しています。1970年代以降、写真がより身近なメディアへと変容していく流れの中で、駅の売店や街角の書店に並ぶ雑誌など、あらゆる媒体に自身の作品を浸透させます。社会の猥雑なエネルギーと共鳴し続け、日常の中に「写真」という視点を根付かせました。その圧倒的な熱量は、眼に映るものすべてを捉えようとする執着に近い、想いの表れといえるでしょう。また彼は、数多くの女性を被写体とした作品を発表しています。それらもまた、既存の文脈を更新するものでした。従来の女性ヌードが、男性の欲望に従属しがちであったのに対し、荒木のレンズが捉える女性たちは消費される記号ではなく、その場にいた痕跡として立ち上がります。体温や呼吸を感じさせる生の横溢は一方的な収奪ではなく、レンズを介して互いの実存を「共犯関係」という名の迷宮へ投げ込む危険な賭けであり、切実な対話の記録でもあります。この関係性は、人物のみならず、風景や花にも等しく注がれています。荒木はこれらを「私現実」と呼び、単なる記録を超えた私的な情念をも投影させてきました。「私写真」、「私現実」、そして荒木は、生（エロス）と死（タナトス）が隣り合わせにあるという感覚を「エロトス」という造語で表現しました。これらは別々の概念ではなく眼の前にあるものへ近づき、失われる寸前の時間に触れようとする行為の中で現れるものであり、荒木にとって生（エロス）と死（タナトス）は同じ皮膜の上に在るのです。\n\n本展のタイトル「愛の皮膜」は、荒木が撮るという行為の核心を伝えるために提起した様々な概念を覆う「愛」という言葉に由来します。あまり知られていませんが、荒木は、一見すると、彼の破天荒なキャリアには似つかわしくない「愛」という平凡な言葉を度々、用いています。しかし、荒木にとっての愛とは、穏やかな感情や美しい物語だけを指すものではありません。彼にとっての愛とは、被写体に極限まで近づくことであり、撮影とは、写真家と被写体のあいだ横たわる最後の薄い皮膜、言葉や意味が生まれる気配を讃えた一瞬を刻印することに他なりません。この展覧会は、そんな彼の60年を超えるキャリアから浮かび上がる世界観を追体験する試みとして企画されました。『さっちん』にはじまり、荒木自身が「彼女と出会うことで写真人生が始まった」と述べている「陽子」をモデルとした作品、『ゼロックス写真帖』、『エロトス』、「街」、「風景」、から最新作まで、膨大な作品群から厳選して構成された荒木の個展が、私たちにもたらす気づきとはどのようなものでしょうか。今日、我々の周囲にはSNSが推薦するイメージが溢れています。アルゴリズムと加工技術、AIの生成技術によって最適化された、もはや「写真」とは言えない「画像」と呼ぶべきものが、否応なく視覚に飛び込んできます。それらのイメージにおいては、観る者の注意を即座に回収するために、構図も色も感情も過不足なく整理され、ノイズが削られ、誤読する余地は極限まで小さくされています。それに対して、荒木の「写真」には、整理し切れない感情、湿度、ためらい、関係のねじれが消すことができない実体として存在します。あらゆる視覚情報が規格化され制度に組み込まれてしまう現代において、彼の作品に触れることは、我々の知覚や意味生成の過程がどのように変質しているのかを気づかせてくれる契機となるに違いありません。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-21",
+      "end_date": "2026-08-08",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "c174f3706963",
+        "name": "ANOMALY",
+        "lang": null,
+        "tr": {},
+        "region": "天王洲、品川",
+        "district": null,
+        "lat": 35.61916016735905,
+        "lng": 139.74660907014876
+      },
+      "artists": [
+        {
+          "id": "876d31648783",
+          "name": "荒木経惟",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "아라키 노부요시"
+            },
+            "en": {
+              "name": "Nobuyoshi Araki"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Nobuyoshi-Araki-Ai-no-Himaku-/-Love-s-Membrane/F763-C7-A4/2026-07-21",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "b3cea8e199bd",
+      "source": "tokyo_art_beat",
+      "title": "「新収蔵品展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/ZWzRdD1VnXXz07fu3jOxY/95baa998fa216b0e9c00d27e2c848945/_6_3.jpg",
+      "description": "2025年度は42点の作品がコレクションに加わりました。西洋美術9点、日本洋画7点、現代美術23点をご寄贈いただき、現代美術2点を購入、日本洋画1点を管理換で収蔵しました。これら新収蔵品をご覧ください。\n\n[関連イベント]\n1. 学芸員によるフロアレクチャー（新収蔵品展）\n日時: 2026年7月19日、8月23日14:00〜14:30\n会場: 本館第7展示室\n料金: 無料\n2. ボランティアによるギャラリーツアー（新収蔵品展・ロダン館）\n日時: 2026年8月1日、8月15日、9月5日、9月19日13:30〜14:00、14:30〜15:00\n会場: 本館第7展示室、ロダン館\n料金: 無料（定員各回10名程度）（事前申込み不要）\n※イベント詳細は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-18",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "f5509be3d2d6",
+        "name": "静岡県立美術館",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "시즈오카 현립 미술관"
+          },
+          "en": {
+            "name": "Shizuoka Prefectural Museum of Art"
+          }
+        },
+        "region": "静岡県",
+        "district": null,
+        "lat": 34.991846551662036,
+        "lng": 138.44626294846614
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/New-Acquisitions/C621-C7-A4/2026-07-18",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "eb2dc0170c39",
+      "source": "tokyo_art_beat",
+      "title": "「OCCオープニング フェスティバル」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/62kj0QFgrzONz8wXYEEFYK/3364b353a24423e05f49fbdc8be57281/80238-26-c7911c2f44a37d82fdd97d88823bb3cb-1080x1350.webp",
+      "description": "2026年7月、東京・木場に新たな創造拠点「OCC（ODYSSEY CREATIVE CENTER）」が誕生します。この始動を記念し、4日間にわたる濃密なオープニングフェスティバルを開催！\nテーマは「Wild」。現代アート、音楽、ダンス、伝統芸能——。普段はなかなか出会うことのないトップランナーたちが、ジャンルの境界を飛び越えて木場に集結します。「何が起きるかわからない」即興セッションや、ここでしか見られない表現のぶつかり合い。ライブ、パフォーマンス、トークと盛りだくさんのプログラムで、刺激的な4日間をお届けします！アートに興味のある方、新しい体験を探している方、ぜひこの「船出」に立ち会いに来てください。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-17",
+      "end_date": "2026-07-20",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5bbf506b8dce",
+        "name": "EARTH + GALLERY",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "EARTH + 갤러리"
+          },
+          "ja": {
+            "name": "EARTH + ギャラリー"
+          }
+        },
+        "region": "清澄白河、両国",
+        "district": null,
+        "lat": 35.67260406473984,
+        "lng": 139.80553729164464
+      },
+      "artists": [
+        {
+          "id": "ffa920d8428d",
+          "name": "会田誠",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8cc4fa724e7e",
+          "name": "壱弥",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "2df6ef14154a",
+          "name": "池野拓哉",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "fe6a3c636acd",
+          "name": "岩下徹",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "46f1f46bdd86",
+          "name": "梅村昇史",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "369f3da3866f",
+          "name": "太田豊",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8325c89990da",
+          "name": "河合ケネディ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "776a6f08cb8e",
+          "name": "栗林隆",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "27b8f44f9f09",
+          "name": "小池博史",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "6fa9e17a80f0",
+          "name": "佐伯剛",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8e57b7340670",
+          "name": "坂丸弓乃",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "aa765aca4628",
+          "name": "佐藤英輔",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0a34d2cd36ee",
+          "name": "下町兄弟",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b78427cf78f5",
+          "name": "許方于",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8b3f0e736dd0",
+          "name": "津村禮次郎",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "02f2333f3532",
+          "name": "徳久ウィリアム",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e909e7b511bb",
+          "name": "中川俊郎",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "799f383b8f6c",
+          "name": "仲川真由",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a657eaf0da84",
+          "name": "中村恵介",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5ef80d50d513",
+          "name": "菜波-Nanami-",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c488f63a8c6f",
+          "name": "縫原弘子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "63914abdd3c9",
+          "name": "ノウウシャク",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "fa27e0d34082",
+          "name": "樋口トモユキ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "fe641c6257e7",
+          "name": "福地史人",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1a6336994be8",
+          "name": "松島誠",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "3cce5739b7ac",
+          "name": "蓑田秀策",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "67021ae6f08f",
+          "name": "山上渡",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Odyssey-Creative-Center-Opening-Festival/075221-AC/2026-07-17",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "1b58d2a35217",
+      "source": "tokyo_art_beat",
+      "title": "田中博 「Dragonfly Boy」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/5T2AQnROKsdyGlTSg5OlYC/69158140364e2a62623fa3ea1fd59988/e1b881be-d820-4eb5-b499-2017bd729c33.jpg",
+      "description": "写真でトンボを追いかけて約40年。写真家 田中博による個展。今まで出会ったトンボを作者自身の姿に見立て、これまでの半生と重ね合わせた写真展。\n\n[関連イベント]\nギャラリートーク\n①写真展作品解説\n日時: 7月18日 14:00～15:00\n料金: 無料(事前申込み不要)\n②トンボ飛翔撮影法\n日時: 7月25日 14:00～15:00\n料金: 無料(事前申込み不要)",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-16",
+      "end_date": "2026-07-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "4636db3d7de8",
+        "name": "OM SYSTEM GALLERY",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "OM SYSTEM GALLERY"
+          },
+          "ja": {
+            "name": "OM SYSTEM GALLERY"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.690301390421425,
+        "lng": 139.6959134110451
+      },
+      "artists": [
+        {
+          "id": "3586d6400424",
+          "name": "田中博",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hiroshi-Tanaka-Dragonfly-Boy/om-system-gallery/2026-07-16",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "359bcabf64ca",
+      "source": "tokyo_art_beat",
+      "title": "「TOKYOスマート・カルチャー・プロジェクト 奈良女子大学 長谷研究室『複製される感性－森山大道』」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": null,
+      "description": "東京都と公益財団法人東京都歴史文化財団が推進する「TOKYOスマート・カルチャー・プロジェクト」は、都立文化施設が有する文化資源をデジタル化し、新たな鑑賞体験を提供するプロジェクトです。その一環として、都立文化施設が収蔵する「東京都コレクション」の現物資料とデジタルアーカイブを組み合わせ、オフラインとオンラインを融合したハイブリッド展覧会を開催します。\n\n本展覧会では、東京都写真美術館が収蔵する森山大道の作品を「複製される感性」というテーマのもと、奈良女子大学工学部の学生の視点で選定し、再構成して展示します。また、「Tokyo Museum Collection（ToMuCo）－東京都立博物館・美術館収蔵品検索」ではオンライン展覧会を通じて、誰もが、いつでも、どこでも作品を鑑賞できる機会を提供します。\n\nなお、本展覧会は、森山大道写真財団のご協力により、入江泰吉記念奈良市写真美術館で2025年に開催された「複製される感性 DAIDO MORIYAMA by NWU Nagatani Lab. Monika Orpik」の巡回展として開催します。同展の展示作品も含め、新たな構成でご覧いただけます。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-05",
+      "end_date": "2026-10-18",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "ebe6d0623fa0",
+        "name": "東京都写真美術館",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "도쿄도 사진미술관"
+          },
+          "en": {
+            "name": "Tokyo Photographic Art Museum"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.64166110404788,
+        "lng": 139.71331240862762
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Tokyo-Smart-Culture-Project-Nara-Womens-University-Hase-Laboratory-Replicated-Sensibility-Daido-Moriyama/B6131856/2026-09-05",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "983ac92ff201",
+      "source": "tokyo_art_beat",
+      "title": "「KA–CHUNK!」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/6Kh5lhkhvCItgU7E4ogWjv/87ea67d44a4ecbd652833ad86e2237b7/kachunk.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-10",
+      "end_date": "2026-07-19",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "6274759d888d",
+        "name": "テンプル大学 ジャパンキャンパス",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "템플 대학교 재팬 캠퍼스"
+          },
+          "en": {
+            "name": "Temple University Japan Campus"
+          }
+        },
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.64270137948371,
+        "lng": 139.67390802390844
+      },
+      "artists": [
+        {
+          "id": "ff9e19a92587",
+          "name": "Alision Helsel",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0767c1cc4b7b",
+          "name": "Arjun Shrestha",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "643a49a2c226",
+          "name": "Althea Carlin",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a93de9467a2e",
+          "name": "Sasha McCarthy",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "f2513889ad05",
+          "name": "Yu Wu",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0028dc08c6c2",
+          "name": "Mengyu Xu",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1fe49c45d5be",
+          "name": "May Myanmar Myo Thant",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Ka-Chunk/448-B0723/2026-07-10",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "2d7c632da70e",
+      "source": "tokyo_art_beat",
+      "title": "「音楽する写真――萩原朔美の前橋10年」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/5P4U5JWpD3D7dwbXP5U44F/7c6c87e65cc8d106176e2e7923532335/a60849cfe8c12499f3cc5dc92e9b7f35-scaled.jpg",
+      "description": "萩原朔美（1946年、東京都生まれ）は、1967年、天井桟敷へ入団し、俳優・演出家として活躍以降、映像・写真・編集・執筆をはじめ、様々な領域で創作を続けてきました。「定点観測」に代表される実験的な映像や写真の表現は、日常の記憶の断片や特異性を示唆するなど、「時間を捉えて可視化する」ことに一貫したテーマがみられます。近年は世田谷美術館、大阪中之島美術館、ロサンゼルスカウンティ美術館への作品収蔵やM＋（香港）での展示などが相次ぎ、作品が再評価されました。\n\n本展では萩原が前橋文学館館長（現在：特別館長）に就任以来、前橋で撮影した10年間の写真を中心に展示します。街中で翻るフラッグや道路標識、影、街路樹、トイレに居る萩原自身などモチーフはさまざまです。「スマホ散歩」というスタイルで撮影する萩原は、その時の心境を「同じリズムだがメロディが変化する。まるで音楽を奏でる感覚だ」と語り、見慣れた風景に潜む変化や発見を新鮮なまなざしで見つめ続け、独自の表現へと昇華させています。スマホに溜められた写真はいわば日常を刻む時間と記憶の集積といえますが、それらがモザイク化したフォト・モンタージュとして再構成されると、躍動感ある視覚的な効果が齎されます。\n\n展示会場ではこれらの写真作品と映像作品に加え、詩人 吉増剛造との映像書簡（2023年）、アートブックシリーズ（1971～2026年）など約30点と著書を紹介します。 色彩とリズムを放つ作品の数々は、観る者それぞれが持つ概念を揺さぶり、意外な感覚と思考を誘うことでしょう。会場に流れるピアノ曲（山屋寿徳 作曲）と共にご鑑賞ください。\n\n[関連イベント]\n1. 対談ベント\n日時: 2026年10月3日14:00〜\n登壇者: 萩原朔美、飯塚花笑（映画監督）\n会場: 3Ｆホール\n料金: 700円（要事前申込み）\n2. 対談ベント\n日時: 2026年10月24日14:00〜\n登壇者: 萩原朔美、手塚眞（ヴィジュアリスト）\n会場: 3Ｆホール\n料金: 700円（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-05-30",
+      "end_date": "2027-01-24",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "044dadf07f8f",
+        "name": "萩原朔太郎記念・水と緑と詩のまち　前橋文学館",
+        "lang": null,
+        "tr": {},
+        "region": "群馬県",
+        "district": null,
+        "lat": 36.39391560006834,
+        "lng": 139.072225073576
+      },
+      "artists": [
+        {
+          "id": "3910934fe609",
+          "name": "萩原朔美",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Resonant-Images-Sakumi-Hagiwara-s-Ten-Years-in-Maebashi/maebashi-city-museum-of-literature/2026-05-30",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "c5fb9244e7b7",
+      "source": "tokyo_art_beat",
+      "title": "「LookUp」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/5JZMlNzC0AbB6UZL0GYzSa/204d0ba5e2faae2dc81c2c3fde0393a1/26_look_omote_-_goriranomori.shinkouenji.png",
+      "description": "阿佐ヶ谷美術専門学校イメージクリエイションコースの２年生による、授業の成果展示です。今回は教室とギャラリー「ゴリラの森」の二箇所で展示を実施します。2年生になって、それぞれのテーマと向き合って生まれた表現をお楽しみください。教室では同時に3年生が合宿「北塩原村アートツーリズム」を経て制作した作品も展示いたします。ぜひこの機会にご高覧ください。",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-15",
+      "end_date": "2026-07-17",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5a3c7477b5b0",
+        "name": "ゴリラの森",
+        "lang": null,
+        "tr": {},
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.69775,
+        "lng": 139.65022
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Look-Up/goriranomori/2026-07-15",
       "featured": false,
       "popularity_score": null
     }
@@ -56880,6 +57453,62 @@
       "country": "JP",
       "lat": 35.66506390470602,
       "lng": 139.72641363364363,
+      "website": null
+    },
+    {
+      "id": "71b55351615f",
+      "name": "OBG eu.",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "兵庫県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.70694049939977,
+      "lng": 135.19804827976228,
+      "website": null
+    },
+    {
+      "id": "c174f3706963",
+      "name": "ANOMALY",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "天王洲、品川",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.61916016735905,
+      "lng": 139.74660907014876,
+      "website": null
+    },
+    {
+      "id": "044dadf07f8f",
+      "name": "萩原朔太郎記念・水と緑と詩のまち　前橋文学館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "群馬県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 36.39391560006834,
+      "lng": 139.072225073576,
+      "website": null
+    },
+    {
+      "id": "5a3c7477b5b0",
+      "name": "ゴリラの森",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "武蔵野、多摩",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.69775,
+      "lng": 139.65022,
       "website": null
     }
   ],
@@ -68360,6 +68989,228 @@
     {
       "id": "1c75a283458f",
       "name": "ギルバート＆ジョージ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "59cf955ec2b3",
+      "name": "ジュリア・グラッシー",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ffa920d8428d",
+      "name": "会田誠",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8cc4fa724e7e",
+      "name": "壱弥",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2df6ef14154a",
+      "name": "池野拓哉",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fe6a3c636acd",
+      "name": "岩下徹",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "46f1f46bdd86",
+      "name": "梅村昇史",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "369f3da3866f",
+      "name": "太田豊",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8325c89990da",
+      "name": "河合ケネディ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "776a6f08cb8e",
+      "name": "栗林隆",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "27b8f44f9f09",
+      "name": "小池博史",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6fa9e17a80f0",
+      "name": "佐伯剛",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8e57b7340670",
+      "name": "坂丸弓乃",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "aa765aca4628",
+      "name": "佐藤英輔",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0a34d2cd36ee",
+      "name": "下町兄弟",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b78427cf78f5",
+      "name": "許方于",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8b3f0e736dd0",
+      "name": "津村禮次郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "02f2333f3532",
+      "name": "徳久ウィリアム",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e909e7b511bb",
+      "name": "中川俊郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "799f383b8f6c",
+      "name": "仲川真由",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a657eaf0da84",
+      "name": "中村恵介",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5ef80d50d513",
+      "name": "菜波-Nanami-",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c488f63a8c6f",
+      "name": "縫原弘子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "63914abdd3c9",
+      "name": "ノウウシャク",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fa27e0d34082",
+      "name": "樋口トモユキ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fe641c6257e7",
+      "name": "福地史人",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1a6336994be8",
+      "name": "松島誠",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3cce5739b7ac",
+      "name": "蓑田秀策",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "67021ae6f08f",
+      "name": "山上渡",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3586d6400424",
+      "name": "田中博",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ff9e19a92587",
+      "name": "Alision Helsel",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0767c1cc4b7b",
+      "name": "Arjun Shrestha",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "643a49a2c226",
+      "name": "Althea Carlin",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a93de9467a2e",
+      "name": "Sasha McCarthy",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f2513889ad05",
+      "name": "Yu Wu",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0028dc08c6c2",
+      "name": "Mengyu Xu",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1fe49c45d5be",
+      "name": "May Myanmar Myo Thant",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3910934fe609",
+      "name": "萩原朔美",
       "lang": null,
       "tr": {}
     }
