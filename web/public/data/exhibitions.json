@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T17:48:32.693269+00:00",
+  "generated_at": "2026-07-10T19:55:32.987503+00:00",
   "exhibitions": [
     {
       "id": "da49addcd28e",
@@ -39940,7 +39940,7 @@
       "price_max": null,
       "start_date": "2026-07-10",
       "end_date": "2026-07-19",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5e7cd386d448",
@@ -47329,7 +47329,7 @@
       "price_max": null,
       "start_date": "2026-07-10",
       "end_date": "2026-07-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "682d65a7e00b",
@@ -47455,7 +47455,7 @@
       "price_max": null,
       "start_date": "2026-07-10",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "20a327dfbcf7",
@@ -48242,7 +48242,7 @@
       "price_max": null,
       "start_date": "2026-07-10",
       "end_date": "2026-08-01",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "70fc6a303ab0",
@@ -50311,7 +50311,7 @@
       "price_max": null,
       "start_date": "2026-07-07",
       "end_date": "2026-07-09",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "273602e093af",
@@ -50511,7 +50511,7 @@
       "price_max": null,
       "start_date": "2026-07-10",
       "end_date": "2026-07-29",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "fd184af3d277",
@@ -51074,7 +51074,7 @@
       "price_max": null,
       "start_date": "2026-07-10",
       "end_date": "2026-07-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "e09e185c5fa8",
@@ -51488,7 +51488,7 @@
       "price_max": null,
       "start_date": "2026-07-10",
       "end_date": "2026-08-02",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "611213123c00",
@@ -51640,8 +51640,15 @@
       "venue": {
         "id": "71b55351615f",
         "name": "OBG eu.",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "OBG eu."
+          },
+          "ja": {
+            "name": "OBG eu."
+          }
+        },
         "region": "兵庫県",
         "district": null,
         "lat": 34.70694049939977,
@@ -51680,8 +51687,15 @@
       "venue": {
         "id": "c174f3706963",
         "name": "ANOMALY",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "ANOMALY"
+          },
+          "ja": {
+            "name": "ANOMALY"
+          }
+        },
         "region": "天王洲、品川",
         "district": null,
         "lat": 35.61916016735905,
@@ -52052,7 +52066,7 @@
       "price_max": null,
       "start_date": "2026-07-10",
       "end_date": "2026-07-19",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "6274759d888d",
@@ -52073,8 +52087,14 @@
       },
       "artists": [
         {
-          "id": "ff9e19a92587",
-          "name": "Alision Helsel",
+          "id": "0f5b7893e461",
+          "name": "Alison Flores",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "643a49a2c226",
+          "name": "Althea Carlin",
           "lang": null,
           "tr": {}
         },
@@ -52085,8 +52105,20 @@
           "tr": {}
         },
         {
-          "id": "643a49a2c226",
-          "name": "Althea Carlin",
+          "id": "f43a76102762",
+          "name": "Gage Helsel",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1fe49c45d5be",
+          "name": "May Myanmar Myo Thant",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0028dc08c6c2",
+          "name": "Mengyu Xu",
           "lang": null,
           "tr": {}
         },
@@ -52099,18 +52131,6 @@
         {
           "id": "f2513889ad05",
           "name": "Yu Wu",
-          "lang": null,
-          "tr": {}
-        },
-        {
-          "id": "0028dc08c6c2",
-          "name": "Mengyu Xu",
-          "lang": null,
-          "tr": {}
-        },
-        {
-          "id": "1fe49c45d5be",
-          "name": "May Myanmar Myo Thant",
           "lang": null,
           "tr": {}
         }
@@ -52140,8 +52160,15 @@
       "venue": {
         "id": "044dadf07f8f",
         "name": "萩原朔太郎記念・水と緑と詩のまち　前橋文学館",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "하기와라 사쿠타로 기념・미즈토 미도리토 시노 마치 마에바시 문학관"
+          },
+          "en": {
+            "name": "Hagiwara Sakutaro Memorial, City of Water, Greenery, and Poetry, Maebashi Museum of Literature"
+          }
+        },
         "region": "群馬県",
         "district": null,
         "lat": 36.39391560006834,
@@ -52180,8 +52207,15 @@
       "venue": {
         "id": "5a3c7477b5b0",
         "name": "ゴリラの森",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "고릴라의 숲"
+          },
+          "en": {
+            "name": "Gorilla Forest"
+          }
+        },
         "region": "武蔵野、多摩",
         "district": null,
         "lat": 35.69775,
@@ -52189,6 +52223,327 @@
       },
       "artists": [],
       "source_url": "https://www.tokyoartbeat.com/events/-/Look-Up/goriranomori/2026-07-15",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "dbd049f4e4a2",
+      "source": "tokyo_art_beat",
+      "title": "「echoes of impression — 光、時間、三つの技法 —」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3M2v76oMt5UdmH72DKWfL0/1212989fbaa3ac10571b40e20b424877/580fae3b-83f6-48ea-8915-443fecc92e8e.png",
+      "description": "アートスペース「月だいたい八日」にて、3人の実力派作家によるグループ展『echoes of impression — 光、時間、三つの技法 —』を7月19日（日）より開催！〜かつてそこにあった光と時間が、写真・版画・建築的視点という独自の表現手法を通して今、響き合う〜アートスペース「月だいたい八日」（神奈川県横須賀市田浦町）は、2026年7月19日（日）から8月2日（日）まで、勝又公仁彦、中村花絵、青野昭子の3名によるグループ展『echoes of impression — 光、時間、三つの技法 —』を週末（土・日）限定で開催いたします。私たちは日々、無数の「光」と「時間」の中に生きています。しかしそれらは、一瞬で過ぎ去り、目には見えなくなってしまうものです。本展は、その目に見えないはずの一瞬を、写真・版画・建築的視点という独自の「技法」によって物質へと定着させる3人の作家による、瑞々しい表現の響き合い（echoes）を体感する試みです。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-19",
+      "end_date": "2026-08-02",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "eccc611ad904",
+        "name": "アートスペース　月だいたい八日",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "아트 스페이스 츠키 다이타이 요카"
+          },
+          "en": {
+            "name": "Art Space Tsuki Daitai Yoka"
+          }
+        },
+        "region": "神奈川県",
+        "district": null,
+        "lat": 35.28984608402615,
+        "lng": 139.63478750744108
+      },
+      "artists": [
+        {
+          "id": "88f6b743ede7",
+          "name": "勝又公仁彦",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "977b2496158a",
+          "name": "中村花絵",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "7457ead8a67e",
+          "name": "青野昭子",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Echoes-of-Impression/tsuki-hachi-gallery/2026-07-19",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "ef948f7c95c3",
+      "source": "tokyo_art_beat",
+      "title": "やたなつき 「空点をみつめる眼」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/5KnT11v7h4WkcnTPgaFyrj/5ad8a1e60845c9847bf2b02b25ba9eeb/05351c0f-f50f-49de-a87d-6e2a7adf6fbe.jpg",
+      "description": "このたびギャラリー・ソラリスにて、やたなつき個展『空点をみつめる眼』を開催いたします。やたは在学中より「捉え難いものごとの表現」をテーマに様々な素材を用いて制作に取り組んできました。本展では、「前ボケ」と「後ボケ」の複雑な絡み合いに着目した写真シリーズ〈空点〉を発表します。本シリーズではレンズの焦点を空中に置き、はっきりと写る被写体を取り去ることで、ボケだけを用いた画面構成を試みています。本展のタイトル『空点をみつめる眼』は、この焦点を空中に置く撮影方法を示しています。はっきりとした形や意味を求める人の眼では捉えきれない世界を、カメラの眼は見ている。その視野の鑑賞はきっと、私たちが普段見過ごしている世界への想像力を膨らませ、見るという行為そのものをあらためて意識させてくれるでしょう。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-21",
+      "end_date": "2026-07-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "bad41612e0e3",
+        "name": "ギャラリー・ソラリス",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 솔라리스"
+          },
+          "en": {
+            "name": "Gallery Solaris"
+          }
+        },
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.67689,
+        "lng": 135.5031
+      },
+      "artists": [
+        {
+          "id": "df9f534ec4af",
+          "name": "やたなつき",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Natsuki-Yata-Exhibition/gallery-solaris/2026-07-21",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "ecdee7d31342",
+      "source": "tokyo_art_beat",
+      "title": "「特別展示『JP IN CONSTRUCTION 2 - 写真家鈴木弘之に魅えた東京中央郵便局』」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/C1X4Tc4ThHBUUU0FzbCZY/fffd5fee932a4414df023251c89bf59a/JP_IN_CONSTRUCTION_2.jpeg",
+      "description": "本展示は、前回特別公開として行った「JP in Construction - 旧東京中央郵便局からインターメディアテクまで」を再編したものである。今回は新たに写真家の鈴木弘之氏を迎え、特別展示「JP in Construction 2 - 写真家鈴木弘之に魅えた東京中央郵便局」と改題した。これまでの旧東京中央郵便局の建設写真を改めて選別し、鈴木氏の写真約30点を加えたコラボレーションによる写真展となる。セピアに見る「記録／記憶」と現代写真家による「美学」、それぞれに切り取られた瞬間の幾何学的な背後に広がる時間と情緒を感じることができるであろう。\n\n鈴木弘之の被写体となるのは、主に大規模建造物に関わる工事現場である。それは都市のランドマークとして、あるいは社会のインフラとして、人々の生活さらには人生を支える機能的公共物であるにもかかわらず、関係者でない者が未完の情景を垣間見ることはできない。およそ分かるかぎりは、突然に空が広がり、気づけば忽然と巨大な建造物が姿を現す、くらいであろう。しかし、その閉ざされた時空間に一歩足を踏み入れると、張りつめた緊張感と静寂とのはざまに、地球という土層と向き合っている事実を呼び覚ます。言い換えるなら、コンクリートと鉄と土とが混じり合い、地表に築き上げる人間の営みは、都市空間では忘れてしまいそうな自然との対峙なのである。\n2009年から始まった東京中央郵便局を含む一帯の工事現場では、それが完成する2013年までの4年にわたり、鈴木は幾度となく現場に赴き、数千枚におよぶ写真を撮った。そこには、技術的な様相こそ違えど昭和初期の旧東京中央郵便局の建設記録写真と変わらない光景がある。彼の感性が見る工事現場の「刹那」とは、廃墟的ノスタルジーではなく、物質が発する「威容な塊と全貌のない姿とその営みにある意思」に魅せられた美学であり、次代に向けた「建設的」なメッセージなのではないか。1枚の紙に収められたモノクロームによる芸術的な構図には、時に抱えきれないほどの量感と情感を宿していることさえも思い出させてくれる。\n\n主催：東京大学総合研究博物館",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-28",
+      "end_date": "2026-10-04",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "65e91b43fb96",
+        "name": "インターメディアテク",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "인터미디어테크"
+          },
+          "en": {
+            "name": "Intermediatheque"
+          }
+        },
+        "region": "銀座、丸の内",
+        "district": null,
+        "lat": 35.68008384141515,
+        "lng": 139.7646841816143
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Special-Exhibition-JP-IN-CONSTRUCTION-2-The-Tokyo-Central-Post-Office-Through-the-Lens-of-Photographer-Hiroyuki-Suzuki/B3279-C43/2026-07-28",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "a20c5cb54b0e",
+      "source": "tokyo_art_beat",
+      "title": "広谷勇樹 「半分は、全と一」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/6AzmoNs1oEwS6gAl7rSYNJ/4ca8b473ed4b9a18952a3cc01ecbb9d2/7abb78ff-7c65-4be2-b26b-e128ac3e3ff0.jpg",
+      "description": "触れるもの、触感という感覚的なものを視覚的に切り取る表現を追求している、新進気鋭の作家の展示を2週間にわたって行います。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-17",
+      "end_date": "2026-08-02",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "2a62e9ca0c7d",
+        "name": "銀座アポロ昭和館YOHAKU",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "긴자 아폴로 쇼와칸 YOHAKU"
+          },
+          "en": {
+            "name": "Ginza Apollo Showakan YOHAKU"
+          }
+        },
+        "region": "銀座、丸の内",
+        "district": null,
+        "lat": 35.669742825895874,
+        "lng": 139.76759655952455
+      },
+      "artists": [
+        {
+          "id": "9fef682b425b",
+          "name": "広谷勇樹",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yuki-Hirotani-Half-Whole-and-One/yohaku/2026-07-17",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "133c99fd04c3",
+      "source": "tokyo_art_beat",
+      "title": "「希望（HOPE）～みんなで考える動物の未来～」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/2CGMW6zrBnaf2jhpJrdmBu/09f23fe78f87279ca3e6c8bcd270a209/main__2_.jpg",
+      "description": "夏休み自由研究向け写真展、世界・日本をフィールドに活動する自然写真家9名による「希望（HOPE） ～みんなで考える動物の未来～」を開催いたします。\n写真家たちは、各地で野生動物を撮影する中で、動物たちにとって自然環境が「危機的な状況」であることを身をもって感じています。一方、さまざまな手段でそこに暮らす動物や生息環境を守ろうとする人々の活動によって、生息数の拡大や自然環境の回復などの一定の成果も目撃してきました。写真家たちは、今自分たちに見えている世界がそうしたさまざまな努力の上に成り立っている貴重なものであることを知り、そのかけがえのない瞬間が一番美しく見えるように撮影を心掛けています。\n野生動物とその生息環境の保全は、簡単にできるものではありませんが、人間が行動を起こさなければ動物たちの数がますます減っていくことが危惧されています。環境問題というと難しい印象を抱きますが、野生動物の「希望」の側面に光を当てた写真展を通して、まずは世界が動物や生息環境のために何をしているかを知っていただき、厳しい環境下でも懸命に生きる動物たちの作品群から、未来へのメッセージを受け取ってください。そして、SDGsで掲げられている目標とターゲットから、自分には何ができるのかを一人ひとりにポジティブに考えて、そして実行していただくきっかけになれば幸いです。\n\n[関連イベント]\nトークイベント\n①北極と南極、厳しい環境に生きる動物\n日時: 7月19日13:00〜14:00\n講師: 大竹英洋、香川美穂\n②人の近くで暮らしている動物\n日時: 7月19日15:30〜16:30\n講師: 一関さやか、大島淳之\n③「守る」ってどういうこと？人気動物の現在\n日時: 7月20日13:00〜14:00\n講師: 中村惠美、山田耕熙\n④神秘の世界、熱帯雨林の動物\n日時: 7月20日15:30〜16:30\n講師: 篠田岬輝、山口大志\n※ すべて事前申込制（先着順）・各回定員120名\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-17",
+      "end_date": "2026-08-05",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "abce1dc801c6",
+        "name": "富士フイルムフォトサロン大阪",
+        "lang": null,
+        "tr": {},
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.68409,
+        "lng": 135.5041
+      },
+      "artists": [
+        {
+          "id": "98f8808d6643",
+          "name": "一関さやか",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "30092673f585",
+          "name": "大島淳之",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "7329e7105b6f",
+          "name": "大竹英洋",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "520b098d1bd0",
+          "name": "香川美穂",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "996ccfe8c6ea",
+          "name": "柏倉陽介",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "acd392a397be",
+          "name": "篠田岬輝",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "시노다 미사키"
+            },
+            "en": {
+              "name": "Shinoda Misaki"
+            }
+          }
+        },
+        {
+          "id": "a87fc2e41392",
+          "name": "中村惠美",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "cab2e08c8688",
+          "name": "山口大志",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "7cb02e9c31ea",
+          "name": "山田耕熙",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hope-Future-of-Animals/fujifilm-photosalon-osaka/2026-07-17",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "768d30bd9ff9",
+      "source": "tokyo_art_beat",
+      "title": "「なつやすみの美術館16 もしも“美術”がなかったら」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/66cC81Jqkgy7o26AwXFVQp/ce6e6331be4ba9841f70370691093861/036109de-f691-4a9a-a0a4-d667c1b5ae75.png",
+      "description": "こどもも大人も一緒に楽しめる「なつやすみの美術館」は、さまざまな視点から美術との新たな関わりを結んでいただく機会として、2011年より継続して開催しています。16回目の今回は「もしも“美術”がなかったら」という問いをきっかけに、私たちにとっての美術と美術館の関係について、みなさんと考えてみたいと思います。美術館は、その名の通り、“美術”の館です。私たちが美術を見て、楽しんで、そして学ぶために作られた、身近だけれども特別な場所です。美術館に集められている作品のなかには、額に入った絵画や台座に載った彫刻だけでなく、バラエティ豊かな形式のものがありますが、この「館」に展示されることで、私たちはそれらを美術作品として捉えるところから出発します。しかし一度立ち止まってみると、美術作品も、ひとつのモノ。色やかたちがあり、美しかったり、あるいは堂々としていたりもしますが、そういったものは美術作品以外にもたくさんあります。では、私たちが“美術”と呼ぶものの正体は、一体なんでしょうか。もしも“美術”がなかったら、きっとその存在がなくなってしまう“美術”の館で、“美術作品”を通して考えることはできるでしょうか。みなさんの答えを探しに来てください。学校の先生たちと一緒に作っているワークシートも準備して、なつやすみの“美術”館でお待ちしています。\n\n[関連イベント]\n1. 学芸員によるギャラリートーク\n日時: 2026年7月19日、8月23日、9月12日14:00〜（1時間程度）\n会場: 展示室\n料金: 無料（事前申込み不要）\n2. たまごせんせいとわくわくアートツアー（和歌山大学美術館部による鑑賞ガイド）\n日時: 2026年8月12日〜8月16日11:00〜、13:30〜、15:00〜（45分〜1時間程度）\n会場: 展示室\n料金: 無料（事前申込み不要）\n3. こども美術館部（小学生を対象とした美術鑑賞会）「ここはキンダイカン？」\n日時: 2026年9月5日、9月6日11:00〜（1時間程度）\n会場: 展示室にて\n料金: 無料（要事前申込み）（各日先着6名程度）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-11",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "b3d3b58939ea",
+        "name": "和歌山県立近代美術館",
+        "lang": null,
+        "tr": {},
+        "region": "和歌山県",
+        "district": null,
+        "lat": 34.22507036143428,
+        "lng": 135.1712842400259
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Summer-Museum-16-If-We-Had-No-Art/637-D1207/2026-07-11",
       "featured": false,
       "popularity_score": null
     }
@@ -57608,8 +57963,15 @@
     {
       "id": "71b55351615f",
       "name": "OBG eu.",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "OBG eu."
+        },
+        "ja": {
+          "name": "OBG eu."
+        }
+      },
       "venue_type": "other",
       "region": "兵庫県",
       "district": null,
@@ -57622,8 +57984,15 @@
     {
       "id": "c174f3706963",
       "name": "ANOMALY",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "ANOMALY"
+        },
+        "ja": {
+          "name": "ANOMALY"
+        }
+      },
       "venue_type": "other",
       "region": "天王洲、品川",
       "district": null,
@@ -57636,8 +58005,15 @@
     {
       "id": "044dadf07f8f",
       "name": "萩原朔太郎記念・水と緑と詩のまち　前橋文学館",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "하기와라 사쿠타로 기념・미즈토 미도리토 시노 마치 마에바시 문학관"
+        },
+        "en": {
+          "name": "Hagiwara Sakutaro Memorial, City of Water, Greenery, and Poetry, Maebashi Museum of Literature"
+        }
+      },
       "venue_type": "other",
       "region": "群馬県",
       "district": null,
@@ -57650,8 +58026,15 @@
     {
       "id": "5a3c7477b5b0",
       "name": "ゴリラの森",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "고릴라의 숲"
+        },
+        "en": {
+          "name": "Gorilla Forest"
+        }
+      },
       "venue_type": "other",
       "region": "武蔵野、多摩",
       "district": null,
@@ -57659,6 +58042,55 @@
       "country": "JP",
       "lat": 35.69775,
       "lng": 139.65022,
+      "website": null
+    },
+    {
+      "id": "65e91b43fb96",
+      "name": "インターメディアテク",
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "인터미디어테크"
+        },
+        "en": {
+          "name": "Intermediatheque"
+        }
+      },
+      "venue_type": "other",
+      "region": "銀座、丸の内",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.68008384141515,
+      "lng": 139.7646841816143,
+      "website": null
+    },
+    {
+      "id": "abce1dc801c6",
+      "name": "富士フイルムフォトサロン大阪",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "大阪府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.68409,
+      "lng": 135.5041,
+      "website": null
+    },
+    {
+      "id": "b3d3b58939ea",
+      "name": "和歌山県立近代美術館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "和歌山県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.22507036143428,
+      "lng": 135.1712842400259,
       "website": null
     }
   ],
@@ -69352,12 +69784,6 @@
       "tr": {}
     },
     {
-      "id": "ff9e19a92587",
-      "name": "Alision Helsel",
-      "lang": null,
-      "tr": {}
-    },
-    {
       "id": "0767c1cc4b7b",
       "name": "Arjun Shrestha",
       "lang": null,
@@ -69396,6 +69822,96 @@
     {
       "id": "3910934fe609",
       "name": "萩原朔美",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "88f6b743ede7",
+      "name": "勝又公仁彦",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "977b2496158a",
+      "name": "中村花絵",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7457ead8a67e",
+      "name": "青野昭子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "df9f534ec4af",
+      "name": "やたなつき",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9fef682b425b",
+      "name": "広谷勇樹",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "98f8808d6643",
+      "name": "一関さやか",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "30092673f585",
+      "name": "大島淳之",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7329e7105b6f",
+      "name": "大竹英洋",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "520b098d1bd0",
+      "name": "香川美穂",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "996ccfe8c6ea",
+      "name": "柏倉陽介",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a87fc2e41392",
+      "name": "中村惠美",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "cab2e08c8688",
+      "name": "山口大志",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7cb02e9c31ea",
+      "name": "山田耕熙",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0f5b7893e461",
+      "name": "Alison Flores",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f43a76102762",
+      "name": "Gage Helsel",
       "lang": null,
       "tr": {}
     }
