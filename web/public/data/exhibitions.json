@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T16:48:54.070155+00:00",
+  "generated_at": "2026-07-11T19:22:00.156035+00:00",
   "exhibitions": [
     {
       "id": "da49addcd28e",
@@ -25432,7 +25432,7 @@
       "price_max": null,
       "start_date": "2026-07-11",
       "end_date": "2026-09-23",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "28cc5409571a",
@@ -37203,7 +37203,7 @@
       "price_max": 0,
       "start_date": "2026-04-29",
       "end_date": "2026-07-10",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": "화~일요일 10:00~18:00",
       "venue": {
         "id": "9d723341ee22",
@@ -40214,7 +40214,7 @@
       "price_max": null,
       "start_date": "2026-07-11",
       "end_date": "2026-07-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ae76d9da9938",
@@ -46131,7 +46131,7 @@
       "price_max": null,
       "start_date": "2026-07-11",
       "end_date": "2026-07-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "50bfb163ce9a",
@@ -46196,7 +46196,7 @@
       "price_max": null,
       "start_date": "2026-07-11",
       "end_date": "2026-08-22",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "b23ad86a03d6",
@@ -49015,7 +49015,7 @@
       "price_max": null,
       "start_date": "2026-07-11",
       "end_date": "2026-08-30",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "0c605605ba68",
@@ -50894,7 +50894,7 @@
       "price_max": null,
       "start_date": "2026-07-11",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "0e7352f39f1c",
@@ -51161,7 +51161,7 @@
       "price_max": null,
       "start_date": "2026-07-11",
       "end_date": "2026-08-02",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "a73c1e8f418e",
@@ -52530,7 +52530,7 @@
       "price_max": null,
       "start_date": "2026-07-11",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "b3d3b58939ea",
@@ -52544,6 +52544,53 @@
       },
       "artists": [],
       "source_url": "https://www.tokyoartbeat.com/events/-/Summer-Museum-16-If-We-Had-No-Art/637-D1207/2026-07-11",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "584e94c48f7f",
+      "source": "tokyo_art_beat",
+      "title": "「754GALLERY オープニングパーティ」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/Zke7QgDRKZo5gficeUu3P/97c131c9590d1d64c093fc016da2b719/S__2457694_0.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-24",
+      "end_date": "2026-07-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "3ffcaad95ee9",
+        "name": "754GALLERY",
+        "lang": null,
+        "tr": {},
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.630591611053504,
+        "lng": 139.69365632638932
+      },
+      "artists": [
+        {
+          "id": "defd723b6c56",
+          "name": "名越啓介",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나고시 케이스케"
+            },
+            "en": {
+              "name": "Keisuke Nagoshi"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/754-Gallery-Opening-Party/754gallery/2026-07-24",
       "featured": false,
       "popularity_score": null
     }
@@ -58091,6 +58138,20 @@
       "country": "JP",
       "lat": 34.22507036143428,
       "lng": 135.1712842400259,
+      "website": null
+    },
+    {
+      "id": "3ffcaad95ee9",
+      "name": "754GALLERY",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "世田谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.630591611053504,
+      "lng": 139.69365632638932,
       "website": null
     }
   ],
