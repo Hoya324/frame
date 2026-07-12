@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T16:57:54.860016+00:00",
+  "generated_at": "2026-07-12T19:30:15.464810+00:00",
   "exhibitions": [
     {
       "id": "da49addcd28e",
@@ -17209,7 +17209,7 @@
       "price_max": null,
       "start_date": "2026-05-22",
       "end_date": "2026-07-11",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": "月－土 11:00－18:00 / 日・祝休館",
       "venue": {
         "id": "b9a5f994c6d3",
@@ -21642,7 +21642,7 @@
       "price_max": null,
       "start_date": "2026-06-04",
       "end_date": "2026-07-11",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "8004898c1a17",
@@ -39427,7 +39427,7 @@
       "price_max": null,
       "start_date": "2026-07-06",
       "end_date": "2026-07-11",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "57bd0e5ca649",
@@ -40286,7 +40286,7 @@
       "price_max": null,
       "start_date": "2026-06-20",
       "end_date": "2026-07-11",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "5a30eb6b8f44",
@@ -41873,7 +41873,7 @@
       "price_max": null,
       "start_date": "2026-06-24",
       "end_date": "2026-07-11",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "570a138ba22a",
@@ -44090,7 +44090,7 @@
       "price_max": null,
       "start_date": "2026-06-24",
       "end_date": "2026-07-11",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "93d9c4db79f3",
@@ -45570,7 +45570,7 @@
       "price_max": null,
       "start_date": "2026-06-29",
       "end_date": "2026-07-11",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "b421867c34c6",
@@ -49197,7 +49197,7 @@
       "price_max": null,
       "start_date": "2026-07-06",
       "end_date": "2026-07-11",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "b9dd092bd850",
