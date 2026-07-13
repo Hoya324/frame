@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T19:52:21.399222+00:00",
+  "generated_at": "2026-07-13T20:27:37.509371+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -26274,8 +26274,15 @@
         {
           "id": "fbd724e5306f",
           "name": "田川基成",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "다가와 모토나리"
+            },
+            "en": {
+              "name": "Tagawa Motonari"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Motonari-Tagawa-Hokkaido-Prospects/purple/2026-05-20",
@@ -52694,8 +52701,15 @@
       "venue": {
         "id": "1965a1933c75",
         "name": "K Art Gallery",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "K 아트 갤러리"
+          },
+          "ja": {
+            "name": "Kアートギャラリー"
+          }
+        },
         "region": "表参道、青山",
         "district": null,
         "lat": 35.66460629685398,
@@ -52740,8 +52754,15 @@
       "venue": {
         "id": "615674c05f55",
         "name": "Yoru Aozora",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Yoru Aozora"
+          },
+          "ja": {
+            "name": "Yoru Aozora"
+          }
+        },
         "region": "表参道、青山",
         "district": null,
         "lat": 35.6644,
@@ -52886,8 +52907,15 @@
       "venue": {
         "id": "53ae06594f79",
         "name": "セゾンアートショップ",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "세존 아트 숍"
+          },
+          "en": {
+            "name": "Sezon Art Shop"
+          }
+        },
         "region": "神奈川県",
         "district": null,
         "lat": 35.45798149719431,
@@ -52933,8 +52961,15 @@
       "venue": {
         "id": "e0958f6f5315",
         "name": "MIKKAL Gallery",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "MIKKAL Gallery"
+          },
+          "ja": {
+            "name": "MIKKAL Gallery"
+          }
+        },
         "region": "世田谷",
         "district": null,
         "lat": 35.66906,
@@ -58597,8 +58632,15 @@
     {
       "id": "1965a1933c75",
       "name": "K Art Gallery",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "K 아트 갤러리"
+        },
+        "ja": {
+          "name": "Kアートギャラリー"
+        }
+      },
       "venue_type": "gallery",
       "region": "表参道、青山",
       "district": null,
@@ -58611,8 +58653,15 @@
     {
       "id": "615674c05f55",
       "name": "Yoru Aozora",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "Yoru Aozora"
+        },
+        "ja": {
+          "name": "Yoru Aozora"
+        }
+      },
       "venue_type": "other",
       "region": "表参道、青山",
       "district": null,
@@ -58625,8 +58674,15 @@
     {
       "id": "53ae06594f79",
       "name": "セゾンアートショップ",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "세존 아트 숍"
+        },
+        "en": {
+          "name": "Sezon Art Shop"
+        }
+      },
       "venue_type": "other",
       "region": "神奈川県",
       "district": null,
@@ -58639,8 +58695,15 @@
     {
       "id": "e0958f6f5315",
       "name": "MIKKAL Gallery",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "MIKKAL Gallery"
+        },
+        "ja": {
+          "name": "MIKKAL Gallery"
+        }
+      },
       "venue_type": "gallery",
       "region": "世田谷",
       "district": null,
@@ -62184,8 +62247,15 @@
     {
       "id": "fbd724e5306f",
       "name": "田川基成",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "다가와 모토나리"
+        },
+        "en": {
+          "name": "Tagawa Motonari"
+        }
+      }
     },
     {
       "id": "eef7eabfee72",
