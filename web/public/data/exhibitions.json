@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T17:25:24.162704+00:00",
+  "generated_at": "2026-07-15T19:37:05.865577+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -42145,7 +42145,7 @@
       "price_max": null,
       "start_date": "2026-07-09",
       "end_date": "2026-07-14",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "b4255c9d988c",
@@ -45315,7 +45315,7 @@
       "price_max": null,
       "start_date": "2026-06-25",
       "end_date": "2026-07-14",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "8b8bf1f13f39",
@@ -46970,7 +46970,7 @@
       "price_max": null,
       "start_date": "2026-07-02",
       "end_date": "2026-07-14",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "33e2eeae1f83",
@@ -48744,7 +48744,7 @@
       "price_max": null,
       "start_date": "2026-07-15",
       "end_date": "2026-08-01",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "1ab862183c75",
@@ -50725,7 +50725,7 @@
       "price_max": null,
       "start_date": "2026-07-15",
       "end_date": "2026-07-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "9fbf48300096",
@@ -50871,7 +50871,7 @@
       "price_max": null,
       "start_date": "2026-07-15",
       "end_date": "2026-07-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ce8764530297",
@@ -52290,7 +52290,7 @@
       "price_max": null,
       "start_date": "2026-07-15",
       "end_date": "2026-07-17",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5a3c7477b5b0",
@@ -54235,6 +54235,699 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Yasutomo-Ebisu-A-Whole-California-Anthology-1993-2025/seikosha/2026-07-16",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "4ef5c92461ad",
+      "source": "gallery_now",
+      "title": "<빛으로 물든 날들> 강지현 개인전",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://blogthumb.pstatic.net/MjAyNjA3MTVfMTgz/MDAxNzg0MTAzNDExODM3.MD4xogL_KlTFbYeFBkMA24Z3uPUQA4cLhZpnuUS6OZwg.Rl1ypWKRjN8m1bmCPBHQRkpFUwb1y0523PzxkZHPKxog.JPEG/%B0%AD%C1%F6%C7%F6_%C7%AA%B8%A5_%B9%B0%B0%E1_%C0%E5%C1%F6%BF%A1_%B8%D4%2C_%BA%D0%C3%A4%2C_%B0%FA%BD%B4_162.2x390.9cm_2026%28100%C8%A3_3%C1%A1%29.jpg?type=s3",
+      "description": null,
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-24",
+      "end_date": "2026-08-15",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "b3002506ba4c",
+        "name": "gallery NoW",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "gallery NoW"
+          },
+          "ja": {
+            "name": "gallery NoW"
+          }
+        },
+        "region": "서울",
+        "district": null,
+        "lat": 37.5227599286117,
+        "lng": 127.034970463533
+      },
+      "artists": [],
+      "source_url": "https://blog.naver.com/gallerynow/224347608738",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "0bfbdc591a47",
+      "source": "tokyo_art_beat",
+      "title": "「日本経済新聞社 創刊150周年記念 ザ・ファミリー・オブ・マン写真展 人類愛と平和のビジョンを、いま再び」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/zWJCNuEyL2GkVcR5HnfEY/09db7f2023826b55f38e8df7b5b917e9/9bwdqut1hhnujj8g-678c9b243058b23c3b7a1709629ac129.jpg",
+      "description": "1956年、日本橋高島屋において日本経済新聞社主催で開催された写真展「ザ・ファミリー・オブ・マン」。ロバート･キャパ、ユージン・スミス、アンリ・カルティエ=ブレッソンをはじめとする世界的写真家の作品約500点で構成された同展は、｢人類愛と平和｣という普遍的な理念を戦後日本に強く印象づけ、国内で100万人におよぶ来場者を集める社会的現象となりました。\nそれから70年。写真史に名を刻んだこの展覧会がオリジナルから厳選した約115点により回顧展として現代に蘇ります。2027年に日本・ルクセンブルク外交関係樹立100周年を迎えることを記念し、オリジナルの理念を踏まえつつ、現代の視点から応答する作品として、ルクセンブルクの写真家および日本経済新聞社の写真記者による作品も展示します。\n世界各地で撮影された数々の人生の断片は、時代や国境を越えて私たちに静かに問いかけます。分断や不安が広がる現代において、この問いは過去の理想ではありません。写真たちが語るのは、過去の歴史ではなく、いまを生きる私たちへの問いなのです。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-12",
+      "end_date": "2026-08-24",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "432d5e28e354",
+        "name": "日本橋髙島屋 8階ホール",
+        "lang": null,
+        "tr": {},
+        "region": "京橋、日本橋",
+        "district": null,
+        "lat": 35.68076104900549,
+        "lng": 139.7735459965412
+      },
+      "artists": [
+        {
+          "id": "6cf6f3a880fc",
+          "name": "ウィン・バロック",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a80aa3be3142",
+          "name": "ロバート・キャパ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "2adcc1c7133e",
+          "name": "ヴェルナー・ビショフ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d03a5a9fac03",
+          "name": "アルフレッド・アイゼンスタット",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "88dde006783d",
+          "name": "ニーナ・リーン",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "47a9896b94f0",
+          "name": "ジョン・フロレア",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b0edf3cd8547",
+          "name": "山端庸介",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "fd9efc94092f",
+          "name": "W．ユージン・スミス",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/The-Family-of-Man/7-D84-FB-67/2026-08-12",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "2517e6a6fa66",
+      "source": "tokyo_art_beat",
+      "title": "楢林洋介 「砂はつもり 水は流れる その2」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/TxaPyfazyBcPjEsAOwWxU/2c92393d24f1eec5bf753f403c2b1155/919ee8ef-007e-4181-adaa-888f3ec8c1b8.jpeg",
+      "description": "モノクロフイルムで撮り溜めた風景からの手焼きプリントです。時代や場所が違っても、心を震わせる情景にはどこか共通点がある。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-29",
+      "end_date": "2026-08-02",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "53e623af9813",
+        "name": "大入庵",
+        "lang": null,
+        "tr": {},
+        "region": "東京：その他",
+        "district": null,
+        "lat": 35.73744,
+        "lng": 139.6852
+      },
+      "artists": [
+        {
+          "id": "ddb032a6245c",
+          "name": "楢林洋介",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yosuke-Narabayashi-Exhibition/oiri-an/2026-07-29",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "fbcdafb3e89e",
+      "source": "tokyo_art_beat",
+      "title": "「田中達也展 みたてのくみたて MINIATURE LIFE・MITATE MIND」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4snd0O7NvyvwFHoLK3zWOv/e54dfe928d2ac0893b23b08f7433a735/chirashi_omote_1.png.jpeg",
+      "description": "国内外で約320万人が来場した「MINIATURE LIFE展」の新しい展覧会が沖縄県立博物館・美術館にやってきます。「田中達也展 みたてのくみたて」は、［HOME］［FORM］［COLOR］［SCALE］［MOTION］［LIFE］［WORLD］と7つのゾーンにわけ、それぞれの角度から、田中達也の発想の秘密を、写真と立体あわせて約160点の作品で解き明かします。フォトスポットになる大きなオブジェ、大人気絵本のキャラクターも新登場！写真撮影だけでなく、楽しく参加できる展覧会です。\n\n場所: 企画ギャラリー1，企画ギャラリー2\n\n[関連イベント]\nサイン会\n日時: 7月18日（土）11:00～ / 14:00～\n※要整理券、申込不要、参加費無料\n※整理券は、グッズコーナーで書籍を購入頂いたお客様先着50名に配布します。\n※お一人様1冊限り。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-18",
+      "end_date": "2026-09-06",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "23f40e544ba9",
+        "name": "沖縄県立博物館・美術館",
+        "lang": null,
+        "tr": {},
+        "region": "沖縄県",
+        "district": null,
+        "lat": 26.22745918191436,
+        "lng": 127.69394349037685
+      },
+      "artists": [
+        {
+          "id": "598ce84a3f31",
+          "name": "田中達也",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "다나카 타츠야"
+            },
+            "en": {
+              "name": "Tatsuya Tanaka"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Tatsuya-Tanaka-Miniature-Life-/-Mitate-Mind/2455-D679/2026-07-18",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "a790882aa1c2",
+      "source": "tokyo_art_beat",
+      "title": "「私は私を取り戻したい-Reclaiming Myself」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/Wa1gdWX4FonxfRC0fyR8X/483861eaa682dc9434eb122bb2deabb1/DMReclaimingMyself2.jpg",
+      "description": "女性として、妻として、母として。私たちはさまざまな役割を纏いながら生きる中で、ときに「私」の輪郭を見失ってしまう。本展は、三人の女性作家による、愛・自由・光を救い（＝掬い）とる写真展である。この展示が、暗闇でもあなた自身を見失わないための、静かで優しい居場所となれば幸いです。\n\n[関連イベント]\n1. ギャラリートーク1\n日時: 2026年8月1日14:00〜\n登壇者: 澄毅（写真家・美術家 / HILL TOP GALLERY 代表）\n2. ギャラリートーク2\n日時: 2026年8月9日14:00〜\n登壇者: キリコ （写真家・美術家）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-01",
+      "end_date": "2026-08-09",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "f46b9eafe809",
+        "name": "HILL TOP GALLERY",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "힐탑 갤러리"
+          },
+          "ja": {
+            "name": "ヒルトップギャラリー"
+          }
+        },
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.67668176195835,
+        "lng": 135.50449119510654
+      },
+      "artists": [
+        {
+          "id": "aafcb86e6aed",
+          "name": "藍田ウタイ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "2fdeb5d7e0a5",
+          "name": "新野ふじ乃",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d869ae8dde2e",
+          "name": "maruco",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Reclaiming-Myself/hill-top-gallery/2026-08-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "1c1a1157eccc",
+      "source": "tokyo_art_beat",
+      "title": "「撮影：竹久直樹」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/hMDIcHsoPpymVqxmyy1rj/4dac1f7cf70bc450a837cd932f8f5822/satsuei_4000px-7.webp",
+      "description": "本作は、1995年生まれの竹久が現在進行形で引き受け続けている「展覧会の記録撮影」をまとめた写真集となります。竹久が撮影する展覧会は美術館やギャラリーにとどまらず、屋外や廃墟、オルタナティブスペースといった時代を反映したような場所が多数含まれます。また竹久はそうした場所での設営などにも立ち会うことで、結果として現代の展覧会に携わる人々や事物の関係性を包括的に記録し続けてきました。しかし、何よりも本作の特異さは「他人の様々な作品を記録し続けた結果、それが竹久自身にとっての作品にもなっている」という点にあるでしょう。\n\nタイトルの「撮影」という言葉は、江戸幕末期に蘭学における「物体に対して光学的に像を定着させる技術工程」を翻訳する過程で作り出された造語です。そして、技術開発ではなく技術を輸入し使うところから始まった日本の写真史において独自の概念として発展してきました。竹久はこの「撮影」を、「まとまりようのないものたちが在り、それをそのまま見せる・残すことができてしまう技術」として読み替え、さまざまな展覧会の記録をひとつの作品としてまとめ上げます。主体が定まらないことでしか達成され得ないような記録というものがあるとしたら、それは一体どのようなものなのか。この本は、現代における記録や主体のありようを「撮影」を通して再考する一冊となるでしょう。\n\n[関連イベント]\n1. トークイベント①\n日時: 2026年8月1日15:00〜16:30\n登壇者: 竹久直樹、星加陸（グラフィックデザイナー）、布施琳太郎（アーティスト）\n料金: 1500円（要事前申込み）\n2. トークイベント②\n日時: 2026年8月14日18:00〜19:30\n登壇者: 竹久直樹、若山満大（東京ステーションギャラリー学芸員）\n料金: 1500円（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-01",
+      "end_date": "2026-08-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "d32acb7ca12b",
+        "name": "POST / limArt",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "POST / limArt"
+          },
+          "ja": {
+            "name": "POST / limArt"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.643812875307745,
+        "lng": 139.7091000500618
+      },
+      "artists": [
+        {
+          "id": "344fa68ff106",
+          "name": "竹久直樹",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Satsuei-Naoki-Takeshita/5-E11-D075/2026-08-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "ac0c2d3ea2ae",
+      "source": "tokyo_art_beat",
+      "title": "「能登半島地震復興支援プロジェクト つなぐおわん 東京展 『なに ごころなき あえのこと』」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3Ymx9C5bQbjNfLrpkJHlve/6e64c7a3ed451c439d6b37c66323b30f/cover.jpg.webp",
+      "description": "本展では、能登から救い出した輪島塗のお椀や器の展示・支援販売を行います。会場ではこれまでの救出活動や現地のいまを伝える写真・映像も展示し、輪島塗の可能性を込めたアップサイクルの作品も展示。\n\n[関連イベント]\n1. つなぐおわんの茶話会 おやつと漆器\n日時: 7月25日/26日 両日とも15:00～\n2. つなぐおわん主宰 影山朋子によるミニライブ\n日時: 会期中毎日14:30～\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-25",
+      "end_date": "2026-07-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "7a6765269871",
+        "name": "AL",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "AL"
+          },
+          "ja": {
+            "name": "AL"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.645727268369676,
+        "lng": 139.70369193051891
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Tsunagu-Owan-Tokyo-Exhibition/B100-AACB/2026-07-25",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "fd7b11940790",
+      "source": "tokyo_art_beat",
+      "title": "「はじめまして、見慣れた場所 vol.2」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/69gPQSx6t5TQXsycEF2PON/2d3d10624d356b31d99a4b77ac3468af/0e1cef9c-c46b-426c-a8f3-3ea297e041ac.jpg",
+      "description": "6人の写真家が撮る、#私たちの東京スクエアガーデン。東京スクエアガーデン公式 Instagram では、東京スクエアガーデンの日常や四季、イベント・商業情報を、写真家のみなさまに撮影いただき発信しています。本展では、昨年まで月替わりで写真家のみなさまに撮り下ろしていただいた作品を大きくプリントし、画面上では伝わらない作品の魅力をお届けします。また、会期中に展示作品を全面入れ替えを実施。前期後期と異なる作品をお楽しみいただけます。ぜひこの機会に、独自の視点で切り取られた「東京スクエアガーデン」をご覧ください。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-06-18",
+      "end_date": "2026-09-25",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "403794866387",
+        "name": "東京スクエアガーデン アートギャラリー",
+        "lang": null,
+        "tr": {},
+        "region": "京橋、日本橋",
+        "district": null,
+        "lat": 35.67595,
+        "lng": 139.7688
+      },
+      "artists": [
+        {
+          "id": "173f30793e6d",
+          "name": "あさのりな",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c8a96902b8be",
+          "name": "Koichi",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "00d84a34c966",
+          "name": "皿田一真",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c5d9137e8ff0",
+          "name": "丹子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "840798a231b4",
+          "name": "海柚",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d83520f7852f",
+          "name": "もなみん",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hajimemashite-Familiar-Place-Vol-2/tokyo-square-garden-art-gallery/2026-06-18",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "d6d02622bf39",
+      "source": "tokyo_art_beat",
+      "title": "「浅田政志×大阪府20世紀美術コレクション展 画家と家族のここだけの話」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/7fiCloq1kBs84ikqyO9gAj/a19958d7777dd016e5a21c61d52aa1c5/f003c5ae-7e00-4502-81c6-ce786cb030c1.jpeg",
+      "description": "写真家の浅田政志は、自らの家族を題材にした写真集『浅田家』で木村伊兵衛写真賞を受賞し、コマーシャル・フォトの世界で活躍するとともに、日本各地でアートプロジェクトや展覧会を行うなど、現在最も高く評価されている写真家のひとりです。この度大阪府立江之子島文化芸術創造センター[enoco]では、浅田政志が一貫して自らの制作テーマとしてきた「家族」や「個人史」を、大阪府が収集した「大阪府20世紀美術コレクション」の作品と接続させることを試みる展覧会を開催します。\n\n大阪府のコレクションの中心となっているのは戦後関西で活躍した美術作家による作品です。その中から須田剋太（1906～1990）、伊藤継郎（1907～1994）、齋藤眞成（1917～2019）、上前智祐（1920～2018）の４人の画家を取り上げ、いわゆる「表向き」の作家の姿ではなく、家族しか知りえなかった画家の横顔に写真家・浅田政志が迫ります。画家が過ごしたアトリエやゆかりのある場所を舞台に、家族との対話を重ねながら撮影された、ちょっとユニークな「家族写真」。浅田政志による家族写真の新しい展開を、画家たちの絵画作品とあわせてご覧ください。\n\n[関連イベント]\n1. アーティストトーク\n日時: 2026年7月25日13:30〜15:00\n登壇者: 浅田政志\n会場: 2階 Room8\n定員:30名（先着順）\n2. ワークショップ「わたしの一枚」\n日時: 2026年8月8日10:30〜12:00/ 13:30〜15:00\n会場: 2階 Room８\n料金: 2000円\n定員:各回15名（先着順）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-25",
+      "end_date": "2026-09-06",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "e1e836fa6d3f",
+        "name": "大阪府立江之子島文化芸術創造センター（enoco）",
+        "lang": null,
+        "tr": {},
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.68125,
+        "lng": 135.4837
+      },
+      "artists": [
+        {
+          "id": "3e08748c5077",
+          "name": "浅田政志",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Masashi-Asada-Osaka-20th-Century-Art-Collection-Intimate-Stories-of-Painters-and-Their-Families/enokojima-art-culture-and-creative-center-osaka-prefecture-enoco/2026-07-25",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "7a30deb90e29",
+      "source": "tokyo_art_beat",
+      "title": "櫻井充 「イム」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/5HtrHXdTmd88L50m99cGxu/3825ccc330ae76e399cf944fc585cc0e/unnamed__1_.jpg",
+      "description": "Sho+1では、2026年7月24日（金）から8月29日（土）まで、櫻井充の2回目となる個展「イム」を開催いたします。7月23日（木）18時よりオープニングレセプションを予定しております。初期作『Fe』、家族をテーマとした『BP』を経て、櫻井は再び「自己」という存在へと視線を向けました。本展では、セルフポートレートを通して「見る／見られる」「在る／在らない」という根源的な問いに向き合う新作を発表いたします。\n\n仏教哲学における「秘仏」の概念に着想を得ながら、観測されることによって姿を変える存在のあり方を探求します。複数の視点と時間を重ね合わせた写真表現によって、そこに在りながら、なお捉えきることのできない自己の揺らぎを提示します。櫻井は本展において、鑑賞者が自身の「見る」という行為そのものを問い直す機会となることを目指しています。ぜひご来廊ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-24",
+      "end_date": "2026-08-29",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "ebeb55911efb",
+        "name": "Sho + 1（ショウプラスワン）",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "Sho + 1"
+          },
+          "en": {
+            "name": "Sho + 1"
+          }
+        },
+        "region": "上野、谷中",
+        "district": null,
+        "lat": 35.70576968060963,
+        "lng": 139.77078822093915
+      },
+      "artists": [
+        {
+          "id": "60190c839e6d",
+          "name": "櫻井充",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사쿠라이 미츠루"
+            },
+            "en": {
+              "name": "Sakurai Mitsuru"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Mitsuru-Sakurai-Imu/1608-C496/2026-07-24",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "c1535abe5f36",
+      "source": "tokyo_art_beat",
+      "title": "「下田昌克 恐竜人間展 -骨とQRコード- 」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/7FWvXqqsblB7hiYiSBefpB/44400b45b30b9e8fba5d0df4c5f23111/1f9ae618cb4be55351105f0585e976ff-1920x1080.webp",
+      "description": "アーティストの下田昌克さんがキャンバス生地を縫ってつくった、「恐竜」の展覧会です。恐竜の骨格標本のような作品をダイナミックにたくさん展示します。人が着られるようにつくられているこの作品群。今回、恐竜の作品をかぶり「恐竜人間」になってくれたのは、俳優の古田新太さんとパフォーミングアーティストのアオイヤマダさんです。渋谷PARCOで撮り下ろしたふたりの「恐竜人間」の写真や映像を、会場限定でたっぷりご覧いただけます。そして、この展覧会の特長は「QRコード」。「骨」の世界のあちらこちらにひみつのQRコードが散りばめられています。QRコードを見つけてスマートフォンをかざすと、さまざまなコンテンツが広がります。ことしの夏休みは、下田さんの恐竜世界を体験しに、ぜひご来場を！",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-25",
+      "end_date": "2026-08-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "b183d75fb9e7",
+        "name": "ほぼ日曜日",
+        "lang": null,
+        "tr": {},
+        "region": "渋谷",
+        "district": null,
+        "lat": 35.66204174873168,
+        "lng": 139.6989780513043
+      },
+      "artists": [
+        {
+          "id": "ab97f92c9073",
+          "name": "下田昌克",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Masakatsu-Shimoda-Dinosaur-Humans-Bones-and-QR-Codes/DA-769-DFB/2026-07-25",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "c15268d5d516",
+      "source": "tokyo_art_beat",
+      "title": "「THE GALLERYセレクション展 大久保瑠衣 秋田魁新報社記者 写真展 『南極にて ―第66次観測隊同行記録―』」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/5lKOXXt5Lq23yH9pUugeuF/6c45df8aa771671fb929da22b4497300/b0f96617-5270-446a-86b6-edc4b84cbbf1.jpg",
+      "description": "株式会社ニコンの子会社、株式会社ニコンイメージングジャパンは、ニコンプラザ東京・大阪の写真展会場「THE GALLERY」にて、THE GALLERYセレクション展 大久保瑠衣 秋田魁新報社記者 写真展「南極にて ―第66次観測隊同行記録―」を2026年7月7日（火）より開催します。\n\n2024年12月から2025年4月まで、第66次南極地域観測隊に同行取材した大久保瑠衣記者が見た、極地の世界。氷に覆われた海を進む観測船「しらせ」、日本から約1万4千キロ離れた昭和基地、息をのむような風景。極地の厳しくも美しい自然と、そこで活動する隊員たちの姿を、写真と映像で紹介します。会期中には、第66次観測隊員を迎えたトークイベントも開催。撮影時の裏話や昭和基地での生活について、エピソードを交えながら南極の魅力をできるだけお伝えします。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-30",
+      "end_date": "2026-08-10",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "8d7aa6d3b645",
+        "name": "ニコンプラザ大阪",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "니콘 플라자 오사카"
+          },
+          "en": {
+            "name": "Nikon Plaza Osaka"
+          }
+        },
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.6786,
+        "lng": 135.501
+      },
+      "artists": [
+        {
+          "id": "e5a4097bbfa0",
+          "name": "大久保瑠衣",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오쿠보 루이"
+            },
+            "en": {
+              "name": "Rui Okubo"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/The-Gallery-Selection-Rui-Okubo-Antarctica-A-Photographic-Record-with-the-66th-Japanese-Antarctic-Research-Expedition/nikon-plaza-osaka/2026-07-30",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "1fed2c244492",
+      "source": "tokyo_art_beat",
+      "title": "「石川賢治月光写真展 月光浴 月夜の晩に」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/2T3g0CEUHxSIfTVgfby9FQ/f46135d14e4390bfcf878061709883e8/4ffe115f-95dc-4460-99b6-cf85c1d01104.png",
+      "description": "1年に12回しかない満月の下で撮り続ける月光写真家・石川賢治。30年間の世界４大陸に渡る満月の旅を経て、2016年福岡・糸島半島に移り住みました。撮り下ろした新作には、糸島を中心とした北海道から沖縄まで日本の春夏秋冬を舞台に月夜の情景が綴られます。星空の下、月光を浴びていのちを輝かせる草花やいきものたち、昼間とは違う表情の原風景に、宇宙の中に自分が存在することを実感します。どうぞ福岡市科学館へ\"月光浴\"をしにお出掛けください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-19",
+      "end_date": "2026-10-25",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "0ca0e7cbef4e",
+        "name": "福岡市科学館",
+        "lang": null,
+        "tr": {},
+        "region": "福岡県",
+        "district": null,
+        "lat": 33.57759,
+        "lng": 130.3781
+      },
+      "artists": [
+        {
+          "id": "dba8f66c46a5",
+          "name": "石川賢治",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kenji-Ishikawa-Bathed-in-Moonlight-A-Moonlit-Night/fukuoka-city-science-museum/2026-09-19",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "d3a737bd2059",
+      "source": "tokyo_art_beat",
+      "title": "鶴田真由 「Lotus」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4caDgvDwPkO0A02un8BYH7/7ba16af51781ed5277c3526b6979ab90/3_-_knit_kondo.jpg",
+      "description": "evam eva yamanashi では初めてのご紹介となる鶴田真由氏の写真展を開催いたします。今展示では、天上の花とも称される蓮の花の写真と詩を発表いたします。7月から8月に全盛を迎える蓮の花。気高く美しく咲き誇る頃、どうぞ足をお運びくださいますようお願い申し上げます。\n\n[関連イベント]\n夢蓮\n日時: 2026年7月18日18:30〜/ 7月19日9:30〜\n登壇者: 鶴田真由（朗読）、内田輝（演奏）\n会場: evam eva yamanashi 形\n料金: 6600円（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-18",
+      "end_date": "2026-08-09",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "ae3024eda755",
+        "name": "evam eva yamanashi",
+        "lang": null,
+        "tr": {},
+        "region": "山梨県",
+        "district": null,
+        "lat": 35.56733981808201,
+        "lng": 138.5666134110451
+      },
+      "artists": [
+        {
+          "id": "a33eb87aa4b5",
+          "name": "鶴田真由",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Mayu-Tsuruta-Lotus/evam-eva-yamanashi/2026-07-18",
       "featured": false,
       "popularity_score": null
     }
@@ -60104,6 +60797,118 @@
       "country": "JP",
       "lat": 35.01830679587178,
       "lng": 135.76959521842002,
+      "website": null
+    },
+    {
+      "id": "432d5e28e354",
+      "name": "日本橋髙島屋 8階ホール",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "京橋、日本橋",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.68076104900549,
+      "lng": 139.7735459965412,
+      "website": null
+    },
+    {
+      "id": "53e623af9813",
+      "name": "大入庵",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "東京：その他",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.73744,
+      "lng": 139.6852,
+      "website": null
+    },
+    {
+      "id": "23f40e544ba9",
+      "name": "沖縄県立博物館・美術館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "沖縄県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 26.22745918191436,
+      "lng": 127.69394349037685,
+      "website": null
+    },
+    {
+      "id": "403794866387",
+      "name": "東京スクエアガーデン アートギャラリー",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "京橋、日本橋",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.67595,
+      "lng": 139.7688,
+      "website": null
+    },
+    {
+      "id": "e1e836fa6d3f",
+      "name": "大阪府立江之子島文化芸術創造センター（enoco）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "大阪府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.68125,
+      "lng": 135.4837,
+      "website": null
+    },
+    {
+      "id": "b183d75fb9e7",
+      "name": "ほぼ日曜日",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "渋谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.66204174873168,
+      "lng": 139.6989780513043,
+      "website": null
+    },
+    {
+      "id": "0ca0e7cbef4e",
+      "name": "福岡市科学館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "福岡県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 33.57759,
+      "lng": 130.3781,
+      "website": null
+    },
+    {
+      "id": "ae3024eda755",
+      "name": "evam eva yamanashi",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "山梨県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.56733981808201,
+      "lng": 138.5666134110451,
       "website": null
     }
   ],
@@ -72306,6 +73111,144 @@
     {
       "id": "6f9b62bef773",
       "name": "リヒャルト・プロイガー",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6cf6f3a880fc",
+      "name": "ウィン・バロック",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a80aa3be3142",
+      "name": "ロバート・キャパ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2adcc1c7133e",
+      "name": "ヴェルナー・ビショフ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d03a5a9fac03",
+      "name": "アルフレッド・アイゼンスタット",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "88dde006783d",
+      "name": "ニーナ・リーン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "47a9896b94f0",
+      "name": "ジョン・フロレア",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b0edf3cd8547",
+      "name": "山端庸介",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fd9efc94092f",
+      "name": "W．ユージン・スミス",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ddb032a6245c",
+      "name": "楢林洋介",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "aafcb86e6aed",
+      "name": "藍田ウタイ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2fdeb5d7e0a5",
+      "name": "新野ふじ乃",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d869ae8dde2e",
+      "name": "maruco",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "344fa68ff106",
+      "name": "竹久直樹",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "173f30793e6d",
+      "name": "あさのりな",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c8a96902b8be",
+      "name": "Koichi",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "00d84a34c966",
+      "name": "皿田一真",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c5d9137e8ff0",
+      "name": "丹子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "840798a231b4",
+      "name": "海柚",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d83520f7852f",
+      "name": "もなみん",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3e08748c5077",
+      "name": "浅田政志",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ab97f92c9073",
+      "name": "下田昌克",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "dba8f66c46a5",
+      "name": "石川賢治",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a33eb87aa4b5",
+      "name": "鶴田真由",
       "lang": null,
       "tr": {}
     }
