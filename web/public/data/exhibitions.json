@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T19:32:26.239971+00:00",
+  "generated_at": "2026-07-16T20:09:47.557563+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -49270,8 +49270,15 @@
         {
           "id": "760a43d15b1f",
           "name": "片山達貴",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "카타야마 타츠키"
+            },
+            "en": {
+              "name": "Katayama Tatsuki"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Tatsuki-Katayama-Kukurs/the-gallery-of-ibaraki/2026-07-16",
@@ -49324,8 +49331,15 @@
         {
           "id": "2ef875cae345",
           "name": "山田荘一朗",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "야마다 소이치로"
+            },
+            "en": {
+              "name": "Soichiro Yamada"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Souichirou-Yamada-Exhibition/0-E250-B96/2026-07-06",
@@ -49506,32 +49520,67 @@
         {
           "id": "b301a3873c96",
           "name": "ひろかわさえこ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "히로카와 사에코"
+            },
+            "en": {
+              "name": "Hirokawa Saeko"
+            }
+          }
         },
         {
           "id": "5e43ae34a78e",
           "name": "ふしはらのじこ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "후시하라 노지코"
+            },
+            "en": {
+              "name": "Fushihara Nojiko"
+            }
+          }
         },
         {
           "id": "39fed4bd2663",
           "name": "降矢なな",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "후루야 나나"
+            },
+            "en": {
+              "name": "Nana Furuya"
+            }
+          }
         },
         {
           "id": "c7fcf0df7c17",
           "name": "堀川理万子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "호리카와 리마코"
+            },
+            "en": {
+              "name": "Rimako Horikawa"
+            }
+          }
         },
         {
           "id": "a6fddb632313",
           "name": "町田尚子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마치다 나오코"
+            },
+            "en": {
+              "name": "Naoko Machida"
+            }
+          }
         },
         {
           "id": "b4d081f84d49",
@@ -51316,8 +51365,17 @@
       "id": "447034fbfc1f",
       "source": "tokyo_art_beat",
       "title": "鷹巣由佳 「PAGES : COLOR search— search / transition / relation」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "타카스 유카 「PAGES : COLOR search— search / transition / relation」",
+          "description": "코덴마초의 숍 & 갤러리 MONO GRAPHY Camera & Art에서는 2026년 7월 2일(목)부터 7월 19일(일)까지 타카스 유카 작가의 사진전 「PAGES : COLOR search— search / transition / relation」을 개최합니다. 타카스 작가는 사진, 책, 설치미술 등 다양한 매체를 통해 '의미가 생성되는 메커니즘'을 계속 탐구하고 있습니다.\n\n본 전시는 타카스 작가가 2019년부터 작업해 온 『PAGES』 시리즈로 구성됩니다. 영감을 얻은 것은 전 세계적으로 노란색 종이에 인쇄된 전화번호부였습니다. 2008년부터 국내외에서 촬영한 방대한 스톡 중에서 사진집을 제작하기 위해 스토리지 내의 사진을 '노란색'으로 검색 및 추출하여 하나의 책 『YELLOW PAGES』로 엮었습니다. 그 후 빨강, 파랑, 초록 등 다양한 색을 테마로 지도나 사전 등 다양한 종이 매체와 결합한 사진집이 제작되었습니다. 이번에는 이들을 하나의 벽면에 색깔별로 전시하고, 아크릴이나 천 설치미술도 곁들여 재구축하는 『PAGES』의 새로운 형태라고 할 수 있습니다. 사진이 (기억 속에 묻혀버린 것까지 포함하여) 검색 알고리즘을 통해 재발견되고 새로운 표정과 가치를 띠어가는 과정을 사진집이라는 형태로 보여준 것을, 더욱 입체적으로 표현하려는 시도입니다.\n\n매일 기록되고 축적되는 사진을 다시 바라봄으로써, 그것들의 보이는 방식이 변화하는 듯한 경험은 사진을 계속 찍는 많은 분들에게 공감을 불러일으키고 깨달음을 얻게 할 수도 있을 것입니다. 전시장에서는 사진집 『PAGES』 각종 외에 타카스 작가가 제작한 다양한 사진 굿즈를 판매합니다. 여러분의 방문을 진심으로 기다립니다.\n\n[관련 이벤트]\n아티스트 토크\n일시: 2026년 7월 12일 14:00~\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Yuka Takasu \"PAGES : COLOR search— search / transition / relation\"",
+          "description": "Shop & Gallery MONO GRAPHY Camera & Art in Kodenmacho will host a photography exhibition by Yuka Takasu, \"PAGES : COLOR search— search / transition / relation,\" from July 2 (Thu) to July 19 (Sun), 2026. Through various media such as photography, books, and installations, Takasu continues to explore \"the mechanism by which meaning is born.\"\n\nThis exhibition consists of Takasu's \"PAGES\" series, which she has been working on since 2019. The inspiration came from telephone directories, commonly printed on yellow paper worldwide. To create a photobook from the vast stock of photos she had taken domestically and internationally since 2008, she searched and extracted photos by \"yellow\" from her storage, compiling them into a single book, \"YELLOW PAGES.\" Since then, photobooks have been created on various color themes such as red, blue, and green, linked with various paper media like maps and dictionaries. This time, it can be said to be a new form of \"PAGES,\" where these works are displayed color by color on a single wall, reconfigured with acrylic and fabric installations. It is an attempt to represent in three dimensions what was previously shown in photobook form: the process by which photographs (including those buried in memory) are rediscovered through search algorithms, taking on new expressions and values.\n\nRe-examining photographs that are recorded and accumulated daily, the experience of how their appearance changes may evoke empathy and provide insights for many who continue to take photos. Various \"PAGES\" photobooks, as well as various photo goods created by Takasu, will be available for purchase at the venue. We sincerely look forward to your visit.\n\n[Related Event]\nArtist Talk\nDate: July 12, 2026, 14:00~\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/6D4gVW6klZiRUMfXTQiQCn/425298836a09ac7260663bfb312c1d98/PAGES-main-s_-_Yuka_Takasu__2_.jpg",
       "description": "小伝馬町のショップ＆ギャラリー MONO GRAPHY Camera ＆Artでは、2026年7月2日（木）から7月19日（日）まで鷹巣由佳氏による写真展「PAGES : COLOR search— search / transition / relation」を開催いたします。鷹巣氏は写真・本・インスタレーションといった様々な媒体を通して、「意味が生まれる仕組み」を探究し続けています。\n\n本展示は鷹巣氏が2019年から取り組む『PAGES』シリーズから構成されます。着想を得たのは、世界中で共通して黄色の紙に印刷された電話帳。2008年から国内外で撮り溜めた膨大なストックの中から写真集を制作するために、ストレージ内の写真を「黄色」で検索・抽出し、一つの本『YELLOW PAGES』としてまとめました。それから赤、青、緑など様々な色をテーマに、地図や辞書など様々な紙媒体と結びつけた写真集が制作されています。今回は、それらを一つの壁面で色ごとに展示し、アクリルや布のインスタレーションも交えて再構築する『PAGES』の新形態と言えます。写真が（記憶に埋もれてしまったものさえも含めて）検索アルゴリズムを通して再発見され、新たな表情や価値を帯びていく過程を写真集という形で示したものが、更に立体で表されるような試みです。\n\n日々記録され蓄積されていく写真を見つめ直すことで、それらの見え方が変わっていくような体験は、写真を撮り続ける多くの方にとって共感を生み、気づきを得られるものとなるかもしれません。会場では写真集『PAGES』各種に加え鷹巣氏が制作した様々な写真グッズを販売いたします。皆様のご来場を心よりお待ちしております。\n\n[関連イベント]\nアーティストトーク\n日時: 2026年7月12日14:00〜\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -51363,8 +51421,17 @@
       "id": "91b35a18dee0",
       "source": "tokyo_art_beat",
       "title": "「スリムシティ—— 私、まだ生身」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「슬림 시티—— 나, 아직 생몸」",
+          "description": "우리는 각기 다른 길을 걷고 다른 짐을 짊어진 채 도쿄에 도착했다. 정치적 대립이나 전쟁에 대한 공포, 왜곡된 가족 관계, 혹은 개인적인 어려움—그러한 것들을 안고 우리는 마비된 듯한 행진 속에서 결속되어 왔다. 블랙 유머 섞인 농담이나 어딘가 밝은 푸념을 주고받으며, 서먹한 예의나 엉뚱한 동정에 의존하지 않고 서로에게 약점을 드러낼 수 있는 장소를 키워왔다.\n\n계속해서 마르고 있는 도시, 도쿄. 그곳에서는 '과도한 최적화'가 단순한 기호가 아니라 어느새 '올바른 삶의 방식'으로 둔갑한다. 이상적이고 바람직한 신체로서 '슬림'이 칭송받듯이, 불필요하다고 여겨지는 것은 잘려나가고, 인간의 활동마저 상품으로 변해간다. 이윽고 자기 자신의 일부마저도 값어치 있는 것처럼 느껴지고, 가슴 속 깊은 곳에서는 조용한 마비가 조금씩 침식해 들어간다. 그럼에도 불구하고—나는 아직 생몸이다. 상처받을 만큼 부드러움을 지니고, 저항할 만큼의 두께를 가지고 있다.\n\n여기서 말하는 '나'는 정체성이 아니라, 이 도시의 고독 속에서 각자가 계속 안고 있는 기억이자 욕망이자 피로이자 삶의 지속이다. 그러나 생몸은 결코 자기 완결적이지 않다. 서로 스며들고, 접촉하고, 끌어안는다.\n\n[관련 이벤트]\n아티스트 토크 (영어)\n일시: 7월 26일(일) 15:00~\n등단자: Pardis Ghasemi, Diao Chentong, Em Watarihiki\n모더레이터: 박툴 감제 (큐레이터)"
+        },
+        "en": {
+          "title": "\"Slim City— I am Still Flesh and Blood\"",
+          "description": "We each arrived in Tokyo having walked different paths and carrying different burdens. Political conflicts, fear of war, distorted family relationships, or personal difficulties—carrying these, we have been bound together in a march that feels numb. Sharing jokes with black humor and somewhat cheerful complaints, without relying on distant politeness or misplaced sympathy, we have fostered a place where we can expose our vulnerabilities to each other.\n\nIn Tokyo, a city that continues to slim down, \"excessive optimization\" is not merely a preference but gradually transforms into \"the correct way of living.\" Just as \"slim\" is praised as an ideal and desirable body, what is deemed unnecessary is cut away, and even human activities are turned into commodities. Eventually, even parts of oneself feel like something with a price tag, and a quiet numbness slowly erodes deep within the chest. Yet—I am still flesh and blood. I possess a softness that can be hurt and a thickness that can resist.\n\nThe \"I\" here is not an identity, but rather the memories, desires, fatigue, and continuation of life that each person carries in the solitude of this city. However, flesh and blood is never self-contained. We permeate, touch, and embrace each other.\n\n[Related Event]\nArtist Talk (in English)\nDate: July 26 (Sun), 15:00~\nSpeakers: Pardis Ghasemi, Diao Chentong, Em Watarihiki\nModerator: Baktul Gamze (Curator)"
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/1h8jRb7S03lEIE5mhfpECI/290f87f3c3d606697d00257134e27f05/SlimCity_UPUP_page-0001.jpg",
       "description": "私たちはそれぞれ異なる道を歩み、異なる重荷を抱えて東京へたどり着いた。政治的な対立や戦争への恐怖、歪んだ家族関係、あるいは個人的な困難——そうしたものを抱えながら、私たちは麻痺したような行進のなかで結ばれてきた。ブラックユーモアを交えた冗談や、どこか明るい愚痴を交わしながら、よそよそしい礼儀や見当違いの同情に頼ることなく、互いに弱さをさらけ出せる場所を育んできた。\n\n痩せ続ける都市、東京。そこでは「過剰な最適化」は、単なる好みではなく、いつしか「正しい生き方」へとすり替わっていく。理想的で望ましい身体として「スリム」が称賛されるように、不必要とみなされたものは切り落とされ、人の営みさえ商品へと変えられていく。やがて、自分自身の一部までもが値段のつくもののように感じられ、胸の奥では静かな麻痺が少しずつ蝕んでいく。それでも——私は、まだ生身だ。傷つくほどの柔らかさを持ち、抗うだけの厚みを持っている。\n\nここでいう「私」とは、アイデンティティではなく、この都市の孤独のなかで、それぞれが抱え続ける記憶であり、欲望であり、疲労であり、生の持続である。しかし、生身は決して自己完結しない。互いに染み込み合い、触れ合い、抱きとめ合っていく。\n\n[関連イベント]\nアーティストトーク（英語）\n日時: 7月26日（日）15:00〜\n登壇者: Pardis Ghasemi、Diao Chentong、Em Watarihiki\nモデレーター: バクトゥル ガムゼ（キュレーター）",
       "medium": "mixed",
@@ -51428,8 +51495,17 @@
       "id": "90988bedf2a4",
       "source": "tokyo_art_beat",
       "title": "藤村全輝 「Earth Light」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "후지무라 젠키 「Earth Light」",
+          "description": "본 전시에서는 2025년 4월 PURPLE에서 출판된 후지무라 젠키 사진집 『Earth Light』에 수록된 작품들을 전시합니다. 후지무라 작가는 자신이 살고 있는 도쿄를 배경으로 도시의 불빛을 촬영해 왔습니다. 주택의 불빛이나 가로등 등 일상의 빛은 작가의 시선에 의해 밤하늘의 별들을 연상시키는 이미지로 변화합니다. 『Earth Light』는 도시의 야경을 우주적인 시점에서 포착하여 우리가 살고 있는 지구의 모습을 다시금 부각시킵니다."
+        },
+        "en": {
+          "title": "Zenki Fujimura \"Earth Light\"",
+          "description": "This exhibition will feature works from Zenki Fujimura's photobook \"Earth Light,\" published by PURPLE in April 2025. Fujimura has photographed the lights of the city, using Tokyo, where he lives, as his stage. Everyday lights, such as those from houses and streetlights, are transformed by the artist's gaze into images reminiscent of stars in the night sky. \"Earth Light\" captures urban nightscapes from a cosmic perspective, bringing into renewed focus the appearance of our planet, Earth."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/344cVXeN9E2S5VZjJlA9Ro/7841e7dd2a3ffd007d1aa362a82635d4/Masaki_Fujimura_01_-_Photo_Gallery_Jam.jpg",
       "description": "本展では、2025年4月にPURPLEより出版された藤村全輝写真集『Earth Light』に収録された作品を展示いたします。藤村は自身が暮らす東京を舞台に、街の明かりを撮影してきました。住宅の明かりや街灯など、日常の光は作家の視線によって夜空の星々を思わせる像へと変化します。『Earth Light』は、都市の夜景を宇宙的な視点から捉え、私たちが暮らす地球の姿をあらためて浮かび上がらせます。",
       "medium": "photo",
@@ -51649,8 +51725,17 @@
       "id": "b4ff6817ec86",
       "source": "tokyo_art_beat",
       "title": "「ギルバート＆ジョージ展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「길버트 앤 조지 전」",
+          "description": "이 전시는 영국 런던을 기반으로 'Art for All(모든 사람을 위한 예술)'을 추구하는 길버트 앤 조지의 활동을 소개합니다. 스스로를 '살아있는 조각'이라 칭하며, 전신에 다채로운 메탈릭 안료를 바르고 테이블 위에서 뮤직홀의 대표곡을 부르고 춤추는 걸작 《노래하는 조각》(1969) 영상부터, 종교와 섹슈얼리티, 도시 생활 등을 주제로 한 최근의 거대한 사진 시리즈 '픽처스'까지 한꺼번에 선보입니다. 또한 1970년대 일본 방문 당시의 활동을 보여주는 귀중한 사진과 영상도 전시될 예정입니다. 일본에서는 30년 만에 열리는 대규모 개인전으로, 그들이 만난 1967년부터 60주년을 맞이하는 2027년의 기념비적인 시점에 그들의 독특하고 진지하면서도 도발적인 예술의 전모에 다가갑니다."
+        },
+        "en": {
+          "title": "\"Gilbert & George Exhibition\"",
+          "description": "This exhibition introduces the activities of Gilbert & George, who are based in London, UK, and pursue \"Art for All (Art for Everyone).\" It presents a comprehensive overview, from the video of their masterpiece \"The Singing Sculpture\" (1969), in which they proclaimed themselves \"living sculptures,\" covered their entire bodies in multi-colored metallic pigments, and sang and danced to classic music hall tunes on a table, to their recent monumental photo series \"Pictures,\" which addresses themes such as religion, sexuality, and urban life. Additionally, valuable photographs and videos documenting their activities during their visit to Japan in the 1970s will be exhibited. This long-awaited large-scale solo exhibition, the first in Japan in 30 years, coincides with the momentous occasion of 2027, marking 60 years since they met in 1967, offering a comprehensive look at their unique, earnest, yet provocative art."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/5saj35KumKlcbTD2NmycCU/151495df7ed54a09dc4a9afca0a92987/e90edf98-9c23-46c3-abc9-c7dbe8ab743d.jpg",
       "description": "本展覧会は、英国ロンドンを拠点に「Art for All（すべての人にアートを）」を追求するギルバート＆ジョージの活動を紹介します。自らを「生きる彫刻」と称し、全身に多彩色メタリックの顔料を塗りテーブル上でミュージック・ホールの定番曲を歌って踊る傑作《歌う彫刻》（1969）の映像から、宗教やセクシャリティ、都市生活などをテーマにした近年の巨大な写真シリーズ「ピクチャーズ」までを一挙に展観します。\nさらに1970年代の来日時の活動を示す貴重な写真や映像も展示予定です。日本では30年ぶりとなる待望の大規模個展であり、彼らが出会った1967年から60年を迎える2027年の記念すべき節目に、そのユニークで真摯、されど挑発的なアートの全貌に迫ります。",
       "medium": "mixed",
@@ -51696,8 +51781,17 @@
       "id": "98a3c102533b",
       "source": "tokyo_art_beat",
       "title": "「ギルバート＆ジョージ展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「길버트 앤 조지 전」",
+          "description": "이 전시는 영국 런던을 기반으로 'Art for All(모든 사람을 위한 예술)'을 추구하는 길버트 앤 조지의 활동을 소개합니다. 스스로를 '살아있는 조각'이라 칭하며, 전신에 다채로운 메탈릭 안료를 바르고 테이블 위에서 뮤직홀의 대표곡을 부르고 춤추는 걸작 《노래하는 조각》(1969) 영상부터, 종교와 섹슈얼리티, 도시 생활 등을 주제로 한 최근의 거대한 사진 시리즈 '픽처스'까지 한꺼번에 선보입니다. 또한 1970년대 일본 방문 당시의 활동을 보여주는 귀중한 사진과 영상도 전시될 예정입니다. 일본에서는 30년 만에 열리는 대규모 개인전으로, 그들이 만난 1967년부터 60주년을 맞이하는 2027년의 기념비적인 시점에 그들의 독특하고 진지하면서도 도발적인 예술의 전모에 다가갑니다."
+        },
+        "en": {
+          "title": "\"Gilbert & George Exhibition\"",
+          "description": "This exhibition introduces the activities of Gilbert & George, who are based in London, UK, and pursue \"Art for All (Art for Everyone).\" It presents a comprehensive overview, from the video of their masterpiece \"The Singing Sculpture\" (1969), in which they proclaimed themselves \"living sculptures,\" covered their entire bodies in multi-colored metallic pigments, and sang and danced to classic music hall tunes on a table, to their recent monumental photo series \"Pictures,\" which addresses themes such as religion, sexuality, and urban life. Additionally, valuable photographs and videos documenting their activities during their visit to Japan in the 1970s will be exhibited. This long-awaited large-scale solo exhibition, the first in Japan in 30 years, coincides with the momentous occasion of 2027, marking 60 years since they met in 1967, offering a comprehensive look at their unique, earnest, yet provocative art."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/5saj35KumKlcbTD2NmycCU/151495df7ed54a09dc4a9afca0a92987/e90edf98-9c23-46c3-abc9-c7dbe8ab743d.jpg",
       "description": "本展覧会は、英国ロンドンを拠点に「Art for All（すべての人にアートを）」を追求するギルバート＆ジョージの活動を紹介します。自らを「生きる彫刻」と称し、全身に多彩色メタリックの顔料を塗りテーブル上でミュージック・ホールの定番曲を歌って踊る傑作《歌う彫刻》（1969）の映像から、宗教やセクシャリティ、都市生活などをテーマにした近年の巨大な写真シリーズ「ピクチャーズ」までを一挙に展観します。\nさらに1970年代の来日時の活動を示す貴重な写真や映像も展示予定です。日本では30年ぶりとなる待望の大規模個展であり、彼らが出会った1967年から60年を迎える2027年の記念すべき節目に、そのユニークで真摯、されど挑発的なアートの全貌に迫ります。",
       "medium": "mixed",
@@ -51743,8 +51837,17 @@
       "id": "8a0cc86773d6",
       "source": "tokyo_art_beat",
       "title": "ジュリア・グラッシー 「In Search of Lost Paradise」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "율리아 그래서 「In Search of Lost Paradise」",
+          "description": "20년 이상의 세월에 걸친 이번 전시 'In Search of Lost Paradise'는 생명을 위협하는 큰 병을 앓았던 어린 시절부터 성인으로 성장해가는 율리아의 조카 엘리자의 모습을 담고 있습니다. 친밀한 초상화와 자연계를 엮어냄으로써, 이 시리즈는 그녀 자신의 현실을 넘어선 '패러렐 월드(평행 세계)'를 창조합니다. 그것은 어린 시절의 기억을 조용히 재구성하고, 삶의 아름다움에 눈을 뜨게 하는 공간입니다. 병을 기록하는 것이 아니라, 사진은 그 표면의 깊숙한 곳으로 손을 뻗습니다. 자연은 엘리자의 강인함과 행복의 원천이 되며, 그녀의 내면세계가 조용히 꽃피울 수 있는 토대가 됩니다. \"슬픔은 정신의 힘을 발달시킨다\"는 프루스트의 말은 그녀의 이야기에 깊이 울려 퍼집니다. 그녀의 병은 단순한 상처가 아니라, 각성으로 이끄는 촉매였습니다. 그리고 두 사람이 함께 만들어낸 패러렐 월드는 결코 현실 도피가 아니라, 내면으로부터의 치유를 이야기하는 조용한 증거입니다. 정신분석학자 앨리스 밀러의 \"어린 시절의 강렬한 감정의 세계를 두려워할 필요가 없어졌을 때, 우리는 진정한 자아에 접근할 수 있게 된다\"는 사상에서 영감을 받은 이 작품은 어린 시절의 기억을 현실과 상상 사이의 비유적인 공간으로 승화시킵니다. 빛의 변화, 몸짓, 정적의 순간. 그 하나하나가 방아쇠가 되어 엘리자의 내면세계가 조용히 드러납니다. 'In Search of Lost Paradise'는 보이는 것과 보이지 않는 것 사이의 공간을 조용히 응시하며, 그 안에 숨 쉬는 불굴의 정신이 가져다주는 생명의 아름다움을 축복하는—그런 시각적으로 그려진 한 편의 시이자, 관람객에게 보내는 초대입니다."
+        },
+        "en": {
+          "title": "Julia Gräßer \"In Search of Lost Paradise\"",
+          "description": "This exhibition, \"In Search of Lost Paradise,\" spanning over 20 years, follows Julia's niece, Eliza, as she grows from childhood, having suffered a life-threatening illness, into adulthood. By interweaving intimate portraits with the natural world, this series creates a \"parallel world\" that transcends her own reality. It is a space for gently reconstructing childhood memories and opening one's eyes to the beauty of life. Rather than documenting illness, the photographs reach beyond its surface. Nature becomes the source of Eliza's strength and happiness, providing a foundation for her inner world to quietly blossom. Proust's words, \"Grief develops the forces of the mind,\" resonate deeply with her story. Her illness was not merely a wound, but a catalyst for awakening. The parallel world they built together is not an escape from reality, but a quiet testament to healing from within. Inspired by the psychoanalyst Alice Miller's idea that \"when we no longer need to fear the intense emotional world of childhood, we gain access to our true selves,\" this work elevates childhood memories into a metaphorical space between reality and imagination. The shifting light, gestures, and moments of stillness—each serves as a trigger, quietly revealing Eliza's inner world. \"In Search of Lost Paradise\" is a visual poem and an invitation to the viewer, quietly contemplating the space between the visible and the invisible, and celebrating the beauty of life brought forth by the indomitable spirit that breathes within it."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/28Ysi91NPbGh0PfEp2aE2d/0b430ca3ba9f55bd0178bb9cb95342e1/Julia_Grassi01.jpeg",
       "description": "20年以上の歳月にわたる本展「In Search of Lost Paradise」は、命を脅かす大病を患った幼少期から大人へと成長していく、ジュリアの姪・エリザの姿を追ったものです。親密なポートレートと自然界を織り交ぜることで、本シリーズは彼女自身の現実を超えた「パラレルワールド（並行世界）」を創り出します。それは、幼少期の記憶をそっと再構築し、生きることの美しさに目を開かせるための空間です。病を記録するのではなく、写真はその表層の奥へと手を伸ばします。自然はエリザの強さと幸福の源となり、彼女の内面世界が静かに花開くための土台となります。「悲しみは精神の力を発達させる」というプルーストの言葉は、彼女の物語に深く響き渡っています。彼女の病は単なる傷ではなく、覚醒への触媒でした。そして二人が共に築き上げたパラレルワールドは、決して現実逃避ではなく、内側からの癒やしを物語る静かな証（あかし）なのです。精神分析医アリス・ミラーの「幼少期の強烈な感情の世界を恐れる必要がなくなったとき、私たちは真の自己へとアクセスできるようになる」という思想にインスピレーションを得た本作は、幼少期の記憶を、現実と想像の狭間にある比喩的な空間へと昇華させています。光の移ろい、身振り、静寂の瞬間。そのひとつひとつが引き金となり、エリザの内面世界が静かに現れていきます。「In Search of Lost Paradise」は、目に見えるものと見えないものの狭間にある空間を静かに見つめ、その中に息づく、不屈の精神がもたらす生命の美しさを祝福する──そんな、視覚で描かれた一編の詩であり、鑑賞者への誘いです。",
       "medium": "photo",
@@ -51790,8 +51893,17 @@
       "id": "7ffc4a249e78",
       "source": "tokyo_art_beat",
       "title": "荒木経惟 「アラーキー『愛の皮膜』」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "아라키 노부요시 \"아라키 '아이 노 히마쿠'\"",
+          "description": "아라키(Araki)라는 호칭으로 친숙한 아라키 노부요시(Araki Nobuyoshi)는 일본 사진사에서 하나의 거대한 현상이라고 할 수 있는 존재입니다. 1940년 도쿄 미노와에서 태어난 그는 지바 대학에서 사진 인쇄 공학을 배우고 덴쓰에 입사했습니다. 광고 사진의 최전선에서 경험을 쌓으면서 그 대척점에 있는 사적인 영역으로 시선을 깊게 가져갔습니다. 1964년, 학창 시절에 찍어 모은 작품집 『삿친』으로 제1회 태양상을 수상했습니다. 그 후 1971년, 아내 요코와의 신혼여행을 소재로 한 사진집 『센티멘털한 여행』을 자비 출판했습니다. 이 작품을 제시한 그는 자신의 사진을 '사소설'에 비유하며 '사사진(私写真)'이라고 선언했고, 1990년 요코는 병에 걸려 사망했지만, 이듬해 아라키는 그녀의 죽음을 주제로 한 『센티멘털한 여행・겨울 여행』을 간행하여 큰 반향을 불러일으켰습니다. 가족이라는 친밀한 대상에 렌즈를 향하는 행위는 오래전부터 존재했지만, 그가 다른 사진가들과 결정적으로 다른 점은 그 '사적인 일'을 단순한 추억의 기록이 아니라, 지금 이 순간 사라져 가는 시간을 붙잡기 위한 절실한 '시간의 약탈'로 기능하게 했다는 점에 있습니다. 말하자면 그에게 사진은 사회적인 기록이나 예술적인 승화를 목적으로 하기 이전에, 자기와 타자의 관계성을 적나라한 감촉 그대로 남기는 수단입니다.\n\n아라키의 행보는 기존의 경계선을 가볍게 넘어서는 것이었습니다. 세계적인 미술관에서 높은 평가를 받는 한편, 국내에서만도 약 500여 권에 달하는 사진집을 세상에 내놓았습니다. 1970년대 이후, 사진이 더욱 친숙한 미디어로 변모해 가는 흐름 속에서, 역 매점이나 길거리 서점에 진열된 잡지 등 모든 매체에 자신의 작품을 침투시켰습니다. 사회의 혼잡한 에너지와 계속 공명하며 일상 속에 '사진'이라는 시점을 뿌리내리게 했습니다. 그 압도적인 열량은 눈에 보이는 모든 것을 포착하려는 집착에 가까운, 생각의 표현이라고 할 수 있을 것입니다. 또한 그는 수많은 여성을 피사체로 한 작품을 발표했습니다. 그것들 또한 기존의 맥락을 갱신하는 것이었습니다. 종래의 여성 누드가 남성의 욕망에 종속되기 쉬웠던 반면, 아라키의 렌즈가 포착하는 여성들은 소비되는 기호가 아니라 그 자리에 있었던 흔적으로서 존재합니다. 체온과 호흡을 느끼게 하는 생명의 넘쳐흐름은 일방적인 수탈이 아니라, 렌즈를 통해 서로의 실존을 '공범 관계'라는 이름의 미궁으로 던져 넣는 위험한 도박이자, 절실한 대화의 기록이기도 합니다. 이 관계성은 인물뿐만 아니라 풍경이나 꽃에도 똑같이 쏟아지고 있습니다. 아라키는 이것들을 '사현실'이라고 부르며, 단순한 기록을 넘어선 사적인 정념까지도 투영해 왔습니다. '사사진', '사현실', 그리고 아라키는 생(에로스)과 죽음(타나토스)이 나란히 있다는 감각을 '에로토스'라는 조어로 표현했습니다. 이것들은 별개의 개념이 아니라 눈앞에 있는 것에 다가가, 사라지기 직전의 시간에 닿으려는 행위 속에서 나타나는 것이며, 아라키에게 생(에로스)과 죽음(타나토스)은 같은 피막 위에 존재하는 것입니다.\n\n본 전시의 제목 '사랑의 피막'은 아라키가 사진을 찍는 행위의 핵심을 전달하기 위해 제기한 다양한 개념을 아우르는 '사랑'이라는 단어에서 유래합니다. 잘 알려져 있지 않지만, 아라키는 언뜻 보기에 그의 파격적인 경력과는 어울리지 않는 '사랑'이라는 평범한 단어를 자주 사용합니다. 그러나 아라키에게 사랑이란 온화한 감정이나 아름다운 이야기만을 의미하는 것이 아닙니다. 그에게 사랑이란 피사체에 극한까지 다가가는 것이며, 촬영이란 사진가와 피사체 사이에 놓인 마지막 얇은 피막, 즉 말과 의미가 태어날 기미를 찬미하는 한순간을 각인하는 것에 다름 아닙니다. 이 전시는 그의 60년이 넘는 경력에서 드러나는 세계관을 재경험하는 시도로 기획되었습니다. 『삿친』으로 시작하여, 아라키 자신이 '그녀를 만남으로써 사진 인생이 시작되었다'고 말하는 '요코'를 모델로 한 작품, 『제록스 사진첩』, 『에로토스』, '거리', '풍경'부터 최신작까지, 방대한 작품군에서 엄선하여 구성된 아라키의 개인전이 우리에게 어떤 깨달음을 가져다줄까요? 오늘날 우리 주변에는 SNS가 추천하는 이미지가 넘쳐납니다. 알고리즘과 가공 기술, AI 생성 기술에 의해 최적화되어 더 이상 '사진'이라고 할 수 없는 '이미지'라고 불러야 할 것들이 어쩔 수 없이 시각에 들어옵니다. 그러한 이미지에서는 보는 이의 주의를 즉시 사로잡기 위해 구도도 색상도 감정도 과부족 없이 정리되고, 노이즈가 제거되며, 오독할 여지는 극한까지 작아집니다. 그에 반해 아라키의 '사진'에는 정리할 수 없는 감정, 습도, 망설임, 관계의 뒤틀림이 지울 수 없는 실체로 존재합니다. 모든 시각 정보가 규격화되어 제도에 편입되어 버리는 현대에 그의 작품을 접하는 것은 우리의 지각과 의미 생성 과정이 어떻게 변질되고 있는지를 깨닫게 해주는 계기가 될 것임에 틀림없습니다."
+        },
+        "en": {
+          "title": "Araki Nobuyoshi \"Araki 'Ai no Himaku'\"",
+          "description": "Araki Nobuyoshi, affectionately known as Araki, is a colossal phenomenon in the history of Japanese photography. Born in Minowa, Tokyo, in 1940, he studied photographic printing engineering at Chiba University and joined Dentsu. While gaining experience on the front lines of advertising photography, he deepened his gaze into the private realm, which was at the opposite pole. In 1964, he received the first Taiyo Award for his collection of works from his student days, 'Sachin'. Later, in 1971, he self-published 'Sentimental na Tabi', a photobook based on his honeymoon with his wife, Yoko. Presenting this work, he likened his photography to an 'I-novel' (Shishōsetsu) and declared it 'I-photography' (Shishashin). In 1990, Yoko succumbed to illness and passed away, but the following year, Araki published 'Sentimental na Tabi: Fuyu no Tabi', centered on her death, which garnered a significant response. The act of pointing a lens at intimate subjects like family has existed for a long time, but what fundamentally distinguishes him from other photographers is that he made his 'private affairs' function not merely as records of memories, but as a desperate 'plunder of time' to capture moments that are vanishing in this very instant. In other words, for him, photography, before serving the purpose of social documentation or artistic sublimation, is a means to preserve the relationship between self and others with a raw, unadorned sensation.\n\nAraki's journey was one of lightly transcending established boundaries. While earning high acclaim in international museums, he has also released approximately 500 photobook titles in Japan alone. Since the 1970s, amidst the trend of photography transforming into a more accessible medium, he has permeated his works into all kinds of media, such as magazines displayed in station kiosks and street bookstores. Continuously resonating with the chaotic energy of society, he rooted the perspective of 'photography' in everyday life. His overwhelming passion can be described as an expression of thought, close to an obsession to capture everything that meets the eye. He has also published numerous works featuring women as subjects. These, too, updated existing contexts. While traditional female nudes tended to be subservient to male desire, the women captured by Araki's lens emerge not as consumed symbols, but as traces of their presence in that moment. The overflowing vitality, conveying body heat and breath, is not a unilateral appropriation, but a dangerous gamble of throwing mutual existence into a labyrinth called 'complicity' through the lens, and a record of earnest dialogue. This relationship is equally poured into landscapes and flowers, not just people. Araki called these 'I-reality' (Shigenjitsu), projecting private passions beyond mere documentation. 'I-photography', 'I-reality', and Araki expressed the sensation of life (Eros) and death (Thanatos) being side by side with the coined word 'Erotos'. These are not separate concepts but appear in the act of approaching what is before one's eyes and trying to touch the time just before it is lost; for Araki, life (Eros) and death (Thanatos) exist on the same film.\n\nThe title of this exhibition, 'Ai no Himaku' (Film of Love), derives from the word 'love' which encompasses various concepts Araki has put forth to convey the core of the act of photographing. Although not widely known, Araki frequently uses the ordinary word 'love,' which at first glance seems unsuited to his unconventional career. However, for Araki, love does not refer only to gentle emotions or beautiful stories. For him, love means approaching the subject to the extreme, and photography is nothing less than imprinting that final thin film lying between the photographer and the subject—a moment that celebrates the nascent stirrings of words and meaning. This exhibition was planned as an attempt to re-experience the worldview that emerges from his career spanning over 60 years. What insights will Araki's solo exhibition, meticulously curated from an enormous body of work—starting with 'Sachin', including works featuring 'Yoko' whom Araki himself stated 'my photographic life began when I met her,' 'Xerox Shashinchō', 'Erotos', 'Town', 'Landscape', and up to his latest works—bring us? Today, our surroundings are flooded with images recommended by social media. Optimized by algorithms, processing techniques, and AI generation technology, what should be called 'images' rather than 'photographs' inevitably jump into our vision. In these images, composition, color, and emotion are organized without excess or deficiency, noise is eliminated, and the room for misinterpretation is minimized to instantly capture the viewer's attention. In contrast, Araki's 'photographs' contain unmanageable emotions, humidity, hesitation, and twisted relationships as an undeniable reality. In an age where all visual information is standardized and integrated into systems, encountering his works will undoubtedly serve as an opportunity to realize how our perception and meaning-making processes are transforming."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/7LgM4zbM1szhpeUIOWLr3/359a721ee49de0771dcec4cba30c9ed8/unnamed.jpg",
       "description": "アラーキーの呼称で親しまれる荒木経惟（あらき・のぶよし）は、日本の写真史における一つの巨大な現象といえる存在です。1940年、東京・三ノ輪に生まれた彼は、千葉大学で写真印刷工学を学び、電通に入社。広告写真の最前線で経験を積みながら、その対極にある私的な領域へと視線を深めていきました。1964年、学生時代に撮りためた作品集『さっちん』で第一回太陽賞を受賞。その後1971年、妻・陽子との新婚旅行を題材とした写真集『センチメンタルな旅』を自費出版します。この作品を提示した彼は、自らの写真を「私小説」になぞらえ、「私写真（ししゃしん）」と宣言、90年、陽子は病に侵され没しますが、翌年、荒木は彼女の死をテーマに据えた『センチメンタルな旅・冬の旅』を刊行し、大きな反響を呼び起こします。家族という親密な対象にレンズを向ける行為は古くから存在しますが、彼が他の写真家たちと決定的に異なるのは、その「私事」を単なる思い出の記録としてではなく、今この瞬間に消えゆく時間を繋ぎ止めるための、切実な「時間の略奪」として機能させた点にあります。いわば彼にとって写真は、社会的な記録や芸術的な昇華を目的とする以前に、自己と他者の関係性を剥き出しの感触のまま留める手段です。\n\n荒木の歩みは、既成の境界線を軽やかに越えていくものでした。世界的な美術館で高い評価を得る一方で、国内だけでも約500タイトルに及ぶ写真集を世に送り出しています。1970年代以降、写真がより身近なメディアへと変容していく流れの中で、駅の売店や街角の書店に並ぶ雑誌など、あらゆる媒体に自身の作品を浸透させます。社会の猥雑なエネルギーと共鳴し続け、日常の中に「写真」という視点を根付かせました。その圧倒的な熱量は、眼に映るものすべてを捉えようとする執着に近い、想いの表れといえるでしょう。また彼は、数多くの女性を被写体とした作品を発表しています。それらもまた、既存の文脈を更新するものでした。従来の女性ヌードが、男性の欲望に従属しがちであったのに対し、荒木のレンズが捉える女性たちは消費される記号ではなく、その場にいた痕跡として立ち上がります。体温や呼吸を感じさせる生の横溢は一方的な収奪ではなく、レンズを介して互いの実存を「共犯関係」という名の迷宮へ投げ込む危険な賭けであり、切実な対話の記録でもあります。この関係性は、人物のみならず、風景や花にも等しく注がれています。荒木はこれらを「私現実」と呼び、単なる記録を超えた私的な情念をも投影させてきました。「私写真」、「私現実」、そして荒木は、生（エロス）と死（タナトス）が隣り合わせにあるという感覚を「エロトス」という造語で表現しました。これらは別々の概念ではなく眼の前にあるものへ近づき、失われる寸前の時間に触れようとする行為の中で現れるものであり、荒木にとって生（エロス）と死（タナトス）は同じ皮膜の上に在るのです。\n\n本展のタイトル「愛の皮膜」は、荒木が撮るという行為の核心を伝えるために提起した様々な概念を覆う「愛」という言葉に由来します。あまり知られていませんが、荒木は、一見すると、彼の破天荒なキャリアには似つかわしくない「愛」という平凡な言葉を度々、用いています。しかし、荒木にとっての愛とは、穏やかな感情や美しい物語だけを指すものではありません。彼にとっての愛とは、被写体に極限まで近づくことであり、撮影とは、写真家と被写体のあいだ横たわる最後の薄い皮膜、言葉や意味が生まれる気配を讃えた一瞬を刻印することに他なりません。この展覧会は、そんな彼の60年を超えるキャリアから浮かび上がる世界観を追体験する試みとして企画されました。『さっちん』にはじまり、荒木自身が「彼女と出会うことで写真人生が始まった」と述べている「陽子」をモデルとした作品、『ゼロックス写真帖』、『エロトス』、「街」、「風景」、から最新作まで、膨大な作品群から厳選して構成された荒木の個展が、私たちにもたらす気づきとはどのようなものでしょうか。今日、我々の周囲にはSNSが推薦するイメージが溢れています。アルゴリズムと加工技術、AIの生成技術によって最適化された、もはや「写真」とは言えない「画像」と呼ぶべきものが、否応なく視覚に飛び込んできます。それらのイメージにおいては、観る者の注意を即座に回収するために、構図も色も感情も過不足なく整理され、ノイズが削られ、誤読する余地は極限まで小さくされています。それに対して、荒木の「写真」には、整理し切れない感情、湿度、ためらい、関係のねじれが消すことができない実体として存在します。あらゆる視覚情報が規格化され制度に組み込まれてしまう現代において、彼の作品に触れることは、我々の知覚や意味生成の過程がどのように変質しているのかを気づかせてくれる契機となるに違いありません。",
       "medium": "photo",
@@ -51844,8 +51956,17 @@
       "id": "b3cea8e199bd",
       "source": "tokyo_art_beat",
       "title": "「新収蔵品展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "\"신소장품전\"",
+          "description": "2025년도에는 42점의 작품이 컬렉션에 추가되었습니다. 서양 미술 9점, 일본 서양화 7점, 현대 미술 23점을 기증받았고, 현대 미술 2점을 구매했으며, 일본 서양화 1점을 관리 전환으로 소장했습니다. 이 새로운 소장품들을 감상해 주십시오.\n\n[관련 이벤트]\n1. 큐레이터 플로어 강연 (신소장품전)\n일시: 2026년 7월 19일, 8월 23일 14:00~14:30\n장소: 본관 제7전시실\n요금: 무료\n2. 자원봉사자 갤러리 투어 (신소장품전・로댕관)\n일시: 2026년 8월 1일, 8월 15일, 9월 5일, 9월 19일 13:30~14:00, 14:30~15:00\n장소: 본관 제7전시실, 로댕관\n요금: 무료 (각 회 정원 10명 정도) (사전 신청 불필요)\n※이벤트 상세 내용은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "\"New Acquisitions Exhibition\"",
+          "description": "In fiscal year 2025, 42 works were added to the collection. We received donations of 9 Western art pieces, 7 Japanese Western-style paintings, and 23 contemporary art pieces, purchased 2 contemporary art pieces, and acquired 1 Japanese Western-style painting through transfer of custody. Please enjoy these new acquisitions.\n\n[Related Events]\n1. Curator's Floor Lecture (New Acquisitions Exhibition)\nDate: July 19, August 23, 2026, 14:00–14:30\nVenue: Main Building, Exhibition Room 7\nAdmission: Free\n2. Volunteer Gallery Tour (New Acquisitions Exhibition & Rodin Wing)\nDate: August 1, August 15, September 5, September 19, 2026, 13:30–14:00, 14:30–15:00\nVenue: Main Building, Exhibition Room 7, Rodin Wing\nAdmission: Free (Capacity: approx. 10 people per session) (No advance registration required)\n*Please check the official website for event details."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/ZWzRdD1VnXXz07fu3jOxY/95baa998fa216b0e9c00d27e2c848945/_6_3.jpg",
       "description": "2025年度は42点の作品がコレクションに加わりました。西洋美術9点、日本洋画7点、現代美術23点をご寄贈いただき、現代美術2点を購入、日本洋画1点を管理換で収蔵しました。これら新収蔵品をご覧ください。\n\n[関連イベント]\n1. 学芸員によるフロアレクチャー（新収蔵品展）\n日時: 2026年7月19日、8月23日14:00〜14:30\n会場: 本館第7展示室\n料金: 無料\n2. ボランティアによるギャラリーツアー（新収蔵品展・ロダン館）\n日時: 2026年8月1日、8月15日、9月5日、9月19日13:30〜14:00、14:30〜15:00\n会場: 本館第7展示室、ロダン館\n料金: 無料（定員各回10名程度）（事前申込み不要）\n※イベント詳細は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -51884,8 +52005,17 @@
       "id": "eb2dc0170c39",
       "source": "tokyo_art_beat",
       "title": "「OCCオープニング フェスティバル」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "\"OCC 오프닝 페스티벌\"",
+          "description": "2026년 7월, 도쿄 기바에 새로운 창조 거점 'OCC (ODYSSEY CREATIVE CENTER)'가 탄생합니다. 이 시작을 기념하여 4일간의 밀도 높은 오프닝 페스티벌을 개최합니다!\n테마는 'Wild'. 현대 미술, 음악, 댄스, 전통 예능——. 평소에는 좀처럼 만나기 어려운 최고 실력자들이 장르의 경계를 뛰어넘어 기바에 집결합니다. '무슨 일이 일어날지 모르는' 즉흥 세션과 이곳에서만 볼 수 있는 표현의 충돌. 라이브, 퍼포먼스, 토크 등 다채로운 프로그램으로 자극적인 4일간을 선사합니다! 예술에 관심 있는 분, 새로운 경험을 찾고 있는 분, 꼭 이 '출항'에 함께해 주십시오."
+        },
+        "en": {
+          "title": "\"OCC Opening Festival\"",
+          "description": "In July 2026, a new creative hub, 'OCC (ODYSSEY CREATIVE CENTER)', will be born in Kiba, Tokyo. To commemorate its launch, a dense four-day opening festival will be held!\nThe theme is 'Wild'. Contemporary art, music, dance, traditional performing arts—top runners who are usually hard to encounter will gather in Kiba, transcending genre boundaries. Expect impromptu sessions where 'anything can happen' and clashes of expression that can only be seen here. With a packed program of live performances, talks, and more, we promise an exciting four days! If you are interested in art or looking for new experiences, please come and witness this 'voyage'."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/62kj0QFgrzONz8wXYEEFYK/3364b353a24423e05f49fbdc8be57281/80238-26-c7911c2f44a37d82fdd97d88823bb3cb-1080x1350.webp",
       "description": "2026年7月、東京・木場に新たな創造拠点「OCC（ODYSSEY CREATIVE CENTER）」が誕生します。この始動を記念し、4日間にわたる濃密なオープニングフェスティバルを開催！\nテーマは「Wild」。現代アート、音楽、ダンス、伝統芸能——。普段はなかなか出会うことのないトップランナーたちが、ジャンルの境界を飛び越えて木場に集結します。「何が起きるかわからない」即興セッションや、ここでしか見られない表現のぶつかり合い。ライブ、パフォーマンス、トークと盛りだくさんのプログラムで、刺激的な4日間をお届けします！アートに興味のある方、新しい体験を探している方、ぜひこの「船出」に立ち会いに来てください。",
       "medium": "mixed",
@@ -52087,8 +52217,17 @@
       "id": "1b58d2a35217",
       "source": "tokyo_art_beat",
       "title": "田中博 「Dragonfly Boy」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "다나카 히로시 「Dragonfly Boy」",
+          "description": "약 40년간 사진으로 잠자리를 쫓아왔습니다. 사진작가 다나카 히로시의 개인전. 지금까지 만난 잠자리를 작가 자신의 모습에 비유하고, 자신의 반생과 겹쳐보는 사진전입니다.\n\n[관련 이벤트]\n갤러리 토크\n① 사진전 작품 해설\n일시: 7월 18일 14:00～15:00\n요금: 무료 (사전 신청 불필요)\n② 잠자리 비행 촬영법\n일시: 7월 25일 14:00～15:00\n요금: 무료 (사전 신청 불필요)"
+        },
+        "en": {
+          "title": "Tanaka Hiroshi \"Dragonfly Boy\"",
+          "description": "Approximately 40 years of chasing dragonflies with a camera. A solo exhibition by photographer Tanaka Hiroshi. This exhibition likens the dragonflies the artist has encountered to his own image, reflecting on his life's journey.\n\n[Related Events]\nGallery Talk\n① Exhibition Artwork Explanation\nDate & Time: July 18, 14:00-15:00\nFee: Free (No advance registration required)\n② Dragonfly Flight Photography Techniques\nDate & Time: July 25, 14:00-15:00\nFee: Free (No advance registration required)"
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/5T2AQnROKsdyGlTSg5OlYC/69158140364e2a62623fa3ea1fd59988/e1b881be-d820-4eb5-b499-2017bd729c33.jpg",
       "description": "写真でトンボを追いかけて約40年。写真家 田中博による個展。今まで出会ったトンボを作者自身の姿に見立て、これまでの半生と重ね合わせた写真展。\n\n[関連イベント]\nギャラリートーク\n①写真展作品解説\n日時: 7月18日 14:00～15:00\n料金: 無料(事前申込み不要)\n②トンボ飛翔撮影法\n日時: 7月25日 14:00～15:00\n料金: 無料(事前申込み不要)",
       "medium": "photo",
@@ -52134,8 +52273,17 @@
       "id": "359bcabf64ca",
       "source": "tokyo_art_beat",
       "title": "「TOKYOスマート・カルチャー・プロジェクト 奈良女子大学 長谷研究室『複製される感性－森山大道』」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「TOKYO 스마트 컬처 프로젝트 나라여자대학 나가타니 연구실 『복제되는 감성－모리야마 다이도』」",
+          "description": "도쿄도와 공익재단법인 도쿄도 역사문화재단이 추진하는 'TOKYO 스마트 컬처 프로젝트'는 도립 문화시설이 보유한 문화 자원을 디지털화하여 새로운 감상 경험을 제공하는 프로젝트입니다. 그 일환으로, 도립 문화시설이 소장하는 '도쿄도 컬렉션'의 실물 자료와 디지털 아카이브를 결합하여 오프라인과 온라인을 융합한 하이브리드 전시회를 개최합니다.\n\n본 전시회에서는 도쿄도 사진미술관이 소장하는 모리야마 다이도의 작품을 '복제되는 감성'이라는 테마 아래 나라여자대학 공학부 학생들의 시점에서 선정하고 재구성하여 전시합니다. 또한, 'Tokyo Museum Collection (ToMuCo)－도쿄도립 박물관・미술관 소장품 검색'에서는 온라인 전시회를 통해 누구나, 언제든지, 어디서든 작품을 감상할 수 있는 기회를 제공합니다.\n\n참고로, 본 전시회는 모리야마 다이도 사진재단의 협력으로 이리에 다이키치 기념 나라시 사진미술관에서 2025년에 개최된 '복제되는 감성 DAIDO MORIYAMA by NWU Nagatani Lab. Monika Orpik'의 순회전으로 개최됩니다. 해당 전시의 전시 작품을 포함하여 새로운 구성으로 관람하실 수 있습니다."
+        },
+        "en": {
+          "title": "\"TOKYO Smart Culture Project Nara Women's University Nagatani Lab 'Reproduced Sensibility - Daido Moriyama'\"",
+          "description": "The \"TOKYO Smart Culture Project,\" promoted by the Tokyo Metropolitan Government and the Tokyo Metropolitan Foundation for History and Culture, is a project that digitizes cultural resources held by metropolitan cultural facilities to provide new viewing experiences. As part of this, a hybrid exhibition will be held, combining physical materials and digital archives from the \"Tokyo Metropolitan Collection\" held by metropolitan cultural facilities, merging offline and online experiences.\n\nIn this exhibition, works by Daido Moriyama from the Tokyo Photographic Art Museum's collection will be selected and reconfigured from the perspective of students from Nara Women's University Faculty of Engineering, under the theme of \"Reproduced Sensibility.\" Furthermore, \"Tokyo Museum Collection (ToMuCo) - Search for Collections of Tokyo Metropolitan Museums and Art Museums\" will provide an opportunity for anyone to view the works anytime, anywhere through online exhibitions.\n\nThis exhibition will be held as a touring exhibition of \"Reproduced Sensibility DAIDO MORIYAMA by NWU Nagatani Lab. Monika Orpik,\" which was held in 2025 at the Irie Taikichi Memorial Museum of Photography, Nara City, with the cooperation of the Daido Moriyama Photo Foundation. You can view it with a new configuration, including the works displayed in that exhibition."
+        }
+      },
       "poster_image_url": null,
       "description": "東京都と公益財団法人東京都歴史文化財団が推進する「TOKYOスマート・カルチャー・プロジェクト」は、都立文化施設が有する文化資源をデジタル化し、新たな鑑賞体験を提供するプロジェクトです。その一環として、都立文化施設が収蔵する「東京都コレクション」の現物資料とデジタルアーカイブを組み合わせ、オフラインとオンラインを融合したハイブリッド展覧会を開催します。\n\n本展覧会では、東京都写真美術館が収蔵する森山大道の作品を「複製される感性」というテーマのもと、奈良女子大学工学部の学生の視点で選定し、再構成して展示します。また、「Tokyo Museum Collection（ToMuCo）－東京都立博物館・美術館収蔵品検索」ではオンライン展覧会を通じて、誰もが、いつでも、どこでも作品を鑑賞できる機会を提供します。\n\nなお、本展覧会は、森山大道写真財団のご協力により、入江泰吉記念奈良市写真美術館で2025年に開催された「複製される感性 DAIDO MORIYAMA by NWU Nagatani Lab. Monika Orpik」の巡回展として開催します。同展の展示作品も含め、新たな構成でご覧いただけます。",
       "medium": "photo",
@@ -52174,8 +52322,15 @@
       "id": "983ac92ff201",
       "source": "tokyo_art_beat",
       "title": "「KA–CHUNK!」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「KA–CHUNK!」"
+        },
+        "ja": {
+          "title": "「KA–CHUNK!」"
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/6Kh5lhkhvCItgU7E4ogWjv/87ea67d44a4ecbd652833ad86e2237b7/kachunk.jpg",
       "description": null,
       "medium": "mixed",
@@ -52263,8 +52418,17 @@
       "id": "2d7c632da70e",
       "source": "tokyo_art_beat",
       "title": "「音楽する写真――萩原朔美の前橋10年」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「음악하는 사진 — 하기와라 사쿠미의 마에바시 10년」",
+          "description": "하기와라 사쿠미(1946년, 도쿄도 출생)는 1967년 덴조 사지키에 입단하여 배우·연출가로 활동한 이후, 영상·사진·편집·집필을 비롯한 다양한 영역에서 창작을 이어왔습니다. '정점 관측'으로 대표되는 실험적인 영상 및 사진 표현은 일상의 기억 조각이나 특이성을 시사하는 등 '시간을 포착하여 시각화하는' 것에 일관된 테마가 보입니다. 최근에는 세타가야 미술관, 오사카 나카노시마 미술관, 로스앤젤레스 카운티 미술관에 작품이 소장되고 M+(홍콩)에서 전시되는 등 작품이 잇따라 재평가되었습니다.\n\n본 전시에서는 하기와라가 마에바시 문학관 관장(현재: 특별 관장)으로 취임한 이래 마에바시에서 촬영한 10년간의 사진을 중심으로 전시합니다. 길거리에서 나부끼는 깃발이나 도로 표지판, 그림자, 가로수, 화장실에 있는 하기와라 자신 등 모티프는 다양합니다. '스마트폰 산책'이라는 스타일로 촬영하는 하기와라는 그때의 심경을 \"같은 리듬이지만 멜로디가 변화한다. 마치 음악을 연주하는 감각이다\"라고 말하며, 익숙한 풍경 속에 숨어있는 변화와 발견을 신선한 시선으로 계속 바라보고 자신만의 표현으로 승화시키고 있습니다. 스마트폰에 쌓인 사진은 말하자면 일상을 새기는 시간과 기억의 집적이라고 할 수 있지만, 그것들이 모자이크화된 포토 몽타주로 재구성되면 약동감 있는 시각적 효과를 가져옵니다.\n\n전시장에서는 이 사진 작품과 영상 작품 외에도 시인 요시마스 고조와의 영상 서한(2023년), 아트북 시리즈(1971~2026년) 등 약 30점과 저서를 소개합니다. 색채와 리듬을 발산하는 작품들은 보는 이 각자가 가진 개념을 흔들고, 의외의 감각과 사고를 불러일으킬 것입니다. 전시장에는 야마야 히사노리 작곡의 피아노곡이 흐르니 함께 감상해 주십시오.\n\n[관련 이벤트]\n1. 대담 이벤트\n일시: 2026년 10월 3일 14:00~\n등단자: 하기와라 사쿠미, 이이즈카 하나에(영화감독)\n장소: 3층 홀\n요금: 700엔 (사전 신청 필수)\n2. 대담 이벤트\n일시: 2026년 10월 24일 14:00~\n등단자: 하기와라 사쿠미, 데즈카 마코토(비주얼리스트)\n장소: 3층 홀\n요금: 700엔 (사전 신청 필수)\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "「Musical Photographs: Hagiwara Sakumi's 10 Years in Maebashi」",
+          "description": "Hagiwara Sakumi (born in Tokyo in 1946) joined Tenjo Sajiki in 1967 and has since been active as an actor and director, continuing to create in various fields including video, photography, editing, and writing. His experimental video and photographic expressions, exemplified by 'Teiten Kansoku,' consistently explore the theme of 'capturing and visualizing time,' suggesting fragments of everyday memory and their peculiarities. In recent years, his works have been successively acquired by the Setagaya Art Museum, the Osaka Nakanoshima Museum of Art, and the Los Angeles County Museum of Art, and exhibited at M+ (Hong Kong), leading to a re-evaluation of his work.\n\nThis exhibition primarily features photographs taken by Hagiwara over a decade in Maebashi since his appointment as director (currently special director) of the Maebashi Museum of Literature. The motifs are diverse, including flags fluttering in the city, road signs, shadows, street trees, and Hagiwara himself in a restroom. Hagiwara, who photographs in a style he calls 'Sumaho Sanpo,' describes his state of mind at the time as, 'The rhythm is the same, but the melody changes. It's like playing music.' He continues to observe changes and discoveries hidden in familiar landscapes with a fresh gaze, elevating them into his unique expression. The photographs accumulated on his smartphone can be described as a collection of time and memories etched from daily life, and when reconfigured as mosaic-like photo-montages, they bring about dynamic visual effects.\n\nIn the exhibition venue, in addition to these photographic and video works, approximately 30 items including video letters with poet Yoshimasu Gozo (2023) and an art book series (1971–2026), as well as his publications, will be introduced. The numerous works, radiating color and rhythm, will shake the concepts held by each viewer and invite unexpected sensations and thoughts. Please enjoy the exhibition accompanied by piano music (composed by Yamaya Hisanori) playing in the venue.\n\n[Related Events]\n1. Talk Event\nDate: October 3, 2026, 2:00 PM~\nSpeakers: Hagiwara Sakumi, Iizuka Hanae (Film Director)\nVenue: 3F Hall\nAdmission: 700 yen (Advance registration required)\n2. Talk Event\nDate: October 24, 2026, 2:00 PM~\nSpeakers: Hagiwara Sakumi, Tezuka Makoto (Visualist)\nVenue: 3F Hall\nAdmission: 700 yen (Advance registration required)\n※Please check the official website for event details and registration methods."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/5P4U5JWpD3D7dwbXP5U44F/7c6c87e65cc8d106176e2e7923532335/a60849cfe8c12499f3cc5dc92e9b7f35-scaled.jpg",
       "description": "萩原朔美（1946年、東京都生まれ）は、1967年、天井桟敷へ入団し、俳優・演出家として活躍以降、映像・写真・編集・執筆をはじめ、様々な領域で創作を続けてきました。「定点観測」に代表される実験的な映像や写真の表現は、日常の記憶の断片や特異性を示唆するなど、「時間を捉えて可視化する」ことに一貫したテーマがみられます。近年は世田谷美術館、大阪中之島美術館、ロサンゼルスカウンティ美術館への作品収蔵やM＋（香港）での展示などが相次ぎ、作品が再評価されました。\n\n本展では萩原が前橋文学館館長（現在：特別館長）に就任以来、前橋で撮影した10年間の写真を中心に展示します。街中で翻るフラッグや道路標識、影、街路樹、トイレに居る萩原自身などモチーフはさまざまです。「スマホ散歩」というスタイルで撮影する萩原は、その時の心境を「同じリズムだがメロディが変化する。まるで音楽を奏でる感覚だ」と語り、見慣れた風景に潜む変化や発見を新鮮なまなざしで見つめ続け、独自の表現へと昇華させています。スマホに溜められた写真はいわば日常を刻む時間と記憶の集積といえますが、それらがモザイク化したフォト・モンタージュとして再構成されると、躍動感ある視覚的な効果が齎されます。\n\n展示会場ではこれらの写真作品と映像作品に加え、詩人 吉増剛造との映像書簡（2023年）、アートブックシリーズ（1971～2026年）など約30点と著書を紹介します。 色彩とリズムを放つ作品の数々は、観る者それぞれが持つ概念を揺さぶり、意外な感覚と思考を誘うことでしょう。会場に流れるピアノ曲（山屋寿徳 作曲）と共にご鑑賞ください。\n\n[関連イベント]\n1. 対談ベント\n日時: 2026年10月3日14:00〜\n登壇者: 萩原朔美、飯塚花笑（映画監督）\n会場: 3Ｆホール\n料金: 700円（要事前申込み）\n2. 対談ベント\n日時: 2026年10月24日14:00〜\n登壇者: 萩原朔美、手塚眞（ヴィジュアリスト）\n会場: 3Ｆホール\n料金: 700円（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -52310,8 +52474,19 @@
       "id": "c5fb9244e7b7",
       "source": "tokyo_art_beat",
       "title": "「LookUp」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「룩업」",
+          "description": "아사가야 미술 전문학교 이미지 크리에이션 코스 2학년 학생들의 수업 성과 전시입니다. 이번에는 교실과 갤러리 '고릴라의 숲' 두 곳에서 전시를 진행합니다. 2학년이 되어 각자의 테마와 마주하며 탄생한 표현들을 즐겨주세요. 교실에서는 동시에 3학년 학생들이 합숙 '기타시오바라무라 아트 투어리즘'을 거쳐 제작한 작품들도 전시합니다. 부디 이 기회에 관람해 주십시오."
+        },
+        "ja": {
+          "title": "「ルックアップ」"
+        },
+        "en": {
+          "description": "This is an exhibition of works by second-year students from Asagaya College of Art and Design's Image Creation Course, showcasing the results of their studies. This time, the exhibition will be held at two locations: the classroom and Gallery 'Gorilla no Mori.' Please enjoy the expressions born from each student's engagement with their individual themes as they entered their second year. In the classroom, works created by third-year students after their 'Kitashiobara-mura Art Tourism' training camp will also be exhibited simultaneously. We invite you to take this opportunity to view the exhibition."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/5JZMlNzC0AbB6UZL0GYzSa/204d0ba5e2faae2dc81c2c3fde0393a1/26_look_omote_-_goriranomori.shinkouenji.png",
       "description": "阿佐ヶ谷美術専門学校イメージクリエイションコースの２年生による、授業の成果展示です。今回は教室とギャラリー「ゴリラの森」の二箇所で展示を実施します。2年生になって、それぞれのテーマと向き合って生まれた表現をお楽しみください。教室では同時に3年生が合宿「北塩原村アートツーリズム」を経て制作した作品も展示いたします。ぜひこの機会にご高覧ください。",
       "medium": "mixed",
@@ -52350,8 +52525,17 @@
       "id": "dbd049f4e4a2",
       "source": "tokyo_art_beat",
       "title": "「echoes of impression — 光、時間、三つの技法 —」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「echoes of impression — 빛, 시간, 세 가지 기법 —」",
+          "description": "아트 스페이스 「츠키 다이타이 요카」에서 3인의 실력파 작가들이 참여하는 그룹전 『echoes of impression — 빛, 시간, 세 가지 기법 —』이 7월 19일(일)부터 개최됩니다! ~한때 그곳에 있었던 빛과 시간이 사진, 판화, 건축적 시점이라는 독자적인 표현 기법을 통해 지금, 서로 울려 퍼진다~ 아트 스페이스 「츠키 다이타이 요카」(가나가와현 요코스카시 타우라초)는 2026년 7월 19일(일)부터 8월 2일(일)까지 카츠마타 쿠니히코, 나카무라 하나에, 아오노 아키코 3인의 그룹전 『echoes of impression — 빛, 시간, 세 가지 기법 —』을 주말(토·일) 한정으로 개최합니다. 우리는 매일 무수한 「빛」과 「시간」 속에서 살아가고 있습니다. 그러나 그것들은 한순간에 지나가 버려 눈에는 보이지 않게 되는 것들입니다. 본 전시는 그 눈에 보이지 않아야 할 한순간을 사진, 판화, 건축적 시점이라는 독자적인 「기법」으로 물질에 정착시키는 3인의 작가들이 선보이는 신선한 표현의 울림(echoes)을 체험하는 시도입니다."
+        },
+        "en": {
+          "title": "「echoes of impression — Light, Time, Three Techniques —」",
+          "description": "A group exhibition by three talented artists, \"echoes of impression — Light, Time, Three Techniques —,\" will be held at Art Space \"Tsuki Daitai Yōka\" starting July 19 (Sunday)! ~Light and time that once existed there now resonate through unique expressive methods: photography, printmaking, and architectural perspective.~ Art Space \"Tsuki Daitai Yōka\" (Taura-cho, Yokosuka-shi, Kanagawa) will host a group exhibition by three artists—Kunihiko Katsumata, Hanae Nakamura, and Akiko Aono—titled \"echoes of impression — Light, Time, Three Techniques —\" from July 19 (Sunday) to August 2 (Sunday), 2026, exclusively on weekends (Saturdays and Sundays). We live each day amidst countless \"light\" and \"time.\" However, these pass in an instant and become invisible to the eye. This exhibition is an attempt to experience the fresh resonance (echoes) of expression by three artists who fix those invisible moments into material form through unique \"techniques\" of photography, printmaking, and architectural perspective."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3M2v76oMt5UdmH72DKWfL0/1212989fbaa3ac10571b40e20b424877/580fae3b-83f6-48ea-8915-443fecc92e8e.png",
       "description": "アートスペース「月だいたい八日」にて、3人の実力派作家によるグループ展『echoes of impression — 光、時間、三つの技法 —』を7月19日（日）より開催！〜かつてそこにあった光と時間が、写真・版画・建築的視点という独自の表現手法を通して今、響き合う〜アートスペース「月だいたい八日」（神奈川県横須賀市田浦町）は、2026年7月19日（日）から8月2日（日）まで、勝又公仁彦、中村花絵、青野昭子の3名によるグループ展『echoes of impression — 光、時間、三つの技法 —』を週末（土・日）限定で開催いたします。私たちは日々、無数の「光」と「時間」の中に生きています。しかしそれらは、一瞬で過ぎ去り、目には見えなくなってしまうものです。本展は、その目に見えないはずの一瞬を、写真・版画・建築的視点という独自の「技法」によって物質へと定着させる3人の作家による、瑞々しい表現の響き合い（echoes）を体感する試みです。",
       "medium": "photo",
@@ -52409,8 +52593,17 @@
       "id": "ef948f7c95c3",
       "source": "tokyo_art_beat",
       "title": "やたなつき 「空点をみつめる眼」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "야타 나츠키 「공점을 응시하는 눈」",
+          "description": "이번에 갤러리 솔라리스에서 야타 나츠키 개인전 『공점을 응시하는 눈』을 개최합니다. 야타는 재학 중부터 「포착하기 어려운 것들의 표현」을 주제로 다양한 소재를 사용하여 작품 활동을 해왔습니다. 본 전시에서는 「전방 보케」와 「후방 보케」의 복잡한 얽힘에 주목한 사진 시리즈 〈공점〉을 발표합니다. 이 시리즈에서는 렌즈의 초점을 공중에 두고, 선명하게 찍히는 피사체를 제거함으로써 보케만을 이용한 화면 구성을 시도하고 있습니다. 본 전시의 제목 『공점을 응시하는 눈』은 이 초점을 공중에 두는 촬영 방법을 나타냅니다. 명확한 형태나 의미를 추구하는 사람의 눈으로는 포착할 수 없는 세계를 카메라의 눈은 보고 있습니다. 그 시야의 감상은 분명 우리가 평소에 간과하고 있는 세계에 대한 상상력을 키우고, 보는 행위 그 자체를 다시금 의식하게 해줄 것입니다."
+        },
+        "en": {
+          "title": "Natsuki Yata \"The Eye Gazing at the Empty Point\"",
+          "description": "Natsuki Yata's solo exhibition, \"The Eye Gazing at the Empty Point,\" will be held at Gallery Solaris. Since her time as a student, Yata has been engaged in creating works using various materials, centered on the theme of \"expressing elusive things.\" In this exhibition, she will present her photography series \"Empty Point,\" which focuses on the complex interplay of \"front bokeh\" and \"rear bokeh.\" In this series, she attempts to compose images using only bokeh by setting the lens's focus in mid-air and removing clearly depicted subjects. The title of this exhibition, \"The Eye Gazing at the Empty Point,\" refers to this method of focusing the lens in mid-air. The camera's eye sees a world that cannot be fully grasped by the human eye, which seeks clear shapes and meanings. Experiencing this perspective will surely expand our imagination towards the world we usually overlook and make us re-aware of the act of seeing itself."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/5KnT11v7h4WkcnTPgaFyrj/5ad8a1e60845c9847bf2b02b25ba9eeb/05351c0f-f50f-49de-a87d-6e2a7adf6fbe.jpg",
       "description": "このたびギャラリー・ソラリスにて、やたなつき個展『空点をみつめる眼』を開催いたします。やたは在学中より「捉え難いものごとの表現」をテーマに様々な素材を用いて制作に取り組んできました。本展では、「前ボケ」と「後ボケ」の複雑な絡み合いに着目した写真シリーズ〈空点〉を発表します。本シリーズではレンズの焦点を空中に置き、はっきりと写る被写体を取り去ることで、ボケだけを用いた画面構成を試みています。本展のタイトル『空点をみつめる眼』は、この焦点を空中に置く撮影方法を示しています。はっきりとした形や意味を求める人の眼では捉えきれない世界を、カメラの眼は見ている。その視野の鑑賞はきっと、私たちが普段見過ごしている世界への想像力を膨らませ、見るという行為そのものをあらためて意識させてくれるでしょう。",
       "medium": "photo",
@@ -52891,8 +53084,17 @@
       "id": "16ec60567373",
       "source": "tokyo_art_beat",
       "title": "長町文聖 「OLD VILLAGE -玉川学園II-」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "나가마치 분세이 「OLD VILLAGE -타마가와 학원II-」",
+          "description": "나가마치 분세이는 2019년부터 교외 도시인 도쿄도 마치다시와 그 주변을 촬영하여 「OLD VILLAGE」라는 제목으로 계속 발표하고 있습니다. 이번 촬영을 통해 마치다시 타마가와 학원 지구의 도시 모습을 다시 보고 싶었다고 나가마치는 말합니다."
+        },
+        "en": {
+          "title": "Bunsei Nagamachi \"OLD VILLAGE -Tamagawa Gakuen II-\"",
+          "description": "Since 2019, Bunsei Nagamachi has been photographing Machida City, Tokyo, a suburban city, and its surrounding areas, and has continued to present his work under the title \"OLD VILLAGE.\" Nagamachi says that through this latest photography, he wanted to re-examine the appearance of the city in the Tamagawa Gakuen district of Machida City."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/22zJhVqPtWRenSIZesaHrC/9e721aaed01c3a12590bd7775592627f/bc4941c0-2c2c-414b-9845-4849fffa522b.jpg",
       "description": "長町文聖は2019年より、郊外都市である東京都町田市やその周縁を撮影し「OLD VILLAGE」と題して発表を続けています。今回撮影を通して、町田市玉川学園地区における街の姿を改めて見たかったと長町は言います。",
       "medium": "mixed",
@@ -52938,8 +53140,19 @@
       "id": "95d39aad3b92",
       "source": "tokyo_art_beat",
       "title": "「SEZON MUSEUM OF MODERN ART Photographs by Mikiya Takimoto 」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「SEZON MUSEUM OF MODERN ART Photographs by Mikiya Takimoto 」",
+          "description": "1981년 개관 이래, 세존 현대 미술관은 항상 그 시대의 '지금'을 표현하고 인간의 감정과 그 깊숙한 곳에 펼쳐진 정경을 계속해서 바라봐 왔습니다. 이번 리뉴얼을 맞아 사진작가 타키모토 미키야가 새로운 세존 현대 미술관의 모습을 촬영했습니다. 세밀한 연출이나 요청 없이, 건축과 정원, 아사마산의 자연환경과 마주하는 가운데, 타키모토 자신의 시점과 감성으로 포착된 풍경이 필름에 담겼습니다. 빛과 공기, 기척이 자연스럽게 나타나는 순간을 조용히 기다리고, 그 장소에 흐르는 시간에 '귀를 기울이듯이', 불현듯 찾아오는 순간에 대한 응답으로 빛이 필름에 새겨집니다. 거기에는 스스로 세계를 잘라내는 것이 아니라, 그 장소에서 나타나는 빛과 시간을 받아들이려는 자세가 있습니다.\n\n45년 전 개관 기념 「마르셀 뒤샹전」에서는 존 케이지가 본 미술관에서 퍼포먼스를 펼쳤습니다. 그의 대표작인 《4'33''》은 음악이란 소리를 만들어내는 것이 아니라, 세계에 이미 존재하는 소리에 '귀를 기울이는' 새로운 예술의 방식이었습니다. 타키모토의 촬영에 임하는 자세는 존 케이지의 감각과 지금 조용히 공명하는 듯합니다. 45년에 걸쳐 길러진 창조의 역사가 타키모토의 조용한 시선에 의해 새로운 빛을 띠고 있습니다. 본 전시에서는 타키모토 미키야의 사진을 통해 아사마산이 길러낸 지구의 기억과 인간이 엮어온 창조의 기억이 조용히, 부드럽게 숨 쉬고 있습니다."
+        },
+        "ja": {
+          "title": "「SEZON MUSEUM OF MODERN ART Photographs by Mikiya Takimoto 」"
+        },
+        "en": {
+          "description": "Since its opening in 1981, the Sezon Museum of Modern Art has consistently expressed the \"now\" of each era, continuously observing human emotions and the landscapes that unfold within them. For this renewal, photographer Mikiya Takimoto captured the new appearance of the Sezon Museum of Modern Art. Without elaborate staging or requests, Takimoto faced the architecture, garden, and the natural environment of Mount Asama, and the landscapes captured through his own perspective and sensibility were preserved on film. He quietly waited for moments when light, air, and presence naturally emerged, and as if \"listening\" to the time flowing in that place, light was etched onto the film as a response to unexpected moments. This reflects an attitude of not actively cutting out the world, but rather embracing the light and time that emerge from the place itself.\n\nAt the opening exhibition \"Marcel Duchamp Exhibition\" 45 years ago, John Cage performed at the museum. His representative work, \"4'33''\", presented a new way of art, suggesting that music is not about producing sounds, but about \"listening\" to sounds already existing in the world. Takimoto's approach to photography seems to quietly resonate with John Cage's sensibility today. The history of creation nurtured over 45 years is now imbued with new light through Takimoto's quiet gaze. In this exhibition, through Mikiya Takimoto's photographs, the memory of the Earth nurtured by Mount Asama and the memory of creation woven by humanity quietly and softly breathe."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/1PABnqsSMBSQZ5ugEDutRs/94a7f4e3de9135bffebacedffb140108/unnamed.jpg",
       "description": "1981年の開館以来、セゾン現代美術館は、常にその時代の〈今〉を表現し、人間の感情や、その奥に広がる情景を見つめ続けてきました。このたびのリニューアルに際し、写真家・瀧本幹也が新たなセゾン現代美術館の姿を撮り下ろしました。細かな演出や依頼は設けず、建築や庭園、浅間山の自然環境と向き合うなかで、瀧本自身の視点と感性によって切り取られた風景がフィルムにおさめられています。光や空気、気配が自然に立ち現れる瞬間を静かに待ち、その場所に流れる時間へ「耳を澄ませるように」、不意に訪れる瞬間への応答として光がフィルムに刻まれる。そこには、自ら世界を切り取るのではなく、その場から立ち現れてくる光や時間を受け止めようとする姿勢があります。\n\n45年前の開館記念「マルセル・デュシャン展」では、ジョン・ケージが当館でパフォーマンスを行いました。彼の代表作である《4'33''》は、音楽とは音を生み出すことではなく、世界にすでに存在する音へ「耳を澄ます」という、新しい芸術の在り方でした。瀧本の撮影に向き合う姿勢は、ジョン・ケージの感覚と今静かに響き合うかのようです。 45年にわたり育まれてきた創造の歴史が、瀧本の静かな眼差しによって新たな光を帯びています。本展では、瀧本幹也の写真を通して、浅間山が育んだ地球の記憶と人間が紡いできた創造の記憶が、静かに、やわらかく息づいています",
       "medium": "photo",
@@ -52992,8 +53205,17 @@
       "id": "b18d998e1e14",
       "source": "tokyo_art_beat",
       "title": "鈴木遙大 「回帰不能点」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "스즈키 하루타 「회귀 불능점」",
+          "description": "MIKKAL Gallery는 이번에 스즈키 하루타의 개인전 「회귀 불능점」을 개최합니다. 본 전시는 스즈키에게 일본에서 처음으로 열리는 개인전입니다.\n\n사람은 과거를 되돌아볼 수는 있어도, 과거 그 자체로 돌아갈 수는 없습니다. 시간의 흐름에 따라 환경은 변화하고, 자신의 사고 또한 변화합니다. 「회귀 불능점」이란, 한 번 통과하면 다시는 원래 상태로 돌아갈 수 없는 지점을 의미합니다. 본 전시는 스즈키 하루타가 자신이 걸어온 5년간을 되짚어보면서, 되찾을 수 없는 그 거리와 마주하는 시도입니다.\n\n전시되는 5점의 작품은 2022년부터 2026년까지, 각 연도에 제작된 한 작품씩으로 구성되어 있습니다. 16세부터 20세에 이르는 시간. 18세에 영국으로 건너간 경험과 그 후의 환경 변화 또한 작품 해석에 새로운 층위를 부여합니다.\n그러나 스즈키에게 이 작품들은 성장 과정을 순서대로 설명하기 위한 기록이 아닙니다. 각 작품에는 그 시기마다 스즈키가 마주했던 질문이나 문제의식이 새겨져 있습니다. 그것들은 현재에서 되돌아보면 다른 의미를 띠면서도, 여전히 작품 속에 남아 있습니다. 후의 사고로 정리되기 이전의 의문이나 위화감, 관심이 그곳에 남아 있습니다. 그것들은 당시의 스즈키가 세계를 향해 내놓았던 하나의 응답이기도 합니다.\n\n사람의 사고는 시간과 함께 변화합니다. 1년 후, 5년 후, 10년 후에는 현재 믿고 있는 것조차 다른 모습을 보일지도 모릅니다. 마찬가지로 작품 또한 제작된 순간의 의미에 머무르지 않습니다. 시대나 사회 상황, 그리고 감상자 자신의 변화에 따라 새로운 해석을 계속해서 만들어냅니다.\n본 전시에서 되돌아보는 것은 과거의 작품만이 아닙니다. 현재의 스즈키 자신 또한 그 작품들에 의해 질문받는 입장에 있습니다. 그러나 그 대화는 결코 과거로의 회귀가 아닙니다. 예전의 자신으로 완전히 돌아갈 수 없고, 당시의 세계를 그대로 되찾을 수도 없기 때문입니다.\n\n본 전시는 결코 단순히 향수를 위한 전시가 아닙니다. 과거의 자신과 현재의 자신 사이에 생긴 거리를 바라보고, 그 간극 속에서 변화한 것과 지금도 여전히 남아 있는 것을 탐색하는 시도입니다. 그리고 그 거리를 받아들임으로써만 보이는 미래에 대한 질문으로 열려 있습니다.\n스즈키 하루타의 5년간을 따라가는 것이 감상자 한 사람 한 사람에게 자신의 과거로 시선을 돌리면서도, 더 이상 그곳으로 돌아갈 수 없는 현재의 위치를 다시금 바라보는 계기가 되기를 바랍니다.\n\n[관련 이벤트]\n아티스트 토크\n일시: 8월 7일 (금) 18:00~19:30"
+        },
+        "en": {
+          "title": "Haruta Suzuki \"Point of No Return\"",
+          "description": "MIKKAL Gallery is pleased to announce \"Point of No Return,\" a solo exhibition by Haruta Suzuki. This exhibition marks Suzuki's first solo show in Japan.\n\nWhile people can look back at the past, they cannot return to the past itself. As time passes, environments change, and one's own thoughts also evolve. A \"point of no return\" signifies a point that, once passed, can never be reverted to its original state. This exhibition is Haruta Suzuki's attempt to retrace the five years he has lived and confront the irretrievable distance.\n\nThe five works on display consist of one piece created in each year from 2022 to 2026, spanning the artist's life from age 16 to 20. His experience of moving to the UK at age 18 and the subsequent changes in his environment also add new layers to the interpretation of his works.\nHowever, for Suzuki, these works are not records meant to sequentially explain his growth process. Each piece embodies the questions and issues Suzuki faced at that particular time. While they may take on different meanings when viewed from the present, they still remain within the works. Doubts, discomforts, and interests that existed before being organized by later thoughts are preserved there. They are also a form of response that Suzuki, at that time, offered to the world.\n\nHuman thoughts change with time. A year, five years, or ten years from now, even what we currently believe might appear in a different light. Similarly, artworks do not remain confined to the meaning of the moment they were created. They continuously generate new interpretations through changes in era, social circumstances, and the viewers themselves.\nThis exhibition does not only look back at past works. The current Suzuki himself is also in a position to be questioned by these works. However, this dialogue is by no means a return to the past, because one cannot fully revert to one's former self, nor can one retrieve the world as it was then.\n\nThis exhibition is by no means merely a display for nostalgia. It is an attempt to gaze at the distance that has emerged between one's past self and present self, and from within that gap, to explore what has changed and what still remains. And by accepting that distance, it opens up to questions about the future that only then become visible.\nWe hope that tracing Haruta Suzuki's five years will serve as an opportunity for each viewer to reflect on their own past while re-examining their current position, from which they can no longer return.\n\n[Related Event]\nArtist Talk\nDate & Time: August 7 (Fri), 18:00–19:30"
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/6ObSOvwCHHQZWVKoSzk0uL/ecb5fa6516e3023385573784dae9b3d1/IMG_6187_-_Kaina_Liu__1_.png",
       "description": "MIKKAL Galleryはこのたび、鈴木遙大による個展「回帰不能点」を開催いたします。本展は、鈴木にとって日本で初めての個展となります。\n\n人は過去を振り返ることはできても、過去そのものへ立ち返ることはできません。時間の経過とともに環境は変化し、自身の思考もまた変化していきます。「回帰不能点」とは、一度通過すると二度と元の状態へ戻ることのできない地点を意味します。本展は、鈴木遙大が自身の歩んできた5年間をたどり直しながら、その取り戻すことのできない距離と向き合う試みです。\n\n展示される5点の作品は、2022年から2026年まで、それぞれの年に制作された一作ずつによって構成されています。16歳から20歳に至るまでの時間。18歳で英国へ渡った経験と、その後の環境の変化もまた、作品の解釈に新たな層を与えています。\nしかし鈴木にとって、これらの作品は成長の過程を順序立てて説明するための記録ではありません。それぞれの作品には、その時々に鈴木が向き合っていた問いや問題意識が刻まれています。それらは現在から振り返れば異なる意味を帯びながらも、なお作品の中に留まり続けています。後の思考によって整理される以前の疑問や違和感、関心がそこには残されています。それらは、当時の鈴木が世界に向けて差し出した、一つの応答でもあります。\n\n人の思考は、時間とともに変化していきます。1年後、5年後、10年後には、現在信じていることでさえ、異なる姿を見せているかもしれません。同様に、作品もまた制作された瞬間の意味に留まり続けることはありません。時代や社会状況、そして鑑賞者自身の変化によって、新たな解釈を生み出し続けます。\n本展において振り返られるのは、過去の作品だけではありません。現在の鈴木自身もまた、それらの作品によって問い返される立場にあります。しかし、その対話は決して過去への回帰ではありません。かつての自分へ完全に戻ることはできず、当時の世界をそのまま取り戻すこともできないからです。\n\n本展は、決して単にノスタルジアのための展示ではありません。過去の自分と現在の自分とのあいだに生じた距離を見つめ、その隔たりのなかから、変化したものと、いまもなお残り続けるものを探る試みです。そして、その距離を受け入れることによってのみ見えてくる未来への問いへと開かれていきます。\n鈴木遙大の5年間をたどることが、鑑賞者一人ひとりにとって、自らの過去へと視線を返しながらも、もはやそこへ戻ることのできない現在地を見つめ直す契機となることを願っています。\n\n[関連イベント]\nアーティストトーク\n日時: 8月7日（金）18:00〜19:30",
       "medium": "mixed",
@@ -53039,8 +53261,17 @@
       "id": "71b3a82b75b3",
       "source": "tokyo_art_beat",
       "title": "孫雅傑 「『塵芥のように』 孫雅傑 芸術写真展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "손아걸 「『진개처럼』 손아걸 예술 사진전」",
+          "description": "중국의 다큐멘터리 감독이자 사진작가인 손아걸은 오랜 세월 동안 중국 각지를 기록하며 '사람'과 '땅'의 관계를 계속해서 탐구해왔다. 본 전시에서는 루미의 시에 등장하는 '미진(speck of dust)'의 이미지를 단서로, 사진을 통해 눈에 보이지 않는 시간, 기억, 그리고 생명의 궤적을 그려낸다. 수피즘에서 '미진'은 인간의 작음을 의미할 뿐만이 아니다. 그것은 한 알 한 알 속에 우주의 전체성이 깃들어 있다는 사상이기도 하다. \"자아를 내려놓았을 때, 한 알의 먼지 속에서도 하나의 보름달이 보인다.\" 본 전시는 사진을 보는 전시회인 동시에, 자기 자신의 내면에 있는 작은 기억과 조용히 만나는 시간이기도 하다. 당신에게 '미진'은 어떤 이야기를 들려주기 시작할까?"
+        },
+        "en": {
+          "title": "Sun Yajie \"『Like Dust』 Sun Yajie Art Photography Exhibition\"",
+          "description": "Chinese documentary filmmaker and photographer Sun Yajie has, over many years, documented various regions across China, continuously exploring the relationship between \"people\" and \"land.\" In this exhibition, taking the image of \"speck of dust\" from Rumi's poetry as a clue, Sun Yajie uses photography to depict invisible time, memories, and the trajectories of life. In Sufism, \"speck of dust\" does not merely signify human insignificance. It is also the idea that the entirety of the universe resides within each individual particle. \"When you let go of the ego, even in a single speck of dust, a full moon becomes visible.\" This exhibition is not only a display of photographs but also a time to quietly encounter the small memories within oneself. What kind of story will \"speck of dust\" begin to tell for you?"
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/49iykdqpCmfAzEMeZ9tU78/e7d328285d711d33b8d5f450f42b6757/706cd5b328cc28cf8fc3233fd5e46576_-_anya_zhang__1_.jpg",
       "description": "中国のドキュメンタリー監督・写真家 孫雅傑 は、長年にわたり中国各地を記録し、「人」と「土地」の関係を見つめ続けてきた。本展では、ルーミーの詩に登場する「微塵（speck of dust）」のイメージを手がかりに、写真を通して、目には見えない時間、記憶、そして生命の軌跡を描き出す。\nスーフィズムにおいて「微塵」は、人間の小ささを意味するだけではない。それは、一粒一粒の中に宇宙の全体性が宿るという思想でもある。\n「自我を手放したとき、一粒の塵の中にも、ひとつの満月が見えてくる。」\n本展は、写真を見る展覧会であると同時に、自分自身の内側にある小さな記憶と静かに出会う時間でもある。あなたにとっての「微塵」は、どのような物語を語り始めるだろうか。",
       "medium": "photo",
@@ -53086,8 +53317,19 @@
       "id": "703ceb10768e",
       "source": "place_m",
       "title": "Family Affair",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "가족 이야기",
+          "description": "2026.08.24 - 2026.08.30 Family Affair 이 전시에서는 6명의 사진작가이자 친구인 저희가 각자 평소 작업 과정에서 탄생한 작품들을 가져왔습니다. 공통된 주제는 없습니다. 다만, 각각 다른 6가지 접근 방식을 하나의 공간에 나란히 배치함으로써 사진들 간의 차이와 연결성, 그리고 그로부터 생겨나는 대화를 느끼실 수 있기를 바랍니다. For this exhibition six photographers, six friends, have brought together work born of their regular processes. There is no overall theme, only these six approaches combined to allow exploration of the differences, connections and conversations that can be found between the photographs."
+        },
+        "ja": {
+          "title": "家族の事情"
+        },
+        "en": {
+          "description": "2026.08.24 - 2026.08.30 Family Affair For this exhibition six photographers, six friends, have brought together work born of their regular processes. There is no overall theme, only these six approaches combined to allow exploration of the differences, connections and conversations that can be found between the photographs."
+        }
+      },
       "poster_image_url": "https://www.placem.com/schedule/2026/main/20260824/family-01.jpg",
       "description": "2026.08.24 - 2026.08.30 Family Affair この展示では、6人の写真家であり、友人でもある私たちが、それぞれ普段の制作の中で生まれた作品を持ち寄りました。共通のテーマはありません。ただ、それぞれ異なる6つのアプローチを一つの空間に並べることで、写真同士の違いやつながり、そしてそこから生まれる対話を感じてもらえたらと思っています。 For this exhibition six photographers, six friends, have brought together work born of their regular processes. There is no overall theme, only these six approaches combined to allow exploration of the differences, connections and conversations that can be found between the photographs.",
       "medium": "photo",
@@ -53126,8 +53368,17 @@
       "id": "8f72a6c5c2ca",
       "source": "place_m",
       "title": "KESHIN ー At the Threshold of Inside and Out ー",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "KESHIN – 안과 밖의 경계에서 –",
+          "description": "2026.09.07 - 2026.09.13 스즈키 나오코 KESHIN – At the Threshold of Inside and Out – 화신 — 신불이 세속적인 형태로 나타나는 것. 나는 이 현상을 일상의 모든 장면에서 발견한다. 아무것도 생각하지 않으려 할 때, 포착하는 순간이 있다. 사고를 멈추고 원시적인 생물의 상태로 돌아가려 할 때, 내 안의 신성에 접근하면서 동시에 나이면서 내가 아닌 것이 나타난다. 그것은 탐욕스러운 시도일지도 모른다. 무심을 지향하는 것은 이 \"내가 아닌 나\"를 통해 신성에 닿고 싶다는 충동에서 비롯된다. 모순적이다. 신성한 것을 추구하면서도 그 수단은 욕망에 기반을 둔다. 그러나 이 모순 속에 진실이 있는 것은 아닐까? 아무것도 생각하지 않으려 하는 가운데, 내면의 신성과 외부의 신성이 만나는 순간이 찾아온다. 이 작품들은 그 포착하기 어려운 경계의 증거이다. KESHIN — The incarnation of gods and buddhas in worldly forms. I find this phenomenon in all aspects of everyday life. There are moments I let go of all thought to grasp it. When I stop my thoughts and try to return to a primitive state of being, something both within and beyond me appears, accessing my inner divinity. It may be a selfish endeavor. The pursuit of a mind beyond thought arises from the impulse to touch divinity through this “self that is not myself.” It’s a paradoxical truth: That the approach to the sacred is rooted in greed. Yet perhaps the truth lies precisely within this contradiction. In the attempt to think of nothing, a moment when the inner divine meets the outer comes. These works are the evidence of that elusive boundary."
+        },
+        "en": {
+          "title": "KESHIN – At the Threshold of Inside and Out –",
+          "description": "2026.09.07 - 2026.09.13 Suzuki Naoko KESHIN – At the Threshold of Inside and Out – KESHIN — The incarnation of gods and buddhas in worldly forms. I find this phenomenon in all aspects of everyday life. There are moments I let go of all thought to grasp it. When I stop my thoughts and try to return to a primitive state of being, something both within and beyond me appears, accessing my inner divinity. It may be a selfish endeavor. The pursuit of a mind beyond thought arises from the impulse to touch divinity through this “self that is not myself.” It’s a paradoxical truth: That the approach to the sacred is rooted in greed. Yet perhaps the truth lies precisely within this contradiction. In the attempt to think of nothing, a moment when the inner divine meets the outer comes. These works are the evidence of that elusive boundary."
+        }
+      },
       "poster_image_url": "https://www.placem.com/schedule/2026/main/20260907/NAOKOSUZUKI_01.jpg",
       "description": "2026.09.07 - 2026.09.13 鈴木ナオコ KESHIN ー At the Threshold of Inside and Out ー 化身 — 神仏が世俗の形で現れること。 私はこの現象を日常のあらゆる場面に見出している。 何も考えないようにして、とらえる瞬間がある。 思考を停止させ、原始的な生き物の状態に戻ろうとする時、 自分の中の神性にアクセスしながら、同時に自分であって自分でないものが立ち現れる。 それは欲深い取り組みかもしれない。 無心をめざすのは、この「自分でない自分」を通して神性に触れたいという衝動から生まれている。 矛盾している。 神聖なものを求めながら、その手段は欲に基づいている。 しかし、この矛盾の中にこそ真実があるのではないか。 何も考えまいとする中で、内なる神性と外なる神性が出会う瞬間が訪れる。 これらの作品は、その捉え難い境界の証拠である。 KESHIN — The incarnation of gods and buddhas in worldly forms. I find this phenomenon in all aspects of everyday life. There are moments I let go of all thought to grasp it. When I stop my thoughts and try to return to a primitive state of being, something both within and beyond me appears, accessing my inner divinity. It may be a selfish endeavor. The pursuit of a mind beyond thought arises from the impulse to touch divinity through this “self that is not myself.” It’s a paradoxical truth: That the approach to the sacred is rooted in greed. Yet perhaps the truth lies precisely within this contradiction. In the attempt to think of nothing, a moment when the inner divine meets the outer comes. These works are the evidence of that elusive boundary.",
       "medium": "photo",
@@ -53173,8 +53424,19 @@
       "id": "8084e074be64",
       "source": "tokyo_art_beat",
       "title": "「The stylish macro season is here」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「세련된 매크로 시즌이 찾아왔습니다」",
+          "description": "본 전시는 캐논 포토클럽 dext 나고야 회원들의 사진전입니다. 캐논 포토클럽은 회원제 사진 동호회 \"캐논 포토 서클\"의 전국 각지 회원들이 각 지역에 모여 사진전이나 촬영회 등을 개최하는 자율 운영 커뮤니티입니다. 캐논 포토클럽 dext 나고야는 48명의 회원으로 활동하며, 정기적으로 촬영회나 사진전을 개최하는 등 의욕적인 활동을 이어가고 있습니다.\n본 전시는 \"The stylish macro season is here\" ~세련된 매크로 시즌의 도래~를 테마로, 회원들이 매크로 촬영에 임해온 성과로서 개최됩니다. 각 회원은 다양한 배율의 렌즈로 촬영에 도전하며 작품 제작에 힘썼습니다. 또한, 전시 구성을 모두가 공유하고 각자가 작품을 전시할 때의 색상 연결을 의식하며 제작했습니다. 본 전시에서는 평소에 볼 수 없는 매크로의 세계로 초대하는 작품 46점을 전시합니다. 작품은 캐논 프린터 \"PIXUS\"로 회원들이 직접 프린트하여 전시합니다."
+        },
+        "ja": {
+          "title": "「The stylish macro season is here」"
+        },
+        "en": {
+          "description": "This exhibition is a photo exhibition by members of Canon Photo Club dext Nagoya. Canon Photo Club is a self-managed community where members of the membership-based photography circle \"Canon Photo Circle\" gather in various regions across the country to hold photo exhibitions, photo sessions, and other activities. Canon Photo Club dext Nagoya operates with 48 members and continues enthusiastic activities such as regularly holding photo sessions and exhibitions.\nThis exhibition is held as a result of the members' efforts in macro photography, under the theme of \"The stylish macro season is here\" ~The arrival of the stylish macro season~. Each member challenged themselves to shoot with lenses of various magnifications and worked on creating their pieces. Furthermore, the exhibition composition was shared among all members, and each worked on their pieces while being mindful of the color connections when their works are displayed. This exhibition will feature 46 works that invite viewers into the world of macro photography, which is not usually seen. The works were printed by the members themselves using Canon's \"PIXUS\" printers and are now on display."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/54QVLexfncpiQmkh8ttn2B/3a31620d4c1de0d8d412a9aa4eff2f39/postcard.jpg",
       "description": "本展は、キヤノンフォトクラブ dext 名古屋のメンバーによる写真展です。キヤノンフォトクラブは、会員制写真サークル「キヤノンフォトサークル」の全国各地の会員が、各地域で集い、写真展や撮影会などを行う自主運営のコミュニティです。キヤノンフォトクラブ dext 名古屋は 48 名のメンバーで活動しており、定期的に撮影会や写真展を開催するなど意欲的な活動を続けています。\n本展は、「The stylish macro season is here」~おしゃれなマクロシーズンの到来~をテーマに、メンバーがマクロ撮影に取り組んできた成果として開催します。各メンバーが、さまざまな倍率のレンズでの撮影に挑戦し、作品制作に取り組みました。また、展示構成を全員で共有し、各自が作品を展示した際の色のつながりを意識しながら制作しています。本展では、普段目にすることのないマクロの世界へと誘う作品 46 点を展示します。作品はキヤノンのプリンター「PIXUS」でメンバー自身がプリントし、展示します。",
       "medium": "photo",
@@ -53213,8 +53475,19 @@
       "id": "7064bd626ccd",
       "source": "tokyo_art_beat",
       "title": "「TOKYO MALE ART FAIR 2026」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「TOKYO MALE ART FAIR 2026」",
+          "description": "TOKYO MALE ART FAIR는 2024년부터 새롭게 시작된 남성 표상 및 메일 아트에 특화된 아트 페어입니다. TOKYO MALE ART FAIR는 진화하는 남성 표상의 '현재'를 경험할 수 있는 기회와 아티스트의 발표 및 교류의 장을 창출함으로써 남성 표상의 더욱 폭넓은 보급 및 발전을 목표로 합니다.\n세 번째 개최를 맞이하는 올해는 일본뿐만 아니라 아시아에서 신체성, 섹슈얼리티, 사회와의 관계 등 남성 표상을 주제로 작품 활동을 해온 아티스트, 남성 표상과 관련된 서적을 취급하는 서점 등이 한자리에 모입니다.\n\n[관련 이벤트]\n토크 이벤트\n일시: 7월 19일 17:00~\n등단자: 고바야시 미카\n※이벤트 상세 정보 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "ja": {
+          "title": "「TOKYO MALE ART FAIR 2026」"
+        },
+        "en": {
+          "description": "TOKYO MALE ART FAIR is an art fair newly launched in 2024, specializing in male representation and mail art. TOKYO MALE ART FAIR aims to further popularize and develop male representation by creating opportunities to experience the evolving \"now\" of male representation, as well as providing a platform for artists to present their work and interact.\nThis year, marking its third edition, artists who have created works on the theme of male representation, including physicality, sexuality, and social connections, not only in Japan but also across Asia, along with bookstores handling books related to male representation, will gather in one place.\n\n[Related Event]\nTalk Event\nDate: July 19, 17:00~\nSpeaker: Mika Kobayashi\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/7i9kqiD1oCeKKAdUn2WzuQ/415b621c219ecab338444da66767d044/42ffb00b-4829-404c-8d05-982038007a6f.jpg",
       "description": "TOKYO MALE ART FAIRは、2024年から新たにスタートした男性表象・メールアートに特化したアートフェアです。TOKYO MALE ART FAIRでは、進化を続ける男性表象の「いま」を体感することのできる機会、およびアーティストの発表・交流の場を創出することで、男性表象のさらなる普及・発展を目指しております。\n第3回目の開催となる今年は、日本のみならずアジアで身体性、セクシュアリティ、社会とのかかわりなど男性表象をテーマに作品制作を行ってきたアーティスト、男性表象にまつわる本を取り扱う書店などが、一同に集結いたします。\n\n[関連イベント]\nトークイベント\n日時: 7月19日 17:00～\n登壇者: 小林美香\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -53307,8 +53580,17 @@
       "id": "fb88ca55573e",
       "source": "tokyo_art_beat",
       "title": "「Beyond that predetermined distance （予定調和ではない距離の先に）」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「Beyond that predetermined distance (예정된 조화가 아닌 거리 너머에)」",
+          "description": "사진은 회화나 글, 신체 감각과는 다른 '예정된 조화가 아닌 거리'를 제시합니다. 그 거리는 친한 사람과 낯선 사람에 대한 상반된 집착을 공존시키고, 때로는 관계를 변화시킵니다.\n본 전시에서는 이러한 관점을 바탕으로 세 명의 사진가가 펼치는 표현을 선보입니다. 나카무타 사토시는 아버지의 초상화를 입체화하여 가족 관계를 재구성하고, 사사키 노부히로는 패닝 촬영으로 포착한 차창을 통해 타인과의 연결을 발견합니다. 그리고 Hiroe Konishi는 초상화를 입체 작품으로 전시함으로써 '아우라'를 가시화하고 인간 존재 그 자체와 마주합니다.\n\n[관련 이벤트]\n갤러리 토크\n① 전시 작가 × 스미 타케시\n일시: 7월 19일 15:00~\n게스트: 스미 타케시 (사진가·미술가)\n② 전시 작가 × 나카자와 유키\n일시: 7월 25일 15:00~\n게스트: 나카자와 유키 (사진가·KG+ 프로그램 디렉터)\n※각 입장 무료, 예약 불필요"
+        },
+        "en": {
+          "title": "「Beyond that predetermined distance (Beyond a distance that is not predetermined)」",
+          "description": "Photography presents a \"distance that is not predetermined harmony,\" differing from painting, writing, or physical sensation. This distance allows conflicting attachments to both intimates and strangers to coexist, sometimes transforming relationships.\nThis exhibition features expressions by three photographers based on this perspective. Satoshi Nakamuta reconstructs family relationships by three-dimensionalizing portraits of his father, while Nobuhiro Sasaki finds links to others through car windows captured with panning shots. Hiroe Konishi, by exhibiting portraits as three-dimensional works, visualizes \"aura\" and confronts the very existence of humanity.\n\n[Related Events]\nGallery Talk\n① Exhibiting Artists × Takeshi Sumi\nDate: July 19, 15:00~\nGuest: Takeshi Sumi (Photographer, Artist)\n② Exhibiting Artists × Yuki Nakazawa\nDate: July 25, 15:00~\nGuest: Yuki Nakazawa (Photographer, KG+ Program Director)\n*Free admission for all, no reservation required"
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3QRKCAAlqaHx4EmnVQkulb/bc3ccdb49f18c9a9f5ccae2f38253ee5/DM_Beyond_that_predetermined_distance1.jpg",
       "description": "写真は絵画や文章、身体感覚とも異なる「予定調和ではない距離」を提示します。その距離は、親しい人と見知らぬ人への相反する執着を共存させ、時に関係性を変容させます。\n本展では、こうした観点を踏まえた3人の写真家による表現を展開します。中牟田哲志は、父のポートレイトを立体化することで家族の関係性を再構成し、佐々木修宏は流し撮りで捉えた車窓の窓から他者とのリンクを見出します。そして、Hiroe Konishiはポートレイトを立体作品として展示することで「アウラ」を可視化し、人間の存在そのものに向き合います。\n\n[関連イベント]\nギャラリートーク\n①展示作家 × 澄毅\n日時: 7月19日 15:00～\nゲスト: 澄毅（写真家・美術家）\n②展示作家 × 中澤有基\n日時: 7月25日 15:00～\nゲスト: 中澤有基（写真家・KG＋プログラムディレクター）\n※各入場無料、予約不要",
       "medium": "photo",
@@ -53366,8 +53648,17 @@
       "id": "f2754d255721",
       "source": "tokyo_art_beat",
       "title": "エリザ・エーメリー 「Atode Ne」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "Elisa Eymery 「Atode Ne」",
+          "description": "이번에 see you gallery에서는 Elisa Eymery의 개인전 「Atode Ne」를 개최합니다. 2021년 일본으로 이주한 Elisa는 새로운 생활 속에서 만난 풍경과 일상의 단편들을 사진으로 기록해 왔습니다. 일본 풍경 속에 서 있는 딸 Mina의 모습은 생명력으로 가득하며, 그 솔직한 시선을 통해 우리에게 일본이라는 사회와 문화의 고유성, 그리고 때로는 유머러스함까지 떠올리게 합니다. 한편, 일본에서 작가 자신이 의식하게 된 타인의 시선과 일본 사회와의 거리감 또한 본 작품을 형성하는 중요한 요소가 되고 있습니다. 이번 전시는 한 소녀의 성장 궤적을 따라가는 동시에, 경험의 축적을 통해 탄생한, 일본을 안과 밖 양쪽에서 바라보는 시도라고 할 수 있을 것입니다. 또한, 이번 전시에 맞춰 프랑스 출판사 Chose Commune의 창립자인 Cécile Poimboeuf-Koizumi 씨의 감수 아래 제작된 작품집을 발행합니다."
+        },
+        "en": {
+          "title": "Elisa Eymery \"Atode Ne\"",
+          "description": "see you gallery is pleased to present \"Atode Ne,\" a solo exhibition by Elisa Eymery. Elisa, who moved to Japan in 2021, has been photographing the landscapes and fragments of daily life she encountered in her new surroundings. Her daughter Mina, standing in Japanese landscapes, is full of vitality, and through her candid gaze, she reminds us of the unique characteristics, and sometimes the humor, of Japanese society and culture. At the same time, the gaze of others and the sense of distance from Japanese society, which the artist herself became aware of in Japan, are also important elements shaping this work. This exhibition can be seen as an attempt to trace the trajectory of a young girl's growth while simultaneously looking at Japan from both inside and outside, born from accumulated experiences. In conjunction with this exhibition, a photobook produced under the supervision of Cécile Poimboeuf-Koizumi, founder of the French publisher Chose Commune, will be released."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/2OZL2oaKN2ZQ6YuseRWfnq/14bd194c208389f8709ef3a1d8ac856a/KV.tif_-_Shin_Nakagawa.jpg",
       "description": "このたび、see you galleryでは、Elisa Eymeryによる個展「Atode Ne」を開催いたします。2021年に日本へ移住したエリザは、新たな生活のなかで出会った風景や日常の断片を写真に記録してきました。日本の風景に佇む娘のミナの姿は生命力に満ち、またその率直なまなざしを通して、私たちに日本という社会や文化の固有性、そして時に可笑しみをも想起させます。一方で、日本において作家自身が意識するようになった他者の視線や日本社会との距離感も、本作を形づくる重要な要素となっています。本展は、一人の少女の成長の軌跡を辿ると同時に、経験の積み重ねによって生まれた、日本を内側と外側の双方から見つめる試みであると言えるかもしれません。また、本展にあわせて、フランスの出版社Chose Commune創設者であるセシル・ポワンブフ＝コイズミ氏の監修のもと制作された作品集を刊行いたします。",
       "medium": "photo",
@@ -53413,8 +53704,17 @@
       "id": "254d2e31cda0",
       "source": "tokyo_art_beat",
       "title": "「イン アンド アウト アンド」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「인 앤드 아웃 앤드」",
+          "description": "아트카 비훈카 하쿠추에서는 2026년 7월 24일(금)부터 8월 29일(토)까지 그룹전 「인 앤드 아웃 앤드」를 개최합니다.\n본 전시는 아티스트 호라 유(保良雄)의 기획전으로, 먹는 것과 감상하는 것이 공존하는 이 공간에서 우리 각자에게 일상생활에 없어서는 안 될 배설이라는 행위를 순환이라는 관점으로 재해석하려는 시도입니다.\n음식, 예술, 염색, 사막 녹화에 관한 연구 등 영역을 넘나드는 6명의 작품을 통해 갤러리는 단순히 작품을 보는 공간에서 다양한 감각을 통해 자신이 큰 순환의 일부임을 느끼는 입구로 변모합니다.\n전시 기간 중에는 토크 이벤트와 특별 코스 제공, 염색 워크숍 등도 개최될 예정입니다."
+        },
+        "en": {
+          "title": "\"In and Out and\"",
+          "description": "Art ka Bee Hoon ka Hakuchu will host the group exhibition \"In and Out and\" from Friday, July 24, 2026, to Saturday, August 29, 2026.\nThis exhibition, curated by artist Yu Hora, is an attempt to re-examine the act of excretion—an indispensable part of our daily lives—from the perspective of circulation, within this space where eating and appreciating art coexist.\nThrough works by six artists spanning various fields such as food, art, dyeing, and research on desert greening, the gallery transforms from a mere space for viewing art into an entrance for experiencing oneself as part of a larger cycle through various senses.\nDuring the exhibition period, talk events, special course offerings, and dyeing workshops are also planned."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/6Bq81VhgoQmwqDiKYvQljz/908173e1f3f959b8627110ba048dcd88/main.jpg",
       "description": "アートかビーフンか白厨では、2026年7月24日（金）から8月29日（土）までグループ展「イン アンド アウト アンド」を開催いたします。\n本展はアーティスト・保良雄による企画展となり、食べることと鑑賞することが共存するこの空間において、私たち一人ひとりにとって日々の暮らしに欠かすことができない排泄という営みを、循環という視点を持って捉え直す試みです。\n食、アート、染色、砂漠緑化に関する研究など、領域を横断する6名による作品を通して、ギャラリーは単に作品を見る空間から、様々な感覚を通して自らが大きな循環の一部にあることを感じるための入り口へと変容します。\n会期中はトークイベントや特別コースの提供、染色ワークショップなども開催を予定しています。",
       "medium": "mixed",
@@ -53483,8 +53783,17 @@
       "id": "89d700b0908e",
       "source": "tokyo_art_beat",
       "title": "中村卓哉 「鬼界」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "나카무라 타쿠야 「키카이」",
+          "description": "[관련 이벤트]\n1. 갤러리 토크\n일시: 7월 25일 19:10~20:10\n게스트: 무라이 사치 (사진작가)\n장소: 소니 이미징 갤러리\n참가비: 무료 (사전 신청 필수)\n2. 갤러리 토크\n일시: 8월 1일 19:10~20:10\n게스트: 코미 큐 (사진작가), 하야시 키미요시 (어류 연구자)\n장소: 소니 이미징 갤러리\n참가비: 무료 (사전 신청 필수)\n※이벤트 상세 정보 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Takuya Nakamura \"Kikai\"",
+          "description": "[Related Events]\n1. Gallery Talk\nDate & Time: July 25, 19:10-20:10\nGuest: Sachi Murai (Photographer)\nVenue: Sony Imaging Gallery\nAdmission: Free (Advance registration required)\n2. Gallery Talk\nDate & Time: August 1, 19:10-20:10\nGuests: Kyu Komi (Photographer), Kimiyoshi Hayashi (Fish Researcher)\nVenue: Sony Imaging Gallery\nAdmission: Free (Advance registration required)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3MJT9YppE1cAwTU9rtaH4y/27fe0546f3f7d1799715510b5c2bc4dd/t.nakamura_01.jpg",
       "description": "[関連イベント]\n1. ギャラリートーク\n日時: 7月25日19:10〜20:10\nゲスト: むらいさち（写真家）\n会場: ソニーイメージングギャラリー\n参加費: 無料（要事前申込み）\n2. ギャラリートーク\n日時: 8月1日19:10〜20:10\nゲスト: 古見きゅう（写真家）、林公義（魚類研究者）\n会場: ソニーイメージングギャラリー\n参加費: 無料（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -53530,8 +53839,17 @@
       "id": "a17084a18c84",
       "source": "tokyo_art_beat",
       "title": "菅原さやこ 「花の影」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "스가와라 사야코 「하나노 카게」",
+          "description": "「하나노 카게」는 2021년 9월 어느 이른 아침, 스가와라의 어머니의 부고로부터 시작되었습니다. 팬데믹으로 인한 여행 제한 때문에 거주지인 영국에서 바로 귀국할 수 없던 상황에서 친구들은 애도의 꽃들을 보냈습니다. 그것들을 버리는 행위를 미루기 위해 스가와라는 본능적으로 냉동 보관했습니다. 2년 후, 마침내 꽃들을 놓아주기 전에 마지막 흔적을 남기는 방법으로 꽃과 필름이 직접 접촉하는 얼터너티브 사진 기법을 사용하여 기록했습니다. 이 프린트들의 현상에는 모두 식물 유래 현상액을 사용했습니다. 기존의 암실 약품을 식물성으로 대체하는 방법과 그 처리 방법을 배우고, 그 이후로 현재 진행형으로 자신이 할 수 있는 일을 계속 고민하고 있습니다. 본 전시의 작품 또한 유칼립투스나 쐐기풀 등으로 만든 현상액을 사용하여 현상했습니다. 이러한 생각을 확산시키기 위해 스가와라 본인도 워크숍을 진행하고 있습니다. 루니에서도 워크숍을 개최할 예정입니다. 자세한 내용이 결정되면 홈페이지의 정보를 확인해 주십시오."
+        },
+        "en": {
+          "title": "Sayako Sugawara \"Hana no Kage\"",
+          "description": "\"Hana no Kage\" was born on an early morning in September 2021, following the news of Sugawara's mother's passing. Due to pandemic-related travel restrictions, Sugawara was unable to return immediately from her residence in the UK, so friends sent condolence flowers. To postpone the act of discarding them, Sugawara instinctively froze them. Two years later, before finally letting go of the flowers, she recorded them using an alternative photographic technique where flowers and film directly contact each other, as a way to preserve their last traces. All of these prints were developed using plant-derived developers. She learned how to replace conventional darkroom chemicals with plant-based alternatives and how to dispose of them, and since then, she has continuously considered what she can do. The works in this exhibition were also developed using developers made from eucalyptus, nettle, and other plants. To spread these ideas, Sugawara herself conducts workshops. Workshops are also planned at Roonee. Please check the website's information once details are finalized."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/2lj7NTNinzb8UXbp6MJeaO/d5fd25c676ebcba1dfb4ad19237a2175/d8f916a2-af6d-4bc4-a275-8d51570e9928.jpg",
       "description": "「花の影」は、2021年9月のある早朝、菅原の母親の訃報から生まれました。パンデミックによる渡航制限のため、居住先の英国からすぐには帰国できないなか、友人たちはお悔やみの花々を送ります。それらを捨てるという行為を先延ばしにするため、菅原は本能的に冷凍保存しました。その2年後、いよいよ花々を手放す前に、最後の痕跡を残す方法として、花とフィルムが直接に接触するオルタナティブ写真技法を用いて記録しました。これらのプリントの現像には、すべて植物由来の現像液を使用しています。従来の暗室薬品を植物性のものに置き換える方法や、その処分の仕方を学び、それ以来、現在進行形で自分にできることを考え続けています。本展の作品も、ユーカリや蕁麻などから作った現像液を用いて現像しました。こうした考えを広めるため、菅原自身もワークショップを行っています。ルーニィでもワークショップを開催の予定しています。詳細が決定しましたら、ホームページのインフォメーションをご覧ください。",
       "medium": "photo",
@@ -53577,8 +53895,15 @@
       "id": "4f8e0cd10c87",
       "source": "tokyo_art_beat",
       "title": "マツバラトオル 「夢の夢」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "마츠바라 토오루 「유메노 유메」"
+        },
+        "en": {
+          "title": "Toru Matsubara \"Yume no Yume\""
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/6t4AXiM0afAqWfgmqqtTB3/95a38766991ea4da7aba19d437a2088b/1e9c7bc9-f5d8-4ccb-9079-b8abc18ab57b.jpg",
       "description": null,
       "medium": "mixed",
@@ -54127,8 +54452,17 @@
       "id": "9e4a149c5876",
       "source": "tokyo_art_beat",
       "title": "ケヴィン・アボッシュ + リヒャルト・プロイガー 「NEW TRUTH /新・真実」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "케빈 아보쉬 + 리하르트 플레거 「NEW TRUTH / 새로운 진실」",
+          "description": "본 전시는 작가 자신이 촬영한 로스앤젤레스와 베를린의 사진을 학습 데이터의 일부로 삼은 모델에서 생성된 합성 영상의 정지 이미지로 구성됩니다. 이미지와 현실 사이에 열리는 균열에서 '진실'과 '가치'가 이미지에 부여되는 과정을 묻는 전시입니다.\n\n사진은 과연 한 번이라도 진실의 기록이었을까요? 세상 그 자체는 아니지만 세상처럼 보입니다. 우리는 그 유사한 모습을 증거로 착각합니다. 《NEW TRUTH》는 이미지와 현실(리얼) 사이, 바로 그곳에 열리는 균열에서 시작됩니다. 작품은 합성된 영상에서 추출된 정지 이미지입니다. 이들을 생성한 모델은 작가 자신이 촬영한 로스앤젤레스와 베를린의 사진을 학습 데이터의 일부로 사용했습니다. 따라서 그곳에 나타나는 것은 한때 이 두 도시를 실제로 기록했던 아카이브에서 환각(hallucinate)된 것입니다. 낯익지만 어디에서도 찾을 수 없는 혼성적인 장소. 한 번도 일어나지 않았던 진짜 진실. 이 모든 것이 단 하나의 손이 선택한 것이 아닙니다. 아보쉬와 플레거는 서로의 작업을 보지 않고, 상대방이 무엇을 선택했는지 모른 채 각자 작업했습니다. 그리고 두 사람이 각자 도달한 이미지, 한마디도 나누지 않은 채 일치한 이미지들만이 남았습니다. 여기에 있는 것은 세상에 비추어 확인된 것이 아닙니다. 다른 한 사람에게 비추어 확인된 것입니다. 대응이 아닌 수렴에 의한 진실. 이미지는 Hi8의 부드럽고 저해상도 입자를 입고 있습니다. Hi8은 캠코더가 '진실'의 기록을 처음으로 일반 대중의 손에 맡겼던 시대의 규격입니다. 지금, 고해상도(하이 데피니션)는 모든 것을 아름답게 보이게 하며, 거기서 만들어지는 가장 설득력 있는 영상은 대개 가장 합성적인 것입니다. 이 거친 표면은 그 반대를 행합니다. 그것이 만들어진 것임을 보는 이에게 보여줍니다. 《NEW TRUTH》는 진실과 가치를 이미지 안에서 발견되는 것이 아니라 이미지에 부여되는 것으로 다룹니다. 작가들은 일치함으로써 그것을 한 번 부여했습니다. 작품 앞에 서는 자는 그것을 다시 한번 부여합니다. 합성된 기억으로 가득 차 가는 문화 속에서 이 전시는 주의를 기울이는 것, 그리고 약간의 느림을 요구합니다. 자신이 무엇을 믿을 준비가 되어 있는지 자신의 손으로 결정하기 위한 아주 작은 느림을."
+        },
+        "en": {
+          "title": "Kevin Abosch + Richard Pfleger 「NEW TRUTH / New Truth」",
+          "description": "This exhibition consists of still images from synthetic videos generated by a model that used photographs of Los Angeles and Berlin, taken by the artists themselves, as part of its training data. It is an exhibition that questions the process by which 'truth' and 'value' are given to images, from the rift that opens between image and reality.\n\nHave photographs ever truly been a record of truth? They are not the world itself, yet they appear to be the world. We mistake their likeness for evidence. 《NEW TRUTH》 begins precisely from the rift that opens between image and reality. The works are still images extracted from synthetic videos. The model that generated them used photographs of Los Angeles and Berlin, taken by the artists themselves, as part of its training data. Therefore, what appears there is hallucinated from archives that once actually recorded these two cities. A hybrid place that feels familiar yet cannot be found anywhere. A genuine truth that never happened. None of these were chosen by a single hand. Abosch and Pfleger worked independently, without seeing each other's work or knowing what the other was choosing. And only the images they each arrived at, the images that matched without a single word exchanged, were left. What is here has not been verified against the world. It has been verified against another human being. Truth not by correspondence, but by convergence. The images are imbued with the soft, low-resolution grain of Hi8. Hi8 is a standard from an era when camcorders first put the recording of 'truth' into the hands of ordinary people. Today, high definition makes everything look beautiful, and the most compelling images produced are usually the most synthetic. This rough surface does the opposite. It shows the viewer that it is a manufactured thing. 《NEW TRUTH》 treats truth and value not as something found within an image, but as something given to an image. The artists gave it once by converging. Those who stand before the work give it again. In a culture increasingly filled with synthetic memories, this exhibition calls for attention, and a little slowness. A slight slowness to decide for oneself what one is prepared to believe."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/BhuDQLzmJO2FIvB5al1gd/901ed62dd88ba7611a41275b71bc8499/Kevin_Abosh_Richard_Pleuger_NEW_TRUTH_2_7dbb1e9e6f.jpg",
       "description": "本展は、作家自身が撮影したロサンゼルスとベルリンの写真を学習データの一部としたモデルから生成された、合成映像の静止画によって構成されます。イメージと現実のあいだに開く裂け目から、「真実」と「価値」がイメージに与えられる過程を問う展覧会です。\n\n写真は、これまで一度でも真実の記録であっただろうか。世界そのものではないのに、世界のように見える。私たちは、その似姿を証拠と取り違える。《NEW TRUTH》は、イメージと現実（リアル）のあいだ、まさにそこに開く裂け目から始まる。作品は、合成された映像から抜き出された静止画だ。それらを生成したモデルは、作家自身が撮影したロサンゼルスとベルリンの写真を、学習データの一部としている。だからそこに立ち現れるものは、かつてこの二つの都市を実際に記録したアーカイブから幻視（ハルシネート）されたものだ。見おぼえがあるのに、どこにも見あたらない、混成的な場所。一度も起こらなかった、本物の真実。どれも、たった一つの手が選んだものではない。アボッシュとプロイガーは、たがいの手もとを見ることなく、相手が何を選んでいるかを知らないまま、それぞれに作業した。そして、二人がそれぞれにたどり着いた画像、ひとことも交わさぬまま一致した画像だけが、残された。ここにあるものは、世界に照らして確かめられてはいない。もう一人の人間に照らして確かめられたのだ。対応ではなく、収束による真実。画像は、Hi8のやわらかく低解像度の粒子をまとう。Hi8とは、カムコーダーが「真実」の記録を初めて市井の人々の手にゆだねた時代の規格である。いま、高精細（ハイディフィニション）はあらゆるものを美しく見せ、そこで生み出される最も説得力のある映像は、たいてい最も合成的なものだ。この粗い表面は、その逆をおこなう。それが作られたものであることを、見る者に示すのだ。《NEW TRUTH》は、真実と価値を、イメージのうちに見出されるものではなく、イメージに与えられるものとして扱う。作家たちは、一致することで、それを一度与えた。作品の前に立つ者は、それをもう一度与える。合成された記憶で満ちてゆく文化のなかで、この展覧会が求めるのは、注意を向けること、そして、少しの遅さだ。自分が何を信じる用意があるのかを、自分の手で決めるための、わずかな遅さ。",
       "medium": "mixed",
@@ -54180,8 +54514,17 @@
       "id": "f2de60d50d3a",
       "source": "tokyo_art_beat",
       "title": "「第43回『日本の自然』写真コンテスト 受賞作品展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「제43회 『일본의 자연』 사진 콘테스트 수상작품전」",
+          "description": "아사히 신문사가 1983년에 진행한 「21세기에 남기고 싶은 일본의 자연 100선」을 기념하여 시작된 이 사진 콘테스트는 올해로 43회째를 맞이했습니다. 「영원히 지키고 싶은 일본의 자연」을 테마로 전국에서 모인 작품은 총 11,306점입니다. 인쇄물 응모가 대상인 [인쇄 부문]에서는 3,449점의 작품 중 「최우수상」을 포함한 59점이 선정되었습니다. 또한, 웹 응모인 [디지털 부문]에서는 7,857점의 작품이 접수되어 「최우수상 소니 4K상」과 30세 이하 응모자를 대상으로 한 「소니 넥스트 포토그래퍼상」을 포함한 30점이 선정되었습니다.\n풍경이나 동식물, 인간의 활동 등을 솔직하게 표현한 작품들을 통해 일본 자연의 훌륭함을 재발견하시기를 바랍니다."
+        },
+        "en": {
+          "title": "「The 43rd 'Nature of Japan' Photo Contest Award-Winning Works Exhibition」",
+          "description": "This photo contest, which began in commemoration of the '100 Selections of Japan's Nature to Preserve for the 21st Century' conducted by the Asahi Shimbun Company in 1983, marks its 43rd year. Under the theme of 'Japan's Nature We Want to Protect Forever,' a total of 11,306 works were gathered from across the country. In the [Print Category], which accepts print submissions, 59 works, including the 'Grand Prize,' were selected from 3,449 entries. In the [Digital Category], which accepts web submissions, 7,857 works were received, and 30 works, including the 'Grand Prize Sony 4K Award' and the 'Sony Next Photographer Award' for applicants aged 30 and under, were selected.\nWe hope you will rediscover the splendor of Japan's nature through works that directly express landscapes, flora and fauna, and human activities."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4C4h7zFQGdBt0qpcmjFbRQ/38baa8f72952cfcd0badb950f9bae7f0/afe54af7-99fd-4cfb-a8f2-bd55789423e8.jpg",
       "description": "朝日新聞社が1983年に行った「21世紀に残したい日本の自然100選」を記念して始まったこの写真コンテストは、今年で43回目を迎えました。「いつまでも守り続けたい日本の自然」をテーマに、全国から集まった作品は計1万1,306点。プリント応募が対象となる[プリント部門]では3,449点の作品の中から「最優秀賞」含む59点が選ばれました。また、ウェブ応募の[デジタル部門]では、7,857点の作品が寄せられ、「最優秀賞 ソニー4K賞」と30歳以下の応募者を対象にした「ソニーネクストフォトグラファー賞」を含む30点が選ばれました。\n風景や動植物、人間の営みなどをストレートに表現した作品を通じて、日本の自然の素晴らしさを再発見していただければ幸いです。",
       "medium": "photo",
@@ -54220,8 +54563,17 @@
       "id": "0a2f2f9a6966",
       "source": "tokyo_art_beat",
       "title": "戎康友 「A Whole California Anthology 1993–2025」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "에비스 야스토모 「A Whole California Anthology 1993–2025」",
+          "description": "사진작가 에비스 야스토모가 30년간의 취재를 통해 포착한, 접근 방식이 전혀 다른 캘리포니아의 여러 단편들이 한데 모였습니다. 바다를 처음 본 소년. 그곳에서 그는 랄프 왈도 에머슨을 읽고 있었습니다. 로이드 칸, 리키 스왈로우, 리처드 브라우티건 등 라이프스타일 선구자들의 연고지를 방문하여 촬영한 70년대 캘리포니아에 대한 오마주.\n빅서에서 앤지와 함께 펼쳐진 스트레이트 포토그래피 스터디 등을 포함하여, 사진작가 에비스 야스토모의 감성적인 캘리포니아 앤솔로지 출판을 기념하여 사진전을 개최합니다."
+        },
+        "en": {
+          "title": "Yasutomo Ebisu 「A Whole California Anthology 1993–2025」",
+          "description": "A collection of completely different fragments of California, captured by photographer Yasutomo Ebisu over 30 years of coverage, has been compiled. A boy seeing the ocean for the first time, where he was reading Ralph Waldo Emerson. An homage to 1970s California, shot by visiting the places associated with lifestyle pioneers such as Lloyd Kahn, Ricky Swallow, and Richard Brautigan.\nTo commemorate the publication of photographer Yasutomo Ebisu's sentimental California anthology, including a straight photography study with Angie in Big Sur, a photo exhibition will be held."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3brDU3ivZzOqAdcmhzYPM8/854f0373520267fc97349124caede892/A-Whole-California_COVER-1.jpg",
       "description": "写真家・戎康友が30年間に及ぶ取材の中で切り取られた、アプローチのまったく違うカリフォルニアの断片の数々がまとまりました。海を初めて見た少年。そこで彼はラルフ・ワルド・エマソンを読んでいました。ロイド・カーン、リッキー・スワロー、リチャード・ブローディガンら、ライフスタイルの先導者である彼らのゆかりの地を訪ねてシュートした、70年代カリフォルニアへのオマージュ。\nBig Surで繰り広げられたアンジーとのストレート・フォトグラフィ・スタディなど、写真家・戎康友のセンチメンタルなカリフォルニアのアンソロジー出版を記念し、写真展を開催します。",
       "medium": "photo",
@@ -54274,8 +54626,15 @@
       "id": "4ef5c92461ad",
       "source": "gallery_now",
       "title": "<빛으로 물든 날들> 강지현 개인전",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "<Days Stained with Light> Kang Jihyun Solo Exhibition"
+        },
+        "ja": {
+          "title": "<光に染まった日々> カン・ジヒョン個展"
+        }
+      },
       "poster_image_url": "https://blogthumb.pstatic.net/MjAyNjA3MTVfMTgz/MDAxNzg0MTAzNDExODM3.MD4xogL_KlTFbYeFBkMA24Z3uPUQA4cLhZpnuUS6OZwg.Rl1ypWKRjN8m1bmCPBHQRkpFUwb1y0523PzxkZHPKxog.JPEG/%B0%AD%C1%F6%C7%F6_%C7%AA%B8%A5_%B9%B0%B0%E1_%C0%E5%C1%F6%BF%A1_%B8%D4%2C_%BA%D0%C3%A4%2C_%B0%FA%BD%B4_162.2x390.9cm_2026%28100%C8%A3_3%C1%A1%29.jpg?type=s3",
       "description": null,
       "medium": "photo",
@@ -54314,8 +54673,17 @@
       "id": "0bfbdc591a47",
       "source": "tokyo_art_beat",
       "title": "「日本経済新聞社 創刊150周年記念 ザ・ファミリー・オブ・マン写真展 人類愛と平和のビジョンを、いま再び」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「일본경제신문사 창간 150주년 기념 더 패밀리 오브 맨 사진전 인류애와 평화의 비전을, 지금 다시」",
+          "description": "1956년, 니혼바시 다카시마야에서 일본경제신문사 주최로 개최된 사진전 「더 패밀리 오브 맨」. 로버트 카파, 유진 스미스, 앙리 카르티에-브레송을 비롯한 세계적인 사진작가들의 작품 약 500점으로 구성된 이 전시는, 「인류애와 평화」라는 보편적인 이념을 전후 일본에 강하게 각인시키며, 국내에서 100만 명에 달하는 방문객을 모아 사회적 현상이 되었습니다. 그로부터 70년. 사진사에 이름을 새긴 이 전시회가 오리지널에서 엄선한 약 115점의 작품으로 회고전으로서 현대에 부활합니다. 2027년에 일본-룩셈부르크 외교 관계 수립 100주년을 맞이하는 것을 기념하여, 오리지널의 이념을 바탕으로 하면서도 현대의 시점에서 응답하는 작품으로서, 룩셈부르크의 사진작가 및 일본경제신문사의 사진 기자들의 작품도 전시합니다. 세계 각지에서 촬영된 수많은 삶의 단편들은 시대와 국경을 넘어 우리에게 조용히 질문을 던집니다. 분단과 불안이 확산되는 현대에, 이 질문은 과거의 이상이 아닙니다. 사진들이 이야기하는 것은 과거의 역사가 아니라, 지금을 살아가는 우리에게 던지는 질문입니다."
+        },
+        "en": {
+          "title": "「Nikkei Inc. 150th Anniversary Commemorative The Family of Man Photography Exhibition: A Vision of Human Love and Peace, Once Again」",
+          "description": "In 1956, \"The Family of Man\" photography exhibition was held at Nihonbashi Takashimaya, sponsored by Nikkei Inc. Comprising approximately 500 works by world-renowned photographers including Robert Capa, Eugene Smith, and Henri Cartier-Bresson, the exhibition strongly impressed post-war Japan with the universal ideals of \"human love and peace,\" becoming a social phenomenon that attracted over one million visitors nationwide. Seventy years have passed since then. This exhibition, which carved its name into photographic history, is now revived as a retrospective, featuring approximately 115 carefully selected works from the original. To commemorate the 100th anniversary of diplomatic relations between Japan and Luxembourg in 2027, while building upon the original ideals, works by Luxembourgish photographers and Nikkei Inc. photojournalists will also be exhibited as responses from a contemporary perspective. Numerous fragments of life captured around the world quietly pose questions to us, transcending time and borders. In an era where division and anxiety are widespread, this question is not an ideal of the past. What the photographs convey is not past history, but a question to us who live in the present."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/zWJCNuEyL2GkVcR5HnfEY/09db7f2023826b55f38e8df7b5b917e9/9bwdqut1hhnujj8g-678c9b243058b23c3b7a1709629ac129.jpg",
       "description": "1956年、日本橋高島屋において日本経済新聞社主催で開催された写真展「ザ・ファミリー・オブ・マン」。ロバート･キャパ、ユージン・スミス、アンリ・カルティエ=ブレッソンをはじめとする世界的写真家の作品約500点で構成された同展は、｢人類愛と平和｣という普遍的な理念を戦後日本に強く印象づけ、国内で100万人におよぶ来場者を集める社会的現象となりました。\nそれから70年。写真史に名を刻んだこの展覧会がオリジナルから厳選した約115点により回顧展として現代に蘇ります。2027年に日本・ルクセンブルク外交関係樹立100周年を迎えることを記念し、オリジナルの理念を踏まえつつ、現代の視点から応答する作品として、ルクセンブルクの写真家および日本経済新聞社の写真記者による作品も展示します。\n世界各地で撮影された数々の人生の断片は、時代や国境を越えて私たちに静かに問いかけます。分断や不安が広がる現代において、この問いは過去の理想ではありません。写真たちが語るのは、過去の歴史ではなく、いまを生きる私たちへの問いなのです。",
       "medium": "photo",
@@ -54403,8 +54771,17 @@
       "id": "2517e6a6fa66",
       "source": "tokyo_art_beat",
       "title": "楢林洋介 「砂はつもり 水は流れる その2」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "나라바야시 요스케 「모래는 쌓이고 물은 흐른다 그 2」",
+          "description": "흑백 필름으로 찍어 모은 풍경을 수작업으로 인화한 프린트입니다. 시대나 장소가 달라도, 마음을 울리는 정경에는 어딘가 공통점이 있습니다."
+        },
+        "en": {
+          "title": "Yosuke Narabayashi \"Sand Accumulates, Water Flows, Part 2\"",
+          "description": "These are hand-printed photographs from landscapes captured on monochrome film. Even if the times and places differ, there is a commonality in scenes that stir the heart."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/TxaPyfazyBcPjEsAOwWxU/2c92393d24f1eec5bf753f403c2b1155/919ee8ef-007e-4181-adaa-888f3ec8c1b8.jpeg",
       "description": "モノクロフイルムで撮り溜めた風景からの手焼きプリントです。時代や場所が違っても、心を震わせる情景にはどこか共通点がある。",
       "medium": "mixed",
@@ -54450,8 +54827,17 @@
       "id": "fbcdafb3e89e",
       "source": "tokyo_art_beat",
       "title": "「田中達也展 みたてのくみたて MINIATURE LIFE・MITATE MIND」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「다나카 다쓰야전 미타테노 쿠미타테 MINIATURE LIFE・MITATE MIND」",
+          "description": "국내외 약 320만 명이 방문한 「MINIATURE LIFE전」의 새로운 전시회가 오키나와현립박물관·미술관에 찾아옵니다. 「다나카 다쓰야전 미타테노 쿠미타테」는 [HOME], [FORM], [COLOR], [SCALE], [MOTION], [LIFE], [WORLD] 7개의 존으로 나누어, 각기 다른 관점에서 다나카 다쓰야의 발상 비밀을 사진과 입체 작품을 합쳐 약 160점으로 풀어냅니다. 포토 스팟이 되는 큰 오브제, 인기 그림책 캐릭터도 새롭게 등장! 사진 촬영뿐만 아니라 즐겁게 참여할 수 있는 전시회입니다.\n\n장소: 기획 갤러리 1, 기획 갤러리 2\n\n[관련 이벤트]\n사인회\n일시: 7월 18일 (토) 11:00~ / 14:00~\n※정리권 필요, 신청 불필요, 참가비 무료\n※정리권은 굿즈 코너에서 서적을 구매하신 고객 선착순 50명에게 배부합니다.\n※1인당 1권 한정."
+        },
+        "en": {
+          "title": "「Tatsuya Tanaka Exhibition: Mitate no Kumitate MINIATURE LIFE・MITATE MIND」",
+          "description": "A new exhibition of the \"MINIATURE LIFE Exhibition,\" which has attracted approximately 3.2 million visitors both in Japan and abroad, is coming to the Okinawa Prefectural Museum & Art Museum. \"Tatsuya Tanaka Exhibition: Mitate no Kumitate\" is divided into seven zones—[HOME], [FORM], [COLOR], [SCALE], [MOTION], [LIFE], and [WORLD]—and reveals the secrets of Tatsuya Tanaka's ideas through approximately 160 works, combining photographs and three-dimensional pieces, from various perspectives. Large objects that serve as photo spots and popular picture book characters will also make their debut! This exhibition offers not only photo opportunities but also an enjoyable participatory experience.\n\nVenue: Special Exhibition Gallery 1, Special Exhibition Gallery 2\n\n[Related Event]\nAutograph Session\nDate & Time: July 18 (Sat) 11:00 AM - / 2:00 PM -\n*Numbered tickets required, no advance registration, free to participate.\n*Numbered tickets will be distributed to the first 50 customers who purchase a book at the merchandise corner.\n*Limit one book per person."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4snd0O7NvyvwFHoLK3zWOv/e54dfe928d2ac0893b23b08f7433a735/chirashi_omote_1.png.jpeg",
       "description": "国内外で約320万人が来場した「MINIATURE LIFE展」の新しい展覧会が沖縄県立博物館・美術館にやってきます。「田中達也展 みたてのくみたて」は、［HOME］［FORM］［COLOR］［SCALE］［MOTION］［LIFE］［WORLD］と7つのゾーンにわけ、それぞれの角度から、田中達也の発想の秘密を、写真と立体あわせて約160点の作品で解き明かします。フォトスポットになる大きなオブジェ、大人気絵本のキャラクターも新登場！写真撮影だけでなく、楽しく参加できる展覧会です。\n\n場所: 企画ギャラリー1，企画ギャラリー2\n\n[関連イベント]\nサイン会\n日時: 7月18日（土）11:00～ / 14:00～\n※要整理券、申込不要、参加費無料\n※整理券は、グッズコーナーで書籍を購入頂いたお客様先着50名に配布します。\n※お一人様1冊限り。",
       "medium": "photo",
@@ -54504,8 +54890,17 @@
       "id": "a790882aa1c2",
       "source": "tokyo_art_beat",
       "title": "「私は私を取り戻したい-Reclaiming Myself」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「나는 나를 되찾고 싶다 - Reclaiming Myself」",
+          "description": "여성으로서, 아내로서, 어머니로서. 우리는 다양한 역할을 맡으며 살아가는 동안 때때로 '나'의 윤곽을 잃어버립니다. 본 전시는 세 명의 여성 작가가 사랑, 자유, 빛을 구원(건져 올림)하는 사진전입니다. 이 전시가 어둠 속에서도 당신 자신을 잃지 않기 위한 조용하고 따뜻한 안식처가 되기를 바랍니다.\n\n[관련 이벤트]\n1. 갤러리 토크 1\n일시: 2026년 8월 1일 14:00~\n등단자: 스미 다케시 (사진작가·미술가 / HILL TOP GALLERY 대표)\n2. 갤러리 토크 2\n일시: 2026년 8월 9일 14:00~\n등단자: 키리코 (사진작가·미술가)\n※이벤트 상세 정보 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "「I Want to Reclaim Myself - Reclaiming Myself」",
+          "description": "As women, wives, and mothers, we sometimes lose sight of our own identity while living with various roles. This exhibition is a photography exhibition by three female artists who save (= scoop up) love, freedom, and light. We hope this exhibition will be a quiet and gentle sanctuary for you to not lose yourself even in the darkness.\n\n[Related Events]\n1. Gallery Talk 1\nDate & Time: August 1, 2026, 2:00 PM~\nSpeakers: Takeshi Sumi (Photographer & Artist / Director of HILL TOP GALLERY)\n2. Gallery Talk 2\nDate & Time: August 9, 2026, 2:00 PM~\nSpeakers: Kiriko (Photographer & Artist)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/Wa1gdWX4FonxfRC0fyR8X/483861eaa682dc9434eb122bb2deabb1/DMReclaimingMyself2.jpg",
       "description": "女性として、妻として、母として。私たちはさまざまな役割を纏いながら生きる中で、ときに「私」の輪郭を見失ってしまう。本展は、三人の女性作家による、愛・自由・光を救い（＝掬い）とる写真展である。この展示が、暗闇でもあなた自身を見失わないための、静かで優しい居場所となれば幸いです。\n\n[関連イベント]\n1. ギャラリートーク1\n日時: 2026年8月1日14:00〜\n登壇者: 澄毅（写真家・美術家 / HILL TOP GALLERY 代表）\n2. ギャラリートーク2\n日時: 2026年8月9日14:00〜\n登壇者: キリコ （写真家・美術家）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -54563,8 +54958,17 @@
       "id": "1c1a1157eccc",
       "source": "tokyo_art_beat",
       "title": "「撮影：竹久直樹」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「촬영: 다케히사 나오키」",
+          "description": "본 작품은 1995년생 다케히사가 현재 진행형으로 계속 맡아온 '전시회 기록 촬영'을 엮은 사진집입니다. 다케히사가 촬영하는 전시회는 미술관이나 갤러리에 그치지 않고, 야외나 폐허, 대안 공간 등 시대를 반영하는 듯한 장소가 다수 포함됩니다. 또한 다케히사는 그러한 장소에서의 설치 등에도 입회함으로써, 결과적으로 현대 전시회에 관련된 사람들과 사물들의 관계성을 포괄적으로 기록해 왔습니다. 그러나 무엇보다 본 작품의 특이성은 '타인의 다양한 작품을 계속 기록한 결과, 그것이 다케히사 자신에게도 작품이 되었다'는 점에 있을 것입니다.\n\n제목의 '촬영'이라는 단어는 에도 막부 말기에 난학(蘭學)에서 '물체에 대해 광학적으로 상을 정착시키는 기술 공정'을 번역하는 과정에서 만들어진 조어입니다. 그리고 기술 개발이 아닌 기술을 수입하여 사용하는 것에서 시작된 일본 사진사에서 독자적인 개념으로 발전해 왔습니다. 다케히사는 이 '촬영'을 '정리될 수 없는 것들이 존재하며, 그것을 있는 그대로 보여주고 남길 수 있는 기술'로 재해석하여, 다양한 전시회의 기록을 하나의 작품으로 엮어냅니다. 주체가 정해지지 않음으로써만 달성될 수 있는 기록이라는 것이 있다면, 그것은 과연 어떤 것일까요? 이 책은 현대의 기록과 주체의 존재 방식을 '촬영'을 통해 재고하는 한 권이 될 것입니다.\n\n[관련 이벤트]\n1. 토크 이벤트 ①\n일시: 2026년 8월 1일 15:00~16:30\n등단자: 다케히사 나오키, 호시카 리쿠 (그래픽 디자이너), 후세 린타로 (아티스트)\n요금: 1500엔 (사전 신청 필요)\n2. 토크 이벤트 ②\n일시: 2026년 8월 14일 18:00~19:30\n등단자: 다케히사 나오키, 와카야마 미쓰히로 (도쿄 스테이션 갤러리 학예원)\n요금: 1500엔 (사전 신청 필요)\n※이벤트 상세 정보 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "「Photography by Naoki Takehisa」",
+          "description": "This work is a photobook compiling \"exhibition documentary photography\" that Naoki Takehisa, born in 1995, has continuously undertaken. The exhibitions photographed by Takehisa are not limited to museums and galleries but also include many locations that reflect the times, such as outdoor spaces, ruins, and alternative spaces. Furthermore, by being present at the setup of such venues, Takehisa has comprehensively documented the relationships between people and objects involved in contemporary exhibitions. However, above all, the uniqueness of this work lies in the fact that \"as a result of continuously documenting various works by others, it has also become a work of art for Takehisa himself.\"\n\nThe word \"Satsuei\" (撮影), meaning \"photography,\" in the title is a coined term created during the late Edo period in the process of translating the Dutch studies concept of \"the technical process of optically fixing an image onto an object.\" It has since developed into a unique concept in the history of Japanese photography, which began not with technological development but with the import and use of technology. Takehisa reinterprets this \"Satsuei\" as \"a technique that allows for the existence of disparate things to be shown and preserved as they are,\" compiling records of various exhibitions into a single work. If there is such a thing as a record that can only be achieved when the subject is undefined, what exactly is it? This book will be a volume that reconsiders the nature of records and subjectivity in the contemporary era through \"Satsuei.\"\n\n[Related Events]\n1. Talk Event ①\nDate & Time: August 1, 2026, 3:00 PM - 4:30 PM\nSpeakers: Naoki Takehisa, Riku Hoshika (graphic designer), Rintaro Fuse (artist)\nFee: 1,500 yen (advance registration required)\n2. Talk Event ②\nDate & Time: August 14, 2026, 6:00 PM - 7:30 PM\nSpeakers: Naoki Takehisa, Mitsuhiro Wakayama (curator, Tokyo Station Gallery)\nFee: 1,500 yen (advance registration required)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/hMDIcHsoPpymVqxmyy1rj/4dac1f7cf70bc450a837cd932f8f5822/satsuei_4000px-7.webp",
       "description": "本作は、1995年生まれの竹久が現在進行形で引き受け続けている「展覧会の記録撮影」をまとめた写真集となります。竹久が撮影する展覧会は美術館やギャラリーにとどまらず、屋外や廃墟、オルタナティブスペースといった時代を反映したような場所が多数含まれます。また竹久はそうした場所での設営などにも立ち会うことで、結果として現代の展覧会に携わる人々や事物の関係性を包括的に記録し続けてきました。しかし、何よりも本作の特異さは「他人の様々な作品を記録し続けた結果、それが竹久自身にとっての作品にもなっている」という点にあるでしょう。\n\nタイトルの「撮影」という言葉は、江戸幕末期に蘭学における「物体に対して光学的に像を定着させる技術工程」を翻訳する過程で作り出された造語です。そして、技術開発ではなく技術を輸入し使うところから始まった日本の写真史において独自の概念として発展してきました。竹久はこの「撮影」を、「まとまりようのないものたちが在り、それをそのまま見せる・残すことができてしまう技術」として読み替え、さまざまな展覧会の記録をひとつの作品としてまとめ上げます。主体が定まらないことでしか達成され得ないような記録というものがあるとしたら、それは一体どのようなものなのか。この本は、現代における記録や主体のありようを「撮影」を通して再考する一冊となるでしょう。\n\n[関連イベント]\n1. トークイベント①\n日時: 2026年8月1日15:00〜16:30\n登壇者: 竹久直樹、星加陸（グラフィックデザイナー）、布施琳太郎（アーティスト）\n料金: 1500円（要事前申込み）\n2. トークイベント②\n日時: 2026年8月14日18:00〜19:30\n登壇者: 竹久直樹、若山満大（東京ステーションギャラリー学芸員）\n料金: 1500円（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -54979,8 +55383,15 @@
       "venue": {
         "id": "ae3024eda755",
         "name": "evam eva yamanashi",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "에밤 에바 야마나시"
+          },
+          "ja": {
+            "name": "エヴァム エヴァ ヤマナシ"
+          }
+        },
         "region": "山梨県",
         "district": null,
         "lat": 35.56733981808201,
@@ -55059,8 +55470,15 @@
       "venue": {
         "id": "7657ae4d41c7",
         "name": "アートベース / 偶然はない。",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "아트 베이스 / 우연은 없다."
+          },
+          "en": {
+            "name": "Art Base / There are no coincidences."
+          }
+        },
         "region": "浅草橋、馬喰町",
         "district": null,
         "lat": 35.69408104134304,
@@ -55153,8 +55571,15 @@
       "venue": {
         "id": "2f86b29bb794",
         "name": "ギャラリー・ルデコ",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 르데코"
+          },
+          "en": {
+            "name": "Gallery Le Deco"
+          }
+        },
         "region": "渋谷",
         "district": null,
         "lat": 35.6561364893712,
@@ -55355,8 +55780,15 @@
       "venue": {
         "id": "d640ba24b668",
         "name": "YUGEN Gallery",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "유겐 갤러리"
+          },
+          "ja": {
+            "name": "ユウゲン ギャラリー"
+          }
+        },
         "region": "表参道、青山",
         "district": null,
         "lat": 35.66807,
@@ -55538,8 +55970,15 @@
       "venue": {
         "id": "238fe96014e5",
         "name": "写真店maruphoto",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "사진점 maruphoto"
+          },
+          "en": {
+            "name": "Photo Shop maruphoto"
+          }
+        },
         "region": "京都府",
         "district": null,
         "lat": 35.018383294965,
@@ -61835,8 +62274,15 @@
     {
       "id": "ae3024eda755",
       "name": "evam eva yamanashi",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "에밤 에바 야마나시"
+        },
+        "ja": {
+          "name": "エヴァム エヴァ ヤマナシ"
+        }
+      },
       "venue_type": "other",
       "region": "山梨県",
       "district": null,
@@ -61849,8 +62295,15 @@
     {
       "id": "7657ae4d41c7",
       "name": "アートベース / 偶然はない。",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "아트 베이스 / 우연은 없다."
+        },
+        "en": {
+          "name": "Art Base / There are no coincidences."
+        }
+      },
       "venue_type": "other",
       "region": "浅草橋、馬喰町",
       "district": null,
@@ -61863,8 +62316,15 @@
     {
       "id": "2f86b29bb794",
       "name": "ギャラリー・ルデコ",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "갤러리 르데코"
+        },
+        "en": {
+          "name": "Gallery Le Deco"
+        }
+      },
       "venue_type": "other",
       "region": "渋谷",
       "district": null,
@@ -61877,8 +62337,15 @@
     {
       "id": "d640ba24b668",
       "name": "YUGEN Gallery",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "유겐 갤러리"
+        },
+        "ja": {
+          "name": "ユウゲン ギャラリー"
+        }
+      },
       "venue_type": "gallery",
       "region": "表参道、青山",
       "district": null,
@@ -61891,8 +62358,15 @@
     {
       "id": "238fe96014e5",
       "name": "写真店maruphoto",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "사진점 maruphoto"
+        },
+        "en": {
+          "name": "Photo Shop maruphoto"
+        }
+      },
       "venue_type": "other",
       "region": "京都府",
       "district": null,
@@ -72658,14 +73132,28 @@
     {
       "id": "760a43d15b1f",
       "name": "片山達貴",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "카타야마 타츠키"
+        },
+        "en": {
+          "name": "Katayama Tatsuki"
+        }
+      }
     },
     {
       "id": "2ef875cae345",
       "name": "山田荘一朗",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "야마다 소이치로"
+        },
+        "en": {
+          "name": "Soichiro Yamada"
+        }
+      }
     },
     {
       "id": "2022df8012bf",
@@ -72783,32 +73271,67 @@
     {
       "id": "b301a3873c96",
       "name": "ひろかわさえこ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "히로카와 사에코"
+        },
+        "en": {
+          "name": "Hirokawa Saeko"
+        }
+      }
     },
     {
       "id": "5e43ae34a78e",
       "name": "ふしはらのじこ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "후시하라 노지코"
+        },
+        "en": {
+          "name": "Fushihara Nojiko"
+        }
+      }
     },
     {
       "id": "39fed4bd2663",
       "name": "降矢なな",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "후루야 나나"
+        },
+        "en": {
+          "name": "Nana Furuya"
+        }
+      }
     },
     {
       "id": "c7fcf0df7c17",
       "name": "堀川理万子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "호리카와 리마코"
+        },
+        "en": {
+          "name": "Rimako Horikawa"
+        }
+      }
     },
     {
       "id": "a6fddb632313",
       "name": "町田尚子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "마치다 나오코"
+        },
+        "en": {
+          "name": "Naoko Machida"
+        }
+      }
     },
     {
       "id": "b4d081f84d49",
