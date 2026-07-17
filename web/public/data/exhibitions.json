@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T17:12:16.236327+00:00",
+  "generated_at": "2026-07-17T19:32:12.515025+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -24450,7 +24450,7 @@
       "price_max": null,
       "start_date": "2026-06-26",
       "end_date": "2026-07-16",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": "10:00－19:00（最終日は14:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -41383,7 +41383,7 @@
       "price_max": null,
       "start_date": "2026-07-03",
       "end_date": "2026-07-16",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "fa66fa67ffb6",
@@ -45182,7 +45182,7 @@
       "price_max": null,
       "start_date": "2026-07-17",
       "end_date": "2026-07-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "aba04494a4f1",
@@ -45917,7 +45917,7 @@
       "price_max": null,
       "start_date": "2026-07-17",
       "end_date": "2026-09-23",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8f0db9d3c8a6",
@@ -45980,7 +45980,7 @@
       "price_max": null,
       "start_date": "2026-07-17",
       "end_date": "2026-10-12",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8f0db9d3c8a6",
@@ -50743,7 +50743,7 @@
       "price_max": null,
       "start_date": "2026-07-17",
       "end_date": "2026-08-30",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "7b35a94e7032",
@@ -52026,7 +52026,7 @@
       "price_max": null,
       "start_date": "2026-07-17",
       "end_date": "2026-07-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5bbf506b8dce",
@@ -52701,7 +52701,7 @@
       "price_max": null,
       "start_date": "2026-07-17",
       "end_date": "2026-08-02",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "2a62e9ca0c7d",
@@ -52748,7 +52748,7 @@
       "price_max": null,
       "start_date": "2026-07-17",
       "end_date": "2026-08-05",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "abce1dc801c6",
@@ -54411,7 +54411,7 @@
       "price_max": null,
       "start_date": "2026-07-17",
       "end_date": "2026-07-29",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "3323eb6bfe9d",
@@ -54535,7 +54535,7 @@
       "price_max": null,
       "start_date": "2026-07-17",
       "end_date": "2026-07-23",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "fa66fa67ffb6",
@@ -56267,6 +56267,300 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Hidden-in-the-Blue/81-AE-86-A2/2026-07-21",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "2710516cd6ab",
+      "source": "ryugaheon",
+      "title": "2026년 휴관",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://blogthumb.pstatic.net/MjAyNjA3MTdfMTc5/MDAxNzg0Mjk1NjI3MDk0.IoIPOY_9T5ze5lZK0-FjPbAHMkPPg6fD-03CLk-pDg4g.Mr4cNJP59NKs5CdIpCZJgE7iKWz7L_hTBvun07jZ3i4g.JPEG/KakaoTalk_20260717_223106833.jpg?type=s3",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": null,
+      "end_date": null,
+      "status": "unknown",
+      "open_hours": null,
+      "venue": {
+        "id": "6175af61d332",
+        "name": "류가헌",
+        "lang": "ko",
+        "tr": {
+          "en": {
+            "name": "Ryugaheon"
+          },
+          "ja": {
+            "name": "リュガホン"
+          }
+        },
+        "region": "서울",
+        "district": null,
+        "lat": 37.5853766800391,
+        "lng": 126.970356412903
+      },
+      "artists": [],
+      "source_url": "https://blog.naver.com/noongamgo/224349757114",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "c9530499551d",
+      "source": "tokyo_art_beat",
+      "title": "Sphene Ron 「Afurodīte」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/41AW3gt2ovmckxN7CUihZg/659c13e4c4fc36bff6d1e320e9c38679/27766cc5-ffb8-48a3-a6c8-66b08d706151.jpg",
+      "description": "「Afurodīte」は、女神像とデザインアイコンを並置する作品です。何千年にもわたり崇拝されてきた存在と、モダニズムによって新たな規範となった存在。一方は神話として、もう一方はデザインとして語り継がれながら、どちらも私たちが見つめ、模倣し、理想として掲げる「かたち」となっています。\n青写真（Blueprint）を起源にもつサイアノタイプは、本来デザインのための技法でもありました。本展では、その青の中に、神聖なものと人工的なもの、過去と現在を同時に浮かび上がらせ、両者を隔てる時間をプルシアンブルーの中へ静かに溶け込ませています。本展は、オルタナティブ・プロセスを用いて制作を続けている Sphene Ron の継続プロジェクトです。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-30",
+      "end_date": "2026-08-03",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "238fe96014e5",
+        "name": "写真店maruphoto",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "사진점 maruphoto"
+          },
+          "en": {
+            "name": "Photo Shop maruphoto"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.018383294965,
+        "lng": 135.77478583068847
+      },
+      "artists": [
+        {
+          "id": "d9a86f086eca",
+          "name": "Sphene Ron",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Sphene-Ron-Afurodite/maruphoto/2026-07-30",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "341ee0496fe4",
+      "source": "tokyo_art_beat",
+      "title": "福嶋幸平 「Afterscape」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/76gVRkhncmHYl9VYX0GvZU/80a1c2a63c6acb76d273625f7562e53a/ad4941ee-662b-4679-b1cd-0b13cc9fd946.jpeg",
+      "description": "この度、TAKU SOMETANI GALLERY では、福嶋幸平個展「Afterscape」を開催いたします。作家の福嶋はこれまで、画像のデジタルデータや画像処理技術に着目し、システムが生み出すバグや偶発的な現象を制作へ取り込むことで、テクノロジーによって生成・再編成される現代の風景を風景写真として発表してきました。当ギャラリーでは4度目となる個展として、新作シリーズ《Afterscape》を発表いたします。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-24",
+      "end_date": "2026-08-18",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "3be25f9a2320",
+        "name": "TAKU SOMETANI GALLERY",
+        "lang": null,
+        "tr": {},
+        "region": "銀座、丸の内",
+        "district": null,
+        "lat": 35.6724,
+        "lng": 139.7583
+      },
+      "artists": [
+        {
+          "id": "9f27cf91bfee",
+          "name": "福嶋幸平",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kohei-Fukushima-Afterscape/E5-CAC-7-F3/2026-07-24",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "d18c87faf202",
+      "source": "tokyo_art_beat",
+      "title": "前谷開 「家族写真」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/myZF4APoYBEyFR4D6RpBF/c18448f130487bce126575db0d866518/d9afef46-5617-48a8-9543-8580e7179afb.jpg",
+      "description": "「家族写真」は2016年から2024年にかけて上演された舞台作品であり、そのなかで作られた同タイトルの写真作品です。倉田翠（演出家）と前谷開（写真家）の共同制作企画としてスタートした舞台作品の制作の中で、前谷は舞台美術としての写真を制作するのではなく、出演者として作品に参加することになります。前谷は、中判フィルムカメラによるセルフポートレイトという独特な撮影方法を用いて、上演の中で写真を撮影してきました。上演という、一回性の出来事が何度も繰り返される特殊な状況の中で撮影されてきた写真は、舞と同時に作られたもう一つの作品となりました。\n\nこの度、oar pressより同作による写真集「家族写真」を刊行する運びとなり、刊行に先立ち水性にて展覧会を行います。これまでの公演や、写真集の制作過程でプリントした写真を展示し、作品についての思考を深めつつ、本作において蓄積されてきた実践について共有できる機会にできればと思います。\n\n[関連イベント]\nトークイベント\n①7月28日（火）18:00～19:30\n登壇者: 花形槙（アーティスト）\n②7月30日（木）18:00～19:30\n登壇者: 平倉圭（芸術理論家）\n③8月2日（日）17:00～18:30\n登壇者: 倉田翠（演出家、ダンサー、akakilike主宰 ）\n参加費：500円\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-28",
+      "end_date": "2026-08-02",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "ced5de3790ac",
+        "name": "水性",
+        "lang": null,
+        "tr": {},
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.7110216334075,
+        "lng": 139.6670536441803
+      },
+      "artists": [
+        {
+          "id": "33712cd61a1c",
+          "name": "前谷開",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kai-Maetani-Family-Portrait/suisei/2026-07-28",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "6db22c5ec44b",
+      "source": "tokyo_art_beat",
+      "title": "海田通孝 「例外者宣言」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/7uou4MhD0giXr35KpjMW9s/e638f5446319bd118f6fb70268d44c3b/IMG_0041_-_gallery_one_room.jpeg",
+      "description": "海田 通孝、初個展。one room gallery（西荻KITAYON KADO 2・3F）では、海田通孝氏の初個展を開催いたします。布やアルミ、植物など異なる素材が織りなす豊かな色彩と、窓から差し込む自然光が響き合う空間を、ぜひご体感ください。アートと共にコーヒー、ワイン、カクテルなどもお楽しみいただけます。みなさまのお越しを心よりお待ちしております。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-18",
+      "end_date": "2026-08-30",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "6fdcfed98d3b",
+        "name": "one room gallery",
+        "lang": null,
+        "tr": {},
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.70621721461612,
+        "lng": 139.59579043684002
+      },
+      "artists": [
+        {
+          "id": "96b47b6069da",
+          "name": "海田通孝",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Michitaka-Kaita-Declaration-of-the-Exception/one-room-gallery/2026-07-18",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "c7e8cf669a64",
+      "source": "tokyo_art_beat",
+      "title": "「コロタイプの世界 ―コロタイプで観る文化財―展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/54F3YjY48PNILLWJ59CVHm/d177ec16e4a81ee86297e142581880d8/e5168136-e733-4e94-85f6-03ca14309396.jpg",
+      "description": "便利堂は、明治20年（1887年）に創業し、明治38年（1905年）に当時の最先端写真印刷技術であったコロタイプ印刷工房を社内に開設しました。高度な撮影技術を駆使し、原寸大で撮影されたネガフィルムを原板に使用し、和紙に純度の高い油性インクで刷り上げるコロタイプは精緻な画像の再現力のみならず、耐久性・耐光性にも優れています。以来、便利堂は数多くの文化財の複製制作に携わり、文化や芸術を正確に記録し、その価値を伝えて参りました。1961年（昭和36年）から5年の歳月をかけて大英博物館所蔵の《女史箴図巻》の複製を制作しました。元々は単色刷りであった「コロタイプ」に研究を重ねた結果、この制作を機に、世界で唯一の独自技術となる「カラーコロタイプ」の実用化に成功したのです。\n\n本展では、その原点となった《女史箴図巻》の複製をはじめ、今年7月のユネスコ世界遺産委員会で世界遺産に登録が予定されている飛鳥・藤原の宮都の構成遺産「高松塚古墳壁画」の原寸大複製から、お手元でお楽しみいただける最新のカードシリーズ《京都はん》まで、便利堂カラーコロタイプの世界を一堂に展観いたします。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-13",
+      "end_date": "2026-09-12",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "a9283a55927a",
+        "name": "便利堂コロタイプギャラリー",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "벤리도 콜로타입 갤러리"
+          },
+          "en": {
+            "name": "Benrido Collotype Gallery"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.015440381692,
+        "lng": 135.75642682209013
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/The-World-of-Collotype-Cultural-Assets-seen-in-Collotype/benrido-collotype-gallery/2026-07-13",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "1848c97e7010",
+      "source": "tokyo_art_beat",
+      "title": "Hans Bol 「ON MY DOORSTEP」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4DtgmZeHtqA4Bs6W71A2Fg/1f8d43fcd17b9f018c5d78d4a0cea037/01.jpg",
+      "description": "7月30日（木）より、THE BOOK ENDでは、Hans Bol写真展「ON MY DOORSTEP」を開催いたします。Hans Bol（ハンス・ボル）の日本初個展となる本展は、コロナ禍の予期せぬ静寂の中で、彼が30年以上暮らす自然豊かな自宅周辺を徒歩や自転車で巡り、丁寧に切り取った作品群。タイトルは、彼が40年前に影響を受けた写真界の巨匠Paul Strand（ポール・ストランド）の「アーティストの世界は数歩先にも見出せる」という言葉へのオマージュ。身近な自然や土地と深く結びつくことで研ぎ澄まされた、深遠な洞察力に満ちた世界がモノクロームで描き出されます。会場では、作家自身の暗室で精緻に仕上げられた銀塩写真のほか、アムステルダムやベルギーの熟練職人との協働によるフォトエッチング、プラチナ・パラジウムプリントなど、独自の美学が宿る、厳選されたモノクロ作品33点を展示いたします。40年以上のキャリアを持つエキスパートたちによる、圧倒的な手仕事の質感と繊細な光の階調を、ぜひ会場でご体感ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-30",
+      "end_date": "2026-08-24",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "82f20bbfb3dd",
+        "name": "THE BOOK END",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "THE BOOK END"
+          },
+          "ja": {
+            "name": "THE BOOK END"
+          }
+        },
+        "region": "兵庫県",
+        "district": null,
+        "lat": 34.68592,
+        "lng": 135.1868
+      },
+      "artists": [
+        {
+          "id": "af8284096b01",
+          "name": "Hans Bol",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hans-Bol-On-My-Doorstep/the-book-end/2026-07-30",
       "featured": false,
       "popularity_score": null
     }
@@ -62388,6 +62682,48 @@
       "country": "JP",
       "lat": 35.55427,
       "lng": 139.6467,
+      "website": null
+    },
+    {
+      "id": "3be25f9a2320",
+      "name": "TAKU SOMETANI GALLERY",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "銀座、丸の内",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.6724,
+      "lng": 139.7583,
+      "website": null
+    },
+    {
+      "id": "ced5de3790ac",
+      "name": "水性",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "武蔵野、多摩",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.7110216334075,
+      "lng": 139.6670536441803,
+      "website": null
+    },
+    {
+      "id": "6fdcfed98d3b",
+      "name": "one room gallery",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "武蔵野、多摩",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.70621721461612,
+      "lng": 139.59579043684002,
       "website": null
     }
   ],
@@ -75157,6 +75493,36 @@
     {
       "id": "2a1e2efb9184",
       "name": "清水幹",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d9a86f086eca",
+      "name": "Sphene Ron",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9f27cf91bfee",
+      "name": "福嶋幸平",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "33712cd61a1c",
+      "name": "前谷開",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "96b47b6069da",
+      "name": "海田通孝",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "af8284096b01",
+      "name": "Hans Bol",
       "lang": null,
       "tr": {}
     }
