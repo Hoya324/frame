@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T17:03:44.938880+00:00",
+  "generated_at": "2026-07-18T19:25:35.170370+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -39056,7 +39056,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "f5509be3d2d6",
@@ -40579,7 +40579,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-07-30",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "69af0e77f52d",
@@ -41338,7 +41338,7 @@
       "price_max": null,
       "start_date": "2026-06-29",
       "end_date": "2026-07-17",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "8a4ff9c68c0c",
@@ -50020,7 +50020,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-08-09",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "851ebc31063a",
@@ -50382,7 +50382,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-08-02",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "0009d9a4dd1d",
@@ -51458,7 +51458,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-07-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "81f43c8f3b9f",
@@ -51874,7 +51874,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-08-09",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "71b55351615f",
@@ -51993,7 +51993,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "f5509be3d2d6",
@@ -52513,7 +52513,7 @@
       "price_max": null,
       "start_date": "2026-07-15",
       "end_date": "2026-07-17",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "5a3c7477b5b0",
@@ -53242,7 +53242,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-08-09",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "e0958f6f5315",
@@ -53298,7 +53298,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-07-24",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "bd5dd1eb3c0a",
@@ -53514,7 +53514,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-07-19",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "e9736b686620",
@@ -53617,7 +53617,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-07-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "f46b9eafe809",
@@ -53685,7 +53685,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-08-03",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "af71a4816793",
@@ -54380,7 +54380,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-07-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5d573a079256",
@@ -54864,7 +54864,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-09-06",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "23f40e544ba9",
@@ -55394,7 +55394,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-08-09",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ae3024eda755",
@@ -55851,7 +55851,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-07-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "3ad9e538d829",
@@ -56028,7 +56028,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "1c44e36c0970",
@@ -56476,7 +56476,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-08-30",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "6fdcfed98d3b",
@@ -56591,6 +56591,118 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Hans-Bol-On-My-Doorstep/the-book-end/2026-07-30",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "75c85c7f7f2b",
+      "source": "tokyo_art_beat",
+      "title": "「『台湾海鮮パラダイス』出版記念 清永安雄 写真展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4MMlugpllUpsvKWPNR7We/ba4e9ded7386dc49cf35eb281376ac06/8cab1c96-6242-483a-a77c-97cffffdd1d8.jpg",
+      "description": "京都写真美術館 1Fにて、2026年7月15日（水）から9月27日（日）まで、『台湾海鮮パラダイス』出版記念 清永安雄 写真展を開催いたします。本展では書籍に収録された写真を含むA4サイズ約30点、A3サイズ約20点の計50点のパネルを展示いたします。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-15",
+      "end_date": "2026-09-27",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "54c1740b50d0",
+        "name": "京都写真美術館 ギャラリー・ジャパネスク",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "교토 사진 미술관 갤러리 재패네스크"
+          },
+          "en": {
+            "name": "Kyoto Museum of Photography Gallery Japanesque"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.009916818776944,
+        "lng": 135.78263679265976
+      },
+      "artists": [
+        {
+          "id": "c4a6e87accf1",
+          "name": "清永安雄",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "키요나가 야스오"
+            },
+            "en": {
+              "name": "Kiyonaga Yasuo"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yasuo-Kiyonaga-Exhibition/kyoto-museum-of-photography-gallery-japanesque/2026-07-15",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "75ea09a08cfa",
+      "source": "tokyo_art_beat",
+      "title": "「T3 PHOTO FESTIVAL TOKYO 2026」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/2TrkLMDUDVVsx18ScI3u2V/480dc5d3463ce84d743db2a395b27883/main.jpg",
+      "description": "技術・才能・寛容性、3つのTが交差する場所に文化は生まれる——そのコンセプトのもと、世界からトップアーティストと主要文化機関のキュレーターたちを迎える写真フェスティバル「T3」が、8回目の開催を迎えます。\n「と」は、日本語でいちばん小さな接続詞です。けれど、世界のかたちを決めているのはこの小さな一文字かもしれません。「自分と他者」「男と女」「自然と都市」——私たちはいつの間にか、「と」をどちらかを選ぶための区切りとして使っています。ですが、表裏一体や陰陽という言葉があるようにアジアには二項対立ではない「ものの見方」があるはずです。写真は、もともと「と」の芸術です。撮る者と、写る者の眼差しが交差し、写真となった世界の断片は並べられ繋がり、作品と、見る者が、静かに触れる。T3 2026は、世界中の写真家たちとともにこの最も小さな接続詞「と」から世界の可能性を問い直す24日間です。\n\n開催エリア: 東京・八重洲、日本橋、京橋、銀座エリアの屋内、屋外会場 入場: 無料",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "4009714e3e38",
+        "name": "東京ミッドタウン八重洲",
+        "lang": null,
+        "tr": {},
+        "region": "京橋、日本橋",
+        "district": null,
+        "lat": 35.6794,
+        "lng": 139.7689
+      },
+      "artists": [
+        {
+          "id": "10b2ec546a55",
+          "name": "ルーカス・フォグリア",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c2c146d86032",
+          "name": "サラ・ファン・ライ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "9b243ece3425",
+          "name": "アントニー・ケアンズ＆ピータン",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "73423f18a13a",
+          "name": "鈴木のぞみ＆上原沙也加",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/T3-Photo-Festival-Tokyo-2026/tokyo-midtown-yaesu/2026-10-03",
       "featured": false,
       "popularity_score": null
     }
@@ -62768,6 +62880,20 @@
       "country": "JP",
       "lat": 35.70621721461612,
       "lng": 139.59579043684002,
+      "website": null
+    },
+    {
+      "id": "4009714e3e38",
+      "name": "東京ミッドタウン八重洲",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "京橋、日本橋",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.6794,
+      "lng": 139.7689,
       "website": null
     }
   ],
@@ -75574,6 +75700,24 @@
     {
       "id": "af8284096b01",
       "name": "Hans Bol",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "10b2ec546a55",
+      "name": "ルーカス・フォグリア",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9b243ece3425",
+      "name": "アントニー・ケアンズ＆ピータン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "73423f18a13a",
+      "name": "鈴木のぞみ＆上原沙也加",
       "lang": null,
       "tr": {}
     }
