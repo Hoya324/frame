@@ -142,6 +142,19 @@ following runs. The recurring jobs must stay incremental (no `--reset`).
 | `photo_sema` | museum (Photo SeMA branch only) | ✅ |
 | `museum_hanmi` | museum (삼청 + 삼청별관 branches) | ✅ |
 | `koba` | expo (annual edition) | ✅ |
+| `mmca` | museum (국립현대미술관 서울·과천·덕수궁·청주, JSON API, media-gated) | ✅ |
+| `sema` | museum (서울시립미술관 전 지점, 사진미술관 제외 — `photo_sema`가 담당, media-gated) | ✅ |
+| `njp_art_center` | museum (백남준아트센터 — 전관 영상/미디어) | ✅ |
+| `gmoma` | museum (경기도미술관, media-gated) | ✅ |
+| `arko` | museum (아르코미술관, media-gated) | ✅ |
+| `acc` | museum (국립아시아문화전당 광주, media-gated) | ✅ |
+| `moca_busan` | museum (부산현대미술관, media-gated) | ✅ |
+| `daegu_art_museum` | museum (대구미술관, media-gated) | ✅ |
+| `ilmin` | museum (일민미술관, media-gated) | ✅ |
+| `apma` | museum (아모레퍼시픽미술관, media-gated) | ✅ |
+
+> **media-gated** — 종합 미술관 소스는 `crawler.sources._media`의 사진/영상/미디어
+> 키워드 게이트를 통과한 전시만 수집한다. 회화·조각 시즌에 산출 0건은 정상 동작.
 
 ## Architecture (one paragraph)
 

@@ -62,6 +62,11 @@ class _BadResponse(Exception):
     momentary nginx/PHP hiccup or anti-bot interstitial), which surfaces as a
     JSONDecodeError. That is transient, so we treat it as retryable rather than
     failing the whole crawl on a one-off bad response.
+
+    2026-07-19 run: all 3 attempts got the same 847-byte non-JSON body within
+    ~5 s — the interstitial persists longer than the old 1+2 s backoff window.
+    Attempts and the wait cap were raised so the retry ladder (1+2+4+8 s)
+    outlives short-lived blocks on the CI runner IP.
     """
 
 
@@ -109,6 +114,7 @@ class GalleryBressonExtractor:
             timeout=timeout_s,
             headers={
                 "User-Agent": _USER_AGENT,
+                "Accept": "application/json",
                 "Accept-Language": "ko,en-US;q=0.8,en;q=0.7",
             },
             follow_redirects=True,
@@ -116,8 +122,8 @@ class GalleryBressonExtractor:
 
     @retry(
         retry=retry_if_exception_type((httpx.TransportError, _BadResponse)),
-        wait=wait_exponential(multiplier=1, min=1, max=16),
-        stop=stop_after_attempt(3),
+        wait=wait_exponential(multiplier=1, min=1, max=30),
+        stop=stop_after_attempt(5),
         reraise=True,
     )
     def _get_posts(self) -> list[dict]:

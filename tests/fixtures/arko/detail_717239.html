@@ -1,0 +1,1658 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+<title>한국문화예술위원회</title>
+
+<link rel="stylesheet" href="/assets/css/slick.css">
+<link rel="stylesheet" href="/assets/css/common.css">
+<link rel="stylesheet" href="/artcenter/assets/css/layout.css">	
+<link rel="stylesheet" href="/artcenter/assets/css/content.css">
+<link rel="stylesheet" href="/artcenter/assets/css/board.css">
+
+<script type="text/javascript" src="/artcenter/assets/js/plugin/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="/artcenter/assets/js/plugin/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/artcenter/assets/js/plugin/slick.js"></script>
+<script type="text/javascript" src="/artcenter/assets/js/layout.js"></script>
+<script type="text/javascript" src="/artcenter/assets/js/common.js"></script>
+
+<!-- 2019년 문화정보서비스 웹로그 -->
+<script type="text/javascript" src="/artcenter/assets/js/log/1128_Insight_WebAnalytics.js"></script>
+
+<!-- web log analysis -->
+<script type="text/javascript" src="/artcenter/assets/js/log/acecounter_script.js"></script>
+
+<script type="text/javascript">
+var CWMenuPaths = '499/501/505/506'.split('/'),
+	CWMenuNamePaths = '아르코미술관/프로그램/전시/현재전시'.split('/');
+$(function(){
+	
+	var tit = '';
+	for(var i=CWMenuNamePaths.length - 1; i >= 0 ; i--){
+		
+		if(tit != ''){
+			tit += ' | ';
+		}
+		
+		tit = tit + CWMenuNamePaths[i].replace(/&#47;/g,"/");
+	}
+	
+	document.title = tit;
+});
+</script>
+
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--skip nav-->
+	<div id="skipNav">
+		<a href="#content">본문 바로가기</a>
+	</div>
+	<!--//skip nav-->
+
+	<div id="wrap">
+
+		<!-- header -->
+		<header id="header">
+			<!-- 확대축소버튼 추가 20240423 -->
+			<div class="renewUtil">
+              <div class="zoomWrap bul">
+                  <button type="button" class="btnZoom">글자·화면 설정 <span class="arOpen hide">열기</span></button>
+                  <div class="dropMenu" style="display:none">
+                    <div class="dropIn">
+                      <h3>글자·화면 표시 설정</h3>
+                      <ul class="dropList" id="zoom-drop-list">
+                          <li><a href="javascript:;" class="itemLink xsm">작게</a></li>
+                          <li><a href="javascript:;" class="itemLink sm active" title='보통 선택됨'>보통</a></li>
+                          <li><a href="javascript:;" class="itemLink md">조금 크게</a></li>
+                          <li><a href="javascript:;" class="itemLink lg">크게</a></li>
+                          <li><a href="javascript:;" class="itemLink xlg">가장크게</a></li>
+                      </ul>
+                      <h3>화면 표시 모드</h3>
+                          <div class="screenSet">
+                                <ul class="">
+                                  <li class="viewLight">
+                                    <input type="radio" name="view_mode" id="view_mode_light" value="light" checked="">
+                                    <label for="view_mode_light">기본 (밝은 배경)</label>
+                                  </li>
+                                  <li class="viewDark">
+                                    <input type="radio" name="view_mode" id="view_mode_dark" value="high-contrast">
+                                    <label for="view_mode_dark">선명하게 (어두운 배경)</label>
+                                  </li>
+                                </ul>
+                          </div>
+	                      <div class="dropBtn">
+	                          <button type="button" class="btnReset" id="zoom-theme-reset">초기화</button>
+	                          <button type="button" class="btnClose" id="zoom-theme-close">닫기</button>
+	                      </div>
+                      </div>
+                  </div>
+              </div>
+             </div>
+              <!-- // 확대축소버튼 추가 20240423 -->
+
+			<div class="gnbWrap">
+				<h1 class="logo">
+					<a href="/" class="arko">한국문화예술위원회</a>
+					<a href="/artcenter/" class="micro">아르코미술관</a>
+				</h1>
+				
+				<nav id="gnb">
+					<ul>
+
+
+	
+					
+						<li >
+							<a  href="/artcenter/content/500" >이용안내</a>
+			
+						</li>
+
+					
+						<li class='on'>
+							<a  href="/artcenter/board/list/506?bid=266&dateLocation=now" >프로그램</a>
+			
+							<div class="depth2">
+								<ul>
+			
+									<li>
+										<a  href="/artcenter/board/list/506?bid=266&dateLocation=now"   >전시</a>
+			
+									</li>
+			
+									<li>
+										<a  href="/artcenter/board/list/521"   >교육</a>
+			
+									</li>
+			
+									<li>
+										<a  href="/artcenter/board/list/522"   >행사</a>
+			
+									</li>
+				
+								</ul>
+							</div>
+			
+						</li>
+
+					
+						<li >
+							<a  href="/artcenter/content/508" >아카이브</a>
+			
+							<div class="depth2">
+								<ul>
+			
+									<li>
+										<a  href="/artcenter/content/508"   >소개</a>
+			
+									</li>
+			
+									<li>
+										<a  href="/artcenter/board/list/512"   >연구 및 수집</a>
+													
+										<ul class="depth3">
+			
+											<li><a  href="/artcenter/board/list/512"   >작가포트폴리오</a></li>
+			
+											<li><a  href="/artcenter/board/list/513"   >아르코미디어</a></li>
+			
+											<li><a  href="/artcenter/board/list/514"   >소장품</a></li>
+			
+										</ul>
+			
+									</li>
+			
+									<li>
+										<a  href="/artcenter/board/list/510"   >출판</a>
+			
+									</li>
+			
+									<li>
+										<a  href="/artcenter/board/list/881"   >작가 조사-연구-비평</a>
+			
+									</li>
+				
+								</ul>
+							</div>
+			
+						</li>
+
+					
+						<li >
+							<a  href="/artcenter/board/list/503" >공지사항</a>
+			
+						</li>
+
+					
+						<li >
+							<a  href="/artcenter/content/515" >미술관 소개</a>
+			
+							<div class="depth2">
+								<ul>
+			
+									<li>
+										<a  href="/artcenter/content/515"   >소개</a>
+			
+									</li>
+			
+									<li>
+										<a  href="/artcenter/content/516"   >시설</a>
+			
+									</li>
+				
+								</ul>
+							</div>
+			
+						</li>
+
+					
+					</ul>
+				</nav>
+				<!-- 추가 20240321 -->
+				<div class="btnWrap">
+					
+					
+						<a class="login" href="/infra/member/loginForm.do?redirectUrl=https://www.arko.or.kr/artcenter">로그인</a>
+					
+					
+					<button type="button" name="button" class="btnSearchOpen">검색열기</button>
+					<div class="searchLayer">
+						<div class="inner">
+							<form class="searchForm" method="get" action="/search-detail.do" name="RsaSearchForm" onsubmit="return chkSearchForm(this);">
+								<fieldset>
+									<legend>통합검색</legend>
+									<div class="searchGroup">
+										<input type="text" name="qt" id="qt" value="" placeholder="검색어를 입력해주세요" title="검색어 입력">
+										<button type="submit" class="btnSearch">검색</button>
+									</div>
+									<button type="button" name="button" class="btnClose">검색닫기</button>
+								</fieldset>
+							</form>
+						</div>
+					</div>
+					<a href="/artcenter/common/guide/sitemap/765" class="btnAllMenu">전체메뉴보기</a>
+				</div>
+				<!-- // 추가 20240321 -->
+				
+				
+				
+			</div>
+			
+						
+
+			<!-- mobile menu -->
+			<div class="mGnbWrap">
+				<div class="btnWrap">
+					<a href="javascript:;" class="btnSearch">search</a>
+					<button type="button" class="btnAll">메뉴열기</button>
+				</div>
+
+				<div class="mobileMenu">
+					<nav id="mGnb">
+						<div class="linkWrap">
+							
+							
+								<a href="/infra/member/loginForm.do?redirectUrl=https://www.arko.or.kr/artcenter">로그인</a>
+							
+						</div>
+						<ul>
+	
+							<li >
+								<a  href="/artcenter/content/500"  >이용안내</a>
+	
+							</li>
+
+							<li class="active">
+								<a  >프로그램</a>
+	
+								<div class="depth2">
+									<ul><!-- 하위메뉴 없을 경우 class="noDepth" -->
+	
+										<li class="noDepth active ">
+											<a  href="/artcenter/board/list/506?bid=266&dateLocation=now" >전시</a>
+	
+										</li>
+	
+										<li class="noDepth">
+											<a  href="/artcenter/board/list/521" >교육</a>
+	
+										</li>
+	
+										<li class="noDepth">
+											<a  href="/artcenter/board/list/522" >행사</a>
+	
+										</li>
+	
+									</ul>
+								</div>
+	
+							</li>
+
+							<li >
+								<a  >아카이브</a>
+	
+								<div class="depth2">
+									<ul><!-- 하위메뉴 없을 경우 class="noDepth" -->
+	
+										<li class="noDepth">
+											<a  href="/artcenter/content/508" >소개</a>
+	
+										</li>
+	
+										<li class="">
+											<a  href="#n">연구 및 수집</a>
+	
+											<ul class="depth3">
+	
+												<li >
+													<a  href="/artcenter/board/list/512" >작가포트폴리오</a>
+												</li>
+	
+												<li >
+													<a  href="/artcenter/board/list/513" >아르코미디어</a>
+												</li>
+	
+												<li >
+													<a  href="/artcenter/board/list/514" >소장품</a>
+												</li>
+	
+											</ul>
+	
+										</li>
+	
+										<li class="noDepth">
+											<a  href="/artcenter/board/list/510" >출판</a>
+	
+										</li>
+	
+										<li class="noDepth">
+											<a  href="/artcenter/board/list/881" >작가 조사-연구-비평</a>
+	
+										</li>
+	
+									</ul>
+								</div>
+	
+							</li>
+
+							<li >
+								<a  href="/artcenter/board/list/503"  >공지사항</a>
+	
+							</li>
+
+							<li >
+								<a  >미술관 소개</a>
+	
+								<div class="depth2">
+									<ul><!-- 하위메뉴 없을 경우 class="noDepth" -->
+	
+										<li class="noDepth">
+											<a  href="/artcenter/content/515" >소개</a>
+	
+										</li>
+	
+										<li class="noDepth">
+											<a  href="/artcenter/content/516" >시설</a>
+	
+										</li>
+	
+									</ul>
+								</div>
+	
+							</li>
+
+							
+							<li><a href="https://www.arko.or.kr/infra" target="_blank" title="새창 열림">운영시설</a></li>							
+						</ul>
+						<button type="button" class="btnClose">메뉴닫기</button>
+					</nav>
+					<span class="mGnbBg"></span>
+				</div>
+
+
+			</div>
+			<!-- //mobile menu -->
+
+		</header>
+		<!-- //header -->	
+
+	
+		<div id="container">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<nav class="newSnbWrap">
+				<div class="inner">
+					<a href="/artcenter/" class="home" title="홈페이지 바로가기"><span>메인페이지로 이동</span></a>
+					<ul class="snbLi">
+			
+						<li class="pathDepth1">
+							<button type="button" class="currentMenu"><span>프로그램</span></button>
+	
+							<ul>
+		
+								<li>
+									<a  href="/artcenter/content/500" >이용안내</a>
+								</li>
+		
+								<li>
+									<a  href="/artcenter/board/list/506?bid=266&dateLocation=now" >프로그램</a>
+								</li>
+		
+								<li>
+									<a  href="/artcenter/content/508" >아카이브</a>
+								</li>
+		
+								<li>
+									<a  href="/artcenter/board/list/503" >공지사항</a>
+								</li>
+		
+								<li>
+									<a  href="/artcenter/content/515" >미술관 소개</a>
+								</li>
+		
+							</ul>
+	
+						</li>
+	
+						<li class="pathDepth2">
+							<button type="button" class="currentMenu"><span>전시</span></button>
+							<ul>
+	
+								<li>
+									<a  href="/artcenter/board/list/506?bid=266&dateLocation=now"   >전시</a>
+								</li>
+	
+								<li>
+									<a  href="/artcenter/board/list/521"   >교육</a>
+								</li>
+	
+								<li>
+									<a  href="/artcenter/board/list/522"   >행사</a>
+								</li>
+	
+							</ul>
+						</li>
+	
+						
+						<li class="pathDepth3">
+							<button type="button" class="currentMenu"><span>현재전시</span></button>
+							<ul>
+	
+								<li>
+									<a  href="/artcenter/board/list/506?bid=266&dateLocation=now"   >현재전시</a>
+								</li>
+
+								<li>
+									<a  href="/artcenter/board/list/507?bid=266&dateLocation=before"   >과거전시</a>
+								</li>
+
+							</ul>
+						</li>
+
+					</ul>
+				</div>
+			</nav>
+
+			<div id="newSubVisual"><!-- id 변경 subVisual -> newSubVisual 20240321 -->
+				<div class="inner">
+					<div class="text">
+						<h2 class="title">프로그램</h2>
+						
+					</div>
+					<div class="img img02"> <!-- 각 서브페이지 별로 img01~img08까지 있음 -->
+					</div>
+				</div>
+			</div>
+			
+			
+
+			<div class="inner">
+
+				<div id="content">
+
+					<div class="headWrap">
+						<h1 class="title">
+							<!-- top or left메뉴에 표시할 수 있는 메뉴인지 체크 : 0이면 보임, 1이면 안보임 -->
+							
+								전시
+								
+							
+						</h1>
+						
+					</div>
+
+					<div class="bodyWrap">
+					
+						<!-- cms 콘텐츠 -->
+						<div class="content">
+
+			
+
+
+<!-- content start -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						<!-- cms 콘텐츠 -->
+						<div class="content">
+
+							<!-- board view -->
+							<div class="boardView">
+
+								<div class="viewTopBtn">
+									<!--
+									<a href="#fileGo" class="btn fileGo">첨부파일 바로가기</a>
+									-->
+									
+								</div>
+
+								<ul class="researchBoardList">
+									<li>
+										<div class="thum">
+											<a href="javascript:;"><img src="/artcenter/cwsattach/image/39/717239_202604221613239350.gif" alt="《어긋난 파동, 흔들리는 시간: 오민, 카밀 노먼트》"></a>
+										</div>
+										<div class="textBox">
+											<a href="javascript:;"><span class="subject"> 《어긋난 파동, 흔들리는 시간: 오민, 카밀 노먼트》</span></a>
+											<div class="detail">
+												<dl class="col2">
+													<dt>전시기간</dt>
+													<dd>2026.05.22~2026.07.19</dd>
+													<dt>관람료</dt>
+													<dd>무료</dd>
+												</dl>
+												<dl class="col2">
+													<dt>오프닝</dt>
+													<dd>5월 21일(목) 17:00</dd>
+													<dt>장소</dt>
+													<dd>아르코미술관 제1, 2전시실</dd>
+												</dl>
+												<dl class="col1">
+													<dt>작가</dt>
+													<dd>오민, 카밀 노먼트</dd>
+												</dl>
+												<dl class="col1">
+													<dt>부대행사</dt>
+													<dd>5월 21일(목) 18시: 카밀 노먼트 퍼포먼스 5월 23일(토) 14시: 아티스트 토크, 오민 퍼포먼스 6월 6일(토) 14시: 강연 및 대담 </dd>
+												</dl>
+												<dl class="col2">
+													<dt>주관</dt>
+													<dd>아르코미술관</dd>
+													<dt>주최</dt>
+													<dd>한국문화예술위원회</dd>
+												</dl>
+												<dl class="col1">
+													<dt>문의</dt>
+													<dd>02-760-4627</dd>
+												</dl>
+												
+												
+													<dl class="col2">
+														<dt>담당부서</dt>
+														<dd>미술관운영팀 </dd>
+														<dt>담당자</dt>
+														<dd>이보름</dd>
+													</dl>
+												
+												<div class="viewFile">
+												
+													<strong class="tit">첨부파일</strong>
+													<ul class="addFile" id="fileGo">
+	
+							
+									<li><a href="/artcenter/board/download/71c49c01ea764209962b20f77c3f6a44" title=''>[Arko]Untuend_Time_leaflet(KR+EN).pdf</a><a href="javascript:;" class="btn view"  onclick="window.open('/artcenter/common/notice_viewer.jsp?bid=266&cid=717239&originalFileName=[Arko]Untuend_Time_leaflet(KR+EN).pdf&fileName=717239_202605281614480990.pdf', '문서뷰어', 'width='+screen.width+',height='+screen.height+',resizable=yes, scrollbars=yes')"  >미리보기</a></li>
+									
+													</ul>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+
+								<div class="viewCont">
+
+									<div class="tabWrap">
+										<!-- tab menu -->
+										<ul class="sTabMenu li2" id="tab">
+											<li class="active" data-tab="tabCon01"><a href="javascript:;">안내</a></li>
+											<li data-tab="tabCon02" class=""><a href="javascript:;">English Info</a></li>
+										</ul>
+										<!-- //tab menu -->
+
+
+
+
+
+										<!-- tab con 안내 -->
+										<div class="tabCon active" id="tabCon01">
+											
+													<div class="on">
+														<div class="displaySet">
+<h3 class="text">《어긋난 파동, 흔들리는 시간: 오민, 카밀 노먼트》</h3>
+
+<p class="mt20" style="text-align:center"><img alt="아르코미술관 창작주체 연계 기획전 《어긋난 파동, 흔들리는 시간: 오민, 카밀 노먼트》(자세한 내용은 아래 참조)" src="/artcenter/cwsattach/image/39/717239_202604221611502090.gif" /></p>
+
+<h4 class="mt40">▣ 전시개요</h4>
+
+<ul>
+	<li>전시명 : 《어긋난 파동, 흔들리는 시간: 오민, 카밀 노먼트》</li>
+	<li>참여작가 : 오민, 카밀 노먼트</li>
+	<li>기간 : 2026.5.22.(금) - 7.19.(일)</li>
+	<li>운영시간 : 화-일요일, 11시-19시 (매주 월요일 휴관, 수요일 21시까지 연장 운영)</li>
+	<li>장소 : 아르코미술관 제1, 2전시실</li>
+	<li>주최 : 한국문화예술위원회</li>
+	<li>후원·협찬 : 한국문화예술위원회 다원예술 창작주체, 노르웨이 현대미술 센터(OCA), 데이원드림</li>
+	<li>관람료 : 무료</li>
+</ul>
+
+<h4 class="mt40">▣ 전시소개</h4>
+
+<p>노이즈란 무엇인가. 음악에서 노이즈는 조율되지 않은 소리, 화음의 바깥에 놓인 불협이며, 화면에서는 선명한 재현을 거스르는 물질적 흔적이다. 노이즈는 질서의 외부에서 신호에 달라붙어 의미를 잡음으로 되돌리려는 개입이자 저항이다. 《어긋난 파동, 흔들리는 시간》은 노이즈를 새로운 상태가 출현하는 임계점, 불안정 속에서 잠재적인 것들이 진동하는 장으로 읽는 오민과 카밀 노먼트의 작품을 소개한다.</p>
+
+<p>오늘날 알고리즘적 피드와 추천 시스템은 우리가 이미 알고 있는 것을 끊임없이 되돌려주며 예측 가능한 쾌락의 순환 안에 가두고, 매끄러운 스크린 뒤로 현실의 물질적 진동은 사라져간다. 소음이 범람하는 시대에 정작 상실하고 있는 것은 진정한 의미의 노이즈를 감각하는 능력일 수 있다. 이 전시는 두 작가의 실천을 통해 노이즈를 생성의 조건으로 다시 바라본다.</p>
+
+<p>오민은 한국문화예술위원회 다원예술 창작주체 지원사업의 일환으로 수년간 연구, 제작해 온 〈동시〉 연작을 처음으로 한자리에 모은다. 무질서에 더 많은 정보가 얽혀 있다는 생각에서 출발하는 이 작품은 영상과 퍼포먼스, 음악과 안무, 기계와 신체 같은 이질적 개체들이 비위계적으로 중첩된 정보의 덩어리를 구축해 나간다. 한국에서 처음으로 소개되는 노먼트는 이번 전시를 위해 〈플렉서스〉 연작을 확장하여 서울에서 현장 제작한다. 뿌리이자 신경망처럼 자라나가는 〈플렉서스(리좀) 서울〉에서, 노먼트는 관습적 음악 체계에서 조율되지 않은 것으로 간주되는 공간의 고유한 주파수를 작곡의 기본음으로 삼아, 침묵에 묻힌 목소리들이 공명으로 되돌아오는 울림의 장을 연다.</p>
+
+<p>두 작가는 노이즈라는 이 불안정한 파동을 협업자이자 공생체로 여긴다. 노먼트는 노이즈가 작곡의 협업자가 될 때 “작곡자, 연주자, 청자의 전통적인 음악의 권력과 위계는 수평으로 기울어진다”고 말한다. 오민 역시 어떤 요소도 다른 요소에 종속되지 않는 텍스처를 모색하며, “불확정성과 구조는 서로를 부정하기보다 보완한다. 이들은 중첩된 상태에서 각각의 자율성을 유지한다”고 말한다. 두 작가는 기울어진 상태, 진동수가 다른 두 파동이 불협하며 중첩될 때 발생하는 새로운 주파수의 간섭을 허용한다. 이것이 바로 제3의 진동이 개입하는 가능성의 열림이다.</p>
+
+<p>알고리즘이 우리의 일상적 선택과 사유까지 대행하기 시작한 오늘날, 두 작가가 노이즈와 관계 맺는 방법은 즉흥이다. 즉흥은 계획의 부재가 아니라, 작업 자체가 가진 목소리에 귀 기울이는 것에서 비롯된다. 이들은 통제 너머의 청자, 불확실한 상황, 미결정의 영역에 감각으로 조응하는 작업을 선보이며, 전시를 통해 그 응답이 빚어내는 시공의 틈에 들어서게 된다.</p>
+
+<p>《흔들리는 시간》은 안정의 상실이 아니라 아직 결정되지 않은 시간이며, 《어긋난 파동》은 매끈한 동조의 실패가 아니라 새로운 관계가 태어나는 조건이다. 오민이 촬영 현장에서 미래를 모르는 채 ‘OK’를 외치는 순간, 관객에게 전달된 노먼트의 진동이 내 몸인지 구조물인지 구분되지 않는 순간, 시간은 흔들린다. 이 전시는 예측 불가능하며 때로는 불안한 것들이 해소되지 않은 채 함께 울리는 상태, 아직 도래하지 않은 것들이 진동하는 상태 안에 머무르고자 한다.</p>
+
+<h4 class="mt40">▣ 작품소개</h4>
+
+<div class="boxWrap mt20" style="padding:20px;">
+<p class="imgCenter"><img alt="오민, 〈동시〉, 2026, 150분" src="/artcenter/cwsattach/image/39/717239_202605271018066730.jpg" /></p>
+
+<p class="mt10 imgCenter"><img alt="오민, 〈동시〉, 2026, 150분" src="/artcenter/cwsattach/image/39/717239_202605271018236780.jpg" /></p>
+
+<p class="mt10"><strong>오민, 〈동시〉, 2026, 150분.</strong></p>
+
+<p><strong>시간기반설치; 9채널 영상, 컬러, 12채널 사운드.</strong></p>
+
+<p class="mt20">전시장1층에서는 오민이 수년간 작업해 온 〈동시〉 연작이 일곱 개의 영상, 아홉 개의 채널로 처음 한자리에 모인다. 각각 독립된 스터디로 제작된 영상들은 이번 전시에서 동시다발적으로 작동하는 공생체로 묶이며, 한 순간에 과거-현재-미래를 압축하는 작가의 수행을 화면 위로 옮겨 놓는다. 오민에게 노이즈는 이미지가 만들어진 과정의 신체적 흔적이다. 실수와 오류가 말끔히 닦여 나간 매끈한 완성본은 도리어 이 과정이 지원진 빈 표면에 가깝다고 보는 작가는, 감독, 스태프, 결과물, 스코어, 퍼포머가 위계 없이 충돌하는 불안한 동시성의 장을 구축한다. 결과를 알 수 없는 채 발화하는'OK 컷'을 해부함으로써, 〈동시〉는 답을 모른 채 수많은 결정을 내리며 살아가는 우리 모두의 일상을 비춘다.</p>
+
+<p class="mt20 imgCenter"><img alt="카밀 노먼트, 〈플렉서스(리좀) 서울〉, 2026, 가변크기" src="/artcenter/cwsattach/image/39/717239_202605271018415180.jpg" /></p>
+
+<p class="mt10 imgCenter"><img alt="카밀 노먼트, 〈플렉서스(리좀) 서울〉, 2026, 가변크기" src="/artcenter/cwsattach/image/39/717239_202605271018536010.jpg" /></p>
+
+<p class="mt10"><strong>카밀 노먼트, 〈플렉서스(리좀) 서울〉, 2026, 가변크기</strong></p>
+
+<p><strong>음향 설치; 24채널 사운드, 진동 스피커, 생성형 작곡 소프트웨어, 삼나무 구조물</strong></p>
+
+<p class="mt20">아르코미술관 커미션</p>
+
+<p class="mt20">2층에서는 바닥을 뚫고 솟아오르는 목재 구조물과 공간을 울리는 진동이 관객을 끌어당긴다. 한국에서 처음으로 소개되는 노먼트는 이번 전시를 위해 〈플렉서스(리좀) 서울〉을 현장 제작했다. 이 작품은 퍼포먼스, 연주, 설치, 회화를 가로지르며 전개해 온 작가의 예술적 탐구가 켜켜이 쌓인 지층적 동시성의 물질적 형태이다. 뿌리처럼, 신경망처럼 뻗어 나가며 자라난 곳마다 새로운 맥락을 쌓는 이 리좀적 구조물에 관객은 자신의 무게를 맡기고, 진동 스피커의 물리적 진동을 몸으로 받아들인다. 정가(가곡) 가창자, 연극 배우, 한국계 미국인 작가, 인디 가수 등 서울의 청년들과 함께 녹음한 비언어적 목소리는 나무의 결을 타고 관객의 뼈에 도달한다. 노먼트는 관습적 음계에서 조율되지 않은(untuned) 공간의 고유 주파수를 작곡의 기본음으로 삼아, 통제 불가능한 것과 조율하려는 시도 자체를 생성을 거듭하는 즉흥이자 민주적 실천으로 펼쳐 놓는다.</p>
+</div>
+
+<h4 class="mt40">▣ 작가소개</h4>
+
+<div class="boxWrap" style="overflow: hidden;">
+<p style="float:left; width:48%; text-align:center"><img alt="오민 사진" src="/artcenter/cwsattach/image/39/717239_202605071117547590.jpg" /></p>
+
+<p><strong>오민(b.1975)</strong></p>
+
+<p>오민은 암스테르담과 서울을 오가며 작업하고 있다. 미술, 음악, 무용, 영화의 교차점, 그리고 시간 기반 설치와 라이브 퍼포먼스가 만나는 접점에서 신체가 시간을 감각하고 운용하며 소비하고 또 발생시키는 언어를 탐구한다. 피아노 연주로 익힌 시간 언어를 바탕으로 시간을 둘러싼 물질과 사유의 경계 및 상호작용을 연구해오고 있다.</p>
+
+<p class="mt20">서울대학교에서 피아노와 시각디자인을, 예일대학교에서 그래픽디자인을 공부했다. 시간, 공간, 신체, 움직임, 소리, 이미지의 관계를 정교한 스코어(score)로 조직하며, 이 스코어는 매 작업의 출발점이자 구조로 기능한다. 위계적인 체계와 선형적 흐름에서 벗어난 동시대의 덩어리적 감각을 '포스트텍스처'로 명명한 이후, 최근에는 이를 '동시(simultaneity)'로 재정립하여 장기 연작으로 전개하고 있다. '동시'는 동시다발적으로 발생하고 뒤섞인 정보들을 비위계적으로 연결하는 관계를 가리킨다.</p>
+
+<p class="mt20">주요 개인전으로 《노래해야 한다면 나는 당신의 혁명에 참여하지 않겠습니다》(일민미술관, 2022), 《토마》(토탈미술관, 2021), 《오민: 초청자, 참석자, 부재자》(플랫폼엘 컨템포러리 아트센터, 2020), 《연습곡》(아뜰리에 에르메스, 2018)이 있다. 2021년 국립현대미술관 《올해의 작가상》4인에 선정되었으며, 에르메스재단 미술상(2017) 등 수상했다. 저서로 『동시』(2025), 『토마』(2021), 『부재자, 참석자, 초청자』(2020), 『연습곡1번』(2018),</p>
+
+<p>『스코어 스코어』(2017) 등이 있다.</p>
+</div>
+
+<div class="boxWrap" style="overflow: hidden;">
+<p style="float:left; width:48%; text-align:center"><img alt="카밀 노먼트 사진" src="/artcenter/cwsattach/image/39/717239_202605071118269340.jpg" /></p>
+
+<p><strong>카밀 노먼트(Camille Norment, b.1970)</strong></p>
+
+<p>카밀 노먼트는 노르웨이 오슬로를 기반으로 활동하는 작가이다. 현대미술과 음악의 장르를 넘나들며 설치, 작곡, 조각, 드로잉, 퍼포먼스 등 다양한 매체를 활용해 작업해 왔다. 소리를 신체와 공간, 시간과 역사가 만나고 충돌하는 장으로 다루며, 사회·문화적 현상을 사운드의 관점에서 탐구하는 자신의 미학적·개념적 틀을 '문화적 정신음향학(cultural psychoacoustics)'으로 정의한다.</p>
+
+<p class="mt20">미국 미시간대학교에서 비교문학과 미술사를 전공했고, 뉴욕대학교에서 미술과 인터랙티브 텔레커뮤니케이션으로 석사과정을 졸업했으며, 휘트니미술관 독립연구프로그램(ISP)을 수료했다. 2004년부터 노르웨이에 거주하며 노르웨이 전통악기 하르딩펠레(Hardingfele), 글래스 아르모니카(glass armonica), 일렉트릭 기타와 라이브 피드백을 결합한 〈카밀 노먼트 트리오(Camille Norment Trio)〉를 결성해 활동해오고 있다. 한때 신체에 미칠 수 있는 정신적·사회적·성적 영향력 때문에 금기시되었던 이 악기들은, 그의 작업 안에서 통제와 저항, 음향적·사회적 불협화를 사유하는 매체로 새롭게 자리한다.</p>
+
+<p class="mt20">2015년 제56회 베니스 비엔날레 노르딕 파빌리온의 노르웨이 대표 작가로 선정되어 대규모 3부작 프로젝트 《Rapture》를 선보였다. 주요 개인전으로 《Plexus》(디아 첼시, 뉴욕, 2022), 《Gyre》(베르겐 쿤스트할레 페스티벌 전시, 2023)가 있다. 2023년 백남준 예술상(쿤스트슈티프퉁NRW)을 수상했고, 2024년 베르겐대학교 음악·미술·디자인학부에서 명예박사학위를 받았다. 2020년부터 2023년까지 오슬로국립예술대학교(KHiO) 연구부총장(Prorector of Research)을 역임했다.</p>
+</div>
+
+<h4 class="mt40">▣ 연계 프로그램 소개</h4>
+
+<div class="tableBox mt10" style="overflow-x:auto;overflow-y:hidden;">
+<table style="min-width:700px;">
+	<caption>연계 프로그램 소개에 대한 날짜, 참여자, 장소 등 정보제공</caption>
+	<thead>
+		<tr>
+			<th scope="col">
+			<p>날짜</p>
+			</th>
+			<th scope="col">
+			<p>참여자</p>
+			</th>
+			<th scope="col">
+			<p>장소</p>
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">
+			<p>5월 21일(목)</p>
+
+			<p>18시</p>
+			</th>
+			<td>
+			<p>퍼포먼스 : 카밀 노먼트, 이옥경 즉흥 협연</p>
+			</td>
+			<td>
+			<p>아르코미술관</p>
+
+			<p>제2전시실</p>
+			</td>
+		</tr>
+		<tr>
+			<th scope="row">
+			<p>5월 23일(토)</p>
+
+			<p>14시</p>
+			</th>
+			<td>
+			<p>퍼포먼스 : 오민, 〈동시, 즉흥, 연습〉</p>
+			</td>
+			<td>
+			<p>아르코미술관 공간열림</p>
+			</td>
+		</tr>
+		<tr>
+			<th scope="row">
+			<p>5월 23일(토)</p>
+
+			<p>15시</p>
+			</th>
+			<td>
+			<p>아티스트 토크 : 오민, 카밀 노먼트</p>
+			</td>
+			<td>
+			<p>아르코미술관 공간열림</p>
+			</td>
+		</tr>
+		<tr>
+			<th scope="row">
+			<p>5월 27일(수)</p>
+
+			<p>19시</p>
+			</th>
+			<td>
+			<p>북토크</p>
+
+			<p>패널: 오민(참여작가), 김소진(배우), 김지훈(중앙대학교 영화미디어학센터 디렉터)</p>
+
+			<p>모더레이터: 김뉘연(시인, 워크룸프레스 편집자)</p>
+			</td>
+			<td>
+			<p>아르코미술관 공간열림</p>
+			</td>
+		</tr>
+		<tr>
+			<th scope="row">
+			<p>6월 6일(토)</p>
+
+			<p>14시</p>
+			</th>
+			<td>
+			<p>강연 및 대담 : 〈시스템을 끄면 무엇이 들리는가〉</p>
+
+			<p>정혜윤(한국예술종합학교 음악원 교수)</p>
+
+			<p>최석현(서울대학교 과학학과 박사 수료)</p>
+			</td>
+			<td>
+			<p>아르코미술관 공간열림</p>
+			</td>
+		</tr>
+		<tr>
+			<th scope="row">
+			<p>7월 8일(수) 19시,<br>7월 18일(토) 13시</p>
+			</th>
+			<td>
+			<p>시각장애인 도슨트</p>
+			</td>
+			<td>
+			<p>아르코미술관 제2전시실</p>
+			</td>
+		</tr>
+		<tr>
+			<th rowspan="3" scope="row">
+			<p>상시</p>
+			</th>
+			<td>
+			<p>시각장애인 도슨트</p>
+			</td>
+			<td>
+			<p>아르코미술관</p>
+
+			<p>제2전시실</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>일반 관람객 도슨트</p>
+			</td>
+			<td>
+			<p>아르코미술관</p>
+
+			<p>제1,2전시실</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>전시연계프로그램 〈소리와 시간이 머문 자리〉</p>
+			</td>
+			<td>
+			<p>아르코미술관 공간열림</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+													</div>
+											
+										</div>
+										<!-- //tab con 안내 -->
+
+										<!-- tab con English Info -->
+										<div class="tabCon" id="tabCon02">
+											
+													<div>
+														<div class="displaySet">
+<h3 class="text"><em>Untuned Time: Camille Norment, Min Oh</em></h3>
+
+<p class="mt20" style="text-align:center"><img alt="아르코미술관 창작주체 연계 기획전 《어긋난 파동, 흔들리는 시간: 오민, 카밀 노먼트》(자세한 내용은 아래 참조)" src="/artcenter/cwsattach/image/39/717239_202604221611502090.gif" /></p>
+
+<h4 class="mt40">▣ Overview</h4>
+
+<ul>
+	<li>Title : <em>Untuned Time: Camille Norment, Min Oh</em></li>
+	<li>Artists : Camille Norment, Min Oh</li>
+	<li>Date : May 22nd-July 19th, 2026</li>
+	<li>Opening Hours : Tue-Sun, 11am-7pm(Last entry by 9pm) / Closed on Mondays</li>
+	<li>Venue: ARKO Art Center Gallery 1, 2</li>
+	<li>Hosted by Arts Council Korea</li>
+	<li>Supported and Sponsored by ARKO Partners Multidisciplinary Art, OCA (Office for Contemporary Art Norway), DayOneDream</li>
+	<li>Free for Admission</li>
+</ul>
+
+<h4 class="mt40">▣ Introduction</h4>
+
+<p>What is noise? In music, noise is sound that is not attuned, dissonance lying outside of harmony; on screens, it is a material trace that resists clear representation. Latching onto signals from outside the order, noise is an intervention and a resistance that seeks to return meaning to mere clamor. <em>Untuned Time </em>presents the work of Min Oh and Camille Norment, who read noise as a critical threshold from which new states emerge, a field where the potential oscillates within instability.</p>
+
+<p>Today, algorithmic feeds and recommendation systems constantly return us to what we already know, trapping us in cycles of predictable pleasure, while the material vibrations of reality disappear behind the smooth surface of the screen. In an era overflowing with noise, what we are truly losing may be the very capacity to sense noise in its true meaning. Through the practices of these two artists, the exhibition reconsiders noise not as something to be erased but as a condition of generation.</p>
+
+<p>For the first time, Min Oh brings together her <em>Simultaneity </em>series, developed over years of research and production through the ARKO Partners Support in Multidisciplinary Art. Beginning from the idea that more information is entangled within disorder, the work constructs dense masses of information in which heterogeneous entities—image and performance, music and choreography, machine and body—are layered without hierarchy. Making her Korean debut, Camille Norment extends her <em>Plexus </em>series with a new site-specific installation produced in Seoul. In <em>Plexus (rhizome) Seoul</em>, which grows like a network of roots and nerves, Norment takes the inherent frequencies of the space—sounds regarded as "untuned" within conventional musical systems—as the foundational tones of her composition, opening a field of resonance where voices buried in silence return through their reverberation.</p>
+
+<p>Both artists treat noise, this unstable wave, as a collaborator and symbiont. Norment writes that when noise becomes a collaborator in composition, "the traditional musical authority and hierarchy of composer, performer, and listener tilts toward the horizontal." Oh, in turn, seeks textures in which no element is subordinate to another: "Indeterminacy and structure do not negate one another; they complement each other. Each maintains its own autonomy in a state of superposition." Both artists permit states of tilting, and the interference of new frequencies that arises when waves of differing frequencies overlap in dissonance. This is the opening of a possibility through which a third vibration can intervene.</p>
+
+<p>In a world where algorithms have begun to make our everyday decisions and even to think on our behalf, the way both artists relate to noise is through improvisation. Improvisation is not the absence of a plan; it arises from listening to the voice the work itself carries. The artists attune themselves through the senses to listeners beyond their control, to uncertain conditions, to the territory of the undetermined—and through the exhibition we step into the interstices of time and space that their responses give shape to.</p>
+
+<p><em>Untuned Time </em>is not the loss of stability but a time not yet decided, not the failure of smooth accordance but the condition from which new relationships emerge. When Oh shouts "OK" on a film set without knowing the future, when the vibrations Norment delivers to the audience can no longer be distinguished from one's own body or the structure itself, time wavers. This exhibition seeks to remain within that state: where the unpredictable and at times unsettling resonate together unresolved, where what has not yet arrived continues to vibrate.</p>
+
+<h4 class="mt40">▣ Selected Works</h4>
+
+<div class="boxWrap mt20" style="padding:20px;">
+<p class="imgCenter"><img alt="Min Oh, Simultaneity, 2026, 150min." src="/artcenter/cwsattach/image/39/717239_202605271018066730.jpg" /></p>
+
+<p class="mt10 imgCenter"><img alt="Min Oh, Simultaneity, 2026, 150min." src="/artcenter/cwsattach/image/39/717239_202605271018236780.jpg" /></p>
+
+<p class="mt10"><strong>Min Oh, Simultaneity, 2026, 150min.</strong></p>
+
+<p><strong>Time-based installation; nine-channel film, color, 12 channel sound.</strong></p>
+
+<p><em>Simultaneity</em>, a project that artist Min Oh has been working on for several years, comes together in one place in the first-floor gallery through seven films and nine channels. The films, each produced as its own study, are united in the exhibition into a simultaneously functioning symbiont, instantaneously transporting to the screen the artist’s practice of compressing past, present, and future. For Oh, noise is the corporeal trace of an image’s making. The polished final form, wiped clean of every mistake and error, is in her view closer to an empty surface from which this process has been erased. Here, she builds a setting of uncertain simultaneity where the director, staff, results, score, and performers clash without hierarchy. By dissecting “OK” takes that speak for themselves without a clear outcome, <em>Simultaneity </em>illuminates our own everyday experience of making countless decisions without knowing the “right” answers.</p>
+
+<p class="mt20 imgCenter"><img alt="Camille Norment, Plexus (rhizome) Seoul, 2026, Dimensions variable." src="/artcenter/cwsattach/image/39/717239_202605271018415180.jpg" /></p>
+
+<p class="mt10 imgCenter"><img alt="Camille Norment, Plexus (rhizome) Seoul, 2026, Dimensions variable." src="/artcenter/cwsattach/image/39/717239_202605271018536010.jpg" /></p>
+
+<p class="mt10"><strong>Camille Norment, Plexus (rhizome) Seoul, 2026, Dimensions variable.</strong></p>
+
+<p><strong>Sound installation; 24 channel sound, exciter speakers, generative software composition, cedarwood structures.</strong></p>
+
+<p class="mt20 mb20">ARKO Art Center Commission</p>
+
+<p>On the second floor, viewers are drawn in by a wooden structure rising through the floor and vibrations resonating through the space. Camille Norment, introduced to Korean audiences for the first time, created Plexus (rhizome) Seoul on-site for this exhibition. The work is the material form of a stratal simultaneity, built layer upon layer from the artist’s exploration across performance, music, installation, and painting. Extending like roots, like a neural network, this rhizomatic structure builds new contexts wherever it grows; viewers entrust their weight to it and take the physical vibrations of the exciter speakers into their bodies. Non-verbal voices recorded together with young creatives in Seoul—jeongga (Gagok) vocalist, theater actor, Korean American artist, and indie singer—ride the grain of the wood to reach the viewer’s bones. Taking the inherent frequencies of the space—frequencies untuned within conventional scales—as her base note of composition, Norment unfolds the very attempt to attune to the uncontrollable as both continually generative improvisation and democratic practice.</p>
+</div>
+
+<h4 class="mt40">▣ Artist Biographies</h4>
+
+<div class="boxWrap" style="overflow: hidden;">
+<p style="float:right; width:48%; text-align:center"><img alt="Min Oh (b. 1975)" src="/artcenter/cwsattach/image/39/717239_202605071117547590.jpg" /></p>
+
+<p><strong>Min Oh (b. 1975)</strong></p>
+
+<p>Min Oh is based between Amsterdam and Seoul. Working at the intersection of art, music, dance, film, time-based installation, and live performance, she explores the languages through which the body perceives, manages, consumes, and creates time. The artist uses the temporal language acquired through piano performance to explore the boundaries and interactions of material and thought as they pertain to time.</p>
+
+<p class="mt20">Oh studied piano and visual design at Seoul National University and graphic design at Yale University. She creates sophisticated scores based on the relationships among time, space, the body, movement, sound, and image, with each score serving as the starting point and structure for her work. She coined the term "post-texture" to describe the sense of a contemporary mass beyond hierarchical systems and linear flows. Recently, she reformulated this into the idea of "simultaneity," which she has developed into a long-term series. For the artist, "simultaneity" is a relational language for the nonhierarchical connection of information that arises and blends together all at once.</p>
+
+<p class="mt20">Oh's major solo exhibitions include <em>Conversation Dance</em> (de Appel, 2024), <em>If I ought to sing, I don't want to be part of your revolution</em> (Ilmin Museum of Art, 2022), <em>Thomas </em>(Total Museum of Contemporary Art, 2021), <em>Min Oh: Invitee, Attendee, Absentee </em>(Platform-L Contemporary Art Center, 2020), and <em>Étude </em>(Atelier Hermès, 2018). She has also participated in the exhibitions, <em>SeMA Performance: Breath </em>(Seo-Seoul Museum of Art, 2026), <em>Seo-Seoul Museum of Art Pre-program: Performance and the Museum </em>(Seoul Museum of Art, 2025), <em>ACT Festival 2025: Neuroverse </em>(Asian Culture Center, 2025), <em>Watch &amp; Chill </em>(National Museum of Modern and Contemporary Art, Korea, 2021), <em>Liebes Ding</em><em>–</em><em>Object Love </em>(Museum Morsbroich, Germany, 2020), and <em>2018 Title Match: Hyungkoo Lee vs. Min Oh </em>(Buk-Seoul Museum of Art, 2018). She was selected as one of four finalists for the 2021 Korea Artist Prize by the National Museum of Modern and Contemporary Art, Korea, and she has also been honored with the 2017 Hermès Foundation Missulsang (2017), an excellence prize at the 2017 SongEun Art Awards, selection for the 2016 Sindoh Artist Support Program, and the 2015 DOOSAN Yonkang Arts Award. Her publications include <em>Simultaneity </em>(2024), <em>Music Scores </em>series (2022–2025), <em>Post-Texture</em> (2022), <em>Thomas </em>(2021), <em>Absentee, Attendee, Invitee </em>(2020), and <em>Score by Score</em> (2017).</p>
+</div>
+
+<div class="boxWrap" style="overflow: hidden;">
+<p style="float:right; width:48%; text-align:center"><img alt="Camille Norment(b. 1970)" src="/artcenter/cwsattach/image/39/717239_202605071118269340.jpg" /></p>
+
+<p><strong>Camille Norment (b. 1970)</strong></p>
+
+<p>Camille Norment is an artist based in Oslo whose practice thinks through sound, moving across the genres of contemporary art and music. Her work manifests in installation, composition, sculpture, drawing, and performance, treating sound as a physical force that connects everything in its omnidirectional path. Psychoacoustics names the study of sonic phenomena as they meet, interact with, and are transformed by encounters with objects, structures, and other bodies across time and space. Building on this, Norment coined the notion of "cultural psychoacoustics", both an aesthetic and conceptual framework, to probe and politicize cultures of sonic investigation, producing works that are at once somatic and cognitive, with a particular focus on the agency of dissonance.</p>
+
+<p class="mt20">Norment studied comparative literature and art history at the University of Michigan before completing a master's program in art and interactive telecommunication at New York University. She also completed the Whitney Independent Study Program. Since 2004, she has lived in Norway, where she established the Camille Norment Trio, which combines the hardingfele (a traditional Norwegian instrument) with the glass harmonica, electric guitar, and live feedback. In her music, these instruments—all regarded as taboo in the past because of their potential psychological, social, and sexual influence on the body—take on new roles as media for contemplating control, resistance, and sonic and social disharmony.</p>
+
+<p class="mt20">In 2015, Norment was selected as the representative Norwegian artist at the Nordic Pavilion of the 56th Venice Biennale, where she presented the large-scale three-part project Rapture. She has since participated in the Kochi-Muziris (2016), Montréal (2016), Lyon (2017), and Thailand (2018) biennials. Her major solo exhibitions include <em>Plexus </em>(Dia Chelsea, New York, 2022) and <em>Gyre </em>(Bergen Kunsthall Festival Exhibition, 2023). She has also taken part in group exhibitions including the inaugural exhibition of the new Studio Museum in Harlem (2025) and <em>Soundings </em>(Museum of Modern Art, New York, 2013), and a permanent sound installation has been on view at Norway's Henie Onstad Art Center since 2011. Norment has been invited to perform at major music festivals, headlining the Borealis Experimental Music Festival (Bergen, 2026) and the Bergen Festspillene (2023). She received the 2023 Nam June Paik Prize (Kunststiftung NRW) and a 2024 honorary doctoral degree from the Bergen University Faculty of Music, Art, and Design. Between 2020 and 2023, she was prorector of research at the Oslo National Academy of the Arts (KHiO).</p>
+</div>
+
+<h4 class="mt40">▣ Related Programs</h4>
+
+<div class="tableBox mt10" style="overflow-x:auto;overflow-y:hidden;">
+<table style="min-width:700px;">
+	<caption>Related Programs에 대한 날짜, 참여자, 장소 등 정보제공</caption>
+	<thead>
+		<tr>
+			<th scope="col">
+			<p>날짜</p>
+			</th>
+			<th scope="col">
+			<p>참여자</p>
+			</th>
+			<th scope="col">
+			<p>장소</p>
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">
+			<p><strong>Thu, May 21 6pm</strong></p>
+			</th>
+			<td>
+			<p>Performance : Camille Norment, Okkyung Lee – Improvisation</p>
+			</td>
+			<td>
+			<p>ARKO Art Center Gallery 2</p>
+			</td>
+		</tr>
+		<tr>
+			<th scope="row">
+			<p><strong>Sat, May 23 2pm</strong></p>
+			</th>
+			<td>
+			<p>Performance : Min Oh, <em>Simultaneity, Improvisation, Exercise</em></p>
+			</td>
+			<td>
+			<p>ARKO Art Center Open Space</p>
+			</td>
+		</tr>
+		<tr>
+			<th scope="row">
+			<p><strong>Sat, May 23 3pm</strong></p>
+			</th>
+			<td>
+			<p>Artist's Talk : Camille Norment, Min Oh</p>
+			</td>
+			<td>
+			<p>ARKO Art Center Open Space</p>
+			</td>
+		</tr>
+		<tr>
+			<th scope="row">
+			<p><strong>Wed, May 27 7pm</strong></p>
+			</th>
+			<td>
+			<p>Book Talk</p>
+
+			<p>Pannel: Min Oh, Jihoon Kim (Director, CAU Center for Cinema and Media Studies), Kim So Jin (Actress)</p>
+
+			<p>Moderator: Kim Nuiyeon (Poet, editor)</p>
+			</td>
+			<td>
+			<p>ARKO Art Center Open Space</p>
+			</td>
+		</tr>
+		<tr>
+			<th scope="row">
+			<p><strong>Sat, June 6 2pm</strong></p>
+			</th>
+			<td>
+			<p>Lecture &amp; Talk : What do you hear when the system stops?</p>
+
+			<p>Hyeyoon Chung(Faculty of Musicology, Korea National University of Arts), Sokion Choi(Ph.D. Candidate, Seoul National University)</p>
+			</td>
+			<td>
+			<p>ARKO Art Center Open Space</p>
+			</td>
+		</tr>
+		<tr>
+			<th scope="row">
+			<p><strong>Wed, July 8 7pm Sat, July 18 1pm</strong></p>
+			</th>
+			<td>
+			<p>Docent for Visitors with Visual Impairments</p>
+			</td>
+			<td>
+			<p>ARKO Art Center Gallery 2</p>
+			</td>
+		</tr>
+		<tr>
+			<th scope="row">
+			<p><strong>Ongoing</strong></p>
+			</th>
+			<td>
+			<p>Docent for Visitors</p>
+			</td>
+			<td>
+			<p>ARKO Art Center Gallery 1, 2</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+													</div>
+											
+										</div>
+										<!-- //tab con English Info -->
+
+
+									</div>
+
+								</div>
+
+								
+
+								
+
+
+								<div class="koglWrap">
+									
+									
+									
+									
+								</div>    
+
+								<div class="viewBtn">
+									<a href="/artcenter/board/list/506?page=&amp;bid=266" class="btn list">목록</a>
+								</div>
+
+								
+
+							</div>
+							<!-- //board view -->
+
+						</div>
+						<!-- cms //콘텐츠 -->
+
+<!-- content end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						</div>
+						<!-- //content -->
+
+					</div>
+					<!-- //bodyWrap -->
+				</div>
+				<!-- //content-->
+			</div>
+			<!-- //inner -->
+		</div>
+		<!-- //container -->
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- footer -->
+		<footer id="footer">
+
+
+			<div class="bottWrap">
+				<div class="inner">
+					<ul class="link">
+						<li class="point"><a href='/board/list/5062' target="_blank">개인정보처리방침</a></li>
+						<li><a href="/common/guide/copyright" target="_blank">저작권정책</a></li>
+						<li><a href="/common/guide/email" target="_blank">뉴스레터 구독 및 이메일 무단수집거부</a></li>
+						<li><a href="/artcenter/common/guide/sitemap/765">사이트맵</a></li>
+						<!--<li><a href="/common/guide/operatesite" target="_blank">아르코 운영사이트</a></li>-->
+					</ul>
+
+					<address>
+						<span>(58326) 전남광주통합특별시 나주시 빛가람로 640 (빛가람동 352) 한국문화예술위원회</span>
+						<span>대표전화 061-900-2100, 2200</span>
+					</address>
+					<p>Copyright 2020 Arts Council Korea. All Rights Reserved.</p>
+
+					<ul class="markWrap">
+						<li><a href="http://www.kogl.or.kr/" target="_blank" title="공공누리 홈페이지 바로가기(새창 열림)"><img src="/assets/images/common/mark01.png" alt="공공누리 마크" /></a></li>
+						<li><a href="javascript:;" target="_blank" title="인터넷사이트 안전마크 인증서 바로가기(새창 열림)" style="cursor:pointer;" onclick="window.open('https://www.eprivacy.or.kr/front/certifiedSiteMark/certifiedSiteMarkPopup.do?certCmd=EP&certNum=2025-EP-R037','seal','width=527,height=720,location=no,status=no,scrollbars=no'); return false;"><img alt="인터넷사이트 안전마크" src="/assets/images/newLayout/mark1_eprivacy_plus.png"></a></li>
+						<!--
+						<li><a href="http://arko.or.kr/content/popup/pup_web_infra.jsp" target="_blank" onclick="window.open('http://arko.or.kr/content/popup/pup_web_infra.jsp', 'popup', 'width=750, height=800, scrollbars=yes, toolbal=no, location=no, status=no, menubar=no, resizable=no'); return false;" title="웹 접근성 품질인증 마크 인증서 바로가기(새창 열림)"><img src="/assets/images/common/mark04.png" alt="미래창조과학부 WEB ACCESSIBILITY 마크(웹 접근성 품질인증 마크)" /></a></li>
+						 -->
+						<li><a href="http://arko.or.kr/content/popup/pup_good.jsp" target="_blank" onclick="window.open('http://arko.or.kr/content/popup/pup_good.jsp', 'popup', 'width=750, height=800, scrollbars=yes, toolbal=no, location=no, status=no, menubar=no, resizable=no'); return false;" title="굿콘텐츠서비스 인증서 바로가기(새창 열림)"><img src="/assets/images/common/mark05.png" alt="굿콘텐츠서비스 마크" /></a></li>
+					</ul>
+				</div>
+			</div>
+
+
+		</footer>
+		<!-- //footer -->
+		
+
+		<!-- LOGGER(TM) TRACKING SCRIPT V.40 FOR logger.co.kr / 110292 : COMBINE TYPE / DO NOT ALTER THIS SCRIPT. -->
+		<script>var _TRK_LID = "110292";var _L_TD = "ssl.logger.co.kr";var _TRK_CDMN = ".arko.or.kr";</script>
+		<script>var _CDN_DOMAIN = location.protocol == "https:" ? "https://fs.bizspring.net" : "http://fs.bizspring.net"; 
+		(function (b, s) { var f = b.getElementsByTagName(s)[0], j = b.createElement(s); j.async = true; j.src = "//fs.bizspring.net/fs4/bstrk.1.js"; f.parentNode.insertBefore(j, f); })(document, "script");
+		</script>
+		<noscript><img alt="Logger Script" src="http://ssl.logger.co.kr/tracker.1.tsp?u=110292&amp;js=N"></noscript>
+		<!-- END OF LOGGER TRACKING SCRIPT -->
+
+
+
+	<a href="#top" class="btn_top">TOP</a>
+	
+	</div>
+	<!-- //wrap -->
+
+
+</body>
+</html>

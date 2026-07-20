@@ -17,7 +17,10 @@ jobs:
     # Raised from 20: the first translation backfill (Argos, CPU-only) is heavy.
     # Each run flushes progress in batches and skips already-translated rows, so
     # even if a run hits this ceiling the backfill converges over later runs.
-    timeout-minutes: 45
+    # Raised again from 45: the source registry doubled to 32 (10 Korean
+    # museums added 2026-07), adding several minutes of serial crawling on
+    # top of the 20-minute translation budget.
+    timeout-minutes: 60
     permissions:
       contents: write
       actions: write  # dispatch deploy-pages after a data push

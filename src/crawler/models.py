@@ -32,6 +32,16 @@ class SourceName(StrEnum):
     TOTEM_POLE = "totem_pole"
     GALLERY_TOSEI = "gallery_tosei"
     ART_SPACE_J = "art_space_j"
+    MMCA = "mmca"
+    SEMA = "sema"
+    NJP_ART_CENTER = "njp_art_center"
+    GMOMA = "gmoma"
+    ARKO = "arko"
+    ACC = "acc"
+    MOCA_BUSAN = "moca_busan"
+    DAEGU_ART_MUSEUM = "daegu_art_museum"
+    ILMIN = "ilmin"
+    APMA = "apma"
 
 
 class Medium(StrEnum):

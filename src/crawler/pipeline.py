@@ -54,8 +54,12 @@ def _exhibition_row(e: NormalizedExhibition) -> dict:
         "exhibition_type": e.exhibition_type.value,
         "genre_tags": ",".join(e.genre_tags),
         "fee_type": e.fee_type.value,
-        "price_min": e.price_min if e.price_min is not None else "",
-        "price_max": e.price_max if e.price_max is not None else "",
+        # Numeric cells are serialized as strings: the sheet reads back
+        # all-strings (numericise_ignore="all") and upsert's _stable()
+        # compares raw values — an int here would diff against the
+        # read-back "3000" forever, re-patching the row every run.
+        "price_min": str(e.price_min) if e.price_min is not None else "",
+        "price_max": str(e.price_max) if e.price_max is not None else "",
         "activities": ",".join(e.activities),
         "start_date": e.start_date.isoformat() if e.start_date else "",
         "end_date": e.end_date.isoformat() if e.end_date else "",
@@ -63,7 +67,9 @@ def _exhibition_row(e: NormalizedExhibition) -> dict:
         "artist_ids": ",".join(e.artist_ids),
         "venue_id": e.venue_id,
         "organizer_id": e.organizer_id,
-        "popularity_score": e.popularity_score if e.popularity_score is not None else "",
+        "popularity_score": (
+            str(e.popularity_score) if e.popularity_score is not None else ""
+        ),
         "featured": "TRUE" if e.featured else "FALSE",
         "crawled_at": e.crawled_at.isoformat(),
         "updated_at": e.updated_at.isoformat(),
