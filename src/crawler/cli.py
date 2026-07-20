@@ -19,14 +19,24 @@ log = logging.getLogger(__name__)
 
 app = typer.Typer(help="Korean photo/video/camera exhibition crawler.")
 
-# gallery_lux's Korean origin (openresty) geo-blocks foreign datacenter IPs,
-# so it's unreachable from GitHub Actions' free US runners — it returns a
-# 770-byte block page on every CI crawl even though it works fine from a KR
-# IP (and locally). Its failure is expected, so it must not flip the whole
-# run red, which would train us to ignore the red X and miss a *real* failure
-# in another source. It still shows up in the report and auto-recovers if the
-# crawl ever runs from a reachable IP.
-_SOFT_FAIL_SOURCES = frozenset({SourceName.GALLERY_LUX})
+# These Korean origins geo-block foreign datacenter IPs, so they're
+# unreachable from GitHub Actions' free US runners even though they work fine
+# from a KR IP (and locally). Confirmed on the 2026-07-20 production run,
+# where each failed the same way it always does from the runner despite
+# retry hardening (5 attempts, 30 s backoff cap):
+#   - gallery_lux    → 770-byte openresty block page (200, no <article>)
+#   - gallery_bresson → 847-byte non-JSON interstitial on the WP REST route
+#   - moca_busan     → busan.go.kr drops the connection (ConnectTimeout)
+# Their failures are expected, so they must not flip the whole run red —
+# that would train us to ignore the red X and miss a *real* failure in
+# another source. They still show up in the report and auto-recover if the
+# crawl ever runs from a reachable IP (e.g. a KR proxy or self-hosted
+# runner, if we ever add one).
+_SOFT_FAIL_SOURCES = frozenset({
+    SourceName.GALLERY_LUX,
+    SourceName.GALLERY_BRESSON,
+    SourceName.MOCA_BUSAN,
+})
 
 
 def _hard_failures(reports: list) -> list:
