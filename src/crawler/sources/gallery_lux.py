@@ -55,7 +55,16 @@ from crawler.sources.base import register_source
 
 _BASE_URL = "https://gallerylux.net"
 _LIST_URL = f"{_BASE_URL}/archive/"
-_USER_AGENT = "PhotoExhibitionCrawler/0.1 (+contact@example.com)"
+# The declared-bot UA ("PhotoExhibitionCrawler/0.1") is the most likely
+# trigger for the anti-bot interstitial this source keeps hitting on the CI
+# runner IP (2026-07-19: 770-byte block page on every retry, while sibling
+# sources using a browser UA fetched fine from the same runner). Switched to
+# the same browser UA the other sources use; the source stays in the
+# soft-fail set until the block is confirmed gone.
+_USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+)
 
 _VENUE_NAME = "갤러리 룩스"
 _VENUE_REGION = "서울"

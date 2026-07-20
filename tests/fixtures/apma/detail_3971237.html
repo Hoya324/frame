@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Google Tag Manager -->
+    <script nonce="AFz/ug5ZR/+StbIYcPze/A==">
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');
+        n&&j.setAttribute('nonce',n.nonce||n.getAttribute('nonce'));f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NNTXRQ5J');
+
+        window.gtmNonce = document.currentScript?.nonce ||
+                         document.querySelector('script[nonce]')?.nonce ||
+                         document.querySelector('script[nonce]')?.getAttribute('nonce');
+
+        var originalCreateElement = document.createElement;
+        document.createElement = function(tagName) {
+            var element = originalCreateElement.call(document, tagName);
+            if (tagName.toLowerCase() === 'script' && window.gtmNonce) {
+                element.setAttribute('nonce', window.gtmNonce);
+            }
+            return element;
+        };
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Splunk RUM -->
+    <script src="https://cdn.signalfx.com/o11y-gdi-rum/latest/splunk-otel-web.js" crossorigin="anonymous"></script>
+    <script nonce="AFz/ug5ZR/+StbIYcPze/A==">
+        SplunkRum.init({
+            realm: "us1",
+            rumAccessToken: "oG_rY4_z3b8yo23bt818gg",
+            applicationName: "mucop-webwas",
+            deploymentEnvironment: "prd"
+        });
+    </script>
+    <script src="https://cdn.signalfx.com/o11y-gdi-rum/latest/splunk-otel-web-session-recorder.js" crossorigin="anonymous"></script>
+    <script nonce="AFz/ug5ZR/+StbIYcPze/A==">
+        SplunkSessionRecorder.init({
+            app: "mucop-webwas",
+            realm: "us1",
+            rumAccessToken: "oG_rY4_z3b8yo23bt818gg"
+        });
+    </script>
+    <!-- End Splunk RUM -->
+    <script src="/js/gaTag.js" nonce="AFz/ug5ZR/+StbIYcPze/A=="></script>
+    <script src="/js/sha512.min.js"></script>
+    <script nonce="AFz/ug5ZR/+StbIYcPze/A==">
+        //pc, mobile 구분(가이드를 위한 샘플 함수입니다.)
+        function checkPcMobile(ua) {
+            if(ua === undefined) {
+                ua = window.navigator.userAgent;
+            }
+            ua = ua.toLowerCase();
+            var platform = {};
+            var matched = {};
+            var userPlatform = "pc";
+            var platform_match = /(ipad)/.exec(ua) || /(ipod)/.exec(ua)
+                    || /(windows phone)/.exec(ua) || /(iphone)/.exec(ua)
+                    || /(kindle)/.exec(ua) || /(silk)/.exec(ua) || /(android)/.exec(ua)
+                    || /(win)/.exec(ua) || /(mac)/.exec(ua) || /(linux)/.exec(ua)
+                    || /(cros)/.exec(ua) || /(playbook)/.exec(ua)
+                    || /(bb)/.exec(ua) || /(blackberry)/.exec(ua)
+                    || [];
+
+            matched.platform = platform_match[0] || "";
+
+            if(matched.platform) {
+                platform[matched.platform] = true;
+            }
+
+            if(platform.android || platform.bb || platform.blackberry
+                    || platform.ipad || platform.iphone
+                    || platform.ipod || platform.kindle
+                    || platform.playbook || platform.silk
+                    || platform["windows phone"]) {
+                userPlatform = "mobile";
+            }
+
+            if(platform.cros || platform.mac || platform.linux || platform.win) {
+                userPlatform = "pc";
+            }
+
+            return userPlatform;
+        }
+
+
+        /*<![CDATA[*/
+        var apmaUser = {"id":null,"username":null,"name":null,"engName":null,"customNo":0,"barcodeUrl":null,"homePhone1":null,"homePhone2":null,"homePhone3":null,"cmpyPhone1":null,"cmpyPhone2":null,"cmpyPhone3":null,"token":null,"tokenExpire":null,"pushAlarmYn":null,"pushMarketingYn":null,"acceptTramYn":null,"acceptPrivacyYn":null,"acceptManageYn":null,"beautyPoint":0,"email":null,"guestYn":null,"payMethod":null,"paySub":null,"askPwdDt":null,"totalPenaltyCnt":0,"roles":null,"resetHistories":null,"applications":[],"reservations":null,"membershipYn":null,"membershipId":0,"membershipStartDate":null,"membershipEndDate":null,"membershipBarcodeNo":0,"membershipJoinType":null,"membershipRenewYn":null,"membershipFirstJoinDate":null,"membershipState":null};
+        var gaLang = "KO";
+        var pageType = "PRODUCT_DETAIL";
+        var dataEnv = "PRD";
+        /*]]>*/
+
+        var AP_DATA_SITENAME = "아모레퍼시픽미술관";
+        var AP_DATA_COUNTRY = "KR";
+        var AP_DATA_LANG = gaLang;
+        var AP_DATA_ENV = dataEnv;
+        var AP_DATA_CHANNEL = "PC";
+        /* 모바일 접근 체크*/
+        if(checkPcMobile(window.navigator.userAgent) == "mobile"){
+           AP_DATA_CHANNEL = "MOBILE";
+        }
+        var AP_DATA_PAGETYPE = pageType;
+
+        // 사용자 정보 변수 선언
+        var AP_DATA_GCID = undefined;
+        var AP_DATA_ISMEMBER = undefined;
+        var AP_DATA_CID = undefined;
+        var AP_DATA_ISLOGIN = "N";
+        var AP_DATA_LOGINTYPE = undefined;
+        if( apmaUser !=null){
+            if( apmaUser.username != null){
+                AP_DATA_GCID = sha512(apmaUser.username);
+                AP_DATA_ISLOGIN = "Y";
+                AP_DATA_LOGINTYPE = "NORMAL";
+                AP_DATA_ISMEMBER = "N";
+                if(checkPcMobile(window.navigator.userAgent) == "mobile"){
+                    AP_DATA_LOGINTYPE = "MOBILE";
+                }
+            }
+            if( apmaUser.customNo != 0){
+                let customNo = apmaUser.customNo.toString();
+                AP_DATA_CID = sha512(customNo);
+                AP_DATA_ISMEMBER = "Y";
+            }
+        }
+        var AP_DATA_CG = undefined;
+        var AP_DATA_CD = undefined;
+        var AP_DATA_CT = undefined;
+        var AP_DATA_BEAUTYCT = undefined;
+        var AP_DATA_ISEMPLOYEE = undefined;
+
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+<!--    <meta name="_csrf" th:content="${_csrf.token}"/>-->
+<!--    <meta name="_csrf_header" th:content="${_csrf.headerName}"/>-->
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114829994-2"></script>
+    <script nonce="AFz/ug5ZR/+StbIYcPze/A==">
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-114829994-2');
+    </script>
+
+    <link rel="shortcut icon" href="/images/img_favicon.ico"/>
+    <link rel="apple-touch-icon-precomposed" href="/images/img_favicon.png"/>
+
+
+    <link rel="stylesheet" type="text/css" href="/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="/css/xeicon.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/css/sub.css">
+
+    
+
+    <!-- 2023.07.28 : add : sub_new.css 생성, 모바일은 m_sub_new.css -->
+    <link rel="stylesheet" type="text/css" href="/css/sub_new.css">
+    <link rel="stylesheet" type="text/css" href="/css/swiper.min_.css">
+
+    <!--
+    <link rel="stylesheet" type="text/css" href="../static/css/m_reset.css" th:href="@{/css/m_reset.css}">
+    <link rel="stylesheet" type="text/css" href="../static/css/m_common.css" th:href="@{/css/m_common.css}">
+    <link rel="stylesheet" type="text/css" href="../static/css/m_sub.css" th:href="@{/css/m_sub.css}">
+    <link rel="stylesheet" type="text/css" href="../static/css/m_swiper.min.css" th:href="@{/css/m_swiper.min.css}">
+    -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <title>EXHIBITION l APMA</title>
+    
+    <meta property="og:title" content="[APMA, CHAPTER FIVE] 작품소개: 회화 속 세계들" />
+    <meta property="og:description" content="[APMA, CHAPTER FIVE] 작품소개: 회화 속 세계들" />
+    <meta property="og:url" content="http://apma.amorepacific.com/contents/exhibition/3971237/view.do" />
+    <meta property="og:image" id="shareImage" />
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNTXRQ5J"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- loading -->
+    <div id="loading">
+        <div class="ldBox">
+            <div class="ldBox_item item01"></div>
+            <div class="ldBox_item item02"></div>
+            <div class="ldBox_item item03"></div>
+            <div class="ldBox_item item04"></div>
+            <div class="ldBox_item item05"></div>
+            <div class="ldBox_item item06"></div>
+            <div class="ldBox_item item07"></div>
+            <div class="ldBox_item item08"></div>
+            <div class="ldBox_item item09"></div>
+        </div>
+    </div>
+    <!-- //loading -->
+
+	<!-- body content -->
+    <div id="wrap">
+        
+    <!-- header -->
+    <div id="header">
+        <div class="sta">
+            <h1>
+                <a href="/index.do">
+                    <span class="sta_span1">AMOREPACIFIC</span>
+                    <span class="sta_span2">MUSEUM OF ART</span>
+                </a>
+            </h1>
+
+            <div id="skipnavi">
+                <h2 class="hide">스킵네비게이션</h2>
+                <a href="#gnb">주메뉴 바로가기</a>
+                <a href="#contents">본문 바로가기</a>
+            </div>
+            <!-- right align -->
+            <div class="fr">
+                <div class="header_t">
+                    <!-- search -->
+                    <button type="button" class="btn_srch_open">검색영역 열기</button>
+                    <form class="main_srch" name="frmTopSearch" action="/search/search.do" method="GET">
+                        <fieldset>
+                            <legend class="hide">검색</legend>
+                            <div class="srch_bg"></div>
+                            <div class="srch_txtBox">
+                                <p class="input_txtBox">
+                                    <input type="text" name="search" class="input_main_srch" placeholder="검색어를 입력하세요.">
+                                </p>
+                                <button type="button" class="btn_header_srch" id="btnTopSearch">검색</button>
+                                <button type="button" class="btn_srch_close">닫기</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                    <!-- // search -->
+                    <!-- util menu -->
+                    <div class="util_menu">
+                        <h2 class="hide">유틸메뉴</h2>
+                        <ul></ul>
+                        <ul class="visit-target">
+                            <li class="visit">
+                                <a>Visit</a>
+                                <ul class="sub_nav">
+                                    <li><a href="/visit/guide.do">이용안내</a></li>
+                                    <li class="last"><a href="/visit/faq/faq.do">FAQ</a></li>
+                                </ul>
+                            </li>
+
+                            
+                                <li><a href="/secure/login.do">LOGIN</a></li>
+                            
+                            
+                            <li>
+                                <div class="langBox">
+                                    <div class="lang_tit">
+                                        <a>KOR</a>
+                                    </div>
+                                    <ul>
+                                        <li><a>ENG</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- // util menu -->
+                </div>
+
+                <!-- web-GNB -->
+                <div class="gnb">
+                    <h2 class="hide">메인메뉴</h2>
+                    <ul>
+                        <li><a class="active" href="/contents/exhibition/index.do">EXHIBITION<span></span></a></li>
+                        <li><a href="/apmap/jeju2022/index.do">APMAP<span></span></a></li>
+                        <li><a href="/contents/apLap/index.do">apLAP<span></span></a></li>
+                        <li><a href="/contents/program/index.do">PROGRAM<span></span></a></li>
+                        <li><a href="/contents/museumShop/index.do">MUSEUM SHOP<span></span></a></li>
+                        <li><a href="/info/notice/index.do">INFORMATION<span></span></a></li>
+                        
+                            <li><a class="btn_ticket_reservation ">TICKET RESERVATION</a></li>
+                        
+
+                        <!-- 멤버십 부분 주석 -->
+<!--                        &lt;!&ndash; 로그인 이전 &ndash;&gt;-->
+<!--                        <div sec:authorize="isAnonymous()" th:remove="tag">-->
+<!--                           <li><a href="/membership/membershipInfo.do">MEMBERSHIP</a></li>-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash; 로그인 이후 &ndash;&gt;-->
+<!--                        <div sec:authorize="isAuthenticated()" th:remove="tag">-->
+<!--                            <th:block th:if="${membershipCheck != 'Y'}">-->
+<!--                                <li><a href="/membership/membershipInfo.do">MEMBERSHIP</a></li>-->
+<!--                            </th:block>-->
+<!--                            &lt;!&ndash; 멤버십 회원일 경우 &ndash;&gt;-->
+<!--                            <th:block th:unless="${membershipCheck != 'Y'}">-->
+<!--                                <li><a th:onclick="membershipStateCheck()">MEMBERSHIP</a></li>-->
+<!--                            </th:block>-->
+<!--                        </div>-->
+                        <!-- 로그인 이후 -->
+                    </ul>
+                </div>
+                <!-- // web-GNB -->
+            </div>
+            <!-- /. fr -->
+        </div>
+        <!-- /. sta -->
+    </div>
+    <!-- /. header -->
+    <hr>
+
+
+        <div id="container">
+            <div id="contents">
+    <input type="hidden" name="url" value="http://apma.amorepacific.com/contents/exhibition/3971237/view.do" />
+    <input type="hidden" name="title" value="[APMA, CHAPTER FIVE] 작품소개: 회화 속 세계들" />
+    <div class="h3Box hide">
+        <h3>EXHIBITION</h3>
+    </div>
+    <!-- /. h3Box -->
+
+    <!-- Main image web -->
+    
+		
+
+		
+	
+    
+		<p class="wide_imgBox">
+			
+			<img src="https://image-apma.amorepacific.com/upload/exhibition/w/1779412330390_IT7INkn62k_Cropped.jpg" alt="_BCJ6766.jpg" class="shareImage">
+		</p>
+
+		
+	
+
+    <div class="cont_lut01 clor_blue" id="exhibition_3971237">
+        <div class="section">
+            <div class="infoBox">
+                <!-- title -->
+                <h3 class="tit">[APMA, CHAPTER FIVE] 작품소개: 회화 속 세계들</h3>
+				
+					<ul class="info" style="margin-bottom: -7px;">
+						
+							
+							
+						
+						<li class="place">2026.04.01(수) – 2026.08.02(일) | 미술관 1F로비, B1 1~7전시실, 교육실 등 </li>
+					</ul>
+				
+
+                <p class="s_txt">기획: 아모레퍼시픽미술관 (APMA) </p>
+                
+
+				
+
+                
+
+				<div class="txt cType content"><p><span class="TextRun SCXW33500343 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW33500343 BCX8">《APMA, CHAPTER FIVE》&nbsp;</span><span class="NormalTextRun SpellingErrorV2Themed SCXW33500343 BCX8">의</span><span class="NormalTextRun SCXW33500343 BCX8">&nbsp;1전시실에서는&nbsp;</span><span class="NormalTextRun SpellingErrorV2Themed SCXW33500343 BCX8">회화</span><span class="NormalTextRun SCXW33500343 BCX8">,&nbsp;</span><span class="NormalTextRun SpellingErrorV2Themed SCXW33500343 BCX8">판화</span><span class="NormalTextRun SCXW33500343 BCX8">,&nbsp;</span></span><span class="TextRun SCXW33500343 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SpellingErrorV2Themed SCXW33500343 BCX8">태피스트리</span><span class="NormalTextRun SCXW33500343 BCX8">&nbsp;작업을 통해 동시대 미술의 다양한 가능성을 살펴볼 수 있습니다. </span></span></p><p><span class="TextRun SCXW33500343 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW33500343 BCX8">개인의 경험과 신체, 기억과 정체성, 신화와 역사, 사회적 관계를 탐구하는 작가들의 작업이 한자리에 모였습니다. </span></span></p><p><span class="TextRun SCXW33500343 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW33500343 BCX8">이번에는 그중 각자의 문화적 배경과 개인적 경험을 출발점으로 동시대 미술계에서 활발하게 활동하고 있는 네 작가의 작업을 중심으로 소개합니다.</span></span><span class="EOP Selected SCXW33500343 BCX8" data-ccp-props="{">&nbsp;</span></p><p>&nbsp;</p><p><span class="EOP Selected SCXW33500343 BCX8" data-ccp-props="{"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://image-apma.amorepacific.com/upload/exhibition/1779412384933_DCwmp77Fmk.jpg" width="1208" height="805"></span></p><div class="OutlineElement Ltr SCXW198177980 BCX8" style="text-align: center;">
+<p class="Paragraph SCXW198177980 BCX8"><span class="TextRun SCXW198177980 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW198177980 BCX8">알바로</span><span class="NormalTextRun SCXW198177980 BCX8">&nbsp;</span><span class="NormalTextRun SpellingErrorV2Themed SCXW198177980 BCX8">배링턴</span></span><span class="TextRun SCXW198177980 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW198177980 BCX8">, <</span></span><span class="TextRun SCXW198177980 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW198177980 BCX8">하늘은</span><span class="NormalTextRun SCXW198177980 BCX8">&nbsp;한계가 없다</span></span><span class="TextRun SCXW198177980 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW198177980 BCX8">>,&nbsp;</span><span class="NormalTextRun SCXW198177980 BCX8">2023</span></span><span class="TextRun SCXW198177980 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW198177980 BCX8">,&nbsp;</span><span class="NormalTextRun SCXW198177980 BCX8">콘크리트&nbsp;</span><span class="NormalTextRun SpellingErrorV2Themed SCXW198177980 BCX8">슬래브</span><span class="NormalTextRun SCXW198177980 BCX8">&nbsp;2점 위에 연필, 플래시, 에나멜, 판지 위에 직물,&nbsp;</span><span class="NormalTextRun SpellingErrorV2Themed SCXW198177980 BCX8">아크릴릭</span><span class="NormalTextRun SCXW198177980 BCX8">, 콘크리트, 베이비 파우더, 각인 거울, 호두나무 프레임</span></span><span class="EOP Selected SCXW198177980 BCX8" data-ccp-props="{">&nbsp;</span></p>
+</div><div class="OutlineElement Ltr SCXW198177980 BCX8">
+<p class="Paragraph SCXW198177980 BCX8" style="text-align: center;"><span class="EOP Selected SCXW198177980 BCX8" data-ccp-props="{"><span class="TextRun SCXW199593845 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW199593845 BCX8">©</span><span class="NormalTextRun SCXW199593845 BCX8">Alvaro Barrington</span></span><span class="TextRun SCXW199593845 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW199593845 BCX8">,</span><span class="NormalTextRun SCXW199593845 BCX8">&nbsp;</span></span><span class="TextRun SCXW199593845 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW199593845 BCX8">Courtesy of the&nbsp;</span><span class="NormalTextRun SCXW199593845 BCX8">Artist</span><span class="NormalTextRun SCXW199593845 BCX8">&nbsp;</span><span class="NormalTextRun SCXW199593845 BCX8">a</span><span class="NormalTextRun SCXW199593845 BCX8">nd&nbsp;</span><span class="NormalTextRun SpellingErrorV2Themed SCXW199593845 BCX8">Amorepacific</span><span class="NormalTextRun SCXW199593845 BCX8">&nbsp;Museum of Art. Photo: Jeon Byung-</span><span class="NormalTextRun SpellingErrorV2Themed SCXW199593845 BCX8">chul</span></span><span class="EOP Selected SCXW199593845 BCX8" data-ccp-props="{">&nbsp;</span></span></p>
+<p class="Paragraph SCXW198177980 BCX8" style="text-align: center;">&nbsp;</p>
+<p class="Paragraph SCXW198177980 BCX8"><span class="EOP Selected SCXW198177980 BCX8" data-ccp-props="{"><span class="EOP Selected SCXW199593845 BCX8" data-ccp-props="{"><span class="TextRun SCXW132550200 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW132550200 BCX8">알바로</span> <span class="NormalTextRun SpellingErrorV2Themed SCXW132550200 BCX8">배링턴은</span><span class="NormalTextRun SCXW132550200 BCX8"> 카리브해 지역과 뉴욕을 오가며 성장한 작가</span><span class="NormalTextRun SCXW132550200 BCX8">입니다.</span><span class="NormalTextRun SCXW132550200 BCX8"> 카리브해의 문화적 전통과 도시적 감수성이 뒤섞인 배경이 작업 전반에 </span><span class="NormalTextRun SCXW132550200 BCX8">내포되어</span><span class="NormalTextRun SCXW132550200 BCX8"> 있습니다. </span></span></span></span></p>
+<p class="Paragraph SCXW198177980 BCX8"><span class="EOP Selected SCXW198177980 BCX8" data-ccp-props="{"><span class="EOP Selected SCXW199593845 BCX8" data-ccp-props="{"><span class="TextRun SCXW132550200 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW132550200 BCX8">그는 삼베와 바느질 같은&nbsp;</span><span class="NormalTextRun SpellingErrorV2Themed SCXW132550200 BCX8">직물적</span><span class="NormalTextRun SCXW132550200 BCX8"> 요소를 </span><span class="NormalTextRun SCXW132550200 BCX8">사용하고 </span><span class="NormalTextRun SCXW132550200 BCX8">콘크리트 같은 도시적 재료를 회화의 바탕으로 삼으며, 서로 다른 문화적 맥락에서 온 재료들을 </span><span class="NormalTextRun SCXW132550200 BCX8">하나의</span><span class="NormalTextRun SCXW132550200 BCX8"> 화면 위에 뒤섞습니다.</span> </span></span></span></p>
+<p class="Paragraph SCXW198177980 BCX8"><span class="EOP Selected SCXW198177980 BCX8" data-ccp-props="{"><span class="EOP Selected SCXW199593845 BCX8" data-ccp-props="{"><span class="TextRun SCXW132550200 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW132550200 BCX8">이</span> <span class="NormalTextRun SCXW132550200 BCX8">작품에서는 하늘빛 색조와 강렬한 원색이 공존하는 화면 위로</span> </span><span class="TextRun SCXW132550200 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW132550200 BCX8">'Sky's the Limit </span></span><span class="TextRun SCXW132550200 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW132550200 BCX8">하늘은</span> <span class="NormalTextRun SCXW132550200 BCX8">한계가</span> <span class="NormalTextRun SpellingErrorV2Themed SCXW132550200 BCX8">없다'라는</span> <span class="NormalTextRun SCXW132550200 BCX8">문구가</span> <span class="NormalTextRun SCXW132550200 BCX8">교차합니다</span><span class="NormalTextRun SCXW132550200 BCX8">. </span></span></span></span></p>
+<p class="Paragraph SCXW198177980 BCX8"><span class="EOP Selected SCXW198177980 BCX8" data-ccp-props="{"><span class="EOP Selected SCXW199593845 BCX8" data-ccp-props="{"><span class="TextRun SCXW132550200 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW132550200 BCX8">뉴욕에서</span> <span class="NormalTextRun SCXW132550200 BCX8">힙합과</span> <span class="NormalTextRun SCXW132550200 BCX8">함께</span> <span class="NormalTextRun SCXW132550200 BCX8">성장한</span> <span class="NormalTextRun SCXW132550200 BCX8">작가에게</span><span class="NormalTextRun SCXW132550200 BCX8"> 이 </span><span class="NormalTextRun SCXW132550200 BCX8">문구는</span> <span class="NormalTextRun SCXW132550200 BCX8">야망과</span> <span class="NormalTextRun SCXW132550200 BCX8">자유</span><span class="NormalTextRun SCXW132550200 BCX8">, </span><span class="NormalTextRun SCXW132550200 BCX8">그리고</span> <span class="NormalTextRun SCXW132550200 BCX8">자신이</span> <span class="NormalTextRun SCXW132550200 BCX8">살아온</span> <span class="NormalTextRun SCXW132550200 BCX8">문화적</span> <span class="NormalTextRun SCXW132550200 BCX8">현실을</span> <span class="NormalTextRun SCXW132550200 BCX8">응축한</span> <span class="NormalTextRun SCXW132550200 BCX8">언어입니다</span><span class="NormalTextRun SCXW132550200 BCX8">.</span></span><span class="EOP Selected SCXW132550200 BCX8" data-ccp-props="{">&nbsp;</span></span></span></p>
+<p class="Paragraph SCXW198177980 BCX8">&nbsp;</p>
+<p class="Paragraph SCXW198177980 BCX8"><span class="EOP Selected SCXW198177980 BCX8" data-ccp-props="{"><span class="EOP Selected SCXW199593845 BCX8" data-ccp-props="{"><span class="EOP Selected SCXW132550200 BCX8" data-ccp-props="{"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://image-apma.amorepacific.com/upload/exhibition/1779412704448_g68BSYYpQ5.jpg" width="805" height="1208"></span></span></span></p>
+<div class="OutlineElement Ltr SCXW119674919 BCX8" style="text-align: center;">
+<p class="Paragraph SCXW119674919 BCX8"><span class="TextRun SCXW119674919 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW119674919 BCX8">사이</span><span class="NormalTextRun SCXW119674919 BCX8"> 개빈</span></span><span class="TextRun SCXW119674919 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW119674919 BCX8">, <</span></span><span class="TextRun SCXW119674919 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW119674919 BCX8">무제</span><span class="NormalTextRun SCXW119674919 BCX8">(가지가 다듬어진 뽕나무)</span></span><span class="TextRun SCXW119674919 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW119674919 BCX8">></span></span><span class="TextRun SCXW119674919 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW119674919 BCX8">,</span> </span><span class="TextRun SCXW119674919 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW119674919 BCX8">202</span></span><span class="TextRun SCXW119674919 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW119674919 BCX8">, </span><span class="NormalTextRun SCXW119674919 BCX8">캔버스에 </span><span class="NormalTextRun SpellingErrorV2Themed SCXW119674919 BCX8">아크릴릭</span><span class="NormalTextRun SCXW119674919 BCX8">, 비닐 페인트&nbsp;&nbsp;</span></span><span class="EOP Selected SCXW119674919 BCX8" data-ccp-props="{">&nbsp;</span></p>
+<p class="Paragraph SCXW119674919 BCX8">&nbsp;</p>
+</div>
+<div class="OutlineElement Ltr SCXW119674919 BCX8" style="text-align: center;"><img src="https://image-apma.amorepacific.com/upload/exhibition/1779423384986_nSePNhF13V.jpg" width="1207" height="804"></div>
+<div class="OutlineElement Ltr SCXW119674919 BCX8">
+<p class="Paragraph SCXW119674919 BCX8" style="text-align: center;"><span class="TextRun SCXW119674919 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW119674919 BCX8">©Cy Gavin, <span data-teams="true">Courtesy of Amorepacific Museum of Art, Photo: Jeon Byung-cheol</span></span></span></p>
+</div>
+<p class="Paragraph SCXW198177980 BCX8">&nbsp;</p>
+<p class="Paragraph SCXW198177980 BCX8"><span class="TextRun SCXW261777468 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW261777468 BCX8">사이</span><span class="NormalTextRun SCXW261777468 BCX8">&nbsp;</span><span class="NormalTextRun SpellingErrorV2Themed SCXW261777468 BCX8">개빈은</span><span class="NormalTextRun SCXW261777468 BCX8">&nbsp;특정 장소의 자연과 그것을 둘러싼 인간의 역사를 회화로 해석하는 작가입니다. </span></span></p>
+<p class="Paragraph SCXW198177980 BCX8"><span class="TextRun SCXW261777468 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW261777468 BCX8">아버지의 타계를 계기로 선조의 고향 버뮤다를 여행하며 식민주의의 유산이 새겨진 장소들을 화면에 담았으며, </span></span></p>
+<p class="Paragraph SCXW198177980 BCX8"><span class="TextRun SCXW261777468 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW261777468 BCX8">자연 풍경을 통해 흑인 공동체의 역사와 저항의 서사를&nbsp;</span><span class="NormalTextRun SpellingErrorV2Themed SCXW261777468 BCX8">시각화해왔습니다</span><span class="NormalTextRun SCXW261777468 BCX8">.&nbsp;</span></span></p>
+<p class="Paragraph SCXW198177980 BCX8"><span class="TextRun SCXW261777468 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW261777468 BCX8">작가의 회화는 </span><span class="NormalTextRun SCXW261777468 BCX8">색채 대비가 강렬하고 제스처가 살아있는 붓질이 특징</span><span class="NormalTextRun SCXW261777468 BCX8">입니다.</span><span class="NormalTextRun SCXW261777468 BCX8">&nbsp;</span><span class="NormalTextRun SCXW261777468 BCX8">작가는</span><span class="NormalTextRun SCXW261777468 BCX8">&nbsp;자연을 고정된 풍경이 아닌 인간의 개입과 역사가 축적된 장소로 제시합니다. </span></span></p>
+<p class="Paragraph SCXW198177980 BCX8"><span class="TextRun SCXW261777468 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW261777468 BCX8">이 작품에서는 인위적으로 </span><span class="NormalTextRun SpellingErrorV2Themed SCXW261777468 BCX8">가지치기</span><span class="NormalTextRun SpellingErrorV2Themed SCXW261777468 BCX8">된</span><span class="NormalTextRun SCXW261777468 BCX8">&nbsp;뽕나무</span><span class="NormalTextRun SCXW261777468 BCX8">의 모습을 통해&nbsp;</span><span class="NormalTextRun SCXW261777468 BCX8">식물이</span><span class="NormalTextRun SCXW261777468 BCX8">&nbsp;품은 생명력과 인간이 만들어낸 제약</span><span class="NormalTextRun SCXW261777468 BCX8">을</span><span class="NormalTextRun SCXW261777468 BCX8">&nbsp;</span><span class="NormalTextRun SCXW261777468 BCX8">대비시키고</span><span class="NormalTextRun SCXW261777468 BCX8">&nbsp;있습니다.</span><span class="NormalTextRun SCXW261777468 BCX8">&nbsp;</span></span><span class="EOP Selected SCXW261777468 BCX8" data-ccp-props="{">&nbsp;</span></p>
+<p class="Paragraph SCXW198177980 BCX8">&nbsp;</p>
+<p class="Paragraph SCXW198177980 BCX8"><span class="EOP Selected SCXW261777468 BCX8" data-ccp-props="{"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://image-apma.amorepacific.com/upload/exhibition/1779412787136_5unzqyQZsq.jpg" width="1209" height="805"></span></p>
+<div class="OutlineElement Ltr SCXW189480209 BCX8" style="text-align: center;">
+<p class="Paragraph SCXW189480209 BCX8"><span class="TextRun SCXW189480209 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW189480209 BCX8">알렉산드리아</span><span class="NormalTextRun SCXW189480209 BCX8">&nbsp;스미스</span></span><span class="TextRun SCXW189480209 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW189480209 BCX8">, <</span></span><span class="TextRun SCXW189480209 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW189480209 BCX8">나와</span><span class="NormalTextRun SCXW189480209 BCX8">&nbsp;같은 예언자들</span></span><span class="TextRun SCXW189480209 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW189480209 BCX8">>,</span></span><span class="TextRun SCXW189480209 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW189480209 BCX8">&nbsp;</span></span><span class="TextRun SCXW189480209 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW189480209 BCX8">2023</span></span><span class="TextRun SCXW189480209 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW189480209 BCX8">,&nbsp;</span><span class="NormalTextRun SCXW189480209 BCX8">혼합매체, 3차원 목재&nbsp;</span><span class="NormalTextRun SpellingErrorV2Themed SCXW189480209 BCX8">아상블라주</span></span><span class="EOP Selected SCXW189480209 BCX8" data-ccp-props="{">&nbsp;</span></p>
+</div>
+<div class="OutlineElement Ltr SCXW189480209 BCX8">
+<p class="Paragraph SCXW189480209 BCX8" style="text-align: center;"><span class="TextRun SCXW189480209 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW189480209 BCX8">©</span></span><span class="TextRun SCXW189480209 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW189480209 BCX8">Alexandria Smith</span></span><span class="TextRun SCXW189480209 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW189480209 BCX8">,</span><span class="NormalTextRun SCXW189480209 BCX8">&nbsp;</span></span><span class="TextRun SCXW189480209 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW189480209 BCX8">Courtesy of the&nbsp;</span><span class="NormalTextRun SCXW189480209 BCX8">Artist</span><span class="NormalTextRun SCXW189480209 BCX8">&nbsp;</span><span class="NormalTextRun SCXW189480209 BCX8">a</span><span class="NormalTextRun SCXW189480209 BCX8">nd&nbsp;</span><span class="NormalTextRun SpellingErrorV2Themed SCXW189480209 BCX8">Amorepacific</span><span class="NormalTextRun SCXW189480209 BCX8">&nbsp;Museum of Art. Photo: Jeon Byung-</span><span class="NormalTextRun SpellingErrorV2Themed SCXW189480209 BCX8">chul</span></span><span class="EOP Selected SCXW189480209 BCX8" data-ccp-props="{">&nbsp;</span></p>
+<p class="Paragraph SCXW189480209 BCX8">&nbsp;</p>
+<p class="Paragraph SCXW189480209 BCX8"><span class="EOP Selected SCXW189480209 BCX8" data-ccp-props="{"><span class="TextRun SCXW170655421 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW170655421 BCX8">알렉산드리아</span><span class="NormalTextRun SCXW170655421 BCX8"> 스미스는 자전적 경험과 신화, 아프리카 문학, 집단적 기억을 </span><span class="NormalTextRun SpellingErrorV2Themed SCXW170655421 BCX8">교차시키며</span><span class="NormalTextRun SCXW170655421 BCX8"> 정체성이 어떻게 구성되는지를 탐구합니다. </span></span></span></p>
+<p class="Paragraph SCXW189480209 BCX8"><span class="EOP Selected SCXW189480209 BCX8" data-ccp-props="{"><span class="TextRun SCXW170655421 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW170655421 BCX8">신체의 여러 부분을 혼성적으로 결합한 형상을 통해, 고정된 자아가 아닌 시간과 기억 속에서 끊임없이 재구성되는 정체성을&nbsp;</span><span class="NormalTextRun SpellingErrorV2Themed SCXW170655421 BCX8">시각화합니다</span><span class="NormalTextRun SCXW170655421 BCX8">. </span></span></span></p>
+<p class="Paragraph SCXW189480209 BCX8"><span class="EOP Selected SCXW189480209 BCX8" data-ccp-props="{"><span class="TextRun SCXW170655421 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW170655421 BCX8">이</span> <span class="NormalTextRun SCXW170655421 BCX8">작품은 나이지리아 작가 </span><span class="NormalTextRun SpellingErrorV2Themed SCXW170655421 BCX8">아콰에케</span> <span class="NormalTextRun SpellingErrorV2Themed SCXW170655421 BCX8">에메지의</span> <span class="NormalTextRun SCXW170655421 BCX8">예언자 서사</span><span class="NormalTextRun SCXW170655421 BCX8">에서 영감을 얻은 대형 회화입니다. </span><span class="NormalTextRun SCXW170655421 BCX8">화면에는</span><span class="NormalTextRun SCXW170655421 BCX8"> 대지에서 솟아나는 형상과 양쪽에 부유하는 조상의 머리가 신화적 장면을 구성합니다.&nbsp;</span></span></span><span class="EOP Selected SCXW189480209 BCX8" data-ccp-props="{"><span class="TextRun SCXW170655421 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW170655421 BCX8">이를 통해 시간과 기억 속에서 겹겹이 쌓인 정체성</span><span class="NormalTextRun SCXW170655421 BCX8">을 연극적으로 표현합니다.</span></span><span class="EOP SCXW170655421 BCX8" data-ccp-props="{">&nbsp;</span></span></p>
+</div>
+<p class="Paragraph SCXW198177980 BCX8">&nbsp;</p>
+<p class="Paragraph SCXW198177980 BCX8"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://image-apma.amorepacific.com/upload/exhibition/1779412853888_1KYJOSdRnS.jpg" width="805" height="1208"></p>
+<p class="Paragraph SCXW198177980 BCX8" style="text-align: center;">&nbsp;</p>
+<div class="OutlineElement Ltr SCXW218038582 BCX8" style="text-align: center;">
+<p class="Paragraph SCXW218038582 BCX8"><span class="TextRun SCXW218038582 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SpellingErrorV2Themed SCXW218038582 BCX8">기디언</span><span class="NormalTextRun SCXW218038582 BCX8">&nbsp;아파</span></span><span class="TextRun SCXW218038582 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW218038582 BCX8">, <</span></span><span class="TextRun SCXW218038582 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW218038582 BCX8">언젠가</span><span class="NormalTextRun SCXW218038582 BCX8">&nbsp;다시 오게 될까?</span></span><span class="TextRun SCXW218038582 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW218038582 BCX8">>,&nbsp;</span><span class="NormalTextRun SCXW218038582 BCX8">2023</span></span><span class="TextRun SCXW218038582 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW218038582 BCX8">,&nbsp;</span><span class="NormalTextRun SCXW218038582 BCX8">캔버스에 유채,&nbsp;</span><span class="NormalTextRun SpellingErrorV2Themed SCXW218038582 BCX8">아크릴릭</span><span class="NormalTextRun SCXW218038582 BCX8">&nbsp;&nbsp;</span></span><span class="EOP Selected SCXW218038582 BCX8" data-ccp-props="{">&nbsp;</span></p>
+</div>
+<div class="OutlineElement Ltr SCXW218038582 BCX8" style="text-align: center;">&nbsp;</div>
+<div class="OutlineElement Ltr SCXW265671195 BCX8">
+<p class="Paragraph SCXW265671195 BCX8">&nbsp;</p>
+<p class="Paragraph SCXW265671195 BCX8"><span class="EOP Selected SCXW265671195 BCX8" data-ccp-props="{"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://image-apma.amorepacific.com/upload/exhibition/1779423436901_6ZTKtj8Riq.jpg" width="1208" height="805">&nbsp;</span></p>
+<div class="OutlineElement Ltr SCXW218038582 BCX8" style="text-align: center;">
+<p class="Paragraph SCXW218038582 BCX8"><span class="EOP Selected SCXW265671195 BCX8" data-ccp-props="{"><span class="TextRun SCXW218038582 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW218038582 BCX8">©</span></span><span class="TextRun SCXW218038582 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW218038582 BCX8">Gideon Appah</span></span><span class="TextRun SCXW218038582 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW218038582 BCX8">,</span><span class="NormalTextRun SCXW218038582 BCX8">&nbsp;</span></span><span class="TextRun SCXW218038582 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW218038582 BCX8">Courtesy of the&nbsp;</span><span class="NormalTextRun SCXW218038582 BCX8">Artist</span><span class="NormalTextRun SCXW218038582 BCX8">&nbsp;</span><span class="NormalTextRun SCXW218038582 BCX8">a</span><span class="NormalTextRun SCXW218038582 BCX8">nd&nbsp;</span><span class="NormalTextRun SpellingErrorV2Themed SCXW218038582 BCX8">Amorepacific</span><span class="NormalTextRun SCXW218038582 BCX8">&nbsp;Museum of Art. Photo: Jeon Byung-</span><span class="NormalTextRun SpellingErrorV2Themed SCXW218038582 BCX8">chul</span></span><span class="EOP Selected SCXW218038582 BCX8" data-ccp-props="{">&nbsp;</span></span></p>
+</div>
+<p class="Paragraph SCXW198177980 BCX8" style="text-align: center;">&nbsp;</p>
+<div class="OutlineElement Ltr SCXW265671195 BCX8">
+<p class="Paragraph SCXW265671195 BCX8"><span class="TextRun SCXW265671195 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SpellingErrorV2Themed SCXW265671195 BCX8">기디언</span><span class="NormalTextRun SCXW265671195 BCX8">&nbsp;아파는 가나 아크라 출신으로, 유년 시절의 기억과 꿈, 가나의 역사와 대중문화를 출발점으로 삼습니다. </span></span></p>
+<p class="Paragraph SCXW265671195 BCX8"><span class="TextRun SCXW265671195 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW265671195 BCX8">가나의 영화, 신문 아카이브, 가족사진</span><span class="NormalTextRun SCXW265671195 BCX8">을 바탕으로&nbsp;</span><span class="NormalTextRun SCXW265671195 BCX8">장면을 구성하고, 흑백의 아카이브 이미지에 풍부한 색채를 덧입혀 전혀 새로운 장면으로 재창조합니다.&nbsp;</span></span></p>
+<p class="Paragraph SCXW265671195 BCX8"><span class="TextRun SCXW265671195 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW265671195 BCX8">이 작품은 작가의 어린시절 기억 속 해안 풍경을 배경으로 합니다.</span><span class="NormalTextRun SCXW265671195 BCX8">&nbsp;</span><span class="NormalTextRun SCXW265671195 BCX8">몸에서 분리된 머리, 공중에 부유하는 형상 등 초현실주의적 모티프가 화면 곳곳에 자연스럽게&nbsp;</span><span class="NormalTextRun SpellingErrorV2Themed SCXW265671195 BCX8">녹아듭니다</span><span class="NormalTextRun SCXW265671195 BCX8">. </span></span></p>
+<p class="Paragraph SCXW265671195 BCX8"><span class="TextRun SCXW265671195 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW265671195 BCX8">두텁게 쌓인 임파스토와 강렬한 색채는 개인의 기억과 가나의 집단적 </span><span class="NormalTextRun SCXW265671195 BCX8">문화</span><span class="NormalTextRun SCXW265671195 BCX8">&nbsp;경험을 하나의 몽환적 세계로&nbsp;</span><span class="NormalTextRun SCXW265671195 BCX8">표현합니다.</span><span class="NormalTextRun SCXW265671195 BCX8">&nbsp;</span></span><span class="EOP Selected SCXW265671195 BCX8" data-ccp-props="{">&nbsp;</span></p>
+</div>
+<p class="Paragraph SCXW265671195 BCX8" style="text-align: center;">&nbsp;</p>
+<p class="Paragraph SCXW265671195 BCX8" style="text-align: center;"><img src="https://image-apma.amorepacific.com/upload/exhibition/1779424171406_AuzIljhWKC.jpg" width="1205" height="803"></p>
+<p class="Paragraph SCXW265671195 BCX8" style="text-align: center;"><span class="EOP Selected SCXW265671195 BCX8" data-ccp-props="{"><span class="TextRun SCXW218038582 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW218038582 BCX8">&nbsp;</span></span><span class="TextRun SCXW218038582 BCX8" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW218038582 BCX8">Courtesy of the&nbsp;</span><span class="NormalTextRun SCXW218038582 BCX8">Artist</span><span class="NormalTextRun SCXW218038582 BCX8">&nbsp;</span><span class="NormalTextRun SCXW218038582 BCX8">a</span><span class="NormalTextRun SCXW218038582 BCX8">nd&nbsp;</span><span class="NormalTextRun SpellingErrorV2Themed SCXW218038582 BCX8">Amorepacific</span><span class="NormalTextRun SCXW218038582 BCX8">&nbsp;Museum of Art. Photo: Jeon Byung-</span><span class="NormalTextRun SpellingErrorV2Themed SCXW218038582 BCX8">chul</span></span><span class="EOP Selected SCXW218038582 BCX8" data-ccp-props="{">&nbsp;</span></span>&nbsp;</p>
+<p class="Paragraph SCXW265671195 BCX8" style="text-align: center;">&nbsp;</p>
+</div>
+<div class="OutlineElement Ltr SCXW265671195 BCX8">
+<p class="Paragraph SCXW265671195 BCX8"><span class="TextRun SCXW265671195 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW265671195 BCX8">네</span><span class="NormalTextRun SCXW265671195 BCX8">&nbsp;작가는 서로 다른 문화권과 역사적 맥락에서 출발하지만, 회화를 통해 신화와 기억, 정체성을 동시대의 언어로 재구성한다는 점에서&nbsp;</span><span class="NormalTextRun SCXW265671195 BCX8">맞닿아</span><span class="NormalTextRun SCXW265671195 BCX8">&nbsp;있습니다. </span></span></p>
+<p class="Paragraph SCXW265671195 BCX8"><span class="TextRun SCXW265671195 BCX8" lang="KO-KR" xml:lang="KO-KR" data-contrast="auto"><span class="NormalTextRun SCXW265671195 BCX8">1전시실에서는 이 작업들과 함께 동시대 회화가 제기하는 다양한 문제의식을 만날 수 있습니다.</span><span class="NormalTextRun SCXW265671195 BCX8">&nbsp;</span></span><span class="EOP Selected SCXW265671195 BCX8" data-ccp-props="{">&nbsp;</span></p>
+</div>
+<p class="Paragraph SCXW198177980 BCX8">&nbsp;</p>
+<p class="Paragraph SCXW198177980 BCX8">&nbsp;</p>
+</div><p>&nbsp;</p></div>
+
+                <p class="regi_date">2026.05.22</p>
+
+                <div><div class="share_ui">
+		<ul class="info_btm">
+			<li class="share">
+	            <a class="btn_share">공유하기</a>
+	            <ul class="share_lst">
+	                <li class="facebook"><a>faceBook</a></li>
+	                <li class="line"><a>Line</a></li>
+	                <li class="twitter"><a>twitter</a></li>
+	                <li class="url"><a>url</a></li>
+	            </ul>
+	        </li>
+	    </ul>
+	</div></div>
+            </div>
+            <!-- /. infoBox -->
+        </div>
+        <!-- /. section-->
+    </div>
+    <!-- /. cont_lut01 -->
+</div>
+            <a class="btn_goTop" href="#container">맨위로 이동</a>
+        </div>
+
+
+        
+    <hr>
+    <div id="footer">
+        <div class="f_top">
+            <!-- 하단로고,주소 -->
+            <div class="fl">
+                <div class="asBox">
+                    <!--<address>서울시 용산구 한강로2가 159-5<br>㈜아모레퍼시픽 미술관<br>사업자등록번호 : 123-45-67890   T. <span class="p_number">02-1234-5678</span></address>-->
+                    <address>
+                        <p class="footer_style">㈜아모레퍼시픽</p>
+                        <p class="footer_style">서울특별시 용산구 한강대로 100 (한강로2가 181)</p>
+                        <p class="footer_style">T. <span class="p_number">02-6040-2345</span> ㅣ E. museum@amorepacific.com</p>
+                        <p class="footer_style">대표이사 : 김승환 / 사업자등록번호 : 106-86-43373</p>
+                        <p class="footer_style">통신판매업신고번호 : 2017-서울용산-1308<a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=1068643373&amp;apv_perm_no=" target="_blank"  class="footer_style2">사업자 정보 확인</a></p>
+                        <p class="footer_style" >호스팅제공자 : (주)아모레퍼시픽</p>
+                    </address>
+                </div>
+            </div>
+            <!-- //하단로고,주소 -->
+            <!-- 고객센터,관람시간 -->
+            <div class="fr">
+                <dl class="f_dlBox">
+                    <dt class="time">관람시간</dt>
+                    <dd>
+                        <dl class="dl_lst">
+                            <dt>화-일</dt>
+                            <dd>10:00AM ~ 6:00PM</dd>
+                        </dl>
+                    </dd>
+                </dl>
+                <dl class="f_dlBox">
+                    <dt class="holiday">휴관일</dt>
+                    <dd>
+                        <dl class="dl_lst">
+                            <dt>매주</dt>
+                            <dd>월요일</dd>
+                        </dl>
+                        <dl class="dl_lst">
+                            <dt>매년</dt>
+                            <dd>1월1일 / 설,추석 연휴</dd>
+                        </dl>
+                    </dd>
+                </dl>
+<!--
+                <dl class="f_dlBox">
+                    <dt class="time" th:text="#{footer_openingtime}">관람시간</dt>
+                    <dd>
+                        <dl class="dl_lst">
+                            <dt th:text="#{footer_openweekday}">화~일</dt>
+                            <dd th:text="#{footer_openweekTime}">10:00AM ~ 6:00PM</dd>
+                        </dl>
+                        <dl class="dl_lst">
+                            <dt th:text="#{footer_closed}">휴관일</dt>
+                            <dd th:text="#{footer_closeday}">매주 월요일</dd>
+                            <dd th:text="#{footer_closeyear}">매년 1월1일 / 설,추석 연휴</dd>
+                        </dl>
+
+                        &lt;!&ndash; 번역본 누락으로 인해 주석
+                        <dl class="dl_lst">
+                            <dt>매주</dt>
+                            <dd>일요일, 공휴일 휴관</dd>
+                        </dl>
+                        &ndash;&gt;
+
+                    </dd>
+                </dl>-->
+            </div>
+            <!-- //고객센터,관람시간 -->
+        </div>
+        <!-- /. f_top -->
+        <div class="f_bottom">
+            <div class="fl">
+                <ul class="f_nav">
+                    <li><a href="https://www.beautypoint.co.kr/agreement" target="_blank" rel="noopener noreferrer">이용약관</a></li>
+                    <li class="f_nav__privacy"><a href="https://www.beautypoint.co.kr/privacy" target="_blank" rel="noopener noreferrer">개인정보처리방침</a></li>
+                    <li><a href="http://www.apgroup.com/int/ko/misc/terms/cctv-policies-and-procedures.html" target="_blank" rel="noopener noreferrer">영상정보처리기기 운영방침</a></li>
+                    <li><a href="/sitemap.do">사이트맵</a></li>
+                </ul>
+            </div>
+            <div class="fr">
+                <p class="copyright">&copy; 2018 by AMOREPACIFIC Corp. All Rights Reserved.</p>
+            </div>
+        </div>
+        <!-- f_bottom -->
+    </div>
+    <!-- // footer -->
+
+
+        
+    <div class="layerpopup_wrap display_none_style" id="layerPopup">
+        <div class="layer_bg"></div>
+        <div class="layer_multi">
+            <div class="alertBox w420 h270 popupBox popupBox_layoutFragment">
+                <div class="layer_dialog">
+                    <div class="txt txt_big hfull">
+                        <span></span>
+                    </div>
+                    <div class="layer_buttons">
+                        <span class="layer_btn">
+                          <button type="button" class="ui-button ui-button__width--small ui-button__normal btnLayerClose">취소</button>
+                        </span>
+                        <span class="layer_btn">
+                          <button type="button" class="ui-button ui-button__width--small ui-button__normal btnLayerSubmit">확인</button>
+                        </span>
+                    </div>
+                </div>
+            </div> <!-- /.alertBox -->
+        </div>
+    </div> <!-- /. layerpopup_wrap -->
+
+    <div class="layerpopup_wrap display_none_style" id="dormancyPopup">
+        <div class="layer_bg"></div>
+        <div class="alertBox dormancy_style">
+            <div class="txt">
+                <span>
+                    회원님의 소중한 정보보호를 위해<br/>
+                    1년 이상 이용하지 않은 계정을 휴면상태로 전환하고 있습니다.<br/>
+                    <br/>
+                    아모레퍼시픽미술관 서비스를 계속 이용하시려면<br/>
+                    아모레퍼시픽 통합회원 사이트에서<br/>
+                    로그인을 통해 휴면상태를 해지해 주십시오.<br/>
+                </span>
+            </div>
+            <ul>
+                <li><a class="btnLayerSubmit" href="#none">통합회원 사이트 바로 가기</a></li>
+            </ul>
+        </div> <!-- /.alertBox -->
+    </div> <!-- /. layerpopup_wrap -->
+
+        
+    <div class="layerpopup_wrap display_none_style" id="twoLayerPopup">
+        <div class="layer_bg"></div>
+        <div class="layer_multi">
+            <div class="alertBox w420 h270 popupBox popupBox_layoutFragment">
+                <div class="layer_dialog">
+                    <div class="txt txt_big hfull">
+                        <span></span>
+                    </div>
+                    <div class="layer_buttons">
+                        <span class="layer_btn">
+                          <button type="button" class="ui-button ui-button__width--small ui-button__normal btnLayerClose">취소</button>
+                        </span>
+                        <span class="layer_btn">
+                          <button type="button" class="ui-button ui-button__width--small ui-button__normal btnLayerSubmit">확인</button>
+                        </span>
+                    </div>
+                </div>
+            </div> <!-- /.alertBox -->
+        </div>
+    </div> <!-- /. layerpopup_wrap -->
+
+    </div>
+    <!-- /body content -->
+    <script nonce="AFz/ug5ZR/+StbIYcPze/A==">
+        /*<![CDATA[*/
+        var applyCheckMsg = null;
+        /*]]>*/
+    </script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.slimscroll.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="/js/sub.js"></script>
+    <script src="/js/jquery.i18n.properties.min.js"></script>
+    <!-- datepicker -->
+    <script src="/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="/js/common_csrf.js"></script>
+    <script nonce="AFz/ug5ZR/+StbIYcPze/A==">
+        $.event.add(window,"load",function() {
+            $(document).ready(function () {
+                $('#loading').hide();
+
+                $("#btnTopSearch").on('click', function(e) {
+                    e.preventDefault();
+                    var $frmTopSearch = $("form[name=frmTopSearch]");
+                    var $search = $frmTopSearch.find('input[name=search]');
+                    if($search.val() !== '') {
+                        $frmTopSearch.submit();
+                    }
+                });
+
+                $('.langBox ul li a').on('click focusIn', function() {
+                    var bfTxt = $('.langBox .lang_tit a').text();
+                    var afTxt = $('.langBox ul li a').text();
+
+                    $('.langBox .lang_tit a').text(afTxt);
+                    $('.langBox ul li a').text(bfTxt);
+                    if(afTxt !== '') {
+                        location.href = "/localeChange.do?lang=" + (afTxt === 'KOR' ? 'ko' : 'en');
+                    }
+                });
+
+                /**
+                 * 남재현님 요청. image 일괄 lazy loading 적용
+                 * 2022.03.10
+                 */
+                function lazyload () {
+                    var lazyloadImages = document.querySelectorAll("img.lazy");
+                    var lazyloadThrottleTimeout;
+
+                    if(lazyloadThrottleTimeout) {
+                        clearTimeout(lazyloadThrottleTimeout);
+                    }
+
+                    lazyloadThrottleTimeout = setTimeout(function() {
+                        var scrollTop = window.pageYOffset;
+                        $.each(lazyloadImages, function(idx, img) {
+                            if(img.offsetTop < (window.innerHeight + scrollTop)) {
+                                img.src = img.dataset.src;
+                                img.classList.remove('lazy');
+                            }
+                        })
+                        if(lazyloadImages.length == 0) {
+                            document.removeEventListener("scroll", lazyload);
+                            window.removeEventListener("resize", lazyload);
+                            window.removeEventListener("orientationChange", lazyload);
+                        }
+                    }, 50);
+                }
+                lazyload();
+                document.addEventListener("scroll", lazyload);
+                window.addEventListener("resize", lazyload);
+                window.addEventListener("orientationChange", lazyload);
+            });
+
+            // 프로그램 신청 여부 20200608
+            if(applyCheckMsg != null) simpleMessageLayerPopup(i18nProperty('alert_already_apply'));
+        });
+
+        $.ajaxSetup({
+            beforeSend: function() {
+                $('#loading').show();
+            },
+            complete: function() {
+                $('#loading').hide();
+            },
+            error: function(jqxhr, textStatus, errorThrown) {
+            }
+        });
+
+        /**
+         * @param options
+         * @returns {boolean}
+         * Front 공통 레이어 팝업
+         */
+        function layerPopup(options) {
+            var $layerPopup = $("#layerPopup");
+
+            if(options.onlySubmit === undefined || options.onlySubmit === false) {
+                options.onlySubmit = false;
+            }
+
+            if(!options.contents) {
+                alert("내용을 입력해주세요.");
+                return false;
+            }
+
+            $layerPopup.find(".txt span").html(options.contents);
+
+            if(options.onlySubmit) {
+                $(".btnLayerClose", $layerPopup).hide();
+            }else{
+                $(".btnLayerClose", $layerPopup).show();
+            }
+
+            if(options.submitMsg != undefined && options.submitMsg != ""){
+                $(".btnLayerSubmit").text(options.submitMsg);
+            }
+
+            $layerPopup.show();
+
+	        $('.alertBox').each(function(){
+		        var alertHeight = $(this).height();
+		        $(this).css({
+			        'margin-top': -alertHeight/2,
+			        'margin-left': '-130px',
+		        });
+		        $(this).animate({
+			        'top': '50%',
+		        });
+	        });
+
+            $(".btnLayerClose", $layerPopup).unbind("click").bind("click", function(e) {
+                e.preventDefault();
+                $layerPopup.hide();
+            });
+
+            $(".btnLayerSubmit", $layerPopup).unbind("click").bind("click", function(e) {
+                e.preventDefault();
+                $layerPopup.hide();
+                if(typeof(options.submit) == "function") {
+                    options.submit();
+                }
+            });
+        };
+
+        /**
+         * @param options
+         * @returns {boolean}
+         * Front 공통 두가지 버튼 레이어 팝업
+         * 기존 layPopup과 충돌 오류 발생하여 따로 생성
+         */
+        function twoFrontLayerPopup(options) {
+            var $layerPopup = $("#twoLayerPopup");
+
+            if(options.onlySubmit === undefined || options.onlySubmit === false) {
+                options.onlySubmit = false;
+            }
+
+            if(!options.contents) {
+                alert("내용을 입력해주세요.");
+                return false;
+            }
+
+            $layerPopup.find(".txt span").html(options.contents);
+
+            if(options.onlySubmit) {
+                $(".btnLayerClose", $layerPopup).hide();
+            }
+
+            if(options.submitMsg != undefined && options.submitMsg != ""){
+                $(".btnLayerSubmit").text(options.submitMsg);
+            }
+
+            $layerPopup.show();
+
+	        $('.alertBox').each(function(){
+		        var alertHeight = $(this).height();
+		        $(this).css({
+			        'margin-top': -alertHeight/2,
+			        'margin-left': '-130px',
+		        });
+		        $(this).animate({
+			        'top': '50%',
+		        });
+	        });
+
+            $(".btnLayerClose", $layerPopup).unbind("click").bind("click", function(e) {
+                e.preventDefault();
+                $layerPopup.hide();
+            });
+
+            $(".btnLayerSubmit", $layerPopup).unbind("click").bind("click", function(e) {
+                e.preventDefault();
+                $layerPopup.hide();
+                if(typeof(options.submit) == "function") {
+                    options.submit();
+                }
+            });
+        };
+
+        /**
+         * @param options
+         * @returns {boolean}
+         * 멤버십 전용 프로그램 팝업
+         */
+        function programMembershipLayerPopup(options) {
+            var $layerPopup = $("#programMembershipPopup");
+
+            if(options.onlySubmit === undefined || options.onlySubmit === false) {
+                options.onlySubmit = false;
+            }
+
+            if(!options.contents) {
+                alert("내용을 입력해주세요.");
+                return false;
+            }
+
+            $layerPopup.find(".txt span").html(options.contents);
+
+            if(options.onlySubmit) {
+                $(".btnLayerClose", $layerPopup).hide();
+            }
+
+            if(options.submitMsg != undefined && options.submitMsg != ""){
+                $(".btnLayerSubmit").text(options.submitMsg);
+            }
+
+            $layerPopup.show();
+
+	        $('.alertBox').each(function(){
+		        var alertHeight = $(this).height();
+		        $(this).css({
+			        'margin-top': -alertHeight/2,
+			        'margin-left': '-130px',
+			        'width': '500px',
+		        });
+		        $(this).animate({
+			        'top': '50%',
+		        });
+	        });
+
+            $(".btnLayerClose", $layerPopup).unbind("click").bind("click", function(e) {
+                e.preventDefault();
+                $layerPopup.hide();
+            });
+
+            $(".btnLayerSubmit", $layerPopup).unbind("click").bind("click", function(e) {
+                e.preventDefault();
+                $layerPopup.hide();
+                if(typeof(options.submit) == "function") {
+                    options.submit();
+                }
+            });
+        };
+
+        function simpleLayerPopup(message, callback) {
+	        $("#layerPopup").find(".btnLayerSubmit").closest("li").css('margin-left', 80);
+            layerPopup({
+                contents: message,
+                submit: callback,
+                onlySubmit: true
+            });
+        };
+
+        function simpleMessageLayerPopup(message) {
+	        $("#layerPopup").find(".btnLayerSubmit").closest("li").css('margin-left', 80);
+            layerPopup({
+                contents: message,
+                onlySubmit: true
+            });
+        };
+
+        // 두가지버튼 타입
+        function twoLayerPopup(message, callback) {
+            twoFrontLayerPopup({
+                contents: message,
+                submit: callback,
+                onlySubmit: false
+            });
+        };
+
+        // 프로그램 멤버십 팝업
+        function programMembershipPopup(message, callback) {
+            programMembershipLayerPopup({
+                contents: message,
+                submit: callback,
+                onlySubmit: false
+            });
+        };
+
+        // 멤버십 해지 신청 확인
+        function membershipStateCheck(){
+           $.ajax({
+                url: '/membership/membershipStateCheck.do',
+                method: 'POST',
+                dataType: 'json',
+                beforeSend: function(xhr) {
+                    // 쿠키에서 CSRF 토큰 읽어서 헤더에 추가
+                    function getCsrfTokenFromCookie(name) {
+                        const value = "; " + document.cookie;
+                        const parts = value.split("; " + name + "=");
+                        if (parts.length === 2) return parts.pop().split(";").shift();
+                        return null;
+                    }
+                    const token = getCsrfTokenFromCookie('XSRF-TOKEN');
+                    if (token) {
+                        xhr.setRequestHeader('X-XSRF-TOKEN', token);
+                    }
+                },
+                success: function (data) {
+                    if (data.code === 500) {
+                      msg = i18nProperty('alert_membershipStateCancel');
+                      $("#layerPopup").find(".alertBox").css('height', '400px');
+                      simpleMessageLayerPopup(msg);
+                      return false;
+                    }else{
+                      location.href = "/membership/myMembership.do";
+                    }
+                },
+                error : function(xhr, ajaxSettings, error)
+                   { console.log(xhr.status + error + xhr.responseText); }
+           }); //end ajax
+        };
+
+        jQuery.i18n.properties({
+	        name : 'message',
+	        path : '/messages/',
+	        mode : 'map',
+	        language : $('.langBox .lang_tit a').text() === "KOR" ? 'ko' : 'en',
+	        callback : function() {}
+        });
+
+        i18nProperty = jQuery.i18n.prop;
+    </script>
+
+    <section>
+	<script src="/js/share.js"></script>
+	<script nonce="AFz/ug5ZR/+StbIYcPze/A==">
+		/*<![CDATA[*/
+		let content = {"id":3971237,"groupId":3971237,"layoutType":"C","title1":"[APMA, CHAPTER FIVE] \uC791\uD488\uC18C\uAC1C: \uD68C\uD654 \uC18D \uC138\uACC4\uB4E4","description1":"<p><span class=\"TextRun SCXW33500343 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW33500343 BCX8\">\u300AAPMA, CHAPTER FIVE\u300B\u0026nbsp;<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW33500343 BCX8\">\uC758<\/span><span class=\"NormalTextRun SCXW33500343 BCX8\">\u0026nbsp;1\uC804\uC2DC\uC2E4\uC5D0\uC11C\uB294\u0026nbsp;<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW33500343 BCX8\">\uD68C\uD654<\/span><span class=\"NormalTextRun SCXW33500343 BCX8\">,\u0026nbsp;<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW33500343 BCX8\">\uD310\uD654<\/span><span class=\"NormalTextRun SCXW33500343 BCX8\">,\u0026nbsp;<\/span><\/span><span class=\"TextRun SCXW33500343 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SpellingErrorV2Themed SCXW33500343 BCX8\">\uD0DC\uD53C\uC2A4\uD2B8\uB9AC<\/span><span class=\"NormalTextRun SCXW33500343 BCX8\">\u0026nbsp;\uC791\uC5C5\uC744 \uD1B5\uD574 \uB3D9\uC2DC\uB300 \uBBF8\uC220\uC758 \uB2E4\uC591\uD55C \uAC00\uB2A5\uC131\uC744 \uC0B4\uD3B4\uBCFC \uC218 \uC788\uC2B5\uB2C8\uB2E4. <\/span><\/span><\/p><p><span class=\"TextRun SCXW33500343 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW33500343 BCX8\">\uAC1C\uC778\uC758 \uACBD\uD5D8\uACFC \uC2E0\uCCB4, \uAE30\uC5B5\uACFC \uC815\uCCB4\uC131, \uC2E0\uD654\uC640 \uC5ED\uC0AC, \uC0AC\uD68C\uC801 \uAD00\uACC4\uB97C \uD0D0\uAD6C\uD558\uB294 \uC791\uAC00\uB4E4\uC758 \uC791\uC5C5\uC774 \uD55C\uC790\uB9AC\uC5D0 \uBAA8\uC600\uC2B5\uB2C8\uB2E4. <\/span><\/span><\/p><p><span class=\"TextRun SCXW33500343 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW33500343 BCX8\">\uC774\uBC88\uC5D0\uB294 \uADF8\uC911 \uAC01\uC790\uC758 \uBB38\uD654\uC801 \uBC30\uACBD\uACFC \uAC1C\uC778\uC801 \uACBD\uD5D8\uC744 \uCD9C\uBC1C\uC810\uC73C\uB85C \uB3D9\uC2DC\uB300 \uBBF8\uC220\uACC4\uC5D0\uC11C \uD65C\uBC1C\uD558\uAC8C \uD65C\uB3D9\uD558\uACE0 \uC788\uB294 \uB124 \uC791\uAC00\uC758 \uC791\uC5C5\uC744 \uC911\uC2EC\uC73C\uB85C \uC18C\uAC1C\uD569\uB2C8\uB2E4.<\/span><\/span><span class=\"EOP Selected SCXW33500343 BCX8\" data-ccp-props=\"{\">\u0026nbsp;<\/span><\/p><p>\u0026nbsp;<\/p><p><span class=\"EOP Selected SCXW33500343 BCX8\" data-ccp-props=\"{\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/1779412384933_DCwmp77Fmk.jpg\" width=\"1208\" height=\"805\"><\/span><\/p><div class=\"OutlineElement Ltr SCXW198177980 BCX8\" style=\"text-align: center;\">\n<p class=\"Paragraph SCXW198177980 BCX8\"><span class=\"TextRun SCXW198177980 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW198177980 BCX8\">\uC54C\uBC14\uB85C<\/span><span class=\"NormalTextRun SCXW198177980 BCX8\">\u0026nbsp;<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW198177980 BCX8\">\uBC30\uB9C1\uD134<\/span><\/span><span class=\"TextRun SCXW198177980 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW198177980 BCX8\">, <<\/span><\/span><span class=\"TextRun SCXW198177980 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW198177980 BCX8\">\uD558\uB298\uC740<\/span><span class=\"NormalTextRun SCXW198177980 BCX8\">\u0026nbsp;\uD55C\uACC4\uAC00 \uC5C6\uB2E4<\/span><\/span><span class=\"TextRun SCXW198177980 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW198177980 BCX8\">>,\u0026nbsp;<\/span><span class=\"NormalTextRun SCXW198177980 BCX8\">2023<\/span><\/span><span class=\"TextRun SCXW198177980 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW198177980 BCX8\">,\u0026nbsp;<\/span><span class=\"NormalTextRun SCXW198177980 BCX8\">\uCF58\uD06C\uB9AC\uD2B8\u0026nbsp;<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW198177980 BCX8\">\uC2AC\uB798\uBE0C<\/span><span class=\"NormalTextRun SCXW198177980 BCX8\">\u0026nbsp;2\uC810 \uC704\uC5D0 \uC5F0\uD544, \uD50C\uB798\uC2DC, \uC5D0\uB098\uBA5C, \uD310\uC9C0 \uC704\uC5D0 \uC9C1\uBB3C,\u0026nbsp;<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW198177980 BCX8\">\uC544\uD06C\uB9B4\uB9AD<\/span><span class=\"NormalTextRun SCXW198177980 BCX8\">, \uCF58\uD06C\uB9AC\uD2B8, \uBCA0\uC774\uBE44 \uD30C\uC6B0\uB354, \uAC01\uC778 \uAC70\uC6B8, \uD638\uB450\uB098\uBB34 \uD504\uB808\uC784<\/span><\/span><span class=\"EOP Selected SCXW198177980 BCX8\" data-ccp-props=\"{\">\u0026nbsp;<\/span><\/p>\n<\/div><div class=\"OutlineElement Ltr SCXW198177980 BCX8\">\n<p class=\"Paragraph SCXW198177980 BCX8\" style=\"text-align: center;\"><span class=\"EOP Selected SCXW198177980 BCX8\" data-ccp-props=\"{\"><span class=\"TextRun SCXW199593845 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW199593845 BCX8\">\u00A9<\/span><span class=\"NormalTextRun SCXW199593845 BCX8\">Alvaro Barrington<\/span><\/span><span class=\"TextRun SCXW199593845 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW199593845 BCX8\">,<\/span><span class=\"NormalTextRun SCXW199593845 BCX8\">\u0026nbsp;<\/span><\/span><span class=\"TextRun SCXW199593845 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW199593845 BCX8\">Courtesy of the\u0026nbsp;<\/span><span class=\"NormalTextRun SCXW199593845 BCX8\">Artist<\/span><span class=\"NormalTextRun SCXW199593845 BCX8\">\u0026nbsp;<\/span><span class=\"NormalTextRun SCXW199593845 BCX8\">a<\/span><span class=\"NormalTextRun SCXW199593845 BCX8\">nd\u0026nbsp;<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW199593845 BCX8\">Amorepacific<\/span><span class=\"NormalTextRun SCXW199593845 BCX8\">\u0026nbsp;Museum of Art. Photo: Jeon Byung-<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW199593845 BCX8\">chul<\/span><\/span><span class=\"EOP Selected SCXW199593845 BCX8\" data-ccp-props=\"{\">\u0026nbsp;<\/span><\/span><\/p>\n<p class=\"Paragraph SCXW198177980 BCX8\" style=\"text-align: center;\">\u0026nbsp;<\/p>\n<p class=\"Paragraph SCXW198177980 BCX8\"><span class=\"EOP Selected SCXW198177980 BCX8\" data-ccp-props=\"{\"><span class=\"EOP Selected SCXW199593845 BCX8\" data-ccp-props=\"{\"><span class=\"TextRun SCXW132550200 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW132550200 BCX8\">\uC54C\uBC14\uB85C<\/span> <span class=\"NormalTextRun SpellingErrorV2Themed SCXW132550200 BCX8\">\uBC30\uB9C1\uD134\uC740<\/span><span class=\"NormalTextRun SCXW132550200 BCX8\"> \uCE74\uB9AC\uBE0C\uD574 \uC9C0\uC5ED\uACFC \uB274\uC695\uC744 \uC624\uAC00\uBA70 \uC131\uC7A5\uD55C \uC791\uAC00<\/span><span class=\"NormalTextRun SCXW132550200 BCX8\">\uC785\uB2C8\uB2E4.<\/span><span class=\"NormalTextRun SCXW132550200 BCX8\"> \uCE74\uB9AC\uBE0C\uD574\uC758 \uBB38\uD654\uC801 \uC804\uD1B5\uACFC \uB3C4\uC2DC\uC801 \uAC10\uC218\uC131\uC774 \uB4A4\uC11E\uC778 \uBC30\uACBD\uC774 \uC791\uC5C5 \uC804\uBC18\uC5D0 <\/span><span class=\"NormalTextRun SCXW132550200 BCX8\">\uB0B4\uD3EC\uB418\uC5B4<\/span><span class=\"NormalTextRun SCXW132550200 BCX8\"> \uC788\uC2B5\uB2C8\uB2E4. <\/span><\/span><\/span><\/span><\/p>\n<p class=\"Paragraph SCXW198177980 BCX8\"><span class=\"EOP Selected SCXW198177980 BCX8\" data-ccp-props=\"{\"><span class=\"EOP Selected SCXW199593845 BCX8\" data-ccp-props=\"{\"><span class=\"TextRun SCXW132550200 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW132550200 BCX8\">\uADF8\uB294 \uC0BC\uBCA0\uC640 \uBC14\uB290\uC9C8 \uAC19\uC740\u0026nbsp;<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW132550200 BCX8\">\uC9C1\uBB3C\uC801<\/span><span class=\"NormalTextRun SCXW132550200 BCX8\"> \uC694\uC18C\uB97C <\/span><span class=\"NormalTextRun SCXW132550200 BCX8\">\uC0AC\uC6A9\uD558\uACE0 <\/span><span class=\"NormalTextRun SCXW132550200 BCX8\">\uCF58\uD06C\uB9AC\uD2B8 \uAC19\uC740 \uB3C4\uC2DC\uC801 \uC7AC\uB8CC\uB97C \uD68C\uD654\uC758 \uBC14\uD0D5\uC73C\uB85C \uC0BC\uC73C\uBA70, \uC11C\uB85C \uB2E4\uB978 \uBB38\uD654\uC801 \uB9E5\uB77D\uC5D0\uC11C \uC628 \uC7AC\uB8CC\uB4E4\uC744 <\/span><span class=\"NormalTextRun SCXW132550200 BCX8\">\uD558\uB098\uC758<\/span><span class=\"NormalTextRun SCXW132550200 BCX8\"> \uD654\uBA74 \uC704\uC5D0 \uB4A4\uC11E\uC2B5\uB2C8\uB2E4.<\/span> <\/span><\/span><\/span><\/p>\n<p class=\"Paragraph SCXW198177980 BCX8\"><span class=\"EOP Selected SCXW198177980 BCX8\" data-ccp-props=\"{\"><span class=\"EOP Selected SCXW199593845 BCX8\" data-ccp-props=\"{\"><span class=\"TextRun SCXW132550200 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW132550200 BCX8\">\uC774<\/span> <span class=\"NormalTextRun SCXW132550200 BCX8\">\uC791\uD488\uC5D0\uC11C\uB294 \uD558\uB298\uBE5B \uC0C9\uC870\uC640 \uAC15\uB82C\uD55C \uC6D0\uC0C9\uC774 \uACF5\uC874\uD558\uB294 \uD654\uBA74 \uC704\uB85C<\/span> <\/span><span class=\"TextRun SCXW132550200 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW132550200 BCX8\">'Sky's the Limit <\/span><\/span><span class=\"TextRun SCXW132550200 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW132550200 BCX8\">\uD558\uB298\uC740<\/span> <span class=\"NormalTextRun SCXW132550200 BCX8\">\uD55C\uACC4\uAC00<\/span> <span class=\"NormalTextRun SpellingErrorV2Themed SCXW132550200 BCX8\">\uC5C6\uB2E4'\uB77C\uB294<\/span> <span class=\"NormalTextRun SCXW132550200 BCX8\">\uBB38\uAD6C\uAC00<\/span> <span class=\"NormalTextRun SCXW132550200 BCX8\">\uAD50\uCC28\uD569\uB2C8\uB2E4<\/span><span class=\"NormalTextRun SCXW132550200 BCX8\">. <\/span><\/span><\/span><\/span><\/p>\n<p class=\"Paragraph SCXW198177980 BCX8\"><span class=\"EOP Selected SCXW198177980 BCX8\" data-ccp-props=\"{\"><span class=\"EOP Selected SCXW199593845 BCX8\" data-ccp-props=\"{\"><span class=\"TextRun SCXW132550200 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW132550200 BCX8\">\uB274\uC695\uC5D0\uC11C<\/span> <span class=\"NormalTextRun SCXW132550200 BCX8\">\uD799\uD569\uACFC<\/span> <span class=\"NormalTextRun SCXW132550200 BCX8\">\uD568\uAED8<\/span> <span class=\"NormalTextRun SCXW132550200 BCX8\">\uC131\uC7A5\uD55C<\/span> <span class=\"NormalTextRun SCXW132550200 BCX8\">\uC791\uAC00\uC5D0\uAC8C<\/span><span class=\"NormalTextRun SCXW132550200 BCX8\"> \uC774 <\/span><span class=\"NormalTextRun SCXW132550200 BCX8\">\uBB38\uAD6C\uB294<\/span> <span class=\"NormalTextRun SCXW132550200 BCX8\">\uC57C\uB9DD\uACFC<\/span> <span class=\"NormalTextRun SCXW132550200 BCX8\">\uC790\uC720<\/span><span class=\"NormalTextRun SCXW132550200 BCX8\">, <\/span><span class=\"NormalTextRun SCXW132550200 BCX8\">\uADF8\uB9AC\uACE0<\/span> <span class=\"NormalTextRun SCXW132550200 BCX8\">\uC790\uC2E0\uC774<\/span> <span class=\"NormalTextRun SCXW132550200 BCX8\">\uC0B4\uC544\uC628<\/span> <span class=\"NormalTextRun SCXW132550200 BCX8\">\uBB38\uD654\uC801<\/span> <span class=\"NormalTextRun SCXW132550200 BCX8\">\uD604\uC2E4\uC744<\/span> <span class=\"NormalTextRun SCXW132550200 BCX8\">\uC751\uCD95\uD55C<\/span> <span class=\"NormalTextRun SCXW132550200 BCX8\">\uC5B8\uC5B4\uC785\uB2C8\uB2E4<\/span><span class=\"NormalTextRun SCXW132550200 BCX8\">.<\/span><\/span><span class=\"EOP Selected SCXW132550200 BCX8\" data-ccp-props=\"{\">\u0026nbsp;<\/span><\/span><\/span><\/p>\n<p class=\"Paragraph SCXW198177980 BCX8\">\u0026nbsp;<\/p>\n<p class=\"Paragraph SCXW198177980 BCX8\"><span class=\"EOP Selected SCXW198177980 BCX8\" data-ccp-props=\"{\"><span class=\"EOP Selected SCXW199593845 BCX8\" data-ccp-props=\"{\"><span class=\"EOP Selected SCXW132550200 BCX8\" data-ccp-props=\"{\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/1779412704448_g68BSYYpQ5.jpg\" width=\"805\" height=\"1208\"><\/span><\/span><\/span><\/p>\n<div class=\"OutlineElement Ltr SCXW119674919 BCX8\" style=\"text-align: center;\">\n<p class=\"Paragraph SCXW119674919 BCX8\"><span class=\"TextRun SCXW119674919 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW119674919 BCX8\">\uC0AC\uC774<\/span><span class=\"NormalTextRun SCXW119674919 BCX8\"> \uAC1C\uBE48<\/span><\/span><span class=\"TextRun SCXW119674919 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW119674919 BCX8\">, <<\/span><\/span><span class=\"TextRun SCXW119674919 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW119674919 BCX8\">\uBB34\uC81C<\/span><span class=\"NormalTextRun SCXW119674919 BCX8\">(\uAC00\uC9C0\uAC00 \uB2E4\uB4EC\uC5B4\uC9C4 \uBF55\uB098\uBB34)<\/span><\/span><span class=\"TextRun SCXW119674919 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW119674919 BCX8\">><\/span><\/span><span class=\"TextRun SCXW119674919 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW119674919 BCX8\">,<\/span> <\/span><span class=\"TextRun SCXW119674919 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW119674919 BCX8\">202<\/span><\/span><span class=\"TextRun SCXW119674919 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW119674919 BCX8\">, <\/span><span class=\"NormalTextRun SCXW119674919 BCX8\">\uCE94\uBC84\uC2A4\uC5D0 <\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW119674919 BCX8\">\uC544\uD06C\uB9B4\uB9AD<\/span><span class=\"NormalTextRun SCXW119674919 BCX8\">, \uBE44\uB2D0 \uD398\uC778\uD2B8\u0026nbsp;\u0026nbsp;<\/span><\/span><span class=\"EOP Selected SCXW119674919 BCX8\" data-ccp-props=\"{\">\u0026nbsp;<\/span><\/p>\n<p class=\"Paragraph SCXW119674919 BCX8\">\u0026nbsp;<\/p>\n<\/div>\n<div class=\"OutlineElement Ltr SCXW119674919 BCX8\" style=\"text-align: center;\"><img src=\"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/1779423384986_nSePNhF13V.jpg\" width=\"1207\" height=\"804\"><\/div>\n<div class=\"OutlineElement Ltr SCXW119674919 BCX8\">\n<p class=\"Paragraph SCXW119674919 BCX8\" style=\"text-align: center;\"><span class=\"TextRun SCXW119674919 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW119674919 BCX8\">\u00A9Cy Gavin, <span data-teams=\"true\">Courtesy of Amorepacific Museum of Art, Photo: Jeon Byung-cheol<\/span><\/span><\/span><\/p>\n<\/div>\n<p class=\"Paragraph SCXW198177980 BCX8\">\u0026nbsp;<\/p>\n<p class=\"Paragraph SCXW198177980 BCX8\"><span class=\"TextRun SCXW261777468 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW261777468 BCX8\">\uC0AC\uC774<\/span><span class=\"NormalTextRun SCXW261777468 BCX8\">\u0026nbsp;<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW261777468 BCX8\">\uAC1C\uBE48\uC740<\/span><span class=\"NormalTextRun SCXW261777468 BCX8\">\u0026nbsp;\uD2B9\uC815 \uC7A5\uC18C\uC758 \uC790\uC5F0\uACFC \uADF8\uAC83\uC744 \uB458\uB7EC\uC2FC \uC778\uAC04\uC758 \uC5ED\uC0AC\uB97C \uD68C\uD654\uB85C \uD574\uC11D\uD558\uB294 \uC791\uAC00\uC785\uB2C8\uB2E4. <\/span><\/span><\/p>\n<p class=\"Paragraph SCXW198177980 BCX8\"><span class=\"TextRun SCXW261777468 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW261777468 BCX8\">\uC544\uBC84\uC9C0\uC758 \uD0C0\uACC4\uB97C \uACC4\uAE30\uB85C \uC120\uC870\uC758 \uACE0\uD5A5 \uBC84\uBBA4\uB2E4\uB97C \uC5EC\uD589\uD558\uBA70 \uC2DD\uBBFC\uC8FC\uC758\uC758 \uC720\uC0B0\uC774 \uC0C8\uACA8\uC9C4 \uC7A5\uC18C\uB4E4\uC744 \uD654\uBA74\uC5D0 \uB2F4\uC558\uC73C\uBA70, <\/span><\/span><\/p>\n<p class=\"Paragraph SCXW198177980 BCX8\"><span class=\"TextRun SCXW261777468 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW261777468 BCX8\">\uC790\uC5F0 \uD48D\uACBD\uC744 \uD1B5\uD574 \uD751\uC778 \uACF5\uB3D9\uCCB4\uC758 \uC5ED\uC0AC\uC640 \uC800\uD56D\uC758 \uC11C\uC0AC\uB97C\u0026nbsp;<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW261777468 BCX8\">\uC2DC\uAC01\uD654\uD574\uC654\uC2B5\uB2C8\uB2E4<\/span><span class=\"NormalTextRun SCXW261777468 BCX8\">.\u0026nbsp;<\/span><\/span><\/p>\n<p class=\"Paragraph SCXW198177980 BCX8\"><span class=\"TextRun SCXW261777468 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW261777468 BCX8\">\uC791\uAC00\uC758 \uD68C\uD654\uB294 <\/span><span class=\"NormalTextRun SCXW261777468 BCX8\">\uC0C9\uCC44 \uB300\uBE44\uAC00 \uAC15\uB82C\uD558\uACE0 \uC81C\uC2A4\uCC98\uAC00 \uC0B4\uC544\uC788\uB294 \uBD93\uC9C8\uC774 \uD2B9\uC9D5<\/span><span class=\"NormalTextRun SCXW261777468 BCX8\">\uC785\uB2C8\uB2E4.<\/span><span class=\"NormalTextRun SCXW261777468 BCX8\">\u0026nbsp;<\/span><span class=\"NormalTextRun SCXW261777468 BCX8\">\uC791\uAC00\uB294<\/span><span class=\"NormalTextRun SCXW261777468 BCX8\">\u0026nbsp;\uC790\uC5F0\uC744 \uACE0\uC815\uB41C \uD48D\uACBD\uC774 \uC544\uB2CC \uC778\uAC04\uC758 \uAC1C\uC785\uACFC \uC5ED\uC0AC\uAC00 \uCD95\uC801\uB41C \uC7A5\uC18C\uB85C \uC81C\uC2DC\uD569\uB2C8\uB2E4. <\/span><\/span><\/p>\n<p class=\"Paragraph SCXW198177980 BCX8\"><span class=\"TextRun SCXW261777468 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW261777468 BCX8\">\uC774 \uC791\uD488\uC5D0\uC11C\uB294 \uC778\uC704\uC801\uC73C\uB85C <\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW261777468 BCX8\">\uAC00\uC9C0\uCE58\uAE30<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW261777468 BCX8\">\uB41C<\/span><span class=\"NormalTextRun SCXW261777468 BCX8\">\u0026nbsp;\uBF55\uB098\uBB34<\/span><span class=\"NormalTextRun SCXW261777468 BCX8\">\uC758 \uBAA8\uC2B5\uC744 \uD1B5\uD574\u0026nbsp;<\/span><span class=\"NormalTextRun SCXW261777468 BCX8\">\uC2DD\uBB3C\uC774<\/span><span class=\"NormalTextRun SCXW261777468 BCX8\">\u0026nbsp;\uD488\uC740 \uC0DD\uBA85\uB825\uACFC \uC778\uAC04\uC774 \uB9CC\uB4E4\uC5B4\uB0B8 \uC81C\uC57D<\/span><span class=\"NormalTextRun SCXW261777468 BCX8\">\uC744<\/span><span class=\"NormalTextRun SCXW261777468 BCX8\">\u0026nbsp;<\/span><span class=\"NormalTextRun SCXW261777468 BCX8\">\uB300\uBE44\uC2DC\uD0A4\uACE0<\/span><span class=\"NormalTextRun SCXW261777468 BCX8\">\u0026nbsp;\uC788\uC2B5\uB2C8\uB2E4.<\/span><span class=\"NormalTextRun SCXW261777468 BCX8\">\u0026nbsp;<\/span><\/span><span class=\"EOP Selected SCXW261777468 BCX8\" data-ccp-props=\"{\">\u0026nbsp;<\/span><\/p>\n<p class=\"Paragraph SCXW198177980 BCX8\">\u0026nbsp;<\/p>\n<p class=\"Paragraph SCXW198177980 BCX8\"><span class=\"EOP Selected SCXW261777468 BCX8\" data-ccp-props=\"{\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/1779412787136_5unzqyQZsq.jpg\" width=\"1209\" height=\"805\"><\/span><\/p>\n<div class=\"OutlineElement Ltr SCXW189480209 BCX8\" style=\"text-align: center;\">\n<p class=\"Paragraph SCXW189480209 BCX8\"><span class=\"TextRun SCXW189480209 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW189480209 BCX8\">\uC54C\uB809\uC0B0\uB4DC\uB9AC\uC544<\/span><span class=\"NormalTextRun SCXW189480209 BCX8\">\u0026nbsp;\uC2A4\uBBF8\uC2A4<\/span><\/span><span class=\"TextRun SCXW189480209 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW189480209 BCX8\">, <<\/span><\/span><span class=\"TextRun SCXW189480209 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW189480209 BCX8\">\uB098\uC640<\/span><span class=\"NormalTextRun SCXW189480209 BCX8\">\u0026nbsp;\uAC19\uC740 \uC608\uC5B8\uC790\uB4E4<\/span><\/span><span class=\"TextRun SCXW189480209 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW189480209 BCX8\">>,<\/span><\/span><span class=\"TextRun SCXW189480209 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW189480209 BCX8\">\u0026nbsp;<\/span><\/span><span class=\"TextRun SCXW189480209 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW189480209 BCX8\">2023<\/span><\/span><span class=\"TextRun SCXW189480209 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW189480209 BCX8\">,\u0026nbsp;<\/span><span class=\"NormalTextRun SCXW189480209 BCX8\">\uD63C\uD569\uB9E4\uCCB4, 3\uCC28\uC6D0 \uBAA9\uC7AC\u0026nbsp;<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW189480209 BCX8\">\uC544\uC0C1\uBE14\uB77C\uC8FC<\/span><\/span><span class=\"EOP Selected SCXW189480209 BCX8\" data-ccp-props=\"{\">\u0026nbsp;<\/span><\/p>\n<\/div>\n<div class=\"OutlineElement Ltr SCXW189480209 BCX8\">\n<p class=\"Paragraph SCXW189480209 BCX8\" style=\"text-align: center;\"><span class=\"TextRun SCXW189480209 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW189480209 BCX8\">\u00A9<\/span><\/span><span class=\"TextRun SCXW189480209 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW189480209 BCX8\">Alexandria Smith<\/span><\/span><span class=\"TextRun SCXW189480209 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW189480209 BCX8\">,<\/span><span class=\"NormalTextRun SCXW189480209 BCX8\">\u0026nbsp;<\/span><\/span><span class=\"TextRun SCXW189480209 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW189480209 BCX8\">Courtesy of the\u0026nbsp;<\/span><span class=\"NormalTextRun SCXW189480209 BCX8\">Artist<\/span><span class=\"NormalTextRun SCXW189480209 BCX8\">\u0026nbsp;<\/span><span class=\"NormalTextRun SCXW189480209 BCX8\">a<\/span><span class=\"NormalTextRun SCXW189480209 BCX8\">nd\u0026nbsp;<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW189480209 BCX8\">Amorepacific<\/span><span class=\"NormalTextRun SCXW189480209 BCX8\">\u0026nbsp;Museum of Art. Photo: Jeon Byung-<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW189480209 BCX8\">chul<\/span><\/span><span class=\"EOP Selected SCXW189480209 BCX8\" data-ccp-props=\"{\">\u0026nbsp;<\/span><\/p>\n<p class=\"Paragraph SCXW189480209 BCX8\">\u0026nbsp;<\/p>\n<p class=\"Paragraph SCXW189480209 BCX8\"><span class=\"EOP Selected SCXW189480209 BCX8\" data-ccp-props=\"{\"><span class=\"TextRun SCXW170655421 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW170655421 BCX8\">\uC54C\uB809\uC0B0\uB4DC\uB9AC\uC544<\/span><span class=\"NormalTextRun SCXW170655421 BCX8\"> \uC2A4\uBBF8\uC2A4\uB294 \uC790\uC804\uC801 \uACBD\uD5D8\uACFC \uC2E0\uD654, \uC544\uD504\uB9AC\uCE74 \uBB38\uD559, \uC9D1\uB2E8\uC801 \uAE30\uC5B5\uC744 <\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW170655421 BCX8\">\uAD50\uCC28\uC2DC\uD0A4\uBA70<\/span><span class=\"NormalTextRun SCXW170655421 BCX8\"> \uC815\uCCB4\uC131\uC774 \uC5B4\uB5BB\uAC8C \uAD6C\uC131\uB418\uB294\uC9C0\uB97C \uD0D0\uAD6C\uD569\uB2C8\uB2E4. <\/span><\/span><\/span><\/p>\n<p class=\"Paragraph SCXW189480209 BCX8\"><span class=\"EOP Selected SCXW189480209 BCX8\" data-ccp-props=\"{\"><span class=\"TextRun SCXW170655421 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW170655421 BCX8\">\uC2E0\uCCB4\uC758 \uC5EC\uB7EC \uBD80\uBD84\uC744 \uD63C\uC131\uC801\uC73C\uB85C \uACB0\uD569\uD55C \uD615\uC0C1\uC744 \uD1B5\uD574, \uACE0\uC815\uB41C \uC790\uC544\uAC00 \uC544\uB2CC \uC2DC\uAC04\uACFC \uAE30\uC5B5 \uC18D\uC5D0\uC11C \uB04A\uC784\uC5C6\uC774 \uC7AC\uAD6C\uC131\uB418\uB294 \uC815\uCCB4\uC131\uC744\u0026nbsp;<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW170655421 BCX8\">\uC2DC\uAC01\uD654\uD569\uB2C8\uB2E4<\/span><span class=\"NormalTextRun SCXW170655421 BCX8\">. <\/span><\/span><\/span><\/p>\n<p class=\"Paragraph SCXW189480209 BCX8\"><span class=\"EOP Selected SCXW189480209 BCX8\" data-ccp-props=\"{\"><span class=\"TextRun SCXW170655421 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW170655421 BCX8\">\uC774<\/span> <span class=\"NormalTextRun SCXW170655421 BCX8\">\uC791\uD488\uC740 \uB098\uC774\uC9C0\uB9AC\uC544 \uC791\uAC00 <\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW170655421 BCX8\">\uC544\uCF70\uC5D0\uCF00<\/span> <span class=\"NormalTextRun SpellingErrorV2Themed SCXW170655421 BCX8\">\uC5D0\uBA54\uC9C0\uC758<\/span> <span class=\"NormalTextRun SCXW170655421 BCX8\">\uC608\uC5B8\uC790 \uC11C\uC0AC<\/span><span class=\"NormalTextRun SCXW170655421 BCX8\">\uC5D0\uC11C \uC601\uAC10\uC744 \uC5BB\uC740 \uB300\uD615 \uD68C\uD654\uC785\uB2C8\uB2E4. <\/span><span class=\"NormalTextRun SCXW170655421 BCX8\">\uD654\uBA74\uC5D0\uB294<\/span><span class=\"NormalTextRun SCXW170655421 BCX8\"> \uB300\uC9C0\uC5D0\uC11C \uC19F\uC544\uB098\uB294 \uD615\uC0C1\uACFC \uC591\uCABD\uC5D0 \uBD80\uC720\uD558\uB294 \uC870\uC0C1\uC758 \uBA38\uB9AC\uAC00 \uC2E0\uD654\uC801 \uC7A5\uBA74\uC744 \uAD6C\uC131\uD569\uB2C8\uB2E4.\u0026nbsp;<\/span><\/span><\/span><span class=\"EOP Selected SCXW189480209 BCX8\" data-ccp-props=\"{\"><span class=\"TextRun SCXW170655421 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW170655421 BCX8\">\uC774\uB97C \uD1B5\uD574 \uC2DC\uAC04\uACFC \uAE30\uC5B5 \uC18D\uC5D0\uC11C \uACB9\uACB9\uC774 \uC313\uC778 \uC815\uCCB4\uC131<\/span><span class=\"NormalTextRun SCXW170655421 BCX8\">\uC744 \uC5F0\uADF9\uC801\uC73C\uB85C \uD45C\uD604\uD569\uB2C8\uB2E4.<\/span><\/span><span class=\"EOP SCXW170655421 BCX8\" data-ccp-props=\"{\">\u0026nbsp;<\/span><\/span><\/p>\n<\/div>\n<p class=\"Paragraph SCXW198177980 BCX8\">\u0026nbsp;<\/p>\n<p class=\"Paragraph SCXW198177980 BCX8\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/1779412853888_1KYJOSdRnS.jpg\" width=\"805\" height=\"1208\"><\/p>\n<p class=\"Paragraph SCXW198177980 BCX8\" style=\"text-align: center;\">\u0026nbsp;<\/p>\n<div class=\"OutlineElement Ltr SCXW218038582 BCX8\" style=\"text-align: center;\">\n<p class=\"Paragraph SCXW218038582 BCX8\"><span class=\"TextRun SCXW218038582 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SpellingErrorV2Themed SCXW218038582 BCX8\">\uAE30\uB514\uC5B8<\/span><span class=\"NormalTextRun SCXW218038582 BCX8\">\u0026nbsp;\uC544\uD30C<\/span><\/span><span class=\"TextRun SCXW218038582 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW218038582 BCX8\">, <<\/span><\/span><span class=\"TextRun SCXW218038582 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW218038582 BCX8\">\uC5B8\uC820\uAC00<\/span><span class=\"NormalTextRun SCXW218038582 BCX8\">\u0026nbsp;\uB2E4\uC2DC \uC624\uAC8C \uB420\uAE4C?<\/span><\/span><span class=\"TextRun SCXW218038582 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW218038582 BCX8\">>,\u0026nbsp;<\/span><span class=\"NormalTextRun SCXW218038582 BCX8\">2023<\/span><\/span><span class=\"TextRun SCXW218038582 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW218038582 BCX8\">,\u0026nbsp;<\/span><span class=\"NormalTextRun SCXW218038582 BCX8\">\uCE94\uBC84\uC2A4\uC5D0 \uC720\uCC44,\u0026nbsp;<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW218038582 BCX8\">\uC544\uD06C\uB9B4\uB9AD<\/span><span class=\"NormalTextRun SCXW218038582 BCX8\">\u0026nbsp;\u0026nbsp;<\/span><\/span><span class=\"EOP Selected SCXW218038582 BCX8\" data-ccp-props=\"{\">\u0026nbsp;<\/span><\/p>\n<\/div>\n<div class=\"OutlineElement Ltr SCXW218038582 BCX8\" style=\"text-align: center;\">\u0026nbsp;<\/div>\n<div class=\"OutlineElement Ltr SCXW265671195 BCX8\">\n<p class=\"Paragraph SCXW265671195 BCX8\">\u0026nbsp;<\/p>\n<p class=\"Paragraph SCXW265671195 BCX8\"><span class=\"EOP Selected SCXW265671195 BCX8\" data-ccp-props=\"{\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/1779423436901_6ZTKtj8Riq.jpg\" width=\"1208\" height=\"805\">\u0026nbsp;<\/span><\/p>\n<div class=\"OutlineElement Ltr SCXW218038582 BCX8\" style=\"text-align: center;\">\n<p class=\"Paragraph SCXW218038582 BCX8\"><span class=\"EOP Selected SCXW265671195 BCX8\" data-ccp-props=\"{\"><span class=\"TextRun SCXW218038582 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW218038582 BCX8\">\u00A9<\/span><\/span><span class=\"TextRun SCXW218038582 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW218038582 BCX8\">Gideon Appah<\/span><\/span><span class=\"TextRun SCXW218038582 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW218038582 BCX8\">,<\/span><span class=\"NormalTextRun SCXW218038582 BCX8\">\u0026nbsp;<\/span><\/span><span class=\"TextRun SCXW218038582 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW218038582 BCX8\">Courtesy of the\u0026nbsp;<\/span><span class=\"NormalTextRun SCXW218038582 BCX8\">Artist<\/span><span class=\"NormalTextRun SCXW218038582 BCX8\">\u0026nbsp;<\/span><span class=\"NormalTextRun SCXW218038582 BCX8\">a<\/span><span class=\"NormalTextRun SCXW218038582 BCX8\">nd\u0026nbsp;<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW218038582 BCX8\">Amorepacific<\/span><span class=\"NormalTextRun SCXW218038582 BCX8\">\u0026nbsp;Museum of Art. Photo: Jeon Byung-<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW218038582 BCX8\">chul<\/span><\/span><span class=\"EOP Selected SCXW218038582 BCX8\" data-ccp-props=\"{\">\u0026nbsp;<\/span><\/span><\/p>\n<\/div>\n<p class=\"Paragraph SCXW198177980 BCX8\" style=\"text-align: center;\">\u0026nbsp;<\/p>\n<div class=\"OutlineElement Ltr SCXW265671195 BCX8\">\n<p class=\"Paragraph SCXW265671195 BCX8\"><span class=\"TextRun SCXW265671195 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SpellingErrorV2Themed SCXW265671195 BCX8\">\uAE30\uB514\uC5B8<\/span><span class=\"NormalTextRun SCXW265671195 BCX8\">\u0026nbsp;\uC544\uD30C\uB294 \uAC00\uB098 \uC544\uD06C\uB77C \uCD9C\uC2E0\uC73C\uB85C, \uC720\uB144 \uC2DC\uC808\uC758 \uAE30\uC5B5\uACFC \uAFC8, \uAC00\uB098\uC758 \uC5ED\uC0AC\uC640 \uB300\uC911\uBB38\uD654\uB97C \uCD9C\uBC1C\uC810\uC73C\uB85C \uC0BC\uC2B5\uB2C8\uB2E4. <\/span><\/span><\/p>\n<p class=\"Paragraph SCXW265671195 BCX8\"><span class=\"TextRun SCXW265671195 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW265671195 BCX8\">\uAC00\uB098\uC758 \uC601\uD654, \uC2E0\uBB38 \uC544\uCE74\uC774\uBE0C, \uAC00\uC871\uC0AC\uC9C4<\/span><span class=\"NormalTextRun SCXW265671195 BCX8\">\uC744 \uBC14\uD0D5\uC73C\uB85C\u0026nbsp;<\/span><span class=\"NormalTextRun SCXW265671195 BCX8\">\uC7A5\uBA74\uC744 \uAD6C\uC131\uD558\uACE0, \uD751\uBC31\uC758 \uC544\uCE74\uC774\uBE0C \uC774\uBBF8\uC9C0\uC5D0 \uD48D\uBD80\uD55C \uC0C9\uCC44\uB97C \uB367\uC785\uD600 \uC804\uD600 \uC0C8\uB85C\uC6B4 \uC7A5\uBA74\uC73C\uB85C \uC7AC\uCC3D\uC870\uD569\uB2C8\uB2E4.\u0026nbsp;<\/span><\/span><\/p>\n<p class=\"Paragraph SCXW265671195 BCX8\"><span class=\"TextRun SCXW265671195 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW265671195 BCX8\">\uC774 \uC791\uD488\uC740 \uC791\uAC00\uC758 \uC5B4\uB9B0\uC2DC\uC808 \uAE30\uC5B5 \uC18D \uD574\uC548 \uD48D\uACBD\uC744 \uBC30\uACBD\uC73C\uB85C \uD569\uB2C8\uB2E4.<\/span><span class=\"NormalTextRun SCXW265671195 BCX8\">\u0026nbsp;<\/span><span class=\"NormalTextRun SCXW265671195 BCX8\">\uBAB8\uC5D0\uC11C \uBD84\uB9AC\uB41C \uBA38\uB9AC, \uACF5\uC911\uC5D0 \uBD80\uC720\uD558\uB294 \uD615\uC0C1 \uB4F1 \uCD08\uD604\uC2E4\uC8FC\uC758\uC801 \uBAA8\uD2F0\uD504\uAC00 \uD654\uBA74 \uACF3\uACF3\uC5D0 \uC790\uC5F0\uC2A4\uB7FD\uAC8C\u0026nbsp;<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW265671195 BCX8\">\uB179\uC544\uB4ED\uB2C8\uB2E4<\/span><span class=\"NormalTextRun SCXW265671195 BCX8\">. <\/span><\/span><\/p>\n<p class=\"Paragraph SCXW265671195 BCX8\"><span class=\"TextRun SCXW265671195 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW265671195 BCX8\">\uB450\uD141\uAC8C \uC313\uC778 \uC784\uD30C\uC2A4\uD1A0\uC640 \uAC15\uB82C\uD55C \uC0C9\uCC44\uB294 \uAC1C\uC778\uC758 \uAE30\uC5B5\uACFC \uAC00\uB098\uC758 \uC9D1\uB2E8\uC801 <\/span><span class=\"NormalTextRun SCXW265671195 BCX8\">\uBB38\uD654<\/span><span class=\"NormalTextRun SCXW265671195 BCX8\">\u0026nbsp;\uACBD\uD5D8\uC744 \uD558\uB098\uC758 \uBABD\uD658\uC801 \uC138\uACC4\uB85C\u0026nbsp;<\/span><span class=\"NormalTextRun SCXW265671195 BCX8\">\uD45C\uD604\uD569\uB2C8\uB2E4.<\/span><span class=\"NormalTextRun SCXW265671195 BCX8\">\u0026nbsp;<\/span><\/span><span class=\"EOP Selected SCXW265671195 BCX8\" data-ccp-props=\"{\">\u0026nbsp;<\/span><\/p>\n<\/div>\n<p class=\"Paragraph SCXW265671195 BCX8\" style=\"text-align: center;\">\u0026nbsp;<\/p>\n<p class=\"Paragraph SCXW265671195 BCX8\" style=\"text-align: center;\"><img src=\"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/1779424171406_AuzIljhWKC.jpg\" width=\"1205\" height=\"803\"><\/p>\n<p class=\"Paragraph SCXW265671195 BCX8\" style=\"text-align: center;\"><span class=\"EOP Selected SCXW265671195 BCX8\" data-ccp-props=\"{\"><span class=\"TextRun SCXW218038582 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW218038582 BCX8\">\u0026nbsp;<\/span><\/span><span class=\"TextRun SCXW218038582 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW218038582 BCX8\">Courtesy of the\u0026nbsp;<\/span><span class=\"NormalTextRun SCXW218038582 BCX8\">Artist<\/span><span class=\"NormalTextRun SCXW218038582 BCX8\">\u0026nbsp;<\/span><span class=\"NormalTextRun SCXW218038582 BCX8\">a<\/span><span class=\"NormalTextRun SCXW218038582 BCX8\">nd\u0026nbsp;<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW218038582 BCX8\">Amorepacific<\/span><span class=\"NormalTextRun SCXW218038582 BCX8\">\u0026nbsp;Museum of Art. Photo: Jeon Byung-<\/span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW218038582 BCX8\">chul<\/span><\/span><span class=\"EOP Selected SCXW218038582 BCX8\" data-ccp-props=\"{\">\u0026nbsp;<\/span><\/span>\u0026nbsp;<\/p>\n<p class=\"Paragraph SCXW265671195 BCX8\" style=\"text-align: center;\">\u0026nbsp;<\/p>\n<\/div>\n<div class=\"OutlineElement Ltr SCXW265671195 BCX8\">\n<p class=\"Paragraph SCXW265671195 BCX8\"><span class=\"TextRun SCXW265671195 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW265671195 BCX8\">\uB124<\/span><span class=\"NormalTextRun SCXW265671195 BCX8\">\u0026nbsp;\uC791\uAC00\uB294 \uC11C\uB85C \uB2E4\uB978 \uBB38\uD654\uAD8C\uACFC \uC5ED\uC0AC\uC801 \uB9E5\uB77D\uC5D0\uC11C \uCD9C\uBC1C\uD558\uC9C0\uB9CC, \uD68C\uD654\uB97C \uD1B5\uD574 \uC2E0\uD654\uC640 \uAE30\uC5B5, \uC815\uCCB4\uC131\uC744 \uB3D9\uC2DC\uB300\uC758 \uC5B8\uC5B4\uB85C \uC7AC\uAD6C\uC131\uD55C\uB2E4\uB294 \uC810\uC5D0\uC11C\u0026nbsp;<\/span><span class=\"NormalTextRun SCXW265671195 BCX8\">\uB9DE\uB2FF\uC544<\/span><span class=\"NormalTextRun SCXW265671195 BCX8\">\u0026nbsp;\uC788\uC2B5\uB2C8\uB2E4. <\/span><\/span><\/p>\n<p class=\"Paragraph SCXW265671195 BCX8\"><span class=\"TextRun SCXW265671195 BCX8\" lang=\"KO-KR\" xml:lang=\"KO-KR\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW265671195 BCX8\">1\uC804\uC2DC\uC2E4\uC5D0\uC11C\uB294 \uC774 \uC791\uC5C5\uB4E4\uACFC \uD568\uAED8 \uB3D9\uC2DC\uB300 \uD68C\uD654\uAC00 \uC81C\uAE30\uD558\uB294 \uB2E4\uC591\uD55C \uBB38\uC81C\uC758\uC2DD\uC744 \uB9CC\uB0A0 \uC218 \uC788\uC2B5\uB2C8\uB2E4.<\/span><span class=\"NormalTextRun SCXW265671195 BCX8\">\u0026nbsp;<\/span><\/span><span class=\"EOP Selected SCXW265671195 BCX8\" data-ccp-props=\"{\">\u0026nbsp;<\/span><\/p>\n<\/div>\n<p class=\"Paragraph SCXW198177980 BCX8\">\u0026nbsp;<\/p>\n<p class=\"Paragraph SCXW198177980 BCX8\">\u0026nbsp;<\/p>\n<\/div><p>\u0026nbsp;<\/p>","title2":null,"etc1":"\uAE30\uD68D: \uC544\uBAA8\uB808\uD37C\uC2DC\uD53D\uBBF8\uC220\uAD00 (APMA) ","etc2":null,"description2":null,"showStartTime":null,"showEndTime":null,"place":"2026.04.01(\uC218) \u2013 2026.08.02(\uC77C) | \uBBF8\uC220\uAD00 1F\uB85C\uBE44, B1 1~7\uC804\uC2DC\uC2E4, \uAD50\uC721\uC2E4 \uB4F1 ","scheduleYn":"N","position":"R","topFixedYn":"Y","thumbnailUri":null,"originalMediaUri":null,"thumbnailTitle":"[APMA, CHAPTER FIVE] \uC791\uD488\uC18C\uAC1C: \uD68C\uD654 \uC18D \uC138\uACC4\uB4E4","lang":"KO","categoryGroup":null,"sortOrderNum":10,"publishYn":"Y","mediaList":[{"id":3971238,"mediaUri":"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/m\/1779425440891_8x73jqn2d4_Cropped.jpg","originalMediaUri":"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/m\/1779425440461_CRzq7SCmKh.jpg","thumbnailMediaUri":null,"orgFileName":"_BCJ6766.jpg","mediaType":"Image","description":null,"videoThumbnail":null,"position":1,"watermarkYn":"N","sortOrderNum":0,"originYn":null,"mediaDomain":null,"orginLoadYn":null},{"id":3971239,"mediaUri":"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/w\/1779412330390_IT7INkn62k_Cropped.jpg","originalMediaUri":"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/w\/1779412329919_jE8F7Ex8IE.jpg","thumbnailMediaUri":null,"orgFileName":"_BCJ6766.jpg","mediaType":"Image","description":null,"videoThumbnail":null,"position":2,"watermarkYn":"N","sortOrderNum":0,"originYn":null,"mediaDomain":null,"orginLoadYn":null}],"createdAt":"2026-05-22 10:22:28","updatedAt":"2026-05-22 15:59:15","publishAt":"2026-05-22 15:59:15","writer":{"id":4450,"pernr":"AP55004764","roles":null,"menuAuth":null,"nachn":null,"zzjkw":null,"zzjkw1":null,"zzjkg":null,"zzjkg1":null,"zzjkc":null,"zzjkc1":null,"email":null,"mobilePhone":null,"emailUser":null,"isSubcontrac":null,"orgName":"\uBBF8\uC220\uAD00 \uD559\uC608\uD300","activeYn":"Y","passwordFailCnt":0,"emailEc":"PRD_kg4zrUsyQ0iIBqufOtowOe+R3D+DyttHOKdapBWqrL0=","intPhone1Ec":null,"mobilePhoneEc":"PRD_afmFZAxpeAHOc9EebYyzBA==","sname":"\uC1A1\uB3C4\uD604"},"lastModifier":{"id":4330,"pernr":"AP55004309","roles":null,"menuAuth":null,"nachn":null,"zzjkw":null,"zzjkw1":null,"zzjkg":null,"zzjkg1":null,"zzjkc":null,"zzjkc1":null,"email":null,"mobilePhone":null,"emailUser":null,"isSubcontrac":null,"orgName":"\uBBF8\uC220\uAD00 \uC6B4\uC601\uD300","activeYn":"Y","passwordFailCnt":0,"emailEc":"PRD_tRkks2mQVrGfgFacUtL9dpybnl37KNB0ZF86XNHFnOk=","intPhone1Ec":null,"mobilePhoneEc":"PRD_Pd1ZTLk3vgL4WyESBMC\/jA==","sname":"\uCD5C\uC608\uC9C4"},"publisher":{"id":4330,"pernr":"AP55004309","roles":null,"menuAuth":null,"nachn":null,"zzjkw":null,"zzjkw1":null,"zzjkg":null,"zzjkg1":null,"zzjkc":null,"zzjkc1":null,"email":null,"mobilePhone":null,"emailUser":null,"isSubcontrac":null,"orgName":"\uBBF8\uC220\uAD00 \uC6B4\uC601\uD300","activeYn":"Y","passwordFailCnt":0,"emailEc":"PRD_tRkks2mQVrGfgFacUtL9dpybnl37KNB0ZF86XNHFnOk=","intPhone1Ec":null,"mobilePhoneEc":"PRD_Pd1ZTLk3vgL4WyESBMC\/jA==","sname":"\uCD5C\uC608\uC9C4"},"newYn":null,"statusType":null,"showTimeHideYn":"N","badgeCd":"PROGRESS","badgeTitle":"\uC608\uC57D","badgeTitleEn":"OPEN","payPlace":null,"payPlaceDetail":null,"memberYn":null,"ticketPublishYn":null,"paidExhibitionCount":0,"freeExhibitionCount":0,"freeGroupId":0,"collectionCount":0,"mediaType":null,"placeGroupList":[],"audioList":[],"applyStartTime":null,"applyEndTime":null,"showTime":null,"show":null,"qty":0,"totalOrderCnt":null,"amount":null,"applyType":null,"remark":null,"applyYn":null,"applyAble":false,"totalSession":0,"penaltyYn":"N","updateYn":"Y","applicationList":[],"applicantDayContentList":[],"applicantMapGds":[],"applicantGds":[],"exhibitionLinkList":[],"deleteTicketList":null,"linkId":0,"payPlaceList":[],"qtyTotal":0,"memApplyStartTime":null,"memApplyEndTime":null,"payPlaceDetailList":[],"mpreAcceptanceYn":"N"};
+		/*]]>*/
+	</script>
+	<script nonce="AFz/ug5ZR/+StbIYcPze/A==">
+		i18nProperty = jQuery.i18n.prop;
+
+		var onReady = function() {
+			//page css
+			$('body').addClass('clor_blue');
+			$('#container').css ({
+				'padding-top':'0',
+				'padding-left':'0',
+				'padding-right':'0',
+			});
+			$('#contents').css ({
+				'max-width':'100%',
+				'padding':'0',
+			});
+
+			//document view animation
+			$('#wrap').animate({
+				'margin-top': 0,
+				'opacity': 1.0,
+			},1000);
+			setTimeout(function(){
+				$('#header').animate({
+					'opacity': 1.0,
+				},500);
+				$('.cont_lut01').animate({
+					'padding-top': '70px',
+					'opacity': 1.0,
+				},500);
+			}, 500);
+
+			$("a.btn_movLayer").movLayer();
+
+			/**
+			 * Data
+			 * 1. 선착순 인원
+			 * 2. 신청일자
+			 * 3. 신청일자 true or false
+			 */
+			$('.info_btm').each(function() {
+				let tag = "";
+				if(content.applyStartTime != null && content.applyEndTime != null) {
+					let localeText ="신청하기";
+					if("KO" !== content.lang) {
+						localeText = "Apply";
+					}
+					if(content.applyAble) {
+						tag += "<ul class='info_btm info_btm_center'>";
+						tag += "<li class='btn'><a class='btn_apply' href='#none'>"+localeText+"</a></li>";
+						tag += "</ul>";
+					}
+				}
+				if(content.linkId != null && content.linkId > 0) {
+					let localeText ="신청하기";
+					if("KO" !== content.lang) {
+						localeText = "Apply";
+					}
+					if(content.applyAble) {
+						tag += "<ul class='info_btm info_btm_center'>";
+						tag += "<li class='btn'><a class='btn_apply' href='#none'>"+localeText+"</a></li>";
+						tag += "</ul>";
+					}
+
+				}
+				$('.share_ui').prepend(tag);
+			});
+
+			$(".btn_apply").unbind("click").bind("click", function(e) {
+				e.preventDefault();
+				let paramData = {};
+				paramData.groupId = content.groupId;
+				paramData.lang = content.lang;
+
+				$.ajax({
+						url: '/contents/exhibition/ajax/checkBadge.do',
+						method: 'POST',
+						async: false,
+						data: paramData,
+						beforeSend: function(xhr) {
+							// 쿠키에서 CSRF 토큰 읽어서 헤더에 추가
+							function getCsrfTokenFromCookie(name) {
+							  const value = "; " + document.cookie;
+							  const parts = value.split("; " + name + "=");
+							  if (parts.length === 2) return parts.pop().split(";").shift();
+							  return null;
+							}
+							const token = getCsrfTokenFromCookie('XSRF-TOKEN');
+							if (token) {
+							  xhr.setRequestHeader('X-XSRF-TOKEN', token);
+							}
+					  	},
+						success: function (data) {
+								if (data.data.status === "success") {
+										// jquery post request
+										let url = "/contents/ticket/ticketReservation.do";
+										let tempForm = $('<form></form>');
+										tempForm.attr('action', url);
+										tempForm.attr('method', 'get');
+
+										if(content.linkId != null && content.linkId > 0) {
+											tempForm.append($('<input/>', {type: 'hidden', name: 'groupId', value: content.linkId}))
+										} else {
+											tempForm.append($('<input/>', {type: 'hidden', name: 'groupId', value: content.groupId}))
+										}
+										tempForm.append($('<input/>', {type: 'hidden', name: 'contentType', value: 'EXHIBITION'}))
+										tempForm.appendTo('body');
+										tempForm.submit();
+								} else if (data.data.status === "fail") {
+										simpleLayerPopup(i18nProperty(data.data.message), function() {
+											location.reload();
+										});
+								}
+						},
+						error : function(data){
+								console.log("error "+data);
+						}
+				}); // end of ajax
+			});
+
+			share();
+
+			$(".content").each(function() {
+				var contents = $(this)[0].innerHTML;
+
+				if(contents !== '') {
+					var tags = '';
+
+					$.each($(contents), function(idx, tag) {
+						if($(tag)[0].nodeName !== '#text') {
+							var border = $(tag).css('border');
+
+							if(border === '31px') {
+								var temp = tag.outerHTML.replace(/<p/gi, "<iframe");
+								tags += temp.replace(/<\/p/gi, "<\/iframe");
+							} else {
+								tags += tag.outerHTML;
+							}
+						} else {
+							tags += $(tag)[0].data;
+						}
+					});
+
+					contents = tags;
+				};
+
+				$(this).html(contents);
+			});
+		};
+
+		$(document).ready(onReady);
+    </script>
+</section>
+<script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=4&cb=2135563012" async nonce="AFz/ug5ZR/+StbIYcPze/A=="></script></body>
+</html>

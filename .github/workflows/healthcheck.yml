@@ -16,7 +16,11 @@ concurrency:
 jobs:
   healthcheck:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    # Raised from 15: the registry doubled to 32 sources (10 Korean museums
+    # added 2026-07) and healthcheck crawls them serially with politeness
+    # delays; totem_pole's hardened retry alone can take ~3 min when the
+    # runner→Tokyo route is down.
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

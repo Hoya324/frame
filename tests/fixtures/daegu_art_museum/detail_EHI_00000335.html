@@ -1,0 +1,1990 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, minimum-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	
+		
+		
+			<meta name="robots" content="index,follow">
+			<meta property="og:type" content="website" id="mtype">
+			<meta property="og:title" content="현재전시" id="mtitle">
+			<meta property="og:description" content="현재전시 | 대구미술관 DAEGUARTMUSEUM" id="mdescription">
+			<meta property="og:image" content="https://daeguartmuseum.or.kr/cmsh/daeguartmuseum.or.kr/images/common/logo_header.png">
+			<meta property="og:url" content="http://daeguartmuseum.or.kr/index.do?menu_id=00000729&menu_link==" id="murls">
+		
+	
+	<meta name="description" content="대구미술관 DAEGUARTMUSEUM">
+	<meta name="keywords" content="대구미술관 DAEGUARTMUSEUM">
+	<title>현재전시 | 대구미술관 DAEGUARTMUSEUM</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/favicon.ico">
+	<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+	<link rel="stylesheet" href="/cmsh/daeguartmuseum.or.kr/css/base.css">
+	<link rel="stylesheet" href="/cmsh/daeguartmuseum.or.kr/css/slick.css">
+	<link rel="stylesheet" href="/cmsh/daeguartmuseum.or.kr/css/layout.css">
+	<link rel="stylesheet" href="/cmsh/daeguartmuseum.or.kr/css/common.css">
+	<link rel="stylesheet" href="/cmsh/daeguartmuseum.or.kr/css/content.css">
+	<link rel="stylesheet" href="/cmsh/daeguartmuseum.or.kr/css/vote.css">
+	<link rel="stylesheet" href="/cmsh/daeguartmuseum.or.kr/css/print.css">
+	<!-- <link rel="stylesheet" href="/cmsh/daeguartmuseum.or.kr/css/magnific-popup.css"> -->
+	<script src="/cmsh/daeguartmuseum.or.kr/js/jquery.min.js"></script>
+	<script src="/cmsh/daeguartmuseum.or.kr/js/slick.js"></script>
+	<script src="/cmsh/daeguartmuseum.or.kr/js/jquery.rwdImageMaps.min.js"></script>
+	<script src="/cmsh/daeguartmuseum.or.kr/js/common.js"></script>
+
+
+
+
+
+	<script>
+
+		document.addEventListener("contextmenu", e => {
+			e.target.matches("img") && e.preventDefault()
+		});
+
+		function rate(domain_id,menu_id){
+			if($(':radio[name="satisfaction_chk"]:checked').val() == undefined){
+				alert("만족도를 체크해주시기 바랍니다.");
+				return;
+			}
+			console.log("?domain_id="+domain_id+"&menu_id="+menu_id+"&chk="+$(':radio[name="satisfaction_chk"]:checked').val());
+			$.ajax({
+				  type : "POST"
+				, data :  "domain_id="+domain_id+"&menu_id="+menu_id+"&chk="+$(':radio[name="satisfaction_chk"]:checked').val()
+				, url : "/icms_menu_satisfaction.do"
+				, success : function(data){
+					if(data =='ok' ){
+						alert("의견이 정상적으로 반영되었습니다. 감사합니다. ");
+					}else if(data == 'duplicated') {
+						alert("이미 평가가 완료된 사용자입니다.");
+					}
+					else{
+						alert('데이타 입력도중 에러가 발생하였습니다. 다시 한번 시도해 주시기 바랍니다.');
+					}
+				}
+				 , error : function(data, status, err){
+					alert("서버와의 통신이 실패했습니다.");
+
+				}
+			});
+		}
+
+		/*
+			카카오 공유
+		 */
+		if(typeof mainKakao === "undefined" || mainKakao == null || mainKakao == ""){
+			Kakao.init('63886f1bd37feaaf9455ffd48a83e8ae');
+			function sendLink(title_nm, menu_nm, link) {
+				Kakao.Link.sendDefault({
+					objectType: 'feed',
+					content: {
+						title: title_nm,
+						description: menu_nm,
+						imageUrl: 'https://daeguartmuseum.or.kr/favicon.png',
+						link: {
+							mobileWebUrl: link,
+							webUrl: link
+						}
+					},
+					/*social: {
+                    likeCount: 286,
+                    commentCount: 45,
+                    sharedCount: 845
+                    },*/
+					buttons: [
+						{
+							title: '웹으로 보기',
+							link: {
+								mobileWebUrl: link,
+								webUrl: link
+							}
+						},
+					]
+				});
+			}
+		}
+
+		function fn_shareBand(id,title,content,likes,reply,fileid){
+			var varUA = navigator.userAgent.toLowerCase();
+			var url = 'http:///index.do?menu_id=00000729&menu_link=&='+id;
+			var encodeURL = encodeURIComponent(url);
+
+			if (varUA.match('android') != null) {
+				$(location).attr('href',"bandapp://create/post?text=[대구미술관]\n "+title+"\n\n "+ content +" "+ encodeURL);
+			} else if (varUA.indexOf("iphone") > -1 || varUA.indexOf("ipad") > -1
+					|| varUA.indexOf("ipod") > -1) {
+				$(location).attr('href',"bandapp://create/post?text=[대구미술관]\n "+title+"\n\n "+ content +" "+  encodeURL);
+			} else {
+				window.open("http://band.us/plugin/share?body=[대구미술관]"
+						+ encodeURIComponent("\n") + " "+title + " "
+						+ encodeURIComponent("\n\n") + " "+content + " "
+						+ encodeURL + " &route=" + encodeURL, "share_band",
+						"width=410, height=540, resizable=no");
+			}
+
+		}
+	</script>
+	<script>
+	$(function(){
+		if(!($(".twitter_bbs") == null || $(".twitter_bbs") =="")){
+			$(".twitter_bbs").attr("onClick", "window.open('http://twitter.com/intent/tweet?url=http://daeguartmuseum.or.kr/index.do?menu_id=00000729&menu_link=&=','win','width=640,height=480,toolbar=0,scrollbars=0,resizable=0')");
+		}
+		if(!($(".facebook_bbs") == null || $(".facebook_bbs") =="")){
+			$(".facebook_bbs").attr("onClick", "window.open('http://www.facebook.com/sharer/sharer.php?u=http://daeguartmuseum.or.kr/index.do?menu_id=00000729&menu_link=&=','win','width=640,height=480,toolbar=0,scrollbars=0,resizable=0')");
+		}
+		if(!($(".kakao_bbs") == null || $(".kakao_bbs") =="")){
+			$(".kakao_bbs").attr("onClick", "sendLink('현재전시','현재전시','http:///index.do?menu_id=00000729&menu_link=&=')");
+		}
+		if(!($(".blog_bbs") == null || $(".blog_bbs") =="")){
+			$(".blog_bbs").attr("onClick", "fn_shareBand('','현재전시','http:///index.do?menu_id=00000729&menu_link=&=')");
+		}
+	});
+</script>
+</head>
+ <body class="c00000729" data-menu-idtop="00000721" data-menu-idup="00000721" data-menu-type="00000729">
+
+	<div id="wrap">
+		<!-- Skip Content -->
+		<div id="skip_nav"><a href="#content">본문 바로가기</a></div>
+		<!-- // Skip Content -->
+		<!-- Header -->
+		
+
+
+
+
+
+
+
+
+
+
+
+	<!-- 상단 배너 -->
+	
+	<!-- // 상단 배너 -->
+
+	<header id="header">
+		<div class="inr">
+			<!-- 로고 area -->
+			<div class="area_logo">
+				<h1 class="logo"><a href="/index.do">대구미술관 DAEGUARTMUSEUM</a></h1>
+			</div>
+			<!-- // 로고 area -->
+			<!-- 헤더 GNB -->
+			<nav class="gnb_wrap">
+				<div class="inr">
+					<h2 class="hidden">주메뉴</h2>
+					<ul id="gnb">
+						<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/index.do?menu_id=00000721"><span>전시</span></a>
+
+<div>
+	<ul>
+<li>
+    <a href="/index.do?menu_id=00000729">현재전시</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000730">지난전시</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000731">예정전시</a>
+</li>
+</ul>
+
+</div></li>
+						<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/index.do?menu_id=00000722"><span>교육/행사</span></a>
+
+<div>
+	<ul>
+<li>
+    <a href="/index.do?menu_id=00000732">교육</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000734">이벤트</a>
+</li>
+</ul>
+
+</div></li>
+						<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/index.do?menu_id=00000723"><span>소장품/아카이브</span></a>
+
+<div>
+	<ul>
+<li>
+    <a href="/index.do?menu_id=00004101">소장품</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000761">이건희컬렉션</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000764">이건희컬렉션</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000765">이인성</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000766">서동진</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000767">서진달</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000768">변종하</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000769">이쾌대</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000770">김종영</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000771">문학진</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000772">유영국</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000762">아카이브실</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000773">이용안내</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000774">아카이브검색</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00004111">작품대여신청</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00004061">작품기증절차</a>
+</li>
+</ul>
+
+</div></li>
+						<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/index.do?menu_id=00000724"><span>미술상</span></a>
+
+<div>
+	<ul>
+<li>
+    <a href="/index.do?menu_id=00000779">이인성미술상</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000781">LEEINSUNG ART PRIZE</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000782">WINNERS</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000780">정점식미술이론상</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000783">JUNGJEUMSIK ART PRIZE</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000784">WINNERS</a>
+</li>
+</ul>
+</li>
+</ul>
+
+</div></li>
+						<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/index.do?menu_id=00000725"><span>디지털미술관</span></a>
+
+<div>
+	<ul>
+<li>
+    <a href="/index.do?menu_id=00000785">동영상</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000786">디지털 가상공간 <몰입></a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000789">이용안내</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000790">VR 영상</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00004071">오디오가이드</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000787">사진</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000788">발간자료</a>
+</li>
+</ul>
+
+</div></li>
+						<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/index.do?menu_id=00000726"><span>소식ㆍ참여</span></a>
+
+<div>
+	<ul>
+<li>
+    <a href="/index.do?menu_id=00000791">공지사항</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000793">참여마당</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000794">보도자료</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000795">언론기사</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000796">뉴스레터</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000799">메일링서비스가입</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000800">e-뉴스레터</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000801">메일서비스 취소</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000797">Art 카테고리</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000802">미술분야</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000803">문화예술 네트워크</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000798">서포터즈</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000804">서포터즈 소개</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000805">서포터즈 활동 자료실</a>
+</li>
+</ul>
+</li>
+</ul>
+
+</div></li>
+						<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/index.do?menu_id=00000727"><span>미술관소개/안내</span></a>
+
+<div>
+	<ul>
+<li>
+    <a href="/index.do?menu_id=00000735">대구미술관</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000739">인사말</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000740">미술관소개</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000741">MI</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000742">조직 및 구성원</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000736">관람안내</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000743">관람시간 및 요금</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000744">도슨트프로그램</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000746">디지털 가상공간 <몰입></a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000747">관람예절</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000737">오시는 길</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000738">시설안내</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000748">미술관시설</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000749">전시실</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000750">층별안내</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000751">편의시설</a>
+</li>
+</ul>
+</li>
+</ul>
+
+</div></li>
+					</ul>
+					<div class="gnb_bg">
+						<div class="inr"></div>
+					</div>
+				</div>
+			</nav>
+			<!-- //헤더 GNB -->
+			<!-- Util -->
+			<div class="util_r">
+				<ul class="lst_util">
+					<li class="u_sitemap"><a href="#" class="btn_sitemap_open">전체메뉴</a>
+						<div class="box_sitemap">
+							<button class="btn_sitemap_close">전체메뉴 닫기</button>
+							<div class="inr">
+								<h2 class="sitemap_tit">전체메뉴</h2>
+								<ul class="lst_sitemap">
+									<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/index.do?menu_id=00000721"><span>전시</span></a>
+
+<div>
+	<ul>
+<li>
+    <a href="/index.do?menu_id=00000729">현재전시</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000730">지난전시</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000731">예정전시</a>
+</li>
+</ul>
+
+</div></li>
+									<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/index.do?menu_id=00000722"><span>교육/행사</span></a>
+
+<div>
+	<ul>
+<li>
+    <a href="/index.do?menu_id=00000732">교육</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000734">이벤트</a>
+</li>
+</ul>
+
+</div></li>
+									<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/index.do?menu_id=00000723"><span>소장품/아카이브</span></a>
+
+<div>
+	<ul>
+<li>
+    <a href="/index.do?menu_id=00004101">소장품</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000761">이건희컬렉션</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000764">이건희컬렉션</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000765">이인성</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000766">서동진</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000767">서진달</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000768">변종하</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000769">이쾌대</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000770">김종영</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000771">문학진</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000772">유영국</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000762">아카이브실</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000773">이용안내</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000774">아카이브검색</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00004111">작품대여신청</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00004061">작품기증절차</a>
+</li>
+</ul>
+
+</div></li>
+									<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/index.do?menu_id=00000724"><span>미술상</span></a>
+
+<div>
+	<ul>
+<li>
+    <a href="/index.do?menu_id=00000779">이인성미술상</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000781">LEEINSUNG ART PRIZE</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000782">WINNERS</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000780">정점식미술이론상</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000783">JUNGJEUMSIK ART PRIZE</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000784">WINNERS</a>
+</li>
+</ul>
+</li>
+</ul>
+
+</div></li>
+									<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/index.do?menu_id=00000725"><span>디지털미술관</span></a>
+
+<div>
+	<ul>
+<li>
+    <a href="/index.do?menu_id=00000785">동영상</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000786">디지털 가상공간 <몰입></a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000789">이용안내</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000790">VR 영상</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00004071">오디오가이드</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000787">사진</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000788">발간자료</a>
+</li>
+</ul>
+
+</div></li>
+									<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/index.do?menu_id=00000726"><span>소식ㆍ참여</span></a>
+
+<div>
+	<ul>
+<li>
+    <a href="/index.do?menu_id=00000791">공지사항</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000793">참여마당</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000794">보도자료</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000795">언론기사</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000796">뉴스레터</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000799">메일링서비스가입</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000800">e-뉴스레터</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000801">메일서비스 취소</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000797">Art 카테고리</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000802">미술분야</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000803">문화예술 네트워크</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000798">서포터즈</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000804">서포터즈 소개</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000805">서포터즈 활동 자료실</a>
+</li>
+</ul>
+</li>
+</ul>
+
+</div></li>
+									<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/index.do?menu_id=00000727"><span>미술관소개/안내</span></a>
+
+<div>
+	<ul>
+<li>
+    <a href="/index.do?menu_id=00000735">대구미술관</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000739">인사말</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000740">미술관소개</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000741">MI</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000742">조직 및 구성원</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000736">관람안내</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000743">관람시간 및 요금</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000744">도슨트프로그램</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000746">디지털 가상공간 <몰입></a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000747">관람예절</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000737">오시는 길</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000738">시설안내</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000748">미술관시설</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000749">전시실</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000750">층별안내</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000751">편의시설</a>
+</li>
+</ul>
+</li>
+</ul>
+
+</div></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="u_srch">
+						<script>
+							function fnHeaderSrch(){
+								var keywordInput = document.getElementById("headerSrchSearchKeyword");
+								if(keywordInput.value == "" || keywordInput.value.length < 2){
+									alert("2자 이상의 검색어를 입력해주세요");
+									keywordInput.value = "";
+								}else {
+									location.href="/index.do?menu_id=00004021&searchKeyword="+keywordInput.value;
+								}
+							}
+							$(function(){
+								$("#headerSrchSearchKeyword").on('keypress',(event)=>{
+									//console.log(event,event.keyCode,fnHeaderSrch);
+									if(event.keyCode == 13)fnHeaderSrch();
+								});
+							});
+						</script>
+						<button type="button" class="btn_srch_open" title="축소됨"><span>검색</span></button>
+						<div class="box_srch">
+							<div class="inr">
+								<div class="area_srch">
+									<label for="headerSrchSearchKeyword">Search</label>
+									<input type="text" id="headerSrchSearchKeyword" name="searchKeyword" class="word">
+									<button type="button" onclick="fnHeaderSrch();" class="btn_srch">검색</button>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="u_lang">
+						<div class="lang_area cssSelect">
+							<button type="button" class="open_select" title="축소됨">한국어</button>
+							<div class="box_select">
+								<ul>
+									<li><a href="/index.do" class="on">한국어</a></li>
+									<li><a href="/eng/index.do">ENG</a></li>
+									<li><a href="/chi/index.do">中文</a></li>
+									<li><a href="/jpn/index.do">日本語</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- // Util -->
+			<!-- 모바일 전체메뉴 -->
+			<nav class="wholeview_wrap">
+				<button type="button" class="btn_wv" title="축소됨"><span class="sp_ui">전체메뉴</span></button>
+				<div id="wholeview">
+					<div class="inr">
+						<!-- head -->
+						<button type="button" class="w_close_btn">닫기</button>
+						<!-- 전체메뉴 -->
+						<h2 class="title_wv">menu</h2>
+						<ul class="nav">
+							<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/index.do?menu_id=00000721"><span>전시</span></a>
+
+<div>
+	<ul>
+<li>
+    <a href="/index.do?menu_id=00000729">현재전시</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000730">지난전시</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000731">예정전시</a>
+</li>
+</ul>
+
+</div></li>
+							<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/index.do?menu_id=00000722"><span>교육/행사</span></a>
+
+<div>
+	<ul>
+<li>
+    <a href="/index.do?menu_id=00000732">교육</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000734">이벤트</a>
+</li>
+</ul>
+
+</div></li>
+							<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/index.do?menu_id=00000723"><span>소장품/아카이브</span></a>
+
+<div>
+	<ul>
+<li>
+    <a href="/index.do?menu_id=00004101">소장품</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000761">이건희컬렉션</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000764">이건희컬렉션</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000765">이인성</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000766">서동진</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000767">서진달</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000768">변종하</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000769">이쾌대</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000770">김종영</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000771">문학진</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000772">유영국</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000762">아카이브실</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000773">이용안내</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000774">아카이브검색</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00004111">작품대여신청</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00004061">작품기증절차</a>
+</li>
+</ul>
+
+</div></li>
+							<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/index.do?menu_id=00000724"><span>미술상</span></a>
+
+<div>
+	<ul>
+<li>
+    <a href="/index.do?menu_id=00000779">이인성미술상</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000781">LEEINSUNG ART PRIZE</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000782">WINNERS</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000780">정점식미술이론상</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000783">JUNGJEUMSIK ART PRIZE</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000784">WINNERS</a>
+</li>
+</ul>
+</li>
+</ul>
+
+</div></li>
+							<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/index.do?menu_id=00000725"><span>디지털미술관</span></a>
+
+<div>
+	<ul>
+<li>
+    <a href="/index.do?menu_id=00000785">동영상</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000786">디지털 가상공간 <몰입></a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000789">이용안내</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000790">VR 영상</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00004071">오디오가이드</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000787">사진</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000788">발간자료</a>
+</li>
+</ul>
+
+</div></li>
+							<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/index.do?menu_id=00000726"><span>소식ㆍ참여</span></a>
+
+<div>
+	<ul>
+<li>
+    <a href="/index.do?menu_id=00000791">공지사항</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000793">참여마당</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000794">보도자료</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000795">언론기사</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000796">뉴스레터</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000799">메일링서비스가입</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000800">e-뉴스레터</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000801">메일서비스 취소</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000797">Art 카테고리</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000802">미술분야</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000803">문화예술 네트워크</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000798">서포터즈</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000804">서포터즈 소개</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000805">서포터즈 활동 자료실</a>
+</li>
+</ul>
+</li>
+</ul>
+
+</div></li>
+							<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/index.do?menu_id=00000727"><span>미술관소개/안내</span></a>
+
+<div>
+	<ul>
+<li>
+    <a href="/index.do?menu_id=00000735">대구미술관</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000739">인사말</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000740">미술관소개</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000741">MI</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000742">조직 및 구성원</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000736">관람안내</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000743">관람시간 및 요금</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000744">도슨트프로그램</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000746">디지털 가상공간 <몰입></a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000747">관람예절</a>
+</li>
+</ul>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000737">오시는 길</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000738">시설안내</a>
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000748">미술관시설</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000749">전시실</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000750">층별안내</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000751">편의시설</a>
+</li>
+</ul>
+</li>
+</ul>
+
+</div></li>
+						</ul>
+						<!-- 전체메뉴 -->
+					</div>
+				</div>
+				<!-- 메뉴배경-->
+				<div class="dim_wv">
+				</div>
+				<!-- 메뉴배경-->
+			</nav>
+			<!-- // 모바일 전체메뉴 -->
+		</div>
+	</header>
+
+		<!-- // Header -->
+		<!-- Container -->
+		<div id="container">
+			
+			<div class="inr">
+				<!-- Side -->
+				
+				<!-- // Side -->
+				<!-- Content -->
+				<div id="content" class="cont_wrap">
+					<!-- cont_head -->
+					<header class="cont_head">
+						<div class="inr">
+							<button type="button" class="btn_back" onclick="history.go(-1); return false;">이전</button>
+							<!-- 컨텐츠 제목 -->
+							<div class="area_title">
+								<h1 class="title">
+									<span>
+										
+										
+											현재전시
+										
+									</span>
+								</h1>
+								<!-- 컨텐츠 제목 형제 메뉴 -->
+								<div class="nav">
+									
+									
+										
+											
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul>
+<li>
+    <a href="/index.do?menu_id=00000729">현재전시</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000730">지난전시</a>
+</li>
+<li>
+    <a href="/index.do?menu_id=00000731">예정전시</a>
+</li>
+</ul>
+
+
+
+
+
+										
+									
+
+								</div>
+								<!-- // 컨텐츠 제목 형제 메뉴 -->
+							</div>
+							<!-- // 컨텐츠 제목 -->
+							<!-- loc -->
+							
+
+
+
+
+
+
+
+
+
+
+
+<ol class="sub_loc">
+	<li><span class="hidden">홈</span></li>
+	
+		<li  >전시</li>
+	
+		<li class="current" >현재전시</li>
+		
+</ol>
+
+							<!-- // loc -->
+							<!-- Util -->
+							<div class="util_area">
+								<div class="c_share_box">
+									<button class="btn_share">공유하기</button>
+									<div class="ly_share">
+										<button class="sp_sns btn_blog blog_bbs" title="새창" onclick="">블로그로 공유</button>
+										<button class="sp_sns btn_facebook facebook_bbs" title="새창">페이스북으로 공유</button>
+										<!--<button class="sp_sns btn_instagram instagram_bbs" title="새창">인스타그램으로 공유</button>-->
+										<button id="kakao-link-btn" class="sp_sns btn_kakao kakao_bbs" title="새창">카카오톡 공유</button>
+									</div>
+								</div>
+								<button class="btn_print" onclick="window.print()">인쇄</button>
+							</div>
+							<!-- // Util -->
+							
+						</div>
+					</header>
+					<!-- //cont_head -->
+					<!-- cont_body -->
+					<div class="cont_body">
+						<!-- 컨텐츠 -->
+						
+						
+
+
+
+
+
+
+
+
+
+
+
+
+						
+						
+						
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" language="javascript">
+
+    function fn_list(){
+        document.ehiVO.action = "/index.do?menu_id=00000729&menu_link=/front/ehi/ehiListFront.do";
+        document.ehiVO.submit();
+    }
+
+    /*오디오 가이드 팝업*/
+    $(function audioGuide() {
+        $(".audio_guide .btn_audio").click(function () {
+            console.log($(this).attr("data-ehi"));
+            var id = $(this).attr("data-ehi");
+            $(".lypop_audioguide").removeClass("open");
+            $("#"+id+"_lypop").addClass("open");
+            $("body").addClass("fixed_lyPopAudio");
+
+            $.ajax({
+                url: "/front/ehi/ehiCntUpdate.do",
+                type:"POST",
+                data:{
+                    "ehi_id" : id
+                },
+                dataType : "text",
+                error: function(data) {
+                },
+                success:function (data) {
+                }
+            });
+        });
+        var lyPopAudio = (function() {
+
+            function init() {
+                lypop();
+            }
+
+            function lypop() {
+                // hide
+                $(document).on("click", ".lypop_audioguide .btn_close", function(e){
+                    e.preventDefault();
+                    $(".lypop_audioguide").removeClass("open");
+                    $("body").removeClass("fixed_lyPopAudio");
+
+                    //닫기 버튼시 오디오파일 재생 중지
+                    $(".myAudio").each(function () {
+                        $(this).get(0).pause();
+                    });
+                    //
+                });
+            }
+            init();
+
+        })();
+    });
+
+</script>
+
+<form id="ehiVO" name="ehiVO" action="/index.do?menu_id=00000729&amp;menu_link=/front/ehi/ehiViewFront.do&amp;ehi_id=EHI_00000335" method="post" enctype="multipart/form-data">
+    <input id="ehi_id" name="ehi_id" type="hidden" value="EHI_00000335"/>
+    <input id="ehi_state" name="ehi_state" type="hidden" value="ING"/>
+    <input id="searchCondition8" name="searchCondition8" type="hidden" value=""/>
+<div class="c_exh_view">
+    <div class="exh_view_head">
+        <div class="tit_area">
+            
+                
+                    <span class="step ing">진행중</span>
+                
+                
+                
+            
+
+            <h2 class="tit">2026 다티스트 《심윤： 회색 극장》</h2>
+        </div>
+        <div class="info_area">
+            <div class="info">
+                <em class="info_tit">기간</em>
+                <span>
+                    2026-07-14 ~ 2026-10-11
+                </span>
+            </div>
+            <div class="info">
+                <em class="info_tit">장소</em>
+                <span>
+                    대구미술관 2, 3전시실
+                </span>
+            </div>
+                <div class="audio_guide">
+                    
+                </div>
+        </div>
+
+    </div>
+
+    <!-- 오디오 가이드-->
+    <div class="lypop_audioguide" id="EHI_00000335_lypop">
+        <div class="container">
+            <div class="inr">
+                <div class="head">
+                    <span class="tit">
+                        
+                            
+                                2026 다티스트 《심윤： 회색 극장》
+                            
+                            
+                            
+                        
+                    </span>
+                    <button class="btn_close" type="button">닫기</button>
+                </div>
+                <div class="caption" tabindex="0">
+                    
+                        
+                        
+                        
+                            
+                        
+                    
+                    <textarea readonly name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="play_area">
+                    <strong class="tit">오디오 듣기</strong>
+                    <audio controls class="myAudio">
+                            
+                                
+                                
+                                
+                                    
+                                
+                            
+                            <source src="/icms/cmm/fms/FileDown.do?atchFileId=&fileSn=0" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 오디오 가이드-->
+    <div class="exh_view_tab">
+        <div class="inr">
+            
+            
+            
+            <span class="tab on"><a href="/index.do?menu_id=00000729&menu_link=/front/ehi/ehiViewFront.do&ehi_id=EHI_00000335">상세정보</a></span>
+            <span class="tab "><a href="/index.do?menu_id=00000729&menu_link=/front/ehi/ehiWoaFront.do&ehi_id=EHI_00000335">작품소개</a></span>
+            <span class="tab "><a href="/index.do?menu_id=00000729&menu_link=/front/ehi/ehiArtsFront.do&ehi_id=EHI_00000335">작가소개</a></span>
+        </div>
+    </div>
+    <!-- 상세정보 -->
+    <div class="exh_view_intro">
+        <div class="img">
+            
+                
+                    
+                    
+                
+
+
+
+
+
+
+
+	
+	
+
+
+	
+
+
+
+
+	
+	<img src='/icms/file/getImage.do?atchFileId=FILE_000000000037984PBGBJO&fileSn=0' alt="전시작 포스터(420 630)" onerror="this.src='/cms_images/icms/front/common/noimage/noimage.png'"  style='width:98%px;height:98%px'/>
+	<br />
+
+
+
+
+
+            
+        </div>
+        <div class="intro">
+            
+                <div data-hjsonver="1.0" data-jsonlen="6167" id="hwpEditorBoardContent">
+                    <span style="font-size:18px;"><strong>ㅇ 전 시 명: 2026 다티스트 《심윤: 회색 극장》<br />
+ㅇ 전시기간: 2026. 7. 14.(화) &sim; 2026. 10. 11.(일)<br />
+ㅇ 전시장소: 대구미술관 2, 3전시실, 선큰가든<br />
+ㅇ 참여작가: 심윤 (1979~, 대구)<br />
+ㅇ 출품작: 회화, 드로잉 등 총 80여점</strong><br />
+<br />
+대구미술관은 2026년 &lsquo;다티스트&rsquo; 선정 작가 심윤의 개인전 《회색 극장》을 개최한다. 심윤은 동시대 인간의 삶과 존재 조건을 탐구하며 긴장과 피로, 갈등과 단절이 스며든 현실을 회화로 풀어내는 작업을 지속해왔다. 작가는 삶을 단순한 일상이 아닌, 끊임없이 자신을 견디고 역할을 수행해야 하는 &lsquo;전쟁 같은 상태&rsquo;로 바라본다. 거대한 사회 구조 속에서 살아가는 현대인들은 저마다의 책임과 관계 속에서 흔들리고 버티며 하루를 이어간다. 작가는 이러한 풍경을 자신만의 회화 언어로 시각화해 왔다. 그가 선보여온 연작들은 전쟁 이미지와 도시 구조, 반복되는 일상과 인간 군상을 통해 삶에 내재된 고독과 존재의 무게를 추적하는 과정이다. 전시 제목 &lsquo;회색 극장&rsquo;은 선명하게 규정할 수 없는 시대의 감각과 그 안에서 살아가는 우리의 모습을 하나의 &lsquo;무대&rsquo;로 은유한다.<br />
+<br />
+이번 전시는 심윤의 새로운 연작 〈조용한 게르니카〉를 중심축으로 구성된다. 작가는 피카소의 〈게르니카〉를 단순히 재현하거나 오마주하는 데 그치지 않고, 우리 사회에 스며있는 갈등과 집단적 피로, 관계의 균열을 보여주는 하나의 시대적 도상으로 재구성한다. 황소와 말, 목격자 등의 상징적 형상은 권력과 공포, 무감각과 불안이 뒤섞인 징후를 암시한다. 이들은 각각 독립된 단서로 등장하며, 전시를 따라 하나의 거대한 서사를 형성해 나간다.<br />
+<br />
+전시는 심윤의 작업이 지닌 극적인 화면 구성과 수행적인 몸짓, 그리고 캔버스 위에 축적되는 서사에 주목하여 &lsquo;프롤로그(Prologue), 인터루드(Interlude), 액트(Act), 피날레(Finale), 에필로그(Epilogue)&rsquo;라는 연극적 형식을 차용하였다. 관람객은 공간을 이동하며 작가가 바라본 동시대 삶의 풍경과 시대의 감각을 하나의 연극처럼 경험하게 된다. 2, 3 전시실 사이 공간에서 마주하게 되는 〈천국의 문〉은 불확실성 속에서도 인간을 앞으로 나아가게 하는 희미한 가능성을 드러내며 전시의 흐름을 전환한다. 전시의 결말부에서 펼쳐지는 대형 회화 〈조용한 게르니카〉는 그동안 펼쳐진 삶의 단면들을 한 화면에 응축시키며 서사를 절정으로 이끈다.<br />
+<br />
+전시의 마지막을 알리는 〈에필로그〉는 무대의 막이 내린 후에도 계속되는 현실의 시간을 암시한다. 서로 다른 세대의 형상은 존재의 무게와 시간의 지속성을 함께 드러내며, 전시실을 나선 이후에도 이어질 일상을 다시 바라보게 한다. 심윤의 《회색 극장》은 오늘을 살아가는 우리의 풍경을 한 편의 연극적 서사로 펼쳐 보이며, 각자가 살아가는 삶과 현실을 돌아보는 여운을 남긴다.</span>
+                </div>
+        </div>
+    </div>
+    <!-- // 상세정보 -->
+    <div class="exh_view_btm">
+        
+            <a href="#" onclick="fn_list();" class="button lg black">목록</a>
+    </div>
+</div>
+
+</form>
+
+
+						
+						
+						
+
+
+
+
+
+
+
+
+
+
+
+
+						
+						<!-- // 컨텐츠 -->
+
+
+
+
+
+
+
+						<!-- 공공누리 -->
+						
+						
+						
+						
+						<!-- // 공공누리 -->
+
+					</div>
+					<!-- // cont_body -->
+
+					<!-- cont_foot -->
+					<div class="cont_foot">
+						<!-- 컨텐츠 평가 -->
+						<div class="cont_rating">
+							<div class="inr">
+								<h2>현재페이지의 내용과 사용편의성에 만족하십니까?</h2>
+								<div class="inp_area">
+									<fieldset>
+										<legend>사용편의성 만족도</legend>
+										<span>
+										<input type="radio" id="cmt1" value="5" name="satisfaction_chk" class="inp_rdo">
+										<label for="cmt1">매우 만족</label>
+										</span>
+										<span>
+										<input type="radio" id="cmt2" value="4" name="satisfaction_chk" class="inp_rdo">
+										<label for="cmt2">만족</label>
+										</span>
+										<span>
+										<input type="radio" id="cmt3" value="3" name="satisfaction_chk" class="inp_rdo">
+										<label for="cmt3">보통</label>
+										</span>
+										<span>
+										<input type="radio" id="cmt4" value="2" name="satisfaction_chk" class="inp_rdo">
+										<label for="cmt4">불만족</label>
+										</span>
+										<span>
+										<input type="radio" id="cmt5" value="1" name="satisfaction_chk" class="inp_rdo">
+										<label for="cmt5">매우 불만족</label>
+										</span>
+										<input type="button" onclick="rate('DOMAINMSTR_000000000101','00000729');" value="평가하기" class="btn_rate" />
+
+									</fieldset>
+								</div>
+							</div>
+						</div>
+						<!-- //컨텐츠 평가 -->
+						<!-- 자료 담당자 -->
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- <div class="onesPost730"> -->
+	<div class="cont_manager">
+
+		<dl class="manager">
+			<dt>자료관리 담당자</dt>
+			<dd>
+				<span class="name"></span>
+				<span class="dept">(학예연구실 :<a href="tel:053-430-7513" class="tel">TEL.053-430-7513</a>)</span>
+			</dd>
+		</dl>
+		<dl class="update">
+			
+			
+			<dt>최근업데이트</dt>
+			<dd>2022-12-27</dd>
+		</dl>
+		<!-- <div class="btnError">
+			<a href="#none" id="fn_page_feed_bookmarksite" class="btnTypeD1"><span>북마크</span></a>
+			<a href="javascript:checkLogin();" class="btnTypeD"><span>오류신고하기</span></a>
+		</div> -->
+	</div>
+
+	<input type="hidden" id="error_user_id" name="error_user_id">
+	<input type="hidden" id="error_menu_id" name="error_menu_id">
+
+	<script type="text/javascript">
+	function checkLogin(){
+		$.ajax({
+		      type: "POST",
+		      url: "/front/icmsError/IcmsLoginCheck.do?menu_id="+"00000729",
+		      success: function(data) {
+		        if(data == null || data == ''){
+		          alert('로그인 정보를 가져오는데 실패하였습니다');
+		        }else{
+		          document.getElementById("error_user_id").value = data.user_uniq_id;
+		          document.getElementById("error_menu_id").value = data.menu_id;
+
+		          if(document.getElementById("error_user_id").value != ""){
+		        	  popup_window = window.open("/front/icmsError/IcmsErrorRegisterView.do","pop","width=650,height=450,scrollbars=yes,resizable=yes");
+		            popup_window.focus();
+		          }
+		          else{
+		        	  if(confirm("로그인을 하셔야 사용하실수 있습니다. \r로그인 화면으로 이동합니다.")){
+		        		  // document.location.replace("/?menu_id=00000099&ref=" + "00000729");
+		        		  document.location.replace("/index.do?menu_id=00000099");
+		        	  }
+		          }
+		        }
+		      }
+		      , error: function(data, status, err) {
+		      alert('서버와의 통신이 실패했습니다.');
+		    }
+		  });
+	}
+	</script>
+
+
+
+
+
+
+
+						<!-- // 자료 담당자 -->
+					</div>
+					<!-- // cont_foot -->
+				</div>
+				<!-- // Content -->
+			</div>
+		</div>
+		<!-- // Container -->
+		<!-- Footer -->
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="/js/pwajs/fetch.js"></script>
+	<script type="text/javascript" src="/js/pwajs/idb.js"></script>
+	<script type="text/javascript" src="/js/pwajs/utility.js"></script>
+	<script type="text/javascript" src="/js/pwajs/app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+	<script type="text/javascript" src="/js/pwajs/promise.js"></script>
+	<script type="text/javascript" src="/js/pwajs/pwa.js"></script>
+
+	<footer id="footer">
+		<div class="nav_goto">
+			<a href="#wrap" class="go_top">상단으로 이동</a>
+			<a href="#footer" class="go_btm">하단으로 이동</a>
+		</div>
+		<div class="info_area">
+			<div class="inr">
+				<div class="col">
+					<h2 class="tit">관람안내</h2>
+					<ul>
+						<li><a href="/index.do?menu_id=00000743">관람시간 및 요금</a></li>
+						<li><a href="/index.do?menu_id=00000744">도슨트 프로그램</a></li>
+						
+						<li><a href="/index.do?menu_id=00000746">디지털 가상공간&#60;몰입&#62;</a></li>
+						<li><a href="/index.do?menu_id=00000747">관람예절</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h2 class="tit">시설안내</h2>
+					<ul>
+						<li><a href="/index.do?menu_id=00000748">미술관시설</a></li>
+						<li><a href="/index.do?menu_id=00000749">전시실</a></li>
+						<li><a href="/index.do?menu_id=00000750">층별안내</a></li>
+						<li><a href="/index.do?menu_id=00000751">편의시설</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h2 class="tit">이용안내</h2>
+					<ul>
+						<li><a href="/index.do?menu_id=00000821">이용약관</a></li>
+						<li><a href="/index.do?menu_id=00000822">개인정보처리방침</a></li>
+						<!-- <li><a href="/index.do?menu_id=00000823">행정서비스헌장</a></li> -->
+						<!-- <li><a href="#" class="btn_sitemap_open">사이트맵</a></li> -->
+					</ul>
+				</div>
+				<div class="col">
+					<h2 class="tit">메일링서비스</h2>
+					<ul>
+						<li><a href="/index.do?menu_id=00000799">메일링 서비스 가입</a></li>
+						<li><a href="/index.do?menu_id=00000800">e-뉴스레터</a></li>
+						<li><a href="/index.do?menu_id=00000801">메일링 서비스 가입철회</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="copy_area">
+			<div class="inr">
+				<div class="address_area">주소 : (우.42250) 대구광역시 수성구 미술관로 40 <span class="tel_wrap">대표전화 : <a href="tel:+82-53-430-7500" class="tel"><strong>+82-53-430-7500</strong></a></span><span class="tel_wrap">팩스번호 : <a href="tel:+82-53-430-7519" class="tel"><strong>+82-53-430-7519</strong></a></span> &copy; DAEGU ARTMUSEUM, KOREA</div>
+				<div class="call_area">대표전화: <a href="tel:053-803-7900">053-430-7500</a></div>
+			</div>
+		</div>
+	</footer>
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+	if(!wcs_add) var wcs_add = {};
+	wcs_add["wa"] = "8f9b4d54d652e8";
+	if(window.wcs) {
+		wcs_do();
+	}
+</script>
+
+		<!-- // Footer -->
+	</div>
+</body>
+</html>

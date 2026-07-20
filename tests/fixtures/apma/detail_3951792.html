@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Google Tag Manager -->
+    <script nonce="bqkUb34128fuO6fTWU7ybw==">
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');
+        n&&j.setAttribute('nonce',n.nonce||n.getAttribute('nonce'));f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NNTXRQ5J');
+
+        window.gtmNonce = document.currentScript?.nonce ||
+                         document.querySelector('script[nonce]')?.nonce ||
+                         document.querySelector('script[nonce]')?.getAttribute('nonce');
+
+        var originalCreateElement = document.createElement;
+        document.createElement = function(tagName) {
+            var element = originalCreateElement.call(document, tagName);
+            if (tagName.toLowerCase() === 'script' && window.gtmNonce) {
+                element.setAttribute('nonce', window.gtmNonce);
+            }
+            return element;
+        };
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Splunk RUM -->
+    <script src="https://cdn.signalfx.com/o11y-gdi-rum/latest/splunk-otel-web.js" crossorigin="anonymous"></script>
+    <script nonce="bqkUb34128fuO6fTWU7ybw==">
+        SplunkRum.init({
+            realm: "us1",
+            rumAccessToken: "oG_rY4_z3b8yo23bt818gg",
+            applicationName: "mucop-webwas",
+            deploymentEnvironment: "prd"
+        });
+    </script>
+    <script src="https://cdn.signalfx.com/o11y-gdi-rum/latest/splunk-otel-web-session-recorder.js" crossorigin="anonymous"></script>
+    <script nonce="bqkUb34128fuO6fTWU7ybw==">
+        SplunkSessionRecorder.init({
+            app: "mucop-webwas",
+            realm: "us1",
+            rumAccessToken: "oG_rY4_z3b8yo23bt818gg"
+        });
+    </script>
+    <!-- End Splunk RUM -->
+    <script src="/js/gaTag.js" nonce="bqkUb34128fuO6fTWU7ybw=="></script>
+    <script src="/js/sha512.min.js"></script>
+    <script nonce="bqkUb34128fuO6fTWU7ybw==">
+        //pc, mobile 구분(가이드를 위한 샘플 함수입니다.)
+        function checkPcMobile(ua) {
+            if(ua === undefined) {
+                ua = window.navigator.userAgent;
+            }
+            ua = ua.toLowerCase();
+            var platform = {};
+            var matched = {};
+            var userPlatform = "pc";
+            var platform_match = /(ipad)/.exec(ua) || /(ipod)/.exec(ua)
+                    || /(windows phone)/.exec(ua) || /(iphone)/.exec(ua)
+                    || /(kindle)/.exec(ua) || /(silk)/.exec(ua) || /(android)/.exec(ua)
+                    || /(win)/.exec(ua) || /(mac)/.exec(ua) || /(linux)/.exec(ua)
+                    || /(cros)/.exec(ua) || /(playbook)/.exec(ua)
+                    || /(bb)/.exec(ua) || /(blackberry)/.exec(ua)
+                    || [];
+
+            matched.platform = platform_match[0] || "";
+
+            if(matched.platform) {
+                platform[matched.platform] = true;
+            }
+
+            if(platform.android || platform.bb || platform.blackberry
+                    || platform.ipad || platform.iphone
+                    || platform.ipod || platform.kindle
+                    || platform.playbook || platform.silk
+                    || platform["windows phone"]) {
+                userPlatform = "mobile";
+            }
+
+            if(platform.cros || platform.mac || platform.linux || platform.win) {
+                userPlatform = "pc";
+            }
+
+            return userPlatform;
+        }
+
+
+        /*<![CDATA[*/
+        var apmaUser = {"id":null,"username":null,"name":null,"engName":null,"customNo":0,"barcodeUrl":null,"homePhone1":null,"homePhone2":null,"homePhone3":null,"cmpyPhone1":null,"cmpyPhone2":null,"cmpyPhone3":null,"token":null,"tokenExpire":null,"pushAlarmYn":null,"pushMarketingYn":null,"acceptTramYn":null,"acceptPrivacyYn":null,"acceptManageYn":null,"beautyPoint":0,"email":null,"guestYn":null,"payMethod":null,"paySub":null,"askPwdDt":null,"totalPenaltyCnt":0,"roles":null,"resetHistories":null,"applications":[],"reservations":null,"membershipYn":null,"membershipId":0,"membershipStartDate":null,"membershipEndDate":null,"membershipBarcodeNo":0,"membershipJoinType":null,"membershipRenewYn":null,"membershipFirstJoinDate":null,"membershipState":null};
+        var gaLang = "KO";
+        var pageType = "PRODUCT_DETAIL";
+        var dataEnv = "PRD";
+        /*]]>*/
+
+        var AP_DATA_SITENAME = "아모레퍼시픽미술관";
+        var AP_DATA_COUNTRY = "KR";
+        var AP_DATA_LANG = gaLang;
+        var AP_DATA_ENV = dataEnv;
+        var AP_DATA_CHANNEL = "PC";
+        /* 모바일 접근 체크*/
+        if(checkPcMobile(window.navigator.userAgent) == "mobile"){
+           AP_DATA_CHANNEL = "MOBILE";
+        }
+        var AP_DATA_PAGETYPE = pageType;
+
+        // 사용자 정보 변수 선언
+        var AP_DATA_GCID = undefined;
+        var AP_DATA_ISMEMBER = undefined;
+        var AP_DATA_CID = undefined;
+        var AP_DATA_ISLOGIN = "N";
+        var AP_DATA_LOGINTYPE = undefined;
+        if( apmaUser !=null){
+            if( apmaUser.username != null){
+                AP_DATA_GCID = sha512(apmaUser.username);
+                AP_DATA_ISLOGIN = "Y";
+                AP_DATA_LOGINTYPE = "NORMAL";
+                AP_DATA_ISMEMBER = "N";
+                if(checkPcMobile(window.navigator.userAgent) == "mobile"){
+                    AP_DATA_LOGINTYPE = "MOBILE";
+                }
+            }
+            if( apmaUser.customNo != 0){
+                let customNo = apmaUser.customNo.toString();
+                AP_DATA_CID = sha512(customNo);
+                AP_DATA_ISMEMBER = "Y";
+            }
+        }
+        var AP_DATA_CG = undefined;
+        var AP_DATA_CD = undefined;
+        var AP_DATA_CT = undefined;
+        var AP_DATA_BEAUTYCT = undefined;
+        var AP_DATA_ISEMPLOYEE = undefined;
+
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+<!--    <meta name="_csrf" th:content="${_csrf.token}"/>-->
+<!--    <meta name="_csrf_header" th:content="${_csrf.headerName}"/>-->
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114829994-2"></script>
+    <script nonce="bqkUb34128fuO6fTWU7ybw==">
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-114829994-2');
+    </script>
+
+    <link rel="shortcut icon" href="/images/img_favicon.ico"/>
+    <link rel="apple-touch-icon-precomposed" href="/images/img_favicon.png"/>
+
+
+    <link rel="stylesheet" type="text/css" href="/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="/css/xeicon.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/css/sub.css">
+
+    
+
+    <!-- 2023.07.28 : add : sub_new.css 생성, 모바일은 m_sub_new.css -->
+    <link rel="stylesheet" type="text/css" href="/css/sub_new.css">
+    <link rel="stylesheet" type="text/css" href="/css/swiper.min_.css">
+
+    <!--
+    <link rel="stylesheet" type="text/css" href="../static/css/m_reset.css" th:href="@{/css/m_reset.css}">
+    <link rel="stylesheet" type="text/css" href="../static/css/m_common.css" th:href="@{/css/m_common.css}">
+    <link rel="stylesheet" type="text/css" href="../static/css/m_sub.css" th:href="@{/css/m_sub.css}">
+    <link rel="stylesheet" type="text/css" href="../static/css/m_swiper.min.css" th:href="@{/css/m_swiper.min.css}">
+    -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <title>EXHIBITION l APMA</title>
+    
+    <meta property="og:title" content="[APMA, CHAPTER FIVE] 작품소개: 한국 현대사진, 멈춤과 흐름" />
+    <meta property="og:description" content="[APMA, CHAPTER FIVE] 작품소개: 한국 현대사진, 멈춤과 흐름" />
+    <meta property="og:url" content="http://apma.amorepacific.com/contents/exhibition/3951792/view.do" />
+    <meta property="og:image" id="shareImage" />
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNTXRQ5J"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- loading -->
+    <div id="loading">
+        <div class="ldBox">
+            <div class="ldBox_item item01"></div>
+            <div class="ldBox_item item02"></div>
+            <div class="ldBox_item item03"></div>
+            <div class="ldBox_item item04"></div>
+            <div class="ldBox_item item05"></div>
+            <div class="ldBox_item item06"></div>
+            <div class="ldBox_item item07"></div>
+            <div class="ldBox_item item08"></div>
+            <div class="ldBox_item item09"></div>
+        </div>
+    </div>
+    <!-- //loading -->
+
+	<!-- body content -->
+    <div id="wrap">
+        
+    <!-- header -->
+    <div id="header">
+        <div class="sta">
+            <h1>
+                <a href="/index.do">
+                    <span class="sta_span1">AMOREPACIFIC</span>
+                    <span class="sta_span2">MUSEUM OF ART</span>
+                </a>
+            </h1>
+
+            <div id="skipnavi">
+                <h2 class="hide">스킵네비게이션</h2>
+                <a href="#gnb">주메뉴 바로가기</a>
+                <a href="#contents">본문 바로가기</a>
+            </div>
+            <!-- right align -->
+            <div class="fr">
+                <div class="header_t">
+                    <!-- search -->
+                    <button type="button" class="btn_srch_open">검색영역 열기</button>
+                    <form class="main_srch" name="frmTopSearch" action="/search/search.do" method="GET">
+                        <fieldset>
+                            <legend class="hide">검색</legend>
+                            <div class="srch_bg"></div>
+                            <div class="srch_txtBox">
+                                <p class="input_txtBox">
+                                    <input type="text" name="search" class="input_main_srch" placeholder="검색어를 입력하세요.">
+                                </p>
+                                <button type="button" class="btn_header_srch" id="btnTopSearch">검색</button>
+                                <button type="button" class="btn_srch_close">닫기</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                    <!-- // search -->
+                    <!-- util menu -->
+                    <div class="util_menu">
+                        <h2 class="hide">유틸메뉴</h2>
+                        <ul></ul>
+                        <ul class="visit-target">
+                            <li class="visit">
+                                <a>Visit</a>
+                                <ul class="sub_nav">
+                                    <li><a href="/visit/guide.do">이용안내</a></li>
+                                    <li class="last"><a href="/visit/faq/faq.do">FAQ</a></li>
+                                </ul>
+                            </li>
+
+                            
+                                <li><a href="/secure/login.do">LOGIN</a></li>
+                            
+                            
+                            <li>
+                                <div class="langBox">
+                                    <div class="lang_tit">
+                                        <a>KOR</a>
+                                    </div>
+                                    <ul>
+                                        <li><a>ENG</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- // util menu -->
+                </div>
+
+                <!-- web-GNB -->
+                <div class="gnb">
+                    <h2 class="hide">메인메뉴</h2>
+                    <ul>
+                        <li><a class="active" href="/contents/exhibition/index.do">EXHIBITION<span></span></a></li>
+                        <li><a href="/apmap/jeju2022/index.do">APMAP<span></span></a></li>
+                        <li><a href="/contents/apLap/index.do">apLAP<span></span></a></li>
+                        <li><a href="/contents/program/index.do">PROGRAM<span></span></a></li>
+                        <li><a href="/contents/museumShop/index.do">MUSEUM SHOP<span></span></a></li>
+                        <li><a href="/info/notice/index.do">INFORMATION<span></span></a></li>
+                        
+                            <li><a class="btn_ticket_reservation ">TICKET RESERVATION</a></li>
+                        
+
+                        <!-- 멤버십 부분 주석 -->
+<!--                        &lt;!&ndash; 로그인 이전 &ndash;&gt;-->
+<!--                        <div sec:authorize="isAnonymous()" th:remove="tag">-->
+<!--                           <li><a href="/membership/membershipInfo.do">MEMBERSHIP</a></li>-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash; 로그인 이후 &ndash;&gt;-->
+<!--                        <div sec:authorize="isAuthenticated()" th:remove="tag">-->
+<!--                            <th:block th:if="${membershipCheck != 'Y'}">-->
+<!--                                <li><a href="/membership/membershipInfo.do">MEMBERSHIP</a></li>-->
+<!--                            </th:block>-->
+<!--                            &lt;!&ndash; 멤버십 회원일 경우 &ndash;&gt;-->
+<!--                            <th:block th:unless="${membershipCheck != 'Y'}">-->
+<!--                                <li><a th:onclick="membershipStateCheck()">MEMBERSHIP</a></li>-->
+<!--                            </th:block>-->
+<!--                        </div>-->
+                        <!-- 로그인 이후 -->
+                    </ul>
+                </div>
+                <!-- // web-GNB -->
+            </div>
+            <!-- /. fr -->
+        </div>
+        <!-- /. sta -->
+    </div>
+    <!-- /. header -->
+    <hr>
+
+
+        <div id="container">
+            <div id="contents">
+    <input type="hidden" name="url" value="http://apma.amorepacific.com/contents/exhibition/3951792/view.do" />
+    <input type="hidden" name="title" value="[APMA, CHAPTER FIVE] 작품소개: 한국 현대사진, 멈춤과 흐름" />
+    <div class="h3Box hide">
+        <h3>EXHIBITION</h3>
+    </div>
+    <!-- /. h3Box -->
+
+    <!-- Main image web -->
+    
+		
+
+		
+	
+    
+		<p class="wide_imgBox">
+			
+			<img src="https://image-apma.amorepacific.com/upload/exhibition/w/1778472249569_CgAeBPt4sn_Cropped.jpg" alt="_BCJ7963-편집.jpg" class="shareImage">
+		</p>
+
+		
+	
+
+    <div class="cont_lut01 clor_blue" id="exhibition_3951792">
+        <div class="section">
+            <div class="infoBox">
+                <!-- title -->
+                <h3 class="tit">[APMA, CHAPTER FIVE] 작품소개: 한국 현대사진, 멈춤과 흐름</h3>
+				
+					<ul class="info" style="margin-bottom: -7px;">
+						
+							
+							
+						
+						<li class="place">2026.04.01(수) – 2026.08.02(일) | 미술관 1F로비, B1 1~7전시실, 교육실 등 </li>
+					</ul>
+				
+
+                <p class="s_txt">기획: 아모레퍼시픽미술관 (APMA) </p>
+                
+
+				
+
+                
+
+				<div class="txt cType content"><p>《APMA, CHAPTER FIVE》 전시의 6전시실에서는 1960년대 이후 한국 현대미술의 흐름 속에서 사진 매체가 걸어온 궤적을 살펴볼 수 있습니다.</p><p>현대사진은 단순한 기록의 역할을 넘어서 동시대의 현실과 시각 문화를 반영하고 이미지와 물질, 시간의 관계를 탐구하는 방향으로 전개되어 왔습니다.</p><p>이번에는 전시실에 함께하는 여러 작가들 중, 구본창, 정희승, 정지현 세 작가의 작업을 중심으로 살펴봅니다.</p><p>세 작가에게 사진은 찰나의 포착이 아니라 시간이 축적되고 흐르는 과정을 그대로 담는 행위입니다.&nbsp;</p><p>&nbsp;</p><p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://image-apma.amorepacific.com/upload/exhibition/1778472401269_y1nOEfyx88.jpg" width="1208" height="804"></p><p style="text-align: center;">Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul&nbsp;</p><p style="text-align: center;">&nbsp;</p><p style="text-align: center;"><img src="https://image-apma.amorepacific.com/upload/exhibition/1778472582511_byCuAmkctI.jpg" width="574" height="794"></p><p style="text-align: center;">정희승, <장미는 장미가 장미인 것>, 2016, 아카이벌 피그먼트 프린트<br>©Heeseung Chung</p><p>&nbsp;</p><p>정희승 작가는 사진을 바라보는 인식과 해석 방식 자체를 탐구해왔습니다.</p><p>거트루드 스타인의 시에서 제목을 차용한 장미 연작은 약 반 년에 걸쳐 동일한 프레임으로 반복 촬영한 작업입니다.</p><p>같은 대상을 지속적으로 마주하는 과정 속에서 장미는 익숙한 상징과 관념을 벗어나 그 자체로 놓인 존재가 됩니다.</p><p>의미 부여 이전의 상태로 사물을 바라보려는 이 태도는, 사진이 포착하는 것이 순간이 아니라 시간과의 관계임을 드러냅니다.&nbsp;</p><p>&nbsp;</p><p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://image-apma.amorepacific.com/upload/exhibition/1778472650963_6ZS9QwjbQh.jpg" width="1208" height="805"></p><p style="text-align: center;">Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul&nbsp;</p><p style="text-align: center;">&nbsp;</p><p style="text-align: center;"><img src="https://image-apma.amorepacific.com/upload/exhibition/1778472696350_hdyEILpZrO.jpg" width="511" height="638"><img src="https://image-apma.amorepacific.com/upload/exhibition/1778472724849_k07otNoEPM.jpg" width="510" height="638"></p><p style="text-align: center;">&nbsp;</p><p style="text-align: center;">구본창, <백자 (AM 09 BW)>, <백자 (AM 10 BW)>, 아카이벌 피그먼트프린트&nbsp;<br>©Koo Bonchang</p><p style="text-align: center;">&nbsp;</p><p>구본창 작가는 사진을 단순한 기록 매체가 아닌 사유와 조형의 영역으로 확장해왔습니다.&nbsp;</p><p>대표 연작 시리즈에서 그는 조선 시대 달항아리를 절제된 회색조 화면 속에 고요히 배치합니다.</p><p>이번 전시에 소개되는 사진 속 피사체는 아모레퍼시픽 미술관이 소장하고 있는 <백자 대호> (보물 제1441호) 입니다.</p><p>표면에 남은 미세한 얼룩과 질감, 장인의 손길은 단순한 형태의 기록을 넘어 시간의 축적과 사물의 내면적 존재감을 드러냅니다.</p><p>작가에게 백자를 촬영하는 행위는 사물과의 깊은 교감이자, 자아를 응시하는 조용한 수행의 순간입니다. &nbsp;</p><p>&nbsp;</p><p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://image-apma.amorepacific.com/upload/exhibition/1778472811565_KCelRMXIAb.jpg" width="1208" height="804"></p><p style="text-align: center;">Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul&nbsp;</p><p style="text-align: center;">&nbsp;</p><p style="text-align: center;"><img src="https://image-apma.amorepacific.com/upload/exhibition/1778472876796_9tIup296Xh.JPG" width="603" height="803"></p><p style="text-align: center;">정지현, Construct 02_5001, 2017, 피그먼트 프린트&nbsp;<br>©Jihyun Jung</p><p>&nbsp;</p><p>정지현 작가는 건축의 생성과 변화 과정에 주목하며 도시 공간을 기록해온 작가입니다.</p><p>완성된 건물이 아닌 형성되는 과정 속에서, 건축의 물질과 구조, 축적되는 시간의 장면을 포착합니다.</p><p>아모레퍼시픽 본사 신축 과정을 담은 연작에서는 유리, 콘크리트, 알루미늄의 표면이 절제된 형태와 밝은 질감으로 드러나며, 고요하고 맑은 이미지로 구현됩니다.</p><p>작가의 사진은 완성된 건축 그 이면에 축적된 과정과 노동의 시간을 함께 보여줍니다. &nbsp;</p><p>&nbsp;</p><p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://image-apma.amorepacific.com/upload/exhibition/1778472908469_k2cB3NjZvU.jpg" width="1208" height="805"></p><p style="text-align: center;">Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul&nbsp;</p><p style="text-align: center;">&nbsp;</p><p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://image-apma.amorepacific.com/upload/exhibition/1778472961137_t3Y3xlaKgA.jpg" width="1208" height="805"></p><p style="text-align: center;">Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul&nbsp;</p><p>&nbsp;</p><p>세 작가의 사진은 멈춰 있는 이미지 속에서 흐르는 시간을 감각하게 합니다.</p><p>전시실에서는 이 작업과 함께 김수자, 권오상, 김상길, 육명심 등 한국 현대사진의 주요 흐름을 이끌어온 작가들의 작품을 만날 수 있습니다.</p><p>&nbsp;</p><p>&nbsp;</p></div>
+
+                <p class="regi_date">2026.06.24</p>
+
+                <div><div class="share_ui">
+		<ul class="info_btm">
+			<li class="share">
+	            <a class="btn_share">공유하기</a>
+	            <ul class="share_lst">
+	                <li class="facebook"><a>faceBook</a></li>
+	                <li class="line"><a>Line</a></li>
+	                <li class="twitter"><a>twitter</a></li>
+	                <li class="url"><a>url</a></li>
+	            </ul>
+	        </li>
+	    </ul>
+	</div></div>
+            </div>
+            <!-- /. infoBox -->
+        </div>
+        <!-- /. section-->
+    </div>
+    <!-- /. cont_lut01 -->
+</div>
+            <a class="btn_goTop" href="#container">맨위로 이동</a>
+        </div>
+
+
+        
+    <hr>
+    <div id="footer">
+        <div class="f_top">
+            <!-- 하단로고,주소 -->
+            <div class="fl">
+                <div class="asBox">
+                    <!--<address>서울시 용산구 한강로2가 159-5<br>㈜아모레퍼시픽 미술관<br>사업자등록번호 : 123-45-67890   T. <span class="p_number">02-1234-5678</span></address>-->
+                    <address>
+                        <p class="footer_style">㈜아모레퍼시픽</p>
+                        <p class="footer_style">서울특별시 용산구 한강대로 100 (한강로2가 181)</p>
+                        <p class="footer_style">T. <span class="p_number">02-6040-2345</span> ㅣ E. museum@amorepacific.com</p>
+                        <p class="footer_style">대표이사 : 김승환 / 사업자등록번호 : 106-86-43373</p>
+                        <p class="footer_style">통신판매업신고번호 : 2017-서울용산-1308<a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=1068643373&amp;apv_perm_no=" target="_blank"  class="footer_style2">사업자 정보 확인</a></p>
+                        <p class="footer_style" >호스팅제공자 : (주)아모레퍼시픽</p>
+                    </address>
+                </div>
+            </div>
+            <!-- //하단로고,주소 -->
+            <!-- 고객센터,관람시간 -->
+            <div class="fr">
+                <dl class="f_dlBox">
+                    <dt class="time">관람시간</dt>
+                    <dd>
+                        <dl class="dl_lst">
+                            <dt>화-일</dt>
+                            <dd>10:00AM ~ 6:00PM</dd>
+                        </dl>
+                    </dd>
+                </dl>
+                <dl class="f_dlBox">
+                    <dt class="holiday">휴관일</dt>
+                    <dd>
+                        <dl class="dl_lst">
+                            <dt>매주</dt>
+                            <dd>월요일</dd>
+                        </dl>
+                        <dl class="dl_lst">
+                            <dt>매년</dt>
+                            <dd>1월1일 / 설,추석 연휴</dd>
+                        </dl>
+                    </dd>
+                </dl>
+<!--
+                <dl class="f_dlBox">
+                    <dt class="time" th:text="#{footer_openingtime}">관람시간</dt>
+                    <dd>
+                        <dl class="dl_lst">
+                            <dt th:text="#{footer_openweekday}">화~일</dt>
+                            <dd th:text="#{footer_openweekTime}">10:00AM ~ 6:00PM</dd>
+                        </dl>
+                        <dl class="dl_lst">
+                            <dt th:text="#{footer_closed}">휴관일</dt>
+                            <dd th:text="#{footer_closeday}">매주 월요일</dd>
+                            <dd th:text="#{footer_closeyear}">매년 1월1일 / 설,추석 연휴</dd>
+                        </dl>
+
+                        &lt;!&ndash; 번역본 누락으로 인해 주석
+                        <dl class="dl_lst">
+                            <dt>매주</dt>
+                            <dd>일요일, 공휴일 휴관</dd>
+                        </dl>
+                        &ndash;&gt;
+
+                    </dd>
+                </dl>-->
+            </div>
+            <!-- //고객센터,관람시간 -->
+        </div>
+        <!-- /. f_top -->
+        <div class="f_bottom">
+            <div class="fl">
+                <ul class="f_nav">
+                    <li><a href="https://www.beautypoint.co.kr/agreement" target="_blank" rel="noopener noreferrer">이용약관</a></li>
+                    <li class="f_nav__privacy"><a href="https://www.beautypoint.co.kr/privacy" target="_blank" rel="noopener noreferrer">개인정보처리방침</a></li>
+                    <li><a href="http://www.apgroup.com/int/ko/misc/terms/cctv-policies-and-procedures.html" target="_blank" rel="noopener noreferrer">영상정보처리기기 운영방침</a></li>
+                    <li><a href="/sitemap.do">사이트맵</a></li>
+                </ul>
+            </div>
+            <div class="fr">
+                <p class="copyright">&copy; 2018 by AMOREPACIFIC Corp. All Rights Reserved.</p>
+            </div>
+        </div>
+        <!-- f_bottom -->
+    </div>
+    <!-- // footer -->
+
+
+        
+    <div class="layerpopup_wrap display_none_style" id="layerPopup">
+        <div class="layer_bg"></div>
+        <div class="layer_multi">
+            <div class="alertBox w420 h270 popupBox popupBox_layoutFragment">
+                <div class="layer_dialog">
+                    <div class="txt txt_big hfull">
+                        <span></span>
+                    </div>
+                    <div class="layer_buttons">
+                        <span class="layer_btn">
+                          <button type="button" class="ui-button ui-button__width--small ui-button__normal btnLayerClose">취소</button>
+                        </span>
+                        <span class="layer_btn">
+                          <button type="button" class="ui-button ui-button__width--small ui-button__normal btnLayerSubmit">확인</button>
+                        </span>
+                    </div>
+                </div>
+            </div> <!-- /.alertBox -->
+        </div>
+    </div> <!-- /. layerpopup_wrap -->
+
+    <div class="layerpopup_wrap display_none_style" id="dormancyPopup">
+        <div class="layer_bg"></div>
+        <div class="alertBox dormancy_style">
+            <div class="txt">
+                <span>
+                    회원님의 소중한 정보보호를 위해<br/>
+                    1년 이상 이용하지 않은 계정을 휴면상태로 전환하고 있습니다.<br/>
+                    <br/>
+                    아모레퍼시픽미술관 서비스를 계속 이용하시려면<br/>
+                    아모레퍼시픽 통합회원 사이트에서<br/>
+                    로그인을 통해 휴면상태를 해지해 주십시오.<br/>
+                </span>
+            </div>
+            <ul>
+                <li><a class="btnLayerSubmit" href="#none">통합회원 사이트 바로 가기</a></li>
+            </ul>
+        </div> <!-- /.alertBox -->
+    </div> <!-- /. layerpopup_wrap -->
+
+        
+    <div class="layerpopup_wrap display_none_style" id="twoLayerPopup">
+        <div class="layer_bg"></div>
+        <div class="layer_multi">
+            <div class="alertBox w420 h270 popupBox popupBox_layoutFragment">
+                <div class="layer_dialog">
+                    <div class="txt txt_big hfull">
+                        <span></span>
+                    </div>
+                    <div class="layer_buttons">
+                        <span class="layer_btn">
+                          <button type="button" class="ui-button ui-button__width--small ui-button__normal btnLayerClose">취소</button>
+                        </span>
+                        <span class="layer_btn">
+                          <button type="button" class="ui-button ui-button__width--small ui-button__normal btnLayerSubmit">확인</button>
+                        </span>
+                    </div>
+                </div>
+            </div> <!-- /.alertBox -->
+        </div>
+    </div> <!-- /. layerpopup_wrap -->
+
+    </div>
+    <!-- /body content -->
+    <script nonce="bqkUb34128fuO6fTWU7ybw==">
+        /*<![CDATA[*/
+        var applyCheckMsg = null;
+        /*]]>*/
+    </script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.slimscroll.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="/js/sub.js"></script>
+    <script src="/js/jquery.i18n.properties.min.js"></script>
+    <!-- datepicker -->
+    <script src="/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="/js/common_csrf.js"></script>
+    <script nonce="bqkUb34128fuO6fTWU7ybw==">
+        $.event.add(window,"load",function() {
+            $(document).ready(function () {
+                $('#loading').hide();
+
+                $("#btnTopSearch").on('click', function(e) {
+                    e.preventDefault();
+                    var $frmTopSearch = $("form[name=frmTopSearch]");
+                    var $search = $frmTopSearch.find('input[name=search]');
+                    if($search.val() !== '') {
+                        $frmTopSearch.submit();
+                    }
+                });
+
+                $('.langBox ul li a').on('click focusIn', function() {
+                    var bfTxt = $('.langBox .lang_tit a').text();
+                    var afTxt = $('.langBox ul li a').text();
+
+                    $('.langBox .lang_tit a').text(afTxt);
+                    $('.langBox ul li a').text(bfTxt);
+                    if(afTxt !== '') {
+                        location.href = "/localeChange.do?lang=" + (afTxt === 'KOR' ? 'ko' : 'en');
+                    }
+                });
+
+                /**
+                 * 남재현님 요청. image 일괄 lazy loading 적용
+                 * 2022.03.10
+                 */
+                function lazyload () {
+                    var lazyloadImages = document.querySelectorAll("img.lazy");
+                    var lazyloadThrottleTimeout;
+
+                    if(lazyloadThrottleTimeout) {
+                        clearTimeout(lazyloadThrottleTimeout);
+                    }
+
+                    lazyloadThrottleTimeout = setTimeout(function() {
+                        var scrollTop = window.pageYOffset;
+                        $.each(lazyloadImages, function(idx, img) {
+                            if(img.offsetTop < (window.innerHeight + scrollTop)) {
+                                img.src = img.dataset.src;
+                                img.classList.remove('lazy');
+                            }
+                        })
+                        if(lazyloadImages.length == 0) {
+                            document.removeEventListener("scroll", lazyload);
+                            window.removeEventListener("resize", lazyload);
+                            window.removeEventListener("orientationChange", lazyload);
+                        }
+                    }, 50);
+                }
+                lazyload();
+                document.addEventListener("scroll", lazyload);
+                window.addEventListener("resize", lazyload);
+                window.addEventListener("orientationChange", lazyload);
+            });
+
+            // 프로그램 신청 여부 20200608
+            if(applyCheckMsg != null) simpleMessageLayerPopup(i18nProperty('alert_already_apply'));
+        });
+
+        $.ajaxSetup({
+            beforeSend: function() {
+                $('#loading').show();
+            },
+            complete: function() {
+                $('#loading').hide();
+            },
+            error: function(jqxhr, textStatus, errorThrown) {
+            }
+        });
+
+        /**
+         * @param options
+         * @returns {boolean}
+         * Front 공통 레이어 팝업
+         */
+        function layerPopup(options) {
+            var $layerPopup = $("#layerPopup");
+
+            if(options.onlySubmit === undefined || options.onlySubmit === false) {
+                options.onlySubmit = false;
+            }
+
+            if(!options.contents) {
+                alert("내용을 입력해주세요.");
+                return false;
+            }
+
+            $layerPopup.find(".txt span").html(options.contents);
+
+            if(options.onlySubmit) {
+                $(".btnLayerClose", $layerPopup).hide();
+            }else{
+                $(".btnLayerClose", $layerPopup).show();
+            }
+
+            if(options.submitMsg != undefined && options.submitMsg != ""){
+                $(".btnLayerSubmit").text(options.submitMsg);
+            }
+
+            $layerPopup.show();
+
+	        $('.alertBox').each(function(){
+		        var alertHeight = $(this).height();
+		        $(this).css({
+			        'margin-top': -alertHeight/2,
+			        'margin-left': '-130px',
+		        });
+		        $(this).animate({
+			        'top': '50%',
+		        });
+	        });
+
+            $(".btnLayerClose", $layerPopup).unbind("click").bind("click", function(e) {
+                e.preventDefault();
+                $layerPopup.hide();
+            });
+
+            $(".btnLayerSubmit", $layerPopup).unbind("click").bind("click", function(e) {
+                e.preventDefault();
+                $layerPopup.hide();
+                if(typeof(options.submit) == "function") {
+                    options.submit();
+                }
+            });
+        };
+
+        /**
+         * @param options
+         * @returns {boolean}
+         * Front 공통 두가지 버튼 레이어 팝업
+         * 기존 layPopup과 충돌 오류 발생하여 따로 생성
+         */
+        function twoFrontLayerPopup(options) {
+            var $layerPopup = $("#twoLayerPopup");
+
+            if(options.onlySubmit === undefined || options.onlySubmit === false) {
+                options.onlySubmit = false;
+            }
+
+            if(!options.contents) {
+                alert("내용을 입력해주세요.");
+                return false;
+            }
+
+            $layerPopup.find(".txt span").html(options.contents);
+
+            if(options.onlySubmit) {
+                $(".btnLayerClose", $layerPopup).hide();
+            }
+
+            if(options.submitMsg != undefined && options.submitMsg != ""){
+                $(".btnLayerSubmit").text(options.submitMsg);
+            }
+
+            $layerPopup.show();
+
+	        $('.alertBox').each(function(){
+		        var alertHeight = $(this).height();
+		        $(this).css({
+			        'margin-top': -alertHeight/2,
+			        'margin-left': '-130px',
+		        });
+		        $(this).animate({
+			        'top': '50%',
+		        });
+	        });
+
+            $(".btnLayerClose", $layerPopup).unbind("click").bind("click", function(e) {
+                e.preventDefault();
+                $layerPopup.hide();
+            });
+
+            $(".btnLayerSubmit", $layerPopup).unbind("click").bind("click", function(e) {
+                e.preventDefault();
+                $layerPopup.hide();
+                if(typeof(options.submit) == "function") {
+                    options.submit();
+                }
+            });
+        };
+
+        /**
+         * @param options
+         * @returns {boolean}
+         * 멤버십 전용 프로그램 팝업
+         */
+        function programMembershipLayerPopup(options) {
+            var $layerPopup = $("#programMembershipPopup");
+
+            if(options.onlySubmit === undefined || options.onlySubmit === false) {
+                options.onlySubmit = false;
+            }
+
+            if(!options.contents) {
+                alert("내용을 입력해주세요.");
+                return false;
+            }
+
+            $layerPopup.find(".txt span").html(options.contents);
+
+            if(options.onlySubmit) {
+                $(".btnLayerClose", $layerPopup).hide();
+            }
+
+            if(options.submitMsg != undefined && options.submitMsg != ""){
+                $(".btnLayerSubmit").text(options.submitMsg);
+            }
+
+            $layerPopup.show();
+
+	        $('.alertBox').each(function(){
+		        var alertHeight = $(this).height();
+		        $(this).css({
+			        'margin-top': -alertHeight/2,
+			        'margin-left': '-130px',
+			        'width': '500px',
+		        });
+		        $(this).animate({
+			        'top': '50%',
+		        });
+	        });
+
+            $(".btnLayerClose", $layerPopup).unbind("click").bind("click", function(e) {
+                e.preventDefault();
+                $layerPopup.hide();
+            });
+
+            $(".btnLayerSubmit", $layerPopup).unbind("click").bind("click", function(e) {
+                e.preventDefault();
+                $layerPopup.hide();
+                if(typeof(options.submit) == "function") {
+                    options.submit();
+                }
+            });
+        };
+
+        function simpleLayerPopup(message, callback) {
+	        $("#layerPopup").find(".btnLayerSubmit").closest("li").css('margin-left', 80);
+            layerPopup({
+                contents: message,
+                submit: callback,
+                onlySubmit: true
+            });
+        };
+
+        function simpleMessageLayerPopup(message) {
+	        $("#layerPopup").find(".btnLayerSubmit").closest("li").css('margin-left', 80);
+            layerPopup({
+                contents: message,
+                onlySubmit: true
+            });
+        };
+
+        // 두가지버튼 타입
+        function twoLayerPopup(message, callback) {
+            twoFrontLayerPopup({
+                contents: message,
+                submit: callback,
+                onlySubmit: false
+            });
+        };
+
+        // 프로그램 멤버십 팝업
+        function programMembershipPopup(message, callback) {
+            programMembershipLayerPopup({
+                contents: message,
+                submit: callback,
+                onlySubmit: false
+            });
+        };
+
+        // 멤버십 해지 신청 확인
+        function membershipStateCheck(){
+           $.ajax({
+                url: '/membership/membershipStateCheck.do',
+                method: 'POST',
+                dataType: 'json',
+                beforeSend: function(xhr) {
+                    // 쿠키에서 CSRF 토큰 읽어서 헤더에 추가
+                    function getCsrfTokenFromCookie(name) {
+                        const value = "; " + document.cookie;
+                        const parts = value.split("; " + name + "=");
+                        if (parts.length === 2) return parts.pop().split(";").shift();
+                        return null;
+                    }
+                    const token = getCsrfTokenFromCookie('XSRF-TOKEN');
+                    if (token) {
+                        xhr.setRequestHeader('X-XSRF-TOKEN', token);
+                    }
+                },
+                success: function (data) {
+                    if (data.code === 500) {
+                      msg = i18nProperty('alert_membershipStateCancel');
+                      $("#layerPopup").find(".alertBox").css('height', '400px');
+                      simpleMessageLayerPopup(msg);
+                      return false;
+                    }else{
+                      location.href = "/membership/myMembership.do";
+                    }
+                },
+                error : function(xhr, ajaxSettings, error)
+                   { console.log(xhr.status + error + xhr.responseText); }
+           }); //end ajax
+        };
+
+        jQuery.i18n.properties({
+	        name : 'message',
+	        path : '/messages/',
+	        mode : 'map',
+	        language : $('.langBox .lang_tit a').text() === "KOR" ? 'ko' : 'en',
+	        callback : function() {}
+        });
+
+        i18nProperty = jQuery.i18n.prop;
+    </script>
+
+    <section>
+	<script src="/js/share.js"></script>
+	<script nonce="bqkUb34128fuO6fTWU7ybw==">
+		/*<![CDATA[*/
+		let content = {"id":3951792,"groupId":3951792,"layoutType":"C","title1":"[APMA, CHAPTER FIVE] \uC791\uD488\uC18C\uAC1C: \uD55C\uAD6D \uD604\uB300\uC0AC\uC9C4, \uBA48\uCDA4\uACFC \uD750\uB984","description1":"<p>\u300AAPMA, CHAPTER FIVE\u300B \uC804\uC2DC\uC758 6\uC804\uC2DC\uC2E4\uC5D0\uC11C\uB294 1960\uB144\uB300 \uC774\uD6C4 \uD55C\uAD6D \uD604\uB300\uBBF8\uC220\uC758 \uD750\uB984 \uC18D\uC5D0\uC11C \uC0AC\uC9C4 \uB9E4\uCCB4\uAC00 \uAC78\uC5B4\uC628 \uADA4\uC801\uC744 \uC0B4\uD3B4\uBCFC \uC218 \uC788\uC2B5\uB2C8\uB2E4.<\/p><p>\uD604\uB300\uC0AC\uC9C4\uC740 \uB2E8\uC21C\uD55C \uAE30\uB85D\uC758 \uC5ED\uD560\uC744 \uB118\uC5B4\uC11C \uB3D9\uC2DC\uB300\uC758 \uD604\uC2E4\uACFC \uC2DC\uAC01 \uBB38\uD654\uB97C \uBC18\uC601\uD558\uACE0 \uC774\uBBF8\uC9C0\uC640 \uBB3C\uC9C8, \uC2DC\uAC04\uC758 \uAD00\uACC4\uB97C \uD0D0\uAD6C\uD558\uB294 \uBC29\uD5A5\uC73C\uB85C \uC804\uAC1C\uB418\uC5B4 \uC654\uC2B5\uB2C8\uB2E4.<\/p><p>\uC774\uBC88\uC5D0\uB294 \uC804\uC2DC\uC2E4\uC5D0 \uD568\uAED8\uD558\uB294 \uC5EC\uB7EC \uC791\uAC00\uB4E4 \uC911, \uAD6C\uBCF8\uCC3D, \uC815\uD76C\uC2B9, \uC815\uC9C0\uD604 \uC138 \uC791\uAC00\uC758 \uC791\uC5C5\uC744 \uC911\uC2EC\uC73C\uB85C \uC0B4\uD3B4\uBD05\uB2C8\uB2E4.<\/p><p>\uC138 \uC791\uAC00\uC5D0\uAC8C \uC0AC\uC9C4\uC740 \uCC30\uB098\uC758 \uD3EC\uCC29\uC774 \uC544\uB2C8\uB77C \uC2DC\uAC04\uC774 \uCD95\uC801\uB418\uACE0 \uD750\uB974\uB294 \uACFC\uC815\uC744 \uADF8\uB300\uB85C \uB2F4\uB294 \uD589\uC704\uC785\uB2C8\uB2E4.\u0026nbsp;<\/p><p>\u0026nbsp;<\/p><p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/1778472401269_y1nOEfyx88.jpg\" width=\"1208\" height=\"804\"><\/p><p style=\"text-align: center;\">Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\u0026nbsp;<\/p><p style=\"text-align: center;\">\u0026nbsp;<\/p><p style=\"text-align: center;\"><img src=\"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/1778472582511_byCuAmkctI.jpg\" width=\"574\" height=\"794\"><\/p><p style=\"text-align: center;\">\uC815\uD76C\uC2B9, <\uC7A5\uBBF8\uB294 \uC7A5\uBBF8\uAC00 \uC7A5\uBBF8\uC778 \uAC83>, 2016, \uC544\uCE74\uC774\uBC8C \uD53C\uADF8\uBA3C\uD2B8 \uD504\uB9B0\uD2B8<br>\u00A9Heeseung Chung<\/p><p>\u0026nbsp;<\/p><p>\uC815\uD76C\uC2B9 \uC791\uAC00\uB294 \uC0AC\uC9C4\uC744 \uBC14\uB77C\uBCF4\uB294 \uC778\uC2DD\uACFC \uD574\uC11D \uBC29\uC2DD \uC790\uCCB4\uB97C \uD0D0\uAD6C\uD574\uC654\uC2B5\uB2C8\uB2E4.<\/p><p>\uAC70\uD2B8\uB8E8\uB4DC \uC2A4\uD0C0\uC778\uC758 \uC2DC\uC5D0\uC11C \uC81C\uBAA9\uC744 \uCC28\uC6A9\uD55C \uC7A5\uBBF8 \uC5F0\uC791\uC740 \uC57D \uBC18 \uB144\uC5D0 \uAC78\uCCD0 \uB3D9\uC77C\uD55C \uD504\uB808\uC784\uC73C\uB85C \uBC18\uBCF5 \uCD2C\uC601\uD55C \uC791\uC5C5\uC785\uB2C8\uB2E4.<\/p><p>\uAC19\uC740 \uB300\uC0C1\uC744 \uC9C0\uC18D\uC801\uC73C\uB85C \uB9C8\uC8FC\uD558\uB294 \uACFC\uC815 \uC18D\uC5D0\uC11C \uC7A5\uBBF8\uB294 \uC775\uC219\uD55C \uC0C1\uC9D5\uACFC \uAD00\uB150\uC744 \uBC97\uC5B4\uB098 \uADF8 \uC790\uCCB4\uB85C \uB193\uC778 \uC874\uC7AC\uAC00 \uB429\uB2C8\uB2E4.<\/p><p>\uC758\uBBF8 \uBD80\uC5EC \uC774\uC804\uC758 \uC0C1\uD0DC\uB85C \uC0AC\uBB3C\uC744 \uBC14\uB77C\uBCF4\uB824\uB294 \uC774 \uD0DC\uB3C4\uB294, \uC0AC\uC9C4\uC774 \uD3EC\uCC29\uD558\uB294 \uAC83\uC774 \uC21C\uAC04\uC774 \uC544\uB2C8\uB77C \uC2DC\uAC04\uACFC\uC758 \uAD00\uACC4\uC784\uC744 \uB4DC\uB7EC\uB0C5\uB2C8\uB2E4.\u0026nbsp;<\/p><p>\u0026nbsp;<\/p><p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/1778472650963_6ZS9QwjbQh.jpg\" width=\"1208\" height=\"805\"><\/p><p style=\"text-align: center;\">Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\u0026nbsp;<\/p><p style=\"text-align: center;\">\u0026nbsp;<\/p><p style=\"text-align: center;\"><img src=\"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/1778472696350_hdyEILpZrO.jpg\" width=\"511\" height=\"638\"><img src=\"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/1778472724849_k07otNoEPM.jpg\" width=\"510\" height=\"638\"><\/p><p style=\"text-align: center;\">\u0026nbsp;<\/p><p style=\"text-align: center;\">\uAD6C\uBCF8\uCC3D, <\uBC31\uC790 (AM 09 BW)>, <\uBC31\uC790 (AM 10 BW)>, \uC544\uCE74\uC774\uBC8C \uD53C\uADF8\uBA3C\uD2B8\uD504\uB9B0\uD2B8\u0026nbsp;<br>\u00A9Koo Bonchang<\/p><p style=\"text-align: center;\">\u0026nbsp;<\/p><p>\uAD6C\uBCF8\uCC3D \uC791\uAC00\uB294 \uC0AC\uC9C4\uC744 \uB2E8\uC21C\uD55C \uAE30\uB85D \uB9E4\uCCB4\uAC00 \uC544\uB2CC \uC0AC\uC720\uC640 \uC870\uD615\uC758 \uC601\uC5ED\uC73C\uB85C \uD655\uC7A5\uD574\uC654\uC2B5\uB2C8\uB2E4.\u0026nbsp;<\/p><p>\uB300\uD45C \uC5F0\uC791 \uC2DC\uB9AC\uC988\uC5D0\uC11C \uADF8\uB294 \uC870\uC120 \uC2DC\uB300 \uB2EC\uD56D\uC544\uB9AC\uB97C \uC808\uC81C\uB41C \uD68C\uC0C9\uC870 \uD654\uBA74 \uC18D\uC5D0 \uACE0\uC694\uD788 \uBC30\uCE58\uD569\uB2C8\uB2E4.<\/p><p>\uC774\uBC88 \uC804\uC2DC\uC5D0 \uC18C\uAC1C\uB418\uB294 \uC0AC\uC9C4 \uC18D \uD53C\uC0AC\uCCB4\uB294 \uC544\uBAA8\uB808\uD37C\uC2DC\uD53D \uBBF8\uC220\uAD00\uC774 \uC18C\uC7A5\uD558\uACE0 \uC788\uB294 <\uBC31\uC790 \uB300\uD638> (\uBCF4\uBB3C \uC81C1441\uD638) \uC785\uB2C8\uB2E4.<\/p><p>\uD45C\uBA74\uC5D0 \uB0A8\uC740 \uBBF8\uC138\uD55C \uC5BC\uB8E9\uACFC \uC9C8\uAC10, \uC7A5\uC778\uC758 \uC190\uAE38\uC740 \uB2E8\uC21C\uD55C \uD615\uD0DC\uC758 \uAE30\uB85D\uC744 \uB118\uC5B4 \uC2DC\uAC04\uC758 \uCD95\uC801\uACFC \uC0AC\uBB3C\uC758 \uB0B4\uBA74\uC801 \uC874\uC7AC\uAC10\uC744 \uB4DC\uB7EC\uB0C5\uB2C8\uB2E4.<\/p><p>\uC791\uAC00\uC5D0\uAC8C \uBC31\uC790\uB97C \uCD2C\uC601\uD558\uB294 \uD589\uC704\uB294 \uC0AC\uBB3C\uACFC\uC758 \uAE4A\uC740 \uAD50\uAC10\uC774\uC790, \uC790\uC544\uB97C \uC751\uC2DC\uD558\uB294 \uC870\uC6A9\uD55C \uC218\uD589\uC758 \uC21C\uAC04\uC785\uB2C8\uB2E4. \u0026nbsp;<\/p><p>\u0026nbsp;<\/p><p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/1778472811565_KCelRMXIAb.jpg\" width=\"1208\" height=\"804\"><\/p><p style=\"text-align: center;\">Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\u0026nbsp;<\/p><p style=\"text-align: center;\">\u0026nbsp;<\/p><p style=\"text-align: center;\"><img src=\"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/1778472876796_9tIup296Xh.JPG\" width=\"603\" height=\"803\"><\/p><p style=\"text-align: center;\">\uC815\uC9C0\uD604, Construct 02_5001, 2017, \uD53C\uADF8\uBA3C\uD2B8 \uD504\uB9B0\uD2B8\u0026nbsp;<br>\u00A9Jihyun Jung<\/p><p>\u0026nbsp;<\/p><p>\uC815\uC9C0\uD604 \uC791\uAC00\uB294 \uAC74\uCD95\uC758 \uC0DD\uC131\uACFC \uBCC0\uD654 \uACFC\uC815\uC5D0 \uC8FC\uBAA9\uD558\uBA70 \uB3C4\uC2DC \uACF5\uAC04\uC744 \uAE30\uB85D\uD574\uC628 \uC791\uAC00\uC785\uB2C8\uB2E4.<\/p><p>\uC644\uC131\uB41C \uAC74\uBB3C\uC774 \uC544\uB2CC \uD615\uC131\uB418\uB294 \uACFC\uC815 \uC18D\uC5D0\uC11C, \uAC74\uCD95\uC758 \uBB3C\uC9C8\uACFC \uAD6C\uC870, \uCD95\uC801\uB418\uB294 \uC2DC\uAC04\uC758 \uC7A5\uBA74\uC744 \uD3EC\uCC29\uD569\uB2C8\uB2E4.<\/p><p>\uC544\uBAA8\uB808\uD37C\uC2DC\uD53D \uBCF8\uC0AC \uC2E0\uCD95 \uACFC\uC815\uC744 \uB2F4\uC740 \uC5F0\uC791\uC5D0\uC11C\uB294 \uC720\uB9AC, \uCF58\uD06C\uB9AC\uD2B8, \uC54C\uB8E8\uBBF8\uB284\uC758 \uD45C\uBA74\uC774 \uC808\uC81C\uB41C \uD615\uD0DC\uC640 \uBC1D\uC740 \uC9C8\uAC10\uC73C\uB85C \uB4DC\uB7EC\uB098\uBA70, \uACE0\uC694\uD558\uACE0 \uB9D1\uC740 \uC774\uBBF8\uC9C0\uB85C \uAD6C\uD604\uB429\uB2C8\uB2E4.<\/p><p>\uC791\uAC00\uC758 \uC0AC\uC9C4\uC740 \uC644\uC131\uB41C \uAC74\uCD95 \uADF8 \uC774\uBA74\uC5D0 \uCD95\uC801\uB41C \uACFC\uC815\uACFC \uB178\uB3D9\uC758 \uC2DC\uAC04\uC744 \uD568\uAED8 \uBCF4\uC5EC\uC90D\uB2C8\uB2E4. \u0026nbsp;<\/p><p>\u0026nbsp;<\/p><p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/1778472908469_k2cB3NjZvU.jpg\" width=\"1208\" height=\"805\"><\/p><p style=\"text-align: center;\">Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\u0026nbsp;<\/p><p style=\"text-align: center;\">\u0026nbsp;<\/p><p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/1778472961137_t3Y3xlaKgA.jpg\" width=\"1208\" height=\"805\"><\/p><p style=\"text-align: center;\">Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\u0026nbsp;<\/p><p>\u0026nbsp;<\/p><p>\uC138 \uC791\uAC00\uC758 \uC0AC\uC9C4\uC740 \uBA48\uCDB0 \uC788\uB294 \uC774\uBBF8\uC9C0 \uC18D\uC5D0\uC11C \uD750\uB974\uB294 \uC2DC\uAC04\uC744 \uAC10\uAC01\uD558\uAC8C \uD569\uB2C8\uB2E4.<\/p><p>\uC804\uC2DC\uC2E4\uC5D0\uC11C\uB294 \uC774 \uC791\uC5C5\uACFC \uD568\uAED8 \uAE40\uC218\uC790, \uAD8C\uC624\uC0C1, \uAE40\uC0C1\uAE38, \uC721\uBA85\uC2EC \uB4F1 \uD55C\uAD6D \uD604\uB300\uC0AC\uC9C4\uC758 \uC8FC\uC694 \uD750\uB984\uC744 \uC774\uB04C\uC5B4\uC628 \uC791\uAC00\uB4E4\uC758 \uC791\uD488\uC744 \uB9CC\uB0A0 \uC218 \uC788\uC2B5\uB2C8\uB2E4.<\/p><p>\u0026nbsp;<\/p><p>\u0026nbsp;<\/p>","title2":null,"etc1":"\uAE30\uD68D: \uC544\uBAA8\uB808\uD37C\uC2DC\uD53D\uBBF8\uC220\uAD00 (APMA) ","etc2":null,"description2":null,"showStartTime":null,"showEndTime":null,"place":"2026.04.01(\uC218) \u2013 2026.08.02(\uC77C) | \uBBF8\uC220\uAD00 1F\uB85C\uBE44, B1 1~7\uC804\uC2DC\uC2E4, \uAD50\uC721\uC2E4 \uB4F1 ","scheduleYn":"N","position":"R","topFixedYn":"Y","thumbnailUri":null,"originalMediaUri":null,"thumbnailTitle":"[APMA, CHAPTER FIVE] \uC791\uD488\uC18C\uAC1C: \uD55C\uAD6D \uD604\uB300\uC0AC\uC9C4, \uBA48\uCDA4\uACFC \uD750\uB984","lang":"KO","categoryGroup":null,"sortOrderNum":9,"publishYn":"Y","mediaList":[{"id":3971821,"mediaUri":"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/m\/1782266337937_YYld95A9un_Cropped.jpg","originalMediaUri":"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/m\/1782266337360_5hnHyY9JeB.jpg","thumbnailMediaUri":null,"orgFileName":"gall_exhibition_ROSE_IS_A_ROSE_IS_ROSE_sub0_1456462232.jpg","mediaType":"Image","description":null,"videoThumbnail":null,"position":1,"watermarkYn":"N","sortOrderNum":0,"originYn":null,"mediaDomain":null,"orginLoadYn":null},{"id":3951794,"mediaUri":"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/w\/1778472249569_CgAeBPt4sn_Cropped.jpg","originalMediaUri":"https:\/\/image-apma.amorepacific.com\/upload\/exhibition\/w\/1778472248569_c22NdWh2M4.jpg","thumbnailMediaUri":null,"orgFileName":"_BCJ7963-\u1111\u1167\u11AB\u110C\u1175\u11B8.jpg","mediaType":"Image","description":null,"videoThumbnail":null,"position":2,"watermarkYn":"N","sortOrderNum":0,"originYn":null,"mediaDomain":null,"orginLoadYn":null}],"createdAt":"2026-05-11 13:06:12","updatedAt":"2026-06-24 10:59:02","publishAt":"2026-06-24 10:59:02","writer":{"id":4450,"pernr":"AP55004764","roles":null,"menuAuth":null,"nachn":null,"zzjkw":null,"zzjkw1":null,"zzjkg":null,"zzjkg1":null,"zzjkc":null,"zzjkc1":null,"email":null,"mobilePhone":null,"emailUser":null,"isSubcontrac":null,"orgName":"\uBBF8\uC220\uAD00 \uD559\uC608\uD300","activeYn":"Y","passwordFailCnt":0,"emailEc":"PRD_kg4zrUsyQ0iIBqufOtowOe+R3D+DyttHOKdapBWqrL0=","intPhone1Ec":null,"mobilePhoneEc":"PRD_afmFZAxpeAHOc9EebYyzBA==","sname":"\uC1A1\uB3C4\uD604"},"lastModifier":{"id":4450,"pernr":"AP55004764","roles":null,"menuAuth":null,"nachn":null,"zzjkw":null,"zzjkw1":null,"zzjkg":null,"zzjkg1":null,"zzjkc":null,"zzjkc1":null,"email":null,"mobilePhone":null,"emailUser":null,"isSubcontrac":null,"orgName":"\uBBF8\uC220\uAD00 \uD559\uC608\uD300","activeYn":"Y","passwordFailCnt":0,"emailEc":"PRD_kg4zrUsyQ0iIBqufOtowOe+R3D+DyttHOKdapBWqrL0=","intPhone1Ec":null,"mobilePhoneEc":"PRD_afmFZAxpeAHOc9EebYyzBA==","sname":"\uC1A1\uB3C4\uD604"},"publisher":{"id":4450,"pernr":"AP55004764","roles":null,"menuAuth":null,"nachn":null,"zzjkw":null,"zzjkw1":null,"zzjkg":null,"zzjkg1":null,"zzjkc":null,"zzjkc1":null,"email":null,"mobilePhone":null,"emailUser":null,"isSubcontrac":null,"orgName":"\uBBF8\uC220\uAD00 \uD559\uC608\uD300","activeYn":"Y","passwordFailCnt":0,"emailEc":"PRD_kg4zrUsyQ0iIBqufOtowOe+R3D+DyttHOKdapBWqrL0=","intPhone1Ec":null,"mobilePhoneEc":"PRD_afmFZAxpeAHOc9EebYyzBA==","sname":"\uC1A1\uB3C4\uD604"},"newYn":null,"statusType":null,"showTimeHideYn":"N","badgeCd":"PROGRESS","badgeTitle":"\uC608\uC57D","badgeTitleEn":"OPEN","payPlace":null,"payPlaceDetail":null,"memberYn":null,"ticketPublishYn":null,"paidExhibitionCount":0,"freeExhibitionCount":0,"freeGroupId":0,"collectionCount":0,"mediaType":null,"placeGroupList":[],"audioList":[],"applyStartTime":null,"applyEndTime":null,"showTime":null,"show":null,"qty":0,"totalOrderCnt":null,"amount":null,"applyType":null,"remark":null,"applyYn":null,"applyAble":false,"totalSession":0,"penaltyYn":"N","updateYn":"Y","applicationList":[],"applicantDayContentList":[],"applicantMapGds":[],"applicantGds":[],"exhibitionLinkList":[],"deleteTicketList":null,"linkId":0,"payPlaceList":[],"qtyTotal":0,"memApplyStartTime":null,"memApplyEndTime":null,"payPlaceDetailList":[],"mpreAcceptanceYn":"N"};
+		/*]]>*/
+	</script>
+	<script nonce="bqkUb34128fuO6fTWU7ybw==">
+		i18nProperty = jQuery.i18n.prop;
+
+		var onReady = function() {
+			//page css
+			$('body').addClass('clor_blue');
+			$('#container').css ({
+				'padding-top':'0',
+				'padding-left':'0',
+				'padding-right':'0',
+			});
+			$('#contents').css ({
+				'max-width':'100%',
+				'padding':'0',
+			});
+
+			//document view animation
+			$('#wrap').animate({
+				'margin-top': 0,
+				'opacity': 1.0,
+			},1000);
+			setTimeout(function(){
+				$('#header').animate({
+					'opacity': 1.0,
+				},500);
+				$('.cont_lut01').animate({
+					'padding-top': '70px',
+					'opacity': 1.0,
+				},500);
+			}, 500);
+
+			$("a.btn_movLayer").movLayer();
+
+			/**
+			 * Data
+			 * 1. 선착순 인원
+			 * 2. 신청일자
+			 * 3. 신청일자 true or false
+			 */
+			$('.info_btm').each(function() {
+				let tag = "";
+				if(content.applyStartTime != null && content.applyEndTime != null) {
+					let localeText ="신청하기";
+					if("KO" !== content.lang) {
+						localeText = "Apply";
+					}
+					if(content.applyAble) {
+						tag += "<ul class='info_btm info_btm_center'>";
+						tag += "<li class='btn'><a class='btn_apply' href='#none'>"+localeText+"</a></li>";
+						tag += "</ul>";
+					}
+				}
+				if(content.linkId != null && content.linkId > 0) {
+					let localeText ="신청하기";
+					if("KO" !== content.lang) {
+						localeText = "Apply";
+					}
+					if(content.applyAble) {
+						tag += "<ul class='info_btm info_btm_center'>";
+						tag += "<li class='btn'><a class='btn_apply' href='#none'>"+localeText+"</a></li>";
+						tag += "</ul>";
+					}
+
+				}
+				$('.share_ui').prepend(tag);
+			});
+
+			$(".btn_apply").unbind("click").bind("click", function(e) {
+				e.preventDefault();
+				let paramData = {};
+				paramData.groupId = content.groupId;
+				paramData.lang = content.lang;
+
+				$.ajax({
+						url: '/contents/exhibition/ajax/checkBadge.do',
+						method: 'POST',
+						async: false,
+						data: paramData,
+						beforeSend: function(xhr) {
+							// 쿠키에서 CSRF 토큰 읽어서 헤더에 추가
+							function getCsrfTokenFromCookie(name) {
+							  const value = "; " + document.cookie;
+							  const parts = value.split("; " + name + "=");
+							  if (parts.length === 2) return parts.pop().split(";").shift();
+							  return null;
+							}
+							const token = getCsrfTokenFromCookie('XSRF-TOKEN');
+							if (token) {
+							  xhr.setRequestHeader('X-XSRF-TOKEN', token);
+							}
+					  	},
+						success: function (data) {
+								if (data.data.status === "success") {
+										// jquery post request
+										let url = "/contents/ticket/ticketReservation.do";
+										let tempForm = $('<form></form>');
+										tempForm.attr('action', url);
+										tempForm.attr('method', 'get');
+
+										if(content.linkId != null && content.linkId > 0) {
+											tempForm.append($('<input/>', {type: 'hidden', name: 'groupId', value: content.linkId}))
+										} else {
+											tempForm.append($('<input/>', {type: 'hidden', name: 'groupId', value: content.groupId}))
+										}
+										tempForm.append($('<input/>', {type: 'hidden', name: 'contentType', value: 'EXHIBITION'}))
+										tempForm.appendTo('body');
+										tempForm.submit();
+								} else if (data.data.status === "fail") {
+										simpleLayerPopup(i18nProperty(data.data.message), function() {
+											location.reload();
+										});
+								}
+						},
+						error : function(data){
+								console.log("error "+data);
+						}
+				}); // end of ajax
+			});
+
+			share();
+
+			$(".content").each(function() {
+				var contents = $(this)[0].innerHTML;
+
+				if(contents !== '') {
+					var tags = '';
+
+					$.each($(contents), function(idx, tag) {
+						if($(tag)[0].nodeName !== '#text') {
+							var border = $(tag).css('border');
+
+							if(border === '31px') {
+								var temp = tag.outerHTML.replace(/<p/gi, "<iframe");
+								tags += temp.replace(/<\/p/gi, "<\/iframe");
+							} else {
+								tags += tag.outerHTML;
+							}
+						} else {
+							tags += $(tag)[0].data;
+						}
+					});
+
+					contents = tags;
+				};
+
+				$(this).html(contents);
+			});
+		};
+
+		$(document).ready(onReady);
+    </script>
+</section>
+<script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=3&cb=975151710" async nonce="bqkUb34128fuO6fTWU7ybw=="></script></body>
+</html>

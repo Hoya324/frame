@@ -20,6 +20,21 @@ const SOURCE_LABELS: Record<string, string> = {
   gallery_bresson: "갤러리 브레송",
   pgi: "PGI",
   zen_foto: "ZEN FOTO GALLERY",
+  gallery_now: "갤러리 나우",
+  gallery_tosei: "gallery TOSEI",
+  place_m: "Place M",
+  totem_pole: "Totem Pole Photo Gallery",
+  art_space_j: "아트스페이스 J",
+  mmca: "국립현대미술관",
+  sema: "서울시립미술관",
+  njp_art_center: "백남준아트센터",
+  gmoma: "경기도미술관",
+  arko: "아르코미술관",
+  acc: "국립아시아문화전당",
+  moca_busan: "부산현대미술관",
+  daegu_art_museum: "대구미술관",
+  ilmin: "일민미술관",
+  apma: "아모레퍼시픽미술관",
 };
 
 // Fallback for snapshots exported before the `source` field existed: map the

@@ -196,10 +196,13 @@ class TotemPoleExtractor:
             follow_redirects=True,
         )
 
+    # 2026-07-19 run: ConnectTimeout on all 3 attempts (~95 s total) — the
+    # CI runner → Tokyo route intermittently drops SYNs for minutes at a time.
+    # 5 attempts with a 30 s wait cap (1+2+4+8+…) rides out short outages.
     @retry(
         retry=retry_if_exception_type(httpx.TransportError),
-        wait=wait_exponential(multiplier=1, min=1, max=16),
-        stop=stop_after_attempt(3),
+        wait=wait_exponential(multiplier=1, min=1, max=30),
+        stop=stop_after_attempt(5),
         reraise=True,
     )
     def _get(self, url: str) -> str:
