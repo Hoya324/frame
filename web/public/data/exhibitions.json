@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T17:23:43.210462+00:00",
+  "generated_at": "2026-07-21T19:45:32.986954+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -26112,7 +26112,7 @@
       "price_max": null,
       "start_date": "2026-05-01",
       "end_date": "2026-07-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "da9be60df40c",
@@ -31499,7 +31499,7 @@
       "price_max": null,
       "start_date": "2026-04-24",
       "end_date": "2026-07-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "b04314bb9fcb",
@@ -31999,7 +31999,7 @@
       "price_max": null,
       "start_date": "2026-06-20",
       "end_date": "2026-07-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ebe6d0623fa0",
@@ -36035,7 +36035,7 @@
       "price_max": null,
       "start_date": "2026-06-18",
       "end_date": "2026-07-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "82f20bbfb3dd",
@@ -39610,7 +39610,7 @@
       "price_max": null,
       "start_date": "2026-07-04",
       "end_date": "2026-07-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "126c8dea18ab",
@@ -41630,7 +41630,7 @@
       "price_max": null,
       "start_date": "2026-07-21",
       "end_date": "2026-08-02",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5163e693d1ea",
@@ -42312,7 +42312,7 @@
       "price_max": null,
       "start_date": "2026-07-04",
       "end_date": "2026-07-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "b09e4632b5cf",
@@ -43771,7 +43771,7 @@
       "price_max": null,
       "start_date": "2026-07-07",
       "end_date": "2026-07-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "e5c7ef943a0f",
@@ -43895,7 +43895,7 @@
       "price_max": null,
       "start_date": "2026-06-26",
       "end_date": "2026-07-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2303bd78ef5c",
@@ -44937,7 +44937,7 @@
       "price_max": null,
       "start_date": "2026-07-21",
       "end_date": "2026-07-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "54c1740b50d0",
@@ -45592,7 +45592,7 @@
       "price_max": null,
       "start_date": "2026-07-04",
       "end_date": "2026-07-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "82b062913b87",
@@ -46126,7 +46126,7 @@
       "price_max": null,
       "start_date": "2026-07-04",
       "end_date": "2026-07-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "fcfa773c090a",
@@ -46944,7 +46944,7 @@
       "price_max": null,
       "start_date": "2026-07-04",
       "end_date": "2026-07-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "c78437b96a0a",
@@ -48126,7 +48126,7 @@
       "price_max": null,
       "start_date": "2026-07-04",
       "end_date": "2026-07-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ae609ea7aae5",
@@ -48569,7 +48569,7 @@
       "price_max": null,
       "start_date": "2026-07-04",
       "end_date": "2026-07-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "b09e4632b5cf",
@@ -48830,7 +48830,7 @@
       "price_max": null,
       "start_date": "2026-07-14",
       "end_date": "2026-07-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "a6bc0a72e92f",
@@ -50808,7 +50808,7 @@
       "price_max": null,
       "start_date": "2026-07-15",
       "end_date": "2026-07-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "9fbf48300096",
@@ -50954,7 +50954,7 @@
       "price_max": null,
       "start_date": "2026-07-15",
       "end_date": "2026-07-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ce8764530297",
@@ -51916,7 +51916,7 @@
       "price_max": null,
       "start_date": "2026-07-21",
       "end_date": "2026-08-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "c174f3706963",
@@ -52028,7 +52028,7 @@
       "price_max": null,
       "start_date": "2026-07-17",
       "end_date": "2026-07-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "5bbf506b8dce",
@@ -52616,7 +52616,7 @@
       "price_max": null,
       "start_date": "2026-07-21",
       "end_date": "2026-07-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "bad41612e0e3",
@@ -53107,7 +53107,7 @@
       "price_max": null,
       "start_date": "2026-07-21",
       "end_date": "2026-08-01",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "afe71f7d0299",
@@ -53963,7 +53963,7 @@
       "price_max": null,
       "start_date": "2026-07-21",
       "end_date": "2026-07-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "0795bb24dfd7",
@@ -55967,7 +55967,7 @@
       "price_max": null,
       "start_date": "2026-07-16",
       "end_date": "2026-07-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "238fe96014e5",
@@ -56188,7 +56188,7 @@
       "price_max": null,
       "start_date": "2026-07-21",
       "end_date": "2026-07-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "0795bb24dfd7",
@@ -56732,7 +56732,7 @@
       "lang": null,
       "tr": {},
       "poster_image_url": "https://www.acc.go.kr/resources/upload/2211/20260220174952_1573105600.jpg",
-      "description": "ACC 필름앤비디오 《아시아의 장치들》 전시 연계 아티스트 토크 바로가기 + 전시 연계 스크리닝 & GV 바로가기 + 국립아시아문화전당(이하 ACC)은 2015년 개관 이래 아시아 각 지역의 실험영화와 비디오아트를 수집해 왔다. 상업화된 예술 환경 속에서도 자신만의 예술관을 지켜온 작가들의 작품을 소개하는 일은 ACC가 지속적으로 견지해 온 중요한 과제다. 의무적으로 작품을 찾아내기보다는 시의적이고 유연한 방식으로 진행해 온 수집 과정은, 작품을 단순한 보존이나 상영에 머무르게 하지 않고 연구, 복원, 전시로 확장하며 다양한 방식으로 되살려왔다. ACC 10주년을 맞아 기획된 전시 《아시아의 장치들》은 그동안 ACC가 연구하고 수집해 온 아시아의 실험영화와 비디오아트의 일부, 그리고 오늘날 두 장르의 접합 용어로 사용되는 무빙이미지를 통해 서로 다른 정체성과 역사를 지닌 복수의 아시아가 형성해 온 기억과 공동체적 서사를 한 공간 안에서 다시 호명한다. 아시아의 근현대사는 식민과 분단, 혁명과 개발, 검열과 저항, 차별과 배제의 과정을 지나 오늘에 이르렀다. 이 역사는 매체와 기술이라는 장치를 통해 기록되었고, 제도라는 장치를 통해 축소되거나 삭제되고, 다시 재배치되는 과정을 반복해 왔다. 즉, 《아시아의 장치들》에서 말하는 ‘장치’는 카메라와 필름, 영사기와 스크린 같은 영화적 도구에 머무르지 않는다. 그것은 사건을 포착하고 시간을 편집하며 기억을 배열하는 구조로써, 우리가 보아온 것과 보지 못하도록 감춰진 것 사이를 드러내는 개념이다. 본 전시의 작품들은 ‘받아쓰기-재현하기-다시쓰기’라는 과정 속에서 만들어졌다. ‘받아쓰기’는 자신의 목소리가 아닌 외부에 의해 쓰여진 역사를 뜻한다. ‘재현하기’는 그 역사를 다시 불러내는 단계이며, ‘다시쓰기’는 이를 새롭게 해석하고 재구성한다. 감시탑(판옵티콘)을 연상시키는 원형구조물 1층에 소개되는 작품들은 모두 여성의 서사로 구성되어 있다. 이는 오랫동안 외부의 시선에 의해 규정되어 온 여성의 역사를 ‘받아쓰기’의 출발점으로 삼고, 전시의 시작을 보다 주도적이고 능동적인 여성들의 목소리로 열고자 하는 선택이다. 층층이 겹쳐진 아시아의 다양한 목소리를 따라 걷다 보면, 어느 지역에서나 볼 수 있는 영화관과 기차역, 기숙사, 편의점과 마주하게 된다. 이 장소들은 일상의 쉼터이자 서로의 시간과 기억이 교차하는 공간이다. 우리가 머물고 지나온 세계를 구성하는 여러 장치들, 《아시아의 장치들》은 그 속에서 다양한 삶을 보여주는 공동체들의 작업장이자, 더 나은 미래를 향해 관객들과 함께 그려보는 영화 마을이다. 참여작가 차학경, 응우옌 찐 티, 한옥희, 김소영, 마리암 타파코리, 임고은, 장애여성공감, 김동령×박경태, 이토 다카시, 광주극장, 밍 웡, 서원태, 유어 브라더스 필름메이킹 그룹, 리슨투더시티, 토모토시, 윤충근, 봉준호, 판 루, 타이키 삭피싯, 김경묵, 알렉산더 우가이, 티파니 샤, 아다치 마사오, 히라사와 고, 정재훈, 리 카이 청, 홍진훤, 사월의눈, 디제이 소울스케이프, 장민승, 엠에이치티엘 〈시네마토그래피로서의 포스터〉 참여 디자이너 간질간질간질, 강문식, 권수진, 김동신, 김소미, 노네임프레스, 노성일(소장각), 모임 별 (조태상/황소윤), 민동인, 박고은, 백강현, 조문영(타이니타이탄), 신선아, 신신, 어라우드랩, 윤연우(비닐하우스 스쾃), 정윤주, 최지선(사각프레스), 호이요 〈한국실험영화사-비제도권 독립/실험영화의 흐름〉 김수연, 한민수",
+      "description": "ACC 필름앤비디오 《아시아의 장치들》 전시 연계 퍼포먼스 바로가기 + 국립아시아문화전당(이하 ACC)은 2015년 개관 이래 아시아 각 지역의 실험영화와 비디오아트를 수집해 왔다. 상업화된 예술 환경 속에서도 자신만의 예술관을 지켜온 작가들의 작품을 소개하는 일은 ACC가 지속적으로 견지해 온 중요한 과제다. 의무적으로 작품을 찾아내기보다는 시의적이고 유연한 방식으로 진행해 온 수집 과정은, 작품을 단순한 보존이나 상영에 머무르게 하지 않고 연구, 복원, 전시로 확장하며 다양한 방식으로 되살려왔다. ACC 10주년을 맞아 기획된 전시 《아시아의 장치들》은 그동안 ACC가 연구하고 수집해 온 아시아의 실험영화와 비디오아트의 일부, 그리고 오늘날 두 장르의 접합 용어로 사용되는 무빙이미지를 통해 서로 다른 정체성과 역사를 지닌 복수의 아시아가 형성해 온 기억과 공동체적 서사를 한 공간 안에서 다시 호명한다. 아시아의 근현대사는 식민과 분단, 혁명과 개발, 검열과 저항, 차별과 배제의 과정을 지나 오늘에 이르렀다. 이 역사는 매체와 기술이라는 장치를 통해 기록되었고, 제도라는 장치를 통해 축소되거나 삭제되고, 다시 재배치되는 과정을 반복해 왔다. 즉, 《아시아의 장치들》에서 말하는 ‘장치’는 카메라와 필름, 영사기와 스크린 같은 영화적 도구에 머무르지 않는다. 그것은 사건을 포착하고 시간을 편집하며 기억을 배열하는 구조로써, 우리가 보아온 것과 보지 못하도록 감춰진 것 사이를 드러내는 개념이다. 본 전시의 작품들은 ‘받아쓰기-재현하기-다시쓰기’라는 과정 속에서 만들어졌다. ‘받아쓰기’는 자신의 목소리가 아닌 외부에 의해 쓰여진 역사를 뜻한다. ‘재현하기’는 그 역사를 다시 불러내는 단계이며, ‘다시쓰기’는 이를 새롭게 해석하고 재구성한다. 감시탑(판옵티콘)을 연상시키는 원형구조물 1층에 소개되는 작품들은 모두 여성의 서사로 구성되어 있다. 이는 오랫동안 외부의 시선에 의해 규정되어 온 여성의 역사를 ‘받아쓰기’의 출발점으로 삼고, 전시의 시작을 보다 주도적이고 능동적인 여성들의 목소리로 열고자 하는 선택이다. 층층이 겹쳐진 아시아의 다양한 목소리를 따라 걷다 보면, 어느 지역에서나 볼 수 있는 영화관과 기차역, 기숙사, 편의점과 마주하게 된다. 이 장소들은 일상의 쉼터이자 서로의 시간과 기억이 교차하는 공간이다. 우리가 머물고 지나온 세계를 구성하는 여러 장치들, 《아시아의 장치들》은 그 속에서 다양한 삶을 보여주는 공동체들의 작업장이자, 더 나은 미래를 향해 관객들과 함께 그려보는 영화 마을이다. 참여작가 차학경, 응우옌 찐 티, 한옥희, 김소영, 마리암 타파코리, 임고은, 장애여성공감, 김동령×박경태, 이토 다카시, 광주극장, 밍 웡, 서원태, 유어 브라더스 필름메이킹 그룹, 리슨투더시티, 토모토시, 윤충근, 봉준호, 판 루, 타이키 삭피싯, 김경묵, 알렉산더 우가이, 티파니 샤, 아다치 마사오, 히라사와 고, 정재훈, 리 카이 청, 홍진훤, 사월의눈, 디제이 소울스케이프, 장민승, 엠에이치티엘 〈시네마토그래피로서의 포스터〉 참여 디자이너 간질간질간질, 강문식, 권수진, 김동신, 김소미, 노네임프레스, 노성일(소장각), 모임 별 (조태상/황소윤), 민동인, 박고은, 백강현, 조문영(타이니타이탄), 신선아, 신신, 어라우드랩, 윤연우(비닐하우스 스쾃), 정윤주, 최지선(사각프레스), 호이요 〈한국실험영화사-비제도권 독립/실험영화의 흐름〉 김수연, 한민수",
       "medium": "video",
       "exhibition_type": "curated",
       "genre_tags": [],
@@ -57303,6 +57303,790 @@
       },
       "artists": [],
       "source_url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1417927",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "1796cc3996ad",
+      "source": "moca_busan",
+      "title": "소장품섬_뉴미디어와 미디어",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://www.busan.go.kr/comm/getImage?srvcId=BBSTY3&upperNo=1714078&fileTy=ATTACH&fileNo=1&thumbTy=M",
+      "description": "뉴미디어를 미술관의 주요 의제로 삼아 관련 작품을 지속적으로 수집해 온 부산현대미술관이 개관 8년차를 맞아, 2026년 새롭게 수집된 국외 소장품을 중심으로 한 연구 및 전시를 통해 ‘뉴미디어’와 ‘미디어’에 대한 개념 차이를 살펴보고 그 개념에 대한 재정의를 시도한다.",
+      "medium": "video",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-11",
+      "end_date": "2027-03-07",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "2ad008c9f8bd",
+        "name": "부산현대미술관",
+        "lang": null,
+        "tr": {},
+        "region": "부산",
+        "district": null,
+        "lat": 35.1093319279829,
+        "lng": 128.942693567088
+      },
+      "artists": [],
+      "source_url": "https://www.busan.go.kr/moca/exhibition02/1714078",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "3a72cb48fb11",
+      "source": "tokyo_art_beat",
+      "title": "「TOKYO STREET PHOTOGRAPHY FESTIVAL 26」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4I9oJdg0Rz6VGExobdi1Bk/e3a06a95843b2837c5ad00f3cdfceafd/TSPF_26_IMG-01_-_Kenji_Nagahama.jpg",
+      "description": "世界29カ国の写真家が東京に集結。日本唯一のストリートフォトグラフィー国際公募展「TOKYO STREET PHOTOGRAPHY FESTIVAL 26」を開催。TOKYO STREET PHOTOGRAPHY FESTIVAL 26（TSPF26）は、日本唯一のストリートフォトグラフィーに特化した国際公募写真展です。第4回となる今年は、世界29カ国から集まった写真家による国際公募展に加え、ノルウェー・Oslo Street Photography Collectiveとの国際文化交流展示を実施。世界各地で生まれた多様な視点を、一つの会場で体感できる写真展です。\n国際公募展では、世界各地から寄せられた応募作品の中から選出された作品を展示します。写真家それぞれの視点を通して、街の日常や人々の営み、偶然の瞬間など、多彩なストリートフォトグラフィーをご覧いただけます。また、ノルウェー・Oslo Street Photography Collectiveを特別招待し、日本とノルウェーによる国際文化交流展示を開催。異なる文化や街で育まれた作品を紹介することで、ストリートフォトグラフィーが国境や言語を越えて人と人をつなぐ表現であることを伝えます。\n今年の公募展示では、作品を「カラー」と「モノクローム」の二つの空間に分けて展示。色彩がもたらす現実感と、モノクロームが引き出す抽象性や本質を対比させることで、「見ること」の違いを体感できる展示構成となっています。さらに、各作品にはQRコードを設置。作品情報や写真家のプロフィール、作品解説などを閲覧しながら鑑賞いただけます。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-20",
+      "end_date": "2026-08-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "022a1fd5b21b",
+        "name": "世田谷美術館",
+        "lang": null,
+        "tr": {},
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.631587664713294,
+        "lng": 139.62218283138915
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Tokyo-Street-Photography-Festival-26/4-AF-4923-E/2026-08-20",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "38e09b52b795",
+      "source": "tokyo_art_beat",
+      "title": "「あざみ野コンテンポラリー vol.17 ニュータウン、インターフェアレンス 都市とわたしたちの関係」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3b5JiuQ1gM45ltTUAgIqOk/68755245ce712de1aab988cdeb44ff1f/main.jpg",
+      "description": "都市や土地との関係は、あらかじめ与えられるものだけではなく、見方や関わり方によって選び直すことができます。「あざみ野コンテンポラリー」第 17 回となる本展では、郊外・ニュータウンなどの「都市」や「土地」のイメージをめぐり、人と場所との関係がどのように結ばれ、揺らいできたのかを、 多様な作品を通して考えます。\n\n作品と都市との関わりをあらわす「乱入する」「なぞる」「連れる」な どのキーワードとともに、7組のアーティストによる映像、インスタレーション、絵画、写真など約 100 点の作品を展示。さらに、横浜市民ギャラリーあざみ野が建つ場所にかつて存在した赤田古墳群の発掘調査資料などを紹介します。さまざまな表現が干渉（インターフェアレンス）しあい、都市とわたしたちの新たな関係を見出します。\n\n[関連イベント]\n1. アーティストによるギャラリートーク\n日時: 10月10日（土）\n[1部] 14:45～15:30 石﨑朝子、中島晴矢、山口幸士\n[2部] 15:45～16:45 川、谷山恭子、トランスフィールドスタジオ、松田修\n会場: 展示室 1・2\n料金: 無料（事前申込不要、要展覧会入場券）\n2. 街を歩く、街を聴く―谷山恭子アーティストトーク\n日時: 10月11日（日）14:00～15:00\n出演: 谷山恭子\n会場: 3階アトリエ\n料金: 無料（要事前申込、要展覧会入場券）\n3. 担当学芸員によるミニギャラリートーク\n日時: 10月24日（土）13:00～13:30、10月25日（日）11:00～11:30\n会場: 展示室 1・2（集合は展示室1受付前）\n料金: 参加無料（事前申込不要、当日開館記念日のため入場も無料）\n4. ニュータウン路上觀察－アーティストとあざみ野をディグる－\n日時: 10月31日（土）13:30～16:30\n※荒天の場合は11月1日（日）13:30～16:30に変更\n出演: 中島晴矢、石﨑朝子\n会場: 3階アトリエ、あざみ野エリア\n料金: 3,000円\n定員: 12歳以上、10名（要事前申込、先着順）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-10",
+      "end_date": "2026-11-03",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "65fa60fc2a1a",
+        "name": "横浜市民ギャラリーあざみ野",
+        "lang": null,
+        "tr": {},
+        "region": "神奈川県",
+        "district": null,
+        "lat": 35.5652715638899,
+        "lng": 139.55382456212214
+      },
+      "artists": [
+        {
+          "id": "19581d1d3a16",
+          "name": "石﨑朝子",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이시자키 아사코"
+            },
+            "en": {
+              "name": "Asako Ishizaki"
+            }
+          }
+        },
+        {
+          "id": "3a2a5f68e5f9",
+          "name": "川",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "66842b5f835c",
+          "name": "谷山恭子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "fa8cc224c253",
+          "name": "トランスフィールドスタジオ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c52cd3054c6c",
+          "name": "中島晴矢",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "ea42aacdc1a4",
+          "name": "松田修",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1c6b9b023627",
+          "name": "山口幸士",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Azamino-Contemporary-vol-17-Suburban-Interference-Relations-with-Urban-Space/1-D6-D7375/2026-10-10",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "0a3d4d3e0bd8",
+      "source": "tokyo_art_beat",
+      "title": "夏樹螢石 「四季彩ノ国」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3XQcdxcyM37X5MYNmVCigC/74d10f6104c20251d53f83f425a46b7b/c20f1aeb-d58f-4ff5-b396-f3194bc4f47f.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-04",
+      "end_date": "2026-08-09",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "54c1740b50d0",
+        "name": "京都写真美術館 ギャラリー・ジャパネスク",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "교토 사진 미술관 갤러리 재패네스크"
+          },
+          "en": {
+            "name": "Kyoto Museum of Photography Gallery Japanesque"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.009916818776944,
+        "lng": 135.78263679265976
+      },
+      "artists": [
+        {
+          "id": "4c51c8b65a3d",
+          "name": "夏樹螢石",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kseki-Natsuki-Land-of-the-Four-Seasons/kyoto-museum-of-photography-gallery-japanesque/2026-08-04",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "568303a9e52a",
+      "source": "tokyo_art_beat",
+      "title": "「Five Points of Architecture」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/5Q5BSZp6jis4y2DaqFyUP1/9e37a7e5ffe80d81f67f03b9a813521c/1cb067ee-fed5-4b9d-813e-bda50802ebc9.jpg",
+      "description": "あなたの景色に「建築史学」を──建物の見方がちょっと変わる展覧会\n\n2026年8月4日から16日まで、東京・谷中のHAGISOにて、東京大学で西洋建築史を研究する大学院生5名による展覧会を開催します。テーマは、「建築から、どのように世界に興味を持てるのか？」本展で展示するのは、完成した研究成果そのものではありません。5人が建築や街を見つめるとき、何に惹かれ、何を疑問に思い、どのように世界を読み取っているのか。その研究の出発点となる、ひとりひとりの「まなざし」です。建築史という分野は、専門的で、研究室の外からは少し近づきにくく見えるかもしれません。しかし、私たちの研究は、街を歩き、建物を眺め、「なぜこんな形なのだろう」「ここで人々はどのように過ごしてきたのだろう」と考えることから始まります。そこで私たちは、論文になる前の関心や視点を、写真と立体作品によって社会にひらくことにしました。 建築を見つめることから、まだ知らない時代や社会、人々の暮らしへ。5人のまなざしがひらく世界を、ぜひお楽しみください。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-04",
+      "end_date": "2026-08-16",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "7ba19d31b1ae",
+        "name": "HAGISO",
+        "lang": null,
+        "tr": {},
+        "region": "上野、谷中",
+        "district": null,
+        "lat": 35.72634304405013,
+        "lng": 139.76613351323857
+      },
+      "artists": [
+        {
+          "id": "f0e842d63c51",
+          "name": "加藤新大",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "46c4a4ff4018",
+          "name": "塚本貴文",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "6837e63d38f5",
+          "name": "大松公明",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1dd3a33b008f",
+          "name": "David Wolf",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "85e029f30fbd",
+          "name": "森貴裕",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Five-Points-of-Architecture/B91-F1560/2026-08-04",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "6c3ad0101271",
+      "source": "tokyo_art_beat",
+      "title": "「GENERAL STORE Punk + Art + Design」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/45O6iYBUDyWqGWJZZ9ldqT/a9a478de6cfc5fa1c0d46f6ed06b62a8/GENERAL_STORE_PUNK___DESIGN_07.2026.S.jpg",
+      "description": "現在、CHANEL Nexus Hallで展示を開催中のイギリス人コラージュアーティスト、Linder（リンダー）を中心とした企画展を開催いたします。Linderは、1977年にリリースされたマンチェスターのパンクバンドBuzzcocksのシングル 『Orgasm Addict』 のジャケットアートワークを、グラフィックデザイナー Malcolm Garrett と共同制作したことで広く知られています。その後もイギリスをはじめヨーロッパを中心に高い評価を受け、今年6月には国内初個展をKYOTOGRAPHIEで開催。現在はCHANEL Nexus Hallにて展示を開催するなど、国内外で注目を集めています。PUNKTUREでは、Linderの作品を中心に展示・販売するとともに、関連グッズやヴィンテージ・パンク・レコードも販売いたします。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-25",
+      "end_date": "2026-08-30",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "57805f039a41",
+        "name": "PUNKTURE",
+        "lang": null,
+        "tr": {},
+        "region": "表参道、青山",
+        "district": null,
+        "lat": 35.6708709459365,
+        "lng": 139.70864358589648
+      },
+      "artists": [
+        {
+          "id": "4dd49a640359",
+          "name": "リンダー・スターリング",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "린다 스털링"
+            },
+            "en": {
+              "name": "Linder Sterling"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/General-Store-Punk-Art-Design/punkture/2026-07-25",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "5bd2992e873b",
+      "source": "tokyo_art_beat",
+      "title": "Grace Dai 「不滅の灯火：信仰と継承 Grace Dai東京写真展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/1p46XyaWkuel3hrgJ9QU5f/87e018b70d1462ec2b4e0feaacd208a8/e8ffde5892712dc8098467bd94b486d4_-_anya_zhang.jpg",
+      "description": "アメリカ合衆国ニュージャージー州在住のグレースは、文化の継承と人々・地域との結びつきに深い関心を寄せ、この五年余にわたり、中国西南部に暮らす少数民族の日常生活を写真に収め続けてまいりました。彼女はレンズを通して、見過ごされがちな人々や物語に寄り添い、民族の文化がいかにして受け継がれているかを捉え続けております。\n\n本展『不滅の灯火』は、甘粛省南部、大涼山、青海省黄南、雲南の四つの地域を手がかりに、異なる文化の背景に通底する生命力と、世代を超えて守り継がれてきた伝統の諸相を探求しようとするものです。会場では、チベット地域の深紅の情景や、立ち上る炊煙に宿る敬虔な営み、青海省黄南の六月会、そして雲南の無形文化遺産「神鳥の舞」など、これまであまり紹介されることのなかった貴重な場面を多数ご覧いただけます。中国西南民族の特色を、可能な限り多角的な視点からご紹介していきます。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-01",
+      "end_date": "2026-08-07",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "bd5dd1eb3c0a",
+        "name": "無相画廊",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "무상화랑"
+          },
+          "en": {
+            "name": "Muso Garo"
+          }
+        },
+        "region": "浅草橋、馬喰町",
+        "district": null,
+        "lat": 35.70457,
+        "lng": 139.7922
+      },
+      "artists": [
+        {
+          "id": "30ad85c16652",
+          "name": "Grace Dai",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Grace-Dai-Eternal-Flame-Faith-and-Inheritance/musou-gallery/2026-08-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "9d6e1b16c2da",
+      "source": "tokyo_art_beat",
+      "title": "焦清瑞 「余白」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/31y4GVpHTar0NNIJ30Ps6X/bb10569ef0bf9595da5bd8b59d1567f2/88d88b13-feba-4309-a657-b3691b523f4c.jpg",
+      "description": "「余白」とは、本来、絵画において筆や墨が置かれていない空間を指す。一見何も存在しないようでいて、作品を成立させる重要な要素の一つである。本展は「余白」をテーマに、時間、停滞、そして自己認識について考察するものである。焦清瑞は、写真とインスタレーションを通して、かつて言葉にすることのできなかった人生の一時期を見つめ直し、繰り返される日常や沈黙する感情、そして意味を持たないように思われた時間を、あらためて作品として提示する。そうした「空白」の時間は、失われたものとしてではなく、自身の歩みを形づくる重要な経験として捉え直されている。本展は「余白」をテーマとし、時間や停滞、自己認識について静かに問いかけるものである。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-06",
+      "end_date": "2026-08-10",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "238fe96014e5",
+        "name": "写真店maruphoto",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "사진점 maruphoto"
+          },
+          "en": {
+            "name": "Photo Shop maruphoto"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.018383294965,
+        "lng": 135.77478583068847
+      },
+      "artists": [
+        {
+          "id": "adae744261cc",
+          "name": "焦清瑞",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Qingrui-Jiao-Yohaku/maruphoto/2026-08-06",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "e44a44a7cbbd",
+      "source": "tokyo_art_beat",
+      "title": "マツモトタカヒロ 「BEACH CRAFT WORKS」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/53d8tNJhiKqI0CVkcwGNJb/0118751fdda330cb7aa6f3df3824d671/225369f3-4433-4dfc-896f-743b4e2f0cc8.jpeg",
+      "description": "流木とビーチグラスを素材に、自然が作り出す質感を活かした作品の展示です。今回はモザイク 画の他に、ライト、オブジェなどのビーチテイストのインテリア作品も展示いたします。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-27",
+      "end_date": "2026-08-02",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "54ba9bad3d59",
+        "name": "ギャラリー同潤会",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 동준회"
+          },
+          "en": {
+            "name": "Gallery Dojunkai"
+          }
+        },
+        "region": "表参道、青山",
+        "district": null,
+        "lat": 35.666864353416756,
+        "lng": 139.70949635768292
+      },
+      "artists": [
+        {
+          "id": "0fb2f4741e26",
+          "name": "マツモトタカヒロ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Takahiro-Matsumoto-Beach-Craft-Works/A41647-C1/2026-07-27",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "c11b29f4ab20",
+      "source": "tokyo_art_beat",
+      "title": "岸幸太 「連荘20」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/5FPPCmBkKpzmABSdMC0dVj/b5d60660f1e0b04453624bd198d4e107/kishi001.jpg",
+      "description": "「連荘」は、街を歩き写真を撮ることでそれぞれの街の歴史を嗅ぎとろうと探求を続ける岸の新たな制作を展覧していく試みです。第20回となる本展は、韓国の済州島北部に位置する済州市で撮影された写真で構成されています。昼下がりの繁華街や路地裏の通り、街中の人影。これらの写真からは普段私たちが街の中で見過ごしてしまうような物のありようや人の姿を観念や感情の向こう側で注視する岸の一貫した姿勢が感じられます。本展にあわせて、写真冊子『連荘』の第20号が刊行されます。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-03",
+      "end_date": "2026-08-16",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "ec7e14bc9bb2",
+        "name": "KULA PHOTO GALLERY",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "KULA 포토 갤러리"
+          },
+          "ja": {
+            "name": "KULA フォト ギャラリー"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.69145595305437,
+        "lng": 139.70872133208556
+      },
+      "artists": [
+        {
+          "id": "a811ceb13c67",
+          "name": "岸幸太",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "기시 코타"
+            },
+            "en": {
+              "name": "Kishi Kota"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kota-Kishi-Exhibition/16-A83-A7-D/2026-08-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "af82177bd32a",
+      "source": "tokyo_art_beat",
+      "title": "安武青架 「Silver Lining」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/53Ar51b4utWkioVJAVpKo4/9d516584e48e761fab248de723a87e8c/202607yasutake.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-31",
+      "end_date": "2026-08-05",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "23129cff8bfd",
+        "name": "Alt_Medium",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Alt_Medium"
+          },
+          "ja": {
+            "name": "Alt_Medium"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.71661464828487,
+        "lng": 139.70035702006683
+      },
+      "artists": [
+        {
+          "id": "c85e14540216",
+          "name": "安武青架",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Haruka-Yasutake-Silver-Lining/F7-BA-6-D85/2026-07-31",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "3c6fe9ddfc2c",
+      "source": "tokyo_art_beat",
+      "title": "萩原奈都来 「そっけない君がすき」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/6Zjcu29dP7H4OZa7LHsmXo/1294b6996fb34ff76bb92a753e36ef49/202607hagiwara01.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-24",
+      "end_date": "2026-07-29",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "68e82b6b6f51",
+        "name": "新宿眼科画廊",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "신주쿠 간카 가로"
+          },
+          "en": {
+            "name": "Shinjuku Ganka Garou"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.694618390076414,
+        "lng": 139.70617795331054
+      },
+      "artists": [
+        {
+          "id": "44fcc023b947",
+          "name": "萩原奈都来",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Natsuki-Hagiwara-Exhibition/450-ABDCA/2026-07-24",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "c79c7cccaba1",
+      "source": "tokyo_art_beat",
+      "title": "儀間梨々香 「見果てぬ夢の、線をなぞる」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/44OUFg7zhO5l2mZVOnkAhi/2ac0d1e10e978add51d80182beb06cc4/20260612.jpg",
+      "description": "本展は、毎年沖縄で開催される写真プロジェクト「沖縄写真タイフーン＜北から南から＞」の連動写真展で、沖縄県在住の写真家・儀間梨々香氏による写真展です。自作のソフトフィルターを用いた作品や画像を重ねた作品約40点を展示します。氏が景色や人と出会うなかで生まれる「対象への没入感」に着目し構成された本展は、私的な感情が内包されています。そして沖縄特有の湿度や島時間が充満した風景は、氏の心象風景と重なりながら、ぼんやりと揺らぐ記憶のように立ち現れます。作品はすべてキヤノンのプリンター「imagePROGRAF PRO-G1」を使用して氏が自らプリントし、展示します。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-24",
+      "end_date": "2026-09-03",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "264da55cd4ca",
+        "name": "オープンギャラリー1・2",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "오픈 갤러리 1・2"
+          },
+          "en": {
+            "name": "Open Gallery 1・2"
+          }
+        },
+        "region": "天王洲、品川",
+        "district": null,
+        "lat": 35.62571436431203,
+        "lng": 139.74076925334083
+      },
+      "artists": [
+        {
+          "id": "afddb8f59732",
+          "name": "儀間梨々香",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Ririka-Gima-Exhibition/2-E174-B58/2026-07-24",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "28a86c90d1ef",
+      "source": "tokyo_art_beat",
+      "title": "松本直大 「極度のここ」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/6dgSUxQlnfemjDGZxrZoud/7af01c9416002dbbcd306e9746af9fe3/01.jpg",
+      "description": "7月23日（木）より、BOOK AND SONSにて、松本 直大による写真展「極度のここ」を開催いたします。\n本展は、2018年から9年間にわたり、LA、パリ、ネパール、ソウル、そして日本各地など、世界様々な場所で撮影された写真で構成されています。時空やスケールを超えて隣り合うイメージは、現実を写しながらもドキュメンタリーであることを手放し、新たな意味を帯び始めます。それはまるでどこか別の世界のメタファーのように、松本氏が見つめる世界の輪郭を浮かび上がらせます\n\n[関連イベント]\nトークイベント\n日時: 7月25日（土）16:00〜17:00（15:30開場）\n登壇者: 松本直大、長田果純、川田修\n場所: BOOK AND SONS 2F\n料金: 1650円\n定員: 20名\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-23",
+      "end_date": "2026-08-11",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "8b8bf1f13f39",
+        "name": "BOOK AND SONS",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "BOOK AND SONS"
+          },
+          "ja": {
+            "name": "BOOK AND SONS"
+          }
+        },
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.630555907872754,
+        "lng": 139.68703549294352
+      },
+      "artists": [
+        {
+          "id": "6a8d6d2aa995",
+          "name": "松本直大",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Naohiro-Matsumoto-Extreme-Here/87-C23676/2026-07-23",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "3cf7228a470f",
+      "source": "tokyo_art_beat",
+      "title": "服部健太郎 「骨/漂流物」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3e3uuDX7AKLkcqPhSXXfa3/23c38c6fd6eb19c1545826b8adebb578/hattori-honehyo_DM-01.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-23",
+      "end_date": "2026-08-02",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "7594735e50e5",
+        "name": "POOTLE（プートル）",
+        "lang": null,
+        "tr": {},
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.66282022360353,
+        "lng": 139.66005556812286
+      },
+      "artists": [
+        {
+          "id": "96e08798e14a",
+          "name": "服部健太郎",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kentaro-Hattori-Exhibition/pootle/2026-07-23",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "638c36bd7ce3",
+      "source": "tokyo_art_beat",
+      "title": "酒航太 「忘景」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4Ys62bPw2uTHDaQfJ6zlyn/65ff0ecf30f3fa3b44c7c7f439a60102/unnamed.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-21",
+      "end_date": "2026-08-03",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "e5c7ef943a0f",
+        "name": "ニコンプラザ東京",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "니콘 플라자 도쿄"
+          },
+          "en": {
+            "name": "Nikon Plaza Tokyo"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.692327639616835,
+        "lng": 139.69747217668757
+      },
+      "artists": [
+        {
+          "id": "5c8a542b4944",
+          "name": "酒航太",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "주항태"
+            },
+            "en": {
+              "name": "Sakota"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kota-Saka-Forgotten-Landscape/32-C9-CB-9-C/2026-07-21",
       "featured": false,
       "popularity_score": null
     }
@@ -63578,6 +64362,90 @@
       "country": "KR",
       "lat": null,
       "lng": null,
+      "website": null
+    },
+    {
+      "id": "2ad008c9f8bd",
+      "name": "부산현대미술관",
+      "lang": null,
+      "tr": {},
+      "venue_type": "museum",
+      "region": "부산",
+      "district": null,
+      "address": "부산광역시 사하구 낙동남로 1191",
+      "country": "KR",
+      "lat": 35.1093319279829,
+      "lng": 128.942693567088,
+      "website": null
+    },
+    {
+      "id": "022a1fd5b21b",
+      "name": "世田谷美術館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "世田谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.631587664713294,
+      "lng": 139.62218283138915,
+      "website": null
+    },
+    {
+      "id": "65fa60fc2a1a",
+      "name": "横浜市民ギャラリーあざみ野",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "神奈川県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.5652715638899,
+      "lng": 139.55382456212214,
+      "website": null
+    },
+    {
+      "id": "7ba19d31b1ae",
+      "name": "HAGISO",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "上野、谷中",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.72634304405013,
+      "lng": 139.76613351323857,
+      "website": null
+    },
+    {
+      "id": "57805f039a41",
+      "name": "PUNKTURE",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "表参道、青山",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.6708709459365,
+      "lng": 139.70864358589648,
+      "website": null
+    },
+    {
+      "id": "7594735e50e5",
+      "name": "POOTLE（プートル）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "世田谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.66282022360353,
+      "lng": 139.66005556812286,
       "website": null
     }
   ],
@@ -76510,6 +77378,126 @@
     {
       "id": "bea04ee94e3c",
       "name": "水島 貴大 / Takahiro Mizushima",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3a2a5f68e5f9",
+      "name": "川",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "66842b5f835c",
+      "name": "谷山恭子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fa8cc224c253",
+      "name": "トランスフィールドスタジオ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c52cd3054c6c",
+      "name": "中島晴矢",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ea42aacdc1a4",
+      "name": "松田修",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1c6b9b023627",
+      "name": "山口幸士",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4c51c8b65a3d",
+      "name": "夏樹螢石",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f0e842d63c51",
+      "name": "加藤新大",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "46c4a4ff4018",
+      "name": "塚本貴文",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6837e63d38f5",
+      "name": "大松公明",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1dd3a33b008f",
+      "name": "David Wolf",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "85e029f30fbd",
+      "name": "森貴裕",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "30ad85c16652",
+      "name": "Grace Dai",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "adae744261cc",
+      "name": "焦清瑞",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0fb2f4741e26",
+      "name": "マツモトタカヒロ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c85e14540216",
+      "name": "安武青架",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "44fcc023b947",
+      "name": "萩原奈都来",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "afddb8f59732",
+      "name": "儀間梨々香",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6a8d6d2aa995",
+      "name": "松本直大",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "96e08798e14a",
+      "name": "服部健太郎",
       "lang": null,
       "tr": {}
     }
