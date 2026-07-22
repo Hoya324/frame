@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T17:27:49.620083+00:00",
+  "generated_at": "2026-07-22T19:37:29.533829+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -37818,7 +37818,7 @@
           "description": "The moon, a remarkably large celestial body floating in the night sky. While it waxes and wanes, it is always regularly there when we look up, quietly illuminating the night path. The moon has been an object of worship in countries across all times and places, and as it appears in myths, fairy tales, poems, songs, and stories, it has long continued to inspire humanity with ideas. This exhibition centers around five works created with the theme of \"the moon\" and explores their surroundings. Your only possession needed is your imagination. For a moment in autumn, we invite you on a journey to the moon world, approximately 120 minutes long, unfolding across four exhibition rooms."
         }
       },
-      "poster_image_url": null,
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3P9h2Wl5NrgHIFZ0yrDLxj/bbb57d5730fd13baff85c07f991fc0b5/b687d08b-33af-41be-8602-66e6dbb21f4b.jpg",
       "description": "夜空に浮かぶひときわ大きな天体、月。満ち欠けを繰り返しながらも、見上げればいつも規則正しくそこにあり、静かに夜道を照らします。月は古今東西の国々で信仰の対象とされ、また、神話やおとぎ話、詩、歌や物語に登場するように、長きにわたって私たち人類にアイデアの元となるひらめきを与え続けてきました。本展では「月」をテーマに制作された5つの作品を中心にその周辺をめぐります。持ち物はあなたの想像力だけ。秋のひととき、4つの展示室で展開する約120分間の月世界旅行へ皆様をご案内いたします。",
       "medium": "mixed",
       "exhibition_type": "group",
@@ -42862,7 +42862,7 @@
       "price_max": null,
       "start_date": "2026-07-01",
       "end_date": "2026-07-21",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "b3002506ba4c",
@@ -43611,7 +43611,7 @@
         }
       },
       "poster_image_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/jpg/EXHIBITIONS/PAST/2026/2607/2607.jpg",
-      "description": null,
+      "description": "かわいまひと 河合真人写真展\n\nずっとあなたを探している\n\n2026年6月26日(金) - 7月12日(日)\n\n11:00-19:00\n\n＊毎週木曜日は22:00までOPEN\n\n月曜のみ休廊\n\nかのうみつる 加納満写真展\n\n独りにもどる場所\n\n2026年7月15日(水) - 8月1日(土)\n\n11:00-19:00\n\n＊毎週木曜日は22:00までOPEN\n\n日曜・月曜・祝日休廊\n\n2026\n\n2025\n\n2024\n\n2023\n\n2022\n\n2021\n\n2020\n\n2019\n\n2017\n\n2016\n\n2015\n\n2014\n\n2013\n\n2012\n\n2011\n\n2010\n\n2009\n\n2008\n\n2007\n\n2006\n\n2005",
       "medium": "photo",
       "exhibition_type": "curated",
       "genre_tags": [],
@@ -43640,7 +43640,7 @@
         "lng": 139.6628774
       },
       "artists": [],
-      "source_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/html/TOSEI-NEW-HP/html/EXHIBITIONS/j_2607_Kawai.html",
+      "source_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/html/EXHIBITIONS/j_exhibitions.html#show1",
       "featured": false,
       "popularity_score": null
     },
@@ -44382,7 +44382,7 @@
       "price_max": null,
       "start_date": "2026-07-22",
       "end_date": "2026-09-16",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": "月－土 11:00－18:00 / 日・祝休館",
       "venue": {
         "id": "b9a5f994c6d3",
@@ -48087,7 +48087,7 @@
       "price_max": null,
       "start_date": "2026-07-03",
       "end_date": "2026-07-21",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "98dfee56f137",
@@ -48845,7 +48845,7 @@
         }
       },
       "poster_image_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/jpg/EXHIBITIONS/PAST/2026/2606/2606.jpg",
-      "description": null,
+      "description": "かわいまひと 河合真人写真展\n\nずっとあなたを探している\n\n2026年6月26日(金) - 7月12日(日)\n\n11:00-19:00\n\n＊毎週木曜日は22:00までOPEN\n\n月曜のみ休廊\n\nかのうみつる 加納満写真展\n\n独りにもどる場所\n\n2026年7月15日(水) - 8月1日(土)\n\n11:00-19:00\n\n＊毎週木曜日は22:00までOPEN\n\n日曜・月曜・祝日休廊\n\n2026\n\n2025\n\n2024\n\n2023\n\n2022\n\n2021\n\n2020\n\n2019\n\n2017\n\n2016\n\n2015\n\n2014\n\n2013\n\n2012\n\n2011\n\n2010\n\n2009\n\n2008\n\n2007\n\n2006\n\n2005",
       "medium": "photo",
       "exhibition_type": "curated",
       "genre_tags": [],
@@ -48874,7 +48874,7 @@
         "lng": 139.6628774
       },
       "artists": [],
-      "source_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/html/TOSEI-NEW-HP/html/EXHIBITIONS/j_2609_MitsuruKano.html",
+      "source_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/html/EXHIBITIONS/j_exhibitions.html#show2",
       "featured": false,
       "popularity_score": null
     },
@@ -49325,7 +49325,7 @@
       "price_max": null,
       "start_date": "2026-07-16",
       "end_date": "2026-07-21",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "5647eee879e5",
@@ -54080,7 +54080,7 @@
       "price_max": null,
       "start_date": "2026-07-22",
       "end_date": "2026-08-02",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "018b6124fde6",
@@ -58349,6 +58349,100 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Kota-Saka-Forgotten-Landscape/32-C9-CB-9-C/2026-07-21",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "30f216e1b0f3",
+      "source": "tokyo_art_beat",
+      "title": "阿部駿 「境界-関係」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/51G6IPcmt8oRw1HNxwjVPQ/33a138d6117dade1172899331de4f53c/b2ae5ad9-58b2-4689-aa7f-1aabc2648ee1.png",
+      "description": "2026年7月23日（木）– 8月9日（日）の期間、阿部駿による個展「境界-関係」を開催いたします。阿部駿は東京を拠点にファッションや広告の分野で活動している写真家です。商業写真として様々な被写体を捉える一方で、それらとは全く違った自主的な作品を積極的に撮り続けている阿部駿。視覚的構成を巧みに取り入れ、構図への細やかな配慮が感じられる阿部駿の自主作品には、光と影の繊細な使い方も反映されています。建物の影や角度を利用して捉えられたその瞬間には建築的要素が感じられ、観る者を強く惹きつけます。「境界-関係」と題した本展では、長年の制作のテーマでもある境界と関係をさらに深掘りした近年の作品を発表いたします。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-23",
+      "end_date": "2026-08-09",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "01af30ab9be6",
+        "name": "bookshop / gallery タタ",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "bookshop / gallery 타타"
+          },
+          "en": {
+            "name": "bookshop / gallery Tata"
+          }
+        },
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.70859691177736,
+        "lng": 139.64989298406073
+      },
+      "artists": [
+        {
+          "id": "22e01f4ec37b",
+          "name": "阿部駿",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Shun-Abe-Boundaries-Relationship/4-E17543-D/2026-07-23",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "2c8ce2c5e717",
+      "source": "tokyo_art_beat",
+      "title": "小西弘晃 「peripheral portraits」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/L6grh3P1rScizJpGj1z7c/c19dea61b3d5974609b1c2951adc1321/1def33ed-5bb9-49b2-ba6c-9f91337d5947.jpg",
+      "description": "ADF（NPO青山デザインフォーラム）は、アート展「ADF Art Gallery Project」の46回目として、写真家・アーティストの小西弘晃（こにしひろあき）による個展「peripheral portraits」を2026年8月7日（金）から8月26日（水）まで東京・南青山のGARDE Galleryで開催いたします。\n\n小西はこれまで自身の作品の中で、メインストリームから外れたもの、目立たないもの、見過ごされているもの、差別されているものなど、社会のやや“外側”にいる周縁の存在にスポットライトを当ててきました。また言語の外側に存在する身体性に注目し、その可能性について写真というメディアを通して模索してきました。本展ではさらにその視点を大幅に拡張し、新たな解釈でこの世界を見つめ直します。忘れ去られたものや場所、子供や動物などの小さな声と向き合う中で、その対象は見えざる存在にまで及んでいきます。\n\n小西による、見えないものを見ようとする行為を通して、「ポートレート」は再定義され、私たちが大人になるにつれて見落としてきた風景や感覚を呼び覚まします。夢と現実が交差するような緊張感と違和感に満ちた新作は、作家自身の個人的な記憶そのものであると同時に、どこか普遍的を帯びています。映像作品を交えた不穏な気配が漂うシリーズを、ぜひ会場でご体感ください。\n\n※会場では展示作品をご購入頂ける他、写真集などの物販販売も行われます。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-07",
+      "end_date": "2026-08-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "fd184af3d277",
+        "name": "GARDE ART GALLERY",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "GARDE ART GALLERY"
+          },
+          "ja": {
+            "name": "GARDE ART GALLERY"
+          }
+        },
+        "region": "表参道、青山",
+        "district": null,
+        "lat": 35.66412,
+        "lng": 139.7137
+      },
+      "artists": [
+        {
+          "id": "402850212ccf",
+          "name": "小西弘晃",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hiroaki-Konishi-Peripheral-Portraits/garde-art-gallery/2026-07-07",
       "featured": false,
       "popularity_score": null
     }
@@ -77893,6 +77987,12 @@
     {
       "id": "96e08798e14a",
       "name": "服部健太郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "22e01f4ec37b",
+      "name": "阿部駿",
       "lang": null,
       "tr": {}
     }
