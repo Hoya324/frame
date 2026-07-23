@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T17:26:29.598933+00:00",
+  "generated_at": "2026-07-23T19:39:53.338571+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -36895,7 +36895,21 @@
         "lat": 35.6620146,
         "lng": 139.7312925
       },
-      "artists": [],
+      "artists": [
+        {
+          "id": "85d075d19443",
+          "name": "竹谷出",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "다케야 이즈루"
+            },
+            "en": {
+              "name": "Izuru Takeya"
+            }
+          }
+        }
+      ],
       "source_url": "https://zen-foto.jp/jp/exhibition/izuru-takeya-%E2%80%9Canon-%E2%80%9D",
       "featured": false,
       "popularity_score": null
@@ -39103,7 +39117,7 @@
           "description": "NHK's 'Nichiyō Bijutsukan' (Sunday Art Museum), a pioneering art program, celebrates its 50th anniversary this year. This exhibition will feature carefully selected masterpieces and related works by artists who appeared on the program, along with precious footage such as nostalgic program presenters speaking with deep affection for the works and artists, and scenes of artists at work in their studios."
         }
       },
-      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/7tMz8PZcufqgHJbM1e9ktq/4a946903efeb57bb55e3967ecbd63a33/nichibi_flier-A4_page-0001.jpg",
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/7tMz8PZcufqgHJbM1e9ktq/41d8284ee066b515f1bab6c82a30feae/be07b775-e356-4689-aaf2-d786a1ec1d7b.jpg",
       "description": "美術番組の草分け的な存在であるＮＨＫの「日曜美術館」は、今年で50周年を迎えます。本展では、番組に登場した作品・作家の中から厳選した名品や関連作を、懐かしい番組出演者が作品・作家への強い思いを込めて語る様子や、作家のアトリエでの制作風景などの貴重な映像を交えながら紹介します。",
       "medium": "video",
       "exhibition_type": "curated",
@@ -44727,7 +44741,7 @@
       "price_max": null,
       "start_date": "2026-07-23",
       "end_date": "2026-07-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ce8764530297",
@@ -54026,7 +54040,7 @@
       "price_max": null,
       "start_date": "2026-07-23",
       "end_date": "2026-08-02",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "018b6124fde6",
@@ -56961,8 +56975,8 @@
       "title": "[APMA, CHAPTER FIVE: FROM THE APMA COLLECTION] 육명심, 예술가의 초상",
       "lang": null,
       "tr": {},
-      "poster_image_url": "https://image-apma.amorepacific.com/upload/exhibition/m/1783411620661_WFFqHVAHWp_Cropped.jpg",
-      "description": "《APMA, CHAPTER FIVE》의 6전시실에서는 1960년대부터 동시대에 이르기까지 한국 현대미술의 다양한 양상을 살펴봅니다.\n\n이번에 소개할 작품은 한국 사진계 형성기를 이끈 1세대 사진가 육명심 작가(1932-2025)의 <예술가의 초상> 연작입니다.\n\n육명심은 사진이 단순한 기록에 머물던 흐름에서 벗어나, 인물과 그 주변 환경을 함께 담아 한 사람의 삶과 분위기를 보여주고자 했습니다.\n\n이러한 시도는 한국 인물사진의 새로운 방향을 제시한 중요한 작업으로 평가됩니다.\n\n1960년대 후반부터 <예술가의 초상>, <백민>, <검은 모살뜸> 등 시대마다 한국인의 삶과 죽음, 그리고 그 사이의 풍경을 카메라에 담아왔습니다.\n\n리얼리즘이 주류를 이루던 당시 한국 사진계에서, 작가는 문학의 '낯설게 하기' 방법론을 사진에 적극적으로 끌어들이며\n\n기존의 사진 언어와는 다른 길을 걸었습니다.\n\n©Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n<예술가의 초상> 연작은 1972년 서라벌예술대학 부임을 계기로 시작되었습니다.\n\n당시 사진은 예술 매체로 충분히 인정받지 못하던 시절이었습니다.\n\n이후 2010년까지 40여 년에 걸쳐 문인, 화가, 연극인, 영화인 등 한국 문화예술계를 대표하는 인물들을 기록했습니다.\n\n작가는 이를 두고 \"오만하리만큼 확확 밀어 제친 흔적이 보이지? 사진이 예술이 아니라는데, 정말 나한테는 결의에 찬 도전이야\"라고 회고했습니다.\n\n(APMA 소장품작가 인터뷰, 2015) 작가의 표현처럼, 이 연작은 조심스러운 기록이 아니라 사진의 자리를 스스로 쟁취하려 했던 작업이었습니다.\n\n육명심 <예술가의 초상 - 김창열>, 1969 -2012, 젤라틴 실버 프린트 Yook Myong-Shim, Portraits of an Artists, 1969 - 2012, Gelatin silver print\n\n육명심 <예술가의 초상 - 이우환>, 1969 - 2012, 젤라틴 실버 프린트 Yook Myong-Shim, Portraits of an Artists, 1969 - 2012, Gelatin silver print\n\n©Yook Myong-Shim, Courtesy of the Artist and Amorepacific Museum of Art.\n\n대부분의 촬영은 예술가의 작업실이나 생활 공간에서 이루어졌습니다.\n\n육명심은 피사체를 위대한 예술가로 연출하기보다 한 사람의 모습 그대로 바라보려 했습니다.\n\n그렇게 담아낸 자연스러운 장면들은 개인의 초상을 넘어, 그 시대 예술가들의 삶과 태도를 함께 전하는 기록으로 남아 있습니다.\n\n이번 전시에서는 김창열, 박경리, 최영림, 김기창, 오지호, 이우환, 박두진, 장욱진, 김기영, 오규원의 초상 10점을 만나볼 수 있습니다.\n\n이 가운데 김창열과 이우환의 회화 작품도 이번 소장품전에서 전시되고 있어, 육명심이 담아낸 초상과 함께 감상할 수 있습니다.\n\n육명심 <예술가의 초상 - 오규원>, 1969 - 2012, 젤라틴 실버 프린트 Yook Myong-Shim, Portraits of an Artists, 1969 - 2012, Gelatin silver print\n\n©Yook Myong-Shim, Courtesy of the Artist and Amorepacific Museum of Art.\n\n《향장》, 1975년 발행 ©Courtesy of Amorepacific Museum of Art.\n\n한편 오규원 시인은 태평양화학(현 아모레퍼시픽)의 홍보실에서 근무하며 1970년대 <향장>의 편집과 기획에 깊이 관여했습니다.\n\n<향장>은 미용 정보와 함께 문예작품을 함께 실었던 잡지로, 여성의 문화적 참여가 제한적이던 시절\n\n여성 독자들에게 창작과 표현의 장을 열어준 매체였습니다.\n\n소설가 양귀자도 1993년 1월 <향장>에 ‘작은 배가 있었네’를 기고한 바 있습니다.\n\n오규원과 아모레퍼시픽의 인연은 육명심이 기록한 시인의 초상에서도 이어집니다.\n\n©Yook Myong-Shim, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n이번 전시에서는 육명심의 <예술가의 초상> 연작과 함께, 기록을 넘어 동시대 현실과 시각 문화를 반영하고\n\n이미지와 물질의 관계를 탐구해온 한국 현대사진 작가들의 작품도 함께 만나볼 수 있습니다.\n\n권오상, 김상길, 정지현 등의 작업은 육명심이 열어놓은 한국 사진의 지평이 이후 어떻게 확장되어 왔는지를 함께 보여줍니다.",
+      "poster_image_url": "https://image-apma.amorepacific.com/upload/exhibition/m/1784792639864_Bbaeeu6cyg_Cropped.jpg",
+      "description": "《APMA, CHAPTER FIVE》의 6전시실에서는 1960년대부터 동시대에 이르기까지 한국 현대미술의 다양한 양상을 살펴봅니다.\n\n이번에 소개할 작품은 한국 사진계 형성기를 이끈 1세대 사진가 육명심 작가(1932-2025)의 <예술가의 초상> 연작입니다.\n\n육명심은 사진이 단순한 기록에 머물던 흐름에서 벗어나, 인물과 그 주변 환경을 함께 담아 한 사람의 삶과 분위기를 보여주고자 했습니다.\n\n이러한 시도는 한국 인물사진의 새로운 방향을 제시한 중요한 작업으로 평가됩니다.\n\n1960년대 후반부터 <예술가의 초상>, <백민>, <검은 모살뜸> 등 시대마다 한국인의 삶과 죽음, 그리고 그 사이의 풍경을 카메라에 담아왔습니다.\n\n리얼리즘이 주류를 이루던 당시 한국 사진계에서, 작가는 문학의 '낯설게 하기' 방법론을 사진에 적극적으로 끌어들이며 기존의 사진 언어와는 다른 길을 걸었습니다.\n\n©Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n<예술가의 초상> 연작은 1972년 서라벌예술대학 부임을 계기로 시작되었고 이후 2010년까지 40여 년에 걸쳐 문인, 화가, 연극인, 영화인 등 한국 문화예술계를 대표하는 인물들을 기록했습니다.\n\n작가는 이를 두고 \"오만하리만큼 확확 밀어 제친 흔적이 보이지? 사진이 예술이 아니라는데, 정말 나한테는 결의에 찬 도전이야\"라고 회고합니다. (APMA 소장품작가 인터뷰, 2015)\n\n작가의 표현처럼, 사진이 예술 매체로 충분히 인정받지 못하던 시절 이 연작은 조심스러운 기록이 아니라 사진의 자리를 스스로 쟁취하려 했던 작업이었습니다.\n\n육명심 <예술가의 초상 - 김창열>, 1969-2012, 젤라틴 실버 프린트\n\n육명심 <예술가의 초상 - 이우환>, 1969-2012, 젤라틴 실버 프린트\n\n©Yook Myong-Shim, Courtesy of the Artist and Amorepacific Museum of Art.\n\n대부분의 촬영은 예술가의 작업실이나 생활 공간에서 이루어졌습니다. 육명심은 피사체를 위대한 예술가로 연출하기보다 한 사람의 모습 그대로 바라보려 했습니다.\n\n그렇게 담아낸 자연스러운 장면들은 개인의 초상을 넘어, 그 시대 예술가들의 삶과 태도를 함께 전하는 기록으로 남아 있습니다.\n\n이번 전시에서는 김창열, 박경리, 최영림, 김기창, 오지호, 이우환, 박두진, 장욱진, 김기영, 오규원의 초상 10점을 만나볼 수 있습니다.\n\n이 가운데 김창열과 이우환의 회화 작품도 이번 소장품전에서 전시되고 있어, 육명심이 담아낸 초상과 함께 감상할 수 있습니다.\n\n육명심 <예술가의 초상 - 오규원>, 1969-2012, 젤라틴 실버 프린트\n\n©Yook Myong-Shim, Courtesy of the Artist and Amorepacific Museum of Art.\n\n©Courtesy of Amorepacific Museum of Art.\n\n한편 오규원 시인은 태평양화학(현 아모레퍼시픽)의 홍보실에서 근무하며 1970년대 <향장>의 편집과 기획에 깊이 관여했습니다.\n\n<향장>은 미용 정보와 함께 문예작품을 함께 실었던 잡지로, 소설가 양귀자도 1993년 1월 <향장>에 ‘작은 배가 있었네’를 기고한 바 있습니다.\n\n향장은 여성의 문화적 참여가 제한적이던 시절 여성 독자들에게 창작과 표현의 장을 열어준 매체였습니다.\n\n오규원과 아모레퍼시픽의 인연은 육명심이 기록한 시인의 초상에서도 이어집니다.\n\n©Yook Myong-Shim, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n이번 전시에서는 육명심의 <예술가의 초상> 연작과 함께, 기록을 넘어 동시대 현실과 시각 문화를 반영하고 이미지와 물질의 관계를 탐구해온 한국 현대사진 작가들의 작품도 함께 만나볼 수 있습니다.\n\n권오상, 김상길, 정지현 등의 작업은 육명심이 열어놓은 한국 사진의 지평이 이후 어떻게 확장되어 왔는지를 함께 보여줍니다.",
       "medium": "photo",
       "exhibition_type": "curated",
       "genre_tags": [],
@@ -57130,7 +57144,7 @@
           "tr": {}
         }
       ],
-      "source_url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=2&exhId=202607130002082",
+      "source_url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202607130002082",
       "featured": false,
       "popularity_score": null
     },
@@ -57415,7 +57429,7 @@
       "price_max": null,
       "start_date": "2026-07-23",
       "end_date": "2026-11-11",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "162d896d238b",
@@ -58220,7 +58234,7 @@
       "price_max": null,
       "start_date": "2026-07-23",
       "end_date": "2026-08-11",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8b8bf1f13f39",
@@ -58267,7 +58281,7 @@
       "price_max": null,
       "start_date": "2026-07-23",
       "end_date": "2026-08-02",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "7594735e50e5",
@@ -58368,7 +58382,7 @@
       "price_max": null,
       "start_date": "2026-07-23",
       "end_date": "2026-08-09",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "01af30ab9be6",
@@ -58443,6 +58457,909 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Hiroaki-Konishi-Peripheral-Portraits/garde-art-gallery/2026-07-07",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "6f26407f56d8",
+      "source": "tokyo_art_beat",
+      "title": "由地まさる 「太陽の島」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/5wDPwvEL9QoljC2XTjRcMJ/3e86ad8a2d04595c2e1aff1edf6aab8f/main.jpg",
+      "description": "アイデムフォトギャラリー「シリウス」では、創作意欲あふれる若手写真家（39歳以下を対象）に作品発表の場として当ギャラリーの写真展枠などを提供する支援プロジェクト「プロキオン・フォース」を開催しています。今回、由地まさるさんの写真展を支援・開催します。\n中世ヨーロッパの錬金術師に憧れて、化学的・魔術的な視点から「銀の美術」である銀塩写真の制作に取り組んでいます。メインに伝統的なモノクロプリント、それに加えて銀塩写真の化学プロセスを突き詰め錬金術の要素を取り入れた独自の手法『アルケミカルアメーバ』も同時に展示します。今回は、フィリピンのパンソルという小さな町を訪れた際に採集した光を材料に使って製作しています。そこでは使われなくなった鉄道のレール、太陽のきらめき、路地を歩くニワトリの美しい鳴き声、それらの中にある人間の暮らしに出会いました。（出展枚数: モノクロ42点、アルケミカルアメーバ14点）",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-23",
+      "end_date": "2026-07-29",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "88cb1cebd561",
+        "name": "アイデムフォトギャラリー「シリウス」",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "아이뎀 포토 갤러리 '시리우스'"
+          },
+          "en": {
+            "name": "Aidem Photo Gallery 'Sirius'"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.68829,
+        "lng": 139.7111
+      },
+      "artists": [
+        {
+          "id": "9057659d88d7",
+          "name": "由地まさる",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Masaru-Yoshichi-Sun-Island/idem-photo-gallery-sirius/2026-07-23",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "dfab7668ced3",
+      "source": "tokyo_art_beat",
+      "title": "「ロック・スター★長谷部宏写真展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/2Vt7jrqC5E8WhywJLUTxIO/bfe7502780b506c520d99f6c64dc300a/flyer_2608_01.jpg",
+      "description": "日本人で初めてビートルズを撮影し、数多くクイーンを撮影し、世界中のミュージシャンから“KOH（コー）”の名で愛され続けたロック・フォトグラファーの第一人者、長谷部宏の大規模な展覧会を開催いたします。1965年にロンドンでビートルズを撮影したことをきっかけに、日本の音楽文化を長年に渡ってリードした「ミュージック・ライフ」誌の専属カメラマンとなり、ロックの現場の第一線に立ち続け、40余年に撮影した膨大な作品は、洋楽シーンにおいて重要な役割を果たしてきました。歴史として語られるライブのステージから、“ロック・スター”と呼ぶに相応しい人気ミュージシャンたちのオフ・ステージの貴重な作品の数々。ロック・スターたちが時空を超えて集い、京都の夏がロックで染め上げられます。\n\n[関連イベント]\nナイトミュージアム\n① 長谷部宏、立川直樹（本展プロデューサー）\n日時: 8月1日（土） 20:00～21:00（美術館入口にて19:45～受付開始）\n定員: 60名（ご参加は18歳以上の方に限ります。お子さまの同伴は不可）\n参加料金: 2000円（会期中1回使用できる入館券付き）\n② 立川直樹、FM802／FM COCOLO・DJ 加美幸伸\n日時: 8月2日（日） 20:00～21:00（美術館入口にて19:45～受付開始）\n定員: 60名（ご参加は18歳以上の方に限ります。お子さまの同伴は不可）\n参加料金: 1500円（会期中1回使用できる入館券付き）",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-01",
+      "end_date": "2026-08-31",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "7e3b295e71ba",
+        "name": "美術館「えき」KYOTO",
+        "lang": null,
+        "tr": {},
+        "region": "京都府",
+        "district": null,
+        "lat": 34.985930166021255,
+        "lng": 135.75446677212605
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Rock-Star-Koh-Hasebe-Photo-Exhibition/004-CF-69-C/2026-08-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "a7be6ac05add",
+      "source": "tokyo_art_beat",
+      "title": "木寺憲吾 展",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/15TgE7p96XjnAHxV9nYKhZ/c373f05e1cca261da9d0abb95b1dc035/b25f646f-3372-41c9-b468-bc38f2342855.jpg",
+      "description": "『ホテルリソル上野』では、アートと下町が調和する「上野」という地域に根ざしたホテルづくりの一環として、リビングロビー内アートギャラリー「Resol Gallery Ueno」を活用し、未来の文化を発信する新進気鋭のアーティストと、旅するお客さまとの出会いを創出する取り組みを、2024年より実施しています。これまでにも、油絵や版画など多彩なジャンルの作品を展示し、長年アートシーンで活動されている作家から新進気鋭のアーティストまで、幅広い表現者が参加しています。旅人（ツーリスト）たちが気軽にアートに触れる場として、宿泊者のみならず一般の方にもお楽しみいただいています。\n第16弾となる今回は、広告写真や商業写真をはじめ、多様なクライアントワークを手がける、フォトグラファー・木寺 憲吾氏です。木寺氏は、近年は日本の伝統文化や食の美学を現代的なアートピースとして再解釈する作品制作に取り組んでおり、本展示では、江戸前寿司を被写体とした作品3点を展示いたします。被写体が持つ一瞬の躍動感や、光と水の細やかな表情をグラフィカルに切り取った木寺氏らしい作品を鑑賞いただけます。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-01",
+      "end_date": "2026-08-31",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "0fc8586513c7",
+        "name": "Resol Gallery Ueno",
+        "lang": null,
+        "tr": {},
+        "region": "上野、谷中",
+        "district": null,
+        "lat": 35.71321,
+        "lng": 139.7779
+      },
+      "artists": [
+        {
+          "id": "cdde127dfabe",
+          "name": "木寺憲吾",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kengo-Kidera-Exhibition/resol-gallery-ueno/2026-08-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "eb9752b75e2d",
+      "source": "tokyo_art_beat",
+      "title": "「2026年度 第2回コレクション展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/22zXzjYGJEoMim3JcZyVd6/83ad91d1bdad1fbaf3e489b35ace4ffa/HPbanner_0624.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-18",
+      "end_date": "2026-10-04",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "48561c553989",
+        "name": "京都国立近代美術館",
+        "lang": null,
+        "tr": {},
+        "region": "京都府",
+        "district": null,
+        "lat": 35.01235582239132,
+        "lng": 135.78211125946092
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/2nd-Collection-Gallery-Exhibition-2026/CF-834846/2026-07-18",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "6264cf293926",
+      "source": "tokyo_art_beat",
+      "title": "「KENJI MIURA 77FES. \"LOVE&PEACE\"」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/7xZPCPrVE05UNGo0CHU5hx/908ec610a12185b68125da25f2018d63/2d29633d-8f13-4ed5-924b-4736f4b8dfa4.jpeg",
+      "description": "三浦憲治さんが77歳（喜寿）のお誕生日を迎えます。それに合わせ、三浦さんのご希望で「三浦憲治、初めてのグループ展を開催して、自分も参加したい」ということで、7月25日（土）・26日（日）に中央区勝どきにある@btfにて、「KENJI MIURA 77 FES. “LOVE & PEACE” 」を開催します。三浦さんと親交の深いアーティスト（ミュージシャン・俳優）の方々をはじめ、フォトグラファー、作家の方々など多数の皆様にご参加いただいております。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-25",
+      "end_date": "2026-07-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "c6884d110b35",
+        "name": "@btf",
+        "lang": null,
+        "tr": {},
+        "region": "お台場、湾岸",
+        "district": null,
+        "lat": 35.65935143666011,
+        "lng": 139.77913751801344
+      },
+      "artists": [
+        {
+          "id": "dec6ae6cbb95",
+          "name": "赤塚りえ子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "fe42a5d02f59",
+          "name": "朝倉世界一",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d578dd6f61b1",
+          "name": "阿部航大",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "6725674c709e",
+          "name": "有村勝志",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b1dbbf7c44b0",
+          "name": "安斎肇",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1ca7460ef182",
+          "name": "飯嶋久美子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "2e9e24a0b2f4",
+          "name": "石井裕之",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "85138a31b39a",
+          "name": "伊島薫",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "35a1db21126f",
+          "name": "板橋淳一",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "7b63e0112edb",
+          "name": "一億親子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "86f3645e213e",
+          "name": "市川晋二",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "85ecbd72f6f1",
+          "name": "伊藤佐智子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "82b8641fc5b6",
+          "name": "井上陽水",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0a21ae3e2cdf",
+          "name": "岩松会",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0b71b425f845",
+          "name": "浦風親方",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0c3839aa8efd",
+          "name": "江口詞音",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "254c62562bda",
+          "name": "エドツワキ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c67acb0bcae1",
+          "name": "オツキジュンコ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "f00c485c9c92",
+          "name": "大久保篤志",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "698c0225104b",
+          "name": "岡下瑞樹",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "254f53485ba7",
+          "name": "加藤清美",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0d93feb90268",
+          "name": "鎌田ひで子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "9703076b9e79",
+          "name": "川崎あゆみ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e870e9199b82",
+          "name": "岸田哲平 岸本とも子 国沢拓",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "cb6a64d5a18a",
+          "name": "倉科昌高",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "f8e4b17651cf",
+          "name": "黒塚直子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1ec31730b597",
+          "name": "小泉今日子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "eaebd2371ce8",
+          "name": "小暮徹",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "7fdb94a68a2b",
+          "name": "こぐれひでこ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c8b4ad92ebf9",
+          "name": "坂本志保",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8af2204cb6cf",
+          "name": "桜井秀俊",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "23056c422e1f",
+          "name": "貞原能文",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "100364abc5bc",
+          "name": "佐藤早苗",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "aeb80c15cad6",
+          "name": "佐内正史",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사나이 마사후미"
+            },
+            "en": {
+              "name": "Masafumi Sanai"
+            }
+          }
+        },
+        {
+          "id": "4a30cd67208b",
+          "name": "サナカミナ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5a3253f99e0f",
+          "name": "三瓶可南子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c79692b84cd4",
+          "name": "柴田和彦",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "79fed6d95e84",
+          "name": "島本幸作",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "12e6b948d8ed",
+          "name": "島本了多",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "95975fb0f8f6",
+          "name": "しりあがり寿",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "74d22e0f6ecb",
+          "name": "鈴木銀二郎",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "40690e8f39bb",
+          "name": "スチャダラパー",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8b15f1d6c9f0",
+          "name": "瀬野敏",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "57f0ef7692f6",
+          "name": "高木康行",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a11f3f9e111b",
+          "name": "竹中直人",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "ccd6cb4880db",
+          "name": "田島一成",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "fb29c88189cf",
+          "name": "谷田一郎",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0ba932d14349",
+          "name": "都築響一",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "708323f998f8",
+          "name": "寺川真嗣",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "3959aa3337ed",
+          "name": "寺川佳奈",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "ae1d1324dc14",
+          "name": "中野裕之",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "98f3098267d4",
+          "name": "永井峰穂",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "93bdf5ad025f",
+          "name": "仲條雪",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "32ca5813ab0f",
+          "name": "中嶋佐和",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d6a2b89d84dc",
+          "name": "新居典子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5ac823e45004",
+          "name": "西田幸樹",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5f5fed8857cc",
+          "name": "沼尻賢治",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "6570b5c26bc7",
+          "name": "ノボル",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8351b18e2f2a",
+          "name": "原耕一",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "593b17d5324d",
+          "name": "原七郎",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "854e70016700",
+          "name": "浜辺明弘",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "49b89956a80b",
+          "name": "PUFFY",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "47d1d9961156",
+          "name": "原田公一",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "63c00292cfb7",
+          "name": "半沢克夫",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "da282a7ea4b4",
+          "name": "樋川ゆき",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "87c84de42031",
+          "name": "ひびのこづえ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "ae96bee332c2",
+          "name": "平尾香",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "20359af63d89",
+          "name": "ヒロ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b15b18734a94",
+          "name": "平野タカシ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "fac63e8761eb",
+          "name": "広川智基",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0e1651ded8da",
+          "name": "藤井フミヤ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "192b2b6d5478",
+          "name": "文藝春秋チーム",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b4178fd43a6e",
+          "name": "マイク野上",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "3172f594feaa",
+          "name": "マキエマキ",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마키에 마키"
+            },
+            "en": {
+              "name": "Makie Maki"
+            }
+          }
+        },
+        {
+          "id": "62e2176d8d41",
+          "name": "舞山秀一",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "9470db525f86",
+          "name": "丸谷嘉⾧",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e936fe68a4e7",
+          "name": "円山正史",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1605bd5aaddd",
+          "name": "みうらじゅん+いとうせいこう",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b5a9a2567c3b",
+          "name": "ミウラヒロシマチーム",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d049547ebf17",
+          "name": "三浦麻旅子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "214b236ef01f",
+          "name": "宮川里恵",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "ff06d9c7053f",
+          "name": "宮ちゃん",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "7536e2d09145",
+          "name": "森高千里",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1fc424e076a7",
+          "name": "安野ともこ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "7b9befe8b94e",
+          "name": "箭内道彦",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d9679bb012c2",
+          "name": "山川修一",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "52c330a351fe",
+          "name": "山川希衣子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "fe54fcad2523",
+          "name": "山岸ケン",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "ea68e70be0a4",
+          "name": "山口あかね",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c3cedf73fe3a",
+          "name": "山口貴史",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "89623d2843e9",
+          "name": "山本ちえ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0a83e8e567ec",
+          "name": "山脇健",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "29d919545e36",
+          "name": "ユニコーン",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "67c570051e83",
+          "name": "吉開健太",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "17f710ec1ffc",
+          "name": "YO‐KING",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "fe1f64d0ce18",
+          "name": "夜ヒル子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a01ec06861de",
+          "name": "渡辺祐",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kenji-Miura-77-Fes-Love-and-Peace/B0217-F47/2026-07-25",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "3b43fa6c606c",
+      "source": "tokyo_art_beat",
+      "title": "「千葉市美術館コレクション選 特集：江戸・明治の装い／本城直季」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/1L21bZXbF8bHjjYTXS7ZiM/ff3309618e62175617ef9413bbf6c08a/collection_1210089-1280x1011.jpg",
+      "description": "千葉市美術館のコレクションは、3つの収集方針「千葉市を中心とした房総ゆかりの作品」、「近世から近代の日本絵画と版画」、「1945年以降の現代美術」に沿って収集されています。この展示室では、約10,000点のコレクションの中から、それぞれの収集方針を代表する作品を順次ご紹介しています。約1ヶ月おき（現代美術は約3ヶ月おき）を目安に展示替えを行い、コレクションのハイライトをご覧いただきます。バラエティに富んだ千葉市美術館のコレクションをご堪能ください。",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-08",
+      "end_date": "2026-08-02",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "3c0a06885059",
+        "name": "千葉市美術館",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "지바시 미술관"
+          },
+          "en": {
+            "name": "Chiba City Museum of Art"
+          }
+        },
+        "region": "千葉県",
+        "district": null,
+        "lat": 35.608965860151834,
+        "lng": 140.1245951481627
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Dressing-in-Edo-and-Meiji-/-Naoki-Honjo/B41-FF-3-AF/2026-07-08",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "58adb752bc8d",
+      "source": "tokyo_art_beat",
+      "title": "松井章 「アルパカ ～ペルー・アンデスに生きる～」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/2Lfr5dlA0CqDayisclMfy0/78f3621858e872b311a81c496e15508b/alpaca_ex26_-_Akira_Matsui.jpg",
+      "description": "ペルーのアンデス山脈に生きる動物「アルパカ」をテーマした写真展です。現地の草原の放牧家族と生活を共にして撮影しています。そして、人ともに生きて約6000年、アルパカは家畜というよりも家族のような存在であり、神様の使いでもあります。アンデスの山岳民族にとって、宗教にまで深く根差すアルパカ本来の姿を紹介します。今回の展示では、先月6月に撮影した新作を中心に展示します。\n\n[関連イベント]\nギャラリートーク\n日時: 2026年8月1日、8月2日、8月5日、8月9日、8月11日、8月15日、8月16日 13:30〜14:00\n登壇者: 松井章\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-01",
+      "end_date": "2026-08-16",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "c2675641bc4e",
+        "name": "大垣書店 麻布台ヒルズ店",
+        "lang": null,
+        "tr": {},
+        "region": "麻布台、虎ノ門",
+        "district": null,
+        "lat": 35.66103194168657,
+        "lng": 139.74008228560655
+      },
+      "artists": [
+        {
+          "id": "b73bc96b6522",
+          "name": "松井章",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Akira-Matsui-Alpacas-Life-in-the-Peruvian-Andes/ogaki-bookstore-azabudai-hills/2026-08-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "0d9c195883c1",
+      "source": "tokyo_art_beat",
+      "title": "浦川和也 「Places of Amnesia」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/6EHUO9jzd4tFyx28tpmkGx/9b7b5583a0c2dbe47052771392a99770/fd82d25c-74fa-4d43-ae93-d3d6b4000fdf.jpg",
+      "description": "東京の北東部に位置する向島では、戦前から戦後に建てられた特徴的な建物と町並みが、場所の記憶を形づくってきました。しかし近年、建物の解体と建て替えが進み、地域の風景は大きく変化しています。本展では、浦川が向島に生じた空き地を長年にわたって観測し、撮影してきた作品を展示します。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-25",
+      "end_date": "2026-08-16",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "8102261bc897",
+        "name": "ナガヤ・ペーパー・ラボ",
+        "lang": null,
+        "tr": {},
+        "region": "東京：その他",
+        "district": null,
+        "lat": 35.71687782228344,
+        "lng": 139.82349119510653
+      },
+      "artists": [
+        {
+          "id": "06fdbbf2505a",
+          "name": "浦川和也",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kazuya-Urakawa-Places-of-Amnesia/nagaya-paper-lab/2026-07-25",
       "featured": false,
       "popularity_score": null
     }
@@ -64872,6 +65789,90 @@
       "country": "JP",
       "lat": 35.66282022360353,
       "lng": 139.66005556812286,
+      "website": null
+    },
+    {
+      "id": "7e3b295e71ba",
+      "name": "美術館「えき」KYOTO",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "京都府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.985930166021255,
+      "lng": 135.75446677212605,
+      "website": null
+    },
+    {
+      "id": "0fc8586513c7",
+      "name": "Resol Gallery Ueno",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "上野、谷中",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.71321,
+      "lng": 139.7779,
+      "website": null
+    },
+    {
+      "id": "48561c553989",
+      "name": "京都国立近代美術館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "京都府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.01235582239132,
+      "lng": 135.78211125946092,
+      "website": null
+    },
+    {
+      "id": "c6884d110b35",
+      "name": "@btf",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "お台場、湾岸",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.65935143666011,
+      "lng": 139.77913751801344,
+      "website": null
+    },
+    {
+      "id": "c2675641bc4e",
+      "name": "大垣書店 麻布台ヒルズ店",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "麻布台、虎ノ門",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.66103194168657,
+      "lng": 139.74008228560655,
+      "website": null
+    },
+    {
+      "id": "8102261bc897",
+      "name": "ナガヤ・ペーパー・ラボ",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "東京：その他",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.71687782228344,
+      "lng": 139.82349119510653,
       "website": null
     }
   ],
@@ -77993,6 +78994,600 @@
     {
       "id": "22e01f4ec37b",
       "name": "阿部駿",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9057659d88d7",
+      "name": "由地まさる",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "cdde127dfabe",
+      "name": "木寺憲吾",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "dec6ae6cbb95",
+      "name": "赤塚りえ子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fe42a5d02f59",
+      "name": "朝倉世界一",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d578dd6f61b1",
+      "name": "阿部航大",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6725674c709e",
+      "name": "有村勝志",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b1dbbf7c44b0",
+      "name": "安斎肇",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1ca7460ef182",
+      "name": "飯嶋久美子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2e9e24a0b2f4",
+      "name": "石井裕之",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "85138a31b39a",
+      "name": "伊島薫",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "35a1db21126f",
+      "name": "板橋淳一",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7b63e0112edb",
+      "name": "一億親子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "86f3645e213e",
+      "name": "市川晋二",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "85ecbd72f6f1",
+      "name": "伊藤佐智子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "82b8641fc5b6",
+      "name": "井上陽水",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0a21ae3e2cdf",
+      "name": "岩松会",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0b71b425f845",
+      "name": "浦風親方",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0c3839aa8efd",
+      "name": "江口詞音",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "254c62562bda",
+      "name": "エドツワキ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c67acb0bcae1",
+      "name": "オツキジュンコ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f00c485c9c92",
+      "name": "大久保篤志",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "698c0225104b",
+      "name": "岡下瑞樹",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "254f53485ba7",
+      "name": "加藤清美",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0d93feb90268",
+      "name": "鎌田ひで子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9703076b9e79",
+      "name": "川崎あゆみ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e870e9199b82",
+      "name": "岸田哲平 岸本とも子 国沢拓",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "cb6a64d5a18a",
+      "name": "倉科昌高",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f8e4b17651cf",
+      "name": "黒塚直子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1ec31730b597",
+      "name": "小泉今日子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "eaebd2371ce8",
+      "name": "小暮徹",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7fdb94a68a2b",
+      "name": "こぐれひでこ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c8b4ad92ebf9",
+      "name": "坂本志保",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8af2204cb6cf",
+      "name": "桜井秀俊",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "23056c422e1f",
+      "name": "貞原能文",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "100364abc5bc",
+      "name": "佐藤早苗",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4a30cd67208b",
+      "name": "サナカミナ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5a3253f99e0f",
+      "name": "三瓶可南子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c79692b84cd4",
+      "name": "柴田和彦",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "79fed6d95e84",
+      "name": "島本幸作",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "12e6b948d8ed",
+      "name": "島本了多",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "95975fb0f8f6",
+      "name": "しりあがり寿",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "74d22e0f6ecb",
+      "name": "鈴木銀二郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "40690e8f39bb",
+      "name": "スチャダラパー",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8b15f1d6c9f0",
+      "name": "瀬野敏",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "57f0ef7692f6",
+      "name": "高木康行",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a11f3f9e111b",
+      "name": "竹中直人",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ccd6cb4880db",
+      "name": "田島一成",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fb29c88189cf",
+      "name": "谷田一郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0ba932d14349",
+      "name": "都築響一",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "708323f998f8",
+      "name": "寺川真嗣",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3959aa3337ed",
+      "name": "寺川佳奈",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ae1d1324dc14",
+      "name": "中野裕之",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "98f3098267d4",
+      "name": "永井峰穂",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "93bdf5ad025f",
+      "name": "仲條雪",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "32ca5813ab0f",
+      "name": "中嶋佐和",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d6a2b89d84dc",
+      "name": "新居典子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5ac823e45004",
+      "name": "西田幸樹",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5f5fed8857cc",
+      "name": "沼尻賢治",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6570b5c26bc7",
+      "name": "ノボル",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8351b18e2f2a",
+      "name": "原耕一",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "593b17d5324d",
+      "name": "原七郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "854e70016700",
+      "name": "浜辺明弘",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "49b89956a80b",
+      "name": "PUFFY",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "47d1d9961156",
+      "name": "原田公一",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "63c00292cfb7",
+      "name": "半沢克夫",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "da282a7ea4b4",
+      "name": "樋川ゆき",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "87c84de42031",
+      "name": "ひびのこづえ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ae96bee332c2",
+      "name": "平尾香",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "20359af63d89",
+      "name": "ヒロ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b15b18734a94",
+      "name": "平野タカシ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fac63e8761eb",
+      "name": "広川智基",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0e1651ded8da",
+      "name": "藤井フミヤ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "192b2b6d5478",
+      "name": "文藝春秋チーム",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b4178fd43a6e",
+      "name": "マイク野上",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "62e2176d8d41",
+      "name": "舞山秀一",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9470db525f86",
+      "name": "丸谷嘉⾧",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e936fe68a4e7",
+      "name": "円山正史",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1605bd5aaddd",
+      "name": "みうらじゅん+いとうせいこう",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b5a9a2567c3b",
+      "name": "ミウラヒロシマチーム",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d049547ebf17",
+      "name": "三浦麻旅子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "214b236ef01f",
+      "name": "宮川里恵",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ff06d9c7053f",
+      "name": "宮ちゃん",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7536e2d09145",
+      "name": "森高千里",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1fc424e076a7",
+      "name": "安野ともこ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7b9befe8b94e",
+      "name": "箭内道彦",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d9679bb012c2",
+      "name": "山川修一",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "52c330a351fe",
+      "name": "山川希衣子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fe54fcad2523",
+      "name": "山岸ケン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ea68e70be0a4",
+      "name": "山口あかね",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c3cedf73fe3a",
+      "name": "山口貴史",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "89623d2843e9",
+      "name": "山本ちえ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0a83e8e567ec",
+      "name": "山脇健",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "29d919545e36",
+      "name": "ユニコーン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "67c570051e83",
+      "name": "吉開健太",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "17f710ec1ffc",
+      "name": "YO‐KING",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fe1f64d0ce18",
+      "name": "夜ヒル子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a01ec06861de",
+      "name": "渡辺祐",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b73bc96b6522",
+      "name": "松井章",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "06fdbbf2505a",
+      "name": "浦川和也",
       "lang": null,
       "tr": {}
     }
