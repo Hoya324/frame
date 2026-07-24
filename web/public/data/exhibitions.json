@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T17:34:10.058165+00:00",
+  "generated_at": "2026-07-24T19:58:24.288982+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -22597,7 +22597,7 @@
       "price_max": null,
       "start_date": "2026-06-19",
       "end_date": "2026-07-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "264da55cd4ca",
@@ -24868,7 +24868,7 @@
       "price_max": null,
       "start_date": "2026-06-19",
       "end_date": "2026-07-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "264da55cd4ca",
@@ -40210,7 +40210,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-09-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "2cae7bd4b141",
@@ -41311,7 +41311,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-08-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": "10:00－19:00（最終日は14:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -45071,7 +45071,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-10-18",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "716226843826",
@@ -46737,7 +46737,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-08-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "3f88230e73b4",
@@ -46863,7 +46863,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-08-30",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "2c50d279d824",
@@ -52414,23 +52414,14 @@
       "popularity_score": null
     },
     {
-      "id": "359bcabf64ca",
-      "source": "tokyo_art_beat",
-      "title": "「TOKYOスマート・カルチャー・プロジェクト 奈良女子大学 長谷研究室『複製される感性－森山大道』」",
-      "lang": "ja",
-      "tr": {
-        "ko": {
-          "title": "「TOKYO 스마트 컬처 프로젝트 나라여자대학 나가타니 연구실 『복제되는 감성－모리야마 다이도』」",
-          "description": "도쿄도와 공익재단법인 도쿄도 역사문화재단이 추진하는 'TOKYO 스마트 컬처 프로젝트'는 도립 문화시설이 보유한 문화 자원을 디지털화하여 새로운 감상 경험을 제공하는 프로젝트입니다. 그 일환으로, 도립 문화시설이 소장하는 '도쿄도 컬렉션'의 실물 자료와 디지털 아카이브를 결합하여 오프라인과 온라인을 융합한 하이브리드 전시회를 개최합니다.\n\n본 전시회에서는 도쿄도 사진미술관이 소장하는 모리야마 다이도의 작품을 '복제되는 감성'이라는 테마 아래 나라여자대학 공학부 학생들의 시점에서 선정하고 재구성하여 전시합니다. 또한, 'Tokyo Museum Collection (ToMuCo)－도쿄도립 박물관・미술관 소장품 검색'에서는 온라인 전시회를 통해 누구나, 언제든지, 어디서든 작품을 감상할 수 있는 기회를 제공합니다.\n\n참고로, 본 전시회는 모리야마 다이도 사진재단의 협력으로 이리에 다이키치 기념 나라시 사진미술관에서 2025년에 개최된 '복제되는 감성 DAIDO MORIYAMA by NWU Nagatani Lab. Monika Orpik'의 순회전으로 개최됩니다. 해당 전시의 전시 작품을 포함하여 새로운 구성으로 관람하실 수 있습니다."
-        },
-        "en": {
-          "title": "\"TOKYO Smart Culture Project Nara Women's University Nagatani Lab 'Reproduced Sensibility - Daido Moriyama'\"",
-          "description": "The \"TOKYO Smart Culture Project,\" promoted by the Tokyo Metropolitan Government and the Tokyo Metropolitan Foundation for History and Culture, is a project that digitizes cultural resources held by metropolitan cultural facilities to provide new viewing experiences. As part of this, a hybrid exhibition will be held, combining physical materials and digital archives from the \"Tokyo Metropolitan Collection\" held by metropolitan cultural facilities, merging offline and online experiences.\n\nIn this exhibition, works by Daido Moriyama from the Tokyo Photographic Art Museum's collection will be selected and reconfigured from the perspective of students from Nara Women's University Faculty of Engineering, under the theme of \"Reproduced Sensibility.\" Furthermore, \"Tokyo Museum Collection (ToMuCo) - Search for Collections of Tokyo Metropolitan Museums and Art Museums\" will provide an opportunity for anyone to view the works anytime, anywhere through online exhibitions.\n\nThis exhibition will be held as a touring exhibition of \"Reproduced Sensibility DAIDO MORIYAMA by NWU Nagatani Lab. Monika Orpik,\" which was held in 2025 at the Irie Taikichi Memorial Museum of Photography, Nara City, with the cooperation of the Daido Moriyama Photo Foundation. You can view it with a new configuration, including the works displayed in that exhibition."
-        }
-      },
-      "poster_image_url": null,
-      "description": "東京都と公益財団法人東京都歴史文化財団が推進する「TOKYOスマート・カルチャー・プロジェクト」は、都立文化施設が有する文化資源をデジタル化し、新たな鑑賞体験を提供するプロジェクトです。その一環として、都立文化施設が収蔵する「東京都コレクション」の現物資料とデジタルアーカイブを組み合わせ、オフラインとオンラインを融合したハイブリッド展覧会を開催します。\n\n本展覧会では、東京都写真美術館が収蔵する森山大道の作品を「複製される感性」というテーマのもと、奈良女子大学工学部の学生の視点で選定し、再構成して展示します。また、「Tokyo Museum Collection（ToMuCo）－東京都立博物館・美術館収蔵品検索」ではオンライン展覧会を通じて、誰もが、いつでも、どこでも作品を鑑賞できる機会を提供します。\n\nなお、本展覧会は、森山大道写真財団のご協力により、入江泰吉記念奈良市写真美術館で2025年に開催された「複製される感性 DAIDO MORIYAMA by NWU Nagatani Lab. Monika Orpik」の巡回展として開催します。同展の展示作品も含め、新たな構成でご覧いただけます。",
-      "medium": "photo",
+      "id": "be44c1fe8a72",
+      "source": "tokyo_photographic_art_museum",
+      "title": "TOKYOスマート・カルチャー・プロジェクト 奈良女子大学 長谷研究室「複製される感性－森山大道」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://topmuseum.jp/wp-content/uploads/2026/03/white.jpg",
+      "description": null,
+      "medium": "mixed",
       "exhibition_type": "curated",
       "genre_tags": [],
       "fee_type": "free",
@@ -52458,7 +52449,7 @@
         "lng": 139.71331240862762
       },
       "artists": [],
-      "source_url": "https://www.tokyoartbeat.com/events/-/Tokyo-Smart-Culture-Project-Nara-Womens-University-Hase-Laboratory-Replicated-Sensibility-Daido-Moriyama/B6131856/2026-09-05",
+      "source_url": "https://topmuseum.jp/exhibition/12474/",
       "featured": false,
       "popularity_score": null
     },
@@ -53063,7 +53054,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-07-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "3ffcaad95ee9",
@@ -53170,7 +53161,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-08-23",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "615674c05f55",
@@ -53627,7 +53618,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-09-03",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "264da55cd4ca",
@@ -53905,7 +53896,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-08-29",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "66e34b5d2dcf",
@@ -53984,7 +53975,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-08-06",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "fa66fa67ffb6",
@@ -54653,7 +54644,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-08-02",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "a84abe36f0ce",
@@ -54715,7 +54706,7 @@
       "price_max": null,
       "start_date": "2026-07-17",
       "end_date": "2026-07-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "fa66fa67ffb6",
@@ -54825,7 +54816,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-08-15",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "b3002506ba4c",
@@ -55370,7 +55361,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-08-29",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ebeb55911efb",
@@ -56286,7 +56277,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-08-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "69bccd2fe47d",
@@ -56319,7 +56310,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-07-29",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "23129cff8bfd",
@@ -56553,7 +56544,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-08-18",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "3be25f9a2320",
@@ -57117,7 +57108,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-08-02",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8310c831bce3",
@@ -58140,7 +58131,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-07-29",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "68e82b6b6f51",
@@ -58187,7 +58178,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-09-03",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "264da55cd4ca",
@@ -59360,6 +59351,214 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Kazuya-Urakawa-Places-of-Amnesia/nagaya-paper-lab/2026-07-25",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "b6a4e819c8f7",
+      "source": "tokyo_art_beat",
+      "title": "「d design travel KUMAMOTO EXHIBITION」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/1nCXJsMjsDxe4uMrij9Tl4/b34b8ad9497cb398fe45fda3c1bb2307/f74913b3-8d00-41d8-8925-29fe3cd87da3.jpg",
+      "description": "熊本県の個性を、「デザイン」と「旅」の視点から見る展覧会。編集長が約2ヶ月間、暮らすように現地を旅して本当に感動したものだけを本音で紹介するガイドブック『d design travel』。シリーズ最新刊は36都道府県目となる『d design travel KUMAMOTO』です。本誌の発売と連動して、本誌の内容を立体的に体験できる展示を軸にさまざまな企画を展開します。編集部が実際に、歩き、見聞きし、食べた“熊本の今”を感じて、実際に熊本県を旅したくなる、そのきっかけをつくる展覧会です。\n\n会場内のミュージアムショップは、本誌編集部が取材を通して出会った、本音でお薦めしたい熊本県のおみやげや、d47 MUSEUMがセレクトした“熊本らしい”ものづくりをご紹介する「熊本物産MARKET」に。熊本の各地域に根付く手仕事から生まれる4つの窯元の器をはじめ、い草を使ったユニークなプロダクトや、地域の食材をたっぷり使ったお菓子・お酒など美味しい手みやげまで、熊本県が誇るものづくりから、約200品目が一堂に集合します。\n\nまた、d47食堂の料理人が熊本の食文化を取材して開発した新メニュー「熊本定食」も登場。阿蘇の火山が生んだ豊かな大地と、有明海・不知火海の恵みに育まれた熊本の食。在来野菜阿蘇高菜の古漬けを使った高菜めし、地域ごとに味わいや団子の形が異なるだご汁ほか、自家製辛子れんこん、水前寺菜の白和え、どろりあげ、座禅豆や寒漬け大根が並ぶ「熊本定食」は、併設のd47食堂で、実際にご賞味いただけます。\n\n[関連イベント]\nd design travel show KUMAMOTO\n日時: 2026年8月11日15:00～20:30\n会場: 8/COURT、d47 MUSEUM、d47食堂（渋谷ヒカリエ8F）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-24",
+      "end_date": "2026-09-13",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "11d9da4f76f5",
+        "name": "渋谷ヒカリエ 8/ d47 MUSEUM",
+        "lang": null,
+        "tr": {},
+        "region": "渋谷",
+        "district": null,
+        "lat": 35.65889516579491,
+        "lng": 139.7035868134407
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/D-Design-Travel-Kumamoto-Exhibition/80-E559-D9/2026-07-24",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "2eb0962db302",
+      "source": "tokyo_art_beat",
+      "title": "かじおかみほ 「聞コエマスカ？ クジャクノ島カラ 花ノカヲリ」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3F9JVwassND6AfSfHIrMEi/efcf9cf686a0323f9c6e8542f14a2bd0/3f04e1_13cb4e98518a43f59fb855faafcb844e-mv2.webp",
+      "description": "広島県広島市のgallery Gにて、パリを拠点に活動するアーティスト miho kajioka の展覧会「聞コエマスカ？ クジャクノ島カラ 花ノカヲリ have you ever listened to the scent of flowers blooming from peacock islands?」が始まります。2025年より縁ある場所や人と交差し、共感し、創造するライフプロジェクトとして新たにスタートした「Peacocks project」。Gallery NAO MASAKIがディレクションに携わるこのプロジェクトの第一回目は、震災30年を迎えた神戸のVAGUE KOBEにて開催されました。第二回目となる本年は、原爆投下から81年目の節目を迎える広島の地で展開されます。 kajiokaの写真は、言葉では語り尽くせない感情や、消えることなく残り続ける記憶へと静かに私たちを導きます。広島市内二箇所の会場を巡り、記憶と感覚を横断する時間をぜひ体感ください。\n\n第二会場：VINCENT & MIA\n広島市中区中町5-1 1F\n【会期】2026年7月14日（火）〜7月26日（日）水曜定休\n【時間】12:00〜20:00",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-14",
+      "end_date": "2026-07-26",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "603c1cc51aa5",
+        "name": "gallery G",
+        "lang": null,
+        "tr": {},
+        "region": "広島県",
+        "district": null,
+        "lat": 34.39976545103414,
+        "lng": 132.46495096197125
+      },
+      "artists": [
+        {
+          "id": "dc1a4ff845b5",
+          "name": "かじおかみほ",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "카지오카 미호"
+            },
+            "en": {
+              "name": "Kajioka Miho"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Miho-Kajioka-Have-you-ever-listened-to-the-scent-of-flowers-form-peacock-islands/gallery-g/2026-07-14",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "e11f33950c9f",
+      "source": "tokyo_art_beat",
+      "title": "「たそかれ、かはたれ ―現代美術における“翳”」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/7BSCGBxQj8OBPYm3RIqbr2/3b36a3062b915e058a702790e92b72dc/2026-h-collection2-tmb1.jpg",
+      "description": "「たそかれ（黄昏）」そして「かはたれ（彼は誰）」は、光と闇の境がゆるやかに溶け合い、ものの輪郭が揺らぐ時間帯を指す古語です。そうしたものごとがうつろう際の〈翳（かげ）〉の気配に着目し、20世紀美術に見られる不確かな像や感覚を辿ります。柚木沙弥郎（ゆのき・さみろう/1922–2024）の古布によるコラージュ作品《夜の絵》、光のはざまに佇む岡崎和郎（おかざき・かずお/1930–2022）の《HISASHI》、杉本博司（すぎもと・ひろし/1948–）や森山大道（もりやま・だいどう/1938–）の写真に刻まれた光と影。近年収蔵した作品も多く含めて、さまざまなあわいに立ち現れる表現を紹介します。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-12",
+      "end_date": "2026-11-15",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "f0f15a81c2c4",
+        "name": "神奈川県立近代美術館 葉山",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "가나가와 켄리츠 킨다이 비쥬츠칸 하야마"
+          },
+          "en": {
+            "name": "Kanagawa Kenritsu Kindai Bijutsukan Hayama"
+          }
+        },
+        "region": "神奈川県",
+        "district": null,
+        "lat": 35.264896109041906,
+        "lng": 139.5776864117301
+      },
+      "artists": [
+        {
+          "id": "44f822a90eb6",
+          "name": "ジャン・アルプ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "facfa91449a1",
+          "name": "岡崎和郎",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0a30bbda9186",
+          "name": "杉本博司",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "스기모토 히로시"
+            },
+            "en": {
+              "name": "Hiroshi Sugimoto"
+            }
+          }
+        },
+        {
+          "id": "4c0c9783aaaf",
+          "name": "ズビニェク・セカル",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1f0d54e79f74",
+          "name": "高松次郎",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "3a50c9b46da3",
+          "name": "中谷ミチコ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "bd6f29837815",
+          "name": "西村盛雄",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a84a56f0f320",
+          "name": "森山大道",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "모리야마 다이도"
+            },
+            "en": {
+              "name": "Daido Moriyama"
+            }
+          }
+        },
+        {
+          "id": "4ea84a3ae418",
+          "name": "柚木沙弥郎",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "3ccc378e8e0e",
+          "name": "ゲルハルト・リヒター",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "894a7c593d31",
+          "name": "トーマス・ルフ",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "토마스 루프"
+            },
+            "en": {
+              "name": "Thomas Ruff"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Tasogare-Kawatare-In-Between-in-Contemporary-Art-From-the-Museum-Collection/E06-DA-77-D/2026-09-12",
       "featured": false,
       "popularity_score": null
     }
@@ -65873,6 +66072,34 @@
       "country": "JP",
       "lat": 35.71687782228344,
       "lng": 139.82349119510653,
+      "website": null
+    },
+    {
+      "id": "11d9da4f76f5",
+      "name": "渋谷ヒカリエ 8/ d47 MUSEUM",
+      "lang": null,
+      "tr": {},
+      "venue_type": "museum",
+      "region": "渋谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.65889516579491,
+      "lng": 139.7035868134407,
+      "website": null
+    },
+    {
+      "id": "603c1cc51aa5",
+      "name": "gallery G",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "広島県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.39976545103414,
+      "lng": 132.46495096197125,
       "website": null
     }
   ],
@@ -79588,6 +79815,54 @@
     {
       "id": "06fdbbf2505a",
       "name": "浦川和也",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "44f822a90eb6",
+      "name": "ジャン・アルプ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "facfa91449a1",
+      "name": "岡崎和郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4c0c9783aaaf",
+      "name": "ズビニェク・セカル",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1f0d54e79f74",
+      "name": "高松次郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3a50c9b46da3",
+      "name": "中谷ミチコ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "bd6f29837815",
+      "name": "西村盛雄",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4ea84a3ae418",
+      "name": "柚木沙弥郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3ccc378e8e0e",
+      "name": "ゲルハルト・リヒター",
       "lang": null,
       "tr": {}
     }
