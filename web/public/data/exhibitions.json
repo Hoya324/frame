@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T17:01:30.793943+00:00",
+  "generated_at": "2026-07-26T19:38:54.019737+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -43204,7 +43204,7 @@
       "price_max": null,
       "start_date": "2026-07-04",
       "end_date": "2026-07-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "dbc2e62be78a",
@@ -44092,7 +44092,7 @@
       "price_max": null,
       "start_date": "2026-07-03",
       "end_date": "2026-07-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "e70f23fda50d",
