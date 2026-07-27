@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T15:53:54.700748+00:00",
+  "generated_at": "2026-07-27T17:46:29.648914+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -43618,10 +43618,12 @@
       "lang": "ja",
       "tr": {
         "ko": {
-          "title": "카와이 마사토 사진전"
+          "title": "카와이 마사토 사진전",
+          "description": "카와이 마히토 사진전\n\n계속 당신을 찾고 있습니다\n\n2026년 6월 26일(금) - 7월 12일(일)\n\n11:00-19:00\n\n＊매주 목요일은 22:00까지 OPEN\n\n월요일만 휴관\n\n카노 미츠루 사진전\n\n홀로 돌아가는 곳\n\n2026년 7월 15일(수) - 8월 1일(토)\n\n11:00-19:00\n\n＊매주 목요일은 22:00까지 OPEN\n\n일요일・월요일・공휴일 휴관\n\n2026\n\n2025\n\n2024\n\n2023\n\n2022\n\n2021\n\n2020\n\n2019\n\n2017\n\n2016\n\n2015\n\n2014\n\n2013\n\n2012\n\n2011\n\n2010\n\n2009\n\n2008\n\n2007\n\n2006\n\n2005"
         },
         "en": {
-          "title": "Masato Kawai Photography Exhibition"
+          "title": "Masato Kawai Photography Exhibition",
+          "description": "Kawai Mahito Photography Exhibition\n\nAlways Searching for You\n\nJune 26 (Fri) - July 12 (Sun), 2026\n\n11:00-19:00\n\n＊Open until 22:00 every Thursday\n\nClosed on Mondays only\n\nKanou Mitsuru Photography Exhibition\n\nA Place to Return to Solitude\n\nJuly 15 (Wed) - August 1 (Sat), 2026\n\n11:00-19:00\n\n＊Open until 22:00 every Thursday\n\nClosed on Sundays, Mondays, and national holidays\n\n2026\n\n2025\n\n2024\n\n2023\n\n2022\n\n2021\n\n2020\n\n2019\n\n2017\n\n2016\n\n2015\n\n2014\n\n2013\n\n2012\n\n2011\n\n2010\n\n2009\n\n2008\n\n2007\n\n2006\n\n2005"
         }
       },
       "poster_image_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/jpg/EXHIBITIONS/PAST/2026/2607/2607.jpg",
@@ -48852,10 +48854,12 @@
       "lang": "ja",
       "tr": {
         "ko": {
-          "title": "카노 미츠루 사진전"
+          "title": "카노 미츠루 사진전",
+          "description": "카와이 마히토 사진전\n\n계속 당신을 찾고 있습니다\n\n2026년 6월 26일(금) - 7월 12일(일)\n\n11:00-19:00\n\n＊매주 목요일은 22:00까지 OPEN\n\n월요일만 휴관\n\n카노 미츠루 사진전\n\n홀로 돌아가는 곳\n\n2026년 7월 15일(수) - 8월 1일(토)\n\n11:00-19:00\n\n＊매주 목요일은 22:00까지 OPEN\n\n일요일・월요일・공휴일 휴관\n\n2026\n\n2025\n\n2024\n\n2023\n\n2022\n\n2021\n\n2020\n\n2019\n\n2017\n\n2016\n\n2015\n\n2014\n\n2013\n\n2012\n\n2011\n\n2010\n\n2009\n\n2008\n\n2007\n\n2006\n\n2005"
         },
         "en": {
-          "title": "Kano Mitsuru Photo Exhibition"
+          "title": "Kano Mitsuru Photo Exhibition",
+          "description": "Kawai Mahito Photography Exhibition\n\nAlways Searching for You\n\nJune 26 (Fri) - July 12 (Sun), 2026\n\n11:00-19:00\n\n＊Open until 22:00 every Thursday\n\nClosed on Mondays only\n\nKanou Mitsuru Photography Exhibition\n\nA Place to Return to Solitude\n\nJuly 15 (Wed) - August 1 (Sat), 2026\n\n11:00-19:00\n\n＊Open until 22:00 every Thursday\n\nClosed on Sundays, Mondays, and national holidays\n\n2026\n\n2025\n\n2024\n\n2023\n\n2022\n\n2021\n\n2020\n\n2019\n\n2017\n\n2016\n\n2015\n\n2014\n\n2013\n\n2012\n\n2011\n\n2010\n\n2009\n\n2008\n\n2007\n\n2006\n\n2005"
         }
       },
       "poster_image_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/jpg/EXHIBITIONS/PAST/2026/2606/2606.jpg",
@@ -49538,8 +49542,15 @@
         {
           "id": "12885db9e772",
           "name": "こしだミカ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "코시다 미카"
+            },
+            "en": {
+              "name": "Koshida Mika"
+            }
+          }
         },
         {
           "id": "835c4312b985",
@@ -49557,20 +49568,41 @@
         {
           "id": "862fc9be6ab5",
           "name": "さこももみ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사코 모모미"
+            },
+            "en": {
+              "name": "Sako Momomi"
+            }
+          }
         },
         {
           "id": "ea30e6d08d79",
           "name": "ささめやゆき",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사사메야 유키"
+            },
+            "en": {
+              "name": "Sasameya Yuki"
+            }
+          }
         },
         {
           "id": "0d64721746e7",
           "name": "田島征三",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "타지마 세이조"
+            },
+            "en": {
+              "name": "Tajima Seizō"
+            }
+          }
         },
         {
           "id": "c6b38ba4b4f3",
@@ -51018,26 +51050,54 @@
         {
           "id": "d6e462d52538",
           "name": "服部瑠唯",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "하토리 루이"
+            },
+            "en": {
+              "name": "Rui Hattori"
+            }
+          }
         },
         {
           "id": "838438683d2a",
           "name": "眞弓侑大",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마유미 유다이"
+            },
+            "en": {
+              "name": "Yudai Mayumi"
+            }
+          }
         },
         {
           "id": "660134d9dbc5",
           "name": "八幡棟大",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "야와타 무네히로"
+            },
+            "en": {
+              "name": "Yawata Munehiro"
+            }
+          }
         },
         {
           "id": "f0521477514f",
           "name": "山田菜月",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "야마다 나츠키"
+            },
+            "en": {
+              "name": "Yamada Natsuki"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/PRE-Works-by-Photography-Course-Students-Nagoya-University-of-Arts-and-Sciences/nagoya-citizens-gallery-yada/2026-07-15",
@@ -51141,14 +51201,28 @@
         {
           "id": "b81d5df0354e",
           "name": "土屋じゅり",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "츠치야 주리"
+            },
+            "en": {
+              "name": "Tsuchiya Juri"
+            }
+          }
         },
         {
           "id": "546ce234cc66",
           "name": "佐藤真那人",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사토 마나토"
+            },
+            "en": {
+              "name": "Sato Manato"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Juli-Tsuchiya-Manato-Sato-Exhibition/gallery-and-links-81/2026-07-14",
@@ -51216,98 +51290,210 @@
         {
           "id": "3f6ab06a6279",
           "name": "木下めいこ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "키노시타 메이코"
+            },
+            "en": {
+              "name": "Meiko Kinoshita"
+            }
+          }
         },
         {
           "id": "9e1f0dc78697",
           "name": "瀬戸優",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "세토 유"
+            },
+            "en": {
+              "name": "Yu Seto"
+            }
+          }
         },
         {
           "id": "7766c63fa1e7",
           "name": "石黒昭",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이시구로 아키라"
+            },
+            "en": {
+              "name": "Akira Ishiguro"
+            }
+          }
         },
         {
           "id": "5d096e6872eb",
           "name": "高田洋三",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "타카다 요조"
+            },
+            "en": {
+              "name": "Yozo Takada"
+            }
+          }
         },
         {
           "id": "6ce55a2c33a8",
           "name": "岡田敦",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오카다 아츠시"
+            },
+            "en": {
+              "name": "Atsushi Okada"
+            }
+          }
         },
         {
           "id": "02a220b64e76",
           "name": "佐藤正和重孝",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사토 마사카즈 시게타카"
+            },
+            "en": {
+              "name": "Masakazu Shigetaka Sato"
+            }
+          }
         },
         {
           "id": "782655feb5d2",
           "name": "粂原愛",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "쿠메하라 아이"
+            },
+            "en": {
+              "name": "Ai Kumehara"
+            }
+          }
         },
         {
           "id": "264cbfade4e6",
           "name": "河嶋淳司",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "카와시마 준지"
+            },
+            "en": {
+              "name": "Junji Kawashima"
+            }
+          }
         },
         {
           "id": "0daa41462915",
           "name": "土屋仁応",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "츠치야 요시마사"
+            },
+            "en": {
+              "name": "Yoshimasa Tsuchiya"
+            }
+          }
         },
         {
           "id": "ee1828bd620c",
           "name": "田中福男",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "다나카 후쿠오"
+            },
+            "en": {
+              "name": "Fukuo Tanaka"
+            }
+          }
         },
         {
           "id": "d5fee6c7acac",
           "name": "鈴木果澄",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "스즈키 카스미"
+            },
+            "en": {
+              "name": "Suzuki Kasumi"
+            }
+          }
         },
         {
           "id": "87a8e17b7d99",
           "name": "猪熊佳子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이노쿠마 요시코"
+            },
+            "en": {
+              "name": "Inokuma Yoshiko"
+            }
+          }
         },
         {
           "id": "f2edbb68232c",
           "name": "藤戸竹喜",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "후지토 타케키"
+            },
+            "en": {
+              "name": "Fujito Takeki"
+            }
+          }
         },
         {
           "id": "c50383f49d66",
           "name": "澁谷俊彦",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "시부야 토시히코"
+            },
+            "en": {
+              "name": "Shibuya Toshihiko"
+            }
+          }
         },
         {
           "id": "ad3d7ad8ceeb",
           "name": "谷口顕一郎・彩子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "타니구치 켄이치로・아야코"
+            },
+            "en": {
+              "name": "Kenichiro Taniguchi and Ayako"
+            }
+          }
         },
         {
           "id": "7a2b4eec7025",
           "name": "小助川裕康",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "코스케가와 히로야스"
+            },
+            "en": {
+              "name": "Hiroyasu Kosukegawa"
+            }
+          }
         },
         {
           "id": "6a05f6354688",
@@ -53042,8 +53228,15 @@
       "id": "584e94c48f7f",
       "source": "tokyo_art_beat",
       "title": "「754GALLERY オープニングパーティ」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「754GALLERY 오프닝 파티」"
+        },
+        "en": {
+          "title": "\"754GALLERY Opening Party\""
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/Zke7QgDRKZo5gficeUu3P/97c131c9590d1d64c093fc016da2b719/S__2457694_0.jpg",
       "description": null,
       "medium": "mixed",
@@ -53096,8 +53289,19 @@
       "id": "ca2d26fe918e",
       "source": "tokyo_art_beat",
       "title": "Shinyoung + FRAGILE 「FIGURE」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "Shinyoung + FRAGILE 「FIGURE」",
+          "description": "2026년 7월 31일 (금)부터 8월 23일 (일)까지 K ART GALLERY에서 Shinyoung과 FRAGILE의 2인전 『FIGURE』를 개최합니다. 전시 첫날인 7월 31일은 운영 시간을 12:00-20:00로 연장합니다."
+        },
+        "ja": {
+          "title": "Shinyoung + FRAGILE 「FIGURE」"
+        },
+        "en": {
+          "description": "A duo exhibition by Shinyoung and FRAGILE, titled 'FIGURE,' will be held at K ART GALLERY from Friday, July 31, 2026 to Sunday, August 23. On July 31, the first day of the exhibition, opening hours will be extended from 12:00 to 20:00."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/10SoTKiGEbBxRYoc1VYwcc/c2a9efb6ddebd4e82b3f0a498c6f42fa/53b320b4-855e-4718-9609-d2e125eb90af.jpg",
       "description": "2026年7月31日（金）から8月23日（日）までK ART GALLERYにて、ShinyoungとFRAGILEの2人展、『FIGURE』を開催いたします。展示初日の7月31日はオープン時間を12:00-20:00に延長します。",
       "medium": "mixed",
@@ -53149,8 +53353,17 @@
       "id": "590719eb4745",
       "source": "tokyo_art_beat",
       "title": "「日 日 日」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「日 日 日」",
+          "description": "이번 기획전에 참여한 작가들은 각자의 접근 방식으로 '일상'을 기록하고, '일상'의 풍경을 작품이라는 형태로 담아냈습니다. 미술에 있어서 '일상과 비일상'이라는 주제는 그들의 표현의 근간을 이룹니다. 본 전시의 제목 '日日日'은 세 명의 구성이라는 틀에 호응하듯, '일상'을 세 번 겹침으로써 탄생했습니다. 과거의 오래된 공간성을 짙게 이어받은 갤러리에서 세 명의 작품은 교차합니다. 각각의 작품을 하나의 'Cell(세포)'로 본다면, 그 안에는 환경에 적응하고 변화를 이루는 '품종 개량'과 같은 성질을 발견할 수 있을 것입니다. 서로의 의식 범위로 작품과 타인이 침범하는 것. 그때 발생하는 '시각적인 버그'와 같은 미세한 어긋남이야말로 우리가 그 순간의 차이를 지각하는 계기가 됩니다. 개별적인 요소와 보편성 사이에 있는 거리감은 때로는 정성스럽게 꿰매어지고, 또 때로는 그 거리를 유지한 채 패키징되어 있습니다. 일상이라는 상태, 혹은 그것과의 차이를 감상자인 당신 자신의 감각으로 받아들일 수 있는 공간이 펼쳐집니다.\n\n[관련 이벤트]\n아티스트 토크\n일시: 2026년 8월 8일 15:00~\n등단자: 아리츠카 유이, 나카지마 히로키, 히사무라 타쿠\n장소: Yoru Aozora\n요금: 무료\n※이벤트 상세 내용은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "“日 日 日”",
+          "description": "The artists gathered for this exhibition record 'daily life' through their respective approaches, transforming scenes of 'everyday life' into the form of artworks. The theme of 'everyday and non-everyday' in art forms the core of their expression. The exhibition title '日 日 日' was created by stacking 'daily life' three times, echoing the framework of a three-person composition. In a gallery that strongly inherits its former spatiality, the works of the three artists intersect. If each work is regarded as a 'Cell,' one can find a quality akin to 'breeding improvement,' adapting to the environment and undergoing change. Works and others intrude into each other's spheres of consciousness. The subtle discrepancies, like 'visual bugs,' that occur then become the catalyst for us to perceive the differences of that moment. The sense of distance between individual elements and universality is sometimes carefully stitched together, and at other times packaged while maintaining that distance. A space emerges for you, the viewer, to perceive the state of daily life, or the difference from it, with your own senses.\n\n[Related Event]\nArtist Talk\nDate & Time: August 8, 2026, 15:00~\nSpeakers: Yui Aritsuka, Hiroki Nakajima, Taku Hisamura\nVenue: Yoru Aozora\nAdmission: Free\n*Please check the official website for event details."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/OdW8RsN6FAkU3DjmErtor/46ff255add1e09386bfb59b9cd002b3a/DISTRICT.jpg",
       "description": "本企画展へ集った作家たちは、それぞれのアプローチで「日々」を記録し、「日常」の情景を作品という形態へ落とし込んでいます。美術における「日常と非日常」というテーマは、彼女彼らの表現の根幹をなすものです。本展のタイトル「日日日」は三名での構成という枠組みに呼応するように、「日々」を三つ重ねることで生まれました。かつてそこにあった古い空間性を色濃く引き継いだギャラリーにおいて、三名の作品は交錯します。それぞれの作品をひとつの「Cell（細胞）」と捉えるならば、そこには環境に適応し変化を遂げる「品種改良」のような性質が見出せるでしょう。互いの意識の範囲へと、作品がそして他者が侵入し合うこと。そのとき発生する「視覚的なバグ」のような微細なズレこそが、私たちがその瞬間の差異を知覚する契機となります。個的な要素と普遍性の間にある距離感は、あるときは丁寧に縫い合わされ、またあるときはその距離を保ったままパッケージングされています。日常という状態、あるいはそのものとの差異を鑑賞者であるあなた自身の感覚で受け取るための空間が立ち上がります。\n\n[関連イベント]\nアーティストトーク\n日時: 2026年8月8日15:00〜\n登壇者: 蟻塚唯衣、中嶋弘樹、久村卓\n会場: Yoru Aozora\n料金: 無料\n※イベント詳細は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -53208,8 +53421,15 @@
       "id": "47b3048e8bd3",
       "source": "tokyo_art_beat",
       "title": "「台湾若手写真家合同個展 PHOTO ONE 林 軒朗『台北再会』」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "대만 젊은 사진작가 합동 개인전 PHOTO ONE 림 헌랑 '타이베이 재회'"
+        },
+        "en": {
+          "title": "Taiwanese Young Photographers Joint Solo Exhibition PHOTO ONE Lin Xuanlang 'Taipei Reunion'"
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/2cdNbxa9p0Yjei5cHuttc/2340967de10756c2ee85f5a0a77c27d9/a0bddf76-003f-4418-b541-f8348537017c.jpg",
       "description": null,
       "medium": "photo",
@@ -54120,8 +54340,17 @@
       "id": "3da4d7552ac5",
       "source": "tokyo_art_beat",
       "title": "「路地裏の世界4」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "골목길의 세계 4",
+          "description": "건물 사이에 끼어 있는 작은 길의 풍경은 시간이 멈춘 듯 신비롭고 어딘가 향수를 불러일으키는 장소처럼 보이기도 합니다. 골목길에는 사람들의 삶의 조각들이 쌓여 있고, 겉으로는 볼 수 없는 도시의 '개성'이 조용히 숨 쉬고 있습니다. 깔끔하게 정돈된 겉모습보다 그 도시의 진짜 모습인 골목길에서 매력을 느끼는 분들이 많지 않을까요? 이 전시는 골목길에 매료된 작가들의 전시입니다. 함께 골목길 탐험을 해보시겠어요?"
+        },
+        "en": {
+          "title": "World of Back Alleys 4",
+          "description": "The scenery of narrow paths nestled between buildings appears as a mysterious and somewhat nostalgic place, as if time has stopped. In the back alleys, fragments of people's lives accumulate, and the city's 'individuality,' unseen from the main streets, quietly breathes. Don't many people find more charm in the back alleys, which represent the city's reality, rather than in the neatly arranged main streets? This exhibition features artists captivated by back alleys. Why not join us on a back alley exploration?"
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/7EDjrDr1OpYomOwgd4WTtp/62287cbd24424528b6865dc4bc593be5/rojiura_-_Tokyo_Artcomplex_Center.png",
       "description": "建物に挟まれた小道の風景は、時が止まっているかのような不思議でどこか懐かしい場所にも見えます。路地裏には人々の営みの欠片が積み重なり、表側には見られない街の「個性」がひっそりと息づいています。綺麗に整えられた表側より、その街のリアルである路地裏にこそ魅力を感じる方は多いのではないでしょうか？この展覧会は路地裏に魅了された作家たちの展覧会です。一緒に路地裏探検をしてみませんか？",
       "medium": "mixed",
@@ -54190,8 +54419,17 @@
       "id": "c3c9f6ecd696",
       "source": "tokyo_art_beat",
       "title": "「アーツ中村橋 2026―わたしとまちの記憶」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "아츠 나카무라바시 2026 - 나와 마을의 기억",
+          "description": "네리마 구립 미술관에서는 '아츠 나카무라바시 2026 - 나와 마을의 기억' 전을 개최합니다. 본 전시는 작년부터 시작된 '마을과 연결되는 현대 미술 전시회'의 제2탄입니다. 올해는 '나와 마을의 기억'을 테마로, 총 9팀의 아티스트들이 조각, 회화, 사진, 건축, 설치미술 등 다양한 작품을 통해 '우리'와 나카무라바시 '마을'의 과거와 현재를 연결합니다. 네리마 구립 미술관과 나카무라바시 마을에 흩어져 있는 작품들을 둘러보며 마을 산책을 즐겨보시겠어요?"
+        },
+        "en": {
+          "title": "Arts Nakamurabashi 2026 - My Memories of the Town",
+          "description": "The Nerima Art Museum will hold the 'Arts Nakamurabashi 2026 - My Memories of the Town' exhibition. This exhibition is the second installment of the 'Contemporary Art Exhibition Connecting with the Town' series, which began last year. This year, with the theme 'My Memories of the Town,' a total of nine groups of artists will connect 'us' with the past and present of Nakamurabashi's 'town' through diverse works including sculpture, painting, photography, architecture, and installation art. Why not enjoy a town walk, exploring the artworks scattered throughout the Nerima Art Museum and the town of Nakamurabashi?"
+        }
+      },
       "poster_image_url": null,
       "description": "練馬区立美術館では「アーツ中村橋 2026―わたしとまちの記憶」展を開催します。本展覧会は、昨年度よりはじまった「まちとつながる現代美術の展覧会」の第2弾です。今年度は「わたしとまちの記憶」をテーマに、総勢9組のアーティストたちによる彫刻・絵画・写真・建築・インスタレーションなどの多様な作品から、「わたし」たちと中村橋の「まち」の過去と現在をつなぎます。練馬区立美術館と中村橋のまちに点在する作品をめぐって、まち歩きを楽しみませんか？",
       "medium": "photo",
@@ -54278,8 +54516,15 @@
       "id": "d93f3ae656cd",
       "source": "tokyo_art_beat",
       "title": "Yusuke Kikuchi 「Surface」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "Yusuke Kikuchi 「Surface」"
+        },
+        "ja": {
+          "title": "Yusuke Kikuchi 「Surface」"
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/z7JzCym3EXoE9UavSC2cs/721be89894b03e08d49a117892ad7d9d/surface_dm_back.png",
       "description": null,
       "medium": "mixed",
@@ -54325,8 +54570,17 @@
       "id": "fab3e1ac8d17",
       "source": "tokyo_art_beat",
       "title": "「浅間国際フォトフェスティバル2026 PHOTO MIYOTA」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「아사마 국제 포토 페스티벌 2026 PHOTO MIYOTA」",
+          "description": "사진은 셔터가 눌리는 순간 완성되는 것이 아닙니다. 그것은 보여지고, 공유되고, 기억되고, 잊혀지고, 때로는 오해되면서, 촬영된 그 '이후'의 시간 속에서 의미를 바꾸고, 증폭하며, 계속해서 갱신되는 존재입니다. 이미지는 개인의 기억 속에 침전되고, 사회 속을 유통하며, 맥락의 변화에 따라 전혀 다른 이야기를 하기 시작합니다. 한 장의 사진은 전시 공간을 떠난 후에도 보는 이의 경험과 가치관과 교차하면서 새로운 영향과 질문을 만들어냅니다. 디지털 환경의 확장으로 인해 사진은 순식간에 세계를 돌며 복제되고, 잘려나가고, 재배치되며, 원본과 복사본, 사실과 허구의 경계가 모호해졌습니다. 동시에 사진은 정치, 사회, 역사, 정체성과 결합하여 우리의 현실 인식을 형성하는 힘을 갖게 되었습니다.\n\n「After the Image｜이미지의 그 이후」에서는 사진이 탄생한 '이후'에 일어나는 일들에 주목합니다. 그것은 이미지가 불러일으키는 감정과 기억의 연쇄이며, 사회적 영향, 시간을 초월한 재해석, 그리고 사진이 사람들의 의식과 행동에 미치는 조용하지만 확실한 변화입니다.\n\n아사마산록・미요타(御代田)라는 장소에서 사진은 풍경이나 건축, 일상의 동선과 교차하면서 단순한 시각적 경험을 넘어선 '경험'으로 나타납니다. 작품은 전시 공간 안에서만 완결되는 것이 아니라, 감상자 각자에게 가져가져 그 이후의 사고나 시선의 방식을 미미하게나마 확실하게 변화시킬 것입니다.\n\n「After the Image」는 사진이란 무엇이며, 이미지가 어떻게 세계와 관계하는지를 다시 묻는 시도입니다. 그리고 이미지의 '그 이후'에 우리가 어떻게 마주하고, 어떤 미래를 선택할 것인지를 조용히 묻습니다."
+        },
+        "en": {
+          "title": "「Asama International Photo Festival 2026 PHOTO MIYOTA」",
+          "description": "A photograph is not complete the moment the shutter is released. It is an entity that continues to change meaning, amplify, and be updated in the time \"after\" it was taken, as it is seen, shared, remembered, forgotten, and sometimes misinterpreted. Images settle in individual memories, circulate within society, and begin to tell entirely different stories depending on changes in context. Even after leaving the exhibition space, a single photograph intersects with the viewer's experiences and values, generating new influences and questions. With the expansion of the digital environment, photographs instantly travel the world, are duplicated, cropped, and rearranged, blurring the boundaries between original and copy, fact and fiction. At the same time, photographs have become linked to politics, society, history, and identity, gaining the power to shape our very perception of reality.\n\nIn \"After the Image,\" we turn our attention to the events that occur \"after\" a photograph is born. These are the chains of emotions and memories triggered by images, their social impact, reinterpretation across time, and the quiet yet certain changes photographs bring to people's consciousness and actions.\n\nIn the location of Asama-sanroku, Miyota, photographs emerge as \"experiences\" that transcend mere visual perception, intersecting with landscapes, architecture, and daily routines. Works are not completed solely within the exhibition space; they are carried away by each viewer, subtly but surely altering their subsequent thoughts and perspectives.\n\n\"After the Image\" is an attempt to re-examine what photography is and how images engage with the world. It quietly asks how we confront the \"aftermath\" of images and what future we choose."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3kTyJfYWzp64c0wmfhUAJZ/a13564ca93f805c2c8f5ebe8b035ddf5/main.jpg",
       "description": "写真は、シャッターが切られた瞬間に完成するものではありません。それは、見られ、共有され、記憶され、忘れられ、時に誤読されながら、撮影されたその「後」の時間の中で、意味を変え、増幅し、更新され続ける存在です。イメージは、個人の記憶に沈殿し、社会の中を流通し、文脈の変化によって、まったく異なる物語を語り始めます。一枚の写真は、展示空間を離れた後も、見る者の経験や価値観と交差しながら、新たな影響や問いを生み出します。デジタル環境の拡張により、写真は瞬時に世界を巡り、複製され、切り取られ、再配置され、オリジナルとコピー、事実とフィクションの境界は曖昧になりました。同時に、写真は政治、社会、歴史、アイデンティティと結びつき、私たちの現実認識そのものを形成する力を持つようになっています。\n\n「After the Image｜イメージのその後」では、写真が生まれた「後」に起こる出来事に目を向けます。それは、イメージが引き起こす感情や記憶の連鎖であり、社会的な影響、時間を超えた再解釈、そして写真が人々の意識や行動に与える静かな、しかし確かな変化です。\n\n浅間山麓・御代田という場所において、写真は風景や建築、日常の動線と交わりながら、単なる視覚体験を超えた「経験」として立ち現れます。作品は展示空間の中だけで完結するのではなく、鑑賞者それぞれの中で持ち帰られ、その後の思考や視線のあり方を、わずかに、しかし確実に変えていくでしょう。\n\n「After the Image」は、写真とは何か、イメージはいかに世界と関わるのかを問い直す試みです。そして、イメージの“その後”に私たちがどのように向き合い、どのような未来を選び取るのかを、静かに問いかけます。",
       "medium": "photo",
@@ -54365,8 +54619,17 @@
       "id": "a405f7862fcb",
       "source": "tokyo_art_beat",
       "title": "「漂進」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「표진」",
+          "description": "2025년에 개최된 지난 전시 「회귀 관측」에 이어지는 본 전시에서는 공익재단법인 에조에 기념 리크루트 재단의 지원을 받아 미국, 영국, 독일, 호주에서 활동을 이어가는 5명의 아티스트가 참여합니다. 조각, 사진, 사운드 아트 등 다양한 실천을 통해 각자의 경험과 환경, 타인과의 만남이 어떻게 작업과 시점을 형성하는지를 제시합니다.\n\n본 전시는 \"우리는 언제, 무엇에 소속감을 갖는가?\"라는 열린 질문에서 시작됩니다. 본 전시에서 소속감이란 고정된 단일한 속성으로서가 아니라, 각자의 기억, 가치관, 관계성, 사회적 배경의 축적에 의해 형성되는 것으로 이해됩니다. 참여 작가들은 각자가 왜 지금 여기에 서 있는지, 그 배경에 있는 경험과 감각을 되돌아봅니다. 다른 문화와 사회 속에서 생활하며 작업을 계속하는 것은 반드시 명확한 답이나 안정된 소속감을 주는 것은 아닙니다. 오히려 그 과정에서 서로 공유할 수 없는 차이와 예상치 못한 공통성 모두가 드러납니다. 본 전시에서는 \"자신에게 무엇이 중요한가\"를 다시 묻는 것을 통해 개인을 형성하는 복잡하고 다층적인 조건에 대해 고찰하고, 더 나아가 작업에 대한 발견점으로 삼습니다.\n\n타이틀 「표진」은 확실한 발판을 갖지 못한 채, 그럼에도 불구하고 계속 나아가는 상태를 나타냅니다. 물이 다른 환경을 통과하면서 그 장소의 흔적을 띠고 형태를 계속 바꾸듯이, 작가들의 실천 또한 땅과 경험, 타인과의 만남을 내포하면서 변화를 이어가고 있습니다. 본 전시는 불확실성을 해소하는 것이 아니라, 그 복잡함과 흔들림 속에서 계속 나아가는 과정 그 자체에 주목합니다. 각기 다른 궤적을 가진 작가들의 실천을 통해, 본 전시가 이동, 기억, 환경, 그리고 일상적인 경험에 의해 형성되는 현대의 모습을 생각하는 계기가 되기를 바랍니다."
+        },
+        "en": {
+          "title": "「Drifting Forward」",
+          "description": "This exhibition, following the previous exhibition \"Kaiki Kansoku\" held in 2025, features five artists who continue to work in the United States, the United Kingdom, Germany, and Australia, with the support of the Ezoe Memorial Recruit Foundation. Through diverse practices such as sculpture, photography, and sound art, they present how their individual experiences, environments, and encounters with others shape their creative work and perspectives.\n\nThis exhibition begins with the open question: \"When and to what do we feel a sense of belonging?\" Here, belonging is not understood as a fixed, singular attribute, but rather as something shaped by the accumulation of individual memories, values, relationships, and social backgrounds. The participating artists re-examine why they stand where they are now, looking at the experiences and sensations that lie behind it. Living and creating in different cultures and societies does not necessarily provide clear answers or a stable sense of belonging. Rather, in that process, both unshareable differences and unexpected commonalities emerge. Through re-examining \"what is important to oneself,\" this exhibition considers the complex and multilayered conditions that form an individual, making them points of discovery for further creation.\n\nThe title \"Drifting Forward\" indicates a state of continuing to advance even without a firm footing. Just as water passes through different environments, carrying traces of those places and continuously changing form, the artists' practices also continue to evolve, encompassing land, experiences, and encounters with others. This exhibition does not aim to resolve uncertainty but rather to focus on the very process of moving forward amidst complexity and fluctuation. Through the practices of artists with different trajectories, this exhibition serves as an opportunity to reflect on the contemporary way of being, shaped by movement, memory, environment, and everyday experiences."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/vq7Y91ZG8reTrt4NPirkz/06529e58a9f337e52c66ef07088ebeeb/main.png",
       "description": "2025年に開催された前回展「回帰観測」に続く本展では、公益財団法人江副記念リクルート財団の支援を受け、アメリカ、イギリス、ドイツ、オーストラリアで活動を続ける5名のアーティストが参加。彫刻、写真、サウンドアートなど多様な実践を通して、それぞれの経験や環境、他者との出会いが、どのように制作や視点を形成しているのかを提示します。\n\n本展は、「私たちはいつ、何に帰属意識をもつのか？」という開かれた問いから始まります。本展において帰属意識とは、固定された単一の属性としてではなく、それぞれの記憶、価値観、関係性、社会的背景の積み重なりによって形づくられるものとして捉えられています。参加作家たちは、それぞれがなぜ今ここに立っているのか、その背景にある経験や感覚を見つめ直します。異なる文化や社会のなかで生活し、制作を続けることは、必ずしも明確な答えや安定した帰属意識を与えるものではありません。むしろその過程で、互いに共有しえない差異と、予期せぬ共通性の両方が浮かび上がります。本展では、「自分にとって何が重要なのか」を問い直すことを通して、個人を形成する複雑で重層的な条件について考察し、さらなる制作への発見点とします。\n\nタイトル「漂進」は、確かな足場を持たないまま、それでもなお進み続ける状態を示しています。水が異なる環境を通り抜けながら、その場所の痕跡を帯び、かたちを変え続けるように、作家たちの実践もまた、土地や経験、他者との出会いを内包しながら変化し続けています。本展は、不確実さを解消することではなく、その複雑さや揺らぎのなかを進み続ける過程そのものに目を向けます。それぞれ異なる軌跡をもつ作家たちの実践を通して、本展が移動、記憶、環境、そして日常的な経験によって形づくられる現代のあり方について考える契機とします。",
       "medium": "photo",
@@ -54436,8 +54699,17 @@
       "id": "f97d85ffa049",
       "source": "tokyo_art_beat",
       "title": "「IMPRINTED ―杉本博司 ポスター展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「IMPRINTED ―스기모토 히로시 포스터전」",
+          "description": "주식회사 타케오는 「IMPRINTED ―스기모토 히로시 포스터전」을 7월 31일(금)부터 9월 11일(금)까지 도쿄 칸다니시키초의 타케오 미혼초 본점에서 개최합니다. 사진, 건축, 무대 예술, 서예, 도예 등 다채로운 영역을 넘나드는 현대 미술 작가 스기모토 히로시. 도쿄국립근대미술관에서 개최 중인 「스기모토 히로시 절멸사진」 관련 기획으로, 스기모토 씨가 1980년 이후 일본 및 세계 각국에서 개최한 전시회의 포스터를 엄선하여 전시합니다. 종이와 인쇄, 사진 표현이 어우러진 포스터를 통해 그의 미의식과 사상, 창작 세계를 만나보세요."
+        },
+        "en": {
+          "title": "\"IMPRINTED ―Hiroshi Sugimoto Poster Exhibition\"",
+          "description": "Takeo Co., Ltd. will hold the \"IMPRINTED ―Hiroshi Sugimoto Poster Exhibition\" from July 31st (Fri) to September 11th (Fri) at Takeo Sample Book Store Main Branch in Kanda-Nishikicho, Tokyo. Hiroshi Sugimoto is a contemporary artist who traverses diverse fields such as photography, architecture, performing arts, calligraphy, and ceramics. As a related project to \"Hiroshi Sugimoto: Post-Extinction\" currently being held at The National Museum of Modern Art, Tokyo, a selection of posters from exhibitions held by Mr. Sugimoto in Japan and various countries around the world since 1980 will be displayed. Through posters where paper, printing, and photographic expression resonate, please experience his aesthetic sense, philosophy, and creative world."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/7CiI4rpDxF3ZoeDkFUGWHG/426dbf9b38700e05ba3fcf2700720bdf/main.jpg",
       "description": "株式会社竹尾は、「IMPRINTED ―杉本博司 ポスター展」を7月31日（金）― 9月11日（金）まで、東京・神田錦町の竹尾 見本帖本店にて開催いたします。写真、建築、舞台芸術、書、陶芸など多彩な領域を横断する現代美術作家 杉本博司。東京国立近代美術館にて開催中の「杉本博司 絶滅写真」関連企画として、杉本氏が1980年以降、日本や世界各国で開催した展覧会のポスターを厳選して展示いたします。紙と印刷、写真表現が響き合うポスターを通して、その美意識や思想、創作世界をご覧ください。",
       "medium": "photo",
@@ -54476,8 +54748,17 @@
       "id": "f6e23bf002d0",
       "source": "tokyo_art_beat",
       "title": "小西弘晃 「peripheral portraits」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "코니시 히로아키 「peripheral portraits」",
+          "description": "ADF(NPO 아오야마 디자인 포럼)은 아트 전시회 「ADF Art Gallery Project」의 46번째 기획으로, 사진가이자 아티스트인 코니시 히로아키의 개인전 「peripheral portraits」를 2026년 8월 7일(금)부터 8월 26일(수)까지 도쿄 미나미아오야마의 GARDE Gallery에서 개최합니다.\n\n코니시는 지금까지 자신의 작품 속에서 주류에서 벗어난 것, 눈에 띄지 않는 것, 간과되는 것, 차별받는 것 등 사회의 다소 \"바깥\"에 있는 주변적 존재에 스포트라이트를 비춰왔습니다. 또한 언어의 외부에 존재하는 신체성에 주목하고, 그 가능성에 대해 사진이라는 매체를 통해 탐색해왔습니다. 본 전시에서는 그 시점을 더욱 대폭 확장하여 새로운 해석으로 이 세계를 다시 바라봅니다. 잊혀진 것들이나 장소, 아이들이나 동물 등 작은 목소리와 마주하는 가운데, 그 대상은 보이지 않는 존재에까지 이르게 됩니다.\n\n코니시가 보이지 않는 것을 보려고 하는 행위를 통해 \"초상화\"는 재정의되고, 우리가 어른이 되면서 놓쳐왔던 풍경과 감각을 일깨웁니다. 꿈과 현실이 교차하는 듯한 긴장감과 위화감으로 가득 찬 신작은 작가 자신의 개인적인 기억 그 자체이면서 동시에 어딘가 보편성을 띠고 있습니다. 영상 작품을 곁들여 불안한 기운이 감도는 시리즈를 꼭 회장에서 경험해 보시기 바랍니다.\n\n※회장에서는 전시 작품을 구매하실 수 있으며, 사진집 등의 상품 판매도 진행됩니다."
+        },
+        "en": {
+          "title": "Hiroaki Konishi \"peripheral portraits\"",
+          "description": "ADF (NPO Aoyama Design Forum) will hold \"peripheral portraits,\" a solo exhibition by photographer and artist Hiroaki Konishi, as the 46th installment of the art exhibition \"ADF Art Gallery Project,\" from August 7th (Fri) to August 26th (Wed), 2026, at GARDE Gallery in Minami-Aoyama, Tokyo.\n\nIn his works, Konishi has consistently shone a spotlight on marginalized existences that are somewhat \"outside\" of society—those outside the mainstream, inconspicuous, overlooked, or discriminated against. He has also focused on corporeality existing outside of language, exploring its possibilities through the medium of photography. In this exhibition, he further significantly expands this perspective, re-examining the world with new interpretations. As he confronts forgotten things and places, and the small voices of children and animals, his subjects extend even to unseen presences.\n\nThrough Konishi's act of trying to see the unseen, \"portraits\" are redefined, awakening landscapes and sensations we have overlooked as we grew into adulthood. His new works, filled with a tension and unease where dreams and reality intersect, are at once the artist's personal memories and imbued with a certain universality. Please experience this series, imbued with an unsettling atmosphere and incorporating video works, at the venue.\n\n*Exhibited works will be available for purchase at the venue, and merchandise such as photo books will also be sold."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/L6grh3P1rScizJpGj1z7c/c19dea61b3d5974609b1c2951adc1321/1def33ed-5bb9-49b2-ba6c-9f91337d5947.jpg",
       "description": "ADF（NPO青山デザインフォーラム）は、アート展「ADF Art Gallery Project」の46回目として、写真家・アーティストの小西弘晃（こにしひろあき）による個展「peripheral portraits」を2026年8月7日（金）から8月26日（水）まで東京・南青山のGARDE Galleryで開催いたします。\n\n小西はこれまで自身の作品の中で、メインストリームから外れたもの、目立たないもの、見過ごされているもの、差別されているものなど、社会のやや“外側”にいる周縁の存在にスポットライトを当ててきました。また言語の外側に存在する身体性に注目し、その可能性について写真というメディアを通して模索してきました。本展ではさらにその視点を大幅に拡張し、新たな解釈でこの世界を見つめ直します。忘れ去られたものや場所、子供や動物などの小さな声と向き合う中で、その対象は見えざる存在にまで及んでいきます。\n\n小西による、見えないものを見ようとする行為を通して、「ポートレート」は再定義され、私たちが大人になるにつれて見落としてきた風景や感覚を呼び覚まします。夢と現実が交差するような緊張感と違和感に満ちた新作は、作家自身の個人的な記憶そのものであると同時に、どこか普遍的を帯びています。映像作品を交えた不穏な気配が漂うシリーズを、ぜひ会場でご体感ください。\n\n※会場では展示作品をご購入頂ける他、写真集などの物販販売も行われます。",
       "medium": "mixed",
@@ -54523,8 +54804,17 @@
       "id": "3ca31dec04ec",
       "source": "tokyo_art_beat",
       "title": "渡邊保彦 「『毎日富士山』〜見える日も見えない日もある〜」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "와타나베 야스히코 「『매일 후지산』~보이는 날도 보이지 않는 날도 있다~」",
+          "description": "후지요시다시에 거주하는 작가가 철이 들 때부터 계속 바라봐 온 후지산. 공기 같은 존재라고 하는 후지산이 어떻게 담겨 있는지, 꼭 회장에서 확인해 주세요. 매일 촬영을 시작한 지 15년 동안 사용한 카메라와 렌즈는 200대 이상이며, 하루에 한 장씩 5000장 이상 촬영한 사진 중 일부를 전시합니다."
+        },
+        "en": {
+          "title": "Yasuhiko Watanabe \"Everyday Mt. Fuji ~Some days it's visible, some days it's not~\"",
+          "description": "Mt. Fuji, which the artist residing in Fujiyoshida City has been continuously observing since childhood. Please visit the venue to see how Mt. Fuji, described as an omnipresent entity like air, is captured. We will exhibit a selection of over 5,000 photos, taken one per day, using more than 200 cameras and lenses over the 15 years since the artist began daily photography."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/1tqOz2rTPNAAPG5wEOkIEV/dc68f604f7e9c2c59ed157255b51d5de/728156177_18599273719020996_7813879014935589871_n.jpg",
       "description": "富士吉田市在住の作家が物心ついてから、ずっと見続けている富士山。空気のような存在だという富士山がどう写っているのか、是非会場でご覧ください。毎日撮り始めてからの15年間で使ったカメラ・レンズは200台以上、1日1枚5000枚以上撮影した写真の一部を展示します。",
       "medium": "photo",
@@ -54570,8 +54860,17 @@
       "id": "b5de44e54bb1",
       "source": "tokyo_art_beat",
       "title": "⼤澤巴瑠 + HARUNA SHIKATA 「SHIFT」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "오사와 하루 + HARUNA SHIKATA 「SHIFT」",
+          "description": "이번에 YOD TOKYO에서는 오사와 하루와 HARUNA SHIKATA의 2인전 「SHIFT」를 개최합니다.\n\n오사와 하루와 HARUNA SHIKATA는 모두 정보와 이미지의 변용을 주제로 작업을 진행하고 있습니다. 복제나 편집, 덮어쓰기와 같은 행위를 통해 발생하는 오차나 변화에 주목하며, 기존의 이미지나 기억이 새로운 모습으로 변화하는 과정을 각자의 방식으로 표현하고 있습니다. 오사와 하루는 복사기나 인쇄 기술, AI 등 본래 정보를 정확하게 전달하고 재현하기 위한 시스템에 주목하며, 그 과정에서 발생하는 변용을 작품으로 제시하고 있습니다. 정보를 정확하게 재현하기 위한 시스템에 우연이나 의도적인 조작을 개입시킴으로써 발생하는 '오차'로부터 복제가 아닌 유일한 이미지를 만들어내고 있습니다. 한편, HARUNA SHIKATA는 「Overwrite (덮어쓰기)」를 콘셉트로, 사진이나 드로잉, 텍스트 등 다양한 정보를 겹쳐가며 작품을 제작하고 있습니다. 과거의 기억이나 감정을 지우는 것이 아니라, 새로운 의미나 가치를 겹쳐 쌓음으로써 그것들을 다른 존재로 변화시키고 있습니다. 본 전시 제목인 「SHIFT」는 이동이나 변화를 의미함과 동시에, 정보나 이미지가 변용되어 가는 과정을 나타냅니다. 두 사람은 각각 다른 방식을 통해 발생하는 「SHIFT (오차/이행/변용)」에 주목하며, 기억이나 이미지가 변화하는 과정을 표현합니다."
+        },
+        "en": {
+          "title": "Haru Osawa + HARUNA SHIKATA \"SHIFT\"",
+          "description": "YOD TOKYO is pleased to present \"SHIFT,\" a duo exhibition by Haru Osawa and HARUNA SHIKATA.\n\nHaru Osawa and HARUNA SHIKATA both create works themed around the transformation of information and images. They focus on the discrepancies and changes that arise through acts such as duplication, editing, and overwriting, expressing the process by which existing images and memories shift into new forms, each using their own methods. Haru Osawa focuses on systems designed to accurately transmit and reproduce information, such as photocopiers, printing technology, and AI, presenting the transformations that occur in that process as artworks. From the \"discrepancies\" that arise when accidental or intentional operations are introduced into systems meant to accurately reproduce information, she creates unique images that are not mere reproductions. Meanwhile, HARUNA SHIKATA creates works by layering various types of information, such as photographs, drawings, and texts, based on the concept of \"Overwrite (overwrite).\" Rather than erasing past memories and emotions, she transforms them into different entities by layering new meanings and values upon them. The title of this exhibition, \"SHIFT,\" signifies movement and change, and simultaneously represents the process by which information and images undergo transformation. The two artists, each through their distinct methods, focus on the \"SHIFT (discrepancy/transition/transformation)\" that arises, expressing the process by which memories and images change."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/7LlCNHpfcsQ7O7rme1LYVd/9bd63da09b5cb1e6584270d192ffe830/f69f918e-0f80-493b-81b1-3bc1c52384d3.png",
       "description": "この度YOD TOKYOでは、⼤澤巴瑠とHARUNA SHIKATAによる⼆⼈展「SHIFT」を開催いたします。\n\n⼤澤巴瑠とHARUNA SHIKATAは、ともに情報やイメージの変容をテーマに制作を⾏っています。複製や編集、上書きといった⾏為を通して⽣じるずれや変化に着⽬し、既存のイメージや記憶が新たな姿へと移り変わる過程を、それぞれの⼿法によって表現しています。⼤澤巴瑠は、コピー機や印刷技術、AIなど、本来情報を正確に伝達・再現するためのシステムに着⽬し、その過程で⽣じる変容を作品として提⽰しています。情報を正確に再現するためのシステムに、偶然や意図的な操作を介⼊させることで⽣じる「ずれ」から、複製ではない唯⼀の像を⽣み出しています。⼀⽅、HARUNA SHIKATAは「Overwrite（上書き）」をコンセプトに、写真やドローイング、テキストなど多様な情報を重ね合わせながら作品を制作しています。過去の記憶や感情を消去するのではなく、新たな意味や価値を重ねることで、それらを別の存在へと変化させています。本展タイトルの「SHIFT」は、移動や変化を意味すると同時に、情報やイメージが変容していく過程を表しています。⼆⼈はそれぞれ異なる⼿法を通して⽣じる「SHIFT（ずれ/移⾏/変容）」に着⽬し、記憶やイメージが移り変わるプロセスを表現します。",
       "medium": "photo",
@@ -55185,8 +55484,17 @@
       "id": "ac0c2d3ea2ae",
       "source": "tokyo_art_beat",
       "title": "「能登半島地震復興支援プロジェクト つなぐおわん 東京展 『なに ごころなき あえのこと』」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「노토반도 지진 부흥 지원 프로젝트 츠나구 오완 도쿄전 『나니 고코로나키 아에노코토』」",
+          "description": "츠나구 오완은 레이와 6년 노토반도 지진 피해 가옥에서 구출하여 물려받은 와지마누리 칠기를 다음 세대로 연결하는 활동입니다. 2024년 4월부터 시작되어 2026년 현재, 음악가 카게야마 토모코(야마나시), 사진작가 야마구치 아키히로(도쿄)와 코유키(이시카와와 도쿄), 디자이너 미즈시마 히로미(야마나시)가 중심이 되어 활동하고 있습니다. 활동으로 얻은 수익을 노토의 지원 단체 등에 기부하여 피해 지역에 환원하면서, 활동 전체를 통해 유서 깊은 칠기 문화와 노토의 매력을 알리고 있습니다.\n본 전시에서는 노토에서 구출한 와지마누리 밥그릇과 그릇의 전시 및 지원 판매를 진행합니다. 행사장에서는 지금까지의 구출 활동과 현지의 현재를 전하는 사진·영상도 전시하며, 와지마누리의 가능성을 담은 업사이클 작품도 전시합니다.\n\n[관련 이벤트]\n1. 츠나구 오완 다과회 간식과 칠기\n일시: 7월 25일/26일 양일 모두 15:00~\n2. 츠나구 오완 주최 카게야마 토모코 미니 라이브\n일시: 전시 기간 중 매일 14:30~\n※이벤트 상세 정보 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "\"Noto Peninsula Earthquake Reconstruction Support Project Tsunagu Owan Tokyo Exhibition 'Nani Gokoronaki Ae no Koto'\"",
+          "description": "Tsunagu Owan is an initiative to rescue Wajima-nuri lacquerware (Wajima-nuri shikki) from homes damaged by the Reiwa 6 Noto Peninsula Earthquake and pass them on to the next generation. Starting in April 2024, and as of 2026, the project is led by musician Tomoko Kageyama (Yamanashi), photographers Akihiro Yamaguchi (Tokyo) and Koyuki (Ishikawa and Tokyo), and designer Hiromi Mizushima (Yamanashi). Profits from the activities are donated to support organizations in Noto, returning funds to the affected areas, while the project as a whole promotes the historic lacquer culture and the charm of Noto.\nThis exhibition will feature the display and charity sale of Wajima-nuri bowls and vessels rescued from Noto. The venue will also exhibit photographs and videos documenting past rescue efforts and the current situation in the area, as well as upcycled works showcasing the potential of Wajima-nuri.\n\n[Related Events]\n1. Tsunagu Owan Tea Party: Snacks and Lacquerware\nDate: July 25th/26th, 3:00 PM onwards on both days\n2. Mini Live by Tomoko Kageyama, organizer of Tsunagu Owan\nDate: Daily during the exhibition period, 2:30 PM onwards\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3Ymx9C5bQbjNfLrpkJHlve/6e64c7a3ed451c439d6b37c66323b30f/cover.jpg.webp",
       "description": "つなぐおわんは、令和6年能登半島地震の被災家屋から救い出し、ゆずり受けた輪島塗漆器(わじまぬりしっき)を次世代へとお繋ぎする取り組みです。 2024年4月から始まり、2026年現在、音楽家 影山朋子(山梨)、写真家 山口明宏(東京)と小雪(石川と東京)、デザイナー 水島宏美(山梨)が中心となり活動をしています。 活動により得た収益を能登の支援団体等へ寄付し、被災地へ還元しながら、活動全体を通じて歴史ある漆文化と能登の魅力を発信しています。\n本展では、能登から救い出した輪島塗のお椀や器の展示・支援販売を行います。会場ではこれまでの救出活動や現地のいまを伝える写真・映像も展示し、輪島塗の可能性を込めたアップサイクルの作品も展示。\n\n[関連イベント]\n1. つなぐおわんの茶話会 おやつと漆器\n日時: 7月25日/26日 両日とも15:00～\n2. つなぐおわん主宰 影山朋子によるミニライブ\n日時: 会期中毎日14:30～\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -55225,8 +55533,17 @@
       "id": "fd7b11940790",
       "source": "tokyo_art_beat",
       "title": "「はじめまして、見慣れた場所 vol.2」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「처음 뵙겠습니다, 낯익은 장소 vol.2」",
+          "description": "6명의 사진작가가 촬영한 #우리들의 도쿄 스퀘어 가든. 도쿄 스퀘어 가든 공식 인스타그램에서는 도쿄 스퀘어 가든의 일상과 사계절, 이벤트·상업 정보를 사진작가 여러분이 촬영하여 발신하고 있습니다. 본 전시에서는 작년까지 매달 바뀌며 사진작가 여러분이 촬영해 주신 작품들을 크게 인쇄하여, 화면으로는 전달되지 않는 작품의 매력을 선사합니다. 또한, 전시 기간 중 전시 작품을 전면 교체합니다. 전기와 후기에 다른 작품들을 감상하실 수 있습니다. 이 기회에 독자적인 시점으로 포착된 「도쿄 스퀘어 가든」을 꼭 관람해 주십시오."
+        },
+        "en": {
+          "title": "\"Hello, Familiar Places vol.2\"",
+          "description": "#Our Tokyo Square Garden, captured by six photographers. The official Tokyo Square Garden Instagram features daily life, seasonal changes, events, and commercial information about Tokyo Square Garden, photographed and shared by various photographers. In this exhibition, works specially shot by photographers each month until last year will be printed large, bringing you the charm of the pieces that cannot be fully conveyed on a screen. Furthermore, all exhibited works will be completely replaced during the exhibition period. You can enjoy different works in the first and second halves of the exhibition. We invite you to take this opportunity to see \"Tokyo Square Garden\" captured from unique perspectives."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/69gPQSx6t5TQXsycEF2PON/2d3d10624d356b31d99a4b77ac3468af/0e1cef9c-c46b-426c-a8f3-3ea297e041ac.jpg",
       "description": "6人の写真家が撮る、#私たちの東京スクエアガーデン。東京スクエアガーデン公式 Instagram では、東京スクエアガーデンの日常や四季、イベント・商業情報を、写真家のみなさまに撮影いただき発信しています。本展では、昨年まで月替わりで写真家のみなさまに撮り下ろしていただいた作品を大きくプリントし、画面上では伝わらない作品の魅力をお届けします。また、会期中に展示作品を全面入れ替えを実施。前期後期と異なる作品をお楽しみいただけます。ぜひこの機会に、独自の視点で切り取られた「東京スクエアガーデン」をご覧ください。",
       "medium": "photo",
@@ -55302,8 +55619,17 @@
       "id": "d6d02622bf39",
       "source": "tokyo_art_beat",
       "title": "「浅田政志×大阪府20世紀美術コレクション展 画家と家族のここだけの話」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "아사다 마사시 × 오사카부 20세기 미술 컬렉션전 화가와 가족의 여기만의 이야기",
+          "description": "사진작가 아사다 마사시는 자신의 가족을 소재로 한 사진집 『아사다케』로 기무라 이헤이 사진상을 수상했으며, 상업 사진 분야에서 활약하는 동시에 일본 각지에서 아트 프로젝트와 전시회를 개최하는 등 현재 가장 높이 평가받는 사진작가 중 한 명입니다. 이번에 오사카부립 에노코지마 문화예술창조센터[enoco]에서는 아사다 마사시가 일관되게 자신의 제작 테마로 삼아온 '가족'과 '개인사'를 오사카부가 수집한 '오사카부 20세기 미술 컬렉션'의 작품과 연결시키려는 시도를 하는 전시회를 개최합니다.\n\n오사카부 컬렉션의 중심은 전후 간사이에서 활동한 미술 작가들의 작품입니다. 그중에서 스다 고쿠타 (1906~1990), 이토 쓰구로 (1907~1994), 사이토 신세이 (1917~2019), 우에마에 치유 (1920~2018) 네 명의 화가를 다루며, 이른바 '겉모습'의 작가 모습이 아닌, 가족만이 알 수 있었던 화가의 옆모습에 사진작가 아사다 마사시가 다가갑니다. 화가가 보냈던 아틀리에나 인연이 있는 장소를 무대로, 가족과의 대화를 거듭하며 촬영된 조금 독특한 '가족사진'. 아사다 마사시의 가족사진의 새로운 전개를 화가들의 회화 작품과 함께 감상해 보세요.\n\n[관련 이벤트]\n1. 아티스트 토크\n일시: 2026년 7월 25일 13:30~15:00\n등단자: 아사다 마사시\n장소: 2층 Room8\n정원: 30명 (선착순)\n2. 워크숍 '나의 한 장'\n일시: 2026년 8월 8일 10:30~12:00 / 13:30~15:00\n장소: 2층 Room8\n요금: 2000엔\n정원: 각 회 15명 (선착순)\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주세요."
+        },
+        "en": {
+          "title": "Masashi Asada × Osaka Prefecture 20th Century Art Collection Exhibition: A Painter and His Family – An Exclusive Story",
+          "description": "Photographer Masashi Asada is one of the most highly acclaimed photographers today, having received the Kimura Ihei Award for Photography for his photo book \"Asadake,\" which features his own family, and actively working in the world of commercial photography, as well as holding art projects and exhibitions across Japan. This time, the Osaka Prefectural Enokojima Art, Culture and Creative Center [enoco] will host an exhibition that attempts to connect Masashi Asada's consistent creative themes of \"family\" and \"personal history\" with works from the \"Osaka Prefecture 20th Century Art Collection\" collected by Osaka Prefecture.\n\nThe core of the Osaka Prefecture collection consists of works by artists active in Kansai after the war. From this collection, we will feature four painters: Kokuta Suda (1906-1990), Tsuguro Ito (1907-1994), Shinsei Saito (1917-2019), and Chiyu Uemae (1920-2018). Photographer Masashi Asada delves into the lesser-known side of these painters, a side only their families knew, rather than their so-called \"public\" personas. These somewhat unique \"family photos\" were taken through repeated dialogues with their families, set in the artists' studios and places associated with them. Please enjoy this new development in Masashi Asada's family photography alongside the painters' artworks.\n\n[Related Events]\n1. Artist Talk\nDate: July 25, 2026, 13:30-15:00\nSpeaker: Masashi Asada\nVenue: 2F Room8\nCapacity: 30 people (first-come, first-served)\n2. Workshop \"My One Shot\"\nDate: August 8, 2026, 10:30-12:00 / 13:30-15:00\nVenue: 2F Room8\nFee: 2000 yen\nCapacity: 15 people per session (first-come, first-served)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/7fiCloq1kBs84ikqyO9gAj/a19958d7777dd016e5a21c61d52aa1c5/f003c5ae-7e00-4502-81c6-ce786cb030c1.jpeg",
       "description": "写真家の浅田政志は、自らの家族を題材にした写真集『浅田家』で木村伊兵衛写真賞を受賞し、コマーシャル・フォトの世界で活躍するとともに、日本各地でアートプロジェクトや展覧会を行うなど、現在最も高く評価されている写真家のひとりです。この度大阪府立江之子島文化芸術創造センター[enoco]では、浅田政志が一貫して自らの制作テーマとしてきた「家族」や「個人史」を、大阪府が収集した「大阪府20世紀美術コレクション」の作品と接続させることを試みる展覧会を開催します。\n\n大阪府のコレクションの中心となっているのは戦後関西で活躍した美術作家による作品です。その中から須田剋太（1906～1990）、伊藤継郎（1907～1994）、齋藤眞成（1917～2019）、上前智祐（1920～2018）の４人の画家を取り上げ、いわゆる「表向き」の作家の姿ではなく、家族しか知りえなかった画家の横顔に写真家・浅田政志が迫ります。画家が過ごしたアトリエやゆかりのある場所を舞台に、家族との対話を重ねながら撮影された、ちょっとユニークな「家族写真」。浅田政志による家族写真の新しい展開を、画家たちの絵画作品とあわせてご覧ください。\n\n[関連イベント]\n1. アーティストトーク\n日時: 2026年7月25日13:30〜15:00\n登壇者: 浅田政志\n会場: 2階 Room8\n定員:30名（先着順）\n2. ワークショップ「わたしの一枚」\n日時: 2026年8月8日10:30〜12:00/ 13:30〜15:00\n会場: 2階 Room８\n料金: 2000円\n定員:各回15名（先着順）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -55349,8 +55675,17 @@
       "id": "7a30deb90e29",
       "source": "tokyo_art_beat",
       "title": "櫻井充 「イム」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "사쿠라이 미쓰루 「임」",
+          "description": "Sho+1에서는 2026년 7월 24일 (금)부터 8월 29일 (토)까지 사쿠라이 미쓰루의 두 번째 개인전 「임」을 개최합니다. 7월 23일 (목) 18시부터 오프닝 리셉션을 예정하고 있습니다. 초기작 『Fe』, 가족을 테마로 한 『BP』를 거쳐 사쿠라이는 다시 '자기'라는 존재로 시선을 돌렸습니다. 본 전시에서는 셀프 포트레이트를 통해 '보는 것 / 보여지는 것', '존재하는 것 / 존재하지 않는 것'이라는 근원적인 질문에 마주하는 신작을 발표합니다.\n\n불교 철학의 '비불' 개념에서 영감을 얻어, 관측됨으로써 모습을 바꾸는 존재의 방식을 탐구합니다. 여러 시점과 시간을 겹쳐 표현한 사진을 통해, 그곳에 있으면서도 여전히 완전히 파악할 수 없는 자기의 흔들림을 제시합니다. 사쿠라이는 본 전시에서 관람객이 자신의 '보는' 행위 자체를 다시 생각하는 기회가 되기를 목표로 합니다. 꼭 방문해 주십시오."
+        },
+        "en": {
+          "title": "Mitsuru Sakurai 'Imu'",
+          "description": "Sho+1 will host Mitsuru Sakurai's second solo exhibition, 'Imu,' from Friday, July 24 to Saturday, August 29, 2026. An opening reception is scheduled for 18:00 on Thursday, July 23. After his early work 'Fe' and the family-themed 'BP,' Sakurai has once again turned his gaze to the existence of 'self.' In this exhibition, he will present new works that confront fundamental questions such as 'seeing/being seen' and 'being/not being' through self-portraits.\n\nDrawing inspiration from the Buddhist philosophical concept of 'hibutsu' (secret Buddha statues), the exhibition explores the nature of existence that changes its form through observation. Through photographic expressions that layer multiple perspectives and times, it presents the elusive fluctuation of the self, which is present yet cannot be fully grasped. Sakurai aims for this exhibition to be an opportunity for viewers to re-examine their own act of 'seeing.' We invite you to visit the gallery."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/5HtrHXdTmd88L50m99cGxu/3825ccc330ae76e399cf944fc585cc0e/unnamed__1_.jpg",
       "description": "Sho+1では、2026年7月24日（金）から8月29日（土）まで、櫻井充の2回目となる個展「イム」を開催いたします。7月23日（木）18時よりオープニングレセプションを予定しております。初期作『Fe』、家族をテーマとした『BP』を経て、櫻井は再び「自己」という存在へと視線を向けました。本展では、セルフポートレートを通して「見る／見られる」「在る／在らない」という根源的な問いに向き合う新作を発表いたします。\n\n仏教哲学における「秘仏」の概念に着想を得ながら、観測されることによって姿を変える存在のあり方を探求します。複数の視点と時間を重ね合わせた写真表現によって、そこに在りながら、なお捉えきることのできない自己の揺らぎを提示します。櫻井は本展において、鑑賞者が自身の「見る」という行為そのものを問い直す機会となることを目指しています。ぜひご来廊ください。",
       "medium": "photo",
@@ -55403,8 +55738,17 @@
       "id": "c1535abe5f36",
       "source": "tokyo_art_beat",
       "title": "「下田昌克 恐竜人間展 -骨とQRコード- 」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "시모다 마사카쓰 공룡인간전 -뼈와 QR 코드-",
+          "description": "아티스트 시모다 마사카쓰 씨가 캔버스 천을 꿰매어 만든 '공룡' 전시회입니다. 공룡 골격 표본과 같은 작품들을 역동적으로 많이 전시합니다. 사람이 입을 수 있도록 만들어진 이 작품들. 이번에 공룡 작품을 쓰고 '공룡인간'이 되어준 것은 배우 후루타 아라타 씨와 퍼포밍 아티스트 아오이 야마다 씨입니다. 시부야 PARCO에서 특별히 촬영된 두 '공룡인간'의 사진과 영상을 회장 한정으로 충분히 감상하실 수 있습니다. 그리고 이 전시회의 특징은 'QR 코드'입니다. '뼈'의 세계 곳곳에 비밀 QR 코드가 흩어져 있습니다. QR 코드를 찾아 스마트폰을 대면 다양한 콘텐츠가 펼쳐집니다. 올여름 방학은 시모다 씨의 공룡 세계를 체험하러 꼭 방문해 주세요!"
+        },
+        "en": {
+          "title": "Masakatsu Shimoda Dinosaur Human Exhibition -Bones and QR Code-",
+          "description": "This is a 'Dinosaur' exhibition created by artist Masakatsu Shimoda, who sewed canvas fabric. Many dynamic works resembling dinosaur skeletons will be displayed. These works are made to be worn by people. This time, actor Arata Furuta and performing artist Aoi Yamada became 'Dinosaur Humans' by wearing the dinosaur works. You can enjoy plenty of photos and videos of the two 'Dinosaur Humans,' specially shot at Shibuya PARCO, exclusively at the venue. And the special feature of this exhibition is 'QR Codes.' Secret QR Codes are scattered throughout the world of 'bones.' Find a QR Code and hold your smartphone over it to discover various contents. This summer vacation, please come and experience Shimoda's dinosaur world!"
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/7FWvXqqsblB7hiYiSBefpB/44400b45b30b9e8fba5d0df4c5f23111/1f9ae618cb4be55351105f0585e976ff-1920x1080.webp",
       "description": "アーティストの下田昌克さんがキャンバス生地を縫ってつくった、「恐竜」の展覧会です。恐竜の骨格標本のような作品をダイナミックにたくさん展示します。人が着られるようにつくられているこの作品群。今回、恐竜の作品をかぶり「恐竜人間」になってくれたのは、俳優の古田新太さんとパフォーミングアーティストのアオイヤマダさんです。渋谷PARCOで撮り下ろしたふたりの「恐竜人間」の写真や映像を、会場限定でたっぷりご覧いただけます。そして、この展覧会の特長は「QRコード」。「骨」の世界のあちらこちらにひみつのQRコードが散りばめられています。QRコードを見つけてスマートフォンをかざすと、さまざまなコンテンツが広がります。ことしの夏休みは、下田さんの恐竜世界を体験しに、ぜひご来場を！",
       "medium": "mixed",
@@ -56218,8 +56562,17 @@
       "id": "f99b85341b73",
       "source": "tokyo_art_beat",
       "title": "Nguyen Son Tung 「Echoes of Life | Tea from Vietnam いのちのバトン」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "Nguyen Son Tung 「Echoes of Life | Tea from Vietnam 생명의 바통」",
+          "description": "KOSHA KOSHA AKIHABARAHA에서 『Echoes of Life | Tea from Vietnam 생명의 바통』을 개최합니다. 본 전시는 베트남 차 전문점 Tinh(띤)이 주최하는 베트남 차 일월 순회 사진전의 서막을 알리는 전시입니다. 도쿄 전시 종료 후에는 베트남에서 순회전을 개최할 예정입니다. Tinh은 그동안 베트남 차 판매 및 이벤트를 통해 그 배경에 있는 문화와 생산지의 삶을 전달하는 활동을 해왔습니다. 본 전시는 사진이라는 매체를 사용하여 그 문화를 전달하는 새로운 시도입니다. 베트남 사진작가 Nguyen Son Tung 씨와 함께 베트남 북부 차 생산지에서 현장 조사를 진행하여 현지의 자연과 사람들의 삶을 기록했습니다. 베트남 북부 산악 지대에서 차나무는 단순한 농작물이 아니라 숲, 토양, 비, 미생물, 그리고 사람들의 삶과 함께 존재합니다. 그곳에서는 자연과 인간의 경계선이 녹아들어 복잡하게 얽히면서 하나의 순환을 이루고 있습니다. 본 전시에서는 그 땅에 흐르는 시간과 사람들의 수작업에서 탄생하는 '생명의 바통'을 사진 작품을 통해 그려냅니다. 전시 기간 중에는 차 문화와 관련된 게스트를 초청한 토크 이벤트, 다회, 시음회 등 관련 기획도 예정되어 있습니다."
+        },
+        "en": {
+          "title": "Nguyen Son Tung 「Echoes of Life | Tea from Vietnam Baton of Life」",
+          "description": "KOSHA KOSHA AKIHABARAHA will host \"Echoes of Life | Tea from Vietnam Baton of Life.\" This exhibition marks the opening of a Japan-Vietnam touring photo exhibition of Vietnamese tea, organized by the Vietnamese tea specialty store Tinh. After the exhibition in Tokyo, a touring exhibition is planned for Vietnam. Tinh has been active in conveying the culture and livelihoods of tea-producing regions through the sale of Vietnamese tea and various events. This exhibition is a new attempt to convey that culture using photography as a medium. Together with Vietnamese photographer Nguyen Son Tung, we conducted fieldwork in the tea-producing regions of northern Vietnam, documenting the local nature and people's lives. In the mountainous regions of northern Vietnam, tea trees are not merely crops; they exist alongside forests, soil, rain, microorganisms, and people's lives. There, the boundaries between nature and humans dissolve, intricately intertwined, forming a single cycle. This exhibition portrays the flow of time in that land and the \"Baton of Life\" born from people's handiwork through photographic works. Related events such as talk events with guests involved in tea culture, tea ceremonies, and tasting sessions are also planned during the exhibition period."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/2hVXujMulMNQ96MVDt93Rv/7e383ddf99fd6fd55e03581734d88a58/7e284791-f824-490f-afa6-efa99ede1b40.png",
       "description": "KOSHA KOSHA AKIHABARAHAは、『Echoes of Life | Tea from Vietnam いのちのバトン』を開催いたします。本展は、ベトナム茶専門店Tinh（ティン）が主催する、ベトナム茶の日越巡回写真展の幕開けとなる展覧会です。東京での展覧会終了後は、ベトナムにて巡回展を開催予定です。Tinhはこれまで、ベトナム茶の販売やイベントを通じて、その背景にある文化や生産地の営みを伝える活動を行ってきました。本展は、写真というメディアを用いてその文化を伝える新たな試みです。ベトナム人写真家Nguyen Son Tung氏と共に、ベトナム北部の茶生産地でフィールドワークを行い、現地の自然や人々の営みを記録しました。ベトナム北部の山岳地帯では、茶の木は単なる農作物ではなく、森や土壌、雨、微生物、そして人々の暮らしと共に存在しています。そこでは自然と人間の境界線が溶け合い、複雑に関わり合いながら、ひとつの循環を形づくっています。本展では、その土地に流れる時間と、人々の手仕事から生まれる「いのちのバトン」を、写真作品を通して描き出します。会期中には、茶文化に関わるゲストを迎えたトークイベント、茶会、試飲会などの関連企画も予定しています。",
       "medium": "photo",
@@ -56265,8 +56618,17 @@
       "id": "b29a8023a4af",
       "source": "tokyo_art_beat",
       "title": "「第4回 IGGネイチャーフォトコンテスト受賞作品展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「제4회 IGG 자연 사진 콘테스트 수상작품전」",
+          "description": "IGG 자연 사진 콘테스트는 '자연 × 빛'을 주제로, 자연 속에 깃든 순간의 표정을 담아내는 사진 콘테스트입니다. 특히 연작 부문은 5장 1세트로 구성되는 난이도 높은 부문입니다. 본 전시에서는 수많은 응모작 중 심사를 거쳐 선정된 수상작들을 한자리에 전시합니다. 숲, 산, 물, 하늘, 생명. 사진작가들이 포착한 빛의 기억을 아름다운 공간에서 감상해 보세요."
+        },
+        "en": {
+          "title": "\"The 4th IGG Nature Photo Contest Award-Winning Works Exhibition\"",
+          "description": "The IGG Nature Photo Contest is a photography contest that focuses on capturing fleeting expressions within nature, with the theme of \"Nature × Light.\" In particular, the series category is a challenging section consisting of a set of five photos. This exhibition will showcase all the award-winning works selected through judging from numerous entries. Forests, mountains, water, sky, life. Please enjoy the memories of light captured by photographers in a beautiful space."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4ONZcmuxRW56wCbI3mSZgc/96a2b246e4b73e8bbf0508b580d25a78/48774af9-1ee0-4904-8ef9-63a7019e82d3.jpg",
       "description": "IGGネイチャーフォトコンテストは「自然 × 光」をテーマに、自然の中に宿る一瞬の表情を見つめる写真コンテストです。特に組作品部門は、5枚1組で構成する難関部門となっております。本展では、数多の応募作品の中から審査を経て選ばれた受賞作品を一堂に展示します。森・山・水・空・命。フォトグラファー達が写した光の記憶を、美しい空間でご覧ください。",
       "medium": "photo",
@@ -56298,8 +56660,19 @@
       "id": "1d1ac4fd05fc",
       "source": "tokyo_art_beat",
       "title": "shimadamasafumi 「C Record」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "shimadamasafumi 「C Record」",
+          "description": "shimadamasafumi는 사진에 있어 근원적인 요소인 빛을 탐구하는 《Photon》이나, 그것들과 감상자와의 관계 속에서 생겨나는 사고의 존재를 포착하려는 시도인 《Conpton》 등, 커리어 초기부터 일관되게 '사진이란 무엇인가'라는 질문에 대한 작품을 통한 응답을 이어오고 있습니다. 본 전시에서는 그러한 사고 그 자체를 기록하기 위한 시리즈인 《Conptons Record》가 출품됩니다."
+        },
+        "ja": {
+          "title": "shimadamasafumi 「C Record」"
+        },
+        "en": {
+          "description": "Since the early stages of his career, shimadamasafumi has consistently responded to the question \"What is photography?\" through his works, such as 《Photon》, which explores light, a fundamental element of photography, and 《Conpton》, an attempt to capture the existence of thoughts born from the relationship between these elements and the viewer. This exhibition will feature 《Conptons Record》, a series dedicated to recording such thoughts themselves."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/1U8U3VS8NvCuBXg7WGW9iI/19b19508d9377a77f71389ea29a22f26/202607shimada_main.jpg",
       "description": "shimadamasafumiは写真にとって根源的な要素である光を探求する《Photon》や、それらと鑑賞者との関係のなかで生まれる思考の存在を捉えようとする試みである《Conpton》など、キャリアの初期より一貫して「写真とは何か」という問いに対する作品を用いた応答を続けています。本展ではそうした思考そのものを記録するためのシリーズである《Conptons Record》が出展されます。",
       "medium": "photo",
@@ -56345,8 +56718,17 @@
       "id": "f4d3dbecdc9a",
       "source": "tokyo_art_beat",
       "title": "「青に秘める展 その七」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「아오니 히메루 텐 제7회」",
+          "description": "\"파란색\"이라고 하면 무엇을 상상하시나요? 푸른 하늘이나 푸른 바다, 푸른 보석 등... 우리에게 친숙하게 느껴지는 색이지만, 자연계에서는 존재하기 매우 드물어 사람들에게 귀하고 매력적인 색입니다. 미술 세계에서도 파란색을 사용한 작품은 다양하며, 그 아름다운 색감은 우리에게 큰 감동을 선사합니다. 이번에 아트 콤플렉스 센터에서 7번째 '아오니 히메루 텐'을 개최합니다. 각 작가가 상상하는 푸른 세계. 그곳에서만 볼 수 있는 푸른색들을 제공할 수 있기를 바랍니다."
+        },
+        "en": {
+          "title": "\"Ao ni Himeru Exhibition: Part Seven\"",
+          "description": "What do you imagine when you hear \"blue\"? A blue sky, a blue sea, blue jewels... Although it's a color we feel close to, it is very rare in nature, making it a precious and captivating color for people. In the art world, works using blue are diverse, and their beautiful hues deeply move us. This time, the 7th \"Ao ni Himeru Exhibition\" will be held at the Art Complex Center. We hope to offer the unique blue worlds envisioned by each artist."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3EtPgo282gVQVHfduSeClu/d7342b734b927e7bc58c6e02cb7e7730/dm_-_Tokyo_Artcomplex_Center.png",
       "description": "「青」といえば、何を想像しますか？青い空や青い海、青い宝石など…。身近に感じる色ではありますが、自然界に存在することがとても少なく、人々にとって貴重な色であり、魅力的な色です。美術の世界でも青を使用した作品は多岐にわたり、その美しい色合いは私たちに大きな感動を与えてくれます。この度、アートコンプレックスセンターにて7回目となる「青に秘める展」を開催いたします。それぞれの作家が思い描く青い世界。そこにしかない青たちをご提供できれば幸いです。",
       "medium": "mixed",
@@ -56445,8 +56827,15 @@
       "id": "2710516cd6ab",
       "source": "ryugaheon",
       "title": "2026년 휴관",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "Closed in 2026"
+        },
+        "ja": {
+          "title": "2026年休館"
+        }
+      },
       "poster_image_url": "https://blogthumb.pstatic.net/MjAyNjA3MTdfMTc5/MDAxNzg0Mjk1NjI3MDk0.IoIPOY_9T5ze5lZK0-FjPbAHMkPPg6fD-03CLk-pDg4g.Mr4cNJP59NKs5CdIpCZJgE7iKWz7L_hTBvun07jZ3i4g.JPEG/KakaoTalk_20260717_223106833.jpg?type=s3",
       "description": null,
       "medium": "mixed",
@@ -56485,8 +56874,19 @@
       "id": "c9530499551d",
       "source": "tokyo_art_beat",
       "title": "Sphene Ron 「Afurodīte」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "Sphene Ron 「Afurodīte」",
+          "description": "「Afurodīte」는 여신상과 디자인 아이콘을 병치하는 작품입니다. 수천 년 동안 숭배되어 온 존재와 모더니즘에 의해 새로운 규범이 된 존재. 한쪽은 신화로, 다른 한쪽은 디자인으로 전해지면서, 둘 다 우리가 바라보고 모방하며 이상으로 삼는 '형태'가 되었습니다.\n청사진(Blueprint)을 기원으로 하는 사이아노타입은 본래 디자인을 위한 기법이기도 했습니다. 본 전시에서는 그 푸른색 안에 신성한 것과 인공적인 것, 과거와 현재를 동시에 부각시키고, 양자를 가르는 시간을 프러시안 블루 속으로 조용히 녹여내고 있습니다. 본 전시는 얼터너티브 프로세스를 사용하여 작업을 이어가고 있는 Sphene Ron의 지속적인 프로젝트입니다."
+        },
+        "ja": {
+          "title": "Sphene Ron 「Afurodīte」"
+        },
+        "en": {
+          "description": "\"Afurodīte\" is a work that juxtaposes goddess statues and design icons. Beings that have been worshipped for thousands of years, and beings that have become new norms through modernism. While one is passed down as a myth and the other as a design, both have become \"forms\" that we gaze upon, imitate, and hold up as ideals.\nCyanotype, which originated from blueprints, was originally a technique for design. In this exhibition, within that blue, the sacred and the artificial, the past and the present, are simultaneously brought to light, and the time separating them is quietly dissolved into Prussian blue. This exhibition is an ongoing project by Sphene Ron, who continues to create using alternative processes."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/41AW3gt2ovmckxN7CUihZg/659c13e4c4fc36bff6d1e320e9c38679/27766cc5-ffb8-48a3-a6c8-66b08d706151.jpg",
       "description": "「Afurodīte」は、女神像とデザインアイコンを並置する作品です。何千年にもわたり崇拝されてきた存在と、モダニズムによって新たな規範となった存在。一方は神話として、もう一方はデザインとして語り継がれながら、どちらも私たちが見つめ、模倣し、理想として掲げる「かたち」となっています。\n青写真（Blueprint）を起源にもつサイアノタイプは、本来デザインのための技法でもありました。本展では、その青の中に、神聖なものと人工的なもの、過去と現在を同時に浮かび上がらせ、両者を隔てる時間をプルシアンブルーの中へ静かに溶け込ませています。本展は、オルタナティブ・プロセスを用いて制作を続けている Sphene Ron の継続プロジェクトです。",
       "medium": "photo",
@@ -56532,8 +56932,17 @@
       "id": "341ee0496fe4",
       "source": "tokyo_art_beat",
       "title": "福嶋幸平 「Afterscape」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "후쿠시마 코헤이 「Afterscape」",
+          "description": "이번에 TAKU SOMETANI GALLERY에서는 후쿠시마 코헤이 개인전 「Afterscape」를 개최합니다. 작가 후쿠시마는 지금까지 이미지의 디지털 데이터와 이미지 처리 기술에 주목하여, 시스템이 만들어내는 버그나 우발적인 현상을 작품 제작에 도입함으로써, 기술에 의해 생성 및 재편성되는 현대의 풍경을 풍경 사진으로 발표해 왔습니다. 본 갤러리에서는 네 번째 개인전으로 신작 시리즈 《Afterscape》를 발표합니다."
+        },
+        "en": {
+          "title": "Kohei Fukushima \"Afterscape\"",
+          "description": "TAKU SOMETANI GALLERY is pleased to present Kohei Fukushima's solo exhibition \"Afterscape.\" The artist Fukushima has previously focused on digital image data and image processing technology, incorporating bugs and accidental phenomena generated by systems into his work, thereby presenting contemporary landscapes generated and reconfigured by technology as landscape photographs. This will be his fourth solo exhibition at our gallery, where he will present his new series \"Afterscape.\""
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/76gVRkhncmHYl9VYX0GvZU/80a1c2a63c6acb76d273625f7562e53a/ad4941ee-662b-4679-b1cd-0b13cc9fd946.jpeg",
       "description": "この度、TAKU SOMETANI GALLERY では、福嶋幸平個展「Afterscape」を開催いたします。作家の福嶋はこれまで、画像のデジタルデータや画像処理技術に着目し、システムが生み出すバグや偶発的な現象を制作へ取り込むことで、テクノロジーによって生成・再編成される現代の風景を風景写真として発表してきました。当ギャラリーでは4度目となる個展として、新作シリーズ《Afterscape》を発表いたします。",
       "medium": "photo",
@@ -56572,8 +56981,17 @@
       "id": "d18c87faf202",
       "source": "tokyo_art_beat",
       "title": "前谷開 「家族写真」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "마에타니 카이 「가족사진」",
+          "description": "「가족사진」은 2016년부터 2024년에 걸쳐 상연된 무대 작품이며, 그 안에서 만들어진 동명의 사진 작품입니다. 쿠라타 미도리(연출가)와 마에타니 카이(사진가)의 공동 제작 기획으로 시작된 무대 작품 제작 과정에서, 마에타니는 무대 미술로서의 사진을 제작하는 것이 아니라, 출연자로서 작품에 참여하게 됩니다. 마에타니는 중형 필름 카메라를 이용한 셀프 포트레이트라는 독특한 촬영 방법을 사용하여, 상연 중에 사진을 촬영해 왔습니다. 상연이라는 일회성 사건이 여러 번 반복되는 특수한 상황 속에서 촬영된 사진은, 춤과 동시에 만들어진 또 하나의 작품이 되었습니다.\n\n이번에 oar press에서 동명의 사진집 「가족사진」을 출간하게 되었으며, 출간에 앞서 수성에서 전시회를 개최합니다. 지금까지의 공연과 사진집 제작 과정에서 인쇄된 사진들을 전시하고, 작품에 대한 사유를 깊이 하면서, 본 작품에서 축적되어 온 실천에 대해 공유할 수 있는 기회가 되기를 바랍니다.\n\n[관련 이벤트]\n토크 이벤트\n① 7월 28일 (화) 18:00～19:30\n등단자: 하나가타 마키 (아티스트)\n② 7월 30일 (목) 18:00～19:30\n등단자: 히라쿠라 케이 (예술 이론가)\n③ 8월 2일 (일) 17:00～18:30\n등단자: 쿠라타 미도리 (연출가, 댄서, akakilike 주재)\n참가비: 500엔\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Kai Maetani \"Family Photo\"",
+          "description": "\"Family Photo\" is a stage performance that was presented from 2016 to 2024, and it is also the title of the photographic work created within it. In the production of the stage performance, which began as a collaborative project between Midori Kurata (director) and Kai Maetani (photographer), Maetani participated in the work not as a creator of stage art photography, but as a performer. Maetani has been taking photographs during the performances using a unique method of self-portraiture with a medium format film camera. The photographs, taken in the special circumstances of a performance, where a one-time event is repeated many times, became another work created simultaneously with the dance.\n\nWe are pleased to announce that oar press will publish a photo book titled \"Family Photo\" based on this work, and an exhibition will be held at Suisei prior to its publication. We hope this exhibition, featuring photographs printed during previous performances and the photo book production process, will be an opportunity to deepen our thoughts on the work and share the practices accumulated through this project.\n\n[Related Events]\nTalk Events\n① July 28 (Tue) 18:00–19:30\nSpeaker: Maki Hanagata (Artist)\n② July 30 (Thu) 18:00–19:30\nSpeaker: Kei Hirakura (Art Theorist)\n③ August 2 (Sun) 17:00–18:30\nSpeaker: Midori Kurata (Director, Dancer, Founder of akakilike)\nAdmission: 500 yen\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/myZF4APoYBEyFR4D6RpBF/c18448f130487bce126575db0d866518/d9afef46-5617-48a8-9543-8580e7179afb.jpg",
       "description": "「家族写真」は2016年から2024年にかけて上演された舞台作品であり、そのなかで作られた同タイトルの写真作品です。倉田翠（演出家）と前谷開（写真家）の共同制作企画としてスタートした舞台作品の制作の中で、前谷は舞台美術としての写真を制作するのではなく、出演者として作品に参加することになります。前谷は、中判フィルムカメラによるセルフポートレイトという独特な撮影方法を用いて、上演の中で写真を撮影してきました。上演という、一回性の出来事が何度も繰り返される特殊な状況の中で撮影されてきた写真は、舞と同時に作られたもう一つの作品となりました。\n\nこの度、oar pressより同作による写真集「家族写真」を刊行する運びとなり、刊行に先立ち水性にて展覧会を行います。これまでの公演や、写真集の制作過程でプリントした写真を展示し、作品についての思考を深めつつ、本作において蓄積されてきた実践について共有できる機会にできればと思います。\n\n[関連イベント]\nトークイベント\n①7月28日（火）18:00～19:30\n登壇者: 花形槙（アーティスト）\n②7月30日（木）18:00～19:30\n登壇者: 平倉圭（芸術理論家）\n③8月2日（日）17:00～18:30\n登壇者: 倉田翠（演出家、ダンサー、akakilike主宰 ）\n参加費：500円\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -56619,8 +57037,17 @@
       "id": "6db22c5ec44b",
       "source": "tokyo_art_beat",
       "title": "海田通孝 「例外者宣言」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "카이타 미치타카 「예외자 선언」",
+          "description": "카이타 미치타카, 첫 개인전. one room gallery (니시오기 KITAYON KADO 2・3F)에서는 카이타 미치타카 씨의 첫 개인전을 개최합니다. 천이나 알루미늄, 식물 등 다양한 소재가 어우러진 풍부한 색채와 창문으로 쏟아지는 자연광이 조화를 이루는 공간을 꼭 경험해 보세요. 예술과 함께 커피, 와인, 칵테일 등도 즐기실 수 있습니다. 여러분의 방문을 진심으로 기다립니다."
+        },
+        "en": {
+          "title": "Michitaka Kaita \"Declaration of the Exception\"",
+          "description": "Michitaka Kaita, first solo exhibition. one room gallery (Nishiogi KITAYON KADO 2F/3F) will host Michitaka Kaita's first solo exhibition. Please experience a space where rich colors woven from various materials such as fabric, aluminum, and plants resonate with natural light streaming in through the windows. You can also enjoy coffee, wine, cocktails, and more along with the art. We sincerely look forward to your visit."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/7uou4MhD0giXr35KpjMW9s/e638f5446319bd118f6fb70268d44c3b/IMG_0041_-_gallery_one_room.jpeg",
       "description": "海田 通孝、初個展。one room gallery（西荻KITAYON KADO 2・3F）では、海田通孝氏の初個展を開催いたします。布やアルミ、植物など異なる素材が織りなす豊かな色彩と、窓から差し込む自然光が響き合う空間を、ぜひご体感ください。アートと共にコーヒー、ワイン、カクテルなどもお楽しみいただけます。みなさまのお越しを心よりお待ちしております。",
       "medium": "mixed",
@@ -56666,8 +57093,17 @@
       "id": "c7e8cf669a64",
       "source": "tokyo_art_beat",
       "title": "「コロタイプの世界 ―コロタイプで観る文化財―展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「콜로타입의 세계 ―콜로타입으로 보는 문화재―전」",
+          "description": "벤리도는 메이지 20년(1887년)에 창업하여 메이지 38년(1905년)에 당시 최첨단 사진 인쇄 기술이었던 콜로타입 인쇄 공방을 사내에 개설했습니다. 고도의 촬영 기술을 구사하여 원본 크기로 촬영된 네거티브 필름을 원판으로 사용하고, 화지에 순도 높은 유성 잉크로 인쇄하는 콜로타입은 정교한 이미지 재현력뿐만 아니라 내구성 및 내광성도 뛰어납니다. 이후 벤리도는 수많은 문화재 복제 제작에 참여하여 문화와 예술을 정확하게 기록하고 그 가치를 전달해 왔습니다. 1961년(쇼와 36년)부터 5년에 걸쳐 대영박물관 소장 《여사잠도권》의 복제를 제작했습니다. 원래는 단색 인쇄였던 '콜로타입'에 연구를 거듭한 결과, 이 제작을 계기로 세계에서 유일한 독자 기술인 '컬러 콜로타입'의 실용화에 성공했습니다.\n\n본 전시에서는 그 원점이 된 《여사잠도권》의 복제를 비롯하여, 올해 7월 유네스코 세계유산위원회에서 세계유산으로 등재될 예정인 아스카-후지와라 궁도 구성 유산 '다카마쓰즈카 고분 벽화'의 원본 크기 복제부터, 손안에서 즐길 수 있는 최신 카드 시리즈 《교토한》까지, 벤리도 컬러 콜로타입의 세계를 한자리에 전시합니다."
+        },
+        "en": {
+          "title": "\"The World of Collotype – Cultural Properties Seen Through Collotype Exhibition\"",
+          "description": "Benrido was founded in Meiji 20 (1887), and in Meiji 38 (1905), established a collotype printing workshop within the company, utilizing what was then the most advanced photographic printing technology. Collotype, which employs advanced photographic techniques, uses negative films shot at actual size as original plates, and is printed on Japanese paper with high-purity oil-based inks. It excels not only in its ability to reproduce precise images but also in its durability and lightfastness. Since then, Benrido has been involved in the reproduction of numerous cultural properties, accurately documenting culture and art and conveying their value. From 1961 (Showa 36), it took five years to produce a reproduction of \"Admonitions of the Instructress to the Court Ladies,\" held by the British Museum. As a result of extensive research into \"collotype,\" which was originally monochrome, this production led to the successful practical application of \"color collotype,\" a unique technology found nowhere else in the world.\n\nThis exhibition will showcase the world of Benrido's color collotype, from the reproduction of \"Admonitions of the Instructress to the Court Ladies,\" which was its origin, and a life-size reproduction of the \"Takamatsuzuka Kofun Wall Paintings,\" a constituent heritage of the Asuka-Fujiwara Palace Sites slated for registration as a World Heritage site by the UNESCO World Heritage Committee this July, to the latest card series \"Kyoto-han\" that you can enjoy at hand."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/54F3YjY48PNILLWJ59CVHm/d177ec16e4a81ee86297e142581880d8/e5168136-e733-4e94-85f6-03ca14309396.jpg",
       "description": "便利堂は、明治20年（1887年）に創業し、明治38年（1905年）に当時の最先端写真印刷技術であったコロタイプ印刷工房を社内に開設しました。高度な撮影技術を駆使し、原寸大で撮影されたネガフィルムを原板に使用し、和紙に純度の高い油性インクで刷り上げるコロタイプは精緻な画像の再現力のみならず、耐久性・耐光性にも優れています。以来、便利堂は数多くの文化財の複製制作に携わり、文化や芸術を正確に記録し、その価値を伝えて参りました。1961年（昭和36年）から5年の歳月をかけて大英博物館所蔵の《女史箴図巻》の複製を制作しました。元々は単色刷りであった「コロタイプ」に研究を重ねた結果、この制作を機に、世界で唯一の独自技術となる「カラーコロタイプ」の実用化に成功したのです。\n\n本展では、その原点となった《女史箴図巻》の複製をはじめ、今年7月のユネスコ世界遺産委員会で世界遺産に登録が予定されている飛鳥・藤原の宮都の構成遺産「高松塚古墳壁画」の原寸大複製から、お手元でお楽しみいただける最新のカードシリーズ《京都はん》まで、便利堂カラーコロタイプの世界を一堂に展観いたします。",
       "medium": "photo",
@@ -56706,8 +57142,19 @@
       "id": "1848c97e7010",
       "source": "tokyo_art_beat",
       "title": "Hans Bol 「ON MY DOORSTEP」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "Hans Bol 「ON MY DOORSTEP」",
+          "description": "7월 30일 (목)부터 THE BOOK END에서 Hans Bol 사진전 「ON MY DOORSTEP」을 개최합니다. 한스 볼(Hans Bol)의 일본 첫 개인전인 이번 전시는 코로나 팬데믹의 예상치 못한 정적 속에서 그가 30년 이상 살아온 자연이 풍부한 자택 주변을 걷거나 자전거로 다니며 정성스럽게 담아낸 작품들로 구성됩니다. 제목은 그가 40년 전 영향을 받은 사진계의 거장 폴 스트랜드(Paul Strand)의 \"예술가의 세계는 몇 걸음 앞에서도 찾을 수 있다\"는 말에 대한 오마주입니다. 가까운 자연과 땅과 깊이 연결됨으로써 연마된, 심오한 통찰력으로 가득 찬 세계가 흑백으로 그려집니다. 전시장에서는 작가 자신의 암실에서 정교하게 완성된 은염 사진 외에도 암스테르담과 벨기에의 숙련된 장인들과의 협업으로 제작된 포토 에칭, 플래티넘-팔라듐 프린트 등 독자적인 미학이 깃든 엄선된 흑백 작품 33점을 전시합니다. 40년 이상의 경력을 가진 전문가들의 압도적인 수작업 질감과 섬세한 빛의 계조를 꼭 전시장에서 경험해 보시기 바랍니다."
+        },
+        "ja": {
+          "title": "Hans Bol 「ON MY DOORSTEP」"
+        },
+        "en": {
+          "description": "From Thursday, July 30, THE BOOK END will host the Hans Bol Photo Exhibition \"ON MY DOORSTEP.\" This exhibition, Hans Bol's first solo show in Japan, features a collection of works carefully captured by him as he explored the rich natural surroundings of his home, where he has lived for over 30 years, on foot or by bicycle amidst the unexpected tranquility of the COVID-19 pandemic. The title is an homage to the words of Paul Strand, a master of photography who influenced him 40 years ago: \"The artist's world can be found just a few steps away.\" A world full of profound insight, sharpened by a deep connection with familiar nature and land, is depicted in monochrome. The venue will display 33 carefully selected monochrome works embodying a unique aesthetic, including silver gelatin prints meticulously finished in the artist's own darkroom, as well as photo etchings and platinum-palladium prints created in collaboration with skilled artisans in Amsterdam and Belgium. Please come and experience the overwhelming texture of craftsmanship and the delicate gradations of light, created by experts with over 40 years of experience."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4DtgmZeHtqA4Bs6W71A2Fg/1f8d43fcd17b9f018c5d78d4a0cea037/01.jpg",
       "description": "7月30日（木）より、THE BOOK ENDでは、Hans Bol写真展「ON MY DOORSTEP」を開催いたします。Hans Bol（ハンス・ボル）の日本初個展となる本展は、コロナ禍の予期せぬ静寂の中で、彼が30年以上暮らす自然豊かな自宅周辺を徒歩や自転車で巡り、丁寧に切り取った作品群。タイトルは、彼が40年前に影響を受けた写真界の巨匠Paul Strand（ポール・ストランド）の「アーティストの世界は数歩先にも見出せる」という言葉へのオマージュ。身近な自然や土地と深く結びつくことで研ぎ澄まされた、深遠な洞察力に満ちた世界がモノクロームで描き出されます。会場では、作家自身の暗室で精緻に仕上げられた銀塩写真のほか、アムステルダムやベルギーの熟練職人との協働によるフォトエッチング、プラチナ・パラジウムプリントなど、独自の美学が宿る、厳選されたモノクロ作品33点を展示いたします。40年以上のキャリアを持つエキスパートたちによる、圧倒的な手仕事の質感と繊細な光の階調を、ぜひ会場でご体感ください。",
       "medium": "photo",
@@ -56753,8 +57200,17 @@
       "id": "75c85c7f7f2b",
       "source": "tokyo_art_beat",
       "title": "「『台湾海鮮パラダイス』出版記念 清永安雄 写真展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「『타이완 해산물 파라다이스』 출판 기념 키요나가 야스오 사진전」",
+          "description": "교토 사진 미술관 1층에서 2026년 7월 15일 (수)부터 9월 27일 (일)까지 『타이완 해산물 파라다이스』 출판 기념 키요나가 야스오 사진전을 개최합니다. 본 전시에서는 서적에 수록된 사진을 포함하여 A4 사이즈 약 30점, A3 사이즈 약 20점, 총 50점의 패널을 전시합니다."
+        },
+        "en": {
+          "title": "\"Yasuo Kiyonaga Photo Exhibition Commemorating the Publication of 'Taiwan Seafood Paradise'\"",
+          "description": "The Yasuo Kiyonaga Photo Exhibition commemorating the publication of \"Taiwan Seafood Paradise\" will be held on the 1st floor of the Kyoto Museum of Photography from Wednesday, July 15 to Sunday, September 27, 2026. This exhibition will feature a total of 50 panels, including approximately 30 A4-sized prints and 20 A3-sized prints, which are also included in the book."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4MMlugpllUpsvKWPNR7We/ba4e9ded7386dc49cf35eb281376ac06/8cab1c96-6242-483a-a77c-97cffffdd1d8.jpg",
       "description": "京都写真美術館 1Fにて、2026年7月15日（水）から9月27日（日）まで、『台湾海鮮パラダイス』出版記念 清永安雄 写真展を開催いたします。本展では書籍に収録された写真を含むA4サイズ約30点、A3サイズ約20点の計50点のパネルを展示いたします。",
       "medium": "photo",
@@ -56807,8 +57263,19 @@
       "id": "75ea09a08cfa",
       "source": "tokyo_art_beat",
       "title": "「T3 PHOTO FESTIVAL TOKYO 2026」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「T3 PHOTO FESTIVAL TOKYO 2026」",
+          "description": "기술, 재능, 관용성, 세 가지 T가 교차하는 곳에 문화가 탄생한다——이러한 콘셉트 아래, 세계의 정상급 아티스트와 주요 문화기관의 큐레이터들을 맞이하는 사진 페스티벌 「T3」가 8회째를 맞이합니다.\n「토(と)」는 일본어에서 가장 작은 접속사입니다. 하지만 세상의 형태를 결정하는 것은 이 작은 한 글자일지도 모릅니다. 「나와 타인」 「남자와 여자」 「자연과 도시」——우리는 어느새 「토(と)」를 둘 중 하나를 선택하기 위한 구분으로 사용하고 있습니다. 하지만 표리일체나 음양이라는 말이 있듯이 아시아에는 이항대립이 아닌 「사물을 보는 방식」이 있을 것입니다. 사진은 원래 「토(と)」의 예술입니다. 찍는 자와 찍히는 자의 시선이 교차하고, 사진이 된 세계의 단편은 나열되고 연결되며, 작품과 보는 자가 조용히 접촉합니다. T3 2026은 전 세계 사진가들과 함께 이 가장 작은 접속사 「토(と)」로부터 세계의 가능성을 재고하는 24일간입니다.\n\n개최 지역: 도쿄 야에스, 니혼바시, 교바시, 긴자 지역의 실내, 야외 회장 입장: 무료"
+        },
+        "ja": {
+          "title": "「T3 PHOTO FESTIVAL TOKYO 2026」"
+        },
+        "en": {
+          "description": "Culture is born where the three T's—Technology, Talent, and Tolerance—intersect. Under this concept, the \"T3\" photography festival, which welcomes top artists and curators from major cultural institutions worldwide, is celebrating its 8th edition.\n\"To\" (と) is the smallest conjunction in Japanese. Yet, this tiny single character might be what determines the shape of the world. \"Self and other,\" \"man and woman,\" \"nature and city\"—we have, without realizing it, come to use \"to\" as a delimiter for choosing one or the other. However, just as there are terms like \"two sides of the same coin\" and \"yin and yang,\" Asia must have a \"way of seeing things\" that is not based on binary opposition. Photography is, by nature, the art of \"to.\" The gazes of the photographer and the photographed intersect, fragments of the world captured in photographs are arranged and connected, and the artwork and the viewer quietly touch. T3 2026 is a 24-day event that, together with photographers from around the world, re-examines the possibilities of the world through this smallest conjunction, \"to.\"\n\nVenue: Indoor and outdoor venues in Tokyo's Yaesu, Nihonbashi, Kyobashi, and Ginza areas. Admission: Free."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/2TrkLMDUDVVsx18ScI3u2V/480dc5d3463ce84d743db2a395b27883/main.jpg",
       "description": "技術・才能・寛容性、3つのTが交差する場所に文化は生まれる——そのコンセプトのもと、世界からトップアーティストと主要文化機関のキュレーターたちを迎える写真フェスティバル「T3」が、8回目の開催を迎えます。\n「と」は、日本語でいちばん小さな接続詞です。けれど、世界のかたちを決めているのはこの小さな一文字かもしれません。「自分と他者」「男と女」「自然と都市」——私たちはいつの間にか、「と」をどちらかを選ぶための区切りとして使っています。ですが、表裏一体や陰陽という言葉があるようにアジアには二項対立ではない「ものの見方」があるはずです。写真は、もともと「と」の芸術です。撮る者と、写る者の眼差しが交差し、写真となった世界の断片は並べられ繋がり、作品と、見る者が、静かに触れる。T3 2026は、世界中の写真家たちとともにこの最も小さな接続詞「と」から世界の可能性を問い直す24日間です。\n\n開催エリア: 東京・八重洲、日本橋、京橋、銀座エリアの屋内、屋外会場 入場: 無料",
       "medium": "photo",
@@ -56865,8 +57332,17 @@
       "id": "a51fbab1860b",
       "source": "acc",
       "title": "ACC 국제교류특별전 〈자밀 프라이즈: 무빙 이미지〉",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "ACC International Exchange Special Exhibition \"Jameel Prize: Moving Images\"",
+          "description": "ACC International Exchange Special Exhibition Jameel Prize: Moving Images\nThe \"Jameel Prize: Moving Images\" exhibition is an international touring exhibition that has been continued through the collaboration of the Victoria and Albert Museum (V&A) in the UK and Art Jameel in the UAE, arriving at ACC after stops in the UK and Saudi Arabia. The Jameel Prize, launched in 2009 and held every three years, is an international art award that consistently introduces contemporary art and design inspired by Islamic culture, art, history, and society. The award is named after the Jameel family, founders of Art Jameel, and the word 'jameel' also means 'beautiful' or 'excellent' in Arabic. This is the second time the Jameel Prize exhibition has been held at ACC, following the 4th exhibition in 2017. This 7th exhibition, introduced again at ACC after nine years, also serves to continue the flow of international cultural and artistic exchange. The 7th Jameel Prize selected 7 teams (artists/teams) from over 300 submissions, showcasing works in various formats such as video, installation, sound, and VR in one place. The exhibition theme, Moving Images, refers to works based on the flow of time created as video, while also encompassing works that 'move' emotions. Through the works of the participating artists, one can explore how Islamic culture, society, and history are reinterpreted in today's life and lead to questions for the future. V&A curator Rachel Dedman explains, \"Moving images and digital media allow artists to be storytellers and amplify voices not heard in mainstream media.\" She adds that this is why the exhibition works present people, places, and history to the viewer in a more intimate and vivid way. The ultimate winner, Khandakar Ohida (India), presents the work Dream Your Museum. This work exhibits and records objects collected by the artist's uncle over 50 years. Alia Farid's Chibayish is a work documenting the southern Iraqi marshes, and Jawa El Khash's The Upper Side of The Sky reconstructs Syrian ruins and nature in a virtual space. In addition, the exhibition introduces works covering various themes such as water and ecology, family memories, restoration of lost places, the authority of museums, and community faith and daily life. The Jameel Prize was established through a partnership between the V&A and Art Jameel, conceived after the renovation of the V&A's 'Jameel Gallery of Islamic Art.' This gallery excellently showcases the rich artistic heritage of regions such as Islamic West Asia and South Asia. The Jameel Prize aims to raise awareness of the vibrant interaction between contemporary practice and the great historical heritage of these regions. The award also contributes to expanding a broader understanding of Islamic culture, society, and history, and its place in the contemporary world. The first Jameel Prize winner, in 2009, was Afruz Amighi, selected for her intricate hand-cut screen work 1001 Pages (2008), made from woven plastic used to create refugee tents. In 2011, Rachid Koraïchi won with Les Maîtres Invisibles (The Invisible Masters, 2008). This work is a series of embroidered fabric banners featuring Arabic calligraphy, symbols, and ciphers, exploring the lives and legacies of 14 great Islamic mystics. The winner of the 3rd Jameel Prize in 2013 was Dice Kayek, a Turkish fashion brand founded by Ece Ege and Ayşe Ege in 1992. They were selected for their Istanbul Contrast series, a collection that evokes Istanbul's architectural and artistic heritage. This was the first time the Jameel Prize was awarded to a designer. The winner of the 4th Jameel Prize in 2016 was Ghulam Mohammad, whose paper collage works based on the Islamic miniature painting tradition were selected. In 2018, the 5th Jameel Prize saw its first joint award. Mehdi Moutashar won for his minimalist abstract work rooted in Islamic geometry, and Marina Tabassum was selected for the Bait ur Rouf Mosque, built in Dhaka, Bangladesh in 2012. In 2021, Ajlan Gharem was announced as the winner of the sixth Jameel Prize, for his work Paradise Has Many Gates. Since its inception, the Jameel Prize has held exhibitions in various countries including Lebanon, Morocco, Turkey, Russia, Singapore, Korea, the United States, Argentina, Chile, and the UAE. Since 2018, the Jameel Prize has operated on a three-year cycle, focusing on either art or design. The previous 6th Jameel Prize focused on design, while this 7th edition focuses on moving images and digital practices. Art Jameel supports artists and creative communities. In particular, it promotes exhibitions, commissions, cinema, research, learning, and community building based on a dynamic perspective that understands art as a fundamental element of life and believes it should be open to all. Hayy Jameel, an art and creative hub in Jeddah, Saudi Arabia, and Jameel Arts Centre, focusing on contemporary art and concepts in Dubai, UAE, operate through digital initiatives, collaborations with key institutional partners, and a global network of artists. Participating Artists: Alia Farid, Marrim Akashi Sani, Sadik Kwaish Alfraji, Jawa El Khash, Zahra Malkani, Khandakar Ohida *Final Winner, (RRH) Ramin Haerizadeh, Rokni Haerizadeh, Hesam Rahmanian"
+        },
+        "ja": {
+          "title": "ACC国際交流特別展「ジャミール・プライズ：ムービング・イメージ」",
+          "description": "ACC国際交流特別展 ジャミール・プライズ：ムービング・イメージ JAMEEL PRIZE MOVING IMAGES\n「ジャミール・プライズ：ムービング・イメージ」展は、英国のヴィクトリア・アンド・アルバート博物館（V&A）とアラブ首長国連邦のアート・ジャミールが協力して続けてきた国際巡回展で、英国とサウジアラビアに続きACCに到着しました。ジャミール・プライズは2009年に始まり、3年ごとにイスラム文化と芸術、歴史、社会からインスピレーションを得た現代美術とデザインを継続的に紹介してきた国際芸術賞です。この賞の名前はアート・ジャミールの創設者であるジャミール家から来ており、「ジャミール（jameel）」という言葉はアラビア語で「美しい（beautiful）」または「素晴らしい（excellent）」を意味することもあります。ACCでジャミール・プライズ展が開催されるのは、2017年の第4回展に続き2回目です。9年ぶりにACCで紹介される今回の第7回展は、国際文化芸術交流の流れを継続する場でもあります。第7回ジャミール・プライズは、300件を超える応募作品の中から7組（作家/チーム）を最終選考し、映像、インスタレーション、サウンド、VRなど多様な形式の作品を一堂に紹介します。展覧会テーマであるムービング・イメージ（Moving Images）は、映像で制作された時間の流れに基づいた作品を意味すると同時に、感情を「動かす（moving）」作品までを包括する概念を含んでいます。参加作家たちの作品を通して、イスラム文化と社会、歴史が今日の生活の中でどのように新しく読み解かれ、未来への問いへと繋がるのかを見ることができます。V&Aキュレーターのレイチェル・デッドマンは、「ムービング・イメージとデジタルメディアは、作家が語り手（storytellers）となることを可能にし、主流メディアでは聞こえない声をより大きく増幅させる」と説明します。そのため、展示作品は人や場所、歴史を見る人に、より親密で生き生きと展開されると述べています。最終受賞者であるカンダカール・オヒダ（Khandakar Ohida（インド））作家は、作品「Dream Your Museum」を披露します。この作品は、作家の叔父が50年かけて集めた物を展示し記録したものです。アリア・ファリド（Alia Farid）作家の「Chibayish」はイラク南部の湿地を記録した作品であり、ジャワ・エル・カシュ（Jawa El Khash）作家の「The Upper Side of The Sky」はシリアの遺跡と自然を仮想空間で再構築した作品です。この他にも、展覧会では水と生態、家族の記憶、失われた場所の復元、博物館の権威、共同体の信仰と日常など、多様なテーマを扱う作品を紹介します。ジャミール・プライズ（Jameel Prize）はV&Aとアート・ジャミールのパートナーシップにより設立され、V&Aのイスラム・アートの「ジャミール展示館」（Jameel Gallery of Islamic Art）のリノベーション後に構想されました。この展示館では、イスラム西アジア、南アジアなどの地域の豊かな芸術遺産を卓越して示しています。ジャミール・プライズは、現代の実践とこの地域の偉大な歴史的遺産との間で活発に行われる相互作用への認識を高めることを目標としています。また、この賞はイスラム文化、社会、歴史に対するより幅広い理解と、現代世界におけるこの文化の立ち位置への理解を広げることに貢献しています。2009年に始まった第1回ジャミール・プライズ受賞者はアフルズ・アミギで、難民テントを作るのに使われる織りプラスチックで作られた精巧な手彫りスクリーン作品「1001 Pages (2008)」で選ばれました。2011年にはラシッド・コライシが「Les Maîtres Invisibles (The Invisible Masters, 2008)」で受賞しました。この作品はアラビア書道、象徴、暗号を施した刺繍布バナーの連作で、イスラムの偉大な14人の神秘主義者の生涯と遺産を探求しています。2013年第3回ジャミール・プライズの受賞者はダイス・カイエックで、1992年にエジェ・エゲとアイシェ・エゲが設立したトルコのファッションブランドです。イスタンブールの建築および芸術遺産を想起させるコレクション「Istanbul Contrast」連作で選ばれました。これはジャミール・プライズがデザイナーに授与された初の事例でした。2016年第4回ジャミール・プライズ受賞者はグラーム・モハマドで、イスラム細密画（miniature painting）の伝統に基づいた紙コラージュ作品が選ばれました。2018年第5回ジャミール・プライズは初めて共同受賞が行われました。メフディ・ムータシャールはイスラム幾何学に根ざしたミニマルな抽象作品で受賞し、マリーナ・タバッサムは2012年にバングラデシュのダッカに建立されたバイト・ウル・ラウフ・モスクで選ばれました。2021年にはアジュラン・ガレムが第6回ジャミール・プライズの受賞者として発表され、作品「Paradise Has Many Gates」で受賞しました。ジャミール・プライズは開始以来、レバノン、モロッコ、トルコ、ロシア、シンガポール、韓国、米国、アルゼンチン、チリ、アラブ首長国連邦など、様々な国で展覧会を開催してきました。2018年からはジャミール・プライズは3年周期で運営されており、芸術またはデザイン分野に焦点を当てています。前回の第6回ジャミール・プライズはデザイン分野に焦点を当て、今回の第7回はムービング・イメージとデジタル実践に焦点を当てています。アート・ジャミール（Art Jameel）は芸術家と創造共同体を支援しています。特に、芸術を生活の根本要素と理解し、すべての人に開かれているべきだというダイナミックな視点に基づき、展覧会、コミッション、シネマ、リサーチ、学習、コミュニティ構築などを推進しています。サウジアラビア・ジッダの芸術・創造中心複合空間ハイ・ジャミール（Hayy Jameel）とアラブ首長国連邦・ドバイの現代美術と概念を中心とするジャミール・アートセンター（Jameel Arts Centre）は、デジタルイニシアティブ、主要機関パートナーとの協力、そして世界中の芸術家ネットワークで運営されています。参加作家：アリア・ファリド Alia Farid、マリム・アカシ・サニ Marrim Akashi Sani、サディク・クワイシュ・アルフラジ Sadik Kwaish Alfraji、ジャワ・エル・カシュ Jawa El Khash、ザフラ・マルカニ Zahra Malkani、カンダカール・オヒダ Khandakar Ohida *最終受賞者、(RRH) ラミン・ハエリザデ Ramin Haerizadeh、ロクニ・ハエリザデ Rokni Haerizadeh、ヘサム・ラフマニアン Hesam Rahmanian"
+        }
+      },
       "poster_image_url": "https://www.acc.go.kr/resources/upload/2270/20260506110629_183034272.jpg",
       "description": "ACC 국제교류특별전 자밀 프라이즈: 무빙 이미지 JAMEEL PRIZE MOVING IMAGES 《자밀 프라이즈: 무빙 이미지》 전시는 영국의 빅토리아 앤 앨버트 뮤지엄(Victoria and Albert Museum(V&A))과 아랍에미리트의 아트 자밀(Art Jameel)이 협력해 이어온 국제 순회전으로, 영국과 사우디아라비아에 이어 ACC에 이르렀습니다. 자밀 프라이즈는 2009년에 시작해 3년마다 이슬람 문화와 예술, 역사, 사회에서 영감을 받은 동시대 미술과 디자인을 꾸준히 소개해 온 국제예술상입니다. 이 상의 이름은 아트 자밀의 설립자인 자밀 가(家)에서 비롯되었으며, ‘자밀(jameel)’이라는 단어는 아랍어로 ‘아름다움(beautiful)’ 또는 ‘훌륭함(excellent)’을 뜻하기도 합니다. ACC에서 자밀 프라이즈 전시가 열리는 것은 2017년 4회 전시에 이어 두 번째입니다. 9년 만에 다시 ACC에서 소개되는 이번 7회 전시는 국제 문화예술 교류의 흐름을 이어가는 자리이기도 합니다. 7회 자밀 프라이즈는 300건이 넘는 출품작 가운데 7팀(작가/팀)을 최종 선정하여, 영상, 설치, 사운드, VR 등 다양한 형식의 작업을 한자리에서 소개합니다. 전시 주제인 무빙 이미지(Moving Images)는 영상으로 제작된 시간의 흐름을 기반으로한 작품을 뜻하는 동시에, 감정을 ‘움직이는(moving)’ 작품까지 포괄하는 개념을 담고 있습니다. 전시에 참여한 작가들의 작업을 통해 이슬람 문화와 사회, 역사가 오늘의 삶 속에서 어떻게 새롭게 읽히고, 미래를 향한 질문으로 이어지는지 살펴볼 수 있습니다. V&A 큐레이터 레이첼 데드먼(Rachel Dedman)은 “무빙 이미지와 디지털 매체는 작가들이 이야기꾼(storytellers)이 될 수 있게 하고, 주류 미디어에서 들리지는 않는 목소리를 더 크게 증폭시킨다”고 설명합니다. 그렇기에 전시 작품들이 사람과 장소, 역사를 보는 이에게 더욱 친밀하고 생생하게 펼쳐 보인다고 말합니다. 최종 수상자인 칸다카르 오히다(Khandakar Ohida(인도)) 작가는 작품 Dream Your Museum을 선보입니다. 이 작업은 작가의 삼촌이 50년에 걸쳐 모은 물건을 전시하고 기록한 작품입니다. 알리아 파리드(Alia Farid) 작가의 Chibayish는 이라크 남부 습지를 기록한 작품이며,자와 엘 카쉬(Jawa El Khash) 작가의 The Upper Side of The Sky는 시리아의 유적과 자연을 가상 공간으로 재구성한 작품입니다. 이 밖에도 전시는 물과 생태, 가족의 기억, 잃어버린 장소의 복원, 박물관의 권위, 공동체의 신앙과 일상 등 다양한 주제를 다루는 작품들을 소개합니다. 자밀 프라이즈(Jameel Prize)는 V&A와 아트 자밀의 파트너십으로 설립되었으며, V&A의 이슬람 아트의 ‘자밀 전시관’(Jameel Gallery of Islamic Art) 리노베이션 이후 구상되었습니다. 이 전시관에서는 이슬람 서아시아, 남아시아 등 지역의 풍부한 예술 유산을 탁월하게 보여줍니다. 자밀 프라이즈는 동시대 실천과 이 지역의 위대한 역사적 유산 사이에서 활발하게 이루어지는 상호작용에 대한 인식을 높이는 것을 목표로 합니다. 또한 이 상은 이슬람 문화, 사회, 역사에 대한 더 폭넓은 이해와 동시대 세계에서 이 문화가 차지하는 위치에 대한 이해를 확장하는 데 기여하고 있습니다. 2009년 시작된 제1회 자밀 프라이즈 수상자는 Afruz Amighi로, 난민 텐트를 만드는 데 사용되는 직조 플라스틱으로 만든 정교한 손컷 스크린 작품 1001 Pages (2008)로 선정되었습니다. 2011년에는 Rachid Koraïchi가 Les Maîtres Invisibles (The Invisible Masters, 2008)로 수상했습니다. 이 작품은 아랍 캘리그래피, 상징, 암호를 담은 자수 천 배너 연작으로, 이슬람의 위대한 14명의 신비주의자들의 삶과 유산을 탐구합니다. 2013년 제3회 자밀 프라이즈의 수상자는 Dice Kayek로, 1992년 Ece Ege와 Ayşe Ege가 설립한 튀르키예 패션 브랜드입니다. 이스탄불의 건축 및 예술 유산을 환기하는 컬렉션인 Istanbul Contrast 연작으로 선정되었습니다. 이는 자밀 프라이즈가 디자이너에게 수여한 첫 사례였습니다. 2016년제4회 자밀 프라이즈 수상자는 Ghulam Mohammad로, 이슬람 세밀화(miniature painting) 전통에 기반한 종이 콜라주 작품이 선정되었습니다. 2018년 제5회 자밀 프라이즈는 처음 공동 수상이 이뤄졌습니다. Mehdi Moutashar는 이슬람 기하학에 뿌리를 둔 미니멀 추상 작업으로 수상했으며, Marina Tabassum은 2012년 방글라데시 다카(Dhaka)에 건립된 Bait ur Rouf 모스크로 선정되었습니다. 2021년에는 Ajlan Gharem이 여섯 번째 자밀 프라이즈의 수상자로 발표되었으며, 작품 Paradise Has Many Gates로 수상했습니다. 자밀 프라이즈는 시작 이래 레바논, 모로코, 튀르키예, 러시아, 싱가포르, 한국, 미국, 아르헨티나, 칠레, 아랍에미리트 등 여러 국가에서 전시를 개최했습니다. 2018년부터 자밀 프라이즈는 3년 주기로 운영하고 있으며, 예술 또는 디자인 분야에 초점을 맞추고 있습니다. 지난 제6회 자밀 프라이즈는 디자인 분야에 초점을 맞췄으며, 이번 제7회는 무빙 이미지와 디지털 실천에 초점을 두고 있습니다. 아트 자밀(Art Jameel)은 예술가와 창작 공동체를 지원하고 있습니다. 특히 예술을 삶의 근본 요소로 이해하며 모두에게 열려 있어야 한다는 역동적인 관점을 바탕으로 전시, 커미션, 시네마, 리서치, 학습, 커뮤니티 구축 등을 추진하고 있습니다. 사우디아라비아 제다(Jeddah)의 예술·창작 중심 복합공간 하이 자밀(Hayy Jameel)과 아랍에미리트 두바이(Dubai)의 동시대 미술과 개념을 중심으로 하는 자밀 아트센터(Jameel Arts Centre)는 디지털 이니셔티브, 주요 기관 파트너와의 협업, 그리고 전 세계 예술가 네트워크로 운영하고 있습니다. 참여 작가 알리아 파리드 Alia Farid, 마림 아카시 사니 Marrim Akashi Sani, 사딕 카와시 알프라지 Sadik Kwaish Alfraji, 자와 엘 카쉬 Jawa El Khash, 자흐라 말카니 Zahra Malkani, 칸다카르 오히다 Khandakar Ohida *최종 수상자, (RRH) 라민 하에리자데 Ramin Haerizadeh, 로크니 하에리자데 Rokni Haerizadeh, 헤삼 라흐마니안 Hesam Rahmanian",
       "medium": "video",
@@ -56898,8 +57374,17 @@
       "id": "aa4b35e06d5c",
       "source": "acc",
       "title": "ACC 필름앤비디오 《아시아의 장치들》",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "ACC Film & Video \"Devices of Asia\"",
+          "description": "ACC Film & Video \"Devices of Asia\" Exhibition-linked Performance Shortcut + The National Asian Culture Center (hereinafter ACC) has been collecting experimental films and video art from various regions of Asia since its opening in 2015. Introducing the works of artists who have maintained their unique artistic vision even in a commercialized art environment is an important task that ACC has consistently upheld. The collection process, which has been carried out in a timely and flexible manner rather than obligatorily seeking out works, has not merely preserved or screened the works but has expanded them into research, restoration, and exhibition, reviving them in various ways. The exhibition \"Devices of Asia,\" planned to commemorate ACC's 10th anniversary, re-examines the memories and communal narratives formed by multiple Asias with different identities and histories through a selection of experimental films and video art from Asia that ACC has researched and collected, as well as moving images, a term used today to describe the convergence of these two genres, all within one space. Asia's modern and contemporary history has reached today through processes of colonization and division, revolution and development, censorship and resistance, discrimination and exclusion. This history has been recorded through devices such as media and technology, and has been reduced or deleted through devices such as institutions, only to be repeatedly re-arranged. In other words, the 'devices' referred to in \"Devices of Asia\" are not limited to cinematic tools such as cameras, film, projectors, and screens. They are structures that capture events, edit time, and arrange memories, a concept that reveals what we have seen and what has been hidden from our view. The works in this exhibition were created through the process of 'dictation-representation-rewriting'. 'Dictation' refers to a history written by external forces, not by one's own voice. 'Representation' is the stage of recalling that history, and 'rewriting' reinterprets and reconstructs it anew. The works introduced on the first floor of the circular structure, reminiscent of a watchtower (panopticon), are all composed of women's narratives. This is a choice to make the history of women, long defined by external gazes, the starting point for 'dictation', and to open the exhibition with the more proactive and active voices of women. As you walk along the diverse, layered voices of Asia, you will encounter cinemas, train stations, dormitories, and convenience stores that can be seen in any region. These places are havens in daily life and spaces where time and memories intersect. \"Devices of Asia\" is a workshop for communities showcasing diverse lives within the various devices that constitute the world we have inhabited and passed through, and a film village that audiences can envision together towards a better future. Participating Artists: Cha Hak-kyung, Nguyễn Trinh Thi, Han Ok-hee, Kim So-young, Maryam Tafakory, Lim Go-eun, Solidarity for Disabled Women, Kim Dong-ryung × Park Kyung-tae, Takashi Ito, Gwangju Theater, Ming Wong, Seo Won-tae, Your Brothers Filmmaking Group, Listen to the City, Tomotoshi, Yoon Choong-geun, Bong Joon-ho, Fan Lu, Taiki Sakpisit, Kim Kyung-mook, Alexander Ugay, Tiffany Sia, Masao Adachi, Go Hirasawa, Jung Jae-hoon, Lee Kai Chung, Hong Jin-hwon, April's Eye, DJ Soulscape, Jang Min-seung, MHTL. <Posters as Cinematography> Participating Designers: Ganjil Ganjil Ganjil, Kang Moon-sik, Kwon Su-jin, Kim Dong-shin, Kim So-mi, Nonamepress, Noh Sung-il (Sojanggak), Moim Byul (Jo Tae-sang/Hwang So-yoon), Min Dong-in, Park Go-eun, Baek Kang-hyun, Cho Moon-young (Tiny Titan), Shin Sun-ah, Shin Shin, Aloud Lab, Yoon Yeon-woo (Vinyl House Squat), Jung Yoon-ju, Choi Ji-sun (Sagak Press), Hoiyo. <History of Korean Experimental Cinema - Flow of Non-Institutional Independent/Experimental Films> Kim Su-yeon, Han Min-su."
+        },
+        "ja": {
+          "title": "ACC フィルム＆ビデオ 『アジアの装置』",
+          "description": "ACC フィルム＆ビデオ 『アジアの装置』展連携パフォーマンス ショートカット + 国立アジア文化殿堂（以下ACC）は、2015年の開館以来、アジア各地域の実験映画とビデオアートを収集してきました。商業化された芸術環境の中でも、自分だけの芸術観を守り続けてきた作家たちの作品を紹介することは、ACCが継続的に堅持してきた重要な課題です。義務的に作品を探し出すのではなく、時宜を得た柔軟な方法で進められてきた収集過程は、作品を単なる保存や上映に留まらせず、研究、復元、展示へと拡張し、多様な方法で蘇らせてきました。ACC10周年を記念して企画された展覧会『アジアの装置』は、これまでACCが研究し収集してきたアジアの実験映画とビデオアートの一部、そして今日、二つのジャンルの接合用語として使われるムービングイメージを通して、異なるアイデンティティと歴史を持つ複数のアジアが形成してきた記憶と共同体的叙事を一つの空間の中で再び呼び起こします。アジアの近現代史は、植民と分断、革命と開発、検閲と抵抗、差別と排除の過程を経て今日に至りました。この歴史は、メディアと技術という装置を通して記録され、制度という装置を通して縮小されたり削除されたり、再び再配置される過程を繰り返してきました。つまり、『アジアの装置』で語られる「装置」は、カメラやフィルム、映写機やスクリーンといった映画的道具に留まりません。それは、事件を捉え、時間を編集し、記憶を配列する構造として、私たちが見てきたものと、見えないように隠されてきたものの間を明らかにする概念です。本展の作品は、「書き取り―再現―書き換え」という過程の中で作られました。「書き取り」は、自分の声ではなく外部によって書かれた歴史を意味します。「再現」はその歴史を再び呼び起こす段階であり、「書き換え」はこれを新しく解釈し再構成します。監視塔（パノプティコン）を連想させる円形構造物1階に紹介される作品は、すべて女性の叙事で構成されています。これは、長い間外部の視線によって規定されてきた女性の歴史を「書き取り」の出発点とし、展覧会の始まりをより主体的で能動的な女性たちの声で開こうとする選択です。幾重にも重なったアジアの多様な声に沿って歩くと、どの地域でも見られる映画館や駅、寄宿舎、コンビニエンスストアと出会います。これらの場所は、日常の憩いの場であり、互いの時間と記憶が交差する空間です。私たちが滞在し、通り過ぎてきた世界を構成する様々な装置、『アジアの装置』は、その中で多様な生活を見せる共同体たちの作業場であり、より良い未来に向けて観客と共に描く映画の村です。参加作家：チャ・ハッキョン、グエン・チン・ティ、ハン・オッキ、キム・ソヨン、マリアム・タファコリ、イム・ゴウン、障害女性共感、キム・ドンリョン×パク・ギョンテ、伊藤高志、光州劇場、ミン・ウォン、ソ・ウォンテ、ユア・ブラザーズ・フィルムメイキング・グループ、リスントゥーザシティ、トモトシ、ユン・チュングン、ポン・ジュノ、ファン・ルー、タイキ・サクピシット、キム・ギョンムク、アレクサンダー・ウガイ、ティファニー・シア、足立正生、平沢剛、チョン・ジェフン、リー・カイチョン、ホン・ジンウォン、サウォレヌン、DJ ソウルスケープ、チャン・ミンスン、MHTL。 『シネマトグラフィーとしてのポスター』参加デザイナー：ガンジルガンジルガンジル、カン・ムンシク、クォン・スジン、キム・ドンシン、キム・ソミ、ノーネームプレス、ノ・ソンイル（ソジャンガク）、モイム・ビョル（チョ・テサン／ファン・ソユン）、ミン・ドンイン、パク・ゴウン、ペク・ガンヒョン、チョ・ムニョン（タイニータイタン）、シン・ソナ、シンシン、アラウドラボ、ユン・ヨヌ（ビニールハウス・スワット）、チョン・ユンジュ、チェ・ジソン（サガクプレス）、ホイヨ。 『韓国実験映画史―非制度圏独立／実験映画の流れ』：キム・スヨン、ハン・ミンス。"
+        }
+      },
       "poster_image_url": "https://www.acc.go.kr/resources/upload/2211/20260220174952_1573105600.jpg",
       "description": "ACC 필름앤비디오 《아시아의 장치들》 전시 연계 퍼포먼스 바로가기 + 국립아시아문화전당(이하 ACC)은 2015년 개관 이래 아시아 각 지역의 실험영화와 비디오아트를 수집해 왔다. 상업화된 예술 환경 속에서도 자신만의 예술관을 지켜온 작가들의 작품을 소개하는 일은 ACC가 지속적으로 견지해 온 중요한 과제다. 의무적으로 작품을 찾아내기보다는 시의적이고 유연한 방식으로 진행해 온 수집 과정은, 작품을 단순한 보존이나 상영에 머무르게 하지 않고 연구, 복원, 전시로 확장하며 다양한 방식으로 되살려왔다. ACC 10주년을 맞아 기획된 전시 《아시아의 장치들》은 그동안 ACC가 연구하고 수집해 온 아시아의 실험영화와 비디오아트의 일부, 그리고 오늘날 두 장르의 접합 용어로 사용되는 무빙이미지를 통해 서로 다른 정체성과 역사를 지닌 복수의 아시아가 형성해 온 기억과 공동체적 서사를 한 공간 안에서 다시 호명한다. 아시아의 근현대사는 식민과 분단, 혁명과 개발, 검열과 저항, 차별과 배제의 과정을 지나 오늘에 이르렀다. 이 역사는 매체와 기술이라는 장치를 통해 기록되었고, 제도라는 장치를 통해 축소되거나 삭제되고, 다시 재배치되는 과정을 반복해 왔다. 즉, 《아시아의 장치들》에서 말하는 ‘장치’는 카메라와 필름, 영사기와 스크린 같은 영화적 도구에 머무르지 않는다. 그것은 사건을 포착하고 시간을 편집하며 기억을 배열하는 구조로써, 우리가 보아온 것과 보지 못하도록 감춰진 것 사이를 드러내는 개념이다. 본 전시의 작품들은 ‘받아쓰기-재현하기-다시쓰기’라는 과정 속에서 만들어졌다. ‘받아쓰기’는 자신의 목소리가 아닌 외부에 의해 쓰여진 역사를 뜻한다. ‘재현하기’는 그 역사를 다시 불러내는 단계이며, ‘다시쓰기’는 이를 새롭게 해석하고 재구성한다. 감시탑(판옵티콘)을 연상시키는 원형구조물 1층에 소개되는 작품들은 모두 여성의 서사로 구성되어 있다. 이는 오랫동안 외부의 시선에 의해 규정되어 온 여성의 역사를 ‘받아쓰기’의 출발점으로 삼고, 전시의 시작을 보다 주도적이고 능동적인 여성들의 목소리로 열고자 하는 선택이다. 층층이 겹쳐진 아시아의 다양한 목소리를 따라 걷다 보면, 어느 지역에서나 볼 수 있는 영화관과 기차역, 기숙사, 편의점과 마주하게 된다. 이 장소들은 일상의 쉼터이자 서로의 시간과 기억이 교차하는 공간이다. 우리가 머물고 지나온 세계를 구성하는 여러 장치들, 《아시아의 장치들》은 그 속에서 다양한 삶을 보여주는 공동체들의 작업장이자, 더 나은 미래를 향해 관객들과 함께 그려보는 영화 마을이다. 참여작가 차학경, 응우옌 찐 티, 한옥희, 김소영, 마리암 타파코리, 임고은, 장애여성공감, 김동령×박경태, 이토 다카시, 광주극장, 밍 웡, 서원태, 유어 브라더스 필름메이킹 그룹, 리슨투더시티, 토모토시, 윤충근, 봉준호, 판 루, 타이키 삭피싯, 김경묵, 알렉산더 우가이, 티파니 샤, 아다치 마사오, 히라사와 고, 정재훈, 리 카이 청, 홍진훤, 사월의눈, 디제이 소울스케이프, 장민승, 엠에이치티엘 〈시네마토그래피로서의 포스터〉 참여 디자이너 간질간질간질, 강문식, 권수진, 김동신, 김소미, 노네임프레스, 노성일(소장각), 모임 별 (조태상/황소윤), 민동인, 박고은, 백강현, 조문영(타이니타이탄), 신선아, 신신, 어라우드랩, 윤연우(비닐하우스 스쾃), 정윤주, 최지선(사각프레스), 호이요 〈한국실험영화사-비제도권 독립/실험영화의 흐름〉 김수연, 한민수",
       "medium": "video",
@@ -56931,8 +57416,17 @@
       "id": "137b1401847f",
       "source": "acc",
       "title": "천일야화의 길",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "The Road of The Arabian Nights",
+          "description": "Download Leaflet + Experience VR Exhibition + The National Asian Culture Center has been researching epics from Asian regions rich in Oral Heritage and developing Asia Story Map content based on the research results. In 2021, we first introduced \"The Road of Ramayana,\" which spread from India throughout Southeast Asia. The following year, we exhibited \"The Road of Manas,\" which originated in Kyrgyzstan, Central Asia. This year, for the third time, we are exhibiting \"The Road of The Arabian Nights.\" *The Arabian Nights* is the pinnacle of Arabic oral literature, containing traditions, folktales, and myths from the Middle East. We invite you to enjoy the myths and legends of Asia, the daily lives and customs of Asians, and cultural content within *The Arabian Nights* through various media and experiential content. About *The Arabian Nights*... *The Arabian Nights* contains stories from India and Persia that spread to Iraq, Egypt, and Europe, following changes in ruling powers. After being introduced to Europe by the 18th-century Frenchman Antoine Galland and the 19th-century Englishman Richard Burton, it was re-imported into the Arab world. *The Arabian Nights* is a frame story novel containing approximately 300 small stories."
+        },
+        "ja": {
+          "title": "千一夜物語の道",
+          "description": "リーフレットダウンロード + VR展示体験 + 国立アジア文化殿堂は、口承遺産Oral Heritageが豊かなアジア地域の叙事詩を調査し、研究結果に基づいてアジア物語地図コンテンツを開発してきました。2021年には、インドから東南アジア全域に伝播した『ラーマーヤナの道』を初めて紹介しました。翌年には、中央アジアのキルギスから伝わる『マナスの道』を展示しました。今年は3回目として、『千一夜物語の道 The Arabian Nights』を展示します。『千一夜物語』は、中東地域の伝承、説話、神話などを収めたアラブ口承文学の白眉です。『千一夜物語』に登場するアジアの神話と伝説、アジア人の日常と風俗、文化コンテンツを多様なメディアと体験型コンテンツでお楽しみください。『千一夜物語』は... 『千一夜物語』は、インドとペルシャから伝わった物語が、支配勢力の変化に伴いイラク、エジプト、ヨーロッパへと伝えられました。18世紀のフランス人アントワーヌ・ガランAntoine Gallandと19世紀のイギリス人リチャード・バートンRichard Burtonがヨーロッパに紹介した後、アラブから逆輸入されました。『千一夜物語』は、約300の小さな物語が収められた額縁小説です。"
+        }
+      },
       "poster_image_url": "https://www.acc.go.kr/resources/upload/1681/20231229144956_1890159424.jpg",
       "description": "리플릿 다운받기 + VR전시 체험하기 + 국립아시아문화전당은 구전 유산Oral Heritage이 풍부한 아시아 지역의 서사시를 조사하고, 연구 결과를 바탕으로 아시아이야기지도 콘텐츠를 개발해 오고 있습니다. 2021년 인도에서부터 동남아시아 전역에 전파된 《라마야나의 길》을 처음 소개했습니다. 이듬해에는 중앙아시아 키르키즈스탄에서 전래된 《마나스의 길》을 전시했습니다. 올해는 세 번째로 《천일야화의 길 The Arabian Nights》을 전시합니다. 『천일야화』는 중동 지역의 전래, 설화, 신화 등을 담은 아랍 구전 문학의 백미입니다. 『천일야화』 속 아시아의 신화와 전설, 아시아인의 일상과 풍속, 문화 콘텐츠를 다양한 미디어와 체험형 콘텐츠로 감상해 보시길 바랍니다. 『천일야화』는... 『천일야화』는 인도와 페르시아에서 온 이야기가 지배 세력의 변화를 따라 이라크와 이집트, 유럽으로 전해졌습니다. 18세기 프랑스인 앙투안 갈랑Antoine Galland과 19세기 영국인 리차드 버턴Richard Burton이 유럽에 소개한 이후, 아랍에서 역수입 했습니다. 『천일야화』는 약 300여개의 작은 이야기들이 들어가 있는 액자식 소설 입니다.",
       "medium": "video",
@@ -56964,8 +57458,17 @@
       "id": "c45a307802a4",
       "source": "apma",
       "title": "[APMA, CHAPTER FIVE: FROM THE APMA COLLECTION] 육명심, 예술가의 초상",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "[APMA, CHAPTER FIVE: FROM THE APMA COLLECTION] Yook Myong-Shim, Portrait of an Artist",
+          "description": "In Gallery 6 of 《APMA, CHAPTER FIVE》, we explore various aspects of Korean contemporary art from the 1960s to the present day.\n\nThe work introduced this time is the <Portrait of an Artist> series by Yook Myong-Shim (1932-2025), a first-generation photographer who led the formative period of Korean photography.\n\nYook Myong-Shim sought to move beyond the trend of photography as mere documentation, capturing individuals and their surrounding environments together to reveal a person's life and atmosphere.\n\nThis attempt is regarded as an important work that presented a new direction for Korean portrait photography.\n\nSince the late 1960s, he has captured the lives and deaths of Koreans, and the landscapes in between, through series such as <Portrait of an Artist>, <Baekmin>, and <Geomeun Mosaldeum>.\n\nIn the Korean photography scene, where realism was dominant at the time, the artist actively introduced the literary methodology of 'defamiliarization' into photography, taking a different path from existing photographic language.\n\n©Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nThe <Portrait of an Artist> series began in 1972 with his appointment to Sorabol College of Art, and over 40 years until 2010, it documented figures representing the Korean cultural and art world, including writers, painters, theater artists, and filmmakers.\n\nThe artist recalls, \"Don't you see the traces of pushing forward with such arrogance? They say photography isn't art, but for me, it was a resolute challenge.\" (APMA Collection Artist Interview, 2015)\n\nAs the artist expressed, in an era when photography was not fully recognized as an art medium, this series was not a cautious record but a work that sought to claim photography's place for itself.\n\nYook Myong-Shim <Portrait of an Artist - Kim Tschang-Yeul>, 1969-2012, gelatin silver print\n\nYook Myong-Shim <Portrait of an Artist - Lee Ufan>, 1969-2012, gelatin silver print\n\n©Yook Myong-Shim, Courtesy of the Artist and Amorepacific Museum of Art.\n\nMost of the photographs were taken in the artists' studios or living spaces. Yook Myong-Shim sought to view the subjects as they were, rather than portraying them as great artists.\n\nThe natural scenes captured in this way remain as records that go beyond individual portraits, conveying the lives and attitudes of artists of that era.\n\nIn this exhibition, you can see 10 portraits of Kim Tschang-Yeul, Park Kyung-ni, Choi Young-rim, Kim Ki-chang, Oh Ji-ho, Lee Ufan, Park Doo-jin, Chang Uc-chin, Kim Ki-young, and Oh Kyu-won.\n\nAmong these, paintings by Kim Tschang-Yeul and Lee Ufan are also on display in this collection exhibition, allowing them to be appreciated alongside the portraits captured by Yook Myong-Shim.\n\nYook Myong-Shim <Portrait of an Artist - Oh Kyu-won>, 1969-2012, gelatin silver print\n\n©Yook Myong-Shim, Courtesy of the Artist and Amorepacific Museum of Art.\n\n©Courtesy of Amorepacific Museum of Art.\n\nMeanwhile, poet Oh Kyu-won worked in the public relations department of Taepyeongyang Chemical (now Amorepacific) and was deeply involved in the editing and planning of <Hyangjang> in the 1970s.\n\n<Hyangjang> was a magazine that featured literary works alongside beauty information, and novelist Yang Gui-ja also contributed 'There Was a Small Boat' to <Hyangjang> in January 1993.\n\nHyangjang was a medium that opened up a space for creation and expression for female readers at a time when women's cultural participation was limited.\n\nThe connection between Oh Kyu-won and Amorepacific continues in the poet's portrait documented by Yook Myong-Shim.\n\n©Yook Myong-Shim, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nIn this exhibition, along with Yook Myong-Shim's <Portrait of an Artist> series, you can also see works by contemporary Korean photographers who have gone beyond documentation to reflect contemporary reality and visual culture, and explore the relationship between image and material.\n\nWorks by Kwon Oh-sang, Kim Sang-gil, Jung Ji-hyun, and others collectively show how the horizons of Korean photography, opened by Yook Myong-Shim, have expanded since then."
+        },
+        "ja": {
+          "title": "[APMA, CHAPTER FIVE: FROM THE APMA COLLECTION] ユク・ミョンシム, 「芸術家の肖像」",
+          "description": "《APMA, CHAPTER FIVE》の6展示室では、1960年代から現代に至るまで、韓国現代美術の多様な様相をご覧いただけます。\n\n今回ご紹介する作品は、韓国写真界の形成期を牽引した第一世代の写真家、ユク・ミョンシム作家（1932-2025）の「芸術家の肖像」連作です。\n\nユク・ミョンシムは、写真が単なる記録に留まる流れから脱却し、人物とその周辺環境を共に捉えることで、一人の人生と雰囲気を表現しようとしました。\n\nこのような試みは、韓国の人物写真に新たな方向性を示した重要な作品として評価されています。\n\n1960年代後半から、「芸術家の肖像」、「ペクミン」、「コムン・モサルドゥム」など、時代ごとに韓国人の生と死、そしてその間の風景をカメラに収めてきました。\n\nリアリズムが主流をなしていた当時の韓国写真界において、作家は文学の「異化」という方法論を写真に積極的に取り入れ、既存の写真言語とは異なる道を歩みました。\n\n©Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n「芸術家の肖像」連作は、1972年のソラボル芸術大学への赴任を機に始まり、その後2010年まで40年以上にわたり、文人、画家、演劇人、映画人など、韓国文化芸術界を代表する人物たちを記録しました。\n\n作家はこれを「傲慢なほどにぐいぐいと押し進めた跡が見えるだろう？写真が芸術ではないと言うが、私にとっては本当に決意に満ちた挑戦だ」と回顧しています。(APMA所蔵品作家インタビュー、2015)\n\n作家の表現のように、写真が芸術媒体として十分に認められていなかった時代、この連作は慎重な記録ではなく、写真の地位を自ら勝ち取ろうとした作品でした。\n\nユク・ミョンシム 「芸術家の肖像 - キム・チャンヨル」、1969-2012、ゼラチンシルバープリント\n\nユク・ミョンシム 「芸術家の肖像 - イ・ウファン」、1969-2012、ゼラチンシルバープリント\n\n©Yook Myong-Shim, Courtesy of the Artist and Amorepacific Museum of Art.\n\nほとんどの撮影は芸術家の作業室や生活空間で行われました。ユク・ミョンシムは被写体を偉大な芸術家として演出するよりも、一人の人物の姿そのままを見つめようとしました。\n\nそうして捉えられた自然な場面は、個人の肖像を超え、その時代の芸術家たちの生き方や態度を伝える記録として残っています。\n\n今回の展示では、キム・チャンヨル、パク・キョンニ、チェ・ヨンリム、キム・ギチャン、オ・ジホ、イ・ウファン、パク・ドゥジン、チャン・ウクチン、キム・ギヨン、オ・ギュウォンの肖像10点をご覧いただけます。\n\nこの中には、キム・チャンヨルとイ・ウファンの絵画作品も今回の所蔵品展で展示されており、ユク・ミョンシムが捉えた肖像と共に鑑賞することができます。\n\nユク・ミョンシム 「芸術家の肖像 - オ・ギュウォン」、1969-2012、ゼラチンシルバープリント\n\n©Yook Myong-Shim, Courtesy of the Artist and Amorepacific Museum of Art.\n\n©Courtesy of Amorepacific Museum of Art.\n\n一方、詩人オ・ギュウォンは、太平洋化学（現アモーレパシフィック）の広報室に勤務し、1970年代の「ヒャンジャン」の編集と企画に深く関わりました。\n\n「ヒャンジャン」は美容情報と共に文芸作品も掲載していた雑誌で、小説家ヤン・グィジャも1993年1月に「ヒャンジャン」に「小さな舟があったね」を寄稿しています。\n\nヒャンジャンは、女性の文化的参加が制限されていた時代に、女性読者たちに創作と表現の場を開いた媒体でした。\n\nオ・ギュウォンとアモーレパシフィックの縁は、ユク・ミョンシムが記録した詩人の肖像にも続いています。\n\n©Yook Myong-Shim, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n今回の展示では、ユク・ミョンシムの「芸術家の肖像」連作と共に、記録を超えて同時代の現実と視覚文化を反映し、イメージと物質の関係を探求してきた韓国現代写真作家たちの作品もご覧いただけます。\n\nクォン・オサン、キム・サンギル、チョン・ジヒョンなどの作品は、ユク・ミョンシムが切り開いた韓国写真の地平がその後どのように拡張されてきたかを共に示しています。"
+        }
+      },
       "poster_image_url": "https://image-apma.amorepacific.com/upload/exhibition/m/1784792639864_Bbaeeu6cyg_Cropped.jpg",
       "description": "《APMA, CHAPTER FIVE》의 6전시실에서는 1960년대부터 동시대에 이르기까지 한국 현대미술의 다양한 양상을 살펴봅니다.\n\n이번에 소개할 작품은 한국 사진계 형성기를 이끈 1세대 사진가 육명심 작가(1932-2025)의 <예술가의 초상> 연작입니다.\n\n육명심은 사진이 단순한 기록에 머물던 흐름에서 벗어나, 인물과 그 주변 환경을 함께 담아 한 사람의 삶과 분위기를 보여주고자 했습니다.\n\n이러한 시도는 한국 인물사진의 새로운 방향을 제시한 중요한 작업으로 평가됩니다.\n\n1960년대 후반부터 <예술가의 초상>, <백민>, <검은 모살뜸> 등 시대마다 한국인의 삶과 죽음, 그리고 그 사이의 풍경을 카메라에 담아왔습니다.\n\n리얼리즘이 주류를 이루던 당시 한국 사진계에서, 작가는 문학의 '낯설게 하기' 방법론을 사진에 적극적으로 끌어들이며 기존의 사진 언어와는 다른 길을 걸었습니다.\n\n©Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n<예술가의 초상> 연작은 1972년 서라벌예술대학 부임을 계기로 시작되었고 이후 2010년까지 40여 년에 걸쳐 문인, 화가, 연극인, 영화인 등 한국 문화예술계를 대표하는 인물들을 기록했습니다.\n\n작가는 이를 두고 \"오만하리만큼 확확 밀어 제친 흔적이 보이지? 사진이 예술이 아니라는데, 정말 나한테는 결의에 찬 도전이야\"라고 회고합니다. (APMA 소장품작가 인터뷰, 2015)\n\n작가의 표현처럼, 사진이 예술 매체로 충분히 인정받지 못하던 시절 이 연작은 조심스러운 기록이 아니라 사진의 자리를 스스로 쟁취하려 했던 작업이었습니다.\n\n육명심 <예술가의 초상 - 김창열>, 1969-2012, 젤라틴 실버 프린트\n\n육명심 <예술가의 초상 - 이우환>, 1969-2012, 젤라틴 실버 프린트\n\n©Yook Myong-Shim, Courtesy of the Artist and Amorepacific Museum of Art.\n\n대부분의 촬영은 예술가의 작업실이나 생활 공간에서 이루어졌습니다. 육명심은 피사체를 위대한 예술가로 연출하기보다 한 사람의 모습 그대로 바라보려 했습니다.\n\n그렇게 담아낸 자연스러운 장면들은 개인의 초상을 넘어, 그 시대 예술가들의 삶과 태도를 함께 전하는 기록으로 남아 있습니다.\n\n이번 전시에서는 김창열, 박경리, 최영림, 김기창, 오지호, 이우환, 박두진, 장욱진, 김기영, 오규원의 초상 10점을 만나볼 수 있습니다.\n\n이 가운데 김창열과 이우환의 회화 작품도 이번 소장품전에서 전시되고 있어, 육명심이 담아낸 초상과 함께 감상할 수 있습니다.\n\n육명심 <예술가의 초상 - 오규원>, 1969-2012, 젤라틴 실버 프린트\n\n©Yook Myong-Shim, Courtesy of the Artist and Amorepacific Museum of Art.\n\n©Courtesy of Amorepacific Museum of Art.\n\n한편 오규원 시인은 태평양화학(현 아모레퍼시픽)의 홍보실에서 근무하며 1970년대 <향장>의 편집과 기획에 깊이 관여했습니다.\n\n<향장>은 미용 정보와 함께 문예작품을 함께 실었던 잡지로, 소설가 양귀자도 1993년 1월 <향장>에 ‘작은 배가 있었네’를 기고한 바 있습니다.\n\n향장은 여성의 문화적 참여가 제한적이던 시절 여성 독자들에게 창작과 표현의 장을 열어준 매체였습니다.\n\n오규원과 아모레퍼시픽의 인연은 육명심이 기록한 시인의 초상에서도 이어집니다.\n\n©Yook Myong-Shim, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n이번 전시에서는 육명심의 <예술가의 초상> 연작과 함께, 기록을 넘어 동시대 현실과 시각 문화를 반영하고 이미지와 물질의 관계를 탐구해온 한국 현대사진 작가들의 작품도 함께 만나볼 수 있습니다.\n\n권오상, 김상길, 정지현 등의 작업은 육명심이 열어놓은 한국 사진의 지평이 이후 어떻게 확장되어 왔는지를 함께 보여줍니다.",
       "medium": "photo",
@@ -56997,8 +57500,17 @@
       "id": "8b586f66ff02",
       "source": "apma",
       "title": "[APMA, CHAPTER FIVE] 작품소개: 한국 현대사진, 멈춤과 흐름",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "[APMA, CHAPTER FIVE] Artwork Introduction: Korean Contemporary Photography, Stillness and Flow",
+          "description": "In Gallery 6 of the 《APMA, CHAPTER FIVE》 exhibition, you can explore the trajectory of photography as a medium within the flow of Korean contemporary art since the 1960s.\n\nContemporary photography has evolved beyond its role as mere documentation, reflecting contemporary reality and visual culture, and exploring the relationships between image, material, and time.\n\nThis time, we will focus on the works of three artists among those featured in the exhibition: Koo Bohnchang, Chung Heeseung, and Jung Jihyun.\n\nFor these three artists, photography is not about capturing a fleeting moment, but about documenting the process of time accumulating and flowing.\n\nCourtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nChung Heeseung, <A Rose Is a Rose Is a Rose>, 2016, archival pigment print ©Heeseung Chung\n\nArtist Chung Heeseung has explored the perception and interpretation of photography itself.\n\nThe Rose series, whose title is borrowed from a poem by Gertrude Stein, is a work repeatedly photographed within the same frame over approximately half a year.\n\nIn the process of continuously encountering the same subject, the rose sheds familiar symbols and notions, becoming an entity placed as it is.\n\nThis attitude of viewing objects in a state prior to the assignment of meaning reveals that what photography captures is not a moment, but a relationship with time.\n\nCourtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nKoo Bohnchang, <White Porcelain (AM 09 BW)>, <White Porcelain (AM 10 BW)>, archival pigment print ©Koo Bonchang\n\nArtist Koo Bohnchang has expanded photography beyond a simple documentary medium into the realm of thought and form.\n\nIn his representative series, he quietly arranges Joseon Dynasty moon jars within a restrained grayscale screen.\n\nThe subject in the photographs introduced in this exhibition is the <White Porcelain Jar> (Treasure No. 1441) held by the Amorepacific Museum of Art.\n\nThe subtle stains and textures remaining on the surface, and the touch of the artisan, go beyond a simple record of form, revealing the accumulation of time and the inner presence of the object.\n\nFor the artist, the act of photographing white porcelain is a deep communion with the object, and a moment of quiet contemplation, gazing at the self.\n\nCourtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nJung Jihyun, Construct 02_5001, 2017, pigment print ©Jihyun Jung\n\nArtist Jung Jihyun is an artist who has documented urban spaces, focusing on the processes of architectural creation and change.\n\nHe captures scenes of architectural material and structure, and the accumulation of time, not in completed buildings but in the process of their formation.\n\nIn the series documenting the construction process of the Amorepacific headquarters, the surfaces of glass, concrete, and aluminum are revealed with restrained forms and bright textures, realized as serene and clear images.\n\nThe artist's photographs collectively show the accumulated processes and labor time behind the completed architecture.\n\nCourtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nCourtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nThe photographs of these three artists make us perceive the flow of time within still images.\n\nIn the exhibition hall, along with these works, you can encounter works by artists who have led major trends in Korean contemporary photography, including Kimsooja, Kwon Oh-sang, Kim Sang-gil, and Yook Myong-Shim."
+        },
+        "ja": {
+          "title": "[APMA, CHAPTER FIVE] 作品紹介: 韓国現代写真、静止と流れ",
+          "description": "《APMA, CHAPTER FIVE》展の6展示室では、1960年代以降の韓国現代美術の流れの中で、写真媒体が歩んできた軌跡をご覧いただけます。\n\n現代写真は、単なる記録の役割を超え、同時代の現実と視覚文化を反映し、イメージと物質、時間の関係を探求する方向へと展開してきました。\n\n今回は、展示室に共に参加する複数の作家の中から、ク・ボンチャン、チョン・ヒスン、チョン・ジヒョンの三作家の作品を中心に見ていきます。\n\n三作家にとって写真は、刹那の捉え方ではなく、時間が蓄積され流れる過程をそのまま写し取る行為です。\n\nCourtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nチョン・ヒスン、「バラはバラはバラである」、2016、アーカイバルピグメントプリント ©Heeseung Chung\n\n作家チョン・ヒスンは、写真を見る認識と解釈の仕方そのものを探求してきました。\n\nガートルード・スタインの詩からタイトルを借用したバラの連作は、約半年間にわたり同じフレームで繰り返し撮影された作品です。\n\n同じ対象を持続的に見つめる過程の中で、バラは慣れ親しんだ象徴や観念から離れ、それ自体として置かれた存在となります。\n\n意味付け以前の状態で物事を見つめようとするこの態度は、写真が捉えるものが瞬間ではなく、時間との関係であることを示しています。\n\nCourtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nク・ボンチャン、「白磁 (AM 09 BW)」、「白磁 (AM 10 BW)」、アーカイバルピグメントプリント ©Koo Bonchang\n\n作家ク・ボンチャンは、写真を単なる記録媒体ではなく、思惟と造形の領域へと拡張してきました。\n\n代表的な連作シリーズで、彼は朝鮮時代の月壺を抑制されたグレースケールの画面の中に静かに配置します。\n\n今回の展示で紹介される写真の被写体は、アモーレパシフィック美術館が所蔵している「白磁大壺」（宝物第1441号）です。\n\n表面に残る微細な染みと質感、職人の手跡は、単純な形態の記録を超え、時間の蓄積と事物の内面的な存在感を明らかにします。\n\n作家にとって白磁を撮影する行為は、事物との深い交感であり、自己を見つめる静かな修行の瞬間です。\n\nCourtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nチョン・ジヒョン、Construct 02_5001、2017、ピグメントプリント ©Jihyun Jung\n\n作家チョン・ジヒョンは、建築の生成と変化の過程に注目し、都市空間を記録してきた作家です。\n\n完成された建物ではなく、形成される過程の中で、建築の物質と構造、蓄積される時間の場面を捉えます。\n\nアモーレパシフィック本社新築過程を収めた連作では、ガラス、コンクリート、アルミニウムの表面が抑制された形態と明るい質感で現れ、静かで澄んだイメージとして具現化されています。\n\n作家の写真は、完成された建築のその裏に蓄積された過程と労働の時間を共に示しています。\n\nCourtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nCourtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n三作家の写真は、静止したイメージの中に流れる時間を感覚させます。\n\n展示室では、これらの作品と共に、キム・スジャ、クォン・オサン、キム・サンギル、ユク・ミョンシムなど、韓国現代写真の主要な流れを牽引してきた作家たちの作品に出会うことができます。"
+        }
+      },
       "poster_image_url": "https://image-apma.amorepacific.com/upload/exhibition/m/1782266337937_YYld95A9un_Cropped.jpg",
       "description": "《APMA, CHAPTER FIVE》 전시의 6전시실에서는 1960년대 이후 한국 현대미술의 흐름 속에서 사진 매체가 걸어온 궤적을 살펴볼 수 있습니다.\n\n현대사진은 단순한 기록의 역할을 넘어서 동시대의 현실과 시각 문화를 반영하고 이미지와 물질, 시간의 관계를 탐구하는 방향으로 전개되어 왔습니다.\n\n이번에는 전시실에 함께하는 여러 작가들 중, 구본창, 정희승, 정지현 세 작가의 작업을 중심으로 살펴봅니다.\n\n세 작가에게 사진은 찰나의 포착이 아니라 시간이 축적되고 흐르는 과정을 그대로 담는 행위입니다.\n\nCourtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n정희승, <장미는 장미가 장미인 것>, 2016, 아카이벌 피그먼트 프린트©Heeseung Chung\n\n정희승 작가는 사진을 바라보는 인식과 해석 방식 자체를 탐구해왔습니다.\n\n거트루드 스타인의 시에서 제목을 차용한 장미 연작은 약 반 년에 걸쳐 동일한 프레임으로 반복 촬영한 작업입니다.\n\n같은 대상을 지속적으로 마주하는 과정 속에서 장미는 익숙한 상징과 관념을 벗어나 그 자체로 놓인 존재가 됩니다.\n\n의미 부여 이전의 상태로 사물을 바라보려는 이 태도는, 사진이 포착하는 것이 순간이 아니라 시간과의 관계임을 드러냅니다.\n\nCourtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n구본창, <백자 (AM 09 BW)>, <백자 (AM 10 BW)>, 아카이벌 피그먼트프린트 ©Koo Bonchang\n\n구본창 작가는 사진을 단순한 기록 매체가 아닌 사유와 조형의 영역으로 확장해왔습니다.\n\n대표 연작 시리즈에서 그는 조선 시대 달항아리를 절제된 회색조 화면 속에 고요히 배치합니다.\n\n이번 전시에 소개되는 사진 속 피사체는 아모레퍼시픽 미술관이 소장하고 있는 <백자 대호> (보물 제1441호) 입니다.\n\n표면에 남은 미세한 얼룩과 질감, 장인의 손길은 단순한 형태의 기록을 넘어 시간의 축적과 사물의 내면적 존재감을 드러냅니다.\n\n작가에게 백자를 촬영하는 행위는 사물과의 깊은 교감이자, 자아를 응시하는 조용한 수행의 순간입니다.\n\nCourtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n정지현, Construct 02_5001, 2017, 피그먼트 프린트 ©Jihyun Jung\n\n정지현 작가는 건축의 생성과 변화 과정에 주목하며 도시 공간을 기록해온 작가입니다.\n\n완성된 건물이 아닌 형성되는 과정 속에서, 건축의 물질과 구조, 축적되는 시간의 장면을 포착합니다.\n\n아모레퍼시픽 본사 신축 과정을 담은 연작에서는 유리, 콘크리트, 알루미늄의 표면이 절제된 형태와 밝은 질감으로 드러나며, 고요하고 맑은 이미지로 구현됩니다.\n\n작가의 사진은 완성된 건축 그 이면에 축적된 과정과 노동의 시간을 함께 보여줍니다.\n\nCourtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nCourtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n세 작가의 사진은 멈춰 있는 이미지 속에서 흐르는 시간을 감각하게 합니다.\n\n전시실에서는 이 작업과 함께 김수자, 권오상, 김상길, 육명심 등 한국 현대사진의 주요 흐름을 이끌어온 작가들의 작품을 만날 수 있습니다.",
       "medium": "photo",
@@ -57030,8 +57542,17 @@
       "id": "8d8d7e2c3b23",
       "source": "apma",
       "title": "[APMA, CHAPTER FIVE] 작품소개: 백남준과 TV 너머의 세계",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "[APMA, CHAPTER FIVE] About the Work: Nam June Paik and the World Beyond TV",
+          "description": "Artist Nam June Paik was a key member of the international avant-garde art group Fluxus in the 1960s and 70s, and a pioneer who introduced television and video as materials for contemporary art, establishing video art as an independent art genre.\n\nAmong Nam June Paik's works prominently featured in 《APMA, CHAPTER FIVE》, we will focus on three works that form the core of this exhibition.\n\nNam June Paik, <Kon-Tiki>, 1995, 3-channel video, 53 TV monitors, antique TV cases, objects, neon tubes, wooden frames\n\n©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nFirst unveiled at this exhibition, <Kon-Tiki> is a work derived from the name of an expedition ship symbolizing an indomitable spirit, and was first introduced at the 1995 Venice Biennale Korean Pavilion special exhibition 《The Tail of the Tiger》.\n\nVideos featuring subjects such as Geobukseon (turtle ship), Michelangelo, and various other ships flow across the TV monitors, while antique TV boxes house objects transcending nationality and culture, including dolls, Buddhist statues, and black-and-white photographs.\n\nThis work traverses the boundaries between East and West, science and art, revealing the relationship between art, technology, and people within the media environment.\n\nNam June Paik, <Flower Garden of Zenith>, 2000, single-channel video, 23 TV monitors, fresh flowers, artificial flowers ©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n©Nam June Paik , Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nWhile exploring cultural boundaries in this way, Nam June Paik also paid attention to creating spaces where nature and technology breathe together.\n\nThe artist did not view nature and technology as opposing forces.\n\nHe had previously presented an environment where electronic images functioned as part of nature by placing TV monitors among real plants in (1974-77).\n\nCreated for the new millennium, <Flower Garden of Zenith> inherits this concept, realizing a structure composed of flowers and plants vertically extended to a height of approximately 3 meters.\n\nOn the TV monitors placed throughout, 〈Global Groove〉 (1973) plays, and a rhythm of intersecting music, dance, and images from around the world permeates the entire space.\n\nTV functions as a constituent element of the space, where nature and media coexist within a single ecological field.\n\nNam June Paik, <Danton>, 1989, single-channel video, 12 TV monitors, antique TV cases ©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nNam June Paik, <Evolution, Revolution, Resolution>, 1989, lithograph on copper plate ©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nCreated before <Kon-Tiki> and <Flower Garden of Zenith>, <Danton> demonstrates Nam June Paik's method of summoning historical figures through media.\n\nExhibited right next to it, <Evolution, Revolution, Resolution> is a work that captures the protagonists of the French Revolution in a print, commemorating its 200th anniversary.\n\n<Danton> is a work that embodies Georges Danton, one of those protagonists, as an actual robot sculpture, and the two works are exhibited side by side, responding to each other.\n\nConcepts such as liberty, revolution, reason, and fraternity are carved in Chinese characters on the robot-shaped body, and tricolor images symbolizing France are repeatedly played on the monitors.\n\nIn this work, where a historical figure is summoned to the present through electronic media, Nam June Paik asks how the ideals of revolution can be newly conveyed within today's media environment.\n\nNam June Paik, <Watchdog II>, 1997, 2-channel video, 14 TV monitors, video camera, speakers ©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nNam June Paik, <The Spirit is a Phantom, TV Buddha Says>, 1995-6, antique TV cases, neon tubes, light bulbs, aluminum ©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nFor artist Nam June Paik, TV was a medium that transcended all boundaries: machine and nature, East and West, past and present.\n\nIn the exhibition hall, in addition to the three works introduced, visitors can also encounter various other works such as <The Spirit is a Phantom, TV Buddha Says> and <Watchdog II>.\n\nLike the images filling the cathode ray tubes, visitors standing before the works enter the boundary where technology, nature, and human senses intersect."
+        },
+        "ja": {
+          "title": "[APMA, CHAPTER FIVE] 作品紹介: ナム・ジュン・パイクとTVの向こうの世界",
+          "description": "ナム・ジュン・パイク作家は1960-70年代、国際前衛芸術グループ、フルクサス(Fluxus)の主要メンバーとして活動し、テレビとビデオを現代美術の素材として取り入れ、ビデオアートを独立した芸術ジャンルとして確立した先駆者です。\n\n《APMA, CHAPTER FIVE》で主要に紹介されるナム・ジュン・パイク作家の作品の中から、今回の展示の核をなす三作品を中心に見ていきます。\n\nナム・ジュン・パイク、<コン・ティキ>、1995年、3チャンネルビデオ、TVモニター53台、アンティークTVケース、オブジェ、ネオン管、木製フレーム\n\n©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n今回の展示で初めて公開される<コン・ティキ>は、不屈の精神を象徴する探検船の名前から由来した作品で、1995年ヴェネツィア・ビエンナーレ韓国館特別展《虎のしっぽ》で初めて紹介されました。\n\nTVモニターには亀甲船、ミケランジェロ、様々な船を題材にした映像が流れ、アンティークTVボックスの中には人形、仏像、白黒写真など、国籍と文化を超越したオブジェが配置されています。\n\n東洋と西洋、科学と美術の境界を越え、メディア環境における芸術・技術・人の関係を明らかにする作品です。\n\nナム・ジュン・パイク、<絶頂の花園>、2000年、シングルチャンネルビデオ、TVモニター23台、生花、造花 ©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n©Nam June Paik , Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nナム・ジュン・パイク作家は、このように文化の境界を探求すると同時に、自然と技術が共に息づく空間を創り出すことにも関心を向けました。\n\n作家は自然と技術を対立的なものとは見なしませんでした。\n\n以前、(1974-77)で実際の植物の間にTVモニターを配置し、電子イメージが自然の一部のように機能する環境を披露したことがあります。\n\n新千年を迎え制作された<絶頂の花園>は、このような概念を継承し、花と植物で構成された構造物を約3メートルの高さに垂直拡張して具現した作品です。\n\n随所に配置されたTVモニターでは〈グローバル・グルーヴ〉(1973)が再生され、全世界の音楽とダンス、イメージが交差するリズムが空間全体を貫きます。\n\nTVは空間を構成する要素として機能し、自然とメディアがひとつの生態的な場の中で共存します。\n\nナム・ジュン・パイク、<ダントン>、1989年、単チャンネルビデオ、TVモニター12台、アンティークTVケース ©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nナム・ジュン・パイク、<進化、革命、決意>、1989年、銅版に石版印刷 ©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n<コン・ティキ>と<絶頂の花園>より先に制作された<ダントン>は、ナム・ジュン・パイク作家が歴史上の人物をメディアで召喚する方式を見せてくれます。\n\nすぐ隣に展示されている<進化、革命、決意>は、フランス革命200周年を記念してその主役たちを版画に収めた作品です。\n\n<ダントン>はその主役の一人であるジョルジュ・ダントンを実際のロボット彫刻で具現した作品で、二つの作品は並んで展示され、互いに呼応します。\n\nロボット形態の本体には自由、革命、理性、博愛のような概念が漢字で刻まれており、モニターにはフランスを象徴する三色イメージが繰り返し再生されます。\n\n歴史上の人物が電子媒体を通じて現在に召喚されるこの作品で、ナム・ジュン・パイクは革命の理想が今日のメディア環境の中でどのように新しく伝えられるかを問いかけます。\n\nナム・ジュン・パイク、<監視犬 II>、1997年、2チャンネルビデオ、TVモニター14台、ビデオカメラ、スピーカー ©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nナム・ジュン・パイク、<精神は幽霊だ、TVブッダが語る>、1995-6年、アンティークTVケース、ネオン管、電球、アルミニウム ©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\nナム・ジュン・パイク作家にとってTVは機械と自然、東洋と西洋、過去と現在、その全ての境界を越える媒介でした。\n\n展示室では紹介された三作品の他にも、<精神は幽霊だ、TVブッダが語る>、<監視犬 II>など多様な作品を共に鑑賞できます。\n\nブラウン管の中をいっぱいに満たしたイメージのように、作品の前に立つ観客は技術と自然、人間の感覚が交差するその境界の中に入っていくことになります。"
+        }
+      },
       "poster_image_url": "https://image-apma.amorepacific.com/upload/exhibition/m/1777527164327_qgLVeZJJHb_Cropped.jpg",
       "description": "백남준 작가는 1960-70년대 국제 전위 예술그룹 플럭서스(Fluxus)의 핵심 멤버로 활동하며,\n\n텔레비전과 비디오를 현대미술의 재료로 끌어들이고 비디오 아트를 독립된 예술 장르로 정립한 선구자입니다.\n\n《APMA, CHAPTER FIVE》에서 주요하게 소개되는 백남준 작가의 작품 중, 이번 전시의 핵심을 이루는 세 작품을 중심으로 살펴봅니다.\n\n백남준, <콘-티키>, 1995, 3채널 비디오, TV 모니터 53대, 앤틱 TV 케이스, 오브제, 네온관, 나무 프레임\n\n©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n이번 전시에서 처음 공개되는 <콘-티키>는 불굴의 정신을 상징하는 탐험선의 이름에서 유래된 작품으로,\n\n1995년 베니스 비엔날레 한국관 특별전 《호랑이의 꼬리》에서 처음 소개되었습니다.\n\nTV 모니터에는 거북선, 미켈란젤로, 다양한 배를 소재로 한 영상이 흐르고, 앤티크 TV 박스 안에는 인형, 불상, 흑백사진 등 국적과 문화를 초월한 오브제들이 자리합니다.\n\n동양과 서양, 과학과 미술의 경계를 넘나들며 미디어 환경 속 예술·기술·사람의 관계를 드러내는 작품입니다.\n\n백남준, <절정의 꽃동산>, 2000, 싱글채널 비디오, TV 모니터 23대, 생화, 조화 ©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n©Nam June Paik , Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n백남준 작가는 이처럼 문화의 경계를 탐험하는 동시에, 자연과 기술이 함께 숨쉬는 공간을 만드는 것에도 관심을 기울였습니다.\n\n작가는 자연과 기술을 대립적인 것으로 보지 않았습니다.\n\n일찍이 (1974-77)에서 실제 식물 사이에 TV 모니터를 배치하며 전자 이미지가 자연의 일부처럼 작동하는 환경을 선보인 바 있습니다.\n\n새천년을 맞아 제작된 <절정의 꽃동산>은 이러한 개념을 계승해, 꽃과 식물로 구성된 구조물을 약 3미터 높이로 수직 확장하여 구현한 작품입니다.\n\n곳곳에 배치된 TV 모니터에서는 〈글로벌 그루브〉(1973)가 재생되며, 전 세계의 음악과 춤, 이미지가 교차하는 리듬이 공간 전체를 관통합니다.\n\nTV는 공간을 구성하는 요소로 기능하며, 자연과 미디어가 하나의 생태적 장 속에서 공존합니다.\n\n백남준, <당통>, 1989, 단채널 비디오, TV 모니터 12대, 앤틱 TV 케이스 ©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n백남준, <진화, 혁명, 결의>, 1989, 동판에 석판인쇄 ©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n<콘-티키>와 <절정의 꽃동산>보다 앞서서 제작된 <당통>은, 백남준 작가가 역사 속 인물을 미디어로 소환하는 방식을 보여줍니다.\n\n바로 옆에 전시되고 있는 <진화, 혁명, 결의>는 프랑스 혁명 200주년들 기념하여 그 주역들을 판화로 담아낸 작품입니다.\n\n<당통>은 그 주역 중 한 명인 조르주 당통을 실제 로봇 조각으로 구현한 작품으로, 두 작품은 나란히 전시되며 서로 호응합니다.\n\n로봇 형태의 몸체에는 자유, 혁명, 이성, 박애 같은 개념이 한자로 새겨져 있고, 모니터에는 프랑스를 상징하는 삼색 이미지가 반복 재생됩니다.\n\n역사적 인물이 전자 매체를 통해 현재로 소환되는 이 작품에서, 백남준은 혁명의 이상이 오늘날의 미디어 환경 속에서 어떻게 새롭게 전달될 수 있는지를 묻습니다.\n\n백남준, <감시견 II>, 1997, 2채널 비디오, TV 모니터 14대, 비디오 카메라, 스피커 ©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n백남준, <정신은 유령이라, TV 부처가 말한다>, 1995-6, 앤틱 TV 케이스, 네온관, 전구, 알루미늄 ©Nam June Paik, Courtesy of the Artist and Amorepacific Museum of Art. Photo: Jeon Byung-chul\n\n백남준 작가에게 TV는 기계와 자연, 동양과 서양, 과거와 현재, 그 모든 경계를 넘나드는 매개였습니다.\n\n전시실에서는 소개된 세 작품 외에도 <정신은 유령이라, TV 부처가 말한다>, <감시견 II> 등 다양한 작품을 함께 만날 수 있습니다.\n\n브라운관 속을 가득 채운 이미지들처럼, 작품 앞에 선 관객은 기술과 자연, 인간의 감각이 교차하는 그 경계 안으로 들어가게 됩니다.",
       "medium": "mixed",
@@ -57063,8 +57584,17 @@
       "id": "26ebf253237b",
       "source": "apma",
       "title": "[APMA, CHAPTER FIVE] 전시관람 예약",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "[APMA, CHAPTER FIVE] Exhibition Viewing Reservation",
+          "description": "The Amorepacific Museum of Art presents 《APMA, CHAPTER FIVE - FROM THE APMA COLLECTION》, a special exhibition of its contemporary art collection. This exhibition showcases approximately 80 works, including paintings, photographs, sculptures, and installations, by about 40 domestic and international artists across seven exhibition rooms. The museum has progressively unveiled its collection, comprising Korean traditional art and global contemporary art, through four previous collection exhibitions. This exhibition will serve as an opportunity to introduce the accumulated results of its collection and research, and to re-examine their trajectory and contemporary significance.\n\nComprising key contemporary art pieces from the museum's collection and works presented for the first time, this exhibition unfolds around three central themes. First, it surveys the diverse formative languages of contemporary art shaped within different cultural and historical contexts. Individual experiences, local memories, and critical perceptions of social structures are realized through various forms and media, revealing complex perspectives on today's world. Second, it addresses the major trends in international contemporary art, along with generational continuity and change. By juxtaposing the practices of contemporary artists with the works of artists who have led significant shifts in modern art, it demonstrates how artistic experiments and methodologies have accumulated and transformed to reach the present. Lastly, it intensively illuminates the unique contexts and transitions that have shaped Korean contemporary art. From monochrome painting and experimental art in the 1970s–80s to media experiments developed amidst rapidly changing society, Korean art has closely engaged with global art while expressing its own distinct critical awareness. This exhibition holistically reveals the points where region and world, past and present intersect through these three axes.\n\n《APMA, CHAPTER FIVE – FROM THE APMA COLLECTION》 serves as a concentrated presentation of the museum's current collection and a platform for gauging future directions in collecting and research. We hope this exhibition provides an opportunity to encounter diverse expressions of contemporary art and a time to discover new connections and interpretations.\n\nNam June Paik ‹KON-TIKI› Viewing Information: This work operates from 10:30 AM to 12:30 PM and from 1:30 PM to 5:40 PM. Please note that operation will be temporarily suspended from 12:30 PM to 1:30 PM for artwork condition management."
+        },
+        "ja": {
+          "title": "[APMA, CHAPTER FIVE] 展覧会観覧予約",
+          "description": "アモーレパシフィック美術館は、現代美術所蔵品特別展《APMA, CHAPTER FIVE - FROM THE APMA COLLECTION》を開催します。今回の展示は、計7つの展示室を通じて、国内外の作家約40名と絵画、写真、彫刻、インスタレーション作品など約80点を披露します。美術館は、4回にわたる所蔵品展示を続けてきており、韓国伝統美術と世界現代美術で構成されたコレクションを段階的に公開してきました。今回の展示は、これまで蓄積された収集と研究の成果を紹介し、その流れと同時代的意味を改めて考察するきっかけとなるでしょう。\n\n美術館の主要な現代美術所蔵品と初めて披露される作品で構成された今回の展示は、三つの軸を中心に展開されます。第一に、異なる文化的・歴史的脈絡の中で形成された同時代美術の多様な造形言語を展望します。個人の経験と地域の記憶、社会構造に対する批判的認識は、それぞれ異なる形式と媒体で具現され、今日の世界を眺める複合的な視点を明らかにします。第二に、国際現代美術の主要な流れと世代間の連続性と変化を共に扱います。同時代作家たちの実践と現代美術の重要な転換を導いてきた作家たちの作品を並置することで、芸術的実験と方法論がどのような蓄積と変化を経て現在に至ったのかを示します。最後に、韓国現代美術が形成してきた固有の脈絡と転換を集中的に照らします。1970–80年代の単色画と実験美術から、急変する社会の中で展開された媒体実験に至るまで、韓国美術は世界美術と密接に呼吸し、独自の問いを表現してきました。今回の展示は、これら三つの軸を通じて、地域と世界、過去と現在が交差する地点を立体的に明らかにします。\n\n《APMA, CHAPTER FIVE – FROM THE APMA COLLECTION》は、美術館コレクションの現在を集約的に示す場であり、今後の収集と研究の方向性を測る場でもあります。今回の展示が同時代美術の多様な表現に触れるきっかけとなり、新たな繋がりと解釈を発見する時間となることを期待します。\n\nナム・ジュン・パイク ‹KON-TIKI› 観覧案内本作品は午前10:30–12:30、午後13:30–17:40に運営されます。12:30–13:30は作品の状態管理のため運営が一時中断されますので、観覧の際にご留意ください。"
+        }
+      },
       "poster_image_url": "https://image-apma.amorepacific.com/upload/exhibition/m/1774428952636_Y6MWK8M7VA_Cropped.jpg",
       "description": "아모레퍼시픽미술관은 현대미술 소장품 특별전 《APMA, CHAPTER FIVE - FROM THE APMA COLLECTION》을 개최합니다. 이번 전시는 총 7개의 전시실을 통해 약 40여 명의 국내외 작가와 80여 점의 회화, 사진, 조각, 설치 작품 등을 선보입니다. 미술관은 네 차례에 걸친 소장품 전시를 이어오며 한국 전통미술과 세계 현대미술로 구성된 컬렉션을 단계적으로 공개해 왔습니다. 이번 전시는 그간 축적된 수집과 연구의 성과를 소개하고, 그 흐름과 동시대적 의미를 다시 살펴보는 계기가 될 것입니다.\n\n미술관의 주요 현대미술 소장품과 처음 선보이는 작품으로 구성된 이번 전시는 세 가지 축을 중심으로 전개됩니다. 첫째, 서로 다른 문화적·역사적 맥락 속에서 형성된 동시대 미술의 다양한 조형 언어를 조망합니다. 개인의 경험과 지역의 기억, 사회 구조에 대한 비판적 인식은 각기 다른 형식과 매체로 구현되며, 오늘의 세계를 바라보는 복합적인 시각을 드러냅니다. 둘째, 국제 현대미술의 주요 흐름과 세대 간의 연속성과 변화를 함께 다룹니다. 동시대 작가들의 실천과 현대미술의 중요한 전환을 이끌어 온 작가들의 작업을 병치함으로써, 예술적 실험과 방법론이 어떠한 축적과 변화를 거쳐 현재에 이르렀는지를 보여줍니다. 마지막으로, 한국 현대미술이 형성해 온 고유한 맥락과 전환을 집중적으로 조명합니다. 1970–80년대 단색화와 실험미술에서부터 급변하는 사회 속에서 전개된 매체 실험에 이르기까지, 한국 미술은 세계 미술과 긴밀히 호흡하며 독자적인 문제의식을 발현시켜 왔습니다. 이번 전시는 이러한 세 축을 통해 지역과 세계, 과거와 현재가 교차하는 지점을 입체적으로 드러냅니다.\n\n《APMA, CHAPTER FIVE – FROM THE APMA COLLECTION》은 미술관 컬렉션의 현재를 집약적으로 보여주는 자리이자, 향후 수집과 연구의 방향을 가늠하게 하는 장입니다. 이번 전시가 동시대 미술의 다양한 표현을 마주하는 계기가 되기를 바라며, 새로운 연결과 해석을 발견하는 시간이 되기를 기대합니다.\n\n백남준 ‹KON-TIKI› 관람 안내본 작품은 오전 10:30–12:30, 오후 13:30–17:40에 운영됩니다.12:30–13:30에는 작품 상태 관리를 위해 운영이 일시 중단되오니, 관람에 참고해 주시기 바랍니다.",
       "medium": "mixed",
@@ -57096,8 +57626,17 @@
       "id": "fa44c1e3c66f",
       "source": "mmca",
       "title": "장 클로드 루소: 2026 서울국제실험영화페스티벌 엑스레트로",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "Jean-Claude Rousseau: 2026 Seoul International Experimental Film Festival X-Retro",
+          "description": "Co-hosted by the National Museum of Modern and Contemporary Art, Korea (MMCA) and the Seoul International Experimental Film Festival Committee, \"Jean-Claude Rousseau: 2026 Seoul International Experimental Film Festival X-Retro\" introduces 25 works by Jean-Claude Rousseau, a master of French experimental cinema. From his 1983 debut film \"The Girl Reading a Letter by the Window\" to his recent 2024 work \"Where Are All My Lovers?\", this exhibition offers a comprehensive look at Rousseau's cinematic world spanning over 40 years in Korea. Jean-Claude Rousseau (b.1946) was born in Paris and encountered the films of Yasujiro Ozu and American avant-garde cinema during his stay in New York in the 1970s. Furthermore, Robert Bresson's restrained cinematic language, the light in Johannes Vermeer's paintings, and Ozu's static screen compositions became important reference points for his film aesthetics. Rather than grand narratives or dramatic events, Rousseau focuses on everyday elements such as rooms, windows, streets, books, letters, light, and sound. In his films, the world slowly reveals itself through objects and time placed within the frame, and in the gaze that observes them. Rousseau made his first film, \"The Girl Reading a Letter by the Window,\" with a Super8 camera in 1983. Within a small format that easily suggests short cuts and rapid movements, he chose fixed frames and long durations. This methodology continued even after he moved his work to digital video in the 2000s. Although the conditions of the medium changed, he still first sets up the frame and waits for the moment when light and objects, sound and time, relate to each other within it. For Rousseau, cinema is closer to a form of long contemplation of what has been found, rather than a device to explain the world. This screening broadly introduces Rousseau's works, from his early pieces to his representative works, major works from the digital era, and recent works. His debut film \"The Girl Reading a Letter by the Window\" (1983) references Vermeer's painting of the same name and gazes at the time of a woman reading a letter by the window. \"Venice Does Not Exist\" (1984), \"Keep in Touch\" (1987), and \"The Ruins of Rome\" (1989) construct places through windows and rooms, street noise and light, rather than city landmarks. His representative work \"The Enclosed Valley\" (1995), centered around the source of the Vaucluse in France, unfolds reflections on nature, earth, water, and time. Major works from the digital era, \"Three Nothings\" (2006) and \"In His Apartment\" (2007), show how small spaces and trivial actions expand into cinematic tension. \"In His Apartment\" is structured around a scene where Rousseau reads Jean Racine's tragedy *Bérénice* in his apartment and won the Grand Prix in the International Competition at the 2007 FIDMarseille (Marseille International Documentary Film Festival). \"Just Before the Shower\" (2003) is a work filmed in Jeonju when Rousseau visited Korea in 2003 to attend a retrospective at the Jeonju International Film Festival. This short film, born in Korea, holds special significance in that it is presented to Korean audiences again after 23 years. The flow leading to his recent works is also noteworthy. \"In Memoriam\" (2019) is a work commemorating Chantal Akerman and constructs a time of mourning through rooms and windows, objects and fragments of news. \"Welcome\" (2022) is a work that captures New York again after 35 years since \"Keep in Touch\" and quietly gazes at the windows of red brick buildings. In today's image environment, Rousseau's films propose a different viewing time to the audience. Amidst the rapidly changing and consumed flow of screens, his works remain within a single frame, making us re-examine the changes in light, the position of objects, the delay of sound, and the subtle movements of figures. This screening, through Jean-Claude Rousseau's rigorous yet delicate cinematic methodology built over 40 years, will be an opportunity to explore how images embrace time, form places, and transform the audience's perception. Table of screening program categories, films, and durations. Film Information: Program 1: The Girl Reading a Letter by the Window / Venice Does Not Exist / Keep in Touch (81 min); Program 2: The Ruins of Rome (105 min); Program 3: The Enclosed Valley (143 min); Program 4: Three Nothings (78 min); Program 5: In His Apartment (70 min); Program 6: Just Before the Shower / Senza Mostra / Vain Departure / Two World Tours / White Nights / Last Breath / In Memoriam / Welcome / Remembering the Wavelengths (95 min); Program 7: One Day / Under a Changing Sky / Terrace with a View / Landscape on the Other Side of the River / Memories of Athens / Songs of Love / Where Are All My Lovers? / Another Day / Far Away Delft (80 min). Table of screening dates and times by program. Screening Schedule: Program 1: 7/24 (Fri) 13:00, 7/29 (Wed) 18:30; Program 2: 7/25 (Sat) 14:00 (Artist Talk after screening, 95 min), 8/1 (Sat) 15:00; Program 3: 7/24 (Fri) 15:00, 7/30 (Thu) 15:00; Program 4: 7/25 (Sat) 18:30, 7/31 (Fri) 15:00; Program 5: 7/26 (Sun) 15:00, 7/31 (Fri) 13:00; Program 6: 7/28 (Tue) 15:00, 8/1 (Sat) 18:30; Program 7: 7/29 (Wed) 15:00, 8/2 (Sun) 15:00. Go to Exhibition Reservation (Click)"
+        },
+        "ja": {
+          "title": "ジャン＝クロード・ルソー: 2026 ソウル国際実験映画フェスティバル エックスレトロ",
+          "description": "国立現代美術館とソウル国際実験映画フェスティバル委員会が共同主催する「ジャン＝クロード・ルソー：2026 ソウル国際実験映画フェスティバル エックスレトロ」は、フランス実験映画の巨匠ジャン＝クロード・ルソー（Jean-Claude Rousseau）の作品25編を紹介する。1983年のデビュー作『窓辺で手紙を読む少女』から2024年の最新作『私の恋人たちは皆どこに』まで、40年以上にわたるルソーの映画世界を国内で本格的に展望する場である。ジャン＝クロード・ルソー（b.1946）はパリで生まれ、1970年代のニューヨーク滞在中に小津安二郎（Yasujiro Ozu）の映画とアメリカのアバンギャルド・シネマに触れた。さらに、ロベール・ブレッソン（Robert Bresson）の抑制された映画言語、フェルメール（Johannes Vermeer）の絵画の光、小津の静的な画面構成は、彼の映画美学を形成する重要な参照点となった。ルソーは、巨大な叙事詩や劇的な事件よりも、部屋、窓、通り、本、手紙、光、音といった日常的な要素に注目する。彼の映画では、世界はフレームの中に置かれた事物と時間、そしてそれらを見つめる視線の中でゆっくりと現れる。ルソーは1983年にスーパー8カメラで最初の映画『窓辺で手紙を読む少女』を制作した。短いカットと速い動きを連想しやすい小型フォーマットの中で、彼は固定されたフレームと長い持続を選択した。2000年代以降、デジタルビデオに作業領域を移した後も、このような方法論は続いた。媒体の条件は変わったが、彼は依然としてフレームを先に設定し、その中で光と事物、音と時間が自ら関係を結ぶ瞬間を待つ。ルソーにとって映画は、世界を説明する装置よりも、発見されたものを長く見つめる形式に近い。今回の上映では、ルソーの初期作から代表作、デジタル時代の主要作と最新作まで幅広く紹介される。デビュー作『窓辺で手紙を読む少女』（1983）は、フェルメールの同名絵画を参照し、窓辺で手紙を読む一人の女性の時間を凝視する。『ヴェネツィアは存在しない』（1984）、『キープ・イン・タッチ』（1987）、『ローマの遺跡』（1989）は、都市の名所よりも窓や部屋、通りの騒音と光を通して場所を構成する。代表作『閉じ込められた谷』（1995）は、フランスのヴォクリューズの水源地を中心に、自然、大地、水、時間についての思索を展開する。デジタル時代の主要作『三つの無』（2006）と『彼のアパートで』（2007）は、小さな空間と些細な行為がどのように映画的緊張へと拡張されるかを示す。『彼のアパートで』は、ルソーが自身のアパートでラシーヌ（Jean Racine）の悲劇『ベレニス』を読む場面を中心に構成され、2007年マルセイユ国際ドキュメンタリー映画祭国際競争部門でグランプリを受賞した。『夕立が降る直前』（2003）は、ルソーが2003年に全州国際映画祭の回顧展出席のため韓国を訪れた際、全州で撮影した作品である。韓国で生まれたこの短編映画が、23年ぶりに再び韓国の観客の前に置かれるという点で特別な意味を持つ。最新作へと続く流れも注目される。『イン・メモリアム』（2019）は、シャンタル・アケルマン（Chantal Akerman）を追悼する作品で、部屋と窓、事物とニュースの断片を通して哀悼の時間を構成する。『ウェルカム』（2022）は、『キープ・イン・タッチ』以来35年ぶりにニューヨークを再び捉えた作品で、赤いレンガの建物の窓を静かに凝視する。ルソーの映画は、今日のイメージ環境の中で観客に異なる鑑賞の時間を提案する。早く切り替わり消費される画面の流れの中で、彼の作品は一つのフレームの中に留まり、光の変化、事物の位置、音の遅延、人物の微細な動きを再び見つめさせる。今回の上映は、ジャン＝クロード・ルソーが40年以上にわたり築き上げてきた厳格かつ繊細な映画的方法論を通して、イメージがどのように時間を内包し、場所を形成し、観客の知覚を変化させるのかを探る場となるだろう。上映プログラム区分別上映作品および上映時間情報が案内された表。上映作品情報：プログラム1：『窓辺で手紙を読む少女』 / 『ヴェネツィアは存在しない』 / 『キープ・イン・タッチ』（81分）；プログラム2：『ローマの遺跡』（105分）；プログラム3：『閉じ込められた谷』（143分）；プログラム4：『三つの無』（78分）；プログラム5：『彼のアパートで』（70分）；プログラム6：『夕立が降る直前』 / 『センザ・モストラ』 / 『無駄な出発』 / 『世界一周二回』 / 『白夜』 / 『最後の息』 / 『イン・メモリアム』 / 『ウェルカム』 / 『波長を記憶して』（95分）；プログラム7：『ある日』 / 『変化する空の下で』 / 『風景のあるテラス』 / 『向かいの川辺の風景』 / 『アテネの思い出』 / 『愛の歌々』 / 『私の恋人たちは皆どこに』 / 『また別のある日』 / 『遠くデルフト』（80分）。上映プログラム別上映日時情報が案内された表。上映時間案内：プログラム1：7/24（金）13:00、7/29（水）18:30；プログラム2：7/25（土）14:00 上映後アーティストトーク（95分）、8/1（土）15:00；プログラム3：7/24（金）15:00、7/30（木）15:00；プログラム4：7/25（土）18:30、7/31（金）15:00；プログラム5：7/26（日）15:00、7/31（金）13:00；プログラム6：7/28（火）15:00、8/1（土）18:30；プログラム7：7/29（水）15:00、8/2（日）15:00。展示予約はこちら（クリック）"
+        }
+      },
       "poster_image_url": "https://www.mmca.go.kr/upload/exhibition/2026/07/2026071310263892215377.png",
       "description": "국립현대미술관과 서울국제실험영화페스티벌위원회가 공동 주최하는 «장 클로드 루소: 2026 서울국제실험영화페스티벌 엑스레트로»는 프랑스 실험영화의 거장 장 클로드 루소(Jean-Claude Rousseau)의 작품 25편을 소개한다. 1983년 데뷔작 ‹창가에서 편지 읽는 소녀›부터 2024년 최근작 ‹내 연인들은 모두 어디에›까지, 40여 년에 걸친 루소의 영화 세계를 국내에서 본격적으로 조망하는 자리이다. 장 클로드 루소(b.1946)는 파리에서 태어나 1970년대 뉴욕 체류 시기 오즈 야스지로(Yasujiro Ozu)의 영화와 미국 아방가르드 시네마를 접했다. 나아가 로베르 브레송(Robert Bresson)의 절제된 영화 언어, 베르메르(Johannes Vermeer) 회화의 빛, 오즈의 정적인 화면 구성은 그의 영화 미학을 이루는 중요한 참조점이 되었다. 루소는 거대한 서사나 극적 사건보다 방, 창문, 거리, 책, 편지, 빛, 소리처럼 일상적인 요소에 주목한다. 그의 영화에서 세계는 프레임 안에 놓인 사물과 시간, 그리고 그것을 바라보는 시선 속에서 천천히 드러난다. 루소는 1983년 슈퍼8 카메라로 첫 영화 ‹창가에서 편지 읽는 소녀›를 만들었다. 짧은 컷과 빠른 움직임을 떠올리기 쉬운 소형 포맷 안에서 그는 고정된 프레임과 긴 지속을 선택했다. 2000년대 이후 디지털 비디오로 작업 영역을 옮긴 뒤에도 이러한 방법론은 이어졌다. 매체의 조건은 달라졌지만, 그는 여전히 프레임을 먼저 세우고, 그 안에서 빛과 사물, 소리와 시간이 스스로 관계 맺는 순간을 기다린다. 루소에게 영화는 세계를 설명하는 장치보다, 발견된 것을 오래 바라보는 형식에 가깝다. 이번 상영에서는 루소의 초기작부터 대표작, 디지털 시기의 주요작과 최근작까지 폭넓게 소개된다. 데뷔작 ‹창가에서 편지 읽는 소녀›(1983)는 베르메르의 동명 회화를 참조하며, 창가에서 편지를 읽는 한 여인의 시간을 응시한다. ‹베니스는 존재하지 않는다›(1984), ‹킵 인 터치›(1987), ‹로마의 유적들›(1989)은 도시의 명소보다 창과 방, 거리의 소음과 빛을 통해 장소를 구성한다. 대표작 ‹갇힌 골짜기›(1995)는 프랑스 보클뤼즈의 수원지를 중심으로 자연, 대지, 물, 시간에 대한 사유를 펼친다. 디지털 시기의 주요작 ‹세 번의 무›(2006)와 ‹그의 아파트에서›(2007)는 작은 공간과 사소한 행위가 어떻게 영화적 긴장으로 확장되는지 보여준다. ‹그의 아파트에서›는 루소가 자신의 아파트에서 라신(Jean Racine)의 비극 『베레니스』를 읽는 장면을 중심으로 구성되며, 2007년 마르세유 국제다큐멘터리영화제 국제경쟁 그랑프리를 수상했다. ‹소나기가 오기 직전›(2003)은 루소가 2003년 전주국제영화제 회고전 참석차 한국을 찾았을 때 전주에서 촬영한 작품이다. 한국에서 태어난 이 짧은 영화가 23년 만에 다시 한국 관객 앞에 놓인다는 점에서 특별한 의미를 지닌다. 최근작으로 이어지는 흐름도 주목된다. ‹인 메모리엄›(2019)은 샹탈 아커만(Chantal Akerman)을 기리는 작품으로, 방과 창문, 사물과 뉴스의 파편을 통해 애도의 시간을 구성한다. ‹웰컴›(2022)은 ‹킵 인 터치› 이후 35년 만에 뉴욕을 다시 담은 작품으로, 붉은 벽돌 건물의 창들을 조용히 응시한다. 루소의 영화는 오늘날의 이미지 환경 속에서 관객에게 다른 관람의 시간을 제안한다. 빠르게 전환되고 소비되는 화면의 흐름 속에서, 그의 작품은 하나의 프레임 안에 머물며 빛의 변화, 사물의 위치, 소리의 지연, 인물의 미세한 움직임을 다시 바라보게 한다. 이번 상영은 장 클로드 루소가 40여 년간 구축해 온 엄격하고도 섬세한 영화적 방법론을 통해, 이미지가 어떻게 시간을 품고 장소를 형성하며 관객의 지각을 변화시키는지 살펴보는 자리가 될 것이다. 상영 프로그램 구분별 상영작 및 분량 정보가 안내된 표 상영작 정보구분상영작분량프로그램1창가에서 편지 읽는 소녀 / 베니스는 존재하지 않는다 / 킵 인 터치81분프로그램2로마의 유적들105분프로그램3갇힌 골짜기143분프로그램4세 번의 무78분프로그램5그의 아파트에서70분프로그램6소나기가 오기 직전 / 센자 모스트라 / 헛된 출발 / 세계 일주 두 번 / 백야 / 마지막 숨결 / 인 메모리엄 / 웰컴 / 파장을 기억하며95분프로그램7어느 날 / 변화하는 하늘 아래 / 풍경이 있는 테라스 / 건너편 강가의 풍경 / 아테네의 추억 / 사랑의 노래들 / 내 연인들은 모두 어디에 / 또 다른 어느 날 / 저 멀리 델프트80분 상영 프로그램별 상영 일자 및 시간이 안내된 표 상영 시간 안내상영 프로그램일자 및 시간프로그램17/24(금) 13:007/29(수) 18:30프로그램27/25(토) 14:00 상영 후 아티스트 토크(95분)8/1(토) 15:00프로그램37/24(금) 15:007/30(목) 15:00프로그램47/25(토) 18:307/31(금) 15:00프로그램57/26(일) 15:007/31(금) 13:00프로그램67/28(화) 15:008/1(토) 18:30프로그램77/29(수) 15:008/2(일) 15:00 전시예약 바로가기(클릭)",
       "medium": "video",
@@ -57143,8 +57682,17 @@
       "id": "767ff1dea790",
       "source": "mmca",
       "title": "MMCA×LG OLED 시리즈 2026",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "MMCA×LG OLED Series 2026",
+          "description": "The \"MMCA x LG OLED Series,\" a mid-to-long-term collaborative program between the National Museum of Modern and Contemporary Art, Korea (MMCA) and LG Electronics, aims to support talented contemporary artists with production costs and technical infrastructure, thereby fostering new media experiments and discourse in contemporary art, and contribute to the popularization of contemporary art through the creation of large-scale new works based on technology and art. By exhibiting installation works that reflect the spatial characteristics of the Seoul Box, the symbolic exhibition space of the Seoul branch, it provides audiences with a unique artistic experience of contemporary art. The second artist in the series will be announced in early 2026."
+        },
+        "ja": {
+          "title": "MMCA×LG OLED シリーズ 2026",
+          "description": "国立現代美術館とLG電子の中長期協力プログラムである「MMCA x LG OLED シリーズ」は、有能な同時代作家に作品制作費および技術インフラを支援することで、同時代現代美術の新しい媒体実験および談論を形成し、技術と芸術に基づいた大型新作制作を通じて現代美術の大衆化に貢献しようとする。ソウル館の象徴的展示空間ソウルボックス（Seoul Box）の空間的特性を反映したインスタレーション作品を展示し、現代美術の独創的な芸術体験を観客に提供する。シリーズの二人目の作家は2026年初めに発表される。"
+        }
+      },
       "poster_image_url": "https://www.mmca.go.kr/upload/exhibition/2026/06/2026061002041170016962.gif",
       "description": "국립현대미술관과 LG전자의 중장기 협력 프로그램인 «MMCA x LG OLED 시리즈»는 역량 있는 동시대 작가에게 작품 제작비 및 기술 인프라를 지원함으로써 동시대 현대미술의 새로운 매체 실험 및 담론을 형성하고, 기술과 예술을 바탕으로 한 대형 신작 제작을 통해 현대미술의 대중화에 기여하고자 한다. 서울관의 상징적 전시공간 서울박스(Seoul Box)의 공간적 특성을 반영한 설치작품을 전시하여 현대미술의 독창적 예술 경험을 관객에게 제공한다. 시리즈의 두 번째 작가는 2026년 초 발표된다.",
       "medium": "video",
@@ -76964,26 +77512,54 @@
     {
       "id": "12885db9e772",
       "name": "こしだミカ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "코시다 미카"
+        },
+        "en": {
+          "name": "Koshida Mika"
+        }
+      }
     },
     {
       "id": "862fc9be6ab5",
       "name": "さこももみ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "사코 모모미"
+        },
+        "en": {
+          "name": "Sako Momomi"
+        }
+      }
     },
     {
       "id": "ea30e6d08d79",
       "name": "ささめやゆき",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "사사메야 유키"
+        },
+        "en": {
+          "name": "Sasameya Yuki"
+        }
+      }
     },
     {
       "id": "0d64721746e7",
       "name": "田島征三",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "타지마 세이조"
+        },
+        "en": {
+          "name": "Tajima Seizō"
+        }
+      }
     },
     {
       "id": "c6b38ba4b4f3",
@@ -77541,134 +78117,288 @@
     {
       "id": "d6e462d52538",
       "name": "服部瑠唯",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "하토리 루이"
+        },
+        "en": {
+          "name": "Rui Hattori"
+        }
+      }
     },
     {
       "id": "838438683d2a",
       "name": "眞弓侑大",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "마유미 유다이"
+        },
+        "en": {
+          "name": "Yudai Mayumi"
+        }
+      }
     },
     {
       "id": "660134d9dbc5",
       "name": "八幡棟大",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "야와타 무네히로"
+        },
+        "en": {
+          "name": "Yawata Munehiro"
+        }
+      }
     },
     {
       "id": "f0521477514f",
       "name": "山田菜月",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "야마다 나츠키"
+        },
+        "en": {
+          "name": "Yamada Natsuki"
+        }
+      }
     },
     {
       "id": "b81d5df0354e",
       "name": "土屋じゅり",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "츠치야 주리"
+        },
+        "en": {
+          "name": "Tsuchiya Juri"
+        }
+      }
     },
     {
       "id": "546ce234cc66",
       "name": "佐藤真那人",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "사토 마나토"
+        },
+        "en": {
+          "name": "Sato Manato"
+        }
+      }
     },
     {
       "id": "3f6ab06a6279",
       "name": "木下めいこ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "키노시타 메이코"
+        },
+        "en": {
+          "name": "Meiko Kinoshita"
+        }
+      }
     },
     {
       "id": "9e1f0dc78697",
       "name": "瀬戸優",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "세토 유"
+        },
+        "en": {
+          "name": "Yu Seto"
+        }
+      }
     },
     {
       "id": "7766c63fa1e7",
       "name": "石黒昭",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이시구로 아키라"
+        },
+        "en": {
+          "name": "Akira Ishiguro"
+        }
+      }
     },
     {
       "id": "5d096e6872eb",
       "name": "高田洋三",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "타카다 요조"
+        },
+        "en": {
+          "name": "Yozo Takada"
+        }
+      }
     },
     {
       "id": "6ce55a2c33a8",
       "name": "岡田敦",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오카다 아츠시"
+        },
+        "en": {
+          "name": "Atsushi Okada"
+        }
+      }
     },
     {
       "id": "02a220b64e76",
       "name": "佐藤正和重孝",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "사토 마사카즈 시게타카"
+        },
+        "en": {
+          "name": "Masakazu Shigetaka Sato"
+        }
+      }
     },
     {
       "id": "782655feb5d2",
       "name": "粂原愛",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "쿠메하라 아이"
+        },
+        "en": {
+          "name": "Ai Kumehara"
+        }
+      }
     },
     {
       "id": "264cbfade4e6",
       "name": "河嶋淳司",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "카와시마 준지"
+        },
+        "en": {
+          "name": "Junji Kawashima"
+        }
+      }
     },
     {
       "id": "0daa41462915",
       "name": "土屋仁応",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "츠치야 요시마사"
+        },
+        "en": {
+          "name": "Yoshimasa Tsuchiya"
+        }
+      }
     },
     {
       "id": "ee1828bd620c",
       "name": "田中福男",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "다나카 후쿠오"
+        },
+        "en": {
+          "name": "Fukuo Tanaka"
+        }
+      }
     },
     {
       "id": "d5fee6c7acac",
       "name": "鈴木果澄",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "스즈키 카스미"
+        },
+        "en": {
+          "name": "Suzuki Kasumi"
+        }
+      }
     },
     {
       "id": "87a8e17b7d99",
       "name": "猪熊佳子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이노쿠마 요시코"
+        },
+        "en": {
+          "name": "Inokuma Yoshiko"
+        }
+      }
     },
     {
       "id": "f2edbb68232c",
       "name": "藤戸竹喜",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "후지토 타케키"
+        },
+        "en": {
+          "name": "Fujito Takeki"
+        }
+      }
     },
     {
       "id": "c50383f49d66",
       "name": "澁谷俊彦",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "시부야 토시히코"
+        },
+        "en": {
+          "name": "Shibuya Toshihiko"
+        }
+      }
     },
     {
       "id": "ad3d7ad8ceeb",
       "name": "谷口顕一郎・彩子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "타니구치 켄이치로・아야코"
+        },
+        "en": {
+          "name": "Kenichiro Taniguchi and Ayako"
+        }
+      }
     },
     {
       "id": "7a2b4eec7025",
       "name": "小助川裕康",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "코스케가와 히로야스"
+        },
+        "en": {
+          "name": "Hiroyasu Kosukegawa"
+        }
+      }
     },
     {
       "id": "6a05f6354688",
