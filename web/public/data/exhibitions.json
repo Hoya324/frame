@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T17:46:29.648914+00:00",
+  "generated_at": "2026-07-27T19:58:35.027077+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -35841,7 +35841,7 @@
       "price_max": null,
       "start_date": "2026-07-20",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -36411,7 +36411,7 @@
       "price_max": null,
       "start_date": "2026-06-26",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "d32acb7ca12b",
@@ -36939,7 +36939,7 @@
       "price_max": null,
       "start_date": "2026-07-20",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -39431,7 +39431,7 @@
       "price_max": null,
       "start_date": "2026-07-27",
       "end_date": "2026-08-02",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -40421,7 +40421,7 @@
       "price_max": null,
       "start_date": "2026-07-11",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ae76d9da9938",
@@ -41533,7 +41533,7 @@
       "price_max": null,
       "start_date": "2026-06-20",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "db98d3f17e32",
@@ -42628,7 +42628,7 @@
       "price_max": null,
       "start_date": "2026-07-04",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ee5c613982c1",
@@ -42752,7 +42752,7 @@
       "price_max": null,
       "start_date": "2026-07-04",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "328078564279",
@@ -42974,7 +42974,7 @@
       "price_max": null,
       "start_date": "2026-07-20",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "cbfc43dd6ef8",
@@ -43573,7 +43573,7 @@
       "price_max": null,
       "start_date": "2026-07-03",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "37f737766ac5",
@@ -44461,7 +44461,7 @@
       "price_max": null,
       "start_date": "2026-07-27",
       "end_date": "2026-08-01",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "57bd0e5ca649",
@@ -45010,7 +45010,7 @@
       "price_max": null,
       "start_date": "2026-07-21",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "54c1740b50d0",
@@ -45260,7 +45260,7 @@
       "price_max": null,
       "start_date": "2026-07-17",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "aba04494a4f1",
@@ -46329,7 +46329,7 @@
       "price_max": null,
       "start_date": "2026-07-11",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "50bfb163ce9a",
@@ -47543,7 +47543,7 @@
       "price_max": null,
       "start_date": "2026-07-10",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "682d65a7e00b",
@@ -50015,7 +50015,7 @@
       "price_max": null,
       "start_date": "2026-07-14",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "651dc68ae219",
@@ -50583,7 +50583,7 @@
       "price_max": null,
       "start_date": "2026-07-25",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "aef7cfc74f92",
@@ -51555,7 +51555,7 @@
       "price_max": null,
       "start_date": "2026-07-10",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "e09e185c5fa8",
@@ -51772,7 +51772,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "81f43c8f3b9f",
@@ -52605,7 +52605,7 @@
       "title": "TOKYOスマート・カルチャー・プロジェクト 奈良女子大学 長谷研究室「複製される感性－森山大道」",
       "lang": null,
       "tr": {},
-      "poster_image_url": "https://topmuseum.jp/wp-content/uploads/2026/03/white.jpg",
+      "poster_image_url": "https://topmuseum.jp/wp-content/uploads/2026/07/White01.jpg",
       "description": null,
       "medium": "mixed",
       "exhibition_type": "curated",
@@ -52935,7 +52935,7 @@
       "price_max": null,
       "start_date": "2026-07-21",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "bad41612e0e3",
@@ -53247,7 +53247,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "3ffcaad95ee9",
@@ -53992,7 +53992,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "f46b9eafe809",
@@ -54361,7 +54361,7 @@
       "price_max": null,
       "start_date": "2026-07-21",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "0795bb24dfd7",
@@ -54825,7 +54825,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "5d573a079256",
@@ -56350,7 +56350,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "3ad9e538d829",
@@ -56739,7 +56739,7 @@
       "price_max": null,
       "start_date": "2026-07-21",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "0795bb24dfd7",
@@ -58015,7 +58015,7 @@
       "price_max": null,
       "start_date": "2026-05-14",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "abf8db56d88b",
@@ -58531,7 +58531,7 @@
       "price_max": null,
       "start_date": "2026-07-27",
       "end_date": "2026-08-02",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "54ba9bad3d59",
@@ -59168,7 +59168,7 @@
       "price_max": null,
       "start_date": "2026-07-25",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "c6884d110b35",
@@ -59951,7 +59951,7 @@
       "price_max": null,
       "start_date": "2026-07-14",
       "end_date": "2026-07-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "603c1cc51aa5",
@@ -60107,6 +60107,93 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Tasogare-Kawatare-In-Between-in-Contemporary-Art-From-the-Museum-Collection/E06-DA-77-D/2026-09-12",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "647ed361ed74",
+      "source": "place_m",
+      "title": "雨のあと",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://www.placem.com/schedule/2026/main/20260817/kimi_01.jpg",
+      "description": "2026.08.17 - 2026.08.23 君嶋駿 雨のあと 雨のあとには何が残るのか。 雨が降ると鬱陶しい、靴が濡れて大変だといやなイメージが多かった。洗濯物も干せなくなるし．．． しかし、最近雨がふると心地よく感じることが多くなった。 心が潤うような、頭が冷やされるような。 雨の日は、あれをしようこれをしようと心がさざなみ立つこともない。雨にぬれることも自然なこと。雨も自然の一部と感じるようになった。 そう考えると、雨も何だかいいようなそんな気がしてくる。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-17",
+      "end_date": "2026-08-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "2da18874aafa",
+        "name": "Place M",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Place M"
+          },
+          "ja": {
+            "name": "Place M"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.6877688,
+        "lng": 139.7125787
+      },
+      "artists": [
+        {
+          "id": "5e3ef9546f55",
+          "name": "君嶋駿",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.placem.com/schedule/2026/main/20260817/exhibition.php",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "850e6102aa96",
+      "source": "tokyo_art_beat",
+      "title": "リャオ・フィビ 「ここでできることが、ある？」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/4UABVoIdMfnhQIVRbSYvY1/90bf03d6487c5f38c483050a04013f02/IMG_1457_-_YUJING_LIAO.jpeg",
+      "description": "駅や公園など日常的な公共空間を舞台に、見過ごされがちな規範と身体の関係に迫る。ベンチや通路といったグレーゾーンに身体的介入を行い、既存の使い方を揺さぶりながら、新たな視点と空間の可能性を提示する。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-27",
+      "end_date": "2026-08-05",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "073fbcdb83aa",
+        "name": "デザインフェスタギャラリー原宿",
+        "lang": null,
+        "tr": {},
+        "region": "表参道、青山",
+        "district": null,
+        "lat": 35.67054100036041,
+        "lng": 139.70817889581963
+      },
+      "artists": [
+        {
+          "id": "f3c46a41e84d",
+          "name": "リャオ・フィビ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Phoebe-Liao-What-can-we-do-here/C50-F944-C/2026-07-27",
       "featured": false,
       "popularity_score": null
     }
@@ -66648,6 +66735,20 @@
       "country": "JP",
       "lat": 34.39976545103414,
       "lng": 132.46495096197125,
+      "website": null
+    },
+    {
+      "id": "073fbcdb83aa",
+      "name": "デザインフェスタギャラリー原宿",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "表参道、青山",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.67054100036041,
+      "lng": 139.70817889581963,
       "website": null
     }
   ],
@@ -80593,6 +80694,18 @@
     {
       "id": "3ccc378e8e0e",
       "name": "ゲルハルト・リヒター",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5e3ef9546f55",
+      "name": "君嶋駿",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f3c46a41e84d",
+      "name": "リャオ・フィビ",
       "lang": null,
       "tr": {}
     }
