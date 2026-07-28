@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T17:30:11.980031+00:00",
+  "generated_at": "2026-07-28T19:47:59.695220+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -44743,7 +44743,7 @@
       "price_max": null,
       "start_date": "2026-07-23",
       "end_date": "2026-07-27",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ce8764530297",
@@ -45134,7 +45134,7 @@
       "price_max": null,
       "start_date": "2026-07-28",
       "end_date": "2026-08-02",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "54c1740b50d0",
@@ -45362,7 +45362,7 @@
       "price_max": null,
       "start_date": "2026-07-28",
       "end_date": "2026-08-09",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "35890a070489",
@@ -52568,7 +52568,7 @@
       "price_max": null,
       "start_date": "2026-07-16",
       "end_date": "2026-07-27",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "4636db3d7de8",
@@ -52991,7 +52991,7 @@
       "price_max": null,
       "start_date": "2026-07-28",
       "end_date": "2026-10-04",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "65e91b43fb96",
@@ -55505,7 +55505,7 @@
       "price_max": null,
       "start_date": "2026-07-25",
       "end_date": "2026-07-27",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "7a6765269871",
@@ -57002,7 +57002,7 @@
       "price_max": null,
       "start_date": "2026-07-28",
       "end_date": "2026-08-02",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ced5de3790ac",
@@ -60194,6 +60194,446 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Phoebe-Liao-What-can-we-do-here/C50-F944-C/2026-07-27",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "d84598269a55",
+      "source": "tokyo_art_beat",
+      "title": "「夏休みワークショップDAYS‼ Day1」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/7hQktnDaTiDZNeEI809ksZ/d61f1e4feb47af9e3a361f3f64b2706b/202607111720224955.webp",
+      "description": "様々なジャンルで活躍するアーティストを迎えて、自由研究にもぴったりな、幼児から大人まで楽しめるイベントを開催します。大きな窓をいろとりどりに彩る、「マキコムズの光のつみき」、音楽を実験のように楽しむ「日用品オーケストラ！」、写真家の片岡俊による、古典的な写真技法・サイアノタイプ写真の作品制作や、伝統技法をアレンジした金継ぎアクセサリーなど2日間で10種類のプログラムを体験できます。（申込・詳細は当館のwebサイトをご確認ください。）",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-08",
+      "end_date": "2026-08-08",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "c97688316c27",
+        "name": "さかい利晶の杜",
+        "lang": null,
+        "tr": {},
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.57596,
+        "lng": 135.4702
+      },
+      "artists": [
+        {
+          "id": "18082fc93471",
+          "name": "マキコムズ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "2e2a964a500d",
+          "name": "かつふじたまこ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "36a80c521581",
+          "name": "石村真一郎",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "60e833c712a6",
+          "name": "なべとびすこ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "fb422f2a2466",
+          "name": "片岡俊",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4896321d9ea9",
+          "name": "金継ぎラウンジ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Summer-Workshop-Days-Day-1/sakai-plaza-of-rikyu-and-akiko/2026-08-08",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "9bfc0d343bf6",
+      "source": "tokyo_art_beat",
+      "title": "「テレビとCMで見る平成・令和ヒストリー展2026」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/55SGPWcb7JvDJOsZsHMul9/0bfd42248ee754509afece0049443149/1a429342-f85e-40d1-b9f0-c90475c1ef2b.jpg",
+      "description": "放送ライブラリーでは、これまでに、企画展「テレビとCMで見るシリーズ」として、平成、令和、1980年代、1970年代など、さまざまな時代に焦点をあてた企画展を開催してきた。\n\n令和に入り、デジタル化とオンライン化が一気に進み、ここ2～3年でAIが急速に進化している。またインターネット動画配信やスマートフォンの普及で、放送を取り巻く環境も大きく変化した。放送開始101年、放送が新たな一歩を踏み出した本年、コロナ禍以降の放送界の動きを加えた本展を開催し、平成・令和の番組を振り返るとともに、放送の新たな時代に向けて、その未来や可能性を考える。\n\n企画展「テレビとＣＭで見る平成・令和ヒストリー展2026」の関連イベントとして、放送ライブラリーの公開番組の中から、平成・令和に放送された、ドラマ、バラエティ、音楽番組、クイズ番組など、時代を代表するさまざまな番組を上映する公開番組上映会「平成・令和 TV Collection」も同時開催。",
+      "medium": "video",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-07",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "b08a9c2f672f",
+        "name": "放送ライブラリー",
+        "lang": null,
+        "tr": {},
+        "region": "神奈川県",
+        "district": null,
+        "lat": 35.44624,
+        "lng": 139.6428
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Heisei-and-Reiwa-Through-Television-and-Commercials-2026/broadcast-library/2026-08-07",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "9fbd999adf7c",
+      "source": "tokyo_art_beat",
+      "title": "角田響 + 内島芽海 「どこへいくの」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3apMg9aRntbFOQSfbWftFP/675e0d4b1a8e07ee5502456b920d4ca9/202608tsunodauchijima_main.jpeg",
+      "description": "ギャラリーで写真を鑑賞する”という体験は、他者の記憶に向き合う瞬間です。あなたの記憶に深く残る写真は、きっとここにはありません。日々の喧騒に流されて、いずれ忘れてしまうから。それでも、写真は壊れるまで、誰かの手に渡って、どこかに身を潜めて、見つめられる日を待っています。データとしての写真が溢れる現代に今一度、物質としての写真を見つめる機会を設けたいと感じています。あなたが故郷に戻った時、本棚の、箪笥の奥の、蔵の中の、化粧台の2段目の引き出しの、奥に眠るアルバムをひらくことを祈って。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-07",
+      "end_date": "2026-08-12",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "23129cff8bfd",
+        "name": "Alt_Medium",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Alt_Medium"
+          },
+          "ja": {
+            "name": "Alt_Medium"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.71661464828487,
+        "lng": 139.70035702006683
+      },
+      "artists": [
+        {
+          "id": "7b7801299d29",
+          "name": "角田響",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c934a51a7431",
+          "name": "内島芽海",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kyo-Tsunoda-Meimi-Uchijima-Where-Are-You-Going/F7-BA-6-D85/2026-08-07",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "b67c9e9b72e8",
+      "source": "tokyo_art_beat",
+      "title": "岩崎広大 + 田中嵐 「Latent」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/5O14QKSZbxxx8BYz4h1q2o/82c4abb02348deae2159d97d157c0640/148337_x.webp",
+      "description": "Otherwise Galleryより、岩崎広大、田中嵐による二人展「Latent」をご案内申し上げます。\n\n私たちの周囲には、形として残るものだけでなく、時間とともに移ろいながらも確かに存在していたものがあります。風景のなかを流れる時間や、その場に漂う空気、あるいは生命の気配。そうしたものは、目に見えるかたちでは捉えきれないことも少なくありません。\n二人の作家は、それぞれ異なる方法を通して、そうした移ろうものの痕跡を留めようと試みています。\n\n岩崎広大は、昆虫と風景の関係性に着目しながら制作を行っています。《かつて風景の一部だったものに、風景をプリントする。》シリーズでは、昆虫の身体にその生息地の風景写真をプリントし、土地の環境によって形づくられてきた生命の痕跡と風土の記憶を重ね合わせています。また、虫が樹木に開けた穴をピンホールとして風景を撮影する《LANDSCAPER》シリーズでは、人間以前から自然界に存在していた“写真的な現象”へと目を向けながら、昆虫と風景、場所と時間のつながりを見つめています。\n\n一方、田中嵐が制作に用いるのは「結晶化」という自然現象です。自身が撮影した風景や人物の写真を鉱物液に浸し、波音や被写体の心音といった写真に関連する音を聴かせながら結晶を成長させます。写真だけでは留めることのできない空気や時間、存在の気配は、結晶という自然現象を媒介することで物質として定着していきます。環境によって変化を続ける結晶は、目に見える像の奥にある時間や生命の存在を静かに想起させます。\n両者の作品は、写真という手法を出発点としながらも、単なる記録や保存にとどまりません。むしろ、変化し続ける世界に向き合いながら、そこに生じる関係や痕跡を別のかたちで留めようとする試みとして存在しています。\n\n本展は、「残すこと」とは何かを問いかけます。二人の実践は、形として残るものと残らないもの、そのあいだに生まれる痕跡へと私たちの眼差しを向けます。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-07",
+      "end_date": "2026-09-12",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "951c6cfd377b",
+        "name": "Otherwise Gallery",
+        "lang": null,
+        "tr": {},
+        "region": "表参道、青山",
+        "district": null,
+        "lat": 35.662291964586615,
+        "lng": 139.71286788624445
+      },
+      "artists": [
+        {
+          "id": "2f508c744805",
+          "name": "岩崎広大",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5bcab02d0915",
+          "name": "田中嵐",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hiromasa-Iwasaki-Arashi-Tanaka-Latent/57-B9513-A/2026-08-07",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "cd7a4097eb3b",
+      "source": "tokyo_art_beat",
+      "title": "Bong Sadhu 「dub non dub」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/2TGCQuA6oxSsmLFUYa7oJR/9c89eff9140e9e2bc6d31e6bd41e1af2/main.jpg",
+      "description": "京都岡崎 蔦屋書店（京都府京都市）は2026年8月8日（土）から8月26日（水）まで、ペインター 金田大巧と写真家 百野幹人によるパブリッシングプラットフォーム「Bong Sadhu（ボンサドゥ）」の関西初となる展覧会「dub non dub（ダブノンダブ）」を開催します。\n「dub non dub」は、百野幹人が撮影した写真作品に、金田大巧がペイントなどの加工を施し、新たな表現へと昇華させる共同制作プロジェクトです。展示タイトルは、元の素材にアレンジを加え、新たなイメージを創出する音楽のジャンル「Dub（ダブ）」に由来しており、写真にペインティングを施す彼らの制作スタイルとの親和性から名付けられました。2023年のスタート以来、同タイトルの展覧会を国内外で開催しています。\nペインターの金田と写真家の百野が、2022年にアートブックフェアへの出店をきっかけに立ち上げたパブリッシングプラットフォーム「Bong Sadhu」。ともに2000年代生まれながら、自身の年代以前に創刊された雑誌や書籍に影響を受けており、実際に手に取ることのできる出版物や、対面でのコミュニケーションの価値を大切にしながら活動を続けています。2025年には神奈川県 片瀬江ノ島に、世界のさまざまなアートブックを取り扱う書店兼ギャラリースペース「Bong Sadhu Room」をオープン。出版活動にとどまらず、アートと人々をつなぐ場づくりにも取り組んでいます。（「Sadhu（サドゥー）」とは、ヒンドゥー教やジャイナ教において、俗世を離れ「解脱」を目指して修行する行者（苦行僧）の総称です。）アーティストとしての枠を超えて活動の幅を広げるBong Sadhu。関西初となる展覧会にご期待ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-08",
+      "end_date": "2026-08-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "bd3b0e33fead",
+        "name": "京都岡崎 蔦屋書店",
+        "lang": null,
+        "tr": {},
+        "region": "京都府",
+        "district": null,
+        "lat": 35.01401662892499,
+        "lng": 135.78120525822877
+      },
+      "artists": [
+        {
+          "id": "9caf63253abc",
+          "name": "Bong Sadhu",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Bong-Sadhu-Dub-Non-Dub/B35-E9-E86/2026-08-08",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f90f40a964c2",
+      "source": "tokyo_art_beat",
+      "title": "尾辻󠄀弥寿雄 「歴史の軌跡 平和を求めて」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/2zZpaL0VQ1Z1LVaEhBKwlg/5cb7c1641c8f4edb7870c837f1c8023d/main.jpg",
+      "description": "日本人には、戦争の反省として、二度と戦争を起こさない加担しないという、平和への希求が強くあります。\n「戦車を止めろ」1972年 横浜・村雨橋事件\n1970年初頭、アメリカのベトナム戦争が激烈を極める中、世界中で反戦運動が起こりました。日本でも「アメリカの戦争に巻き込まれるな」と抗議が高まり、その一つが米軍戦車移送阻止行動です。1972年8月米軍相模総合補給廠から横浜港の基地に移送する戦車を積んだトレーラーが、基地直前の村雨橋手前で立ち往生しました。市民や青年たちが橋の重量制限超過だと座り込んだのです。横浜というローカルな事件でしたが、米軍に対する直接行動として国民に大きな衝撃を与えました。\n「NYに折り鶴が舞う」1982年 反核・ニューヨーク100万人行動\n横浜・村雨橋事件から10年後、米ソ冷戦は”核戦争5分前”と緊迫した状況でした。危機感を持った世界中の反戦・反核・平和団体が行動を起こしました。1982年6月の国連第２回軍縮特別総会（SSDⅡ）に合わせ世界中からニューヨークに結集する「反核・ニューヨーク100万人行動」です。日本でも日本被団協などNGO団体が連絡会議を結成しニューヨークを目指しました。\nそれぞれ単独に見える二つの行動を、歴史という時間で俯瞰してみると連綿と続く日本人の平和への希求でした。今後も決して途絶えない積み重なっていく歴史です。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-30",
+      "end_date": "2026-08-19",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "88cb1cebd561",
+        "name": "アイデムフォトギャラリー「シリウス」",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "아이뎀 포토 갤러리 '시리우스'"
+          },
+          "en": {
+            "name": "Aidem Photo Gallery 'Sirius'"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.68829,
+        "lng": 139.7111
+      },
+      "artists": [
+        {
+          "id": "47f5b8114cd2",
+          "name": "尾辻󠄀弥寿雄",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yasuo-Otsuji-Seeking-Peace-Through-History/idem-photo-gallery-sirius/2026-07-30",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "7a53ca3aa79e",
+      "source": "tokyo_art_beat",
+      "title": "「Art&Graphic exhibition 2026.August〜創造のイノベーション〜」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/14Xp62zbjPDIYHIpTUk8J2/6995bd75820f938d05b8d0098d416b73/postcard_dm_final.pdf_-_1_-_TAKUROMAN__1_.png",
+      "description": "日本橋茅場町のRECTO VERSO GALLERYで、4名の作家によるグループ展が開催される。イチカワユウイチ、やまだあいこ、okoroom、TAKUROMANが参加し、それぞれの視点から「創造のイノベーション」を提示する。TAKUROMANは、手描きの原画1枚を起点に、AIとの協働で108通りの表現へ展開した新作『ジャンル大航海時代』を発表。ジェネラティブアート、フィギュア、写真、キャラクターデザインなど、ひとつのキャラクターが多様なジャンルの表現へと横断していく様子を一覧できる。会場に置かれたフォトブックには来場者が言葉を書き込むことができ、その言葉は展示終了後もWebサイト上で作品とともに更新され続ける。AI時代における創作と、作品が人の手によって育つことを問い直す参加型の試み。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-04",
+      "end_date": "2026-08-08",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "c7f28b68a0b3",
+        "name": "レクトヴァーソギャラリー / ギャラリースペースファクトリー",
+        "lang": null,
+        "tr": {},
+        "region": "京橋、日本橋",
+        "district": null,
+        "lat": 35.678919376638106,
+        "lng": 139.78102546018155
+      },
+      "artists": [
+        {
+          "id": "593d2fdc27ba",
+          "name": "イチカワユウイチ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d7111b8f9daa",
+          "name": "やまだあいこ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "91a6c130c6f5",
+          "name": "okoroom",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "ef446ff9879c",
+          "name": "TAKUROMAN",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Art-and-Graphic-Exhibition-2026-August/43238-C95/2026-08-04",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "d34ce1c5d200",
+      "source": "tokyo_art_beat",
+      "title": "長谷川諭子 「そこにひかり」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/2usRplPmeoymq960Wzqlah/7c871a1140441ee4379945ae13946f33/461c9d83-f99d-42ff-9545-dd2d97d6a24f.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-28",
+      "end_date": "2026-08-09",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "651dc68ae219",
+        "name": "サードディストリクトギャラリー",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "사드 디스트릭트 갤러리"
+          },
+          "en": {
+            "name": "Third District Gallery"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.690704046311424,
+        "lng": 139.7066861790392
+      },
+      "artists": [
+        {
+          "id": "41d0a72b339f",
+          "name": "長谷川諭子",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Satoko-Hasegawa-Light-There/27-A212-FB/2026-07-28",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "25d27084c4e4",
+      "source": "tokyo_art_beat",
+      "title": "柊一華 + 中嶋琉平 「The Beginning」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3vJXdgQ7oNBO18rJx0ZT2h/943b1b0eb33cad68042036841e57e6d6/Ichika_Hiiragi_Ryugei_nakashima_-_three_three_gallery.PNG",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-30",
+      "end_date": "2026-08-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "cd15b30513c1",
+        "name": "Gallery Cafe Bar THREE THREE",
+        "lang": null,
+        "tr": {},
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.68902,
+        "lng": 139.6832
+      },
+      "artists": [
+        {
+          "id": "cc853255540a",
+          "name": "柊一華",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "707f6bbf88bd",
+          "name": "中嶋琉平",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Ichika-Hiiragi-Ryuhei-Nakajima-The-Beginning/gallery-cafe-bar-three-three/2026-07-30",
       "featured": false,
       "popularity_score": null
     }
@@ -66749,6 +67189,90 @@
       "country": "JP",
       "lat": 35.67054100036041,
       "lng": 139.70817889581963,
+      "website": null
+    },
+    {
+      "id": "c97688316c27",
+      "name": "さかい利晶の杜",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "大阪府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.57596,
+      "lng": 135.4702,
+      "website": null
+    },
+    {
+      "id": "b08a9c2f672f",
+      "name": "放送ライブラリー",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "神奈川県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.44624,
+      "lng": 139.6428,
+      "website": null
+    },
+    {
+      "id": "951c6cfd377b",
+      "name": "Otherwise Gallery",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "表参道、青山",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.662291964586615,
+      "lng": 139.71286788624445,
+      "website": null
+    },
+    {
+      "id": "bd3b0e33fead",
+      "name": "京都岡崎 蔦屋書店",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "京都府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.01401662892499,
+      "lng": 135.78120525822877,
+      "website": null
+    },
+    {
+      "id": "c7f28b68a0b3",
+      "name": "レクトヴァーソギャラリー / ギャラリースペースファクトリー",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "京橋、日本橋",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.678919376638106,
+      "lng": 139.78102546018155,
+      "website": null
+    },
+    {
+      "id": "cd15b30513c1",
+      "name": "Gallery Cafe Bar THREE THREE",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "新宿、初台、四ツ谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.68902,
+      "lng": 139.6832,
       "website": null
     }
   ],
@@ -80706,6 +81230,120 @@
     {
       "id": "f3c46a41e84d",
       "name": "リャオ・フィビ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "18082fc93471",
+      "name": "マキコムズ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2e2a964a500d",
+      "name": "かつふじたまこ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "36a80c521581",
+      "name": "石村真一郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "60e833c712a6",
+      "name": "なべとびすこ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fb422f2a2466",
+      "name": "片岡俊",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4896321d9ea9",
+      "name": "金継ぎラウンジ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7b7801299d29",
+      "name": "角田響",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c934a51a7431",
+      "name": "内島芽海",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2f508c744805",
+      "name": "岩崎広大",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5bcab02d0915",
+      "name": "田中嵐",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9caf63253abc",
+      "name": "Bong Sadhu",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "47f5b8114cd2",
+      "name": "尾辻󠄀弥寿雄",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "593d2fdc27ba",
+      "name": "イチカワユウイチ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d7111b8f9daa",
+      "name": "やまだあいこ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "91a6c130c6f5",
+      "name": "okoroom",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ef446ff9879c",
+      "name": "TAKUROMAN",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "41d0a72b339f",
+      "name": "長谷川諭子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "cc853255540a",
+      "name": "柊一華",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "707f6bbf88bd",
+      "name": "中嶋琉平",
       "lang": null,
       "tr": {}
     }
