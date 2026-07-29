@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T15:09:56.835443+00:00",
+  "generated_at": "2026-07-29T17:16:53.848034+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -41737,8 +41737,17 @@
       "id": "1040d44b152e",
       "source": "totem_pole",
       "title": "新宿 / SHINJUKU",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "신주쿠 / SHINJUKU",
+          "description": "후치카미 유타 / Yuta Fuchikami\n\n신주쿠 / SHINJUKU\n\n2026.7.21 (화) – 8.2 (일)\n\n신주쿠를 걷고, 말을 걸고, 촬영한 사람들의 기록\n\n후치카미 유타\n\n프로필 / 작가 웹사이트"
+        },
+        "en": {
+          "title": "Shinjuku / SHINJUKU",
+          "description": "Yuta Fuchikami / Yuta Fuchikami\n\nShinjuku / SHINJUKU\n\n2026.7.21 (Tue) – 8.2 (Sun)\n\nA record of people walked, spoken to, and photographed in Shinjuku\n\nYuta Fuchikami\n\nProfile / Artist Site"
+        }
+      },
       "poster_image_url": "https://tppg.jp/wp/wp-content/uploads/2026/05/shinjuku_2026_1.jpg",
       "description": "淵上裕太 / Yuta Fuchikami\n\n新宿 / SHINJUKU\n\n2026.7.21 (tue) – 8.2 (sun)\n\n新宿を歩き、声をかけ、撮影した人間たちの記録\n\n淵上裕太\n\nProfile / Artist Site",
       "medium": "photo",
@@ -50796,8 +50805,19 @@
       "id": "99bd613b54d3",
       "source": "totem_pole",
       "title": "Youth in East Asia, Taipei and New Taipei",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "동아시아의 청년, 타이베이와 신베이",
+          "description": "미즈시마 타카히로 / Takahiro Mizushima\n\n솽베이 청년/Youth in East Asia, Taipei and New Taipei\n\n2026.8.18 (화) – 8.23 (일)\n\n개관 12:00 – 19:00\n\n대만의 수도인 타이베이시와 이를 둘러싸고 있는 신베이시, 이 두 도시를 합쳐 부르는 총칭 \"솽베이\". 이 대도시권 내에서 촬영된, 현재를 살아가는 젊은이들의 기록.\n\n미즈시마 타카히로\n\n프로필 / 작가 웹사이트"
+        },
+        "ja": {
+          "title": "東アジアの若者、台北と新北"
+        },
+        "en": {
+          "description": "Takahiro Mizushima / Takahiro Mizushima\n\nShuangbei Youth/Youth in East Asia, Taipei and New Taipei\n\n2026.8.18 (Tue) – 8.23 (Sun)\n\nOpen 12:00 – 19:00\n\nTaipei City, the capital of Taiwan, and New Taipei City, which surrounds it, are collectively referred to as \"Shuangbei\". This is a record of young people living today, photographed within that metropolitan area.\n\nTakahiro Mizushima\n\nProfile / Artist Site"
+        }
+      },
       "poster_image_url": "https://tppg.jp/wp/wp-content/uploads/2026/07/img001.jpg",
       "description": "水島 貴大 / Takahiro Mizushima\n\n雙北青年/Youth in East Asia, Taipei and New Taipei\n\n2026.8.18 (tue) – 8.23 (sun)\n\nOpen 12:00 – 19:00\n\n台湾の首都である台北市と、それを取り囲むように位置する新北市、その二つの市を合わせた総称”雙北””(双北)。その大都市圏内で撮影された、今を生きる若者たちの記録。\n\n水島貴大\n\nProfile / Artist Site",
       "medium": "photo",
@@ -51643,26 +51663,54 @@
         {
           "id": "6ebf64c44dd0",
           "name": "国松希根太",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "쿠니마츠 키네타"
+            },
+            "en": {
+              "name": "Kunimatsu Kineta"
+            }
+          }
         },
         {
           "id": "a8b3abbeab8b",
           "name": "北川陽稔",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "키타가와 하루노리"
+            },
+            "en": {
+              "name": "Kitagawa Harunori"
+            }
+          }
         },
         {
           "id": "a351594c507d",
           "name": "前田明日美",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마에다 아스미"
+            },
+            "en": {
+              "name": "Asumi Maeda"
+            }
+          }
         },
         {
           "id": "c95e93e3daae",
           "name": "はしもとみお",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "하시모토 미오"
+            },
+            "en": {
+              "name": "Mio Hashimoto"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Flower-and-Beast-/-Color-and-Form/CDDC-1792/2026-07-11",
@@ -51766,8 +51814,15 @@
         {
           "id": "317697db3424",
           "name": "榮村莉玖",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "에이무라 리쿠"
+            },
+            "en": {
+              "name": "Eimura Riku"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Riku-Eimura-Ikita-Time-Capsule/7339-D6-D7/2026-07-08",
@@ -51822,8 +51877,15 @@
         {
           "id": "581ea41ecb11",
           "name": "小松浩子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "코마츠 히로코"
+            },
+            "en": {
+              "name": "Komatsu Hiroko"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Hiroko-Komatsu-Propagation-Imitator-Book-work/554-A91-EC/2026-07-11",
@@ -51878,8 +51940,15 @@
         {
           "id": "b803b5ecb200",
           "name": "鷹巣由佳",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "타카노스 유카"
+            },
+            "en": {
+              "name": "Yuka Takanosu"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Yuka-Takasu-Pages-Color-search-search-/-transition-/-relation/mono-graphy-camera-and-art/2026-07-02",
@@ -51934,8 +52003,15 @@
         {
           "id": "3f8604b3fac1",
           "name": "Diao Chentong",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "디아오 천퉁"
+            },
+            "ja": {
+              "name": "ディアオ・チェントン"
+            }
+          }
         },
         {
           "id": "eebecb333d36",
@@ -58027,8 +58103,17 @@
       "id": "35f2bbe06929",
       "source": "njp_art_center",
       "title": "달들",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "Moons",
+          "description": "Neptune, NASA, ESA, Amy Simon (NASA-GSFC), Michael Wong (UC Berkeley); Image Processing: Alyssa Pagan (STScI)\n\nThe 1st Nam June Paik Media Art Festival\n\nThis exhibition, 'Moons,' connects the multifaceted points derived from contemplating the moon as a 'plural entity' both on and off Earth with Nam June Paik's 'planetary thinking,' and attempts an interpretive expansion of <The Moon is the Oldest TV> (1965/2000), <Neptune> (1991), and <Turtle> (1993). Furthermore, it proposes a new perspective on the universe as seen by Nam June Paik through the works of contemporary artists who resonate with his ideas.\n\nThe English title of the exhibition, 'The Bright Rainbow Dots,' metaphorically refers to the 'Pale Blue Dot,' the image of Earth captured by Voyager 1 from the edge of the solar system, and serves as a link to Nam June Paik's planetary thinking. Neptune, which glows a vivid blue from the sunlight it receives, is a planet whose appearance can infinitely vary depending on cosmic distance, light characteristics, and atmospheric composition. Within this context, the exhibition space, which begins from Neptune's perspective rather than Earth's, functions as a device that transcends an Earth-centric viewpoint, respecting the diverse artistic worlds of 10 artists, including Nam June Paik, and organically connecting them.\n\nJuly 16, 2026 - October 4, 2026\n\nOpening Week Night Hours - July 16 (Thu), July 20 (Mon) 10:00 ~ 21:00 / July 17 (Fri), July 18 (Sat) 10:00-20:00\n\n*Open on July 20 (Mon), Closed on July 21 (Tue)\n\nJuly 16, 2026 (Thu) Nam June Paik Art Center\n\n14:00 Performance <Gwaeng: Cosmic Human Symphony>, Lim Yong-ju Future Sound Lab\n\n15:30 Performance, Chae Eol\n\n16:00 Performance <Sak, Mang 02 - deathofDavid> (2026), Kim Ba-ul & Kyna\n\n[Screening] Time of the Moon July 17 - Oct 4 10:00~18:00\n\n[Performance] Turtle Play Sep 26 15:00\n\n[Audience Participation] How to Navigate the Universe with SF July 24 14:00\n\nLight of Nature, Satellite - Light of the Future Aug 7 16:00\n\n[In-depth Thematic Study] Nam June Paik and Planets Aug 21 16:00\n\nTurtle Lecture Oct 4 14:00\n\nMoons"
+        },
+        "ja": {
+          "title": "月々",
+          "description": "Neptune, NASA, ESA, Amy Simon (NASA-GSFC), Michael Wong (UC Berkeley); Image Processing: Alyssa Pagan (STScI)\n\n第1回 ナム・ジュン・パイク メディアアートフェスティバル\n\n本展『月々』は、地球の内外で月を「複数的（plural）な存在」として考察する際に導き出される多角的な視点をナム・ジュン・パイクの「惑星的思考」と結びつけ、〈月は最も古いテレビ〉（1965/2000）、〈海王星〉（1991）、〈亀〉（1993）に対する解釈的拡張を試みるものです。さらに、ナム・ジュン・パイクの思考と共鳴する現代作家たちの作品を通して、ナム・ジュン・パイクが見つめた宇宙を新たに提案します。\n\n展覧会の英語名でもある「明るく多様な点々（The Bright Rainbow Dots）」は、ボイジャー1号が太陽系辺境で撮影した地球の姿である「淡い青い点（Pale Blue Dot）」を比喩し、ナム・ジュン・パイクの惑星的思考をつなぐ環となります。太陽光を受けて鮮やかな青い光を放つ海王星は、宇宙の距離、光の特性、大気成分によって、見る視点が無限に変わりうる惑星です。このような文脈の中で、地球ではなく海王星の視点から始まる展示空間は、地球中心的な視点を超え、ナム・ジュン・パイクをはじめとする10名の作家たちの多彩な芸術世界を尊重し、それらを有機的に結びつける装置として機能します。\n\n2026年7月16日 - 2026年10月4日\n\n開幕週夜間開場 - 7月16日（木）、7月20日（月）10:00～21:00 / 7月17日（金）、7月18日（土）10:00-20:00\n\n※7月20日（月）開館、7月21日（火）休館\n\n2026年7月16日（木）ナム・ジュン・パイクアートセンター\n\n14:00 パフォーマンス 〈轟：Cosmic Human Symphony〉、イム・ヨンジュ フューチャーサウンドラボ\n\n15:30 パフォーマンス、チェ・オル\n\n16:00 パフォーマンス 〈朔、望 02- deathofDavid〉（2026）、キム・バウル＆Kyna\n\n[スクリーニング] 月の時間 7月17日-10月4日 10:00～18:00\n\n[パフォーマンス] 亀遊び 9月26日 15:00\n\n[観客参加型] SFで宇宙を航海する方法 7月24日 14:00\n\n自然の光、衛星 - 未来の光 8月7日 16:00\n\n[集中主題研究] ナム・ジュン・パイクと惑星 8月21日 16:00\n\n亀レクチャー 10月4日 14:00\n\n月々"
+        }
+      },
       "poster_image_url": "https://njp.ggcf.kr/storage/upload/2026/06/17/QEcodBQHL9l0isbM7KBwaBsIwGHcCX2IUBEExMEG.png",
       "description": "Neptune, NASA, ESA, Amy Simon (NASA-GSFC), Michael Wong (UC Berkeley); Image Processing: Alyssa Pagan (STScI)\n\n제1회 백남준미디어아트페스티벌\n\n본 전시 《달들》은 지구 안팎에서 달을 ‘복수적(plural) 존재’로 사유할 때 도출되는 다각적인 지점들을 백남준의 ‘행성적 사유’와 연결하고, 〈달은 가장 오래된 TV〉(1965/2000), 〈해왕성〉(1991), 〈거북〉(1993)에 대한 해석적 확장을 시도하고자 한다. 나아가 백남준의 사유와 공명하는 동시대 작가들의 작품을 통해 백남준이 바라본 우주를 새롭게 제안한다.\n\n전시의 영문명이기도 한 ‘밝고 다양한 점들(The Bright Rainbow Dots)’은 보이저 1호가 태양계 변방에서 촬영한 지구의 모습인 ‘창백한 푸른 점(Pale Blue Dot)’을 은유하며 백남준의 행성적 사유를 잇는 고리가 된다. 태양빛을 받아 선명한 푸른 빛을 띠는 해왕성은 우주의 거리, 빛의 특성, 대기 성분에 따라 바라보는 시선이 무한히 달라질 수 있는 행성이다. 이러한 맥락 안에서 지구가 아닌 해왕성의 시선으로부터 시작되는 전시 공간은, 지구 중심적 시선을 넘어 백남준을 비롯한 10명 작가들의 다채로운 예술 세계를 존중하고 이들을 유기적으로 연결하는 장치로 기능한다.\n\n2026.7.16. - 2026.10.4.\n\n개막주간 야간개장 - 7.16.(목), 7.20.(월) 10:00 ~ 21:00 / 7.17(금), ７.18.(토) 10:00-20:00\n\n*7.20.(월) 개관, 7.21.(화) 휴관\n\n2026. 7. 16. (목) 백남준아트센터\n\n14:00 퍼포먼스 〈굉 : Cosmic Human Symphony〉, 임용주 퓨처사운드랩\n\n15:30 퍼포먼스, 채얼\n\n16:00 퍼포먼스 〈삭, 망 02- deathofDavid 〉(2026), 김바울&Kyna\n\n[스크리닝] 달의 시간 7.17-10.4 10:00~18:00\n\n[퍼포먼스] 거북놀이 9.26 15:00\n\n[관객참여형] SF로 우주를 항해하는 방법 7.24 14:00\n\n자연의 빛, 위성- 미래의 빛 8.7 16:00\n\n[집중주제연구] 백남준과 행성 8.21 16:00\n\n거북렉처 10.4 14:00\n\n달들",
       "medium": "video",
@@ -58128,8 +58213,17 @@
       "id": "317e78df0565",
       "source": "njp_art_center",
       "title": "2026 백남준의 도시: 태양에 녹아드는 바다",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "2026 Nam June Paik's City: The Sea Melting into the Sun",
+          "description": "Nam June Paik, <Tiger is Alive>, 1999\n\n'Nam June Paik's City: The Sea Melting into the Sun' explores the transcendent experience of space-time created by video, based on Nam June Paik's perspective, who dreamed of a life where the entire world is connected by video and contemplated the essence of video space-time. It also highlights the works of contemporary artists Kang Yi-yeon, Koo Gi-jeong, Kwon Hye-won, Shin Jae-young, and Yeom In-hwa, who live within the multi-layered video space-time created by cutting-edge contemporary technology and realize it as art.\n\nTheir videos, presented through giant media screens, consist of space-time that is clearer than reality, full of super-sensory stimuli, and transcends the boundaries between reality and virtuality. Through the electronic signal light that transmits video image and sound information, we encounter human events and stories. The unfamiliar sense of space-time in a new world, occurring simultaneously and intertwining beyond the order of cause and effect, envelops our bodies and leads to an intense, super-sensory immersive experience. At the end of this immersive flow, we do not know where we will arrive, but the experience permeates deep within us, settling in our consciousness, and allows us to discover our commonalities through the universal archetypes shared by humanity. And through this experience of 'video immersion,' we will realize that we are much more deeply connected than we think.\n\nMay 21-31, June 21-30, July 21-31, August 21-31, September 21-30\n\nEvening 20:00-22:00\n\nOctober 21-31\n\nEvening 19:00-22:00\n\n* This exhibition is held as part of Yongin Special City's '2025 Smart Tourism City Development Project.'\n\n/ 031-201-8546\n\nNam June Paik's City: The Sea Melting into the Sun\n\nOctober 20, 2025 - December 31, 2025\n\n2026 Nam June Paik's City: The Sea Melting into the Sun"
+        },
+        "ja": {
+          "title": "2026 ナム・ジュン・パイクの都市：太陽に溶け込む海",
+          "description": "ナム・ジュン・パイク、〈虎は生きている〉、1999\n\n『ナム・ジュン・パイクの都市：太陽に溶け込む海』は、全世界がビデオで繋がった生活を夢見、ビデオ時空間の本質を考察したナム・ジュン・パイクの視点に基づき、ビデオが生み出す時空間の超越的経験を探求します。そして、現代の最先端技術が生み出す多層的なビデオ時空間の中で生き、それを芸術として具現化する現代作家、カン・イヨン、ク・ギジョン、クォン・ヘウォン、シン・ジェヨン、ヨム・インファの作品に光を当てます。\n\n巨大なメディアスクリーンを通して披露される彼らのビデオは、現実よりも鮮明で、超感覚的な刺激に満ちた、現実と仮想の境界を行き来する時空間で構成されます。私たちは、ビデオ画像と音の情報を伝える電子信号の光を通して、人類の出来事や物語に出会います。因果の秩序を逸脱し、同時に発生し絡み合う新しい世界の異質な時空間感覚は、私たちの身体を包み込み、強烈な超感覚的な没入体験へと導きます。この没入の流れの終わりに、私たちはどこに到達するのか知ることはできませんが、その経験は私たちの内面の奥深くに染み込み、意識の中に定着し、人類が共有する普遍的な原型を介して互いの共通性を発見させます。そして、この「ビデオ没入」という経験を通して、私たちは想像よりもはるかに深く繋がっていることに気づくでしょう。\n\n5月21日-31日、6月21日-30日、7月21日-31日、8月21日-31日、9月21日-30日\n\n夕方 20:00-22:00\n\n10月21日-31日\n\n夕方 19:00-22:00\n\n※ 本展は龍仁特例市「2025 スマート観光都市造成事業」の一環として開催されます。\n\n/ 031-201-8546\n\nナム・ジュン・パイクの都市：太陽に溶け込む海\n\n2025年10月20日—2025年12月31日\n\n2026 ナム・ジュン・パイクの都市：太陽に溶け込む海"
+        }
+      },
       "poster_image_url": "https://njp.ggcf.kr/storage/upload/2026/05/19/Svg2gUonKYyF91MrFtyEq335rjlBUsd6wSvOafT6.jpg",
       "description": "백남준, <호랑이는 살아있다.>, 1999\n\n《백남준의 도시: 태양에 녹아드는 바다》는 전 세계가 비디오로 연결된 삶을 꿈꾸며, 비디오 시공간의 본질을 사유했던 백남준의 관점을 바탕으로 비디오가 만들어내는 시공간의 초월적 경험을 탐구한다. 그리고 동시대 최첨단 기술이 만들어내는 다층적 비디오 시공간 속에서 살아가고, 이를 예술로 구현하는 동시대 작가 강이연, 구기정, 권혜원, 신재영, 염인화의 작업을 조명한다.\n\n거대한 미디어 스크린을 통해 선보이는 이들의 비디오는 실제보다 더 선명하고, 초감각적인 자극으로 가득한, 현실과 가상의 경계를 넘나드는 시공간으로 이루어진다. 우리는 비디오 이미지와 소리의 정보를 전달하는 전자신호 빛을 통해 인류의 사건과 이야기를 만난다. 인과의 질서를 벗어나 동시에 발생하고 얽히는 새로운 세계의 낯선 시공간 감각은 우리의 신체를 감싸며 강렬한 초감각적 몰입의 경험으로 이끈다. 이 몰입의 흐름 끝에 우리는 어디에 도달할지 알 수 없으나, 그 경험은 우리 내면 깊숙이 스며들어 의식 속에 자리 잡고, 인류가 공유하는 보편적 원형을 매개로 서로의 공통성을 발견하게 한다. 그리고 이 ‘비디오 몰입’이라는 경험을 통해 우리는 생각보다 훨씬 더 깊이 연결되어 있음을 깨닫게 될 것이다.\n\n5.21-31, 6.21-30, 7.21-31, 8.21-31, 9.21-30\n\n저녁 20:00-22:00\n\n10.21-31\n\n저녁 19:00-22:00\n\n* 이 전시는 용인특례시 ‘2025 스마트관광도시 조성사업’의 일환으로 진행됩니다.\n\n/ 031-201-8546\n\n백남준의 도시: 태양에 녹아드는 바다\n\n2025. 10. 20.—2025. 12. 31.\n\n2026 백남준의 도시: 태양에 녹아드는 바다",
       "medium": "video",
@@ -58205,8 +58299,17 @@
       "id": "4e9c7033a40b",
       "source": "njp_art_center",
       "title": "NJP 라운지 2. 장윤영",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "NJP Lounge 2. Jang Yun-young",
+          "description": "<Symbiotic Luminescence>, 2025, single-channel video (6K), color, sound, 8,960 × 3,840mm, 6,400 × 2,560mm, 4 min 44 sec, produced with support from Paradise Art Lab and Incheon Technopark.\n\nThe Nam June Paik Art Center and PSK Holdings Co., Ltd. are launching the NJP Lounge project to re-echo Nam June Paik's ideas on the occasion of his 20th anniversary. 'NJP Lounge 2026' is a commission program that inherits Nam June Paik's experimental spirit from today's perspective, selecting emerging artists who explore new possibilities and alternatives in media art, and supporting the production and exhibition of new works. The program utilizes the media wall in the lobby of PSK Holdings' Pangyo Campus and a newly installed display in the lobby of the Nam June Paik Art Center to showcase both existing works and commissioned new works.\n\nJang Yun-young integrates technology with ecological imagination based on visual arts, exploring the relationships between human and non-human beings through artificial intelligence and interactive media. 《NJP Lounge 2. Jang Yun-young》 expands the artist's contemplation on the symbiotic relationship between living organisms and the environment, presenting <Symbiotic Luminescence> (2025), which depicts the co-evolution of bioluminescent bacteria and marine life in a hypothetical ocean environment where sunlight has disappeared, and <Sense of the Aerial> (2026), a new commissioned work produced based on this support program.\n\nThis commission program is also an attempt to expand the Nam June Paik Art Center's vision of 'a museum connected by art and technology, together with the community' into the local community. The PSK Pangyo Campus Lounge, located in Pangyo 2nd Technovalley, a hub of technology and innovation, functions as a new exhibition space where art and technology, daily life and contemplation intersect. Through this, we aim to present a new cooperation model that connects PSK Holdings Co., Ltd.'s values of technological innovation with the social values of culture and art.\n\nParticipating Artist\n\nJang Yun-young (b.1992)\n\nJang Yun-young is a media artist who explores the convergence of science and technology with art based on visual arts. Focusing on the perceptual differences between humans and machines and the ecological conditions post-pandemic, she imagines a future where humans, animals, environment, and artificial intelligence are organically connected. Through technological research in AI, video, sound, and sensing, she visualizes the network of relationships between non-human beings and ecosystems, and has explored the possibilities of relational art through interaction between the audience and the artwork.\n\nShe majored in Painting and minored in Video Design at Kookmin University's College of Fine Arts, and received her master's degree in Art & Technology from Sogang University's Graduate School. Her major solo exhibition includes 《NEXT GAIA》(17717, Seoul, 2022), and she has participated in major domestic and international exhibitions such as 《FUTURE VISION LAB 2026》(FVL DOME, Taipei, 2026), 《2025 Paradise Art Lab Festival》(Paradise City Chroma and Hana Bank Heart-One, Incheon and Seoul, 2025), 《AI AR Art SURREALITY》(Hong Kong University of Science and Technology, Guangzhou, 2025), 《Generation that Generates》(Art Center Nabi, Seoul, 2023), Seoul Convergence Art Festival 《Unfold X 2023: A Station to the Moon》(Culture Station Seoul 284, Seoul, 2023), 2022 Gwangju Media Art Festival 《Coloring the City》(Asia Culture Center, Gwangju, 2022), and 《Forking Room: Absent Dataset》(Post Territory Ujeongguk, Seoul, 2021).\n\nNam June Paik Art Center\n\nAdmission Fee: Free\n\nOpening Hours: 10:00 – 18:00 ※ Last admission: 1 hour before closing\n\nClosed: Every Monday, Public Holidays\n\nPSK Holdings Pangyo Campus\n\nAdmission Fee: Free\n\nOpening Hours: 11:00 – 15:00 ※ No separate ticketing\n\nClosed: Every Weekend, Public Holidays\n\n※ This exhibition does not offer docent tours.\n\nExhibition Poster\n\n<Sense of the Aerial>, 2026, single-channel video, double-sided LED transparent display, color, silent, 207 × 1215 px, 7 min 5 sec, commissioned by Nam June Paik Art Center, produced with support from PSK Holdings Co., Ltd.\n\nNJP Lounge 1. Nam June Paik\n\nMarch 19, 2026 — July 15, 2026\n\nNJP Lounge 2. Jang Yun-young"
+        },
+        "ja": {
+          "title": "NJP ラウンジ 2. チャン・ユンヨン",
+          "description": "<共生の光(Symbiotic Luminescence)>, 2025年, シングルチャンネルビデオ(6K), カラー, 有声, 8,960 × 3,840mm, 6,400 × 2,560mm, 4分44秒, パラダイスアートラボ、仁川テクノパーク制作支援\n\n白南準アートセンターとPSKホールディングス(株)は、白南準の20周忌を迎え、彼の思想を再び響かせるプロジェクト「NJPラウンジ」を推進します。「NJPラウンジ 2026」は、白南準の実験精神を今日の視点から継承し、メディアアートの新たな可能性と代替案を模索する新進作家を選定し、新作制作と展示を支援するコミッションプログラムです。このプログラムでは、PSKホールディングス板橋キャンパスロビーのメディアウォールと、白南準アートセンターロビーに新設されるディスプレイを活用し、既存作品とコミッション新作を共に展示します。\n\nチャン・ユンヨンは、視覚芸術を基盤に技術と生態学的想像力を融合させ、人工知能とインタラクティブメディアを通じて人間・非人間存在の関係を探求してきました。《NJPラウンジ 2. チャン・ユンヨン》では、作家が考察してきた生命体と環境間の共生関係の概念を拡張し、太陽光が消えた仮想の海洋環境を背景に発光バクテリアと海洋生物の共生進化を描いた<共生の光>(2025)と、本支援事業を基盤に制作されるコミッション新作<空中感覚>(2026)を公開します。\n\n今回のコミッションプログラムは、白南準アートセンターのビジョンである「芸術と技術でつながる、共にある美術館」を地域社会に拡張しようとする試みでもあります。技術と革新の中心地である板橋第2テクノバレーに位置するPSK板橋キャンパスラウンジは、芸術と技術、日常と思索が交差する新しい展示空間として機能します。これにより、PSKホールディングス(株)の技術革新価値と文化芸術の社会的価値を結びつける新たな協力モデルを提示したいと考えています。\n\n参加作家\n\nチャン・ユンヨン (b.1992)\n\nチャン・ユンヨンは、視覚芸術を基盤に科学技術と芸術の融合を探求するメディアアーティストです。人間と機械の認識の違い、ポストパンデミック以降の生態学的条件に注目し、人間・動物・環境・人工知能が有機的に連結される未来を想像します。人工知能、映像、サウンド、センシングなどの技術研究を通じて非人間存在と生態系の関係網を視覚化し、観客と作品間の相互作用を通じて関係的芸術の可能性を探求してきました。\n\n国民大学校美術学部で絵画を専攻し、映像デザインを副専攻、西江大学校一般大学院アート＆テクノロジー専攻で修士号を取得しました。主な個展に《NEXT GAIA》(17717, ソウル, 2022)があり、《FUTURE VISION LAB 2026》(FVL DOME, 台北, 2026)、《2025 パラダイスアートラボフェスティバル》(パラダイスシティ クロマおよびハナ銀行ハートワン、仁川およびソウル, 2025)、《AI AR Art SURREALITY》(香港科技大学, 広州, 2025)、《生成世代_ Generation that Generates》(アートセンターナビ, ソウル, 2023)、ソウル融合芸術フェスティバル《アンフォールドX 2023: 月へ向かう停留所》(文化駅ソウル284, ソウル, 2023)、2022 光州メディアアートフェスティバル 《都市に色を載せる》(国立アジア文化殿堂, 光州, 2022)、《フォーキングルーム: 不在するデータセット》(脱領域郵政局, ソウル, 2021)など、国内外の主要な展覧会に参加しています。\n\n白南準アートセンター\n\n観覧料: 無料\n\n観覧時間: 10:00 – 18:00 ※ 入場締切: 観覧終了1時間前\n\n休館日: 毎週月曜日、法定祝日\n\nPSKホールディングス板橋キャンパス\n\n観覧料: 無料\n\n観覧時間: 11:00 – 15:00 ※ 別途チケット購入不要\n\n休館日: 毎週週末、法定祝日\n\n※ 本展はドーセントツアーを実施しておりません。\n\n展覧会ポスター\n\n<空中感覚(Sense of the Aerial)>, 2026年, シングルチャンネルビデオ, 両面型LED透明ディスプレイ, カラー, 無声, 207 × 1215 px, 7分5秒, 白南準アートセンターコミッション, PSKホールディングス(株)制作支援\n\nNJPラウンジ 1. 白南準\n\n2026年3月19日—2026年7月15日\n\nNJPラウンジ 2. チャン・ユンヨン"
+        }
+      },
       "poster_image_url": "https://njp.ggcf.kr/storage/upload/2026/07/14/keuUPuk1GI3TGS5w59DsyH76RUwHDKxfFZi0djOe.jpg",
       "description": "<공생의 빛(Symbiotic Luminescence)>, 2025, 싱글채널 비디오(6K), 컬러, 유성, 8,960 × 3,840mm, 6,400 × 2,560mm, 4분 44초, 파라다이스아트랩, 인천테크노파크 제작 지원\n\n백남준아트센터와 피에스케이홀딩스(주)는 백남준 20주기를 맞아 그의 사유를 다시 울려 퍼지게 하는 프로젝트 NJP 라운지를 추진한다. ‘NJP 라운지 2026’은 백남준의 실험정신을 오늘의 시각으로 계승하며, 미디어아트의 새로운 가능성과 대안을 모색하는 신진 작가를 선정해 신작 제작과 전시를 지원하는 커미션 프로그램이다. 프로그램은 피에스케이홀딩스 판교캠퍼스 로비의 미디어월과 백남준아트센터 로비에 신설되는 디스플레이를 활용해 기존작과 커미션 신작을 함께 선보인다.\n\n장윤영은 시각예술을 기반으로 기술과 생태적 상상력을 융합하고, 인공지능과 인터랙티브 미디어를 통해 인간·비인간 존재의 관계를 탐색해 오고 있다. 《NJP 라운지 2. 장윤영》은 작가가 사유해 온 생명체와 환경 간 공생관계의 개념을 확장하여, 태양빛이 사라진 가상의 해양 환경을 배경으로 발광 박테리아와 해양 생물의 공생 진화를 그린 <공생의 빛>(2025)과 본 지원사업을 기반으로 제작되는 커미션 신작 <공중감각>(2026)을 공개한다.\n\n이번 커미션 프로그램은 백남준아트센터의 비전인 ‘예술과 기술로 연결된 함께하는 미술관’을 지역사회로 확장하려는 시도이기도 하다. 기술과 혁신의 중심지인 판교 제2테크노밸리에 위치한 피에스케이 판교캠퍼스 라운지는 예술과 기술, 일상과 사유가 교차하는 새로운 전시 공간으로 기능한다. 이를 통해 피에스케이홀딩스㈜의 기술 혁신 가치와 문화예술의 사회적 가치를 연결하는 새로운 협력 모델을 제시하고자 한다.\n\n참여작가\n\n장윤영 (b.1992)\n\n장윤영은 시각예술을 기반으로 과학기술과 예술의 융합을 탐구하는 미디어 아티스트이다. 인간과 기계의 인식 차이, 포스트 팬데믹 이후의 생태적 조건에 주목하며, 인간·동물·환경·인공지능이 유기적으로 연결되는 미래를 상상한다. 인공지능, 영상, 사운드, 센싱 등 기술연구로 비인간 존재와 생태계의 관계망을 시각화하고, 관객과 작품 간의 상호작용을 통해 관계적 예술의 가능성을 탐구해 왔다.\n\n국민대학교 미술학부 회화전공 및 영상디자인을 부전공했으며, 서강대학교 일반대학원 아트&테크놀로지 전공으로 석사학위를 받았다. 주요 개인전으로 《NEXT GAIA》(17717, 서울, 2022)가 있으며, 《FUTURE VISION LAB 2026》(FVL DOME, 타이베이, 2026), 《2025 파라다이스 아트랩 페스티벌》(파라다이스시티 크로마 및 하나은행 하트원, 인천 및 서울, 2025), 《AI AR Art SURREALITY》(홍콩과학기술대학교, 광저우, 2025), 《생성세대(生成世代)_ Generation that Generates》(아트센터 나비, 서울, 2023), 서울융합예술페스티벌《언폴드엑스(Unfold X) 2023: 달로 가는 정거장》(문화역서울284, 서울, 2023), 2022 광주미디어아트페스티벌 《도시에 색을 올리다》(국립아시아문화전당, 광주, 2022), 《포킹룸: 부재하는 데이터셋》(탈영역우정국, 서울, 2021) 등 국내외 주요 전시에 참여했다.\n\n백남준아트센터\n\n관람요금: 무료\n\n관람시간: 10:00 – 18:00 ※ 입장 마감: 관람 종료 1시간 전\n\n휴 관 일: 매주 월요일, 법정공휴일\n\n피에스케이홀딩스 판교캠퍼스\n\n관람요금: 무료\n\n관람시간: 11:00 – 15:00 ※ 별도 티켓팅 없음\n\n휴 관 일: 매주 주말, 법정공휴일\n\n※ 본 전시는 도슨트를 운영하지 않습니다.\n\n전시포스터\n\n<공중감각(Sense of the Aerial)>, 2026, 싱글채널 비디오, 양면형 LED 투명 디스플레이, 컬러, 무성, 207 × 1215 px, 7분 5초, 백남준아트센터 커미션, 피에스케이홀딩스(주) 제작 지원\n\nNJP 라운지 1. 백남준\n\n2026. 3. 19.—2026. 7. 15.\n\nNJP 라운지 2. 장윤영",
       "medium": "video",
@@ -58252,8 +58355,17 @@
       "id": "e3568595ab7a",
       "source": "sema",
       "title": "서울시립 서서울미술관 개관 특별 미디어 소장품전 《서서울의 투명한 |청소년| 기계》",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "SeMA Seoseoul Museum of Art Inaugural Special Media Collection Exhibition 《Transparent |Youth| Machine of Seoseoul》",
+          "description": "How does non-cognitive corporeality transform into new aesthetic conditions? 《Transparent |Youth| Machine of Seoseoul》 imagines a new ontological map centered on non-cognitive corporeality, intertwined with youth, machines, AI, moving images, non-human beings, and global matter.\n\nNon-cognitive corporeality is the foundation of distributed cognition that operates prior to conscious judgment. It is not limited to the brain, functioning at various levels from bacterial environmental responses to bodily sensations, human unconscious processing, and AI computations. From this perspective, the material world shares non-cognitive corporeality, and humans and non-humans form a single network as equal agents. Within this network, human flesh, machine code, and material flows intermingle, generating heterogeneous and complex corporeality beyond individual selves.\n\nYouth can be seen as a liminal body where these complex networks most dynamically collide and connect. At a non-cognitive level, this body constantly interacts with contemporary algorithms and AI, forming a hybrid identity of human and machine within a plastic state. Simultaneously, the bodies of youth are at risk of being easily commodified or marginalized by social structures such as the state, capital, platforms, and artificial intelligence.\n\nSeMA Seoseoul Museum of Art aims to view youth as liminal beings mediating between human and non-human, present and future, and as beings with the potential to reconfigure subjectivity in a technologically dominated society. To contemplate through youth is not to represent a specific generation, but to become the starting point for an 'ontological politics' that senses our entanglement with machines, AI, the Earth, and our bodies.\n\nThe exhibition consists of two responses to this problematic. The first response is presented through the museum's collection (Exhibition Hall 1). This includes works that explore post-human ecosystems where machines, algorithms, and non-human beings operate in entanglement, moving beyond anthropocentric thinking; works that treat the body not as a physical entity but as a medium where social data is inscribed and translated; and works that visualize the seams that arise in the process of physical actions transforming into mechanical existences.\n\nThe second response unfolds in the Youth Studio, located in Exhibition Halls 2 and 3. The Youth Studio is a museum practice that calls upon youth as agents and interfaces, and an experiment in new exhibition formats. Five teams of participating artists propose 'workshop-format artworks' that operate continuously throughout the exhibition period, expanding the participation process itself into a sculptural field.\n\nIn this workshop, youth experiment with the process of constituting themselves through platforms, online labor, technological anxiety, physical performance, play, and creation. As potential agents, they create discrepancies and delays in systems that demand complete synchronization, exercising their right to reassemble and recognize their own bodies.\n\nThey are already contemporary media that sense and interpret the current world, disrupting its modes of operation. To transparently reveal the traces of being pieced together like Frankenstein's creation, and to discover new affects and bodily resonances within what is discarded and deviates. This will be the first step for the youth post-human to begin their aesthetic life."
+        },
+        "ja": {
+          "title": "ソウル市立西ソウル美術館 開館特別メディア所蔵品展 《西ソウルの透明な |青少年| 機械》",
+          "description": "非認知的身体性はいかにして新たな美的条件へと転換されるのか？《西ソウルの透明な |青少年| 機械》は、非認知的身体性を中心軸とし、青少年、機械、AI、ムービングイメージ、非人間存在、そして地球的物質が絡み合う新たな存在論的地図を想像します。\n\n非認知的身体性とは、意識的判断以前に作動する分散的認知の基盤です。これは脳に限定されず、バクテリアの環境反応から身体の感覚、人間の無意識的処理、そして人工知能の演算に至るまで、多様な階層で機能します。このような観点から、物質世界は非認知的身体性を共有し、人間と非人間は対等な行為者として一つの網(network)を構成します。この網の中で、人間の肉体と機械のコード、物質的流れは互いに混じり合い、個別的自我を超えた異質で複合的な身体性を生成します。\n\n青少年は、このような複合的ネットワークが最もダイナミックに衝突し、連結される境界的な身体であると言えます。この身体は、非認知的階層において現代のアルゴリズムやAIと絶えず相互フィードバックし、可塑的な状態の中で人間と機械が混じり合ったハイブリッドなアイデンティティを形成します。これと同時に、青少年の身体は、国家、資本、プラットフォーム、人工知能といった社会的構造によって容易に資源化されたり、疎外されたりする危険にさらされています。\n\nソウル市立西ソウル美術館は、このような青少年を、人間と非人間、現在と未来を媒介する境界的存在であり、技術支配社会において主体性を再構成できる可能性の存在として捉えようとします。青少年を通じて思索することは、特定の世代を再現することではなく、私たちがすでに機械、AI、地球、身体と絡み合っていることを感覚する「存在論的政治」の出発点となります。\n\n展覧会は、このような問題意識に対する二つの応答で構成されます。最初の応答は、美術館の所蔵品を通じて提示されます（展示室1）。ここには、人間中心的な思考から脱却し、機械、アルゴリズム、非人間存在が絡み合って機能するポストヒューマン的生態系を探求する作品群、身体を物理的実体ではなく社会的データが刻まれ翻訳される媒体として扱う作品群、そして身体的行為が機械的存在へと変換される過程で生じる継ぎ目を可視化する作品群が含まれます。\n\n二つ目の応答は、展示室2と3に設けられたユーススタジオ(Youth Studio)で展開されます。ユーススタジオは、青少年を行為者でありインターフェースとして呼び出す美術館の実践であり、新しい展示形式に対する実験です。5組の所蔵作家たちは、展示期間中に継続的に作動する「ワークショップ形式の作品」を提案し、参加過程自体を一つの造形的場へと拡張します。\n\nこのワークショップでは、青少年たちはプラットフォーム、オンライン労働、技術的不安、身体的遂行、遊びと創作を媒介として、自らを構成する過程を実験します。彼らは潜在的な行為者として、完全な同期化を要求するシステムにずれと遅延を生み出し、自身の身体を再構築し認識する権限を行使します。\n\n彼らはすでに現在の世界を感覚し解釈し、その作動方式を攪乱する現代のメディアです。フランケンシュタインの創造物のように継ぎ合わされた痕跡を透明に露わにし、脱落し、逸れていくものの中から新たな情動と身体的共鳴を発見すること。これは、青少年ポストヒューマンが自身の美的生を開始する第一歩となるでしょう。"
+        }
+      },
       "poster_image_url": "https://sema.seoul.go.kr/common/imgFileView?FILE_ID=1008266",
       "description": "비인지적 신체성은 어떻게 새로운 미학적 조건으로 전환되는가?《서서울의 투명한 |청소년| 기계》는 비인지적 신체성을 중심축으로, 청소년, 기계, AI, 무빙 이미지, 비인간 존재, 그리고 지구적 물질이 얽힌 새로운 존재론적 지도를 상상한다.비인지적 신체성이란 의식적 판단 이전에 작동하는 분산적 인지의 토대이다. 이는 뇌에 국한되지 않으며, 박테리아의 환경 반응에서부터 신체의 감각, 인간의 비의식적 처리, 그리고 인공지능의 연산에 이르기까지 다양한 층위에서 작동한다. 이러한 관점에서 물질세계는 비인지적 신체성을 공유하며, 인간과 비인간은 동등한 행위자로서 하나의 망(network)을 구성한다. 이 망 안에서 인간의 살과 기계의 코드, 물질적 흐름은 서로 뒤섞이며, 개별적 자아를 넘어선 이질적이고 복합적인 신체성을 생성한다.청소년은 이러한 복합적 네트워크가 가장 역동적으로 충돌하고 연결되는 경계적 신체라고 할 수 있다. 이 신체는 비인지적 층위에서 동시대의 알고리즘이나 AI와 끊임없이 상호 피드백하며, 가소적인 상태 속에서 인간과 기계가 뒤섞인 하이브리드적 정체성을 형성한다. 이와 동시에 청소년의 신체는 국가, 자본, 플랫폼, 인공지능과 같은 사회적 구조에 의해 쉽게 자원화되거나 소외될 위험에 놓여 있다.서서울미술관은 이러한 청소년을 인간과 비인간, 현재와 미래를 매개하는 경계적 존재이자 기술 지배 사회에서 주체성을 다시 구성할 수 있는 가능성의 존재로 바라보고자 한다. 청소년을 통해 사유하는 것은 특정 세대를 재현하는 것이 아니라, 우리가 이미 기계, AI, 지구, 신체로 얽혀 있음을 감각하는 ‘존재론적 정치’의 출발점이 된다.전시는 이러한 문제의식에 대한 두 가지 응답으로 구성된다.첫 번째 응답은 미술관 소장품을 통해 제시된다(전시실 1). 여기에는 인간 중심적 사고를 벗어나 기계, 알고리즘, 비인간 존재가 얽혀 작동하는 포스트휴먼적 생태계를 탐구하는 작품들, 신체를 물리적 실체가 아니라 사회적 데이터가 새겨지고 번역되는 매체로 다루는 작업들, 그리고 신체적 행위가 기계적 존재로 변환되는 과정에서 발생하는 이음매를 가시화하는 작업들이 포함된다.두 번째 응답은 전시실 2와 3에 마련된 유스 스튜디오(Youth Studio)에서 전개된다. 유스 스튜디오는 청소년을 행위자이자 인터페이스로 호명하는 미술관의 실천이자, 새로운 전시 형식에 대한 실험이다. 다섯 팀의 소장 작가들은 전시 기간 동안 지속적으로 작동하는 ‘워크숍 형식의 작품’을 제안하며, 참여 과정 자체를 하나의 조형적 장으로 확장한다.이 워크숍에서 청소년들은 플랫폼, 온라인 노동, 기술적 불안, 신체적 수행, 놀이와 창작을 매개로 스스로를 구성하는 과정을 실험한다. 이들은 잠재적 행위자로서 완전한 동기화를 요구하는 시스템에 어긋남과 지연을 만들어내며, 자신의 신체를 다시 조립하고 인식할 권한을 행사한다.이들은 이미 현재의 세계를 감각하고 해석하며, 그 작동 방식을 교란하는 동시대의 미디어이다. 프랑켄슈타인의 창조물처럼 이어 붙여진 흔적을 투명하게 드러내고, 탈락하고 비껴가는 것들 속에서 새로운 정동과 신체적 공명을 발견하는 것. 이것은 청소년 포스트휴먼이 자신의 미학적 삶을 시작하는 첫걸음이 될 것이다.",
       "medium": "video",
@@ -58292,8 +58404,17 @@
       "id": "923ac2281370",
       "source": "sema",
       "title": "《메가트론 랩소디》",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "《Megatron Rhapsody》",
+          "description": "Opening on June 17, 2025, the permanent exhibition 《Megatron Rhapsody》 explores Paik Nam-june's contemporaneity based on a deep understanding of his journey from his childhood in Changsin-dong to his later years when he gained global renown, and his representative late work 〈Seoul Rhapsody〉. The exhibition title is derived from 〈Seoul Rhapsody〉, a permanent installation at the main building of the Seoul Museum of Art, and 'Megatron,' the primary format of that work. 'Rhapsody' was a term meaning an epic poem or collection in ancient Greece, but from the 18th century onwards, it came to signify a genre of music as an instrumental piece that conveys intense and dynamic emotions without being bound by form. If 〈Seoul Rhapsody〉 is a work that freely expresses the dynamism and multi-layered nature of Seoul, which has been the capital of Korea for over 600 years, then 《Megatron Rhapsody》 can be said to be an exhibition that expands the breadth of Paik Nam-june's artistic world by freely moving between his life, his later works, and the works of contemporary artists.\n\nThe exhibition is largely composed of three parts: 'Remix,' 'Megatron,' and 'Synchronization Signal.' Just as Paik Nam-june utilized re-edited and remixed video sources when creating his works, 'Remix' offers a new reading of Paik Nam-june by recombining and editing existing information about the artist. In 'Megatron,' the concept of 'Megatron' and the production process and operational structure of 〈Seoul Rhapsody〉 are revealed, focusing on materials from the International Symposium commemorating Paik Nam-june's 90th birthday, 《Paik Nam-june, Megatron, and Seoul Rhapsody》 (Seoul Museum of Art, 2023). Finally, in 'Synchronization Signal,' visitors can appreciate audience-participatory works by contemporary artists who have inherited Paik Nam-june's desire for active audience engagement in art. Through experimental media-based works presented biennially, Paik Nam-june's contemporaneity and future are explored. The first participating artist in 'Synchronization Signal' is Protoroom, presenting their new work 〈0.000001 Gigabyte Matter Matters〉 (2025), which unfolds 〈SmallBig_S1〉, a product and instrument devised by the artist, in the exhibition space, allowing not only the artist but also the audience to directly participate. During the exhibition period, the 'Synchronization Signal' program, including talks, workshops, and performances, will be operated to facilitate a more expanded understanding of the works.\n\nThrough this exhibition, 〈Seoul Rhapsody〉 can be re-recognized from the perspective of technological innovation, and Paik Nam-june's childhood, his later artistic world, and furthermore, his relationship with contemporary art can be organically connected."
+        },
+        "ja": {
+          "title": "《メガトロン ラプソディ》",
+          "description": "2025年6月17日に開幕する常設展《メガトロン ラプソディ》は、ナム・ジュン・パイクがチャンシンドンに住んでいた幼少期から世界的な名声を得た晩年までの彼の道のり、そして後期の代表作〈ソウル ラプソディ〉に関する深い理解に基づき、ナム・ジュン・パイクの同時代性を考察する展覧会です。展覧会タイトルは、ソウル市立美術館本館の常設インスタレーション作品〈ソウル ラプソディ〉と、当該作品の主要な形式である「メガトロン」に由来します。「ラプソディ」は、古代ギリシャの叙事詩または詩集を意味する用語でしたが、18世紀からは形式にとらわれず、強烈で躍動的な感情を伝える器楽曲として、音楽の一ジャンルを指すようになりました。〈ソウル ラプソディ〉が600年以上にわたり韓国の首都として受け継がれてきたソウルの躍動性と多層性を自由に表現した作品であるならば、《メガトロン ラプソディ》は、ナム・ジュン・パイクの生涯と後期の作品、そして同時代の作家の作品を自由に往来しながら、ナム・ジュン・パイクの芸術世界の振幅を拡張する展覧会であると言えます。\n\n展覧会は大きく「リミックス」、「メガトロン」、「同期信号」の三つのパートで構成されます。ナム・ジュン・パイクが作品を制作する際に既存の映像を再編集し、リミックスしたビデオソースを活用したように、「リミックス」では作家に関する既存の情報を再構成し、編集して提示することで、ナム・ジュン・パイクを新たに読み解きます。「メガトロン」では、ナム・ジュン・パイク生誕90周年記念国際シンポジウム《ナム・ジュン・パイク、メガトロン、そしてソウル ラプソディ》（ソウル市立美術館、2023）の資料を中心に、「メガトロン」の概念と〈ソウル ラプソディ〉の制作経緯および運営構造を明らかにします。最後に「同期信号」では、観客が芸術に積極的に参加することを望んだナム・ジュン・パイクの意志を受け継いだ同時代の作家による観客参加型作品を鑑賞できます。隔年で発表されるメディアベースの実験的な作品を通じて、ナム・ジュン・パイクの同時代性と未来を考察します。「同期信号」の最初の参加作家はプロトルームで、作家が考案したプロダクトであり楽器である〈SmallBig_S1〉を、作家自身だけでなく観客も直接参加できるように展示空間に展開した新作〈0.000001ギガバイト マター マターズ〉（2025）を発表します。展覧会期間中には、トーク、ワークショップ、パフォーマンスなどの同期信号プログラムの運営を通じて、作品に対するより深い理解を促します。\n\n本展を通じて、〈ソウル ラプソディ〉を技術革新の側面から再認識し、ナム・ジュン・パイクの幼少期と後期の作品世界、さらにはナム・ジュン・パイクと同時代芸術との関係を有機的に結びつけることができるでしょう。"
+        }
+      },
       "poster_image_url": "https://sema.seoul.go.kr/common/imgFileView?FILE_ID=977823",
       "description": "2025년 6월 17일 개막하는 상설전 《메가트론 랩소디》는 백남준이 창신동에 살았던 유년부터 세계적인 명성을 획득한 말년까지 그의 여정과 후기 대표작 〈서울 랩소디〉에 관한 심도 있는 이해를 바탕으로 백남준의 동시대성을 살펴보는 전시다. 전시 제목은 서울시립미술관 본관 상설 설치작품 〈서울 랩소디〉와 해당 작업의 주요 형식인 ‘메가트론’에서 연유한다. ‘랩소디’는 고대 그리스의 서사시 혹은 모음집을 의미하는 용어였으나 18세기부터는 형식에 얽매임 없이 강렬하고 역동적인 감정을 전달하는 기악곡으로서 음악의 한 장르를 뜻하게 되었다. 〈서울 랩소디〉가 600년 넘게 한국의 수도로 이어져 내려온 서울의 역동성과 다층성을 자유롭게 풀어낸 작품이라면, 《메가트론 랩소디》는 백남준의 생애와 후기 작업, 동시대 작가의 작업을 자유롭게 오가며 백남준 예술 세계의 진폭을 확장하는 전시라고 할 수 있다.\n\n전시는 크게 ‘리믹스’, ‘메가트론’, ‘동기신호’ 세 파트로 이루어진다. 백남준이 작품을 제작할 때 기존 영상을 재편집하고 리믹스한 비디오 소스를 활용했듯이, ‘리믹스’에서는 작가에 관한 기존 정보를 재조합하고 편집하여 선보임으로써 백남준을 새롭게 읽는다. ‘메가트론’에서는 백남준 탄생 90주년 기념 국제심포지엄 《백남준, 메가트론, 그리고 서울 랩소디》(서울시립미술관, 2023)의 자료를 중심으로 ‘메가트론’ 개념과 〈서울 랩소디〉의 제작기 및 운영 구조를 밝힌다. 마지막으로 ‘동기신호’에서는 관객이 예술에 적극적으로 참여하기를 바랐던 백남준의 의지를 계승한 동시대 작가의 관객 참여형 작품을 감상할 수 있다. 격년으로 선보일 미디어 기반의 실험적인 작업을 통해 백남준의 동시대성과 미래를 가늠해 본다. ‘동기신호’의 첫 번째 참여작가는 프로토룸으로 작가가 고안한 프로덕트이자 악기인 〈SmallBig_S1〉을 작가 자신뿐만 아니라 관객도 직접 참여할 수 있도록 전시장에 펼쳐낸 신작 〈0.000001 기가바이트 매터 매터스〉(2025)를 선보인다. 전시 기간 중 토크, 워크숍, 퍼포먼스 등 동기신호 프로그램 운영을 통해 작업에 대한 더욱 확장된 이해를 돕는다.\n\n본 전시를 통해 〈서울 랩소디〉를 기술적 혁신의 측면에서 재인식하고, 백남준의 유년 시절과 후기 작업 세계, 나아가 백남준과 동시대 예술과의 관계를 유기적으로 연결해 볼 수 있을 것이다.",
       "medium": "video",
@@ -58332,8 +58453,17 @@
       "id": "1796cc3996ad",
       "source": "moca_busan",
       "title": "소장품섬_뉴미디어와 미디어",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "Collection Island_New Media and Media",
+          "description": "The Museum of Contemporary Art Busan (MoCA Busan), which has continuously collected related works by making new media a major agenda of the museum, is celebrating its 8th anniversary. Through research and exhibitions centered on newly acquired international collections in 2026, it examines the conceptual differences between 'new media' and 'media' and attempts to redefine these concepts."
+        },
+        "ja": {
+          "title": "所蔵品島_ニューメディアとメディア",
+          "description": "ニューメディアを美術館の主要な議題とし、関連作品を継続的に収集してきた釜山現代美術館が、開館8年目を迎え、2026年に新たに収集された国外所蔵品を中心とした研究および展示を通じて、「ニューメディア」と「メディア」の概念の違いを考察し、その概念の再定義を試みます。"
+        }
+      },
       "poster_image_url": "https://www.busan.go.kr/comm/getImage?srvcId=BBSTY3&upperNo=1714078&fileTy=ATTACH&fileNo=1&thumbTy=M",
       "description": "뉴미디어를 미술관의 주요 의제로 삼아 관련 작품을 지속적으로 수집해 온 부산현대미술관이 개관 8년차를 맞아, 2026년 새롭게 수집된 국외 소장품을 중심으로 한 연구 및 전시를 통해 ‘뉴미디어’와 ‘미디어’에 대한 개념 차이를 살펴보고 그 개념에 대한 재정의를 시도한다.",
       "medium": "video",
@@ -79563,50 +79693,106 @@
     {
       "id": "6ebf64c44dd0",
       "name": "国松希根太",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "쿠니마츠 키네타"
+        },
+        "en": {
+          "name": "Kunimatsu Kineta"
+        }
+      }
     },
     {
       "id": "a8b3abbeab8b",
       "name": "北川陽稔",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "키타가와 하루노리"
+        },
+        "en": {
+          "name": "Kitagawa Harunori"
+        }
+      }
     },
     {
       "id": "a351594c507d",
       "name": "前田明日美",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "마에다 아스미"
+        },
+        "en": {
+          "name": "Asumi Maeda"
+        }
+      }
     },
     {
       "id": "c95e93e3daae",
       "name": "はしもとみお",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "하시모토 미오"
+        },
+        "en": {
+          "name": "Mio Hashimoto"
+        }
+      }
     },
     {
       "id": "317697db3424",
       "name": "榮村莉玖",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "에이무라 리쿠"
+        },
+        "en": {
+          "name": "Eimura Riku"
+        }
+      }
     },
     {
       "id": "581ea41ecb11",
       "name": "小松浩子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "코마츠 히로코"
+        },
+        "en": {
+          "name": "Komatsu Hiroko"
+        }
+      }
     },
     {
       "id": "b803b5ecb200",
       "name": "鷹巣由佳",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "타카노스 유카"
+        },
+        "en": {
+          "name": "Yuka Takanosu"
+        }
+      }
     },
     {
       "id": "3f8604b3fac1",
       "name": "Diao Chentong",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "디아오 천퉁"
+        },
+        "ja": {
+          "name": "ディアオ・チェントン"
+        }
+      }
     },
     {
       "id": "eebecb333d36",
