@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T17:16:53.848034+00:00",
+  "generated_at": "2026-07-29T19:36:16.530024+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -48652,7 +48652,7 @@
       "price_max": null,
       "start_date": "2026-07-01",
       "end_date": "2026-07-28",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "0eaacd434922",
@@ -54855,7 +54855,7 @@
       "price_max": null,
       "start_date": "2026-07-29",
       "end_date": "2026-08-09",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "43233f51072a",
@@ -55477,7 +55477,7 @@
       "price_max": null,
       "start_date": "2026-07-29",
       "end_date": "2026-08-02",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "53e623af9813",
@@ -61097,6 +61097,86 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Ichika-Hiiragi-Ryuhei-Nakajima-The-Beginning/gallery-cafe-bar-three-three/2026-07-30",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "84a69acd60b5",
+      "source": "tokyo_art_beat",
+      "title": "古田亘 「「KEMONOHARA -玉城裕規-」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/5G6NOGbwvhCzzBUdobw9nG/70cf75b0fdbffae74b26d4154bacaa61/20260727_4204946.jpg",
+      "description": "俳優、タレントらのイメージビジュアルを数多く手掛けている古田亘氏。広告やテレビ番組、映画、舞台などに関わるスチール写真では、被写体の本質を描き伝えるだけでなく、役柄の美の演出まで担える創造的な伴走者として高い評価を受けています。本展は、ひとりの俳優を追い続けた古田氏の未公開ポートレートシリーズを披露するものです。俳優の名は、玉城裕規。2010年に俳優デビューすると「弱虫ペダル」「海峡の光」「刀剣乱舞」など多くの熱狂的なファンを惹きつけた舞台ドラマ、時代を画する傑作における主要な役柄を、比類のない鮮やかな表現力で演じて高い評価を受けてきました。映画やテレビドラマの分野でも幅広い役柄に挑戦し、その進境を印象づけています。\n\nポートレート制作を最も大切にしているという古田氏は、「メサイア」「大悲」「HELI-X」シリーズといった人気舞台の宣材やカレンダー撮影を通して継続的に玉城氏と接点を持ち続ける中で、「独特な気配」にとりわけ深く魅了されてきたひとりです。「その気配は危険で、湿気があり、透明感があり気品がある。一流の表現者が持つ尊厳と、その中に潜む毒を追いかけたい」と、仕事か否かを問わず様々な場でファインダーを向け続けてきました。\n\n本展ではそれらの膨大なアーカイブの中から、特に選び抜いたプリントを公開いたします。作家・恒川光太郎の「気配」を題材にした短編小説の名前からタイトルを引きました。独自の軌跡を走り続けることで時代を体現してきた玉城氏のオーラを、舞台の袖や撮影現場の裏側で雄弁に描きとめたモノクローム世界は、近来稀なほど力強いプリント群に仕上がっています。「ダークで懐かしく優しい、孤独な風のような彼を感じて欲しい」と古田氏は言います。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-19",
+      "end_date": "2026-09-13",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "05006a834bff",
+        "name": "SPEAK FOR WALL",
+        "lang": null,
+        "tr": {},
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.64811163469577,
+        "lng": 139.70109119510653
+      },
+      "artists": [
+        {
+          "id": "92686c206c0f",
+          "name": "古田亘",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Wataru-Furuta-Kemonohara-Yuki-Tamashiro/speak-for-wall/2026-08-19",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "dba94b30280b",
+      "source": "zen_foto",
+      "title": "梁丞佑、星玄人、ブライアン・セルジオ 写真展「黄昏と晩鐘」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://d1jikcjf8oridj.cloudfront.net/i/a5/GIkQQ5qp_uh1XeF.jpeg",
+      "description": "禅フォトギャラリーは2026年8月21日（金）から2026年9月26日（土）まで、「黄昏と晩鐘」と題し、梁丞佑、星玄人、ブライアン・セルジオによるグループ写真展を開催いたします。昼と夜のあわいに立つたそがれ、...",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-21",
+      "end_date": "2026-09-26",
+      "status": "upcoming",
+      "open_hours": "火－土 12:00－19:00 / 日・月・祝休廊",
+      "venue": {
+        "id": "7c9ba25d35a8",
+        "name": "ZEN FOTO GALLERY",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "ZEN FOTO GALLERY"
+          },
+          "ja": {
+            "name": "ZEN FOTO GALLERY"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.6620146,
+        "lng": 139.7312925
+      },
+      "artists": [],
+      "source_url": "https://zen-foto.jp/jp/exhibition/seung-woo-yang-haruto-hoshi-brian-sergio-%E2%80%9Ctwilight-and-evening-bell%E2%80%9D",
       "featured": false,
       "popularity_score": null
     }
@@ -67820,6 +67900,20 @@
       "country": "JP",
       "lat": 35.68902,
       "lng": 139.6832,
+      "website": null
+    },
+    {
+      "id": "05006a834bff",
+      "name": "SPEAK FOR WALL",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "恵比寿、代官山、中目黒",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.64811163469577,
+      "lng": 139.70109119510653,
       "website": null
     }
   ],
@@ -82059,6 +82153,12 @@
     {
       "id": "707f6bbf88bd",
       "name": "中嶋琉平",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "92686c206c0f",
+      "name": "古田亘",
       "lang": null,
       "tr": {}
     }
