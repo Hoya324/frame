@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T17:34:12.044644+00:00",
+  "generated_at": "2026-07-31T19:49:21.827913+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -22561,7 +22561,7 @@
       "price_max": null,
       "start_date": "2026-06-20",
       "end_date": "2026-07-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "01d774b4e350",
@@ -40698,7 +40698,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-07-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "69af0e77f52d",
@@ -49328,7 +49328,7 @@
       "price_max": null,
       "start_date": "2026-07-31",
       "end_date": "2026-09-06",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "37f737766ac5",
@@ -52164,7 +52164,7 @@
       "price_max": null,
       "start_date": "2026-07-31",
       "end_date": "2026-10-18",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "403afe8b017e",
@@ -53588,7 +53588,7 @@
       "price_max": null,
       "start_date": "2026-07-31",
       "end_date": "2026-08-23",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "1965a1933c75",
@@ -55304,7 +55304,7 @@
       "price_max": null,
       "start_date": "2026-07-31",
       "end_date": "2026-09-11",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "4c4af3f1655d",
@@ -58771,16 +58771,16 @@
         }
       },
       "poster_image_url": "https://www.mmca.go.kr/upload/exhibition/2026/06/2026061002041170016962.gif",
-      "description": "국립현대미술관과 LG전자의 중장기 협력 프로그램인 «MMCA x LG OLED 시리즈»는 역량 있는 동시대 작가에게 작품 제작비 및 기술 인프라를 지원함으로써 동시대 현대미술의 새로운 매체 실험 및 담론을 형성하고, 기술과 예술을 바탕으로 한 대형 신작 제작을 통해 현대미술의 대중화에 기여하고자 한다. 서울관의 상징적 전시공간 서울박스(Seoul Box)의 공간적 특성을 반영한 설치작품을 전시하여 현대미술의 독창적 예술 경험을 관객에게 제공한다. 시리즈의 두 번째 작가는 2026년 초 발표된다.",
+      "description": "국립현대미술관과 LG전자가 함께하는 MMCA×LG OLED 시리즈는 동시대 미술의 새로운 가능성을 탐색하는 중장기 협력 프로젝트이다. 이 프로젝트는 국립현대미술관 서울의 상징적 공간인 서울박스를 무대로 매년 한 명의 작가를 선정하여 장소 특정적 신작을 선보이며, 첨단 디스플레이 기술과 예술적 상상력이 만나는 시각적 경험을 제안한다.MMCA×LG OLED 시리즈의 두 번째 프로젝트는 김 크리스틴 선의”완고한 바위, 무모한 싸움들”이다. 작가는 언어와 소리를 시각적으로 번역하는 독창적인 조형 언어를 발전시켜 왔다. 간결한 선과 기호, 유머를 담은 문장은 소리와 움직임, 대화와 긴장을 이미지로 전환하며, 언어가 관계와 권력을 형성하는 과정을 시각적으로 드러낸다. OLED 디스플레이와 서울박스의 개방적인 건축 구조를 적극적으로 활용한 신작은 동시대의 소통 방식에 대한 작가의 문제의식을 공간적 경험으로 확장한다.이번 전시 제목은 반복되는 갈등과 소모적인 논쟁을 은유한다. 작가는 오늘날 디지털 환경과 온라인 매체를 통해 증폭되는 양극화 속에서 이해에 이르지 못한 채 반복되는 대화와 충돌을 ‘돌과 끝없이 논쟁하는 듯한 감각’으로 표현한다. 여기서 ‘바위’는 자신의 입장을 고수하는 완고한 타인뿐 아니라, 확신에 갇혀 타협하지 못하는 우리 자신을 가리키기도 한다. 더 나아가 바위는 언어와 사회적 관계를 규정하는 고착된 질서를 상징한다. 언어와 이를 시각화한 이미지가 교차하며 변주되는 공간 속에서 관객은 소통을 완결된 결과가 아니라, 차이와 관계가 끊임없이 재구성되는 과정으로 경험하게 된다. 이를 통해 전시는 서로의 차이를 지우지 않으면서 타자와 공존하는 소통의 가능성을 새롭게 사유하게 한다.",
       "medium": "video",
-      "exhibition_type": "curated",
+      "exhibition_type": "solo",
       "genre_tags": [],
       "fee_type": "free",
       "price_min": null,
       "price_max": null,
       "start_date": "2026-07-31",
       "end_date": "2026-11-29",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8310c831bce3",
@@ -58799,7 +58799,14 @@
         "lat": 37.5787436166877,
         "lng": 126.980032718285
       },
-      "artists": [],
+      "artists": [
+        {
+          "id": "897c5ef7b07d",
+          "name": "김 크리스틴 선",
+          "lang": null,
+          "tr": {}
+        }
+      ],
       "source_url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002028",
       "featured": false,
       "popularity_score": null
@@ -59842,7 +59849,7 @@
       "price_max": null,
       "start_date": "2026-07-31",
       "end_date": "2026-08-05",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "23129cff8bfd",
@@ -61897,7 +61904,7 @@
       "title": "長谷川諭子 「そこにひかり」",
       "lang": null,
       "tr": {},
-      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/2usRplPmeoymq960Wzqlah/7c871a1140441ee4379945ae13946f33/461c9d83-f99d-42ff-9545-dd2d97d6a24f.jpg",
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3VPqqrbOVjylJR0iRw1o9H/cdbba529ff0484c88ee3bf4571e8d790/d813f02e-5689-4003-8482-60079137ba11.jpg",
       "description": null,
       "medium": "mixed",
       "exhibition_type": "solo",
@@ -62792,6 +62799,92 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Houmi-Sakata-Sugar-Road/c7c-gallery-and-shop/2026-08-12",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "750cb35cff85",
+      "source": "tokyo_art_beat",
+      "title": "マン・レイ 展",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/44iymabiXEuHGsiG1XmN9z/55db1fad6f1b2e3ec5f10f98585f6db2/LE1466_2-1772x2400.jpg",
+      "description": "Take Ninagawaは、マン・レイの個展を開催いたします。\n\n従来写真家としての側面が強調されることの多かったマン・レイは、絵画、彫刻、映像、レイヨグラフをはじめとする多様なメディアにも広く実験的に取り組んできました。今春まで開催されていたメトロポリタン美術館での回顧展など、近年の展覧会では、この広大な実践においてオブジェが果たした中心的な役割がいっそう前景化されています。\n\n本展は、こうしたマン・レイとオブジェをめぐる研究を踏まえ、チェスをアーティストの視覚言語における生成的な仕組みとして考察します。マン・レイにとってチェスは、ゲームや主題以上のものでした。複数の指し手と戦略が交差するフィールドであると同時に、ルールの中で予想外を生じさせ、暴力と性が絡み合う場でもありました。展覧会の中心を成すのは《Giant Chess Set》(1961)、マン・レイ自身が所有し使用した、実際にプレイ可能な彫刻作品です。《Permanent Attraction》(1948/71)は、マン・レイのチェスへの情熱が三つの巨大な木製フォルムへと投影されており、台座となる市販のチェスボードの上でその威容を示しています。\n\nまた、吸い殻と灰で満たされた《This is the Thesis》(1963)と共に、紙巻タバコの刺さったキャンディス・リンの陶器作品を、そして感光紙の上で露光されたオブジェが新奇な像を結ぶレイヨグラフと併せて、シュールレアリズムの自動記述を取り入れた瀧口修造のデカルコマニー、露光写真を用いた大竹伸朗の《ブラック・アンド・ホワイト#11》(1989)をご紹介します。\n\nこれらの展示作品全体を通して、オブジェ、イメージ、メディアの境界を絶えず越境し続けたアーティストとしてのマン・レイ像を提示します。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-01",
+      "end_date": "2026-10-03",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "1a59d5ded262",
+        "name": "Take Ninagawa",
+        "lang": null,
+        "tr": {},
+        "region": "麻布台、虎ノ門",
+        "district": null,
+        "lat": 35.65713877455489,
+        "lng": 139.74056034970283
+      },
+      "artists": [
+        {
+          "id": "89c70cee6f31",
+          "name": "マン・レイ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Man-Ray-Exhibition/FA-8-AE-572/2026-08-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "c5c943f4851e",
+      "source": "tokyo_art_beat",
+      "title": "Eimei Kaneyama + Suguru RYUZAKI 「HTPX」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/iHFknETpfQY8YiSn8jjRB/a32542b36f62bcabf386966b496c3e3f/HTPX_3_final_-_visions_of_infinite_freedom__1_.jpg",
+      "description": "画家・金山永明と写真家・龍﨑俊による展示「HTPX」を開催いたします。本展は、2017年より続けてきた2人の共同制作における新たな章として位置付けられます。互いに写真とドローイングの作品を送り合い、初期のネガフィルムにマーカーで描き込んだものから、デジタル写真にデジタルドローイングを重ねた作品まで、時を重ねるごとにさまざまなプロセスを試みてきました。2017年に刊行された『二十三』をはじめ、2019年の『HAND / TINTED POST X』、そして2025年にalter ego seoulで開催された二人展を元にrope editionsから刊行された『Hand Tinted Post X』は、これまでのふたりの活動の軌跡を今に伝える作品集です。\n\nこれまで金沢やソウルで開催されてきたふたりの展示ですが、東京での開催は今回が初となります。また、本展では未発表作品もあわせて展示・公開いたします。約10年にわたり重ねられてきた対話を直接ご覧いただける貴重な機会となります。皆様のご来場を心よりお待ちしております。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-08",
+      "end_date": "2026-08-22",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "f779129a5361",
+        "name": "early spring gallery & shop",
+        "lang": null,
+        "tr": {},
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.6795,
+        "lng": 139.6459
+      },
+      "artists": [
+        {
+          "id": "97b55475d299",
+          "name": "Eimei Kaneyama",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "402b83d5c43b",
+          "name": "Suguru RYUZAKI",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Eimei-Kaneyama-Suguru-Ryuzaki-HTPX/early-spring-gallery-and-shop/2026-08-08",
       "featured": false,
       "popularity_score": null
     }
@@ -69627,6 +69720,34 @@
       "country": "JP",
       "lat": 35.429091474159,
       "lng": 136.75606135553122,
+      "website": null
+    },
+    {
+      "id": "1a59d5ded262",
+      "name": "Take Ninagawa",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "麻布台、虎ノ門",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.65713877455489,
+      "lng": 139.74056034970283,
+      "website": null
+    },
+    {
+      "id": "f779129a5361",
+      "name": "early spring gallery & shop",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "武蔵野、多摩",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.6795,
+      "lng": 139.6459,
       "website": null
     }
   ],
@@ -85106,6 +85227,30 @@
     {
       "id": "afbbc2853b01",
       "name": "坂田帆海",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "897c5ef7b07d",
+      "name": "김 크리스틴 선",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "89c70cee6f31",
+      "name": "マン・レイ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "97b55475d299",
+      "name": "Eimei Kaneyama",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "402b83d5c43b",
+      "name": "Suguru RYUZAKI",
       "lang": null,
       "tr": {}
     }
