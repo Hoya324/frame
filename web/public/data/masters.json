@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T08:17:05.887137+00:00",
+  "generated_at": "2026-08-01T06:33:07.979890+00:00",
   "masters": [
     {
       "id": "percival-lowell",
@@ -60,6 +60,26 @@
             },
             "ja": {
               "commentary": "1884年にローウェルが残した高宗の肖像写真の一つです。君主の姿を誇張なくありのままに記録しようとする抑制された姿勢が画面全体ににじんでいます。写真として残る最も早い時期の朝鮮君主のイメージという点で、史料的価値の高い作品です。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-195297143",
+          "title": "Korea seoul south gate",
+          "year": "1884",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Korea_seoul_south_gate.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Korea_seoul_south_gate.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korea_seoul_south_gate.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
             }
           }
         },
@@ -152,26 +172,6 @@
           "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/%EB%86%8D%EC%88%98%EC%A0%95%EC%97%90_%EC%95%89%EC%9D%80_%EA%B3%A0%EC%A2%85_%283%EC%9B%94_13%EC%9D%BC%29.jpg",
           "source": "wikimedia",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:%EB%86%8D%EC%88%98%EC%A0%95%EC%97%90_%EC%95%89%EC%9D%80_%EA%B3%A0%EC%A2%85_(3%EC%9B%94_13%EC%9D%BC).jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "",
-          "tr": {
-            "en": {
-              "commentary": ""
-            },
-            "ja": {
-              "commentary": ""
-            }
-          }
-        },
-        {
-          "id": "wikimedia-109239768",
-          "title": "농수정 앞에서 옥대를 잡은 고종",
-          "year": "1884",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/%EB%86%8D%EC%88%98%EC%A0%95_%EC%95%9E%EC%97%90%EC%84%9C_%EC%98%A5%EB%8C%80%EB%A5%BC_%EC%9E%A1%EC%9D%80_%EA%B3%A0%EC%A2%85.gif",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/%EB%86%8D%EC%88%98%EC%A0%95_%EC%95%9E%EC%97%90%EC%84%9C_%EC%98%A5%EB%8C%80%EB%A5%BC_%EC%9E%A1%EC%9D%80_%EA%B3%A0%EC%A2%85.gif",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:%EB%86%8D%EC%88%98%EC%A0%95_%EC%95%9E%EC%97%90%EC%84%9C_%EC%98%A5%EB%8C%80%EB%A5%BC_%EC%9E%A1%EC%9D%80_%EA%B3%A0%EC%A2%85.gif",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -592,14 +592,14 @@
           }
         },
         {
-          "id": "wikimedia-16976984",
-          "title": "Kusakabe Kimbei 566 Theatre Street",
+          "id": "wikimedia-10476736",
+          "title": "Kusakabe Kimbei - 400 Greeting",
           "year": null,
           "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Kusakabe_Kimbei_566_Theatre_Street.JPG",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Kusakabe_Kimbei_566_Theatre_Street.JPG",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Kusakabe_Kimbei_-_400_Greeting.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Kusakabe_Kimbei_-_400_Greeting.jpg",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kusakabe_Kimbei_566_Theatre_Street.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kusakabe_Kimbei_-_400_Greeting.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -716,26 +716,6 @@
           }
         },
         {
-          "id": "wikimedia-10622992",
-          "title": "Shirokiya Nihonbashi Tokyo 1911 Kazumasa Ogawa-2",
-          "year": "1911",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Shirokiya_Nihonbashi_Tokyo_1911_Kazumasa_Ogawa-2.jpg/1280px-Shirokiya_Nihonbashi_Tokyo_1911_Kazumasa_Ogawa-2.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Shirokiya_Nihonbashi_Tokyo_1911_Kazumasa_Ogawa-2.jpg/1280px-Shirokiya_Nihonbashi_Tokyo_1911_Kazumasa_Ogawa-2.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shirokiya_Nihonbashi_Tokyo_1911_Kazumasa_Ogawa-2.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "같은 1911년의 시로키야 백화점을 담은 또 다른 사진입니다. 각도를 달리해 포착한 건물과 거리의 모습에서 근대 도쿄의 공기가 한층 입체적으로 전해집니다. 오가와가 남긴 도시 기록 사진의 정밀함을 보여 주는 한 장입니다.",
-          "tr": {
-            "en": {
-              "commentary": "Another 1911 view of the Shirokiya department store. Captured from a different vantage, the building and its street convey the air of modern Tokyo with added dimension. The image displays the precision that distinguishes Ogawa's urban documentary photography."
-            },
-            "ja": {
-              "commentary": "同じ1911年の白木屋百貨店をとらえた、もうひとつの写真です。角度を変えて切り取られた建物と街路の姿から、近代東京の空気がいっそう立体的に伝わってきます。小川が残した都市記録写真の精密さを示す一枚です。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-10437365",
           "title": "Ogawa Kazumasa - E 175 (Omizuza) Shinto Temple Nikko",
           "year": "1880",
@@ -752,6 +732,26 @@
             },
             "ja": {
               "commentary": "日光の神社建築をとらえた写真です。精緻な木彫装飾と石造物の質感が、豊かな階調で表現されています。日光の社寺を体系的に記録した小川の建築写真連作の、資料的価値をよく示しています。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-10622992",
+          "title": "Shirokiya Nihonbashi Tokyo 1911 Kazumasa Ogawa-2",
+          "year": "1911",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Shirokiya_Nihonbashi_Tokyo_1911_Kazumasa_Ogawa-2.jpg/1280px-Shirokiya_Nihonbashi_Tokyo_1911_Kazumasa_Ogawa-2.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Shirokiya_Nihonbashi_Tokyo_1911_Kazumasa_Ogawa-2.jpg/1280px-Shirokiya_Nihonbashi_Tokyo_1911_Kazumasa_Ogawa-2.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shirokiya_Nihonbashi_Tokyo_1911_Kazumasa_Ogawa-2.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "같은 1911년의 시로키야 백화점을 담은 또 다른 사진입니다. 각도를 달리해 포착한 건물과 거리의 모습에서 근대 도쿄의 공기가 한층 입체적으로 전해집니다. 오가와가 남긴 도시 기록 사진의 정밀함을 보여 주는 한 장입니다.",
+          "tr": {
+            "en": {
+              "commentary": "Another 1911 view of the Shirokiya department store. Captured from a different vantage, the building and its street convey the air of modern Tokyo with added dimension. The image displays the precision that distinguishes Ogawa's urban documentary photography."
+            },
+            "ja": {
+              "commentary": "同じ1911年の白木屋百貨店をとらえた、もうひとつの写真です。角度を変えて切り取られた建物と街路の姿から、近代東京の空気がいっそう立体的に伝わってきます。小川が残した都市記録写真の精密さを示す一枚です。"
             }
           }
         },
@@ -880,26 +880,6 @@
           }
         },
         {
-          "id": "wikimedia-58441125",
-          "title": "L'Empereur. Kuichi Uchida",
-          "year": "1873",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/L%27Empereur._Kuichi_Uchida.tiff/lossy-page1-1280px-L%27Empereur._Kuichi_Uchida.tiff.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/L%27Empereur._Kuichi_Uchida.tiff/lossy-page1-1280px-L%27Empereur._Kuichi_Uchida.tiff.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:L%27Empereur._Kuichi_Uchida.tiff",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1873년에 촬영된 메이지 천황의 공식 초상입니다. 천황 촬영을 허락받은 유일한 사진가였던 우치다가 남긴 이 사진은, 양장 차림의 군주를 통해 근대 국가 일본의 새로운 이미지를 만들어낸 기념비적 작품입니다. 한 장의 초상이 국가의 시각적 상징이 된 드문 사례로, 일본 사진사에서 가장 중요한 이미지 중 하나로 꼽힙니다.",
-          "tr": {
-            "en": {
-              "commentary": "The official portrait of Emperor Meiji, taken in 1873. Made by Uchida, the only photographer ever permitted to photograph the Emperor, it is a monumental work that forged a new image of modern Japan through the figure of a monarch in Western dress. A rare case of a single portrait becoming the visual symbol of a nation, it is counted among the most important images in the history of Japanese photography."
-            },
-            "ja": {
-              "commentary": "1873年に撮影された明治天皇の公式肖像です。天皇の撮影を許された唯一の写真家・内田が残したこの写真は、洋装の君主の姿を通して近代国家日本の新しいイメージをつくり上げた記念碑的作品です。一枚の肖像が国家の視覚的象徴となった稀有な例であり、日本写真史で最も重要なイメージのひとつに数えられます。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-36839784",
           "title": "UCHIDA KUICHI Nagasaki",
           "year": "1870",
@@ -916,6 +896,26 @@
             },
             "ja": {
               "commentary": "内田九一が、故郷にも等しい町・長崎を記録した風景写真です。港町特有の地形を生かした視点の選び方に、東京へ進出する前にこの町で腕を磨いた写真家の馴染んだまなざしが感じられます。明治初期の長崎の姿を伝える貴重な視覚資料でもあります。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-58441125",
+          "title": "L'Empereur. Kuichi Uchida",
+          "year": "1873",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/L%27Empereur._Kuichi_Uchida.tiff/lossy-page1-1280px-L%27Empereur._Kuichi_Uchida.tiff.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/L%27Empereur._Kuichi_Uchida.tiff/lossy-page1-1280px-L%27Empereur._Kuichi_Uchida.tiff.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:L%27Empereur._Kuichi_Uchida.tiff",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1873년에 촬영된 메이지 천황의 공식 초상입니다. 천황 촬영을 허락받은 유일한 사진가였던 우치다가 남긴 이 사진은, 양장 차림의 군주를 통해 근대 국가 일본의 새로운 이미지를 만들어낸 기념비적 작품입니다. 한 장의 초상이 국가의 시각적 상징이 된 드문 사례로, 일본 사진사에서 가장 중요한 이미지 중 하나로 꼽힙니다.",
+          "tr": {
+            "en": {
+              "commentary": "The official portrait of Emperor Meiji, taken in 1873. Made by Uchida, the only photographer ever permitted to photograph the Emperor, it is a monumental work that forged a new image of modern Japan through the figure of a monarch in Western dress. A rare case of a single portrait becoming the visual symbol of a nation, it is counted among the most important images in the history of Japanese photography."
+            },
+            "ja": {
+              "commentary": "1873年に撮影された明治天皇の公式肖像です。天皇の撮影を許された唯一の写真家・内田が残したこの写真は、洋装の君主の姿を通して近代国家日本の新しいイメージをつくり上げた記念碑的作品です。一枚の肖像が国家の視覚的象徴となった稀有な例であり、日本写真史で最も重要なイメージのひとつに数えられます。"
             }
           }
         },
@@ -1960,14 +1960,14 @@
           }
         },
         {
-          "id": "wikimedia-8308020",
-          "title": "Alabama schoolhouse by Walker Evans",
+          "id": "wikimedia-9920323",
+          "title": "Frame house Charleston Walker Evans",
           "year": "1936",
           "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Alabama_schoolhouse_by_Walker_Evans.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Alabama_schoolhouse_by_Walker_Evans.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Frame_house_Charleston_Walker_Evans.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Frame_house_Charleston_Walker_Evans.jpg",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alabama_schoolhouse_by_Walker_Evans.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frame_house_Charleston_Walker_Evans.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -1980,14 +1980,14 @@
           }
         },
         {
-          "id": "wikimedia-9920323",
-          "title": "Frame house Charleston Walker Evans",
+          "id": "wikimedia-8308020",
+          "title": "Alabama schoolhouse by Walker Evans",
           "year": "1936",
           "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Frame_house_Charleston_Walker_Evans.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Frame_house_Charleston_Walker_Evans.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Alabama_schoolhouse_by_Walker_Evans.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Alabama_schoolhouse_by_Walker_Evans.jpg",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frame_house_Charleston_Walker_Evans.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alabama_schoolhouse_by_Walker_Evans.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -2024,26 +2024,6 @@
       },
       "works": [
         {
-          "id": "wikimedia-2740688",
-          "title": "Ella Watson and Her Grandchildren, Washington, D.C.",
-          "year": "1942",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/GordonParksFSA.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/GordonParksFSA.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:GordonParksFSA.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1942년 워싱턴에서 고든 파크스가 정부 청소노동자 엘라 왓슨과 손주들을 촬영한 작품으로, 그의 대표작 '아메리칸 고딕'과 짝을 이루는 유명한 부엌 장면입니다. 좁은 생활 공간에 스며드는 빛과 세대를 아우르는 인물 배치가 한 흑인 가족의 일상을 기념비적으로 승화시킵니다. 인종 차별의 현실을 고발하면서도 피사체의 존엄을 잃지 않는 파크스 다큐멘터리의 정수를 보여줍니다.",
-          "tr": {
-            "en": {
-              "commentary": "Taken in Washington in 1942, this photograph of government charwoman Ella Watson with her grandchildren is the famous kitchen scene that serves as a companion to Parks's iconic 'American Gothic.' The light seeping into the cramped living space and the arrangement of figures spanning generations elevate one Black family's daily life into something monumental. It shows the essence of Parks's documentary work, exposing the reality of racial discrimination while never losing the dignity of his subjects."
-            },
-            "ja": {
-              "commentary": "1942年、ワシントンでゴードン・パークスが政府庁舎の清掃労働者エラ・ワトソンとその孫たちを撮影した作品で、代表作「アメリカン・ゴシック」と対をなす有名な台所のシーンです。狭い生活空間に差し込む光と、世代をまたぐ人物の配置が、ひとりの黒人家族の日常を記念碑的に昇華させています。人種差別の現実を告発しながらも被写体の尊厳を失わない、パークスのドキュメンタリーの真髄を示す一枚です。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-95305822",
           "title": "Service-pnp-fsa-8d25000-8d25500-8d25515r",
           "year": "1943",
@@ -2060,6 +2040,26 @@
             },
             "ja": {
               "commentary": "1943年、米国農業安定局(FSA)・戦時情報局時代にゴードン・パークスがワシントンで残したドキュメンタリーの記録です。人物と日常のディテールを正面から見つめる彼のカメラは、戦時下のアメリカ社会、とりわけ黒人コミュニティの暮らしを尊厳をもって写し取りました。抑制された構図と自然光の活かし方が、記録写真を超えた肖像的な深みを生み出しています。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-2740688",
+          "title": "Ella Watson and Her Grandchildren, Washington, D.C.",
+          "year": "1942",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/GordonParksFSA.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/GordonParksFSA.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:GordonParksFSA.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1942년 워싱턴에서 고든 파크스가 정부 청소노동자 엘라 왓슨과 손주들을 촬영한 작품으로, 그의 대표작 '아메리칸 고딕'과 짝을 이루는 유명한 부엌 장면입니다. 좁은 생활 공간에 스며드는 빛과 세대를 아우르는 인물 배치가 한 흑인 가족의 일상을 기념비적으로 승화시킵니다. 인종 차별의 현실을 고발하면서도 피사체의 존엄을 잃지 않는 파크스 다큐멘터리의 정수를 보여줍니다.",
+          "tr": {
+            "en": {
+              "commentary": "Taken in Washington in 1942, this photograph of government charwoman Ella Watson with her grandchildren is the famous kitchen scene that serves as a companion to Parks's iconic 'American Gothic.' The light seeping into the cramped living space and the arrangement of figures spanning generations elevate one Black family's daily life into something monumental. It shows the essence of Parks's documentary work, exposing the reality of racial discrimination while never losing the dignity of his subjects."
+            },
+            "ja": {
+              "commentary": "1942年、ワシントンでゴードン・パークスが政府庁舎の清掃労働者エラ・ワトソンとその孫たちを撮影した作品で、代表作「アメリカン・ゴシック」と対をなす有名な台所のシーンです。狭い生活空間に差し込む光と、世代をまたぐ人物の配置が、ひとりの黒人家族の日常を記念碑的に昇華させています。人種差別の現実を告発しながらも被写体の尊厳を失わない、パークスのドキュメンタリーの真髄を示す一枚です。"
             }
           }
         },
@@ -2308,54 +2308,54 @@
           }
         },
         {
-          "id": "wikimedia-15325368",
-          "title": "Ansel Adams - National Archives 79-AA-F11",
+          "id": "wikimedia-15325232",
+          "title": "Ansel Adams - National Archives 79-AA-F12",
           "year": "1941",
           "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansel_Adams_-_National_Archives_79-AA-F11.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-F11.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansel_Adams_-_National_Archives_79-AA-F11.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-F11.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Ansel_Adams_-_National_Archives_79-AA-F12.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-F12.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Ansel_Adams_-_National_Archives_79-AA-F12.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-F12.jpg",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-F11.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-F12.jpg",
           "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1941년 국립공원 연작의 하나로, 애덤스가 고안한 존 시스템의 정수를 보여주는 작품입니다. 가장 깊은 그림자부터 눈부신 하이라이트까지 단계별 계조를 제어하는 이 방법은 흑백 사진을 정밀한 악보처럼 다루게 했습니다. 국립기록보관소에 보존된 원판은 그 기술적 완성도를 오늘까지 증언합니다.",
+          "commentary": "",
           "tr": {
             "en": {
-              "commentary": "Part of the 1941 national parks series, this work distills the essence of the Zone System Adams devised. By controlling the scale of tones from the deepest shadow to brilliant highlight, the method let him handle black-and-white photography like a precisely written score. The original held at the National Archives still testifies to that technical mastery."
+              "commentary": ""
             },
             "ja": {
-              "commentary": "1941年の国立公園連作の一枚で、アダムスが考案したゾーンシステムの真髄を示す作品です。最も深い影からまばゆいハイライトまで階調を段階的に制御するこの手法は、モノクロ写真を精密な楽譜のように扱うことを可能にしました。国立公文書館に保存された原板が、その技術的完成度を今に伝えています。"
+              "commentary": ""
             }
           }
         },
         {
-          "id": "wikimedia-15325309",
-          "title": "Ansel Adams - National Archives 79-AA-W01",
-          "year": "1941",
+          "id": "wikimedia-15325326",
+          "title": "Ansel Adams - National Archives 79-AA-A04",
+          "year": "1933",
           "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Ansel_Adams_-_National_Archives_79-AA-W01.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-W01.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Ansel_Adams_-_National_Archives_79-AA-W01.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-W01.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Ansel_Adams_-_National_Archives_79-AA-A04.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-A04.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Ansel_Adams_-_National_Archives_79-AA-A04.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-A04.jpg",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-W01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-A04.jpg",
           "credit": "Wikimedia Commons · Public domain",
-          "commentary": "국립공원관리청 의뢰작으로 1941년에 촬영되어 국립기록보관소에 소장된 작품입니다. 애덤스는 이 연작에서 국립공원뿐 아니라 보호구역과 원주민의 땅까지 카메라에 담으며 미국이라는 풍경의 의미를 폭넓게 탐구했습니다. 반세기가 훌쩍 지난 오늘에도 이 사진들은 자연을 대하는 한 사진가의 경외심을 생생히 전합니다.",
+          "commentary": "",
           "tr": {
             "en": {
-              "commentary": "Commissioned by the National Park Service, this 1941 photograph is held by the National Archives. In this series Adams photographed not only the parks but also protected lands and Native American territories, broadly exploring what the American landscape means. More than half a century on, these images still convey one photographer's vivid reverence for nature."
+              "commentary": ""
             },
             "ja": {
-              "commentary": "国立公園局の依頼により1941年に撮影され、国立公文書館に収蔵されている作品です。アダムスはこの連作で国立公園だけでなく、保護地や先住民の土地にもカメラを向け、アメリカという風景の意味を幅広く探求しました。半世紀以上を経た今も、これらの写真は自然への畏敬の念を鮮やかに伝えています。"
+              "commentary": ""
             }
           }
         },
         {
-          "id": "wikimedia-15325349",
-          "title": "Ansel Adams - National Archives 79-AA-F22",
+          "id": "wikimedia-15325303",
+          "title": "Ansel Adams - National Archives 79-AA-W19",
           "year": "1941",
           "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Ansel_Adams_-_National_Archives_79-AA-F22.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-F22.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Ansel_Adams_-_National_Archives_79-AA-F22.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-F22.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ansel_Adams_-_National_Archives_79-AA-W19.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-W19.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ansel_Adams_-_National_Archives_79-AA-W19.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-W19.jpg",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-F22.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-W19.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -2432,6 +2432,26 @@
           }
         },
         {
+          "id": "wikimedia-31404935",
+          "title": "Arthur Rothstein - marching Chinese troops ppmsca.07799",
+          "year": "1946",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Arthur_Rothstein_-_marching_Chinese_troops_ppmsca.07799.jpg/1280px-Arthur_Rothstein_-_marching_Chinese_troops_ppmsca.07799.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Arthur_Rothstein_-_marching_Chinese_troops_ppmsca.07799.jpg/1280px-Arthur_Rothstein_-_marching_Chinese_troops_ppmsca.07799.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arthur_Rothstein_-_marching_Chinese_troops_ppmsca.07799.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1946년 중국에서 행진하는 병사들을 포착한 사진입니다. UNRRA 활동으로 중국에 머물던 로스타인은 전후 복구의 현장과 함께 여전히 긴장이 감도는 시대의 공기를 기록했습니다. 보도 사진가의 본능으로 역사의 한복판을 놓치지 않은 한 장면입니다.",
+          "tr": {
+            "en": {
+              "commentary": "Marching soldiers captured in China in 1946. While stationed there with the UNRRA, Rothstein recorded both the scenes of postwar recovery and the still-tense air of the era. It is a frame in which a photojournalist's instinct refused to miss the very middle of history."
+            },
+            "ja": {
+              "commentary": "1946年、中国で行進する兵士たちを捉えた写真です。UNRRAの活動で中国に滞在していたロースタインは、戦後復興の現場とともに、なお緊張の漂う時代の空気を記録しました。報道写真家の本能で歴史の真ん中を見逃さなかった一場面です。"
+            }
+          }
+        },
+        {
           "id": "wikimedia-31404796",
           "title": "Arthur Rothstein - Rice distribution during Chinese famine ppmsca.07586",
           "year": "1946",
@@ -2468,26 +2488,6 @@
             },
             "ja": {
               "commentary": ""
-            }
-          }
-        },
-        {
-          "id": "wikimedia-31404935",
-          "title": "Arthur Rothstein - marching Chinese troops ppmsca.07799",
-          "year": "1946",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Arthur_Rothstein_-_marching_Chinese_troops_ppmsca.07799.jpg/1280px-Arthur_Rothstein_-_marching_Chinese_troops_ppmsca.07799.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Arthur_Rothstein_-_marching_Chinese_troops_ppmsca.07799.jpg/1280px-Arthur_Rothstein_-_marching_Chinese_troops_ppmsca.07799.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arthur_Rothstein_-_marching_Chinese_troops_ppmsca.07799.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1946년 중국에서 행진하는 병사들을 포착한 사진입니다. UNRRA 활동으로 중국에 머물던 로스타인은 전후 복구의 현장과 함께 여전히 긴장이 감도는 시대의 공기를 기록했습니다. 보도 사진가의 본능으로 역사의 한복판을 놓치지 않은 한 장면입니다.",
-          "tr": {
-            "en": {
-              "commentary": "Marching soldiers captured in China in 1946. While stationed there with the UNRRA, Rothstein recorded both the scenes of postwar recovery and the still-tense air of the era. It is a frame in which a photojournalist's instinct refused to miss the very middle of history."
-            },
-            "ja": {
-              "commentary": "1946年、中国で行進する兵士たちを捉えた写真です。UNRRAの活動で中国に滞在していたロースタインは、戦後復興の現場とともに、なお緊張の漂う時代の空気を記録しました。報道写真家の本能で歴史の真ん中を見逃さなかった一場面です。"
             }
           }
         },
@@ -2552,26 +2552,6 @@
           }
         },
         {
-          "id": "wikimedia-33422394",
-          "title": "A Boat On A River With Rolling Hills In The Background In The Kiangsu Province Or Yunnan Province In China (1946) Arthur Rothstein (RESTORED) (4094285750)",
-          "year": "1946",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Boat_On_A_River_With_Rolling_Hills_In_The_Background_In_The_Kiangsu_Province_Or_Yunnan_Province_In_China_%281946%29_Arthur_Rothstein_%28RESTORED%29_%284094285750%29.jpg/1280px-A_Boat_On_A_River_With_Rolling_Hills_In_The_Background_In_The_Kiangsu_Province_Or_Yunnan_Province_In_China_%281946%29_Arthur_Rothstein_%28RESTORED%29_%284094285750%29.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Boat_On_A_River_With_Rolling_Hills_In_The_Background_In_The_Kiangsu_Province_Or_Yunnan_Province_In_China_%281946%29_Arthur_Rothstein_%28RESTORED%29_%284094285750%29.jpg/1280px-A_Boat_On_A_River_With_Rolling_Hills_In_The_Background_In_The_Kiangsu_Province_Or_Yunnan_Province_In_China_%281946%29_Arthur_Rothstein_%28RESTORED%29_%284094285750%29.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Boat_On_A_River_With_Rolling_Hills_In_The_Background_In_The_Kiangsu_Province_Or_Yunnan_Province_In_China_(1946)_Arthur_Rothstein_(RESTORED)_(4094285750).jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "",
-          "tr": {
-            "en": {
-              "commentary": ""
-            },
-            "ja": {
-              "commentary": ""
-            }
-          }
-        },
-        {
           "id": "wikimedia-187069463",
           "title": "Nethers Store and Post Office",
           "year": "1935",
@@ -2600,6 +2580,26 @@
           "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Nethers_Store_and_Post_Office_2.tif/lossy-page1-1280px-Nethers_Store_and_Post_Office_2.tif.jpg",
           "source": "wikimedia",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nethers_Store_and_Post_Office_2.tif",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "wikimedia-33422394",
+          "title": "A Boat On A River With Rolling Hills In The Background In The Kiangsu Province Or Yunnan Province In China (1946) Arthur Rothstein (RESTORED) (4094285750)",
+          "year": "1946",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Boat_On_A_River_With_Rolling_Hills_In_The_Background_In_The_Kiangsu_Province_Or_Yunnan_Province_In_China_%281946%29_Arthur_Rothstein_%28RESTORED%29_%284094285750%29.jpg/1280px-A_Boat_On_A_River_With_Rolling_Hills_In_The_Background_In_The_Kiangsu_Province_Or_Yunnan_Province_In_China_%281946%29_Arthur_Rothstein_%28RESTORED%29_%284094285750%29.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Boat_On_A_River_With_Rolling_Hills_In_The_Background_In_The_Kiangsu_Province_Or_Yunnan_Province_In_China_%281946%29_Arthur_Rothstein_%28RESTORED%29_%284094285750%29.jpg/1280px-A_Boat_On_A_River_With_Rolling_Hills_In_The_Background_In_The_Kiangsu_Province_Or_Yunnan_Province_In_China_%281946%29_Arthur_Rothstein_%28RESTORED%29_%284094285750%29.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Boat_On_A_River_With_Rolling_Hills_In_The_Background_In_The_Kiangsu_Province_Or_Yunnan_Province_In_China_(1946)_Arthur_Rothstein_(RESTORED)_(4094285750).jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -2776,26 +2776,6 @@
           }
         },
         {
-          "id": "wikimedia-3259987",
-          "title": "Locomotives-Roundhouse2",
-          "year": "1942",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Locomotives-Roundhouse2.jpg/1280px-Locomotives-Roundhouse2.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Locomotives-Roundhouse2.jpg/1280px-Locomotives-Roundhouse2.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Locomotives-Roundhouse2.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "",
-          "tr": {
-            "en": {
-              "commentary": ""
-            },
-            "ja": {
-              "commentary": ""
-            }
-          }
-        },
-        {
           "id": "wikimedia-33815440",
           "title": "Mrs Irene Bracker by Jack Delano a 1943",
           "year": "1943",
@@ -2824,6 +2804,26 @@
           "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Jack_Delano_-_Corozal%2C_Puerto_Rico.jpg",
           "source": "wikimedia",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jack_Delano_-_Corozal,_Puerto_Rico.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "wikimedia-12692289",
+          "title": "Jack Delano - Santa Fe R.R. near Melrose, New Mexico",
+          "year": "1943",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Jack_Delano_-_Santa_Fe_R.R._near_Melrose%2C_New_Mexico.jpg/1280px-Jack_Delano_-_Santa_Fe_R.R._near_Melrose%2C_New_Mexico.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Jack_Delano_-_Santa_Fe_R.R._near_Melrose%2C_New_Mexico.jpg/1280px-Jack_Delano_-_Santa_Fe_R.R._near_Melrose%2C_New_Mexico.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jack_Delano_-_Santa_Fe_R.R._near_Melrose,_New_Mexico.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -3000,14 +3000,14 @@
           }
         },
         {
-          "id": "wikimedia-123965170",
-          "title": "Fountain in front of hotel. Wallingford, Vermont, by Russell Lee, United States Office of War Information, October 1939, from the Library of Congress - service-pnp-fsa-8b38000-8b38100-8b38121v",
+          "id": "wikimedia-123919292",
+          "title": "Farmer sawing wood near Bradford, Vermont, by Russell Lee, United States Office of War Information, Oct. 1939, from the Library of Congress - master-pnp-fsa-8a27000-8a27200-8a27249a",
           "year": "1939",
           "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Fountain_in_front_of_hotel._Wallingford%2C_Vermont%2C_by_Russell_Lee%2C_United_States_Office_of_War_Information%2C_October_1939%2C_from_the_Library_of_Congress_-_service-pnp-fsa-8b38000-8b38100-8b38121v.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Fountain_in_front_of_hotel._Wallingford%2C_Vermont%2C_by_Russell_Lee%2C_United_States_Office_of_War_Information%2C_October_1939%2C_from_the_Library_of_Congress_-_service-pnp-fsa-8b38000-8b38100-8b38121v.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Farmer_sawing_wood_near_Bradford%2C_Vermont%2C_by_Russell_Lee%2C_United_States_Office_of_War_Information%2C_Oct._1939%2C_from_the_Library_of_Congress_-_master-pnp-fsa-8a27000-8a27200-8a27249a.tif/lossy-page1-1280px-thumbnail.tif.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Farmer_sawing_wood_near_Bradford%2C_Vermont%2C_by_Russell_Lee%2C_United_States_Office_of_War_Information%2C_Oct._1939%2C_from_the_Library_of_Congress_-_master-pnp-fsa-8a27000-8a27200-8a27249a.tif/lossy-page1-1280px-thumbnail.tif.jpg",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fountain_in_front_of_hotel._Wallingford,_Vermont,_by_Russell_Lee,_United_States_Office_of_War_Information,_October_1939,_from_the_Library_of_Congress_-_service-pnp-fsa-8b38000-8b38100-8b38121v.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farmer_sawing_wood_near_Bradford,_Vermont,_by_Russell_Lee,_United_States_Office_of_War_Information,_Oct._1939,_from_the_Library_of_Congress_-_master-pnp-fsa-8a27000-8a27200-8a27249a.tif",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -3496,10 +3496,10 @@
           "title": "Untitled (Ceylon)",
           "year": "1875/79",
           "medium": "Albumen print",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Untitled_%28Ceylon%29_1%2C_by_Julia_Margaret_Cameron.jpg/1280px-Untitled_%28Ceylon%29_1%2C_by_Julia_Margaret_Cameron.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Untitled_%28Ceylon%29_1%2C_by_Julia_Margaret_Cameron.jpg/1280px-Untitled_%28Ceylon%29_1%2C_by_Julia_Margaret_Cameron.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Untitled_%28Ceylon%29_3%2C_by_Julia_Margaret_Cameron.jpg/1280px-Untitled_%28Ceylon%29_3%2C_by_Julia_Margaret_Cameron.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Untitled_%28Ceylon%29_3%2C_by_Julia_Margaret_Cameron.jpg/1280px-Untitled_%28Ceylon%29_3%2C_by_Julia_Margaret_Cameron.jpg",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Untitled_(Ceylon)_1,_by_Julia_Margaret_Cameron.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Untitled_(Ceylon)_3,_by_Julia_Margaret_Cameron.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "줄리아 마가렛 카메론의 이 작품은 1875년에서 1879년 사이에 실론(현 스리랑카)에서 촬영된 것으로, 당시 제국주의 시대의 이국적인 풍경과 인물을 담고 있습니다. 부드러운 빛과 몽환적인 초점은 인물의 신비로움을 강조하며, 당시 서구 사회가 동양에 투영했던 환상과 호기심을 엿볼 수 있게 합니다. 이는 단순한 기록을 넘어, 시대의 시선과 작가의 예술적 감수성이 결합된 흥미로운 결과물입니다.",
           "tr": {
@@ -3627,7 +3627,7 @@
       "deathYear": 1927,
       "tagline": "파리의 숨결을 담은 사진가",
       "bio": "외젠 앗제는 파리의 사라져가는 풍경과 사람들의 일상을 묵묵히 기록하며 도시의 기억을 붙잡았습니다. 그의 렌즈는 화려함보다는 소박함 속에 깃든 진실을 담아냈고, 이는 후대 사진가들에게 도시의 본질을 탐구하는 새로운 시각을 열어주었습니다. 앗제의 사진은 단순한 기록을 넘어, 시간의 흐름 속에서 변해가는 삶의 흔적들을 애정 어린 시선으로 보듬어 사진사의 중요한 한 페이지를 장식했습니다.",
-      "portraitUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Eug%C3%A8ne_Atget%2C_Joueur_de_Guitare%2C_1900.jpg/1280px-Eug%C3%A8ne_Atget%2C_Joueur_de_Guitare%2C_1900.jpg",
+      "portraitUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Eug%C3%A8ne_Atget%2C_Market_Porter_-_Getty_Museum.jpg/1280px-Eug%C3%A8ne_Atget%2C_Market_Porter_-_Getty_Museum.jpg",
       "tr": {
         "en": {
           "tagline": "A Photographer Capturing the Breath of Paris",
@@ -4172,6 +4172,26 @@
             },
             "ja": {
               "commentary": "ロジャー・フェントンによるこの作品は、クリミア戦争の荒涼とした風景を捉えた初期の戦争写真の傑作です。空っぽの谷に散らばる砲弾は、戦闘の凄惨な痕跡と人間の不在を強烈に示し、戦争の悲劇的な本質を象徴的に捉えています。この写真は、技術的な限界から実際の戦闘を捉えることができなかった当時の戦争写真の文脈において、戦場の静かな破壊と歴史的重みを卓越して伝えています。"
+            }
+          }
+        },
+        {
+          "id": "aic-123394",
+          "title": "Sebastopol from Cathcart's Hill",
+          "year": "1855",
+          "medium": "Salted paper print, from the album \"Photographic Pictures of the Seat of War in the Crimea\" (1856)",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Sebastopol_from_Cathcart%27s_Hill_%28IA_mma_sebastopol_from_cathcarts_hill_283159%29.jpg/1280px-Sebastopol_from_Cathcart%27s_Hill_%28IA_mma_sebastopol_from_cathcarts_hill_283159%29.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Sebastopol_from_Cathcart%27s_Hill_%28IA_mma_sebastopol_from_cathcarts_hill_283159%29.jpg/1280px-Sebastopol_from_Cathcart%27s_Hill_%28IA_mma_sebastopol_from_cathcarts_hill_283159%29.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sebastopol_from_Cathcart%27s_Hill_(IA_mma_sebastopol_from_cathcarts_hill_283159).jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "Roger Fenton의 이 작품은 크림 전쟁의 현장을 기록한 초기 전쟁 사진의 선구적인 예시입니다. 캐스카트 언덕에서 바라본 세바스토폴의 전경은 당시 기술적 한계 속에서도 전쟁의 광활한 스케일과 전략적 중요성을 차분하고 객관적인 구도로 포착해냅니다. 이는 전장의 직접적인 참상 대신 그 배경을 보여줌으로써, 대중에게 전쟁의 실체를 전달하려 했던 초기 포토저널리즘의 중요한 맥락을 형성합니다.",
+          "tr": {
+            "en": {
+              "commentary": "This work by Roger Fenton is a pioneering example of early war photography documenting the Crimean War. The panoramic view of Sevastopol from Cathcart's Hill captures the vast scale and strategic importance of the war with a calm and objective composition, despite the technological limitations of the time. This forms an important context for early photojournalism, which sought to convey the reality of war to the public by showing its background rather than its direct horrors."
+            },
+            "ja": {
+              "commentary": "Roger Fentonによるこの作品は、クリミア戦争の現場を記録した初期の戦争写真の先駆的な例です。キャスカートの丘から見たセヴァストポリの全景は、当時の技術的限界にもかかわらず、戦争の広大なスケールと戦略的重要性をおだやかで客観的な構図で捉えています。これは、戦場の直接的な惨状ではなくその背景を示すことで、大衆に戦争の現実を伝えようとした初期のフォトジャーナリズムの重要な文脈を形成しています。"
             }
           }
         }
@@ -5155,7 +5175,7 @@
       "deathYear": 1898,
       "tagline": "이집트를 기록한 풍경 사진의 거장",
       "bio": "프랜시스 프리스는 1850년대 이집트와 성지를 여러 차례 여행하며 기념비적인 풍경 사진을 남긴 영국의 사진가입니다. 혹독한 더위와 모래바람 속에서 까다로운 습판 콜로디온 기법으로 대형 원판을 현상해낸 그의 작업은 기술적 위업이자 시각적 경이였습니다. 피라미드와 고대 신전을 담은 그의 앨범은 빅토리아 시대 사람들에게 고대 문명을 처음으로 '보여준' 창이 되었습니다. 이후 그가 세운 프리스 사진 출판사는 풍경 사진을 대중에게 보급하는 거대한 아카이브로 성장하며, 사진과 출판을 잇는 새로운 길을 열었습니다.",
-      "portraitUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Francis_Frith_in_Turkish_summer_costume_LCCN2018646031.jpg/1280px-Francis_Frith_in_Turkish_summer_costume_LCCN2018646031.jpg",
+      "portraitUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Photograph_of_the_Sodhis_of_Anandpur_Sahib%2C_by_Francis_Frith%2C_ca.1850%27s%E2%80%931870%27s.jpg/1280px-Photograph_of_the_Sodhis_of_Anandpur_Sahib%2C_by_Francis_Frith%2C_ca.1850%27s%E2%80%931870%27s.jpg",
       "tr": {
         "en": {
           "tagline": "Master of monumental views of Egypt",
@@ -5352,14 +5372,14 @@
           }
         },
         {
-          "id": "wikimedia-60497106",
-          "title": "Grotesques by Aubrey Beardsley. Facsimile Platinum Prints by Frederick H. Evans from the Twelve Original Drawings in His Collection with a Portrait Frontispiece MET DP366704",
+          "id": "wikimedia-60497107",
+          "title": "Grotesques by Aubrey Beardsley. Facsimile Platinum Prints by Frederick H. Evans from the Twelve Original Drawings in His Collection with a Portrait Frontispiece MET DP366708",
           "year": "1910",
           "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366704.jpg/1280px-thumbnail.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366704.jpg/1280px-thumbnail.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366708.jpg/1280px-thumbnail.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366708.jpg/1280px-thumbnail.jpg",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366704.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366708.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -5372,14 +5392,14 @@
           }
         },
         {
-          "id": "wikimedia-60497101",
-          "title": "Grotesques by Aubrey Beardsley. Facsimile Platinum Prints by Frederick H. Evans from the Twelve Original Drawings in His Collection with a Portrait Frontispiece MET DP366703",
+          "id": "wikimedia-60497106",
+          "title": "Grotesques by Aubrey Beardsley. Facsimile Platinum Prints by Frederick H. Evans from the Twelve Original Drawings in His Collection with a Portrait Frontispiece MET DP366704",
           "year": "1910",
           "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366703.jpg/1280px-thumbnail.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366703.jpg/1280px-thumbnail.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366704.jpg/1280px-thumbnail.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366704.jpg/1280px-thumbnail.jpg",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366703.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366704.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -5728,26 +5748,6 @@
           }
         },
         {
-          "id": "wikimedia-17486925",
-          "title": "William Ivins by Gertrude Käsebier c1910",
-          "year": "1910",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/William_Ivins_by_Gertrude_K%C3%A4sebier_c1910.jpg/1280px-William_Ivins_by_Gertrude_K%C3%A4sebier_c1910.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/William_Ivins_by_Gertrude_K%C3%A4sebier_c1910.jpg/1280px-William_Ivins_by_Gertrude_K%C3%A4sebier_c1910.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:William_Ivins_by_Gertrude_K%C3%A4sebier_c1910.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "",
-          "tr": {
-            "en": {
-              "commentary": ""
-            },
-            "ja": {
-              "commentary": ""
-            }
-          }
-        },
-        {
           "id": "wikimedia-22179227",
           "title": "Gertrude Käsebier (American - (Gertrude Käsebier O'Malley at Billiards) - Google Art Project",
           "year": "1909",
@@ -5768,34 +5768,14 @@
           }
         },
         {
-          "id": "wikimedia-12854640",
-          "title": "Joseph T. Keiley, photographed by Gertrude Käsebier, 1900",
-          "year": "1899",
+          "id": "wikimedia-17486925",
+          "title": "William Ivins by Gertrude Käsebier c1910",
+          "year": "1910",
           "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Joseph_T._Keiley%2C_photographed_by_Gertrude_K%C3%A4sebier%2C_1900.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Joseph_T._Keiley%2C_photographed_by_Gertrude_K%C3%A4sebier%2C_1900.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/William_Ivins_by_Gertrude_K%C3%A4sebier_c1910.jpg/1280px-William_Ivins_by_Gertrude_K%C3%A4sebier_c1910.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/William_Ivins_by_Gertrude_K%C3%A4sebier_c1910.jpg/1280px-William_Ivins_by_Gertrude_K%C3%A4sebier_c1910.jpg",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Joseph_T._Keiley,_photographed_by_Gertrude_K%C3%A4sebier,_1900.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "",
-          "tr": {
-            "en": {
-              "commentary": ""
-            },
-            "ja": {
-              "commentary": ""
-            }
-          }
-        },
-        {
-          "id": "wikimedia-67973381",
-          "title": "The foremost women photographers of America A series of beautiful photographs showing what American women have done with the camera. First- The work of Mrs. Gertrude Käsebier - - Edited by LCCN2013645939",
-          "year": "1901",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/The_foremost_women_photographers_of_America_A_series_of_beautiful_photographs_showing_what_American_women_have_done_with_the_camera._First-_The_work_of_Mrs._Gertrude_K%C3%A4sebier_-_-_Edited_by_LCCN2013645939.jpg/1280px-thumbnail.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/The_foremost_women_photographers_of_America_A_series_of_beautiful_photographs_showing_what_American_women_have_done_with_the_camera._First-_The_work_of_Mrs._Gertrude_K%C3%A4sebier_-_-_Edited_by_LCCN2013645939.jpg/1280px-thumbnail.jpg",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_foremost_women_photographers_of_America_A_series_of_beautiful_photographs_showing_what_American_women_have_done_with_the_camera._First-_The_work_of_Mrs._Gertrude_K%C3%A4sebier_-_-_Edited_by_LCCN2013645939.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:William_Ivins_by_Gertrude_K%C3%A4sebier_c1910.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -5828,14 +5808,54 @@
           }
         },
         {
-          "id": "wikimedia-9670549",
-          "title": "Joaquin Sorolla by Gertrude Käsebier, 1908",
+          "id": "wikimedia-12854640",
+          "title": "Joseph T. Keiley, photographed by Gertrude Käsebier, 1900",
+          "year": "1899",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Joseph_T._Keiley%2C_photographed_by_Gertrude_K%C3%A4sebier%2C_1900.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Joseph_T._Keiley%2C_photographed_by_Gertrude_K%C3%A4sebier%2C_1900.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Joseph_T._Keiley,_photographed_by_Gertrude_K%C3%A4sebier,_1900.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "wikimedia-29802704",
+          "title": "Lucille Thomajon",
           "year": "1908",
           "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Joaquin_Sorolla_by_Gertrude_K%C3%A4sebier%2C_1908.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Joaquin_Sorolla_by_Gertrude_K%C3%A4sebier%2C_1908.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg/1280px-Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg/1280px-Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Joaquin_Sorolla_by_Gertrude_K%C3%A4sebier,_1908.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "wikimedia-67973381",
+          "title": "The foremost women photographers of America A series of beautiful photographs showing what American women have done with the camera. First- The work of Mrs. Gertrude Käsebier - - Edited by LCCN2013645939",
+          "year": "1901",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/The_foremost_women_photographers_of_America_A_series_of_beautiful_photographs_showing_what_American_women_have_done_with_the_camera._First-_The_work_of_Mrs._Gertrude_K%C3%A4sebier_-_-_Edited_by_LCCN2013645939.jpg/1280px-thumbnail.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/The_foremost_women_photographers_of_America_A_series_of_beautiful_photographs_showing_what_American_women_have_done_with_the_camera._First-_The_work_of_Mrs._Gertrude_K%C3%A4sebier_-_-_Edited_by_LCCN2013645939.jpg/1280px-thumbnail.jpg",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_foremost_women_photographers_of_America_A_series_of_beautiful_photographs_showing_what_American_women_have_done_with_the_camera._First-_The_work_of_Mrs._Gertrude_K%C3%A4sebier_-_-_Edited_by_LCCN2013645939.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
