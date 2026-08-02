@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T17:00:48.854992+00:00",
+  "generated_at": "2026-08-02T19:36:45.013837+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -34549,7 +34549,7 @@
       "price_max": null,
       "start_date": "2026-07-14",
       "end_date": "2026-08-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "1ab862183c75",
@@ -40132,7 +40132,7 @@
       "price_max": null,
       "start_date": "2026-06-26",
       "end_date": "2026-08-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ec7e14bc9bb2",
@@ -44518,7 +44518,7 @@
       "price_max": null,
       "start_date": "2026-07-27",
       "end_date": "2026-08-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "57bd0e5ca649",
@@ -46191,7 +46191,7 @@
       "price_max": null,
       "start_date": "2026-07-04",
       "end_date": "2026-08-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "6e3525336260",
@@ -48513,7 +48513,7 @@
       "price_max": null,
       "start_date": "2026-07-10",
       "end_date": "2026-08-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "70fc6a303ab0",
@@ -48920,7 +48920,7 @@
       "price_max": null,
       "start_date": "2026-07-15",
       "end_date": "2026-08-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "1ab862183c75",
@@ -50102,24 +50102,13 @@
       "popularity_score": null
     },
     {
-      "id": "2fa9d35cb9bf",
+      "id": "f68041af84f4",
       "source": "totem_pole",
-      "title": "A Town in Waiting",
-      "lang": "en",
-      "tr": {
-        "ko": {
-          "title": "어 타운 인 웨이팅",
-          "description": "PhotoONE 연동 기획 대만 젊은 사진작가전\n\nKoo Jia Lih\n\nA Town in Waiting\n\n2026.8.3 (mon) – 8.16 (sun)\n\nOpen 12:00 – 19:00\n\n카메라를 한 손에 들고 이 장소를 헤매던 나날들, 시간은 천천히 흘러갔다. 온화하고 아름다운 환상에 휩싸이기도 하고, 불안과 두려움에 휩쓸리기도 했다. 때때로 작은 놀라움도 만났다. 나는 이 새로운 도시에 미래에 대한 환상을 겹쳐 보았다. 그곳에는 미지, 희망, 무력감, 그리고 두려움이 뒤섞여 있었다. 단하이 신도시는 도시 중심부로의 인구 집중, 주택 부족, 주택 가격 상승을 완화하기 위해 단수이에서 개발이 시작된 새로운 도시이다. 도시에 발을 들여놓으면 높이 솟은 건축물들이 늘어서 있고, 울타리로 둘러싸인 광대한 황무지가 펼쳐져 있다. 농지도 있고, 잔잔한 해변도 있다. 여기서는 시간 감각이 모호해진다. 빠르게 쌓여가는 건설과 사람도 차도 적은 느긋한 시간. 그 두 가지가 공존함으로써 단하이에는 마치 가상 도시와 같은, 어딘가 현실감이 희박한 분위기가 감돈다. 1990년대 말에 태어나 타이베이의 밀집된 도시에서 자란 나는 줄곧 더 넓고 조용한 곳에서 살기를 꿈꿔왔다. 그래서 이 장소에 강하게 끌리는 것이라고 생각한다. 단하이는 나에게 부드럽고 무한한 가능성을 품은 땅이며, 이상적인 장소에 대한 동경 그 자체이기도 하다. 하지만 지금 눈앞에서 진행되고 있는 이 개발이 정말 이상향으로 향하고 있는 것인지, 아니면 덧없는 꿈의 붕괴인지, 나는 아직 알 수 없다. 잠시 시간을 두고 다시 단하이를 방문하니, 오랫동안 폐쇄되었던 도로에서는 공사가 시작되었고, 해안가에는 새로운 공사용 울타리가 늘어서 있었다. 석양을 바라보던 비밀 장소에도 굴착기와 임시 경비 초소가 나타났다. 우리는 그저 과거에 계속 작별을 고하며, 이 도시가 어디로 향하고 있는지 지켜보고 있다.\n\nKoo Jia Lih 1998년생, 타이베이 출신. 담강대학교 매스커뮤니케이션학과 졸업. 현재는 프리랜서 사진작가로 활동. 환경과 자신의 감정, 심리 상태를 주제로 작품 활동을 한다. 개인적인 기억과 공명하며, 자신의 내면 세계와 겹치는 이미지를 카메라를 통해 계속 찾아나가고 있다. 풍경, 스트리트 스냅, 일상 기록, 개인 사진을 주요 표현 수단으로 하며, 고요함을 띠는 분위기 있는 작품이 특징이다. 2021 \"Emerging from the Wilderness\" 영 포트폴리오, 키요사토 포토아트 뮤지엄, 야마나시, 일본 2023 대만 보도사진상 시리즈 부문 3위 \"단하이 신도시 - 이상향의 문턱에서\" 2020 대만 보도사진상 시리즈 부문 우수작 \"독립 건물 풍경\" Website: https://jialihs940222.wixsite.com/portfolioInstagram: https://www.instagram.com/jialihkoo/\n\n[전시 기간 중 이벤트] 이번 전시는 타이베이에서 개최되는 사진 페어 \"Photo ONE\"과 연동된 기획으로, photographers’ gallery와 Place M의 공동 개최로 대만 출신 젊은 사진작가 세 명을 소개합니다. 8월 8일 (토)에는 다음 시간표에 따라 세 곳의 갤러리를 순회하며 각 전시 작가의 플로어 토크를 진행합니다. 이 기회에 꼭 함께 참여해 주십시오.\n\n※스마트폰에서는 좌우로 스크롤하여 보십시오."
-        },
-        "ja": {
-          "title": "ア タウン イン ウェイティング"
-        },
-        "en": {
-          "description": "PhotoONE Collaborative Project: Exhibition of Young Taiwanese Photographers\n\nKoo Jia Lih\n\nA Town in Waiting\n\n2026.8.3 (mon) – 8.16 (sun)\n\nOpen 12:00 – 19:00\n\nDays spent wandering this place with a camera in hand, time flowed slowly. Sometimes enveloped in gentle and beautiful illusions, other times swallowed by anxiety and fear. Occasionally, I also encountered small surprises. I superimposed my illusions of the future onto this new city. There, the unknown, hope, powerlessness, and fear were mixed together. Tamsui New Town is a new city whose development began in Tamsui to alleviate population concentration in urban centers, housing shortages, and rising housing prices. Stepping into the city, towering buildings line up, and vast desolate land enclosed by fences spreads out. There are farmlands, and also calm beaches. Here, the sense of time becomes ambiguous. Rapidly accumulating construction and slow time with few people or cars. By the coexistence of both, Tamsui has an atmosphere like a virtual city, somewhat lacking in realism. Born in the late 1990s and raised in the densely populated city of Taipei, I have always dreamed of living in a wider, quieter place. That's why I think I'm strongly drawn to this place. Tamsui is for me a gentle land with infinite possibilities, and also the very longing for an ideal place. However, I still don't know if this development currently underway is truly heading towards a utopia, or if it's the collapse of a fleeting dream. After some time, when I visited Tamsui again, construction had begun on roads that had been closed for a long time, and new construction fences lined the coast. Even in the secret spot where I used to watch the sunset, excavators and temporary guard shacks appeared. We are simply watching where this city is heading, while continuously bidding farewell to the past.\n\nKoo Jia Lih, born 1998, from Taipei. Graduated from Tamkang University, Department of Mass Communication. Currently active as a freelance photographer. Creates works on the themes of environment, personal emotions, and psychological states. Continues to search through the camera for images that resonate with personal memories and overlap with her inner world. Her main expressive methods are landscape, street snaps, daily records, and private photos, characterized by works with a quiet, atmospheric feel. 2021 \"Emerging from the Wilderness,\" Young Portfolio, Kiyosato Photo Art Museum, Yamanashi, Japan 2023 Taiwan Press Photo Award, Series Category, 3rd Place \"Tamsui New Town - On the Threshold of Utopia\" 2020 Taiwan Press Photo Award, Series Category, Excellent Work \"Detached Building Landscape\" Website: https://jialihs940222.wixsite.com/portfolioInstagram: https://www.instagram.com/jialihkoo/\n\n[Events during the Exhibition Period] This exhibition is a collaborative project linked with the \"Photo ONE\" photography fair held in Taipei, co-hosted by photographers’ gallery and Place M, introducing three young photographers from Taiwan. On August 8th (Saturday), floor talks by each exhibiting artist will be held at three galleries according to the following schedule. Please take this opportunity to join us.\n\n※On smartphones, please scroll horizontally to view."
-        }
-      },
+      "title": "理想と荒野のあいだ / A Town in Waiting",
+      "lang": null,
+      "tr": {},
       "poster_image_url": "https://tppg.jp/wp/wp-content/uploads/2026/06/A-town-in-wating-01.jpg",
-      "description": "PhotoONE連動企画台湾若手写真家展\n\n古佳⽴ / Koo Jia Lih\n\n理想と荒野のあいだ / A Town in Waiting\n\n2026.8.3 (mon) – 8.16 (sun)\n\nOpen 12:00 – 19:00\n\nカメラを⽚⼿にこの場所を彷徨っていた⽇々、時間はゆっくりと流れていた。穏やかで美しい幻想に包まれることもあれば、不安や恐れに呑み込まれることもある。時折、⼩さな驚きにも出会った。私はこの新しい街に、未来への幻想を重ねていた。そこには未知や希望、無⼒感、そして恐れが混ざり合っている。淡海ニュータウンは、都市中⼼部への⼈⼜集中や住宅不⾜、住宅価格の⾼騰を緩和するために、淡⽔で開発が始まった新しい街である。街へ⾜を踏み入れると、⾼くそびえる建築群が⽴ち並び、フェンスで囲われた広⼤な荒れ地が広がっている。農地もあれば、穏やかな海辺もある。ここでは時間の感覚が曖昧になっていく。急速に積み上がっていく建設と、⼈も⾞も少ないゆるやかな時間。その両⽅が共存することで、淡海にはまるで仮想都市のような、どこか現実感の薄い空気が漂っている。1990年代末に⽣まれ、台北の密集した都市の中で育った私は、ずっと、もっと広く静かな場所で暮らすことを夢⾒てきた。だからこそ、この場所に強く惹かれているのだと思う。淡海は私にとって、やさしく、無限の可能性を秘めた⼟地であり、理想の場所への憧れそのものでもある。しかし、いま⽬の前で進んでいるこの開発が、本当に理想郷へ向かっているのか、それとも儚い夢の崩壊なのか、私にはまだ分からない。しばらく時間を置いて再び淡海を訪れると、長く閉鎖されていた道路では⼯事が始まり、海沿いには新たな⼯事⽤フェンスが⽴ち並んでいた。⼣⽇を眺めていた秘密の場所にも、ショベルカーや仮設の警備⼩屋が現れている。私たちはただ、過去に別れを告げ続けながら、この街がどこへ向かおうとしているのかを⾒つめている。\n\n古佳⽴1998年⽣まれ、台北出身。淡江⼤学マス・コミュニケーション学科卒業。現在はフリーランスのフォトグラファーとして活動。環境や⾃身の感情、⼼理状態を主題に制作を⾏う。個⼈的な記憶と響き合い、⾃身の内⾯世界に重なるイメージを、カメラを通して探し続けている。ランドスケープ、ストリートスナップ、⽇常の記録、プライベートフォトを主な表現⼿法とし、静けさを帯びた空気感のある作品を特徴とする。2021 「Emerging from the Wilderness」ヤング・ポートフォリオ、清⾥フォトアートミュージアム、山梨、⽇本2023 台湾報道写真賞 シリーズ部⾨ 第三位「淡海ニュータウン―理想の⼿前で」2020 台湾報道写真賞 シリーズ部⾨ 優選「独棟風景」Website: https://jialihs940222.wixsite.com/portfolioInstagram: https://www.instagram.com/jialihkoo/\n\n【会期中イベント】今回の展示は台北で開催されている写真フェア「Photo ONE」と連動した企画となり、photographers’ gallery と Place M との共同開催として、台湾出身の若手写真家を三名を紹介いたします。8月8日（土）には以下のタイムスケジュールにて、三ヶ所のギャラリーを巡り、それぞれの展示作家のフロアトークを行います。この機会、お誘い合わせのうえぜひご参加下さい。\n\n※スマートフォンでは左右にスクロールしてご覧ください。",
+      "description": "PhotoONE連動企画台湾若手写真家展\n\n古佳⽴ / Koo Jia Lih\n\n理想と荒野のあいだ / A Town in Waiting\n\n2026.8.3 (mon) – 8.16 (sun) ※今会期は月曜日もオープンしております。photographers’ gallery、Place Mの展示と併せてご高覧ください。\n\nOpen 12:00 – 19:00\n\nカメラを⽚⼿にこの場所を彷徨っていた⽇々、時間はゆっくりと流れていた。穏やかで美しい幻想に包まれることもあれば、不安や恐れに呑み込まれることもある。時折、⼩さな驚きにも出会った。私はこの新しい街に、未来への幻想を重ねていた。そこには未知や希望、無⼒感、そして恐れが混ざり合っている。淡海ニュータウンは、都市中⼼部への⼈⼜集中や住宅不⾜、住宅価格の⾼騰を緩和するために、淡⽔で開発が始まった新しい街である。街へ⾜を踏み入れると、⾼くそびえる建築群が⽴ち並び、フェンスで囲われた広⼤な荒れ地が広がっている。農地もあれば、穏やかな海辺もある。ここでは時間の感覚が曖昧になっていく。急速に積み上がっていく建設と、⼈も⾞も少ないゆるやかな時間。その両⽅が共存することで、淡海にはまるで仮想都市のような、どこか現実感の薄い空気が漂っている。1990年代末に⽣まれ、台北の密集した都市の中で育った私は、ずっと、もっと広く静かな場所で暮らすことを夢⾒てきた。だからこそ、この場所に強く惹かれているのだと思う。淡海は私にとって、やさしく、無限の可能性を秘めた⼟地であり、理想の場所への憧れそのものでもある。しかし、いま⽬の前で進んでいるこの開発が、本当に理想郷へ向かっているのか、それとも儚い夢の崩壊なのか、私にはまだ分からない。しばらく時間を置いて再び淡海を訪れると、長く閉鎖されていた道路では⼯事が始まり、海沿いには新たな⼯事⽤フェンスが⽴ち並んでいた。⼣⽇を眺めていた秘密の場所にも、ショベルカーや仮設の警備⼩屋が現れている。私たちはただ、過去に別れを告げ続けながら、この街がどこへ向かおうとしているのかを⾒つめている。\n\n古佳⽴1998年⽣まれ、台北出身。淡江⼤学マス・コミュニケーション学科卒業。現在はフリーランスのフォトグラファーとして活動。環境や⾃身の感情、⼼理状態を主題に制作を⾏う。個⼈的な記憶と響き合い、⾃身の内⾯世界に重なるイメージを、カメラを通して探し続けている。ランドスケープ、ストリートスナップ、⽇常の記録、プライベートフォトを主な表現⼿法とし、静けさを帯びた空気感のある作品を特徴とする。2021 「Emerging from the Wilderness」ヤング・ポートフォリオ、清⾥フォトアートミュージアム、山梨、⽇本2023 台湾報道写真賞 シリーズ部⾨ 第三位「淡海ニュータウン―理想の⼿前で」2020 台湾報道写真賞 シリーズ部⾨ 優選「独棟風景」Website: https://jialihs940222.wixsite.com/portfolioInstagram: https://www.instagram.com/jialihkoo/\n\n【会期中イベント】今回の展示は台北で開催されている写真フェア「Photo ONE」と連動した企画となり、photographers’ gallery と Place M との共同開催として、台湾出身の若手写真家を三名を紹介いたします。8月8日（土）には以下のタイムスケジュールにて、三ヶ所のギャラリーを巡り、それぞれの展示作家のフロアトークを行います。この機会、お誘い合わせのうえぜひご参加下さい。\n\n※スマートフォンでは左右にスクロールしてご覧ください。",
       "medium": "photo",
       "exhibition_type": "solo",
       "genre_tags": [],
@@ -50149,17 +50138,10 @@
       },
       "artists": [
         {
-          "id": "fb8433158db4",
-          "name": "古佳⽴ / Jialih Koo",
-          "lang": "ja",
-          "tr": {
-            "ko": {
-              "name": "고가립 / Jialih Koo"
-            },
-            "en": {
-              "name": "Jialih Koo"
-            }
-          }
+          "id": "f12519b1fe11",
+          "name": "古佳⽴ / Koo Jia Lih",
+          "lang": null,
+          "tr": {}
         },
         {
           "id": "1ae0dd2b26e2",
@@ -50171,6 +50153,19 @@
             },
             "en": {
               "name": "Ko Karitsu"
+            }
+          }
+        },
+        {
+          "id": "fb8433158db4",
+          "name": "古佳⽴ / Jialih Koo",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "고가립 / Jialih Koo"
+            },
+            "en": {
+              "name": "Jialih Koo"
             }
           }
         }
@@ -50732,21 +50727,14 @@
       "popularity_score": null
     },
     {
-      "id": "7baba05d78ed",
-      "source": "tokyo_art_beat",
-      "title": "シ・ウェンビン 「白河夜船」",
-      "lang": "ja",
-      "tr": {
-        "ko": {
-          "title": "시 원빈 「시라카와 요후네」"
-        },
-        "en": {
-          "title": "Shi Wenbin 'Shirakawa Yofune'"
-        }
-      },
-      "poster_image_url": "https://images.ctfassets.net/j05yk38inose/6Gx6Lw2cCcXg8jrNDsUDvr/6beeb64cf08e6b7cd487fd0c5df996f8/7eca9255-c91d-4654-b6b9-bfdd7c8ffa61.jpg",
-      "description": null,
-      "medium": "mixed",
+      "id": "a8f7b39d6ba1",
+      "source": "totem_pole",
+      "title": "Moonlight Voyage",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://tppg.jp/wp/wp-content/uploads/2026/06/DSCF0134-1568x2352.jpg",
+      "description": "史 文斌 / シ ウェンビン / Wenbin Shi\n\n白河夜船 / Moonlight Voyage\n\n2026.8.25 (tue) – 8.30 (sun)\n\nOpen 12:00 – 19:00\n\n私の夢の中に現れたものの、実際には出会ったことのない鳥や獣たちは、宙に浮いた生命意識のような存在だ。これらの動物や感情の存在には歴史性がなく、ただ潜在意識の視野を横切るようにして存在しているに過ぎない。半睡半醒の朦朧とした状態の中で、私はしばしばある境地に陥り、まるで小舟に横たわり、川の流れに身を任せてどこへ行くかも分からずに下っているような感覚に襲われる。私にとって、これらの光景はすでにきらめく破片へと変わり、私の肉体の中に溶け込んでいる。それらはあの陰鬱な存在を携え、私の心の中で苦難に遭い、自らの姿を再構築し、まるで炎の中へ踏み込む魔法使いのように、私の夢の中で繰り返し現れる。私は、ごくかすかな反響を耳にしているような気がする――それは記憶の隙間から滲み出る息遣いのようでもあり、川面の下でひそかにうねる潮の満ち引きのようでもある。それらは何も語らないが、別の方法で私に触れている。おそらく、すべての苦しみは今、ある種の優しさによって新たな名を与えられているのだろう。もはやただ裂け目の跡だけではない。月明かりに照らされた白い川が育んだ、新たな姿へと生まれ変わっているのだ。それらはゆっくりと私を変え、まだ言葉にできないような境地へと導いていく。そこでは、生命の闇の部分と優しさ、傷つきやすさと希望、すべてが共存している。\n\nThe birds and beasts that appear in my dreams yet remain unseen in reality exist like suspended consciousnesses of life. These animals and emotions possess no historical roots; they exist only as fleeting glimpses in the subconscious. In that half-asleep haze, I often find myself adrift, as if lying in a small boat floating down a river, bound for nowhere.For me, these images have become shimmering fragments embedded within my body. They carry those grayish existences, suffering within my heart, and weave themselves anew—like magicians stepping into flames, reappearing again and again in my dreams. I seem to hear a faint echo, like breath seeping from the cracks of memory, or like the tides surging darkly beneath the river’s surface. They say nothing, yet touch me in another way.Perhaps all suffering is now being renamed by some tenderness. No longer mere scars of tearing, they become new forms born from the white river under moonlight. Slowly, they transform me, guiding me toward a realm yet beyond words.There, life reveals its darker underside—where tenderness, fracture, and hope are all held together.\n\n史 文斌写真家，1996年生まれ。現在は上海を拠点に活動している。彼の写真は、都市およびその周辺地域で再構築された自然景観に焦点を当て、都市環境における人間と自然、そしてその背後にある共生関係を探求している。第6回中国青年写真振興計画「鯤鵬賞」を受賞した経歴を持ち、作品は平遥国際写真展組織委員会、呉文化博物館、南京芸術学院美術館などの機関や個人によって所蔵されている。\n\nWenbin ShiPhotographer, born in 1996, currently resides in Shanghai. His photography focuses on reshaped natural landscapes within and surrounding urban areas, exploring the symbiotic relationship between humans and nature within the urban environment. He was awarded the 「Kunpeng」 Prize at the Sixth China Youth Photography Promotion Project. His works have been collected by organizations including the Pingyao International Photography Festival Exhibition Committee, the Wu Culture Museum, and the Nanjing University of the Arts Museum.",
+      "medium": "photo",
       "exhibition_type": "solo",
       "genre_tags": [],
       "fee_type": "free",
@@ -50775,6 +50763,12 @@
       },
       "artists": [
         {
+          "id": "3ad0db5db298",
+          "name": "史 文斌 / シ ウェンビン / Wenbin Shi",
+          "lang": null,
+          "tr": {}
+        },
+        {
           "id": "db3d7ecc03f0",
           "name": "シ・ウェンビン",
           "lang": "ja",
@@ -50788,7 +50782,7 @@
           }
         }
       ],
-      "source_url": "https://www.tokyoartbeat.com/events/-/Wenbin-Shi-Moonlight-Voyage/2-D82-C04-B/2026-08-25",
+      "source_url": "https://tppg.jp/moonlight-voyage/",
       "featured": false,
       "popularity_score": null
     },
@@ -53814,7 +53808,7 @@
       "price_max": null,
       "start_date": "2026-07-21",
       "end_date": "2026-08-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "afe71f7d0299",
@@ -62885,6 +62879,39 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Eimei-Kaneyama-Suguru-Ryuzaki-HTPX/early-spring-gallery-and-shop/2026-08-08",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "7565a1156a8d",
+      "source": "apma",
+      "title": "[APMA, CHAPTER FIVE] 전시관람 예약",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://image-apma.amorepacific.com/upload/exhibition/m/1774428952636_Y6MWK8M7VA_Cropped.jpg",
+      "description": "아모레퍼시픽미술관은 현대미술 소장품 특별전 《APMA, CHAPTER FIVE - FROM THE APMA COLLECTION》을 개최합니다. 이번 전시는 총 7개의 전시실을 통해 약 40여 명의 국내외 작가와 80여 점의 회화, 사진, 조각, 설치 작품 등을 선보입니다. 미술관은 네 차례에 걸친 소장품 전시를 이어오며 한국 전통미술과 세계 현대미술로 구성된 컬렉션을 단계적으로 공개해 왔습니다. 이번 전시는 그간 축적된 수집과 연구의 성과를 소개하고, 그 흐름과 동시대적 의미를 다시 살펴보는 계기가 될 것입니다.\n\n미술관의 주요 현대미술 소장품과 처음 선보이는 작품으로 구성된 이번 전시는 세 가지 축을 중심으로 전개됩니다. 첫째, 서로 다른 문화적·역사적 맥락 속에서 형성된 동시대 미술의 다양한 조형 언어를 조망합니다. 개인의 경험과 지역의 기억, 사회 구조에 대한 비판적 인식은 각기 다른 형식과 매체로 구현되며, 오늘의 세계를 바라보는 복합적인 시각을 드러냅니다. 둘째, 국제 현대미술의 주요 흐름과 세대 간의 연속성과 변화를 함께 다룹니다. 동시대 작가들의 실천과 현대미술의 중요한 전환을 이끌어 온 작가들의 작업을 병치함으로써, 예술적 실험과 방법론이 어떠한 축적과 변화를 거쳐 현재에 이르렀는지를 보여줍니다. 마지막으로, 한국 현대미술이 형성해 온 고유한 맥락과 전환을 집중적으로 조명합니다. 1970–80년대 단색화와 실험미술에서부터 급변하는 사회 속에서 전개된 매체 실험에 이르기까지, 한국 미술은 세계 미술과 긴밀히 호흡하며 독자적인 문제의식을 발현시켜 왔습니다. 이번 전시는 이러한 세 축을 통해 지역과 세계, 과거와 현재가 교차하는 지점을 입체적으로 드러냅니다.\n\n《APMA, CHAPTER FIVE – FROM THE APMA COLLECTION》은 미술관 컬렉션의 현재를 집약적으로 보여주는 자리이자, 향후 수집과 연구의 방향을 가늠하게 하는 장입니다. 이번 전시가 동시대 미술의 다양한 표현을 마주하는 계기가 되기를 바라며, 새로운 연결과 해석을 발견하는 시간이 되기를 기대합니다.\n\n백남준 ‹KON-TIKI› 관람 안내본 작품은 오전 10:30–12:30, 오후 13:30–17:40에 운영됩니다.12:30–13:30에는 작품 상태 관리를 위해 운영이 일시 중단되오니, 관람에 참고해 주시기 바랍니다.",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-04-01",
+      "end_date": "2026-08-02",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "6b2a8fa41a87",
+        "name": "아모레퍼시픽미술관",
+        "lang": null,
+        "tr": {},
+        "region": "서울",
+        "district": null,
+        "lat": 37.5287911785354,
+        "lng": 126.968673565462
+      },
+      "artists": [],
+      "source_url": "https://apma.amorepacific.com/contents/exhibition/3858007/view.do",
       "featured": false,
       "popularity_score": null
     }
@@ -85251,6 +85278,18 @@
     {
       "id": "402b83d5c43b",
       "name": "Suguru RYUZAKI",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f12519b1fe11",
+      "name": "古佳⽴ / Koo Jia Lih",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3ad0db5db298",
+      "name": "史 文斌 / シ ウェンビン / Wenbin Shi",
       "lang": null,
       "tr": {}
     }
