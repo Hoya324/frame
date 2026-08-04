@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T17:44:12.991546+00:00",
+  "generated_at": "2026-08-04T20:01:37.322665+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -54470,7 +54470,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-08-03",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "af71a4816793",
@@ -57933,7 +57933,7 @@
       "price_max": null,
       "start_date": "2026-07-30",
       "end_date": "2026-08-03",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "238fe96014e5",
@@ -59448,7 +59448,7 @@
       "price_max": null,
       "start_date": "2026-08-04",
       "end_date": "2026-08-09",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "54c1740b50d0",
@@ -59502,7 +59502,7 @@
       "price_max": null,
       "start_date": "2026-08-04",
       "end_date": "2026-08-16",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "7ba19d31b1ae",
@@ -60113,7 +60113,7 @@
       "price_max": null,
       "start_date": "2026-07-21",
       "end_date": "2026-08-03",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "e5c7ef943a0f",
@@ -61843,7 +61843,7 @@
       "price_max": null,
       "start_date": "2026-08-04",
       "end_date": "2026-08-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "c7f28b68a0b3",
@@ -63368,6 +63368,294 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Rie-Tagawa-Vessel/lads-gallery/2026-08-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "e7f1f3f9c46b",
+      "source": "tokyo_art_beat",
+      "title": "Rinaty 「FUJIFILM GFXで残す セルフポートレート」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/3QQUZ4Kga6DJj38gURuPgN/b4282c895d1614ab2df8e4b17aaaa2c6/Rinaty_profile-scaled_-_Gallery_ANBAI.jpg",
+      "description": "展示される一枚一枚には、自身が過ごしてきた時間と、その瞬間にしか生まれなかった『自分』が記録されています。FUJIFILM GFXによって捉えられた緻密な質感は、過去を鮮明に保存するだけでなく、写真の中に流れる時間を、今を生きる私たちへとつなぎます。\n\n[関連イベント]\nトークショー\n日時: 8月22日、29日 各日とも14:00～\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-19",
+      "end_date": "2026-08-30",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "56f172501426",
+        "name": "Gallery ANBAI.",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "갤러리 ANBAI."
+          },
+          "ja": {
+            "name": "ギャラリー ANBAI."
+          }
+        },
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.70538,
+        "lng": 135.4966
+      },
+      "artists": [
+        {
+          "id": "7ad8dec7089b",
+          "name": "Rinaty",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Rinaty-FUJIFILM-GFX-Capturing-Self-Portraits/gallery-anbai/2026-08-19",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "e62f15cd4974",
+      "source": "tokyo_art_beat",
+      "title": "南村杞憂 + 中山大成 「リミナル」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/4u0427TMMbEruocPcVxB1L/67bc65b71bb4ac90bf298dcdc341da97/unnamed.jpg",
+      "description": "ギャラリープロジェクト、DJURGARDENは、2026年9月5日(土)より南村杞憂 / 中山大成「リミナル」を開催します。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-05",
+      "end_date": "2026-09-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "dbc2e62be78a",
+        "name": "DJURGARDEN",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "DJURGARDEN"
+          },
+          "ja": {
+            "name": "DJURGARDEN"
+          }
+        },
+        "region": "清澄白河、両国",
+        "district": null,
+        "lat": 35.68766,
+        "lng": 139.8004
+      },
+      "artists": [
+        {
+          "id": "f8d64dd0a5bc",
+          "name": "南村杞憂",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "138952cca2c6",
+          "name": "中山大成",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kiyu-Namura-Taisei-Nakayama-Liminal/djurgarden/2026-09-05",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "d401215daa4c",
+      "source": "tokyo_art_beat",
+      "title": "アスピリン（陸超） 「参造化」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/2Ob0WampZ4yEVImtnLaBtF/da3278e5c9ba43a9dde6a0a5e31b5777/14fc2ec1-887c-418d-801a-8aa12cb658a0.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-04",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5163e693d1ea",
+        "name": "Totem Pole Photo Gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "토템 폴 포토 갤러리"
+          },
+          "ja": {
+            "name": "Totem Pole Photo Gallery"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.6901810430105,
+        "lng": 139.71638630984123
+      },
+      "artists": [
+        {
+          "id": "49d103e0a6be",
+          "name": "アスピリン（陸超）",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Aspirin-Lu-Chao-Communing-with-the-Cosmos/2-D82-C04-B/2026-09-29",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "d829d7a7d379",
+      "source": "tokyo_art_beat",
+      "title": "有元伸也 「キジバト3」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/614igyP5WFIrW6elnUfQnC/e1f2aa1fb198e0d172d9fe7fa0ce599b/kijibato_3_1.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-15",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5163e693d1ea",
+        "name": "Totem Pole Photo Gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "토템 폴 포토 갤러리"
+          },
+          "ja": {
+            "name": "Totem Pole Photo Gallery"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.6901810430105,
+        "lng": 139.71638630984123
+      },
+      "artists": [
+        {
+          "id": "7925e0cd3d5a",
+          "name": "有元伸也",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Shinya-Arimoto-Tokyo-Turtle-Dove-3/2-D82-C04-B/2026-09-15",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "a8e985326cbb",
+      "source": "tokyo_art_beat",
+      "title": "藤本篤史 「あの山に登ったって」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/1B0LHClF0fM2FDOZIVKNLv/677c0a130e46ce8a6ccd1fb8730d0c3d/78b4fd66-b1c5-4341-b004-69797922b837.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-13",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5163e693d1ea",
+        "name": "Totem Pole Photo Gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "토템 폴 포토 갤러리"
+          },
+          "ja": {
+            "name": "Totem Pole Photo Gallery"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.6901810430105,
+        "lng": 139.71638630984123
+      },
+      "artists": [
+        {
+          "id": "38ded3ead1f0",
+          "name": "藤本篤史",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Atsushi-Fujimoto-Even-if-I-were-to-climb-that-mountain/2-D82-C04-B/2026-09-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "463047be8c76",
+      "source": "tokyo_art_beat",
+      "title": "ハブチユウスケ 「HARVEST」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/1UEqnKshBSkmKHfXbGxOOm/f9709d97e9162f67b69290833137c3ca/bebadd1c-f030-476f-8a07-6349c1f89010.jpg",
+      "description": "ツムクム写真とは、木にデジタル写真を転写して「積」んだり「組」み合わせたりする積み木のような写真の事です。木に転写している写真はデジタル一眼レフやスマートフォンで撮影した、空や、街や、自然などの日常の風景やものたち。何気なく過ぎていく暮らしの中で、収穫していくように作品は出来ている。広い空も、街の標識や建物も、あぜ道に咲く小さな花たちも、記憶としてモノとして手のひらサイズの「ツムクム写真」に落とし込む。今回の個展では、新作のサムホールサイズのパネル作品など多数展示予定。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-06",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "54c1740b50d0",
+        "name": "京都写真美術館 ギャラリー・ジャパネスク",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "교토 사진 미술관 갤러리 재패네스크"
+          },
+          "en": {
+            "name": "Kyoto Museum of Photography Gallery Japanesque"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.009916818776944,
+        "lng": 135.78263679265976
+      },
+      "artists": [
+        {
+          "id": "dd75aee15694",
+          "name": "ハブチユウスケ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yusuke-Habuchi-Harvest/kyoto-museum-of-photography-gallery-japanesque/2026-09-01",
       "featured": false,
       "popularity_score": null
     }
@@ -85836,6 +86124,48 @@
     {
       "id": "4a378b200a9e",
       "name": "田川梨絵",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7ad8dec7089b",
+      "name": "Rinaty",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f8d64dd0a5bc",
+      "name": "南村杞憂",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "138952cca2c6",
+      "name": "中山大成",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "49d103e0a6be",
+      "name": "アスピリン（陸超）",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7925e0cd3d5a",
+      "name": "有元伸也",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "38ded3ead1f0",
+      "name": "藤本篤史",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "dd75aee15694",
+      "name": "ハブチユウスケ",
       "lang": null,
       "tr": {}
     }
