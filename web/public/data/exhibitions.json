@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T17:30:34.416417+00:00",
+  "generated_at": "2026-08-05T20:02:16.371113+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -53036,7 +53036,7 @@
           "title": "TOKYO Smart Culture Project Nara Women's University Hase Lab “Reproduced Sensibility – Daido Moriyama”"
         }
       },
-      "poster_image_url": "https://topmuseum.jp/wp-content/uploads/2026/07/White01.jpg",
+      "poster_image_url": "https://topmuseum.jp/wp-content/uploads/2026/08/DAIDO-MORIYAMA.jpg",
       "description": null,
       "medium": "mixed",
       "exhibition_type": "curated",
@@ -57843,7 +57843,7 @@
       "price_max": null,
       "start_date": "2026-08-05",
       "end_date": "2026-08-29",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "020ae6e78a04",
@@ -63854,7 +63854,7 @@
       "price_max": null,
       "start_date": "2026-08-05",
       "end_date": "2026-09-06",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ccea32f45898",
@@ -64271,6 +64271,386 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Yusuke-Habuchi-Harvest/kyoto-museum-of-photography-gallery-japanesque/2026-09-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f17674b6a9ce",
+      "source": "gallery_tosei",
+      "title": "稲垣徳文写真展",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/jpg/EXHIBITIONS/PAST/2026/2608/2608.jpeg",
+      "description": "いながきのりふみ 稲垣徳文写真展\n\nParis Blue\n\n2026年8月5日(水) - 8月29日(土)\n\n11:00-19:00\n\n＊毎週木曜日は22:00までOPEN\n\n日・月曜・祝日・夏期休業（11日〜15日）休廊\n\nComing Soon\n\nComing Soon\n\n2026年9月\n\n11:00-19:00\n\n＊毎週木曜日は22:00までOPEN\n\n日曜・月曜・祝日休廊\n\n2026\n\n2025\n\n2024\n\n2023\n\n2022\n\n2021\n\n2020\n\n2019\n\n2017\n\n2016\n\n2015\n\n2014\n\n2013\n\n2012\n\n2011\n\n2010\n\n2009\n\n2008\n\n2007\n\n2006\n\n2005",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-05",
+      "end_date": "2026-08-29",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "1ab862183c75",
+        "name": "Gallery Tosei",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Gallery Tosei"
+          },
+          "ja": {
+            "name": "Gallery Tosei"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.6986456,
+        "lng": 139.6628774
+      },
+      "artists": [],
+      "source_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/html/EXHIBITIONS/j_exhibitions.html#show1",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "1474665e19df",
+      "source": "tokyo_art_beat",
+      "title": "佐々木正己 「ミツバチはこんなに楽しい! ―小さな生き物の大きなチカラ―」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/5R1pRIGfjNIOx2ZVnE1AUY/0cdeb510b2892bfb2ac840d4ff244e59/main.jpg",
+      "description": "フジフイルム スクエアでは、ミツバチの生態やミツバチを取り巻く環境について、写真やパネルを通じて楽しく学べる写真展「ミツバチはこんなに楽しい！―小さな生き物の大きなチカラ―」を開催いたします。ミツバチはハチミツを生産するだけではなく、多くの果物や野菜、ナッツ類の受粉にかかわり、私たちの暮らしを支えています。本展ではそんなミツバチ研究の第一人者である佐々木正己氏（玉川大学名誉教授）が長年撮影してきた普段見ることのできない貴重なミツバチの姿と花の写真や解説パネルを展示いたします。\nまた、都市養蜂の先駆けとして赤坂にある株式会社TBSホールディングス（以下「TBS」）が2011年に開始した「TBS赤坂みつばちプロジェクト」の軌跡を記した『ミツバチはこんなに楽しい！ 人と街を育てる都市養蜂プロジェクト』（日経サイエンス社刊）の編著者である高橋進氏が本展を監修いたします。赤坂をめぐる生物多様性とミツバチの活動を紹介するとともに、都市養蜂の現状についてもわかりやすく解説いたします。「小さな生き物の大きなチカラ」をご体感いただけるよう、写真展開催期間中に親子で楽しめるミツバチ教室や講演会などのイベントも多数開催いたします。\n\n[関連イベント]\n1. 「オールBEE感謝祭」by TBS赤坂みつばちプロジェクト\n日時: 8月14日 14:00～15:00（受付開始13:30）\n講師: 小林豊（元TBSアナウンサー）、谷ちぐさ（「TBS赤坂みつばちプロジェクト」養蜂家）\n料金: 無料（事前予約制）\n会場: フジフイルム スクエア 2階特設会場\n2. 講演会\n①「ミツバチQ＆A」（小中学生と保護者向け）\n日時: 8月15日 10:30～11:30（受付開始10:00）\n講師: 高橋進（生物多様性コミュニケーター）\n料金: 無料（事前予約制）\n会場: フジフイルム スクエア 2階特設会場\n②「花とハチの世界」（大人向け）\n日時: 8月15日 13:30～14:30（受付開始13:00）\n講師: 佐々木正己（玉川大学名誉教授）\n料金: 無料（事前予約制）\n会場: フジフイルム スクエア 2階特設会場\n③「ミツバチの体のしくみ」（大人向け）\n日時: 8月15日 14:45～15:45（受付開始10:00）\n講師: 佐々木正己（玉川大学名誉教授）\n料金: 無料（事前予約制）\n会場: フジフイルム スクエア 2階特設会場\n3. 「新体験！顕微鏡で見るミツバチ」\n日時: 8月16日 14:30～16:00（受付開始14:00）\n講師: 佐々木正己（玉川大学名誉教授）\n料金: 無料（事前予約制）\n会場: フジフイルム スクエア 2階特設会場\n4. 「東京ミッドタウン（六本木）ミツバチが好むお花探しウォーキング」\n日時: 8月15日、16日 各日17:00～\n講師: 佐々木正己（玉川大学名誉教授）\n料金: 無料（事前予約不要）\n5. ギャラリートーク\n日時: 8月19日、23日、26日、30日 各日13:00～\n講師: 佐々木正己（玉川大学名誉教授）\n料金: 無料（事前予約不要）\n会場: 富士フイルムフォトサロン東京 写真展会場内\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-14",
+      "end_date": "2026-09-10",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "3f88230e73b4",
+        "name": "FUJIFILM SQUARE",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "FUJIFILM SQUARE"
+          },
+          "ja": {
+            "name": "FUJIFILM SQUARE"
+          }
+        },
+        "region": "六本木、乃木坂",
+        "district": null,
+        "lat": 35.66529994563692,
+        "lng": 139.73020230812872
+      },
+      "artists": [
+        {
+          "id": "71f28a00398c",
+          "name": "佐々木正己",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Masami-Sasaki-The-Joy-of-Honeybees-The-Great-Power-of-a-Small-Creature/511-CB-489/2026-08-14",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "a496c7e47b44",
+      "source": "tokyo_art_beat",
+      "title": "知覧果奈 「ゆめあるき」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/6h7HLuYiK1DawJHqD02mF7/7e6e7ee09a762fcd9350668775ecfca2/2a53bb7c-2f22-4d70-aa35-99ed3acdb31f.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-11",
+      "end_date": "2026-08-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "bad41612e0e3",
+        "name": "ギャラリー・ソラリス",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 솔라리스"
+          },
+          "en": {
+            "name": "Gallery Solaris"
+          }
+        },
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.67689,
+        "lng": 135.5031
+      },
+      "artists": [
+        {
+          "id": "8d9f87dbc96c",
+          "name": "知覧果奈",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kana-Chiran-Walking-Through-Dreams/gallery-solaris/2026-08-11",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "077f9c8a3347",
+      "source": "tokyo_art_beat",
+      "title": "「SUGARHILL × 中藤毅彦 写真集『MIRRORBALL』出版記念展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/49AAzDuGM4rJfwXw8v8D4W/6dc80978a2d214f10ebd34e516c9e610/MIRROR-BALL_SNS_-Feed-posts_01.jpg",
+      "description": "この度、写真家・中藤毅彦とSUGARHILLによる写真集『MIRRORBALL』を刊⾏致します。SUGARHILLが2022年から2026年にかけて発表した7シーズンのランウェイショー、ルックブック撮影、ブランドキャンペーン。そのすべての現場を、写真家・中藤毅彦が⼀貫した視点で⾒つめ続けてきました。本作は、ひとりの写真家が、ひとつのブランドの時間を4年間にわたり記録した写真集です。中藤⽒が写したのは、完成されたコレクションではありません。ランウェイが始まる直前の緊張感、ショーを終えたあとの静寂、モデルたちの束の間の表情、光を反射する素材、会場を満たす熱気と気配ールックブックには決して収められることのない、⼀瞬の情景です。ストリートスナップを通して都市を歩き続けてきた中藤⽒は、偶然に⽴ち会うことを受け⼊れ、その瞬間を⽬撃者として写し続けてきました。その視線は、ランウェイの舞台裏においても変わることはありません。4年間、同じ写真家が、同じブランドを⾒つめ続けることで初めて浮かび上がるものがあります。それはコレクションの変遷だけではなく、ブランドを取り巻く⼈々の関係性、積み重ねられた時間、そして、⾔葉では残すことのできない空気です。『MIRRORBALL』は、SUGARHILLという現象を、⼀⼈の⽬撃者が4年間にわたり⾒つめ続けた記録です。\nまた、刊⾏に際し、神保町の⽼舗古書店「⼩宮⼭書店」が運営するギャラリースペース「KOMIYAMA TOKYO G」にて、“SUGARHILL × 中藤毅彦 写真集『MIRRORBALL』出版記念展” が開催されます。会期中は、写真集販売に加え、『MIRRORBALL』に収録された⼀部写真作品が展⽰されます。この機会にご来場いただき、本作の世界観を余すところなく体感できる空間をお楽しみください。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-31",
+      "end_date": "2026-08-16",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "ae609ea7aae5",
+        "name": "KOMIYAMA TOKYO G",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "KOMIYAMA TOKYO G"
+          },
+          "ja": {
+            "name": "KOMIYAMA TOKYO G"
+          }
+        },
+        "region": "竹橋、水道橋、末広町",
+        "district": null,
+        "lat": 35.69671,
+        "lng": 139.7614
+      },
+      "artists": [
+        {
+          "id": "6284ed6a7f10",
+          "name": "SUGARHILL",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "96e063e98699",
+          "name": "中藤毅彦",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나카후지 다케히코"
+            },
+            "en": {
+              "name": "Takehiko Nakafuji"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Sugarhill-Takehiko-Nakafuji-Mirrorball-Publication-Exhibition/komiyama-tokyo-g/2026-07-31",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "5a39f76e426e",
+      "source": "tokyo_art_beat",
+      "title": "「川口市立美術館 開館記念特別展『蜷川実花展 はじまりの光』」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/4jLD1yqllOlglWst5dbbnN/86d27e30df7a72747787e324093a2421/sub4.jpg",
+      "description": "埼玉県川口市。蜷川実花の感性は、この街で形成されました。\n\n今も脳裏に焼き付くのは、見世物小屋の異形や鯉の血しぶき、飴玉の光、ピンク映画の看板、電灯の揺れ。おかめ市（酉の市）の雑踏の中で彼女が体験したのは、現実と虚構の境界が曖昧で不安定に揺れ動く世界。この揺らぎこそが、蜷川実花の、見る者を「引きずりこむ」クリエーションに大きな影響を与える起源となるのです。\n\n本展は、蜷川実花自身を作り上げてきた要素に焦点を当て、二つの章で展開されます。\n\n入口のある2階に展示する第一章は、初公開の新作を含む「写真」で構成されます。自身のデビュー作であり、約30年に渡り断続的に記録してきたモノクロのセルフポートレートはまさしく原点。自らの存在を確かめるように実験的に撮り重ねられてきました。さらに、2014年に父・蜷川幸雄が倒れ、死へと向かう1年半を記録し続けた『うつくしい日々』。彼女が「逝く人の目で撮った写真」と表現する本作は、死と向き合うことで再確認されるこの世の美しさ、その瞬きの中にしか存在し得ない風景や感情を留めています。ありとあらゆる瞬間が決定的であり、その時間にしか存在しない儚い世界を切り取る「写真」。誰もがスマートフォンを持ち歩き、簡単に表現ができる現代だからこそ、世界をどう捉えて何を切り取るか、そして「自分の中に何があるのか」という問いと改めて向き合い、表現を突き詰めます。\n\n階段を下がってM2階に展示される第二章では、蜷川実花自身の表現世界に最も大きな影響を与えた家族との記憶に迫ります。川口の地だからこそ明かす、かつてないほど個人的で内面的な世界を通し、自身の根源と深く対峙する特別な空間が広がります。当時の気配をそのままに宿す蜷川幸雄の書斎の移設展示、元女優でキルト作家の母・蜷川宏子のキルト作品、さらに若き日の両親が映るアルバムを発見し、それを蜷川自ら複写した新しいシリーズ『First Light』などが一つの流れの中に共存します。これまで触れてこなかった家族との記憶をたどり、自身の人生を紐解きます。\n\nデビュー以降約30年、多彩に表現領域を広げ続ける中でも、自らの心が動いた一瞬にだけシャッターを切り、目の前の存在や自身の内面とまっすぐに向き合い続ける姿勢は一貫しています。「写真」本来の表現を研ぎ澄まし、幼少期の記憶が眠る感性の原点ともいえる地・川口で一瞬の光の中に閉じ込められた世界と記憶を紡ぎ出すことで、蜷川実花のクリエーションの真骨頂に迫ります。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-12",
+      "end_date": "2026-11-29",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "a7d4279bd740",
+        "name": "川口市立美術館",
+        "lang": null,
+        "tr": {},
+        "region": "埼玉県",
+        "district": null,
+        "lat": 35.80109894679846,
+        "lng": 139.7163377263546
+      },
+      "artists": [
+        {
+          "id": "5b8166c1239c",
+          "name": "蜷川実花",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "니나가와 미카"
+            },
+            "en": {
+              "name": "Mika Ninagawa"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Mika-Ninagawa-Light-of-Beginnings/kawaguchi-museum-of-art/2026-09-12",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "d4f50f5333cf",
+      "source": "tokyo_art_beat",
+      "title": "「NIPPONの47人 2026 CULTURAL STAY」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/3MYqUvOh7OksrHxeQTWRoq/3e2fdf25f42c44b64df1e061ed4c2c9b/a6430825-d142-4083-a7c0-782ef1f89ee0.jpg",
+      "description": "d47 MUSEUM 第38回企画展のテーマは「宿」です。宿は今、「泊まる場所」から、文化的な体験・学び・交流が生まれる「活動の場」へと変化しています。地域を深く知る旅、長く滞在する旅、働きながら過ごす旅など、多様な旅のかたちが広がるなかで、旅人だけでなく地域の人々にとっても交流の拠点となり、カルチャースポットとしての役割を担う宿が生まれています。本展では、そうした場づくりに取り組む宿のオーナー、女将、支配人、名物スタッフなどの「主（あるじ）」を、47都道府県から一人ずつご紹介します。主たちのその土地への思いから生まれる個性豊かな宿泊体験や取り組み、地域の魅力を引き出す編集力。47通りの主の哲学と視点に触れる展覧会です。",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-18",
+      "end_date": "2026-11-29",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "11d9da4f76f5",
+        "name": "渋谷ヒカリエ 8/ d47 MUSEUM",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "시부야 히카리에 8/ d47 MUSEUM"
+          },
+          "en": {
+            "name": "Shibuya Hikarie 8/ d47 MUSEUM"
+          }
+        },
+        "region": "渋谷",
+        "district": null,
+        "lat": 35.65889516579491,
+        "lng": 139.7035868134407
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/47-of-Japanese-2026-Cultural-Stay/80-E559-D9/2026-09-18",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "677901f2b544",
+      "source": "tokyo_art_beat",
+      "title": "新津保建秀 「時の旅—写真はいつ届くのか」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/7vElzEfv6ZmGHcP816IRNg/36ff50c114343f7ab874a5d58bf2c164/unnamed.gif",
+      "description": "2026年8月5日（水）より、AL（渋谷区）にて、新津保建秀「時の旅—写真はいつ届くのか」が開催されます。\n\n写真は、撮られた瞬間に完成するとは限らない。選ばれ、失われ、編集され、言葉や他者と出会い、長い時間を経て別の現在に到達したとき、誰かの心の中であらためて写真になる。北鎌倉、武蔵野、稲城、葉山——異なる時期に他者と歩いた場所で撮られた像は、後年、思いがけない応答を受け取ることがある。本展では、2009年の《煙》と、14年を隔ててこれに照応する像を起点に、『信号旗K』（朝吹真理子著）の連載時期に撮影された風景、日記、ドローイングを再配置する。「時の旅」という題もまた、届いた言葉のひとつである。本展は、この名のもとに続くプロジェクトの、最初の個展となる。\n\n[関連イベント]\nトークイベント\n日時: 2026年8月9日17:00〜\n登壇者: 朝吹真理子（小説家）、池上高志（東京大学特任教授）、新津保建秀（写真家）\n料金: 1000円（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-05",
+      "end_date": "2026-08-16",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "7a6765269871",
+        "name": "AL",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "AL"
+          },
+          "ja": {
+            "name": "AL"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.645727268369676,
+        "lng": 139.70369193051891
+      },
+      "artists": [
+        {
+          "id": "81199e546190",
+          "name": "新津保建秀",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kenshu-Shintsubo-Walking-in-Time-When-Does-a-Photograph-Arrive/B100-AACB/2026-08-05",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "574a54b1278c",
+      "source": "tokyo_art_beat",
+      "title": "「構造と知覚」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/2ogTyl09lr4o0J8rmsAd31/3c2ff0ddd3dd6a93fe641caf77df2c29/1_-_Tomoka_Kaneko__Chocoholic___1_.png",
+      "description": "企画展「構造と知覚」は、写真、水彩・書、インスタレーションという異なる表現を通して、私たちが世界を「どのように見ているのか」を問い直す展覧会である。\n\n元科学研究者として物質の微細構造を観察してきた五位野昌也は、写真や顔料、水によって、目に見えない構造と人間の知覚が交差する境界を探る。湯川晴美は、書から培った余白への感覚と水彩の滲みを通して、花や人物の背後に流れる時間と生命の階調を描く。企画者でもある金子倫花は、益子の窯で焼成されながら器として市場に出なかった陶片を用い、不可逆な変化と、役割を持たなかった存在に残るエネルギーの痕跡を空間へ展開する。\n\n展示は「空」「壁」「床」「音」という四つの場によって構成され、三人の作品が互いに作用しながら、鑑賞者の視線と身体感覚を空間全体へ導いていく。作品を完成された答えとして提示するのではなく、作家同士の対話や鑑賞者による解釈を含め、知覚が変化していく過程そのものを展覧会の一部として捉えている。\n\n本展が目指すのは、作品についての知識を伝えることではない。展示をあとにした鑑賞者が、見慣れた風景の中にこれまで気づかなかった構造や気配を見つけ、自らの知覚がわずかにひらいていることに気づく。その静かな変化を共有することが、本展の中心的な試みである。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-07-30",
+      "end_date": "2026-08-09",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "b2db3a647aa1",
+        "name": "Gallery CHARLOTTE.USAGI（ギャラリーシャーロットウサギ）",
+        "lang": null,
+        "tr": {},
+        "region": "神奈川県",
+        "district": null,
+        "lat": 35.43822739684452,
+        "lng": 139.6443408159733
+      },
+      "artists": [
+        {
+          "id": "234b4a43f820",
+          "name": "五位野昌也",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "ef1e8fac59df",
+          "name": "湯川晴美",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "6b1bd56827a1",
+          "name": "金子倫花",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Structure-and-Perception/gallery-charlotte-usagi/2026-07-30",
       "featured": false,
       "popularity_score": null
     }
@@ -71267,6 +71647,34 @@
       "country": "JP",
       "lat": 34.690425437922464,
       "lng": 135.49779790062905,
+      "website": null
+    },
+    {
+      "id": "a7d4279bd740",
+      "name": "川口市立美術館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "埼玉県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.80109894679846,
+      "lng": 139.7163377263546,
+      "website": null
+    },
+    {
+      "id": "b2db3a647aa1",
+      "name": "Gallery CHARLOTTE.USAGI（ギャラリーシャーロットウサギ）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "神奈川県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.43822739684452,
+      "lng": 139.6443408159733,
       "website": null
     }
   ],
@@ -87089,6 +87497,48 @@
     {
       "id": "dd75aee15694",
       "name": "ハブチユウスケ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "71f28a00398c",
+      "name": "佐々木正己",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8d9f87dbc96c",
+      "name": "知覧果奈",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6284ed6a7f10",
+      "name": "SUGARHILL",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "81199e546190",
+      "name": "新津保建秀",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "234b4a43f820",
+      "name": "五位野昌也",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ef1e8fac59df",
+      "name": "湯川晴美",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6b1bd56827a1",
+      "name": "金子倫花",
       "lang": null,
       "tr": {}
     }
