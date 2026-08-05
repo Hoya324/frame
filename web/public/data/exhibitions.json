@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T15:16:40.681707+00:00",
+  "generated_at": "2026-08-05T17:30:34.416417+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -52001,20 +52001,41 @@
         {
           "id": "eebecb333d36",
           "name": "Pardis Ghasemi",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "파르디스 가세미"
+            },
+            "ja": {
+              "name": "パルディス・ガセミ"
+            }
+          }
         },
         {
           "id": "7b8ef5166a78",
           "name": "Em Watarihiki",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "엠 와타리히키"
+            },
+            "ja": {
+              "name": "Em Watarihiki"
+            }
+          }
         },
         {
           "id": "1b8e25478e64",
           "name": "Paul Ramsey",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "폴 램지"
+            },
+            "ja": {
+              "name": "Paul Ramsey"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/SLIM-CITY-I-Still-Flesh/three-space-tokyo/2026-07-18",
@@ -52069,8 +52090,15 @@
         {
           "id": "1dca39af6c5d",
           "name": "藤村全輝",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "후지무라 마사키"
+            },
+            "en": {
+              "name": "Fujimura Masaki"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Masaki-Fujimura-Earth-Light/jam-photo-gallery/2026-08-18",
@@ -52125,8 +52153,15 @@
         {
           "id": "893d5e550f64",
           "name": "嶌村吉祥丸",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "시마무라 킷쇼마루"
+            },
+            "en": {
+              "name": "Shimamura Kisshomaru"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Kisshomaru-Shimamura-What-matters/leica-gallery-kyoto/2026-08-01",
@@ -52181,8 +52216,15 @@
         {
           "id": "893d5e550f64",
           "name": "嶌村吉祥丸",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "시마무라 킷쇼마루"
+            },
+            "en": {
+              "name": "Shimamura Kisshomaru"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Kisshomaru-Shimamura-What-matters/leica-gallery-omotesando/2026-07-31",
@@ -52237,14 +52279,28 @@
         {
           "id": "c2c146d86032",
           "name": "サラ・ファン・ライ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사라 판 라이"
+            },
+            "en": {
+              "name": "Sara van Rai"
+            }
+          }
         },
         {
           "id": "4941ef9b485b",
           "name": "ダヴィット・ファン・デル・レーウ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "다비트 판 데르 레우"
+            },
+            "en": {
+              "name": "David van der Leeuw"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Sarah-van-Rij-David-Van-Der-Leeuw-Temps-mort/som-gallery/2026-07-10",
@@ -52579,50 +52635,106 @@
         {
           "id": "ffa920d8428d",
           "name": "会田誠",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "아이다 마코토"
+            },
+            "en": {
+              "name": "Makoto Aida"
+            }
+          }
         },
         {
           "id": "8cc4fa724e7e",
           "name": "壱弥",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이치야"
+            },
+            "en": {
+              "name": "Ichiya"
+            }
+          }
         },
         {
           "id": "2df6ef14154a",
           "name": "池野拓哉",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이케노 타쿠야"
+            },
+            "en": {
+              "name": "Takuya Ikeno"
+            }
+          }
         },
         {
           "id": "fe6a3c636acd",
           "name": "岩下徹",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이와시타 토루"
+            },
+            "en": {
+              "name": "Iwashita Toru"
+            }
+          }
         },
         {
           "id": "46f1f46bdd86",
           "name": "梅村昇史",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "우메무라 쇼지"
+            },
+            "en": {
+              "name": "Umemura Shoji"
+            }
+          }
         },
         {
           "id": "369f3da3866f",
           "name": "太田豊",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오타 유타카"
+            },
+            "en": {
+              "name": "Ota Yutaka"
+            }
+          }
         },
         {
           "id": "8325c89990da",
           "name": "河合ケネディ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "카와이 케네디"
+            },
+            "en": {
+              "name": "Kawai Kennedy"
+            }
+          }
         },
         {
           "id": "776a6f08cb8e",
           "name": "栗林隆",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "구리바야시 다카시"
+            },
+            "en": {
+              "name": "Takashi Kuribayashi"
+            }
+          }
         },
         {
           "id": "27b8f44f9f09",
@@ -52653,14 +52765,28 @@
         {
           "id": "8e57b7340670",
           "name": "坂丸弓乃",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사카마루 유미노"
+            },
+            "en": {
+              "name": "Yumino Sakamaru"
+            }
+          }
         },
         {
           "id": "aa765aca4628",
           "name": "佐藤英輔",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사토 에이스케"
+            },
+            "en": {
+              "name": "Eisuke Sato"
+            }
+          }
         },
         {
           "id": "0a34d2cd36ee",
@@ -52677,14 +52803,28 @@
         {
           "id": "8b3f0e736dd0",
           "name": "津村禮次郎",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "츠무라 레이지로"
+            },
+            "en": {
+              "name": "Reijiro Tsumura"
+            }
+          }
         },
         {
           "id": "02f2333f3532",
           "name": "徳久ウィリアム",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "토쿠히사 윌리엄"
+            },
+            "en": {
+              "name": "William Tokuhisa"
+            }
+          }
         },
         {
           "id": "e909e7b511bb",
@@ -52701,14 +52841,28 @@
         {
           "id": "a657eaf0da84",
           "name": "中村恵介",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나카무라 케이스케"
+            },
+            "en": {
+              "name": "Keisuke Nakamura"
+            }
+          }
         },
         {
           "id": "5ef80d50d513",
           "name": "菜波-Nanami-",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나나미-Nanami-"
+            },
+            "en": {
+              "name": "Nanami-Nanami-"
+            }
+          }
         },
         {
           "id": "c488f63a8c6f",
@@ -52739,32 +52893,67 @@
         {
           "id": "fa27e0d34082",
           "name": "樋口トモユキ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "히구치 토모유키"
+            },
+            "en": {
+              "name": "Higuchi Tomoyuki"
+            }
+          }
         },
         {
           "id": "fe641c6257e7",
           "name": "福地史人",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "후쿠치 후미토"
+            },
+            "en": {
+              "name": "Fukuchi Fumito"
+            }
+          }
         },
         {
           "id": "1a6336994be8",
           "name": "松島誠",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마쓰시마 마코토"
+            },
+            "en": {
+              "name": "Matsushima Makoto"
+            }
+          }
         },
         {
           "id": "3cce5739b7ac",
           "name": "蓑田秀策",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "미노다 슈사쿠"
+            },
+            "en": {
+              "name": "Minoda Shusaku"
+            }
+          }
         },
         {
           "id": "67021ae6f08f",
           "name": "山上渡",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "산상 와타루"
+            },
+            "en": {
+              "name": "Yamagami Wataru"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Odyssey-Creative-Center-Opening-Festival/075221-AC/2026-07-17",
@@ -52819,8 +53008,15 @@
         {
           "id": "3586d6400424",
           "name": "田中博",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "다나카 히로시"
+            },
+            "en": {
+              "name": "Tanaka Hiroshi"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Hiroshi-Tanaka-Dragonfly-Boy/om-system-gallery/2026-07-16",
@@ -52939,8 +53135,15 @@
         {
           "id": "0767c1cc4b7b",
           "name": "Arjun Shrestha",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "아르준 슈레스타"
+            },
+            "ja": {
+              "name": "アルジュン・シュレスタ"
+            }
+          }
         },
         {
           "id": "f43a76102762",
@@ -53032,8 +53235,15 @@
         {
           "id": "3910934fe609",
           "name": "萩原朔美",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "하기와라 사쿠미"
+            },
+            "en": {
+              "name": "Sakumi Hagiwara"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Resonant-Images-Sakumi-Hagiwara-s-Ten-Years-in-Maebashi/maebashi-city-museum-of-literature/2026-05-30",
@@ -53139,14 +53349,28 @@
         {
           "id": "88f6b743ede7",
           "name": "勝又公仁彦",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "가쓰마타 기미히코"
+            },
+            "en": {
+              "name": "Katsumata Kimihiko"
+            }
+          }
         },
         {
           "id": "977b2496158a",
           "name": "中村花絵",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나카무라 하나에"
+            },
+            "en": {
+              "name": "Nakamura Hanae"
+            }
+          }
         },
         {
           "id": "7457ead8a67e",
@@ -58379,8 +58603,15 @@
         {
           "id": "c2c146d86032",
           "name": "サラ・ファン・ライ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사라 판 라이"
+            },
+            "en": {
+              "name": "Sara van Rai"
+            }
+          }
         },
         {
           "id": "9b243ece3425",
@@ -59264,8 +59495,19 @@
       "id": "3a72cb48fb11",
       "source": "tokyo_art_beat",
       "title": "「TOKYO STREET PHOTOGRAPHY FESTIVAL 26」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「도쿄 스트리트 포토그래피 페스티벌 26」",
+          "description": "29개국 사진작가들이 도쿄에 집결합니다. 일본 유일의 스트리트 포토그래피 국제 공모전 「TOKYO STREET PHOTOGRAPHY FESTIVAL 26」을 개최합니다. TOKYO STREET PHOTOGRAPHY FESTIVAL 26 (TSPF26)은 일본 유일의 스트리트 포토그래피 전문 국제 공모 사진전입니다. 올해로 4회째를 맞이하는 이번 행사에서는 29개국에서 모인 사진작가들의 국제 공모전 외에도 노르웨이 Oslo Street Photography Collective와의 국제 문화 교류 전시를 진행합니다. 세계 각지에서 탄생한 다양한 시점을 한 장소에서 경험할 수 있는 사진전입니다.\n국제 공모전에서는 세계 각지에서 응모된 작품 중 선정된 작품들을 전시합니다. 사진작가 각자의 시점을 통해 도시의 일상과 사람들의 삶, 우연한 순간 등 다채로운 스트리트 포토그래피를 감상하실 수 있습니다. 또한, 노르웨이 Oslo Street Photography Collective를 특별 초청하여 일본과 노르웨이 간의 국제 문화 교류 전시를 개최합니다. 서로 다른 문화와 도시에서 자라난 작품들을 소개함으로써 스트리트 포토그래피가 국경과 언어를 넘어 사람과 사람을 잇는 표현임을 전달합니다.\n올해의 공모 전시에서는 작품을 '컬러'와 '모노크롬' 두 공간으로 나누어 전시합니다. 색채가 가져다주는 현실감과 모노크롬이 이끌어내는 추상성 및 본질을 대비시킴으로써 '보는 것'의 차이를 경험할 수 있는 전시 구성입니다. 또한, 각 작품에는 QR 코드가 설치되어 있습니다. 작품 정보, 사진작가 프로필, 작품 해설 등을 열람하며 감상하실 수 있습니다."
+        },
+        "ja": {
+          "title": "「TOKYO STREET PHOTOGRAPHY FESTIVAL 26」"
+        },
+        "en": {
+          "description": "Photographers from 29 countries around the world gather in Tokyo. We are holding \"TOKYO STREET PHOTOGRAPHY FESTIVAL 26,\" Japan's only international open call exhibition for street photography. TOKYO STREET PHOTOGRAPHY FESTIVAL 26 (TSPF26) is Japan's only international open call photography exhibition specializing in street photography. This year, its 4th edition, in addition to an international open call exhibition featuring photographers from 29 countries worldwide, we will also hold an international cultural exchange exhibition with the Oslo Street Photography Collective from Norway. It is a photography exhibition where you can experience diverse perspectives born in various parts of the world, all in one venue.\nThe international open call exhibition will feature selected works from submissions received from around the world. Through the unique perspectives of each photographer, you can enjoy a wide variety of street photography, including daily life in the city, people's activities, and serendipitous moments. Furthermore, we have specially invited the Oslo Street Photography Collective from Norway to hold an international cultural exchange exhibition between Japan and Norway. By showcasing works nurtured in different cultures and cities, we aim to convey that street photography is a form of expression that connects people across borders and languages.\nIn this year's open call exhibition, works will be displayed in two spaces: \"Color\" and \"Monochrome.\" By contrasting the sense of reality brought by color with the abstraction and essence drawn out by monochrome, the exhibition is structured to allow visitors to experience the differences in \"seeing.\" Additionally, each work will have a QR code. You can view artwork information, photographer profiles, and artwork explanations while appreciating the pieces."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/4I9oJdg0Rz6VGExobdi1Bk/e3a06a95843b2837c5ad00f3cdfceafd/TSPF_26_IMG-01_-_Kenji_Nagahama.jpg",
       "description": "世界29カ国の写真家が東京に集結。日本唯一のストリートフォトグラフィー国際公募展「TOKYO STREET PHOTOGRAPHY FESTIVAL 26」を開催。TOKYO STREET PHOTOGRAPHY FESTIVAL 26（TSPF26）は、日本唯一のストリートフォトグラフィーに特化した国際公募写真展です。第4回となる今年は、世界29カ国から集まった写真家による国際公募展に加え、ノルウェー・Oslo Street Photography Collectiveとの国際文化交流展示を実施。世界各地で生まれた多様な視点を、一つの会場で体感できる写真展です。\n国際公募展では、世界各地から寄せられた応募作品の中から選出された作品を展示します。写真家それぞれの視点を通して、街の日常や人々の営み、偶然の瞬間など、多彩なストリートフォトグラフィーをご覧いただけます。また、ノルウェー・Oslo Street Photography Collectiveを特別招待し、日本とノルウェーによる国際文化交流展示を開催。異なる文化や街で育まれた作品を紹介することで、ストリートフォトグラフィーが国境や言語を越えて人と人をつなぐ表現であることを伝えます。\n今年の公募展示では、作品を「カラー」と「モノクローム」の二つの空間に分けて展示。色彩がもたらす現実感と、モノクロームが引き出す抽象性や本質を対比させることで、「見ること」の違いを体感できる展示構成となっています。さらに、各作品にはQRコードを設置。作品情報や写真家のプロフィール、作品解説などを閲覧しながら鑑賞いただけます。",
       "medium": "photo",
@@ -59304,8 +59546,17 @@
       "id": "38e09b52b795",
       "source": "tokyo_art_beat",
       "title": "「あざみ野コンテンポラリー vol.17 ニュータウン、インターフェアレンス 都市とわたしたちの関係」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「아자미노 컨템포러리 vol.17 뉴타운, 인터페어런스 도시와 우리의 관계」",
+          "description": "도시나 토지와의 관계는 미리 주어지는 것만이 아니라, 보는 방식이나 관계 맺는 방식에 따라 다시 선택할 수 있습니다. '아자미노 컨템포러리' 제17회인 본 전시에서는 교외·뉴타운 등 '도시'나 '토지'의 이미지를 둘러싸고, 사람과 장소의 관계가 어떻게 맺어지고 흔들려왔는지를 다양한 작품을 통해 고찰합니다.\n\n작품과 도시와의 관계를 나타내는 '난입하다', '따라 그리다', '데리고 가다' 등의 키워드와 함께, 7팀의 아티스트가 선보이는 영상, 설치, 회화, 사진 등 약 100점의 작품을 전시합니다. 또한, 요코하마 시민 갤러리 아자미노가 세워진 장소에 과거 존재했던 아카다 고분군의 발굴 조사 자료 등을 소개합니다. 다양한 표현이 서로 간섭(인터페어런스)하며, 도시와 우리의 새로운 관계를 찾아냅니다.\n\n[관련 이벤트]\n1. 아티스트 갤러리 토크\n일시: 10월 10일 (토)\n[1부] 14:45~15:30 이시자키 아사코, 나카지마 하루야, 야마구치 코지\n[2부] 15:45~16:45 카와, 타니야마 쿄코, 트랜스필드 스튜디오, 마츠다 오사무\n장소: 전시실 1·2\n요금: 무료 (사전 신청 불필요, 전시회 입장권 필요)\n2. 거리를 걷고, 거리를 듣다 ― 타니야마 쿄코 아티스트 토크\n일시: 10월 11일 (일) 14:00~15:00\n출연: 타니야마 쿄코\n장소: 3층 아틀리에\n요금: 무료 (사전 신청 필요, 전시회 입장권 필요)\n3. 담당 큐레이터 미니 갤러리 토크\n일시: 10월 24일 (토) 13:00~13:30, 10월 25일 (일) 11:00~11:30\n장소: 전시실 1·2 (집합은 전시실 1 접수처 앞)\n요금: 참가 무료 (사전 신청 불필요, 당일 개관 기념일로 입장도 무료)\n4. 뉴타운 노상 관찰 ― 아티스트와 아자미노를 디깅하다 ―\n일시: 10월 31일 (토) 13:30~16:30\n※악천후 시 11월 1일 (일) 13:30~16:30으로 변경\n출연: 나카지마 하루야, 이시자키 아사코\n장소: 3층 아틀리에, 아자미노 지역\n요금: 3,000엔\n정원: 12세 이상, 10명 (사전 신청 필요, 선착순)\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "「Azamino Contemporary vol.17 New Town, Interference: The Relationship Between the City and Us」",
+          "description": "The relationship with cities and land is not merely something given in advance; it can be re-chosen depending on one's perspective and involvement. In this 17th \"Azamino Contemporary\" exhibition, we explore how the relationship between people and places has been formed and swayed, revolving around images of \"cities\" and \"land\" such as suburbs and new towns, through diverse artworks.\n\nApproximately 100 works, including videos, installations, paintings, and photographs by seven groups of artists, are exhibited, along with keywords that express the connection between artworks and the city, such as \"intruding,\" \"tracing,\" and \"accompanying.\" Furthermore, we introduce excavation research materials from the Akada Kofun Group, which once existed on the site where Yokohama Civic Art Gallery Azamino now stands. Various expressions interfere with each other, revealing new relationships between the city and us.\n\n[Related Events]\n1. Gallery Talk by Artists\nDate: October 10 (Sat)\n[Part 1] 14:45–15:30 Asako Ishizaki, Haruya Nakajima, Koji Yamaguchi\n[Part 2] 15:45–16:45 Kawa, Kyoko Taniyama, Transfield Studio, Osamu Matsuda\nVenue: Exhibition Rooms 1 & 2\nFee: Free (No advance registration required, exhibition ticket required)\n2. Walking the City, Listening to the City – Kyoko Taniyama Artist Talk\nDate: October 11 (Sun) 14:00–15:00\nSpeaker: Kyoko Taniyama\nVenue: 3F Atelier\nFee: Free (Advance registration required, exhibition ticket required)\n3. Mini Gallery Talk by Curator\nDate: October 24 (Sat) 13:00–13:30, October 25 (Sun) 11:00–11:30\nVenue: Exhibition Rooms 1 & 2 (Meet in front of the reception desk in Exhibition Room 1)\nFee: Free (No advance registration required, admission is also free on the day of the opening anniversary)\n4. New Town Street Observation – Digging Azamino with Artists –\nDate: October 31 (Sat) 13:30–16:30\n*Changed to November 1 (Sun) 13:30–16:30 in case of inclement weather.\nSpeakers: Haruya Nakajima, Asako Ishizaki\nVenue: 3F Atelier, Azamino Area\nFee: 3,000 yen\nCapacity: 10 people aged 12 and over (Advance registration required, first-come, first-served)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3b5JiuQ1gM45ltTUAgIqOk/68755245ce712de1aab988cdeb44ff1f/main.jpg",
       "description": "都市や土地との関係は、あらかじめ与えられるものだけではなく、見方や関わり方によって選び直すことができます。「あざみ野コンテンポラリー」第 17 回となる本展では、郊外・ニュータウンなどの「都市」や「土地」のイメージをめぐり、人と場所との関係がどのように結ばれ、揺らいできたのかを、 多様な作品を通して考えます。\n\n作品と都市との関わりをあらわす「乱入する」「なぞる」「連れる」な どのキーワードとともに、7組のアーティストによる映像、インスタレーション、絵画、写真など約 100 点の作品を展示。さらに、横浜市民ギャラリーあざみ野が建つ場所にかつて存在した赤田古墳群の発掘調査資料などを紹介します。さまざまな表現が干渉（インターフェアレンス）しあい、都市とわたしたちの新たな関係を見出します。\n\n[関連イベント]\n1. アーティストによるギャラリートーク\n日時: 10月10日（土）\n[1部] 14:45～15:30 石﨑朝子、中島晴矢、山口幸士\n[2部] 15:45～16:45 川、谷山恭子、トランスフィールドスタジオ、松田修\n会場: 展示室 1・2\n料金: 無料（事前申込不要、要展覧会入場券）\n2. 街を歩く、街を聴く―谷山恭子アーティストトーク\n日時: 10月11日（日）14:00～15:00\n出演: 谷山恭子\n会場: 3階アトリエ\n料金: 無料（要事前申込、要展覧会入場券）\n3. 担当学芸員によるミニギャラリートーク\n日時: 10月24日（土）13:00～13:30、10月25日（日）11:00～11:30\n会場: 展示室 1・2（集合は展示室1受付前）\n料金: 参加無料（事前申込不要、当日開館記念日のため入場も無料）\n4. ニュータウン路上觀察－アーティストとあざみ野をディグる－\n日時: 10月31日（土）13:30～16:30\n※荒天の場合は11月1日（日）13:30～16:30に変更\n出演: 中島晴矢、石﨑朝子\n会場: 3階アトリエ、あざみ野エリア\n料金: 3,000円\n定員: 12歳以上、10名（要事前申込、先着順）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -59436,8 +59687,15 @@
       "id": "0a3d4d3e0bd8",
       "source": "tokyo_art_beat",
       "title": "夏樹螢石 「四季彩ノ国」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "나츠키 케이세키 「시키사이노쿠니」"
+        },
+        "en": {
+          "title": "Natsuki Keiseki 「Shikisai no Kuni」"
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3XQcdxcyM37X5MYNmVCigC/74d10f6104c20251d53f83f425a46b7b/c20f1aeb-d58f-4ff5-b396-f3194bc4f47f.jpg",
       "description": null,
       "medium": "mixed",
@@ -59490,8 +59748,19 @@
       "id": "568303a9e52a",
       "source": "tokyo_art_beat",
       "title": "「Five Points of Architecture」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「Five Points of Architecture」",
+          "description": "◆ 전시에 대하여\n건축사 전시 「Five Points of Architecture」에서는 도쿄대학 카토 코이치 연구실 소속 대학원생 5명이 사진, 카루타, 서적, 수채화, 입체 작품을 출품합니다.\n5명 각자의 독특한 창작 활동을 통해 '건축사학'의 재미를 전달합니다.\n인스타그램｜https://www.instagram.com/5points.exhibition?utm_source=qr\n\n◆ 토크 이벤트\n전시 기간 중에는 토크 이벤트 「건축사학자의 새로운 큐레이션을 생각하다」를 개최합니다.\n기존 전시회에서 건축사학자는 주로 건축 작품을 조사하고 선정하며 해설하는 역할을 맡아왔습니다. 하지만 건축 교육을 받은 역사학자의 매력은 스스로 표현하고 작품을 만들어낼 수 있다는 점에도 있지 않을까요?\n건축사학자이면서 설계, 편집, 전시 등 폭넓은 영역에서 활동하는 2.5 architects의 카츠 신게이 씨를 초청하여 \"건축사를 매개로 어떤 전시를 할 수 있을까\"를 생각합니다.\n\n제목｜건축사학자의 새로운 큐레이션을 생각하다 개최 일시｜2026년 8월 11일 (화·공휴일) 19:00–20:30 (18:30 개장) 장소｜HAGISO (〒110-0001 도쿄도 다이토구 야나카 3초메 10-25) 참가비｜1,000엔 (음료 1잔 포함) 정원｜40명 ※정원 도달 시 접수 마감. 신청 양식｜https://forms.gle/ns785fr4q8TmxUVk7\n\n◆ 크라우드펀딩\n본 전시 개최에 맞춰 크라우드펀딩을 진행하고 있습니다.\n후원에 대한 답례품으로, 현장에서도 전시 및 판매하는 오리지널 제작물을 준비했습니다. 본 전시의 콘셉트와 답례품에 대한 자세한 내용은 아래 링크에서 확인하실 수 있습니다.\n크라우드펀딩｜https://motion-gallery.net/projects/5points_exhibition"
+        },
+        "ja": {
+          "title": "「Five Points of Architecture」"
+        },
+        "en": {
+          "description": "◆ About the Exhibition\nThe architectural history exhibition \"Five Points of Architecture\" features five graduate students from Koichi Kato's laboratory at The University of Tokyo, presenting photographs, karuta cards, books, watercolors, and three-dimensional works.\nThrough the unique creative activities of each of the five individuals, they will convey the fascination of \"architectural history.\"\nInstagram｜https://www.instagram.com/5points.exhibition?utm_source=qr\n\n◆ Talk Event\nDuring the exhibition period, a talk event titled \"Thinking about New Curation by Architectural Historians\" will be held.\nIn conventional exhibitions, architectural historians have primarily played the role of researching, selecting, and explaining architectural works. However, isn't the appeal of historians with architectural education also in their ability to express themselves and create works?\nWe invite Shingei Katsu of 2.5 architects, who is an architectural historian active in a wide range of fields including design, editing, and exhibition, to discuss \"what kind of exhibitions can be created through architectural history.\"\n\nTitle｜Thinking about New Curation by Architectural Historians Date & Time｜August 11, 2026 (Tuesday, Public Holiday) 19:00–20:30 (Doors open 18:30) Venue｜HAGISO (3-10-25 Yanaka, Taito-ku, Tokyo 110-0001) Participation Fee｜1,000 yen (includes one drink) Capacity｜40 people *Registration will close once capacity is reached. Application Form｜https://forms.gle/ns785fr4q8TmxUVk7\n\n◆ Crowdfunding\nIn conjunction with this exhibition, we are conducting a crowdfunding campaign.\nAs a thank-you gift for your support, we have prepared original creations that will also be exhibited and sold at the venue. Details on the concept of this exhibition and the thank-you gifts can be found at the link below.\nCrowdfunding｜https://motion-gallery.net/projects/5points_exhibition"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/5Q5BSZp6jis4y2DaqFyUP1/9e37a7e5ffe80d81f67f03b9a813521c/1cb067ee-fed5-4b9d-813e-bda50802ebc9.jpg",
       "description": "◆ 展覧会について\n建築史展「Five Points of Architecture」では、東京大学・加藤耕一研究室に所属する5名の大学院生が、写真、かるた、書籍、水彩画、立体作品を出品します。\n5人それぞれのユニークな創作活動を通して、「建築史学」のおもしろさを発信します。\nInstagram｜https://www.instagram.com/5points.exhibition?utm_source=qr\n\n◆ トークイベント\n会期中には、トークイベント「建築史家の新しいキュレーションを考える」を開催します。\n従来の展覧会において、建築史家は主に、建築作品を調査し、選び、解説する役割を担ってきました。しかし、建築教育を受けた歴史家の魅力は、自ら表現し、作品を生み出せることにもあるのではないでしょうか。\n建築史家でありながら、設計・編集・展示など幅広い領域で活動する2.5 architectsの葛沁芸（かつ・しんげい）さんをお招きし、「建築史を媒介に、どのような展覧会ができるのか」を考えます。\n\nタイトル｜建築史家の新しいキュレーションを考える 開催日時｜2026年8月11日（火・祝）19:00–20:30（18:30開場） 会場｜HAGISO（〒110-0001 東京都台東区谷中3丁目10−25） 参加費｜1,000円（ワンドリンク付き） 定員｜40名 ※定員に達し次第、受付を終了します。 申込フォーム｜https://forms.gle/ns785fr4q8TmxUVk7\n\n◆ クラウドファンディング\n本展の開催にあわせて、クラウドファンディングを実施しています。\nご支援への返礼品として、会場でも展示・販売するオリジナル制作物をご用意しました。本展のコンセプトや返礼品の詳細は、下記リンクからご覧いただけます。\nクラウドファンディング｜https://motion-gallery.net/projects/5points_exhibition",
       "medium": "photo",
@@ -59582,8 +59851,19 @@
       "id": "6c3ad0101271",
       "source": "tokyo_art_beat",
       "title": "「GENERAL STORE Punk + Art + Design」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「GENERAL STORE Punk + Art + Design」",
+          "description": "현재 CHANEL Nexus Hall에서 전시를 개최 중인 영국인 콜라주 아티스트 린더(Linder)를 중심으로 한 기획전을 개최합니다. 린더는 1977년에 발매된 맨체스터 펑크 밴드 Buzzcocks의 싱글 『Orgasm Addict』의 재킷 아트워크를 그래픽 디자이너 Malcolm Garrett과 공동 제작한 것으로 널리 알려져 있습니다. 그 후로도 영국을 비롯한 유럽을 중심으로 높은 평가를 받았으며, 올해 6월에는 국내 첫 개인전을 KYOTOGRAPHIE에서 개최했습니다. 현재는 CHANEL Nexus Hall에서 전시를 개최하는 등 국내외에서 주목받고 있습니다. PUNKTURE에서는 린더의 작품을 중심으로 전시 및 판매하며, 관련 상품과 빈티지 펑크 레코드도 판매합니다."
+        },
+        "ja": {
+          "title": "「GENERAL STORE Punk + Art + Design」"
+        },
+        "en": {
+          "description": "We will hold a special exhibition featuring Linder, the British collage artist currently exhibiting at CHANEL Nexus Hall. Linder is widely known for co-creating the jacket artwork for the Manchester punk band Buzzcocks' single \"Orgasm Addict,\" released in 1977, with graphic designer Malcolm Garrett. Since then, she has received high acclaim, primarily in the UK and Europe, and held her first solo exhibition in Japan at KYOTOGRAPHIE this June. She is currently attracting attention both domestically and internationally, with an exhibition at CHANEL Nexus Hall. At PUNKTURE, we will exhibit and sell Linder's works, along with related merchandise and vintage punk records."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/45O6iYBUDyWqGWJZZ9ldqT/a9a478de6cfc5fa1c0d46f6ed06b62a8/GENERAL_STORE_PUNK___DESIGN_07.2026.S.jpg",
       "description": "現在、CHANEL Nexus Hallで展示を開催中のイギリス人コラージュアーティスト、Linder（リンダー）を中心とした企画展を開催いたします。Linderは、1977年にリリースされたマンチェスターのパンクバンドBuzzcocksのシングル 『Orgasm Addict』 のジャケットアートワークを、グラフィックデザイナー Malcolm Garrett と共同制作したことで広く知られています。その後もイギリスをはじめヨーロッパを中心に高い評価を受け、今年6月には国内初個展をKYOTOGRAPHIEで開催。現在はCHANEL Nexus Hallにて展示を開催するなど、国内外で注目を集めています。PUNKTUREでは、Linderの作品を中心に展示・販売するとともに、関連グッズやヴィンテージ・パンク・レコードも販売いたします。",
       "medium": "mixed",
@@ -59636,8 +59916,17 @@
       "id": "5bd2992e873b",
       "source": "tokyo_art_beat",
       "title": "Grace Dai 「不滅の灯火：信仰と継承 Grace Dai東京写真展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "Grace Dai 「불멸의 등불: 신앙과 계승 Grace Dai 도쿄 사진전」",
+          "description": "미국 뉴저지주에 거주하는 그레이스는 문화 계승과 사람 및 지역과의 유대에 깊은 관심을 가지고 지난 5년여 동안 중국 서남부에 거주하는 소수민족의 일상생활을 사진에 담아왔습니다. 그녀는 렌즈를 통해 간과되기 쉬운 사람들과 이야기에 다가가며, 민족 문화가 어떻게 계승되고 있는지를 계속해서 포착하고 있습니다.\n\n본 전시 『불멸의 등불』은 간쑤성 남부, 다량산, 칭하이성 황난, 윈난의 네 지역을 단서로 삼아, 서로 다른 문화적 배경에 흐르는 생명력과 세대를 넘어 지켜져 온 전통의 여러 모습을 탐구하고자 합니다. 전시장에서는 티베트 지역의 심홍색 풍경과 피어오르는 밥 짓는 연기에 깃든 경건한 삶의 모습, 칭하이성 황난의 6월 축제, 그리고 윈난의 무형문화유산 '신조의 춤' 등, 지금까지 잘 소개되지 않았던 귀중한 장면들을 다수 감상하실 수 있습니다. 중국 서남 민족의 특색을 가능한 한 다각적인 시점에서 소개해 나갈 것입니다."
+        },
+        "en": {
+          "title": "Grace Dai 'Immortal Light: Faith and Succession Grace Dai Tokyo Photography Exhibition'",
+          "description": "Grace, who resides in New Jersey, USA, has a deep interest in cultural heritage and the connections between people and regions. For over five years, she has continuously photographed the daily lives of minority ethnic groups living in Southwest China. Through her lens, she approaches people and stories that are often overlooked, continuously capturing how ethnic cultures are passed down.\n\nThis exhibition, 'Immortal Light,' takes four regions—Southern Gansu Province, the Daliang Mountains, Huangnan in Qinghai Province, and Yunnan—as its starting point to explore the underlying vitality in diverse cultural backgrounds and the various aspects of traditions preserved across generations. At the venue, you can see numerous precious scenes that have rarely been introduced before, such as the deep crimson landscapes of the Tibetan region, the devout daily life imbued in the rising cooking smoke, the June Festival in Huangnan, Qinghai Province, and Yunnan's intangible cultural heritage, the 'Dance of the Divine Bird.' We will introduce the characteristics of the ethnic groups of Southwest China from as many diverse perspectives as possible."
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/1p46XyaWkuel3hrgJ9QU5f/87e018b70d1462ec2b4e0feaacd208a8/e8ffde5892712dc8098467bd94b486d4_-_anya_zhang.jpg",
       "description": "アメリカ合衆国ニュージャージー州在住のグレースは、文化の継承と人々・地域との結びつきに深い関心を寄せ、この五年余にわたり、中国西南部に暮らす少数民族の日常生活を写真に収め続けてまいりました。彼女はレンズを通して、見過ごされがちな人々や物語に寄り添い、民族の文化がいかにして受け継がれているかを捉え続けております。\n\n本展『不滅の灯火』は、甘粛省南部、大涼山、青海省黄南、雲南の四つの地域を手がかりに、異なる文化の背景に通底する生命力と、世代を超えて守り継がれてきた伝統の諸相を探求しようとするものです。会場では、チベット地域の深紅の情景や、立ち上る炊煙に宿る敬虔な営み、青海省黄南の六月会、そして雲南の無形文化遺産「神鳥の舞」など、これまであまり紹介されることのなかった貴重な場面を多数ご覧いただけます。中国西南民族の特色を、可能な限り多角的な視点からご紹介していきます。",
       "medium": "photo",
@@ -59683,8 +59972,17 @@
       "id": "9d6e1b16c2da",
       "source": "tokyo_art_beat",
       "title": "焦清瑞 「余白」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "초청루이 「여백」",
+          "description": "'여백'이란 본래 회화에서 붓이나 먹이 놓이지 않은 공간을 가리킨다. 겉보기에는 아무것도 존재하지 않는 듯하지만, 작품을 성립시키는 중요한 요소 중 하나이다. 본 전시는 '여백'을 주제로 시간, 정체, 그리고 자기 인식에 대해 고찰하는 것이다. 초청루이는 사진과 설치미술을 통해 과거에 말로 표현할 수 없었던 삶의 한 시기를 다시 들여다보고, 반복되는 일상과 침묵하는 감정, 그리고 의미 없는 듯 보였던 시간을 새롭게 작품으로 제시한다. 그러한 '공백'의 시간은 잃어버린 것이 아니라, 자신의 발자취를 형성하는 중요한 경험으로 재해석된다. 본 전시는 '여백'을 주제로 시간과 정체, 자기 인식에 대해 조용히 질문을 던진다."
+        },
+        "en": {
+          "title": "Jiao Qingrui 'Negative Space'",
+          "description": "'Negative space' originally refers to the area in a painting where no brushstrokes or ink are applied. While seemingly empty, it is one of the crucial elements that constitute a work of art. This exhibition, themed 'Negative Space,' explores time, stagnation, and self-awareness. Through photography and installation, Jiao Qingrui re-examines a period of her life that she once could not articulate, presenting recurring daily routines, silent emotions, and time that seemed meaningless, anew as artworks. Such 'blank' time is reinterpreted not as something lost, but as a significant experience that shapes her journey. This exhibition, themed 'Negative Space,' quietly poses questions about time, stagnation, and self-awareness."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/31y4GVpHTar0NNIJ30Ps6X/bb10569ef0bf9595da5bd8b59d1567f2/88d88b13-feba-4309-a657-b3691b523f4c.jpg",
       "description": "「余白」とは、本来、絵画において筆や墨が置かれていない空間を指す。一見何も存在しないようでいて、作品を成立させる重要な要素の一つである。本展は「余白」をテーマに、時間、停滞、そして自己認識について考察するものである。焦清瑞は、写真とインスタレーションを通して、かつて言葉にすることのできなかった人生の一時期を見つめ直し、繰り返される日常や沈黙する感情、そして意味を持たないように思われた時間を、あらためて作品として提示する。そうした「空白」の時間は、失われたものとしてではなく、自身の歩みを形づくる重要な経験として捉え直されている。本展は「余白」をテーマとし、時間や停滞、自己認識について静かに問いかけるものである。",
       "medium": "photo",
@@ -59831,8 +60129,15 @@
       "id": "af82177bd32a",
       "source": "tokyo_art_beat",
       "title": "安武青架 「Silver Lining」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "야스타케 세이카 「Silver Lining」"
+        },
+        "en": {
+          "title": "Seika Yasutake 「Silver Lining」"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/53Ar51b4utWkioVJAVpKo4/9d516584e48e761fab248de723a87e8c/202607yasutake.jpg",
       "description": null,
       "medium": "mixed",
@@ -59885,8 +60190,15 @@
       "id": "3c6fe9ddfc2c",
       "source": "tokyo_art_beat",
       "title": "萩原奈都来 「そっけない君がすき」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "하기와라 나츠쿠 「무뚝뚝한 네가 좋아」"
+        },
+        "en": {
+          "title": "Natsuku Hagiwara 「I Like Your Indifference」"
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/6Zjcu29dP7H4OZa7LHsmXo/1294b6996fb34ff76bb92a753e36ef49/202607hagiwara01.jpg",
       "description": null,
       "medium": "mixed",
@@ -59939,8 +60251,17 @@
       "id": "c79c7cccaba1",
       "source": "tokyo_art_beat",
       "title": "儀間梨々香 「見果てぬ夢の、線をなぞる」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "기마 리리카 「미하테누 유메노, 센오 나조루」",
+          "description": "이 전시는 매년 오키나와에서 개최되는 사진 프로젝트 「오키나와 샤신 타이푼 <키타 카라 미나미 카라>」와 연동된 사진전으로, 오키나와현에 거주하는 사진작가 기마 리리카 씨의 사진전입니다. 직접 만든 소프트 필터를 사용한 작품과 이미지를 겹친 작품 약 40점을 전시합니다. 작가가 풍경과 사람을 만나면서 생겨나는 「대상에 대한 몰입감」에 주목하여 구성된 이번 전시는 사적인 감정을 내포하고 있습니다. 그리고 오키나와 특유의 습도와 섬 시간이 가득 찬 풍경은 작가의 심상 풍경과 겹쳐지면서, 희미하게 흔들리는 기억처럼 나타납니다. 모든 작품은 캐논 프린터 「imagePROGRAF PRO-G1」을 사용하여 작가가 직접 프린트하여 전시합니다."
+        },
+        "en": {
+          "title": "Gima Ririka 「Mihatenu Yume no, Sen o Nazoru」",
+          "description": "This exhibition is a collaborative photo exhibition with the \"Okinawa Shashin Typhoon <Kita kara Minami kara>\" photo project, held annually in Okinawa, and features works by Okinawa-based photographer Gima Ririka. Approximately 40 works, including those using her self-made soft filters and layered images, will be displayed. Focusing on the \"sense of immersion in the subject\" that arises as she encounters landscapes and people, this exhibition is imbued with personal emotions. The landscapes, filled with Okinawa's unique humidity and island time, emerge like vaguely wavering memories, overlapping with her inner emotional landscapes. All works are printed and exhibited by her using a Canon \"imagePROGRAF PRO-G1\" printer."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/44OUFg7zhO5l2mZVOnkAhi/2ac0d1e10e978add51d80182beb06cc4/20260612.jpg",
       "description": "本展は、毎年沖縄で開催される写真プロジェクト「沖縄写真タイフーン＜北から南から＞」の連動写真展で、沖縄県在住の写真家・儀間梨々香氏による写真展です。自作のソフトフィルターを用いた作品や画像を重ねた作品約40点を展示します。氏が景色や人と出会うなかで生まれる「対象への没入感」に着目し構成された本展は、私的な感情が内包されています。そして沖縄特有の湿度や島時間が充満した風景は、氏の心象風景と重なりながら、ぼんやりと揺らぐ記憶のように立ち現れます。作品はすべてキヤノンのプリンター「imagePROGRAF PRO-G1」を使用して氏が自らプリントし、展示します。",
       "medium": "photo",
@@ -59993,8 +60314,17 @@
       "id": "28a86c90d1ef",
       "source": "tokyo_art_beat",
       "title": "松本直大 「極度のここ」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "마츠모토 나오히로 「교쿠도노 코코」",
+          "description": "7월 23일 (목)부터 BOOK AND SONS에서 마츠모토 나오히로의 사진전 「교쿠도노 코코」를 개최합니다. 이번 전시는 2018년부터 9년간 LA, 파리, 네팔, 서울, 그리고 일본 각지 등 세계 여러 곳에서 촬영된 사진들로 구성되어 있습니다. 시공간과 스케일을 넘어 나란히 놓인 이미지들은 현실을 담으면서도 다큐멘터리임을 벗어나 새로운 의미를 띠기 시작합니다. 그것은 마치 어딘가 다른 세계의 은유처럼, 마츠모토 씨가 바라보는 세계의 윤곽을 드러냅니다.\n\n[관련 이벤트]\n토크 이벤트\n일시: 7월 25일 (토) 16:00~17:00 (15:30 개장)\n등단자: 마츠모토 나오히로, 오사다 카스미, 카와다 오사무\n장소: BOOK AND SONS 2F\n요금: 1650엔\n정원: 20명\n※이벤트 상세 정보 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Matsumoto Naohiro 「Kyokudo no Koko」",
+          "description": "Matsumoto Naohiro's photo exhibition \"Kyokudo no Koko\" will be held at BOOK AND SONS starting Thursday, July 23rd. This exhibition features photographs taken over nine years, starting in 2018, in various locations around the world, including LA, Paris, Nepal, Seoul, and throughout Japan. Images juxtaposed across time, space, and scale capture reality yet shed their documentary nature, beginning to take on new meanings. Like metaphors for another world, they reveal the contours of the world as seen by Matsumoto.\n\n[Related Event]\nTalk Event\nDate & Time: Saturday, July 25th, 16:00-17:00 (Doors open 15:30)\nSpeakers: Matsumoto Naohiro, Osada Kasumi, Kawada Osamu\nVenue: BOOK AND SONS 2F\nFee: 1650 yen\nCapacity: 20 people\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/6dgSUxQlnfemjDGZxrZoud/7af01c9416002dbbcd306e9746af9fe3/01.jpg",
       "description": "7月23日（木）より、BOOK AND SONSにて、松本 直大による写真展「極度のここ」を開催いたします。\n本展は、2018年から9年間にわたり、LA、パリ、ネパール、ソウル、そして日本各地など、世界様々な場所で撮影された写真で構成されています。時空やスケールを超えて隣り合うイメージは、現実を写しながらもドキュメンタリーであることを手放し、新たな意味を帯び始めます。それはまるでどこか別の世界のメタファーのように、松本氏が見つめる世界の輪郭を浮かび上がらせます\n\n[関連イベント]\nトークイベント\n日時: 7月25日（土）16:00〜17:00（15:30開場）\n登壇者: 松本直大、長田果純、川田修\n場所: BOOK AND SONS 2F\n料金: 1650円\n定員: 20名\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -60047,8 +60377,15 @@
       "id": "3cf7228a470f",
       "source": "tokyo_art_beat",
       "title": "服部健太郎 「骨/漂流物」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "핫토리 켄타로 「호네/효류부쓰」"
+        },
+        "en": {
+          "title": "Hattori Kentaro \"Hone/Hyoryubutsu\""
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3e3uuDX7AKLkcqPhSXXfa3/23c38c6fd6eb19c1545826b8adebb578/hattori-honehyo_DM-01.jpg",
       "description": null,
       "medium": "mixed",
@@ -60101,8 +60438,15 @@
       "id": "638c36bd7ce3",
       "source": "tokyo_art_beat",
       "title": "酒航太 「忘景」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "사케 코타 「보케이」"
+        },
+        "en": {
+          "title": "Sake Kota \"Bokei\""
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/4Ys62bPw2uTHDaQfJ6zlyn/65ff0ecf30f3fa3b44c7c7f439a60102/unnamed.jpg",
       "description": null,
       "medium": "mixed",
@@ -60155,8 +60499,17 @@
       "id": "30f216e1b0f3",
       "source": "tokyo_art_beat",
       "title": "阿部駿 「境界-関係」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "아베 슌 「경계-관계」",
+          "description": "2026년 7월 23일 (목) – 8월 9일 (일) 기간 동안 아베 슌의 개인전 「경계-관계」를 개최합니다. 아베 슌은 도쿄를 거점으로 패션과 광고 분야에서 활동하는 사진작가입니다. 상업 사진으로서 다양한 피사체를 포착하는 한편, 그것들과는 전혀 다른 자율적인 작품을 적극적으로 계속 촬영하고 있는 아베 슌. 시각적 구성을 능숙하게 도입하고 구도에 대한 세심한 배려가 느껴지는 아베 슌의 자율 작품에는 빛과 그림자의 섬세한 사용법도 반영되어 있습니다. 건물의 그림자나 각도를 이용하여 포착된 그 순간에는 건축적 요소가 느껴지며, 보는 이들을 강하게 매료시킵니다. 「경계-관계」라는 제목의 본 전시에서는 오랜 제작 테마이기도 한 경계와 관계를 더욱 깊이 파고든 최근 작품들을 발표합니다."
+        },
+        "en": {
+          "title": "Shun Abe \"Boundaries-Relationships\"",
+          "description": "From Thursday, July 23 to Sunday, August 9, 2026, a solo exhibition by Shun Abe titled \"Boundaries-Relationships\" will be held. Shun Abe is a photographer based in Tokyo, active in the fields of fashion and advertising. While capturing various subjects as commercial photography, Shun Abe actively continues to shoot independent works that are completely different from them. His independent works, which skillfully incorporate visual composition and show meticulous attention to framing, also reflect a delicate use of light and shadow. Architectural elements can be felt in the moments captured using building shadows and angles, strongly captivating viewers. This exhibition, titled \"Boundaries-Relationships,\" will present recent works that further delve into boundaries and relationships, which have been long-standing themes in his creative practice."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/51G6IPcmt8oRw1HNxwjVPQ/33a138d6117dade1172899331de4f53c/b2ae5ad9-58b2-4689-aa7f-1aabc2648ee1.png",
       "description": "2026年7月23日（木）– 8月9日（日）の期間、阿部駿による個展「境界-関係」を開催いたします。阿部駿は東京を拠点にファッションや広告の分野で活動している写真家です。商業写真として様々な被写体を捉える一方で、それらとは全く違った自主的な作品を積極的に撮り続けている阿部駿。視覚的構成を巧みに取り入れ、構図への細やかな配慮が感じられる阿部駿の自主作品には、光と影の繊細な使い方も反映されています。建物の影や角度を利用して捉えられたその瞬間には建築的要素が感じられ、観る者を強く惹きつけます。「境界-関係」と題した本展では、長年の制作のテーマでもある境界と関係をさらに深掘りした近年の作品を発表いたします。",
       "medium": "photo",
@@ -60202,8 +60555,17 @@
       "id": "2c8ce2c5e717",
       "source": "tokyo_art_beat",
       "title": "小西弘晃 「peripheral portraits」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "고니시 히로아키 「peripheral portraits」",
+          "description": "ADF(NPO 아오야마 디자인 포럼)는 아트 전시회 「ADF Art Gallery Project」의 46번째 행사로, 사진작가이자 아티스트인 고니시 히로아키의 개인전 「peripheral portraits」를 2026년 8월 7일 (금)부터 8월 26일 (수)까지 도쿄 미나미아오야마의 GARDE Gallery에서 개최합니다.\n\n고니시는 지금까지 자신의 작품 속에서 주류에서 벗어난 것, 눈에 띄지 않는 것, 간과되는 것, 차별받는 것 등 사회의 다소 '바깥'에 있는 주변적 존재에 스포트라이트를 비춰왔습니다. 또한 언어의 바깥에 존재하는 신체성에 주목하고, 그 가능성에 대해 사진이라는 매체를 통해 탐색해왔습니다. 본 전시에서는 그 시점을 더욱 크게 확장하여 새로운 해석으로 이 세상을 다시 바라봅니다. 잊혀진 것들이나 장소, 아이들이나 동물들과 같은 작은 목소리와 마주하는 가운데, 그 대상은 보이지 않는 존재에까지 이릅니다.\n\n고니시에 의한, 보이지 않는 것을 보려는 행위를 통해 '초상화'는 재정의되고, 우리가 어른이 되면서 놓쳐왔던 풍경과 감각을 일깨웁니다. 꿈과 현실이 교차하는 듯한 긴장감과 위화감으로 가득 찬 신작은 작가 자신의 개인적인 기억 그 자체이면서 동시에 어딘가 보편성을 띠고 있습니다. 영상 작품을 곁들인 불안한 기운이 감도는 시리즈를 꼭 회장에서 경험해 보시기 바랍니다.\n\n※회장에서는 전시 작품을 구매하실 수 있으며, 사진집 등의 상품 판매도 진행됩니다."
+        },
+        "en": {
+          "title": "Hiroaki Konishi \"peripheral portraits\"",
+          "description": "ADF (NPO Aoyama Design Forum) will hold the 46th \"ADF Art Gallery Project\" art exhibition, a solo exhibition by photographer and artist Hiroaki Konishi titled \"peripheral portraits,\" from Friday, August 7 to Wednesday, August 26, 2026, at GARDE Gallery in Minami-Aoyama, Tokyo.\n\nIn his previous works, Konishi has focused on peripheral existences that are somewhat \"outside\" of society, such as those outside the mainstream, inconspicuous, overlooked, or discriminated against. He has also paid attention to corporeality existing outside of language and explored its possibilities through the medium of photography. In this exhibition, he further significantly expands that perspective and re-examines this world with a new interpretation. As he confronts forgotten things and places, and the small voices of children and animals, his subjects extend even to invisible presences.\n\nThrough Konishi's act of trying to see the unseen, \"portraits\" are redefined, awakening landscapes and sensations that we have overlooked as we grew into adulthood. His new works, filled with a tension and sense of unease where dreams and reality intersect, are at once the artist's own personal memories and somehow universal. Please experience this series, imbued with an unsettling atmosphere and incorporating video works, at the venue.\n\n*Exhibited works will be available for purchase at the venue, along with merchandise such as photo books."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/L6grh3P1rScizJpGj1z7c/c19dea61b3d5974609b1c2951adc1321/1def33ed-5bb9-49b2-ba6c-9f91337d5947.jpg",
       "description": "ADF（NPO青山デザインフォーラム）は、アート展「ADF Art Gallery Project」の46回目として、写真家・アーティストの小西弘晃（こにしひろあき）による個展「peripheral portraits」を2026年8月7日（金）から8月26日（水）まで東京・南青山のGARDE Galleryで開催いたします。\n\n小西はこれまで自身の作品の中で、メインストリームから外れたもの、目立たないもの、見過ごされているもの、差別されているものなど、社会のやや“外側”にいる周縁の存在にスポットライトを当ててきました。また言語の外側に存在する身体性に注目し、その可能性について写真というメディアを通して模索してきました。本展ではさらにその視点を大幅に拡張し、新たな解釈でこの世界を見つめ直します。忘れ去られたものや場所、子供や動物などの小さな声と向き合う中で、その対象は見えざる存在にまで及んでいきます。\n\n小西による、見えないものを見ようとする行為を通して、「ポートレート」は再定義され、私たちが大人になるにつれて見落としてきた風景や感覚を呼び覚まします。夢と現実が交差するような緊張感と違和感に満ちた新作は、作家自身の個人的な記憶そのものであると同時に、どこか普遍的を帯びています。映像作品を交えた不穏な気配が漂うシリーズを、ぜひ会場でご体感ください。\n\n※会場では展示作品をご購入頂ける他、写真集などの物販販売も行われます。",
       "medium": "mixed",
@@ -60354,8 +60716,17 @@
       "id": "a7be6ac05add",
       "source": "tokyo_art_beat",
       "title": "木寺憲吾 展",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "키데라 켄고 전",
+          "description": "호텔 리솔 우에노에서는 예술과 서민적인 분위기가 조화를 이루는 '우에노'라는 지역에 뿌리내린 호텔 조성의 일환으로, 리빙 로비 내 아트 갤러리 'Resol Gallery Ueno'를 활용하여 미래 문화를 발신하는 신진 아티스트와 여행객들의 만남을 창출하는 노력을 2024년부터 실시하고 있습니다. 지금까지도 유화나 판화 등 다채로운 장르의 작품을 전시하며, 오랫동안 아트 신에서 활동해 온 작가부터 신진 아티스트까지 폭넓은 표현자들이 참여하고 있습니다. 여행자(투어리스트)들이 부담 없이 예술을 접할 수 있는 장소로서, 숙박객뿐만 아니라 일반인에게도 즐거움을 선사하고 있습니다.\n제16탄이 되는 이번에는 광고 사진 및 상업 사진을 비롯하여 다양한 클라이언트 작업을 담당하는 사진작가 키데라 켄고 씨입니다. 키데라 씨는 최근 일본의 전통문화와 식문화의 미학을 현대적인 아트 피스로 재해석하는 작품 제작에 힘쓰고 있으며, 본 전시에서는 에도마에 스시를 피사체로 한 작품 3점을 전시합니다. 피사체가 지닌 순간의 역동감과 빛과 물의 섬세한 표정을 그래픽적으로 포착한 키데라 씨다운 작품을 감상하실 수 있습니다."
+        },
+        "en": {
+          "title": "Kengo Kidera Exhibition",
+          "description": "As part of Hotel Resol Ueno's commitment to creating a hotel rooted in the Ueno area, where art and the traditional downtown atmosphere harmonize, the hotel has been utilizing the \"Resol Gallery Ueno\" art gallery within its living lobby since 2024. This initiative aims to foster encounters between emerging artists who transmit future culture and traveling guests. To date, works across various genres, including oil paintings and prints, have been exhibited, with a wide range of artists participating, from those active in the art scene for many years to emerging talents. As a place where travelers (tourists) can casually experience art, it is enjoyed not only by hotel guests but also by the general public.\nThis 16th installment features photographer Kengo Kidera, who handles diverse client work, including advertising and commercial photography. In recent years, Mr. Kidera has been engaged in creating works that reinterpret Japanese traditional culture and the aesthetics of food as contemporary art pieces. This exhibition will showcase three works featuring Edomae sushi as the subject. You can appreciate Mr. Kidera's distinctive works, which graphically capture the momentary dynamism of the subjects and the delicate expressions of light and water."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/15TgE7p96XjnAHxV9nYKhZ/c373f05e1cca261da9d0abb95b1dc035/b25f646f-3372-41c9-b468-bc38f2342855.jpg",
       "description": "『ホテルリソル上野』では、アートと下町が調和する「上野」という地域に根ざしたホテルづくりの一環として、リビングロビー内アートギャラリー「Resol Gallery Ueno」を活用し、未来の文化を発信する新進気鋭のアーティストと、旅するお客さまとの出会いを創出する取り組みを、2024年より実施しています。これまでにも、油絵や版画など多彩なジャンルの作品を展示し、長年アートシーンで活動されている作家から新進気鋭のアーティストまで、幅広い表現者が参加しています。旅人（ツーリスト）たちが気軽にアートに触れる場として、宿泊者のみならず一般の方にもお楽しみいただいています。\n第16弾となる今回は、広告写真や商業写真をはじめ、多様なクライアントワークを手がける、フォトグラファー・木寺 憲吾氏です。木寺氏は、近年は日本の伝統文化や食の美学を現代的なアートピースとして再解釈する作品制作に取り組んでおり、本展示では、江戸前寿司を被写体とした作品3点を展示いたします。被写体が持つ一瞬の躍動感や、光と水の細やかな表情をグラフィカルに切り取った木寺氏らしい作品を鑑賞いただけます。",
       "medium": "photo",
@@ -60394,8 +60765,15 @@
       "id": "eb9752b75e2d",
       "source": "tokyo_art_beat",
       "title": "「2026年度 第2回コレクション展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「2026년도 제2회 컬렉션전」"
+        },
+        "en": {
+          "title": "「The 2nd Collection Exhibition for Fiscal Year 2026」"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/22zXzjYGJEoMim3JcZyVd6/83ad91d1bdad1fbaf3e489b35ace4ffa/HPbanner_0624.jpg",
       "description": null,
       "medium": "mixed",
@@ -61104,8 +61482,17 @@
       "id": "58adb752bc8d",
       "source": "tokyo_art_beat",
       "title": "松井章 「アルパカ ～ペルー・アンデスに生きる～」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "마츠이 아키라 「알파카 ~페루 안데스에 살다~」",
+          "description": "페루 안데스 산맥에 사는 동물 '알파카'를 주제로 한 사진전입니다. 현지 초원의 방목 가족과 생활을 함께하며 촬영했습니다. 그리고 사람과 함께 약 6000년을 살아온 알파카는 가축이라기보다는 가족과 같은 존재이며, 신의 사자이기도 합니다. 안데스 산악 민족에게 종교에까지 깊이 뿌리내린 알파카 본연의 모습을 소개합니다. 이번 전시에서는 지난 6월에 촬영한 신작을 중심으로 전시합니다.\n\n[관련 이벤트]\n갤러리 토크\n일시: 2026년 8월 1일, 8월 2일, 8월 5일, 8월 9일, 8월 11일, 8월 15일, 8월 16일 13:30~14:00\n등단자: 마츠이 아키라\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Akira Matsui \"Alpaca: Living in the Peruvian Andes\"",
+          "description": "This is a photo exhibition themed on \"Alpacas,\" animals living in the Andes Mountains of Peru. The photos were taken while living with nomadic families in the local grasslands. Having lived with humans for approximately 6,000 years, alpacas are more like family than livestock, and are also considered messengers of the gods. This exhibition introduces the true nature of alpacas, deeply rooted in the religion of the Andean mountain people. This exhibition will feature new works primarily shot last month in June.\n\n[Related Events]\nGallery Talk\nDates: August 1, August 2, August 5, August 9, August 11, August 15, August 16, 2026, 13:30–14:00\nSpeaker: Akira Matsui\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/2Lfr5dlA0CqDayisclMfy0/78f3621858e872b311a81c496e15508b/alpaca_ex26_-_Akira_Matsui.jpg",
       "description": "ペルーのアンデス山脈に生きる動物「アルパカ」をテーマした写真展です。現地の草原の放牧家族と生活を共にして撮影しています。そして、人ともに生きて約6000年、アルパカは家畜というよりも家族のような存在であり、神様の使いでもあります。アンデスの山岳民族にとって、宗教にまで深く根差すアルパカ本来の姿を紹介します。今回の展示では、先月6月に撮影した新作を中心に展示します。\n\n[関連イベント]\nギャラリートーク\n日時: 2026年8月1日、8月2日、8月5日、8月9日、8月11日、8月15日、8月16日 13:30〜14:00\n登壇者: 松井章\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -61151,8 +61538,17 @@
       "id": "0d9c195883c1",
       "source": "tokyo_art_beat",
       "title": "浦川和也 「Places of Amnesia」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "우라카와 카즈야 「Places of Amnesia」",
+          "description": "도쿄 북동부에 위치한 무코지마에서는 전쟁 전부터 전쟁 후에 지어진 특징적인 건물과 거리가 장소의 기억을 형성해 왔습니다. 그러나 최근 건물 해체와 재건축이 진행되면서 지역 풍경은 크게 변하고 있습니다. 본 전시에서는 우라카와가 무코지마에 생긴 공터를 오랜 기간 관찰하고 촬영해 온 작품들을 전시합니다."
+        },
+        "en": {
+          "title": "Kazuya Urakawa \"Places of Amnesia\"",
+          "description": "In Mukojima, located in the northeastern part of Tokyo, distinctive buildings and townscapes built from pre-war to post-war times have shaped the memory of the place. However, in recent years, the demolition and rebuilding of structures have progressed, significantly changing the local landscape. This exhibition showcases works by Urakawa, who has observed and photographed vacant lots that have emerged in Mukojima over many years."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/6EHUO9jzd4tFyx28tpmkGx/9b7b5583a0c2dbe47052771392a99770/fd82d25c-74fa-4d43-ae93-d3d6b4000fdf.jpg",
       "description": "東京の北東部に位置する向島では、戦前から戦後に建てられた特徴的な建物と町並みが、場所の記憶を形づくってきました。しかし近年、建物の解体と建て替えが進み、地域の風景は大きく変化しています。本展では、浦川が向島に生じた空き地を長年にわたって観測し、撮影してきた作品を展示します。",
       "medium": "mixed",
@@ -61238,8 +61634,17 @@
       "id": "2eb0962db302",
       "source": "tokyo_art_beat",
       "title": "かじおかみほ 「聞コエマスカ？ クジャクノ島カラ 花ノカヲリ」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "카지오카 미호 「키코에마스카? 쿠자쿠노 시마카라 하나노 카오리」",
+          "description": "히로시마현 히로시마시의 gallery G에서 파리를 거점으로 활동하는 아티스트 miho kajioka의 전시회 「키코에마스카? 쿠자쿠노 시마카라 하나노 카오리 have you ever listened to the scent of flowers blooming from peacock islands?」가 시작됩니다. 2025년부터 인연이 있는 장소나 사람들과 교차하고 공감하며 창조하는 라이프 프로젝트로 새롭게 시작된 「Peacocks project」. Gallery NAO MASAKI가 디렉션에 참여하는 이 프로젝트의 첫 번째는 지진 발생 30주년을 맞은 고베의 VAGUE KOBE에서 개최되었습니다. 두 번째인 올해는 원폭 투하 81주년을 맞이하는 히로시마에서 전개됩니다. kajioka의 사진은 말로 다 표현할 수 없는 감정과 사라지지 않고 계속 남아있는 기억으로 우리를 조용히 이끌어줍니다. 히로시마 시내 두 곳의 회장을 둘러보며 기억과 감각을 넘나드는 시간을 꼭 경험해 보세요.\n\n두 번째 회장: VINCENT & MIA\n히로시마시 나카구 나카마치 5-1 1F\n【기간】2026년 7월 14일 (화) ~ 7월 26일 (일) 수요일 휴무\n【시간】12:00 ~ 20:00"
+        },
+        "en": {
+          "title": "Miho Kajioka 「Kikoemasuka? Kujaku no Shima kara Hana no Kaori」",
+          "description": "An exhibition by Paris-based artist miho kajioka, titled 「Kikoemasuka? Kujaku no Shima kara Hana no Kaori have you ever listened to the scent of flowers blooming from peacock islands?」, will begin at gallery G in Hiroshima City, Hiroshima Prefecture. The 「Peacocks project」, newly launched in 2025 as a life project to intersect, empathize, and create with people and places of connection, held its first installment at VAGUE KOBE in Kobe, marking 30 years since the earthquake. This year, the second installment will unfold in Hiroshima, marking the 81st anniversary of the atomic bombing. Kajioka's photographs quietly guide us to emotions that cannot be fully expressed in words and memories that remain without fading. Please experience a journey through memory and sensation by visiting the two venues in Hiroshima City.\n\nSecond Venue: VINCENT & MIA\n5-1 1F Nakamachi, Naka-ku, Hiroshima City\n【Period】July 14 (Tue) – July 26 (Sun), 2026 (Closed on Wednesdays)\n【Hours】12:00 – 20:00"
+        }
+      },
       "poster_image_url": "https://images.ctfassets.net/j05yk38inose/3F9JVwassND6AfSfHIrMEi/efcf9cf686a0323f9c6e8542f14a2bd0/3f04e1_13cb4e98518a43f59fb855faafcb844e-mv2.webp",
       "description": "広島県広島市のgallery Gにて、パリを拠点に活動するアーティスト miho kajioka の展覧会「聞コエマスカ？ クジャクノ島カラ 花ノカヲリ have you ever listened to the scent of flowers blooming from peacock islands?」が始まります。2025年より縁ある場所や人と交差し、共感し、創造するライフプロジェクトとして新たにスタートした「Peacocks project」。Gallery NAO MASAKIがディレクションに携わるこのプロジェクトの第一回目は、震災30年を迎えた神戸のVAGUE KOBEにて開催されました。第二回目となる本年は、原爆投下から81年目の節目を迎える広島の地で展開されます。 kajiokaの写真は、言葉では語り尽くせない感情や、消えることなく残り続ける記憶へと静かに私たちを導きます。広島市内二箇所の会場を巡り、記憶と感覚を横断する時間をぜひ体感ください。\n\n第二会場：VINCENT & MIA\n広島市中区中町5-1 1F\n【会期】2026年7月14日（火）〜7月26日（日）水曜定休\n【時間】12:00〜20:00",
       "medium": "photo",
@@ -61292,8 +61697,17 @@
       "id": "e11f33950c9f",
       "source": "tokyo_art_beat",
       "title": "「たそかれ、かはたれ ―現代美術における“翳”」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「타소카레, 카와타레 ―현대 미술에 있어서의 \"그늘\"」",
+          "description": "「타소카레(황혼)」 그리고 「카와타레(그는 누구)」는 빛과 어둠의 경계가 완만하게 녹아들고 사물의 윤곽이 흔들리는 시간대를 가리키는 고어입니다. 그러한 사물들이 변해가는 순간의 〈그늘(카게)〉의 기척에 주목하여 20세기 미술에서 보이는 불확실한 이미지와 감각을 따라갑니다. 유노키 사미로(1922–2024)의 낡은 천 콜라주 작품 《요루노 에》, 빛의 틈새에 서 있는 오카자키 카즈오(1930–2022)의 《HISASHI》, 스기모토 히로시(1948–)와 모리야마 다이도(1938–)의 사진에 새겨진 빛과 그림자. 최근 소장된 작품들을 다수 포함하여 다양한 경계에 나타나는 표현들을 소개합니다."
+        },
+        "en": {
+          "title": "「Tasokare, Kawatare ―\"Shadow\" in Contemporary Art」",
+          "description": "「Tasokare (twilight)」 and 「Kawatare (who is he/she)」 are archaic words referring to the time when the boundary between light and darkness gently dissolves and the outlines of things waver. Focusing on the presence of 〈Kage (shadow)〉 as such things transition, this exhibition traces the uncertain images and sensations found in 20th-century art. It features Samiro Yunoki's (1922–2024) collage work 《Yoru no E》 made from old cloth, Kazuo Okazaki's (1930–2022) 《HISASHI》 standing in the gap of light, and the light and shadow etched into the photographs of Hiroshi Sugimoto (1948–) and Daido Moriyama (1938–). Including many recently acquired works, the exhibition introduces expressions that emerge in various in-betweens."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/7BSCGBxQj8OBPYm3RIqbr2/3b36a3062b915e058a702790e92b72dc/2026-h-collection2-tmb1.jpg",
       "description": "「たそかれ（黄昏）」そして「かはたれ（彼は誰）」は、光と闇の境がゆるやかに溶け合い、ものの輪郭が揺らぐ時間帯を指す古語です。そうしたものごとがうつろう際の〈翳（かげ）〉の気配に着目し、20世紀美術に見られる不確かな像や感覚を辿ります。柚木沙弥郎（ゆのき・さみろう/1922–2024）の古布によるコラージュ作品《夜の絵》、光のはざまに佇む岡崎和郎（おかざき・かずお/1930–2022）の《HISASHI》、杉本博司（すぎもと・ひろし/1948–）や森山大道（もりやま・だいどう/1938–）の写真に刻まれた光と影。近年収蔵した作品も多く含めて、さまざまなあわいに立ち現れる表現を紹介します。",
       "medium": "photo",
@@ -61420,8 +61834,17 @@
       "id": "647ed361ed74",
       "source": "place_m",
       "title": "雨のあと",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "비가 온 뒤",
+          "description": "2026.08.17 - 2026.08.23 키미지마 슌 비가 온 뒤 비가 온 뒤에는 무엇이 남을까? 비가 오면 성가시고, 신발이 젖어 불편하다는 안 좋은 이미지가 많았다. 빨래도 널 수 없게 되고... 하지만 최근에는 비가 오면 기분 좋게 느껴지는 경우가 많아졌다. 마음이 촉촉해지고, 머리가 식는 듯한 느낌. 비 오는 날에는 이것저것 하려고 마음이 들뜨는 일도 없다. 비에 젖는 것도 자연스러운 일. 비도 자연의 일부라고 느끼게 되었다. 그렇게 생각하니, 비도 왠지 모르게 좋은 것 같다는 생각이 든다."
+        },
+        "en": {
+          "title": "After the Rain",
+          "description": "2026.08.17 - 2026.08.23 Kimijima Shun After the Rain What remains after the rain? When it rained, I often had unpleasant images: it was annoying, my shoes got wet and it was a hassle. I couldn't hang out laundry either... However, recently, I've often found rain to be pleasant. As if my heart is moistened, or my head is cooled. On rainy days, my mind doesn't ripple with thoughts of doing this or that. Getting wet in the rain is also natural. I've come to feel that rain is also a part of nature. When I think about it that way, rain somehow starts to feel good."
+        }
+      },
       "poster_image_url": "https://www.placem.com/schedule/2026/main/20260817/kimi_01.jpg",
       "description": "2026.08.17 - 2026.08.23 君嶋駿 雨のあと 雨のあとには何が残るのか。 雨が降ると鬱陶しい、靴が濡れて大変だといやなイメージが多かった。洗濯物も干せなくなるし．．． しかし、最近雨がふると心地よく感じることが多くなった。 心が潤うような、頭が冷やされるような。 雨の日は、あれをしようこれをしようと心がさざなみ立つこともない。雨にぬれることも自然なこと。雨も自然の一部と感じるようになった。 そう考えると、雨も何だかいいようなそんな気がしてくる。",
       "medium": "photo",
@@ -61467,8 +61890,17 @@
       "id": "850e6102aa96",
       "source": "tokyo_art_beat",
       "title": "リャオ・フィビ 「ここでできることが、ある？」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "랴오 페이비 「여기서 할 수 있는 일이 있을까?」",
+          "description": "역이나 공원 등 일상적인 공공 공간을 무대로, 간과되기 쉬운 규범과 신체의 관계에 다가간다. 벤치나 통로와 같은 회색 지대에 신체적 개입을 하여, 기존의 사용법을 흔들면서 새로운 시점과 공간의 가능성을 제시한다."
+        },
+        "en": {
+          "title": "Liao Feibi \"Is there anything that can be done here?\"",
+          "description": "Focusing on the relationship between often-overlooked norms and the body, set in everyday public spaces like stations and parks. By physically intervening in \"gray zones\" such as benches and passageways, the work challenges existing uses and presents new perspectives and spatial possibilities."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/4UABVoIdMfnhQIVRbSYvY1/90bf03d6487c5f38c483050a04013f02/IMG_1457_-_YUJING_LIAO.jpeg",
       "description": "駅や公園など日常的な公共空間を舞台に、見過ごされがちな規範と身体の関係に迫る。ベンチや通路といったグレーゾーンに身体的介入を行い、既存の使い方を揺さぶりながら、新たな視点と空間の可能性を提示する。",
       "medium": "mixed",
@@ -61514,8 +61946,17 @@
       "id": "d84598269a55",
       "source": "tokyo_art_beat",
       "title": "「夏休みワークショップDAYS‼ Day1」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「여름방학 워크숍 DAYS!! Day1」",
+          "description": "다양한 장르에서 활동하는 아티스트를 초청하여, 자유 연구에도 안성맞춤인, 유아부터 성인까지 즐길 수 있는 이벤트를 개최합니다. 큰 창문을 다채롭게 장식하는 '마키코무즈의 빛의 쌓기나무', 음악을 실험처럼 즐기는 '일상용품 오케스트라!', 사진작가 가타오카 슌의 고전적인 사진 기법인 사이아노타입 사진 작품 제작, 그리고 전통 기법을 응용한 긴쓰기 액세서리 등 2일간 10가지 프로그램을 체험할 수 있습니다. (신청 및 자세한 내용은 본 박물관 웹사이트를 확인해 주십시오.)"
+        },
+        "en": {
+          "title": "\"Summer Vacation Workshop DAYS!! Day 1\"",
+          "description": "We will host an event enjoyable for everyone from preschoolers to adults, perfect for independent research, featuring artists active in various genres. Over two days, you can experience 10 different programs, including \"Makikomu's Light Building Blocks\" which color large windows, \"Everyday Orchestra!\" where music is enjoyed like an experiment, cyanotype photography artwork creation using classical photographic techniques by photographer Shun Kataoka, and Kintsugi accessories arranged from traditional techniques. (For applications and details, please check our museum's website.)"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/7hQktnDaTiDZNeEI809ksZ/d61f1e4feb47af9e3a361f3f64b2706b/202607111720224955.webp",
       "description": "様々なジャンルで活躍するアーティストを迎えて、自由研究にもぴったりな、幼児から大人まで楽しめるイベントを開催します。大きな窓をいろとりどりに彩る、「マキコムズの光のつみき」、音楽を実験のように楽しむ「日用品オーケストラ！」、写真家の片岡俊による、古典的な写真技法・サイアノタイプ写真の作品制作や、伝統技法をアレンジした金継ぎアクセサリーなど2日間で10種類のプログラムを体験できます。（申込・詳細は当館のwebサイトをご確認ください。）",
       "medium": "photo",
@@ -61591,8 +62032,17 @@
       "id": "9bfc0d343bf6",
       "source": "tokyo_art_beat",
       "title": "「テレビとCMで見る平成・令和ヒストリー展2026」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「TV와 CM으로 보는 헤이세이・레이와 히스토리전 2026」",
+          "description": "방송 라이브러리에서는 지금까지 기획전 「TV와 CM으로 보는 시리즈」로 헤이세이, 레이와, 1980년대, 1970년대 등 다양한 시대에 초점을 맞춘 기획전을 개최해 왔다.\n\n레이와 시대에 들어서면서 디지털화와 온라인화가 급속히 진행되었고, 지난 2~3년간 AI가 빠르게 발전했다. 또한 인터넷 동영상 스트리밍과 스마트폰 보급으로 방송을 둘러싼 환경도 크게 변화했다. 방송 시작 101년, 방송이 새로운 한 걸음을 내디딘 올해, 코로나 팬데믹 이후 방송계의 움직임을 더한 본 전시를 개최하여 헤이세이・레이와 시대의 프로그램을 되돌아보고, 방송의 새로운 시대를 향한 미래와 가능성을 모색한다.\n\n기획전 「TV와 CM으로 보는 헤이세이・레이와 히스토리전 2026」의 관련 행사로, 방송 라이브러리의 공개 프로그램 중 헤이세이・레이와 시대에 방송된 드라마, 버라이어티, 음악 프로그램, 퀴즈 프로그램 등 시대를 대표하는 다양한 프로그램을 상영하는 공개 프로그램 상영회 「헤이세이・레이와 TV 컬렉션」도 동시 개최된다."
+        },
+        "en": {
+          "title": "\"Heisei and Reiwa History Exhibition 2026: As Seen on TV and in Commercials\"",
+          "description": "The Broadcast Library has previously held exhibitions focusing on various eras, such as Heisei, Reiwa, the 1980s, and the 1970s, as part of its \"As Seen on TV and in Commercials\" exhibition series.\n\nWith the advent of the Reiwa era, digitalization and online integration have rapidly advanced, and AI has evolved quickly over the past two to three years. Furthermore, the spread of internet video streaming and smartphones has significantly changed the environment surrounding broadcasting. This year, marking 101 years since the start of broadcasting and a new step for the industry, this exhibition is being held to include developments in the broadcasting world since the COVID-19 pandemic. It looks back at Heisei and Reiwa programs and considers the future and possibilities for a new era of broadcasting.\n\nAs a related event to the \"Heisei and Reiwa History Exhibition 2026: As Seen on TV and in Commercials,\" a public screening event titled \"Heisei and Reiwa TV Collection\" will also be held concurrently. This event will screen various representative programs from the Heisei and Reiwa eras, such as dramas, variety shows, music programs, and quiz shows, selected from the Broadcast Library's publicly available programs."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/55SGPWcb7JvDJOsZsHMul9/0bfd42248ee754509afece0049443149/1a429342-f85e-40d1-b9f0-c90475c1ef2b.jpg",
       "description": "放送ライブラリーでは、これまでに、企画展「テレビとCMで見るシリーズ」として、平成、令和、1980年代、1970年代など、さまざまな時代に焦点をあてた企画展を開催してきた。\n\n令和に入り、デジタル化とオンライン化が一気に進み、ここ2～3年でAIが急速に進化している。またインターネット動画配信やスマートフォンの普及で、放送を取り巻く環境も大きく変化した。放送開始101年、放送が新たな一歩を踏み出した本年、コロナ禍以降の放送界の動きを加えた本展を開催し、平成・令和の番組を振り返るとともに、放送の新たな時代に向けて、その未来や可能性を考える。\n\n企画展「テレビとＣＭで見る平成・令和ヒストリー展2026」の関連イベントとして、放送ライブラリーの公開番組の中から、平成・令和に放送された、ドラマ、バラエティ、音楽番組、クイズ番組など、時代を代表するさまざまな番組を上映する公開番組上映会「平成・令和 TV Collection」も同時開催。",
       "medium": "video",
@@ -61631,8 +62081,17 @@
       "id": "9fbd999adf7c",
       "source": "tokyo_art_beat",
       "title": "角田響 + 内島芽海 「どこへいくの」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "카쿠타 히비키 + 우치지마 메미 「어디로 가는가」",
+          "description": "갤러리에서 사진을 감상하는 경험은 타인의 기억과 마주하는 순간입니다. 당신의 기억에 깊이 남을 사진은 아마 이곳에는 없을 것입니다. 일상의 번잡함에 휩쓸려 언젠가 잊혀질 테니까요. 그럼에도 불구하고, 사진은 훼손될 때까지 누군가의 손에 넘어가 어딘가에 숨어 발견될 날을 기다립니다. 데이터로서의 사진이 넘쳐나는 현대에 다시 한번, 물질로서의 사진을 바라볼 기회를 마련하고 싶습니다. 당신이 고향으로 돌아갔을 때, 책장 속, 장롱 깊숙이, 창고 안, 화장대 두 번째 서랍 깊숙이 잠들어 있는 앨범을 펼쳐보기를 바랍니다."
+        },
+        "en": {
+          "title": "Kakuta Hibiki + Uchijima Memi \"Where Are You Going?\"",
+          "description": "The experience of \"appreciating photographs in a gallery\" is a moment of confronting the memories of others. The photographs that deeply remain in your memory are probably not here. Because they will be swept away by the daily hustle and bustle and eventually forgotten. Nevertheless, photographs, until they are damaged, pass into someone's hands, hide somewhere, and await the day they are looked at. In an age overflowing with photographs as data, we feel the desire to once again create an opportunity to look at photographs as physical objects. We hope that when you return to your hometown, you will open the album sleeping deep within your bookshelf, at the back of your chest of drawers, inside your storehouse, or in the second drawer of your dressing table."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/3apMg9aRntbFOQSfbWftFP/675e0d4b1a8e07ee5502456b920d4ca9/202608tsunodauchijima_main.jpeg",
       "description": "ギャラリーで写真を鑑賞する”という体験は、他者の記憶に向き合う瞬間です。あなたの記憶に深く残る写真は、きっとここにはありません。日々の喧騒に流されて、いずれ忘れてしまうから。それでも、写真は壊れるまで、誰かの手に渡って、どこかに身を潜めて、見つめられる日を待っています。データとしての写真が溢れる現代に今一度、物質としての写真を見つめる機会を設けたいと感じています。あなたが故郷に戻った時、本棚の、箪笥の奥の、蔵の中の、化粧台の2段目の引き出しの、奥に眠るアルバムをひらくことを祈って。",
       "medium": "photo",
@@ -61684,8 +62143,17 @@
       "id": "b67c9e9b72e8",
       "source": "tokyo_art_beat",
       "title": "岩崎広大 + 田中嵐 「Latent」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "이와사키 코다이 + 다나카 란 「Latent」",
+          "description": "Otherwise Gallery에서 이와사키 코다이, 다나카 란의 2인전 「Latent」를 안내해 드립니다.\n\n우리 주변에는 형태로 남아있는 것뿐만 아니라, 시간과 함께 변하면서도 분명히 존재했던 것들이 있습니다. 풍경 속을 흐르는 시간이나 그 공간에 떠도는 공기, 혹은 생명의 기운. 그러한 것들은 눈에 보이는 형태로 포착하기 어려운 경우가 적지 않습니다.\n두 작가는 각각 다른 방법을 통해 그러한 변화하는 것들의 흔적을 붙잡으려 시도합니다.\n\n이와사키 코다이는 곤충과 풍경의 관계성에 주목하며 작업을 진행합니다. 《한때 풍경의 일부였던 것에 풍경을 프린트하다.》 시리즈에서는 곤충의 몸에 그 서식지의 풍경 사진을 프린트하여, 땅의 환경에 의해 형성되어 온 생명의 흔적과 풍토의 기억을 겹쳐 보여줍니다. 또한, 벌레가 나무에 뚫은 구멍을 핀홀로 삼아 풍경을 촬영하는 《LANDSCAPER》 시리즈에서는 인간 이전부터 자연계에 존재했던 \"사진적 현상\"에 주목하며, 곤충과 풍경, 장소와 시간의 연결을 탐구합니다.\n\n한편, 다나카 란이 작업에 사용하는 것은 \"결정화\"라는 자연 현상입니다. 자신이 촬영한 풍경이나 인물 사진을 광물 용액에 담그고, 파도 소리나 피사체의 심장 소리와 같이 사진과 관련된 소리를 들려주면서 결정을 성장시킵니다. 사진만으로는 담을 수 없는 공기나 시간, 존재의 기운은 결정이라는 자연 현상을 매개로 물질로 정착됩니다. 환경에 따라 계속 변화하는 결정은 눈에 보이는 이미지 너머에 있는 시간과 생명의 존재를 조용히 상기시킵니다.\n두 작가의 작품은 사진이라는 기법을 출발점으로 삼으면서도, 단순한 기록이나 보존에 그치지 않습니다. 오히려 변화하는 세계와 마주하며, 그 안에서 발생하는 관계와 흔적을 다른 형태로 붙잡으려는 시도로 존재합니다.\n\n본 전시는 \"남긴다는 것\"이 무엇인지 질문합니다. 두 작가의 실천은 형태로 남는 것과 남지 않는 것, 그 사이에 생겨나는 흔적으로 우리의 시선을 이끌어냅니다."
+        },
+        "en": {
+          "title": "Kodai Iwasaki + Ran Tanaka 「Latent」",
+          "description": "Otherwise Gallery is pleased to announce \"Latent,\" a duo exhibition by Kodai Iwasaki and Ran Tanaka.\n\nAround us, there are not only things that remain in physical form but also things that, while changing with time, certainly existed. The time flowing through a landscape, the atmosphere lingering in a place, or the presence of life. Such things are often difficult to capture in visible forms.\nThe two artists, through their respective different methods, attempt to preserve the traces of these transient things.\n\nKodai Iwasaki creates his works by focusing on the relationship between insects and landscapes. In his series \"《Printing Landscapes on What Was Once Part of a Landscape》,\" he prints photographs of an insect's habitat onto its body, superimposing the traces of life shaped by the local environment with the memories of the land. Furthermore, in his \"《LANDSCAPER》\" series, where he photographs landscapes using holes made by insects in trees as pinholes, he explores the connection between insects and landscapes, place and time, while turning his attention to \"photographic phenomena\" that existed in nature even before humans.\n\nMeanwhile, Ran Tanaka employs the natural phenomenon of \"crystallization\" in her work. She immerses photographs of landscapes and people she has taken into a mineral solution, allowing crystals to grow while playing sounds related to the photographs, such as the sound of waves or the subject's heartbeat. The atmosphere, time, and presence of existence that cannot be captured by photographs alone are materialized and fixed through the natural phenomenon of crystallization. The crystals, which continue to change with their environment, quietly evoke the presence of time and life beyond the visible image.\nWhile both artists' works start from the medium of photography, they do not merely serve as records or preservation. Rather, they exist as attempts to confront a constantly changing world and to capture the relationships and traces that emerge within it in different forms.\n\nThis exhibition questions what it means \"to leave something behind.\" The practices of the two artists direct our gaze towards what remains in form and what does not, and the traces that emerge between them."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/5O14QKSZbxxx8BYz4h1q2o/82c4abb02348deae2159d97d157c0640/148337_x.webp",
       "description": "Otherwise Galleryより、岩崎広大、田中嵐による二人展「Latent」をご案内申し上げます。\n\n私たちの周囲には、形として残るものだけでなく、時間とともに移ろいながらも確かに存在していたものがあります。風景のなかを流れる時間や、その場に漂う空気、あるいは生命の気配。そうしたものは、目に見えるかたちでは捉えきれないことも少なくありません。\n二人の作家は、それぞれ異なる方法を通して、そうした移ろうものの痕跡を留めようと試みています。\n\n岩崎広大は、昆虫と風景の関係性に着目しながら制作を行っています。《かつて風景の一部だったものに、風景をプリントする。》シリーズでは、昆虫の身体にその生息地の風景写真をプリントし、土地の環境によって形づくられてきた生命の痕跡と風土の記憶を重ね合わせています。また、虫が樹木に開けた穴をピンホールとして風景を撮影する《LANDSCAPER》シリーズでは、人間以前から自然界に存在していた“写真的な現象”へと目を向けながら、昆虫と風景、場所と時間のつながりを見つめています。\n\n一方、田中嵐が制作に用いるのは「結晶化」という自然現象です。自身が撮影した風景や人物の写真を鉱物液に浸し、波音や被写体の心音といった写真に関連する音を聴かせながら結晶を成長させます。写真だけでは留めることのできない空気や時間、存在の気配は、結晶という自然現象を媒介することで物質として定着していきます。環境によって変化を続ける結晶は、目に見える像の奥にある時間や生命の存在を静かに想起させます。\n両者の作品は、写真という手法を出発点としながらも、単なる記録や保存にとどまりません。むしろ、変化し続ける世界に向き合いながら、そこに生じる関係や痕跡を別のかたちで留めようとする試みとして存在しています。\n\n本展は、「残すこと」とは何かを問いかけます。二人の実践は、形として残るものと残らないもの、そのあいだに生まれる痕跡へと私たちの眼差しを向けます。",
       "medium": "photo",
@@ -61737,8 +62205,19 @@
       "id": "cd7a4097eb3b",
       "source": "tokyo_art_beat",
       "title": "Bong Sadhu 「dub non dub」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "Bong Sadhu 「dub non dub」",
+          "description": "교토 오카자키 츠타야 서점(교토부 교토시)은 2026년 8월 8일(토)부터 8월 26일(수)까지, 화가 가네다 다이쿠와 사진작가 햐쿠노 미키토의 퍼블리싱 플랫폼 \"Bong Sadhu(봉사두)\"의 간사이 첫 전시회 \"dub non dub(덥 논 덥)\"을 개최합니다.\n\"dub non dub\"은 햐쿠노 미키토가 촬영한 사진 작품에 가네다 다이쿠가 페인트 등의 가공을 더해 새로운 표현으로 승화시키는 공동 제작 프로젝트입니다. 전시 제목은 원본 소재에 편곡을 더해 새로운 이미지를 창출하는 음악 장르 \"Dub(덥)\"에서 유래했으며, 사진에 페인팅을 더하는 그들의 제작 스타일과의 친화성 때문에 붙여졌습니다. 2023년 시작 이래, 같은 제목의 전시회를 국내외에서 개최하고 있습니다.\n화가 가네다와 사진작가 햐쿠노가 2022년 아트북 페어 참가 계기로 설립한 퍼블리싱 플랫폼 \"Bong Sadhu\". 두 사람 모두 2000년대생이지만, 자신들의 세대 이전에 창간된 잡지나 서적에 영향을 받아, 실제로 손에 들 수 있는 출판물과 대면 커뮤니케이션의 가치를 소중히 여기며 활동을 이어가고 있습니다. 2025년에는 가나가와현 가타세 에노시마에 세계의 다양한 아트북을 취급하는 서점 겸 갤러리 공간 \"Bong Sadhu Room\"을 오픈합니다. 출판 활동에 그치지 않고, 예술과 사람들을 연결하는 공간 조성에도 힘쓰고 있습니다. (\"Sadhu(사두)\"는 힌두교나 자이나교에서 속세를 떠나 \"해탈\"을 목표로 수행하는 행자(고행승)의 총칭입니다.) 아티스트로서의 틀을 넘어 활동 영역을 넓히는 Bong Sadhu. 간사이 첫 전시회에 많은 기대 바랍니다."
+        },
+        "ja": {
+          "title": "Bong Sadhu 「dub non dub」"
+        },
+        "en": {
+          "description": "Kyoto Okazaki Tsutaya Books (Kyoto City, Kyoto Prefecture) will host \"dub non dub,\" the first exhibition in the Kansai region by \"Bong Sadhu,\" a publishing platform founded by painter Daiku Kaneda and photographer Mikito Hyakuno, from Saturday, August 8 to Wednesday, August 26, 2026.\n\"dub non dub\" is a collaborative project where Daiku Kaneda applies paint and other processes to photographic works taken by Mikito Hyakuno, elevating them to new forms of expression. The exhibition title is derived from \"Dub,\" a music genre that creates new images by adding arrangements to original material, and was chosen for its affinity with their creative style of applying painting to photographs. Since its launch in 2023, exhibitions with the same title have been held both domestically and internationally.\n\"Bong Sadhu\" is a publishing platform launched by painter Kaneda and photographer Hyakuno in 2022, sparked by their participation in an art book fair. Both born in the 2000s, they are influenced by magazines and books published before their generation, and continue their activities while valuing tangible publications and the importance of face-to-face communication. In 2025, they will open \"Bong Sadhu Room,\" a bookstore and gallery space handling various art books from around the world, in Katase Enoshima, Kanagawa Prefecture. Beyond publishing activities, they are also committed to creating spaces that connect art and people. (A \"Sadhu\" is a general term in Hinduism and Jainism for an ascetic (or renunciant) who has renounced worldly life to pursue \"moksha\" or liberation.) Bong Sadhu is expanding its scope of activities beyond the boundaries of artists. Please look forward to their first exhibition in Kansai."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/2TGCQuA6oxSsmLFUYa7oJR/9c89eff9140e9e2bc6d31e6bd41e1af2/main.jpg",
       "description": "京都岡崎 蔦屋書店（京都府京都市）は2026年8月8日（土）から8月26日（水）まで、ペインター 金田大巧と写真家 百野幹人によるパブリッシングプラットフォーム「Bong Sadhu（ボンサドゥ）」の関西初となる展覧会「dub non dub（ダブノンダブ）」を開催します。\n「dub non dub」は、百野幹人が撮影した写真作品に、金田大巧がペイントなどの加工を施し、新たな表現へと昇華させる共同制作プロジェクトです。展示タイトルは、元の素材にアレンジを加え、新たなイメージを創出する音楽のジャンル「Dub（ダブ）」に由来しており、写真にペインティングを施す彼らの制作スタイルとの親和性から名付けられました。2023年のスタート以来、同タイトルの展覧会を国内外で開催しています。\nペインターの金田と写真家の百野が、2022年にアートブックフェアへの出店をきっかけに立ち上げたパブリッシングプラットフォーム「Bong Sadhu」。ともに2000年代生まれながら、自身の年代以前に創刊された雑誌や書籍に影響を受けており、実際に手に取ることのできる出版物や、対面でのコミュニケーションの価値を大切にしながら活動を続けています。2025年には神奈川県 片瀬江ノ島に、世界のさまざまなアートブックを取り扱う書店兼ギャラリースペース「Bong Sadhu Room」をオープン。出版活動にとどまらず、アートと人々をつなぐ場づくりにも取り組んでいます。（「Sadhu（サドゥー）」とは、ヒンドゥー教やジャイナ教において、俗世を離れ「解脱」を目指して修行する行者（苦行僧）の総称です。）アーティストとしての枠を超えて活動の幅を広げるBong Sadhu。関西初となる展覧会にご期待ください。",
       "medium": "photo",
@@ -61996,8 +62475,17 @@
       "id": "84a69acd60b5",
       "source": "tokyo_art_beat",
       "title": "古田亘 「「KEMONOHARA -玉城裕規-」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "후루타 와타루 「「KEMONOHARA -타마키 유키-」",
+          "description": "배우, 탤런트 등의 이미지 비주얼을 다수 작업해 온 후루타 와타루 씨. 광고나 TV 프로그램, 영화, 무대 등과 관련된 스틸 사진에서는 피사체의 본질을 그려 전달할 뿐만 아니라, 역할의 미적 연출까지 담당할 수 있는 창조적인 동반자로서 높은 평가를 받고 있습니다. 본 전시는 한 명의 배우를 계속해서 쫓아온 후루타 씨의 미공개 포트레이트 시리즈를 선보이는 것입니다. 배우의 이름은 타마키 유키. 2010년 배우로 데뷔한 후 '요와무시 페달', '카이쿄노 히카리', '도검난무' 등 많은 열광적인 팬을 사로잡은 무대 드라마, 시대를 대표하는 걸작에서 주요 역할을 비할 데 없는 선명한 표현력으로 연기하며 높은 평가를 받아왔습니다. 영화나 TV 드라마 분야에서도 폭넓은 역할에 도전하며 그 진전을 인상 깊게 보여주고 있습니다.\n\n포트레이트 제작을 가장 중요하게 생각한다는 후루타 씨는 '메시아', '다이히', '헬리-X' 시리즈와 같은 인기 무대의 홍보 자료 및 달력 촬영을 통해 타마키 씨와 지속적으로 접점을 유지하는 가운데, '독특한 기하이'에 특히 깊이 매료되어 온 사람 중 한 명입니다. \"그 기하이는 위험하고, 습하며, 투명하고 기품이 있습니다. 일류 표현자가 가진 존엄과 그 안에 숨어있는 독을 쫓고 싶다\"며, 일과 상관없이 다양한 장소에서 계속해서 뷰파인더를 향해왔습니다.\n\n본 전시에서는 그 방대한 아카이브 중에서 특별히 엄선한 프린트를 공개합니다. 작가 츠네카와 코타로의 '기하이'를 소재로 한 단편 소설의 이름에서 제목을 가져왔습니다. 자신만의 궤적을 계속 달리며 시대를 구현해 온 타마키 씨의 아우라를, 무대 뒤편이나 촬영 현장 뒤에서 웅변적으로 그려낸 모노크롬 세계는 근래 보기 드물게 강력한 프린트들로 완성되었습니다. \"어둡고 그리우며 부드러운, 고독한 바람 같은 그를 느껴주셨으면 좋겠다\"고 후루타 씨는 말합니다."
+        },
+        "en": {
+          "title": "Wataru Furuta \"KEMONOHARA -Yuki Tamaki-\"",
+          "description": "Wataru Furuta has created numerous image visuals for actors and talents. In still photography for advertisements, TV programs, films, and stage productions, he is highly regarded as a creative companion who not only captures and conveys the essence of the subject but also directs the aesthetic beauty of the role. This exhibition showcases an unreleased portrait series by Furuta, who has continuously followed a single actor. The actor's name is Yuki Tamaki. After making his acting debut in 2010, Yuki Tamaki has received high acclaim for his unparalleled vivid expressiveness in major roles in stage dramas that captivated many enthusiastic fans, such as \"Yowamushi Pedal,\" \"Kaikyo no Hikari,\" and \"Touken Ranbu,\" as well as in epoch-making masterpieces. He has also challenged a wide range of roles in film and television dramas, making a strong impression with his progress.\n\nFuruta, who values portrait creation above all else, is one of those who have been particularly deeply fascinated by Tamaki's \"unique presence\" while continuously maintaining contact with him through promotional materials and calendar shoots for popular stage productions such as the \"Messiah,\" \"Daihi,\" and \"HELI-X\" series. \"That presence is dangerous, humid, transparent, and elegant. I want to pursue the dignity of a first-class performer and the poison hidden within it,\" he says, having continuously pointed his viewfinder at Tamaki in various settings, regardless of whether it was for work or not.\n\nThis exhibition will unveil specially selected prints from that vast archive. The title is taken from the name of a short story by author Kotaro Tsunekawa, titled \"Kehai.\" The monochrome world, eloquently depicting Tamaki's aura—who has embodied the era by continuously following his unique path—from backstage and behind the scenes of shoots, has resulted in a collection of prints of rare power. \"I want people to feel him as dark, nostalgic, gentle, and like a lonely wind,\" says Furuta."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/5G6NOGbwvhCzzBUdobw9nG/70cf75b0fdbffae74b26d4154bacaa61/20260727_4204946.jpg",
       "description": "俳優、タレントらのイメージビジュアルを数多く手掛けている古田亘氏。広告やテレビ番組、映画、舞台などに関わるスチール写真では、被写体の本質を描き伝えるだけでなく、役柄の美の演出まで担える創造的な伴走者として高い評価を受けています。本展は、ひとりの俳優を追い続けた古田氏の未公開ポートレートシリーズを披露するものです。俳優の名は、玉城裕規。2010年に俳優デビューすると「弱虫ペダル」「海峡の光」「刀剣乱舞」など多くの熱狂的なファンを惹きつけた舞台ドラマ、時代を画する傑作における主要な役柄を、比類のない鮮やかな表現力で演じて高い評価を受けてきました。映画やテレビドラマの分野でも幅広い役柄に挑戦し、その進境を印象づけています。\n\nポートレート制作を最も大切にしているという古田氏は、「メサイア」「大悲」「HELI-X」シリーズといった人気舞台の宣材やカレンダー撮影を通して継続的に玉城氏と接点を持ち続ける中で、「独特な気配」にとりわけ深く魅了されてきたひとりです。「その気配は危険で、湿気があり、透明感があり気品がある。一流の表現者が持つ尊厳と、その中に潜む毒を追いかけたい」と、仕事か否かを問わず様々な場でファインダーを向け続けてきました。\n\n本展ではそれらの膨大なアーカイブの中から、特に選び抜いたプリントを公開いたします。作家・恒川光太郎の「気配」を題材にした短編小説の名前からタイトルを引きました。独自の軌跡を走り続けることで時代を体現してきた玉城氏のオーラを、舞台の袖や撮影現場の裏側で雄弁に描きとめたモノクローム世界は、近来稀なほど力強いプリント群に仕上がっています。「ダークで懐かしく優しい、孤独な風のような彼を感じて欲しい」と古田氏は言います。",
       "medium": "photo",
@@ -62013,8 +62501,15 @@
       "venue": {
         "id": "05006a834bff",
         "name": "SPEAK FOR WALL",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "SPEAK FOR WALL"
+          },
+          "ja": {
+            "name": "SPEAK FOR WALL"
+          }
+        },
         "region": "恵比寿、代官山、中目黒",
         "district": null,
         "lat": 35.64811163469577,
@@ -62036,8 +62531,17 @@
       "id": "dba94b30280b",
       "source": "zen_foto",
       "title": "梁丞佑、星玄人、ブライアン・セルジオ 写真展「黄昏と晩鐘」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "양승우, 호시 하루토, 브라이언 세르히오 사진전 '황혼과 만종'",
+          "description": "젠 포토 갤러리는 2026년 8월 21일(금)부터 2026년 9월 26일(토)까지 '황혼과 만종'이라는 제목으로 양승우, 호시 하루토, 브라이언 세르히오의 그룹 사진전을 개최합니다. 낮과 밤의 경계에 서 있는 황혼, ..."
+        },
+        "en": {
+          "title": "Seung-woo Yang, Haruto Hoshi, Brian Sergio Photography Exhibition \"Twilight and Evening Bell\"",
+          "description": "Zen Photo Gallery will hold a group photography exhibition titled \"Twilight and Evening Bell\" by Seung-woo Yang, Haruto Hoshi, and Brian Sergio from Friday, August 21, 2026 to Saturday, September 26, 2026. Twilight, standing between day and night, ..."
+        }
+      },
       "poster_image_url": "https://d1jikcjf8oridj.cloudfront.net/i/a5/GIkQQ5qp_uh1XeF.jpeg",
       "description": "禅フォトギャラリーは2026年8月21日（金）から2026年9月26日（土）まで、「黄昏と晩鐘」と題し、梁丞佑、星玄人、ブライアン・セルジオによるグループ写真展を開催いたします。昼と夜のあわいに立つたそがれ、...",
       "medium": "photo",
@@ -62076,8 +62580,17 @@
       "id": "c0c37441e2f2",
       "source": "tokyo_art_beat",
       "title": "「WHAT CAFE EXHIBITION vol.47：WHAT CAFE×椿昇 特別合同キュレーション展『u.n.l.o.c.k. tube++』」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「WHAT CAFE EXHIBITION vol.47: WHAT CAFE×쓰바키 노보루 특별 합동 큐레이션 전시회 『u.n.l.o.c.k. tube++』」",
+          "description": "본 전시회에서는 현대 미술가이자 교토 예술대학 교수로서 많은 젊은 재능을 세상에 배출해 온 쓰바키 노보루 씨를 게스트 큐레이터로 맞이합니다. 쓰바키 씨는 작가 주도의 아트 페어 「ARTISTS’ FAIR KYOTO」를 설립하는 등, 예술을 사회와의 관계성 속에서 파악하고 작품 유통의 방식을 검증하고 실천해 왔습니다. 차세대 재능을 발굴하고 지원해 온 쓰바키 씨의 혁신적인 실천과 젊은 아티스트의 지원 및 작품 판매의 장을 창출해 온 WHAT CAFE의 아트 신이 교차하는 특별 합동 큐레이션 전시회입니다.\n전시장에는 일본화, 유화, 사진, 도자기, 유리, 설치 미술 등 쓰바키 씨와 WHAT CAFE가 선정한 현재 주목받는 37명의 아티스트가 만든 다채로운 작품들이 전시됩니다. 장르를 넘나드는 폭넓은 표현을 한자리에 소개함으로써 방문객에게 '퍼스트 아트(처음 구매하는 작품)'와의 만남을 제공합니다. 예술을 일상으로 받아들이는 기쁨과 사람과 예술이 '함께 존재하는' 미래의 가능성을 다시 한번 제시하는 전시회입니다.\n본 기획은 「TENNOZ ART WEEK 2026」의 관련 프로그램입니다."
+        },
+        "en": {
+          "title": "「WHAT CAFE EXHIBITION vol.47: WHAT CAFE×Noboru Tsubaki Special Joint Curated Exhibition 『u.n.l.o.c.k. tube++』」",
+          "description": "This exhibition welcomes contemporary artist Noboru Tsubaki, a professor at Kyoto University of the Arts who has sent many young talents out into the world, as a guest curator. Mr. Tsubaki has viewed art within its relationship to society and has verified and practiced ways of art distribution, such as by launching the artist-led art fair \"ARTISTS’ FAIR KYOTO.\" This is a special joint curated exhibition where Mr. Tsubaki's innovative practices, which have discovered and supported next-generation talents, intersect with WHAT CAFE's art scene, which has created opportunities for supporting young artists and selling their works.\nThe venue will feature a diverse range of works by 37 currently captivating artists selected by Mr. Tsubaki and WHAT CAFE, including Japanese painting, oil painting, photography, ceramics, glass, and installations. By showcasing a wide array of expressions across various genres, the exhibition offers visitors an encounter with \"First Art\" (the first artwork they purchase). It is an exhibition that re-presents the joy of welcoming art into daily life and the future possibilities of people and art \"coexisting.\"\nThis project is an associated program of \"TENNOZ ART WEEK 2026.\""
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/vBGsllfYmRh20Kpqn2sNP/7ff5bfa50ec7b40f4e9d721027e0315e/main.jpg",
       "description": "本展では、現代美術家であり、京都芸術大学教授として多くの若き才能を世に送り出している椿昇氏をゲストキュレーターに迎えます。椿氏は作家主導のアートフェア「ARTISTS’ FAIR KYOTO」を立ち上げるなど、アートを社会との関係性の中で捉え、作品流通の在り方を検証・実践してきました。次世代の才能を発掘し、支援してきた椿氏の革新的な実践と、若手アーティストの支援・作品販売の場を創出してきたWHAT CAFEのアートシーンが交差する、特別合同キュレーション展です。\n会場には、日本画、油画、写真、陶器、ガラス、インスタレーションなど、椿氏とWHAT CAFEが選出した今をときめく37名のアーティストによる多種多様な作品が並びます。ジャンルを跨いだ幅広い表現を一堂に紹介することで、来訪者へ「ファーストアート（初めて購入する作品）」との出会いを提供します。アートを日常に迎え入れる喜びや、人とアートが「共に在る」未来の可能性を改めて提示する展示会です。\n本企画は「TENNOZ ART WEEK 2026」の関連プログラムです。",
       "medium": "photo",
@@ -62340,8 +62853,19 @@
       "id": "b2912b183fee",
       "source": "tokyo_art_beat",
       "title": "「Selected Parkett Editions」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「Selected Parkett Editions」",
+          "description": "OSCAAR MOULIGNE는 1984년부터 2017년까지 발행된 현대 미술 잡지이자 출판사 Parkett(파르케트)의 에디션 작품을 소개하는 전시회 「Selected Parkett Editions」를 2026년 7월 4일부터 10월 3일까지 개최합니다.\n\n취리히와 뉴욕을 거점으로 창간된 Parkett는 30년 이상 아티스트, 큐레이터, 비평가를 비롯해 현대 미술과 문화에 관련된 다양한 사람들을 연결하고 사고와 논의를 심화하는 장으로 계속 기능했습니다. 총 101권에 이르는 발행과 300명이 넘는 현대 아티스트와의 협업을 통해 20세기 후반부터 21세기 초반을 대표하는 수많은 작가를 소개하고 현대 미술사에서 중요한 아카이브를 구축했습니다.\n\n각 호에서는 한 명 또는 여러 아티스트를 특집으로 다루고 에세이, 인터뷰, 대담, 비평 등을 통해 다각적인 시점에서 그들의 실천을 깊이 있게 탐구했습니다. 지속적인 대화와 깊은 고찰을 중시하는 편집 방침 아래, Parkett는 비평, 출판, 그리고 예술 제작이 교차하는 영역을 탐구해 왔습니다. 이러한 편집 방침은 Parkett Editions에도 계승되었습니다. 지면에 특집으로 다룬 아티스트에게 신작 제작을 의뢰한 이 에디션 작품들은 출판 활동의 연장선상에서 구상되었으며, 지면을 넘어선 새로운 실천의 장을 개척했습니다. 조각, 사진, 판화, 유니크 작품 등 다양한 미디어로 이루어진 작품들은 아티스트의 표현을 더욱 확장하는 기회가 되었습니다.\n\n아울러 본 전시회에서는 2025년부터 발행이 시작된 텍스트 시리즈 Parkett Reader를 소개합니다. 1980년대 초반부터 2000년대 중반에 걸쳐 Parkett에 게재된 중요한 텍스트를 새로운 편집 아래 재구성하여 새로운 세대의 독자들에게 전달하는 것을 목적으로 한 시리즈입니다. 창간호는 Louise Bourgeois(루이즈 부르주아), 제2호는 Sigmar Polke(지그마르 폴케)를 특집으로 다루고 있습니다.\n\n본 전시회에서는 Sigmar Polke(지그마르 폴케)가 Parkett Vol.30을 위해 제작한 작품을 비롯하여 Tacita Dean(타시타 딘), David Hammons(데이비드 해먼스), Mike Kelley(마이크 켈리), Zoe Leonard(조이 레너드), Sherrie Levine(셰리 레빈), Laura Owens(로라 오웬스), Richard Prince(리처드 프린스), Jeff Wall(제프 월), Franz West(프란츠 베스트)의 에디션 작품을 전시합니다.\n\n광범위한 현대 미술을 둘러싼 사고와 논의를 축적하는 라이브러리인 동시에 하나의 작은 미술관과 같은 존재였던 Parkett는 비평과 예술 실천, 출판과 작품 제작을 유기적으로 연결하는 독자적인 모델을 구축했습니다. 그 혁신적인 시도는 오늘날에도 여전히 많은 시사점을 제공하고 있습니다."
+        },
+        "ja": {
+          "title": "「Selected Parkett Editions」"
+        },
+        "en": {
+          "description": "OSCAAR MOULIGNE will hold \"Selected Parkett Editions,\" an exhibition introducing edition works by Parkett, a contemporary art magazine and publisher published from 1984 to 2017, from July 4 to October 3, 2026.\n\nFounded in Zurich and New York, Parkett continued to function for over 30 years as a platform connecting diverse individuals involved in contemporary art and culture, including artists, curators, and critics, fostering deeper thought and discussion. Through its publication of 101 volumes and collaborations with over 300 contemporary artists, Parkett introduced numerous artists who represented the late 20th and early 21st centuries, building a significant archive in the history of contemporary art.\n\nEach issue featured one or more artists, delving into their practices from multiple perspectives through essays, interviews, dialogues, and critiques. Under an editorial policy that emphasized continuous dialogue and deep reflection, Parkett explored the intersection of criticism, publishing, and artistic creation. This editorial policy was also inherited by Parkett Editions. These edition works, commissioned from artists featured in the magazine, were conceived as an extension of publishing activities, opening up new avenues for practice beyond the printed page. The diverse body of works, including sculptures, photographs, prints, and unique pieces across various media, provided artists with opportunities to further expand their expressions.\n\nAdditionally, this exhibition introduces the text series Parkett Reader, which began publication in 2025. This series aims to reconfigure important texts published in Parkett from the early 1980s to the mid-2000s under new editorial direction and deliver them to a new generation of readers. The inaugural issue features Louise Bourgeois, and the second issue features Sigmar Polke.\n\nThis exhibition will feature edition works by Sigmar Polke (including the work he created for Parkett Vol.30), Tacita Dean, David Hammons, Mike Kelley, Zoe Leonard, Sherrie Levine, Laura Owens, Richard Prince, Jeff Wall, and Franz West.\n\nParkett, which served as both a library accumulating thoughts and discussions on a wide range of contemporary art and a small museum in itself, established a unique model that organically connected criticism with artistic practice, and publishing with art production. Its innovative endeavors continue to offer many insights even today."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/ugO96jn5VRXrBjbBKIWwT/674ffa7cdc91ee49d2bb0ff497eb998a/mv_Selected-Parkett-Editions-828x1024.jpg",
       "description": "OSCAAR MOULIGNEは、1984年から2017年まで刊⾏された現代美術誌・出版社 Parkett（パルケット）によるエディション作品を紹介する展覧会「Selected Parkett Editions」を、2026年7⽉4⽇から10⽉3⽇まで開催いたします。\n\nチューリッヒとニューヨークを拠点に創刊されたParkettは、30年以上にわたりアーティスト、キュレーター、批評家をはじめ、現代美術や⽂化に関わる多様な⼈々を結びつけ、思考や議論を深める場として機能し続けました。全101 巻におよぶ刊⾏と300名を超える現代アーティストとのコラボレーションを通して、20世紀後半から21世紀初頭を代表する数多くの作家を紹介し、現代美術史における重要なアーカイブを築き上げました。\n\n各号では、⼀⼈または複数のアーティストを特集し、エッセイ、インタビュー、対談、批評などを通して、多⾓的な視点からその実践を掘り下げました。継続的な対話と深い考察を重視する編集⽅針のもと、Parkettは批評、出版、そして芸術制作が交差する領域を探究してきました。こうした編集⽅針は、Parkett Editionsにも受け継がれています。誌⾯で特集したアーティストに新作制作を依頼したこれらのエディション作品は、出版活動の延⻑として構想され、紙⾯を超えた新たな実践の場を切り拓きました。彫刻、写真、版画、ユニーク作品など多様なメディアによる作品群は、アーティストの表現をさらに広げる機会となりました。\n\nあわせて本展では、2025年より刊⾏が始まったテキスト・シリーズ Parkett Readerを紹介します。1980年代初頭から2000年代半ばにかけてParkettに掲載された重要なテキストを新たな編集のもとで再構成し、新しい世代の読者へ届けることを⽬的としたシリーズです。創刊号はLouise Bourgeois（ルイーズ・ブルジョワ）、第2号は Sigmar Polke（シグマー・ポルケ）を特集しています。\n\n本展では、Sigmar Polke（シグマー・ポルケ）が Parkett Vol.30のために制作した作品をはじめ、Tacita Dean（タシタ・ディーン）、David Hammons（デイヴィッド・ハモンズ）、Mike Kelley（マイク・ケリー）、Zoe Leonard（ゾーイ・レナード）、Sherrie Levine（シェリー・レヴィーン）、Laura Owens（ローラ・オーウェンズ）、Richard Prince（リチャード・プリンス）、Jeff Wall（ジェフ・ウォール）、Franz West（フランツ・ヴェスト）によるエディション作品を展⽰いたします。\n\n広範な現代美術をめぐる思考や議論を蓄積するライブラリーであると同時に、⼀つの⼩さな美術館のような存在でもあったParkettは、批評と芸術実践、出版と作品制作を有機的に結びつける独⾃のモデルを築きました。その⾰新的な試みは、今⽇なお今⽇なお多くの⽰唆を与え続けています。",
       "medium": "photo",
@@ -62357,8 +62881,15 @@
       "venue": {
         "id": "d7c65d3bd7db",
         "name": "OSCAAR MOULIGNE",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "OSCAAR MOULIGNE"
+          },
+          "ja": {
+            "name": "OSCAAR MOULIGNE"
+          }
+        },
         "region": "京都府",
         "district": null,
         "lat": 35.04079773761351,
@@ -62451,8 +62982,15 @@
       "venue": {
         "id": "0e73e89a7e38",
         "name": "本屋青旗",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "혼야 아오하타"
+          },
+          "en": {
+            "name": "Honya Aohata"
+          }
+        },
         "region": "福岡県",
         "district": null,
         "lat": 33.57762279388745,
@@ -62498,8 +63036,15 @@
       "venue": {
         "id": "9ccda6229ed8",
         "name": "ぎゃらりー由芽",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 유메"
+          },
+          "en": {
+            "name": "Gallery Yume"
+          }
+        },
         "region": "武蔵野、多摩",
         "district": null,
         "lat": 35.69717159209891,
@@ -62538,8 +63083,15 @@
       "venue": {
         "id": "ccd480aba4ea",
         "name": "SPIRAL GARDEN",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "SPIRAL GARDEN"
+          },
+          "ja": {
+            "name": "SPIRAL GARDEN"
+          }
+        },
         "region": "福岡県",
         "district": null,
         "lat": 33.59125965420701,
@@ -62597,8 +63149,15 @@
       "venue": {
         "id": "d9875cbc4008",
         "name": "東京芸術劇場ギャラリー",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "도쿄 예술극장 갤러리"
+          },
+          "en": {
+            "name": "Tokyo Metropolitan Theatre Gallery"
+          }
+        },
         "region": "東京：その他",
         "district": null,
         "lat": 35.729206713462105,
@@ -62630,8 +63189,15 @@
       "venue": {
         "id": "a900af852e17",
         "name": "風光 huko",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "풍광 huko"
+          },
+          "en": {
+            "name": "Scenery huko"
+          }
+        },
         "region": "京都府",
         "district": null,
         "lat": 35.018891795654916,
@@ -62670,8 +63236,15 @@
       "venue": {
         "id": "7bf81267847a",
         "name": "コ・クリエイション スペース イニニ",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "코크리에이션 스페이스 이니니"
+          },
+          "en": {
+            "name": "Co-creation Space Inini"
+          }
+        },
         "region": "岐阜県",
         "district": null,
         "lat": 35.429091474159,
@@ -62817,8 +63390,15 @@
       "venue": {
         "id": "1a59d5ded262",
         "name": "Take Ninagawa",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Take Ninagawa"
+          },
+          "ja": {
+            "name": "Take Ninagawa"
+          }
+        },
         "region": "麻布台、虎ノ門",
         "district": null,
         "lat": 35.65713877455489,
@@ -62857,8 +63437,15 @@
       "venue": {
         "id": "f779129a5361",
         "name": "early spring gallery & shop",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "early spring gallery & shop"
+          },
+          "ja": {
+            "name": "early spring gallery & shop"
+          }
+        },
         "region": "武蔵野、多摩",
         "district": null,
         "lat": 35.6795,
@@ -63084,8 +63671,15 @@
       "venue": {
         "id": "ac42a3b5b63e",
         "name": "Art Spot Korin",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "아트 스팟 코린"
+          },
+          "ja": {
+            "name": "アートスポットコリン"
+          }
+        },
         "region": "京都府",
         "district": null,
         "lat": 35.00731252304903,
@@ -63171,8 +63765,15 @@
       "venue": {
         "id": "8dcc77c58ed9",
         "name": "MOMENT Contemporary Art Center",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "모멘트 현대 미술 센터"
+          },
+          "ja": {
+            "name": "モーメント現代アートセンター"
+          }
+        },
         "region": "奈良県",
         "district": null,
         "lat": 34.682147444027976,
@@ -63305,8 +63906,15 @@
       "venue": {
         "id": "ef9911e05a4f",
         "name": "LADS GALLERY",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "래즈 갤러리"
+          },
+          "ja": {
+            "name": "ラッズギャラリー"
+          }
+        },
         "region": "大阪府",
         "district": null,
         "lat": 34.690425437922464,
@@ -63352,8 +63960,15 @@
       "venue": {
         "id": "ef9911e05a4f",
         "name": "LADS GALLERY",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "래즈 갤러리"
+          },
+          "ja": {
+            "name": "ラッズギャラリー"
+          }
+        },
         "region": "大阪府",
         "district": null,
         "lat": 34.690425437922464,
@@ -70384,8 +70999,15 @@
     {
       "id": "05006a834bff",
       "name": "SPEAK FOR WALL",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "SPEAK FOR WALL"
+        },
+        "ja": {
+          "name": "SPEAK FOR WALL"
+        }
+      },
       "venue_type": "other",
       "region": "恵比寿、代官山、中目黒",
       "district": null,
@@ -70398,8 +71020,15 @@
     {
       "id": "d7c65d3bd7db",
       "name": "OSCAAR MOULIGNE",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "OSCAAR MOULIGNE"
+        },
+        "ja": {
+          "name": "OSCAAR MOULIGNE"
+        }
+      },
       "venue_type": "other",
       "region": "京都府",
       "district": null,
@@ -70412,8 +71041,15 @@
     {
       "id": "0e73e89a7e38",
       "name": "本屋青旗",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "혼야 아오하타"
+        },
+        "en": {
+          "name": "Honya Aohata"
+        }
+      },
       "venue_type": "other",
       "region": "福岡県",
       "district": null,
@@ -70426,8 +71062,15 @@
     {
       "id": "9ccda6229ed8",
       "name": "ぎゃらりー由芽",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "갤러리 유메"
+        },
+        "en": {
+          "name": "Gallery Yume"
+        }
+      },
       "venue_type": "other",
       "region": "武蔵野、多摩",
       "district": null,
@@ -70440,8 +71083,15 @@
     {
       "id": "ccd480aba4ea",
       "name": "SPIRAL GARDEN",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "SPIRAL GARDEN"
+        },
+        "ja": {
+          "name": "SPIRAL GARDEN"
+        }
+      },
       "venue_type": "other",
       "region": "福岡県",
       "district": null,
@@ -70454,8 +71104,15 @@
     {
       "id": "d9875cbc4008",
       "name": "東京芸術劇場ギャラリー",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "도쿄 예술극장 갤러리"
+        },
+        "en": {
+          "name": "Tokyo Metropolitan Theatre Gallery"
+        }
+      },
       "venue_type": "other",
       "region": "東京：その他",
       "district": null,
@@ -70468,8 +71125,15 @@
     {
       "id": "a900af852e17",
       "name": "風光 huko",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "풍광 huko"
+        },
+        "en": {
+          "name": "Scenery huko"
+        }
+      },
       "venue_type": "other",
       "region": "京都府",
       "district": null,
@@ -70482,8 +71146,15 @@
     {
       "id": "7bf81267847a",
       "name": "コ・クリエイション スペース イニニ",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "코크리에이션 스페이스 이니니"
+        },
+        "en": {
+          "name": "Co-creation Space Inini"
+        }
+      },
       "venue_type": "other",
       "region": "岐阜県",
       "district": null,
@@ -70496,8 +71167,15 @@
     {
       "id": "1a59d5ded262",
       "name": "Take Ninagawa",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "Take Ninagawa"
+        },
+        "ja": {
+          "name": "Take Ninagawa"
+        }
+      },
       "venue_type": "other",
       "region": "麻布台、虎ノ門",
       "district": null,
@@ -70510,8 +71188,15 @@
     {
       "id": "f779129a5361",
       "name": "early spring gallery & shop",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "early spring gallery & shop"
+        },
+        "ja": {
+          "name": "early spring gallery & shop"
+        }
+      },
       "venue_type": "gallery",
       "region": "武蔵野、多摩",
       "district": null,
@@ -70524,8 +71209,15 @@
     {
       "id": "ac42a3b5b63e",
       "name": "Art Spot Korin",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "아트 스팟 코린"
+        },
+        "ja": {
+          "name": "アートスポットコリン"
+        }
+      },
       "venue_type": "other",
       "region": "京都府",
       "district": null,
@@ -70538,8 +71230,15 @@
     {
       "id": "8dcc77c58ed9",
       "name": "MOMENT Contemporary Art Center",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "모멘트 현대 미술 센터"
+        },
+        "ja": {
+          "name": "モーメント現代アートセンター"
+        }
+      },
       "venue_type": "other",
       "region": "奈良県",
       "district": null,
@@ -70552,8 +71251,15 @@
     {
       "id": "ef9911e05a4f",
       "name": "LADS GALLERY",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "래즈 갤러리"
+        },
+        "ja": {
+          "name": "ラッズギャラリー"
+        }
+      },
       "venue_type": "gallery",
       "region": "大阪府",
       "district": null,
@@ -82538,44 +83244,93 @@
     {
       "id": "eebecb333d36",
       "name": "Pardis Ghasemi",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "파르디스 가세미"
+        },
+        "ja": {
+          "name": "パルディス・ガセミ"
+        }
+      }
     },
     {
       "id": "7b8ef5166a78",
       "name": "Em Watarihiki",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "엠 와타리히키"
+        },
+        "ja": {
+          "name": "Em Watarihiki"
+        }
+      }
     },
     {
       "id": "1b8e25478e64",
       "name": "Paul Ramsey",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "폴 램지"
+        },
+        "ja": {
+          "name": "Paul Ramsey"
+        }
+      }
     },
     {
       "id": "1dca39af6c5d",
       "name": "藤村全輝",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "후지무라 마사키"
+        },
+        "en": {
+          "name": "Fujimura Masaki"
+        }
+      }
     },
     {
       "id": "893d5e550f64",
       "name": "嶌村吉祥丸",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "시마무라 킷쇼마루"
+        },
+        "en": {
+          "name": "Shimamura Kisshomaru"
+        }
+      }
     },
     {
       "id": "c2c146d86032",
       "name": "サラ・ファン・ライ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "사라 판 라이"
+        },
+        "en": {
+          "name": "Sara van Rai"
+        }
+      }
     },
     {
       "id": "4941ef9b485b",
       "name": "ダヴィット・ファン・デル・レーウ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "다비트 판 데르 레우"
+        },
+        "en": {
+          "name": "David van der Leeuw"
+        }
+      }
     },
     {
       "id": "1c75a283458f",
@@ -82592,50 +83347,106 @@
     {
       "id": "ffa920d8428d",
       "name": "会田誠",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "아이다 마코토"
+        },
+        "en": {
+          "name": "Makoto Aida"
+        }
+      }
     },
     {
       "id": "8cc4fa724e7e",
       "name": "壱弥",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이치야"
+        },
+        "en": {
+          "name": "Ichiya"
+        }
+      }
     },
     {
       "id": "2df6ef14154a",
       "name": "池野拓哉",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이케노 타쿠야"
+        },
+        "en": {
+          "name": "Takuya Ikeno"
+        }
+      }
     },
     {
       "id": "fe6a3c636acd",
       "name": "岩下徹",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이와시타 토루"
+        },
+        "en": {
+          "name": "Iwashita Toru"
+        }
+      }
     },
     {
       "id": "46f1f46bdd86",
       "name": "梅村昇史",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "우메무라 쇼지"
+        },
+        "en": {
+          "name": "Umemura Shoji"
+        }
+      }
     },
     {
       "id": "369f3da3866f",
       "name": "太田豊",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오타 유타카"
+        },
+        "en": {
+          "name": "Ota Yutaka"
+        }
+      }
     },
     {
       "id": "8325c89990da",
       "name": "河合ケネディ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "카와이 케네디"
+        },
+        "en": {
+          "name": "Kawai Kennedy"
+        }
+      }
     },
     {
       "id": "776a6f08cb8e",
       "name": "栗林隆",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "구리바야시 다카시"
+        },
+        "en": {
+          "name": "Takashi Kuribayashi"
+        }
+      }
     },
     {
       "id": "27b8f44f9f09",
@@ -82666,14 +83477,28 @@
     {
       "id": "8e57b7340670",
       "name": "坂丸弓乃",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "사카마루 유미노"
+        },
+        "en": {
+          "name": "Yumino Sakamaru"
+        }
+      }
     },
     {
       "id": "aa765aca4628",
       "name": "佐藤英輔",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "사토 에이스케"
+        },
+        "en": {
+          "name": "Eisuke Sato"
+        }
+      }
     },
     {
       "id": "0a34d2cd36ee",
@@ -82690,14 +83515,28 @@
     {
       "id": "8b3f0e736dd0",
       "name": "津村禮次郎",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "츠무라 레이지로"
+        },
+        "en": {
+          "name": "Reijiro Tsumura"
+        }
+      }
     },
     {
       "id": "02f2333f3532",
       "name": "徳久ウィリアム",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "토쿠히사 윌리엄"
+        },
+        "en": {
+          "name": "William Tokuhisa"
+        }
+      }
     },
     {
       "id": "e909e7b511bb",
@@ -82714,14 +83553,28 @@
     {
       "id": "a657eaf0da84",
       "name": "中村恵介",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "나카무라 케이스케"
+        },
+        "en": {
+          "name": "Keisuke Nakamura"
+        }
+      }
     },
     {
       "id": "5ef80d50d513",
       "name": "菜波-Nanami-",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "나나미-Nanami-"
+        },
+        "en": {
+          "name": "Nanami-Nanami-"
+        }
+      }
     },
     {
       "id": "c488f63a8c6f",
@@ -82752,44 +83605,93 @@
     {
       "id": "fa27e0d34082",
       "name": "樋口トモユキ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "히구치 토모유키"
+        },
+        "en": {
+          "name": "Higuchi Tomoyuki"
+        }
+      }
     },
     {
       "id": "fe641c6257e7",
       "name": "福地史人",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "후쿠치 후미토"
+        },
+        "en": {
+          "name": "Fukuchi Fumito"
+        }
+      }
     },
     {
       "id": "1a6336994be8",
       "name": "松島誠",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "마쓰시마 마코토"
+        },
+        "en": {
+          "name": "Matsushima Makoto"
+        }
+      }
     },
     {
       "id": "3cce5739b7ac",
       "name": "蓑田秀策",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "미노다 슈사쿠"
+        },
+        "en": {
+          "name": "Minoda Shusaku"
+        }
+      }
     },
     {
       "id": "67021ae6f08f",
       "name": "山上渡",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "산상 와타루"
+        },
+        "en": {
+          "name": "Yamagami Wataru"
+        }
+      }
     },
     {
       "id": "3586d6400424",
       "name": "田中博",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "다나카 히로시"
+        },
+        "en": {
+          "name": "Tanaka Hiroshi"
+        }
+      }
     },
     {
       "id": "0767c1cc4b7b",
       "name": "Arjun Shrestha",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "아르준 슈레스타"
+        },
+        "ja": {
+          "name": "アルジュン・シュレスタ"
+        }
+      }
     },
     {
       "id": "643a49a2c226",
@@ -82824,20 +83726,41 @@
     {
       "id": "3910934fe609",
       "name": "萩原朔美",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "하기와라 사쿠미"
+        },
+        "en": {
+          "name": "Sakumi Hagiwara"
+        }
+      }
     },
     {
       "id": "88f6b743ede7",
       "name": "勝又公仁彦",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "가쓰마타 기미히코"
+        },
+        "en": {
+          "name": "Katsumata Kimihiko"
+        }
+      }
     },
     {
       "id": "977b2496158a",
       "name": "中村花絵",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "나카무라 하나에"
+        },
+        "en": {
+          "name": "Nakamura Hanae"
+        }
+      }
     },
     {
       "id": "7457ead8a67e",
