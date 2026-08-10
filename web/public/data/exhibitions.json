@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T16:44:55.685022+00:00",
+  "generated_at": "2026-08-10T19:21:24.068120+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -17274,7 +17274,7 @@
       "price_max": null,
       "start_date": "2026-03-27",
       "end_date": "2026-08-09",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "320fd688dcc3",
@@ -39542,7 +39542,7 @@
       "price_max": null,
       "start_date": "2026-08-03",
       "end_date": "2026-08-09",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -39868,7 +39868,7 @@
       "price_max": null,
       "start_date": "2026-06-16",
       "end_date": "2026-08-09",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "54c1740b50d0",
@@ -42012,7 +42012,7 @@
       "price_max": null,
       "start_date": "2026-06-24",
       "end_date": "2026-08-09",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "0dc58b8d9925",
@@ -45410,7 +45410,7 @@
       "price_max": null,
       "start_date": "2026-07-28",
       "end_date": "2026-08-09",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "35890a070489",
@@ -49881,7 +49881,7 @@
       "price_max": null,
       "start_date": "2026-07-06",
       "end_date": "2026-08-09",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "8bc60f268986",
@@ -50190,7 +50190,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-08-09",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "851ebc31063a",
@@ -52435,7 +52435,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-08-09",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "71b55351615f",
@@ -54151,7 +54151,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-08-09",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "e0958f6f5315",
@@ -55398,7 +55398,7 @@
       "price_max": null,
       "start_date": "2026-07-29",
       "end_date": "2026-08-09",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "43233f51072a",
@@ -56279,7 +56279,7 @@
       "price_max": null,
       "start_date": "2026-08-01",
       "end_date": "2026-08-09",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "f46b9eafe809",
@@ -56909,7 +56909,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-08-09",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ae3024eda755",
@@ -57201,7 +57201,7 @@
       "price_max": null,
       "start_date": "2026-08-03",
       "end_date": "2026-08-09",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2f86b29bb794",
@@ -59697,7 +59697,7 @@
       "price_max": null,
       "start_date": "2026-08-04",
       "end_date": "2026-08-09",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "54c1740b50d0",
@@ -60511,7 +60511,7 @@
       "price_max": null,
       "start_date": "2026-07-23",
       "end_date": "2026-08-09",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "01af30ab9be6",
@@ -62378,7 +62378,7 @@
       "price_max": null,
       "start_date": "2026-07-28",
       "end_date": "2026-08-09",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "651dc68ae219",
@@ -63946,7 +63946,7 @@
       "price_max": null,
       "start_date": "2026-08-01",
       "end_date": "2026-08-09",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ef9911e05a4f",
@@ -64609,7 +64609,7 @@
       "price_max": null,
       "start_date": "2026-07-30",
       "end_date": "2026-08-09",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "b2db3a647aa1",
@@ -66129,7 +66129,7 @@
       "price_max": null,
       "start_date": "2026-08-10",
       "end_date": "2026-08-16",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -66164,6 +66164,219 @@
         }
       ],
       "source_url": "https://www.placem.com/schedule/2026/main/20260803/exhibition.php",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "361f02017a91",
+      "source": "tokyo_art_beat",
+      "title": "本村秀巨 「籠の中」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/4BThXxtqznS8PyQDoEr77x/73b3069b6db7818b2a71a7536da144dc/9d6347e5-c858-4ff4-8500-e335772e31a5.jpg",
+      "description": "本展は、鳩を主題とした作品《籠》と、｟籠｠を起点に展開した2作品で構成される。写真とインスタレーションを用い、身近な動物との距離や、人間がもつ価値観が認識や感情をどのように変化させるのかを考察する。作品ごとにアプローチを変えながら、制限と自由、人間と他種との関係性、言葉による単純化への違和感を扱う構成となっている。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-08",
+      "end_date": "2026-09-13",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "01d56f5bd85a",
+        "name": "アトリエアール",
+        "lang": null,
+        "tr": {},
+        "region": "浅草橋、馬喰町",
+        "district": null,
+        "lat": 35.69787789610494,
+        "lng": 139.7833349564314
+      },
+      "artists": [
+        {
+          "id": "f611d38e5c4f",
+          "name": "本村秀巨",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hidekiyo-Motomura-Inside-Cage/atelier-ar/2026-09-08",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "268a727e9f62",
+      "source": "tokyo_art_beat",
+      "title": "「LIBRAIRIE6 コレクション」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/2WZDNaFWa78YjvPzhmNOwn/57fd6c87f18727a595b74c4d0aab925b/6128016d-e766-4d35-a6ae-4a9cc8dc7ff6.png",
+      "description": "8月15日（土）〜8月23日（日）までLIBRAIRIE6コレクション展を開催いたします。本展では、宇野亞喜良作品（旧作）をメインに、四谷シモンによる新作の「手」、金子國義の油彩、合田佐和子のポラロイド作品等、日本の作家12名の作品を展示いたします。",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-15",
+      "end_date": "2026-08-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "6b99ee7d383f",
+        "name": "LIBRAIRIE6 / シス書店",
+        "lang": null,
+        "tr": {},
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.64592166655056,
+        "lng": 139.7100618730803
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Librairie6-Collection/9-A46-AF-2-A/2026-08-15",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "c4ef7bedba29",
+      "source": "tokyo_art_beat",
+      "title": "犬塚良平 + 平山恵介 「INTERSECTION」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/y4QePIpbpVCb4Tl5HFM3v/6c43731719b37a572cb1c0160a418cfa/98a63e9376530367d489cecb3d4568f8.jpeg",
+      "description": "同じ大学で出会い、共に表現を磨いて来た２人の「外の世界へ」という思いが重なり、この展示は生まれました。日常を遠くから静かに眺め、普段と異なる自分の視点でとらえたスナップ。世界から形を削ぎ落とし、純粋な線の構成へと昇華させる抽象。本展「INTERSECTION」は静寂の中にある「現実」と「表現」が交差する場所です。観る方の自由な感性に委ねたいという願いと、写真によるアート表現の追求。異なる２つのスタンスが織りなす凜とした空気感の交差点をお楽しみ下さい。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-02",
+      "end_date": "2026-09-07",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "838c559a265c",
+        "name": "America-Bashi Gallery（アメリカ橋ギャラリー）",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "America-Bashi Gallery (아메리카바시 갤러리)"
+          },
+          "en": {
+            "name": "America-Bashi Gallery (America-Bashi Gallery)"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.64332200748064,
+        "lng": 139.7114891844791
+      },
+      "artists": [
+        {
+          "id": "4d702e0ca132",
+          "name": "犬塚良平",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c1791a69bef2",
+          "name": "平山恵介",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Ryohei-Inuzuka-Keisuke-Hirayama-Intersection/F92841-BF/2026-09-02",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "e42acd6a229b",
+      "source": "tokyo_art_beat",
+      "title": "清田大介 「LUMINA」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/UeFSg358kQk4fcvdjA3AW/f2fb1d459557066118e195c0380d7257/b8cb6ff9-6d87-4750-a5e5-49eeef53a65a.png",
+      "description": "本展はモデルである彩月貴央が幼少期を過ごした北海道を舞台に、その土地に残る記憶や感情、まなざしを辿りながら、人の存在や記憶の輪郭を見つめ直す写真展です。写真・空間・光が重なり合うインスタレーションとして作品を展開します。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-19",
+      "end_date": "2026-08-24",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "838c559a265c",
+        "name": "America-Bashi Gallery（アメリカ橋ギャラリー）",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "America-Bashi Gallery (아메리카바시 갤러리)"
+          },
+          "en": {
+            "name": "America-Bashi Gallery (America-Bashi Gallery)"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.64332200748064,
+        "lng": 139.7114891844791
+      },
+      "artists": [
+        {
+          "id": "1b52e9838528",
+          "name": "清田大介",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Daisuke-Kiyota-Lumina/F92841-BF/2026-08-19",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "7e7df09be434",
+      "source": "tokyo_art_beat",
+      "title": "Samo 「Beach」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/5AwnAMxgqGXCIasXjjbEZc/5b73ef511f0aa98e87dd66904fb51f34/samo.jpg",
+      "description": "GALLERY SOAPでは、現代社会や民族・宗教間の争い、過去の歴史などを問い直す活動からスケートボーダーとしてのストリートの思想により生まれる実験的なプロジェクト「STEALTH」を展開しているアーティストSAMOの個展を行います。今回の展覧会「BEACH」では、2025年12月14日、オーストラリアのニューサウスウェールズ州シドニーにあるオーストラリアを代表する観光地である「ボンダイビーチ」で起こった銃乱射事件に焦点をあてた作品を発表します。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-20",
+      "end_date": "2026-08-31",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "f0f3a7d7ef6f",
+        "name": "GALLERY SOAP",
+        "lang": null,
+        "tr": {},
+        "region": "福岡県",
+        "district": null,
+        "lat": 33.88344105292188,
+        "lng": 130.8837099705696
+      },
+      "artists": [
+        {
+          "id": "68b7f7c3cd89",
+          "name": "Samo",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Samo-Beach/gallery-soap/2026-08-20",
       "featured": false,
       "popularity_score": null
     }
@@ -73314,6 +73527,48 @@
       "country": "JP",
       "lat": 35.70293242847701,
       "lng": 139.7592871598047,
+      "website": null
+    },
+    {
+      "id": "01d56f5bd85a",
+      "name": "アトリエアール",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "浅草橋、馬喰町",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.69787789610494,
+      "lng": 139.7833349564314,
+      "website": null
+    },
+    {
+      "id": "6b99ee7d383f",
+      "name": "LIBRAIRIE6 / シス書店",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "恵比寿、代官山、中目黒",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.64592166655056,
+      "lng": 139.7100618730803,
+      "website": null
+    },
+    {
+      "id": "f0f3a7d7ef6f",
+      "name": "GALLERY SOAP",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "福岡県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 33.88344105292188,
+      "lng": 130.8837099705696,
       "website": null
     }
   ],
@@ -89658,6 +89913,36 @@
     {
       "id": "45040531a635",
       "name": "藤井ヨシカツ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f611d38e5c4f",
+      "name": "本村秀巨",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4d702e0ca132",
+      "name": "犬塚良平",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c1791a69bef2",
+      "name": "平山恵介",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1b52e9838528",
+      "name": "清田大介",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "68b7f7c3cd89",
+      "name": "Samo",
       "lang": null,
       "tr": {}
     }
