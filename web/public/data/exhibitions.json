@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T16:49:20.573209+00:00",
+  "generated_at": "2026-08-12T19:30:10.556632+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -48853,7 +48853,7 @@
       "lang": null,
       "tr": {},
       "poster_image_url": "https://topmuseum.jp/wp-content/uploads/2026/01/CJP23_karibe_web.jpg",
-      "description": "写真・映像の可能性に挑戦する創造的精神を支援し、将来性のある作家を発掘する「日本の新進作家」展の23回目。実際に存在した記憶や素材をもとに、AIやデジタル技術を用いて作品を制作する現代作家たち。記憶、素材、技術などが持つコンテクストを、彼らが制作において再構築するプロセスを探ります。真偽にまどわされることが多い日常での情報との向き合い方を改めて考える機会となることでしょう。 出品作家：市田小百合、苅部太郎、野村在、橋本麦、藤倉麻子",
+      "description": "いま注目の５名の作家の作品を紹介、新たなイメージの可能性を探る 東京都写真美術館では、写真・映像の可能性に挑戦する創造的精神を支援し、将来性のある作家を発掘するとともに、新しい創造活動の展開の場として、2002年より継続的に「日本の新進作家」展を開催しています。 写真や映像は、物事を写し、残すメディアです。しかし、写し取られたイメージは、編集や置かれた文脈によって異なる意味を帯びることもあります。そのため、ときに存在しない／しなかった記憶や記録さえも想起させます。そこにおける境界線は、ますます曖昧になりつつあり、イメージのなかの見えるものと見えないもの、実存と虚構、存在と不在の境界の揺らぎが内包されています。 第23回目となる本展では、作家たちが実際に存在した記憶や素材、技術、それぞれが持つコンテクストを汲み取り、新たなイメージへと組み立てていくプロセスに着目します。真偽に惑わされることの多い日常において、私たちは情報とどのように向き合い、何を信じ、どのように世界を捉えているのか。本展では、その問いを改めて考える契機となる作品を紹介します。 出品作家：市田小百合、苅部太郎、野村在、橋本麦、藤倉麻子 市田小百合〈空席（Kūseki）〉より 2025年 黒板にシルクスクリーンプリント 作家蔵 ⓒSayuri Ichida 展示風景：「Jerwood/Photoworks Awards 5」Drawing Room（ロンドン、2026年） Originally commissioned through the Jerwood/Photoworks Awards, supported by Jerwood Foundation, Photoworks and Arts Council England 苅部太郎《あの海に見える岩を、弓で射よ #30》2022年 インクジェット・プリント 作家蔵 ⓒTaro Karibe 苅部太郎《あの海に見える岩を、弓で射よ #6》2022年 インクジェット・プリント 作家蔵 ⓒTaro Karibe 野村在《バイオフォトンはかくも輝く（白いチョッキを着た小人症の女性、湖の前で一人で笑顔、1981）》2026年 ガラスにUV-インクジェット・プリント、ステンレス金具 作家蔵 ⓒZai Nomura 野村在《バイオフォトンはかくも輝く（黄色の海水パンツを履いてサングラスをした口髭の中年男性と白色のビキニを着た同年代の女性、海水客で賑わうビーチにて、1980）》2025年 ガラスにUV-インクジェット・プリント、ステンレス金具 作家蔵 ⓒZai Nomura 橋本麦《Milling Stop-Motion (tentative title)》2024年- ２チャンネル・ヴィデオインスタレーション 作家蔵 ⓒBaku Hashimoto ※参考図版 藤倉麻子《4 Tales of Open Sunrise City (tentative title)》2026年 ２チャンネル・ヴィデオインスタレーション 作家蔵 ⓒAsako Fujikura ※参考図版 自身の記憶や経験、時間をテーマに彫刻的なオブジェクトを制作する市田小百合（いちださゆり）、生成AIの手法を巧みに取り入れ人間の知覚とイメージを視覚化する苅部太郎（かりべたろう）、写真や彫刻、機械装置など多様なメディアを用いて制作を行う野村在（のむらざい）、自身の装置や道具を用いたコマ撮りアニメーションによる視覚表現を探求する橋本麦（はしもとばく）、実写映像や3DCG、AIなどを用いて架空の都市を映像化する藤倉麻子（ふじくらあさこ）。いま注目の5名の作家の作品が集結。記録されたもの、想像されたもの、その境界で生まれる新たなイメージの可能性を探ります。",
       "medium": "mixed",
       "exhibition_type": "curated",
       "genre_tags": [],
@@ -49993,7 +49993,7 @@
       "price_max": null,
       "start_date": "2026-08-06",
       "end_date": "2026-08-11",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "a6bc0a72e92f",
@@ -55999,7 +55999,7 @@
       "price_max": null,
       "start_date": "2026-08-12",
       "end_date": "2026-08-24",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "432d5e28e354",
@@ -60326,7 +60326,7 @@
       "price_max": null,
       "start_date": "2026-07-23",
       "end_date": "2026-08-11",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "8b8bf1f13f39",
@@ -63135,7 +63135,7 @@
       "price_max": null,
       "start_date": "2026-08-12",
       "end_date": "2026-08-16",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "d9875cbc4008",
@@ -63329,7 +63329,7 @@
       "price_max": null,
       "start_date": "2026-08-12",
       "end_date": "2026-08-31",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "50bfb163ce9a",
@@ -63984,7 +63984,7 @@
       "lang": null,
       "tr": {},
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/3QQUZ4Kga6DJj38gURuPgN/b4282c895d1614ab2df8e4b17aaaa2c6/Rinaty_profile-scaled_-_Gallery_ANBAI.jpg",
-      "description": "展示される一枚一枚には、自身が過ごしてきた時間と、その瞬間にしか生まれなかった『自分』が記録されています。FUJIFILM GFXによって捉えられた緻密な質感は、過去を鮮明に保存するだけでなく、写真の中に流れる時間を、今を生きる私たちへとつなぎます。\n\n[関連イベント]\nトークショー\n日時: 8月22日、29日 各日とも14:00～\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "description": "展示される一枚一枚には、自身が過ごしてきた時間と、その瞬間にしか生まれなかった『自分』が記録されています。FUJIFILM GFXによって捉えられた緻密な質感は、過去を鮮明に保存するだけでなく、写真の中に流れる時間を、今を生きる私たちへとつなぎます。\n\n[関連イベント]\nトークショー\n日時: 8月23日、29日 各日とも14:00～\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
       "exhibition_type": "solo",
       "genre_tags": [],
@@ -64839,7 +64839,7 @@
       "title": "「写真サークル『Jebbits』第4回作品展 『視線、その先に...』」",
       "lang": null,
       "tr": {},
-      "poster_image_url": null,
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/5bd99757/IMG_4429_-_Junichi_Niizawa.jpg",
       "description": "2026年8月21日〜23日に、東京・渋谷のギャラリー大和田で写真サークル「Jebbits」第4回作品展「視線、その先に...」を開催いたします。Jebbitsは、JEARA（一般社団法人日本アート教育振興会）が主催する「プラクティカルフォト認定講座」において写真の基礎から実践的な表現技術までを学び、認定資格を取得した有志メンバーによって構成されています。写真を楽しみながらそれぞれの視点や感性を持ち寄り、活動している写真サークルです。日々の撮影を通して、自分が何に惹かれ、どのように世界を見つめているのかを写真という形で表現することを大切にしています。本作品展では、サークルメンバーそれぞれが日々の撮影の中で見つめてきた風景や瞬間を展示します。風景や人物、日常の一コマなど、題材はさまざまですが、その一枚一枚には撮影者それぞれの視点や感じ方が映し出されています。写真は、同じ場所や同じ瞬間であっても、人によって見え方が異なります。何に心を動かされ、どの瞬間を切り取るのか。その違いこそが、写真の面白さでもあります。タイトルの「視線、その先に...」には、写真の中に写っているものだけでなく、その先にある視点や思いにも目を向けていただけたらという意味を込めています。それぞれのカメラマンが見つめた世界を、ぜひゆっくりとご覧ください。",
       "medium": "photo",
       "exhibition_type": "group",
@@ -65307,7 +65307,7 @@
       "title": "「ひとwaわたし展」",
       "lang": null,
       "tr": {},
-      "poster_image_url": null,
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/f6d55db8/e9ca1e1c-1d0a-4128-b359-58bf33f05242.jpg",
       "description": null,
       "medium": "mixed",
       "exhibition_type": "group",
@@ -66504,6 +66504,278 @@
         }
       ],
       "source_url": "https://www.placem.com/schedule/2026/main/20260921/exhibition.php",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "caca127b36e6",
+      "source": "sema",
+      "title": "2026 타이틀 매치 《오인환 vs. 장서영: 휴먼 에러》",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://sema.seoul.go.kr/common/imgFileView?FILE_ID=1014993",
+      "description": "서울시립 북서울미술관은 2026년 13회 타이틀 매치에 오인환과 장서영 작가를 초청한다. 두 작가의 작업은 주제와 형식 면에서 달라 보이지만, 인간의 존재 조건과 속성을 깊이 탐구한다는 공통점을 가진다. 2026 타이틀 매치 《오인환 vs. 장서영: 휴먼 에러》는 최첨단 기술이 인간의 창작을 대체할 수 있다는 믿음이 팽배해진 시대에 도리어 인간만이 할 수 있는 창작의 본질을 탐구한다.\n\n전시 제목 ‘휴먼 에러’는 이에 관한 잠정적인 답변이다. ‘인간의 신체적, 정신적 불완전함 때문에 발생하는 오류 혹은 실수’를 뜻하는 용어인 휴먼 에러는 주로 산업현장에서 사고 원인을 판별할 때 사용된다. 이러한 표현은 인간을 시스템의 일부로 간주하고 기계와 같이 오류가 없는 완전무결함을 지향해야 한다는 심리를 반영한다. 이러한 논리는 사회 시스템에서도 동일하게 적용된다. 주류 사회는 자신이 설정한 규범과 기준에 부합하지 않는 존재를 비정상으로 규정하고 배제하거나 교정하려 했으며, 그 과정에서 다양한 소수자들이 억압되어 왔다. 그러나 창작자로서 인간은 마땅히 그러해야 한다고 요청되는 것들에 끊임없이 질문을 던지고 일탈을 감행하고 정상과 비정상의 구분에 의문을 제기해 왔다. 에러의 라틴어 어원이 ‘제 위치를 벗어나 헤매는 물리적 행위’를 뜻하듯, 전시는 정해진 시스템을 거부하고 의도적으로 에러를 일으키는 존재로서의 예술가에 주목하고 시스템에 순응하기보다 교란하고 벗어나려는 두 작가의 실천을 살펴본다.\n\n오인환은 고착된 사회 시스템에 의도적으로 오류를 일으키는 능동적인 존재로서 인간에 주목한다. 이번 전시에서는 ‘하나가 아닌 우리, 하나가 아닌 나’를 주제로 참여형 작업부터 설치, 영상, 사진 등 다양한 작업을 선보인다. 작가는 사회적 관습이나 통념에 의문을 제기하고 하나로 귀결되지 않고 변화하는 정체성을 가시화하면서 한국 사회의 집단주의에 균열을 내고자 한다. 장서영은 신체 내부에서 예기치 않게 발생하는 오류를 겪어나가는 불완전한 존재로서 인간에 주목한다. 이번 전시를 아우르는 주제는 ‘실리콘 바니타스’로, 반도체의 주요한 재료를 뜻하는 실리콘(규소)과 삶의 덧없음에 관한 예술 형식인 ‘바니타스’를 결합한 것이다. 작가는 인간의 통제를 벗어나 한계를 모르고 발전하는 기술과 노화하고 병들고 결국 죽음에 이르는 인간 신체를 대비시키는 영상 및 조각 설치 작업을 선보인다.\n\n두 작가는 세계를 완벽하게 통제하는 주체가 아니라 기술과 환경, 타인과의 관계 속에서 끊임없이 영향을 주고받으며 변화하는 존재로 인간을 바라본다. 그들에게 오류는 극복되어야 할 결함이 아니라 인간 존재를 규정하는 근본적인 조건이자 창작의 원천이다. 전시는 최첨단 기술이 인간의 능력을 대체하고 확장하는 시대에, 인간을 인간답게 만드는 조건이 무엇인지 다시금 생각해 보기를 제안한다.\n\n1부 오인환\n\n하나가 아닌 우리, 하나가 아닌 나\n\n오인환은 사회와 제도라는 거시적인 차원과 개인의 삶이라는 미시적인 차원이 시·공간의 맥락과 관계 속에서 어떻게 교섭하고 변화하는지 추적해 왔다. 이를 통해 정체성이 고정되지 않고 계속해서 형성되고 변화하는 과정에 있음을 보여준다. 1부 제목은 ‘하나가 아닌 우리, 하나가 아닌 나’로, 동명의 작품명을 전시 전체 주제로 삼는다. 작가는 ‘우리는 하나다’를 외치는 세계에 저항하며 집단의 구성원도 저마다 다양한 개성을 갖고 있으며, 나라는 개인조차도 하나로 규정될 수 없다고 본다.\n\n이번 전시에서 오인환은 경직된 사회 시스템에 의도적으로 오류를 발생시키는 능동적인 존재로서 인간에 주목한다. 작가에게 정체성은 내밀한 사적 경험을 고백하기 위한 소재가 아니라, 사회·문화적으로 구축된 규범과 권력 구조를 드러내기 위한 비판적 장치다. 주변화된 것들을 가시화하고 너무도 당연해 보였던 현상을 다르게 봄으로써 정상성과 보편성의 질서를 교란하고, 그 안에 내재한 차이와 정체성의 다양성을 드러낸다.\n\n작가는 자신의 작업을 종종 하나의 ‘프로젝트’로 간주하는데, 오랜 시간 구상과 준비를 거쳐 프로젝트가 실행되며 단발적인 결과물로 종결되지 않는다. 정체성이 하나의 본질로 환원될 수 없는 것처럼, 작업 또한 단일한 형태의 완성된 결과물로 수렴되지 않는다. 작업의 또 다른 특징은 타인을 호출하고 관계를 형성함으로써 작업에 예측 불가능한 변수를 둔다는 점이다. 작가는 만남과 참여를 위한 조건을 마련하지만 그 결과를 통제하려 하지 않는다. 응답과 침묵, 참여와 거절, 우연한 만남과 기약 없는 기다림 모두 작업의 일부분으로, 작업은 참여자의 선택과 우연한 상황, 시간의 흐름에 따라 끊임없이 변화한다.\n\n오인환은 사회 시스템 바깥으로 완전히 이탈하기보다 그 내부에서 규범을 비틀고 다르게 반복한다. 누구도 사회를 벗어나 존재할 수 없고 사회적 존재 구조 내에 있어야만 우리는 자신이 누구인지를 인식할 수 있기 때문이다. 그 실천은 규범을 단순히 따르거나 거부하는 양자택일이 아니라, 반복의 방식을 변주함으로써 질서에 균열을 내는 것에 가깝다. 작가가 수행하거나 요청하는 행동들은 일상생활에서 익숙한, 어쩌면 사소해 보이는 것들이다. 그러나 당연하게 여겨졌던 규범을 낯설게 만들고, 그 행동을 다른 방식으로 수행하도록 함으로써 그것이 자연스럽거나 보편적인 것이 아니라 사회적으로 구성된 것임을 드러낸다. 하나의 행동은 미약할지 모르나 지속적이고 반복적으로 실행된다면 지형 자체를 재배치하고 새로운 가능성을 출현시키는 결정적인 계기가 될 것이다.\n\n2부 장서영\n\n실리콘 바니타스\n\n장서영은 인체를 작동시키는 반복된 시간, 물질적 신체의 유한한 시간, 그리고 사회 시스템이 요구하는 규칙적이고 선형적인 시간에 얽매인 인간 존재에 관심을 가져왔다. 초기 작업에서 작가는 이러한 시간성을 영상 매체의 다양한 속성과 연결해 탐구했다. 2010년대 중반부터 작가의 관심은 신체와 기술문명의 관계로 더욱 확장된다. 자본주의와 신자유주의, 기술만능주의가 요구하는 완전성과 거기서 탈락할 수밖에 없는 연약하고 취약한 신체를 가진 인간 존재를 대비시킨다. 작가는 그리스 신화부터 과학기술 기사, 숏폼 플랫폼에 이르기까지 서로 다른 시대와 매체로부터 영감을 받으며, 끝을 모르는 인간의 욕망과 언젠가는 끝을 맞이할 신체 사이에 존재하는 위화감을 드러낸다.\n\n이번 전시의 주제는 ‘실리콘 바니타스(Silicon Vanitas)’로, 작가는 인류의 오래된 미술사적 주제인 바니타스를 동시대 기술환경 속에서 새롭게 해석한다. 실리콘(규소)은 반도체의 핵심 재료로 컴퓨터, 스마트폰, 인공지능 등 디지털 기술 전반을 가능하게 하는 물질이자 현대 기술문명의 기반을 상징한다. 반면 바니타스는 삶의 덧없음과 죽음의 불가피성을 상기시키며 유한성을 성찰하게 하는 예술 형식이다. 작가는 영속한 삶을 향한 인류의 무분별한 발전에 제동을 거는 인간 신체를 대비시키면서 인간의 조건을 다시 묻는다.\n\n이번 전시에서 작가는 신체 내부에서부터 예기치 않게 우연히 발생하는 오류를 겪어나가는 불완전한 존재로서 인간 신체에 주목한다. 기억의 휘발이나 체력의 소진과 같이 일상 생활 속에서 겪는 사소한 일부터 악성 신생물이나 유전 질환과 같은 심각한 질환에 이르기까지 인간의 의지로 통제할 수 없는 신체의 사건들을 작업의 모티프로 삼는다. 장서영은 질병과 죽음, 노화와 같은 무거운 주제를 다루면서도 특유의 언어유희와 유머를 통해 인간 존재의 취약성을 낯설고도 유쾌하게 바라보게 만든다. 한편 장서영의 조각 설치 작업은 전시와 영상 작업의 개념을 물질적으로 구현하며 전시장이라는 물리적 공간을 점유한다. 시간 기반의 무빙 이미지인 영상에 공간 기반의 정지 이미지인 조각을 결합함으로써, 관객은 작품을 시각적일 뿐만 아니라 촉각적이고 신체적인 방식으로 경험하게 된다.\n\n장서영의 작업은 개별 작품이 독립적으로 존재하기보다 반복적으로 등장하는 모티프와 개념을 통해 서로 유기적으로 연결된다. 이미지와 개념들은 작품마다 다른 방식으로 변주되며 하나의 거대한 네트워크를 형성한다. 관객은 서킷이나 컨베이어 벨트를 연상시키는 미로 같은 전시공간을 이동하며, 흩어져 있는 단서들을 연결해 나가는 과정 속에서 장서영이 구축한 세계의 지도를 더듬어 따라가게 된다.",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-13",
+      "end_date": "2026-10-25",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "3e9cc1c3e5ad",
+        "name": "서울시립 북서울미술관",
+        "lang": null,
+        "tr": {},
+        "region": "서울",
+        "district": null,
+        "lat": 37.64066135905104,
+        "lng": 127.06685980156716
+      },
+      "artists": [],
+      "source_url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1563285",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "70a9c5937a23",
+      "source": "tokyo_art_beat",
+      "title": "「女子力【じょしりき】展2026」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/5B22RenppZ6TsCd0NTJipH/9cabaa98e45b437bd5b0e07e542be31d/70cb299a-4c5f-4e75-b3ce-49130ceb622c.png",
+      "description": "今年で9回⽬を迎える「⼥⼦⼒＜じょしりき＞展」。⼥⼦美⽣達が、デザインフェスタギャラリー原宿を乗っ取り、8月28日～30日の期間中、作品展⽰やオークション展⽰販売、⼿作りアクセサリー等の作品販売などを⾏います。⼥⼦美⽣が持つ、【群れない・違いを認め合う・⾃由な・⼒強い・流⾏りに流されない】⼒。この⼒や想いを込めた作品を発表するイベント『⼥⼦⼒展』は、2017年度より原宿の「デザインフェスタギャラリー原宿」で⾏われ、今年で9回⽬の実施となる有志の展覧会です。作品展⽰の経験を通して他者・社会との繋がりや関係性を学ぶと共に、⾃⾝の「好き」なことをもっと「好き」に。このイベントに参加した全ての⼥⼦美⽣が、「好き」を確固たる⾃⾝の「⼒（⾃信）」にも変えられるような機会にしてもらうべく、『⼥⼦⼒展2026』として今年もイベント実施に⾄りました。今年も約120団体の女子美生が参加し、イベント実施を予定しています。また、会期当日は作品展示だけでなく、オークション展示販売や手作りアクセサリー等の作品販売など、様々な展示方法で沢山の現役女子美生が今年もイベントを盛り上げていきます。女子美生が持つ、彼女達の多種多様な『女子力（じょしりき）』によって生み出されるリアルな「女子美ワールド」をぜひ、当日会場でご覧ください。",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-28",
+      "end_date": "2026-08-30",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "073fbcdb83aa",
+        "name": "デザインフェスタギャラリー原宿",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "디자인 페스타 갤러리 하라주쿠"
+          },
+          "en": {
+            "name": "Design Festa Gallery Harajuku"
+          }
+        },
+        "region": "表参道、青山",
+        "district": null,
+        "lat": 35.67054100036041,
+        "lng": 139.70817889581963
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Joshirikiten-2026/C50-F944-C/2026-08-28",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "512506756b4b",
+      "source": "tokyo_art_beat",
+      "title": "「夏展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/3eZEMrbtZIa08MrZdEcRRs/c0ebb50f9a43bd9f59fff937bc2ce7cd/81ff818f-476c-4bf1-b809-dca524aaf3ea.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-05",
+      "end_date": "2026-09-13",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "d0718ada2e82",
+        "name": "NEUTRAL（堀川新文化ビルヂング）",
+        "lang": null,
+        "tr": {},
+        "region": "京都府",
+        "district": null,
+        "lat": 35.023912196494756,
+        "lng": 135.75154559755325
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Summer-Exhibition/neutral-horikawa-new-culture-bldg-kyoto/2026-09-05",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "9baa9c7faee5",
+      "source": "tokyo_art_beat",
+      "title": "岡田裕介 「AYNI｜コノホシノアイニツイテ」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/1e590uxWQ0HCnmfLUqHbFp/2de99424d89337654a7c8222a6cf1041/888539b6-d2ae-4aae-a156-5203a4638d0a.jpeg",
+      "description": "National Geographic写真賞の受賞を機に、世界でも作品を発表し旅を続けている写真家・岡田裕介。2022年より幾度も南米へ渡航し、ペルーやボリビアの高地で、そこに生きるアルパカやリャマを撮影してきました。本作は、岡田作品として初めて、動物以外の存在が写し込まれた作品群です。それは人であれ、山であれ、この地球を構成する一つの存在として、意味や境界のない共存、触れずとも触れ合う心のつながりが静かに写し出されています。既存の写真ジャンルやカテゴリーに回収されることなく、見る人それぞれの解釈と心の余白に寄り添う一冊となっています。写真集の後半には、旅の温度を感じられるエッセイも収録。新たな写真表現に挑戦した意欲作です。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-08",
+      "end_date": "2026-09-13",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "14db67420757",
+        "name": "弘重ギャラリー",
+        "lang": null,
+        "tr": {},
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.6437858792607,
+        "lng": 139.70916104623925
+      },
+      "artists": [
+        {
+          "id": "31075dc05b50",
+          "name": "岡田裕介",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yusuke-Okada-Ayni/AEC-0-BA-15/2026-09-08",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "144918d5198e",
+      "source": "tokyo_art_beat",
+      "title": "カナイメグ + HeyHo 「Something White, Something Red」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/28LXjKwJTjuW3I73X0blcu/36408b6c488f1d4fed8368932e81289a/something-white-something-red-2026.png",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-02",
+      "end_date": "2026-09-14",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "4ff6c8fdf9f9",
+        "name": "UNITEDcafe（ユナイテッドカフェ）",
+        "lang": null,
+        "tr": {},
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.63162749868051,
+        "lng": 139.66976638467312
+      },
+      "artists": [
+        {
+          "id": "11d5103b4a41",
+          "name": "カナイメグ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "3de5d6bfbe72",
+          "name": "HeyHo",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Megu-Kanai-Heyho-Something-White-Something-Red/unitedcafe/2026-09-02",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "6a6a0aaa5e24",
+      "source": "tokyo_art_beat",
+      "title": "城田圭介 「Lacuna or Extension」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/6cbKmMtE4n5j89rq0pptwA/da1cf49a39d1bb1140edf8744d02f3dd/unnamed__1_.jpg",
+      "description": "Maki Fine Artsは、2026年8月15日（土）から 9月13日（日）まで、城田圭介 個展「Lacuna or Extension」を開催いたします。城田圭介（1975年、神奈川県生まれ）は、写真の周囲に拡張するイメージを描き加えることにより、視覚の外側にあるものを可視化します。画面中央のカラー写真の周囲には、モノクロで描写したイメージが広がります。そのイメージは、写真の情報を元として想像により描かれた、架空の風景です。抽象性を帯びたモノクロの景色は、記憶の不確実さを具現化したものといえるでしょう。\n\nドキュメントとしての写真（現実性）と、虚構としての描写イメージが両立し、構成される城田の作品は、「見る」という行為そのものへの考察を含んでいます。さらに付け加えるとすれば、写真が「現実を記録するもの」としての定義を失った現在において、虚構と現実が交錯する不確かな世界で「わたしたちが視ているものは何か」という問いへの検証ともいえます。\n\n展覧会タイトルである「Lacuna or Extension」にも示されるとおり、近年の城田の作品において、空白（Lacuna）が特徴付けられます。写真と描写部分の境界にある余白、いわゆる「隙間」は現実と虚構の境界線を明瞭にしています。そして、作品周囲に設けられた余白は、イメージをずらすことによって生じており、これらの「不在」の領域が、絵画の枠組み（フレーミング）を解体させ、その続き、延長線上にあるものを想像させるものになっています。この循環的な概念は、ほか作品にも共通しており、例えば2枚のパネルにより構成される作品は、左右を入れ替える構造になっており、終わりのない、反復の絵画としての形式が提示されます。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-15",
+      "end_date": "2026-09-13",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "520572d2b656",
+        "name": "Maki Fine Arts",
+        "lang": null,
+        "tr": {},
+        "region": "市ヶ谷、神楽坂",
+        "district": null,
+        "lat": 35.70592,
+        "lng": 139.7308
+      },
+      "artists": [
+        {
+          "id": "62d90aa9e016",
+          "name": "城田圭介",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Keisuke-Shirota-Lacuna-or-Extension/975-EFF-82/2026-08-15",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "c557c70f6737",
+      "source": "tokyo_art_beat",
+      "title": "「フランス蚤の市とアンティーク展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/u06iaTnKyyhgF6sGDgFCf/da81d8cd7d02cd8ed0ae388b2a4611ce/d341024c-ea8d-4c17-be47-db40cddaf901.png",
+      "description": "暮らしの中で､受け継がれてきた雑貨たち｡フランス各地の蚤の市を訪ね歩き、時を重ねたものたちをひとつひとつ選び集めた「フランスアンティーク展」を開催いたします。会場では、買い付けの旅で出会った蚤の市の風景や美しい街並み、フランスの日常に息づく景色の写真もあわせて展示いたします。アンティークが生まれ、長い年月をかけて大切に受け継がれてきた土地の空気を感じながら、ゆっくりとご覧ください。普段は月に1〜2回、大江戸骨董市を中心に出店しておりますが、今回はギャラリーならではの広々とした空間で、普段はご紹介しきれない大皿やアルミ製品、照明器具など、さまざまなアンティークをご覧いただけます。オンラインショップ掲載の商品を実際に手に取っていただけるほか、会場限定の特別価格でご用意するアイテムもございます。涼しいギャラリーで、時間を忘れてフランスの蚤の市を歩くようなひとときをお楽しみください。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-08",
+      "end_date": "2026-08-16",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "838c559a265c",
+        "name": "America-Bashi Gallery（アメリカ橋ギャラリー）",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "America-Bashi Gallery (아메리카바시 갤러리)"
+          },
+          "en": {
+            "name": "America-Bashi Gallery (America-Bashi Gallery)"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.64332200748064,
+        "lng": 139.7114891844791
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/French-Flea-Market-and-Antiques/F92841-BF/2026-08-08",
       "featured": false,
       "popularity_score": null
     }
@@ -73696,6 +73968,76 @@
       "country": "JP",
       "lat": 33.88344105292188,
       "lng": 130.8837099705696,
+      "website": null
+    },
+    {
+      "id": "3e9cc1c3e5ad",
+      "name": "서울시립 북서울미술관",
+      "lang": null,
+      "tr": {},
+      "venue_type": "museum",
+      "region": "서울",
+      "district": null,
+      "address": null,
+      "country": "KR",
+      "lat": 37.64066135905104,
+      "lng": 127.06685980156716,
+      "website": null
+    },
+    {
+      "id": "d0718ada2e82",
+      "name": "NEUTRAL（堀川新文化ビルヂング）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "京都府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.023912196494756,
+      "lng": 135.75154559755325,
+      "website": null
+    },
+    {
+      "id": "14db67420757",
+      "name": "弘重ギャラリー",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "恵比寿、代官山、中目黒",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.6437858792607,
+      "lng": 139.70916104623925,
+      "website": null
+    },
+    {
+      "id": "4ff6c8fdf9f9",
+      "name": "UNITEDcafe（ユナイテッドカフェ）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "cafe",
+      "region": "世田谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.63162749868051,
+      "lng": 139.66976638467312,
+      "website": null
+    },
+    {
+      "id": "520572d2b656",
+      "name": "Maki Fine Arts",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "市ヶ谷、神楽坂",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.70592,
+      "lng": 139.7308,
       "website": null
     }
   ],
@@ -90076,6 +90418,30 @@
     {
       "id": "25669937942f",
       "name": "Noel Takako vs Masato Seto",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "31075dc05b50",
+      "name": "岡田裕介",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "11d5103b4a41",
+      "name": "カナイメグ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3de5d6bfbe72",
+      "name": "HeyHo",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "62d90aa9e016",
+      "name": "城田圭介",
       "lang": null,
       "tr": {}
     }
