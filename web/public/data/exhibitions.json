@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T16:48:31.151153+00:00",
+  "generated_at": "2026-08-13T19:30:02.971327+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -17216,7 +17216,7 @@
         }
       },
       "poster_image_url": "https://museumhanmi.or.kr/wp-content/uploads/2026/05/%EB%AE%A4%EC%A7%80%EC%97%84%ED%95%9C%EB%AF%B8-%EA%B9%80%ED%8F%AC-%ED%94%84%EB%A6%AC%EB%B7%B0-%EC%A0%84%EC%8B%9C-%ED%8F%AC%EC%8A%A4%ED%84%B01-728x1024.jpg",
-      "description": "뮤지엄한미는 2026년 하반기 개관 예정인 뮤지엄한미 김포 제리 율스만 기념관의 개관에 앞서 《김포 제리 율스만 기념관 프리뷰》를 뮤지엄한미 삼청별관에서 개최합니다.\n\n제리 율스만(1934–2022)은 여러 장의 네거티브 필름을 결합해 하나의 이미지를 완성하는 조합인화 기법을 정교하게 발전시키며, 사진을 꿈과 무의식, 기억과 상상이 교차하는 초현실적 풍경의 영역으로 확장한 사진가입니다.\n\n이번 전시에서는 그의 대표작과 더불어 한국 방문 당시 안동과 제주에서 직접 촬영한 이미지, 그리고 미술관 소장품을 촬영한 이미지를 바탕으로 제작한 작품들을 선보입니다. 이를 통해 20세기 아날로그 사진의 거장인 제리 율스만이 지난 20여 년간 한국과 맺어온 특별한 인연을 조명합니다. 또한 향후 뮤지엄한미 김포에 재현될 제리 율스만 작업실의 설계 과정과 현장 영상을 함께 공개하여, 새롭게 문을 열 김포 분관의 방향성과 의미를 미리 만나볼 수 있도록 합니다.\n\n장소\n\n뮤지엄한미 삼청별관",
+      "description": "뮤지엄한미는 2026년 하반기 개관 예정인 뮤지엄한미 김포 제리 율스만 기념관의 개관에 앞서 《김포 제리 율스만 기념관 프리뷰》를 뮤지엄한미 삼청별관에서 개최한다.\n\n제리 율스만(1934–2022)은 여러 장의 네거티브 필름을 결합해 하나의 이미지를 완성하는 조합인화 기법을 정교하게 발전시키며, 사진을 꿈과 무의식, 기억과 상상이 교차하는 초현실적 풍경의 영역으로 확장한 사진가다.\n\n이번 전시에서는 그의 대표작과 더불어 한국 방문 당시 안동과 제주에서 직접 촬영한 이미지, 그리고 미술관 소장품을 촬영한 이미지를 바탕으로 제작한 작품들을 선보인다. 이를 통해 20세기 아날로그 사진의 거장인 제리 율스만이 지난 20여 년간 한국과 맺어온 특별한 인연을 조명한다. 또한 향후 뮤지엄한미 김포에 재현될 제리 율스만 작업실의 설계 과정과 현장 영상을 함께 공개하여, 새롭게 문을 열 김포 분관의 방향성과 의미를 미리 만나볼 수 있도록 한다.\n\n장소\n\n뮤지엄한미 삼청별관",
       "medium": "mixed",
       "exhibition_type": "curated",
       "genre_tags": [],
@@ -47541,7 +47541,7 @@
       "price_min": null,
       "price_max": null,
       "start_date": "2026-07-01",
-      "end_date": "2026-09-17",
+      "end_date": "2026-10-30",
       "status": "ongoing",
       "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
@@ -53027,7 +53027,7 @@
           "title": "TOKYO Smart Culture Project Nara Women's University Hase Lab “Reproduced Sensibility – Daido Moriyama”"
         }
       },
-      "poster_image_url": "https://topmuseum.jp/wp-content/uploads/2026/08/DAIDO-MORIYAMA.jpg",
+      "poster_image_url": "https://topmuseum.jp/wp-content/uploads/2026/08/Tokyo-Smart-Culture-Project_flyer1-scaled.jpg",
       "description": null,
       "medium": "mixed",
       "exhibition_type": "curated",
@@ -62093,7 +62093,7 @@
       "price_max": null,
       "start_date": "2026-08-07",
       "end_date": "2026-08-12",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "23129cff8bfd",
@@ -66396,7 +66396,7 @@
       "price_max": null,
       "start_date": "2026-08-13",
       "end_date": "2026-08-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8bc60f268986",
@@ -66523,7 +66523,7 @@
       "price_max": null,
       "start_date": "2026-08-13",
       "end_date": "2026-10-25",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "3e9cc1c3e5ad",
@@ -66776,6 +66776,750 @@
       },
       "artists": [],
       "source_url": "https://www.tokyoartbeat.com/events/-/French-Flea-Market-and-Antiques/F92841-BF/2026-08-08",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "44b8f31b7bbf",
+      "source": "fujifilm_square",
+      "title": "北島良夫写真展「黒き砂浜を出て…そして再び」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://fujifilmsquare.jp/assets/img/photo_event_260814_01_mv.jpg",
+      "description": "私は2018年（8年前）から、火山島であるアイスランドの黒き砂浜に魅かれて風景写真の撮影を始めました。海外や日本で、見たまま、感じたままの心を写す―言わば「心象風景」を写真に収めてきたのかもしれません。 撮影地の中には四駆車でないと行けない場所や、背後が崖になっている場所、引き波が強くて危ない場所などもあり、今はもう行けそうにないポイントが数多くあります。 2021年の「アメリカの大地と星空のデュエット」に続く、当会場での2回目の個展になります。少しでも心に留めていただければこの上ない喜びです。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-14",
+      "end_date": "2026-08-20",
+      "status": "upcoming",
+      "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
+      "venue": {
+        "id": "d8d9c7e67b31",
+        "name": "フジフイルム スクエア",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "후지필름 스퀘어"
+          },
+          "en": {
+            "name": "Fujifilm Square"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.665607,
+        "lng": 139.7304444
+      },
+      "artists": [],
+      "source_url": "https://fujifilmsquare.jp/exhibition/260814_01.html",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "b27a52cf36c6",
+      "source": "fujifilm_square",
+      "title": "篠田岬輝写真展「with ペンギンたちの生きる島」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://fujifilmsquare.jp/assets/img/photo_event_260814_02_mv.jpg",
+      "description": "本写真展は5年以上にわたって取材を重ねてきた、フォークランド諸島に生きるペンギンたちのネイチャードキュメンタリーです。 舞台は、亜南極に位置する島々「フォークランド諸島」。美しい砂浜から入り組んだ入り江、険しい崖など、多様な表情を持つ海岸線が広がり、起伏に富んだ丘陵地帯には寒冷地ならではの草原や湿原が広がっています。 写真展ではそんな島々の各地で環境に適応して生きる、キング、ジェンツー、マゼラン、ミナミイワトビの4種のペンギンが登場。個性豊かなペンギンたちの営みを、それぞれの時間を追うようにして紹介します。 時に愛らしく、時にたくましい彼らの生き様を、美しい作品群にてお楽しみください。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-14",
+      "end_date": "2026-08-20",
+      "status": "upcoming",
+      "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
+      "venue": {
+        "id": "d8d9c7e67b31",
+        "name": "フジフイルム スクエア",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "후지필름 스퀘어"
+          },
+          "en": {
+            "name": "Fujifilm Square"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.665607,
+        "lng": 139.7304444
+      },
+      "artists": [],
+      "source_url": "https://fujifilmsquare.jp/exhibition/260814_02.html",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "435dc9c9d13d",
+      "source": "fujifilm_square",
+      "title": "「第18回 六本木フォトコンテスト写真展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://fujifilmsquare.jp/assets/img/photo_event_260814_04_mv.jpg",
+      "description": "“あなたが見つけた六本木の素顔を、自由に切り撮ってください” をテーマに、18回目を迎えた六本木フォトコンテスト。本展では、日々変化する六本木のまちでの新しい発見や、ユニークな視点でとらえた写真を展示いたします。 大型施設や大規模イベントの風景だけでなく、そこにある人々の営みや表情をとらえたものや、まち中の普段見過ごしてしまいそうな何気ない様子など、素敵な作品が多数集まりました。場所を決めてじっくりと狙ったものから、遭遇した一瞬をとらえたものまで、六本木を丹念に巡り、その魅力をすくい上げた作品ばかりです。 バラエティー豊かな応募作品の中から、写真家・立木義浩氏を委員長とする審査会によって選出された優秀作品を展示いたします。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-14",
+      "end_date": "2026-09-10",
+      "status": "upcoming",
+      "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
+      "venue": {
+        "id": "d8d9c7e67b31",
+        "name": "フジフイルム スクエア",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "후지필름 스퀘어"
+          },
+          "en": {
+            "name": "Fujifilm Square"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.665607,
+        "lng": 139.7304444
+      },
+      "artists": [],
+      "source_url": "https://fujifilmsquare.jp/exhibition/260814_04.html",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "35d48870d9db",
+      "source": "tokyo_art_beat",
+      "title": "「作品展トライアル番外編U35展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/2Z3C7vqtTdzMc8juAylYXN/eddcb923dc4fa7a8103e23bbe33f3e18/87e033bb-ae1a-43d6-a1af-ca91e0a6659d.png",
+      "description": "『写真をやってない人でもわかる良い場所』にこだわって作品展をやる…公共的な施設で開催し解りやすく誰もが入りやすい展示をという想いでスタートしました。写真を基本としますが、書やイラストなど幅広いアートな展示会になっています。今回は初の試みとして35歳以下のメンバー限定で、2日間限定の企画になります。下は中学生から上は社会人まで、その世代世代での感性・個性を感じられる作品が揃っています。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-29",
+      "end_date": "2026-08-30",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "e5a1c214c4dc",
+        "name": "扇町ミュージアムキューブ",
+        "lang": null,
+        "tr": {},
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.70232441020057,
+        "lng": 135.5090362098217
+      },
+      "artists": [
+        {
+          "id": "8f54e9778498",
+          "name": "大海",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "31d79cf16d7e",
+          "name": "はるか",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "625766f4e439",
+          "name": "春鬼",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "51b56ed97650",
+          "name": "mion",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "2529bc0aae66",
+          "name": "Jane doe",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "462ed560d873",
+          "name": "田畑廣道",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "bab0d6e505ba",
+          "name": "辻中潤",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0a33d075999a",
+          "name": "黒川智貴",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1d5bcf94c344",
+          "name": "早崎日奈心",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "18868568ca5a",
+          "name": "真野紗綾",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d6cde63721fa",
+          "name": "大森脩平",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c8d0c838278e",
+          "name": "夏姫",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c8c57627f10e",
+          "name": "森岡万緒",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d2eac78f942f",
+          "name": "モリモト",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1c9282fde9b9",
+          "name": "Y.Shuhei",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "92957b3b4726",
+          "name": "池田大剛",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "064e77a53632",
+          "name": "荒田",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c867d7b2bd81",
+          "name": "近藤夕日",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Trial-Exhibition-U35-Special-Edition/ogimachi-museum-cube/2026-08-29",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f32dfeb3becf",
+      "source": "tokyo_art_beat",
+      "title": "「幕末・明治の古写真展『盛岡の収集家・村田明コレクション Part Ⅱ』」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/2cd4b584/8032833f2b3a0cd459c4a092e0daf485.jpg",
+      "description": "JCIIフォトサロンでは、古写真シリーズの50回目として、来る2026年8月4日（火）から8月30日（日）まで、「幕末・明治の古写真展 盛岡の収集家・村田明コレクション PartⅡ」展を開催いたします。「村田明コレクション」は、岩手県盛岡市にて写真館を経営されながら古写真の収集を行っていた村田明氏（1938-2023）によるものです。幕末から明治期の湿板写真や手札判写真を中心として、写真帖、ガラス絵、浮世絵など多岐にわたります。また村田氏は収集のみではなく、そのコレクション群の歴史的背景や、写真伝来以降の日本における写真史に関しても精力的に研究されていました。調査資料には多くの書き込みと付箋があり、挟み込まれた領収書や手紙からは自らの足で写真資料を探し歩いた痕跡と、多様な方々との交流が垣間見えます。\n\n今回は様々な特色を持つ「村田明コレクション」のジャンルの幅広さに焦点を当て、日本各地の橋や駅舎、艦船や凱旋門など様々な分野ごとにセレクトしてご紹介いたします。人物写真からは、侍や商人、新潟美人や、清国の人々、秋田のハイカラ県令・石田英吉、西南戦争に散った長府の英雄・福原和勝などこれまで古写真ではあまり紹介されたことがない著名人の姿もご覧いただけます。また、明治29年（1896）6月15日に発生した明治三陸地震で、大津波に襲われた岩手県の東閉伊郡（現・宮古市）の海岸付近に位置する宮古町や鍬ヶ崎町の被害状況が記録された写真も展示いたします。130年前の惨状を今も鮮明に伝える重要な写真です。湿板写真のコレクターとしても知られる村田明氏のコレクションから、今回は湿板写真もご紹介いたします。勇ましい侍や、おかしなポーズをとる人、友人同士での一枚や、夫婦で、家族で・・・。多様な人々が写真館のカメラの前に座る様子は幕末・明治を生き抜いた人々の生活を身近に感じさせてくれます。複写ではなく実際の湿板写真をご覧いただける貴重な機会です。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-04",
+      "end_date": "2026-08-30",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "cf1528c9ba68",
+        "name": "JCIIフォトサロン",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "JCII 포토살롱"
+          },
+          "en": {
+            "name": "JCII Photo Salon"
+          }
+        },
+        "region": "竹橋、水道橋、末広町",
+        "district": null,
+        "lat": 35.68608910721222,
+        "lng": 139.7425536441803
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/BakumatsuMeiji-Era-Photographs-The-Akira-Murata-Collection-Part-II/jcii-photo-salon/2026-08-04",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "fdfeb17829de",
+      "source": "tokyo_art_beat",
+      "title": "「現在展 いまがあるてん」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/51790e9a/%E2%91%A0%E7%8F%BE%E5%9C%A8%E5%B1%95DM%E8%A1%A8%EF%BC%BF%E6%9C%80%E7%B5%82%E7%A8%BF%20-%20%E7%8E%84%E6%83%B3%E5%BA%B5%E5%BB%A3%E5%B9%B8.JPG",
+      "description": "本展では、日本画、油彩、染色、陶芸、彫刻、フェルトアートなど、それぞれの分野で独自の表現を追求し続ける作家たちが一堂に会します。作家一人ひとりの多彩な美の世界をご堪能いただけましたら幸いです。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-18",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5008fe29f522",
+        "name": "玄想庵",
+        "lang": null,
+        "tr": {},
+        "region": "京都府",
+        "district": null,
+        "lat": 35.00155,
+        "lng": 135.7609
+      },
+      "artists": [
+        {
+          "id": "984fa8b292a2",
+          "name": "麻田脩二",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "fea79631fbc1",
+          "name": "磯部茂亀",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a6cef4cf2bbd",
+          "name": "草間喆雄",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "dfcb9bdbc01b",
+          "name": "坂部隆芳",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a8efb48846d0",
+          "name": "信ヶ原良和",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "be863b8f6995",
+          "name": "ジョリー・ジョンソン",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a1793b5f17cc",
+          "name": "蘇峰男",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "bd22cb97b036",
+          "name": "ブライアン・ウィリアムズ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0a1eec1a5f60",
+          "name": "松原昭俊",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "dc1957867265",
+          "name": "吉田多最",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d63f579f4588",
+          "name": "利茶土・ミルグリム",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Current-Vision-Exhibition/genso-an/2026-09-18",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "0fdd66bb94cc",
+      "source": "tokyo_art_beat",
+      "title": "小松健一 「都会の安息―1970～1980年代」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/d04715c3/L417PR_02.jpg",
+      "description": "JCIIフォトサロンでは、来る2026年9月1日（火）から9月27日（日）まで、小松健一作品展「都会の安息―1970～1980年代」を開催いたします。本展は、小松健一氏がフリーランスの写真家になる以前の1970年代から80年代にかけて、高度経済成長からバブル経済へと移行する時代の東京の人々を記録した60点（すべてモノクロ）を展示します。小松氏は岡山県生まれ、群馬県育ちで、新聞記者などを経て1982年よりフリーランスの写真家として活動を始めました。以来、ヒマラヤ、アンデス、シベリア、チベット、ニューギニアなど世界各地の厳しい風土を生きる人々をライフワークに撮り続けるかたわら、石川啄木や宮澤賢治のゆかりの地をたどる日本の文学風土記シリーズを手がけるなど、日本の近現代文学・社会的テーマへの取材でも広く知られています。著書・写真集も多数あり、国内外の美術館・博物館に作品が収蔵されています。\n\nフリーランスとして歩み始める以前から、小松氏は東京の街にカメラを向け続けていました。地方から上京した自身もまた、都会で生きることを選んだ一人でした。人波にのまれ、会社でも路地でも通勤電車の中でも、それぞれの孤独を抱えながら懸命に生きる人々の姿を、氏は寄り添うように見つめています。朝の公園の植込みの辺りでひとり新聞に顔を寄せる人、占い師に行列をつくる女性たち、夜遅い電車の中で塾帰りに勉強を続ける子どもたちなど、氏がとらえるのは、喧騒のなかに垣間見える都会の片隅のひそかな「安息」の瞬間です。大都市の冷たさや無関心の裏側に、人間だけが持つ温もりを見出そうとする眼差しがそこにはあります。「都会の安息」シリーズは、1985年に初めての個展として発表されました。当時、雑誌『中央公論』に「仮初の安息―東京人の日常」として一部が掲載され、読者から大きな反響を呼びました。都市が高度経済成長を経て大きく姿を変え、バブル経済へと向かう時代、小松氏は名もなき人々の日常を見つめ続けました。約50年前に写し取られたその光景が、未発表作品とともに今ふたたびよみがえります。時代は変わっても、氏によって写し出された人々の安息の一瞬は、都会の片隅の声をささやき続けています。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "cf1528c9ba68",
+        "name": "JCIIフォトサロン",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "JCII 포토살롱"
+          },
+          "en": {
+            "name": "JCII Photo Salon"
+          }
+        },
+        "region": "竹橋、水道橋、末広町",
+        "district": null,
+        "lat": 35.68608910721222,
+        "lng": 139.7425536441803
+      },
+      "artists": [
+        {
+          "id": "deb7e610513d",
+          "name": "小松健一",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kenichi-Komatsu-Rest-of-City-1970s-1980s/jcii-photo-salon/2026-09-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "35d812a06678",
+      "source": "tokyo_art_beat",
+      "title": "「黄金町バザール＋上大岡バザール2026 交差する私たち -アートでつながるまち-」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/58f654f9/1_%E9%BB%84%E9%87%91%E7%94%BA%E3%83%8F%E3%82%99%E3%82%B5%E3%82%99%E3%83%BC%E3%83%AB2026_MV_A4_2026-07-01%20-%20Channel%20Koganecho.jpg",
+      "description": "「黄金町バザール＋上大岡バザール2026 交差する私たち -アートでつながるまち-」は、黄金町エリアと上大岡エリアを舞台に、多様な背景をもつアーティストとともに、アートとコミュニティの関係を探るアートフェスティバルです。黄金町バザールは、2008年の開始以来、「アートとコミュニティの関係」そして「アジアとの交流」をテーマに、「アートによるまちづくり」の可能性を実践してきました。2025年からは、京急百貨店・ウィング上大岡へと活動の場を広げ、異なる都市空間における新たな出会いと交流を生み出しています。今年のテーマ「交差する私たち -アートでつながるまち-」は、アートとコミュニティの関わりを軸に、人と人、人とまち、まちとまちが交差することで生まれる新たな関係性に目を向けるものです。そして、まもなく20年目を迎える黄金町の「アートによるまちづくり」と、今年30周年を迎える京急百貨店・ウィング上大岡を結ぶ本フェスティバルとして、新たなつながりや可能性を探ります。\n\n[関連イベント]\nザジモン!! ZAZIMON!!\n日時: 2026年9月12日、9月13日、10月10日、10月11日、10月12日\n※イベント詳細は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-10",
+      "end_date": "2026-10-12",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "73d93f659904",
+        "name": "高架下スタジオSite-Aギャラリー",
+        "lang": null,
+        "tr": {},
+        "region": "神奈川県",
+        "district": null,
+        "lat": 35.44128207636547,
+        "lng": 139.62541432596993
+      },
+      "artists": [
+        {
+          "id": "97bc8c9cc70a",
+          "name": "バン・サンファン",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c3e5aa580be4",
+          "name": "Boingzilla（美塩・持田・ジャック&モード・ラングレ）",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "6c08223c83e7",
+          "name": "陳彥瑋（チェン・イェンウェイ）",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "089649fcf851",
+          "name": "チェ・ウォンギュ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "6629b5f047c5",
+          "name": "キム・ガウン&レナ・アフラモワ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "adc0f1aafc69",
+          "name": "ハスク・ベネット",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "dbeec359fa70",
+          "name": "イサスクン・アラルセア",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "846cab07f417",
+          "name": "ヨハン・エフ・カールソン",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c60488588e7e",
+          "name": "何梓羽（カ・シウ）",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "ee3f91c052d4",
+          "name": "近あづき",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "47f8c4403b67",
+          "name": "明珏汝（ミン・ジュエルー）",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "04f0f3e1c251",
+          "name": "水田雅也",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "819603740cca",
+          "name": "NEO-KOSHINプロジェクト",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1669fbe15760",
+          "name": "Ququ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b16927aa9eff",
+          "name": "レイ・ホラチェック",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5615aaa709f0",
+          "name": "信耕ミミ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "2b1b9da28f97",
+          "name": "サイモン・ウィータム",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4dd3931ed934",
+          "name": "瀧健太郎",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "7e69a3c1ca01",
+          "name": "トゥー・キム・ヴー",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "cb0724951e9a",
+          "name": "未発見の小惑星観測所（主宰：金子未弥）",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c7f4c8ea7107",
+          "name": "嘉春佳",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "86c819c8635e",
+          "name": "ザジ・ズー",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kognecho-Bazaar-Kamiooka-Bazaar-2026-At-the-Crossroads-Art-Connecting-Us-/2-DCFAE5-A/2026-09-10",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "843706182272",
+      "source": "tokyo_art_beat",
+      "title": "宮田朋音 + 大和太賀 「光のよりしろ」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/9b9227b2/DM%20hikariyorishiro_1.jpg",
+      "description": "宮田朋音と大和太賀による二人展「光のよりしろ」を開催いたします。ガラス作品と写真による今回の展示では、異なるマテリアルが時に響き合い、時に存在を提示する空間にできたらと思います。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-11",
+      "end_date": "2026-08-23",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "f46b9eafe809",
+        "name": "HILL TOP GALLERY",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "힐탑 갤러리"
+          },
+          "ja": {
+            "name": "ヒルトップギャラリー"
+          }
+        },
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.67668176195835,
+        "lng": 135.50449119510654
+      },
+      "artists": [
+        {
+          "id": "35278c3b5f11",
+          "name": "宮田朋音",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4e3ba6518289",
+          "name": "大和太賀",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Mone-Miyata-Taiga-Yamato-Light-Yorishiro/hill-top-gallery/2026-08-11",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "a860b0c50e47",
+      "source": "tokyo_art_beat",
+      "title": "「ま」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/70799d2d/ma_omote%20-%20ryousuke%20tsukamura%20(%E6%A0%9E%20Design)%20(1).jpg",
+      "description": "本展では、媒体の枠を越えて活動する7名のデザイナーが、「ま」をテーマに制作した作品を展示・販売します。Webとグラフィックデザインのあいだ、紙とスクリーンのあいだ、情報と情報のあいだ、視覚と体験のあいだ。多様な「間」のあり方と、そこから生まれる新たな表現の可能性を探ります。異なる領域のデザイナーが交差するこの機会ならではの展示をぜひご覧ください。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-22",
+      "end_date": "2026-08-30",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "eba4f5e63243",
+        "name": "STAYFUL LIFE STORE Gallery",
+        "lang": null,
+        "tr": {},
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.70376,
+        "lng": 139.5665
+      },
+      "artists": [
+        {
+          "id": "dbb620890b57",
+          "name": "阿部文人",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "ddd2f9aa0109",
+          "name": "宇都宮 勝晃",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d2159cc1aada",
+          "name": "大橋絵里奈",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "45f99e82cef9",
+          "name": "尾花大輔",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "eb84aeb46e0b",
+          "name": "小玉千陽",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c0b45a9a7ae9",
+          "name": "塚村 亮介",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "66a2c27932e2",
+          "name": "野田一輝",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Web-and-Graphic-Design-Group-Exhibition/stayful-life-store-gallery/2026-08-22",
       "featured": false,
       "popularity_score": null
     }
@@ -74038,6 +74782,62 @@
       "country": "JP",
       "lat": 35.70592,
       "lng": 139.7308,
+      "website": null
+    },
+    {
+      "id": "e5a1c214c4dc",
+      "name": "扇町ミュージアムキューブ",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "大阪府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.70232441020057,
+      "lng": 135.5090362098217,
+      "website": null
+    },
+    {
+      "id": "5008fe29f522",
+      "name": "玄想庵",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "京都府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.00155,
+      "lng": 135.7609,
+      "website": null
+    },
+    {
+      "id": "73d93f659904",
+      "name": "高架下スタジオSite-Aギャラリー",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "神奈川県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.44128207636547,
+      "lng": 139.62541432596993,
+      "website": null
+    },
+    {
+      "id": "eba4f5e63243",
+      "name": "STAYFUL LIFE STORE Gallery",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "武蔵野、多摩",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.70376,
+      "lng": 139.5665,
       "website": null
     }
   ],
@@ -90442,6 +91242,372 @@
     {
       "id": "62d90aa9e016",
       "name": "城田圭介",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8f54e9778498",
+      "name": "大海",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "31d79cf16d7e",
+      "name": "はるか",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "625766f4e439",
+      "name": "春鬼",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "51b56ed97650",
+      "name": "mion",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2529bc0aae66",
+      "name": "Jane doe",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "462ed560d873",
+      "name": "田畑廣道",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "bab0d6e505ba",
+      "name": "辻中潤",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0a33d075999a",
+      "name": "黒川智貴",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1d5bcf94c344",
+      "name": "早崎日奈心",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "18868568ca5a",
+      "name": "真野紗綾",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d6cde63721fa",
+      "name": "大森脩平",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c8d0c838278e",
+      "name": "夏姫",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c8c57627f10e",
+      "name": "森岡万緒",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d2eac78f942f",
+      "name": "モリモト",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1c9282fde9b9",
+      "name": "Y.Shuhei",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "92957b3b4726",
+      "name": "池田大剛",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "064e77a53632",
+      "name": "荒田",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c867d7b2bd81",
+      "name": "近藤夕日",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "984fa8b292a2",
+      "name": "麻田脩二",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fea79631fbc1",
+      "name": "磯部茂亀",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a6cef4cf2bbd",
+      "name": "草間喆雄",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "dfcb9bdbc01b",
+      "name": "坂部隆芳",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a8efb48846d0",
+      "name": "信ヶ原良和",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "be863b8f6995",
+      "name": "ジョリー・ジョンソン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a1793b5f17cc",
+      "name": "蘇峰男",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "bd22cb97b036",
+      "name": "ブライアン・ウィリアムズ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0a1eec1a5f60",
+      "name": "松原昭俊",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "dc1957867265",
+      "name": "吉田多最",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d63f579f4588",
+      "name": "利茶土・ミルグリム",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "deb7e610513d",
+      "name": "小松健一",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "97bc8c9cc70a",
+      "name": "バン・サンファン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c3e5aa580be4",
+      "name": "Boingzilla（美塩・持田・ジャック&モード・ラングレ）",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6c08223c83e7",
+      "name": "陳彥瑋（チェン・イェンウェイ）",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "089649fcf851",
+      "name": "チェ・ウォンギュ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6629b5f047c5",
+      "name": "キム・ガウン&レナ・アフラモワ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "adc0f1aafc69",
+      "name": "ハスク・ベネット",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "dbeec359fa70",
+      "name": "イサスクン・アラルセア",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "846cab07f417",
+      "name": "ヨハン・エフ・カールソン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c60488588e7e",
+      "name": "何梓羽（カ・シウ）",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ee3f91c052d4",
+      "name": "近あづき",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "47f8c4403b67",
+      "name": "明珏汝（ミン・ジュエルー）",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "04f0f3e1c251",
+      "name": "水田雅也",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "819603740cca",
+      "name": "NEO-KOSHINプロジェクト",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1669fbe15760",
+      "name": "Ququ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b16927aa9eff",
+      "name": "レイ・ホラチェック",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5615aaa709f0",
+      "name": "信耕ミミ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2b1b9da28f97",
+      "name": "サイモン・ウィータム",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4dd3931ed934",
+      "name": "瀧健太郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7e69a3c1ca01",
+      "name": "トゥー・キム・ヴー",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "cb0724951e9a",
+      "name": "未発見の小惑星観測所（主宰：金子未弥）",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c7f4c8ea7107",
+      "name": "嘉春佳",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "86c819c8635e",
+      "name": "ザジ・ズー",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "35278c3b5f11",
+      "name": "宮田朋音",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4e3ba6518289",
+      "name": "大和太賀",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "dbb620890b57",
+      "name": "阿部文人",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ddd2f9aa0109",
+      "name": "宇都宮 勝晃",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d2159cc1aada",
+      "name": "大橋絵里奈",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "45f99e82cef9",
+      "name": "尾花大輔",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "eb84aeb46e0b",
+      "name": "小玉千陽",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c0b45a9a7ae9",
+      "name": "塚村 亮介",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "66a2c27932e2",
+      "name": "野田一輝",
       "lang": null,
       "tr": {}
     }
