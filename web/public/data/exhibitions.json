@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T16:45:08.526504+00:00",
+  "generated_at": "2026-08-14T19:21:31.430136+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -7075,7 +7075,7 @@
       "price_max": null,
       "start_date": "2026-08-14",
       "end_date": "2026-09-10",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -41350,7 +41350,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-08-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": "10:00－19:00（最終日は14:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -46787,7 +46787,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-08-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "3f88230e73b4",
@@ -64321,7 +64321,7 @@
       "price_max": null,
       "start_date": "2026-08-14",
       "end_date": "2026-09-10",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "3f88230e73b4",
@@ -66795,7 +66795,7 @@
       "price_max": null,
       "start_date": "2026-08-14",
       "end_date": "2026-08-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -66835,7 +66835,7 @@
       "price_max": null,
       "start_date": "2026-08-14",
       "end_date": "2026-08-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -66875,7 +66875,7 @@
       "price_max": null,
       "start_date": "2026-08-14",
       "end_date": "2026-09-10",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -67520,6 +67520,166 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Web-and-Graphic-Design-Group-Exhibition/stayful-life-store-gallery/2026-08-22",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "852c202c7f42",
+      "source": "museum_hanmi",
+      "title": "《Magnum Between Pages 1943–2026》",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://museumhanmi.or.kr/wp-content/uploads/2026/08/%EC%95%88%EB%8F%99%ED%8F%AC%EC%8A%A4%ED%84%B0_%EC%9B%B9_ver.5-%EC%A0%80%ED%99%94%EC%A7%88-724x1024.png",
+      "description": "안동문화예술의전당과 뮤지엄한미가 공동 주관하고, 뮤지엄한미와 매그넘 포토스(Magnum Photos)가 공동 기획한 《Magnum Between Pages 1943–2026》이 8월 14일부터 10월 11일까지 안동문화예술의전당에서 개최된다. 한불수교 140주년을 기념해 마련된 이번 전시는 2025년 뮤지엄한미 삼청에서 선보인 《포토북 속의 매그넘 1943–2025》를 바탕으로 재구성한 전시다. 세계적인 사진가 협동조합 매그넘 포토스의 대표 포토북 90여 권과 오리지널 작품 130여 점을 비롯해 더미북, 플랜 시트, 원본 프린트 등 포토북 제작 과정을 보여주는 다양한 아카이브 자료를 함께 소개한다. 이를 통해 각 사진가의 고유한 시선과 스토리텔링이 이미지의 배열과 편집, 디자인을 거쳐 한 권의 포토북이라는 독립적인 예술 작품으로 완성되는 과정을 조명하며, 매그넘 포토스가 지난 80여 년간 구축해 온 시각적 서사와 현대 사진예술의 흐름을 살펴본다.\n\n장소\n\n외부안동문화예술의전당",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-14",
+      "end_date": "2026-10-11",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "61d0f4dfc3aa",
+        "name": "외부",
+        "lang": null,
+        "tr": {},
+        "region": null,
+        "district": null,
+        "lat": 34.8636993074214,
+        "lng": 128.701096099195
+      },
+      "artists": [],
+      "source_url": "https://museumhanmi.or.kr/post_exhibition/%e3%80%8amagnum-between-pages-1943-2026%e3%80%8b/",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "af977174c4ed",
+      "source": "tokyo_art_beat",
+      "title": "BIEN 「Debris 4」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/6421d7e7/Debris4_DM.jpg",
+      "description": "BIENは、1993年東京都出身のアーティストです。アニメーションやマンガ、文字・記号などの視覚言語から影響を受けた独自のドローイングを起点に、絵画、映像、彫刻、インスタレーションなど、多様なメディアを横断して制作しています。展覧会タイトルの「Debris」は、「破片」や「残骸」を意味します。本展では、風景を構成する断片、制作過程で撮りためたスナップ、作品集に収められた記録といった要素を手がかりに、BIENの現在の表現を紹介します。会場では、BIENがロンドン滞在中に撮影した公園の夕景をもとに制作した新作を展示します。一枚の風景写真を複数の変形パネルへと分解し、空間全体に展開することで、鑑賞者は会場を歩きながら断片をつなぎ合わせ、ひとつの風景を再構成していきます。あわせて、制作のきっかけとなる日々のスナップ動画をもとに構成した映像作品も発表します。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-22",
+      "end_date": "2026-09-09",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "976ee20a7adf",
+        "name": "京都 蔦屋書店",
+        "lang": null,
+        "tr": {},
+        "region": "京都府",
+        "district": null,
+        "lat": 35.0031186485682,
+        "lng": 135.76828392193931
+      },
+      "artists": [
+        {
+          "id": "6f23a8b5262d",
+          "name": "BIEN",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Bien-Debris-4/kyoto-tsutaya-books/2026-08-22",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "8a2f3814ba81",
+      "source": "tokyo_art_beat",
+      "title": "「青森県立美術館開館20周年 / 東日本大震災15年『志賀理江子 なぬもかぬも』展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/ee515cfc/images.jpeg",
+      "description": "身体の感覚に根ざした光と色、演劇性のある写真や映像作品で国際的に知られる宮城在住のアーティスト・志賀理江子の個展「なぬもかぬも」を開催します。\n\n展示タイトルの「なぬもかぬも」とは、三陸沿岸部に伝わる方言です。「お手上げだ！」「深い海の底のため息」「一切合切」等々…使う人や環境により意味がひらく、不思議な奥行きのあるこの言葉を冠する本展は、震災前から志賀がその身でたどってきた宮城、福島、山形、秋田、岩手、青森の土地とその歴史、耳を澄ませてきた様々な声、出遭ってきた風景への深い洞察から生まれた写真や映像、テキスト、インスタレーション作品を新旧織りまぜて紹介する、作家にとって過去最大規模のものです。\n\n未曽有の災害の記憶さえ薄れ、分断の進む今日の社会。中央由来の言説やエネルギー戦略、地政学的な条件に規定されてきた「東北」。表象不可能と思われるほどの複雑さを抱え込む現実世界の只中で、様々な潮流がぶつかりあい時に逆巻く青森の地に志賀が生み出した本展。ここが、私たち一人ひとりが己の身体に立ち返り、命のありようを逞しく想像しなおすためのイメージの力場となることを願ってやみません。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-31",
+      "end_date": "2027-03-14",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "bfd1a434f34d",
+        "name": "青森県立美術館",
+        "lang": null,
+        "tr": {},
+        "region": "青森県",
+        "district": null,
+        "lat": 40.80736190523034,
+        "lng": 140.70103290629675
+      },
+      "artists": [
+        {
+          "id": "8fe009e49f3d",
+          "name": "志賀理江子",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/SHIGA-Lieko-Nanumokanumo-Anyting-and-Everything/2-EDE350-B/2026-10-31",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "0d38dd5b1b64",
+      "source": "tokyo_art_beat",
+      "title": "ジュリアン・ランゲンドルフ 「PETRIFIED PRAYER」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/1d352114/COLLAGE1.jpg",
+      "description": "flotsam books では、出版レーベル motoyoshino による新刊ZINE、Julien Langendorff（ジュリアン・ランゲンドルフ）『PETRIFIED PRAYER』のローンチイベントを、2026年8月15日（土）から8月23日（日）まで開催します。パリを拠点に活動するアーティスト、Julien Langendorffによる『PETRIFIED PRAYER』は、ダークロマンティシズムと神秘性が交差する彼のコラージュ作品をまとめた新作ZINEです。Julien Langendorffはこれまで、パリのSaint Laurent Rive DroiteやGalerie du jour agnès b.などで作品を発表してきました。本作では、彼の作品世界をZINEという形式に落とし込み、印刷物ならではの編集と構成によって紹介します。また、今回のローンチにあわせて、motoyoshino Art T Shirts project vol.2として制作されたTシャツも販売します。JulienLangendorffのシグネチャーともいえるコラージュ作品を大胆にプリントした2種類を展開。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-15",
+      "end_date": "2026-08-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "33e2eeae1f83",
+        "name": "flotsam books（フロットサムブックス）",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "flotsam books"
+          },
+          "en": {
+            "name": "flotsam books"
+          }
+        },
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.67348481381681,
+        "lng": 139.6582759046647
+      },
+      "artists": [
+        {
+          "id": "4f90272ee613",
+          "name": "ジュリアン・ランゲンドルフ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Julien-Langendorff-Petrified-Prayer/02-AB431-E/2026-08-15",
       "featured": false,
       "popularity_score": null
     }
@@ -74838,6 +74998,48 @@
       "country": "JP",
       "lat": 35.70376,
       "lng": 139.5665,
+      "website": null
+    },
+    {
+      "id": "61d0f4dfc3aa",
+      "name": "외부",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": null,
+      "district": null,
+      "address": null,
+      "country": "KR",
+      "lat": 34.8636993074214,
+      "lng": 128.701096099195,
+      "website": null
+    },
+    {
+      "id": "976ee20a7adf",
+      "name": "京都 蔦屋書店",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "京都府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.0031186485682,
+      "lng": 135.76828392193931,
+      "website": null
+    },
+    {
+      "id": "bfd1a434f34d",
+      "name": "青森県立美術館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "青森県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 40.80736190523034,
+      "lng": 140.70103290629675,
       "website": null
     }
   ],
@@ -91608,6 +91810,24 @@
     {
       "id": "66a2c27932e2",
       "name": "野田一輝",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6f23a8b5262d",
+      "name": "BIEN",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8fe009e49f3d",
+      "name": "志賀理江子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4f90272ee613",
+      "name": "ジュリアン・ランゲンドルフ",
       "lang": null,
       "tr": {}
     }
