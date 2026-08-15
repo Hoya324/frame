@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T16:13:44.749660+00:00",
+  "generated_at": "2026-08-15T18:56:31.270579+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -55286,7 +55286,7 @@
       "price_max": null,
       "start_date": "2026-08-15",
       "end_date": "2026-08-19",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "7ad5994fa2dc",
@@ -65458,7 +65458,7 @@
       "price_max": null,
       "start_date": "2026-08-15",
       "end_date": "2026-08-15",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "c97688316c27",
@@ -65582,7 +65582,7 @@
       "price_max": null,
       "start_date": "2026-08-15",
       "end_date": "2026-08-30",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "182dc66f91b5",
@@ -65675,7 +65675,7 @@
       "price_max": null,
       "start_date": "2026-08-15",
       "end_date": "2026-09-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "1d4115c60595",
@@ -66223,7 +66223,7 @@
       "price_max": null,
       "start_date": "2026-08-15",
       "end_date": "2026-08-23",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "6b99ee7d383f",
@@ -66715,7 +66715,7 @@
       "price_max": null,
       "start_date": "2026-08-15",
       "end_date": "2026-09-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "520572d2b656",
@@ -67652,7 +67652,7 @@
       "price_max": null,
       "start_date": "2026-08-15",
       "end_date": "2026-08-23",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "33e2eeae1f83",
@@ -67680,6 +67680,112 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Julien-Langendorff-Petrified-Prayer/02-AB431-E/2026-08-15",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "0a4c301d9c7f",
+      "source": "tokyo_art_beat",
+      "title": "Chiaki Suzuki 「Sabai Sabai Everything will be alright」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/34e592a8/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-08-13%2014.21.34.png",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-02",
+      "end_date": "2026-09-14",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "1dc76ed0df03",
+        "name": "UNITEDcafe宮ヶ瀬（ユナイテッドカフェ宮ヶ瀬）",
+        "lang": null,
+        "tr": {},
+        "region": "神奈川県",
+        "district": null,
+        "lat": 35.5347715,
+        "lng": 139.2705804
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Chiaki-Suzuki-Sabai-Sabai-Everything-will-be-alright/Unitedcafe-Miyagase/2026-09-02",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "8eaf42b68bd4",
+      "source": "tokyo_art_beat",
+      "title": "Takashi Makabe 「Antiseptic Beauty」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/d8e015b5/main%20-%20%E9%BB%92%E6%B0%B4%E8%88%8Ekokusuisha.jpg",
+      "description": "このたび黒水舎では、グラフィックデザイナー・Takashi Makabeによる写真集『Antiseptic Beauty』を刊行いたします。本書に収録されるのは、デザイン作品の記録や制作資料ではなく、Takashi Makabeがヨーロッパを中心に、彼が訪れた都市で撮りためてきた写真です。完成されたデザインからではなく、その以前にある直感的な視覚の反応から、彼の美意識の一端をたどる試みとして一冊に編集しました。また、刊行にあわせて下記のとおり写真展を開催いたします。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-29",
+      "end_date": "2026-09-06",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "b0b4674f8690",
+        "name": "POL",
+        "lang": null,
+        "tr": {},
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.67562248256541,
+        "lng": 135.5135364803566
+      },
+      "artists": [
+        {
+          "id": "ce156438b0ce",
+          "name": "Takashi Makabe",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Takashi-Makabe-Antiseptic-Beauty/Pol/2026-08-29",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "522dcf4c0c10",
+      "source": "tokyo_art_beat",
+      "title": "「国際美術展 TOKYO ATLAS」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": null,
+      "description": "芸術文化は都市の魅力を形成する基盤であり、そのさらなる発展を可能にする原動力でもあります。とりわけ東京という多様な人々が交錯する大都市において開催するこの美術展は、作品展示の場にとどまらず、アートを触媒として、アーティスト、観客、企業、教育機関などの領域横断的な知の交流を促進し、多様な価値観や社会課題への気づき、そして未来に向けた好奇心が生まれるプラットフォームとなります。\n\nこの度開催する国際美術展「TOKYO ATLAS」は、東京の中にあって地政学的にも世界への玄関口である臨海エリアにおいて都市と水辺の環境がダイナミックに響き合うこの空間に、国内外からアーティストが集い、アートを通じて東京の新たな風景を描き出します。\n\n国際美術展「TOKYO ATLAS」は、世界を支える神話的存在であるアトラスに由来し、同時に地図帳を意味します。本展では、世界の第一線で活躍するアーティストによる展示に加え、東京都が支援してきた若手アーティストによる特別展も展開。\n\n多様な表現が交差することによって、多くの人に作品を鑑賞するだけでなく、アートが描く地図をたどりながら東京という都市そのものを感じて、あらためて読み解いていく場にしたいという意味を込めています。\n\n会場\n[台場エリア] 台場公園・お台場海浜公園\n[青海エリア] テレコムセンタービル 、青海南ふ頭公園、地下駐車場（青海南ふ頭公園内）\n[天王洲エリア] アイルしながわ、WHAT MUSEUM",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-10",
+      "end_date": "2026-12-20",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "339f446a253e",
+        "name": "アイルしながわ",
+        "lang": null,
+        "tr": {},
+        "region": "天王洲、品川",
+        "district": null,
+        "lat": 35.622552747888946,
+        "lng": 139.75132955479285
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Tokyo-Atlas-International-Art-Exhibition/isle-shinagawa/2026-10-10",
       "featured": false,
       "popularity_score": null
     }
@@ -75040,6 +75146,48 @@
       "country": "JP",
       "lat": 40.80736190523034,
       "lng": 140.70103290629675,
+      "website": null
+    },
+    {
+      "id": "1dc76ed0df03",
+      "name": "UNITEDcafe宮ヶ瀬（ユナイテッドカフェ宮ヶ瀬）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "cafe",
+      "region": "神奈川県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.5347715,
+      "lng": 139.2705804,
+      "website": null
+    },
+    {
+      "id": "b0b4674f8690",
+      "name": "POL",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "大阪府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.67562248256541,
+      "lng": 135.5135364803566,
+      "website": null
+    },
+    {
+      "id": "339f446a253e",
+      "name": "アイルしながわ",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "天王洲、品川",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.622552747888946,
+      "lng": 139.75132955479285,
       "website": null
     }
   ],
@@ -91828,6 +91976,12 @@
     {
       "id": "4f90272ee613",
       "name": "ジュリアン・ランゲンドルフ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ce156438b0ce",
+      "name": "Takashi Makabe",
       "lang": null,
       "tr": {}
     }
