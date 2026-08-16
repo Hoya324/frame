@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T16:16:53.635140+00:00",
+  "generated_at": "2026-08-16T19:00:00.673072+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -50778,22 +50778,11 @@
       "popularity_score": null
     },
     {
-      "id": "99bd613b54d3",
+      "id": "58fd3751a58a",
       "source": "totem_pole",
-      "title": "Youth in East Asia, Taipei and New Taipei",
-      "lang": "en",
-      "tr": {
-        "ko": {
-          "title": "동아시아의 청년, 타이베이와 신베이",
-          "description": "미즈시마 타카히로 / Takahiro Mizushima\n\n솽베이 청년/Youth in East Asia, Taipei and New Taipei\n\n2026.8.18 (화) – 8.23 (일)\n\n개관 12:00 – 19:00\n\n대만의 수도인 타이베이시와 이를 둘러싸고 있는 신베이시, 이 두 도시를 합쳐 부르는 총칭 \"솽베이\". 이 대도시권 내에서 촬영된, 현재를 살아가는 젊은이들의 기록.\n\n미즈시마 타카히로\n\n프로필 / 작가 웹사이트"
-        },
-        "ja": {
-          "title": "東アジアの若者、台北と新北"
-        },
-        "en": {
-          "description": "Takahiro Mizushima / Takahiro Mizushima\n\nShuangbei Youth/Youth in East Asia, Taipei and New Taipei\n\n2026.8.18 (Tue) – 8.23 (Sun)\n\nOpen 12:00 – 19:00\n\nTaipei City, the capital of Taiwan, and New Taipei City, which surrounds it, are collectively referred to as \"Shuangbei\". This is a record of young people living today, photographed within that metropolitan area.\n\nTakahiro Mizushima\n\nProfile / Artist Site"
-        }
-      },
+      "title": "雙北青年/Youth in East Asia, Taipei and New Taipei",
+      "lang": null,
+      "tr": {},
       "poster_image_url": "https://tppg.jp/wp/wp-content/uploads/2026/07/img001.jpg",
       "description": "水島 貴大 / Takahiro Mizushima\n\n雙北青年/Youth in East Asia, Taipei and New Taipei\n\n2026.8.18 (tue) – 8.23 (sun)\n\nOpen 12:00 – 19:00\n\n台湾の首都である台北市と、それを取り囲むように位置する新北市、その二つの市を合わせた総称”雙北””(双北)。その大都市圏内で撮影された、今を生きる若者たちの記録。\n\n水島貴大\n\nProfile / Artist Site",
       "medium": "photo",
@@ -55950,7 +55939,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-08-15",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "b3002506ba4c",
@@ -57666,7 +57655,7 @@
       "price_max": null,
       "start_date": "2026-08-01",
       "end_date": "2026-08-15",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "e70f23fda50d",
@@ -64172,13 +64161,13 @@
       "popularity_score": null
     },
     {
-      "id": "a8e985326cbb",
-      "source": "tokyo_art_beat",
-      "title": "藤本篤史 「あの山に登ったって」",
+      "id": "9dafd8548ba1",
+      "source": "totem_pole",
+      "title": "Even if I were to climb that mountain.",
       "lang": null,
       "tr": {},
-      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/1B0LHClF0fM2FDOZIVKNLv/677c0a130e46ce8a6ccd1fb8730d0c3d/78b4fd66-b1c5-4341-b004-69797922b837.jpg",
-      "description": null,
+      "poster_image_url": "https://tppg.jp/wp/wp-content/uploads/2026/07/%E3%81%82%E3%81%AE%E5%B1%B1%E3%81%AB%E7%99%BB%E3%81%A3%E3%81%9F%E3%81%A3%E3%81%A6-1.jpg",
+      "description": "藤本篤史 / Atsushi Fujimoto\n\nあの山に登ったって / Even if I were to climb that mountain.\n\n2026.9.1 (Tue) – 9.13 (Sun)\n\nOpen 12:00 – 19:00 Closed Mondays\n\n2025年7月5日、日本で大災難が起きるという噂がインターネットを騒がせた日から一年間、毎日写真を撮った。可視化された、終わるかもしれなかった日常は、特に抑揚のない平凡なものだった。しかし、フィルムに印字された日付が積み重なっていくことに、静かな心地よさを感じた。\n\nもし、それらの写真群が未来の自分、そして不可逆的ではあるが過去の自分に寄り添う影となり得るのなら、今日という一日を終えた私が、明日も目を覚まし、写真を撮る理由としては十分である。たとえ、その蓄積に何ひとつ意味がなかったとしても。\n\nBeginning on July 5, 2025—the day the internet was abuzz with rumors that a great disaster would strike Japan—I took a photograph every day for a year.Made visible, the everyday life that might have come to an end proved ordinary and largely uneventful. Yet I found a quiet sense of comfort in watching the dates imprinted on the film accumulate.\n\nIf these photographs can become a kind of shadow that stays close to my future self—and, despite the irreversibility of time, to my past self—then that is reason enough for the person I am at the end of today to wake again tomorrow and take another photograph. Even if there were no meaning at all in that accumulation.\n\n藤本篤史\n\nProfile / Artist Site",
       "medium": "mixed",
       "exhibition_type": "solo",
       "genre_tags": [],
@@ -64208,13 +64197,19 @@
       },
       "artists": [
         {
+          "id": "5cf627bbc388",
+          "name": "藤本篤史 / Atsushi Fujimoto",
+          "lang": null,
+          "tr": {}
+        },
+        {
           "id": "38ded3ead1f0",
           "name": "藤本篤史",
           "lang": null,
           "tr": {}
         }
       ],
-      "source_url": "https://www.tokyoartbeat.com/events/-/Atsushi-Fujimoto-Even-if-I-were-to-climb-that-mountain/2-D82-C04-B/2026-09-01",
+      "source_url": "https://tppg.jp/even-if-i-were-to-climb-that-mountain/",
       "featured": false,
       "popularity_score": null
     },
@@ -65458,7 +65453,7 @@
       "price_max": null,
       "start_date": "2026-08-15",
       "end_date": "2026-08-15",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "c97688316c27",
@@ -91982,6 +91977,12 @@
     {
       "id": "ce156438b0ce",
       "name": "Takashi Makabe",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5cf627bbc388",
+      "name": "藤本篤史 / Atsushi Fujimoto",
       "lang": null,
       "tr": {}
     }
