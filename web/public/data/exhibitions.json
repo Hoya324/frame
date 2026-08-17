@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T16:20:25.680507+00:00",
+  "generated_at": "2026-08-17T19:07:02.299004+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -28616,7 +28616,7 @@
       "price_max": null,
       "start_date": "2026-05-19",
       "end_date": "2026-08-16",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "5d93e4e1933f",
@@ -32449,7 +32449,7 @@
       "price_max": null,
       "start_date": "2026-06-25",
       "end_date": "2026-08-16",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "632017aa776b",
@@ -50108,7 +50108,7 @@
       "price_max": null,
       "start_date": "2026-08-03",
       "end_date": "2026-08-16",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "5163e693d1ea",
@@ -53949,7 +53949,7 @@
       "price_max": null,
       "start_date": "2026-08-03",
       "end_date": "2026-08-16",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "afe71f7d0299",
@@ -59751,7 +59751,7 @@
       "price_max": null,
       "start_date": "2026-08-04",
       "end_date": "2026-08-16",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "7ba19d31b1ae",
@@ -60067,7 +60067,7 @@
       "price_max": null,
       "start_date": "2026-08-03",
       "end_date": "2026-08-16",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ec7e14bc9bb2",
@@ -61483,7 +61483,7 @@
       "price_max": null,
       "start_date": "2026-08-01",
       "end_date": "2026-08-16",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "c2675641bc4e",
@@ -61539,7 +61539,7 @@
       "price_max": null,
       "start_date": "2026-07-25",
       "end_date": "2026-08-16",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "8102261bc897",
@@ -61835,7 +61835,7 @@
       "price_max": null,
       "start_date": "2026-08-17",
       "end_date": "2026-08-23",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -62551,7 +62551,33 @@
         "lat": 35.6620146,
         "lng": 139.7312925
       },
-      "artists": [],
+      "artists": [
+        {
+          "id": "a9107fe3289a",
+          "name": "梁丞佑",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "96a215018e09",
+          "name": "星玄人",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "성현인"
+            },
+            "en": {
+              "name": "Hoshi Haruto"
+            }
+          }
+        },
+        {
+          "id": "d5a217aa2ecf",
+          "name": "ブライアン・セルジオ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
       "source_url": "https://zen-foto.jp/jp/exhibition/seung-woo-yang-haruto-hoshi-brian-sergio-%E2%80%9Ctwilight-and-evening-bell%E2%80%9D",
       "featured": false,
       "popularity_score": null
@@ -63124,7 +63150,7 @@
       "price_max": null,
       "start_date": "2026-08-12",
       "end_date": "2026-08-16",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "d9875cbc4008",
@@ -63787,7 +63813,7 @@
       "price_max": null,
       "start_date": "2026-08-17",
       "end_date": "2026-09-29",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "0c280c625181",
@@ -64410,7 +64436,7 @@
       "price_max": null,
       "start_date": "2026-07-31",
       "end_date": "2026-08-16",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ae609ea7aae5",
@@ -64557,7 +64583,7 @@
       "price_max": null,
       "start_date": "2026-08-05",
       "end_date": "2026-08-16",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "7a6765269871",
@@ -65371,7 +65397,7 @@
       "price_max": null,
       "start_date": "2026-08-17",
       "end_date": "2026-08-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "a6d35afe548f",
@@ -66077,7 +66103,7 @@
       "price_max": null,
       "start_date": "2026-08-17",
       "end_date": "2026-09-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8102261bc897",
@@ -66124,7 +66150,7 @@
       "price_max": null,
       "start_date": "2026-08-10",
       "end_date": "2026-08-16",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -66750,7 +66776,7 @@
       "price_max": null,
       "start_date": "2026-08-08",
       "end_date": "2026-08-16",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "838c559a265c",
@@ -67781,6 +67807,548 @@
       },
       "artists": [],
       "source_url": "https://www.tokyoartbeat.com/events/-/Tokyo-Atlas-International-Art-Exhibition/isle-shinagawa/2026-10-10",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "16c072fcbadf",
+      "source": "pgi",
+      "title": "竹之内祐幸 SLEEPWALK",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://www.pgi.ac/pgi/wp-content/uploads/2026/08/Takenouchi_231113D_0893_2600-scaled.jpg",
+      "description": "ステートメント\n\nSLEEPWALK\n\n写真は撮影した時点で完成するものではなく、時間の経過とともに、選ばれるイメージや組み合わせは変化していく。\n\nこのシリーズは、日々撮り続けている写真を現在地から選び直すことで構成されている。\n\n異なる季節や場所で撮影した写真であっても、似たような被写体や構図が繰り返し現れることがある。\n\n一方で、以前は選ばなかった写真を自然と選ぶこともあり、そこに自分自身の変化が現れる。\n\n写真を選び直す行為は、過去の繰り返しではなく、現在地を通して記憶の外側にあるイメージと新たな関係を結ぶ試みでもある。\n\n撮影の多くは、明確な目的地を設定せず、その日の気分や天気によって場所を選び、歩きながら行う。\n\nぼんやりと撮りたいイメージが浮かぶ日もあれば、写真を撮るというより、ただ考え事をしたくて外へ出る日もある。\n\nそこで出会う風景は偶然でありながら、その偶然へと向かう道程は自分で選び取っている。\n\nその場所で出会えた風景を写真として残せた時、自分でも説明できない確かさを感じる。\n\nその繰り返しが、自分の向かう方位を示している。\n\n竹之内祐幸\n\n竹之内 祐幸（たけのうち ひろゆき）\n\n1982年、東京生まれ。2008年に日本大学芸術学部写真学科を卒業し、同年第31回キヤノン写真新世紀佳作受賞。2009年、塩竈フォトフェスティバル特別賞受賞。2024年、第1回「夜明け前 | New Photography Award」ファイナリスト。\n\n主な個展に『SEASONS』Foil Gallery（東京、2010年）、『鴉』PGI（東京、2015年）、『Things will get better over time』Gallery Trax（山梨）／Studio Staff Only（東京、2017年）、『第四の壁』PGI（東京、2017年）、『距離と深さ』Studio Staff Only／PGI（東京、2020年）、『Warp and Woof』PGI（東京、2023年）\n\n写真集に、『Things will get better over time』（FUJITA 2017年）、『The Fourth Wall / 第四の壁』（T&M Projects 2017年）、『距離と深さ』（FUJITA 2020年）、『Warp and Woof』（FUJITA 2023年）。2026年、『SLEEPWALK』（FUJITA）刊行予定。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-25",
+      "end_date": "2026-11-13",
+      "status": "upcoming",
+      "open_hours": "月－土 11:00－18:00 / 日・祝休館",
+      "venue": {
+        "id": "b9a5f994c6d3",
+        "name": "PGI",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "PGI"
+          },
+          "ja": {
+            "name": "PGI"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.657429,
+        "lng": 139.7428722
+      },
+      "artists": [],
+      "source_url": "https://www.pgi.ac/exhibitions/11464",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "8426edd69de0",
+      "source": "tokyo_art_beat",
+      "title": "「ギャラリーロイユ15周年展『眼の展覧会 』」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/e7c1694c/15%E5%91%A8%E5%B9%B4%E5%B1%95%E3%83%95%E3%83%A9%E3%82%A4%E3%83%A4_%E8%A1%A8%E7%B4%99_web%20-%20S%20Otsuki.jpg",
+      "description": "本年ロイユは開廊15周年を迎えました。ギャラリーの名前の由来（L'œil＝眼）に立ち返り、この節目の年に「眼」をテーマとした記念展を開催いたします。「眼」そのものをモチーフとした作品をはじめ、「視覚」や「見る」という行為について、作家がそれぞれの視点から制作した作品を展示いたします。鏡像、虚像、幻覚、錯覚、霞景、暗闇、そして不可視のものまで──。多彩な表現を通して「見る」ことの奥深さを感じていただける内容となっております。本展は第一幕・第二幕の二部構成で開催いたします。\n\n[関連イベント]\n「東雅夫講演 幻想文学と美術」\n日時: 2026年9月5日15:00〜\n登壇者: 東雅夫（文芸評論家、編集者）\n会場: KOBE RENT SPACE\n料金: 2000円（定員45名、先着順）（当日券2500円）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-05",
+      "end_date": "2026-10-25",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "0e17a4ef2695",
+        "name": "GALERIE L'OEIL（ギャラリーロイユ）",
+        "lang": null,
+        "tr": {},
+        "region": "兵庫県",
+        "district": null,
+        "lat": 34.69137,
+        "lng": 135.1888
+      },
+      "artists": [
+        {
+          "id": "058a96317ee6",
+          "name": "秋吉巒",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d7b80933d9ce",
+          "name": "アルフォンス・イノウエ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "bc07dd36d67f",
+          "name": "伊豫田晃一",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "7a4e4298d5e2",
+          "name": "牛尾篤",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "61832dc3ee86",
+          "name": "内林武史",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b340442e4625",
+          "name": "大竹茂夫",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5600a0a2bc5a",
+          "name": "大月雄二郎",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "2105ab23d7b5",
+          "name": "柄澤齊",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c662af87d669",
+          "name": "北見隆",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8cb7553784ae",
+          "name": "小泉孝司",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "204767b64dc1",
+          "name": "重野克明",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "시게노 카츠아키"
+            },
+            "en": {
+              "name": "Katsuaki Shigeno"
+            }
+          }
+        },
+        {
+          "id": "9346a887075a",
+          "name": "菅野まり子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4a50f8cfbde6",
+          "name": "武田あずみ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4f555845f25a",
+          "name": "建石修志",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "9ceadc7e552f",
+          "name": "戸田勝久",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "3bf65e4b08f6",
+          "name": "深瀬優子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "3675e46d182d",
+          "name": "藤原舞子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1593babe42bf",
+          "name": "林哲夫",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "800385d8bc2a",
+          "name": "林由紀子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "34672b8a4dda",
+          "name": "村松桂",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e9d3ed8ea147",
+          "name": "森天飛",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "2023f87de627",
+          "name": "山城有未",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "00039675fe90",
+          "name": "山下陽子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4917e48460b3",
+          "name": "山本じん",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "9f584efdcfc7",
+          "name": "山本六三",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4189fa9d8487",
+          "name": "M!DOR!",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Galerie-Lil-XV-The-Eye/galerie-loeil/2026-09-05",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "9d6dfb9aeee3",
+      "source": "tokyo_art_beat",
+      "title": "「逗子アートフェスティバル2026」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/ac9fdb9f/184848-4-855a678f4a3cb4d7d5dc4acf07e07812-1080x1440.webp",
+      "description": "「逗子アートフェスティバル 2026（ZAF2026）」のテーマは「はじまりの未来、はじまりの場。」海と山に囲まれ、多様な文化や人々が交差する逗子を舞台に、市民有志によって始まった逗子アートフェスティバルは、2026年に14回目を迎えます。\n\n3年に一度の特別開催年となる ZAF2026では、歴史的建造物・旧本多邸をメイン会場に、逗子市街エリアや沼間エリアの路地など街全体を舞台とした多彩なプログラムを展開。国内外のアーティストによる展覧会をはじめ、池子の森の音楽祭、市民参加型プロジェクトなどを実施します。\n\n逗子在住の写真家・森山大道氏、鎌倉とロサンゼルスを拠点に活動するアーティスト・フランシス真悟氏らが参加。また、建築家・思想家 R. バックミンスター・フラーによる大型石版画絵本『テトラスクロール』の特別展示や、「大気の入り江」によるインスタレーション・パフォーマンス作品を発表。逗子の風景や歴史、自然と呼応する多様な表現を展開します。\n\nまた、ZAF2026は、芸術文化を通じて多様な人々が出会い、学び合い、共に育つ「共育」の場をまち全体にひらくことを目指しています。自然・歴史・生活文化が重なり合う逗子の地域性を生かし、参加型・体験型の芸術活動を通じて、地域コミュニティの形成や担い手育成、地域文化の発信につなげていきます。\n\n会場：旧本多邸 / cas!ca / CINEMA AMIGO / JR逗子駅前工事壁 / 逗子市立図書館 / 逗子文化プラザホール / 逗子文化プラザ市民交流センター / 蘆花記念公園 / 池子の森自然公園 ほか",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-25",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "f9437c057f04",
+        "name": "旧本多邸",
+        "lang": null,
+        "tr": {},
+        "region": "神奈川県",
+        "district": null,
+        "lat": 35.2990712638558,
+        "lng": 139.58053610919265
+      },
+      "artists": [
+        {
+          "id": "a84a56f0f320",
+          "name": "森山大道",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "모리야마 다이도"
+            },
+            "en": {
+              "name": "Daido Moriyama"
+            }
+          }
+        },
+        {
+          "id": "9603d7fb7e17",
+          "name": "ブルース・オズボーン",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5078d77cabcd",
+          "name": "山田美優",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "f20dc3109736",
+          "name": "仲本拡史",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "f454aa6ea069",
+          "name": "尾潟糧天",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "6412370e046b",
+          "name": "キュンチョメ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4d3214c69935",
+          "name": "大気の入り江",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "426a8ac32190",
+          "name": "高屋永遠",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "7f45c6ce80fe",
+          "name": "Chim↑Pom from Smappa!Group",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "f20dc3109736",
+          "name": "仲本拡史",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "da8a6bd1fba9",
+          "name": "潘逸舟",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "3fe84950ff08",
+          "name": "フランシス真悟",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "86475c35468a",
+          "name": "生意気 マイケル・フランク",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "3f0d5aad1989",
+          "name": "山田悠太朗",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Zushi-Art-Festival-2026/Zushi-Honda-House/2026-10-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "907be8cd3c5e",
+      "source": "tokyo_art_beat",
+      "title": "「没後30年 星野道夫 悠久の時を旅する」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/255a0c7c/eyecatch_Hoshino2.jpg",
+      "description": "少年の頃から北の自然に憧れ、極北の大地アラスカに生きた星野道夫。取材中に事故で亡くなり、30年を経た現在においても、心打つ大自然や動物の写真と美しい文章で、多くのファンを魅了しています。北極圏の大自然、そこに息づく野生動物や人々、そして語り継がれた神話……星野は多くの「出会い」を通じて思索を深め、写真家として成長していきました。本展では、20歳の時に初めて足を踏み入れたアラスカの村の記録から、亡くなる直前まで撮影していたロシアのカムチャツカ半島での写真までを展観します。また、20歳の時に初めてシシュマレフ村の村長に宛てて書いた手紙をはじめ、貴重な資料展示を交え、旅を終えることなく急逝した星野道夫の足跡を辿ります。没後30年にあたる2026年、未完の作品群から、「自然と人の関わり」を追い続けた星野の新たな旅に思いを馳せていただければ幸いです。\n\n[関連イベント]\n1. 星野直子 スライド＆トーク「悠久の時を旅する 星野道夫が見続けた風景をたどって」\n日時: 2026年9月12日15:00〜16:00\n登壇者: 星野直子（星野道夫事務所代表）\n会場: たいこまるプラザ 伊藤記念ホール（美術館隣）\n料金: 無料（当日の観覧券が必要）（定員150名、当日先着順）\n2. 大竹英洋 講演会「初めてのアラスカ 30年の時を超えて」\n日時: 2026年11月1日14:00〜15:00\n登壇者: 大竹英洋（写真家）\n会場: たいこまるプラザ 伊藤記念ホール（美術館隣）\n料金: 無料（当日の観覧券が必要）（定員150名、当日先着順）\n3. 自然体験ワークショップ「枯葉 de アート」\n日時: 2026年11月23日13:30〜15:00\n登壇者: 古川美由姫（環境学習指導者）\n会場: 成羽美術館 屋外エリア\n料金: 無料（当日の観覧券が必要）（定員15名、要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-12",
+      "end_date": "2027-01-31",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "65250f8dee23",
+        "name": "高梁市成羽美術館",
+        "lang": null,
+        "tr": {},
+        "region": "岡山県",
+        "district": null,
+        "lat": 34.780912330757985,
+        "lng": 133.53663218650817
+      },
+      "artists": [
+        {
+          "id": "b6353655e26d",
+          "name": "星野道夫",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "호시노 미치오"
+            },
+            "en": {
+              "name": "Michio Hoshino"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hoshino-Michio-Eternal-Journey-vvv/nariwa-museum/2026-09-12",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "383da2a65606",
+      "source": "tokyo_art_beat",
+      "title": "ナイジェル・ホサン 「マツリ-vol.1-」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/9ad89439/%E3%83%8A%E3%82%A4%E3%82%B7%E3%82%99%E3%82%A7%E3%83%AB%E3%81%95%E3%82%93%E5%80%8B%E5%B1%95%EF%BC%91%202.jpg",
+      "description": "ナイジェル・ホサンは、ニューヨーク生まれでニューヨークを拠点に活動するアーティストです。写真と映像制作を専門とするほか、ライティングスペシャリストとして、エディトリアル、広告、クリエイティブプロダクションにおいて、フォトグラファーやシネマトグラファーのためのライティングデザインも手がけています。\n\n今展では日本のマツリにフォーカスした写真作品を発表致します。日本の歴史には、古くから受け継がれてきたものを大切に保存し続ける精神が深く根付いています。その精神を体現し、現代の中に今なお生き続ける伝統のひとつが「祭り」です。祭りは、近代国家としての日本が形成される以前から続く信仰、収穫の営み、そして地域共同体の結びつきに由来する伝統を今日まで受け継いでいます。「マツリ Vol.1」は、2019年に開始した、日本各地の祭りを写真で記録し、視覚的アーカイブとして残すことを目的とした継続中のプロジェクトです。多くの祭りが歴史の中へと姿を消しつつある今もなお受け継がれている祭りを記録することの意義は、ますます大きくなっています。本展では、2027年に刊行予定のプロジェクト第1巻より作品を選出し、ご紹介します。この機会にナイジェル・ホサンの捉えたマツリをご高覧ください。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-19",
+      "end_date": "2026-08-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "6795669a3e6a",
+        "name": "Gallery Dalston",
+        "lang": null,
+        "tr": {},
+        "region": "清澄白河、両国",
+        "district": null,
+        "lat": 35.691151379816766,
+        "lng": 139.79814425644875
+      },
+      "artists": [
+        {
+          "id": "d9c1a2a7595c",
+          "name": "ナイジェル・ホサン",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Nigel-Hosang-Matsuri-vol1/gallery-dalston/2026-08-19",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "8847bcab8a49",
+      "source": "tokyo_art_beat",
+      "title": "Aya + Maurizio Lombardi 「＠WARP.」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/8a8cda18/260904warp.jpg",
+      "description": "アナログアーティスト・Ayaとデジタルアーティスト・Maurizio Lombardiの共同展。互いの作品に、正反対の技術を施しアレンジする不思議なコラボレーション。アナログとデジタル、日本とイタリア…遠く離れた地点を\"WARP\"して完成した作品たちを、ぜひご覧ください。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-04",
+      "end_date": "2026-09-06",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "ac97d40fd2bb",
+        "name": "ギャルリー・ジュイエ",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 쥘리에"
+          },
+          "en": {
+            "name": "Galerie Juillet"
+          }
+        },
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.710343675076,
+        "lng": 139.6470381407201
+      },
+      "artists": [
+        {
+          "id": "10e9f92de8e8",
+          "name": "Aya",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "35a74602ea40",
+          "name": "Maurizio Lombardi",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Aya-Maurizio-Lombardi-WARP-tttn/7-ACE63-E1/2026-09-04",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "fd8c1f46860f",
+      "source": "tokyo_art_beat",
+      "title": "澤田育久 「NORMAL LAND」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/5740e7c1/2026_0827_main.jpg",
+      "description": "この度The Whiteでは澤田育久の個展「NORMAL LAND」を開催します。澤田は2025年のステファン・ケッペルとの協働「WHITE COPIES」をきっかけに、東京の都県境地域の写真を撮り始めました。当初はケッペルの滞在に向けた資料として始めた撮影でしたが、二人の協働が一段落した後も澤田は独立したシリーズとして都県境地域の撮影を継続しました。今回の展示は、澤田が2025年3月から2026年7月までに撮影した1,200枚ほどの2Lサイズの写真を、5平米ほどの小さい展示室でインスタレーション作品として展開するものです。作者の視点をできる限り排し、都市の風景を等価に記録した写真群は特定の解釈を強制しません。観るものは自らの視点で写真群を読み解き、写真というメディアが本来持つ受容の開放性を再確認させるでしょう。会場となる#206は澤田が実験室として使用するささやかなスペースです。雑居ビルの一室で展開される澤田の新しい試みをぜひ会場でご高覧ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-26",
+      "end_date": "2026-10-03",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "06e97e01e910",
+        "name": "The White",
+        "lang": null,
+        "tr": {},
+        "region": "竹橋、水道橋、末広町",
+        "district": null,
+        "lat": 35.69870555270968,
+        "lng": 139.75905350315995
+      },
+      "artists": [
+        {
+          "id": "818ef8c36443",
+          "name": "澤田育久",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Ikuhisa-Sawada-Normal-Land-test/9555-AC2-D/2026-08-26",
       "featured": false,
       "popularity_score": null
     }
@@ -75183,6 +75751,76 @@
       "country": "JP",
       "lat": 35.622552747888946,
       "lng": 139.75132955479285,
+      "website": null
+    },
+    {
+      "id": "0e17a4ef2695",
+      "name": "GALERIE L'OEIL（ギャラリーロイユ）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "兵庫県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.69137,
+      "lng": 135.1888,
+      "website": null
+    },
+    {
+      "id": "f9437c057f04",
+      "name": "旧本多邸",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "神奈川県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.2990712638558,
+      "lng": 139.58053610919265,
+      "website": null
+    },
+    {
+      "id": "65250f8dee23",
+      "name": "高梁市成羽美術館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "岡山県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.780912330757985,
+      "lng": 133.53663218650817,
+      "website": null
+    },
+    {
+      "id": "6795669a3e6a",
+      "name": "Gallery Dalston",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "清澄白河、両国",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.691151379816766,
+      "lng": 139.79814425644875,
+      "website": null
+    },
+    {
+      "id": "06e97e01e910",
+      "name": "The White",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "竹橋、水道橋、末広町",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.69870555270968,
+      "lng": 139.75905350315995,
       "website": null
     }
   ],
@@ -91983,6 +92621,264 @@
     {
       "id": "5cf627bbc388",
       "name": "藤本篤史 / Atsushi Fujimoto",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "058a96317ee6",
+      "name": "秋吉巒",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d7b80933d9ce",
+      "name": "アルフォンス・イノウエ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "bc07dd36d67f",
+      "name": "伊豫田晃一",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7a4e4298d5e2",
+      "name": "牛尾篤",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "61832dc3ee86",
+      "name": "内林武史",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b340442e4625",
+      "name": "大竹茂夫",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5600a0a2bc5a",
+      "name": "大月雄二郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2105ab23d7b5",
+      "name": "柄澤齊",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c662af87d669",
+      "name": "北見隆",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8cb7553784ae",
+      "name": "小泉孝司",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9346a887075a",
+      "name": "菅野まり子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4a50f8cfbde6",
+      "name": "武田あずみ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4f555845f25a",
+      "name": "建石修志",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9ceadc7e552f",
+      "name": "戸田勝久",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3bf65e4b08f6",
+      "name": "深瀬優子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3675e46d182d",
+      "name": "藤原舞子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1593babe42bf",
+      "name": "林哲夫",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "800385d8bc2a",
+      "name": "林由紀子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "34672b8a4dda",
+      "name": "村松桂",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e9d3ed8ea147",
+      "name": "森天飛",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2023f87de627",
+      "name": "山城有未",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "00039675fe90",
+      "name": "山下陽子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4917e48460b3",
+      "name": "山本じん",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9f584efdcfc7",
+      "name": "山本六三",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4189fa9d8487",
+      "name": "M!DOR!",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a9107fe3289a",
+      "name": "梁丞佑",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d5a217aa2ecf",
+      "name": "ブライアン・セルジオ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9603d7fb7e17",
+      "name": "ブルース・オズボーン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5078d77cabcd",
+      "name": "山田美優",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f20dc3109736",
+      "name": "仲本拡史",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f454aa6ea069",
+      "name": "尾潟糧天",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6412370e046b",
+      "name": "キュンチョメ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4d3214c69935",
+      "name": "大気の入り江",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "426a8ac32190",
+      "name": "高屋永遠",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7f45c6ce80fe",
+      "name": "Chim↑Pom from Smappa!Group",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "da8a6bd1fba9",
+      "name": "潘逸舟",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3fe84950ff08",
+      "name": "フランシス真悟",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "86475c35468a",
+      "name": "生意気 マイケル・フランク",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3f0d5aad1989",
+      "name": "山田悠太朗",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d9c1a2a7595c",
+      "name": "ナイジェル・ホサン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "10e9f92de8e8",
+      "name": "Aya",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "35a74602ea40",
+      "name": "Maurizio Lombardi",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "818ef8c36443",
+      "name": "澤田育久",
       "lang": null,
       "tr": {}
     }
