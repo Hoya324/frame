@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T09:36:19.784884+00:00",
+  "generated_at": "2026-08-21T10:28:59.912780+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -62646,8 +62646,15 @@
         {
           "id": "ff06d9c7053f",
           "name": "宮ちゃん",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "미야짱"
+            },
+            "en": {
+              "name": "Miya-chan"
+            }
+          }
         },
         {
           "id": "7536e2d09145",
@@ -68026,8 +68033,15 @@
       "id": "944d5f75de7d",
       "source": "gallery_now",
       "title": "<Nothing is Forever 영원한 것은 없다> 이동기 개인전",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "<Nothing is Forever> Lee Dong-gi Solo Exhibition"
+        },
+        "ja": {
+          "title": "<Nothing is Forever> イ・ドンギ 個展"
+        }
+      },
       "poster_image_url": "https://blogthumb.pstatic.net/MjAyNjA4MDdfMTYx/MDAxNzg2MDczMzg1NjI4.fM5ZBinPLU7m4NEt_Nr5JV3d-fxAwdwERzMqt6JrbEQg.0xMLxLwfhDRMKxCHa7GzECC4EzvGVbLyj76P1Da9bRwg.JPEG/25-009-919_%B2%C9%B9%E7_Flower_Garden%2C_2025%2C_acrylic_on_canvas%2C_30%26times%3B35cm.jpg?type=s3",
       "description": null,
       "medium": "photo",
@@ -69188,8 +69202,17 @@
       "id": "44b8f31b7bbf",
       "source": "fujifilm_square",
       "title": "北島良夫写真展「黒き砂浜を出て…そして再び」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "기타지마 요시오 사진전 「검은 모래사장을 떠나…그리고 다시」",
+          "description": "저는 2018년 (8년 전)부터 화산섬인 아이슬란드의 검은 모래사장에 매료되어 풍경 사진 촬영을 시작했습니다. 해외나 일본에서, 본 그대로, 느낀 그대로의 마음을 담아내는—말하자면 '심상 풍경'을 사진에 담아왔는지도 모릅니다. 촬영지 중에는 사륜구동차가 아니면 갈 수 없는 곳이나, 뒤편이 절벽인 곳, 이안류가 강해 위험한 곳 등도 있어, 지금은 더 이상 갈 수 없을 것 같은 장소가 많이 있습니다. 2021년의 「미국의 대지와 별하늘의 듀엣」에 이어, 이곳에서의 두 번째 개인전입니다. 조금이라도 마음에 담아주신다면 더없는 기쁨이겠습니다."
+        },
+        "en": {
+          "title": "Yoshio Kitajima Photography Exhibition \"Leaving the Black Sand Beach... and Again\"",
+          "description": "Since 2018 (8 years ago), I have been captivated by the black sand beaches of Iceland, a volcanic island, and began photographing landscapes. Perhaps I have been capturing \"mindscapes\" in my photographs, reflecting what I saw and felt, both overseas and in Japan. Among the shooting locations, there were many places that could only be reached by a 4WD vehicle, places with cliffs behind them, and dangerous spots with strong rip currents, many of which I can no longer visit. This is my second solo exhibition at this venue, following \"Duet of American Land and Starry Sky\" in 2021. It would be my greatest pleasure if you could keep it in your heart, even a little."
+        }
+      },
       "poster_image_url": "https://fujifilmsquare.jp/assets/img/photo_event_260814_01_mv.jpg",
       "description": "私は2018年（8年前）から、火山島であるアイスランドの黒き砂浜に魅かれて風景写真の撮影を始めました。海外や日本で、見たまま、感じたままの心を写す―言わば「心象風景」を写真に収めてきたのかもしれません。 撮影地の中には四駆車でないと行けない場所や、背後が崖になっている場所、引き波が強くて危ない場所などもあり、今はもう行けそうにないポイントが数多くあります。 2021年の「アメリカの大地と星空のデュエット」に続く、当会場での2回目の個展になります。少しでも心に留めていただければこの上ない喜びです。",
       "medium": "photo",
@@ -69228,8 +69251,17 @@
       "id": "b27a52cf36c6",
       "source": "fujifilm_square",
       "title": "篠田岬輝写真展「with ペンギンたちの生きる島」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "시노다 미사키 사진전 「with 펭귄들이 사는 섬」",
+          "description": "본 사진전은 5년 이상 취재를 거듭해 온 포클랜드 제도에 사는 펭귄들의 자연 다큐멘터리입니다. 무대는 아남극에 위치한 섬들인 「포클랜드 제도」입니다. 아름다운 모래사장부터 복잡한 만, 험준한 절벽 등 다양한 모습을 가진 해안선이 펼쳐져 있으며, 기복이 심한 구릉지대에는 한랭지 특유의 초원과 습지가 넓게 분포합니다. 사진전에서는 그런 섬들 각지에서 환경에 적응하며 살아가는 킹, 젠투, 마젤란, 남방바위뛰기펭귄 4종의 펭귄이 등장합니다. 개성 넘치는 펭귄들의 삶을, 각자의 시간을 따라가듯이 소개합니다. 때로는 사랑스럽고, 때로는 굳건한 그들의 삶의 모습을 아름다운 작품들을 통해 즐겨주세요."
+        },
+        "en": {
+          "title": "Misaki Shinoda Photography Exhibition \"with The Island Where Penguins Live\"",
+          "description": "This photography exhibition is a nature documentary about the penguins living in the Falkland Islands, for which I have conducted research for over five years. The setting is the \"Falkland Islands,\" an archipelago located in the sub-Antarctic. Its coastline boasts diverse features, from beautiful sandy beaches to intricate inlets and rugged cliffs, while the undulating hilly regions are covered with grasslands and wetlands unique to cold climates. The exhibition features four species of penguins—King, Gentoo, Magellanic, and Southern Rockhopper—living in various parts of these islands, adapted to their environments. It introduces the unique lives of these penguins as if tracing their individual journeys. Please enjoy their lives, sometimes adorable, sometimes resilient, through this beautiful collection of works."
+        }
+      },
       "poster_image_url": "https://fujifilmsquare.jp/assets/img/photo_event_260814_02_mv.jpg",
       "description": "本写真展は5年以上にわたって取材を重ねてきた、フォークランド諸島に生きるペンギンたちのネイチャードキュメンタリーです。 舞台は、亜南極に位置する島々「フォークランド諸島」。美しい砂浜から入り組んだ入り江、険しい崖など、多様な表情を持つ海岸線が広がり、起伏に富んだ丘陵地帯には寒冷地ならではの草原や湿原が広がっています。 写真展ではそんな島々の各地で環境に適応して生きる、キング、ジェンツー、マゼラン、ミナミイワトビの4種のペンギンが登場。個性豊かなペンギンたちの営みを、それぞれの時間を追うようにして紹介します。 時に愛らしく、時にたくましい彼らの生き様を、美しい作品群にてお楽しみください。",
       "medium": "photo",
@@ -69268,8 +69300,17 @@
       "id": "435dc9c9d13d",
       "source": "fujifilm_square",
       "title": "「第18回 六本木フォトコンテスト写真展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "제18회 롯폰기 포토 콘테스트 사진전",
+          "description": "‘당신이 발견한 롯폰기의 진정한 모습을 자유롭게 담아주세요’를 주제로 18회째를 맞이한 롯폰기 포토 콘테스트. 본 전시에서는 매일 변화하는 롯폰기 거리에서의 새로운 발견과 독특한 시선으로 포착한 사진들을 전시합니다. 대형 시설이나 대규모 이벤트 풍경뿐만 아니라, 그곳에 있는 사람들의 삶과 표정을 담은 작품, 그리고 거리에서 평소 지나치기 쉬운 무심한 모습 등 멋진 작품들이 다수 모였습니다. 장소를 정해 신중하게 노린 것부터 우연히 마주친 순간을 포착한 것까지, 롯폰기를 세심하게 둘러보며 그 매력을 담아낸 작품들입니다. 다양한 응모작 중에서 사진작가 타츠키 요시히로 씨를 위원장으로 하는 심사위원회에 의해 선정된 우수작들을 전시합니다."
+        },
+        "en": {
+          "title": "The 18th Roppongi Photo Contest Exhibition",
+          "description": "The Roppongi Photo Contest, now in its 18th year, with the theme: \"Please freely capture the true face of Roppongi that you found.\" This exhibition will feature new discoveries in the ever-changing town of Roppongi and photographs captured from unique perspectives. Many wonderful works have been gathered, including not only landscapes of large facilities and major events, but also those capturing the lives and expressions of people there, and casual scenes in the town that might usually be overlooked. From carefully composed shots taken after deciding on a location, to those capturing a fleeting moment encountered, all are works that meticulously explored Roppongi and brought out its charm. Excellent works selected by a judging panel chaired by photographer Yoshihiro Tatsuki will be exhibited from a wide variety of submitted works."
+        }
+      },
       "poster_image_url": "https://fujifilmsquare.jp/assets/img/photo_event_260814_04_mv.jpg",
       "description": "“あなたが見つけた六本木の素顔を、自由に切り撮ってください” をテーマに、18回目を迎えた六本木フォトコンテスト。本展では、日々変化する六本木のまちでの新しい発見や、ユニークな視点でとらえた写真を展示いたします。 大型施設や大規模イベントの風景だけでなく、そこにある人々の営みや表情をとらえたものや、まち中の普段見過ごしてしまいそうな何気ない様子など、素敵な作品が多数集まりました。場所を決めてじっくりと狙ったものから、遭遇した一瞬をとらえたものまで、六本木を丹念に巡り、その魅力をすくい上げた作品ばかりです。 バラエティー豊かな応募作品の中から、写真家・立木義浩氏を委員長とする審査会によって選出された優秀作品を展示いたします。",
       "medium": "photo",
@@ -69308,8 +69349,17 @@
       "id": "35d48870d9db",
       "source": "tokyo_art_beat",
       "title": "「作品展トライアル番外編U35展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "작품전 트라이얼 번외편 U35전",
+          "description": "‘사진을 하지 않는 사람도 알 수 있는 좋은 장소’에 초점을 맞춰 작품전을 개최하자는 생각으로… 공공 시설에서 개최하여 이해하기 쉽고 누구나 접근하기 쉬운 전시를 만들고자 시작했습니다. 사진을 기본으로 하지만, 서예나 일러스트 등 폭넓은 예술 전시회가 되었습니다. 이번에는 첫 시도로 35세 이하 멤버 한정으로, 이틀간만 진행되는 기획입니다. 중학생부터 사회인까지, 각 세대의 감성과 개성을 느낄 수 있는 작품들이 모여 있습니다."
+        },
+        "en": {
+          "title": "Exhibition Trial: Special Edition U35 Exhibition",
+          "description": "The exhibition started with the desire to hold an exhibition in a \"good place that even people who don't do photography can understand,\" in a public facility, making it easy to understand and accessible to everyone. While photography is the basis, it has become a wide-ranging art exhibition including calligraphy and illustrations. This time, as a first attempt, it is a two-day limited event exclusively for members under 35 years old. Works are gathered from junior high school students to working adults, allowing one to feel the sensibilities and individuality of each generation."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/2Z3C7vqtTdzMc8juAylYXN/eddcb923dc4fa7a8103e23bbe33f3e18/87e033bb-ae1a-43d6-a1af-ca91e0a6659d.png",
       "description": "『写真をやってない人でもわかる良い場所』にこだわって作品展をやる…公共的な施設で開催し解りやすく誰もが入りやすい展示をという想いでスタートしました。写真を基本としますが、書やイラストなど幅広いアートな展示会になっています。今回は初の試みとして35歳以下のメンバー限定で、2日間限定の企画になります。下は中学生から上は社会人まで、その世代世代での感性・個性を感じられる作品が揃っています。",
       "medium": "photo",
@@ -69457,8 +69507,17 @@
       "id": "f32dfeb3becf",
       "source": "tokyo_art_beat",
       "title": "「幕末・明治の古写真展『盛岡の収集家・村田明コレクション Part Ⅱ』」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "막말・메이지 고사진전 『모리오카의 수집가 무라타 아키라 컬렉션 Part II』",
+          "description": "JCII 포토 살롱에서는 고사진 시리즈의 50번째 기획으로, 오는 2026년 8월 4일(화)부터 8월 30일(일)까지 '막말・메이지 고사진전 모리오카의 수집가 무라타 아키라 컬렉션 Part II' 전시를 개최합니다. ‘무라타 아키라 컬렉션’은 이와테현 모리오카시에서 사진관을 운영하며 고사진을 수집했던 무라타 아키라 씨(1938-2023)의 소장품입니다. 막말부터 메이지 시대의 습판 사진과 명함판 사진을 중심으로 사진첩, 유리 그림, 우키요에 등 다양한 분야를 아우릅니다. 또한 무라타 씨는 수집뿐만 아니라, 그 컬렉션의 역사적 배경과 사진이 전래된 이후 일본 사진사에 대해서도 활발히 연구했습니다. 조사 자료에는 많은 필기와 포스트잇이 있으며, 끼워져 있던 영수증과 편지에서는 직접 발로 뛰며 사진 자료를 찾아다닌 흔적과 다양한 사람들과의 교류를 엿볼 수 있습니다.\n\n이번에는 다양한 특색을 지닌 ‘무라타 아키라 컬렉션’의 폭넓은 장르에 초점을 맞춰, 일본 각지의 다리나 역 건물, 함선, 개선문 등 다양한 분야별로 선별하여 소개합니다. 인물 사진에서는 사무라이나 상인, 니가타 미인, 청나라 사람들, 아키타의 하이카라 현령 이시다 에이키치, 세이난 전쟁에서 전사한 조후의 영웅 후쿠하라 카즈카츠 등 지금까지 고사진에서는 잘 소개되지 않았던 저명인사들의 모습도 볼 수 있습니다. 또한 메이지 29년(1896년) 6월 15일에 발생한 메이지 산리쿠 지진으로 대규모 쓰나미에 휩쓸린 이와테현 히가시헤이군(현 미야코시) 해안 부근에 위치한 미야코마치와 쿠와가사키마치의 피해 상황을 기록한 사진도 전시합니다. 130년 전의 참상을 지금도 생생하게 전하는 중요한 사진들입니다. 습판 사진 컬렉터로도 알려진 무라타 아키라 씨의 컬렉션에서, 이번에는 습판 사진도 소개합니다. 용감한 사무라이, 우스꽝스러운 포즈를 취하는 사람, 친구들끼리 찍은 사진, 부부, 가족… 다양한 사람들이 사진관 카메라 앞에 앉아 있는 모습은 막말・메이지 시대를 살아낸 사람들의 생활을 가깝게 느끼게 해줍니다. 복사본이 아닌 실제 습판 사진을 볼 수 있는 귀중한 기회입니다."
+        },
+        "en": {
+          "title": "Bakumatsu and Meiji Old Photo Exhibition: 'Morioka Collector Akira Murata Collection Part II'",
+          "description": "The JCII Photo Salon will host the \"Bakumatsu and Meiji Old Photo Exhibition: Morioka Collector Akira Murata Collection Part II\" from Tuesday, August 4 to Sunday, August 30, 2026, as the 50th installment of its old photo series. The \"Akira Murata Collection\" is by Akira Murata (1938-2023), who collected old photographs while running a photo studio in Morioka City, Iwate Prefecture. It spans a wide range, centered on wet-plate collodion photographs and carte de visite photographs from the Bakumatsu to Meiji periods, including photo albums, glass paintings, and ukiyo-e. Mr. Murata not only collected but also actively researched the historical background of his collection and the history of photography in Japan since its introduction. The research materials contain many notes and sticky tags, and the receipts and letters tucked inside reveal traces of his tireless search for photographic materials and his interactions with various people.\n\nThis time, we will focus on the wide range of genres in the \"Akira Murata Collection,\" which has various characteristics, and introduce selected items from various fields such as bridges, station buildings, warships, and triumphal arches from all over Japan. From the portrait photographs, you can also see figures of famous people rarely introduced in old photographs before, such as samurai, merchants, Niigata beauties, people from Qing China, Akita's stylish prefectural governor Eikichi Ishida, and Chofu's hero Kazukatsu Fukuhara, who fell in the Seinan War. Also, photographs recording the damage situation in Miyako Town and Kuwagazaki Town, located near the coast of Higashihei District (present-day Miyako City), Iwate Prefecture, which were struck by a massive tsunami during the Meiji Sanriku Earthquake that occurred on June 15, Meiji 29 (1896), will be exhibited. These are important photographs that vividly convey the devastation of 130 years ago. From the collection of Akira Murata, also known as a collector of wet-plate collodion photographs, we will also introduce wet-plate collodion photographs this time. Brave samurai, people striking funny poses, friends together, couples, families... The sight of diverse people sitting in front of the camera at a photo studio makes us feel closer to the lives of those who lived through the Bakumatsu and Meiji periods. This is a valuable opportunity to see actual wet-plate collodion photographs, not reproductions."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/2cd4b584/8032833f2b3a0cd459c4a092e0daf485.jpg",
       "description": "JCIIフォトサロンでは、古写真シリーズの50回目として、来る2026年8月4日（火）から8月30日（日）まで、「幕末・明治の古写真展 盛岡の収集家・村田明コレクション PartⅡ」展を開催いたします。「村田明コレクション」は、岩手県盛岡市にて写真館を経営されながら古写真の収集を行っていた村田明氏（1938-2023）によるものです。幕末から明治期の湿板写真や手札判写真を中心として、写真帖、ガラス絵、浮世絵など多岐にわたります。また村田氏は収集のみではなく、そのコレクション群の歴史的背景や、写真伝来以降の日本における写真史に関しても精力的に研究されていました。調査資料には多くの書き込みと付箋があり、挟み込まれた領収書や手紙からは自らの足で写真資料を探し歩いた痕跡と、多様な方々との交流が垣間見えます。\n\n今回は様々な特色を持つ「村田明コレクション」のジャンルの幅広さに焦点を当て、日本各地の橋や駅舎、艦船や凱旋門など様々な分野ごとにセレクトしてご紹介いたします。人物写真からは、侍や商人、新潟美人や、清国の人々、秋田のハイカラ県令・石田英吉、西南戦争に散った長府の英雄・福原和勝などこれまで古写真ではあまり紹介されたことがない著名人の姿もご覧いただけます。また、明治29年（1896）6月15日に発生した明治三陸地震で、大津波に襲われた岩手県の東閉伊郡（現・宮古市）の海岸付近に位置する宮古町や鍬ヶ崎町の被害状況が記録された写真も展示いたします。130年前の惨状を今も鮮明に伝える重要な写真です。湿板写真のコレクターとしても知られる村田明氏のコレクションから、今回は湿板写真もご紹介いたします。勇ましい侍や、おかしなポーズをとる人、友人同士での一枚や、夫婦で、家族で・・・。多様な人々が写真館のカメラの前に座る様子は幕末・明治を生き抜いた人々の生活を身近に感じさせてくれます。複写ではなく実際の湿板写真をご覧いただける貴重な機会です。",
       "medium": "photo",
@@ -69497,8 +69556,17 @@
       "id": "fdfeb17829de",
       "source": "tokyo_art_beat",
       "title": "「現在展 いまがあるてん」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "현재전 이마가 아루텐",
+          "description": "이번 전시회에서는 일본화, 유화, 염색, 도예, 조각, 펠트 아트 등 각 분야에서 독자적인 표현을 계속 추구하는 작가들이 한자리에 모입니다. 작가 한 분 한 분의 다채로운 미의 세계를 만끽하시길 바랍니다."
+        },
+        "en": {
+          "title": "Current Exhibition: Ima ga Aru Ten",
+          "description": "In this exhibition, artists who continue to pursue unique expressions in their respective fields, such as Japanese painting, oil painting, dyeing, ceramics, sculpture, and felt art, gather together. We hope you will enjoy the diverse world of beauty created by each individual artist."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/51790e9a/%E2%91%A0%E7%8F%BE%E5%9C%A8%E5%B1%95DM%E8%A1%A8%EF%BC%BF%E6%9C%80%E7%B5%82%E7%A8%BF%20-%20%E7%8E%84%E6%83%B3%E5%BA%B5%E5%BB%A3%E5%B9%B8.JPG",
       "description": "本展では、日本画、油彩、染色、陶芸、彫刻、フェルトアートなど、それぞれの分野で独自の表現を追求し続ける作家たちが一堂に会します。作家一人ひとりの多彩な美の世界をご堪能いただけましたら幸いです。",
       "medium": "mixed",
@@ -71652,8 +71720,17 @@
       "id": "2a021e9e3faa",
       "source": "fujifilm_square",
       "title": "第45回 ハッセルブラッドフォトクラブ写真展",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "제45회 핫셀블라드 포토클럽 사진전",
+          "description": "저희 클럽은 1978년 창설 이래 명기 핫셀블라드에 매료되어 산, 마을 등 풍경을 중심으로 꽃이나 나무 등 폭넓은 장르를 대상으로 촬영 활동에 힘쓰고 있습니다. 현재 사진작가 마에다 아키라 선생님의 지도를 받고 있으며, 클럽의 모토는 '즐겁게 찍기'입니다. 지난 가을 사진전 이후 겨울 미쓰토게, 가을 야마나시현 야쓰가타케, 봄 가미코치 촬영회를 계획 및 실시하여 이번 전시 작품에 반영했습니다. 중형 필름 카메라로 표현한 작품들을 즐겨주세요."
+        },
+        "en": {
+          "title": "The 45th Hasselblad Photo Club Photo Exhibition",
+          "description": "Since its establishment in 1978, our club has been fascinated by the renowned Hasselblad camera and has been engaged in photography activities covering a wide range of genres, focusing on landscapes such as mountains and villages, as well as flowers and trees. Currently, we are receiving guidance from photographer Akira Maeda, and the club's motto is 'Shoot with joy.' Since last autumn's photo exhibition, we have planned and carried out photo shoots at Mitsutoge in winter, Yatsugatake in Yamanashi Prefecture in autumn, and Kamikochi in spring, and these are reflected in the current exhibition works. Please enjoy the works expressed with a medium format film camera."
+        }
+      },
       "poster_image_url": "https://fujifilmsquare.jp/assets/img/photo_event_260821_01_mv.jpg",
       "description": "当クラブは、1978年の創設以来、名機ハッセルブラッドに魅せられて、山、里など、風景を中心に、花や樹など、幅広いジャンルを対象に撮影活動に励んでいます。現在、写真家の前田晃先生によるご指導をいただいており、クラブのモットーを「楽しく撮る」としています。 昨年秋の写真展以降に冬の三つ峠、秋の山梨県の八ヶ岳、春の上高地の撮影会を計画・実施し、今回の展示作品に反映しています。中判フィルムカメラで表現した作品をお楽しみください。",
       "medium": "photo",
@@ -71692,8 +71769,17 @@
       "id": "a8153ef283ba",
       "source": "fujifilm_square",
       "title": "町田奈穂写真展「ここにいる」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "마치다 나호 사진전 '여기에 있다'",
+          "description": "제가 여행지에서 매료되는 것은 색깔과 빛, 바람, 냄새—그 땅이 풍기는 독특한 기운입니다. 고양이는 그것을 자연스럽게 비춰주는 존재라고 생각합니다. 도시의 번잡함 속에도, 기도의 장소에도, 사람들의 일상 속에도 고양이는 있습니다. '만약 내가 고양이라면 이 도시의 어디에서 시간을 보낼까'라고 상상하며 걷다 보면 신기하게도 만남이 찾아옵니다. 그들의 모습에서는 땅의 공기나 사람들과의 거리, 일상의 영위가 배어 나옵니다. 그들의 존재에 닿을 때마다 저 자신도 또한 '여기에 있다'고 실감합니다. 이번 전시회에서는 지난 2년 동안 방문했던 튀니지, 우즈베키스탄, 이탈리아, 일본 등에서 촬영한 작품들을 중심으로 전시합니다. 고양이를 통해 각 지역의 차이를 느끼실 수 있기를 바랍니다."
+        },
+        "en": {
+          "title": "Naho Machida Photo Exhibition 'I Am Here'",
+          "description": "What attracts me when I travel are the colors, light, wind, and scents—the unique atmosphere that a place emits. I feel that cats are beings that naturally reflect this. Cats are found in the hustle and bustle of cities, in places of prayer, and in people's daily lives. When I walk, imagining, 'If I were a cat, where would I spend my time in this city?', encounters surprisingly come my way. Their demeanor reveals the atmosphere of the land, the distance from people, and the rhythm of daily life. Every time I encounter their presence, I also feel 'I am here.' This exhibition primarily features works photographed in Tunisia, Uzbekistan, Italy, Japan, and other places I visited over the past two years. I hope you can feel the differences of each region through the cats."
+        }
+      },
       "poster_image_url": "https://fujifilmsquare.jp/assets/img/photo_event_260821_02_mv.jpg",
       "description": "私が旅先で惹かれるのは、色や光、風、匂い――その土地が放つ独特の気配です。猫はそれを自然に映し出す存在だと感じています。 都市の喧騒にも、祈りの場にも、人々の暮らしの中にも猫はいます。「もし自分が猫なら、この街のどこで過ごすだろう」と想像しながら歩くと、不思議と出会いが訪れます。その佇まいには、土地の空気や人との距離、日々の営みがにじみ出ます。 彼らの存在に触れるたび、自分自身もまた「ここにいる」と実感します。本展では、この2年ほどで訪れたチュニジア、ウズベキスタン、イタリア、日本などで撮影した作品を中心に展示します。猫を通して、それぞれの土地の違いを感じていただければ幸いです。",
       "medium": "photo",
@@ -71732,8 +71818,17 @@
       "id": "f181d5922831",
       "source": "tokyo_art_beat",
       "title": "「書字のコード」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "서자(書字)의 코드",
+          "description": "\"서자(書字)\"는 말로 표현할 수 있는 의미를 매체를 통해 문자로 남기는 행위입니다. 쓰인 말은 타인이나 글쓴이 스스로에 의해 나중에 다시 읽힐 뿐만 아니라, 수천 년 전 이국의 사람들이 남긴 말을 번역을 통해 읽는 것조차 가능하게 합니다. 그것이 영수증이나 공적인 기록이든, 낙서나 일기 같은 사적인 것이든, \"서자(書字)\"는 항상 과거에서 미래를 향해 타인에게, 그리고 자기 자신에게도 말을 전달하고 있습니다.\n그러나 그러한 말을 전달하는 힘은 오늘날 새로운 양상을 띠며, 인터넷상에서는 타인을 죽이는 말이 넘쳐나고 있습니다. 그에 대한 저항의 말, 살기 위한 말도 존재합니다. 그 양쪽의 토대가 바로 \"서자(書字)의 코드\"입니다. \"코드\"는 단순한 언어의 문법이나 서체의 규칙뿐만 아니라, 사회적인 역학이나 제도, 권력성이 문자를 통해 현현한 것입니다.\n본 전시에서 우리는 쓰인 말의 의미 내용과 그것을 매체 위에 나타나게 하는 쓰는 행위 그 자체—도구와 소재, 수법, 신체성과 계획성 같은 심신의 활동—사이에 생기는 긴장 관계에 주목합니다. \"왜 쓰는가?\"라는 근원적인 질문을 시작으로, 각자의 방법론을 가지고 우리를 묶고 또한 자유롭게도 하는 \"서자(書字)의 코드\"와 마주합니다."
+        },
+        "en": {
+          "title": "The Code of Writing",
+          "description": "\"Writing\" is the act of preserving meanings that can be expressed in words, in written form through a medium. Written words can not only be reread later by others or by the writer themselves, but they also make it possible to read, through translation, words left by people from foreign lands thousands of years ago. Whether it's a receipt or a public record, or something private like graffiti or a diary, \"writing\" always carries words from the past to the future, to others, and to oneself.\nHowever, this power to convey words has taken on a new aspect today, with words that kill others overflowing on the internet. There are also words of resistance against this, words for living. At the foundation of both lies \"The Code of Writing.\" \"Code\" is not merely the grammar of language or rules of typography, but also the manifestation of social dynamics, systems, and power through written characters.\nIn this exhibition, we focus on the tension that arises between the semantic content of written words and the act of writing itself—the mental and physical activities such as tools, materials, methods, physicality, and intentionality—that bring them into being on a medium. Starting from the fundamental question, \"Why do we write?\", we confront \"The Code of Writing,\" which binds and also frees us, each with our own methodology."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/7qUg9GLJ5gRI1ml3qhng4f/3b0d31c708b22097ca9e8f15592b9435/d812cb90-5aa1-497d-ad07-021fd4e869e0.jpg",
       "description": "「書字」は、言葉に表すことができる意味を、媒体をとおして文字に留める行為です。書かれた言葉は、他者や、書き手自らによって後から読み返されるだけでなく、数千年前の異国の人々が残した言葉を翻訳を通して読むことすら可能にします。それがレシートや公的な記録であれ、落書きや日記などの私的なものであれ、「書字」は常に過去から未来に向けて、他者に、そして自分自身にも言葉を運んでいるのです。\nしかし、そうした言葉を運ぶ力は今日では新たな様相を呈し、ネット上では他者を殺す言葉が溢れかえっています。それに対する抵抗の言葉、生きるための言葉も存在します。その双方の土台にあるのが「書字のコード」です。「コード」は、単なる言語の文法や書体のルールだけでなく、社会的な力学や制度、権力性が文字をとおして顕現したものです。\n本展において私たちは、書かれた言葉の意味内容と、それを媒体上に立ち現れさせる、書くという行為そのもの――道具や素材、手法、身体性や計画性といった心身の営み――との間に生まれる緊張関係に着目します。「なぜ書くのか？」という根源的な問いを起点に、各々の方法論をもって、私たちを縛り、また自由にもする「書字のコード」と向き合います。",
       "medium": "mixed",
@@ -71816,8 +71911,17 @@
       "id": "d8b6aa34a34e",
       "source": "tokyo_art_beat",
       "title": "「プラカードのために」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "플래카드를 위하여",
+          "description": "미술가 타베 미츠코(1933-2024)는 1961년에 쓴 「플래카드를 위하여」라는 제목의 글에서 \"대중의 에너지를 받아들일 수 있을 만한 플래카드를 만들\"고, 그 \"단 한 장의 플래카드의 탄생으로\" 사회를 바꿀 가능성을 이야기했습니다. 가혹한 현실과 사회에 대한 저항의 의지와 행위, 그리고 그 안에서 타베가 발견한 희망은 같은 해 발표된 작품 《플래카드》로 결실을 맺습니다. 이 글은 작품이 탄생하기까지의 사고 과정을 이야기한 것임과 동시에, 사회의 움직임을 의식하며 활동하는 한 미술가의 선언으로도 읽을 수 있습니다. \"단 한 장의 플래카드\"는 갈 곳 없는 목소리를 건져 올리고 해방의 출발점이 되는 살아있는 표현의 상징이기도 합니다.\n타베의 말과 작품을 출발점으로 하는 본 전시회는 각자의 삶에 뿌리내리면서 삶과 존엄에 대해 고찰해 온 타베를 포함한 7명의 작가 작품으로 구성됩니다. 작가들은 지금까지 사회 속에서 가려져 있던 경험과 심정에 주목하고, 사유하며, 스스로 실천함으로써 기존의 제도와 구조에 질문을 던집니다. 그들의 작품을 통해 우리를 둘러싼 사회와 그 역사를 되돌아보고, 저항의 방법을 모색하면서 표현하는 것의 의미에도 되돌아봅니다."
+        },
+        "en": {
+          "title": "For the Placard",
+          "description": "Artist Mitsuko Tabe (1933-2024), in an essay titled \"For the Placard\" written in 1961, spoke of the possibility of changing society by \"creating a placard capable of receiving the energy of the masses\" and through \"the birth of that single placard.\" Her will and act of resistance against harsh realities and society, and the hope she found within them, culminated in her work \"Placard,\" announced in the same year. This essay can be read not only as an account of the thought process leading to the creation of the work but also as a declaration by an artist who is aware of social movements and actively engaged. \"That single placard\" is also a symbol of living expression, one that scoops up voiceless cries and becomes a starting point for liberation.\nThis exhibition, taking Tabe's words and works as its starting point, features works by seven artists, including Tabe, who have contemplated life and dignity while rooted in their respective lives. The artists scrutinize, reflect on, and personally practice experiences and emotions that have been hidden within society, thereby questioning existing systems and structures. Through their works, we re-examine the society and its history that surround us, explore methods of resistance, and return to the meaning of expression."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/112c9eaf/img-detail.jpg",
       "description": "美術家・田部光子（1933-2024）は1961年に記した「プラカードの為に」と題した文章において、「大衆のエネルギーを受け止められるだけのプラカードを作」り、その「たった一枚のプラカードの誕生によって」社会を変える可能性を語りました。過酷な現実や社会に対する抵抗の意思や行為、そしてそのなかに田部が見出した希望は、同年発表された作品《プラカード》に結実します。この文章は、作品が生まれるまでの思考の過程を語ったものであると同時に、社会の動きを意識し活動するひとりの美術家の宣言としても読むことができます。「たった一枚のプラカード」とは、行き場のない声をすくいあげ、解放の出発点となるような、生きた表現の象徴でもあるのです。\n田部の言葉と作品を出発点とする本展覧会は、それぞれの生活に根ざしながら、生きることと尊厳について考察してきた、田部を含む7 名の作家の作品で構成します。作家たちは、これまで社会の中で覆い隠されてきた経験や心情に目を凝らし、思考し、そして自ら実践することで、既存の制度や構造に問いを投げかけます。彼女・彼らの作品を通じて、私たちを取り巻く社会やその歴史を見つめ直し、抵抗の方法を探りながら、表現することの意味にも立ち返ります。",
       "medium": "mixed",
@@ -71892,8 +71996,17 @@
       "id": "212023ac33d5",
       "source": "tokyo_art_beat",
       "title": "柘植美咲 「つげの木」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "츠게 미사키 「츠게노키」",
+          "description": "KOSHA KOSHA AKIHABARA에서 2026년 9월 4일(금)부터 츠게 미사키 사진전 「츠게노키」를 개최합니다. 고등학교 진학 전부터 사진을 찍기 시작한 츠게는 2018년 오츠카 제약의 초대 포카리 고등학생 사진작가로 선정되어 포카리스웨트 광고 제작에 참여하며 주목을 받았습니다. 츠게의 시선은 친숙한 교실이나 가족 풍경의 눈부심 속에서 어딘가 고독과 쓸쓸함을 느끼게 하는 것이 있었습니다. 아카아카샤가 발행하는 「AKAAKA BIRD」는 시발점이나 전환점이 되는 작품을 그 시기에 제작하여 새가 날아오르듯 \"가볍게, 멀리까지 닿기를\" 바라는 출판 프로젝트입니다. 그 vol.3으로 츠게의 사진집 제작이 결정되어 함께 이 기획전 준비를 진행해 왔습니다. 지금을 살아가는 츠게가 포착하는 세계는 공동체와 개인, 눈앞의 선명함과 흘러가는 시간 사이를 오가며 독자적인 피사체를 향한 시선을 담고 있습니다. 사진을 찍기 시작한 지 10년이 지나, 쌓아온 시간과 경험이 층을 이루고 두께를 더해 온 작품군에서 엄선된 약 30점을 전시합니다. 이 하나의 출발점을 함께 보실 수 있기를 바랍니다."
+        },
+        "en": {
+          "title": "Misaki Tsuge 'Tsuge no Ki'",
+          "description": "KOSHA KOSHA AKIHABARA will host the Misaki Tsuge Photo Exhibition \"Tsuge no Ki\" starting Friday, September 4, 2026. Tsuge, who began taking photos before entering high school, gained attention in 2018 when she was selected as Otsuka Pharmaceutical's first Pocari High School Photographer and participated in the production of Pocari Sweat advertisements. Tsuge's gaze, amidst the dazzling scenes of familiar classrooms and family, conveyed a sense of loneliness and solitude. AKAAKA BIRD, published by AKAAKA, is a publishing project that aims to create works that serve as starting points or turning points at the right moment, hoping they will \"travel lightly and reach far\" like a bird taking flight. As its Vol. 3, Tsuge's photo book production was decided, and we have been preparing this exhibition together. The world captured by Tsuge, living in the present, holds a unique gaze towards her subjects, oscillating between community and solitude, and between the vividness of the present and the passage of time. After 10 years of taking photographs, we will exhibit approximately 30 carefully selected works from her collection, where accumulated time and experience have formed layers and gained depth. We hope you will join us in witnessing this new starting point."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/486d4732/8_28_33%20-%20%E3%82%B9%E3%82%AD%E3%82%99%E3%83%A2%E3%83%88%E3%83%A2%E3%83%A2%E3%82%AB.JPG",
       "description": "KOSHA KOSHA AKIHABARAにおいて、2026年9月4日（金）より、柘植美咲写真展「つげの木」を開催いたします。高校進学前から写真を撮り始めた柘植は、2018年、大塚製薬の初代ポカリ高校生カメラマンに選ばれてポカリスエットの広告制作に参加し、注目を集めました。柘植の眼差しは、身近な教室や家族の光景の眩しさの中に、どこか孤独や寂しさを感じさせるものがありました。赤々舎が刊行する「AKAAKA BIRD」は、始発点や転換点となる作品を、その時機に制作し、鳥が飛び立つように“身軽に、遠くまで届く”ことを願う出版プロジェクト。そのvol.3として柘植の写真集制作が決まり、共にこの企画展の準備を進めて参りました。今を生きる柘植の捉える世界は、共同体とひとり、目の前の鮮やかさと過ぎゆく時間のあいだを揺れながら、独自の被写体への眼差しが宿っています。写真を撮り始めてから10年を経て、積み重ねた時間と経験が層になり、厚みを増してきた作品群から厳選の約30点を展示します。このひとつの出発点を、共にご覧いただければ幸いです。",
       "medium": "photo",
@@ -71939,8 +72052,17 @@
       "id": "5676d832e947",
       "source": "tokyo_art_beat",
       "title": "「キヤノンフォトクラブ東京INFINITY写真展 WABI SABI」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「캐논 포토클럽 도쿄 INFINITY 사진전 WABI SABI」",
+          "description": "본 전시는 캐논 포토클럽 도쿄 INFINITY 회원들의 사진전입니다. 캐논 포토클럽 도쿄 INFINITY는 36명의 회원으로 활동하고 있으며, 사진작가 오자와 타이치 씨의 지도 아래 정기적으로 촬영회와 강평회를 개최하며, 클럽명인 INFINITY의 이름처럼 무한대로 사진을 즐기는 의욕적인 활동을 이어가고 있습니다. 이번에는 WABI SABI(와비사비)를 테마로 흑백 작품 약 45점을 전시합니다.\n\n[관련 이벤트]\n토크 이벤트\n일시: 9월 12일 15:30~\n등단자: 오자와 타이치 (사진작가), 미무라 칸 (아트 디렉터)\n장소: CANON INNOVATION LABO \"WITH\"\n요금: 무료 (사전 신청 불필요) (정원 60명, 선착순)\n※이벤트 상세 내용은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "\"Canon Photo Club Tokyo INFINITY Photo Exhibition WABI SABI\"",
+          "description": "This exhibition is a photo exhibition by members of Canon Photo Club Tokyo INFINITY. Canon Photo Club Tokyo INFINITY operates with 36 members, regularly holding photo sessions and critique meetings under the guidance of photographer Taichi Ozawa, and continues ambitious activities to enjoy photography infinitely, as the club name INFINITY suggests. This time, approximately 45 monochrome works will be exhibited under the theme of WABI SABI.\n\n[Related Event]\nTalk Event\nDate: September 12, 15:30~\nSpeakers: Taichi Ozawa (Photographer), Kan Mimura (Art Director)\nVenue: CANON INNOVATION LABO \"WITH\"\nAdmission: Free (No advance registration required) (Capacity: 60 people, first-come, first-served)\n*Please check the official website for event details."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/MlG4E4XbmSu0ZA7wHMTV9/20a28dad2683b971585b03b53ed2d686/postcard.jpg",
       "description": "本展は、キヤノンフォトクラブ東京INFINITYのメンバーによる写真展です。キヤノンフォトクラブ東京INFINTIYは36名のメンバーで活動しており、写真家 小澤太一氏の指導のもと、定期的に撮影会や講評会を行い、クラブ名であるINFINITYの名前の通り、無限大に写真を楽しむという意欲的な活動を続けています。今回は、WABI SABI（侘び寂び）をテーマにモノクロの作品約45点を展示します。\n\n[関連イベント]\nトークイベント\n日時: 9月12日15:30〜\n登壇者: 小澤 太一（写真家）、三村 漢（アートディレクター）\n会場: CANON INNOVATION LABO \"WITH\"\n料金: 無料（事前申込み不要）（定員60名、先着順）\n※イベント詳細は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -71979,8 +72101,17 @@
       "id": "2444da3bcea6",
       "source": "tokyo_art_beat",
       "title": "コサカシンタロウ 「OEKATA 難病ALS発症から13年、杉田省吾 終え方の記録」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "코사카 신타로 「OEKATA 난치병 ALS 발병 13년, 스기타 쇼고의 마지막 기록」",
+          "description": "본 전시는 ALS(근위축성 측삭 경화증) 환자인 스기타 쇼고 씨의 마지막을 사진작가 코사카 신타로 씨가 기록한 사진전입니다. ALS는 발병하면 손발, 목, 혀, 그리고 호흡에 관여하는 근육이 점차 위축되어 힘을 잃어가고, 인공호흡기를 사용하지 않으면 사망에 이르는 반면, 신체 감각, 시력, 청력, 내장 기능 등은 정상적으로 유지되는 난치병입니다. 코사카 씨는 스기타 씨가 이 난치병과 맞서 싸워온 11년간을 계속해서 촬영해 왔습니다. 전시 작품을 통해 자신과 관람객에게 '살아남는다는 것은 무엇인가'를 묻습니다.\n\n[관련 이벤트]\n토크 이벤트 「움직이지 않는 육체 속에 의식이 있는 존재를 묻다」\n일시: 2026년 9월 19일 14:00~15:30\n등단자: 코사카 신타로, 스기타 쇼고, 핫토리 분쇼 (등산가·작가)\n장소: CANON S TOWER 2층 CANON INNOVATION LAB WITH\n요금: 무료 (정원 50명, 사전 신청 필요)\n※이벤트 상세 내용 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "\"Shintaro Kosaka 'OEKATA 13 Years Since Onset of Intractable Disease ALS, A Record of Shogo Sugita's End'\"",
+          "description": "This exhibition is a photo exhibition by photographer Shintaro Kosaka, documenting the final journey of Shogo Sugita, a patient with ALS (Amyotrophic Lateral Sclerosis). ALS is an intractable disease where, upon onset, muscles in the limbs, throat, tongue, and those involved in breathing gradually waste away and lose strength, leading to death without the use of a ventilator, while bodily sensations, vision, hearing, and internal organ functions remain normal. Kosaka has continued to photograph Sugita's 11-year struggle with this intractable disease. Through the exhibited works, he poses the question, 'What does it mean to live through it all?' to himself and the viewers.\n\n[Related Event]\nTalk Event \"Questioning the Existence of Consciousness Within an Immobile Body\"\nDate: September 19, 2026, 14:00-15:30\nSpeakers: Shintaro Kosaka, Shogo Sugita, Bunsho Hattori (Mountaineer/Writer)\nVenue: CANON S TOWER 2F CANON INNOVATION LAB WITH\nAdmission: Free (Capacity: 50 people, advance registration required)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/d16de10d/20260729.jpg",
       "description": "本展は、ALS（筋萎縮性側索硬化症）患者である杉田省吾氏の終え方を写真家コサカシンタロウ氏が記録した写真展です。ALSとは、発症すると手足やのど、舌、また呼吸に関わる筋肉が徐々にやせ細って力を失っていき、人工呼吸器を使用しないと死に至る一方、身体の感覚や視力、聴力、内臓機能などは正常に保たれるという難病です。コサカ氏は杉田氏がこの難病と向き合ってきた11年間を撮影し続けてきました。展示作品を通じて、自身や観る方に「生き抜くとはどういうことなのか」を問いかけます。\n\n[関連イベント]\nトークイベント「動かない肉体の中に意識がある存在を問う」\n日時: 2026年9月19日14:00〜15:30\n登壇者: コサカシンタロウ、杉田省吾、服部文祥（登山家・作家）\n会場: CANON S TOWER 2階 CANON INNOVATION LAB WITH\n料金: 無料（定員50名、要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -72026,8 +72157,17 @@
       "id": "083997ccb03c",
       "source": "tokyo_art_beat",
       "title": "「Sustainable World －佐藤大史・磯部昭子 ふたりの視点から－」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「Sustainable World – 사토 타이시・이소베 아키코 두 사람의 시점에서 –」",
+          "description": "우리는 지금 삶의 윤곽을 다시금 되돌아보는 시대에 살고 있습니다. 환경의 변화와 가치관의 흔들림, 문화를 계승하는 것의 어려움, 그리고 일상의 영위 속에 있는 작은 선택. 그러한 하나하나가 앞으로의 세계에 어떤 영향을 미칠지 조용히 묻고 있는 것처럼 느껴집니다. 본 전시 「Sustainable World」는 그 질문에 귀 기울이듯, 사진이라는 매체를 통해 세계를 다시 바라보는 시도입니다. 나가노현과 인연이 있는 사진작가 사토 타이시와 포토그래퍼 이소베 아키코. 두 사람은 같은 세계를 마주하면서도 전혀 다른 각도에서 미래의 기운을 받아들이고 있습니다. 사토 타이시는 알래스카의 대자연을 있는 그대로 전달하기 위해 현지 촬영을 고집합니다. 이소베 아키코는 인물과 일상을 피사체로 삼으면서도 독자적인 감성으로 그 깊숙한 곳에 잠든 가치관을 제시합니다. 그 시점은 다르지만, 둘 다 미래를 향한 조용한 질문을 품고 있습니다. 본 전시에서는 폭넓은 표현 영역으로 세계를 선도하는 세이코 엡손 주식회사의 프로젝터와 디지털 날염(나센) 기술을 통해 두 사람의 시선을 구현합니다. 환경 부하를 줄인, 더욱 풍부한 사진 표현의 가능성을 경험해 보십시오."
+        },
+        "en": {
+          "title": "\"Sustainable World - From the Perspectives of Taishi Sato and Akiko Isobe\"",
+          "description": "We are now in an era where we are re-examining the contours of life. Changes in the environment, fluctuations in values, the difficulty of inheriting culture, and small choices made in daily life. Each of these seems to quietly ask what kind of impact they will have on the world to come. This exhibition, \"Sustainable World,\" is an attempt to re-examine the world through the medium of photography, as if listening intently to that question. Photographer Taishi Sato and photographer Akiko Isobe, both associated with Nagano Prefecture. While facing the same world, the two perceive the signs of the future from completely different angles. Taishi Sato continues to focus on on-site photography to convey the Alaskan wilderness in its natural state. Akiko Isobe, using people and daily life as subjects, presents the values hidden deep within them with her unique sensibility. Although their perspectives differ, both hold a quiet question directed towards the future. In this exhibition, the perspectives of the two artists are materialized through projectors and digital textile printing (Nassen) technology from Seiko Epson Corporation, which leads the world in a wide range of expressive fields. Please experience the possibilities of richer photographic expression with reduced environmental impact."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/b191e3e4/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-08-20%2017.29.50.png",
       "description": "私たちは今、生きることの輪郭をあらためて見つめ直す時代にいます。環境の変化や価値観の揺らぎ、文化を受け継ぐことの難しさ、そして日々の営みの中にある小さな選択。そうしたひとつひとつが、これからの世界にどのような影響をもたらすのかを、静かに問いかけているように感じられます。本展「Sustainable World」は、その問いに耳を澄ませるように、写真というメディアを通して世界を見つめ直す試みです。長野県にゆかりのある写真家・佐藤大史とフォトグラファー・磯部昭子。ふたりは同じ世界を前にしながら、まったく異なる角度から未来の気配を受け取っています。佐藤大史は、アラスカの大自然をありのままの姿で伝えるため、現地での撮影にこだわり続けます。磯部昭子は、人物や日常を被写体としながら、独自の感性でその奥底に眠る価値観を提示してくれます。その視点は異なりながらも、どちらも未来へ向けた静かな問いを抱えています。本展では、幅広い表現領域で世界をけん引するセイコーエプソン株式会社のプロジェクターとデジタル捺染（なっせん）技術により、ふたりの視線を具現化します。環境への負荷を抑えた、より豊かな写真表現の可能性をご体感ください。",
       "medium": "photo",
@@ -72072,8 +72212,15 @@
       "id": "da92691e4eae",
       "source": "tokyo_art_beat",
       "title": "マン・レイ 展",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "만 레이 전"
+        },
+        "en": {
+          "title": "Man Ray Exhibition"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/72cfb98b/IMG_1082(1).jpg",
       "description": null,
       "medium": "mixed",
@@ -72112,8 +72259,17 @@
       "id": "c6dfb73da2a0",
       "source": "tokyo_art_beat",
       "title": "「入江泰𠮷『大和路五十三景』展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「이리에 타이키치 『야마토지 고주산케이』 전」",
+          "description": "이리에 타이키치는 \"야마토지의 자연의 모습은 이른바 풍광명미라고 할 만한 눈부시게 화려한 아름다움이 아니다. 쓸쓸하고 고요한 아름다움이다\"라고 말했습니다. 그는 그 온화한 풍경 속에서 고찰이나 역사의 흔적을 발견했을 때 비로소 야마토지다운 아름다움이 나타난다고 생각했습니다. 본 전시에서는 쇼와 20~30년대에 촬영된 흑백 작품 중에서 이리에가 초기에 포착한 대표작을 고주산케이로 소개합니다. 전후 복구기의 야마토지에는 평화로운 전원과 사람들의 삶이 숨 쉬고 있으며, 지금은 사라진 풍경도 많이 남아 있습니다. 시행착오 속에서 형성된 야마토지의 아름다움, 그 깊은 운치와 이리에가 포착한 풍토의 표정을 감상해 보십시오. '고주산케이'라는 제목에는 도카이도 고주산쓰기에 이어지는 명소의 개념과 『화엄경』에 설해진 선재동자의 고주산산의 정신이 울려 퍼지고 있습니다. 야마토의 아름다움을 끊임없이 추구했던 이리에의 모습은 마치 수행승의 발걸음과도 같습니다."
+        },
+        "en": {
+          "title": "\"Irie Taikichi 'Yamatoji Gojūsan-kei' Exhibition\"",
+          "description": "Irie Taikichi stated, \"The natural appearance of Yamatoji is not the dazzling, splendid beauty typically referred to as scenic. It is a quiet, subdued beauty.\" He believed that the true beauty characteristic of Yamatoji only emerged when one discovered ancient temples and historical traces within its tranquil landscapes. This exhibition introduces Irie's representative early works, captured in monochrome photographs taken during the Showa 20s and 30s, as \"Fifty-Three Views.\" In Yamatoji during the post-war reconstruction period, peaceful rural landscapes and people's lives thrived, and many now-lost scenes remain. Please observe the beauty of Yamatoji, shaped through trial and error, its profound elegance, and the regional expressions captured by Irie. The title \"Fifty-Three Views\" resonates with the concept of famous places linked to the Tōkaidō Gojūsan-tsugi and the spirit of Sudhana's Fifty-Three Pilgrimages as expounded in the Avatamsaka Sutra. Irie's continuous pursuit of Yamato's beauty truly resembles the journey of an ascetic monk."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/4d1bb7c0/s-359x508_webp_f7266513-dbef-4324-b061-bb5fd7bb960d.webp",
       "description": "入江泰吉は、「大和路の自然のすがたは、いわゆる風光明媚というような、目をみはる華やかな美しさではない。ものさびた、静かな美しさである」と語っています。その穏やかな風景の中に、古寺や歴史の痕跡を見いだしたとき、はじめて大和路らしい美が立ち現れると考えていました。本展では、昭和20～30年代に撮影されたモノクロ作品から、入江が初期にとらえた代表作を五十三景として紹介します。戦後復興期の大和路には、のどかな田園や人々の暮らしが息づき、今では失われた風景も数多く残されています。試行錯誤の中で形づくられた大和路の美、その奥ゆかしさと入江がとらえた風土の表情をご覧ください。「五十三景」という題には、東海道五十三次に連なる名所の観念と、『華厳経』に説かれる善財童子の五十三参の精神が響きあっています。大和の美を求め続けた入江の姿は、まさに修行僧の歩みにも似ています。",
       "medium": "mixed",
@@ -72159,8 +72315,17 @@
       "id": "9bfe09b02e4e",
       "source": "tokyo_art_beat",
       "title": "「複製される感性 DAIDO MORIYAMA by NWU Nagatani Lab. Monika Orpik」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「복제되는 감성 DAIDO MORIYAMA by NWU 나가타니 연구실 Monika Orpik」",
+          "description": "「아³」 프로그램의 일환으로, 나라여자대학 학생들을 중심으로 프로그램 수강생들과 함께 모리야마 다이도의 작품 큐레이션에 참여했습니다. 『닛폰 극장 사진첩』, 『사냥꾼』, 『사진이여 안녕』, 『빛과 그림자』 사진집을 바탕으로, 다음 세대의 시선으로 선정하고 큐레이션을 담당한 전시를 진행합니다. 또한, 안쪽 공간에서는 본 프로그램 초청 작가인 모니카 오르픽(Monika Orpik/폴란드)의 나라에서의 체류 제작에 의한 신작을 포함한 작품군도 소개합니다."
+        },
+        "en": {
+          "title": "\"Reproduced Sensibility DAIDO MORIYAMA by NWU Nagatani Lab. Monika Orpik\"",
+          "description": "As part of the \"A³\" program, students from Nara Women's University, along with program participants, undertook the curation of Daido Moriyama's works. An exhibition will be held, featuring selections and curation by the next generation, based on his photo books 'Nippon Gekijō Shashinchō,' 'Karyūdo,' 'Shashin yo Sayōnara,' and 'Hikari to Kage.' Additionally, in the back space, a collection of works by Monika Orpik (Poland), the invited artist for this program, will be introduced, including new pieces created during her residency in Nara."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/4f6c999b/s-356x502_webp_3392c706-a1ad-4704-9c94-8bbab87e2ae3.webp",
       "description": "「あ³」プログラムの一環として、奈良女子大学の学生を中心に、プログラムの受講生とともに森山大道の作品キュレーションに取り組みました。『にっぽん劇場写真帖』、『狩人』、『写真よさようなら』、『光と影』の写真集をもとに、次世代のまなざしで選びキュレーションを担当した展示を行います。また、奥のスペースでは本プログラム招聘作家、モニカ・オルピック（Monika Orpik／ポーランド）の奈良での滞在制作による新作を含めた作品群も紹介します。",
       "medium": "photo",
@@ -72219,8 +72384,17 @@
       "id": "d18243e8ac3e",
       "source": "tokyo_art_beat",
       "title": "「特集展示・佐藤時啓―光の記憶、時間をえがく」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "특별전시・사토 토키히로―빛의 기억, 시간을 그리다",
+          "description": "사진이라는 미디어를 단순한 사건 기록 수단이 아닌, '빛'과 '시간'을 가시화하기 위한 장치로 재해석해 온 작가, 사토 토키히로. 사토는 1980년대 이후, 카메라의 구조와 광학의 원리에 주목하며 장시간 노출 촬영을 통해 우리 눈으로는 포착할 수 없는 빛의 움직임과 공간에 내재된 시간의 층을 표현해 왔습니다. 본 전시에서는 본관 소장 작품과 작가 소장 작품을 전시하여 그의 세계를 조망합니다. 아울러, 사토 작품에서 볼 수 있는 '빛과 그림자', '시간'과 같은 키워드를 단서로 선정된 본관 소장품을 사토의 작품과 함께 소개합니다. 작품들 간의 호응을 통해 사진이라는 미디어가 지닌 표현의 가능성과 명암의 관계 및 변화를 포착하는 다양한 표현의 폭을 부각시킵니다."
+        },
+        "en": {
+          "title": "Special Exhibition: Sato Tokihiro — Memories of Light, Drawing Time",
+          "description": "Tokihiro Sato is an artist who has re-envisioned photography not merely as a means of documenting events, but as a device for visualizing \"light\" and \"time.\" Since the 1980s, Sato has focused on the structure of cameras and the principles of optics, using long-exposure photography to express the behavior of light that our eyes cannot fully capture, and the layers of time inherent in space. This exhibition showcases works from our museum's collection and the artist's own collection, offering a comprehensive view of his world. Additionally, works from our museum's collection, selected based on keywords such as \"light and shadow\" and \"time\" found in Sato's works, will be presented alongside his pieces. Through the interplay between these works, we highlight the expressive possibilities of photography as a medium and the diverse range of expressions that capture the relationship and transitions of light and dark."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/7778425d/2026collection1_page-0001.jpg",
       "description": "写真というメディアを、単なる出来事の記録手段としてではなく、「光」と「時間」を可視化するための装置として捉え直してきた作家、佐藤時啓。 佐藤は1980年代以降、カメラの構造や光学の原理に着目し、長時間露光による撮影を通して、私たちの目には捉えきれない光の振る舞いや、空間に内在する時間の層を表現してきました。本展では、当館所蔵作品と作家蔵の作品を展示し、その世界を展観します。 あわせて、佐藤作品に見られる「光と影」「時間」といったキーワードを手がかりに選定した当館コレクション作品を、佐藤作品とともに紹介します。 作品同士の呼応を通して、写真というメディアがもつ表現の可能性や、明暗の関係や移ろいをとらえる多様な表現の広がりを浮かび上がらせます。",
       "medium": "photo",
@@ -72266,8 +72440,17 @@
       "id": "50e027771198",
       "source": "tokyo_art_beat",
       "title": "「名づけられぬもの～韓国現代写真の一断面」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "이름 붙일 수 없는 것 ~ 한국 현대 사진의 한 단면",
+          "description": "무사시노 미술대학 영상학과 스가누마 연구실에서는 The Korea Arts Management Service(KAMS)의 지원을 받아 한국 현대 사진을 소개하는 프로젝트를 진행하고 있습니다. 그 첫 번째 기획으로 8월 28일(금)부터 9월 6일(일)까지 요코하마 시민 갤러리 아자미노와 공동 주최로 한국의 젊은 사진작가 7인이 참여하는 전시회 '이름 붙일 수 없는 것 ~ 한국 현대 사진의 한 단면'을 개최합니다.\n본 전시에서는 할머니 가족이 겪었던 식민 지배와 히로시마 원폭과 같은 역사, 한국인의 시각에서 본 복잡한 역사·문화·정치가 겹쳐지는 오키나와, 행상을 하며 가족을 부양했던 외할머니의 삶, 악성 뇌종양으로 죽음을 향해 가는 어머니의 기록, 여성의 신체와 그 안에 깃든 기억, 과연 '사진은 사건'인가라는 명제, 가상의 이야기를 바탕으로 다양한 표현 기술을 사용하여 사진이라는 미디어를 고찰하는 등, 다양한 사진 실천을 통해 현대 한국 사진의 한 단면을 소개합니다.\n\n[관련 이벤트]\n1. 토크 이벤트\n일시: 8월 30일 14:30～16:00\n장소: 요코하마 시민 갤러리 아자미노 3F 아틀리에\n출연: 황예지(참여 작가), 히메노 노조미(아카아카샤 대표이사, 디렉터), 아마노 타로(도쿄 오페라시티 아트 갤러리, 수석 큐레이터)\n입장: 무료 (사전 신청 필수)\n2. 갤러리 투어\n일시: 8월 30일 16:30～18:00\n장소: 요코하마 시민 갤러리 아자미노 전시실 1\n입장: 무료\n※이벤트 상세 정보 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "The Unnamable ~ A Cross-Section of Korean Contemporary Photography",
+          "description": "The Suganuma Laboratory of the Department of Imaging Arts and Sciences at Musashino Art University is conducting a project to introduce contemporary Korean photography, with support from The Korea Arts Management Service (KAMS). As the first phase of this project, an exhibition titled \"The Unnamable ~ A Cross-Section of Korean Contemporary Photography,\" featuring seven young Korean photographers, will be held from August 28 (Fri) to September 6 (Sun), co-hosted by Yokohama Civic Art Gallery Azamino.\nThis exhibition presents a cross-section of contemporary Korean photography through various photographic practices, including: histories such as colonial rule and the atomic bombing of Hiroshima experienced by the artist's grandmother's family; Okinawa, where complex history, culture, and politics intertwine from a Korean perspective; the life of a maternal grandmother who supported her family through peddling; a record of a mother facing death due to a malignant brain tumor; the female body and the memories it holds; the proposition of whether \"photography is an event\"; and reflections on photography as a medium using various expressive techniques based on fictional narratives.\n\n[Related Events]\n1. Talk Event\nDate & Time: August 30, 14:30–16:00\nVenue: Yokohama Civic Art Gallery Azamino, 3F Atelier\nSpeakers: Hwang Yeji (Exhibiting Artist), Nozomi Himeno (CEO & Director, Akakasha), Taro Amano (Chief Curator, Tokyo Opera City Art Gallery)\nAdmission: Free (Pre-registration required)\n2. Gallery Tour\nDate & Time: August 30, 16:30–18:00\nVenue: Yokohama Civic Art Gallery Azamino, Exhibition Room 1\nAdmission: Free\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/42dc6495/e15c3c82ff3c4f269989b50b2306b3ed-1440x678.jpg",
       "description": "武蔵野美術大学映像学科菅沼研究室では、The Korea Arts Management Service（KAMS）の助成を受け、韓国現代写真を紹介するプロジェクトを行っています。その第一弾として、8月28日（金）〜9月6日（日）、横浜市民ギャラリーあざみ野と共催で、韓国の若手写真家7人による展覧会「名づけられぬもの 〜 韓国現代写真の一断面」を開催します。\n本展では、祖母の家族が体験した植民地支配や広島の原爆といった歴史、韓国人の視点から見た複雑な歴史・文化・政治が重なり合う沖縄、行商をしながら家族を支えた母方の祖母の人生、悪性脳腫瘍により死に向かう母の記録、女性の身体やそこに宿る記憶、果たして「写真は出来事」なのかという命題、架空の物語をベースにさまざまな表現技術を使い写真というメディアを考えるなど、さまざまな写真の実践を通して、現代韓国写真の一断面をご紹介します。\n\n[関連イベント]\n1. トークイベント\n日時: 8月30日 14:30～16:00\n会場: 横浜市民ギャラリーあざみ野 3Fアトリエ\n出演: ファン・イェジ（出品作家）、姫野希美（赤々舎代表取締役、ディレクター）、天野太郎（東京オペラシティアートギャラリー、チーフ・キュレーター）\n入場: 無料（要事前申込み）\n2. ギャラリーツアー\n日時: 8月30日 16:30～18:00\n会場: 横浜市民ギャラリーあざみ野 展示室１\n入場: 無料\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -72349,8 +72532,17 @@
       "id": "fd35cd3b357e",
       "source": "tokyo_art_beat",
       "title": "「第25回三木淳賞受賞作家新作展 吉江淳 写真展『沖縄』」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "제25회 미키 준상 수상 작가 신작전 요시에 준 사진전 '오키나와'",
+          "description": "주식회사 니콘 및 주식회사 니콘 이미징 재팬은 니콘 플라자 도쿄의 사진전 회장 '니콘 살롱'에서 제25회(2023년도) 미키 준상 수상 작가 신작전 요시에 준 사진전 '오키나와'를 2026년 9월 2일(수)부터 개최합니다."
+        },
+        "en": {
+          "title": "25th Miki Jun Award Winner New Works Exhibition: Jun Yoshie Photo Exhibition 'Okinawa'",
+          "description": "Nikon Corporation and Nikon Imaging Japan Inc. will hold the 25th (FY2023) Miki Jun Award Winner New Works Exhibition: Jun Yoshie Photo Exhibition \"Okinawa\" at Nikon Salon, the photo exhibition venue at Nikon Plaza Tokyo, starting from September 2, 2026 (Wednesday)."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/ec5388ce/20260902_NS_%E5%90%89%E6%B1%9F%E6%B7%B3_%E5%BA%83%E5%A0%B1%E7%94%A8.jpg",
       "description": "株式会社ニコンおよび株式会社ニコンイメージングジャパンは、ニコンプラザ東京の写真展会場「ニコンサロン」にて、第25回（2023年度）三木淳賞受賞作家新作展 吉江淳 写真展「沖縄」を2026年9月2日（水）より開催します。",
       "medium": "photo",
@@ -72396,8 +72588,19 @@
       "id": "ce9b6c4d5661",
       "source": "tokyo_art_beat",
       "title": "「neophyte 2026」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「neophyte 2026」",
+          "description": "아트 컴플렉스 센터에서는 유학생 아티스트와 일본인 아티스트를 연결하는 전시회를 개최하여 일본 미술계에 작가들을 소개하는 활동을 하고 있습니다. 2016년부터 일본인 작가와 주로 아시아권 유학생 작가들의 교류전을 정기적으로 기획해 왔습니다. 본 기획전은 '아티스트 서포트'를 갤러리 콘셉트로 젊은 아티스트들의 활동을 다방면으로 지원하고 있는 갤러리 The Artcomplex Center of Tokyo에서 개최하고자 합니다.\n\n본 전시 'neophyte-네오파이트'는 아시아 출신 유학생을 중심으로 '자기 이외'의 자극을 존중하고, 자신과는 다른 문화를 가진 작가들과의 교류를 통해 새로운 발견을 얻을 수 있는 기획으로 만들고자 합니다. 이 전시회를 통해 일본과 각국의 감성에 접하고, 유학생 아티스트와 일본 아티스트가 교류하며 우정을 깊게 하는 것을 목적으로 합니다. 작가가 걸어온 길과 타인이 걸어온 길이 만나 서로에게 자극을 주고, 다시 각자의 길을 나아가는, 그러한 발전의 계기가 되는 전시회를 개최합니다. NEOPHYTE=어떤 활동에 있어서 새로운 참가자. 활동의 한 축으로 '작가 교류전' 개최를 기획합니다."
+        },
+        "ja": {
+          "title": "「neophyte 2026」"
+        },
+        "en": {
+          "description": "The Artcomplex Center organizes exhibitions that connect international student artists with Japanese artists, introducing artists to the Japanese art scene. Since 2016, we have regularly planned exchange exhibitions between Japanese artists and international student artists, primarily from Asia. This exhibition is intended to be held at The Artcomplex Center of Tokyo, a gallery that supports the activities of young artists in various ways, with \"Artist Support\" as its gallery concept.\n\nThis exhibition, \"neophyte,\" aims to be a project that focuses on international students from Asia, respecting stimulation from \"beyond oneself,\" and fostering new discoveries through interaction with artists who bring different cultures. Through this exhibition, we aim for participants to experience the sensibilities of Japan and various countries, for international student artists and Japanese artists to interact, and to deepen their friendships. We will hold an exhibition that serves as an opportunity for development, where the paths artists have walked and the paths others have walked meet, stimulate each other, and then continue on their respective journeys. NEOPHYTE = a new participant in some activity. We plan to hold an \"Artist Exchange Exhibition\" as one of the pillars of our activities."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/dd8e6d69/np%20-%20Intern%20ACT.png",
       "description": "アートコンプレックスセンターでは、留学生アーティストと日本人アーティストを繋ぐ展覧会を行い、日本のアートシーンに作家を紹介する活動を行っています。2016年より日本人作家と主にアジア圏の留学生作家の交流展を定期的に企画してきました。本企画展は、「アーティストサポート」をギャラリーコンセプトとして若手アーティストの活動支援を多岐にわたり行っているギャラリー・The Artcomplex Center of Tokyo で開催をしたいと考えています。\n\n本展「neophyte-ネオファイト」は、アジアからの留学生をメインとして、「自己以外」との刺激を尊重し、かつ自身とは異なるカルチャーを携えた作家との交流によって、新たな発見を得られる企画にしたいと考えます。この展覧会を通じて、日本や各国の感性に触れ合い、留学生アーティストと日本のアーティストが交流し、友好を深めることを目的としています。作家が歩んできた道と他者が歩んできた道が出会い、刺激し合い、またそれぞれの道を進んで行く、そんな発展のきっかけとなる展覧会を開催いたします。NEOPHYTE=何らかの活動における新しい参加者。活動の一つの柱として、「作家交流展」の開催を企画いたします。",
       "medium": "mixed",
@@ -72472,8 +72675,17 @@
       "id": "7a5a0d959543",
       "source": "tokyo_art_beat",
       "title": "西村陽一郎 「光跡 －闇の呼吸－」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "니시무라 요이치로 「광적 -어둠의 호흡-」",
+          "description": "이번 전시는 니시무라 요이치로 씨의 세계로 여러분을 안내합니다. 수십 년 전에 유통기한이 지난 대형 필름에 반딧불의 빛을 직접 새겨 넣은 포토그램 작품을 전시합니다. 어둠 속에서 천천히 숨 쉬듯이 깜빡이는 빛이 자아내는 어둠과 빛, 시간과 공간, 삶과 죽음. 그가 주제로 삼고 있는 모든 것이 여기에 있습니다."
+        },
+        "en": {
+          "title": "Yoichiro Nishimura 「Traces of Light -Breath of Darkness-」",
+          "description": "This exhibition invites you into the world of Yoichiro Nishimura. We will display photogram works created by directly imprinting the light of fireflies onto large-format film that expired decades ago. Darkness and light, time and space, life and death – all woven together by the flickering light that breathes slowly in the darkness. Everything he explores as a theme is here."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/4DDNVCgBpyWzwcni6h0W7Z/7a3009dabc13d9e7d660e5897e22b0ab/744b5061-2e9d-4cd6-b9db-cfb59b5290f4.jpeg",
       "description": "今回の展示は、西村陽一郎さんの世界にご案内します。数十年前に期限の切れた大判フィルムに、ホタルの光を直接焼き付けたフォトグラム作品を展示します。暗闇の中でゆっくりと呼吸するように明滅する光が織りなす、闇と光、時間と空間、生と死。彼がテーマにしている全てがここにあるのです。",
       "medium": "photo",
@@ -72519,8 +72731,17 @@
       "id": "4db421775709",
       "source": "tokyo_art_beat",
       "title": "久井唯花 「QUALIA」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "히사이 유이카 「QUALIA」",
+          "description": "작가가 10년간 촬영해 온 사진을 통해 개인의 지각과 기억의 방식을 들여다보는 작품전입니다. 작가는 자신의 공감각 경험을 배경으로, 시각과 비시각적인 감각이 결합된 기억을 사진으로 기록해 왔습니다. 같은 풍경을 보더라도 그곳에서 보이는 것, 느껴지는 것, 기억의 질감은 사람마다 다릅니다. 본 전시에서는 사진을 '같은 것을 보기 위한 장치'가 아니라, 사람마다 다른 지각과 기억이 존재한다는 것을 들여다보기 위한 매체로 제시합니다. 2025년에는 10년간 촬영한 작품들을 모은 사진집 『QUALIA』를 간행합니다. 본 전시에서는 인쇄 작품 외에도 사진을 연속적으로 구성한 영상 작품을 전시하여, 사진집과는 다른 공간에서 『QUALIA』의 세계를 펼쳐 보입니다."
+        },
+        "en": {
+          "title": "Yuika Hisai 「QUALIA」",
+          "description": "This exhibition explores the nature of individual perception and memory through photographs the artist has taken over a period of 10 years. Against the backdrop of their own synesthetic experiences, the artist has recorded memories where visual and non-visual senses are intertwined, in the form of photographs. Even when facing the same scene, what one sees, feels, and the texture of one's memories differ from person to person. In this exhibition, photographs are presented not as \"devices for seeing the same thing,\" but as a medium for contemplating the fact that each person possesses distinct perceptions and memories. In 2025, a photobook titled 『QUALIA』, compiling works shot over 10 years, will be published. In this exhibition, in addition to print works, video works continuously composed of photographs will be displayed, unfolding the world of 『QUALIA』 in a space different from that of the photobook."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/76bbcf01/qualia%20-%20yuika%20hisai%20(1).jpg",
       "description": "作者が10年間にわたり撮影してきた写真を通して、個人の知覚や記憶のあり方を見つめる作品展です。作者は自身の共感覚体験を背景に、視覚と非視覚的な感覚が結びついた記憶を写真として記録してきました。同じ光景を前にしても、そこに見えるものや感じるもの、記憶の質感は一人ひとりが異なります。本展では、写真を「同じものを見るための装置」ではなく、人にはそれぞれ異なる知覚や記憶が存在するということを見つめるための媒体として提示します。2025年には、10年間に撮影した作品をまとめた写真集『QUALIA』を刊行。本展ではプリント作品に加え、写真を連続的に構成した映像作品を展示し、写真集とは異なる空間の中で『QUALIA』の世界を展開します。",
       "medium": "mixed",
@@ -72566,8 +72787,17 @@
       "id": "7cc6ac69a899",
       "source": "tokyo_art_beat",
       "title": "「マーガレット・ハウエルの暮らしと仕事 刊行記念展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「마가렛 하우엘의 삶과 일 출판 기념전」",
+          "description": "서적 출판에 맞춰 다이칸야마 T-SITE GARDEN GALLERY를 중심으로 전시회를 개최합니다. 서적에서 소개하는 사진과 아카이브, 물건 제작의 배경, 그리고 마가렛이 촬영한 사진을 전시합니다. 진난점, MHL. 다이칸야마점과도 연동하여, 브랜드의 세계관을 체험할 수 있는 3거점 순회형 기획을 전개합니다."
+        },
+        "en": {
+          "title": "\"Margaret Howell: A Life and Work Publication Commemoration Exhibition\"",
+          "description": "To coincide with the book's publication, an exhibition will be held primarily at Daikanyama T-SITE GARDEN GALLERY. It will feature photographs and archives introduced in the book, the background of craftsmanship, and photographs taken by Margaret. In conjunction with the Jinnan store and MHL. Daikanyama store, a three-venue touring project will be developed, allowing visitors to experience the brand's worldview."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/b5cedce6/MHbook-cover.webp",
       "description": "書籍刊行にあわせて代官山 T-SITE GARDEN GALLERY を中心にエキシビションを開催。書籍で紹介する写真やアーカイヴ、ものづくりの背景、そしてマーガレットが撮影した写真を展示します。神南店、MHL.代官山店とも連動し、ブランドの世界観を体感いただける3拠点回遊型の企画を展開します。",
       "medium": "photo",
@@ -72599,8 +72829,17 @@
       "id": "c005e9588c08",
       "source": "tokyo_art_beat",
       "title": "「現代文化展 2026～愛と消費のはざまで～」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「현대문화전 2026 ~사랑과 소비의 틈새에서~」",
+          "description": "아이돌, 버추얼 유튜버, 오시카츠(최애 활동), 매칭 앱, 인터넷 밈. 여기에 나열된 키워드들은 현대 사회를 살아가는 우리가 마음을 강하게 움직여 시간과 돈을 들여 몰두하는 대상입니다. 하지만 그 열정은 정말 개인의 내면에서 솟아난 '사랑'에 의한 것일까요? 아니면 우리는 알게 모르게 사회를 뒤덮는 '소비'의 흐름에 휩쓸리고 있는 것에 불과한 것일까요? 본 전시는 다양한 테마와 표현 기법을 활용하여 현대 문화에 숨어있는 이 큰 질문에 마주하는 팝업 전시입니다. 본 전시를 기획한 17명의 젊은이들은 매일 자신의 사랑과 소비의 틈새에서 고민하며 살아가고 있습니다. 본 전시는 그러한 젊은이들이 이끌어낸 그들 나름의 답이자, 그들이 사회에 보내는 메시지입니다. 본 전시는 무사시 대학 사회학부 키쿠치 에이키 세미나에 소속된 4학년 학생들이 사회학부에서의 자신들의 학습 성과를 팝업 전시라는 형식으로 사회에 발신하는 것입니다. 사회학자 C.W. 밀스는 개인적인 일과 사회적 현상을 연결하는 사고를 '사회학적 상상력'이라고 불렀습니다. 본 전시를 방문하신 여러분 안에 개인적인 '사랑'과 사회적인 '소비'를 연결하는 사고의 회로가 생겨나기를 바랍니다."
+        },
+        "en": {
+          "title": "\"Contemporary Culture Exhibition 2026 ~Between Love and Consumption~\"",
+          "description": "Idols, Virtual YouTubers, \"Oshi-katsu\" (fandom activities), dating apps, internet memes. The keywords listed here are objects that strongly move our hearts, and that we spend time and money on, becoming engrossed in, as we live in modern society. But is that passion truly born from an inner \"love\" within individuals? Or are we, without realizing it, merely being carried along by the \"consumption\" trends that pervade society? This exhibition is a pop-up exhibition that confronts this major question hidden within contemporary culture, using various themes and expressive methods. The 17 young people behind this exhibition live daily, grappling with the space between their own love and consumption. This exhibition is their unique answer, derived by these young people, and a message from them to society. This exhibition is an initiative by fourth-year students belonging to the Kikuchi Eiki Seminar, Faculty of Sociology, Musashi University, to disseminate the results of their learning in the Faculty of Sociology to society in the form of a pop-up exhibition. Sociologist C.W. Mills called the way of thinking that connects personal matters with social phenomena \"the sociological imagination.\" We hope that among those who visit this exhibition, a circuit of thought will emerge that connects personal \"love\" with social \"consumption.\""
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/349d99e3/202608musashi01.jpg",
       "description": "アイドル、バーチャルYouTuber、推し活、マッチングアプリ、ネットミーム。ここに並べられたキーワードは、現代社会を生きる私たちが、心を強く動かされ、時間やお金をかけて夢中になっている対象である。しかし、その熱量は本当に個人の内面から湧き上がった「愛」によるものなのだろうか。それとも、私たちは知らず知らずのうちに、社会を覆う「消費」のトレンドに乗せられているにすぎないのだろうか。本展は、様々なテーマと表現手法を用いながら、現代文化に潜むこの大きな問いに向き合うポップアップ展である。本展を手がける17名の若者たちは、日々自らの愛と消費の狭間で悩みながら生きている。本展は、そうした若者たちが導き出した、彼らなりの答えであり、彼らからの社会へのメッセージである。本展は、武蔵大学社会学部・菊地映輝ゼミナールに所属する4年生たちが、社会学部における自らの学びの成果をポップアップ展という形式で社会に発信するものである。社会学者C.W.ミルズは、個人的な事柄と社会的事象とを結びつける思考を「社会学的想像力」と呼んだ。本展を訪れた皆さんの中に、個人的な「愛」と社会的な「消費」とを結びつける思考の回路が生まれれば幸いである。",
       "medium": "mixed",
@@ -72646,8 +72885,17 @@
       "id": "2d21731586dd",
       "source": "tokyo_art_beat",
       "title": "「千葉市美術館コレクション選 特集：江戸・明治の装い／本城直季」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「지바시 미술관 컬렉션 선 특집: 에도・메이지 시대의 복식 / 혼조 나오키」",
+          "description": "지바시 미술관의 컬렉션은 세 가지 수집 방침인 '지바시를 중심으로 한 보소 지역 관련 작품', '근세부터 근대까지의 일본 회화와 판화', '1945년 이후의 현대 미술'에 따라 수집되었습니다. 이 전시실에서는 약 10,000점의 컬렉션 중에서 각 수집 방침을 대표하는 작품들을 순차적으로 소개하고 있습니다. 약 1개월마다 (현대 미술은 약 3개월마다) 전시 교체를 진행하여 컬렉션의 하이라이트를 감상하실 수 있습니다. 다채로운 지바시 미술관의 컬렉션을 만끽하시기 바랍니다."
+        },
+        "en": {
+          "title": "\"Chiba City Museum of Art Collection Selection Special Feature: Edo and Meiji Attire / Naoki Honjo\"",
+          "description": "The Chiba City Museum of Art's collection is assembled according to three collection policies: \"Works related to Boso, centered on Chiba City,\" \"Japanese paintings and prints from the early modern to modern periods,\" and \"Contemporary art from 1945 onwards.\" In this exhibition room, representative works from each collection policy are sequentially introduced from among approximately 10,000 items. Exhibitions are changed approximately every month (contemporary art approximately every three months) to showcase the highlights of the collection. Please enjoy the diverse collection of the Chiba City Museum of Art."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/84ca25d2/collection_2923038-863x1280.jpeg",
       "description": "千葉市美術館のコレクションは、3つの収集方針「千葉市を中心とした房総ゆかりの作品」、「近世から近代の日本絵画と版画」、「1945年以降の現代美術」に沿って収集されています。この展示室では、約10,000点のコレクションの中から、それぞれの収集方針を代表する作品を順次ご紹介しています。約1ヶ月おき（現代美術は約3ヶ月おき）を目安に展示替えを行い、コレクションのハイライトをご覧いただきます。バラエティに富んだ千葉市美術館のコレクションをご堪能ください。",
       "medium": "mixed",
@@ -72686,8 +72934,17 @@
       "id": "3d8e09d72912",
       "source": "tokyo_art_beat",
       "title": "飯沼珠実 「Salut, Mr Bruno Taut」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "이이누마 타마미 「Salut, Mr Bruno Taut」",
+          "description": "KANA KAWANISHI PHOTOGRAPHY는, 2026년 8월 29일(토)부터 이이누마 타마미 개인전 『Salut, Mr Bruno Taut』를 개최합니다.\n\n본 전시는 이이누마 타마미의 동명 사진집 『Salut, Mr Bruno Taut』의 출간 기념 전시회입니다. 이이누마는 라이프치히/파리/도쿄 세 도시에 활동 거점을 두고 건축/사진/출판 매체를 자신의 몸을 통해 논리적으로 구축하며 발표 활동을 해왔습니다. 본 시리즈에서는 건축가 브루노 타우트가 1920~30년대 독일에 조성한 '지들룽(집합 주택)'을 피사체로, 2010년부터 2014년에 걸쳐 베를린 및 마그데부르크에서 촬영된 작품을 발표합니다.\n\n2008년 베를린으로 이주한 이이누마는 시내 주변부에 흩어져 있는 집합 주택을 찾아다니며 오랜 시간 동안 그 풍경을 촬영했습니다. 그곳에서 응시하는 것은 근대 건축의 조형이나 구조를 기록하는 것만이 아닙니다. 벽면의 색채, 창가의 분위기, 주차된 차, 다시 칠해진 흔적, 그리고 건물과 함께 시간을 쌓아온 나무들. 그러한 세부를 통해 건축이 오늘날까지 사람들의 삶 속에서 계속 사용되어 온 시간과 그 축적의 모습이 드러납니다.\n\n이이누마에게 이 사진들은 타우트에게 '당신의 건물은 지금 이렇게 살고 있습니다'라고 전하는 편지나 엽서와 같은 것이기도 합니다. 촬영 장소로 선택된 곳은 건물과의 대화가 성립하는 장소입니다. 기존의 이른바 '건축 사진'과는 거리를 두면서, 타우트에게 한 통의 편지를 보내듯이 촬영된 사진은 말하자면 건축을 둘러싼 스케치라고 할 수 있습니다. 스케치는 처음 한 번뿐이며, 두 번째 다시 그리거나 깨끗하게 정리하는 것은 성립하지 않는다—그 감각이 한 장 한 장의 사진에 고유한 즉시성을 부여하고 있습니다.\n\n베를린은 흐린 날이 많아 촬영은 종종 두꺼운 구름 아래에서 이루어졌습니다. 그 결과, 하늘의 부드러운 밝기와 건물에 적용된 선명한 색채 사이에 기분 좋은 대비가 생겨났습니다. 그 색채들이 1930년대부터 현재까지 이 도시에 존재했다는 사실은 이이누마에게 순수한 놀라움이자 고양감이었습니다. 혹독한 베를린의 겨울을 선명한 색채로 조금이라도 활기차게 이겨내려 했던 타우트의 의도와도 공명하는 풍경입니다.\n\n촬영 초기에는 인물 사진 촬영에 자주 사용되는 중형 카메라 'Mamiya RZ67'이 사용되었습니다. 이이누마에게 건축은 단순한 구조물이 아니라 사람과 동등한 존재감을 가진 대상으로 나타났다고 합니다. 한편, 영하의 베를린에서 반복된 필름 불량 및 현상 문제 끝에 작업은 점차 디지털로 전환되었습니다. 이러한 촬영 방식의 변화 또한 본 시리즈에 흐르는 시간의 일부로 새겨져 있습니다.\n\n본 작품에서 건물과 더불어 중요한 피사체가 되는 것은 부지 내에 심어진 나무들입니다. 건물 완성 후 심어져 오랜 세월을 거쳐 성장한 그 나무들은 건축의 역사를 이야기하는 배우처럼 그 자리에 서 있습니다. 건물의 벽면이나 나무, 그곳에 생긴 음영이나 거리감은 시각적인 정보에 그치지 않고 보는 이의 신체 감각에도 작용합니다. 벽면이 집적된 듯한 사진집을 다 읽은 후 거리에 나가면 실제 벽이 이쪽으로 다가오는 것처럼 느껴지는—그러한 촉각성 또한 본 시리즈의 특징 중 하나입니다.\n\n영어와 프랑스어가 혼재된 제목 『Salut, Mr Bruno Taut』에는 국제색이 풍부한 현대 베를린에서 독일뿐만 아니라 다양한 배경을 가진 사람들과 불완전한 여러 언어를 섞어가며 대화를 거듭해 온 이이누마 자신의 경험에 기반한 언어 감각이 반영되어 있습니다. 또한 일본과도 깊은 인연을 가진 독일 건축가 타우트를 둘러싼 본 작품에서 하나의 언어로 통일하는 것이 아니라 여러 언어가 교차하는 상태 그 자체를 제목에 남기고 싶다는 의도도 담겨 있습니다.\n\n일본으로 망명 경험이 있고 일본 문화에 깊은 관심을 가졌던 브루노 타우트와 도쿄에서 태어나 베를린으로 건너간 이이누마. 다른 시대와 땅을 살았던 두 사람의 시선은 건축과 도시의 풍경을 통해 교차합니다. 건축과 도시의 풍경에 남겨진 시간의 층, 그 속에서 영위되어 온 사람들의 삶, 그리고 건물과의 대화에서 탄생한 단 한 번의 스케치. 이이누마 타마미의 사진을 통해 드러나는 타우트의 건축과 시간이 흘러도 여전히 살아 숨 쉬는 베를린의 풍경을 꼭 감상해 주십시오."
+        },
+        "en": {
+          "title": "Tamami Iinuma \"Salut, Mr Bruno Taut\"",
+          "description": "KANA KAWANISHI PHOTOGRAPHY will hold a solo exhibition by Tamami Iinuma, titled 'Salut, Mr Bruno Taut,' starting Saturday, August 29, 2026.\n\nThis exhibition commemorates the publication of Tamami Iinuma's photo book of the same title, 'Salut, Mr Bruno Taut.' Iinuma has based her activities in three cities—Leipzig, Paris, and Tokyo—and has been presenting her work by logically constructing the mediums of architecture, photography, and publishing through her own body. This series features works photographed in Berlin and Magdeburg between 2010 and 2014, with the 'Siedlungen' (housing estates) designed by architect Bruno Taut in Germany during the 1920s and 1930s as subjects.\n\nIinuma, who moved to Berlin in 2008, spent a long time photographing the landscapes of the scattered housing estates on the city's periphery. What she observes there is not merely a record of the forms and structures of modern architecture. The colors of the walls, the atmosphere by the windows, parked cars, traces of repainting, and trees that have aged with the buildings—through these details, the passage of time during which architecture has been continuously used in people's lives until today, and the nature of that accumulation, emerge.\n\nFor Iinuma, these photographs are also like letters or postcards to Taut, conveying, 'Your buildings are inhabited like this now.' The chosen shooting locations are places where a conversation with the buildings can be established. Distancing herself from conventional 'architectural photography,' the photographs, taken as if sending a message to Taut, can be described as sketches revolving around architecture. A sketch is a one-time creation; a second drawing or a clean copy is not possible—this sensibility gives each photograph its unique immediacy.\n\nBerlin often has cloudy days, and photography was frequently conducted under thick clouds. As a result, a pleasant contrast is created between the soft brightness of the sky and the vibrant colors applied to the buildings. The fact that these colors have existed in this city from the 1930s to the present day was a pure surprise and exhilaration for Iinuma. It is a landscape that resonates with Taut's intention to overcome the harsh Berlin winters with vibrant colors, even if just a little.\n\nIn the early stages of shooting, a medium-format camera, the 'Mamiya RZ67,' often used for portrait photography, was employed. Iinuma states that for her, architecture was not merely a structure but appeared as a subject with a presence equal to that of a person. However, after repeated film malfunctions and development issues in sub-zero Berlin, the production gradually shifted to digital. This change in shooting method is also etched as part of the time flowing through this series.\n\nIn this work, the trees planted on the premises are as important a subject as the buildings. Planted after the buildings' completion and grown over many years, these trees stand there like actors narrating the history of architecture. The building walls, trees, and the shadows and distances created there do not merely convey visual information but also appeal to the viewer's physical senses. After finishing a photo book filled with accumulated wall surfaces, one might feel as if actual walls are pressing in when stepping out into the city—such tactility is also one of the characteristics of this series.\n\nThe title 'Salut, Mr Bruno Taut,' which mixes English and French, reflects Iinuma's own linguistic sensibility, based on her experiences of conversing with people from diverse backgrounds, not only German but also various others, using imperfect multiple languages in the international and diverse contemporary Berlin. Furthermore, in this work revolving around Bruno Taut, a German architect with deep ties to Japan, there is an intention to retain the state of multiple languages intersecting in the title itself, rather than unifying it into a single language.\n\nBruno Taut, who had experience seeking asylum in Japan and a deep interest in Japanese culture, and Iinuma, who was born and raised in Tokyo and moved to Berlin. The gazes of these two individuals, who lived in different eras and lands, intersect through architecture and urban landscapes. The layers of time left in architectural and urban landscapes, the lives of people lived within them, and the one-time sketches born from dialogue with buildings. Please come and see Taut's architecture and the Berlin landscape that still breathes through time, brought to life through Tamami Iinuma's photographs."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/337aea57/main%20(1).jpg",
       "description": "KANA KAWANISHI PHOTOGRAPHYは、2026年8月29日（土）より飯沼珠実個展『Salut, Mr Bruno Taut』を開催いたします。\n\n本展は、飯沼珠実による同名写真集『Salut, Mr Bruno Taut』の刊行記念展覧会です。飯沼は、ライプツィヒ／パリ／東京の三都市に活動拠点をおき、建築／写真／出版のメディウムを自身の身体を通して論理的に構築しながら、発表活動を行ってきました。本シリーズでは、建築家ブルーノ・タウトが1920〜30年代にドイツで手がけた「ジードルング（集合住宅）」を被写体に、2010年から2014年にかけてベルリンおよびマクデブルクで撮影された作品を発表します。\n\n2008年にベルリンへ移住した飯沼は、市内の周縁部に点在する集合住宅を訪ね歩きながら、長い時間をかけてその風景を撮影していきました。そこで見つめられているのは、近代建築の造形や構造を記録することだけではありません。壁面の色彩、窓辺の気配、駐車された車、塗り替えられた跡、そして建物とともに時を重ねてきた木々。そうした細部を通して、建築が今日まで人々の暮らしのなかで使われ続けてきた時間と、その蓄積のありようが浮かび上がります。\n\n飯沼にとってこれらの写真は、タウトに向けて「あなたの建物は、いまこのように住まわれています」と伝える手紙やポストカードのようなものでもあります。撮影場所として選ばれたのは、建物とのあいだに会話が成立する場所。既存のいわゆる「建築写真」から距離を取りながら、タウトに一枚の便りを届けるように撮影された写真は、いわば建築をめぐるスケッチといえるでしょう。スケッチは最初の一度きりのものであり、二度目の描き直しや清書は成立しない—その感覚が、一枚一枚の写真に固有の即時性を与えています。\n\nベルリンでは曇天の日が多く、撮影はしばしば厚い雲の下で行われました。その結果、空の柔らかな明るさと、建物に施された鮮やかな色彩とのあいだに、心地よいコントラストが生まれています。それらの色彩が、1930年代から現在までこの街に存在していたという事実は、飯沼にとって純粋な驚きであり、高揚でもありました。厳しいベルリンの冬を、鮮やかな色彩によって少しでも元気に乗り越えていこうとしたタウトの意図とも響き合う風景です。\n\n撮影初期には、ポートレート撮影に用いられることの多い中判カメラ「Mamiya RZ67」が使用されていました。飯沼にとって建築は、単なる構造物ではなく、人と等しい存在感を持つ対象として立ち現れていたといいます。一方で、氷点下のベルリンで繰り返されたフィルムの不調や現像トラブルを経て、制作は次第にデジタルへと移行していきました。こうした撮影手法の変化もまた、本シリーズに流れる時間の一部として刻まれています。\n\n本作において、建物と並んで重要な被写体となっているのが、敷地内に植えられた木々です。建物の完成後に植えられ、長い年月を経て成長したそれらの木々は、建築の歴史を語る役者のように、その場に佇んでいます。建物の壁面や樹木、そこに生じた陰影や距離感は、視覚的な情報にとどまらず、見る者の身体感覚にも働きかけます。壁面が集積されたような写真集を読み終えたあと、街に出ると、実際の壁がこちらへ迫ってくるように感じられる—そのような触覚性もまた、本シリーズの特徴のひとつです。\n\n英語とフランス語が混在するタイトル『Salut, Mr Bruno Taut』には、国際色豊かな現代ベルリンで、ドイツのみならずさまざまな背景を持つ人々と、不完全な複数の言語を交えながら会話を重ねてきた、飯沼自身の経験にもとづく言語感覚が反映されています。また、日本とも深い縁を持つドイツの建築家タウトをめぐる本作において、ひとつの言語に統一するのではなく、複数の言語が交差する状態そのものをタイトルに残したいという意図も込められています。\n\n日本への亡命経験を持ち、日本文化への深い関心を抱いていたブルーノ・タウトと、東京に生まれ育ちベルリンへ渡った飯沼。異なる時代と土地を生きた二人の視線は、建築と都市の風景を介して交差していきます。建築や都市の風景に残された時間の層、そのなかで営まれてきた人々の暮らし、そして建物との対話から生まれた一度きりのスケッチ。飯沼珠実の写真を通して立ち上がる、タウトの建築と、時を経てなお息づくベルリンの風景を、ぜひご覧ください。",
       "medium": "photo",
@@ -72733,8 +72990,17 @@
       "id": "2c7fb0f52c99",
       "source": "tokyo_art_beat",
       "title": "竹久直樹 「撮影：竹久直樹」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "타케히사 나오키 「사츠에이: 타케히사 나오키」",
+          "description": "8월 29일(토)부터 혼야 아오하타에서 사진가 타케히사 나오키의 사진집 『사츠에이』(torch press, 2026년) 출간을 기념하는 전시회를 개최합니다. 본 전시는 사진집의 제목이기도 한 '사츠에이'를 더욱 깊이 고찰하기 위해 신작 영상 작품과 타케히사 본인이 촬영한 사진 전시, 그리고 다양한 게스트를 초청한 토크 이벤트를 진행할 예정입니다.\n\n사진집 『사츠에이: 타케히사 나오키』는 1995년생 타케히사가 현재 진행형으로 계속 맡고 있는 '전시회 기록 촬영'을 엮은 것입니다. 타케히사가 촬영하는 전시회는 미술관이나 갤러리에만 국한되지 않고, 야외나 폐허, 대안 공간 등 시대를 반영하는 장소가 다수 포함됩니다. 또한 타케히사는 그러한 장소에서의 설치 등에도 입회함으로써 결과적으로 현대 전시회에 참여하는 사람들과 사물들의 관계성을 포괄적으로 기록해 왔습니다. 그러나 무엇보다 본 작품의 특이성은 '타인의 다양한 작품을 계속 기록한 결과, 그것이 타케히사 자신에게도 작품이 되었다'는 점에 있을 것입니다. 제목이기도 한 '사츠에이'라는 단어는 에도 막부 말기에 란가쿠(네덜란드 학문)에서 '물체에 대해 광학적으로 상을 정착시키는 기술 공정'을 번역하는 과정에서 만들어진 조어입니다. 그리고 기술 개발이 아닌 기술을 수입하여 사용하는 것에서 시작된 일본 사진사에서 독자적인 개념으로 발전해 왔습니다. 타케히사는 이 '사츠에이'를 '정리될 수 없는 것들이 존재하며, 그것을 있는 그대로 보여주고 남길 수 있는 기술'로 재해석하여 다양한 전시회의 기록을 하나의 작품으로 엮어냅니다. 주체가 정해지지 않음으로써만 달성될 수 있는 기록이라는 것이 있다면, 그것은 과연 어떤 것일까요? 이 기회에 사진집과 전시회를 함께 관람해 주시면 감사하겠습니다.\n\n[관련 이벤트]\n토크 이벤트 '회견: 사츠에이'\n일시: 2026년 8월 29일 19:00~20:30\n등단자: power/point (타케히사 나오키 × 나카무라 하루미치 × 야기 헤이지로)\n장소: 혼야 아오하타\n요금: 1000엔 (사전 신청 필수) (정원 20명)\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Naoki Takehisa \"Satsuei: Naoki Takehisa\"",
+          "description": "Honya Aohata will host an exhibition starting Saturday, August 29, commemorating the publication of photographer Naoki Takehisa's photo book 'Satsuei' (torch press, 2026). This exhibition aims to delve deeper into 'Satsuei,' which is also the title of the photo book, by presenting new video works, photographs taken by Takehisa himself, and talk events featuring various guests.\n\nThe photo book 'Satsuei: Naoki Takehisa' compiles 'exhibition documentation photography,' a task Takehisa, born in 1995, has continuously undertaken. The exhibitions Takehisa photographs are not limited to museums and galleries but include many locations that reflect the times, such as outdoor spaces, ruins, and alternative spaces. By also attending the setup of such locations, Takehisa has comprehensively documented the relationships between people and objects involved in contemporary exhibitions. However, the most unique aspect of this work is arguably that 'as a result of continuously documenting various works by others, these documentations have also become works by Takehisa himself.' The word 'Satsuei,' which is also the title, is a neologism created during the Edo Bakumatsu period in the process of translating the 'technical process of optically fixing an image onto an object' in Rangaku (Dutch Studies). It has since developed into a unique concept in Japanese photographic history, which began not with technological development but with the import and use of technology. Takehisa reinterprets this 'Satsuei' as 'a technique that allows for the existence of things that cannot be neatly organized, and for showing and preserving them as they are,' compiling records of various exhibitions into a single work. If there is such a thing as a record that can only be achieved when the subject is undefined, what exactly would it be? We hope you will take this opportunity to view both the photo book and the exhibition.\n\n[Related Event]\nTalk Event 'Interview: Satsuei'\nDate: August 29, 2026, 19:00–20:30\nSpeakers: power/point (Naoki Takehisa × Harumichi Nakamura × Heijiro Yagi)\nVenue: Honya Aohata\nFee: 1000 yen (advance registration required) (Capacity: 20 people)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/bc4f04de/satsuei_3000px-1_2c8029fd-692f-451a-a083-8a033b2df30a.webp",
       "description": "8月29日（土）より本屋青旗にて、写真家・竹久直樹の写真集『撮影』（torch press、2026年）の刊行を記念した展覧会を開催します。本展は、写真集のタイトルにもなっている「撮影」をさらに深く考察するために、新作の映像作品や竹久自身が撮影した写真の展示、さらには多様なゲストをお招きしてのトークイベントを行うものとなります。\n\n『撮影：竹久直樹』という写真集は、1995年生まれの竹久が現在進行形で引き受け続けている「展覧会の記録撮影」をまとめたものです。竹久が撮影する展覧会は美術館やギャラリーにとどまらず、屋外や廃墟、オルタナティブスペースといった時代を反映したような場所が多数含まれます。また竹久はそうした場所での設営などにも立ち会うことで、結果として現代の展覧会に携わる人々や事物の関係性を包括的に記録し続けてきました。しかし、何よりも本作の特異さは「他人の様々な作品を記録し続けた結果、それが竹久自身にとっての作品にもなっている」という点にあるでしょう。タイトルにもなっている「撮影」という言葉は、江戸幕末期に蘭学における「物体に対して光学的に像を定着させる技術工程」を翻訳する過程で作り出された造語です。そして、技術開発ではなく技術を輸入し使うところから始まった日本の写真史において独自の概念として発展してきました。竹久はこの「撮影」を、「まとまりようのないものたちが在り、それをそのまま見せる・残すことができてしまう技術」として読み替え、さまざまな展覧会の記録をひとつの作品としてまとめ上げます。主体が定まらないことでしか達成され得ないような記録というものがあるとしたら、それは一体どのようなものなのか。ぜひこの機会に写真集ならびに展覧会を合わせてご高覧いただけますと幸いです。\n\n[関連イベント]\nトークイベント「会見：撮影」\n日時: 2026年8月29日19:00〜20:30\n登壇者: power/point（竹久直樹 ×中村晴道×八木幣二郎）\n会場: 本屋青旗\n料金: 1000円（要事前申込み）（定員20名）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -97015,8 +97281,15 @@
     {
       "id": "ff06d9c7053f",
       "name": "宮ちゃん",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "미야짱"
+        },
+        "en": {
+          "name": "Miya-chan"
+        }
+      }
     },
     {
       "id": "7536e2d09145",
