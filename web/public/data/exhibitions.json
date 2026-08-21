@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T16:28:48.537527+00:00",
+  "generated_at": "2026-08-21T19:12:32.723252+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -35952,7 +35952,7 @@
       "price_max": null,
       "start_date": "2026-07-04",
       "end_date": "2026-08-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "57460366dbd3",
@@ -41188,22 +41188,22 @@
       "popularity_score": null
     },
     {
-      "id": "5c7ce321938d",
+      "id": "6cbe487bf044",
       "source": "tokyo_photographic_art_museum",
-      "title": "ふたたびくみたてる 日本の新進作家 vol.23",
+      "title": "デュエット――アジアン・コンテンポラリー",
       "lang": "ja",
       "tr": {
         "ko": {
-          "title": "다시 조립하다 일본의 신진 작가 vol.23",
-          "description": "지금 주목받는 5명의 작가 작품을 소개하고, 새로운 이미지의 가능성을 탐구합니다. 도쿄도 사진미술관에서는 사진·영상의 가능성에 도전하는 창조적인 정신을 지원하고, 장래성 있는 작가를 발굴하며, 새로운 창조 활동의 장을 마련하기 위해 2002년부터 지속적으로 「일본의 신진 작가」전을 개최하고 있습니다. 사진과 영상은 사물을 찍고 남기는 매체입니다. 그러나 찍힌 이미지는 편집이나 놓인 맥락에 따라 다른 의미를 띠기도 합니다. 따라서 때로는 존재하지 않는/않았던 기억이나 기록조차도 상기시킵니다. 그곳에서의 경계선은 점점 모호해지고 있으며, 이미지 속 보이는 것과 보이지 않는 것, 실존과 허구, 존재와 부재의 경계의 흔들림이 내포되어 있습니다. 제23회를 맞이하는 본 전시에서는 작가들이 실제로 존재했던 기억이나 소재, 기술, 그리고 각자가 가진 맥락을 파악하여 새로운 이미지로 재구성해 나가는 과정에 주목합니다. 진위 여부에 혼란스러워하는 일이 많은 일상에서 우리는 정보와 어떻게 마주하고, 무엇을 믿으며, 세상을 어떻게 인식하고 있는가? 본 전시에서는 그 질문을 다시 한번 생각해 볼 계기가 되는 작품들을 소개합니다. 출품 작가: 이치다 사유리, 카리베 타로, 노무라 자이, 하시모토 바쿠, 후지쿠라 아사코 이치다 사유리 〈공석 (Kūseki)〉에서 2025년 칠판에 실크스크린 프린트 작가 소장 ⓒSayuri Ichida 전시 풍경: 「Jerwood/Photoworks Awards 5」Drawing Room (런던, 2026년) Originally commissioned through the Jerwood/Photoworks Awards, supported by Jerwood Foundation, Photoworks and Arts Council England 카리베 타로 《저 바다에 보이는 바위를, 활로 쏴라 #30》 2022년 잉크젯 프린트 작가 소장 ⓒTaro Karibe 카리베 타로 《저 바다에 보이는 바위를, 활로 쏴라 #6》 2022년 잉크젯 프린트 작가 소장 ⓒTaro Karibe 노무라 자이 《바이오포톤은 이토록 빛난다 (하얀 조끼를 입은 왜소증 여성, 호수 앞에서 혼자 미소, 1981)》 2026년 유리에 UV 잉크젯 프린트, 스테인리스 금구 작가 소장 ⓒZai Nomura 노무라 자이 《바이오포톤은 이토록 빛난다 (노란색 수영복을 입고 선글라스를 낀 콧수염 중년 남성과 흰색 비키니를 입은 동년배 여성, 해수욕객으로 붐비는 해변에서, 1980)》 2025년 유리에 UV 잉크젯 프린트, 스테인리스 금구 작가 소장 ⓒZai Nomura 하시모토 바쿠 《Milling Stop-Motion (가제)》 2024년- 2채널 비디오 설치 작가 소장 ⓒBaku Hashimoto ※참고 도판 후지쿠라 아사코 《4 Tales of Open Sunrise City (가제)》 2026년 2채널 비디오 설치 작가 소장 ⓒAsako Fujikura ※참고 도판 자신의 기억이나 경험, 시간을 주제로 조각적인 오브제를 제작하는 이치다 사유리, 생성 AI 기법을 능숙하게 도입하여 인간의 지각과 이미지를 시각화하는 카리베 타로, 사진이나 조각, 기계 장치 등 다양한 매체를 사용하여 제작하는 노무라 자이, 자신의 장치나 도구를 이용한 스톱모션 애니메이션으로 시각 표현을 탐구하는 하시모토 바쿠, 실사 영상이나 3DCG, AI 등을 사용하여 가상의 도시를 영상화하는 후지쿠라 아사코. 지금 주목받는 5명의 작가 작품이 한자리에 모였습니다. 기록된 것, 상상된 것, 그 경계에서 탄생하는 새로운 이미지의 가능성을 탐구합니다."
+          "title": "듀엣 — 아시안 컨템포러리",
+          "description": "본 전시는 \"사랑에 대하여 아시안 컨템포러리\"전(2018년)에 이은 시리즈의 두 번째 전시이며, 삼영당 샤먼 촬영예술센터의 디렉터인 텅칭윈(滕青云) 씨와의 공동 기획입니다. 삼영당은 국제적으로 활동하는 사진작가 롱롱 & 인리(榮榮＆映里)에 의해 2007년 베이징에서 설립되었으며, 사진 복합 시설로서 중요한 역할을 해왔습니다. 서로 다른 시점과 배경을 가진 작품들이 같은 공간에 나란히 놓임으로써, 여러 시점, 문화, 시간, 그리고 개인의 경험이 교차하고, 그로부터 발생하는 관계성과 울림을 탐구합니다. 출품 작가: 무라코시 토시야, 왕투오, 스이 타카, 뤄양, 장펑이, fumiko imano"
         },
         "en": {
-          "title": "Reassembling: Emerging Japanese Artists vol.23",
-          "description": "Introducing works by five currently noteworthy artists and exploring the possibilities of new images. The Tokyo Photographic Art Museum has continuously held the \"Emerging Japanese Artists\" exhibition since 2002, supporting creative spirits that challenge the possibilities of photography and video, discovering promising artists, and providing a venue for the development of new creative activities. Photography and video are media that capture and preserve things. However, captured images can take on different meanings depending on editing and context. Therefore, they sometimes evoke memories or records that did not/do not exist. The boundaries therein are becoming increasingly ambiguous, encompassing the fluctuation of boundaries between the visible and invisible, existence and fiction, presence and absence within images. In this 23rd exhibition, we focus on the process by which artists draw upon actually existing memories, materials, techniques, and their respective contexts to reassemble them into new images. In a daily life often confused by truth and falsehood, how do we confront information, what do we believe, and how do we perceive the world? This exhibition introduces works that provide an opportunity to reconsider these questions. Exhibiting Artists: Sayuri Ichida, Taro Karibe, Zai Nomura, Baku Hashimoto, Asako Fujikura. Sayuri Ichida <Empty Seat (Kūseki)> from 2025, silkscreen print on blackboard, Artist's collection. ⓒSayuri Ichida. Exhibition view: \"Jerwood/Photoworks Awards 5\" Drawing Room (London, 2026). Originally commissioned through the Jerwood/Photoworks Awards, supported by Jerwood Foundation, Photoworks and Arts Council England. Taro Karibe <Shoot the Rock Visible in That Sea with a Bow #30>, 2022, inkjet print, Artist's collection. ⓒTaro Karibe. Taro Karibe <Shoot the Rock Visible in That Sea with a Bow #6>, 2022, inkjet print, Artist's collection. ⓒTaro Karibe. Zai Nomura <Biophotons Shine So Brightly (Dwarf woman in a white vest, smiling alone in front of a lake, 1981)>, 2026, UV inkjet print on glass, stainless steel fittings, Artist's collection. ⓒZai Nomura. Zai Nomura <Biophotons Shine So Brightly (Middle-aged man with a mustache wearing yellow swim trunks and sunglasses, and a woman of the same age in a white bikini, at a crowded beach with bathers, 1980)>, 2025, UV inkjet print on glass, stainless steel fittings, Artist's collection. ⓒZai Nomura. Baku Hashimoto <Milling Stop-Motion (tentative title)>, 2024-, 2-channel video installation, Artist's collection. ⓒBaku Hashimoto. *Reference image. Asako Fujikura <4 Tales of Open Sunrise City (tentative title)>, 2026, 2-channel video installation, Artist's collection. ⓒAsako Fujikura. *Reference image. Sayuri Ichida, who creates sculptural objects based on her own memories, experiences, and time; Taro Karibe, who skillfully incorporates generative AI methods to visualize human perception and images; Zai Nomura, who creates using various media such as photography, sculpture, and mechanical devices; Baku Hashimoto, who explores visual expression through stop-motion animation using his own devices and tools; and Asako Fujikura, who visualizes fictional cities using live-action footage, 3DCG, and AI. Works by these five currently noteworthy artists are gathered here. We explore the possibilities of new images born at the boundary between what is recorded and what is imagined."
+          "title": "Duet — Asian Contemporary",
+          "description": "This exhibition is the second in a series following \"On Love: Asian Contemporary\" (2018), and is a collaborative project with Teng Qingyun, director of Three Shadows Xiamen Photography Art Centre. Three Shadows was established in Beijing in 2007 by internationally active photographers RongRong & inri, and has played a significant role as a comprehensive photography complex. By juxtaposing works with different perspectives and backgrounds in the same space, the exhibition explores the intersection of multiple viewpoints, cultures, times, and individual experiences, as well as the relationships and resonances that emerge from them. Participating Artists: Toshiya Murakoshi, Wang Tuo, Taka Sui, Luo Yang, Jiang Pengyi, fumiko imano"
         }
       },
-      "poster_image_url": "https://topmuseum.jp/wp-content/uploads/2026/01/CJP23_karibe_web.jpg",
-      "description": "いま注目の５名の作家の作品を紹介、新たなイメージの可能性を探る 東京都写真美術館では、写真・映像の可能性に挑戦する創造的精神を支援し、将来性のある作家を発掘するとともに、新しい創造活動の展開の場として、2002年より継続的に「日本の新進作家」展を開催しています。 写真や映像は、物事を写し、残すメディアです。しかし、写し取られたイメージは、編集や置かれた文脈によって異なる意味を帯びることもあります。そのため、ときに存在しない／しなかった記憶や記録さえも想起させます。そこにおける境界線は、ますます曖昧になりつつあり、イメージのなかの見えるものと見えないもの、実存と虚構、存在と不在の境界の揺らぎが内包されています。 第23回目となる本展では、作家たちが実際に存在した記憶や素材、技術、それぞれが持つコンテクストを汲み取り、新たなイメージへと組み立てていくプロセスに着目します。真偽に惑わされることの多い日常において、私たちは情報とどのように向き合い、何を信じ、どのように世界を捉えているのか。本展では、その問いを改めて考える契機となる作品を紹介します。 出品作家：市田小百合、苅部太郎、野村在、橋本麦、藤倉麻子 市田小百合〈空席（Kūseki）〉より 2025年 黒板にシルクスクリーンプリント 作家蔵 ⓒSayuri Ichida 展示風景：「Jerwood/Photoworks Awards 5」Drawing Room（ロンドン、2026年） Originally commissioned through the Jerwood/Photoworks Awards, supported by Jerwood Foundation, Photoworks and Arts Council England 苅部太郎《あの海に見える岩を、弓で射よ #30》2022年 インクジェット・プリント 作家蔵 ⓒTaro Karibe 苅部太郎《あの海に見える岩を、弓で射よ #6》2022年 インクジェット・プリント 作家蔵 ⓒTaro Karibe 野村在《バイオフォトンはかくも輝く（白いチョッキを着た小人症の女性、湖の前で一人で笑顔、1981）》2026年 ガラスにUV-インクジェット・プリント、ステンレス金具 作家蔵 ⓒZai Nomura 野村在《バイオフォトンはかくも輝く（黄色の海水パンツを履いてサングラスをした口髭の中年男性と白色のビキニを着た同年代の女性、海水客で賑わうビーチにて、1980）》2025年 ガラスにUV-インクジェット・プリント、ステンレス金具 作家蔵 ⓒZai Nomura 橋本麦《Milling Stop-Motion (tentative title)》2024年- ２チャンネル・ヴィデオインスタレーション 作家蔵 ⓒBaku Hashimoto ※参考図版 藤倉麻子《4 Tales of Open Sunrise City (tentative title)》2026年 ２チャンネル・ヴィデオインスタレーション 作家蔵 ⓒAsako Fujikura ※参考図版 自身の記憶や経験、時間をテーマに彫刻的なオブジェクトを制作する市田小百合（いちださゆり）、生成AIの手法を巧みに取り入れ人間の知覚とイメージを視覚化する苅部太郎（かりべたろう）、写真や彫刻、機械装置など多様なメディアを用いて制作を行う野村在（のむらざい）、自身の装置や道具を用いたコマ撮りアニメーションによる視覚表現を探求する橋本麦（はしもとばく）、実写映像や3DCG、AIなどを用いて架空の都市を映像化する藤倉麻子（ふじくらあさこ）。いま注目の5名の作家の作品が集結。記録されたもの、想像されたもの、その境界で生まれる新たなイメージの可能性を探ります。",
+      "poster_image_url": "https://topmuseum.jp/wp-content/uploads/2026/06/DarkAddictionjiangPengyi2013.jpg",
+      "description": "このたび、東京都写真美術館では、中国と日本の現代写真・映像作品を紹介する展覧会「デュエット――アジアン・コンテンポラリー」を開催いたします。本展は、「愛について アジアン・コンテンポラリー」展（2018年）に続くシリーズ第2回目の展覧会であり、三影堂厦門撮影芸術中心のエグゼクティブ・ディレクターを務めるテン・チンユン（滕青云）氏との共同企画です。 国際的に活躍する写真家ユニット、榮榮＆映里（ロンロン＆インリ）によって2007年に北京で設立された三影堂撮影芸術中心は、写真のための複合施設として重要な役割を果たしてきました。2015年には福建省の厦門（アモイ）に新たな拠点がオープンし、中国の写真文化を国内外に発信する中心的な場となっています。 「デュエット」とは、本来二人で奏でる音楽形式を意味します。異なる声や旋律が互いに応答しながら、一つの表現を形づくるそのあり方は、本展におけるアーティストたちの対話にも重なります。本展では、この「デュエット」という言葉を手がかりに、異なる視点や背景をもつ作品が同じ空間に並び、複数の視点や文化、時間、そして個人の経験が交差することで生まれる関係性や響き合いを探ります。 企画協力：榮榮＆映里 出品作家 村越としや／ワン・トゥオ（王拓）／スイ・タカ（塔可）／ルオ・ヤン（罗洋）／ジャン・ポンイー（蒋鹏奕）／fumiko imano 村越としや 1980年、福島県須賀川市に生まれる。2003年に日本写真芸術専門学校を卒業。2009年、東京・清澄白河に自主ギャラリー「TAP」を設立。日本写真協会賞新人賞（2011年）、さがみはら写真新人奨励賞（2015年）受賞。東京国立近代美術館、サンフランシスコ近代美術館などに作品が収蔵されている。2006年以降、故郷の福島を被写体に、人々や土地の記憶をなぞるように撮影を重ねてきた。2011年以降は、特に県内各地へ足を運び、風景を通して、変化や矛盾、知覚や認識の違いを見出そうとしている。 村越としや〈より深い静けさのために風は唱う〉より 2016年 ゼラチン・シルバー・プリント 作家蔵 ワン・トゥオ（王拓） 1984年、中国・吉林省に生まれる。2007年、東北師範大学生物学科卒業。2012年、清華大学美術学院で絵画の修士号を取得。2014年、ボストン大学でMFA（絵画）取得。2017年より、四部にわたる映像連作〈The Northeast Tetralogy〉に着手。中国東北部を起点に、歴史的出来事から現代社会の事件、民間伝承までを翻案し、再構成。登場人物たちの境遇を時空を超えて結びつけることで、土地に刻まれた近現代中国の歴史の断層を浮かび上がらせる。 ワン・トゥオ《Smoke and Fire》2018年 シングルチャンネル4Kヴィデオ 作家蔵 Courtesy the artist and WHITE SPACE スイ・タカ（塔可） 1984年、中国・山東省に生まれる。2003年、北京の中央美術学院に入学。2005年にアメリカへ渡り、2007年よりロチェスター工科大学写真学科で学ぶ。2010年、中国最古の詩集『詩経』に詠まれた中原（中国北部の黄河中下流域）の地を巡った写真シリーズ〈Odes〉で、連州国際写真年展年度写真家賞を受賞。本展の出品作品である同作は、メトロポリタン美術館にも収蔵されている。 スイ・タカ《Heaven Guards》〈Odes〉より 2025年 インクジェット・プリント 作家蔵 ルオ・ヤン（罗洋） 1984年、中国・遼寧省に生まれる。2009年、魯迅美術学院グラフィックデザイン学科を卒業。在学中から写真を始め、2007年にスタートした、同世代の女性たちをフィルムで撮影した長期シリーズ〈Girls〉で、国際的な注目を集める。2019年より、1990年代後半から2000年代生まれの中国の若者を被写体にした〈Youth〉を開始。同年、ジメイ×アルル国際写真フェスティバル女性写真家賞を受賞。2024年には欧州等に暮らすアジア系移民のアイデンティティや各々の経験を記録した〈Diaspora Birds〉を発表した。 ルオ・ヤン《San》〈Girls〉より 2016年 発色現像方式印画 作家蔵 ジャン・ポンイー（蒋鹏奕） 1977年、中国・湖南省に生まれる。1999年、北京芸術設計学院を卒業。2014年、中国美術学院大学院修了。2009年に第1回三影堂写真賞ティアニー・フェローシップ賞受賞。2010年、ソシエテ・ジェネラル・チャイニーズ・アート・アワード審査員大賞、2011年にアレッティ・アートヴェローナ写真賞を受賞。写真というメディアの物質性と表現の可能性を追求し、本展の出品作品〈Dark Addiction〉は、蛍の生物発光の軌跡をフィルムに直接記録するカメラレスの技法で制作されている。 ジャン・ポンイー《Dark Addiction 1H43’24”》2013年 インクジェット・プリント 作家蔵 ©Jiang Pengyi, Courtesy of ShanghART Gallery fumiko imano 1974年、茨城県日立市に生まれる。2歳から8歳の幼少期をブラジル・リオデジャネイロで過ごす。1997年に渡英。ロンドンのセントラル・セント・マーチンズでファインアートを学び、2001年、ロンドン・カレッジ・オブ・ファッションでファッションスタイリング＆フォトグラフィーコースを卒業。アイデンティティへの問いからセルフ・ポートレイト写真を始め、架空の双子の姉妹を登場させるコラージュ作品を展開している。 fumiko imano《our first dinner spaghetti/paris/2021》〈le fumistol〉より 2021年 フォトモンタージュ（発色現像方式印画） 作家蔵 ©fumiko imano",
       "medium": "mixed",
       "exhibition_type": "curated",
       "genre_tags": [],
@@ -41269,7 +41269,7 @@
           "tr": {}
         }
       ],
-      "source_url": "https://topmuseum.jp/exhibition/5423/",
+      "source_url": "https://topmuseum.jp/exhibition/5421/",
       "featured": false,
       "popularity_score": null
     },
@@ -64127,7 +64127,7 @@
       "price_max": null,
       "start_date": "2026-08-21",
       "end_date": "2026-09-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": "火－土 12:00－19:00 / 日・月・祝休廊",
       "venue": {
         "id": "7c9ba25d35a8",
@@ -64830,7 +64830,7 @@
       "price_max": null,
       "start_date": "2026-08-21",
       "end_date": "2026-09-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "a900af852e17",
@@ -66127,7 +66127,7 @@
         }
       },
       "poster_image_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/jpg/EXHIBITIONS/PAST/2026/2608/2608.jpeg",
-      "description": "いながきのりふみ 稲垣徳文写真展\n\nParis Blue\n\n2026年8月5日(水) - 8月29日(土)\n\n11:00-19:00\n\n＊毎週木曜日は22:00までOPEN\n\n日・月曜・祝日・夏期休業（11日〜15日）休廊\n\nComing Soon\n\nComing Soon\n\n2026年9月\n\n11:00-19:00\n\n＊毎週木曜日は22:00までOPEN\n\n日曜・月曜・祝日休廊\n\n2026\n\n2025\n\n2024\n\n2023\n\n2022\n\n2021\n\n2020\n\n2019\n\n2017\n\n2016\n\n2015\n\n2014\n\n2013\n\n2012\n\n2011\n\n2010\n\n2009\n\n2008\n\n2007\n\n2006\n\n2005",
+      "description": "いながきのりふみ 稲垣徳文写真展\n\nParis Blue\n\n2026年8月5日(水) - 8月29日(土)\n\n11:00-19:00\n\n＊毎週木曜日は22:00までOPEN\n\n日・月曜・祝日・夏期休業（11日〜15日）休廊\n\n千葉桜洋・紀春・洸 作品展\n\nぐるり、めぐる\n\n2026年9月16日（水）〜27日（日）\n\n11:00-19:00\n\n＊毎週木曜日は22:00までOPEN\n\n会期中9月21日・22日のみ休廊\n\n2026\n\n2025\n\n2024\n\n2023\n\n2022\n\n2021\n\n2020\n\n2019\n\n2017\n\n2016\n\n2015\n\n2014\n\n2013\n\n2012\n\n2011\n\n2010\n\n2009\n\n2008\n\n2007\n\n2006\n\n2005",
       "medium": "photo",
       "exhibition_type": "curated",
       "genre_tags": [],
@@ -66764,7 +66764,7 @@
       "price_max": null,
       "start_date": "2026-08-21",
       "end_date": "2026-09-06",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5d573a079256",
@@ -66820,7 +66820,7 @@
       "price_max": null,
       "start_date": "2026-08-21",
       "end_date": "2026-08-23",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "15fa12f707c4",
@@ -66982,7 +66982,7 @@
       "price_max": null,
       "start_date": "2026-08-21",
       "end_date": "2026-09-03",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "fa66fa67ffb6",
@@ -68703,7 +68703,7 @@
       "price_max": null,
       "start_date": "2026-08-13",
       "end_date": "2026-08-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "8bc60f268986",
@@ -69223,7 +69223,7 @@
       "price_max": null,
       "start_date": "2026-08-14",
       "end_date": "2026-08-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -69272,7 +69272,7 @@
       "price_max": null,
       "start_date": "2026-08-14",
       "end_date": "2026-08-20",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -70451,7 +70451,7 @@
         }
       },
       "poster_image_url": "https://www.pgi.ac/pgi/wp-content/uploads/2026/08/Takenouchi_231113D_0893_2600-scaled.jpg",
-      "description": "ステートメント\n\nSLEEPWALK\n\n写真は撮影した時点で完成するものではなく、時間の経過とともに、選ばれるイメージや組み合わせは変化していく。このシリーズは、日々撮り続けている写真を現在地から選び直すことで構成されている。\n\n異なる季節や場所で撮影した写真であっても、似たような被写体や構図が繰り返し現れることがある。一方で、以前は選ばなかった写真を自然と選ぶこともあり、そこに自分自身の変化が現れる。写真を選び直す行為は、過去の繰り返しではなく、現在地を通して記憶の外側にあるイメージと新たな関係を結ぶ試みでもある。\n\n撮影の多くは、明確な目的地を設定せず、その日の気分や天気によって場所を選び、歩きながら行う。ぼんやりと撮りたいイメージが浮かぶ日もあれば、写真を撮るというより、ただ考え事をしたくて外へ出る日もある。そこで出会う風景は偶然でありながら、その偶然へと向かう道程は自分で選び取っている。その場所で出会えた風景を写真として残せた時、自分でも説明できない確かさを感じる。\n\nその繰り返しが、自分の向かう方位を示している。\n\n竹之内祐幸\n\n竹之内 祐幸（たけのうち ひろゆき）\n\n1982年、東京生まれ。2008年に日本大学芸術学部写真学科を卒業し、同年第31回キヤノン写真新世紀佳作受賞。2009年、塩竈フォトフェスティバル特別賞受賞。2024年、第1回「夜明け前 | New Photography Award」ファイナリスト。\n\n主な個展に『SEASONS』Foil Gallery（東京、2010年）、『鴉』PGI（東京、2015年）、『Things will get better over time』Gallery Trax（山梨）／Studio Staff Only（東京、2017年）、『第四の壁』PGI（東京、2017年）、『距離と深さ』Studio Staff Only／PGI（東京、2020年）、『Warp and Woof』PGI（東京、2023年）\n\n写真集に、『Things will get better over time』（FUJITA 2017年）、『The Fourth Wall / 第四の壁』（T&M Projects 2017年）、『距離と深さ』（FUJITA 2020年）、『Warp and Woof』（FUJITA 2023年）。2026年、『SLEEPWALK』（FUJITA）刊行予定。",
+      "description": "新刊写真集\n\n写真集『SLEEPWALK』（FUJITA）2026年9月末刊行予定\n\nアートウィーク東京（AWT）\n\n11月4日(水)〜8日(日)\n\nPGIはアートウィーク東京に参加します。\n\nPGIでは、竹之内祐幸作品展「SLEEPWALK」を開催いたします。 竹之内祐幸は2008年に日本大学芸術学部写真学科を卒業後、本格的に写真家として活動を開始しました。これまで『Liberty City』（P.G.I.）、『鴉』（P.G.I.）、『Things will get better over time』（Gallery Trax）、『第四の壁』（PGI）、『距離と深さ』（Studio Staff Only、PGI）、『Warp & Woof』（PGI）などを発表し、都市の風景や草木、身近な日常、親しい人々との関わりを題材に、私たちが無意識のうちに受け入れている社会の規範や枠組みに目を向けてきました。ありふれた日常の風景を丁寧に写し取ることで、その奥に潜む時間の痕跡や他者との距離、世界との関係性を浮かび上がらせています。 本展では、近作に限らず、竹之内が日々撮り続けてきた写真を、現在の視点から選び直しています。異なる時期や場所で撮影された写真同士が呼応し、新たな関係性を結ぶことで、一つの構成として提示されます。 展覧会タイトル「SLEEPWALK」は、夢遊や、無意識のうちに行われる行為を想起させる言葉です。明確な目的を定めずに歩き、撮影し、選ぶ。意識的な判断だけではなく、日々の反復や身体的な感覚の積み重ねを通して、作品の方向性が立ち現れてきます。 写真は撮影された瞬間に完結するものではなく、時間の経過とともに新たな意味を帯びます。写真を選び直す行為を通して、作品はその時々の視点により異なる見え方を示します。\n\nアーカイバルピグメントプリント約60点を展示いたします。\n\nステートメント\n\nSLEEPWALK\n\n写真は撮影した時点で完成するものではなく、時間の経過とともに、選ばれるイメージや組み合わせは変化していく。このシリーズは、日々撮り続けている写真を現在地から選び直すことで構成されている。\n\n異なる季節や場所で撮影した写真であっても、似たような被写体や構図が繰り返し現れることがある。一方で、以前は選ばなかった写真を自然と選ぶこともあり、そこに自分自身の変化が現れる。写真を選び直す行為は、過去の繰り返しではなく、現在地を通して記憶の外側にあるイメージと新たな関係を結ぶ試みでもある。\n\n撮影の多くは、明確な目的地を設定せず、その日の気分や天気によって場所を選び、歩きながら行う。ぼんやりと撮りたいイメージが浮かぶ日もあれば、写真を撮るというより、ただ考え事をしたくて外へ出る日もある。そこで出会う風景は偶然でありながら、その偶然へと向かう道程は自分で選び取っている。その場所で出会えた風景を写真として残せた時、自分でも説明できない確かさを感じる。\n\nその繰り返しが、自分の向かう方位を示している。\n\n竹之内祐幸\n\n竹之内 祐幸（たけのうち ひろゆき）\n\n1982年、東京生まれ。2008年に日本大学芸術学部写真学科を卒業し、同年第31回キヤノン写真新世紀佳作受賞。2009年、塩竈フォトフェスティバル特別賞受賞。2024年、第1回「夜明け前 | New Photography Award」ファイナリスト。\n\n主な個展に『SEASONS』Foil Gallery（東京、2010年）、『鴉』PGI（東京、2015年）、『Things will get better over time』Gallery Trax（山梨）／Studio Staff Only（東京、2017年）、『第四の壁』PGI（東京、2017年）、『距離と深さ』Studio Staff Only／PGI（東京、2020年）、『Warp and Woof』PGI（東京、2023年）\n\n写真集に、『Things will get better over time』（FUJITA 2017年）、『The Fourth Wall / 第四の壁』（T&M Projects 2017年）、『距離と深さ』（FUJITA 2020年）、『Warp and Woof』（FUJITA 2023年）。2026年、『SLEEPWALK』（FUJITA）刊行予定。",
       "medium": "photo",
       "exhibition_type": "curated",
       "genre_tags": [],
@@ -71741,7 +71741,7 @@
       "price_max": null,
       "start_date": "2026-08-21",
       "end_date": "2026-08-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -71790,7 +71790,7 @@
       "price_max": null,
       "start_date": "2026-08-21",
       "end_date": "2026-08-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -73046,6 +73046,328 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Naoki-Takehisa-SatsueiNaoki-Takehisa/ao-hata-bookstore/2026-08-29",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "5d6c9d6ddee6",
+      "source": "gallery_tosei",
+      "title": "千葉桜洋・紀春・洸 作品展",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/jpg/EXHIBITIONS/PAST/2026/2609/260903.jpg",
+      "description": "いながきのりふみ 稲垣徳文写真展\n\nParis Blue\n\n2026年8月5日(水) - 8月29日(土)\n\n11:00-19:00\n\n＊毎週木曜日は22:00までOPEN\n\n日・月曜・祝日・夏期休業（11日〜15日）休廊\n\n千葉桜洋・紀春・洸 作品展\n\nぐるり、めぐる\n\n2026年9月16日（水）〜27日（日）\n\n11:00-19:00\n\n＊毎週木曜日は22:00までOPEN\n\n会期中9月21日・22日のみ休廊\n\n2026\n\n2025\n\n2024\n\n2023\n\n2022\n\n2021\n\n2020\n\n2019\n\n2017\n\n2016\n\n2015\n\n2014\n\n2013\n\n2012\n\n2011\n\n2010\n\n2009\n\n2008\n\n2007\n\n2006\n\n2005",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "1ab862183c75",
+        "name": "Gallery Tosei",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Gallery Tosei"
+          },
+          "ja": {
+            "name": "Gallery Tosei"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.6986456,
+        "lng": 139.6628774
+      },
+      "artists": [],
+      "source_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/html/EXHIBITIONS/j_exhibitions.html#show2",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "04775aed1bea",
+      "source": "tokyo_art_beat",
+      "title": "西山勲 「Papa, You're Crazy〈クジラと天体、父の島〉」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/bf442dea/01.jpg",
+      "description": "8月20日（木）より、BOOK AND SONSにて、西山勲による写真展「Papa, You're Crazy〈クジラと天体、父の島〉」を開催いたします。\n本展は、1957年に刊行されたアメリカの作家ウィリアム・サローヤンの同名小説に着想を得て制作された写真作品。舞台は、長崎県平戸市の離島。写真家・西山勲が島で暮らす父と約一週間をともに過ごし、その日々を捉えた作品群。\n写真と小説の引用、家族写真の断片、そして書き下ろしのエッセイ。父と息子という関係を起点としながら、個人的な記憶と文学的な時間、現実とフィクションが静かに交差していきます。ロケーションや衣装まで丁寧に演出された場面の中で、互いに日常の役割を離れ、一人の人間として向き合った濃密な時間。その創作を通して生まれた、もうひとつの関係の記録がここに編み上げられました。\n一枚の写真の奥に流れる時間と距離、そしてどこか静けさを纏った物語の深みを、ぜひ会場でご体感ください。\n\n[関連イベント]\n西山勲×石躍凌摩・西田有輝トークイベント\n日時: 8月22日（土）18:00~19:00（17:30開場）\n会場: BOOK AND SONS 2F\n料金: 1650円（税込）\n定員: 20名\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-20",
+      "end_date": "2026-09-08",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "8b8bf1f13f39",
+        "name": "BOOK AND SONS",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "BOOK AND SONS"
+          },
+          "ja": {
+            "name": "BOOK AND SONS"
+          }
+        },
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.630555907872754,
+        "lng": 139.68703549294352
+      },
+      "artists": [
+        {
+          "id": "608397ce2211",
+          "name": "西山勲",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Isao-Nishiyama-Papa-Youre-Crazy/87-C23676/2026-08-20",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "859af1759315",
+      "source": "tokyo_art_beat",
+      "title": "「台湾写真家 陳尚平 『Void and Breath 静寂の輪郭』」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/2ac9ac07/IMG_6658.JPG",
+      "description": "台湾の写真家・陳尚平による日本初の個展です。光が樹木に触れる瞬間。雨上がりの空気。静かな風景の中に流れる時間。陳尚平が見つめてきたのは劇的な一瞬ではなく、日常の中に潜む静かな瞬間です、陳尚平が作品の世界観を通して日本の皆様と交流したい。\n本展では、近年制作されたモノクロームの風景作品を中心に展示、一部の作品では銀塩写真ならではの繊細諧調と質感も御覧いただけます。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-15",
+      "end_date": "2026-09-20",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "cf50d8160f85",
+        "name": "Nine Gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Nine Gallery"
+          },
+          "ja": {
+            "name": "Nine Gallery"
+          }
+        },
+        "region": "表参道、青山",
+        "district": null,
+        "lat": 35.671671126597005,
+        "lng": 139.71564693865776
+      },
+      "artists": [
+        {
+          "id": "a24d36afbb35",
+          "name": "陳尚平",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Chen-Shang-Ping-Void-and-Breath/nine-gallery/2026-09-15",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "579650da9b1b",
+      "source": "tokyo_art_beat",
+      "title": "トウキョウタカシ 「THE LOUNGE 2026」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/38ce2f37/26tokyotakashiten.jpg",
+      "description": "第8回目となる今回の個展では、2023年9月の個展より継続してきたFlowers' Discoシリーズを発展させ、新たにTHE LOUNGEシリーズを開始します。「THE LOUNGE」は、写真の構成によって生まれる空間の感覚をテーマとした新シリーズです。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-21",
+      "end_date": "2026-09-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "79269a696c90",
+        "name": "ギャラリー檜e・F",
+        "lang": null,
+        "tr": {},
+        "region": "京橋、日本橋",
+        "district": null,
+        "lat": 35.67501362135149,
+        "lng": 139.77111846279604
+      },
+      "artists": [
+        {
+          "id": "f3dc55b78d42",
+          "name": "トウキョウタカシ",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "도쿄 타카시"
+            },
+            "en": {
+              "name": "Tokyo Takashi"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Takashi-Tokyo-The-Lounge-2026/E29-D65-E3/2026-09-21",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "37ce99870dc0",
+      "source": "tokyo_art_beat",
+      "title": "森本美絵 「徒花の唄-Songs for Nothing-」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/867df64b/202608MM_DM_03%20-%20K%20Morita.jpg",
+      "description": "本展は昨夏「MISAKO & ROSEN」（東京）で開催された同タイトルの写真展の出展作品をベースに、未発表の作品を織り交ぜた構成となっています。岡山県内での展示は、グループ展『共鳴する美術2008』（倉敷市立美術館）以来、実に18年ぶり。この機会にぜひ森本美絵の写真世界をご堪能ください。\n\n[関連イベント]\nArtist Talk\n日時: 9月19日 16:00\nゲスト: 伊藤貴弘（東京都写真美術館 学芸員）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-29",
+      "end_date": "2026-10-04",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "49e79bf83254",
+        "name": "エレファントギャラリー",
+        "lang": null,
+        "tr": {},
+        "region": "岡山県",
+        "district": null,
+        "lat": 34.65610661899409,
+        "lng": 133.92563276934624
+      },
+      "artists": [
+        {
+          "id": "d9cba1f849dc",
+          "name": "森本美絵",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Mie-Morimoto-Songs-for-Nothing/elephant-gallery/2026-08-29",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "963f1176c577",
+      "source": "tokyo_art_beat",
+      "title": "篠田優 「Fragments of the place 2017-2019」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/7d8dfbe4/c70039d7edc6e734d1afa50ca6bfa126.jpg",
+      "description": "9月3日(木)より、THE BOOK ENDでは、篠田優 写真展「Fragments of the place 2017-2019」を開催いたします。本展では写真作品9点に加え、映像作品の展示も行います。時を経た壁や照明、コンクリート、ガラス、周辺の植物、集まる鳥たち。ともすれば見過ごされてしまうような細部へ注がれる視線から再び浮かび上がってくるこの場所のアトモスフィア。篠田優の写し出すその「記録」をぜひ会場でご体感ください。\n\n[関連イベント]\nアーティストトーク\n日時: 2026年9月23日16:30〜18:00\n登壇者: 篠田優、岡田和奈佳（喫水線）、稲垣晴夏（東京芸術大学助手）\n料金: 1980円（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-03",
+      "end_date": "2026-09-28",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "82f20bbfb3dd",
+        "name": "THE BOOK END",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "THE BOOK END"
+          },
+          "ja": {
+            "name": "THE BOOK END"
+          }
+        },
+        "region": "兵庫県",
+        "district": null,
+        "lat": 34.68592,
+        "lng": 135.1868
+      },
+      "artists": [
+        {
+          "id": "ee836b27d37c",
+          "name": "篠田優",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yu-Shinoda-Fragments-of-the-place-2017-2019/the-book-end/2026-09-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "17b524a630af",
+      "source": "tokyo_art_beat",
+      "title": "土門拳 「衣文の美～古寺巡礼より」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/1Qx0QtF2Ky14kNuDIb4EJR/81856b4cebf3b772d03d6c7b7a362354/1_domon2026shadai.jpg",
+      "description": "本展では、写大ギャラリー所蔵の1200点余りにおよぶ土門拳コレクションのなかから、『古寺巡礼』（全五集、美術出版社、1963〜1975年）に収録された仏像写真の「衣文（えもん）」に焦点を当てます。衣文（英語でドレイパリー:Drapery）とは、衣服の襞（ひだ）やしわの表現を意味する美術用語です。彫刻芸術におけるその役割は特に顕著であり、衣文が織りなす陰影のパターン・リズムこそが像の表情を大きく左右します。またそれは単なる衣の描写にとどまらず、制作された時代や地域ごとの様式・精神性を色濃く反映しているのです。土門がレンズで捉えた名だたる仏像たちも、それぞれに異なった「衣文の美」をたたえています。直線性・左右対称性を備えた幾何学的衣文にはじまる飛鳥時代から、薄く密着した流麗な衣文を描く白鳳時代を経て、天平時代にはより自然主義的な衣文表現へと昇華されました。そして平安時代前期には翻波式（ほんぱしき）・漣波式（れんぱしき）に代表される力強くリズミカルな衣文が現れ、後期には彫りが浅く穏やかで優美な平行衣文へと移行します。さらに鎌倉時代に入ると、写実性と躍動感に富んだ彫りの深い衣文表現へと至りました。くわえて鋳造による金銅仏（こんどうぶつ）、鑿（のみ）で彫られた木彫仏など、素材・技法によってもその表情は千差万別です。\n\nクローズアップに強くこだわった土門が、こうした衣文の微細な表情に大いに魅せられたことは想像にかたくありません。実際『古寺巡礼』には衣文にフォーカスした写真が数多く見られ、なかには何を撮影したのか分からないほどに肉薄し、ほとんど抽象美術と化したかのような作例さえも含まれています。会場では、飛鳥時代から鎌倉時代までの仏像を捉えた写真群から、全身像と衣文のクローズアップを組み合わせた約60点を展示し、仏像そのものが放つ厳かな佇まいと、細部に宿る造形美の双方を浮き彫りにします。全体を眺める視線と細部を凝視する眼差し──この2つのアプローチを往還することで、仏像の新しい魅力とともに、土門の眼が迫ろうとした「衣文の美」の真髄の一端に触れることができるでしょう。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-04",
+      "end_date": "2026-11-07",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "0bcac9bcba8c",
+        "name": "写大ギャラリー",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "샤다이 갤러리"
+          },
+          "en": {
+            "name": "Shadai Gallery"
+          }
+        },
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.6926371526655,
+        "lng": 139.68045418087607
+      },
+      "artists": [
+        {
+          "id": "bf884265d727",
+          "name": "土門拳",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "도몬 켄"
+            },
+            "en": {
+              "name": "Domon Ken"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Ken-Domon-Beauty-of-Drapery-Pilgrimage-of-Old-Temples/5-FD37467/2026-09-04",
       "featured": false,
       "popularity_score": null
     }
@@ -81001,6 +81323,34 @@
       "country": "JP",
       "lat": 35.66219627777273,
       "lng": 139.72125581353225,
+      "website": null
+    },
+    {
+      "id": "79269a696c90",
+      "name": "ギャラリー檜e・F",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "京橋、日本橋",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.67501362135149,
+      "lng": 139.77111846279604,
+      "website": null
+    },
+    {
+      "id": "49e79bf83254",
+      "name": "エレファントギャラリー",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "岡山県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.65610661899409,
+      "lng": 133.92563276934624,
       "website": null
     }
   ],
@@ -99790,6 +100140,30 @@
     {
       "id": "d2eaad0c7e6d",
       "name": "武蔵大学社会学部菊地映輝ゼミ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "608397ce2211",
+      "name": "西山勲",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a24d36afbb35",
+      "name": "陳尚平",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d9cba1f849dc",
+      "name": "森本美絵",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ee836b27d37c",
+      "name": "篠田優",
       "lang": null,
       "tr": {}
     }
