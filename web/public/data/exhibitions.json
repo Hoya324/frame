@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T16:16:03.159055+00:00",
+  "generated_at": "2026-08-22T19:01:07.049809+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -64650,7 +64650,7 @@
       "price_max": null,
       "start_date": "2026-08-22",
       "end_date": "2026-09-06",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "9ccda6229ed8",
@@ -65505,7 +65505,7 @@
       "price_max": null,
       "start_date": "2026-08-22",
       "end_date": "2026-10-25",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8dcc77c58ed9",
@@ -67748,7 +67748,7 @@
       "price_max": null,
       "start_date": "2026-08-22",
       "end_date": "2026-08-23",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "81f43c8f3b9f",
@@ -68099,7 +68099,7 @@
       "price_max": null,
       "start_date": "2026-08-22",
       "end_date": "2026-08-30",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "863a35c2d6cb",
@@ -69993,7 +69993,7 @@
       "price_max": null,
       "start_date": "2026-08-22",
       "end_date": "2026-08-30",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "eba4f5e63243",
@@ -70138,7 +70138,7 @@
       "price_max": null,
       "start_date": "2026-08-22",
       "end_date": "2026-09-09",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "976ee20a7adf",
@@ -71165,7 +71165,7 @@
       "price_max": null,
       "start_date": "2026-08-22",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "39745faf6f3d",
@@ -71533,7 +71533,7 @@
       "price_max": null,
       "start_date": "2026-08-22",
       "end_date": "2026-08-30",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "3ad9e538d829",
@@ -73368,6 +73368,39 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Ken-Domon-Beauty-of-Drapery-Pilgrimage-of-Old-Temples/5-FD37467/2026-09-04",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "9a3f92c9c0d1",
+      "source": "tokyo_art_beat",
+      "title": "「すみだ五彩の芸術祭」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/ab0752a8/HFwr3OYbUAAo8-1.jpeg",
+      "description": "墨田という文字に含まれる「墨」。水墨画では、墨や筆遣いと余白を組み合わせて多彩な世界を表現することを「墨に五彩あり」といいます。この芸術祭では「すみだの五彩」をテーマに、色彩溢れるこの世界を芸術を通じて表現し、地域や人の魅力、そしてすみだに暮らす喜びを再発見していきます。\n\nコンセプトは「発気揚々」（はっきようよう）。相撲の「はっきよい」というかけ声の元にもなったというこの言葉を胸に秘め、作品を観て歩いたり、参加型の作品の一員になったり、作品をきっかけに話し合ってみたり。そんな日々を繰り返すうち、仲間が生まれ、すみだがかけがえのない土地になっていく。このコンセプトには、芸術を起点にすべての人がそれぞれのペースで居られる地域を創っていこうという気持ちが込められています。\n\nこの秋、墨田区内各所で行われる、4ヶ月にわたるアートの祭りにご期待ください。\n\n会場：墨田区各所",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-04",
+      "end_date": "2026-12-20",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "b2f9232c8244",
+        "name": "ユートリア すみだ生涯学習センター",
+        "lang": null,
+        "tr": {},
+        "region": "東京：その他",
+        "district": null,
+        "lat": 35.721105515475536,
+        "lng": 139.8183004219953
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Sumida-Art-Festival/0-CB85-F8-D/2026-09-04",
       "featured": false,
       "popularity_score": null
     }
@@ -81351,6 +81384,20 @@
       "country": "JP",
       "lat": 34.65610661899409,
       "lng": 133.92563276934624,
+      "website": null
+    },
+    {
+      "id": "b2f9232c8244",
+      "name": "ユートリア すみだ生涯学習センター",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "東京：その他",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.721105515475536,
+      "lng": 139.8183004219953,
       "website": null
     }
   ],
