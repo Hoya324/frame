@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T16:17:34.532219+00:00",
+  "generated_at": "2026-08-23T18:57:22.068289+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -46488,7 +46488,7 @@
       "price_max": null,
       "start_date": "2026-07-11",
       "end_date": "2026-08-22",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "b23ad86a03d6",
@@ -50733,22 +50733,11 @@
       "popularity_score": null
     },
     {
-      "id": "a8f7b39d6ba1",
+      "id": "99eda5b2a9ab",
       "source": "totem_pole",
-      "title": "Moonlight Voyage",
-      "lang": "en",
-      "tr": {
-        "ko": {
-          "title": "달빛 항해",
-          "description": "사 문빈 / Wenbin Shi\n\n백하야선 / Moonlight Voyage\n\n2026.8.25 (tue) – 8.30 (sun)\n\nOpen 12:00 – 19:00\n\n내 꿈속에 나타났지만 실제로는 만난 적 없는 새와 짐승들은 허공에 떠 있는 생명 의식과 같은 존재다. 이 동물들과 감정의 존재는 역사성이 없으며, 단지 잠재의식의 시야를 가로지르듯이 존재할 뿐이다. 반쯤 잠들고 반쯤 깨어 있는 몽롱한 상태에서 나는 종종 어떤 경지에 빠져들곤 하는데, 마치 작은 배에 누워 강물에 몸을 맡기고 어디로 갈지 모른 채 흘러내려가는 듯한 느낌에 사로잡힌다. 나에게 이 광경들은 이미 반짝이는 파편으로 변해 내 육체 속에 녹아들었다. 그것들은 그 음울한 존재를 지니고 내 마음속에서 고난을 겪으며 스스로의 모습을 재구축하고, 마치 불꽃 속으로 발을 들이는 마법사처럼 내 꿈속에서 반복해서 나타난다. 나는 아주 희미한 반향을 듣는 듯한 기분이 든다—그것은 기억의 틈새에서 스며 나오는 숨결 같기도 하고, 강물 아래에서 은밀히 요동치는 조수의 밀물과 썰물 같기도 하다. 그것들은 아무것도 말하지 않지만, 다른 방식으로 나에게 닿아 있다. 아마도 모든 고통은 지금 어떤 종류의 부드러움에 의해 새로운 이름을 부여받고 있을 것이다. 더 이상 단순히 찢어진 흔적이 아니다. 달빛에 비친 하얀 강이 길러낸 새로운 모습으로 다시 태어나고 있는 것이다. 그것들은 천천히 나를 변화시키고, 아직 말로 표현할 수 없는 경지로 이끌어간다. 그곳에서는 생명의 어두운 부분과 부드러움, 상처받기 쉬움과 희망, 모든 것이 공존하고 있다.\n\n사 문빈 사진가, 1996년생. 현재 상하이를 거점으로 활동하고 있다. 그의 사진은 도시 및 그 주변 지역에서 재구축된 자연 경관에 초점을 맞추며, 도시 환경에서의 인간과 자연, 그리고 그 이면에 있는 공생 관계를 탐구한다. 제6회 중국 청년 사진 진흥 계획 「곤붕상」을 수상한 경력이 있으며, 작품은 핑야오 국제 사진전 조직위원회, 오문화박물관, 난징 예술학원 미술관 등의 기관 및 개인에 의해 소장되어 있다."
-        },
-        "ja": {
-          "title": "白河夜船"
-        },
-        "en": {
-          "description": "史 文斌 / シ ウェンビン / Wenbin Shi\n\n白河夜船 / Moonlight Voyage\n\n2026.8.25 (tue) – 8.30 (sun)\n\nOpen 12:00 – 19:00\n\nThe birds and beasts that appear in my dreams yet remain unseen in reality exist like suspended consciousnesses of life. These animals and emotions possess no historical roots; they exist only as fleeting glimpses in the subconscious. In that half-asleep haze, I often find myself adrift, as if lying in a small boat floating down a river, bound for nowhere.For me, these images have become shimmering fragments embedded within my body. They carry those grayish existences, suffering within my heart, and weave themselves anew—like magicians stepping into flames, reappearing again and again in my dreams. I seem to hear a faint echo, like breath seeping from the cracks of memory, or like the tides surging darkly beneath the river’s surface. They say nothing, yet touch me in another way.Perhaps all suffering is now being renamed by some tenderness. No longer mere scars of tearing, they become new forms born from the white river under moonlight. Slowly, they transform me, guiding me toward a realm yet beyond words.There, life reveals its darker underside—where tenderness, fracture, and hope are all held together.\n\nWenbin Shi, a photographer born in 1996, is currently based in Shanghai. His photography focuses on reshaped natural landscapes within and surrounding urban areas, exploring the symbiotic relationship between humans and nature within the urban environment. He was awarded the \"Kunpeng\" Prize at the Sixth China Youth Photography Promotion Project. His works have been collected by organizations including the Pingyao International Photography Festival Exhibition Committee, the Wu Culture Museum, and the Nanjing University of the Arts Museum."
-        }
-      },
+      "title": "白河夜船 / Moonlight Voyage",
+      "lang": null,
+      "tr": {},
       "poster_image_url": "https://tppg.jp/wp/wp-content/uploads/2026/06/DSCF0134-1568x2352.jpg",
       "description": "史 文斌 / シ ウェンビン / Wenbin Shi\n\n白河夜船 / Moonlight Voyage\n\n2026.8.25 (tue) – 8.30 (sun)\n\nOpen 12:00 – 19:00\n\n私の夢の中に現れたものの、実際には出会ったことのない鳥や獣たちは、宙に浮いた生命意識のような存在だ。これらの動物や感情の存在には歴史性がなく、ただ潜在意識の視野を横切るようにして存在しているに過ぎない。半睡半醒の朦朧とした状態の中で、私はしばしばある境地に陥り、まるで小舟に横たわり、川の流れに身を任せてどこへ行くかも分からずに下っているような感覚に襲われる。私にとって、これらの光景はすでにきらめく破片へと変わり、私の肉体の中に溶け込んでいる。それらはあの陰鬱な存在を携え、私の心の中で苦難に遭い、自らの姿を再構築し、まるで炎の中へ踏み込む魔法使いのように、私の夢の中で繰り返し現れる。私は、ごくかすかな反響を耳にしているような気がする――それは記憶の隙間から滲み出る息遣いのようでもあり、川面の下でひそかにうねる潮の満ち引きのようでもある。それらは何も語らないが、別の方法で私に触れている。おそらく、すべての苦しみは今、ある種の優しさによって新たな名を与えられているのだろう。もはやただ裂け目の跡だけではない。月明かりに照らされた白い川が育んだ、新たな姿へと生まれ変わっているのだ。それらはゆっくりと私を変え、まだ言葉にできないような境地へと導いていく。そこでは、生命の闇の部分と優しさ、傷つきやすさと希望、すべてが共存している。\n\nThe birds and beasts that appear in my dreams yet remain unseen in reality exist like suspended consciousnesses of life. These animals and emotions possess no historical roots; they exist only as fleeting glimpses in the subconscious. In that half-asleep haze, I often find myself adrift, as if lying in a small boat floating down a river, bound for nowhere.For me, these images have become shimmering fragments embedded within my body. They carry those grayish existences, suffering within my heart, and weave themselves anew—like magicians stepping into flames, reappearing again and again in my dreams. I seem to hear a faint echo, like breath seeping from the cracks of memory, or like the tides surging darkly beneath the river’s surface. They say nothing, yet touch me in another way.Perhaps all suffering is now being renamed by some tenderness. No longer mere scars of tearing, they become new forms born from the white river under moonlight. Slowly, they transform me, guiding me toward a realm yet beyond words.There, life reveals its darker underside—where tenderness, fracture, and hope are all held together.\n\n史 文斌写真家，1996年生まれ。現在は上海を拠点に活動している。彼の写真は、都市およびその周辺地域で再構築された自然景観に焦点を当て、都市環境における人間と自然、そしてその背後にある共生関係を探求している。第6回中国青年写真振興計画「鯤鵬賞」を受賞した経歴を持ち、作品は平遥国際写真展組織委員会、呉文化博物館、南京芸術学院美術館などの機関や個人によって所蔵されている。\n\nWenbin ShiPhotographer, born in 1996, currently resides in Shanghai. His photography focuses on reshaped natural landscapes within and surrounding urban areas, exploring the symbiotic relationship between humans and nature within the urban environment. He was awarded the 「Kunpeng」 Prize at the Sixth China Youth Photography Promotion Project. His works have been collected by organizations including the Pingyao International Photography Festival Exhibition Committee, the Wu Culture Museum, and the Nanjing University of the Arts Museum.",
       "medium": "photo",
@@ -65116,7 +65105,7 @@
       "price_max": null,
       "start_date": "2026-08-08",
       "end_date": "2026-08-22",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "f779129a5361",
@@ -65938,21 +65927,14 @@
       "popularity_score": null
     },
     {
-      "id": "d829d7a7d379",
-      "source": "tokyo_art_beat",
-      "title": "有元伸也 「キジバト3」",
-      "lang": "ja",
-      "tr": {
-        "ko": {
-          "title": "아리모토 신야 「키지바토3」"
-        },
-        "en": {
-          "title": "Shinya Arimoto \"Kijibato 3\""
-        }
-      },
-      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/614igyP5WFIrW6elnUfQnC/e1f2aa1fb198e0d172d9fe7fa0ce599b/kijibato_3_1.jpg",
-      "description": null,
-      "medium": "mixed",
+      "id": "dc052d585970",
+      "source": "totem_pole",
+      "title": "Tokyo Turtle Dove 3",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://tppg.jp/wp/wp-content/uploads/2026/07/kijibato_3_1.jpg",
+      "description": "有元伸也 / Shinya Arimoto\n\nキジバト / Tokyo Turtle Dove 3\n\n2026.9.15 (tue) – 9.27 (sun)\n\nOpen 12:00 – 19:00 Closed Mondays\n\n【新刊発売のお知らせ】今回の展示作品を収録した新作 ZINE 「ariphoto selection vol.13」を会期中、会場内にて先行発売いたします。vol.11, vol.12 と併せまして、手に取ってご覧ください。",
+      "medium": "photo",
       "exhibition_type": "solo",
       "genre_tags": [],
       "fee_type": "free",
@@ -65981,13 +65963,19 @@
       },
       "artists": [
         {
+          "id": "8cafd20e604a",
+          "name": "有元伸也 / Shinya Arimoto",
+          "lang": null,
+          "tr": {}
+        },
+        {
           "id": "7925e0cd3d5a",
           "name": "有元伸也",
           "lang": null,
           "tr": {}
         }
       ],
-      "source_url": "https://www.tokyoartbeat.com/events/-/Shinya-Arimoto-Tokyo-Turtle-Dove-3/2-D82-C04-B/2026-09-15",
+      "source_url": "https://tppg.jp/tokyo-turtle-dove-3/",
       "featured": false,
       "popularity_score": null
     },
@@ -100211,6 +100199,12 @@
     {
       "id": "ee836b27d37c",
       "name": "篠田優",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8cafd20e604a",
+      "name": "有元伸也 / Shinya Arimoto",
       "lang": null,
       "tr": {}
     }
