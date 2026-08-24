@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T16:35:12.196172+00:00",
+  "generated_at": "2026-08-24T19:06:45.421235+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -35426,7 +35426,7 @@
       "price_max": null,
       "start_date": "2026-07-25",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ebe6d0623fa0",
@@ -44900,7 +44900,7 @@
       "price_max": null,
       "start_date": "2026-07-25",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "76ff8bc9343c",
@@ -50817,7 +50817,7 @@
       "price_max": null,
       "start_date": "2026-08-18",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "5163e693d1ea",
@@ -53959,7 +53959,7 @@
       "price_max": null,
       "start_date": "2026-07-31",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "1965a1933c75",
@@ -54035,7 +54035,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "615674c05f55",
@@ -54441,7 +54441,7 @@
       "price_max": null,
       "start_date": "2026-08-24",
       "end_date": "2026-08-30",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -56600,7 +56600,7 @@
       "price_max": null,
       "start_date": "2026-08-01",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "d32acb7ca12b",
@@ -56966,7 +56966,7 @@
       "price_max": null,
       "start_date": "2026-07-25",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "b183d75fb9e7",
@@ -59179,7 +59179,7 @@
       "price_max": null,
       "start_date": "2026-05-28",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "d2e95c70b2bc",
@@ -60175,7 +60175,7 @@
       "price_max": null,
       "start_date": "2026-08-20",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "022a1fd5b21b",
@@ -63289,7 +63289,7 @@
       "price_max": null,
       "start_date": "2026-08-17",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -63998,7 +63998,7 @@
       "price_max": null,
       "start_date": "2026-07-30",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "cd15b30513c1",
@@ -64576,7 +64576,7 @@
       "price_max": null,
       "start_date": "2026-08-11",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "0e73e89a7e38",
@@ -65382,7 +65382,7 @@
       "price_max": null,
       "start_date": "2026-08-18",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ac42a3b5b63e",
@@ -66227,7 +66227,7 @@
       "price_max": null,
       "start_date": "2026-08-11",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "bad41612e0e3",
@@ -66808,7 +66808,7 @@
       "price_max": null,
       "start_date": "2026-08-21",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "15fa12f707c4",
@@ -67324,7 +67324,7 @@
       "price_max": null,
       "start_date": "2026-08-18",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "54c1740b50d0",
@@ -67618,7 +67618,7 @@
       "price_max": null,
       "start_date": "2026-08-18",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "c447f1cb19aa",
@@ -67736,7 +67736,7 @@
       "price_max": null,
       "start_date": "2026-08-22",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "81f43c8f3b9f",
@@ -67921,7 +67921,7 @@
       "price_max": null,
       "start_date": "2026-08-08",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2fae9df11f79",
@@ -68466,7 +68466,7 @@
       "price_max": null,
       "start_date": "2026-08-15",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "6b99ee7d383f",
@@ -69919,7 +69919,7 @@
       "price_max": null,
       "start_date": "2026-08-11",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "f46b9eafe809",
@@ -70238,7 +70238,7 @@
       "price_max": null,
       "start_date": "2026-08-15",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "33e2eeae1f83",
@@ -70439,7 +70439,7 @@
         }
       },
       "poster_image_url": "https://www.pgi.ac/pgi/wp-content/uploads/2026/08/Takenouchi_231113D_0893_2600-scaled.jpg",
-      "description": "新刊写真集\n\n写真集『SLEEPWALK』（FUJITA）2026年9月末刊行予定\n\nアートウィーク東京（AWT）\n\n11月4日(水)〜8日(日)\n\nPGIはアートウィーク東京に参加します。\n\nPGIでは、竹之内祐幸作品展「SLEEPWALK」を開催いたします。 竹之内祐幸は2008年に日本大学芸術学部写真学科を卒業後、本格的に写真家として活動を開始しました。これまで『Liberty City』（P.G.I.）、『鴉』（P.G.I.）、『Things will get better over time』（Gallery Trax）、『第四の壁』（PGI）、『距離と深さ』（Studio Staff Only、PGI）、『Warp & Woof』（PGI）などを発表し、都市の風景や草木、身近な日常、親しい人々との関わりを題材に、私たちが無意識のうちに受け入れている社会の規範や枠組みに目を向けてきました。ありふれた日常の風景を丁寧に写し取ることで、その奥に潜む時間の痕跡や他者との距離、世界との関係性を浮かび上がらせています。 本展では、近作に限らず、竹之内が日々撮り続けてきた写真を、現在の視点から選び直しています。異なる時期や場所で撮影された写真同士が呼応し、新たな関係性を結ぶことで、一つの構成として提示されます。 展覧会タイトル「SLEEPWALK」は、夢遊や、無意識のうちに行われる行為を想起させる言葉です。明確な目的を定めずに歩き、撮影し、選ぶ。意識的な判断だけではなく、日々の反復や身体的な感覚の積み重ねを通して、作品の方向性が立ち現れてきます。 写真は撮影された瞬間に完結するものではなく、時間の経過とともに新たな意味を帯びます。写真を選び直す行為を通して、作品はその時々の視点により異なる見え方を示します。\n\nアーカイバルピグメントプリント約60点を展示いたします。\n\nステートメント\n\nSLEEPWALK\n\n写真は撮影した時点で完成するものではなく、時間の経過とともに、選ばれるイメージや組み合わせは変化していく。このシリーズは、日々撮り続けている写真を現在地から選び直すことで構成されている。\n\n異なる季節や場所で撮影した写真であっても、似たような被写体や構図が繰り返し現れることがある。一方で、以前は選ばなかった写真を自然と選ぶこともあり、そこに自分自身の変化が現れる。写真を選び直す行為は、過去の繰り返しではなく、現在地を通して記憶の外側にあるイメージと新たな関係を結ぶ試みでもある。\n\n撮影の多くは、明確な目的地を設定せず、その日の気分や天気によって場所を選び、歩きながら行う。ぼんやりと撮りたいイメージが浮かぶ日もあれば、写真を撮るというより、ただ考え事をしたくて外へ出る日もある。そこで出会う風景は偶然でありながら、その偶然へと向かう道程は自分で選び取っている。その場所で出会えた風景を写真として残せた時、自分でも説明できない確かさを感じる。\n\nその繰り返しが、自分の向かう方位を示している。\n\n竹之内祐幸\n\n竹之内 祐幸（たけのうち ひろゆき）\n\n1982年、東京生まれ。2008年に日本大学芸術学部写真学科を卒業し、同年第31回キヤノン写真新世紀佳作受賞。2009年、塩竈フォトフェスティバル特別賞受賞。2024年、第1回「夜明け前 | New Photography Award」ファイナリスト。\n\n主な個展に『SEASONS』Foil Gallery（東京、2010年）、『鴉』PGI（東京、2015年）、『Things will get better over time』Gallery Trax（山梨）／Studio Staff Only（東京、2017年）、『第四の壁』PGI（東京、2017年）、『距離と深さ』Studio Staff Only／PGI（東京、2020年）、『Warp and Woof』PGI（東京、2023年）\n\n写真集に、『Things will get better over time』（FUJITA 2017年）、『The Fourth Wall / 第四の壁』（T&M Projects 2017年）、『距離と深さ』（FUJITA 2020年）、『Warp and Woof』（FUJITA 2023年）。2026年、『SLEEPWALK』（FUJITA）刊行予定。",
+      "description": "新刊写真集\n\n写真集『SLEEPWALK』（FUJITA）2026年9月末刊行予定\n\nアートウィーク東京（AWT）\n\n11月4日(水)〜8日(日)\n\nPGIはアートウィーク東京に参加します。\n\nPGIでは、竹之内祐幸作品展「SLEEPWALK」を開催いたします。 竹之内祐幸は2008年に日本大学芸術学部写真学科を卒業後、本格的に写真家として活動を開始しました。これまで『Liberty City』（P.G.I.）、『鴉』（P.G.I.）、『Things will get better over time』（Gallery Trax）、『第四の壁』（PGI）、『距離と深さ』（Studio Staff Only、PGI）、『Warp & Woof』（PGI）などを発表し、都市の風景や草木、身近な日常、親しい人々との関わりを題材に、私たちが無意識のうちに受け入れている社会の規範や枠組みに目を向けてきました。ありふれた日常の風景を丁寧に写し取ることで、その奥に潜む時間の痕跡や他者との距離、世界との関係性を浮かび上がらせています。 本展では、近作に限らず、竹之内が日々撮り続けてきた写真を、現在の視点から選び直しています。異なる時期や場所で撮影された写真同士が呼応し、新たな関係性を結ぶことで、一つの構成として提示されます。 展覧会タイトル「SLEEPWALK」は、夢遊や、無意識のうちに行われる行為を想起させる言葉です。明確な目的を定めずに歩き、撮影し、選ぶ。意識的な判断だけではなく、日々の反復や身体的な感覚の積み重ねを通して、作品の方向性が立ち現れてきます。 写真は撮影された瞬間に完結するものではなく、時間の経過とともに新たな意味を帯びます。写真を選び直す行為を通して、作品はその時々の視点により異なる見え方を示します。\n\nアーカイバルピグメントプリント約60点を展示いたします。\n\nステートメント\n\nSLEEPWALK\n\n写真は撮影した時点で完成するものではなく、時間の経過とともに、選ばれるイメージや組み合わせは変化していく。このシリーズは、日々撮り続けている写真を現在地から選び直すことで構成されている。\n\n異なる季節や場所で撮影した写真であっても、似たような被写体や構図が繰り返し現れることがある。一方で、以前は選ばなかった写真を自然と選ぶこともあり、そこに自分自身の変化が現れる。写真を選び直す行為は、過去の繰り返しではなく、現在地を通して記憶の外側にあるイメージと新たな関係を結ぶ試みでもある。\n\n撮影の多くは、明確な目的地を設定せず、その日の気分や天気によって場所を選び、歩きながら行う。ぼんやりと撮りたいイメージが浮かぶ日もあれば、写真を撮るというより、ただ考え事をしたくて外へ出る日もある。そこで出会う風景は偶然でありながら、その偶然へと向かう道程は自分で選び取っている。その場所で出会えた風景を写真として残せた時、自分でも説明できない確かさを感じる。\n\nその繰り返しが、自分の向かう方位を示している。\n\n竹之内祐幸\n\n竹之内 祐幸（たけのうち ひろゆき）\n\n1982年、東京生まれ。2008年に日本大学芸術学部写真学科を卒業し、同年第31回キヤノン写真新世紀佳作受賞。2009年、塩竈フォトフェスティバル特別賞受賞。2024年、第1回「夜明け前 | New Photography Award」ファイナリスト。\n\n主な個展に『SEASONS』Foil Gallery（東京、2010年）、『鴉』P.G.I.（東京、2015年）、『Things will get better over time』Gallery Trax（山梨）／Studio Staff Only（東京、2017年）、『第四の壁』PGI（東京、2017年）、『距離と深さ』Studio Staff Only／PGI（東京、2020年）、『Warp and Woof』PGI（東京、2023年）\n\n写真集に、『Things will get better over time』（FUJITA 2017年）、『The Fourth Wall / 第四の壁』（T&M Projects 2017年）、『距離と深さ』（FUJITA 2020年）、『Warp and Woof』（FUJITA 2023年）。2026年、『SLEEPWALK』（FUJITA）刊行予定。",
       "medium": "photo",
       "exhibition_type": "curated",
       "genre_tags": [],
@@ -70467,7 +70467,14 @@
         "lat": 35.657429,
         "lng": 139.7428722
       },
-      "artists": [],
+      "artists": [
+        {
+          "id": "ef8ffe358cf5",
+          "name": "竹之内祐幸",
+          "lang": null,
+          "tr": {}
+        }
+      ],
       "source_url": "https://www.pgi.ac/exhibitions/11464",
       "featured": false,
       "popularity_score": null
@@ -70914,7 +70921,7 @@
       "price_max": null,
       "start_date": "2026-08-19",
       "end_date": "2026-08-23",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "6795669a3e6a",
@@ -73389,6 +73396,252 @@
       },
       "artists": [],
       "source_url": "https://www.tokyoartbeat.com/events/-/Sumida-Art-Festival/0-CB85-F8-D/2026-09-04",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "5945f11d82d9",
+      "source": "tokyo_art_beat",
+      "title": "笹岡華絵 「よりしろ - Still Me -」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/abeab857/sasaoka%E8%A1%A8-preview%E3%81%AE%E3%82%B3%E3%83%92%E3%82%9A%E3%83%BC%20-%20%E7%AB%B9%E7%94%B0%E7%90%86%E7%B4%80.jpg",
+      "description": "アーティストHanae Sasaokaを代表する作品、フルフェイスのマスクをした人間たちを描いた平面作品、写真作品、近年積極的に制作している絵付けの器など、彼女の現在地を展示、販売します。彼女は、自身が海外で過ごした経験、そしてコロナ中、マスクをしている人々の姿を見て、マスクで覆われた顔によるコミュニケーションの安らかさに目を向けます。その気づきは、やがて作品の中の人々の姿へとつながっていきました。「変わらないマスクの表情は不安を助長するけれど、一方で不満や恐怖、憎悪などネガティブな感情を覆い隠し、自分が相手に期待する表情を投影することを許してくれる。こうして、マスクでおおわれた顔は、表情豊かな表現よりもむしろ逆に人間のコミュニケーションを平らかにする可能性があることを、私はつい６年ほど前に知ることとなった。作品中の登場人物のように、地球上のすべての人間がフルフェイスのバードマスクを着用して、世界が争いごとが無くならないかしらとわたしはほのかに期待している。」\n\n彼女によって描かれる、さまざまな動物のマスクをした人間たち。鳥だったり、猫だったり、何ものとも呼べないものだったり。フルフェイスのマスクをした人間たちを描いた平面作品、写真作品を見ながら、それぞれの「よりしろ」を考える展覧会をぜひご覧ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-08",
+      "end_date": "2026-09-20",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "3ea7577322f9",
+        "name": "GOTTA Kudanshita",
+        "lang": null,
+        "tr": {},
+        "region": "竹橋、水道橋、末広町",
+        "district": null,
+        "lat": 35.69432,
+        "lng": 139.7472
+      },
+      "artists": [
+        {
+          "id": "eb34adcdeba7",
+          "name": "笹岡華絵",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hanae-Sasaoka-Still-Me/gotta-kudanshita/2026-09-08",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "59745e0a1cdd",
+      "source": "tokyo_art_beat",
+      "title": "Smythsons 「Still Moving Lives」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/17e363e7/1216EAB2-5691-4832-9D1F-154819037771%202.jpeg",
+      "description": "LOWWにとって、現在の場所で開催する最後の展覧会となります。最後に私たちが選んだのは、「写真」という表現でした。写真は、目の前にあるものを写し取るだけのものではありません。そこに写っていないもの、そこにいたはずの人の気配や時間、そして人間と自然との関係までも、静かに映し出すことができます。本展では、人間そのものが写っていない写真を手がかりに、自然と人の営み、その間に生まれる風景を読み解きます。誰もいない場所に残された痕跡や、自然の中に刻まれた人の時間を通して、写真というメディアが持つ「見ること」の可能性をあらためて考えます。LOWWは、この場所での活動を終えます。しかし、私たちはこれを終わりとは考えていません。これまでここで出会った作品や作家、そして訪れてくださった一人ひとりとの時間は、これから先へと続いていくものだと信じています。この最後の展覧会が、過去を振り返るためだけではなく、まだ見えていない次の風景へと目を向けるための、小さなきっかけとなることを願っています。これまでLOWWに関わってくださったすべての方々へ、心より感謝を申し上げます。そして、またどこかで、新しい風景をともに見つめられることを願って。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-22",
+      "end_date": "2026-08-29",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "7ad88c20c89d",
+        "name": "LOWW",
+        "lang": null,
+        "tr": {},
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.60929654195875,
+        "lng": 139.68468314847945
+      },
+      "artists": [
+        {
+          "id": "a6c09d7ed715",
+          "name": "Smythsons",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Smythsons-Still-Moving-Lives/loww/2026-08-22",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "4f44cc0202c0",
+      "source": "tokyo_art_beat",
+      "title": "「The Shape of Things Group Exhibition」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/983ff743/The%20Shape%20of%20Things%20-%20Diffraction.jpg",
+      "description": "ショップ・カフェ併設のギャラリー、Diffractionでは9月3日から9月29日まで、現代美術のグループ展を開催いたします。プロのアーティストに限定せず幅広い作品が一堂に会する本展を、ぜひ会場にてお楽しみください。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-03",
+      "end_date": "2026-09-29",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "d14fcdc7e328",
+        "name": "Diffraction（ディフラクション）",
+        "lang": null,
+        "tr": {},
+        "region": "神奈川県",
+        "district": null,
+        "lat": 35.43761956078643,
+        "lng": 139.64534626810553
+      },
+      "artists": [
+        {
+          "id": "48ff80a2bf90",
+          "name": "笹埜八郎",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "766993db9c09",
+          "name": "牧弘子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "2a925fc12da4",
+          "name": "HAOGENG PAN",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c0449f0bad7b",
+          "name": "yuko.ouchi",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a78a7972e65f",
+          "name": "笠原光咲子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5bff4aa18d3b",
+          "name": "ひらかわまり",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "03c809bcdb1d",
+          "name": "植木朋美",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8193af6a5f9a",
+          "name": "今関華",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8cf8e3be2b05",
+          "name": "Zhang Yinghua",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "eaf09ffc5b5b",
+          "name": "張馨月",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5b476c43f6e9",
+          "name": "Ai",
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "아이"
+            },
+            "ja": {
+              "name": "アイ"
+            }
+          }
+        },
+        {
+          "id": "127faad63721",
+          "name": "ERI OHYAMA",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b87c789b72e8",
+          "name": "千景",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/The-Shape-of-Things-Group-Exhibition/diffraction/2026-09-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "9841c9eb018d",
+      "source": "tokyo_art_beat",
+      "title": "安淂 「Shell from the Deep」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/0fc8b094/DM%20&%20poster%20Upscaler%202x%20%20-%20%E3%83%9E%E3%83%AB%E3%83%95%E3%82%A9%E3%83%88.jpeg",
+      "description": "8月27日より、maruphoto写真店では、台湾出身のアーティストANDE 安淂による個展「Shells from the Deep」を開催いたします。「安淂」という名は、「安」「得」、そして水を意味するさんずいを加えた「淂」という文字から生まれています。「安」は、家の中にいる女性の姿から、安らぎや穏やかさを想起させる文字。「得」は、かつて交易のための貨幣として用いられた貝殻を求め、人々が水辺へと向かった記憶と重ねられています。\n\n安得？どのようにして、得ることができるのか。その問いに対し、作家は「淂」という文字を置きます。淂。水を通して。本展のタイトル「Shells from the Deep」には、水の深くへと潜り、そこに沈む貝殻を拾い上げるように、目には見えないもの、深くにあるものへと手を伸ばすイメージが重ねられています。文字と言葉、水、そして「得る」という行為を手がかりに展開されるANDE 安淂の世界を、ぜひ会場にてご覧ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-27",
+      "end_date": "2026-08-31",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "238fe96014e5",
+        "name": "写真店maruphoto",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "사진점 maruphoto"
+          },
+          "en": {
+            "name": "Photo Shop maruphoto"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.018383294965,
+        "lng": 135.77478583068847
+      },
+      "artists": [
+        {
+          "id": "1c5efc5a86a4",
+          "name": "安淂",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Ande-Shell-From-The-Deep/maruphoto/2026-08-27",
       "featured": false,
       "popularity_score": null
     }
@@ -81386,6 +81639,48 @@
       "country": "JP",
       "lat": 35.721105515475536,
       "lng": 139.8183004219953,
+      "website": null
+    },
+    {
+      "id": "3ea7577322f9",
+      "name": "GOTTA Kudanshita",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "竹橋、水道橋、末広町",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.69432,
+      "lng": 139.7472,
+      "website": null
+    },
+    {
+      "id": "7ad88c20c89d",
+      "name": "LOWW",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "世田谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.60929654195875,
+      "lng": 139.68468314847945,
+      "website": null
+    },
+    {
+      "id": "d14fcdc7e328",
+      "name": "Diffraction（ディフラクション）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "神奈川県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.43761956078643,
+      "lng": 139.64534626810553,
       "website": null
     }
   ],
@@ -100205,6 +100500,102 @@
     {
       "id": "8cafd20e604a",
       "name": "有元伸也 / Shinya Arimoto",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ef8ffe358cf5",
+      "name": "竹之内祐幸",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "eb34adcdeba7",
+      "name": "笹岡華絵",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a6c09d7ed715",
+      "name": "Smythsons",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "48ff80a2bf90",
+      "name": "笹埜八郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "766993db9c09",
+      "name": "牧弘子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2a925fc12da4",
+      "name": "HAOGENG PAN",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c0449f0bad7b",
+      "name": "yuko.ouchi",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a78a7972e65f",
+      "name": "笠原光咲子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5bff4aa18d3b",
+      "name": "ひらかわまり",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "03c809bcdb1d",
+      "name": "植木朋美",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8193af6a5f9a",
+      "name": "今関華",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8cf8e3be2b05",
+      "name": "Zhang Yinghua",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "eaf09ffc5b5b",
+      "name": "張馨月",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "127faad63721",
+      "name": "ERI OHYAMA",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b87c789b72e8",
+      "name": "千景",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1c5efc5a86a4",
+      "name": "安淂",
       "lang": null,
       "tr": {}
     }
