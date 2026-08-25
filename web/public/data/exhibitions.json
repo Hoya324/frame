@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T16:38:20.036176+00:00",
+  "generated_at": "2026-08-25T19:03:21.837840+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -50748,7 +50748,7 @@
       "price_max": null,
       "start_date": "2026-08-25",
       "end_date": "2026-08-30",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5163e693d1ea",
@@ -56231,7 +56231,7 @@
       "price_max": null,
       "start_date": "2026-08-12",
       "end_date": "2026-08-24",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "432d5e28e354",
@@ -58956,7 +58956,7 @@
       "price_max": null,
       "start_date": "2026-07-30",
       "end_date": "2026-08-24",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "82f20bbfb3dd",
@@ -66698,7 +66698,7 @@
       "price_max": null,
       "start_date": "2026-08-25",
       "end_date": "2026-08-30",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "54c1740b50d0",
@@ -68577,7 +68577,7 @@
       "price_max": null,
       "start_date": "2026-08-19",
       "end_date": "2026-08-24",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "838c559a265c",
@@ -72682,7 +72682,7 @@
         }
       },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/4DDNVCgBpyWzwcni6h0W7Z/7a3009dabc13d9e7d660e5897e22b0ab/744b5061-2e9d-4cd6-b9db-cfb59b5290f4.jpeg",
-      "description": "今回の展示は、西村陽一郎さんの世界にご案内します。数十年前に期限の切れた大判フィルムに、ホタルの光を直接焼き付けたフォトグラム作品を展示します。暗闇の中でゆっくりと呼吸するように明滅する光が織りなす、闇と光、時間と空間、生と死。彼がテーマにしている全てがここにあるのです。",
+      "description": "今回の展示は、西村陽一郎さんの世界にご案内します。数十年前に期限の切れた大判フィルムに、ホタルの光を直接焼き付けたフォトグラム作品を展示します。暗闇の中でゆっくりと呼吸するように明滅する光が織りなす、闇と光、時間と空間、生と死。彼がテーマにしている全てがここにあるのです。\n\n[関連イベント]\n鳥原学さん＆西村陽一郎さんと楽しむ、写真とサイアノタイプのひととき\n日時: 9月5日 12:30～\n参加費: 6000円（ランチ・ワンドリンク・材料費込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
       "exhibition_type": "solo",
       "genre_tags": [],
@@ -73642,6 +73642,728 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Ande-Shell-From-The-Deep/maruphoto/2026-08-27",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "9b37800bc949",
+      "source": "njp_art_center",
+      "title": "서울라이트 DDP 2026 가을",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://njp.ggcf.kr/storage/upload/2026/08/25/jei6OF7gPH7x7uQaLaswmiSqHe7VGuWS9g89Nv4P.jpg",
+      "description": "버스데이, <The Break Point>, 2026, 맵핑 프로젝션, 2분, 음원연출: 포자랩스, 기관협력: 백남준아트센터\n\n백남준아트센터는 서울디자인재단과의 협력을 통해 백남준의 예술적 실험을 오늘의 미디어 환경에서 새롭게 선보인다. ‘어둠을 깨고 새로운 빛을 여는 존재, Daybreaker’을 주제로 열리는 미디어파사드 프로젝트 ‘서울라이트 DDP 가을’은 한국 문화의 새로운 출발점을 만들어온 창조적 실험과 ‘시작의 빛(K-Original Light)’에 주목한다. 백남준아트센터는 서울시립미술관, 국립한글박물관과 함께 이번 프로젝트에 참여하며, 백남준이 개척한 미디어아트의 가능성을 오늘의 기술과 공연, 공간의 언어로 확장한다.\n\n백남준아트센터와의 공동연구를 바탕으로 미디어아트 레이블 버스데이(VERSEDAY)가 선보이는 <The Break Point>는 백남준의 비디오 작품 <글로벌 그루브>(1973)를 중심으로, 그가 ‘비디오 신디사이저’를 통해 제작한 비디오 클립과 푸티지를 DDP 곡면 파사드에 맞춘 멀티채널의 구조로 프로젝션한다. 222m에 이르는 비정형적 외벽은 하나의 전시공간이 된다.\n\n\"창작자, 시청자, 비평가를 일치시키는 '참여 TV'는 분명히 이 목표에 도달하는 방법 가운데 하나이다.\n\n그것만으로도 훌륭하지 않은가, 훌륭하지 않은가.\"\n\n백남준, 「비디오 신디사이저 플러스」, 『래디컬 소프트웨어』 제1권 제2호, 1970.\n\n1970년대 초를 전후로 백남준은 TV 코일을 조작해 ‘비디오 신디사이저’ 기술을 실험하고, 영상의 색과 형태, 움직임을 자유롭게 변형하며 ‘댄싱 패턴’ 등 새로운 이미지의 가능성을 탐구했다. 이러한 기술 실험은 관객이 영상 이미지의 창작 과정에 참여할 수 있는 가능성을 제시하며, 미디어를 단순한 재생 장치를 넘어 창작경험이 이뤄지는 장으로 확장하고자 하는 시도 중 하나였다.\n\n<The Break Point>는 이러한 백남준의 실험을 라이브 공연과 실시간 오디오 비주얼 퍼포먼스 형식으로 다시 호출한다. DJ의 음악과 DDP 파사드의 영상은 실시간으로 서로 반응하며 변화하고, 이미지와 사운드가 하나의 흐름 안에서 결합되어 매 순간 다채로운 장면을 만들어낸다. 가장 빛나는 서울의 가을밤, 백남준의 리듬은 DDP의 거대한 파사드 위에서 공공의 감각이 교차하는 열린 구조로서 관객과 만날 것이다.\n\n9. 3.(목) 20:00\n\nIDIOTAPE\n\n9. 4.(금)/9. 5.(토) 20:20\n\nSION\n\n9. 6.(일)/9. 12.(토) 20:20\n\nHYPNOSIS THERAPY\n\n9. 11.(금)/9. 13.(일) 20:20\n\nSOULSCAPE\n\n※ 상기 일정은 현장 상황에 따라 변경될 수 있습니다.※ 우천 시에도 행사는 정상 운영되며, 기상악화로 인한 취소 시 DDP 홈페이지를 통해 안내됩니다.\n\n백남준아트센터, 서울시립미술관, 국립한글박물관\n\n관람요금: 무료\n\n관람시간: 19:30 – 22:30\n\n※ 휴관일 없음\n\n※ 이 전시는 도슨트를 운영하지 않습니다.\n\n서울라이트 2026-v23 OL_블랙\n\n서울라이트 DDP 2026 가을",
+      "medium": "video",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-03",
+      "end_date": "2026-09-13",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "162d896d238b",
+        "name": "백남준아트센터",
+        "lang": "ko",
+        "tr": {
+          "en": {
+            "name": "Nam June Paik Art Center"
+          },
+          "ja": {
+            "name": "白南準アートセンター"
+          }
+        },
+        "region": "경기",
+        "district": null,
+        "lat": 37.2691466271795,
+        "lng": 127.110437937287
+      },
+      "artists": [
+        {
+          "id": "2f5ac63f7ef7",
+          "name": "백남준",
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Paik Nam-june"
+            },
+            "ja": {
+              "name": "ペク・ナムジュン"
+            }
+          }
+        }
+      ],
+      "source_url": "https://njp.ggcf.kr/exhibitions/246",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "b3197535f7b6",
+      "source": "place_m",
+      "title": "Traveling／旅しないカメラ",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://www.placem.com/schedule/2026/main/20260928/20260928.jpg",
+      "description": "2026.09.28 - 2026.10.04 第22回 Traveling／旅しないカメラ 土田麻子 安達元彦 榎本喜代美 長谷部康寛 小西拓良 藤本翔大 佐々木優至 皆川耕介 有吉絵里 森田かな 土屋美紀 山本 ゆたか 鳥山優子 山田秀樹 金子千裕",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-28",
+      "end_date": "2026-10-04",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "2da18874aafa",
+        "name": "Place M",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Place M"
+          },
+          "ja": {
+            "name": "Place M"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.6877688,
+        "lng": 139.7125787
+      },
+      "artists": [
+        {
+          "id": "7be7e87f52b8",
+          "name": "第22回",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.placem.com/schedule/2026/main/20260928/exhibition.php",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "52366e68c303",
+      "source": "place_m",
+      "title": "移民の歌を聞け",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://www.placem.com/schedule/2026/mini/20260928/yoshiakinakada.jpg",
+      "description": "2026.09.28 - 2026.10.04 中田圭昭 移民の歌を聞け この作品は、2014年から2016年にかけて、私が暮らしていたニューヨーク・ブルックリン、ブッシュウィックの街で行われた National Puerto Rican Day Parade を撮影したものです。 プエルトリコに暮らす人々はアメリカ国籍を持ちながら、アメリカ大統領選挙の投票権を持ちません。年に一度の祝祭には、スペインとアメリカの歴史の中に埋もれながらも、彼ら自身が持ち続けている identity の主張がありました。 その姿を撮影しながら、私はいつか自分も移民となり、異国の土地で故郷の祭りに参加する日が来るのだろうか、と考えるようになりました。 いつか私も、お盆に中国で盆踊りを踊る日が来たら。 その日のために、上手に踊れるよう準備をしておきたいと思います。 2014–2016 Hart St. and Knickerbocker Ave., Bushwick, Brooklyn, NY Hear the Immigrant Sing. This piece was shot between 2014 and 2016 during the National Puerto Rican Day Parade in my neighborhood in Bushwick, Brooklyn, New York. People living in Puerto Rico are U.S. citizens, but do not have the right to vote in U.S. presidential elections. Through this annual celebration, I felt their assertion of identity, shaped by and buried within the histories of Spain and the United States. As I photographed them, I began to wonder if someday I might also become an immigrant and take part in a festival from my homeland in a foreign land. If someday I dance Bon Odori in China during Obon, I want to be prepared to dance well. 2014–2016 Hart St. and Knickerbocker Ave., Bushwick, Brooklyn, NY 選評 ニューヨークで撮影された、非常に異色でありながら活気に満ちたプロジェクト。ニューヨーク市のプエルトリコ・コミュニティの祝祭を通して「もう一つの歴史」という考えに向き合い、コミュニティ、記憶、アイデンティティについての重要な問いを呼び起こしている。 A very atypical but vibrant project, shot in New York that takes on the idea of alternative histories through the celebrations of the Puerto Rican community in New York City, evoking key questions of community, memory and identity. — Simon Baker 選評 2022年 IMA NEXT「other histories」Shortlist",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-28",
+      "end_date": "2026-10-04",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "2da18874aafa",
+        "name": "Place M",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Place M"
+          },
+          "ja": {
+            "name": "Place M"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.6877688,
+        "lng": 139.7125787
+      },
+      "artists": [
+        {
+          "id": "9b8c1d3d43a2",
+          "name": "中田圭昭",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.placem.com/schedule/2026/mini/20260928/exhibition.php",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "32e9eb6b6865",
+      "source": "tokyo_art_beat",
+      "title": "「心の在処 / Where the Heart Finds Its Place 第2回日本在住外国人アーティスト（美術家）展覧会授賞作家特別展＋ゲストアーティスト」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/ea092a4d/%E5%BF%83%E3%81%AE%E5%9C%A8%E5%87%A6%EF%BD%9CHP%E3%80%81%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%82%B0%E3%83%A9%E3%83%A0%E6%8E%B2%E8%BC%89%E7%94%A8%E7%94%BB%E5%83%8F%20%E3%83%A1%E3%82%A4%E3%83%B3%EF%BC%91%E6%9E%9A%E3%80%81%E3%82%B5%E3%83%96%EF%BC%91%E6%9E%9A%20-%20%E5%A4%A7%E5%9E%A3%E6%9B%B8%E5%BA%97%E5%A0%80%E5%B7%9D%E6%96%B0%E6%96%87%E5%8C%96%E3%83%93%E3%83%AB%E3%83%82%E3%83%B3%E3%82%B0.jpg",
+      "description": "2026年6月に京都市美術館別館で開催された、第2回「日本在住外国人アーティスト（美術家）展覧会『帰属の狭間』」の受賞作家とゲストアーティストによる、現代美術のグループ展です。「心の在処｜Where the Heart Finds Its Place」をテーマに、記憶、言葉、身体、風景、他者との関係や創作を通して形づくられる「心の居場所」を、それぞれの作品を通して探ります。\n\n[関連イベント]\nワークショップ\n①「ハンガリー刺繍のミニワークショップ」\n日時: 9月27日 14:00〜17:00\n料金: 4900円（要事前申込み）\n②「オリジナル缶バッジをつくろう！」\n日時: 9月19日～9月27日 13:00〜18:00\n料金: 500円（申込み不要）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-19",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "d0718ada2e82",
+        "name": "NEUTRAL（堀川新文化ビルヂング）",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "NEUTRAL (호리카와 신분카 빌딩)"
+          },
+          "en": {
+            "name": "NEUTRAL (Horikawa Shin Bunka Building)"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.023912196494756,
+        "lng": 135.75154559755325
+      },
+      "artists": [
+        {
+          "id": "2792a6b2950f",
+          "name": "キム・キハン",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8bde784733dd",
+          "name": "アンディ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e760506c325f",
+          "name": "楊小波",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "양샤오보"
+            },
+            "en": {
+              "name": "Yang Xiaobo"
+            }
+          }
+        },
+        {
+          "id": "22c6020315ec",
+          "name": "張目実",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "장목실"
+            },
+            "en": {
+              "name": "Jang Mok-sil"
+            }
+          }
+        },
+        {
+          "id": "b3f228c7b8fa",
+          "name": "蔡璧合",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8125ccf71bfb",
+          "name": "陳致維",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "f1be47ae5791",
+          "name": "カ・ヤンニ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "823a1d4c03d0",
+          "name": "シカンブリ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Where-the-Heart-Finds-Its-Place/neutral-horikawa-new-culture-bldg-kyoto/2026-09-19",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "0e23c2972d7e",
+      "source": "tokyo_art_beat",
+      "title": "「コーンミュニケーション展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/d50df8dc/f2d93662f9634823ff1312a22040a7d6.jpg",
+      "description": "日常の中で、風景の一部として見過ごされがちな「カラーコーン®」。その円錐形のオブジェクトは、道路や工事現場、駐車場やイベント会場など、暮らしの中のさまざまな場面で、安全確保・立ち入り禁止・車や歩行者の誘導など大切な役目を担っています。本展は、カラーコーンマニア歴13年のおかだゆか氏と共に、実は私たちのそばにいつもいるカラーコーンについて、実用やデザイン、路上観察、カラーコーンを通した街と人との関係性や繋がりなど、多角的に掘り下げます。そして、それらをきっかけに “日常探検” することの楽しさを提案する展覧会です。おかだ氏が路上で撮影した数多のカラーコーン写真、アート作品、カラーコーンの製造方法や見分け方ガイドなどを展示し、なんでもない日常を味わい尽くす喜び、日常への眼差しや愛を伝えます。\n＊「カラーコーン」はセフテック株式会社の登録商標または商標です[登録商標第2286342号]。本展ではセフテック株式会社の協力のもと、一般的な呼称として使用しています。\n\n[関連イベント]\nトークイベント「電線とカラーコーンが教えてくれる 日常を探検する方法」\n日時: 9月22日 19:00～20:30\n場所: ワークショップルームA\n参加費: 1000円（要事前申し込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-08",
+      "end_date": "2026-10-04",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "0369da1db600",
+        "name": "世田谷文化生活情報センター 生活工房",
+        "lang": null,
+        "tr": {},
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.64388124285894,
+        "lng": 139.66914560652572
+      },
+      "artists": [
+        {
+          "id": "56c4ce94bbc1",
+          "name": "おかだゆか",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Cone-mmunication/AE44-F41-D/2026-09-08",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "b3d751025d60",
+      "source": "tokyo_art_beat",
+      "title": "山内光枝 「潮ノ記」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/3ee0f401/yamauchi-flyer_page-0001.jpg",
+      "description": "山内光枝（1982-）は、福岡を拠点に、海に生きる人々の生活や文化に焦点を当てた作品を制作しています。2010年頃、素の身体で海辺に立つ海女の写真と出会い、そのしなやかな生命力に満ちた姿に強く惹かれたことを契機に、流動的な大自然である海を生活の場とする人々からインスピレーションを得た作品を数多く発表してきました。その表現は、ドローイングや映像、インスタレーションなど多岐にわたります。今回の個展では、《つれ潮》や《潮汐》などの映像作品のほか、山内自ら海に潜って目にした風景を各地の塩と海水で描いた《潮ドローイング》、潮の流れとともに生きてきた人々との五体を通した営みの継承を写真とドローイングで表現した作品なども展示します。また、これまでの実践と未来の展開をつなぐ新たなプロジェクトの出発点となる作品も、本展で初公開します。\n\n[関連イベント]\n1. 「作家と海女さんとのトーク」\n日時: 10月12日 14:00～16:00\n場所: 1階 レクチャールーム\n料金: 無料\n2. 「山内光枝展 見どころ紹介」\n日時: 10月24日 15:00～16:00\n場所: 1階 レクチャールーム\n料金: 無料\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-08",
+      "end_date": "2026-12-20",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "3032bae70185",
+        "name": "福岡市美術館",
+        "lang": null,
+        "tr": {},
+        "region": "福岡県",
+        "district": null,
+        "lat": 33.583856247035804,
+        "lng": 130.3795317165492
+      },
+      "artists": [
+        {
+          "id": "b9e9aa82327e",
+          "name": "山内光枝",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Terue-Yamauchi-The-Shore-of-Living-and-Dying/A9-A7-D64-F/2026-09-08",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "8f7e5ed82c12",
+      "source": "tokyo_art_beat",
+      "title": "滝原逸郎 「写真絵画主義」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/zkl9KvZOkYjbr2PA9BpCj/ec6ea56b9ee8ad2c180bf148d427fa6c/47a4da6f-61b3-41c9-b471-a9e57014585d.jpg",
+      "description": "大自然が生み出す圧倒的な光、鮮やかな色彩、そして息を呑む力強さ。光の角度で刻々と表情を変える、豊かな陰影を宿した新たなアート作品をご堪能ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-08",
+      "end_date": "2026-09-13",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "54c1740b50d0",
+        "name": "京都写真美術館 ギャラリー・ジャパネスク",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "교토 사진 미술관 갤러리 재패네스크"
+          },
+          "en": {
+            "name": "Kyoto Museum of Photography Gallery Japanesque"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.009916818776944,
+        "lng": 135.78263679265976
+      },
+      "artists": [
+        {
+          "id": "2c8e2cf6a982",
+          "name": "滝原逸郎",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Etsuro-Takihara-Photo-Pictorialism/kyoto-museum-of-photography-gallery-japanesque/2026-09-08",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "3bdcc64800ff",
+      "source": "tokyo_art_beat",
+      "title": "「『レスリー～レスリー・チャンのすべて～70th Anniversary Edition』出版記念 清永安雄 写真展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/3ZxmBQnszLMeYCowIBWPgk/c013723f5f4ebff6b819a2786af1c985/570d3af0-eac5-4df4-9d93-79be3b8c95c8.png",
+      "description": "京都写真美術館では2026年9月8日（火）から9月27日（日）まで、『レスリー～レスリー・チャンのすべて～70th Anniversary Edition』出版記念 清永安雄 写真展を開催いたします。本展では、写真集に収載された写真の中から写真家自らが選んだ写真（A3ノビサイズ約20点とF40号サイズ3点）を展示いたします。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-08",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "54c1740b50d0",
+        "name": "京都写真美術館 ギャラリー・ジャパネスク",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "교토 사진 미술관 갤러리 재패네스크"
+          },
+          "en": {
+            "name": "Kyoto Museum of Photography Gallery Japanesque"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.009916818776944,
+        "lng": 135.78263679265976
+      },
+      "artists": [
+        {
+          "id": "c4a6e87accf1",
+          "name": "清永安雄",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "키요나가 야스오"
+            },
+            "en": {
+              "name": "Kiyonaga Yasuo"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yasuo-Kiyonaga-Photo-Exhibition-Celebrating-All-About-Leslie-70th-Anniversary-Edition/kyoto-museum-of-photography-gallery-japanesque/2026-09-08",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "2021a8447b58",
+      "source": "tokyo_art_beat",
+      "title": "スティーブン・ギル 「Stephen Gill」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/de7a7846/11498-2649-22d03342a0f978320179f44e0d9a785c-1907x2700.webp",
+      "description": "art cruise gallery by Baycrew’sは、第14回目の展示として、スティーブン・ギルの個展『Stephen Gill』を2026年9月11日（金）より開催いたします。ギルは、写真を「世界を記録するためのもの」から、「世界とともにイメージを生み出すためのもの」へと拡張してきました。《Hackney Flowers》では、ロンドン東部のハックニーで撮影した写真に同地域で採集した花や種を重ね、さらには土に埋めるなど、時間や土地との協働を制作のプロセスに取り込んでいます。また、《Talking to Ants》では、撮影場所で見つけた植物や昆虫などをカメラ内部に入れ、意図せずに生じた影や痕跡を風景とともにフィルムへと定着。《Please Notify the Sun》は、彼自身が一匹の魚の体内に入り込むという「探検」を通して制作された作品です。\n\nその探求がひとつの到達点として現れるのが、《The Pillar》です。スウェーデンの農地に一本の木製の杭を立て、その前にモーションセンサー付きのカメラを設置。ギル自身がその場に立ち会うことなく、杭に集まる鳥たちがカメラに収められました。羽ばたき、休息、羽づくろい、飛び立つ瞬間──そこに写るのは、写真家が決定的瞬間を選び取った結果ではなく、鳥と偶発性、そして装置との出会いによって生まれたイメージです。ギルは、写真家の「撮る」という行為を少しずつ手放し、自然そのものや偶然に作品を委ねていきます。そこには、写真をコントロールするのではなく、写真が生まれる状況そのものをつくるという彼独自の姿勢があります。《The Pillar》は、その静かな実験の先に立ち現れた作品です。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-11",
+      "end_date": "2026-11-08",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "183df2495444",
+        "name": "art cruise gallery by Baycrew's",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "art cruise gallery by Baycrew's"
+          },
+          "ja": {
+            "name": "art cruise gallery by Baycrew's"
+          }
+        },
+        "region": "麻布台、虎ノ門",
+        "district": null,
+        "lat": 35.66755,
+        "lng": 139.7469
+      },
+      "artists": [
+        {
+          "id": "ba6b22c34ada",
+          "name": "スティーブン・ギル",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "스티븐 길"
+            },
+            "en": {
+              "name": "Stephen Gill"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Stephen-Gill-Stephen-Gill/art-cruise-gallery-by-baycrews/2026-09-11",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "d7930073a141",
+      "source": "tokyo_art_beat",
+      "title": "「ワン・シュウ＋ルー・ウェンユー展 建築すなわち庭」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/1dcdd2d5/press_release%20(1).jpg",
+      "description": "ワタリウム美術館では、本年12月より、プリツカー賞（2012）を受賞し、来年はヴェネチア・ビエンナーレ国際建築展の総合キュレーター（2027）を務める建築家、ワン・シュウと、ルー・ウェンユーの、日本で初めての本格的な展覧会を開催いたします。\n\nワンとルーは、1997年に中国・杭州でアマチュア・アーキテクチャー・スタジオ(業余建築工作室)を設立して以来、急速な都市化と経済成長が進む現代中国において、独自の建築実践を続けてきました。彼らが掲げる「建築すなわち庭(建築即園林)」という考え方は、中国の伝統的な庭園である「園林」への深い洞察から生まれたものです。園林とは、木、石、水、橋、亭などの要素が組み合わされ、自然物と人工物が溶け合うことによって、ひとつの世界を立ち上げる空間です。それは、ありのままの自然ではなく、自然と人間の想像力が交わることで生まれる、もうひとつの環境でもあります。ワンとルーは、この文人的な庭の思想を現代建築へと引き受けながら、園林、山水画、詩文、工芸、そして土地に根ざした素材や技術を手がかりに、建築の新しい可能性を切り拓いてきました。解体された村落から集められた瓦やレンガ、土、木、竹といった素材は、彼らの建築において単なるリサイクル材ではありません。それらは、失われつつある土地の記憶を呼び覚まし、新しい都市生活のなかに、別の時間を流れ込ませるための重要な媒体です。\n\n本展では、原寸モックアップ、図面、模型、スケッチ、映像、写真、そして今回新たに設計・施工される茶室などを通じて、自然と人工、素材と身体、記憶と未来が交わる彼らの建築世界を紹介します。ワタリウム美術館の展示空間をひとつの「庭」として歩きながら、時間をかけて成熟してきた彼らの建築の魅力を体感する展覧会です。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-04",
+      "end_date": "2027-03-28",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "00f5a140d354",
+        "name": "ワタリウム美術館",
+        "lang": null,
+        "tr": {},
+        "region": "表参道、青山",
+        "district": null,
+        "lat": 35.67069407559574,
+        "lng": 139.71342345321526
+      },
+      "artists": [
+        {
+          "id": "a213703ddc06",
+          "name": "ワン・シュウ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "cb4d3c8abf3c",
+          "name": "ルー・ウェンユー",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Wang-Shu-Lu-Wen-Yu-Exhibition/7879-E100/2026-12-04",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "6a237add977f",
+      "source": "tokyo_art_beat",
+      "title": "オカヤマナナミ 「happy accident」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/e5c45a9a/happy%20accident.jpeg",
+      "description": "MIDORI.so Bakuroyokoyama Galleryでは、オカヤマナナミによる個展「happy accident」を開催いたします。オカヤマは、日々の暮らしのなかで目に留まった日用品の断片や素材、訪れた場所で集めたもの、人から譲り受けたものなど、身の回りで偶然出会ったさまざまなモノを組み合わせ、写真やオブジェ作品を制作しています。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-28",
+      "end_date": "2026-09-06",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "4d358832edbc",
+        "name": "MIDORI.so Bakuroyokoyama",
+        "lang": null,
+        "tr": {},
+        "region": "浅草橋、馬喰町",
+        "district": null,
+        "lat": 35.69271,
+        "lng": 139.7837
+      },
+      "artists": [
+        {
+          "id": "0029cffff0bf",
+          "name": "オカヤマナナミ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Nanami-Okayama-Happy-Accident/midori-so-bakuroyokoyama/2026-08-28",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "fbbc9d0ab7ed",
+      "source": "tokyo_art_beat",
+      "title": "「コレクション展 ユージン・スミスとアイリーン・スミスが見たMINAMATA'26」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/ce0abb0c/%E3%83%A6%E3%83%BC%E3%82%B7%E3%82%99%E3%83%B3%E3%82%B9%E3%83%9F%E3%82%B9%20-%20%E5%B1%B1%E5%86%85%E5%85%85%20(1).jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-05",
+      "end_date": "2026-11-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "c0e5bf6414b5",
+        "name": "つなぎ美術館",
+        "lang": null,
+        "tr": {},
+        "region": "熊本県",
+        "district": null,
+        "lat": 32.23156525851229,
+        "lng": 130.45793947345865
+      },
+      "artists": [
+        {
+          "id": "d7641cab2a73",
+          "name": "ユージン・スミス",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8a255969659f",
+          "name": "アイリーン・スミス",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Minamata-26/756-AF91-B/2026-09-05",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "148d091783ff",
+      "source": "tokyo_art_beat",
+      "title": "片野智浩 「さらしあらがひて」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/654a5a37/%E3%81%95%E3%82%89%E3%81%97%E3%81%82%E3%82%89%E3%81%8B%E3%82%99%E3%81%B2%E3%81%A6.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-04",
+      "end_date": "2026-09-13",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "a675a16b2969",
+        "name": "gallery 201",
+        "lang": null,
+        "tr": {},
+        "region": "天王洲、品川",
+        "district": null,
+        "lat": 35.6269460589924,
+        "lng": 139.73083202190332
+      },
+      "artists": [
+        {
+          "id": "54e2cdb2f22c",
+          "name": "片野智浩",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Tomohiro-Katano-Exhibition/10-F6184-C/2026-09-04",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "6a572a418ec7",
+      "source": "tokyo_art_beat",
+      "title": "「SCENE : Cross the Border ー５つの技法が切り取る現代の風景ー」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/f43c570a/%E3%80%90ShinQs%20Gallery%EF%BC%95%E3%80%91SCENE_KV.jpg",
+      "description": "切り取る視点と用いる技法により、風景は全く違う表情を見せる。本展では、〈Scene／風景〉という共通テーマのもと、写真、日本画、テンペラ、アクリル、シールアートとジャンルの垣根を飛び越えて、5名の現代アーティストたちの作品をご紹介いたします。表現のジャンルが交錯する空間で、アーティストたちが捉えた「今」の風景、そしてその境界線の先にある景色をぜひご体感ください。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-27",
+      "end_date": "2026-09-09",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "103d8bed6f53",
+        "name": "ShinQs Gallery 5（シンクス・ギャラリー・ファイブ）",
+        "lang": null,
+        "tr": {},
+        "region": "渋谷",
+        "district": null,
+        "lat": 35.65911,
+        "lng": 139.7039
+      },
+      "artists": [
+        {
+          "id": "70ec7af1112d",
+          "name": "Alexander Maclean",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "f39259a42e56",
+          "name": "大村雪乃",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "feb44f85dafd",
+          "name": "橘川裕輔",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "62f1abea4091",
+          "name": "廣瀬佐紀子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e58594cc6adf",
+          "name": "細迫諭",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Scene-Cross-the-Border/shinqs-gallery-5/2026-08-27",
       "featured": false,
       "popularity_score": null
     }
@@ -81681,6 +82403,104 @@
       "country": "JP",
       "lat": 35.43761956078643,
       "lng": 139.64534626810553,
+      "website": null
+    },
+    {
+      "id": "0369da1db600",
+      "name": "世田谷文化生活情報センター 生活工房",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "世田谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.64388124285894,
+      "lng": 139.66914560652572,
+      "website": null
+    },
+    {
+      "id": "3032bae70185",
+      "name": "福岡市美術館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "福岡県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 33.583856247035804,
+      "lng": 130.3795317165492,
+      "website": null
+    },
+    {
+      "id": "00f5a140d354",
+      "name": "ワタリウム美術館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "表参道、青山",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.67069407559574,
+      "lng": 139.71342345321526,
+      "website": null
+    },
+    {
+      "id": "4d358832edbc",
+      "name": "MIDORI.so Bakuroyokoyama",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "浅草橋、馬喰町",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.69271,
+      "lng": 139.7837,
+      "website": null
+    },
+    {
+      "id": "c0e5bf6414b5",
+      "name": "つなぎ美術館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "熊本県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 32.23156525851229,
+      "lng": 130.45793947345865,
+      "website": null
+    },
+    {
+      "id": "a675a16b2969",
+      "name": "gallery 201",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "天王洲、品川",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.6269460589924,
+      "lng": 139.73083202190332,
+      "website": null
+    },
+    {
+      "id": "103d8bed6f53",
+      "name": "ShinQs Gallery 5（シンクス・ギャラリー・ファイブ）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "渋谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.65911,
+      "lng": 139.7039,
       "website": null
     }
   ],
@@ -100596,6 +101416,138 @@
     {
       "id": "1c5efc5a86a4",
       "name": "安淂",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7be7e87f52b8",
+      "name": "第22回",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9b8c1d3d43a2",
+      "name": "中田圭昭",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2792a6b2950f",
+      "name": "キム・キハン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8bde784733dd",
+      "name": "アンディ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b3f228c7b8fa",
+      "name": "蔡璧合",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8125ccf71bfb",
+      "name": "陳致維",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f1be47ae5791",
+      "name": "カ・ヤンニ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "823a1d4c03d0",
+      "name": "シカンブリ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "56c4ce94bbc1",
+      "name": "おかだゆか",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b9e9aa82327e",
+      "name": "山内光枝",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2c8e2cf6a982",
+      "name": "滝原逸郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a213703ddc06",
+      "name": "ワン・シュウ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "cb4d3c8abf3c",
+      "name": "ルー・ウェンユー",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0029cffff0bf",
+      "name": "オカヤマナナミ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d7641cab2a73",
+      "name": "ユージン・スミス",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8a255969659f",
+      "name": "アイリーン・スミス",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "54e2cdb2f22c",
+      "name": "片野智浩",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "70ec7af1112d",
+      "name": "Alexander Maclean",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f39259a42e56",
+      "name": "大村雪乃",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "feb44f85dafd",
+      "name": "橘川裕輔",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "62f1abea4091",
+      "name": "廣瀬佐紀子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e58594cc6adf",
+      "name": "細迫諭",
       "lang": null,
       "tr": {}
     }
