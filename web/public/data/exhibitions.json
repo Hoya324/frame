@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T21:28:33.704575+00:00",
+  "generated_at": "2026-08-31T22:52:53.058480+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -119,7 +119,7 @@
       "price_max": null,
       "start_date": "2026-04-23",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "e476820a0812",
@@ -24639,7 +24639,7 @@
       "price_max": null,
       "start_date": "2026-07-04",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "31b8109f8415",
@@ -29087,7 +29087,7 @@
       "price_max": null,
       "start_date": "2026-06-27",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "3e1b6710b530",
@@ -30589,7 +30589,7 @@
       "price_max": null,
       "start_date": "2026-06-13",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "f0f15a81c2c4",
@@ -36082,7 +36082,7 @@
       "price_max": null,
       "start_date": "2026-06-20",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "39de3af1bbac",
@@ -41923,7 +41923,7 @@
       "price_max": null,
       "start_date": "2026-06-03",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "77951f0177a3",
@@ -46950,7 +46950,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2c50d279d824",
@@ -49267,7 +49267,7 @@
       "price_max": null,
       "start_date": "2026-07-11",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "0c605605ba68",
@@ -50748,7 +50748,7 @@
       "price_max": null,
       "start_date": "2026-08-25",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "5163e693d1ea",
@@ -50956,7 +50956,7 @@
       "price_max": null,
       "start_date": "2026-07-17",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "7b35a94e7032",
@@ -52078,7 +52078,7 @@
       "price_max": null,
       "start_date": "2026-08-18",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "35890a070489",
@@ -54441,7 +54441,7 @@
       "price_max": null,
       "start_date": "2026-08-24",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -57847,7 +57847,7 @@
       "price_max": null,
       "start_date": "2026-08-01",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "d640ba24b668",
@@ -58842,7 +58842,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "6fdcfed98d3b",
@@ -65209,7 +65209,7 @@
       "price_max": null,
       "start_date": "2026-08-31",
       "end_date": "2026-09-06",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -65265,7 +65265,7 @@
       "price_max": null,
       "start_date": "2026-08-01",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "8265e63774ea",
@@ -65321,7 +65321,7 @@
       "price_max": null,
       "start_date": "2026-08-08",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "76373e5b77c3",
@@ -65660,7 +65660,7 @@
       "price_max": null,
       "start_date": "2026-08-01",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ef9911e05a4f",
@@ -65779,7 +65779,7 @@
       "price_max": null,
       "start_date": "2026-08-19",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "56f172501426",
@@ -66686,7 +66686,7 @@
       "price_max": null,
       "start_date": "2026-08-25",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "54c1740b50d0",
@@ -67068,7 +67068,7 @@
       "price_max": null,
       "start_date": "2026-08-19",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "018b6124fde6",
@@ -67126,7 +67126,7 @@
       "price_max": null,
       "start_date": "2026-08-31",
       "end_date": "2026-09-05",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "57bd0e5ca649",
@@ -67662,7 +67662,7 @@
       "price_max": null,
       "start_date": "2026-08-15",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "182dc66f91b5",
@@ -68093,7 +68093,7 @@
       "price_max": null,
       "start_date": "2026-08-22",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "863a35c2d6cb",
@@ -68900,7 +68900,7 @@
       "price_max": null,
       "start_date": "2026-08-28",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "073fbcdb83aa",
@@ -69364,7 +69364,7 @@
       "price_max": null,
       "start_date": "2026-08-29",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "e5a1c214c4dc",
@@ -69522,7 +69522,7 @@
       "price_max": null,
       "start_date": "2026-08-04",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "cf1528c9ba68",
@@ -69987,7 +69987,7 @@
       "price_max": null,
       "start_date": "2026-08-22",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "eba4f5e63243",
@@ -71534,7 +71534,7 @@
       "price_max": null,
       "start_date": "2026-08-22",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "3ad9e538d829",
@@ -71588,7 +71588,7 @@
       "price_max": null,
       "start_date": "2026-08-18",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "651dc68ae219",
@@ -74771,7 +74771,7 @@
       "price_max": null,
       "start_date": "2026-08-25",
       "end_date": "2026-08-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "9bcc228cbb05",
@@ -75131,7 +75131,7 @@
       "price_max": null,
       "start_date": "2026-08-31",
       "end_date": "2026-09-25",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "0a450e7fa335",
@@ -75967,6 +75967,241 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Hanayo-Hanayo-V-Are-we-not-drawn-onward-we-few-drawn-onward-to-new-era/taka-ishii-gallery-kyoto/2026-09-06",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f4cb6b4ba53f",
+      "source": "tokyo_art_beat",
+      "title": "岸幸太 「連荘21」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/aba0f960/kishi01.jpg",
+      "description": "「連荘」は、街を歩き写真を撮ることでそれぞれの街の歴史を嗅ぎとろうと探求を続ける岸の新たな制作を展覧していく試みです。第21回となる本展は、山口県下関市や福岡県北九州市で撮影された写真で構成されています。古びた商店街や店舗の看板、街中や路地裏の人影。これらの写真からは普段私たちが街の中で見過ごしてしまうような物のありようや人の姿を観念や感情の向こう側で注視する岸の一貫した姿勢が感じられます。本展にあわせて、写真冊子『連荘』の第 21 号が刊行されます。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-11",
+      "end_date": "2026-10-04",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "ec7e14bc9bb2",
+        "name": "KULA PHOTO GALLERY",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "KULA 포토 갤러리"
+          },
+          "ja": {
+            "name": "KULA フォト ギャラリー"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.69145595305437,
+        "lng": 139.70872133208556
+      },
+      "artists": [
+        {
+          "id": "a811ceb13c67",
+          "name": "岸幸太",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "기시 코타"
+            },
+            "en": {
+              "name": "Kishi Kota"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kota-Kishi-Renchan-21/16-A83-A7-D/2026-09-11",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "ed3a2a5e41f4",
+      "source": "tokyo_art_beat",
+      "title": "佐藤はなえ 「Borderland」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/003dbce2/%E4%BD%90%E8%97%A4%E3%81%AF%E3%81%AA%E3%81%88%EF%BC%99%E6%9C%88%E5%80%8B%E5%B1%95DM%E8%A1%A8.jpg",
+      "description": "東京藝術大学絵画科卒の美術作家・佐藤はなえによる個展『Borderland』を開催いたします。共通文脈が失われつつある現代の超多様化社会において、私たちは言葉や概念によって世界を分断し、他者や自然との間に「境界（Border）」を作り出しています。「本展では、水で融解する染料と油彩で型（Matrix）と痕跡（Index）のあわいを描く《Borderland》を中心に、楮（こうぞ）で人の姿を生成する《UTSU:SHIKI》、皮膚への極小の描痕《1mm tattoo》を出品する。《1mm tattoo》はアートプロジェクトをインスタント写真で出力した平面作品。《UTSU:SHIKI》は和紙の原料・楮を用いて、支持体の生成と描画を同時に行った、人型の平面作品。《Borderland》は、型と滲みを用いた、染料と油絵具の平面作品です。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-06",
+      "end_date": "2026-09-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "eccc611ad904",
+        "name": "アートスペース　月だいたい八日",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "아트 스페이스 츠키 다이타이 요카"
+          },
+          "en": {
+            "name": "Art Space Tsuki Daitai Yoka"
+          }
+        },
+        "region": "神奈川県",
+        "district": null,
+        "lat": 35.28984608402615,
+        "lng": 139.63478750744108
+      },
+      "artists": [
+        {
+          "id": "f37cd3b7fe57",
+          "name": "佐藤はなえ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hanae-Sato-Borderland/tsukihachigallery/2026-09-06",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "7043764bcda4",
+      "source": "tokyo_art_beat",
+      "title": "苅部太郎 「COGNITOGRAPHY」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/e7f27767/feed_01%20-%20YOHEI%20UCHIDA.jpg",
+      "description": "この度HECTAREでは、美術家／写真家・苅部太郎による個展「COGNITOGRAPHY」を開催いたします。写真は長らく、現実を記録し、真実を証明するメディアとして社会の中で機能してきました。しかし、画像生成AIの登場によって、写実的なイメージはカメラを介さずとも生み出されるようになり、写真とは何かという前提そのものが揺らぎ始めています。\n\n本展で苅部は、新たに提唱する「COGNITOGRAPHY（コグニトグラフィー）」という概念を通して、この変化に向き合います。それは目の前の現実を光を使ってカメラで写すことではなく、人間や機械がどのように世界を認識し、イメージを成立させているのか、その見えない構造を写真として捉えようとする試みです。新作《Latent Image／潜像》では、「見ること」そのものを問い直したマレーヴィチの《黒い正方形》と19世紀以降のフランス中心の絵画を、画像生成AI上で交差させています。そこに現れる格子状の痕跡は、AIが世界を認識する内部構造をレントゲンのように映し出しています。さらに、その構造は人間の視覚が世界を知覚し、秩序立てて理解していく過程に見立てることができます。本作は、機械と人間に共通する「見る」という行為の基盤そのものを浮かび上がらせています。一方、《写真擬のシンフォニエッタ》では、歴史の中で真実として流通してきたフェイク写真を起点に、写真が持つ虚構性と、私たちが何を「本物」と信じるのかという社会的な認識の仕組みを問い直します。ここでは生成AIは画像を生み出す主体ではなく、異なるイメージをつなぎ合わせる表現手段として用いられています。\n\n写真の誕生が絵画を写実から解放したとされるように、苅部は生成AIの登場によって写真もまた新たな転換点を迎えていると捉えます。本展では、写真というメディアのこれからを考えるとともに、私たち自身の「見る」という行為そのものを見つめ直す機会となるでしょう。\n\n[関連イベント]\nトークイベント\n日時: 2026年9月19日15:00〜\n登壇者: 苅部太郎、速水惟広\n会場: Hectare\n※イベント詳細は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-12",
+      "end_date": "2026-10-11",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "70243f555187",
+        "name": "HECTARE",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "헥타르"
+          },
+          "ja": {
+            "name": "ヘクタール"
+          }
+        },
+        "region": "渋谷",
+        "district": null,
+        "lat": 35.66499,
+        "lng": 139.6927
+      },
+      "artists": [
+        {
+          "id": "0dfdb9ff31ca",
+          "name": "苅部太郎",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Taro-Karibe-Cognitography/hectare/2026-09-12",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "33df4042d5e6",
+      "source": "tokyo_art_beat",
+      "title": "岡田雷平 「その瞬間、僕はときめいていた」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/9faaad4b/RaiheiOkada_kv%20-%20Raihei%20Okada.jpg",
+      "description": "9月12日（土）より、東京・原宿のYETにて、写真家・岡田雷平による個展「その瞬間、僕はときめいていた」が開催されます。\n\n本展では、日常の中でふと心が動いた瞬間や、何かに惹かれた瞬間を捉えた写真を中心に展示します。「その瞬間、自分は世界に対して開かれていたのだろうか。」そんな問いを出発点に、岡田は自分自身と向き合う中で、いつの間にか誰かからの評価を得るために写真を撮っていたことに気づき、改めて「写真家である」という生き方を試着するような気持ちで日々を過ごし始めたといいます。日常の中で出会う誰かの仕草や表情、光の入り方、風景の中に見つけた何気ないもの。そうした一瞬に感じた小さなときめきを手がかりに、これまで撮影してきた写真から作品を選び、一つの展示空間にまとめました。タイトル「その瞬間、僕はときめいていた」には、写真を通して、自分自身が世界に対してどれだけ開かれていたのかを問い直す意味が込められています。同時に、その問いが写真を見る人それぞれの中にも生まれることを願い、本展が構成されています。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-12",
+      "end_date": "2026-09-20",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "35a30c3615d4",
+        "name": "YET",
+        "lang": null,
+        "tr": {},
+        "region": "表参道、青山",
+        "district": null,
+        "lat": 35.66952456792574,
+        "lng": 139.70391661427706
+      },
+      "artists": [
+        {
+          "id": "1ef8cf61b1bb",
+          "name": "岡田雷平",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Raihei-Okada-In-That-Moment-I-Was-Moved/Yet/2026-09-12",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "9e574ad0d96b",
+      "source": "tokyo_art_beat",
+      "title": "佐藤信太郎 「都市百景」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/60dba5a2/2026-08-07%2012.12.09%20-%20Mariko%20Tsukamoto.png",
+      "description": "小伝馬町のショップ＆ギャラリー MONO GRAPHY Camera ＆Artでは、2026年9月1日（火）から9月13日（日）まで佐藤信太郎氏による写真展「都市百景」を開催いたします。佐藤氏は長年にわたり土地の持つ性格や歴史、人の営みと、そこから現れる雰囲気、そして写真という媒体が持つ物質性をテーマに東京の街を撮り続けています。今回はこれまで発表されてきた「夜光」「街景」「非常階段東京」の3シリーズを一堂に展示いたします。\n\n見慣れた日本／東京の街並みをさまざまな角度で捉える佐藤氏の作品から、街の捉え方や写し方など、日頃ストリートフォトや街歩きに親しむ方にも気づきを得ていただければ幸いです。会場では作品プリントに加え、佐藤氏の写真集も各種販売予定です。また、9月12日(土)には作家による作品解説のギャラリートークも開催予定です(要予約、詳細は後述)。 皆様のご来場を心よりお待ちしております。\n\n[関連イベント]\nギャラリートーク\n日時: 2026年9月12日19:30〜\n会場: MONO GRAPHY Camera ＆ Art\n料金: 880円（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-13",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "9feaf5101d3b",
+        "name": "MONO GRAPHY Camera ＆ Art",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "MONO GRAPHY Camera ＆ Art"
+          },
+          "ja": {
+            "name": "MONO GRAPHY Camera ＆ Art"
+          }
+        },
+        "region": "浅草橋、馬喰町",
+        "district": null,
+        "lat": 35.692536037805624,
+        "lng": 139.77946043741704
+      },
+      "artists": [
+        {
+          "id": "957a35609c80",
+          "name": "佐藤信太郎",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Shintaro-Sato-City-Portraits/mono-graphy-camera-and-art/2026-09-01",
       "featured": false,
       "popularity_score": null
     }
@@ -84510,6 +84745,20 @@
       "country": "JP",
       "lat": 35.00216150410746,
       "lng": 135.75602145767212,
+      "website": null
+    },
+    {
+      "id": "35a30c3615d4",
+      "name": "YET",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "表参道、青山",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.66952456792574,
+      "lng": 139.70391661427706,
       "website": null
     }
   ],
@@ -103815,6 +104064,30 @@
     {
       "id": "78600da38e79",
       "name": "陸超 / アスピリン / Aspirin",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f37cd3b7fe57",
+      "name": "佐藤はなえ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0dfdb9ff31ca",
+      "name": "苅部太郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1ef8cf61b1bb",
+      "name": "岡田雷平",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "957a35609c80",
+      "name": "佐藤信太郎",
       "lang": null,
       "tr": {}
     }
