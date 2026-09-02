@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T17:18:49.781578+00:00",
+  "generated_at": "2026-09-02T21:00:11.206053+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -648,8 +648,8 @@
         }
       },
       "poster_image_url": "https://image.kr.canon/pds/support/1751507488374_9oqiZBRou6.jpeg",
-      "description": "눈에 보이는 것을 담아내는 카메라와 렌즈는 신기하게도 창작가의 의도에 따라 전혀 다른 그림으로 빚어진다. 사진은 빛으로 그리는 그림인 만큼 작가 서대호는 사진가일까 혹은 화가일까?\n\n기억에 다가서서 : Approach Memories\n\n작품 속의 원형은 ‘기억’이다. 인간의 머리를 모티브로 하고 있지만, 완벽한 형태의 원형을 통해 명도와 채도, 균형과 조화로 우리의 이상적인 내면을 표현하고자 한다.\n\n이 작품들은 단편적인 기억을 환기시키며, 인물은 의도적으로 중립적인 태도를 유지한다. 이는 어떠한 구체적인 정보를 제공하지 않고, 오로지 인물이라는 최소한의 형태만으로 우리의 내면에 접근하고자 함이다.\n\n우리가 살아가면서 경험하는 수많은 기억 중에 “단편적인 기억의 잔상”을 표현한 이 작업은 기억을 상징하는 다양한 “색채와 원형의 조화”를 통해 기억의 “감정”을 담아내고, “원형”은 그 기억들이 하나의 완전한 형태로 모이고 연결되는 과정을 사진으로 담았다.\n\n서대호 | Photographer, Creative & Art Director\n\n서대호 사진작가는 광고와 패션 분야에서 두각을 나타내며, 국내외 기업 프로젝트와 유명 인사들의 사진 작업을 통해 상업과 예술의 경계를 넘나드는 작품 활동을 이어오고 있다. 최근에는 사진과 미술의 융합을 시도하며 새로운 개념의 작품을 선보이고 있다. 2024년 5월에는 ‘기억의 행렬’이라는 주제로 개인전을 개최하여, 기억의 잔상을 다양한 색채와 원형의 조화를 통해 표현한 작품들을 선보였으며, 2024년 10월에는 예술의 전당에서 ‘기억에 다가서서’라는 주제로 개인전을 열어 사진과 미술의 경계를 넘나드는 컨셉추얼한 작품들을 선보였다.\n\n서대호 작가는 평범한 피사체를 새로운 시각으로 재해석하여, 사진과 미술의 경계를 허물고 독특한 작품 세계를 구축하고 있다.\n\n<제작 과정을 담은 서대호 작가의 인터뷰>",
-      "medium": "photo",
+      "description": null,
+      "medium": "mixed",
       "exhibition_type": "curated",
       "genre_tags": [],
       "fee_type": "free",
@@ -39103,7 +39103,7 @@
       "price_max": null,
       "start_date": "2026-09-02",
       "end_date": "2026-11-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "d5211e678803",
@@ -67014,7 +67014,7 @@
       "price_max": null,
       "start_date": "2026-09-02",
       "end_date": "2026-09-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "018b6124fde6",
@@ -68521,7 +68521,7 @@
       "price_max": null,
       "start_date": "2026-09-02",
       "end_date": "2026-09-07",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "838c559a265c",
@@ -69050,7 +69050,7 @@
       "price_max": null,
       "start_date": "2026-09-02",
       "end_date": "2026-09-14",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "4ff6c8fdf9f9",
@@ -70298,7 +70298,7 @@
       "price_max": null,
       "start_date": "2026-09-02",
       "end_date": "2026-09-14",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "1dc76ed0df03",
@@ -71240,7 +71240,7 @@
       "price_max": null,
       "start_date": "2026-09-02",
       "end_date": "2026-09-12",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "be0910525f68",
@@ -72582,7 +72582,7 @@
       "price_max": null,
       "start_date": "2026-09-02",
       "end_date": "2026-09-14",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "e5c7ef943a0f",
@@ -76863,6 +76863,173 @@
       },
       "artists": [],
       "source_url": "https://www.tokyoartbeat.com/events/-/Collection-Exhibition-II-Fotograph/kitakyushu-municipal-museum-of-art/2026-08-29",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "be33bef0e2dd",
+      "source": "tokyo_art_beat",
+      "title": "姜美善 「事実の選択」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/085f01ce/cf14_gangmisun.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-20",
+      "end_date": "2026-11-01",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5163e693d1ea",
+        "name": "Totem Pole Photo Gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "토템 폴 포토 갤러리"
+          },
+          "ja": {
+            "name": "Totem Pole Photo Gallery"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.6901810430105,
+        "lng": 139.71638630984123
+      },
+      "artists": [
+        {
+          "id": "efeb706c4c75",
+          "name": "姜美善",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Gang-Misun-Choosing-facts/2-D82-C04-B/2026-10-20",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "07db250cc4d0",
+      "source": "tokyo_art_beat",
+      "title": "山根晋 「The orange that was blue」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/69fa5c52/unnamed.jpg",
+      "description": "DIGINNER GALLERYでは初となる、写真家・アーティスト山根晋の個展「The orange that was blue」を開催します。写真に写るものだけでなく、その前後にある時間や記憶、見えない像に目を向けてきた山根。本展では、写真における色彩の反転と、時間や空間の重なりから生まれた二つの新作シリーズを発表します。山根が捉える「写真」の新たな可能性を、ぜひ会場でご覧ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-12",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "0009d9a4dd1d",
+        "name": "DIGINNER GALLERY WORKSHOP",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "DIGINNER GALLERY WORKSHOP"
+          },
+          "ja": {
+            "name": "DIGINNER GALLERY WORKSHOP"
+          }
+        },
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.60834960306977,
+        "lng": 139.66946792665152
+      },
+      "artists": [
+        {
+          "id": "811a9a7e8602",
+          "name": "山根晋",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Shin-Yamane-The-orange-that-was-blue/9-ADCD068/2026-09-12",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "3fc14d44bd8a",
+      "source": "tokyo_art_beat",
+      "title": "「T3 PHOTO ASIA 2026」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/5e198cb0/main.jpg",
+      "description": "「T3 PHOTO ASIA 2026」は、アジアにおけるフォトグラフィベースのアートマーケットをリードするというビジョンから生まれたアートフェアです。日本最大級の都市型国際写真祭「T3 PHOTO FESTIVAL TOKYO」の一環として開催します。「アジアのギャラリーやアーティストが集うアートフォトグラフィー市場を創出し、世界の写真文化を牽引する」をミッションとしており、T3 PHOTO FESTIVAL TOKYOと連動・相乗効果を生み出すことで、アジアで最も影響力のある写真アートフェアとしての地位確立を目指しています。開催期間中の売上規模は年々拡大しており、ギャラリー数も2024年の14から2025年で19に増え、今年は24のギャラリー出展が予定されています。本年度から出版や印刷技術に特化した出版社や書店を紹介するセクション「Next Editon」を新設し、さらなるマーケットの交流と拡大を推進します。 国際化も進んでおり海外からの来日ゲストも昨年33名を記録したほか、ニューヨーク近代美術館（MoMA）キュレーター・Roxana Marcoci氏、ポンピドゥーセンター キュレーター・Florian Ebner氏のゲスト登壇も実施しました。\n\n会場: 6階 東京建物 ぴあ シアター＆カンファレンス",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-19",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5feff1bbc25b",
+        "name": "TOFROM YAESU TOWER",
+        "lang": null,
+        "tr": {},
+        "region": "京橋、日本橋",
+        "district": null,
+        "lat": 35.68119201789014,
+        "lng": 139.77082365760936
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/T3-PHOTO-ASIA-2026/Tofrom-Yaesu-Tower/2026-10-17",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "5f2a8217d5ab",
+      "source": "tokyo_art_beat",
+      "title": "マイク・オミーリー 「9/12」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/ae6f0ef3/912_DM_web.jpg",
+      "description": "写真集の発売に合わせての写真展。2001年9月12日、ツインタワーが攻撃を受けた翌日、ストリートフォトグラファーのマイク·オミーリーは、変貌しつつあるニューヨークのダウンタウンの風景をカメラに収めた。『9/12』には、煙に包まれたロウアー·マンハッタンを背景に、サイレンの音が撮影クルーの周囲に響き渡るような、これまでほとんど公開されてこなかった貴重な写真の数々が収められている。オミーリーはモノクロフィルムを用いて、喪失感に包まれながらも、悲劇の直後に湧き上がった反抗心によって支えられた街並みを、スケーターたちが突き進む姿を捉えている。2001年9月11日の事件から25周年を機に刊行されたこの新刊は、想像を絶する苦難に耐えながらも、あらゆる困難に立ち向かい、決して諦めなかったニューヨーカーたちの精神を称えるものである。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-12",
+      "end_date": "2026-10-17",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "02db9d878919",
+        "name": "SUPER LABO STORE TOKYO",
+        "lang": null,
+        "tr": {},
+        "region": "竹橋、水道橋、末広町",
+        "district": null,
+        "lat": 35.6985,
+        "lng": 139.7592
+      },
+      "artists": [
+        {
+          "id": "2308d62c8d18",
+          "name": "マイク・オミーリー",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Mike-OMeally-912/super-labo-store-tokyo/2026-09-12",
       "featured": false,
       "popularity_score": null
     }
@@ -85504,6 +85671,34 @@
       "country": "JP",
       "lat": 33.86983,
       "lng": 130.8265,
+      "website": null
+    },
+    {
+      "id": "5feff1bbc25b",
+      "name": "TOFROM YAESU TOWER",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "京橋、日本橋",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.68119201789014,
+      "lng": 139.77082365760936,
+      "website": null
+    },
+    {
+      "id": "02db9d878919",
+      "name": "SUPER LABO STORE TOKYO",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "竹橋、水道橋、末広町",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.6985,
+      "lng": 139.7592,
       "website": null
     }
   ],
@@ -104881,6 +105076,24 @@
     {
       "id": "628b2b13e0b0",
       "name": "マヌエル・ファン・ダイク",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "efeb706c4c75",
+      "name": "姜美善",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "811a9a7e8602",
+      "name": "山根晋",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2308d62c8d18",
+      "name": "マイク・オミーリー",
       "lang": null,
       "tr": {}
     }
