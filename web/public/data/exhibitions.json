@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T17:08:04.683345+00:00",
+  "generated_at": "2026-09-04T20:47:38.433288+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -31036,7 +31036,7 @@
       "price_max": null,
       "start_date": "2026-04-26",
       "end_date": "2026-09-03",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "8584e16ed7a0",
@@ -54555,7 +54555,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-09-03",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "264da55cd4ca",
@@ -60982,7 +60982,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-09-03",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "264da55cd4ca",
@@ -64191,7 +64191,7 @@
       "price_max": null,
       "start_date": "2026-09-04",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "b09e4632b5cf",
@@ -66958,7 +66958,7 @@
       "price_max": null,
       "start_date": "2026-08-21",
       "end_date": "2026-09-03",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "fa66fa67ffb6",
@@ -70985,7 +70985,7 @@
       "price_max": null,
       "start_date": "2026-09-04",
       "end_date": "2026-09-06",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ac97d40fd2bb",
@@ -72025,7 +72025,7 @@
       "price_max": null,
       "start_date": "2026-09-04",
       "end_date": "2026-10-10",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "020ae6e78a04",
@@ -72081,7 +72081,7 @@
       "price_max": null,
       "start_date": "2026-09-04",
       "end_date": "2026-09-24",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "264da55cd4ca",
@@ -72130,7 +72130,7 @@
       "price_max": null,
       "start_date": "2026-09-04",
       "end_date": "2026-10-15",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "264da55cd4ca",
@@ -72788,7 +72788,7 @@
       "price_max": null,
       "start_date": "2026-09-04",
       "end_date": "2026-09-17",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "fa66fa67ffb6",
@@ -73206,7 +73206,7 @@
         }
       },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/2ac9ac07/IMG_6658.JPG",
-      "description": "台湾の写真家・陳尚平による日本初の個展です。光が樹木に触れる瞬間。雨上がりの空気。静かな風景の中に流れる時間。陳尚平が見つめてきたのは劇的な一瞬ではなく、日常の中に潜む静かな瞬間です、陳尚平が作品の世界観を通して日本の皆様と交流したい。\n本展では、近年制作されたモノクロームの風景作品を中心に展示、一部の作品では銀塩写真ならではの繊細諧調と質感も御覧いただけます。",
+      "description": "写真はその誕生以来、時間、そして一瞬をとどめる行為と深く結びついてきました。しかし、情報やイメージが絶え間なく行き交う現代社会において、あらためて「見る」という行為に立ち返り、光と影、静止と運動のあいだに生まれる静かな時間に目を向けます。\n『静寂の輪郭』というタイトルには、音と沈黙、形と余白のあいだに漂う繊細な境界へのまなざしが込められています。ここでいう「輪郭」とは、単に対象の形を縁取る境界にとどまらず、東アジアの美意識においては、周囲の「空」や「間」との関係のなかで立ち現れる、存在のあり方を指しています。本展では、「余白の瞬間」「静寂の輪郭」「息づかいの回帰」という3つの章を軸に空間を構築します。陳が長年にわたり制作を続けてきた4つのシリーズ――山水や雲海を精神的な場へと昇華させる「天地の間」、時間の痕跡や残像を捉える「静律」、植物の成長の軌跡を自然の書として読み解く「木々の直感」、そして雪原のミニマルな美と生命の芽吹きを描く「雪韻と生命力」――から、モノクロームを中心とした作品を厳選して展示いたします。異なるシリーズの作品同士が静かに響き合うことで、東京展ならではの新たな視覚的物語が生ま出します。光と影、黒と白、そして余白によって構成される静かな画面。そこには、移ろいゆく自然の姿と、時間の流れが静かに刻まれています。\n本展を通して、日々の喧騒から少し離れ、目の前の風景と静かに向き合うひとときを感じていただければ幸いです。",
       "medium": "photo",
       "exhibition_type": "solo",
       "genre_tags": [],
@@ -73432,7 +73432,7 @@
       "price_max": null,
       "start_date": "2026-09-04",
       "end_date": "2026-11-07",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "0bcac9bcba8c",
@@ -73495,7 +73495,7 @@
       "price_max": null,
       "start_date": "2026-09-04",
       "end_date": "2026-12-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "b2f9232c8244",
@@ -74479,7 +74479,7 @@
       "price_max": null,
       "start_date": "2026-09-04",
       "end_date": "2026-09-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "a675a16b2969",
@@ -74896,7 +74896,7 @@
       "price_max": null,
       "start_date": "2026-08-28",
       "end_date": "2026-09-03",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -75178,7 +75178,7 @@
       "price_max": null,
       "start_date": "2026-09-04",
       "end_date": "2026-11-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "458c59eae5f1",
@@ -75519,7 +75519,7 @@
       "price_max": null,
       "start_date": "2026-09-04",
       "end_date": "2026-09-17",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "c59f775c1b0f",
@@ -77049,7 +77049,7 @@
       "price_max": null,
       "start_date": "2026-09-04",
       "end_date": "2026-09-10",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -77378,6 +77378,667 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Keiji-Fujimoto-Tasogare/504-CB5-A2/2026-09-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "ca2bf5d67fd3",
+      "source": "tokyo_art_beat",
+      "title": "「ふたたびくみたてる 日本の新進作家 vol.23」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/d1739a39/AssemblingAnew_flier_page-0001.jpg",
+      "description": "東京都写真美術館では、写真・映像の可能性に挑戦する創造的精神を支援し、将来性のある作家を発掘するとともに、新しい創造活動の展開の場として、2002年より継続的に「日本の新進作家」展を開催しています。\n写真や映像は、物事を写し、残すメディアです。しかし、写し取られたイメージは、編集や置かれた文脈によって異なる意味を帯びることもあります。そのため、ときに存在しない／しなかった記憶や記録さえも想起させます。そこにおける境界線は、ますます曖昧になりつつあり、イメージのなかの見えるものと見えないもの、実存と虚構、存在と不在の境界の揺らぎが内包されています。\n第23回目となる本展では、作家たちが実際に存在した記憶や素材、技術、それぞれが持つコンテクストを汲み取り、新たなイメージへと組み立てていくプロセスに着目します。真偽に惑わされることの多い日常において、私たちは情報とどのように向き合い、何を信じ、どのように世界を捉えているのか。本展では、その問いを改めて考える契機となる作品を紹介します。\n\n[関連イベント]\n1. トークイベント\n日時: 2026年10月4日14:00〜15:30\n登壇者: 市田小百合、本橋仁（金沢21世紀美術館 キュレーター）\n会場: 東京都写真美術館1階ホール\n料金: 無料（定員190名、要入場整理券）\n2. トークイベント\n日時: 2026年10月18日14:00〜15:30\n登壇者: 野村在、岡部あおみ（美術評論家、インディペンデント・キュレーター）\n会場: 東京都写真美術館1階ホール\n料金: 無料（定員190名、要入場整理券）\n3. トークイベント\n日時: 2026年11月1日14:00〜15:30\n登壇者: 苅部太郎、下西風澄（哲学者）\n会場: 東京都写真美術館1階ホール\n料金: 無料（定員190名、要入場整理券）\n4. トークイベント\n日時: 2026年12月13日14:00〜15:30\n登壇者: 橋本麦、辻川幸一郎（映像作家）\n会場: 東京都写真美術館1階ホール\n料金: 無料（定員190名、要入場整理券）\n5. トークイベント\n日時: 2026年1月10日14:00〜15:30\n登壇者: 藤倉麻子、南後由和（社会学者、法政大学教授）\n会場: 東京都写真美術館1階ホール\n料金: 無料（定員190名、要入場整理券）\n6. 担当学芸員によるギャラリートーク\n日時: 2026年10月9日14:00〜、11月13日14:00〜、12月11日14:00〜\n会場: 3階展示室入口\n料金: 無料（当日有効の観覧券、展覧会無料対象者は各種証明書等の提示が必要）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-30",
+      "end_date": "2027-01-07",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "ebe6d0623fa0",
+        "name": "東京都写真美術館",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "도쿄도 사진미술관"
+          },
+          "en": {
+            "name": "Tokyo Photographic Art Museum"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.64166110404788,
+        "lng": 139.71331240862762
+      },
+      "artists": [
+        {
+          "id": "8fcdfd5e8516",
+          "name": "市田小百合",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이치다 사유리"
+            },
+            "en": {
+              "name": "Sayuri Ichida"
+            }
+          }
+        },
+        {
+          "id": "0dfdb9ff31ca",
+          "name": "苅部太郎",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8ab1590fd0e5",
+          "name": "野村在",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "7fc49d9cb0ac",
+          "name": "橋本麦",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1186940a6a2d",
+          "name": "藤倉麻子",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Assembling-Anew-Memories-Materials-Context-Technology-Contemporary-Japanese-Photography-vol-23/B6131856/2026-09-30",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "175ea5346a65",
+      "source": "tokyo_art_beat",
+      "title": "児玉浩宜 + 何兆南 「Trace Layers」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/389e8d7f/85103-16-6ab63be3112b50d599447126fb8aa6de-3900x3120.jpg",
+      "description": "都市の表面に刻まれた痕跡を通じて、時間の重なりを見つめる展覧会。本展では、都市に堆積した痕跡を異なる視点から捉える二人の作家を紹介する。児玉浩宜の「BLOCK CITY」では、社会的な出来事の渦中においてリアルタイムに変化する都市空間を見つめる。そこでは人々の行為や集まりが都市に一時的な変化を生み出し、風景は絶えず更新されていく。\n一方、South HOの「Work Naming Has Yet to Succeed」では、出来事が過ぎ去った後に残される痕跡に着目する。抗議活動や社会運動の名残、補修や消去の痕跡は、やがて日常風景へと滲み込み、風景の一部として沈殿していく。\n出来事の発生とその余波、生成される痕跡と時間のなかで変質しながら残り続ける痕跡。両者の視点を往還することで、本展は都市を単なる物理的な空間ではなく、無数の出来事や記憶が折り重なりながら書き換えられていく場として捉え直す。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "403794866387",
+        "name": "東京スクエアガーデン アートギャラリー",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "도쿄 스퀘어 가든 아트 갤러리"
+          },
+          "en": {
+            "name": "Tokyo Square Garden Art Gallery"
+          }
+        },
+        "region": "京橋、日本橋",
+        "district": null,
+        "lat": 35.67595,
+        "lng": 139.7688
+      },
+      "artists": [
+        {
+          "id": "b3b398eae09d",
+          "name": "児玉浩宜",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "고다마 히로노리"
+            },
+            "en": {
+              "name": "Hironori Kodama"
+            }
+          }
+        },
+        {
+          "id": "7fc8731aa45a",
+          "name": "何兆南",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hironori-Kodama-South-Ho-Trace-Layers/tokyo-square-garden-art-gallery/2026-10-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "7508e2e950c6",
+      "source": "tokyo_art_beat",
+      "title": "「写真と想像力: 鈴木のぞみ & 上原沙也加 with the Higashikawa Award Collection」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/e3e931dd/85103-16-1cc5a1e2bb1876820c5e5d1fb86546b1-3000x2409.jpg",
+      "description": "近年、目覚ましい活躍をみせる鈴木のぞみと上原沙也加。ふたりは、写真を通じ優れた表現活動を行う人物に贈られる「写真の町」東川賞（新人作家賞）をともに受賞しています。本展では、鈴木と上原の東川賞受賞作と、その後制作された近作をご紹介します。\nここでキーワードとしたのは想像力という言葉です。街中や日用品に見られる小さな穴。その穴を通った光が作る映像を、鈴木は印画紙や日用品に定着させてきました。かすかな光の痕跡は、鈴木が見出したもうひとつの世界の姿です。自分が生活する場所を見つめ直す。いま目の前にある風景にはどのような時間が折り重なっているのか。上原は、風景の細部から出来事をたどるように、沖縄を撮り続けています。想像力とは、ここでは余白を読む力だと考えます。ふたりは、ただ被写体や情報を追うだけでなく、その場所や物の歴史、背後の意味をくみ取ります。一枚の写真の奥に広がる時空を、ともに想像する機会となれば幸いです。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-20",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "59ad92ee8947",
+        "name": "Gallery & Bakery Tokyo 8分",
+        "lang": null,
+        "tr": {},
+        "region": "京橋、日本橋",
+        "district": null,
+        "lat": 35.6783,
+        "lng": 139.7716
+      },
+      "artists": [
+        {
+          "id": "d4127f3667b3",
+          "name": "鈴木のぞみ",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "스즈키 노조미"
+            },
+            "en": {
+              "name": "Suzuki Nozomi"
+            }
+          }
+        },
+        {
+          "id": "219a4202f85b",
+          "name": "上原沙也加",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Trace-and-Vision-Suzuki-Nozomi-Uehara-Sayaka-with-the-Higashikawa-Award-Collection/gallery-and-bakery-tokyo-8min/2026-10-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f9c7dedada5c",
+      "source": "tokyo_art_beat",
+      "title": "ルーカス・フォグリア 「Constant Bloom」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/d0ed5a45/a5eca3f51c0523f16767688535779000f0387059-1600x1200.jpg",
+      "description": "ペインテッド・レディ（ヒメアカタテハ）は、世界最長の渡りを行う蝶である。ルーカス・フォグリアは、アフリカから中東、地中海を越えてヨーロッパへと至る彼らの旅路を辿り、その途上で出会う人々や風景とともにその姿を捉えてきた。『Constant Bloom』は、自然と人間、生態系と政治的境界線を切り離されたものとしてではなく、絶え間なく繋がり合うひとつの連続した世界の一部として捉え直す試みである。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "4009714e3e38",
+        "name": "東京ミッドタウン八重洲",
+        "lang": null,
+        "tr": {},
+        "region": "京橋、日本橋",
+        "district": null,
+        "lat": 35.6794,
+        "lng": 139.7689
+      },
+      "artists": [
+        {
+          "id": "10b2ec546a55",
+          "name": "ルーカス・フォグリア",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "루카스 포글리아"
+            },
+            "en": {
+              "name": "Lucas Foglia"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Lucas-Foglia-Constant-Bloom/tokyo-midtown-yaesu/2026-10-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "1120ccc2e4f0",
+      "source": "tokyo_art_beat",
+      "title": "「春と修羅 展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/5708aa27/3%20-%20En%20yu.png",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-05",
+      "end_date": "2026-09-06",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "487c9cdfa506",
+        "name": "gallery春と修羅",
+        "lang": null,
+        "tr": {},
+        "region": "京都府",
+        "district": null,
+        "lat": 35.0146624,
+        "lng": 135.7676062
+      },
+      "artists": [
+        {
+          "id": "3baa0b48e99e",
+          "name": "かとりみわ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c0b285c3404f",
+          "name": "高井みいる",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "73203d293558",
+          "name": "鬼塚まみ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b0942a443f4a",
+          "name": "CM Arts",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b5479ec20cf4",
+          "name": "のがど",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d92da19c7472",
+          "name": "瑠璃ミレイ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5ed202c20172",
+          "name": "EsAhIsA",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5ed65bf4e41e",
+          "name": "吉川俊彦",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d9b8b607c534",
+          "name": "磯村貴子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4281c92f1ac6",
+          "name": "Kakeru",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "bda5c2d52aa2",
+          "name": "hoa oluolu..Mami",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "dd51244fda55",
+          "name": "高木伽偉",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "6d5fca6e7830",
+          "name": "髙宮　翼",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c4dc20bb1c1e",
+          "name": "神原涼子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e8b5d5de551d",
+          "name": "ハセ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "52ee46f97498",
+          "name": "石橋一美",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4127829aff8d",
+          "name": "mame",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "cd245e6e3394",
+          "name": "華凜",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Haru-to-Syura-Exhibition/Gallery-Haru-to-Syura/2026-09-05",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "009017420c0b",
+      "source": "tokyo_art_beat",
+      "title": "ザネレ・ムホリ 「ものが王冠になるとき、」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/38976a64/Bester-VIII--Philadelphia--2018-1_mini.jpg",
+      "description": "写真は、奪うことから始まった。撃つ（shoot）、捕らえる（capture）、晒す（expose）——写真の語彙は所有と支配の語彙である。カメラは長らく「見る側」の特権であり、アフリカの身体は「見られる対象」として客体化され続けてきた。 本展を構成するザネレ・ムホリの『Somnyama Ngonyama, Hail the Dark Lioness（漆黒のライオネスよ、讃えよ）』は、この構造へのもっとも根本的な応答である。ムホリは洗濯バサミやゴム手袋——家事労働者として生きた母の、そして労働を強いられてきた人々の道具——を王冠や装身具へと編み直して身にまとい、カメラを自らに向ける。ものが王冠になるとき、収奪の記憶は誇りへと書き換えられる。深い黒へと焼き込まれた身体が、画面の中心からわたしたちをまっすぐに見返す。 誰が誰を見るのか。\nムホリはまなざしの方向を変えながら、かつて奪った側から何ひとつ奪い返さない。写真はここで存在の「証拠」であることをやめ、「私はここにいる。この形で、自らを定義する」という立法行為へと変貌する。誰からも奪うことなく、価値が創造される。撮る者と撮られる者——対立として固定されてきた二項はムホリの身体の上でひとつに重なり、「対」は「と」へと書き換えられる。問われているのは、わたしたちのまなざしの側である。あなたは誰を、どちら側から見ているのか。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5feff1bbc25b",
+        "name": "TOFROM YAESU TOWER",
+        "lang": null,
+        "tr": {},
+        "region": "京橋、日本橋",
+        "district": null,
+        "lat": 35.68119201789014,
+        "lng": 139.77082365760936
+      },
+      "artists": [
+        {
+          "id": "10d5195c6d41",
+          "name": "ザネレ・ムホリ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Zanele-Muholi-When-Things-Become-a-Crown/Tofrom-Yaesu-Tower/2026-10-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "70132d8cf259",
+      "source": "tokyo_art_beat",
+      "title": "仲野太賀 + 阿部裕介 「Once Upon A Time！KYOTO」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/db995423/unnamed.png",
+      "description": "この度PURPLEでは俳優・仲野太賀、写真家・阿部裕介による写真展「 Once Upon A Time！」を、9/10（木）より開催いたします。「大河ドラマ『 豊臣兄弟！』の記録を残し、伝えたい 」という、仲野太賀の思いから企画された本展。写真家・阿部裕介が約1年間にわたり撮影した作品には、ドラマに関わる全ての人々の想いや熱量が魅力的に写し出されています。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-10",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "ccea32f45898",
+        "name": "PURPLE",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "PURPLE"
+          },
+          "ja": {
+            "name": "PURPLE"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.01004,
+        "lng": 135.7537
+      },
+      "artists": [
+        {
+          "id": "59ac87e5327d",
+          "name": "阿部裕介",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b18b480c417d",
+          "name": "仲野太賀",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yusuke-Abe-Taiga-Nakano-Once-Upon-A-TimeKyoto/purple/2026-09-10",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "0ece181d18ba",
+      "source": "tokyo_art_beat",
+      "title": "「植田正治 まなざしの輝き」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/ed1d554e/r8d2_001.jpg__360x509_q85_crop_subsampling-2_upscale.jpg",
+      "description": "今回の展覧会では、植田正治のまなざし、視点に着目しながら生み出された多彩なイメージの軌跡をあらためて紹介します。植田の特徴的な視点は戦前から見られ、植田調といわれるユニークなスタイルの重要な要素となっています。なかでも、人物をオブジェのように見立て、砂浜や砂丘に配置した演出写真は植田の写真を語る上で欠かすことができません。ただ、戦前から晩年まで同じまなざし、視点で撮影されたものばかりではありません。近所の弓ヶ浜で撮影された家族写真のほのぼのとしたものから、ファッション写真の感情を排したスタイリッシュなものまで実に多彩です。\n\nまた、戦前から晩年に至るまで、植田の写真は造形的な要素が強く、特徴的な構図、あるいは逆光の効果を活かした作品が多く見られます。風景をモティーフとした、水面、雪面など身の周りの事物にも目を向けています。さらにユニークであり、造形的なまなざしの延長線上ともいえる作品の数々もあります。写真のための写真ともいえる植田ならではの作品群です。1980年代初めファッション写真を手掛けて以降、広告の世界からも植田の写真は注目され、以前に比べ「依頼による撮影」が増えたようです。このような状況の一方で、「自由な」、あるいは「私的な」とも感じられる写真が多く撮影されています。初期から晩年までの作品を通して、植田正治の写真をまなざしや視点をキーワードに三つのセクションに分け紹介します。まなざしや視点といった曖昧なテーマをさまざまな年代のイメージで浮き彫りにしつつ、まさに奇跡のような作品の輝きを紹介します。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-12",
+      "end_date": "2026-12-10",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "1c0b5a533c99",
+        "name": "植田正治写真美術館",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "우에다 쇼지 사진 미술관"
+          },
+          "en": {
+            "name": "Ueda Shoji Photography Museum"
+          }
+        },
+        "region": "鳥取県",
+        "district": null,
+        "lat": 35.38988933093766,
+        "lng": 133.4357382191658
+      },
+      "artists": [
+        {
+          "id": "0a0cb36d131b",
+          "name": "植田正治",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "우에다 쇼지"
+            },
+            "en": {
+              "name": "Shoji Ueda"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Shoji-Ueda-His-Unique-Style/shoji-ueda-museum-of-photography/2026-09-12",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "5b4caf94d0a0",
+      "source": "tokyo_art_beat",
+      "title": "篠田優 「Garden」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/d2c38ef0/202609shinoda_main-1-1536x1228.jpg",
+      "description": "本展覧会に並ぶ写真はすべてモノクロームのフィルムで撮影されています。篠田が出展作の撮影に使用したそれは、親交のあった写真家の飯田鉄（1948-2023）より譲られたものでした。\n被写体は主に二つのまとまりへと分けることができます。ひとつは飯田が撮影地として愛着を持っていた場所の風景。そして、飯田が自らの蔵書として集め、結果として篠田が譲り受けることになった書籍の姿です。もしかしたらそれらの写真によって、言葉によるものとは異なるかたちで描き出されるのは、いまもまだ去ることのない写真家の、やわらかな後ろ姿なのかもしれません。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-18",
+      "end_date": "2026-09-30",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "23129cff8bfd",
+        "name": "Alt_Medium",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Alt_Medium"
+          },
+          "ja": {
+            "name": "Alt_Medium"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.71661464828487,
+        "lng": 139.70035702006683
+      },
+      "artists": [
+        {
+          "id": "ee836b27d37c",
+          "name": "篠田優",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yu-Shinoda-Garden/F7-BA6-D85/2026-09-18",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "177b9458b349",
+      "source": "tokyo_art_beat",
+      "title": "伊波リンダ 「Design of Okinawa」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/6bb0ec31/20260725%E3%83%AA%E3%83%B3%E3%82%BF%E3%82%99%E3%81%95%E3%82%93_%E3%82%A2%E3%83%BC%E3%83%88%E3%83%9B%E3%82%99%E3%83%BC%E3%83%88%E3%82%99%201.jpg",
+      "description": "[関連イベント]\nギャラリートーク\n日時: 2026年9月23日13:00〜14:00\n登壇者: 伊波リンダ、阿部小涼（琉球大学 人文社会学部 教授）、岡田有美子（SugarcaneRoom gallery Curator）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-18",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "083bc0b12de9",
+        "name": "Sugarcane Room gallery + Cafe",
+        "lang": null,
+        "tr": {},
+        "region": "沖縄県",
+        "district": null,
+        "lat": 26.35803,
+        "lng": 127.9738
+      },
+      "artists": [
+        {
+          "id": "99a8fff3f2c6",
+          "name": "伊波リンダ",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이바 린다"
+            },
+            "en": {
+              "name": "Linda Iha"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Linda-Iha-Design-of-Okinawa/sugarcane-room-gallery-cafe/2026-09-18",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f15d07651b64",
+      "source": "tokyo_photographic_art_museum",
+      "title": "木村伊兵衛写真賞第50回記念写真展",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": null,
+      "description": null,
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-31",
+      "end_date": "2026-11-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "ebe6d0623fa0",
+        "name": "東京都写真美術館",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "도쿄도 사진미술관"
+          },
+          "en": {
+            "name": "Tokyo Photographic Art Museum"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.64166110404788,
+        "lng": 139.71331240862762
+      },
+      "artists": [],
+      "source_url": "https://topmuseum.jp/exhibition/5478/",
       "featured": false,
       "popularity_score": null
     }
@@ -86075,6 +86736,48 @@
       "country": "JP",
       "lat": 35.723061139022185,
       "lng": 139.81370206347404,
+      "website": null
+    },
+    {
+      "id": "59ad92ee8947",
+      "name": "Gallery & Bakery Tokyo 8分",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "京橋、日本橋",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.6783,
+      "lng": 139.7716,
+      "website": null
+    },
+    {
+      "id": "487c9cdfa506",
+      "name": "gallery春と修羅",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "京都府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.0146624,
+      "lng": 135.7676062,
+      "website": null
+    },
+    {
+      "id": "083bc0b12de9",
+      "name": "Sugarcane Room gallery + Cafe",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "沖縄県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 26.35803,
+      "lng": 127.9738,
       "website": null
     }
   ],
@@ -105500,6 +106203,162 @@
     {
       "id": "df51046fffc9",
       "name": "藤元敬二",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8ab1590fd0e5",
+      "name": "野村在",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7fc49d9cb0ac",
+      "name": "橋本麦",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1186940a6a2d",
+      "name": "藤倉麻子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7fc8731aa45a",
+      "name": "何兆南",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "219a4202f85b",
+      "name": "上原沙也加",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3baa0b48e99e",
+      "name": "かとりみわ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c0b285c3404f",
+      "name": "高井みいる",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "73203d293558",
+      "name": "鬼塚まみ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b0942a443f4a",
+      "name": "CM Arts",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b5479ec20cf4",
+      "name": "のがど",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d92da19c7472",
+      "name": "瑠璃ミレイ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5ed202c20172",
+      "name": "EsAhIsA",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5ed65bf4e41e",
+      "name": "吉川俊彦",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d9b8b607c534",
+      "name": "磯村貴子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4281c92f1ac6",
+      "name": "Kakeru",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "bda5c2d52aa2",
+      "name": "hoa oluolu..Mami",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "dd51244fda55",
+      "name": "高木伽偉",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6d5fca6e7830",
+      "name": "髙宮　翼",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c4dc20bb1c1e",
+      "name": "神原涼子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e8b5d5de551d",
+      "name": "ハセ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "52ee46f97498",
+      "name": "石橋一美",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4127829aff8d",
+      "name": "mame",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "cd245e6e3394",
+      "name": "華凜",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "10d5195c6d41",
+      "name": "ザネレ・ムホリ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "59ac87e5327d",
+      "name": "阿部裕介",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b18b480c417d",
+      "name": "仲野太賀",
       "lang": null,
       "tr": {}
     }
