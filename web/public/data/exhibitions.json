@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T16:11:40.993922+00:00",
+  "generated_at": "2026-09-06T20:26:40.888847+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -67126,7 +67126,7 @@
       "price_max": null,
       "start_date": "2026-08-31",
       "end_date": "2026-09-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "57bd0e5ca649",
@@ -75466,7 +75466,7 @@
       "price_max": null,
       "start_date": "2026-09-06",
       "end_date": "2026-09-23",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "3fcdf1e31759",
@@ -75939,7 +75939,7 @@
       "price_max": null,
       "start_date": "2026-09-06",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "aecec7ffc1ef",
@@ -76040,7 +76040,7 @@
       "price_max": null,
       "start_date": "2026-09-06",
       "end_date": "2026-09-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "eccc611ad904",
@@ -78159,6 +78159,60 @@
       },
       "artists": [],
       "source_url": "https://zen-foto.jp/jp/exhibition/the-body-lurking-within-color",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "74cf8c9721ac",
+      "source": "place_m",
+      "title": "KESHIN ー At the Threshold of Inside and Out ー",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://www.placem.com/schedule/2026/main/20260908/NAOKOSUZUKI_01.jpg",
+      "description": "2026.09.08 - 2026.09.13 鈴木ナオコ KESHIN ー At the Threshold of Inside and Out ー 化身 — 神仏が世俗の形で現れること。 私はこの現象を日常のあらゆる場面に見出している。 何も考えないようにして、とらえる瞬間がある。 思考を停止させ、原始的な生き物の状態に戻ろうとする時、 自分の中の神性にアクセスしながら、同時に自分であって自分でないものが立ち現れる。 それは欲深い取り組みかもしれない。 無心をめざすのは、この「自分でない自分」を通して神性に触れたいという衝動から生まれている。 矛盾している。 神聖なものを求めながら、その手段は欲に基づいている。 しかし、この矛盾の中にこそ真実があるのではないか。 何も考えまいとする中で、内なる神性と外なる神性が出会う瞬間が訪れる。 これらの作品は、その捉え難い境界の証拠である。 KESHIN — The incarnation of gods and buddhas in worldly forms. I find this phenomenon in all aspects of everyday life. There are moments I let go of all thought to grasp it. When I stop my thoughts and try to return to a primitive state of being, something both within and beyond me appears, accessing my inner divinity. It may be a selfish endeavor. The pursuit of a mind beyond thought arises from the impulse to touch divinity through this “self that is not myself.” It’s a paradoxical truth: That the approach to the sacred is rooted in greed. Yet perhaps the truth lies precisely within this contradiction. In the attempt to think of nothing, a moment when the inner divine meets the outer comes. These works are the evidence of that elusive boundary.",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-08",
+      "end_date": "2026-09-13",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "2da18874aafa",
+        "name": "Place M",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Place M"
+          },
+          "ja": {
+            "name": "Place M"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.6877688,
+        "lng": 139.7125787
+      },
+      "artists": [
+        {
+          "id": "cffd5404bd8c",
+          "name": "鈴木ナオコ",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "스즈키 나오코"
+            },
+            "en": {
+              "name": "Suzuki Naoko"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.placem.com/schedule/2026/main/20260908/exhibition.php",
       "featured": false,
       "popularity_score": null
     }
