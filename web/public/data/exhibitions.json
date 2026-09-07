@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T19:51:23.636390+00:00",
+  "generated_at": "2026-09-07T21:39:47.551698+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -22673,7 +22673,7 @@
       "price_max": null,
       "start_date": "2026-06-13",
       "end_date": "2026-09-06",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "1c0b5a533c99",
@@ -45708,7 +45708,7 @@
       "price_max": null,
       "start_date": "2026-07-25",
       "end_date": "2026-09-06",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "4b1e32731a1f",
@@ -49325,7 +49325,7 @@
       "price_max": null,
       "start_date": "2026-07-31",
       "end_date": "2026-09-06",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "37f737766ac5",
@@ -54499,7 +54499,7 @@
       "price_max": null,
       "start_date": "2026-09-07",
       "end_date": "2026-09-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -56457,7 +56457,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-09-06",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "23f40e544ba9",
@@ -56849,7 +56849,7 @@
       "price_max": null,
       "start_date": "2026-07-25",
       "end_date": "2026-09-06",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "e1e836fa6d3f",
@@ -64669,7 +64669,7 @@
       "price_max": null,
       "start_date": "2026-08-22",
       "end_date": "2026-09-06",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "9ccda6229ed8",
@@ -65239,7 +65239,7 @@
       "price_max": null,
       "start_date": "2026-08-31",
       "end_date": "2026-09-06",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -65468,7 +65468,7 @@
       "price_max": null,
       "start_date": "2026-08-09",
       "end_date": "2026-09-06",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "02eb018e66fd",
@@ -65636,7 +65636,7 @@
       "price_max": null,
       "start_date": "2026-08-05",
       "end_date": "2026-09-06",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ccea32f45898",
@@ -66097,7 +66097,7 @@
       "price_max": null,
       "start_date": "2026-09-01",
       "end_date": "2026-09-06",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "54c1740b50d0",
@@ -66781,7 +66781,7 @@
       "price_max": null,
       "start_date": "2026-08-21",
       "end_date": "2026-09-06",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "5d573a079256",
@@ -70390,7 +70390,7 @@
       "price_max": null,
       "start_date": "2026-08-29",
       "end_date": "2026-09-06",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "b0b4674f8690",
@@ -71026,7 +71026,7 @@
       "price_max": null,
       "start_date": "2026-09-04",
       "end_date": "2026-09-06",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ac97d40fd2bb",
@@ -72531,7 +72531,7 @@
       "price_max": null,
       "start_date": "2026-08-28",
       "end_date": "2026-09-06",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "65fa60fc2a1a",
@@ -72990,7 +72990,7 @@
       "price_max": null,
       "start_date": "2026-08-04",
       "end_date": "2026-09-06",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "3c0a06885059",
@@ -73911,7 +73911,7 @@
         }
       },
       "poster_image_url": "https://njp.ggcf.kr/storage/upload/2026/08/25/jei6OF7gPH7x7uQaLaswmiSqHe7VGuWS9g89Nv4P.jpg",
-      "description": "버스데이, <The Break Point>, 2026, 프로젝션 맵핑, 2분, 음원연출: 포자랩스, 기관협력: 백남준아트센터\n\n올해로 백남준 20주기를 맞은 백남준아트센터는 ‘서울라이트 DDP 2026 가을’을 통해 미술관 넘어 동대문디자인플라자(DDP)라는 열린 공간에서 새로운 세대의 관객과 만난다. “데이브레이커(Daybreaker): 어둠을 깨고, 새로운 빛을 여는 존재”를 주제로 미디어파사드와 라이브 공연, 레이저쇼를 선보이는 ‘서울라이트 DDP 2026’에 백남준아트센터는 한국 문화의 새로운 출발점을 연 ‘시작의 빛(K-Original Light)’으로서 백남준의 비디오 작품으로 참여한다. 1973년 당시의 최신 매체 CRT 모니터를 통해 선보였던 백남준의 작품은 2026년 자하 하디드(Zaha Hadid)의 비정형적 파사드와 만나 222m의 건축적 경험으로 확장된다. 경기도 용인에 위치한 백남준아트센터가 국내외 관람객이 집중되는 서울의 거점 문화행사에서 지역과 기관의 경계를 넘어 백남준의 실험정신과 예술적 유산을 더 많은 관객과 나눈다는 점에서도 의미가 있다.\n\n창작자, 시청자, 비평가를 일치시키는 참여 TV는 분명히 이 목표에 도달하는 방법 가운데 하나이다.\n\n그것만으로도 훌륭하지 않은가, 훌륭하지 않은가.\n\n백남준, 「비디오 신디사이저 플러스」, 『래디컬 소프트웨어』 제1권 제2호, 1970.\n\n백남준아트센터와의 공동연구를 기반으로 미디어아트 레이블 버스데이(VERSEDAY)가 제작한 《The Break Point》는, 백남준의 대표작 <글로벌 그루브>(1973)와 비디오 신디사이저를 활용한 영상 클립 및 푸티지를 바탕으로 한다. <글로벌 그루브>는 로큰롤과 탭댄스, 한국의 부채춤, 북을 치는 나바호족 인디언 등 다양한 문화권의 춤추는 인물을 빠르게 교차편집한 비디오 작품이다. 백남준은 비디오 신디사이저를 통해 영상의 색과 형태, 움직임을 자유롭게 변형하며 새로운 이미지를 탐구했으며, 관객이 영상 이미지의 창작 과정에 참여할 수 있는 가능성을 제시했다. 버스데이는 열린 시스템으로서의 백남준의 비디오 실험정신에 착안해, 작가의 비디오 아카이브를 파사드의 곡면에 맞게 재구성하고 백남준의 예술관을 추상화한 영상을 제작한다. 영상은 DJ의 음악에 실시간으로 반응하며, 건축과 영상, 음악이 하나의 흐름으로 연결되는 오디오 비주얼 퍼포먼스를 완성한다. 가장 빛나는 서울의 가을밤, 백남준의 리듬은 DDP의 거대한 파사드 표면을 끊임없이 변주하며 관객에게 다가갈 것이다.\n\n9. 3.(목) 20:00\n\nIDIOTAPE\n\n9. 4.(금)/9. 5.(토) 20:20\n\nSION\n\n9. 6.(일)/9. 12.(토) 20:20\n\nHYPNOSIS THERAPY\n\n9. 11.(금)/9. 13.(일) 20:20\n\nSOULSCAPE\n\n※ 상기 일정은 현장 상황에 따라 변경될 수 있습니다.※ 우천 시에도 행사는 정상 운영되며, 기상악화로 인한 취소 시 DDP 홈페이지를 통해 안내됩니다.\n\n백남준아트센터, 국립한글박물관, 서울시립미술관\n\n이소임\n\n관람요금: 무료\n\n관람시간: 19:30 – 22:30\n\n※ 휴관일 없음\n\n※ 이 전시는 도슨트를 운영하지 않습니다.\n\n서울라이트 2026-v23 OL_블랙\n\n서울라이트 DDP 2026 가을",
+      "description": "버스데이, <The Break Point>, 2026, 프로젝션 맵핑, 2분, 음원연출: 포자랩스, 기관협력: 백남준아트센터\n\n올해로 백남준 20주기를 맞은 백남준아트센터는 ‘서울라이트 DDP 2026 가을’을 통해 미술관 넘어 동대문디자인플라자(DDP)라는 열린 공간에서 새로운 세대의 관객과 만난다. “데이브레이커(Daybreaker): 어둠을 깨고, 새로운 빛을 여는 존재”를 주제로 미디어파사드와 라이브 공연, 레이저쇼를 선보이는 ‘서울라이트 DDP 2026’에 백남준아트센터는 한국 문화의 새로운 출발점을 연 ‘시작의 빛(K-Original Light)’으로서 백남준의 비디오 작품으로 참여한다. 1973년 당시의 최신 매체 CRT 모니터를 통해 선보였던 백남준의 작품은 2026년 자하 하디드(Zaha Hadid)의 비정형적 파사드와 만나 222m의 건축적 경험으로 확장된다. 경기도 용인에 위치한 백남준아트센터가 국내외 관람객이 집중되는 서울의 거점 문화행사에서 지역과 기관의 경계를 넘어 백남준의 실험정신과 예술적 유산을 더 많은 관객과 나눈다는 점에서도 의미가 있다.\n\n창작자, 시청자, 비평가를 일치시키는 참여 TV는 분명히 이 목표에 도달하는 방법 가운데 하나이다.\n\n그것만으로도 훌륭하지 않은가, 훌륭하지 않은가.\n\n백남준, 「비디오 신디사이저 플러스」, 『래디컬 소프트웨어』 제1권 제2호, 1970.\n\n백남준아트센터와의 공동연구를 기반으로 미디어아트 레이블 버스데이(VERSEDAY)가 제작한 《The Break Point》는, 백남준의 대표작 <글로벌 그루브>(1973)와 비디오 신디사이저를 활용한 영상 클립 및 푸티지를 바탕으로 한다. <글로벌 그루브>는 로큰롤과 탭댄스, 한국의 부채춤, 북을 치는 나바호족 인디언 등 다양한 문화권의 춤추는 인물을 빠르게 교차편집한 비디오 작품이다. 백남준은 비디오 신디사이저를 통해 영상의 색과 형태, 움직임을 자유롭게 변형하며 새로운 이미지를 탐구했으며, 관객이 영상 이미지의 창작 과정에 참여할 수 있는 가능성을 제시했다. 버스데이는 열린 시스템으로서의 백남준의 비디오 실험정신에 착안해, 작가의 비디오 아카이브를 파사드의 곡면에 맞게 재구성하고 백남준의 예술관을 추상화한 영상을 제작한다. 영상은 DJ의 음악에 실시간으로 반응하며, 건축과 영상, 음악이 하나의 흐름으로 연결되는 오디오 비주얼 퍼포먼스를 완성한다. 가장 빛나는 서울의 가을밤, 백남준의 리듬은 DDP의 거대한 파사드 표면을 끊임없이 변주하며 관객에게 다가갈 것이다.\n\n세부 상영 시간\n\n날짜\n\n회차\n\n시작시간\n\n프로그램\n\n개막식\n\n(9/3 목)\n\n1회차\n\n19:30\n\n개막 퍼포먼스 – DDP 365라이트\n\n미디어파사드 – 청구영언, 유영국, 백남준\n\n라이브 공연 – 이디오테잎(9. 3.(목) 20:00-20:40)\n\n2회차\n\n21:00\n\n레이저아트 – DDP 365라이트\n\n미디어파사드 – 유영국, 청구영언, 백남준\n\n3회차\n\n21:30\n\n4회차\n\n22:00\n\n평일\n\n(월-목)\n\n1회차\n\n19:30\n\n레이저아트 – DDP 365라이트\n\n미디어파사드 – 청구영언, 유영국, 백남준\n\n2회차\n\n20:00\n\n3회차\n\n20:30\n\n4회차\n\n21:00\n\n5회차\n\n21:30\n\n6회차\n\n22:00\n\n주말\n\n(금-일)\n\n1회차\n\n19:30\n\n레이저아트 – DDP 365라이트\n\n미디어파사드 – 청구영언, 유영국, 백남준\n\n2회차\n\n20:00\n\n레이저아트 – DDP 365라이트\n\n미디어파사드 – 청구영언, 유영국, 백남준\n\n라이브 공연\n\n- 9. 4.(금)/9. 5.(토) 20:20-21:00 시온\n\n- 9. 6.(일)/9. 12.(토) 20:20-21:00 힙노시스테라피\n\n- 9. 11.(금)/9. 13.(일) 20:20-21:00 소울스케이프\n\n3회차\n\n21:30\n\n레이저아트 – DDP 365라이트\n\n미디어파사드 – 청구영언, 유영국, 백남준\n\n4회차\n\n22:00\n\n9. 3.(목) 20:00\n\nIDIOTAPE\n\n9. 4.(금)/9. 5.(토) 20:20\n\nSION\n\n9. 6.(일)/9. 12.(토) 20:20\n\nHYPNOSIS THERAPY\n\n9. 11.(금)/9. 13.(일) 20:20\n\nSOULSCAPE\n\n※ 상기 일정은 현장 상황에 따라 변경될 수 있습니다.※ 우천 시에도 행사는 정상 운영되며, 기상악화로 인한 취소 시 DDP 홈페이지를 통해 안내됩니다.\n\n백남준아트센터, 국립한글박물관, 서울시립미술관\n\n이소임\n\n관람요금: 무료\n\n관람시간: 19:30 – 22:30\n\n※ 휴관일 없음\n\n※ 현장에서 QR코드를 통한 오디오가이드가 제공됩니다.\n\n서울라이트 2026-v23 OL_블랙\n\n서울라이트 DDP 2026 가을",
       "medium": "video",
       "exhibition_type": "solo",
       "genre_tags": [],
@@ -74563,7 +74563,7 @@
       "price_max": null,
       "start_date": "2026-08-28",
       "end_date": "2026-09-06",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "4d358832edbc",
@@ -77941,7 +77941,7 @@
       "price_max": null,
       "start_date": "2026-09-05",
       "end_date": "2026-09-06",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "487c9cdfa506",
@@ -78540,6 +78540,374 @@
         }
       ],
       "source_url": "https://www.placem.com/schedule/2026/main/20260908/exhibition.php",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "ddf65e20142a",
+      "source": "tokyo_art_beat",
+      "title": "ニック・ナイト 「ROSES FOR TOKYO」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/c05bb45f/kn-3.jpeg",
+      "description": "2026年9月5日（土）より新宿店伊勢丹 本館2階イセタン ザ・スペースにて,、世界的ファッションフォトグラファー Nick Knight（ニック・ナイト）のエキシビジョンを開催いたします。日本で個展を開催するのは8年ぶりとなる本展は、薔薇のはかない美しさへの尽きない魅力から生まれ、薔薇が語りかける詩情に触発されたものです。そんな薔薇をテーマに制作された作品の数々をご紹介・販売いたします。ぜひこの機会に会場へお運びいただき、Nick Knightが表現する薔薇の世界をご堪能ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-05",
+      "end_date": "2026-10-05",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "387e375de738",
+        "name": "伊勢丹新宿店本館2階 イセタン ザ・スペース",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "이세탄 신주쿠점 본관 2층 이세탄 더 스페이스"
+          },
+          "en": {
+            "name": "Isetan Shinjuku Store Main Building 2nd Floor Isetan The Space"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.692072797361334,
+        "lng": 139.70490727517182
+      },
+      "artists": [
+        {
+          "id": "c9b8fba1c96a",
+          "name": "ニック・ナイト",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Nick-Knight-Roses-For-Tokyo/isetan-shinjuku-store-2f-isetan-the-space/2026-09-05",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "6c2f48566fca",
+      "source": "tokyo_art_beat",
+      "title": "「MYM モードの諦王」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/94d3eb75/%E5%A5%A5%E4%BB%98%E4%BD%BF%E7%94%A8%E7%94%BB%E5%83%8F%EF%BC%88%E3%83%88%E3%83%AA%E3%83%9F%E3%83%B3%E3%82%AF%E3%82%99%EF%BC%89%20-%20%E4%BF%A1.jpg",
+      "description": "世界的なコンセプチュアル・アートの巨匠である松澤宥（1922～2006）と、現代美術で詩を試みる佐倉密（1967～）が、23年前の2003年に豊田市美術館で開催した二人展「宥密法」は大きな反響を呼びましたが、本展では、その前後に松澤が佐倉に送った謎に包まれた二枚の私書を初公開します。そして、「宥密法」展の際に佐倉と出会っていた哲学者で詩人の篠原資明（1950～）が、本展のために提案した「モードの諦王」というテーマの下、篠原と佐倉が新旧のオブジェを発表します。また、海外での活躍も目覚ましい若手美術家玉山拓郎（1990～）は、佐倉からの依頼に基づく作品を特別に展示するほか、関連イベントにも参加し、松澤宥の仕事について、篠原と佐倉の二人と語り合います。\n\n[関連イベント]\n鼎談「松澤宥の方法 ― 詩、オブジェ、啓示、行為、そして消滅」\n日時: 2026年9月26日14:00〜16:00\n登壇者: 篠原資明、玉山拓郎、佐倉密\n会場: 京都市国際交流会館 交流サロン\n料金: 1000円（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-19",
+      "end_date": "2026-12-20",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "0c336f85c4dc",
+        "name": "ギャラリー点",
+        "lang": null,
+        "tr": {},
+        "region": "京都府",
+        "district": null,
+        "lat": 35.00999044181342,
+        "lng": 135.78011623014783
+      },
+      "artists": [
+        {
+          "id": "1fff8d6f32b5",
+          "name": "篠原資明",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "9e2e5f9587f3",
+          "name": "松澤宥",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "9307e91e7043",
+          "name": "佐倉密",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/MYM-Philosopher-Kings-of-the-mode/gallery-ten/2026-09-19",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "82feaf6b02cf",
+      "source": "tokyo_art_beat",
+      "title": "「LIQUIHACKS! - 6 ARTISTS / 6 HACKS」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/d13a3cfa/C1FBE172-2B9C-4AB1-BCE1-7C4459568DCF%20-%20youkobo%20Art%20Base%20Camp.jpeg",
+      "description": "絵画の歴史を振り返れば、表現の飽くなき追求や時代への応答、社会への主張の陰で、画材への挑戦や試行錯誤、逸脱、発見が繰り返されてきました。作家が自己の表現のために画材を探究し、培われた独自の方法は、画材メーカーが用意した用途を飛び越え、表現は画材をハックする。本展は六名の作家が実践する写真、絵画、インスタレーション、バーチャルワールドへと展開する作品を、リキテックスの協力を得て、画材の視点から再発見する試みです。会場で販売される各作家が選んだリキテックスのアクリル絵具、メディウムを組み合わせた「6 ARTISTS / 6 HACKS 」は、作家の方法の一部を持ち帰ることができ、また作家の支援となる取組です。作品を見ることだけでなく、作品を構成する画材を知ること、手にすること。そのあいだを行き来しながら、よく知る、或いはまだ知らない絵具の可能性に出会います。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-12",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "6a78dddfa275",
+        "name": "遊工房アートベースキャンプ",
+        "lang": null,
+        "tr": {},
+        "region": "東京：その他",
+        "district": null,
+        "lat": 35.67048891050822,
+        "lng": 139.87996705522536
+      },
+      "artists": [
+        {
+          "id": "92d1d29414f5",
+          "name": "今井俊介",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "75527f69dff1",
+          "name": "大坪晶",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "43b6c6622b69",
+          "name": "椛田ちひろ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8d336a8593e8",
+          "name": "相馬博",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "f7eb3e56ee4e",
+          "name": "原田郁",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "ce960ce88ba4",
+          "name": "村上綾",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Liquihacks-6-Artists-6-Hacks/youkobo-art-base-camp/2026-09-12",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "8cffce2d9813",
+      "source": "tokyo_art_beat",
+      "title": "「UNKO OF UNKO」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/84e9dcb9/UNKO_OF_UNKO_re_-carousel_TOP_1%20-%20%E5%AE%87%E9%83%BD%E5%8B%9D%E5%AE%8F.jpg",
+      "description": "週替りのウンコ合同展示「UNKO OF UNKO」は、東京都足立区が運営する「やってみたい」を応援する地域の交流拠点「あやセンターぐるぐる」内のギャラリー「oasis」を舞台に、デザインカンパニー ウー、面白法人カヤック（有志メンバー）、ストリートアーティスト UNCORIN、イラストレーター 井上いくらの4組が生み出す合同展示である。約1か月にわたり、各組が1週間ごとに展示をリレー形式で展開し、それぞれの視点から「ウンコ」をテーマにした作品世界を提示する。会期中には本展のために制作された作品を収録した『文庫型うんこブック UNKO B UNKO』も販売する。\n\n[関連イベント]\nトークイベント、生演奏ライブ\n日時: 2026年10月9日17:00〜18:00\n登壇者: うんこミュージアムメンバー（面白法人カヤック）、ミュージックパブ ばんばん（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-12",
+      "end_date": "2026-10-09",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "be10beff4319",
+        "name": "あやセンターぐるぐる oasis",
+        "lang": null,
+        "tr": {},
+        "region": "東京：その他",
+        "district": null,
+        "lat": 35.76169173874979,
+        "lng": 139.82137595774677
+      },
+      "artists": [
+        {
+          "id": "b1c5418ba08d",
+          "name": "デザインカンパニー ウー",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "18dd1c45625c",
+          "name": "面白法人カヤック（有志メンバー）",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c3727c68dcd0",
+          "name": "ストリートアーティスト UNCORIN",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "02da67b0d299",
+          "name": "イラストレーター 井上いくら（うんちのンチ）",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Unko-of-Unko/ayacenter-guruguru-oasis/2026-09-12",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f4d6fc12d17d",
+      "source": "tokyo_art_beat",
+      "title": "「浜昇の戦後と昭和 Vol.5 『TOKYO MIDNIGHT』」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/3c2a0cda/tokyomidnight01.jpg",
+      "description": "photographers’ galleryでは「浜昇の戦後と昭和」と題し、2026年1月より写真家・浜昇の連続写真展（全6回）を開催しています。第5回を迎える本展では、1977年に発表されて以来、約50年ぶりの公開となる「TOKYO MIDNIGHT」を展示いたします。半世紀の時を隔てて本作をご覧いただける、またとない機会となります。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-25",
+      "end_date": "2026-10-04",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "afe71f7d0299",
+        "name": "photographers’ gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "photographers’ gallery"
+          },
+          "ja": {
+            "name": "photographers’ gallery"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.691454453384196,
+        "lng": 139.70873067567402
+      },
+      "artists": [
+        {
+          "id": "62f0f2fa24d2",
+          "name": "浜昇",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "하마 노보루"
+            },
+            "en": {
+              "name": "Hama Noboru"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Noboru-Hama-Tokyo-Midnight/366-C5555/2026-09-25",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "144f7415ce7f",
+      "source": "tokyo_art_beat",
+      "title": "米田拓朗 「Rest in Peach」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/a52c9947/%E7%B1%B3%E7%94%B0%E5%B1%95_%E5%BA%83%E5%A0%B1%E7%94%A8%E5%86%99%E7%9C%9F.jpg",
+      "description": "本展では、福島の県北地方（福島市・伊達市・桑折町・国見町）の桃園にて夏に撮影された作品を展示いたします。天高くまで入道雲が湧き立ち、照りつける陽射しに目を伏せたくなるような夏の頃、桃の収穫は盛りを迎えます。産毛が日光にきらめき実が丸々と膨らむ時期になると、葉の生い茂る樹の下に銀や白の反射シートを敷き詰め、着色を一気に加速させます。「はつひめ」「暁星」「あかつき」「まどか」「幸茜」……と収穫期の異なる品種の桃を、葉陰に潜り込んでもぎとっては籠に詰める作業を来る日も来る日も繰り返し、「桃の暦」に巻き込まれるようにして日々は過ぎていきます。\n\n農作業は毎年、天候の変化を読みながら手探りで、しかしはっきりと順序立てて進められます。とはいえ農家でさえ、その作業ひとつひとつが桃の出来にどう関わっているのか、外からはその秘密を知ることができません。天候不順などの偶然にも左右され、実を結ぶかどうかあらかじめの約束は交わされないなか、人々は陽の光を浴びて赤く色づく桃の姿を思い描いて、黙々と作業をこなしていきます。そして夏の盛りに、たわわに実った桃を手にしたときはじめて、それまでの作業ひとつひとつに思いを巡らせます。米田は福島第一原子力発電所事故後の2011年8月に撮影を開始しました。「桃は待ってくれない」と原発事故のさなかも畑に出ていた人々の、誰に見せるためでもなく、ただ桃の実りに向かって作業する姿を傍らで見続けること。人々が拠って立つ土地と地名のもつ響きが書き換えられてもなお、誰にも奪われることのない「安住の地」はどこか。「Rest in Peach」にはその問いが反響しています。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-11",
+      "end_date": "2026-09-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "afe71f7d0299",
+        "name": "photographers’ gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "photographers’ gallery"
+          },
+          "ja": {
+            "name": "photographers’ gallery"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.691454453384196,
+        "lng": 139.70873067567402
+      },
+      "artists": [
+        {
+          "id": "c43e2b5480df",
+          "name": "米田拓朗",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Takuro-Yoneda-Rest-in-Peach/366-C5555/2026-09-11",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "ed01d639c041",
+      "source": "tokyo_art_beat",
+      "title": "時吉あきな 「bura-bura」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/11bf7ecb/IMG_4444%20-%20%E3%83%8F%E3%83%BC%E3%83%8F%E3%83%95%E3%83%BC.JPG",
+      "description": "時吉あきなが制作するコラージュから着想を得て、写真を組み合わせることで生まれた新しい技法「bura-bura」。会場では、新作の「bura-bura」キーホルダーをはじめ、事前に募集したオーダー作品を展示いたします。写真から生まれる、少し不思議で愛らしい作品たち。ぜひこの機会に、実物を手に取ってご覧ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-05",
+      "end_date": "2026-09-13",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "3f964f346a6a",
+        "name": "ハーハフー",
+        "lang": null,
+        "tr": {},
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.63431950640588,
+        "lng": 139.7122900294304
+      },
+      "artists": [
+        {
+          "id": "54502194668b",
+          "name": "時吉あきな",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Akina-Tokiyoshi-Bura-bura/hahahu/2026-09-05",
       "featured": false,
       "popularity_score": null
     }
@@ -85140,6 +85508,27 @@
       "website": null
     },
     {
+      "id": "387e375de738",
+      "name": "伊勢丹新宿店本館2階 イセタン ザ・スペース",
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이세탄 신주쿠점 본관 2층 이세탄 더 스페이스"
+        },
+        "en": {
+          "name": "Isetan Shinjuku Store Main Building 2nd Floor Isetan The Space"
+        }
+      },
+      "venue_type": "other",
+      "region": "新宿、初台、四ツ谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.692072797361334,
+      "lng": 139.70490727517182,
+      "website": null
+    },
+    {
       "id": "073fbcdb83aa",
       "name": "デザインフェスタギャラリー原宿",
       "lang": "ja",
@@ -87454,6 +87843,62 @@
       "country": "JP",
       "lat": 35.6628077,
       "lng": 139.7159177,
+      "website": null
+    },
+    {
+      "id": "0c336f85c4dc",
+      "name": "ギャラリー点",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "京都府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.00999044181342,
+      "lng": 135.78011623014783,
+      "website": null
+    },
+    {
+      "id": "6a78dddfa275",
+      "name": "遊工房アートベースキャンプ",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "東京：その他",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.67048891050822,
+      "lng": 139.87996705522536,
+      "website": null
+    },
+    {
+      "id": "be10beff4319",
+      "name": "あやセンターぐるぐる oasis",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "東京：その他",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.76169173874979,
+      "lng": 139.82137595774677,
+      "website": null
+    },
+    {
+      "id": "3f964f346a6a",
+      "name": "ハーハフー",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "恵比寿、代官山、中目黒",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.63431950640588,
+      "lng": 139.7122900294304,
       "website": null
     }
   ],
@@ -107041,6 +107486,102 @@
     {
       "id": "328f54433629",
       "name": "梅本健太",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c9b8fba1c96a",
+      "name": "ニック・ナイト",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1fff8d6f32b5",
+      "name": "篠原資明",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9e2e5f9587f3",
+      "name": "松澤宥",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9307e91e7043",
+      "name": "佐倉密",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "92d1d29414f5",
+      "name": "今井俊介",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "75527f69dff1",
+      "name": "大坪晶",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "43b6c6622b69",
+      "name": "椛田ちひろ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8d336a8593e8",
+      "name": "相馬博",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f7eb3e56ee4e",
+      "name": "原田郁",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ce960ce88ba4",
+      "name": "村上綾",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b1c5418ba08d",
+      "name": "デザインカンパニー ウー",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "18dd1c45625c",
+      "name": "面白法人カヤック（有志メンバー）",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c3727c68dcd0",
+      "name": "ストリートアーティスト UNCORIN",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "02da67b0d299",
+      "name": "イラストレーター 井上いくら（うんちのンチ）",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c43e2b5480df",
+      "name": "米田拓朗",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "54502194668b",
+      "name": "時吉あきな",
       "lang": null,
       "tr": {}
     }
