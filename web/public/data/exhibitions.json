@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T05:27:19.587399+00:00",
+  "generated_at": "2026-09-09T12:07:59.448083+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -77052,8 +77052,15 @@
       "venue": {
         "id": "56a6b6cdf1d8",
         "name": "UTRECHT / NOW IDeA",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "UTRECHT / NOW IDeA"
+          },
+          "ja": {
+            "name": "UTRECHT / NOW IDeA"
+          }
+        },
         "region": "表参道、青山",
         "district": null,
         "lat": 35.66426654862555,
@@ -77146,8 +77153,15 @@
       "venue": {
         "id": "819ff2c410b7",
         "name": "北九州市立美術館",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "기타큐슈 시립 미술관"
+          },
+          "en": {
+            "name": "Kitakyushu Municipal Museum of Art"
+          }
+        },
         "region": "福岡県",
         "district": null,
         "lat": 33.86983,
@@ -77273,8 +77287,15 @@
       "venue": {
         "id": "5feff1bbc25b",
         "name": "TOFROM YAESU TOWER",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "TOFROM YAESU TOWER"
+          },
+          "ja": {
+            "name": "TOFROM YAESU TOWER"
+          }
+        },
         "region": "京橋、日本橋",
         "district": null,
         "lat": 35.68119201789014,
@@ -77306,8 +77327,15 @@
       "venue": {
         "id": "02db9d878919",
         "name": "SUPER LABO STORE TOKYO",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "SUPER LABO STORE TOKYO"
+          },
+          "ja": {
+            "name": "SUPER LABO STORE TOKYO"
+          }
+        },
         "region": "竹橋、水道橋、末広町",
         "district": null,
         "lat": 35.6985,
@@ -77386,8 +77414,15 @@
       "venue": {
         "id": "bdcd2ab6c0be",
         "name": "CAGE GALLERY",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "CAGE GALLERY"
+          },
+          "ja": {
+            "name": "CAGE GALLERY"
+          }
+        },
         "region": "恵比寿、代官山、中目黒",
         "district": null,
         "lat": 35.64684072416464,
@@ -78095,8 +78130,15 @@
       "venue": {
         "id": "5feff1bbc25b",
         "name": "TOFROM YAESU TOWER",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "TOFROM YAESU TOWER"
+          },
+          "ja": {
+            "name": "TOFROM YAESU TOWER"
+          }
+        },
         "region": "京橋、日本橋",
         "district": null,
         "lat": 35.68119201789014,
@@ -87673,8 +87715,15 @@
     {
       "id": "56a6b6cdf1d8",
       "name": "UTRECHT / NOW IDeA",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "UTRECHT / NOW IDeA"
+        },
+        "ja": {
+          "name": "UTRECHT / NOW IDeA"
+        }
+      },
       "venue_type": "other",
       "region": "表参道、青山",
       "district": null,
@@ -87687,8 +87736,15 @@
     {
       "id": "819ff2c410b7",
       "name": "北九州市立美術館",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "기타큐슈 시립 미술관"
+        },
+        "en": {
+          "name": "Kitakyushu Municipal Museum of Art"
+        }
+      },
       "venue_type": "other",
       "region": "福岡県",
       "district": null,
@@ -87701,8 +87757,15 @@
     {
       "id": "5feff1bbc25b",
       "name": "TOFROM YAESU TOWER",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "TOFROM YAESU TOWER"
+        },
+        "ja": {
+          "name": "TOFROM YAESU TOWER"
+        }
+      },
       "venue_type": "other",
       "region": "京橋、日本橋",
       "district": null,
@@ -87715,8 +87778,15 @@
     {
       "id": "02db9d878919",
       "name": "SUPER LABO STORE TOKYO",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "SUPER LABO STORE TOKYO"
+        },
+        "ja": {
+          "name": "SUPER LABO STORE TOKYO"
+        }
+      },
       "venue_type": "other",
       "region": "竹橋、水道橋、末広町",
       "district": null,
@@ -87729,8 +87799,15 @@
     {
       "id": "bdcd2ab6c0be",
       "name": "CAGE GALLERY",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "CAGE GALLERY"
+        },
+        "ja": {
+          "name": "CAGE GALLERY"
+        }
+      },
       "venue_type": "gallery",
       "region": "恵比寿、代官山、中目黒",
       "district": null,
