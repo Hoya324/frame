@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T17:20:19.531088+00:00",
+  "generated_at": "2026-09-09T20:56:48.897833+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -41267,6 +41267,43 @@
           "name": "fumiko imano",
           "lang": null,
           "tr": {}
+        },
+        {
+          "id": "8fcdfd5e8516",
+          "name": "市田小百合",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이치다 사유리"
+            },
+            "en": {
+              "name": "Sayuri Ichida"
+            }
+          }
+        },
+        {
+          "id": "0dfdb9ff31ca",
+          "name": "苅部太郎",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8ab1590fd0e5",
+          "name": "野村在",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "7fc49d9cb0ac",
+          "name": "橋本麦",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1186940a6a2d",
+          "name": "藤倉麻子",
+          "lang": null,
+          "tr": {}
         }
       ],
       "source_url": "https://topmuseum.jp/exhibition/5423/",
@@ -68249,7 +68286,7 @@
         }
       },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/54f5IrXUBXY4cf7YXuxidO/62f0b7683300d969a2298b4039e61e76/LHQ9Xqeap_.jpg",
-      "description": "TOKAS Project は、国際的な交流を促進し、多文化的な視点で多様なテーマについて思考する展覧会プログラムです。9回目となる今回は、トーキョーアーツアンドスペース(TOKAS)とソウルとの交流20周年を記念し、過去にレジデンス・プログラムに参加した日韓のアーティストを中心に、自身の身体経験を軸に現実を紡ぎ直すウン・ジェピル、キム・ドヒ、ク・ドンヒ、パク・ミンハ、三野新の5名による展覧会を開催します。本展では、歴史、生命、人間、身体、社会といった多様な対象を「再演」の視点から捉え、フィクション、彫刻、デジタルメディア、身体表現など、それぞれ異なる芸術実践をとおして、「在ること(存在)」を再びこの場に立ち上げ、今日における生の在り様を再考することを試みます。\n\n芸術の歴史において、人間は、目の前に在る世界や生命の存在を、時の流れから引き離し、絵画や彫刻、写真や映画/映像によって固定し、永遠の生としてつなぎとめようとしてきました。また演劇や舞踊、パフォーマンスといったライブ・アートは、パフォーマーの身体的な演技を通じて、現実世界における生を、その場に現前化することを探求してきました。それは絶えず変化し、次の瞬間には掴むことができない一回性の生を、現在の身体をもって呼び起こし、時間や場所を越えて他者と共有しようとする芸術の動的な営みです。\n\n本展では、アーティストたちがそれぞれ異なる視点から観察した生の姿を、展示空間に再び立ち上げる行為（=再演）をとおして、その瞬間の彼らの感覚や視点から新たな解釈を促し、現代における生の本質を見つめ直すことを試みます。ここでは、単に現実を写しとり過去を再現するのではなく、その時の記憶や感情といった固有の身体経験を含めた現実を肉体化し、現在進行形のものとして捉えていきます。彼らの実践は、生きることの裏側に積み重なるいくつもの層を掘り起こし、「いま、ここに在ること」の複雑で不確かな生を眼差すきっかけを与えてくれるでしょう。会期中は、参加アーティストによるトークやパフォーマンス、ゲストによる韓国の現代アートシーンをテーマとしたトークも開催します。この度のソウルの提携機関との交流20周年を祝して、本展が、アーティストと鑑賞者の視点が有機的に交錯する舞台となることを願います。\n\n[関連イベント]\n1. アーティストトーク\n日時: 2026年10月3日15:00〜17:00\n登壇者: ウン・ジェピル、キム・ドヒ、ク・ドンヒ、パク・ミンハ\n2. ウン・ジェピル|パフォーマンス\n日時: 2026年10月3日17:30〜18:00\n登壇者: ウン・ジェピル\n3. 三野 新|演劇パフォーマンス(演出:山本浩貴[いぬのせなか座])\n日時: 2026年10月10日15:00〜16:00\n登壇者: 三野 新\n4. 三野 新|アーティスト・トーク\n日時: 2026年10月10日16:00〜16:30\n登壇者: 三野 新\n5. スペシャル・トーク*|「韓国の現代アートシーンについて」\n登壇者: 紺野優希（美術批評家/インディペンデント・キュレーター）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "description": "TOKAS Project は、国際的な交流を促進し、多文化的な視点で多様なテーマについて思考する展覧会プログラムです。9回目となる今回は、トーキョーアーツアンドスペース(TOKAS)とソウルとの交流20周年を記念し、過去にレジデンス・プログラムに参加した日韓のアーティストを中心に、自身の身体経験を軸に現実を紡ぎ直すウン・ジェピル、キム・ドヒ、ク・ドンヒ、パク・ミンハ、三野新の5名による展覧会を開催します。本展では、歴史、生命、人間、身体、社会といった多様な対象を「再演」の視点から捉え、フィクション、彫刻、デジタルメディア、身体表現など、それぞれ異なる芸術実践をとおして、「在ること(存在)」を再びこの場に立ち上げ、今日における生の在り様を再考することを試みます。\n\n芸術の歴史において、人間は、目の前に在る世界や生命の存在を、時の流れから引き離し、絵画や彫刻、写真や映画/映像によって固定し、永遠の生としてつなぎとめようとしてきました。また演劇や舞踊、パフォーマンスといったライブ・アートは、パフォーマーの身体的な演技を通じて、現実世界における生を、その場に現前化することを探求してきました。それは絶えず変化し、次の瞬間には掴むことができない一回性の生を、現在の身体をもって呼び起こし、時間や場所を越えて他者と共有しようとする芸術の動的な営みです。\n\n本展では、アーティストたちがそれぞれ異なる視点から観察した生の姿を、展示空間に再び立ち上げる行為（=再演）をとおして、その瞬間の彼らの感覚や視点から新たな解釈を促し、現代における生の本質を見つめ直すことを試みます。ここでは、単に現実を写しとり過去を再現するのではなく、その時の記憶や感情といった固有の身体経験を含めた現実を肉体化し、現在進行形のものとして捉えていきます。彼らの実践は、生きることの裏側に積み重なるいくつもの層を掘り起こし、「いま、ここに在ること」の複雑で不確かな生を眼差すきっかけを与えてくれるでしょう。会期中は、参加アーティストによるトークやパフォーマンス、ゲストによる韓国の現代アートシーンをテーマとしたトークも開催します。この度のソウルの提携機関との交流20周年を祝して、本展が、アーティストと鑑賞者の視点が有機的に交錯する舞台となることを願います。\n\n[関連イベント]\n1. アーティストトーク\n日時: 2026年10月3日15:00〜17:00\n登壇者: ウン・ジェピル、キム・ドヒ、ク・ドンヒ、パク・ミンハ\n2. ウン・ジェピル|パフォーマンス\n日時: 2026年10月3日17:30〜18:00\n登壇者: ウン・ジェピル\n3. 三野 新|アーティスト・トーク\n日時: 2026年10月10日16:00〜16:30\n登壇者: 三野 新\n4. スペシャル・トーク|「韓国の現代アートシーンについて」\n日時: 2026年10月30日17:00～18:00\n会場: 駐日韓国文化院5F ハンナレホール ※展覧会の会場と異なります。\n登壇者: 紺野優希（美術批評家/インディペンデント・キュレーター）\n5. 三野 新|演劇パフォーマンス（演出:山本浩貴[いぬのせなか座]）\n日時: 2026年11月7日15:00～16:00\n出演者：石川朝日\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
       "exhibition_type": "group",
       "genre_tags": [],
@@ -68457,7 +68494,7 @@
       "price_max": null,
       "start_date": "2026-09-08",
       "end_date": "2026-09-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "01d56f5bd85a",
@@ -68562,7 +68599,7 @@
       "price_max": null,
       "start_date": "2026-09-02",
       "end_date": "2026-09-07",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "838c559a265c",
@@ -69037,7 +69074,7 @@
       "price_max": null,
       "start_date": "2026-09-08",
       "end_date": "2026-09-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "14db67420757",
@@ -72681,7 +72718,7 @@
       "price_max": null,
       "start_date": "2026-09-08",
       "end_date": "2026-09-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "0795bb24dfd7",
@@ -73214,7 +73251,7 @@
       "price_max": null,
       "start_date": "2026-08-20",
       "end_date": "2026-09-08",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "8b8bf1f13f39",
@@ -73613,7 +73650,7 @@
       "price_max": null,
       "start_date": "2026-09-08",
       "end_date": "2026-09-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "3ea7577322f9",
@@ -74207,7 +74244,7 @@
       "price_max": null,
       "start_date": "2026-09-08",
       "end_date": "2026-10-04",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "0369da1db600",
@@ -74263,7 +74300,7 @@
       "price_max": null,
       "start_date": "2026-09-08",
       "end_date": "2026-12-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "3032bae70185",
@@ -74319,7 +74356,7 @@
       "price_max": null,
       "start_date": "2026-09-08",
       "end_date": "2026-09-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "54c1740b50d0",
@@ -74375,7 +74412,7 @@
       "price_max": null,
       "start_date": "2026-09-08",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "54c1740b50d0",
@@ -75294,7 +75331,7 @@
       "price_max": null,
       "start_date": "2026-09-08",
       "end_date": "2026-09-14",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "7a6765269871",
@@ -75542,7 +75579,7 @@
       "price_max": null,
       "start_date": "2026-09-08",
       "end_date": "2026-09-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "3b69a96c179c",
@@ -77716,84 +77753,6 @@
       "popularity_score": null
     },
     {
-      "id": "ca2bf5d67fd3",
-      "source": "tokyo_art_beat",
-      "title": "「ふたたびくみたてる 日本の新進作家 vol.23」",
-      "lang": null,
-      "tr": {},
-      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/d1739a39/AssemblingAnew_flier_page-0001.jpg",
-      "description": "東京都写真美術館では、写真・映像の可能性に挑戦する創造的精神を支援し、将来性のある作家を発掘するとともに、新しい創造活動の展開の場として、2002年より継続的に「日本の新進作家」展を開催しています。\n写真や映像は、物事を写し、残すメディアです。しかし、写し取られたイメージは、編集や置かれた文脈によって異なる意味を帯びることもあります。そのため、ときに存在しない／しなかった記憶や記録さえも想起させます。そこにおける境界線は、ますます曖昧になりつつあり、イメージのなかの見えるものと見えないもの、実存と虚構、存在と不在の境界の揺らぎが内包されています。\n第23回目となる本展では、作家たちが実際に存在した記憶や素材、技術、それぞれが持つコンテクストを汲み取り、新たなイメージへと組み立てていくプロセスに着目します。真偽に惑わされることの多い日常において、私たちは情報とどのように向き合い、何を信じ、どのように世界を捉えているのか。本展では、その問いを改めて考える契機となる作品を紹介します。\n\n[関連イベント]\n1. トークイベント\n日時: 2026年10月4日14:00〜15:30\n登壇者: 市田小百合、本橋仁（金沢21世紀美術館 キュレーター）\n会場: 東京都写真美術館1階ホール\n料金: 無料（定員190名、要入場整理券）\n2. トークイベント\n日時: 2026年10月18日14:00〜15:30\n登壇者: 野村在、岡部あおみ（美術評論家、インディペンデント・キュレーター）\n会場: 東京都写真美術館1階ホール\n料金: 無料（定員190名、要入場整理券）\n3. トークイベント\n日時: 2026年11月1日14:00〜15:30\n登壇者: 苅部太郎、下西風澄（哲学者）\n会場: 東京都写真美術館1階ホール\n料金: 無料（定員190名、要入場整理券）\n4. トークイベント\n日時: 2026年12月13日14:00〜15:30\n登壇者: 橋本麦、辻川幸一郎（映像作家）\n会場: 東京都写真美術館1階ホール\n料金: 無料（定員190名、要入場整理券）\n5. トークイベント\n日時: 2026年1月10日14:00〜15:30\n登壇者: 藤倉麻子、南後由和（社会学者、法政大学教授）\n会場: 東京都写真美術館1階ホール\n料金: 無料（定員190名、要入場整理券）\n6. 担当学芸員によるギャラリートーク\n日時: 2026年10月9日14:00〜、11月13日14:00〜、12月11日14:00〜\n会場: 3階展示室入口\n料金: 無料（当日有効の観覧券、展覧会無料対象者は各種証明書等の提示が必要）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
-      "medium": "mixed",
-      "exhibition_type": "group",
-      "genre_tags": [],
-      "fee_type": "free",
-      "price_min": null,
-      "price_max": null,
-      "start_date": "2026-09-30",
-      "end_date": "2027-01-07",
-      "status": "upcoming",
-      "open_hours": null,
-      "venue": {
-        "id": "ebe6d0623fa0",
-        "name": "東京都写真美術館",
-        "lang": "ja",
-        "tr": {
-          "ko": {
-            "name": "도쿄도 사진미술관"
-          },
-          "en": {
-            "name": "Tokyo Photographic Art Museum"
-          }
-        },
-        "region": "恵比寿、代官山、中目黒",
-        "district": null,
-        "lat": 35.64166110404788,
-        "lng": 139.71331240862762
-      },
-      "artists": [
-        {
-          "id": "8fcdfd5e8516",
-          "name": "市田小百合",
-          "lang": "ja",
-          "tr": {
-            "ko": {
-              "name": "이치다 사유리"
-            },
-            "en": {
-              "name": "Sayuri Ichida"
-            }
-          }
-        },
-        {
-          "id": "0dfdb9ff31ca",
-          "name": "苅部太郎",
-          "lang": null,
-          "tr": {}
-        },
-        {
-          "id": "8ab1590fd0e5",
-          "name": "野村在",
-          "lang": null,
-          "tr": {}
-        },
-        {
-          "id": "7fc49d9cb0ac",
-          "name": "橋本麦",
-          "lang": null,
-          "tr": {}
-        },
-        {
-          "id": "1186940a6a2d",
-          "name": "藤倉麻子",
-          "lang": null,
-          "tr": {}
-        }
-      ],
-      "source_url": "https://www.tokyoartbeat.com/events/-/Assembling-Anew-Memories-Materials-Context-Technology-Contemporary-Japanese-Photography-vol-23/B6131856/2026-09-30",
-      "featured": false,
-      "popularity_score": null
-    },
-    {
       "id": "175ea5346a65",
       "source": "tokyo_art_beat",
       "title": "児玉浩宜 + 何兆南 「Trace Layers」",
@@ -78370,7 +78329,7 @@
       "title": "木村伊兵衛写真賞第50回記念写真展",
       "lang": null,
       "tr": {},
-      "poster_image_url": null,
+      "poster_image_url": "https://topmuseum.jp/wp-content/uploads/2026/09/kimura-e1788854848918.jpg",
       "description": null,
       "medium": "photo",
       "exhibition_type": "curated",
@@ -78547,7 +78506,7 @@
       "price_max": null,
       "start_date": "2026-09-08",
       "end_date": "2026-09-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -78950,6 +78909,1563 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Akina-Tokiyoshi-Bura-bura/hahahu/2026-09-05",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f21c214a03b4",
+      "source": "tokyo_art_beat",
+      "title": "「メディウムとディメンション：Continuum 第二期」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/e6d410ff/gesta_conte_front%20-%20Fuminao%20SUENAGA%20(1).jpg",
+      "description": "「メディウムとディメンション：Continuum」は、東京造形大学の60周年記念事業「ゲシュタルトゥング企画の」の一つとして開催される、美術評論家・中尾拓哉のキュレーションによる「Continuum＝連続体」をテーマに異なる時間軸を含み込んで開催される展覧会です。本展は、5月、9月、12月の3回の会期にまたがりながら、それぞれを別の展覧会とせずに、3会期を通して1つの流れをつくり出していきます。ただし、それは統一的な時間と空間を土台とする一つのグループ展となるのではなく、複数の時間に向かって広がり、個別に展開されていくものです。鈴木のぞみ、玉山拓郎、Nerhol、三田村光土里の4人のアーティストは、過去・現在・未来という直線的な時間感覚に対して、発生、再生、転換、置換というようにその流れをそれぞれに扱い、また組み替えていきます。つまり、本展は形式的には一つの展覧会でありながらも、異なる時間軸を行き来しようとする4つの展覧会を同時に開催するものだと言えるでしょう。\n\nさらに、奥村雄樹、長田奈緒、鹿野震一郎、鈴木のぞみ、玉山拓郎、豊嶋康子、中尾拓哉、Nerhol、水上愛美、三田村光土里、山内祥太、山根一晃の作品による回顧展形式の展覧会「Maltiple-delay」を同時開催し、通常は過去から現在へと向かい展示が行われる展覧会の時間軸を逆転させ、現在から過去（原点）へと向かって展開していきます。本展は、展示空間の新たな次元を生成し、アートにおける時間と空間、その認識の境界について再考することで、現代表現に潜む連続性の意義を問い直します。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-11",
+      "end_date": "2026-10-03",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5e7cd386d448",
+        "name": "BAU SHIBUYA",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "바우 시부야"
+          },
+          "ja": {
+            "name": "BAU SHIBUYA"
+          }
+        },
+        "region": "渋谷",
+        "district": null,
+        "lat": 35.66548,
+        "lng": 139.7006
+      },
+      "artists": [
+        {
+          "id": "d4127f3667b3",
+          "name": "鈴木のぞみ",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "스즈키 노조미"
+            },
+            "en": {
+              "name": "Suzuki Nozomi"
+            }
+          }
+        },
+        {
+          "id": "0587b80fc5aa",
+          "name": "玉山拓郎",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "타마야마 타쿠로"
+            },
+            "en": {
+              "name": "Takuro Tamayama"
+            }
+          }
+        },
+        {
+          "id": "ff9377a7edf2",
+          "name": "Nerhol",
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "너홀"
+            },
+            "ja": {
+              "name": "ネルホル"
+            }
+          }
+        },
+        {
+          "id": "16db7d56ea7b",
+          "name": "三田村光土里",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d7208a9d5c92",
+          "name": "奥村雄樹",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4c37c247b26b",
+          "name": "鹿野震一郎",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "카노 신이치로"
+            },
+            "en": {
+              "name": "Kano Shinichiro"
+            }
+          }
+        },
+        {
+          "id": "b7a9cec299eb",
+          "name": "豊嶋康子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "15310bd5692f",
+          "name": "中尾拓哉",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나카오 타쿠야"
+            },
+            "en": {
+              "name": "Nakao Takuya"
+            }
+          }
+        },
+        {
+          "id": "9d96264c0931",
+          "name": "水上愛美",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "미즈카미 마나미"
+            },
+            "en": {
+              "name": "Mizukami Manami"
+            }
+          }
+        },
+        {
+          "id": "d34a3c453a21",
+          "name": "山内祥太",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Medium-and-Dimension-Continuum-Part-2/bau-shibuya/2026-09-11",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "0d3a6dcacd2c",
+      "source": "tokyo_art_beat",
+      "title": "「あしたの畑 2026 REFLECTION」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/9ec1f2c1/01-040569%20-%20Shunya%20Hashizume.jpg",
+      "description": "急速な高齢化や産業構造の変化により、京都・丹後地域では、かつて人々の手によって守られてきた自然や文化の風景が失われつつあります。「あしたの畑」は、そうした課題に対し、「手仕事・アート・食」を媒介として地球と文化、そして人との関係を再生することを目的とする、持続的な文化的試みと体験の場です。6年目を迎える今年度は、「顧み」をテーマに掲げ、原始的な暮らしに敬意を払いながらも革新する試みを、世代や国境、分野を越えた協働を通じて、未来の暮らしの原型を探ります。\n\n2025年9月30日より10月20日まで、東京・六本木ヒルズにて開催された「la Galerie du 19M Tokyo」企画展「Beyond Our Horizons」では、パリのle19M（ル ディズヌフエム）に集うメゾンダールと日本・フランスのアーティスト・職人約30組によるコラボレーション作品が紹介されました。le19Mは、シャネルによって2021年にパリに設立された、ファッションと装飾のメティエダールに情熱を注ぐ700名の職人と専門家、11のメゾンダールを擁する唯一無二の場所です。その後、作品は1月29日より5月10日まで、パリの la Galerie du 19Mで展示されており、展示作品の一部が、2026年10月12日より、シャネル社のご厚意により貸与され、丹後町間人（たいざ）初のアートギャラリーであるSEI TAIZAにて公開されます。\n\nまた、クラフトの技と心を伝承する試みとして、新たに工房となる間人プレイスを創設。ワークショップや革新的なクリエイションを通じて、クラフトマンシップの継承に挑戦します。この試みは、「文化芸術を通して人が集まるきっかけと学ぶ場を生み出し、次世代に繋げ、地域におけるサステナブルな集落構想として注目される魅力と新しい価値観を生み出す活動」というあしたの畑の使命に、シャネル社が賛同し、実現するものです。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-12",
+      "end_date": "2026-11-08",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "fc69fbea1c18",
+        "name": "間人スタジオ",
+        "lang": null,
+        "tr": {},
+        "region": "京都府",
+        "district": null,
+        "lat": 35.73777870858151,
+        "lng": 135.0866335276127
+      },
+      "artists": [
+        {
+          "id": "3193f6bb4edf",
+          "name": "浅野友理子（大谷製陶所）",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "32d0ff32b70e",
+          "name": "アンナ・へリンガー",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "303ef649b53a",
+          "name": "五十嵐大介",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "719500d38789",
+          "name": "いとをかし",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "ad0a1fe303cf",
+          "name": "十八代永樂善五郎",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1d93cf444536",
+          "name": "Onjium",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "df3305844e9b",
+          "name": "金沢健幸",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4e285f763a0b",
+          "name": "中川周士",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a64aa7bde6a3",
+          "name": "中須左官店",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e453ed387226",
+          "name": "縄屋",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "281641fee8cb",
+          "name": "パロマ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e97621953891",
+          "name": "益田芳樹",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "9fd3275f8dbc",
+          "name": "cenci",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8073f707a528",
+          "name": "マーティン・ラオホ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "fadbaee960e0",
+          "name": "ルサージュ＋髙室畳工業所",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "3a21dfffc000",
+          "name": "ルマリエ＋嘉戸浩・藤田幸生",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "2be2f2c57a2b",
+          "name": "ロニオン＋デザイン橡",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Tomorrow-Field-2026-Relection/taiza-studio/2026-10-12",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "496ecef75295",
+      "source": "tokyo_art_beat",
+      "title": "ベッティナ・ランス 「密室」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/151b69f8/P39.jpg",
+      "description": "Art Gallery M８４は、2026年10月5日(月)よりベッティナ・ランス写真展『密室』No.12を開催致します。今回の作品展は、Art Gallery M84の第172回目の展示として実施する個展です。「シャネル（CHANEL）」のムービーを手掛けたことで知られ、『ヴォーグ』『フィガロ』などの雑誌で活躍するフランスを代表する女性写真家ベッティナ・ランス（Bettina Rheims）の当ギャラリー12回目となる個展です。セルジュ・ブラムリーの小説とコラボレーションによる1990年から1992年に制作されたパリの女性達を撮影したヌード写真集(Chambre Close/シャンブル・クローズ=密室)で、あられもないポーズが話題となりヨーロッパだけでなく米国、日本、韓国、オーストラリア、モスクワでもベストセラーとなり世界中にその名が広がったと言います。\n\n女性を写した作品を数多く発表してきたランスは、一貫して女性達が生まれながらにしてまとう華やかさと儚さ、内面から湧き出る美や苦悩、憂いを力強く写してきました。レンズの前で飾り気のない心情や濃厚な人間性を惜しげもなくさらしています。作品の中には、「ランスでなければ写せない」とまで言われるしぐさや眼差しとともに、瞬間に写し取られた本能的な女性達の姿を捉えるベッティナ・ランスの魅力に迫りたいと思います。欧州で裸体像は、美術館などの屋内や庭園など私的空間に設置されていますが、日本では、平和の象徴として、街や公共空間に裸婦像の彫刻作品が多いです。ところが写真の世界では、屋内展示でありながらも裸婦をテーマの芸術写真が激減しています。日本でヌード作品の展示は皆無に近いとさえ言える状況にあえて、写真家ベッティナ・ランスが捉えた同性の美しき作品を約30点展示予定です。入場は、成人限定とさせて頂きます。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-05",
+      "end_date": "2026-10-17",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "8882c8060b40",
+        "name": "Art Gallery M84",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Art Gallery M84"
+          },
+          "ja": {
+            "name": "Art Gallery M84"
+          }
+        },
+        "region": "銀座、丸の内",
+        "district": null,
+        "lat": 35.6701700910944,
+        "lng": 139.76835191558408
+      },
+      "artists": [
+        {
+          "id": "efe823a75a42",
+          "name": "ベッティナ・ランス",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Bettina-Rheims-Chambre-Close/D6-FE8782/2026-10-05",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "e443a170ce5d",
+      "source": "tokyo_art_beat",
+      "title": "「EXCHANGE EXHIBITION」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/2c2d2eb9/IMG_5299%20-%20Aku%20Ryu.jpeg",
+      "description": "日本大学芸術学部とバニャ・ルカ大学芸術アカデミーとの交流展覧会・上映会が行われます。この展覧会はボスニア・ヘルツェゴビナと日本との交流に関わる展覧会として、在ボスニア日本大使館より後援いただき運営を進めております。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-19",
+      "end_date": "2026-09-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "d6c478588864",
+        "name": "日本大学芸術学部 江古田校舎",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "일본대학 예술학부 에코다 교사"
+          },
+          "en": {
+            "name": "Nihon University College of Art, Ekoda Campus"
+          }
+        },
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.73780224277926,
+        "lng": 139.67593147677698
+      },
+      "artists": [
+        {
+          "id": "7e55a851293d",
+          "name": "阿久根瑠聖",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "666a78a04687",
+          "name": "石中希望",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "60e51d11547d",
+          "name": "野村日向",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4bae2731883b",
+          "name": "松原怜之",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "627782588055",
+          "name": "松原茉莉",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "3c0dffae3364",
+          "name": "大成哲",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0f9987add2a6",
+          "name": "飯田竜太",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이이다 류타"
+            },
+            "en": {
+              "name": "Iida Ryuta"
+            }
+          }
+        },
+        {
+          "id": "39c0fecd9d05",
+          "name": "Isidora Brankovic",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Exchange-Exhibition/6-C2-BA36-A/2026-09-19",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "c57792ad40f3",
+      "source": "tokyo_art_beat",
+      "title": "「空間彩添 Vol.4 」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/6a6552a9/368FD50B-B37C-425D-9A83-FB7D34012425_1_105_c%20-%20Micaco%20Fujisawa.jpeg",
+      "description": "「空間彩添 Vol.4」は、暮らしや仕事の空間に彩りを添えることをテーマにした、50cm以内の作品を集めたグループ展です。絵画、イラストレーション、ミクストメディアなど、多様な表現による作品を展示。あおきさとこ、飯村武志、池田和貴、カトウ、Kamihasami、勘坂隆裕、坂本千華、saori、月乃カエル、筒井文那、ʜᴏиᴏᴋα.、波多野小桃、牧聖一朗、maru hiromi、モリモトアツシ、山羊蔵、山﨑拓巳の17名が参加します。自宅のリビングやダイニング、書斎、店舗、オフィスなどに取り入れやすいサイズの作品を通して、それぞれの作家が生み出す多彩な世界観をご覧いただけます。日常空間とアートとの新たな出会いを提案する展覧会です。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-11",
+      "end_date": "2026-09-20",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "3aa4175e7e92",
+        "name": "aL Base（アエル ベース）",
+        "lang": null,
+        "tr": {},
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.68551416072838,
+        "lng": 139.70438918344973
+      },
+      "artists": [
+        {
+          "id": "4d43ee8a43a0",
+          "name": "あおきさとこ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8f1b768cb54a",
+          "name": "飯村武志",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "ea5dc4534615",
+          "name": "池田和貴",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "75d044e52181",
+          "name": "カトウ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b713c3fc5aec",
+          "name": "Kamihasami",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8dce513b544b",
+          "name": "勘坂隆裕",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "3b7e29a5b972",
+          "name": "坂本千華",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b93f44cac751",
+          "name": "saori",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "95b7889b6fad",
+          "name": "月乃カエル",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "7662a919ea8a",
+          "name": "筒井文那",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d1809048da80",
+          "name": "ʜᴏиᴏᴋα.",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "9c3441495fc2",
+          "name": "波多野小桃",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "769b1ebf4319",
+          "name": "牧聖一朗",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "24ea2b91c5be",
+          "name": "maru hiromi",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8c30d98dfd26",
+          "name": "モリモトアツシ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e721e7560303",
+          "name": "山羊蔵",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "14a7c8d8f2f9",
+          "name": "山﨑拓巳",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kukansaiten-Vol4/al-base/2026-09-11",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "506f30f4cb18",
+      "source": "tokyo_art_beat",
+      "title": "磯谷博史 「天気雨のとき When Sunshowers Come」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/f2b670a5/26AUbannerS.png",
+      "description": "2026年秋展では、芸術が映し出す生活様式や文化コード「わたしたちの生の形態」に着目し、名前のない出来事からその姿を浮きあがらせる磯谷博史の作品を紹介します。\nどこか原風景や原体験を想起させるイメージをとおして、記憶を呼び覚まし、鑑賞者の能動的な思考を駆動させる磯谷。過去の追憶と都市の風景、個人の歴史と社会コードが静かに交錯するその表現は、わたしたちの知覚を揺さぶり、新たなリアリティを提示します。本展における作品との遭遇が、わたしたちを歴史の傍観者から、世界をあたらしく詠みなおす当事者へと引き入れる機会となれば幸いです。\n\n[関連イベント]\nトークイベント\n日時: 9月19日 16:00〜17:30\n登壇者: 磯谷博史×石田圭子\n料金: 無料\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-18",
+      "end_date": "2026-10-24",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5c1b17e07888",
+        "name": "SUCHSIZE（サッチサイズ）",
+        "lang": null,
+        "tr": {},
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.64663544608497,
+        "lng": 135.5063651312828
+      },
+      "artists": [
+        {
+          "id": "93d2ffa986a3",
+          "name": "磯谷博史",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hirofumi-Isoya-When-Sunshowers-Come/suchsize/2026-09-18",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "9091ca0a7c45",
+      "source": "tokyo_art_beat",
+      "title": "フォトレツ 「80,000年後に、また会いましょう」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/ebd1b84a/image.png",
+      "description": null,
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-18",
+      "end_date": "2026-10-01",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "fa66fa67ffb6",
+        "name": "ソニーイメージングギャラリー 銀座",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "소니 이미징 갤러리 긴자"
+          },
+          "en": {
+            "name": "Sony Imaging Gallery Ginza"
+          }
+        },
+        "region": "銀座、丸の内",
+        "district": null,
+        "lat": 35.67081410702651,
+        "lng": 139.76495499698825
+      },
+      "artists": [
+        {
+          "id": "bc96659f1edb",
+          "name": "フォトレツ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Photo-Retsu-In-80000-Years-Lets-Meet-Again/61-AB7373/2026-09-18",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "1cdfdd961b13",
+      "source": "tokyo_art_beat",
+      "title": "若林満 「Dérive （漂流）」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/914b08c0/01-%C2%A9%20Mitsuru%20Wakabayashi.jpg",
+      "description": "ライカカメラジャパン株式会社はこのたび、写真家・若林満による写真展「Dérive（漂流）」をライカギャラリー京都にて開催いたします。\n\n街を歩くなかで、ふと目に留まる風景がある。若林満は、そうした一瞬を写真に残してきました。そこにあるのは、特別な場所や劇的な瞬間を探し求めることではありません。何気なく過ぎていく日常のなかで、ある風景に目が留まり、シャッターを切る。その小さな偶然の積み重ねが、若林の写真を形づくっています。\n\n本展のタイトル「Dérive（デリヴ）」は、フランス語で「漂流」を意味します。1950年代、シチュアシオニスト・インターナショナルの活動のなかで展開されたこの概念は、都市を目的地へ向かうだけの場所ではなく、歩くことを通してその環境や感覚を体験する実践として考えられました。若林が「Dérive」という言葉に出会ったのは、自身がすでに長く続けてきた撮影のあり方を振り返るなかでのことでした。なぜその場所で足を止めたのか、そのときには自分でもわからない。けれども行く先を定めずに街を歩き、目の前に現れるものを受け入れていく感覚は、まさに「Dérive」という言葉によって捉え直すことができるものでした。\n\nそれは、新しい考え方を身につけたというよりも、これまで自分のなかにあった感覚にひとつの名前が与えられたということなのかもしれません。若林の写真に写るのは、誰かによって特別な意味を与えられた風景ではありません。光や空気、人の気配、その土地に漂う時間。歩くことで偶然出会ったものに目を向け、そのまま受け止めることで、見慣れた世界のなかにある別の表情が浮かび上がります。\n\n本展では、日々の歩みのなかで出会い、撮り続けてきた風景を通して、ひとりの写真家が「見る」という行為とどのように向き合ってきたのかをご紹介します。世界は、いつも私たちに開かれている。若林の写真を通して、いつもの風景にもう一度目を向けていただければと思います。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-03",
+      "end_date": "2026-12-03",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "1efd2fe0449e",
+        "name": "ライカギャラリー京都",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "라이카 갤러리 교토"
+          },
+          "en": {
+            "name": "Leica Gallery Kyoto"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.001873926661894,
+        "lng": 135.7746258883953
+      },
+      "artists": [
+        {
+          "id": "845545af01ae",
+          "name": "若林満",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Mitsuru-Wakabayashi-Derive/leica-gallery-kyoto/2026-10-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "8f8189429de3",
+      "source": "tokyo_art_beat",
+      "title": "鈴木秀ヲ 「ブリキのカメラ」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/575bbd36/%E3%83%AB%E3%83%BC%E3%83%8B%E3%82%A3%E9%88%B4%E6%9C%A8%E7%A7%80%E3%83%B2.jpg",
+      "description": null,
+      "medium": "gear",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "018b6124fde6",
+        "name": "ルーニィ 247 ファインアーツ",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "루니 247 파인아츠"
+          },
+          "en": {
+            "name": "Rooney 247 Fine Arts"
+          }
+        },
+        "region": "浅草橋、馬喰町",
+        "district": null,
+        "lat": 35.692819870905694,
+        "lng": 139.77994191009685
+      },
+      "artists": [
+        {
+          "id": "93979cfd6e9b",
+          "name": "鈴木秀ヲ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hideo-Suzuki-Tin-Camera/6694-D683/2026-09-16",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "eb34f3948405",
+      "source": "tokyo_art_beat",
+      "title": "「before dawn」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/16da4e54/insta_fix%20-%20%E4%BB%B2%E6%BE%A4%E8%A3%95.png",
+      "description": "写真、イラスト、コラージュ、3DCG。表現方法は違っていても、私たちはそれぞれ何かに視線を向け、立ち止まり、見つめ続けています。日々の風景や記憶、心の奥に残り続ける感情。作品に込められた、美しさだけでは表せない、言葉にならない想い。それぞれの表現が交差することで生まれる感覚を、会場で見つけていただけたら幸いです。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-25",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "6280e6d2993d",
+        "name": "THE blank GALLERY",
+        "lang": null,
+        "tr": {},
+        "region": "表参道、青山",
+        "district": null,
+        "lat": 35.67028502740779,
+        "lng": 139.70815990918314
+      },
+      "artists": [
+        {
+          "id": "230253ad9665",
+          "name": "井上友里",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "3067e5bac292",
+          "name": "亀井林蔵",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "fcc90e5af64e",
+          "name": "神田_ヤンヤン",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "43cabaa046ca",
+          "name": "仲澤裕",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "f6d6decd9195",
+          "name": "ria osanai",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Before-Dawn/EB9-C0-C64/2026-09-25",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "50e2f6b6b01c",
+      "source": "tokyo_art_beat",
+      "title": "「CROSSOVER6 5th」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/d527bb2a/PhotoCollage_1785581373006.jpg",
+      "description": "写真が好きでその表現手段として人が集う写真展で観てほしい。そんな思いを共有する6人が集まりました・・・今回で5回目となります。シャッターを押した瞬間のちょっとした感動をSNSだけでなくプリントで伝えたい。そのプリントを観ながらお話しして楽しい時間を一緒に過ごせたらと思います今回の展示に今までのイメージと違う小さな発見があるかもしれません。その小さな発見につながるよう少しずつ準備を進めています。作風も違う個性あふれる6人の感性が交差する空間をごゆっくりお楽しみください。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-12",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "838c559a265c",
+        "name": "America-Bashi Gallery（アメリカ橋ギャラリー）",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "America-Bashi Gallery (아메리카바시 갤러리)"
+          },
+          "en": {
+            "name": "America-Bashi Gallery (America-Bashi Gallery)"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.64332200748064,
+        "lng": 139.7114891844791
+      },
+      "artists": [
+        {
+          "id": "751ecfb8c2be",
+          "name": "EIJI",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "615550d1d376",
+          "name": "Mariko Nagayama",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "3fd9f2ffa7fc",
+          "name": "Tiger Valley",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a483b04a5f42",
+          "name": "Tomoyuki Hayashi",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0c0af52db181",
+          "name": "usako",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c019031c47e9",
+          "name": "Yoshiko Niizeki",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Crossover6-5th/F92841-BF/2026-10-08",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "b34515458f53",
+      "source": "tokyo_art_beat",
+      "title": "山田芳正 「煙突XII」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/dab48323/yamada2026_800%20-%20%E3%82%AD%E3%82%99%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC%E3%82%BD%E3%83%A9%E3%83%AA%E3%82%B9.jpg",
+      "description": "「私はここに在る」と変わることのない確かさを突き付けて立ち続ける煙突の姿に魅了され、四半世紀以上、一貫して街中の「煙突」を撮り続ける山田芳正。今回で12回目を迎える「煙突」展です。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-15",
+      "end_date": "2026-09-20",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "bad41612e0e3",
+        "name": "ギャラリー・ソラリス",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 솔라리스"
+          },
+          "en": {
+            "name": "Gallery Solaris"
+          }
+        },
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.67689,
+        "lng": 135.5031
+      },
+      "artists": [
+        {
+          "id": "89725101c7ee",
+          "name": "山田芳正",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hosei-Yamada-Chimney-XII/gallery-solaris/2026-09-15",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "6c9dca05bf0f",
+      "source": "tokyo_art_beat",
+      "title": "マキエマキ 「為蔵の恋人」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/6c201f88/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-09-08%2015.02.21.png",
+      "description": "マキエマキ10周年記念イヤーの締めくくりとなる本展は、架空の写真愛好家「為蔵」が遺した“秘密のアルバム”を軸に展開する物語です。2018年から2025年にかけて制作した作品に、本展のために撮り下ろした新作を加え、時間の流れを感じるように構成しました。マキエマキの作品は、「male gaze（男性のまなざし）」を自身の身体で表現するセルフポートレートです。作品の中で「為蔵の恋人」として写るマキエマキは、架空の撮影者である為蔵の支配欲や承認欲求を満たす存在として現れます。ファインダーを覗く為蔵のエロティックな視線を受け入れ、カメラの前で肌をさらすその姿には、昭和の男たちが性的に消費してきた女性像が色濃く投影されています。鑑賞者は、「為蔵の恋人」が見せる恥じらいや戸惑い、そしてカメラに向けられた視線を通して、為蔵の欲望を追体験すると同時に、自らの視線のあり方を意識することになるでしょう。しかし、その世界はすべて、作者であるマキエマキがセルフポートレートという手法によって構築したフィクションです。一人の身体が「撮る者」と「撮られる者」の両方の役割を果たすことで、作者、被写体、そして架空の撮影者という複数の主体が入れ子構造のように重なり合うのです。鑑賞者が見るのは為蔵の視線なのか、それとも自身の欲望なのか。あるいは、そのすべてを設計した作家の視線なのか。「為蔵の恋人」をサディスティックな男性のまなざしで支配しているつもりの鑑賞者は、知らぬ間に、マキエマキが仕掛けた視線の構造に取り込まれているのです。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-05",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "838c559a265c",
+        "name": "America-Bashi Gallery（アメリカ橋ギャラリー）",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "America-Bashi Gallery (아메리카바시 갤러리)"
+          },
+          "en": {
+            "name": "America-Bashi Gallery (America-Bashi Gallery)"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.64332200748064,
+        "lng": 139.7114891844791
+      },
+      "artists": [
+        {
+          "id": "3172f594feaa",
+          "name": "マキエマキ",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마키에 마키"
+            },
+            "en": {
+              "name": "Makie Maki"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Maki-Makie-Tamezous-Lover/F92841-BF/2026-09-30",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "a85a2cc0fc6d",
+      "source": "tokyo_art_beat",
+      "title": "石井友規 「『いのちの視点』写真展 - 大阪・関西万博から見つけた未来のピースたち -」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/a2de2b7c/%E3%80%8C%E3%81%84%E3%81%AE%E3%81%A1%E3%81%AE%E8%A6%96%E7%82%B9%E3%80%8D%E5%86%99%E7%9C%9F%E5%B1%95%E3%83%95%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC%E8%A1%A8%20-%20%E3%81%84%E3%81%AE%E3%81%A1%E3%81%AE%E8%A6%96%E7%82%B9%20%E5%86%99%E7%9C%9F%E5%B1%95%E5%AE%9F%E8%A1%8C%E5%A7%94%E5%93%A1%E4%BC%9A.jpg",
+      "description": "静かに「万博が本当に伝えたかったこと」を見つめ直したい。\n\n2025年大阪・関西万博の閉幕から一年。若手建築家たちが「環境」「多様性」「いのちのつながり」という問いに向き合い、想いを形にした万博トイレなど20の施設。本写真展は、その場所に込められたメッセージを写真で切り取り、訪れた方には再びその想いを、訪れることができなかった方には未来へのメッセージを1億画素の大型写真展示でお届けします。私たちは、2050年、私たちの子どもたちが暮らす世界が、いのちが輝く場所であることを目指しています。\n\n写真展示のほかに、会期中は日替わりで実際に施設を設計した若手建築家が会場を訪れ、「子ども向けSDGsワークショップ」と「トークショー」を開催し、来場者へ万博のテーマを体感してもらうことを目指しています。それ以外にも石井友規が自ら子ども向けにギャラリーツアーを開催し、展示する写真から環境問題について環境省登録環境カウンセラーとしての観点も紹介していきます。\n\n[関連イベント]\n1. トークショー「若手建築家による大阪・関西万博での挑戦とその先」\n日時: 2026年9月22日、9月23日、9月24日、9月25日16:30〜、9月26日14:00〜、16:30〜、9月27日13:00〜\n登壇者: 野中あつみ ＋ 三谷裕樹、小俣裕亮、鈴木淳平 ＋ 村部墨 ＋ 溝端友輔、斎藤信吾 ＋ 根本友樹 ＋ 田代夢々、浜田晶則、米澤隆、竹村優里佳\n会場: 大阪府立江之子島文化芸術創造センターenoco 1階 ルーム4\n料金: 無料（要予約）\n2. 子ども向け SDGs ワークショップ①「万博から返ってきた『困った木』で、自分だけのミニミニ積み柱を作ろう！」\n日時: 2026年9月22日13:00〜、13:30〜、14:00〜、14:30〜\n登壇者: 野中あつみ ＋ 三谷裕樹（ナノメートルアーキテクチャー）\n会場: 大阪府立江之子島文化芸術創造センターenoco 1階 ルーム4 ワークショップスペース\n料金: 無料（要予約、各回定員3名）\n3. 子ども向け SDGs ワークショップ②「空気でふくらむテントをつくってみよう」\n日時: 2026年9月23日13:00〜、14:00〜\n登壇者: 小俣裕亮（小俣裕亮建築設計事務所 / new building office）\n会場: 大阪府立江之子島文化芸術創造センターenoco 1階 ルーム4 ワークショップスペース\n料金: 無料（要予約、各回定員10名）（小学生以上対象、親子で参加ください）\n4. 子ども向け SDGs ワークショップ②「空気でふくらむテントをつくってみよう」\n日時: 2026年9月27日10:30〜、11:30〜、12:30\n登壇者: 小畦雅史（ものがたり工作所）\n会場: 大阪府立江之子島文化芸術創造センターenoco 1階 ルーム4 ワークショップスペース\n料金: 無料（要予約、各回定員8名）（小学4年生以上対象）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-22",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "e1e836fa6d3f",
+        "name": "大阪府立江之子島文化芸術創造センター（enoco）",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "오사카부립 에노코지마 문화예술창조센터 (enoco)"
+          },
+          "en": {
+            "name": "Osaka Prefectural Enokojima Cultural and Art Center (enoco)"
+          }
+        },
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.68125,
+        "lng": 135.4837
+      },
+      "artists": [
+        {
+          "id": "9364873c45dc",
+          "name": "石井友規",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yuki-Ishii-Through-the-Eyes-of-Life-Pieces-of-Tomorrow-Discovered-at-Expo-2025-Osaka-Kansai/enokojima-art-culture-and-creative-center-osaka-prefecture-enoco/2026-09-22",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "41d22d45cc7e",
+      "source": "tokyo_art_beat",
+      "title": "儀間朝龍 「NYG POP」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/b0571e05/NYG_POP_260817_YFVG02%20-%20PR%20-%20Yosuke%20Fujiki%20Van%20Gogh%20Co.,%20Ltd..jpg",
+      "description": "ダンボール・アーティストとして「流通と消費」をテーマに、世界中から市場に運ばれてくる色とりどりのダンボールを素材に、さまざまなモティーフをコラージュして作品制作を行なっている儀間朝龍。Rollでは4年ぶりとなる“NYG POP”と題した本展では、今春に渡米した際に起きた出来事や見聞きした物事から着想を得て制作した新作を展示、販売します。今も昔も私たちの生活に欠かせないダンボール。流通と消費の中でたくさんの人が関わり、またその中でたくさんの物語が生まれています。そう、ダンボールには私たちの知る由もない無数のドラマがあるのです。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-03",
+      "end_date": "2026-09-26",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "98dfee56f137",
+        "name": "Roll",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "롤"
+          },
+          "ja": {
+            "name": "ロール"
+          }
+        },
+        "region": "市ヶ谷、神楽坂",
+        "district": null,
+        "lat": 35.70246779203639,
+        "lng": 139.74224402446748
+      },
+      "artists": [
+        {
+          "id": "30130e42a63a",
+          "name": "儀間朝龍",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Tomotatsu-Gima-Nyg-Pop/roll/2026-09-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "0741d13a161a",
+      "source": "tokyo_art_beat",
+      "title": "楊一楽 + JACKSON kaki 「another way」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/2e92066c/unnamed.png",
+      "description": "この度、TAV GALLERYでは、李静文の企画による楊一楽とJACKSON kakiの二人展「another way」を開催する。本展「another way」は李静文の企画による楊一楽とJACKSON kakiの二人展である。国家という名のもとで更新され続ける権力によって引かれた線に、身体を通して応答する二人の実践を並置する。踏み越えることも、留まり続けることも、答えではない。不安定な世の中において、別の方法で存在するための一つの姿勢を提示したい。\n\n私たちの身体は、国家という名で更新され続ける権力によって引かれた線に、気づかないうちに反応している。その線を踏み越えることは、必ずしも自由を意味しない、その線の中にいることも、必ずしも安全を意味しない。本展が試みるのは、生活に明示されてない線に向き合い、不安定な世の中に１つの姿勢を作り、別の方法で存在することである。楊一楽は写真家として、フィールドワークに基づくリサーチとアナログの撮影手法を用いた制作を続けてきた。JACKSON kakiは3DCG、映像、パフォーマンス、インスタレーション、サウンドといった複合的な表現手法を通じて、身体とテクノロジーの関係を脱臼的な感覚のうちに描き出す。\n\n本展では、楊一楽は、2025年に千葉の海岸に打ち上げられたクジラの死と、行政による「処理」を個人でめぐる作品を発表する。JACKSON kakiは、歩行、電車、そしてLUUPを通して、都市における移動に隠される政治性が、いかに一人の身体を通り過ぎていくのかを問う。これまで面識のなかった二人の作家だが、社会を見る視点には近しいものがある。両者はそれぞれ異なる方法で、国家という機械の不条理と、身体を介して対面してきた。本展は、その二つの実践を並置することで企画された。ぜひご高覧ください。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-11",
+      "end_date": "2026-10-04",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "75b6ca2ad503",
+        "name": "TAV GALLERY",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "TAV GALLERY"
+          },
+          "ja": {
+            "name": "TAV GALLERY"
+          }
+        },
+        "region": "六本木、乃木坂",
+        "district": null,
+        "lat": 35.66219731185731,
+        "lng": 139.72125959143642
+      },
+      "artists": [
+        {
+          "id": "a263719e2a92",
+          "name": "楊一楽",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4532fa3f90f6",
+          "name": "JACKSON kaki",
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "잭슨 카키"
+            },
+            "ja": {
+              "name": "ジャクソン カキ"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yile-Yang-Jackson-Kaki-Another-Way/6-C30-A57-F/2026-09-11",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "61b97baea75f",
+      "source": "tokyo_art_beat",
+      "title": "カンケ・ブルノ 「YUBIN / 東京郵便配達の記録」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/e11e913d/%E3%83%A1%E3%82%A4%E3%83%B3%E7%94%BB%E5%83%8F%20-%20Yoshikatsu%20Fujii.jpg",
+      "description": "2026年9月19日（土）より、nagaya paper labでは、写真家カンケ・ブルノによる写真展「YUBIN / 東京郵便配達の記録」を開催します。\nカンケさんが長年取り組んでいる「YUBIN」は、東京23区を歩きながら、郵便配達員の視点を手がかりに都市を見つめるプロジェクトです。街の中に点在する郵便受け、建物の入口、公道と私有地の境界。普段なら見過ごしてしまうような場所を、郵便配達員の目線を借りて眺めてみると、東京という街が少し違って見えてきます。「YUBIN」は写真だけでなく、ポストカードブック、ファインアートプリント、メールアートなど、「郵便」という仕組みそのものを作品の一部として展開してきました。nagaya paper labではこれまでも、カンケさんの出版物『YUBIN selection』を取り扱ってきました。本や印刷物を扱い、それらが人から人へ渡っていくことを大切にしているnagayaにとって、「郵便」を通して都市を見るこの作品を展示することには、とても自然なつながりがあります。\n今回の展示では、nagayaのある墨田区で撮影された写真を中心に紹介します。カンケさんが見つめた墨田区の風景を、実際にその街の中にあるnagayaで見る。いつも歩いている街を、少し違った視点から見直す機会になればと思います。\n\n[関連イベント]\n1. OPENING TALK\n日時: 9月19日 16:00～17:30\n料金: ワンドリンクオーダー\n2. カンケ・ブルノと巡る 「配達員の目線で街を見る — YUBIN FIELD WALK」\n日時: 10月3日 14:00～15:00\n料金: 1500円 + ワンドリンクオーダー\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-19",
+      "end_date": "2026-10-12",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "8102261bc897",
+        "name": "ナガヤ・ペーパー・ラボ",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "나가야 페이퍼 랩"
+          },
+          "en": {
+            "name": "Nagaya Paper Lab"
+          }
+        },
+        "region": "東京：その他",
+        "district": null,
+        "lat": 35.71687782228344,
+        "lng": 139.82349119510653
+      },
+      "artists": [
+        {
+          "id": "36145acd7c0c",
+          "name": "カンケ・ブルノ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Bruno-Quinquet-Yubin-A-Record-of-Postal-Delivery-in-Tokyo/nagaya-paper-lab/2026-09-19",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "b12db1bbebc9",
+      "source": "tokyo_art_beat",
+      "title": "中尾龍太 「Havana, As It Was」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/17e87b12/%E5%B1%95%E7%A4%BA%E4%BD%9C%E5%93%81_800%20-%20%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC%E3%82%BD%E3%83%A9%E3%83%AA%E3%82%B9.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-22",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "bad41612e0e3",
+        "name": "ギャラリー・ソラリス",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 솔라리스"
+          },
+          "en": {
+            "name": "Gallery Solaris"
+          }
+        },
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.67689,
+        "lng": 135.5031
+      },
+      "artists": [
+        {
+          "id": "796a545589c4",
+          "name": "中尾龍太",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Ryuta-Nakao-Havana-As-It-Was/gallery-solaris/2026-09-22",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "cd7d6a2a15f6",
+      "source": "tokyo_art_beat",
+      "title": "島田篤人 「そこ一里 #03」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/320e5073/SokoIchiri_2026_main.jpeg",
+      "description": "金柑画廊は、9月19日（土）から10月12日（月・祝）まで、嶋田篤人写真展「そこ一里#03」を開催いたします。嶋田篤人は、フィルムで撮影し、自身で現像・暗室作業を経て、ゼラチンシルバープリントの作品を制作するという、かつて写真作品制作の定石であった手法を一貫して続けています。「そこ一里」は、2019年から継続して制作されている、房総半島で撮影されたシリーズです。本展「そこ一里#03」では、新作17点を展示いたします。繰り返し足を運び撮影し、暗室での作業を繰り返す。そうした行為の集積が作品となって作家自身にも新たな気づきをもたらし、その気づきに呼応するようにまた足を運ぶ。土地や自身の微細な変化、気候や感情、日常で過ぎてしまう瑣末なことも作品へと昇華していきます。「そこ一里」のタイトルのように、これからも想像するよりも長くゆったりとした道のりが眼前に広がっているのだと思います。この機会にご高覧ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-19",
+      "end_date": "2026-10-12",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "ee5c613982c1",
+        "name": "金柑画廊",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "킨칸 가로"
+          },
+          "en": {
+            "name": "Kinkan Garou"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.6307591347794,
+        "lng": 139.70127030139764
+      },
+      "artists": [
+        {
+          "id": "f32e826420a6",
+          "name": "島田篤人",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Atsuto-Shimada-Soko-Ichiri-03/0-A837-B38/2026-09-19",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "e0034b5c4d9d",
+      "source": "tokyo_art_beat",
+      "title": "ハン・ヨンス 「Unfolding Time」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/0afc1054/unnamed%20(1).jpg",
+      "description": "1933年、現在の北朝鮮・開城に裕福な家庭の長男として生まれたハン・ヨンスは、朝鮮戦争（1950–53）では若い士官として韓国軍に従軍し、戦後ソウルに戻った後、韓国リアリズム写真の先駆的なグループである新線会（Shinsunhoe）に参加します。以後、ハンは、戦争の痕跡を残しながら急速な復興を遂げていく都市と、近代化の波のなかで変貌する社会、そしてその只中を生きる人々を、独自の視点から撮影し続けました。\n\n本展では、主に朝鮮戦争直後の1950年代から60年代にかけて撮影された作品を紹介します。そこには、瓦礫の残る街路や伝統的な韓屋が見られる一方で、洋装の女性、商店、車、広告、橋、新たな建築物など、急速に姿を変えつつある都市の諸相が捉えられています。ハイヒールを履いて街を歩く女性、洋服を扱う店舗、マガジンスタンドを営む若い夫婦、遊びに興じる子供たち、川辺で思い思いの時間を過ごす人々、街を行き交う無数の市民、そして次々と建設される新しい都市空間。ハンが捉えた戦後のソウルは、単に「戦争によって破壊された都市」として提示されるだけのものではありません。むしろ彼の視線は、戦後の被害や貧困という社会的現実を背景に持ちながらも、そこに還元されることのない、人々の生命力や自尊心に向けられています。どのような状況にあっても、人は再び笑い、自らの身なりを整え、美しくあろうとする。ハンの写真には、そうした人間の営みがもつ静かな強さと、社会が再び動き始める瞬間のエネルギーが刻まれています。\n\nまた、写真に写し出された服装や建築、都市空間、そして子供たちの姿は、個々の生活風景を超えて、社会の変容を示す重要な指標となっています。女性たちの洋装は、近代化に伴うジェンダー規範や生活様式の変化を示唆し、新たに建設される建築物や道路は、都市そのものが再編されていく過程を物語ります。一方、子供たちの姿には、戦争を経験した世代から次の世代へと時間が移行していく感覚が刻まれています。とりわけ漢江に集う人々の姿には、戦争によって中断された日常を、人々が少しずつ取り戻していく過程を見ることができます。こうした作品から浮かび上がる1950年代のソウルは、現在から見ればすでに失われた過去です。しかし、そこに生きた人々にとって、それはまだ何ものにも定められていない未来でもありました。ハン・ヨンスの写真は、その「過去」と「未来」が交差する歴史的な時間を捉えています。\n\nハンの写真表現の特徴は、社会や都市の現実を記録するドキュメンタリーとしての性格と、ファッション写真を想起させる洗練された造形美が共存している点にあります。一見すると、街角で偶然遭遇した一瞬を捉えたスナップショットのように見える作品であっても、画面内部では人物、建築、道路、光、影、線などの要素が極めて精緻に配置されています。古い建物や坂道、電線、看板、商品、道路、そしてそこを行き交う人々が複雑に入り組む都市の現実を、ハンは決定的な瞬間に切り取り、画面内の多様な要素を緊密な構図のなかに統合します。そこには、偶然性を受け入れながらも、光と空間、人物と建築、静と動の関係を鋭敏に捉え、画面全体を統御する高度な構成力があります。雑然とした都市の風景は、彼のカメラを通すことで緊張感のある視覚的秩序へと変換されるのです。\n\nさらに、ハンの写真には、静止したイメージの内部に時間の流れを感じさせる作品が数多く見られます。画面の人物はどこから来て、どこへ向かうのか。そこに写る二人はどのような関係にあるのか。写真は一瞬を固定しながら、その前後に存在する時間を想像させます。その意味で、ハンの作品は単なる記録写真にとどまらず、映画の一場面のように時間を内包し、見る者の想像力によって詩や短編小説にも似た物語を立ち上げる力を備えています。日本における二度目のハン・ヨンス個展となる本展で展示される作品群は、撮影から70年近くを経た現在においてもなお新鮮な視覚的強度を保ち、変化のただ中にあった人々の姿を通して、今日を生きる私たちにも直接的に語りかけます。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-19",
+      "end_date": "2026-10-18",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "a6d8e77d5fe8",
+        "name": "MISA SHIN GALLERY",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "MISA SHIN GALLERY"
+          },
+          "ja": {
+            "name": "MISA SHIN GALLERY"
+          }
+        },
+        "region": "白金、広尾",
+        "district": null,
+        "lat": 35.65009858654695,
+        "lng": 139.7310589369596
+      },
+      "artists": [
+        {
+          "id": "ec410768df0c",
+          "name": "ハン・ヨンス",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Han-Youngsoo-Unfolding-Time/1903-D164/2026-09-19",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "14d82b13d699",
+      "source": "tokyo_art_beat",
+      "title": "田村虎之亮 「眺める 見つめる 眼差す ベラルーシ」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/d65936ef/unnamed%20(4).jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-11",
+      "end_date": "2026-09-16",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "68e82b6b6f51",
+        "name": "新宿眼科画廊",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "신주쿠 간카 가로"
+          },
+          "en": {
+            "name": "Shinjuku Ganka Garou"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.694618390076414,
+        "lng": 139.70617795331054
+      },
+      "artists": [
+        {
+          "id": "ed5f3470d2db",
+          "name": "田村虎之亮",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Toranosuke-Tamura-Glimpse-Gaze-Behold-Belarus/450-ABDCA/2026-09-11",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "5068e91915de",
+      "source": "tokyo_art_beat",
+      "title": "Tomoko Rikimaru 「あいまの標本 - callbox archives -」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/ebcaca8d/S__78954500.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-10",
+      "end_date": "2026-09-30",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "2b026f949fc5",
+        "name": "callbox",
+        "lang": null,
+        "tr": {},
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.69866,
+        "lng": 139.6977
+      },
+      "artists": [
+        {
+          "id": "b4a6bfb9d12f",
+          "name": "Tomoko Rikimaru",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Tomoko-Rikimaru-Callbox-Archives/callbox/2026-09-10",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "d83f433f98cd",
+      "source": "tokyo_art_beat",
+      "title": "「Summer Group Show」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/62c4feaa/SGS--.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-11",
+      "end_date": "2026-10-03",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "8d88cff42a52",
+        "name": "18, Murata",
+        "lang": null,
+        "tr": {},
+        "region": "天王洲、品川",
+        "district": null,
+        "lat": 35.60839914772397,
+        "lng": 139.72895900859834
+      },
+      "artists": [
+        {
+          "id": "1606f44114ff",
+          "name": "中西真穂",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4df092d5aebf",
+          "name": "キムジェフン",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e0319180fc97",
+          "name": "野口哲志",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Summer-Group-Show/C0-C3-D9-E3/2026-09-11",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f594ea524170",
+      "source": "tokyo_art_beat",
+      "title": "「遅と土の芸術祭2026 ― Slow and Clay Nakacho Art Festival 2026－」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/8ed35733/HRQxMS6bIAAdglE%20-%20%E3%81%AA%E3%81%8B%E3%82%80%E3%82%89%E3%81%97%E3%82%87%E3%81%86%E3%81%93%EF%BC%88%E6%9C%AC%E5%B1%8B%E3%81%97%E3%82%83%E3%82%93%EF%BC%89.jpg",
+      "description": "「遅と土の芸術祭2026」は、遅四グランプリと志を同じくした陶芸家グループ「遅走泥社」を中心とした、「遅」をテーマとする焼き物の展示とイベントで構成される芸術祭です。「土」という素材を、46億年にわたる地球の歴史がつくり出してきた素材として捉え直すことを出発点としています。成形・乾燥・焼成という、陶芸特有の工程には、速さや効率とは異なる固有の時間が存在します。本芸術祭は、土、陶芸の時間性に着目し、「遅さ」という概念そのものを再定義することを目的としています。\n2026年、東京都足立区・千住仲町において、「遅と土の芸術祭」は第1回目の開催を迎えます。土という素材に根差した展示とイベントを通じて、「遅さ」を再定義する試みを、この地から発信します。\n\n[関連イベント]\n1. 遅テープカット、第一回 遅走泥車選手権競走\n日時: 9月13日 14:00～\n料金: 無料\n2. 杉野晋平ライブ\n日時: 9月19日\n3. 第一回 遅四ダービー\n日時: 9月19日\n4. 遅落語\n日時: 9月22日 18:30～\n出演: 桂九ノ一\n料金: 2000円\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-12",
+      "end_date": "2026-09-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "40b2a5b7ab82",
+        "name": "仲町の家",
+        "lang": null,
+        "tr": {},
+        "region": "東京：その他",
+        "district": null,
+        "lat": 35.74417319515003,
+        "lng": 139.80168775463105
+      },
+      "artists": [
+        {
+          "id": "eb50de6ef090",
+          "name": "藤村亮太",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "9da6bc5ad325",
+          "name": "鈴木優作",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "9b0ee8e2288d",
+          "name": "矢島与萌",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "563e84330d51",
+          "name": "鈴宮リョウ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "2fff8913206d",
+          "name": "Alice COOLEY",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "12e6b948d8ed",
+          "name": "島本了多",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "시마모토 료타"
+            },
+            "en": {
+              "name": "Shimamoto Ryota"
+            }
+          }
+        },
+        {
+          "id": "a5fbf8bcdc7e",
+          "name": "三原回",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "202f272a222b",
+          "name": "杉野晋平",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "6acb76c3c91d",
+          "name": "桂九ノ一",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Slow-and-Clay-Nakacho-Art-Festival-2026/nakacho-house/2026-09-12",
       "featured": false,
       "popularity_score": null
     }
@@ -87976,6 +89492,104 @@
       "country": "JP",
       "lat": 35.63431950640588,
       "lng": 139.7122900294304,
+      "website": null
+    },
+    {
+      "id": "fc69fbea1c18",
+      "name": "間人スタジオ",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "京都府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.73777870858151,
+      "lng": 135.0866335276127,
+      "website": null
+    },
+    {
+      "id": "3aa4175e7e92",
+      "name": "aL Base（アエル ベース）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "新宿、初台、四ツ谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.68551416072838,
+      "lng": 139.70438918344973,
+      "website": null
+    },
+    {
+      "id": "5c1b17e07888",
+      "name": "SUCHSIZE（サッチサイズ）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "大阪府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.64663544608497,
+      "lng": 135.5063651312828,
+      "website": null
+    },
+    {
+      "id": "6280e6d2993d",
+      "name": "THE blank GALLERY",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "表参道、青山",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.67028502740779,
+      "lng": 139.70815990918314,
+      "website": null
+    },
+    {
+      "id": "2b026f949fc5",
+      "name": "callbox",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "新宿、初台、四ツ谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.69866,
+      "lng": 139.6977,
+      "website": null
+    },
+    {
+      "id": "8d88cff42a52",
+      "name": "18, Murata",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "天王洲、品川",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.60839914772397,
+      "lng": 139.72895900859834,
+      "website": null
+    },
+    {
+      "id": "40b2a5b7ab82",
+      "name": "仲町の家",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "東京：その他",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.74417319515003,
+      "lng": 139.80168775463105,
       "website": null
     }
   ],
@@ -107659,6 +109273,492 @@
     {
       "id": "54502194668b",
       "name": "時吉あきな",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d7208a9d5c92",
+      "name": "奥村雄樹",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b7a9cec299eb",
+      "name": "豊嶋康子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d34a3c453a21",
+      "name": "山内祥太",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3193f6bb4edf",
+      "name": "浅野友理子（大谷製陶所）",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "32d0ff32b70e",
+      "name": "アンナ・へリンガー",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "303ef649b53a",
+      "name": "五十嵐大介",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "719500d38789",
+      "name": "いとをかし",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ad0a1fe303cf",
+      "name": "十八代永樂善五郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1d93cf444536",
+      "name": "Onjium",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "df3305844e9b",
+      "name": "金沢健幸",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4e285f763a0b",
+      "name": "中川周士",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a64aa7bde6a3",
+      "name": "中須左官店",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e453ed387226",
+      "name": "縄屋",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "281641fee8cb",
+      "name": "パロマ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e97621953891",
+      "name": "益田芳樹",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9fd3275f8dbc",
+      "name": "cenci",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8073f707a528",
+      "name": "マーティン・ラオホ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fadbaee960e0",
+      "name": "ルサージュ＋髙室畳工業所",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3a21dfffc000",
+      "name": "ルマリエ＋嘉戸浩・藤田幸生",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2be2f2c57a2b",
+      "name": "ロニオン＋デザイン橡",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "efe823a75a42",
+      "name": "ベッティナ・ランス",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7e55a851293d",
+      "name": "阿久根瑠聖",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "666a78a04687",
+      "name": "石中希望",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "60e51d11547d",
+      "name": "野村日向",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4bae2731883b",
+      "name": "松原怜之",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "627782588055",
+      "name": "松原茉莉",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3c0dffae3364",
+      "name": "大成哲",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "39c0fecd9d05",
+      "name": "Isidora Brankovic",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4d43ee8a43a0",
+      "name": "あおきさとこ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8f1b768cb54a",
+      "name": "飯村武志",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ea5dc4534615",
+      "name": "池田和貴",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "75d044e52181",
+      "name": "カトウ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b713c3fc5aec",
+      "name": "Kamihasami",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8dce513b544b",
+      "name": "勘坂隆裕",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3b7e29a5b972",
+      "name": "坂本千華",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b93f44cac751",
+      "name": "saori",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "95b7889b6fad",
+      "name": "月乃カエル",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7662a919ea8a",
+      "name": "筒井文那",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d1809048da80",
+      "name": "ʜᴏиᴏᴋα.",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9c3441495fc2",
+      "name": "波多野小桃",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "769b1ebf4319",
+      "name": "牧聖一朗",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "24ea2b91c5be",
+      "name": "maru hiromi",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8c30d98dfd26",
+      "name": "モリモトアツシ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e721e7560303",
+      "name": "山羊蔵",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "14a7c8d8f2f9",
+      "name": "山﨑拓巳",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "93d2ffa986a3",
+      "name": "磯谷博史",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "bc96659f1edb",
+      "name": "フォトレツ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "845545af01ae",
+      "name": "若林満",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "93979cfd6e9b",
+      "name": "鈴木秀ヲ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "230253ad9665",
+      "name": "井上友里",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3067e5bac292",
+      "name": "亀井林蔵",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fcc90e5af64e",
+      "name": "神田_ヤンヤン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "43cabaa046ca",
+      "name": "仲澤裕",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f6d6decd9195",
+      "name": "ria osanai",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "751ecfb8c2be",
+      "name": "EIJI",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "615550d1d376",
+      "name": "Mariko Nagayama",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3fd9f2ffa7fc",
+      "name": "Tiger Valley",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a483b04a5f42",
+      "name": "Tomoyuki Hayashi",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0c0af52db181",
+      "name": "usako",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c019031c47e9",
+      "name": "Yoshiko Niizeki",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "89725101c7ee",
+      "name": "山田芳正",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9364873c45dc",
+      "name": "石井友規",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "30130e42a63a",
+      "name": "儀間朝龍",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a263719e2a92",
+      "name": "楊一楽",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "36145acd7c0c",
+      "name": "カンケ・ブルノ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "796a545589c4",
+      "name": "中尾龍太",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f32e826420a6",
+      "name": "島田篤人",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ec410768df0c",
+      "name": "ハン・ヨンス",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ed5f3470d2db",
+      "name": "田村虎之亮",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b4a6bfb9d12f",
+      "name": "Tomoko Rikimaru",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1606f44114ff",
+      "name": "中西真穂",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4df092d5aebf",
+      "name": "キムジェフン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e0319180fc97",
+      "name": "野口哲志",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "eb50de6ef090",
+      "name": "藤村亮太",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9da6bc5ad325",
+      "name": "鈴木優作",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9b0ee8e2288d",
+      "name": "矢島与萌",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "563e84330d51",
+      "name": "鈴宮リョウ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2fff8913206d",
+      "name": "Alice COOLEY",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a5fbf8bcdc7e",
+      "name": "三原回",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "202f272a222b",
+      "name": "杉野晋平",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6acb76c3c91d",
+      "name": "桂九ノ一",
       "lang": null,
       "tr": {}
     }
