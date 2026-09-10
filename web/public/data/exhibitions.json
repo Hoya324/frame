@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T23:58:16.260079+00:00",
+  "generated_at": "2026-09-10T05:29:56.919231+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -75053,8 +75053,19 @@
       "id": "213a939d6f6d",
       "source": "tokyo_art_beat",
       "title": "「Parallax」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「Parallax」",
+          "description": "고엔지의 LOCAL GALLERY・BOOKS에서 「VoidTokyo Vol.11 Exhibition-Parallax-」를 개최합니다. 본 전시는 2026년 8월 15일에 발매된 『 VoidTokyo Vol.11 』의 간행을 기념하는 전시입니다. 11호를 맞이한 이번 호는 VoidTokyo 멤버 외에 게스트 사진작가로 Yusuke Nagata, Young HAMA, Jesse Freeman, Yume Katsumi, Ryota Yamamoto (경칭 생략)를 맞이하여 총 14명의 세대와 배경을 초월한 더욱 다층적인 한 권이 되었습니다. 전시의 제목이기도 한 “Parallax”는 “시차”를 의미합니다. 각 작가들이 바라보는 “도쿄의 시차”를 전시장에서 보실 수 있기를 바랍니다."
+        },
+        "ja": {
+          "title": "「Parallax」"
+        },
+        "en": {
+          "description": "At LOCAL GALLERY・BOOKS in Koenji, we will hold the 'VoidTokyo Vol.11 Exhibition-Parallax-'. This exhibition commemorates the publication of 'VoidTokyo Vol.11', which was released on August 15, 2026. This 11th issue, welcoming VoidTokyo members as well as guest photographers Yusuke Nagata, Young HAMA, Jesse Freeman, Yume Katsumi, and Ryota Yamamoto (honorifics omitted), has become a more multilayered volume by a total of 14 individuals, transcending generations and backgrounds. \"Parallax,\" which is also the title of the exhibition, means \"parallax.\" We hope you will come to the exhibition venue to see the \"Tokyo parallax\" that each artist observes."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/77dee66b/CC8BEC7E-775C-4733-A69E-4C03CB3E5062%20-%20Chihiro%20Kobayashi.JPG",
       "description": "高円寺のLOCAL GALLERY・BOOKSにて、「VoidTokyo Vol.11 Exhibition-Parallax-」を開催いたします。本展は、2026年8月15日に発売された『 VoidTokyo Vol.11 』の刊行を記念した展示です。11号を迎えた本号は、VoidTokyoのメンバーに加え、ゲストフォトグラファーとしてYusuke Nagata, Young HAMA, Jesse Freeman,Yume Katsumi, Ryota Yamamoto（敬称略）を迎え、総勢14名による世代やバックグラウンドを超えた、より多層的な１冊となりました。展示のタイトルでもある”Parallax”は”視差”を意味します。それぞれの作家が見つめる”東京の視差”を、展示会場でご覧いただけましたら幸いです。",
       "medium": "photo",
@@ -75178,8 +75189,17 @@
       "id": "dcd0ea81c93e",
       "source": "fujifilm_square",
       "title": "2026 全日本読売写真クラブ展",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "2026 전일본 요미우리 사진 클럽전",
+          "description": "전국에 38개 있는 요미우리 사진 클럽(YPC) 회원들이 평소 찍어 모은 역작을 응모하는 콘테스트. 접수된 작품 중에서 사진작가 타치키 요시히로 씨의 심사(6월 실시)로 선정된 「개인 부문」 약 90점과, 약 20개 클럽이 4~6장의 조합 사진 작품으로 경쟁하는 「클럽 대항전 부문」 참가 작품을 전시합니다. 각 클럽이 활동하는 지역의 매력도 함께 즐겨주세요 (작품 수 및 참가 클럽 수는 예정입니다)."
+        },
+        "en": {
+          "title": "2026 All Japan Yomiuri Photo Club Exhibition",
+          "description": "A contest where members of the 38 Yomiuri Photo Clubs (YPC) nationwide submit their masterpieces taken over time. From the submitted works, approximately 90 pieces from the 'Individual Category,' selected by photographer Yoshihiro Tachiki's judging (held in June), will be exhibited, along with works from the 'Club Competition Category,' where approximately 20 clubs compete with 4-6 composite photo works. Please also enjoy the charm of the regions where each club operates (the number of works and participating clubs is subject to change)."
+        }
+      },
       "poster_image_url": "https://fujifilmsquare.jp/assets/img/photo_event_260828_01_mv.jpg",
       "description": "全国に38ある読売写真クラブ（YPC）の会員が、日頃撮りためた力作を応募するコンテスト。寄せられた作品から、写真家・立木義浩氏による審査（6月実施）で選ばれた「個人部門」の約90点と、内約20のクラブが4～6枚の組み写真作品で競い合う「クラブ対抗戦部門」参加作品を展示します。各クラブが活動する地域の魅力もあわせてお楽しみください（作品数・参加クラブ数は予定です）。",
       "medium": "photo",
@@ -75218,8 +75238,17 @@
       "id": "d43e7a6ba7ea",
       "source": "tokyo_art_beat",
       "title": "岡田敦 「幻の馬 Yururi Island 1950–2026」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "오카다 아츠시 「환상의 말 Yururi Island 1950–2026」",
+          "description": "도쿄도 사진 미술관에서는 2026년 12월 1일(화)부터 2027년 1월 17일(일)까지 「오카다 아츠시 | 환상의 말 Yururi Island 1950–2026」을 개최합니다. 사진작가 오카다 아츠시는 자기 존재와 삶과 죽음 같은 삶의 근원적인 주제에 일관되게 마주해 온 작가입니다. 그의 제작 기반에는 하나의 피사체에 조용한 열정을 쏟고 세월을 들여 계속 응시하는 시선이 있습니다. 본 전시는 2011년부터 15년에 걸친 홋카이도 최동단(북방영토 제외), 네무로 반도 앞바다에 떠 있는 유루리 섬에서의 창작 활동의 집대성입니다. 약 80점의 작품으로 구성되며, 2025년에 발표한 사진집 『The Horses of Yururi Island 유루리 섬의 말』(세이겐샤)의 작품 및 관련 영상 외에, 남은 2마리의 말의 모습을 새롭게 포착한 미발표 신작도 공개합니다.\n\n오카다 아츠시는 홋카이도에서 태어나 오사카 예술대학에서 도쿄 공예대학 대학원으로 진학하여 예술학 박사 학위를 취득한 2008년에 사진집 『I am』(아카카샤)으로 제33회 기무라 이헤이 사진상을 수상했습니다. 그 후에도 수상작 제1작 『ataraxia』(세이겐샤), 『세계』(아카카샤), 『MOTHER』(하쿠로샤)를 통해 활발하게 작품을 발표하고 있습니다. 그 활동과 더불어 오랫동안 쫓아온 것이 유루리 섬이라는 상륙 금지 무인도에 사는 말들의 모습입니다. 둘레 8km의 유루리 섬에는 전후 고향을 잃은 북방영토 주민 등이 다시마 어업의 노동력으로 1950년부터 말을 들여왔습니다. 그러나 이윽고 사람들이 섬을 떠나자 말들만 남게 됩니다. 한편 섬은 에토피리카 등 바닷새를 비롯한 귀중한 자연을 보호하기 위해 국가 조수 보호 구역으로 지정되었고, 1980년대 초에 사실상 상륙이 금지되었습니다. 이렇게 하여 주민이 없는 섬에 암말들만이 계속 살아가게 됩니다.\n\n오카다는 기무라 이헤이 사진상을 수상한 2008년에 이 섬의 존재를 알게 되었고, 강하게 흥미를 느꼈습니다. 네무로 시청에 2년 반에 걸쳐 끈질기게 촬영의 의의를 설명한 결과, 2011년부터 섬에서의 촬영이 허가되었습니다. 그것은 오카다 자신의 예상을 훨씬 뛰어넘는 장기간에 걸친 \"환상의 섬\"에 사는 말들과의 파인더를 통한 격투, 혹은 교감의 역사의 시작이기도 했습니다. 암말들만 있는 이상, 무리는 언젠가 사라질 운명에 있습니다. 오카다는 상륙 금지된 섬에서 홀로 텐트를 치고 그 운명을 카메라로 계속 응시했습니다. 촬영 시작 시 수십 마리였던 말은 15년이 지난 올해 4월에는 2마리로 줄어들었습니다. 오카다는 이 기간 동안 전 주민 인터뷰와 조사를 거듭하여, 앞서 언급한 사진집 『유루리 섬의 말』에 앞서 포토르포르타주 『에피타프 환상의 섬, 유루리의 광적』(임프레스) 등의 작품도 발표해 왔습니다. 그 활동으로 인해 유루리 섬과 그곳에 사는 말들의 존재는 많은 사람들에게 알려지게 되었습니다. 삶과 죽음이라는 오카다의 사진에 관통하는 주제를 구현하며, 지금 막 사라지려 하는 환상의 말들. 본 전시는 그 모습을 계속 쫓아온 사진작가의 조용한 열정의 궤적을 접하는 전시회입니다.\n\n[관련 이벤트]\n1. 아티스트 토크\n일시: 2026년 12월 6일 15:00~17:00\n등단자: 사이토 히데요키 (북 디자이너), 히라이 마미코 (음악가)\n장소: 도쿄도 사진 미술관 1층 홀\n요금: 2200엔 (사전 신청 필수)\n2. 강연회\n일시: 2026년 12월 20일 14:00~\n등단자: 후쿠시마 아키라 (편집자)\n장소: 도쿄도 사진 미술관 지하 1층 전시실\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Atsushi Okada \"Phantom Horses Yururi Island 1950–2026\"",
+          "description": "The Tokyo Photographic Art Museum will hold \"Atsushi Okada | Phantom Horses Yururi Island 1950–2026\" from December 1, 2026 (Tuesday) to January 17, 2027 (Sunday). Photographer Atsushi Okada is an artist who has consistently confronted fundamental themes of life, such as his own existence, life, and death. His creative foundation lies in a gaze that dedicates quiet passion to a single subject, observing it over many years. This exhibition is the culmination of his creative activities spanning 15 years since 2011 on Yururi Island, located off the Nemuro Peninsula, at the easternmost tip of Hokkaido (excluding the Northern Territories). Comprising approximately 80 works, the exhibition will feature works from his photobook \"The Horses of Yururi Island\" (Seigensha), published in 2025, and related videos, as well as new, unreleased works capturing the two remaining horses.\n\nAtsushi Okada was born in Hokkaido, advanced from Osaka University of Arts to Tokyo Polytechnic University Graduate School, and in 2008, the year he obtained his Ph.D. in Art, he received the 33rd Kimura Ihei Award for Photography for his photobook \"I am\" (Akakasha). Since then, he has actively published works including his first post-award work \"ataraxia\" (Seigensha), \"Sekai\" (Akakasha), and \"MOTHER\" (Hakurosha). Alongside these activities, he has long pursued the horses living on Yururi Island, an uninhabited island where landing is prohibited. On Yururi Island, which has a circumference of 8 km, residents of the Northern Territories who were displaced from their homes after the war introduced horses as labor for kelp fishing starting in 1950. However, as people eventually left the island, only the horses remained. Meanwhile, the island was designated a national wildlife protection area to protect its valuable nature, including seabirds such as Tufted Puffins, and landing was effectively prohibited in the early 1980s. Thus, only mares continued to live on the island with zero human residents.\n\nOkada learned of the island's existence in 2008, the year he received the Kimura Ihei Award for Photography, and was strongly drawn to it. After persistently explaining the significance of his photography to Nemuro City Hall for two and a half years, he was granted permission to photograph on the island starting in 2011. This marked the beginning of a long period, far exceeding Okada's own expectations, of struggle or communion through the viewfinder with the horses living on this \"phantom island.\" As long as there are only mares, the herd is destined to eventually disappear. Okada pitched a tent alone on the prohibited island and continued to observe their fate through his camera. The number of horses, which was over a dozen at the start of filming, has decreased to just two by April of this year, 15 years later. During this time, Okada conducted interviews and research with former residents, and prior to the aforementioned photobook \"The Horses of Yururi Island,\" he also published works such as the photo reportage \"Epitaph: Phantom Island, Traces of Light on Yururi\" (Impress). Through his activities, the existence of Yururi Island and the horses living there became known to many people. The phantom horses, embodying the overarching theme of life and death in Okada's photography, are now on the verge of disappearing. This exhibition offers a glimpse into the trajectory of the photographer's quiet passion as he continued to pursue their forms.\n\n[Related Events]\n1. Artist Talk\nDate & Time: December 6, 2026, 15:00–17:00\nSpeakers: Hideyuki Saito (Book Designer), Mamiko Hirai (Musician)\nVenue: Tokyo Photographic Art Museum 1F Hall\nFee: 2200 yen (Advance registration required)\n2. Lecture\nDate & Time: December 20, 2026, 14:00–\nSpeaker: Akira Fukushima (Editor)\nVenue: Tokyo Photographic Art Museum B1F Exhibition Room\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/b2b6bfca/Topuseum_OkadaAtsushi_YururiIsland_PhantomHorses.jpg",
       "description": "東京都写真美術館では、2026年12月1日(火)から2027年1月17日(日)まで、「岡田敦|幻の馬 Yururi Island 1950–2026」を開催します。写真家・岡田敦は自己の存在や、生と死といった生きることの根源的なテーマに一貫して向き合ってきた作家です。その制作の基盤には、ひとつの被写体に静かな情熱を傾け、歳月をかけて見つめ続けるまなざしがあります。本展は、2011年より15年に及ぶ北海道の最東端(北方領土を除く)、根室半島の沖合に浮かぶユルリ島での創作活動の集大成です。約80点の作品で構成され、2025年に発表した写真集『The Horses of Yururi Island ユルリ島の馬』(青幻舎)の作品や関連映像に加え、残り2頭となった馬の姿を新たに捉えた未発表の新作も公開します。\n\n岡田敦は北海道に生まれ、大阪芸術大学から東京工芸大学大学院に進み、芸術学博士号を取得した2008年に、写真集『I am』(赤々舎)で第33回木村伊兵衛写真賞を受賞しました。その後も受賞第1作『ataraxia』(青幻舎)、『世界』(赤々舎)、『MOTHER』(柏艪舎)と精力的に作品を発表しています。その活動の傍らで長年追い続けてきたのが、ユルリ島という上陸禁止の無人島に生きる馬たちの姿です。周囲8km のユルリ島には、戦後に故郷を追われた北方領土の住人などが昆布漁の労働力として1950年から馬を移入しました。しかし、やがて人々が島を離れると馬だけが残されます。一方で島はエトピリカなどの海鳥をはじめとする貴重な自然を保護するため国の鳥獣保護区に指定され、1980年代初めに実質的に上陸が禁止されました。こうして、住人ゼロの島に雌馬だけが生き続けることになります。\n\n岡田は木村伊兵衛写真賞を受賞した2008年にこの島の存在を知り、強く興味を惹かれます。根室市役所へ2年半にわたり粘り強く撮影の意義を説明し続けた結果、2011年から島での撮影が許可されました。それは岡田自身の予想も遥かに超えた長期間にわたる、“幻の島”に生きる馬たちとのファインダーを通した格闘、あるいは交感の歴史の始まりともなりました。雌だけである以上、群れはいずれ消えゆく運命にあります。岡田は上陸禁止の島でひとりテントを張り、その運命をカメラで見つめ続けました。撮影開始時に十数頭いた馬は、15年が経った今年の4月には、2頭にまで減少しています。岡田はこの間、元住民へのインタビューや調査を重ね、前述の写真集『ユルリ島の馬』に先立ち、フォトルポルタージュ『エピタフ 幻の島、ユルリの光跡』(インプレス)などの作品も発表してきました。その活動により、ユルリ島とそこに生きる馬たちの存在は多くの人々に知られることとなりました。生と死という岡田の写真に通底するテーマを体現し、いままさに消えようとしている幻の馬たち。本展は、その姿を追い続けた写真家の静かな情熱の軌跡に触れる展覧会です。\n\n[関連イベント]\n1. アーティストトーク\n日時: 2026年12月6日15:00〜17:00\n登壇者: サイトヲヒデユキ（装幀家）、平井真美子（音楽家）\n会場: 東京都写真美術館 1 階ホール\n料金: 2200円（要事前申込み）\n2. 講演会\n日時: 2026年12月20日14:00〜\n登壇者: 福島晃（編集者）\n会場: 東京都写真美術館 地下 1 階展示室\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -75272,8 +75301,19 @@
       "id": "5749c74a69a9",
       "source": "tokyo_art_beat",
       "title": "「Aimee Magallon Exhibition vol.1」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「Aimee Magallon Exhibition vol.1」",
+          "description": "비갓코 사진 공방 수료생 마가롱 에메의 「Aimee Magallon Exhibition vol.1」을 비갓코 스튜디오에서 개최합니다."
+        },
+        "ja": {
+          "title": "「Aimee Magallon Exhibition vol.1」"
+        },
+        "en": {
+          "description": "\"Aimee Magallon Exhibition vol.1\" by Aimee Magallon, a graduate of Bigakko Photography Workshop, will be held at Bigakko Studio."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/ef421162/DMM%20-%20Ayaka%20Ura.jpg",
       "description": "美学校写真工房 修了生のマガロンエメによる、「Aimee Magallon Exhibition vol.1」を美学校スタジオにて開催します。",
       "medium": "photo",
@@ -75319,8 +75359,15 @@
       "id": "74510cc2f2fa",
       "source": "tokyo_art_beat",
       "title": "三浦憲治 「ミウラヒロシマ Vol.13」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "미우라 켄지 「미우라 히로시마 Vol.13」"
+        },
+        "en": {
+          "title": "Kenji Miura \"Miura Hiroshima Vol.13\""
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/5eb21ff0/image001.jpg",
       "description": null,
       "medium": "mixed",
@@ -75366,8 +75413,17 @@
       "id": "39c15d926472",
       "source": "tokyo_art_beat",
       "title": "「鴨居 玲 ーカメラでとらえる画家の素顔ー」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "카모이 레이 - 카메라로 포착한 화가의 본모습 -",
+          "description": "'자화상의 화가'로 불리며 자기 투영적인 작품을 그린 카모이 레이. 작품에는 카모이의 내면이 표현되어 보는 이의 감정에 호소합니다. 한편, 작품에서는 보이지 않는 인간, 카모이 레이도 존재합니다. 카모이 레이는 어떤 인물이었을까요? 지금까지 대부분 미공개였던, 본모습이 담긴 귀중한 초상화들을 통해 '카모이 레이'를 풀어봅니다. 스페인 라만차 지방의 작은 마을 발데페냐스에서 마을 사람들과의 교류, 친한 친구들과 보내는 시간, 그리고 작품과 마주하는 화가의 모습을 카메라는 적나라하게 포착하고 있습니다. 이번 전시는 본관 소장 작품 약 60점과 도야마 에미코 촬영 사진을 중심으로 약 75점의 사진으로 구성됩니다.\n\n[관련 이벤트]\n1. 대담회 '카모이 레이와의 17년'\n일시: 2026년 10월 3일 14:00~\n등단자: 하세가와 도쿠시치 (본관 명예관장), 하세가와 치에코 (부관장)\n장소: 기획전시관 2층\n2. 프랑스관 갤러리 토크\n일시: 2026년 10월 10일 14:00~\n장소: 프랑스관 2층\n3. 카모이 레이 갤러리 토크\n일시: 2026년 11월 3일, 12월 5일 14:00~\n장소: 기획전시관\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Rei Kamoi - The Painter's True Face Captured by Camera -",
+          "description": "Rei Kamoi, known as \"the painter of self-portraits,\" created works that were self-projections. His works express his inner world, appealing to the emotions of viewers. However, there is also a side of Rei Kamoi, the person, that is not visible in his works. What kind of person was Rei Kamoi? This exhibition unravels \"Rei Kamoi\" through precious portraits, many of which have been previously unreleased, showing his true self. The camera candidly captures his interactions with villagers in Valdepeñas, a small village in Spain's La Mancha region, moments spent with close friends, and the artist's figure as he confronts his work. This exhibition features approximately 60 works from our museum's collection and about 75 photographs, primarily those taken by Emiko Toyama.\n\n[Related Events]\n1. Talk Session \"17 Years with Rei Kamoi\"\nDate: October 3, 2026, 14:00~\nSpeakers: Tokushichi Hasegawa (Honorary Director of this museum), Chieko Hasegawa (Deputy Director)\nVenue: Special Exhibition Hall 2F\n2. French Pavilion Gallery Talk\nDate: October 10, 2026, 14:00~\nVenue: French Pavilion 2F\n3. Rei Kamoi Gallery Talk\nDate: November 3 & December 5, 2026, 14:00~\nVenue: Special Exhibition Hall\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/bc2ff1da/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-08-27%2015.12.31.png",
       "description": "「自画像の画家」と称され、自己投影の作品を描いた鴨居玲。作品には鴨居の内面が表現され、見る者の感情に訴えかけてきます。一方、作品からは見えてこない人間、鴨居玲も存在します。 鴨居玲とはどのような人物だったのでしょうか。これまでその多くが未公開だった、素顔が写る貴重なポートレートから、「鴨居 玲」を紐解きます。スペイン、ラ・マンチャ地方の小村、バルデペーニャスにおける村人たちとの交流や、親しい友人たちと過ごすひととき、そして作品に向き合う画家の姿を、カメラは赤裸々に捉えています。この度は、当館所蔵作品約60点、富山栄美子撮影写真を中心に約75点の写真で構成します。\n\n[関連イベント]\n1. 対談会「鴨居玲との17年」\n日時: 2026年10月3日14:00〜\n登壇者: 長谷川徳七（当館名誉館長）、長谷川智恵子（副館長）\n会場: 企画展示館2階\n2. フランス館ギャラリートーク\n日時: 2026年10月10日14:00〜\n会場: フランス館2階\n3. 鴨居玲ギャラリートーク\n日時: 2026年11月3日、12月5日14:00〜\n会場: 企画展示館\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -75413,8 +75469,17 @@
       "id": "53834589f8a1",
       "source": "tokyo_art_beat",
       "title": "高山登 「点展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "다카야마 노보루 '점전'",
+          "description": "YOKOTA TOKYO에서는 다카야마 노보루의 '점전'을 개최합니다. '점전'은 1973년부터 1977년까지 네 차례에 걸쳐 작가들이 자택이나 그 주변을 전시장으로 삼아 자발적으로 개최한 전시회입니다. 미술관이나 화랑과 같은 기존의 전시 시설을 벗어나 일상생활 공간을 발표의 장으로 삼고, 관객이 각 장소를 돌아다니며 작품을 감상하는 시도였습니다.\n\n다카야마 노보루는 제1회부터 제4회까지 '점전'에 계속해서 참여했습니다. 1970년 'SPACE TOTSUKA 70'에서의 실천을 거쳐, 점전에서도 동시대 작가들과 논의를 나누며 기존의 미술 제도를 벗어나 일상 그 자체를 제작의 장으로 삼았습니다. 본 전시에서는 아틀리에에 남아있던 사진들을 통해 다카야마가 점전에서 선보인 전시와 퍼포먼스를 소개합니다. 물을 흘려보내고, 못이나 끈을 던지고, 빛을 투사하는... 그러한 행위를 포착한 사진들에는 제작 과정과 그것을 둘러싼 일상의 풍경이 생생하게 담겨 있습니다. 다카야마가 '점전'에서 일상에 어떻게 개입하려 했는지 그 단면을 따라가며 작가의 제작을 다시 한번 생각해 볼 기회가 되기를 바랍니다. 그리고 또한, 당시 사람들을 둘러싸고 있던 시대의 분위기나 그 속에서 무언가를 붙잡으려 했던 신체 감각 같은 것도 느껴보시길 바랍니다. 본 전시를 위해서는 다카야마 부인이 직접 정리한 사진과 관련 자료가 중요한 기반이 되었습니다. 또한, 와다 고이치 씨(전 미야기현 미술관)께는 조언을 받았으며, 텍스트를 집필해 주셨습니다. 두 분께 깊이 감사드립니다."
+        },
+        "en": {
+          "title": "Noboru Takayama 'Ten-ten'",
+          "description": "YOKOTA TOKYO is pleased to present Noboru Takayama's \"Ten-ten.\" \"Ten-ten\" was an exhibition held four times between 1973 and 1977, organized independently by artists who used their homes and surrounding areas as venues. It was an attempt to move away from existing exhibition facilities like museums and galleries, using everyday living spaces as a platform for presentation, and allowing visitors to tour various locations to appreciate the artworks.\n\nNoboru Takayama continuously participated in \"Ten-ten\" from the first to the fourth installment. Following his practice in \"SPACE TOTSUKA 70\" in 1970, he continued to engage in discussions with contemporary artists at \"Ten-ten,\" moving away from existing art institutions and making everyday life itself a site for creation. This exhibition introduces Takayama's installations and performances at \"Ten-ten\" through a collection of photographs remaining in his studio. Photographs capturing actions such as pouring water, throwing nails and strings, or projecting light vividly depict the creative process and the surrounding everyday scenery. We hope that by tracing a part of how Takayama sought to engage with everyday life through \"Ten-ten,\" this exhibition will provide an opportunity to reconsider the artist's creative practice. Furthermore, we hope you will also feel the atmosphere of the era that surrounded people at the time, and the physical sensation of trying to grasp something within it. For this exhibition, the photographs and related materials meticulously organized by Mrs. Takayama have served as a crucial foundation. We also received valuable advice and a written text from Mr. Koichi Wada (former Miyagi Museum of Art). We extend our deepest gratitude to both of them."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/6f83ca4a/ED23F017-8C8E-428D-A8E3-1E4BE6BD2B50_1_201_a.jpeg",
       "description": "YOKOTA TOKYO では、高山登の「点展」を開催いたします。「点展」は、1973年から1977年にかけて4回にわたり、作家たちが自宅やその周辺を会場として自主的に行った展覧会です。美術館や画廊といった既存の展示施設を離れ、日常の生活空間を発表の場とし、観客がそれぞれの場所を巡って作品を鑑賞するという試みでした。\n\n高山登は、第1回から第4回まで継続して「点展」に参加しました。1970年の「SPACE TOTSUKA 70」での実践を経て、点展においても同時代の作家たちと議論を交わしながら、既存の美術制度を離れ、日常そのものを制作の場としていきました。本展では、アトリエに残されていた写真群より、高山が点展で行った展示やパフォーマンスを紹介します。水を流す、釘や紐を投げる、光を投射する...そうした行為を捉えた写真には、制作の過程や、それを取り巻く日常の風景が、いきいきと写し込まれています。高山が「点展」で日常にどのように働きかけようとしたのか、その一端を辿ることで、作家の制作を改めて考える機会となれば幸いです。そしてまた、当時の人々を取り巻いていた時代の空気や、そのなかで何かを掴もうとする身体感覚のようなものも、感じていただければと思います。本展にあたっては、高山夫人が手ずから整理された写真と関連資料が大切な基盤となっています。また、和田浩一氏（元宮城県美術館）にはご助言をいただくとともに、テキストをご執筆いただきました。お二人に深く感謝申し上げます。",
       "medium": "photo",
@@ -75460,8 +75525,17 @@
       "id": "f55a232d1f95",
       "source": "tokyo_art_beat",
       "title": "鈴木のぞみ 「Looking Through Glass | ガラス越しの眼差し」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "스즈키 노조미 'Looking Through Glass | 유리 너머의 시선'",
+          "description": "도조 회관 사진 연구소에서는 사진작가 스즈키 노조미의 'Looking Through Glass | 유리 너머의 시선'을 개최합니다. 거울, 창문, 렌즈 등 빛을 통해 세상을 비추는 이 사물들은 우리의 시각을 확장하는 동시에 '보는 것'과 '보이는 것'을 매개하며 사람과 세상의 관계를 형성해 왔습니다. 스즈키 노조미는 본 전시에서 19세기 이후의 광학 기기 및 사진에 주목하여, 사람들의 '보는' 경험이 어떻게 형성되어 왔는지 탐구합니다. 안경, 망원경, 사진 제작에 사용되어 온 도구, 그리고 창문 등 사람들이 세상을 바라보던 다양한 유리에 감광제를 도포하고 그 위에 이미지를 새겨 넣음으로써, 시선 속에 숨겨진 역사와 기억을 부각시킵니다.\n\n전시장인 도조 회관 사진 연구소는 100년 이상 초상 사진을 촬영하며 사람들의 인생의 중요한 순간들을 기록해 온 장소입니다. 그곳에는 일본의 초상 문화와 함께, 사진 한 장 한 장에 새겨진 이름 없는 개인과 가족의 기억이 쌓여 있습니다. '찍히는 것'에서 시작된 일본 사진은 전문적인 시대를 거쳐 이제는 누구나 데이터로 남길 수 있는 것이 당연해졌습니다. 큰 역사와 개인의 기억이 교차하는 이 장소에서, 에도 시대 후기에 난학을 통해 서양 광학이 전해진 이후부터 전후에 이르기까지, 유리 너머로 세상을 포착해 온 다양한 시선을 작품을 통해 체험하시고, 과거와 현재를 되돌아보는 계기가 되기를 바랍니다.\n\n[관련 이벤트]\n워크숍 '밤하늘로 '시선'을 향하다'\n일시: 2026년 10월 23일 18:30~\n※이벤트 상세는 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Nozomi Suzuki 'Looking Through Glass | Gaze Through Glass'",
+          "description": "The Tojo Kaikan Photo Research Institute will host \"Looking Through Glass | Gaze Through Glass\" by photographer Nozomi Suzuki. Mirrors, windows, lenses—these objects that reflect the world through light have expanded our vision and mediated \"seeing\" and \"being seen,\" shaping the relationship between people and the world. In this exhibition, Nozomi Suzuki focuses on optical instruments and photography from the 19th century onwards, exploring how people's experience of \"seeing\" has been formed. By applying photosensitive material to various types of glass through which people have directed their gaze—such as eyeglasses, telescopes, tools used in photography, and windows—and imprinting images onto them, she brings to light the history and memories hidden within these gazes.\n\nThe Tojo Kaikan Photo Research Institute, the venue for this exhibition, has been a place where portrait photographs have been taken for over 100 years, documenting significant milestones in people's lives. Here, alongside Japan's portrait culture, the memories of countless individuals and families, etched into each photograph, have accumulated. Japanese photography, which began with \"being photographed,\" evolved through a specialized era, and now it is commonplace for anyone to save images as data. At this place where grand history and individual memories intersect, we hope you will experience through the artworks the various gazes that have captured the world through glass, from the introduction of Western optics via Rangaku in the late Edo period to the post-war era, and that it will serve as an opportunity to re-examine the past and the present.\n\n[Related Events]\nWorkshop \"Directing a 'Gaze' Towards the Night Sky\"\nDate: October 23, 2026, 18:30~\n*Please check the official website for event details."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/a9086a68/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-08-27%2013.44.53.png",
       "description": "東條會館写真研究所では、写真家 鈴木のぞみによる「Looking Through Glass | ガラス越しの眼差し」を開催します。鏡や窓、レンズ──光を通して世界を映し出すこれらの事物は、私たちの視覚を拡張するとともに、「見ること」と「見られること」を媒介し、人と世界との関係をかたちづくってきました。鈴木のぞみは本展で、19世紀以降の光学機器や写真に着目し、人々の「見る」という経験がどのように形づくられてきたのかを探究しています。眼鏡や望遠鏡、写真制作に用いられてきた道具、そして窓など、人々が世界に眼差しを向けてきたさまざまなガラスに感光剤を塗布し、そこに像を焼き付けることで、眼差しに潜む歴史や記憶を浮かび上がらせます。\n\n会場となる東條會館写真研究所は、100年以上にわたり肖像写真を撮影し、人々の人生の節目を記録してきた場所です。そこには、日本の肖像文化とともに、一枚一枚の写真に刻まれた、名もなき個人や家族の記憶が積み重ねられています。「写されること」から始まった日本の写真は、専門的な時代を経て、今や誰でもデータとして残せることが当たり前となりました。大きな歴史と個人の記憶が交わるこの場所で、江戸後期に蘭学を通して西洋光学がもたらされてから戦後に至るまで、ガラス越しに世界をとらえてきたさまざまな眼差しを作品を通して体感いただき、過去と現在を見つめ直す契機となれば幸いです。\n\n[関連イベント]\nワークショップ 「夜空へ『まなざし』を向ける」\n日時: 2026年10月23日18:30〜\n※イベント詳細は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -75514,8 +75588,17 @@
       "id": "43666ef75897",
       "source": "tokyo_art_beat",
       "title": "深澤あめり + Ayla Aoki 「Ka Wai」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "후카사와 아메리 + Ayla Aoki 「Ka Wai」",
+          "description": "이번에 soco1010에서는 후카사와 아메리와 Ayla Aoki의 2인전 「Ka Wai」를 개최합니다. 후카사와 아메리와 Ayla Aoki는 각각 다른 매체를 사용하면서 땅과 사람 사이의 경계와 그 관계성에 관심을 가지고 작품 활동을 해왔습니다. 본 전시에서는 그들이 지금까지 방문했던 다양한 땅에서 기록한 사진과 드로잉을 사용하여 「Ka Wai」(＝물)를 테마로 ZINE을 제작하고, 사진 및 드로잉 작품과 함께 그 발표의 장으로 개최됩니다."
+        },
+        "en": {
+          "title": "Ameri Fukasawa + Ayla Aoki \"Ka Wai\"",
+          "description": "soco1010 will host a duo exhibition \"Ka Wai\" by Ameri Fukasawa and Ayla Aoki. Ameri Fukasawa and Ayla Aoki have been creating works with an interest in the boundaries between land and people, and their relationships, using different mediums. In this exhibition, they will create a ZINE on the theme of \"Ka Wai\" (= water) using photographs and drawings recorded in various places they have visited, and the exhibition will serve as a venue for its presentation along with their photographic and drawing works."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/b7fc126b/20260905_kv_L.jpg",
       "description": "この度、soco1010では、深澤あめりとAyla Aokiによる2人展「Ka Wai」を開催いたします。深澤あめりとAyla Aokiはそれぞれ異なる媒体を用いながら、土地と人との境界や、その関係性に関心を持って制作を行ってきました。本展では、これまで彼女たちが訪れたさまざまな土地で記録した写真やドローイングを用い「Ka Wai」（＝水）をテーマにZINEを制作し、写真やドローイング作品とともに、その発表の場として開催いたします。",
       "medium": "photo",
@@ -75567,8 +75650,17 @@
       "id": "9230a74ebb40",
       "source": "tokyo_art_beat",
       "title": "オイ 「富士 -あの日の光-」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "오이 「후지 -그날의 빛-」",
+          "description": "9월 8일(화)부터 도쿄 교바시의 공작화랑에서 후지산 사진작가로 활동하는 오이 씨의 개인전을 개최합니다. 보편적이고 상징적인 후지산과 순간마다 변해가는 빛이 서로 영향을 주고받아 만들어내는 아름다운 풍경을 테마로 한 작품들을 전시 판매합니다."
+        },
+        "en": {
+          "title": "Oi \"Fuji -Light of That Day-\"",
+          "description": "From Tuesday, September 8th, a solo exhibition by Oi, an active Mount Fuji photographer, will be held at Kujaku Gallery in Kyobashi, Tokyo. Works themed on the beautiful scenery created by the universally symbolic Mount Fuji and the ever-changing light influencing each other moment by moment will be exhibited and sold."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/3358b88b/oi_anohinohikari_press%20-%20Gallery%20Island.jpg",
       "description": "9月8日（火）から東京・京橋の孔雀画廊にて、富士山写真家として活躍するオイさんの個展を開催いたします。普遍的であり象徴的である富士山と瞬間ごとに変わりゆく光が、互いに影響し合い生まれる、美しい景色をテーマとした作品を展示販売いたします。",
       "medium": "photo",
@@ -75614,8 +75706,19 @@
       "id": "093b44bafda0",
       "source": "tokyo_art_beat",
       "title": "「Waza Waza — Iga Art Book Fair 2026」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「Waza Waza — 이가 아트 북 페어 2026」",
+          "description": "일본, 미국, 중국, 싱가포르, 이란, 튀니지 6개국 및 지역에서 38팀의 창작자들이 직접 만든 책을 가지고 이가에 모이는 이틀간의 아트북 페어. 행사장인 사적 구 스코도(崇広堂)는 1821년에 번교로 지어졌으며, 1905년부터 약 80년간 미에현에서 가장 오래된 공립 도서관으로 사용된 건물이다. 그 강당의 다다미 72장 위에 작품집과 시집부터 실험적인 아티스트 북까지 진열되어 있으며, 모두 손에 들고 읽을 수 있다. 행사 기간 중에는 다회 「요미차 / Reading Tea」(토마 보티에), 이동 도서관 차량 「닌닌 부커」의 방문, 해외에서 책만 도착한 전시 「Waza Waza Archive」도 열린다."
+        },
+        "ja": {
+          "title": "「Waza Waza — 伊賀アートブックフェア 2026」"
+        },
+        "en": {
+          "description": "A two-day art book fair where 38 creators from 6 countries and regions—Japan, America, China, Singapore, Iran, and Tunisia—gather in Iga with their self-published books. The venue, the historic site Shiseki Kyu Shokodo, was built as a han school in 1821 and served as Mie Prefecture's oldest public library for about 80 years from 1905. On the seventy-two tatami mats of its auditorium, everything from art books and poetry collections to experimental artist books will be displayed, all available for browsing. During the fair, there will also be a tea ceremony \"Yomicha / Reading Tea\" (Thomas Vautier), a visit from the mobile library \"Ninnin Booker,\" and an exhibition \"Waza Waza Archive\" featuring books sent from overseas."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/8101ca6b/WazaWazaFlyer_Omote%20-%20Lily%20Okamoto.jpg",
       "description": "日本・アメリカ・中国・シンガポール・イラン・チュニジアの6の国と地域から38組の作り手が、自分でつくった本を持って伊賀に集まる二日間のアートブックフェア。会場の史跡旧崇広堂は1821年に藩校として建てられ、1905年から約80年間、三重県最古の公立図書館として使われた建物。その講堂の畳七十二枚の上に、作品集や詩集から実験的なアーティストブックまでが並び、すべて手に取って読むことができる。会期中は茶会「読み茶 / Reading Tea」（トマ・ヴォーティエ）、移動図書館車「にんにんブッカー」の来車、海外から本だけが届いた展示「Waza Waza Archive」も。",
       "medium": "mixed",
@@ -75654,8 +75757,17 @@
       "id": "57bd8dfa5293",
       "source": "tokyo_art_beat",
       "title": "「令和8年度出張展示 Part.2 岡本太郎と沖縄 in Museum⁺205」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「레이와 8년도 순회 전시 Part.2 오카모토 타로와 오키나와 in Museum⁺205」",
+          "description": "오카모토 타로 미술관은 레이와 8년 3월 말부터 개수 공사로 인해 전시실을 휴관하지만, 이 기간 동안에도 많은 분들이 오카모토 타로의 세계를 접할 수 있도록 관외 순회 전시를 개최합니다. 두 번째 기획 전시인 본 전시는 나하시와 가와사키시의 우호 도시 제휴 30주년을 기념하여, 오카모토 타로가 1959년에 처음 방문하여 완전히 매료되었던 오키나와에 대한 시선을 소개합니다. 오키나와가 아직 미국 점령하에 있던 시대, 오카모토는 오키나와의 토지와 풍토, 사람들의 삶 속에서 잃어버린 일본의 원점과 문화적 근원을 발견했습니다. 이때의 기행문으로 정리된 『잊혀진 일본─오키나와 문화론』은 지금도 빛바래지 않는 명저입니다. 본 전시는 이 『오키나와 문화론』에서 발췌한 오카모토의 말과 함께 그가 촬영한 사진들을 소개합니다. 오카모토 자신이 하나의 '사랑'과 같은 것이었다고 할 정도로 온몸으로 몰두했던 오키나와. 그가 그곳에서 포착한 사진들을 꼭 감상해 주십시오.\n\n[관련 이벤트]\n나만의 얼굴을 그려보자!\n일시: 2026년 10월 25일 10:00～13:30\n장소: 가와사키시청 본청사 내 (당일 선착순)\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "「Reiwa 8th Fiscal Year Traveling Exhibition Part.2: Taro Okamoto and Okinawa in Museum⁺205」",
+          "description": "The Taro Okamoto Museum of Art will close its exhibition rooms for renovation work from the end of March, Reiwa 8. During this period, we will hold off-site traveling exhibitions to allow many people to experience the world of Taro Okamoto. This second installment of the exhibition celebrates the 30th anniversary of the sister city affiliation between Naha City and Kawasaki City, and introduces Taro Okamoto's gaze upon Okinawa, which he first visited in 1959 and was completely captivated by. In an era when Okinawa was still under American occupation, Okamoto discovered the lost origins and cultural roots of Japan within Okinawa's land, climate, and people's lives. His travelogue from this time, 『Wasureta Nihon – Okinawa Bunkaron』 (Forgotten Japan – Okinawa Cultural Theory), remains an enduring masterpiece. This exhibition presents Okamoto's words from 『Okinawa Bunkaron』 alongside photographs he took. Please come and see the photographs he captured in Okinawa, a place he immersed himself in so wholeheartedly that he described it as something like a 'love.'\n\n[Related Event]\nLet's Draw Our Own Faces!\nDate & Time: October 25, 2026, 10:00 AM – 1:30 PM\nVenue: Kawasaki City Hall Main Building (First-come, first-served on the day)\n*For event details and application methods, please check our official website."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/44dacc57/%E5%B2%A1%E6%9C%AC%E5%A4%AA%E9%83%8E%E6%92%AE%E5%BD%B1%E3%80%8A%E4%B9%85%E9%AB%98%E3%81%AE%E3%82%8D%E3%80%8B1959%E5%B9%B4-scaled.jpg",
       "description": "岡本太郎美術館は、令和8年3月末から改修工事のために展示室を休室していますが、この期間中も、多くの方に岡本太郎の世界に親しんでいただけるよう、館外での出張展示を開催します。第二弾の本展示は、那覇市と川崎市の友好都市提携30周年を祝って、岡本太郎が1959年に初めて訪れ、すっかり魅せられた沖縄へのまなざしをご紹介いたします。まだ沖縄がアメリカ占領下だった時代、岡本は沖縄の土地と風土、人々の暮らしの中に、失われた日本の原点と文化的根源を発見しました。この時の紀行文としてまとめられた『忘れられた日本─沖縄文化論』は、いまなお色褪せない名著です。本展示は、この『沖縄文化論』からの岡本の言葉にあわせ、岡本が撮影した写真をご紹介いたします。岡本自身が、一つの「恋」のようなものだった、というほどに全身で没頭した沖縄。彼がそこで捉えた写真をぜひご覧ください。\n\n[関連イベント]\nオリジナルの顔を描こう！\n日時: 2026年10月25日10:00～13:30\n会場: 川崎市役所本庁舎内（当日先着順）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -75701,8 +75813,17 @@
       "id": "8c6a3fde3d51",
       "source": "tokyo_art_beat",
       "title": "スザンヌ・ムーニー 「Spectral Landscapes」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "수잔 무니 「Spectral Landscapes」",
+          "description": "본 전시 「Spectral Landscapes」는 사진, 파노라마 이미지, 빛, VR을 조합하여 풍경이 사진의 프레임을 넘어 공간적, 감각적인 경험으로 확장될 가능성을 탐구합니다. 전시는 서아일랜드의 특징적인 석회암 지형인 버렌을 포착한 대형 사진 작품으로 시작됩니다. Three Space Tokyo의 3개 층을 둘러보는 동안, 풍경은 '그려진 장소'에서 신체와 지각을 감싸는 환경으로 변화합니다. VR 작품을 통해 가상 세계와 현실 시야의 관계도 탐구합니다. 몰입을 단순한 스펙터클이 아닌, 신체, 이미지, 빛, 건축, 기술 사이에 생겨나는 변화하는 관계로 파악하여 관람자의 장소에 대한 지각과 경험의 변화를 고찰합니다. 수잔 무니는 도쿄를 기반으로 활동하는 아일랜드 출신 아티스트입니다. 설치, 사진, 영상, 몰입형 공간 표현 등 다양한 매체를 넘나들며 작업하고 있습니다. 일본, 한국, 아이슬란드, 아일랜드, 영국 등에서 작품을 발표했습니다. 본 전시는 JSPS 연구비 22K00216 「Immersion through Digital Technologies for Optimal Engagement with Contemporary Art Installation」의 지원을 받고 있습니다."
+        },
+        "en": {
+          "title": "Suzanne Mooney 「Spectral Landscapes」",
+          "description": "This exhibition, 'Spectral Landscapes,' combines photography, panoramic images, light, and VR to explore the potential for landscapes to extend beyond the photographic frame into spatial and sensory experiences. The exhibition begins with large-scale photographic works capturing the Burren, a distinctive limestone landscape in Western Ireland. As visitors navigate the three floors of Three Space Tokyo, the landscape transforms from a 'depicted place' into an environment that envelops the body and perception. Through VR works, the exhibition also explores the relationship between virtual worlds and real vision. Immersion is considered not merely as a spectacle, but as the shifting relationships that emerge between body, image, light, architecture, and technology, examining how the viewer's perception and experience of place change. Suzanne Mooney is an Irish artist based in Tokyo. She works across multiple media, including installations, photography, video, and immersive spatial expressions. Her works have been exhibited in Japan, Korea, Iceland, Ireland, and the UK. This exhibition is supported by JSPS KAKENHI 22K00216 'Immersion through Digital Technologies for Optimal Engagement with Contemporary Art Installation'."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/cd3105b2/image0.jpeg",
       "description": "本展「Spectral Landscapes」は、写真、パノラマイメージ、光、VRを組み合わせ、風景が写真のフレームを越えて、空間的・感覚的な体験へと広がっていく可能性を探ります。展覧会は、西アイルランドの特徴的な石灰岩地形であるバレンを捉えた大型写真作品から始まります。Three Space Tokyoの3つのフロアを巡るなかで、風景は「描かれた場所」から、身体や知覚を包み込む環境へと変化していきます。VR作品を通して、仮想世界と現実の視界との関係も探ります。没入を単なるスペクタクルとしてではなく、身体、イメージ、光、建築、テクノロジーの間に生まれる移ろいゆく関係として捉え、鑑賞者の場所に対する知覚や体験の変化を考察します。スザンヌ・ムーニーは、東京を拠点に活動するアイルランド出身のアーティスト。インスタレーション、写真、映像、没入型の空間表現など、複数のメディアを横断して制作を行っています。日本、韓国、アイスランド、アイルランド、イギリスなどで作品を発表しています。本展は、JSPS科研費22K00216「Immersion through Digital Technologies for Optimal Engagement with Contemporary Art Installation」の助成を受けています。",
       "medium": "mixed",
@@ -75748,8 +75869,17 @@
       "id": "d9dd5f5ce2e9",
       "source": "tokyo_art_beat",
       "title": "松島千晶 + 増田麻由 「ゆるる」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "마츠시마 치아키 + 마스다 마유 「유루루」",
+          "description": "점점 보이지 않게 된다. 그것은 슬픈가. 기쁜가. 어디로 사라져 가는 것일까. 문득 주위를 둘러보면 시간과 함께 변해가는 것들뿐이다. 이름 붙일 수도, 일치시킬 수도, 결론 내릴 수도 없는 그 너머에 작품이 있다. 작품은 처음부터 이 세상에 있었던 것이 아니다.\n\n이번 전시에서는 마츠시마 치아키, 마스다 마유 두 사람의 작품이 탄생하기 이전을 탐구해보고자 합니다. 그 안에 있는 드라마는 닫혀 있고, 광인의 심리일 수도 있으며, 본래는 건드려서는 안 되는 세계일 수도 있다. 그러나 그 드라마에서 떠오르는 '심상도'에는 우리 각자의 지식과 경험을 넘어 타인의 생각을 믿을 만한 한 조각이 나타나 있는 것은 아닐까. 마츠시마 치아키의 작품에 그려진 촛불의 불꽃이나 옐로 라인, 하늘이나 물을 찾아 뻗어 나가는 듯한 마스다 마유의 작품.\n두 사람의 하늘의 확장은 시작이며, 작품은 낙하 도중처럼 보이기도 한다. 오카와(大川)의 반은 육지, 반은 바다인 땅, 지표의 바닥이자 물의 표면이라고도 할 수 있는 이 땅에 그 작품들이 내려앉고, 하늘의 본성이 내려온다.\n\n아리스토텔레스(기원전 384-322년)는 혜성을 우주의 천체가 아닌, 지상 가까운 대기 중에서 일어나는 불과 같은 현상이라고 생각했습니다. 달 아래를 지상 세계·월하계·계속 변화하는 세계, 달 위를 천상 세계·월상계·완전하고 영원한 세계로 우주를 크게 두 가지로 나누어 생각했던 것입니다. 지구에서 솟아오르는 건조하고 뜨거운 증기가 높은 하늘까지 상승하여 태양이나 항성의 열로 발화하면 오랫동안 타오르는 불꽃 혜성이 되기도 했습니다. 지상 세계의 일이었던 것입니다. (혜성: 성분의 80퍼센트가 물) 마츠시마, 마스다, 각자의 혜성과 같은 작품은 이제야 비로소 계속 변화하는 세계에 착지하여, 우리의 일상을 쓸어버리기도 하고, 인간의 활동이나 도시의 기억까지도 조용히 데려가기도 하며, 계속 변화하는 시간을 얻어갈지도 모릅니다. 즉, 두 사람에게 시작의 땅, 표현의 윤곽을 갖기 전은 천상 세계라는 믿을 수 있는 영원한 세계였고, 그 업과 같은 것이 작품에 열을 주어, 불꽃과 물이 되어 천상천하를 이어가는 것입니다. 우리는 그 업의 광대무변한 흔들림과 살아있는 사람을 보게 될지도 모릅니다.\n\n[관련 이벤트]\n아티스트 토크\n일시: 2026년 9월 23일 14:00〜15:00\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Chiaki Matsushima + Mayu Masuda 「Yururu」",
+          "description": "Gradually becoming invisible. Is it sad? Is it joyful? Where will it disappear to? If one glances around, everything is constantly changing with time. Beyond what cannot be named, matched, or concluded, the artwork exists. The artwork was not in this world from the beginning.\n\nIn this exhibition, we aim to explore the period before the creation of works by Chiaki Matsushima and Mayu Masuda. The drama within it is closed off; it might be the psychology of a madman, a world that should not be touched. However, from that drama, a 'mental image' emerges—a fragment sufficient to believe in others' thoughts beyond our own knowledge and experience. Chiaki Matsushima's works depict candle flames and yellow lines, while Mayu Masuda's works seem to reach for the sky and water.\nThe expanse of their heavens is a beginning, and the works also appear to be in mid-fall. In Okawa, a land that is half-land and half-sea, a place that can be called the bottom of the earth's surface and the surface of the water, these works descend, and the nature of heaven descends.\n\nAristotle (384-322 BC) considered comets not as celestial bodies in space, but as fire-like phenomena occurring in the atmosphere near the ground. He largely divided the universe into two: below the moon was the terrestrial world, the sublunary sphere, a constantly changing world; above the moon was the celestial world, the superlunary sphere, a perfect and eternal world. Dry, hot vapor rising from the Earth would ascend high into the sky, and when ignited by the heat of the sun or stars, would become flaming comets that burned for a long time. These were considered events of the terrestrial world. (Comets: 80 percent water). Matsushima and Masuda's comet-like works have now finally landed in this constantly changing world, sometimes sweeping away our daily lives, sometimes quietly carrying away human activities and even the memories of the city, perhaps gaining constantly changing time. In other words, for the two, the starting point, before their expressions took shape, was the celestial world, a believable eternal world, and that karma-like essence gives heat to the works, becoming fire and water, connecting heaven and earth. We may witness the boundless fluctuations of that karma and the living person.\n\n[Related Event]\nArtist Talk\nDate & Time: September 23, 2026, 2:00 PM – 3:00 PM\n*For event details and application methods, please check our official website."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/fee4b7e5/IMG_2026%20-%20chi%20ma.jpeg",
       "description": "次第に見えなくなっていく。それは悲しいのか。嬉しいのか。いずこへ、消えていくのだろうか。ふと周りを見渡せば、時間と共に移ろいゆくことばかりだ。名付けることも、合致させることも、帰結することもできぬその先に、作品はある。作品ははじめからこの世にあったわけではない。\n\nこの展覧会では、松島千晶、増田麻由のふたりの作品を生み出す以前を探ってみようと思います。そこにあるドラマは、閉ざされているし、狂人の心理かもしれない、本来は触れてはいけない世界かもしれない。しかし、そのドラマから浮かび上がる「心象図」には、私たちそれぞれの知識と経験を超えて他者の考えを信ずるに足る一片が現れていることがあるのではないか。松島千晶の作品に描かれる蝋燭の炎やイエローライン、天空や水を求めて伸びるような増田麻由の作品。\nふたりの天の広がりは、始まりで、作品は落下の途中のようにも見える。大川の半陸半海の地、地表の底と水の表面ともいえるこの地にそれらの作品が舞い降り、天の性が降りて来る。\n\nアリストテレス（紀元前384-322年）は、彗星を宇宙の天体ではなく、地上近くの大気中で起こる火のような現象だと考えていました。月より下を地上世界・月下界・変化し続ける世界、月より上を天上世界・月上界・完全で永遠の世界として、宇宙を大きく二つに分けて考えていたのです。地球から立ち上がる乾いた熱い蒸気が高い空まで上昇し、太陽や恒星の熱で着火すると長く燃え続ける炎箒星にもなりました。地上世界の出来事だったのです。（彗星：成分の80パーセントが水）松島、増田、それぞれの彗星のような作品は、今やっと変化し続ける世界に着地し、私たちの日常を掃くこともあれば、人間の営みや街の記憶までも静かに連れ去ることもあり、変化し続ける時間を手に入れていくのかもしれません。つまり、ふたりにとって始まりの地、表現の輪郭を持つ前は、天上世界という信じられる永遠の世界で、その業のようなものが作品に熱を与え、炎と水となり天上天下を繋いでいくのです。私たちはその業の広大無辺な揺らぎと生の人を見ることになるのかもしれません。\n\n[関連イベント]\nアーティストトーク\n日時: 2026年9月23日14:00〜15:00\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -75801,8 +75931,17 @@
       "id": "fb420c0c1f0c",
       "source": "tokyo_art_beat",
       "title": "「SOME PRESENT \"A celebration of meaning in a world of unholy fiction.\"──『遊び』とは、世界の見方を変えるための方法」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "SOME PRESENT \"A celebration of meaning in a world of unholy fiction.\"──'놀이'란 세상을 보는 방식을 바꾸기 위한 방법",
+          "description": "콜렉티브형 크리에이티브 프로덕션 A.N.D.의 그룹전을 개최합니다. 네덜란드에서 4명의 아티스트가 일본을 방문하고, 일본에서 4명, 총 8명의 아티스트가 참여합니다. 이번 전시는 회장에 전시 공간과 아틀리에 공간을 마련하여, 작품을 전시함과 동시에 공개 제작을 진행합니다. 아티스트들이 국경을 넘어 같은 공간에서 만나 대화를 거듭하며 창조해 나가는 과정을 시각화하고, 그 자리에 함께한 사람들과도 시간과 공간을 공유하는 것에 가치를 둡니다. 전시 기간 중에는 워크숍과 파티를 개최하오니, 많은 참여 바랍니다."
+        },
+        "en": {
+          "title": "SOME PRESENT \"A celebration of meaning in a world of unholy fiction.\"──'Play' is a method for changing the way one sees the world.",
+          "description": "A group exhibition by the collective-type creative production A.N.D. will be held. Four artists from the Netherlands will visit Japan, and four from Japan, making a total of eight artists participating. This exhibition will feature an exhibition space and an atelier space at the venue, where artworks will be displayed and public production will be conducted simultaneously. Artists will meet in the same space across borders, visualizing the creative process as they engage in dialogue and create, finding value in sharing time and space with those present at the venue. Workshops and parties will be held during the exhibition period, so please join us."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/866aa963/some-present_re1%20-%20%E9%87%8E%E5%B3%B6%E4%B8%89%E5%A5%88%E5%AD%90%20(2).jpg",
       "description": "コレクティブ型のクリエイティブプロダクションA.N.D.によるグループ展を開催します。オランダから4名のアーティストが来日し、日本から4名、計8名のアーティストが参加します。今回の展示は、会場に展示スペースとアトリエスペースを設け、作品を展示すると同時に公開制作を行います。アーティストたちが国を超えて同じ空間で顔を合わせ、対話を重ねながら創造していくプロセスを可視化し、その場に居合わせた人々とも時間と空間を共有することに価値を見出します。会期中にはワークショップやパーティを開催しますので、ぜひご参加ください。",
       "medium": "mixed",
@@ -75890,8 +76029,15 @@
       "id": "0eae46c0f708",
       "source": "tokyo_art_beat",
       "title": "「間」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「사이」"
+        },
+        "en": {
+          "title": "\"Ma\""
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/2Gnu82IjoHaxQRJpYAzWO3/af7f42ebc592760282602e35bac8d6fb/unnamed__1_.jpg",
       "description": null,
       "medium": "mixed",
@@ -76035,8 +76181,17 @@
       "id": "f0521b8b7272",
       "source": "tokyo_art_beat",
       "title": "中井菜央 「ゆれる水脈」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "나카이 나오 「흔들리는 수맥」",
+          "description": "이번에 후겐샤는 2026년 9월 11일(금)부터 10월 4일(일)까지 『흔들리는 수맥 — 사진 표상의 저편에』(미스즈 서방) 출간 기념 나카이 나오 개인전 「흔들리는 수맥」을 개최합니다.\n\n나카이 나오는 1978년 시가현에서 태어난 사진작가입니다. 이전부터 '눈'을 모티프로 작품을 만들고 싶다고 생각했던 나카이는 다니던 출판사를 그만두고 전국 각지의 폭설 지대를 찾아다닌 후, 2015년부터 니가타현 쓰난마치에 6년간 반복적으로 머물며 촬영한 작품 『눈의 시간』을 사진집과 사진전으로 발표했습니다. 눈이 지배하는 풍경과 사람을 응시하며 인간 내면의 기억을 흔드는 듯한 그 이미지들은 높은 평가를 받아 사가미하라 사진 신인 장려상(2022)과 일본 사진 협회 신인상(2023)을 수상했습니다.\n\n본 전시는 2025년에 「WEB 미스즈」(미스즈 서방이 운영하는 웹 매거진)에 연재된 에세이 「흔들리는 수맥 — 사진 표상의 저편에」의 집필과 바다를 모티프로 홋카이도에서 촬영한 신작 「바다의 끈」의 제작을 거쳐 탄생한 사진들로 구성됩니다. 롤랑 바르트가 『밝은 방』에서 어머니라는 개인적인 존재를 통해 사진의 본질에 다가갔듯이, 나카이도 에세이 집필을 통해 오랫동안 외면했던 유년기의 기억과 마주하며 자신에게 사진의 본질이 무엇인지 탐구해 나갔습니다. 고향 시가에서 촬영을 하던 중, 눈앞의 풍경과 무의식 속에 억눌려 있던 어린 시절의 기억이 이중으로 겹쳐지면서, 비와코에서 수로로 물이 콸콸 흘러나오듯 마음속 깊은 곳에 잠들어 있는 '수맥'의 존재가 자신의 사진 표현에 깊은 영향을 미치고 있음을 강하게 느꼈습니다. 나카이는 에세이에서 그 경험을 \"비유하자면, 집을 떠나 세상의 끝을 향해 길고 긴 여행을 계속하던 어느 날, 눈앞에 우리 집이 나타나는 듯한 신기함...\"이라고 말합니다.\n\n이번 전시는 태어나고 자란 시가에서 촬영한 사진과 신작을 위해 홋카이도에서 찍은 사진이라는, 장소도 시간도 다르며 언뜻 보기에 관련 없어 보이는 사진들이 서로 공명하여 선율을 이루도록 구성됩니다. 카메라라는 눈을 통해 외부 세계를 들여다보는 것이 자신의 내면에 있는 것과 만나는 것이며, 현재와 과거를 오가며 서로 다른 시간의 실타래를 엮는 듯한 행위라는 것. 본 전시는 바로 나카이의 사진론 그 자체이며, 개별적이고 구체적인 기억의 이미지는 결국 보편성을 띠고 관람객의 마음속 깊이 잠들어 있는 '수맥'과도 공명하기를 간절히 바랍니다.\n\n[관련 이벤트]\n1. 갤러리 토크\n일시: 2026년 9월 20일 14:00~15:30\n등단자: 나카이 나오, 오쿠라 히로시(사큐칸 관장)\n장소: 후겐샤\n요금: 1200엔 (사전 신청 필수) (현장 관람, 온라인 중계 모두 동일 가격)\n2. 갤러리 가이드 투어\n일시: 2026년 9월 27일 14:00~14:30\n등단자: 나카이 나오, 갤러리 디렉터\n장소: 후겐샤\n요금: 무료 (사전 신청 불필요)\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Nao Nakai \"Wavering Water Veins\"",
+          "description": "Fugen-sha is pleased to announce the solo exhibition \"Wavering Water Veins\" by Nao Nakai, commemorating the publication of \"Wavering Water Veins — Beyond Photographic Representation\" (Misuzu Shobo), from September 11 (Fri) to October 4 (Sun), 2026.\n\nNao Nakai is a photographer born in Shiga Prefecture in 1978. Nakai, who had long wished to create works with \"snow\" as a motif, left her publishing company and traveled through heavy snowfall regions across Japan. Subsequently, from 2015, she repeatedly stayed in Tsunan Town, Niigata Prefecture, for six years, producing \"Traces of Snow,\" which she presented in a photobook and a photography exhibition. Her series of images, which gaze upon landscapes and people governed by snow and stir deep human memories, received high acclaim, earning her the Sagamihara Photography Newcomer Encouragement Award (2022) and the Japan Photographic Society Newcomer Award (2023).\n\nThis exhibition comprises a collection of photographs born from the writing of the essay \"Wavering Water Veins — Beyond Photographic Representation,\" serialized in \"WEB Misuzu\" (a web magazine operated by Misuzu Shobo) in 2025, and the creation of her new work \"Threads of the Sea,\" photographed in Hokkaido with the sea as its motif. Just as Roland Barthes approached the essence of photography through the personal existence of his mother in \"Camera Lucida,\" Nakai, too, explored what the essence of photography meant to her by confronting childhood memories she had long turned away from, through the writing of her essay. While photographing in her hometown of Shiga, the landscape before her eyes and her repressed childhood memories unconsciously overlapped, and she strongly felt that the \"water veins\" dormant deep within her heart, like water continuously flowing from Lake Biwa into waterways, profoundly influenced her photographic expression. In her essay, Nakai describes this experience as \"To put it metaphorically, it's like leaving home, aiming for the ends of the earth, continuing a long, long journey, and then one day, your own home mysteriously appears before your eyes...\"\n\nThis exhibition is structured so that photographs taken in Shiga, where she was born and raised, and photographs taken in Hokkaido for her new work—photos from different locations and times, seemingly unrelated—resonate with each other to form a melody. Looking out at the external world through the eye of a camera is an encounter with what lies within oneself, an act of intertwining threads from different timelines while moving back and forth between the present and the past. This exhibition is truly Nakai's photographic theory itself, and it is our earnest hope that the images of specific, individual memories will eventually take on universality and resonate with the \"water veins\" dormant deep within each viewer.\n\n[Related Events]\n1. Gallery Talk\nDate & Time: September 20, 2026, 14:00–15:30\nSpeakers: Nao Nakai, Hiroshi Okura (Director of Sakyu-kan)\nVenue: Fugen-sha\nFee: 1,200 yen (advance registration required) (same price for in-person viewing and online streaming)\n2. Gallery Guided Tour\nDate & Time: September 27, 2026, 14:00–14:30\nSpeakers: Nao Nakai, Gallery Director\nVenue: Fugen-sha\nFee: Free (no advance registration required)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/9fb278db/B0016694s-%E3%81%AE%E3%82%B3%E3%83%92%E3%82%9A%E3%83%BC.jpg",
       "description": "このたび、ふげん社は、2026年9月11日（金）から10月4日（日）まで、『ゆれる水脈――写真 表象のさきに』（みすず書房）刊行記念・中井菜央個展「ゆれる水脈」を開催いたします。\n\n中井菜央は、1978年滋賀県生まれの写真家です。かねてから「雪」をモチーフに制作したいと考えていた中井は、勤めていた出版社を辞めて全国の豪雪地帯を訪ね歩いた後、2015年から新潟県津南町に6年間滞在を繰り返して撮影した作品『雪の刻』を写真集と写真展で発表しました。雪が律する風景と人を見つめ、人間の内奥の記憶を揺さぶるようなそのイメージ群は高い評価を得て、さがみはら写真新人奨励賞（2022）と日本写真協会新人賞（2023）を受賞しました。\n\n本展は、2025年に「WEB みすず」（みすず書房が運営するウェブマガジン）で連載されたエッセイ「ゆれる水脈――写真 表象のさきに」の執筆と、海をモチーフに北海道で撮影した新作「海の緒」の制作を経て生まれた写真群で構成されます。ロラン・バルトが『明るい部屋』で母という個人的な存在から写真の本質に迫ったように、中井もエッセイの執筆を通し、長らく目を背けていた幼少期の記憶と対峙することで、自身にとっての写真の本質とは何であるかを探っていきました。故郷の滋賀に赴いて撮影をしていた際に、眼前の風景と、無意識下に押さえ込まれていた幼い頃の記憶が二重写しとなり、琵琶湖から水路へこんこんと水が流れ出すようにある心の奥底に眠る「水脈」の存在が、自らの写真表現に深く影響を与えていることを強く感じました。中井はエッセイでその体験を「喩えるなら、我が家を出て、世界の果てをめざし、長い長い旅を続けたある日、目の前に我が家が出現するような不思議さ...」と語ります。\n\n今回の展示は、生まれ育った滋賀で撮影した写真と、新作のために北海道で撮った写真という、ロケーションも時間も異なる、一見関わりのないような写真同士が響き合い旋律となるように構成されます。カメラという眼を通して外界を覗き込むことが、自分の内側にあるものと出会うことであり、現在と過去を行き来しながら異なる時系列の糸を撚り合わせるような営為であること。本展はまさに中井の写真論そのものであり、個別具体的な記憶のイメージはやがて普遍性を帯びて、鑑賞者の奥底に眠る「水脈」とも共鳴することを願ってやみません。\n\n[関連イベント]\n1. ギャラリートーク\n日時: 2026年9月20日14:00〜15:30\n登壇者: 中井菜央、大倉宏（砂丘館 館長）\n会場: ふげん社\n料金: 1200円（要事前申込み）（会場観覧、オンライン配信共に同価格）\n2. ギャラリーガイドツアー\n日時: 2026年9月27日14:00〜14:30\n登壇者: 中井菜央、ギャラリーディレクター\n会場: ふげん社\n料金: 無料（事前申込み不要）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -78612,8 +78767,15 @@
       "venue": {
         "id": "0c336f85c4dc",
         "name": "ギャラリー点",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 점"
+          },
+          "en": {
+            "name": "Gallery Ten"
+          }
+        },
         "region": "京都府",
         "district": null,
         "lat": 35.00999044181342,
@@ -78664,8 +78826,15 @@
       "venue": {
         "id": "6a78dddfa275",
         "name": "遊工房アートベースキャンプ",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "유공방 아트 베이스캠프"
+          },
+          "en": {
+            "name": "Yukobo Art Base Camp"
+          }
+        },
         "region": "東京：その他",
         "district": null,
         "lat": 35.67048891050822,
@@ -78734,8 +78903,15 @@
       "venue": {
         "id": "be10beff4319",
         "name": "あやセンターぐるぐる oasis",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "아야 센터 구루구루 oasis"
+          },
+          "en": {
+            "name": "Aya Center Guruguru oasis"
+          }
+        },
         "region": "東京：その他",
         "district": null,
         "lat": 35.76169173874979,
@@ -78893,8 +79069,15 @@
       "venue": {
         "id": "3f964f346a6a",
         "name": "ハーハフー",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "하하후"
+          },
+          "en": {
+            "name": "Ha-ha-fu"
+          }
+        },
         "region": "恵比寿、代官山、中目黒",
         "district": null,
         "lat": 35.63431950640588,
@@ -79076,8 +79259,15 @@
       "venue": {
         "id": "fc69fbea1c18",
         "name": "間人スタジオ",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "타이자 스튜디오"
+          },
+          "en": {
+            "name": "Taiza Studio"
+          }
+        },
         "region": "京都府",
         "district": null,
         "lat": 35.73777870858151,
@@ -79355,8 +79545,15 @@
       "venue": {
         "id": "3aa4175e7e92",
         "name": "aL Base（アエル ベース）",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "aL Base (아에루 베이스)"
+          },
+          "en": {
+            "name": "aL Base"
+          }
+        },
         "region": "新宿、初台、四ツ谷",
         "district": null,
         "lat": 35.68551416072838,
@@ -79491,8 +79688,15 @@
       "venue": {
         "id": "5c1b17e07888",
         "name": "SUCHSIZE（サッチサイズ）",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "SUCHSIZE (삿치사이즈)"
+          },
+          "en": {
+            "name": "SUCHSIZE"
+          }
+        },
         "region": "大阪府",
         "district": null,
         "lat": 34.64663544608497,
@@ -79672,8 +79876,15 @@
       "venue": {
         "id": "6280e6d2993d",
         "name": "THE blank GALLERY",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "THE blank GALLERY"
+          },
+          "ja": {
+            "name": "THE blank GALLERY"
+          }
+        },
         "region": "表参道、青山",
         "district": null,
         "lat": 35.67028502740779,
@@ -80303,8 +80514,15 @@
       "venue": {
         "id": "2b026f949fc5",
         "name": "callbox",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "callbox"
+          },
+          "ja": {
+            "name": "callbox"
+          }
+        },
         "region": "新宿、初台、四ツ谷",
         "district": null,
         "lat": 35.69866,
@@ -80343,8 +80561,15 @@
       "venue": {
         "id": "8d88cff42a52",
         "name": "18, Murata",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "18, Murata"
+          },
+          "ja": {
+            "name": "18, Murata"
+          }
+        },
         "region": "天王洲、品川",
         "district": null,
         "lat": 35.60839914772397,
@@ -80395,8 +80620,15 @@
       "venue": {
         "id": "40b2a5b7ab82",
         "name": "仲町の家",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "나카초노 이에"
+          },
+          "en": {
+            "name": "Nakacho no Ie"
+          }
+        },
         "region": "東京：その他",
         "district": null,
         "lat": 35.74417319515003,
@@ -89441,8 +89673,15 @@
     {
       "id": "0c336f85c4dc",
       "name": "ギャラリー点",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "갤러리 점"
+        },
+        "en": {
+          "name": "Gallery Ten"
+        }
+      },
       "venue_type": "other",
       "region": "京都府",
       "district": null,
@@ -89455,8 +89694,15 @@
     {
       "id": "6a78dddfa275",
       "name": "遊工房アートベースキャンプ",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "유공방 아트 베이스캠프"
+        },
+        "en": {
+          "name": "Yukobo Art Base Camp"
+        }
+      },
       "venue_type": "other",
       "region": "東京：その他",
       "district": null,
@@ -89469,8 +89715,15 @@
     {
       "id": "be10beff4319",
       "name": "あやセンターぐるぐる oasis",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "아야 센터 구루구루 oasis"
+        },
+        "en": {
+          "name": "Aya Center Guruguru oasis"
+        }
+      },
       "venue_type": "other",
       "region": "東京：その他",
       "district": null,
@@ -89483,8 +89736,15 @@
     {
       "id": "3f964f346a6a",
       "name": "ハーハフー",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "하하후"
+        },
+        "en": {
+          "name": "Ha-ha-fu"
+        }
+      },
       "venue_type": "other",
       "region": "恵比寿、代官山、中目黒",
       "district": null,
@@ -89497,8 +89757,15 @@
     {
       "id": "fc69fbea1c18",
       "name": "間人スタジオ",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "타이자 스튜디오"
+        },
+        "en": {
+          "name": "Taiza Studio"
+        }
+      },
       "venue_type": "other",
       "region": "京都府",
       "district": null,
@@ -89511,8 +89778,15 @@
     {
       "id": "3aa4175e7e92",
       "name": "aL Base（アエル ベース）",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "aL Base (아에루 베이스)"
+        },
+        "en": {
+          "name": "aL Base"
+        }
+      },
       "venue_type": "other",
       "region": "新宿、初台、四ツ谷",
       "district": null,
@@ -89525,8 +89799,15 @@
     {
       "id": "5c1b17e07888",
       "name": "SUCHSIZE（サッチサイズ）",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "SUCHSIZE (삿치사이즈)"
+        },
+        "en": {
+          "name": "SUCHSIZE"
+        }
+      },
       "venue_type": "other",
       "region": "大阪府",
       "district": null,
@@ -89539,8 +89820,15 @@
     {
       "id": "6280e6d2993d",
       "name": "THE blank GALLERY",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "THE blank GALLERY"
+        },
+        "ja": {
+          "name": "THE blank GALLERY"
+        }
+      },
       "venue_type": "gallery",
       "region": "表参道、青山",
       "district": null,
@@ -89553,8 +89841,15 @@
     {
       "id": "2b026f949fc5",
       "name": "callbox",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "callbox"
+        },
+        "ja": {
+          "name": "callbox"
+        }
+      },
       "venue_type": "other",
       "region": "新宿、初台、四ツ谷",
       "district": null,
@@ -89567,8 +89862,15 @@
     {
       "id": "8d88cff42a52",
       "name": "18, Murata",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "18, Murata"
+        },
+        "ja": {
+          "name": "18, Murata"
+        }
+      },
       "venue_type": "other",
       "region": "天王洲、品川",
       "district": null,
@@ -89581,8 +89883,15 @@
     {
       "id": "40b2a5b7ab82",
       "name": "仲町の家",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "나카초노 이에"
+        },
+        "en": {
+          "name": "Nakacho no Ie"
+        }
+      },
       "venue_type": "other",
       "region": "東京：その他",
       "district": null,
