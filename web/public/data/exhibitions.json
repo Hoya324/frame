@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T17:12:16.579090+00:00",
+  "generated_at": "2026-09-11T20:54:21.051916+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -7066,7 +7066,7 @@
       "price_max": null,
       "start_date": "2026-08-14",
       "end_date": "2026-09-10",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -48397,7 +48397,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-09-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "0dc4fba72bd9",
@@ -66259,7 +66259,7 @@
       "price_max": null,
       "start_date": "2026-08-14",
       "end_date": "2026-09-10",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "3f88230e73b4",
@@ -69413,7 +69413,7 @@
       "price_max": null,
       "start_date": "2026-08-14",
       "end_date": "2026-09-10",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -74495,7 +74495,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-11-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "183df2495444",
@@ -75344,7 +75344,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-09-15",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "b5a0a1a747b1",
@@ -76222,7 +76222,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-10-04",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "37f737766ac5",
@@ -76276,7 +76276,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-09-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "a61c8d163161",
@@ -76473,7 +76473,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-10-04",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ec7e14bc9bb2",
@@ -77644,7 +77644,7 @@
       "price_max": null,
       "start_date": "2026-09-04",
       "end_date": "2026-09-10",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -79100,7 +79100,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-09-23",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "afe71f7d0299",
@@ -79194,7 +79194,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-10-03",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5e7cd386d448",
@@ -79623,7 +79623,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-09-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "3aa4175e7e92",
@@ -80297,7 +80297,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-10-04",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "75b6ca2ad503",
@@ -80545,7 +80545,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-09-16",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "68e82b6b6f51",
@@ -80639,7 +80639,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-10-03",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8d88cff42a52",
@@ -80840,7 +80840,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-09-17",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -80880,7 +80880,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-09-17",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -81749,6 +81749,399 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Natsuyuki-Nakanishi-Devices-for-Gentle-Gazing-and-Endless-Lingering/D8689437/2026-11-12",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f7e913a9b5bb",
+      "source": "tokyo_art_beat",
+      "title": "ティミー・イン 「『ひとり―街角の鏡像』 ZINE刊行記念写真展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/84b1df92/web_promotion-01%20-%20Timmy.jpg",
+      "description": "『ひとり―街角の鏡像』は、「見ること」と「投影」、そして自己への気づきをテーマとする写真展です。\n本展では、Timmy Ying（ティミー・イン）が長年にわたりさまざまな都市で撮影してきたストリート写真を展示します。駅で待つ人、ひとりで歩く人の姿、公共空間にふと留まる瞬間。これらの写真は、人物の物語を説明するためのものではなく、「見る」ことの入口となるものです。\n香港出身で現在札幌を拠点とする写真家 Timmy Ying は、30年にわたり商業写真に携わり、近年あらためて個人制作に取り組んでいます。かつて彼は、人を主題に街を撮ることを好み、そうした作品を通して、見知らぬ人の暮らしや物語をより理解できると考えていました。\nしかし、日本に移り住んでから過去の写真を繰り返し見返すなかで、彼は次第に気づきました。レンズを通して捉えた一人ひとりの「物語」は、写真家自身の経験、価値観、記憶、そしてその時々の感情によって形づくられた投影でもある、ということに。\n何度写真を見返しても、その見知らぬ人を本当に知ることはできません。一方で、自身の経験や感情が変われば、同じ写真から受け取るものも変わっていきます。だからこれらの作品は、他者の物語を記録したものというよりも、作者がその時々に抱いていた内面を映し出すものです。見る人もまた、写真を通して自分自身と対話することができます。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-16",
+      "end_date": "2026-11-01",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "682d65a7e00b",
+        "name": "Victoria 1842",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Victoria 1842"
+          },
+          "ja": {
+            "name": "Victoria 1842"
+          }
+        },
+        "region": "市ヶ谷、神楽坂",
+        "district": null,
+        "lat": 35.696806126370575,
+        "lng": 139.7347398978591
+      },
+      "artists": [
+        {
+          "id": "e674fcd7f655",
+          "name": "ティミー・イン",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Timmy-Ying-Solitude-Street-Corner-Reflections-Photography-Exhibition/victoria-1842/2026-10-16",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "abea37b65ae3",
+      "source": "tokyo_art_beat",
+      "title": "「soft room」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/6cb41925/1_yokota_cam.jpg",
+      "description": "展覧会「soft room」は、オーセンティックな「カメラ紹介」と「作例紹介」を通じて、作品や展覧会という形式からこぼれ落ちてしまうプロセス、モノなどにフォーカスを当て、記述されない文化、存在、現象などのもつれ合いの場=部屋について考察します。展覧会には、6名の写真家、横田大輔、濵本奏、宇田川直寛、古田直人、草野庸子、渡邊聖子が参加。Sprout Curationにて開催された「幽霊の道具」展(2023年)より、3年ぶりの展覧会開催となります。\n展覧会では展示作品と連動した、各作家の「部屋」を構成するカメラ、機材、撮影プロセスの詳細を収録したアンソロジー冊子を刊行・販売します。また、会期中は、新作を含む参加作家の刊行物(写真集、Zine)の出品・販売や、まだ形になっていない作品について対話を行うポートフォリオレビューを実施します。\n\n[関連イベント]\nポートフォリオレビュー\n日時: 9月19日・26日 各日とも14:00～16:00、16:00～18:00、18:00～20:00\n料金: 2000円（冊子）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-17",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "33e2eeae1f83",
+        "name": "flotsam books（フロットサムブックス）",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "flotsam books"
+          },
+          "en": {
+            "name": "flotsam books"
+          }
+        },
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.67348481381681,
+        "lng": 139.6582759046647
+      },
+      "artists": [
+        {
+          "id": "c86ece66bfa5",
+          "name": "横田大輔",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e707cafe6b4f",
+          "name": "濵本奏",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "14a3d82aa101",
+          "name": "宇田川直寛",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5c0320489d2b",
+          "name": "古田直人",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "eb32ac0bad5b",
+          "name": "草野庸子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e2beefb76a00",
+          "name": "渡邊聖子",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Soft-Room/02-AB431-E/2026-09-17",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "2e6b99f628ea",
+      "source": "tokyo_art_beat",
+      "title": "小橋川共男 展",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/39a06a89/a3(RGB)%20-%20212%20Hitomi.jpg",
+      "description": "青き海に息づく生命的躍動、白保サンゴの透き通る群青、そして人と風上が奏でる静かな記憶。半世紀にわたり沖縄の真実の姿をファインダーに収め続けた写真家・小橋川共男が贈る魂の記録。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-12",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "e7ea0eaeeee8",
+        "name": "GALLERY PREMIER（ギャラリープルミエ）",
+        "lang": null,
+        "tr": {},
+        "region": "沖縄県",
+        "district": null,
+        "lat": 26.32776,
+        "lng": 127.7694
+      },
+      "artists": [
+        {
+          "id": "8f798972bdd4",
+          "name": "小橋川共男",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Tomoo-Kobashigawa-Exhibition/gallery-premier/2026-10-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "db97784b6dd8",
+      "source": "tokyo_art_beat",
+      "title": "オカダキサラ 「1/250」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/07d78245/okadakisara%20main%20visual%20for%20press%20-%20%E6%A1%91%E5%8E%9F%E6%B8%85%E5%B9%B8.jpg",
+      "description": "東京・馬喰町のアートギャラリーKKAG（Kiyoyuki Kuwabara Accounting Gallery）では、2026年10月7日（水）から10月24日（土）まで、オカダキサラ写真展「1/250」を開催します。\nKKAGでは6年ぶりの展示となるオカダキサラ。彼女は「街が見逃した奇跡の現場」をテーマに写真作品の制作を続けています。本年刊行した写真集『1/250』は、18年間撮り続けた約150万枚の写真の中から、シャッタースピード1/250秒で撮影した250枚を選び、「1秒」を一冊の作品としました。本展では、本に収められた1秒分の世界を、プリントと映像を交えながら空間に再現します。\n\n[関連イベント]\nトークイベント\n日時: 10月10日 14:00～15:00\n登壇者: オカダキサラ × グラフィックデザイナー 橋詰ひとみ氏\n料金: 無料（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-24",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "93d9c4db79f3",
+        "name": "Kiyoyuki Kuwabara Accounting Gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "키요유키 쿠와바라 어카운팅 갤러리"
+          },
+          "ja": {
+            "name": "Kiyoyuki Kuwabara アカウンティング ギャラリー"
+          }
+        },
+        "region": "浅草橋、馬喰町",
+        "district": null,
+        "lat": 35.69331183384672,
+        "lng": 139.78083281345482
+      },
+      "artists": [
+        {
+          "id": "211cc3440798",
+          "name": "オカダキサラ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kisara-Okada-1250/A924659-D/2026-10-07",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "ed00698b92d9",
+      "source": "tokyo_art_beat",
+      "title": "中村絵美 「北の極点」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/459b9f29/%E5%8C%97%E3%81%AE%E6%A5%B5%E7%82%B9%E3%83%95%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC_%E5%B1%95%E7%A4%BA%E9%9D%A2%20-%20%E5%A0%80%E6%B1%9F%E7%90%86%E4%BA%BA.jpg",
+      "description": "2026年10月4日（日）より、中村絵美個展「北の極点」を開催いたします。\n中村絵美は、ネイチャーガイドの視点と地域史の理解に基づいて、道内各地を訪ね、独自のフィールドワークを続けてきました。近年は、青森の自然や歴史にも関心を広げ、秋田に拠点を持ち、両地域で得た観察や体験をもとに作品のイメージを深めています。\n本展では、中村がネイチャーガイドを学ぶため道東に在住していた時期に出会った「北の極点」という言葉をもとに、青森に生育する北方植物をモチーフにした新作が発表されます。あわせて、関連作としてVOCA展2024出品作も展示いたします。\n\n[関連イベント]\n1. オープニングトーク\n登壇者: 中村絵美×堀江理人（本展主催者兼企画者）\n日時: 10月4日 17:00〜\n2. アーティストトーク\n登壇者: 中村絵美×高橋しげみ（青森県立美術館 総括学芸主幹）\n日時: 11月15日 18:30〜\n3. Reframe —北海道から写真を考えるための連続講座\n「第1回 北海道における写真技術のひろがり 幕末・明治・大正」\n日時: 9月7日 18:00〜19:15\n講師: 大下智一氏（北海道立近代美術館 学芸部⻑）\n「第2回 『アイヌ風俗写真』から歴史をたどる」\n日時: 10月2日 18:00〜19:15\n講師: 大坂拓氏（北海道博物館アイヌ民族文化研究センター 学芸主査）\n「第3回 青森開拓写真？ 」\n日時: 11月15日 13:00〜14:15\n講師: 高橋しげみ氏（青森県立美術館 総括学芸主幹）\n料金: 各1000円（学生は無料）\n場所: 札幌文化芸術交流センター SCARTS 4F 控室401\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-04",
+      "end_date": "2026-11-16",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "0dc69467f1c2",
+        "name": "0地点",
+        "lang": null,
+        "tr": {},
+        "region": "北海道",
+        "district": null,
+        "lat": 43.06542,
+        "lng": 141.3735
+      },
+      "artists": [
+        {
+          "id": "f82573a40c76",
+          "name": "中村絵美",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Emi-Nakamura-Further-North/zero-chiten/2026-10-04",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "16eb5487b800",
+      "source": "tokyo_art_beat",
+      "title": "「Featured Projects 2026」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/4aed22c5/sub13%20-%20Ayumi%20Goto.jpg",
+      "description": "デザインシーンを牽引する、作り手たちのデザインの祭典。2026年9月25日（金）〜9月27日（日）の3日間、コクヨ株式会社東京品川オフィス「THE CAMPUS（ザ・キャンパス）」で、デザインフェスティバル『Featured Projects 2026（フィーチャード・プロジェクツ 2026）』を開催。会場となるTHE CAMPUSを複合的に用いて、2026年の開催テーマである『ものがうまれる、その「間」』を軸に、デザイン時流を組み込んだトークセッション、ワークショップ、ミートアップ、テーブルトーク、ライブパフォーマンスといった多種多様なプログラムが行われます。\n\n2026年開催テーマ：ものがうまれる、その「間」\n日々進化を続ける技術によって、私たちはかつてないほど簡単にアウトプットに触れられるようになりました。入力すれば出力される。選べば届く。完成したものは、ますます滑らかに私たちのもとへやってきます。けれど、そこに至るまでの「間」に何があるのかを、私たちはどれだけ知っているでしょうか。「誰もがクリエイターになれる」と言われる時代が広がる一方で、その途中にある過程や試行錯誤に触れる機会は、少なくなっているのかもしれません。2026年、Featured Projectsは『ものがうまれる、その「間」』に焦点を当てます。最終的なかたちが届くまでの「間」には、人や技術、そして重ねられた時間があります。それらにあらためて目を向け、触れる機会を取りもどし、ひらいていく。その先に、ものと技術、そして人とのあいだに新しい関係が立ち上がると考えています。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-25",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "054215623e7c",
+        "name": "THE CAMPUS",
+        "lang": null,
+        "tr": {},
+        "region": "天王洲、品川",
+        "district": null,
+        "lat": 35.63004,
+        "lng": 139.7432
+      },
+      "artists": [
+        {
+          "id": "f3ede3d3fd17",
+          "name": "Nuevo.Tokyo™",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "955fc8a57836",
+          "name": "DAIKI TADO",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b961d2363d2b",
+          "name": "Takram",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "051bee6d7f81",
+          "name": "藤田裕美",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5af298c90e51",
+          "name": "Manon Cezaro",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "db8134d9f3f3",
+          "name": "Alexis Jamet",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4a8665b35644",
+          "name": "石岡紅緒",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b5d78225f26f",
+          "name": "Riomar McCartney",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "6033641530cb",
+          "name": "岡本太玖斗",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Featured-Projects-2026/the-campus/2026-09-25",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "dac26ef5919e",
+      "source": "tokyo_art_beat",
+      "title": "薈田純一 「Gardens of Seeing and Becoming — Three Works」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/48772a54/308_dm%E5%91%8A%E7%9F%A5%E7%94%A8.jpg",
+      "description": "今回の展示は、薈田純一さんの世界にご案内します。吉峯家雪舟庭園、浄智寺、普賢寺をモチーフに、複数の撮影像を重ね、折り合わせる等の物理的な操作を施した写真作品を展示します。単なる記録にとどまらない、見る人と像との間に生まれる距離や奥行き、未知なる空間の深み、変化する視点。ぜひご体験いただきたいと思います。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-15",
+      "end_date": "2026-09-20",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "aaf20116001f",
+        "name": "ギャラリーカフェ 3",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 카페 3"
+          },
+          "en": {
+            "name": "Gallery Cafe 3"
+          }
+        },
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.70334443537449,
+        "lng": 139.64770540759642
+      },
+      "artists": [
+        {
+          "id": "3ae5520a9010",
+          "name": "薈田純一",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "아이타 준이치"
+            },
+            "en": {
+              "name": "Aida Jun'ichi"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Junichi-Wajda-Gardens-of-Seeing-and-Becoming-Three-Works/4-B654-F02/2026-09-15",
       "featured": false,
       "popularity_score": null
     }
@@ -91146,6 +91539,48 @@
       "country": "JP",
       "lat": 36.36785041851619,
       "lng": 140.4653012752533,
+      "website": null
+    },
+    {
+      "id": "e7ea0eaeeee8",
+      "name": "GALLERY PREMIER（ギャラリープルミエ）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "沖縄県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 26.32776,
+      "lng": 127.7694,
+      "website": null
+    },
+    {
+      "id": "0dc69467f1c2",
+      "name": "0地点",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "北海道",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 43.06542,
+      "lng": 141.3735,
+      "website": null
+    },
+    {
+      "id": "054215623e7c",
+      "name": "THE CAMPUS",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "天王洲、品川",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.63004,
+      "lng": 139.7432,
       "website": null
     }
   ],
@@ -111543,6 +111978,120 @@
     {
       "id": "4c96aa8d8126",
       "name": "中西夏之",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e674fcd7f655",
+      "name": "ティミー・イン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c86ece66bfa5",
+      "name": "横田大輔",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e707cafe6b4f",
+      "name": "濵本奏",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "14a3d82aa101",
+      "name": "宇田川直寛",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5c0320489d2b",
+      "name": "古田直人",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "eb32ac0bad5b",
+      "name": "草野庸子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e2beefb76a00",
+      "name": "渡邊聖子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8f798972bdd4",
+      "name": "小橋川共男",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "211cc3440798",
+      "name": "オカダキサラ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f82573a40c76",
+      "name": "中村絵美",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f3ede3d3fd17",
+      "name": "Nuevo.Tokyo™",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "955fc8a57836",
+      "name": "DAIKI TADO",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b961d2363d2b",
+      "name": "Takram",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "051bee6d7f81",
+      "name": "藤田裕美",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5af298c90e51",
+      "name": "Manon Cezaro",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "db8134d9f3f3",
+      "name": "Alexis Jamet",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4a8665b35644",
+      "name": "石岡紅緒",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b5d78225f26f",
+      "name": "Riomar McCartney",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6033641530cb",
+      "name": "岡本太玖斗",
       "lang": null,
       "tr": {}
     }
