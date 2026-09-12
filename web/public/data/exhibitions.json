@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T16:11:27.239535+00:00",
+  "generated_at": "2026-09-12T20:34:27.612890+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -37890,7 +37890,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2027-01-11",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "b24184e44192",
@@ -55406,7 +55406,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-11-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "279e5ddfb86f",
@@ -55791,7 +55791,7 @@
       "price_max": null,
       "start_date": "2026-07-31",
       "end_date": "2026-09-11",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "4c4af3f1655d",
@@ -63163,7 +63163,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-11-15",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "f0f15a81c2c4",
@@ -66438,7 +66438,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-11-29",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "a7d4279bd740",
@@ -70962,7 +70962,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2027-01-31",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "65250f8dee23",
@@ -71201,7 +71201,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-11-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "3f56d605c4ad",
@@ -75854,7 +75854,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-09-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "81f43c8f3b9f",
@@ -76068,7 +76068,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-09-23",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "1f5735c11fa2",
@@ -76592,7 +76592,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-10-11",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "70243f555187",
@@ -76648,7 +76648,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-09-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "35a30c3615d4",
@@ -76887,7 +76887,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-10-11",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "3354ecfb1ff2",
@@ -76941,7 +76941,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-09-28",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "af71a4816793",
@@ -77048,7 +77048,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-09-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "068cf3ee365b",
@@ -77175,7 +77175,7 @@
       "price_max": null,
       "start_date": "2026-08-29",
       "end_date": "2026-09-11",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "f0214edf38e3",
@@ -77510,7 +77510,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "0009d9a4dd1d",
@@ -77597,7 +77597,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-10-17",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "02db9d878919",
@@ -77872,7 +77872,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-10-11",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "3c17e9285a62",
@@ -77919,7 +77919,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-10-22",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "85496eab3ef7",
@@ -78422,7 +78422,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-12-10",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "1c0b5a533c99",
@@ -78904,7 +78904,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "6a78dddfa275",
@@ -78981,7 +78981,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-10-09",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "be10beff4319",
@@ -80698,7 +80698,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-09-23",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "40b2a5b7ab82",
@@ -80951,7 +80951,7 @@
       "lang": null,
       "tr": {},
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/e551ee0b/04_kensakukakimoto_Hikari_2026.jpg",
-      "description": "東京代官山のgallery ON THE HILLは、2026年9月23日（水・祝）から10月4日（日）まで、代官山ヒルサイドテラス・ヒルサイドフォーラムにて『いつでもいま – ガラスに映す光』柿本ケンサク写真展を開催いたします。映画、ドラマ、広告映像を手がける一方、国内外で写真・現代美術作品を発表している柿本ケンサクは2016年、代官山ヒルサイドテラスにおける展示『TRANSLATOR』にて写真家として出発。2021年には『TRANSFORMATION』にて時間と記憶をめぐる実験へと進みました。そして2026年9月、三たび同じ場所に戻り、三嶋りつ惠の透明なガラスを通して写真を「光の記憶」として更新します。\n\n本展では、写真とガラスという二つの異なるメディアを通して、「固定」と「流動」、「定着」と「融解」、「点」と「線」の緊張関係を扱います。点として定着した光が線として時間へとほどけ、融解した記憶が見る者の中で再び像を結ぶ。この瞬間にしか生まれない対話の場となります。柿本ケンサクは、三嶋りつ恵の10点のガラスを光を描くためのレンズとして用いました。ガラスの位置を数ミリ動かし、角度を変えながら、通過する光を捉えました。目の前の風景をそのまま写し取るのではなく、光や偶然と対話しながらシャッターを押すことで、時間の流れや季節の空気、身体の揺れ、ガラスの個体差が、記憶の痕跡として写真の中に残されています。写真とガラスという異なるメディアが交わることで生まれた光をぜひご覧ください。\n\n[関連イベント]\nアーティストトーク\n日時: 2026年10月3日16:00〜17:30\n登壇者: 柿本ケンサク（写真家・映像作家）、三嶋りつ惠（アーティスト）、朝倉美佳（gallery ON THE HILL）\n会場: 代官山ヒルサイドテラス・ヒルサイドフォーラム 東京都渋谷区猿楽町18-8 ヒルサイドテラスF棟 1F\n料金: 1000円（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "description": "東京代官山のgallery ON THE HILLは、2026年9月23日（水・祝）から10月4日（日）まで、代官山ヒルサイドテラス・ヒルサイドフォーラムにて『いつでもいま – ガラスに映す光』柿本ケンサク写真展を開催いたします。映画、ドラマ、広告映像を手がける一方、国内外で写真・現代美術作品を発表している柿本ケンサクは2016年、代官山ヒルサイドテラスにおける展示『TRANSLATOR』にて写真家として出発。2021年には『TRANSFORMATION』にて時間と記憶をめぐる実験へと進みました。そして2026年9月、三たび同じ場所に戻り、三嶋りつ恵の透明なガラスを通して写真を「光の記憶」として更新します。\n\n本展では、写真とガラスという二つの異なるメディアを通して、「固定」と「流動」、「定着」と「融解」、「点」と「線」の緊張関係を扱います。点として定着した光が線として時間へとほどけ、融解した記憶が見る者の中で再び像を結ぶ。この瞬間にしか生まれない対話の場となります。柿本ケンサクは、三嶋りつ恵の10点のガラスを光を描くためのレンズとして用いました。ガラスの位置を数ミリ動かし、角度を変えながら、通過する光を捉えました。目の前の風景をそのまま写し取るのではなく、光や偶然と対話しながらシャッターを押すことで、時間の流れや季節の空気、身体の揺れ、ガラスの個体差が、記憶の痕跡として写真の中に残されています。写真とガラスという異なるメディアが交わることで生まれた光をぜひご覧ください。\n\n[関連イベント]\nアーティストトーク\n日時: 2026年10月3日16:00〜17:30\n登壇者: 柿本ケンサク（写真家・映像作家）、三嶋りつ恵（アーティスト）、朝倉美佳（gallery ON THE HILL）\n会場: 代官山ヒルサイドテラス・ヒルサイドフォーラム 東京都渋谷区猿楽町18-8 ヒルサイドテラスF棟 1F\n料金: 1000円（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
       "exhibition_type": "solo",
       "genre_tags": [],
@@ -81695,7 +81695,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-11-03",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "d249ab91c915",
@@ -82142,6 +82142,227 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Junichi-Wajda-Gardens-of-Seeing-and-Becoming-Three-Works/4-B654-F02/2026-09-15",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "328e78a8f8f1",
+      "source": "place_m",
+      "title": "Traveling／旅しないカメラ",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://www.placem.com/schedule/2026/main/20261005/Traveling23.jpg",
+      "description": "2026.10.05 - 2026.10.11 第23回 Traveling／旅しないカメラ",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-05",
+      "end_date": "2026-10-11",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "2da18874aafa",
+        "name": "Place M",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Place M"
+          },
+          "ja": {
+            "name": "Place M"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.6877688,
+        "lng": 139.7125787
+      },
+      "artists": [
+        {
+          "id": "3e503ce01d2a",
+          "name": "第23回",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.placem.com/schedule/2026/main/20261005/exhibition.php",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "55d0d607dcfb",
+      "source": "place_m",
+      "title": "渡部さとるワークショップ2026“Alter/After”",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://www.placem.com/schedule/2026/main/20261013/2026aa.jpg",
+      "description": "2026.10.13 - 2026.10.18 渡部さとるワークショップ2026“Alter/After” 渡部さとる主催の写真ワークショップでは、1年を通して「変化する」ことを目的としています。 タイトルの「Alter」には「変化する」、「After」には「その後」という意味を込めました。 ワークショップを通して変化した「現在」を、それぞれが写真によって表現しています。 林洋文 林哲生 HIROE 小林謙太 阪本繁一 van DYKE T. ONISHI 村上裕宣 balshark 樫岡とし子 KAORI SAITO Hiroyuki Miyahira 西村博行 駒井研太 Hiroshi Araki 樋渡太郎",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-13",
+      "end_date": "2026-10-18",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "2da18874aafa",
+        "name": "Place M",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Place M"
+          },
+          "ja": {
+            "name": "Place M"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.6877688,
+        "lng": 139.7125787
+      },
+      "artists": [],
+      "source_url": "https://www.placem.com/schedule/2026/main/20261013/exhibition.php",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "ca866c93b5ec",
+      "source": "place_m",
+      "title": "TWELVE VIEWS WITH FOVEON PLUS 1",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://www.placem.com/schedule/2026/main/20261019/01.jpg",
+      "description": "2026.10.19 - 2026.10.25 TWELVE VIEWS WITH FOVEON PLUS 1 Guest: 渡部さとる 宝田 裕 ヤマナカオサム 早川みゆ紀 飯田夏生実 Akira Sato 大橋厚一 Shinho Fukuyo 深澤祐二 ツカダヨシユキ 伊藤裕司 小林マコト 中山義幸 写真は、何を撮るかだけでなく、何で撮るかによっても表情を変える。 本展は、Foveonセンサー搭載カメラだけで撮影された作品によるグループ写真展である。 「なぜFoveonで撮るのか？」 その答えはスペック表にはない。解像感、豊かな中間色、シズル感、リアリティ、そして「空気が写る」と感じる独特の描写。 決して万能ではなく、手間もかかる。それでも、その 個性に惹かれ、「Foveonでなければ撮れなかった」と思える一枚を求めて撮り続ける。 それぞれの写真家の眼差しから生まれた、Foveonの 世界を感じてください。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-19",
+      "end_date": "2026-10-25",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "2da18874aafa",
+        "name": "Place M",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Place M"
+          },
+          "ja": {
+            "name": "Place M"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.6877688,
+        "lng": 139.7125787
+      },
+      "artists": [],
+      "source_url": "https://www.placem.com/schedule/2026/main/20261019/exhibition.php",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "427113a59ce9",
+      "source": "place_m",
+      "title": "人のいない風景",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://www.placem.com/schedule/2026/main/20261026/kushi_01.jpg",
+      "description": "2026.10.26 - 2026.11.01 櫛野浩良 人のいない風景 人の営みによって形づくられたものが、人の姿を伴わずに風景の中に存在する状態を撮影した写真展",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-26",
+      "end_date": "2026-11-01",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "2da18874aafa",
+        "name": "Place M",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Place M"
+          },
+          "ja": {
+            "name": "Place M"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.6877688,
+        "lng": 139.7125787
+      },
+      "artists": [
+        {
+          "id": "1f42b707177b",
+          "name": "櫛野浩良",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.placem.com/schedule/2026/main/20261026/exhibition.php",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "dd8196856452",
+      "source": "place_m",
+      "title": "フリーズシブヤ 2009 - 2014 “FREEZE SHIBUYA 2009 - 2014”",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://www.placem.com/schedule/2026/main/20261102/sato-01.jpg",
+      "description": "2026.11.02 - 2026.11.08 サトウタケヒト フリーズシブヤ 2009 - 2014 “FREEZE SHIBUYA 2009 - 2014” 写真をはじめたのは遅かった。 学業不振で9年掛かって大学を卒業、消去法で入れる会社に勤めた。自堕落な生活を続けて、人並みの人生を送ることを諦めた40代中盤、グラビアと花鳥風月以外の写真界隈を知った。 ファインダーを通して夜のシブヤを覗き、シャッターを切りはじめた。 「今日の花を摘め」",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-02",
+      "end_date": "2026-11-08",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "2da18874aafa",
+        "name": "Place M",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Place M"
+          },
+          "ja": {
+            "name": "Place M"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.6877688,
+        "lng": 139.7125787
+      },
+      "artists": [
+        {
+          "id": "5cd2d05bb3a7",
+          "name": "サトウタケヒト",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.placem.com/schedule/2026/main/20261102/exhibition.php",
       "featured": false,
       "popularity_score": null
     }
@@ -112092,6 +112313,24 @@
     {
       "id": "6033641530cb",
       "name": "岡本太玖斗",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3e503ce01d2a",
+      "name": "第23回",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1f42b707177b",
+      "name": "櫛野浩良",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5cd2d05bb3a7",
+      "name": "サトウタケヒト",
       "lang": null,
       "tr": {}
     }
