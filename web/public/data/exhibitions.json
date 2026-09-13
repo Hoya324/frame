@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T20:44:27.599381+00:00",
+  "generated_at": "2026-09-13T21:30:14.724608+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -107,8 +107,19 @@
       "id": "fa70fb77a8a9",
       "source": "goeun",
       "title": "Seed Stories",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "시드 스토리즈"
+        },
+        "ja": {
+          "title": "シード・ストーリーズ",
+          "description": "ゴウン写真美術館は、韓仏修交140周年を記念し、フランスの写真家ティエリー・アルドゥアン（Thierry Ardouin）による《Seed Stories》を展示します。本展は、顕微鏡写真（microphotography）の技法を用いて、世界各地の種子を一つの「肖像」として提示する87点の作品で構成されています。ここには、キムチの主材料である白菜、釜山を連想させるトマト（大渚）、長ネギ（機張）の種子を撮影した3点も含まれています。\n\nティエリー・アルドゥアンは1991年、ドキュメンタリーと芸術写真を横断し、実験的な作品を追求する写真家集団「タンダンス・フルー（Tendance Floue）」を共同設立しました。人間と環境の関係を主要なテーマとして探求してきた彼は、本展で「種子」という小さな存在に注目します。実体顕微鏡（Olympus SZX10）で拡大し、それを捉えて新しい顔として提示します。\n\n〈Seed Stories〉は、ティエリー・アルドゥアンが2009年、フランス農業を調査中に一つの矛盾を発見したことから始まりました。フランス政府が公式に管理、指定する「フランス植物種および品種公式リスト（Catalogue officiel des espèces et variétés végétales）」に登録された種子のみが合法的に流通、栽培、販売でき、リストに含まれない種子は非公式な経路を通じて交換されるというものです。\n\n制度によって種子が「合法」と「違法」に分けられる地点で、彼は「もし法が種子を区別するなら、自然もそう区別するのか」という疑問を抱きます。その後、農家、園芸家、科学者との協業とパリ国立自然史博物館（MNHN）のアーカイブ研究に基づき、種子を収集し記録しました。さらに、それを取り巻く政治的文脈を超え、それ自体の形と存在に集中する作品へと拡張させました。\n\n写真家の細心な選択と照明、構図設定によって立体的に捉えられた種子は、四つのセクションで紹介されます。\n\n最初のセクションは「種子の旅」です。新しい環境に広がり、生存するために形成された種子の独特な外皮と色、質感、構造を鮮やかに見ることができます。\n\n二番目のセクションは「人新世の始まり」です。人新世（Anthropocene）は、地球が人間の影響で大きく変化し始めた時点を意味します。稲、豆、セリなどの作物の種子を通じて、狩猟・採集から農耕への転換の中で、種子が自然の産物を超えて生活の基盤として定着していった流れを示します。\n\n三番目のセクションは「多様性の混合、一つの場」です。15世紀末の新しい海上貿易路の開拓は、世界的な植物交流を促進し、特に食用植物の移動が顕著でした。アメリカからヨーロッパへ、アジアからアフリカへ、あるいはその逆へと移動し、食文化に革新をもたらした唐辛子、人参、トウモロコシなどの種子に光を当てます。異なる環境から来たこれらは、人間の欲望と必要に応じて選択され、改良、栽培され、新しい場を形成しました。\n\n最後のセクションは「人文主義的生態のための政策」です。人間中心的な観点から種子を捉え、これを社会、文化、政治との相互作用と関連付けて扱います。毎年新たに購入しなければならない交雑種、害虫防止のために化学物質で処理されたりコーティングされた種子、識別のため鮮やかな色で着色された種子を媒介に、制度と技術の中で管理される今日の種子を見ることができます。\n\n展示会場には、種子の実物を設置した特別な空間が設けられました。暗い空間の中で光によって現れる微細な存在は、周囲の拡大されたイメージと対比され、独特な感覚をもたらすでしょう。\n\n「種子を見つめることは、生命体の物語を広げてみることであると同時に、私たちの生活の中で植物界が持つ意味を再考し、人類の出現以前から存在してきた自然と再び繋がる経験である。」\n\n本展は、種子を微視的な存在から宇宙的な意味を持つ個体として新たに提示します。見慣れない顔で私たちの前に置かれたそれらを通して、世界を見るもう一つの視点に触れてほしいと願っています。"
+        },
+        "en": {
+          "description": "The Goeun Museum of Photography presents \"Seed Stories\" by French photographer Thierry Ardouin, marking the 140th anniversary of diplomatic relations between Korea and France. This exhibition consists of 87 works that present seeds from around the world as 'portraits' using microphotography techniques. This includes three works featuring seeds of napa cabbage, a main ingredient of kimchi, tomatoes (Daejeo) reminiscent of Busan, and green onions (Gijang).\n\nThierry Ardouin co-founded 'Tendance Floue' in 1991, a collective of photographers pursuing experimental work encompassing documentary and art photography. Having explored the relationship between humans and the environment as a major theme, he focuses on the small existence of 'seeds' in this exhibition. He magnifies them with a stereomicroscope (Olympus SZX10) and captures them to present them as new faces.\n\n\"Seed Stories\" began in 2009 when Thierry Ardouin discovered a contradiction while researching French agriculture. Only seeds listed in the 'Catalogue officiel des espèces et variétés végétales,' officially managed and designated by the French government, can be legally distributed, cultivated, and sold, while seeds not included in the list are exchanged through unofficial channels.\n\nAt the point where seeds are divided into 'legal' and 'illegal' by the system, he questioned, \"If the law distinguishes seeds, does nature do so as well?\" Subsequently, based on collaborations with farmers, horticulturists, and scientists, and research into the archives of the Muséum national d'Histoire naturelle (MNHN) in Paris, he collected and documented seeds. Furthermore, he expanded his work to focus on their form and existence beyond the political context surrounding them.\n\nThe seeds, captured three-dimensionally through the photographer's meticulous selection, lighting, and composition, are introduced in four sections.\n\nThe first section is 'The Journey of Seeds.' Here, one can vividly encounter the unique outer layers, colors, textures, and structures of seeds formed to spread into new environments and survive.\n\nThe second section is 'The Dawn of the Anthropocene.' The Anthropocene refers to the period when Earth began to change significantly due to human influence. Through the seeds of crops such as rice, beans, and water celery, it shows how seeds transitioned from being natural products to becoming the foundation of life during the shift from hunting and gathering to agriculture.\n\nThe third section is 'A Blend of Diversity, A Single Field.' The opening of new maritime trade routes in the late 15th century triggered a global exchange of plants, with the movement of edible plants being particularly prominent. It highlights the seeds of chili peppers, carrots, corn, and other plants that traveled from the Americas to Europe, Asia to Africa, or vice versa, bringing innovation to food culture. These plants, originating from different environments, were selected, improved, and cultivated according to human desires and needs, forming new fields.\n\nThe final section is 'Policies for a Humanistic Ecology.' It examines seeds from a human-centered perspective, linking them to interactions with society, culture, and politics. Through hybrid seeds that must be purchased anew each year, seeds treated or coated with chemicals to prevent pests, and seeds dyed in vivid colors for identification, one can explore today's seeds managed within systems and technology.\n\nA special space has been prepared in the exhibition hall with actual seeds installed. In the dark space, these tiny presences revealed by light will contrast with the surrounding magnified images, offering a unique sensory experience.\n\n\"To look at seeds is to unfold the story of living beings, to reconsider the meaning of the plant kingdom in our lives, and to reconnect with nature that has existed since before the advent of humanity.\"\n\nThis exhibition newly presents seeds as entities with cosmic significance, moving beyond their microscopic existence. We hope that through these unfamiliar faces placed before us, visitors will encounter another perspective on the world."
+        }
+      },
       "poster_image_url": "https://www.goeunmuseum.kr/data/file/exhibition/thumb-cef985959ba0b959dc6e297a8b14f0fe_gtCzEhyV_d8a1e240a04353cd6a05d46e8fd162dff28ae90f_600x400.jpg",
       "description": "고은사진미술관은 한불수교 140주년을 맞아 프랑스 사진가 띠에리 아르두엥(Thierry Ardouin) 《Seed Stories》를 선보인다. 이번 전시는 현미경 사진(microphotography) 기법을 통해 세계 각지의 씨앗을 하나의 ‘초상’으로 제시하는 87점의 작품으로 구성된다. 여기에는 김치의 주재료인 배추, 부산을 떠올리게 하는 토마토(대저), 대파(기장)의 씨앗을 촬영한 3점도 포함되어 있다.\n\n띠에리 아르두엥은 1991년, 다큐멘터리와 예술 사진을 아우르며 실험적 작업을 추구하는 사진가 집단, '탕당스 플루(Tendance Floue)'를 공동 설립했다. 인간과 환경의 관계를 주요한 주제로 탐구해온 그는, 이번 전시에서 ‘씨앗’이라는 작은 존재에 주목한다. 실체현미경(Olympus SZX10)으로 확대하고, 그것을 포착하여 새로운 얼굴로 제시한다.\n\n〈Seed Stories〉는 띠에리 아르두엥이 2009년, 프랑스 농업을 조사하던 중 한 가지 모순을 발견하면서 시작됐다. 프랑스 정부가 공식적으로 관리, 지정하는 ‘프랑스 식물 종 및 품종 공식 목록(Catalogue officiel des espèces et variétés végétales)’에 등재된 종자만이 합법적으로 유통, 재배, 판매 될 수 있으며, 목록에 포함되지 않은 종자는 비공식적인 경로를 통해 교환된다는 것이다.\n\n제도에 의해 씨앗이 ‘합법’과 ‘불법’으로 나뉘는 지점에서, 그는 “법이 씨앗을 구분한다면, 자연 역시 그렇게 구분하는가”라는 의문을 갖게 된다. 이후 농부, 원예가, 과학자와의 협업과 파리 국립자연사박물관(MNHN) 아카이브 연구를 기반으로, 씨앗을 수집하고 기록했다. 나아가 그것을 둘러싼 정치적 맥락을 넘어, 그 자체의 형태와 존재에 집중하는 작업으로 확장시켰다.\n\n사진가의 세심한 선택과 조명, 구도 설정에 의해 입체적으로 포착된 씨앗은 네 개의 섹션으로소개된다.\n\n첫번째 섹션은 ‘씨앗의 여정’이다. 새로운 환경으로 퍼져 나가고 생존하기 위해 형성된 씨앗의 독특한 외피와 색, 질감, 구조를 생생하게 마주할 수 있다.\n\n두 번째 섹션은 ‘인류세의 시작’이다. 인류세(Anthropocene)는 지구가 인간의 영향으로 크게 변화하기 시작한 시점을 의미한다. 벼, 콩, 미나리 등 작물의 씨앗을 통해 수렵, 채집에서 농경으로 전환 속에서 씨앗이 자연의 산물을 넘어 삶의 기반으로 자리 잡게 된 흐름을 보여준다.\n\n세 번째 섹션은 ‘다양성의 혼합, 하나의 장’이다. 15세기 말 새로운 해상 무역로의 개척은 전세계적인 식물 교류를 촉발했으며, 특히 식용 식물의 이동이 두드러졌다. 아메리카에서 유럽으로, 아시아에서 아프리카로, 혹은 그 반대로 이동하며 식문화에 혁신을 가져온 고추, 당근, 옥수수 등의 씨앗을 조명한다. 서로 다른 환경에서 온 이들은 인간의 욕망과 필요에 따라 선택되고 개량, 재배되며 새로운 장을 형성했다.\n\n마지막 섹션은 ‘인문주의적 생태를 위한 정책’이다. 인간 중심적 관점에서 씨앗을 바라보고, 이를 사회, 문화, 정치와의 상호작용과 연관하여 다룬다. 매년 새로 구매해야하는 교잡종, 해충 방지를 위해 화학 물질로 처리되거나 코팅된 씨앗, 식별을 위해 선명한 색으로 입혀진 씨앗을 매개로, 제도와 기술 속에서 관리되는 오늘날의 씨앗을 살펴볼 수 있다.\n\n전시장에는 씨앗 실물을 설치한 특별한 공간이 마련되었다. 어두운 공간 속에서 빛에 의해 드러나는 미세한 존재는, 주변의 확대된 이미지와 대비되며 색다른 감각을 선사할 것이다.\n\n“씨앗을 바라본다는 것은 생명체의 이야기를 펼쳐보는 일이자, 우리 삶 속에서 식물계가 지니는 의미를 재고하고, 인류의 출현 이전부터 존재해 온 자연과 다시 연결되는 경험이다.”\n\n이번 전시는 씨앗을 미시적 존재에서 우주적 의미를 지닌 개체로 새롭게 제시한다. 낯선 얼굴로 우리 앞에 놓인 그것으로 하여금 세계를 바라보는 또 하나의 시각을 마주해 보기를 바란다.",
       "medium": "photo",
@@ -76253,8 +76264,17 @@
       "id": "bf942132b2d8",
       "source": "tokyo_art_beat",
       "title": "「渡部さとる 八戸ワークショップ グループ展「家」 ―22の家並― 【同時開催】 逸見 祥希『光さす杜の声を聴く』 本田 光『Ukima』」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「와타나베 사토루 하치노헤 워크숍 그룹전 「집」 ―22채의 집들― 【동시 개최】 헷미 요시키 『빛이 비추는 숲의 소리를 듣다』 혼다 히카루 『Ukima』」",
+          "description": "이번에 와타나베 사토루 하치노헤 워크숍은 2026년 9월 11일(금)부터 13일(일)까지 하치노헤 시립 미술관에서 22명으로 구성된 그룹 전시 「집」과 사진작가 헷미 요시키, 혼다 히카루의 초대 전시를 개최합니다. 본 워크숍은 '지역에 뿌리내린 본격적인 사진 학습의 장을 만들고 싶다'는 생각에서 시작되었으며, 사진작가 와타나베 사토루 씨를 강사로 초빙하여 2019년부터 아오모리현 하치노헤시에서 지속적으로 활동해 왔습니다. 이번 그룹 전시에서는 누구에게나 친숙하면서도 다양한 의미를 지닌 '집'이라는 단어를 공통 주제로, 참가자 전원이 미술관 공간을 활용하여 B0 사이즈의 대형 프린트와 200자 내외의 글로 표현한 작품을 제작했습니다. '집'이라는 하나의 단어에서 22명의 사진이 탄생했습니다. 동시 개최되는 초대 전시에서는 사진작가 헷미 요시키가 '땅'을, 혼다 히카루가 '삶'을 주제로 작품을 발표하며 '집'이라는 테마를 다각적으로 탐구합니다. 이 땅에서 살아가는 것, 부재와 추억, 형제, 부모님 돌봄, 시간, 가족의 장애, 이별, 육아, 안식과 속박. 삶에 대한 절실한 시선은 총 24편의 단편 소설집과 같았습니다. 이는 보는 사람 자신의 기억이나 경험과도 어딘가에서 교차할 수 있습니다. 각 작품은 서로 다른 풍경을 담아내며, 전시장에 하나의 풍경을 만들어냅니다. 전시 기간 중에는 토크 이벤트와 갤러리 투어도 개최될 예정입니다. 작품을 감상하는 것뿐만 아니라, 전시 공간을 둘러보며 사진에 대해 이야기하고 방문객들과 교류를 심화하는 장을 목표로 합니다.\n\n[관련 이벤트]\n1. 초대 작가 토크\n일시: 2026년 9월 12일 13:00~\n등단자: 헷미 요시키, 가와무라 신지 (하치노헤 고등전문학교 촉탁 교수)\n장소: 하치노헤 시립 미술관\n요금: 무료 (사전 신청 불필요)\n2. 초대 작가 토크\n일시: 2026년 9월 13일 13:30~\n등단자: 혼다 히카루, 와타나베 사토루\n장소: 하치노헤 시립 미술관\n요금: 무료 (사전 신청 불필요)\n3. 참가 작품 강평\n일시: 2026년 9월 13일 15:00~16:00\n장소: 하치노헤 시립 미술관\n요금: 무료\n※이벤트 상세 내용은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "\"Watanabe Satoru Hachinohe Workshop Group Exhibition 'Home' —22 Rows of Homes— [Also Featuring] Hemmi Yoshiki 'Listen to the Voices of the Forest Where Light Shines' Honda Hikaru 'Ukima'\"",
+          "description": "The Watanabe Satoru Hachinohe Workshop will hold a group exhibition \"Home\" by 22 participants and an invited exhibition by photographers Hemmi Yoshiki and Honda Hikaru at the Hachinohe City Museum of Art from September 11 (Friday) to 13 (Sunday), 2026. This workshop began with the desire to \"create a place for serious photography learning rooted in the community,\" and has continuously operated in Hachinohe City, Aomori Prefecture, since 2019, with photographer Watanabe Satoru as its instructor. For this group exhibition, with \"Home\" – a word familiar to everyone yet holding diverse meanings – as the common theme, all participants created works expressed through B0-sized large-format prints and 200-character texts, utilizing the museum's space. From the single word \"Home,\" 22 photographs were born. In the concurrently held invited exhibition, photographer Hemmi Yoshiki will present works focusing on \"Land,\" and Honda Hikaru on \"Life,\" delving into the theme of \"Home\" from multiple perspectives. Living in this land, absence and memories, siblings, parental care, time, family disabilities, farewells, child-rearing, peace, and bondage. The earnest gaze towards life became like a collection of two dozen short stories. These might intersect somewhere with the viewer's own memories and experiences. Each work captures a different scene, creating a single landscape within the venue. During the exhibition period, talk events and gallery tours are also planned. The aim is not only to appreciate the works but also to foster discussions about photography while touring the exhibition space and deepen interactions with visitors.\n\n[Related Events]\n1. Invited Artist Talk\nDate & Time: September 12, 2026, 13:00~\nSpeakers: Hemmi Yoshiki, Kawamura Shinji (Part-time Professor, Hachinohe Kosen)\nVenue: Hachinohe City Museum of Art\nAdmission: Free (No advance registration required)\n2. Invited Artist Talk\nDate & Time: September 13, 2026, 13:30~\nSpeakers: Honda Hikaru, Watanabe Satoru\nVenue: Hachinohe City Museum of Art\nAdmission: Free (No advance registration required)\n3. Participant Work Review\nDate & Time: September 13, 2026, 15:00~16:00\nVenue: Hachinohe City Museum of Art\nAdmission: Free\n*Please check the official website for event details."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/17aec3ab/%E5%85%AB%E6%88%B8WS_%E3%82%AD%E3%83%BC%E3%83%92%E3%82%99%E3%82%B7%E3%82%99%E3%83%A5%E3%82%A2%E3%83%AB%20-%20noriko%20_honda.jpg",
       "description": "この度、渡部さとる 八戸ワークショップは、2026年9月11日（金）から13日（日）まで、八戸市美術館にて、22名によるグループ展示「家」と、写真家 逸見祥希・本田光による招待展示を開催いたします。本ワークショップは、「地域に根ざした本格的な写真の学びの場をつくりたい」という思いから始まり、講師に写真家 渡部さとる氏を迎え、2019年より青森県八戸市で継続して活動してきました。今回のグループ展示では、「家」という誰にとっても身近でありながら、多様な意味を持つ言葉を共通テーマに、参加者全員が美術館の空間を生かす、B0サイズの大判プリントと200文字の言葉で表現した作品を制作。「家」という一つの言葉から、22名の写真が生まれました。同時開催となる招待展示では、写真家 逸見祥希が「土地」、本田光が「暮らし」を切り口に作品を発表し、「家」というテーマを多角的に掘り下げます。この土地で暮らすということ、不在と思い出、兄弟、親の介護、時間、家族の障害、別れ、子育て、安息と束縛。生きることへの切実な眼差しは、総勢2ダース分の短編小説集のようになりました。それは、見る人自身の記憶や経験ともどこかで交わるかもしれません。それぞれの作品が異なる光景を写し出し、会場にひとつの景色をつくりあげます。会期中は、トークイベントとギャラリーツアーも開催予定です。作品を鑑賞するだけでなく、展示空間を巡りながら写真について語り合い、来場者と交流を深める場を目指しています。\n\n[関連イベント]\n1. 招待作家トーク\n日時: 2026年9月12日13:00〜\n登壇者: 逸見祥希、河村信治（八戸高専 嘱託教授）\n会場: 八戸市美術館\n料金: 無料（事前申込み不要）\n2. 招待作家トーク\n日時: 2026年9月13日13:30〜\n登壇者: 本田光、渡辺さとる\n会場: 八戸市美術館\n料金: 無料（事前申込み不要）\n3. 参加作品講評\n日時: 2026年9月13日15:00〜16:00\n会場: 八戸市美術館\n料金: 無料\n※イベント詳細は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -76312,8 +76332,17 @@
       "id": "3852376e7585",
       "source": "tokyo_art_beat",
       "title": "「第一回 前橋国際芸術祭 2026 連携企画『スモール・アーキテクチャーズ: 光、空隙、都市』」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "제1회 마에바시 국제 예술제 2026 연계 기획 《스몰 아키텍처스: 빛, 공극, 도시》",
+          "description": "제1회 마에바시 국제 예술제 2026의 첫 개최를 맞아, 타카 이시이 갤러리 마에바시에서는 그룹전 《스몰 아키텍처스: 빛, 공극, 도시》를 개최합니다. 본 전시에서는 사진 작품, 건축 드로잉, 모형, 그리고 모더니즘을 대표하는 다양한 의자들을 한자리에 전시합니다. 마에바시 갈레리아(히라타 아키히사 건축 설계 사무소 설계)가 본 전시의 장소가 된 것도 마에바시에서 진행되는 창조적인 도시 조성과 호응하는 것입니다. 갤러리 내에서는 각 작품이 히라타 아키히사에 의한 구조적인 캐노피나 그것을 둘러싼 도시와 대화하면서, 독자적인 '작은 건축'을 형성하는 것을 통해, 건축이 물리적인 구조일 뿐만 아니라 빛, 공간, 사람의 존재에 의해서도 형성될 수 있는 방식을 탐구합니다.\n\n본 전시에서는 광학 현상, 구조의 부재, 현대 도시의 심리적 그리드를 통해 건축 공간을 새롭게 재해석하는 3명의 아티스트 작품을 소개합니다. 미야모토 류지의 《핀홀 나오시마》는 카메라 옵스큐라를 사용하여 빛에 의해 주변 풍경을 반전시켜 실내 벽면에 투영함으로써, 건축 그 자체를 광학 장치로 변화시키고 공간의 변용을 실물 크기로 만들어냅니다. 하타케야마 나오야의 《언더그라운드 / 리버》 시리즈가 도쿄의 하수도나 암거화된 시부야 강과 같은 지하에 숨겨진 공간을 탐색하는 한편, 같은 하타케야마의 《무제 / 오사카》는 용도가 전환된 오사카 구장을 높은 곳에서 포착합니다. 두 작품은 도시 경관 속에서 간과되어 온 간극과 도시가 신진대사를 계속하는 동적인 과정을 부각시킵니다. 댄 그래함은 대표작인 사진 에세이 《Homes for America》와 파빌리온 프로토타입 《Model C》를 연결함으로써, 건축에 의한 통제를 둘러싼 자신의 50년 이상에 걸친 인류학적 노력을 드러냅니다. 교외 주택의 픽처 윈도우에서 곡선형 하프 미러 유리로 전개함으로써, 그래함은 수동적인 보는 행위를 관람자가 보는 동시에 보는 모습을 보여지는 상호작용의 순환으로 변화시켰습니다. 이는 2022년 사망하기 전, 그가 먼저 종이에 기록했던 구상을 신체적인 경험으로 실현한 것이었습니다.\n\n이 대화에 구조적인 조감도를 제공하는 히라타 아키히사의 《Tree-ness House》 드로잉은 견고한 콘크리트 상자가 여러 층으로 겹쳐진 테라스, 공극, 유기적인 개구부로 해체되어 가는 개념적인 지도로 기능하며, 마에바시 갈레리아 자체로 이어지는 설계 사상의 계보를 밝힙니다.\n\n전시장 각지에 배치된 모더니즘 의자들은 가구를 건물과 인간의 신체가 만나는 건축에서의 최소이자 가장 친밀한 단위로 파악합니다. 장 프루베의 《데몽타블》과 《스탠다드》는 중공 강판으로 경량성과 효율성을 실현했으며, 피에르 잔느레의 《라이브러리 체어》와 《이지 체어》는 르 코르뷔지에의 찬디가르 미학을 반영하고 있습니다. 또한, 샤를로트 페리앙의 나무를 깎아 만든 《타블레 스툴》, 리나 보 바르디의 유기적인 《데크 체어》, 마르셀 브로이어의 스틸과 라탄을 조합한 투과성 있는 바우하우스 가구, 그리고 루이스 바라간과 클라라 포르셋의 주거 공간을 위한 디자인으로 확장됩니다. 이 작품들은 공간 디자인이 어떻게 인간의 경험을 끊임없이 형성하고, 수용하며, 매개하는지를 이야기하고 있습니다。\n\n본 전시는 《제1회 마에바시 국제 예술제 2026》과의 연계 기획으로 개최됩니다. 입장 시에는 해당 예술제의 패스포트 제시가 필요합니다."
+        },
+        "en": {
+          "title": "The 1st Maebashi International Art Festival 2026 Collaborative Project 'Small Architectures: Light, Void, City'",
+          "description": "To mark the inaugural \"The 1st Maebashi International Art Festival 2026,\" Taka Ishii Gallery Maebashi will host the group exhibition \"Small Architectures: Light, Void, City.\" This exhibition brings together photographic works, architectural drawings, maquettes, and a selection of iconic modernist chairs. The choice of Maebashi Galleria (designed by Akihisa Hirata Architecture Office) as the venue resonates with the creative urban development underway in Maebashi. Within the gallery, each work interacts with Akihisa Hirata's structural canopies and the surrounding city, forming its own \"small architecture,\" thereby exploring how architecture can be shaped not only by physical structures but also by light, space, and human presence.\n\nThis exhibition introduces works by three artists who re-examine architectural space through optical phenomena, the absence of structure, and the psychological grids of the contemporary city. Ryuji Miyamoto's \"Pinhole Naoshima\" transforms architecture itself into an optical device by using a camera obscura to invert and project the surrounding landscape onto interior walls, creating a life-sized spatial transformation. Naoya Hatakeyama's \"Underground / River\" series explores subterranean spaces such as Tokyo's sewers and the culverted Shibuya River, while his \"Untitled / Osaka\" captures the repurposed Osaka Stadium from an elevated perspective. Both works highlight overlooked gaps within the urban landscape and the dynamic process of urban metabolism. Dan Graham reveals his anthropological engagement with architectural control spanning over 50 years by connecting his seminal photo essay \"Homes for America\" with the pavilion prototype \"Model C.\" By evolving from the picture windows of suburban homes to curved one-way mirror glass, Graham transformed the passive act of viewing into a reciprocal cycle where viewers see and are seen simultaneously. This realized, as a physical experience, the concepts he first recorded on paper before his passing in 2022.\n\nAkihisa Hirata's drawings for \"Tree-ness House,\" which provide a structural blueprint for this dialogue, function as conceptual maps illustrating the deconstruction of solid concrete boxes into multi-layered terraces, voids, and organic openings, thereby revealing the lineage of design philosophy that connects to Maebashi Galleria itself.\n\nModernist chairs placed throughout the venue conceive furniture as the smallest and most intimate unit in architecture, where buildings and human bodies meet. Jean Prouvé's \"Démontable\" and \"Standard\" achieve lightness and efficiency through hollow steel plates, while Pierre Jeanneret's \"Library Chair\" and \"Easy Chair\" reflect Le Corbusier's aesthetic for Chandigarh. The exhibition further extends to Charlotte Perriand's carved wooden \"Tabouret Stool,\" Lina Bo Bardi's organic \"Deck Chair,\" Marcel Breuer's transparent Bauhaus furniture combining steel and rattan, and designs for living spaces by Luis Barragán and Clara Porset. These works narrate how spatial design continuously shapes, accommodates, and mediates human experience.\n\nThis exhibition is held as a collaborative project with \"The 1st Maebashi International Art Festival 2026.\" A passport for the festival is required for admission."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/cce5dab6/DG-MQT_07_c_72dpi_1200px.jpg",
       "description": "第一回 前橋国際芸術祭 2026の初開催に際し、タカ・イシイギャラリー 前橋では、グループ展「スモール・アーキテクチャーズ: 光、空隙、都市」を開催いたします。本展では、写真作品、建築ドローイング、マケット、そしてモダニズムを代表する椅子の数々を一堂に展示いたします。まえばしガレリア（平田晃久建築設計事務所設計）が本展の会場となったのも、前橋で進みゆく創造的なまちづくりと呼応するものです。ギャラリー内では、それぞれの作品が平田晃久による構造的なキャノピーや、それを取り囲む都市と対話しながら、独自の「小さな建築」を形作ることを通して、建築が物理的な構造であるだけでなく、光、空間、人の存在によっても形成され得る在り方を探ります。\n\n本展では、光学現象、構造の不在、現代都市の心理的なグリッドを通して、建築空間を新たに捉え直す3名のアーティストの作品を紹介します。宮本隆司の「ピンホール直島」は、カメラ・オブスクラを用い、光によって周囲の風景を反転させて室内の壁面に投影することで、建築そのものを光学装置へと変え、空間の変容を実物大で生み出します。畠山直哉の「アンダーグラウンド / リバー」シリーズが東京の下水道や暗渠化された渋谷川といった地下に潜む空間を探る一方、同じく畠山の「無題 / 大阪」は、用途を転換された大阪球場を高所から捉えています。両作品は、都市景観の中で見過ごされてきた間隙と、都市が新陳代謝を続ける動的な過程を浮かび上がらせます。ダン・グラハムは、代表作である写真エッセイ「Homes for America」とパビリオンのプロトタイプ「Model C」を結びつけることで、建築による統制をめぐる自身の50年以上にわたる人類学的な取り組みを明らかにします。郊外住宅のピクチャーウィンドウから湾曲したハーフミラーガラスへと展開することで、グラハムは受動的な見る行為を、鑑賞者が見ると同時に、見る姿を見られる相互作用の循環へと変えました。それは、2022年に亡くなる以前、彼がまず紙上に記録した構想を、身体的な経験として実現するものでした。\n\nこの対話に構造的な見取り図を与える平田晃久の「Tree-ness House」のドローイングは、堅固なコンクリートの箱が幾層にも重なるテラス、空隙、有機的な開口部へと解体されていく概念的な地図として機能し、まえばしガレリアそのものへと連なる設計思想の系譜を解き明かします。\n\n会場各所に配されたモダニズムの椅子は、家具を、建物と人間の身体が出会う、建築における最小かつ最も親密な単位として捉えます。ジャン・プルーヴェの「デモンターブル」と「スタンダード」は、中空の鋼板によって軽量性と効率性を実現し、ピエール・ジャンヌレの「ライブラリーチェア」と「イージーチェア」は、ル・コルビュジエによるチャンディーガルの美学を反映しています。さらに、シャルロット・ペリアンの木を削り出した「タブレ スツール」、リナ・ボ・バルディの有機的な「デッキチェア」、マルセル・ブロイヤーによるスチールとラタンを組み合わせた透過性のあるバウハウスの家具、そしてルイス・バラガンとクララ・ポーセットによる住空間のためのデザインへと広がります。これらの作品は、空間のデザインがいかに人間の経験を絶えず形づくり、受け止め、媒介しているかを物語っています。\n\n本展は「第一回 前橋国際芸術祭 2026」との連携企画として開催されます。ご入場には、同芸術祭のパスポートのご提示が必要です。",
       "medium": "photo",
@@ -76777,8 +76806,17 @@
       "id": "723a215d7f5d",
       "source": "museum_hanmi",
       "title": "《보그 인투 아트》",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "《Vogue Into Art》",
+          "description": "Museum Hanmi, in collaboration with Vogue Korea, will host the 30th-anniversary exhibition \"Vogue Into Art\" from September 1 to 30, 2026, at its Samcheong Main Building.\n\nThis exhibition features 33 domestic and international artists, including Jin Teok, Koo Bohnchang, Kim Christine Sun, Shara Hughes, Mara Madelene Pieler, and Jean Jullien. The participating artists reinterpreted the covers of Vogue published over the past 30 years as their canvas, using their unique perspectives and artistic languages. They present 33 works that express their impressions of Vogue in various ways, such as completing a single image by overlapping over 100 covers, or stacking cut-out magazines layer by layer to create new forms of art.\n\n\"Vogue Into Art\" is organized to commemorate Vogue Korea's 30th anniversary, while also looking back at the past and contemplating the meaning of the time to come.\n\nVenue\n\nMuseum Hanmi Samcheong\n\nAdmission Fee\n\nFree\n\nParticipating Artists\n\nJin Teok, Koo Bohnchang, Kim Christine Sun, and 30 others"
+        },
+        "ja": {
+          "title": "《ヴォーグ・イントゥ・アート》",
+          "description": "ミュージアム韓美は、ヴォーグ・コリアと共に創刊30周年記念展《ヴォーグ・イントゥ・アート》を2026年9月1日から30日まで三清本館で開催します。\n\n本展には、チン・テオク、ク・ボンチャン、キム・クリスティン・ソン、シャラ・ヒューズ、マラ・マドレーヌ・ピーラー、ジャン・ジュリアンなど国内外のアーティスト33人が参加します。参加作家たちは、過去30年間に発行された『ヴォーグ』のカバーをキャンバスとして、それぞれの視点と造形言語で再解釈しました。100枚以上のカバーを重ねて一つのイメージを完成させたり、切り抜いた雑誌を何層にも積み重ねて新しい形の作品にしたりするなど、『ヴォーグ』から受けたインスピレーションをそれぞれの方法で表現した作品33点を展示します。\n\n《ヴォーグ・イントゥ・アート》は、ヴォーグ・コリアの創刊30周年を記念すると同時に、これまでの時間を振り返り、これから訪れる時間の意味を考える場として設けられます。\n\n場所\n\nミュージアム韓美 三清\n\n観覧料\n\n無料\n\n参加作家\n\nチン・テオク、ク・ボンチャン、キム・クリスティン・ソン 他30名"
+        }
+      },
       "poster_image_url": "https://museumhanmi.or.kr/wp-content/uploads/2026/08/vogue-%ED%8F%AC%EC%8A%A4%ED%84%B0_%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80.png",
       "description": "뮤지엄한미는 보그 코리아와 함께 창간 30주년 기념 전시 《보그 인투 아트》를 2026년 9월 1일부터 30일까지 삼청본관에서 개최한다.\n\n이번 전시에는 진태옥, 구본창, 김 크리스틴 선, 샤라 휴즈, 마라 마들렌 피엘러, 장 줄리앙 등 국내외 아티스트 33인이 참여한다. 참여 작가들은 지난 30년간 발행된 『보그』의 커버를 캔버스 삼아 각자의 시선과 조형 언어로 재해석했다. 100여 개의 커버를 중첩해 하나의 이미지로 완성하거나, 오려낸 잡지를 켜켜이 쌓아 새로운 형태의 작품으로 빚어내는 등 『보그』에서 받은 인상을 저마다의 방식으로 풀어낸 작품 33점을 선보인다.\n\n《보그 인투 아트》는 보그 코리아의 창간 30주년을 기념하는 동시에 지난 시간을 돌아보고, 앞으로 다가올 시간의 의미를 생각해보는 자리로 마련된다.\n\n장소\n\n뮤지엄한미 삼청\n\n관람료\n\n무료\n\n참여작가\n\n진태옥, 구본창, 김 크리스틴 선 외 30명",
       "medium": "mixed",
@@ -76817,8 +76855,17 @@
       "id": "dca5c242b210",
       "source": "tokyo_art_beat",
       "title": "宇壽山貴久子 「New Calendar, Invisible Moments」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "우주야마 키쿠코 「New Calendar, Invisible Moments」",
+          "description": "9월 16일부터 30일까지 교토 세이코샤에서 우주야마 키쿠코 사진전 『New Calendar, Invisible Moments』를 개최합니다. 이번 전시는 우주야마가 2018년에 요요기 공원의 까마귀를 촬영한 『ka ra su』와 2025년에 겨울 철새를 모티프로 제작한 『ONE HUNDRED EIGHT FLOWS OF TIME』이라는 두 작품에서 발췌하여 공개됩니다. 다수임에도 불구하고 보이지 않는 존재로 취급되는 도시의 까마귀를 신선한 놀라움으로 바라본 전자와, 철새를 계기로 시간의 다면성과 노스탤지어에 대해 사색한 후자는 서로 다른 기법과 콘셉트임에도 불구하고 모두 새를 통해 보이는 것을 생각하는 작품입니다. 프린트, 아크릴, 영상 등으로 새로운 시점을 모색하는 전시 공간이 될 것입니다.\n전시물 외에 사진집 『ka ra su／ONE HUNDRED EIGHT FLOWS OF TIME』(A4 컬러 30페이지)를 판매합니다."
+        },
+        "en": {
+          "title": "Kikuko Ujuyama 「New Calendar, Invisible Moments」",
+          "description": "Kikuko Ujuyama's photo exhibition 'New Calendar, Invisible Moments' will be held at Seikosha, Kyoto, from September 16th to 30th. This exhibition will feature excerpts from two of Ujuyama's works: 'ka ra su,' which captured crows in Yoyogi Park in 2018, and 'ONE HUNDRED EIGHT FLOWS OF TIME,' created in 2025 with winter migratory birds as its motif. The former, which observed urban crows—a majority yet often treated as invisible—with fresh wonder, and the latter, which contemplated the multifaceted nature of time and nostalgia through migratory birds, are works that, despite their different methods and concepts, both explore what becomes visible through birds. The exhibition space will likely explore new perspectives through prints, acrylics, and video.\nIn addition to the exhibits, a photo book 'ka ra su / ONE HUNDRED EIGHT FLOWS OF TIME' (A4 size, 30 color pages) will be available for purchase."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/13f0da88/usuyama_seikosha_01%20-%20Kikuko%20Usuyama.jpg",
       "description": "9月16日から30日まで京都・誠光社にて宇壽山貴久子 写真展『New Calendar, Invisible Moments』を開催します。この展示は、宇壽山が2018年に代々木公園のカラスを撮影した『ka ra su』と、2025年に冬の渡り鳥をモチーフとして制作した『ONE HUNDRED EIGHT FLOWS OF TIME』というふたつの作品から抜粋して公開されます。マジョリティーであるにもかかわらず不可視の存在としても扱われる都市のカラスを新鮮な驚きで見つめた前者と、渡り鳥をきっかけに時間の多面性やノスタルジアについて思索した後者は、異なる手法・コンセプトでありながら共に鳥を通して見えてくることを考える作品です。プリント・アクリル・映像などで新たな視点を模索する展示空間となるでしょう。\n展示物のほか、写真集『ka ra su／ONE HUNDRED EIGHT FLOWS OF TIME』（A4版カラー30ページ）を販売します。",
       "medium": "mixed",
@@ -76864,8 +76911,17 @@
       "id": "2a168686ae35",
       "source": "tokyo_art_beat",
       "title": "中井菜央 「海の緒」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "나카이 나오 「우미노 오」",
+          "description": "POETIC SCAPE에서는 2026년 9월 12일(토)부터 10월 11일(일)까지 나카이 나오 개인전 '우미노 오'를 개최합니다.\n폭설 지역 니가타에서의 6년간의 촬영이 끝날 무렵, 나카이 나오는 다음은 물, 혹은 바다라고 느끼게 되었습니다. 나카이는 니가타에 눈을 가져다주는 쓰시마 해류가 도달하는 곳을 찾아 북상하여, 일본해와 오호츠크해가 만나는 홋카이도의 끝, 소야 곶에 섰습니다.\n거친 바다 풍경을 바라보는 동안, 나카이는 자신이 태어나고 자란 시가의 비와호를 떠올렸습니다. 어린 시절 그녀에게 비와호는 가까이 있으면서도 “아무것도 주지 않는 것, 왕래를 전혀 허락하지 않는 것, 일절 말하지 않는 것”으로, “검은 구멍”과 같았다고 합니다. 그리고 눈앞의 바다와 기억 속 비와호가 의외로 공명한 신비로움에 나카이는 “이 바다에서 찍자”고 결심했습니다. 혹한 속에서 강풍으로 거칠어지는 바다를 매일 목격하며 나카이는 놀랐습니다. 그러나 그것은 이미 존재하는 「바다」라는 관념의 연장선상에서 이해될 수 있는 것이었고, 한동안은 「바다」를 재확인하는 듯한 시간이 흘러갔습니다.\n촬영을 시작하고 약 반년 후, 나카이는 「토로나기」라고 불리는, 수면이 고요해져 한 장의 천과 같은 바다를 보게 됩니다. 눈앞의 바다의 모습에, 지식으로 알고 있던 것과 바다와 함께 시간을 보내며 몸으로 깨달은 것이 너무나도 동떨어져 있다는 것을 깨달은 순간이었습니다. 그때부터 나카이는 눈앞의 세계로 들어가듯이 셔터를 계속 눌렀습니다.\n“과학을 통해서만 알려지는 섭리가 있다면, 경험이라는 것을 통해서만 알려지는 섭리가 있어도 이상할 것이 없다고 저는 생각하게 되었습니다.” (나카이 나오)\n나카이의 제작 자세는 테마를 설정하지 않고, 먼저 현지에 발을 디디고 카메라를 통해 바깥세상을 들여다보며, 촬영을 거듭하면서 위화감과 「이것이다」라는 감각에 의지하여 갈고닦는 것입니다. 그 끝에 세계 그 자체, 그리고 자기 자신을 엿보려 합니다. 그것은 이미 지식으로 알고 있는 모티프를 기호나 언어로부터 해체하고, 더욱 깊이 잠수하여 몸으로 “깨닫고”, 다시 엮어 나가거나, 혹은 자신이 피사체와 경계 없이 녹아들어 「세계」와 「나」의 본질에 다가가려는 작업이라고 할 수 있지 않을까요?\n장기간에 걸친 “바다와의 나날”을 거쳐 촬영한 사진들은 『우미노 오』로 결실을 맺었습니다. 본 전시에서는 사진 한 장 한 장을 물리적인 경계나 형태조차 없는, 세계 그 자체로 이어지는 “끈”의 한 부분, 그 실마리로 제시합니다. 바다를 응시하고 함께 시간을 보내며 몸을 통해 세계를 “깨닫는” 과정에서 작가가 도달한 풍경. 그곳에 비춰지는 것은 우리가 이미 알고 있다고 생각했던 세계의, 더욱 깊숙이 세계 그 자체에 가까워지며 펼쳐지는 광경입니다. 기존의 틀이 풀리고 새롭게 열리는 세계를 감상하시기 바랍니다.\n\n[관련 이벤트]\n갤러리 토크\n일시: 9월 26일 18:00~19:30\n등단자: 나카이 나오 × 아마노 타로 (도쿄 오페라 시티 아트 갤러리 수석 큐레이터)\n요금: 1500엔 (사전 신청 필수)\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Nao Nakai 「Umi no O」",
+          "description": "POETIC SCAPE will host Nao Nakai's solo exhibition 'Umi no O' from Saturday, September 12th to Sunday, October 11th, 2026.\nAs six years of photography in Niigata, a heavy snowfall region, drew to a close, Nao Nakai began to feel drawn to water, or rather, the sea. Nakai headed north, aiming for the destination of the Tsushima Current, which brings snow to Niigata, and stood at Cape Soya, at the northern tip of Hokkaido, where the Sea of Japan and the Sea of Okhotsk meet.\nWhile gazing at the rough seascape, Nakai recalled Lake Biwa in Shiga, where she was born and raised. For her as a child, Lake Biwa, though close by, was “something that gave nothing, allowed no passage, and spoke nothing,” like a “black hole,” she says. And in the wonder of how the sea before her and Lake Biwa from the depths of her memory unexpectedly resonated, Nakai resolved, “I will photograph this sea.” Amidst the severe cold, Nakai was astonished by the daily sight of the sea raging with strong winds. However, this could be understood as an extension of the existing concept of “sea,” and for a while, time passed as if “reconfirming” the sea.\nApproximately half a year after starting her photography, Nakai witnessed a “Toro-nagi,” a sea with a completely calm surface, like a single piece of cloth. It was at that moment she realized how vastly different what she knew intellectually was from what she had come to understand physically by spending time with the sea and experiencing its presence. From then on, Nakai continued to press the shutter as if entering the world before her.\n“If there are principles known only through science, then I began to think it wouldn't be strange if there were principles known only through experience.” (Nao Nakai)\nNakai's creative approach involves not setting a theme, but first visiting the location, observing the outside world through her camera, and refining her vision based on a sense of discomfort and the feeling of “this is it” as she continues to photograph. At the end of this process, she attempts to glimpse the world itself, and herself. It could be described as an endeavor to approach the essence of “the world” and “myself” by deconstructing motifs already known intellectually from symbols and words, diving deeper, “knowing” them through the body, and reweaving them, or by dissolving herself into the subject without boundaries.\nThe photographs taken through long “days with the sea” culminated in 'Umi no O'. In this exhibition, each photograph is presented as a part of the “cord” that connects to the world itself, without physical boundaries or forms, as a clue to it. The landscape the artist arrived at through gazing at the sea, spending time with it, and “knowing” the world through her body. What is depicted there is a scene that expands deeper into the world itself, beyond what we thought we already knew. Please come and see a world where the framework of the known unravels and new perspectives open up.\n\n[Related Event]\nGallery Talk\nDate: September 26th, 6:00 PM - 7:30 PM\nSpeakers: Nao Nakai × Taro Amano (Chief Curator, Tokyo Opera City Art Gallery)\nAdmission: 1,500 yen (advance reservation required)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/64dc45ed/%E3%80%8C%E6%B5%B7%E3%81%AE%E7%B7%92%E3%80%8D%E8%A1%A8%E7%B4%99%E5%86%99%E7%9C%9F.jpg",
       "description": "POETIC SCAPEでは2026年9月12日(土)から10月11日(日)まで、中井菜央の個展「海の緒」を開催します。\n豪雪地・新潟での6年に及ぶ撮影が終わる頃、中井菜央は、次は水、あるいは海と感じるようになっていきました。中井は、新潟に雪をもたらす対馬海流の辿り着く先を目指して北上し、日本海とオホーツク海が交わる北海道の果て、宗谷岬に立ちます。\n荒々しい海景を眺めるうちに、中井は生まれ育った滋賀にある琵琶湖を思い出しました。子どもの彼女にとって琵琶湖は、身近にありながら“何も与えないもの、行き来を全く許さないもの、いっさい語らないもの”で、“黒い穴”のようであったといいます。そして、目前の海と記憶の底の琵琶湖が意外にも共鳴したことの不思議さに、中井は「この海で撮ろう」と決意しました。厳寒のなか、強風で荒れる海を日々目の当たりにし、中井は驚かされました。しかし、それはすでにある「海」の観念の延長として捉えられるものであり、しばらくは「海」を再確認するような時間が過ぎていきました。\n撮影を始めてからおよそ半年後、中井は「トロ凪」と呼ばれる、水面が静まり返った、一枚の布のような海を目にします。目の前の海の有り様に、知識として知っていることと、海とともに時間を過ごし身体をもって識ったことは、あまりにかけ離れていると気づいた瞬間でした。そこから中井は、目の前の世界に入ってゆくようにシャッターを切り続けました。\n“科学を通してのみ知られる摂理があるならば、経験というものを介してのみ知られる摂理があっても不思議はないのではと私は思うようになっていきました”（中井菜央）\n中井の制作姿勢は、テーマを設定せずに、まず現地へ足を運び、カメラを通して外の世界を覗き、撮影を重ねながら、違和感と「これだ」の感覚を頼りに研ぎ澄ましてゆくというものです。その果てに世界そのもの、そして自分自身を垣間見ようとします。それは、すでに知識として知っているモチーフを、記号や言葉から解体し、さらに深くまで潜り、身体を使って”識り”、編み直してゆく、もしくは自らが被写体と境界なく融けてゆくことで、「世界」と「私」の本質に迫ろうとする作業といえるのではないでしょうか。\n長期にわたる”海との日々”を経て撮影した写真は、『海の緒』として結実しました。本展では写真一枚一枚を、物的な境や形さえない、世界そのものへとつながる“緒”の一端、その糸口として提示します。海を見つめ、ともに過ごし、身体を通して世界を“識る”なかで、作者がたどり着いた風景。そこに写し出されているのは、私たちがすでに知っていると思っていた世界の、さらに奥深く世界そのものに近づいて広がる光景です。既知という枠組みがほどけ、新たに開かれていく世界をご覧ください。\n\n[関連イベント]\nギャラリートーク\n日時: 9月26日 18:00～19:30\n登壇者: 中井菜央×天野太郎（東京オペラシティアートギャラリー チーフ・キュレーター）\n料金: 1500円（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -76918,8 +76974,17 @@
       "id": "ccca9e19dd7e",
       "source": "tokyo_art_beat",
       "title": "山根悠太郎 「44」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "야마네 유타로 「44」",
+          "description": "이번에 see you gallery에서는 야마네 유타로 개인전 '44'를 개최합니다.\n야마네 유타로의 사진은 결정적인 순간과는 거리가 멀고, 오히려 일상 속에서 거의 간과되기 쉬운 시간에 대해 지속적으로 의식을 기울임으로써 성립됩니다. 여행지에서 만난 풍경, 낯선 사람들, 그리고 가까운 생활을 함께하는 아내의 모습에 이르기까지, 그 대상은 다양합니다. 그는 그것들을 특정한 이야기로 회수하지 않고, 같은 지평에 놓습니다. 사진 속에서 그것들은 고유한 의미를 띠기 이전의, 어떤 시간의 한 단편으로 나타납니다. 그의 작품에 일관되게 흐르는 것은 그러한 지나가는 시간에 대한 겸손한 자각일지도 모릅니다.\n본 전시와 함께 동명 작품집 『44』도 간행합니다. 이 기회에 꼭 관람해 주십시오."
+        },
+        "en": {
+          "title": "Yutaro Yamane 「44」",
+          "description": "see you gallery is pleased to present '44,' a solo exhibition by Yutaro Yamane.\nYutaro Yamane's photographs are far from decisive moments; rather, they are created by continuously focusing on moments in daily life that would otherwise be largely overlooked. His subjects vary, from landscapes encountered during travels and unfamiliar people to the figure of his wife, with whom he shares his daily life. He places them on the same plane, without reducing them to a specific narrative. In his photographs, they appear as fragments of time, before they acquire specific meaning. Perhaps what underlies his work is a humble awareness of such fleeting time.\nIn conjunction with this exhibition, a photo book of the same title, '44,' will also be published. We invite you to visit and enjoy the exhibition."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/8530a9f3/L1001372_KVPC2low%20-%20Shin%20Nakagawa%20(1).jpg",
       "description": "このたび、see you galleryでは、山根悠太郎による個展「44」を開催いたします。\n山根悠太郎の写真は、決定的瞬間とは程遠い、むしろ日常のなかでほとんど見過ごされてしまうような時間に対して、継続的に意識を向けることによって成立しています。旅先で出会った風景、見知らぬ人々、そして身近な生活をともにする妻の姿に至るまで、その対象は様々です。彼はそれらを特定の物語へと回収することなく、同じ地平に置きます。写真のなかでそれらは、固有の意味を帯びる以前の、ある時間の一断片として現れています。同氏の作品に通底しているのは、そうした過ぎゆく時間に対する慎ましい自覚なのかもしれません。\n本展にあわせ、同名作品集『44』も刊行いたします。この機会にぜひご高覧ください。",
       "medium": "photo",
@@ -76965,8 +77030,17 @@
       "id": "98172a90754a",
       "source": "tokyo_art_beat",
       "title": "「大西暢夫と田島征三が自分でもビックリしている本の展覧会」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「오니시 노부오와 타지마 세이조가 스스로도 깜짝 놀란 책 전시회」",
+          "description": "올 가을, '타지마 세이조의 현재'를 소개하는 비주얼 북 『타지마 세이조의 「아」』(고세이 출판사)가 간행됩니다. 본 전시회에서는 붓을 쥐고 대작에 도전하는 모습부터 산책 풍경까지, 오니시 노부오(사진가, 영화감독)가 이 책을 위해 현재의 타지마를 포착한 사진과 함께 대형 회화 및 최근의 독특한 제목이 붙은 드로잉 작품을 전시합니다. 아울러 오니시 노부오가 도카마치시의 염색 공방을 취재한 사진 그림책 『실에 물드는 계절』(이와사키 서점)과 일본 양초 장인을 취재한 사진 그림책 『일본 양초는, 잇다』(앨리스관)의 사진도 공개합니다. 지금도 창작을 계속하는 타지마 세이조의 최신작과 사람들의 삶을 세심하게 담아낸 오니시 노부오의 사진을 부디 여유롭게 즐겨주세요."
+        },
+        "en": {
+          "title": "\"The Book Exhibition That Even Nobuo Onishi and Seizo Tajima Are Surprised By\"",
+          "description": "This autumn, a visual book introducing 'Seizo Tajima's Present,' titled 『Seizo Tajima's \"A\"』 (Kosei Publishing), will be released. This exhibition will feature large-scale paintings and recent drawing works with unique titles, alongside photographs taken by Nobuo Onishi (photographer, film director) for this book, capturing Tajima's current state, from him holding a paintbrush and tackling major works to scenes of him taking a walk. Additionally, photographs from Nobuo Onishi's photo picture books, 『The Season of Dyeing Threads』 (Iwasaki Shoten), which documented a dyeing workshop in Tokamachi City, and 『Japanese Candles Connect』 (Alice-kan), which covered artisans of Japanese traditional candles, will also be displayed. Please take your time to enjoy the latest works by Seizo Tajima, who continues to create, and the photographs by Nobuo Onishi, who meticulously observed people's lives."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/9f012b17/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-09-01%2014.31.35.png",
       "description": "この秋、\"田島征三の今\"を紹介するビジュアルブック『田島征三の「あ」』（佼成出版社）が刊行されます。本展覧会では、絵筆を握って大作に挑む姿から散歩風景まで、大西暢夫（写真家、映画監督）がこの本のために現在の田島をとらえた写真とともに、大型絵画や近年のユニークなタイトルのついたドローイング作品を展示。あわせて、大西暢夫が十日町市の染物工房を取材した写真絵本『糸に染まる季節』（岩崎書店）や、和ろうそくを巡る職人を取材した写真絵本『和ろうそくは、つなぐ』（アリス館）の写真も公開します。今なお創作を続ける田島征三の最新作と、人々の営みを丹念に見つめた大西暢夫の写真をどうぞごゆっくりお楽しみください。",
       "medium": "photo",
@@ -77025,8 +77099,17 @@
       "id": "f534519683ee",
       "source": "tokyo_art_beat",
       "title": "フェイイ・ウェン 「correcting the wind」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "페이이 웬 「correcting the wind」",
+          "description": "9월 12일(토)부터 9월 20일(일)까지, 중국 출신으로 런던을 기반으로 활동하는 비주얼 아티스트 페이이 웬(Feiyi Wen)의 개인전 『correcting the wind』를 개최합니다. 본 전시회 개최와 함께 torch press에서 신작 사진집 『butterflies are quicker than rock』이 간행됩니다.\n\na butterfly correcting the wind\n\n전시회 제목 『correcting the wind』는 웬(Wen) 본인의 이 짧은 시에서 유래합니다. 바람의 방향을 바꿀 수 없는 작은 나비가 그럼에도 바람을 '바로잡는다'. 나비는 바람을 맞으면서도 그저 흘러가지 않고 끊임없이 날갯짓하며 그 속을 움직여 나갑니다. 자신보다 훨씬 거대한 것에 영향을 주려는, 거의 무모하다고도 할 수 있는 그 시도는 우리의 힘으로는 제어할 수 없을 것 같은 것들과 어떻게 마주하고 그 속에서 살아갈 수 있을지에 대한 질문을 던집니다. 중국의 철학, 문학, 회화에서 나비는 예로부터 변용과 무상함과 결부되어 다른 상태 사이를 오가는 존재로 다루어져 왔습니다. 웬(Wen)의 작품에도 나비는 반복적으로 등장하며, 사진집 『butterflies are quicker than rock』과 전시회 『correcting the wind』를 연결합니다. 작고 덧없는 나비와 그것을 둘러싼 광대한 세계. 그 대비는 서로 다른 시간과 공간의 스케일을 동시에 인식하게 합니다.\n\n전통적인 암실 기법 외에도 대안 사진 기법이나 판화 기법 등 여러 기법을 겹쳐가며 웬(Wen)은 작품을 제작하고 있습니다. 중국의 산수화나 도교를 비롯한 동아시아의 자연관을 배경으로, 그의 사진에는 가시적인 것과 비가시적인 것, 외부 풍경과 내면의 감각이 겹쳐지며, 자아와 세계, 보는 것과 그곳에 관여하는 것, 그 경계는 과연 존재하는가 하는 사유로도 우리를 이끕니다. 웬(Wen) 사진의 큰 매력은 언뜻 보기에는 파악하기 어려운 희미한 이미지와 그럼에도 눈을 뗄 수 없는 신비한 인력에 있습니다. 끊임없이 이미지가 나타나고 순식간에 소비되는 현재에, 그 고요함은 하나의 사진을 보기 위해 시간을 사용하는 아주 단순한 행위를 다시금 의식하게 합니다. 한 장의 이미지 앞에 머물고, 그리고 또 다음 이미지로 옮겨간다. 시 속의 나비처럼 우리도 작품 사이를 오간다. 보고 있는 동안 풍경과의 거리는 점차 모호해지고, 밖에서 바라보고 있었을 우리도 그 시간과 변화 속에 있음을 깨닫게 됩니다.\n\n폴리 바턴(Polly Barton)은 사진집에 기고한 글 『당신은 폭포다』에서 이렇게 기록했습니다.\n「당신을 바라보면 필연적으로 관계를 맺게 된다는 것에. 당신은 필연적으로 2인칭이라는 것에. 당신은 이쪽과 저쪽 사이의 어딘가에 있다.」\n\n[관련 이벤트]\n아티스트 토크\n일시: 2026년 9월 12일 16:00~17:15\n등단자: Feiyi Wen, 가와치 타카\n요금: 500엔 (사전 신청 필수)\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주세요."
+        },
+        "en": {
+          "title": "Feiyi Wen 「correcting the wind」",
+          "description": "From Saturday, September 12th to Sunday, September 20th, we will hold a solo exhibition titled 『correcting the wind』 by Feiyi Wen, a visual artist from China based in London. Coinciding with this exhibition, a new photo book, 『butterflies are quicker than rock』, will be published by torch press.\n\na butterfly correcting the wind\n\nThe exhibition title 『correcting the wind』 is derived from this short poem by Wen herself. A small butterfly, unable to change the direction of the wind, nonetheless 'corrects' it. The butterfly, while receiving the wind, does not simply drift but constantly flaps its wings, moving within it. This almost reckless attempt to influence something far greater than itself poses the question of how we can confront things that seem beyond our control and live within them. In Chinese philosophy, literature, and painting, butterflies have long been associated with transformation and impermanence, treated as beings that transition between different states. Butterflies repeatedly appear in Wen's works, connecting the photo book 『butterflies are quicker than rock』 and the exhibition 『correcting the wind』. The small, ephemeral butterfly and the vast world surrounding it. This contrast simultaneously makes us aware of different scales of time and space.\n\nWen creates her works by layering multiple techniques, including traditional darkroom methods, as well as alternative photographic and printmaking techniques. Against the backdrop of East Asian views of nature, including Chinese landscape painting and Taoism, her photographs layer the visible and invisible, external landscapes and internal sensations, leading us to ponder the self and the world, seeing and engaging with it, and whether such boundaries truly exist. A major appeal of Wen's photographs lies in their elusive images, which cannot be fully grasped at first glance, yet possess a mysterious allure that makes it impossible to look away. In an era where images constantly appear and are instantly consumed, their stillness makes us re-aware of the simple act of taking time to look at a single photograph. We linger before one image, then move on to the next. Like the butterfly in the poem, we too move between the works. As we look, the distance to the landscape gradually blurs, and we realize that we, who thought we were observing from outside, are also within that time and change.\n\nPolly Barton writes in her contribution to the photo book, 『You Are a Waterfall』:\n\"That by looking at you, one inevitably becomes involved. That you are inevitably a second person. That you are somewhere between here and there.\"\n\n[Related Event]\nArtist Talk\nDate: September 12, 2026, 16:00-17:15\nSpeakers: Feiyi Wen, Taka Kawachi\nFee: 500 yen (Advance registration required)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/50d71099/20260912.jpeg",
       "description": "9月12日（土）より9月20日（日）まで、中国出身、ロンドンを拠点に活動するビジュアルアーティスト Feiyi Wen（フェイイ・ウェン）の個展『correcting the wind』を開催いたします。本展の開催とともに、torch pressより新作写真集『butterflies are quicker than rock』が刊行されます。\n\na butterfly correcting the wind\n\n展覧会タイトル『correcting the wind』は、Wen自身によるこの短い詩に由来します。風向きを変えることのできない小さな蝶が、それでも風を「正す」。蝶は風を受けながら、ただ流されるのではなく、絶えず羽ばたき、そのなかを動いていく。自分よりはるかに大きなものに働きかけようとする、そのほとんど無謀ともいえる試みは、私たちの力では制御できそうにないものと、どのように向き合い、そのなかで生きていくことができるのかという問いを投げかけます。中国の哲学や文学、絵画において、蝶は古くから変容や無常と結びつき、異なる状態のあいだを移ろう存在として扱われてきました。Wenの作品にも蝶は繰り返し現れ、写真集『butterflies are quicker than rock』と展覧会『correcting the wind』を結びます。小さく儚い蝶と、それを取り巻く広大な世界。その対照は、異なる時間や空間のスケールを同時に意識させます。\n\n伝統的な暗室技法に加え、オルタナティブな写真技法や版画技法など、複数の手法を重ねながら、Wenは作品を制作しています。中国の山水画や道教をはじめとする東アジアの自然観を背景に、その写真には可視と不可視、外界の風景と内なる感覚が重なり合い、自己と世界、見ることとそこに関わること、その境界は果たしてあるのかという思考へも私たちを導きます。Wenの写真の大きな魅力は、一見しただけでは捉えきれない朧げなイメージと、それでも目を離すことのできない不思議な引力にあります。絶え間なくイメージが現れ、瞬時に消費されていく現在にあって、その静けさは、ひとつの写真を見るために時間を使うという、ごく単純な行為をあらためて意識させます。一枚のイメージの前に留まり、そしてまた次のイメージへと移っていく。詩のなかの蝶のように、私たちもまた作品のあいだを行き来する。見ているうちに、風景との距離は次第に曖昧になり、外から眺めていたはずの私たちも、その時間や変化のなかにいることに気づかされるのです。\n\nPolly Bartonは、写真集への寄稿文『あなたは滝だ』のなかで、こう記しています。\n「あなたを眺めては必然的に関わりを持ってしまうことに。あなたは必然的に二人称であることに。あなたはこちらとあちらの間の、どこかである。」\n\n[関連イベント]\nアーティストトーク\n日時: 2026年9月12日16:00〜17:15\n登壇者: Feiyi Wen、河内タカ\n料金: 500円（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -77072,8 +77155,15 @@
       "id": "9ef175bf9bcd",
       "source": "tokyo_art_beat",
       "title": "「寿齢讃歌 ―人生のマエストロ―写真展21」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「수령 찬가 ―인생의 마에스트로―사진전 21」"
+        },
+        "en": {
+          "title": "「Hymn to Longevity ―Maestro of Life― Photo Exhibition 21」"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/bc1aed34/2026-jurei-pos-420-l.jpg",
       "description": null,
       "medium": "photo",
@@ -77112,8 +77202,17 @@
       "id": "fa4e880da776",
       "source": "tokyo_art_beat",
       "title": "「台湾人学生がみたモダン都市・東京 ―鄧南光と法政大学の1930年代―」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「대만인 학생이 본 모던 도시 도쿄 ―덩난광과 호세이 대학의 1930년대―」",
+          "description": "HOSEI 뮤지엄은 호세이 대학 법학부 후쿠다 마도카 연구실 및 호세이 대학 카메라부의 협력과 신주현 베이푸향 공소 덩난광 영상 기념관과의 공동 주최로 2026년도 특별 전시 「대만인 학생이 본 모던 도시 도쿄 ―덩난광과 호세이 대학의 1930년대―」를 호세이 대학 이치가야 캠퍼스에서 2026년 9월 1일부터 10월 11일까지 개최합니다.\n\n본 전시에서는 봄 학기 테마 전시에 이어, 호세이 대학 경제학부 졸업생인 사진가 덩난광(본명: 덩텅훼이)의 시선을 통해 1930년대의 「모던 도시 도쿄」와 호세이 대학에 대해 재고합니다. 긴자, 마루노우치, 아사쿠사, 여성, 시위, 극장…. 그곳에는 독일제 소형 카메라 「라이카」를 들고 있는 난광의 모습이 있었습니다. 대만인 학생의 눈에는 근대화로 나아가는 「도쿄」라는 도시 공간이 어떻게 비쳤을까요? 호세이대 카메라부 친구들과 함께 어떤 학생 문화를 키웠을까요? 다양성이 높아지는 현대에 본 전시를 통해 서로 다른 배경을 가진 사람들에 대한 이해와 상상력을 깊게 할 기회를 제공합니다. 또한, 본 전시는 2026년도 봄 학기 테마 전시를 확대하여 개최합니다.\n\n[관련 이벤트]\n기념 심포지엄 「사진가 덩난광의 시야」\n일시: 2026년 9월 19일 13:00~15:00\n등단자: 후쿠다 마도카 (호세이 대학 교수), 기타구치 유미 (HOSEI 뮤지엄 준교수), 나카무라 가요코 (작가·번역가), 스가와라 요시노 (간사이 대학 교수), 다카야나기 토시오 (호세이 대학 교수)\n장소: 호세이 대학 이치가야 캠퍼스 보아소나드 타워 26층 스카이홀\n요금: 무료 (사전 신청 불필요)\n※이벤트 상세 내용은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "\"Modern City Tokyo as Seen by a Taiwanese Student ―Deng Nanguang and Hosei University in the 1930s―\"",
+          "description": "HOSEI Museum, in cooperation with the Madoka Fukuda Laboratory of the Hosei University Faculty of Law and the Hosei University Photography Club, and co-hosted by the Hsinchu County Beipu Township Office Deng Nanguang Image Memorial Museum, will hold the 2026 Special Exhibition \"Modern City Tokyo as Seen by a Taiwanese Student ―Deng Nanguang and Hosei University in the 1930s―\" at Hosei University's Ichigaya Campus from September 1 to October 11, 2026.\n\nFollowing the Spring Semester Themed Exhibition, this exhibition reconsiders \"Modern City Tokyo\" and Hosei University in the 1930s through the eyes of photographer Deng Nanguang (real name: Deng Tenghui), a graduate of the Hosei University Faculty of Economics. Ginza, Marunouchi, Asakusa, women, demonstrations, theaters... There, Nanguang was seen holding a German-made compact camera, a \"Leica.\" How did the urban space of \"Tokyo,\" rapidly advancing towards modernization, appear to the eyes of a Taiwanese student? What kind of student culture did he foster with his friends from the Hosei University Photography Club? In an increasingly diverse modern era, this exhibition provides an opportunity to deepen understanding and imagination towards people with different backgrounds. This exhibition is an expanded version of the 2026 Spring Semester Themed Exhibition.\n\n[Related Events]\nCommemorative Symposium \"The Vision of Photographer Deng Nanguang\"\nDate: September 19, 2026, 13:00-15:00\nSpeakers: Madoka Fukuda (Professor, Hosei University), Yumi Kitaguchi (Associate Professor, HOSEI Museum), Kayoko Nakamura (Writer/Translator), Yoshino Sugawara (Professor, Kansai University), Toshio Takayanagi (Professor, Hosei University)\nVenue: Sky Hall, 26th Floor, Boissonade Tower, Hosei University Ichigaya Campus\nAdmission: Free (no advance registration required)\n*Please check the official website for event details."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/429a0c91/humu2026_flyer_design_x.jpg",
       "description": "HOSEIミュージアムは、法政大学法学部福田円研究室及び法政大学カメラ部の協力のもと、新竹県北埔郷公所 鄧南光影像紀念館と共催して2026年度特別展示「台湾人学生がみたモダン都市・東京―鄧南光と法政大学の1930年代―」を法政大学市ケ谷キャンパスにて、2026年9月1日～10月11日まで開催します。\n\n本展では春学期テーマ展示に続き、法政大学経済学部卒業生である写真家・鄧南光（本名：鄧騰煇）のまなざしを通して、1930年代の「モダン都市・東京」と法政大学について再考します。銀座・丸の内・浅草・女性・デモ・劇場…。そこには、ドイツ製小型カメラの「ライカ」を構える南光の姿がありました。台湾人学生の目には近代化に突き進む「東京」という都市空間がどのように映ったのでしょうか。法大カメラ部の仲間たちとともに、どのような学生文化を育んだのでしょうか。多様性が高まる現代において、本展を通じて、異なる背景を持つ人々への理解や想像力を深める機会を提供します。なお、本展示は、2026年度春学期テーマ展示を拡大して開催します。\n\n[関連イベント]\n記念シンポジウム「写真家・鄧南光の視界」\n日時: 2026年9月19日13:00〜15:00\n登壇者: 福田円（法政大学教授）、北口由望（HOSEIミュージアム准教授）、中村加代子（ライター・翻訳者）、 菅原慶乃（関西大学教授）、髙栁俊男（法政大学教授）\n会場: 法政大学市ケ谷キャンパス ボアソナード・タワー26階 スカイホール\n料金: 無料（事前申込み不要）\n※イベント詳細は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -77152,8 +77251,17 @@
       "id": "68fb87551d71",
       "source": "tokyo_art_beat",
       "title": "安永幸示 「『ニューオリンズ』－行ってみたい街、ニューオリンズ、 サイアノ・トーニングの世界－」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "야스나가 코지 「『뉴올리언스』－가보고 싶은 도시, 뉴올리언스, 사이아노 토닝의 세계－」",
+          "description": "주식회사 카메라노 키타무라가 운영하는 신주쿠 키타무라 사진기점에서는 2026년 8월 29일(토)부터 2026년 9월 11일(금)까지 사진전 「『뉴올리언스』－가보고 싶은 도시, 뉴올리언스, 사이아노 토닝의 세계－」를 개최합니다. 여러 번 방문했던 미국에서 뉴올리언스를 가장 매력적으로 느낀 야스나가 씨는 특별하게 느낀 풍경을 사이아노 시스템(청사진)과 사잔카(차매) 토닝의 흑백 사진으로 전시합니다. 일반적인 컬러 사진/흑백 사진과는 다른 표현 방식의 작품을 즐겨 주십시오.\n\n뉴올리언스는 재즈의 발상지로 유명하며, 도시 곳곳에서 음악을 즐길 수 있습니다. 야스나가 씨는 \"각박하지 않고, 도시의 나른하고 묵직한 느낌이 정말 좋았다\"고 말합니다. 그러한 도시가 특유의 표현 방식으로 새로운 인상을 줍니다. 뉴올리언스를 방문한 적이 있는 분들은 야스나가 씨가 느꼈던 조용한 도시의 매력을 느낄 수 있으며, 방문한 적이 없는 분들은 새롭게 뉴올리언스라는 도시를 즐길 수 있는 전시입니다.\n\n・사이아노 시스템(청사진): 19세기에 발명된 사진 기법 중 하나. 철염의 화학 반응과 태양광(자외선)을 이용하여 선명한 발색을 얻는 「청사진」의 원점이 된 표현 기법입니다. 물로 현상하는 간단한 공정과 수작업 특유의 아날로그적인 느낌이 특징입니다.\n\n・사잔카 토닝: 사이아노타입 특유의 푸른 사진을 사잔카(차매)에서 추출한 천연 탄닌 성분으로 조색하는 표현 기법. 식물 유래의 화학 변화에 의해 선명한 파란색에서 우아하고 시크한 청자색~흑갈색으로, 깊이 있는 뉘앙스 컬러로 변화시킵니다."
+        },
+        "en": {
+          "title": "\"Koji Yasunaga 「'New Orleans' ―A City I Want to Visit, New Orleans, The World of Cyano-Toning―」\"",
+          "description": "Shinjuku Kitamura Camera Shop, operated by Camera no Kitamura Co., Ltd., will hold the photo exhibition \"'New Orleans' ―A City I Want to Visit, New Orleans, The World of Cyano-Toning―\" from Saturday, August 29, 2026, to Friday, September 11, 2026. Mr. Yasunaga, who found New Orleans to be the most captivating city during his many visits to America, will exhibit landscapes he felt were special, presented as monochrome photographs toned with the Cyano System (blueprint) and Sasanqua (Camellia sasanqua). Please enjoy works presented with a different expressive method than conventional color or monochrome photography.\n\nNew Orleans is famous as the birthplace of jazz, and music can be enjoyed everywhere in the city. Mr. Yasunaga says, \"The unhurried, somewhat sluggish and heavy feeling of the city, free from tension, was incredibly comfortable.\" Such a city takes on a new impression through this unique expressive method. Visitors who have been to New Orleans can experience the quiet charm of the city as Mr. Yasunaga felt it, while those who have not can enjoy New Orleans anew through this exhibition.\n\n・Cyano System (Blueprint): One of the photographic techniques invented in the 19th century. It is an expressive technique that became the origin of \"blueprints,\" utilizing the chemical reaction of iron salts and sunlight (ultraviolet rays) to achieve vivid coloration. It is characterized by a simple development process using water and an analog texture unique to manual work.\n\n・Sasanqua Toning: An expressive technique for toning the unique blue photographs of cyanotypes with natural tannin components extracted from Sasanqua (Camellia sasanqua). Through plant-derived chemical changes, the vivid blue transforms into elegant and chic bluish-purple to dark brown, creating deep nuanced colors."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/051a35ce/main.jpg",
       "description": "株式会社カメラのキタムラが運営する新宿 北村写真機店では、2026年8月29日（土）～2026年9月11日（金）の期間、写真展「『ニューオリンズ』－行ってみたい街、ニューオリンズ、サイアノ・トーニングの世界－」を開催します。何度も訪れたアメリカで、ニューオリンズを最も魅力に感じた安永氏は、特別に感じた風景を、サイアノシステム（青焼）とサザンカ（茶梅）のトーニングのモノクローム写真で展示します。通常のカラー写真／モノクローム写真とは異なる、表現方法での作品をお楽しみください。\n\nニューオリンズは、ジャズの発祥の地として有名であり、街のあらゆる場所で音楽を楽しむことができます。安永氏は、「ギスギスしていない、街の間怠く、もったりした感じが何とも心地よかった」と話します。そのような街が特有の表現方法によって、新たな印象を与えます。ニューオリンズを訪れたことがある方は、安永氏が感じたような静かな街の良さを感じることができ、訪れたことがない方は新たに、ニューオリンズという街を楽しめる展示になっています。\n\n・サイアノシステム（青焼き）：19世紀に発明された写真技法のひとつ。鉄塩の化学反応と太陽光（紫外線）を利用し、鮮やかな発色を得る「青写真」の原点となった表現技法です。水で現像するシンプルな工程と、手作業ならではのアナログな風合いが特徴です。\n\n・サザンカのトーニング：サイアノタイプ独特の青い写真を、サザンカ（茶梅）から抽出した天然のタンニン成分で調色する表現技法。植物由来の化学変化により、鮮やかな青から上品でシックな青紫〜黒褐色へと、深みのあるニュアンスカラーへ変化させます。",
       "medium": "photo",
@@ -77192,8 +77300,17 @@
       "id": "f45072839895",
       "source": "tokyo_art_beat",
       "title": "田中愛弓 「While Everyone Sleeps/皆が眠っているあいだ」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "다나카 아유미 「While Everyone Sleeps/모두가 잠든 사이에」",
+          "description": "다나카는 오사카 예술대학 사진학과를 졸업한 후 미국으로 건너갔습니다. 뉴욕을 거점으로 활동을 이어가며, 사진의 단편을 입체적으로 배치·재구성하여 촬영하는 수법을 전개해 왔습니다.\n\n본 전시에서는 2020년 코로나 팬데믹으로 인한 외출 금지 시기부터 2023년에 걸쳐 뉴욕에서 제작된 최신작을 발표합니다. 당시 느껴졌던 불안감, 두려움의 감각은 이미 과거의 것이 되었지만, 우리를 둘러싼 환경은 AI라는 최신 기술에 휘둘리고, SNS상에서 사실과 가짜 뉴스가 오가는 혼돈스러운 상황이 되어, 불투명한 시대로서 그때와 이어져 있는 것은 아닐까요? 이번에 전시되는 작품들은 닫힌 상황 속에서 생겨나는 내적인 풍경을 한 장의 사진을 해체한 단편과 주변 사물을 입체적으로 배치하고 이를 촬영하는 수법으로 작품화되었습니다. 지난 개인전 「Hide and Seek」에서는 유년기 기억을 시각화한 작품들이 작가 자신을 형성했던 희망, 두려움, 불안 등 다양한 감정이 작품을 보는 관객 자신의 다양한 감정에 호소하는 첫 시리즈였습니다. 이번에도 데뷔작으로 이어지는 콘셉트이지만, 현대를 살아가는 작가로서 코로나라는 시대감을 담아낸 내용이 됩니다. 이 시리즈에서 3점의 작품이 현재 뉴욕 현대미술관에 전시되어 있으며, 그 시기와 연동하여 개최됩니다.\n\n[관련 이벤트]\n아티스트 토크\n일시: 2026년 10월 3일 17:30~19:00\n등단자: 다나카 아유미\n장소: The Third Gallery Aya, YouTube 스트리밍 (추후 시청 가능)\n요금: 1000엔 (예약 필수)\n※이벤트 상세 내용 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "\"Ayumi Tanaka 「While Everyone Sleeps/While Everyone is Asleep」\"",
+          "description": "After graduating from the photography department of Osaka University of Arts, Tanaka moved to the United States. Based in New York, she has continued her activities, developing a method of three-dimensionally arranging and reconstructing fragments of photographs and then photographing them.\n\nThis exhibition presents her latest works created in New York from the period of lockdown due to the COVID-19 pandemic in 2020 through 2023. While the feelings of anxiety and fear experienced at that time are now in the past, the environment surrounding us, swayed by the latest technology of AI and a chaotic situation where facts and misinformation circulate on SNS, seems to be a continuation of that opaque era. The works exhibited this time were created using a method of disassembling a single photograph into fragments, three-dimensionally arranging familiar objects, and then photographing them, representing internal landscapes born within a confined situation. In her previous solo exhibition \"Hide and Seek,\" the series of works visualizing childhood memories was the first to appeal to the various emotions of the viewers, reflecting the hopes, fears, and anxieties that shaped the artist herself. This exhibition also connects to the concept of her debut work, but as an artist living in the present, it incorporates the sense of the COVID-19 era. Three works from this series are currently on display at the Museum of Modern Art, New York, and this exhibition is held in conjunction with that timing.\n\n[Related Events]\nArtist Talk\nDate: October 3, 2026, 17:30-19:00\nSpeaker: Ayumi Tanaka\nVenue: The Third Gallery Aya, YouTube Live Stream (available for viewing later)\nFee: 1,000 yen (reservation required)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/6a5442ee/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-09-01%2011.54.01.png",
       "description": "田中は大阪芸術大学の写真学科を卒業後、渡米。ニューヨークを拠点に活動を続け、写真の断片を立体的に配置・再構成し、撮影する手法を展開してきました。\n\n本展では2020年のコロナ禍による外出禁止の時期から2023年かけて、ニューヨークで制作された最新作を発表します。当時感じられた不安感、恐れの感覚は既に過去のものとなりましたが、われわれを取り巻く環境は、AIという最新のテクノロジーに翻弄され、SNS上で事実とデマが行き交う混沌とした状況となり、不透明な時代としてあの頃と地続きにあるのではないでしょうか。今回展示される作品群は、閉じられた状況の中で生まれる内的な風景を一枚の写真を解体した断片と、身近な事物を立体的に配置、それらを撮影するという手法によって作品化されました。前回の個展「Hide and Seek」では幼少期の記憶をビジュアル化した作品群は、作家自身を形作った希望、恐れ、不安といった様々な感情が作品を見る観客自身の様々な感情に訴えかける最初のシリーズでした。今回もデビュー作につながるコンセプトですが、現代を生きる作家として、コロナという時代感を取り込んだ内容となります。このシリーズから３点の作品が現在、ニューヨーク近代美術館で展示されており、それと時期を連動する形で開催致します。\n\n[関連イベント]\nアーティストトーク\n日時: 2026年10月3日17:30〜19:00\n登壇者: 田中愛弓\n会場: The Third Gallery Aya、YouTube配信（後日視聴可能）\n料金: 1000円（要予約）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -77239,8 +77356,17 @@
       "id": "91777779bafd",
       "source": "tokyo_art_beat",
       "title": "須田マリザ + スズキショーンショウスケ 「WAYFINDING」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "스다 마리사 + 스즈키 숀 쇼스케 「WAYFINDING」",
+          "description": "이번에 9월 5일(토)부터 사진가 스다 마리사와 믹스 미디어 아티스트 스즈키 숀 쇼스케의 2인전 『WAYFINDING』을 개최합니다. 스다는 지난 몇 년간 등산에 힘쓰며 산들을 촬영해 왔습니다. 한편, 스즈키는 바다에서의 활동을 즐겨 해왔지만, 바다를 주제로 작품을 만든 적은 없었습니다. 각자의 접근 방식과 태도가 달랐음에도 불구하고, 관심이 있었던 '산'과 '바다'에 초점을 맞췄습니다.\n'Wayfinding'이란 시각적, 공간적, 인지적 단서를 사용하여 목적지까지의 길을 찾아내는 과정을 말합니다. 때로는 아름답고 때로는 혹독한 자연 속으로 들어가면 그 과정이 필요해지며, 모든 판단을 맡게 되고 자신의 감각을 믿고 앞으로 나아가야만 합니다. 작가 자신도 그 장면에 직접 마주함으로써 그 과정을 의지하여 작품 제작을 진행했습니다. 본 전시는 두 사람의 협업 작품과 솔로 작품을 발표합니다.\n\n[관련 이벤트]\n1. Opening Live Event\n일시: 9월 5일 19:30~\n출연: 가와구치 다카히로\n요금: 예약 2500엔 / 당일 3000엔 +1drink order\n2. Closing Live Event\n일시: 9월 19일 19:30~\n출연: o'bo\n요금: 예약 2500엔 / 당일 3000엔 +1drink order\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Suda Marisa + Suzuki Shawn Shosuke \"WAYFINDING\"",
+          "description": "We are pleased to announce the two-person exhibition \"WAYFINDING\" by photographer Suda Marisa and mixed-media artist Suzuki Shawn Shosuke, starting from September 5th (Saturday). For the past few years, Suda has dedicated herself to mountaineering and photographed mountains. Meanwhile, Suzuki has enjoyed activities in the sea but had never created works with the sea as a theme. Even though their respective approaches and perspectives differed, they focused on \"mountains\" and \"seas,\" which they were both interested in.\n\"Wayfinding\" refers to the process of finding one's way to a destination using visual, spatial, and cognitive clues. When one goes into nature, which is sometimes beautiful and sometimes harsh, that process becomes necessary, all decisions are entrusted to oneself, and one is compelled to trust one's own senses and continue moving forward. The artists themselves, by directly confronting those situations, relied on that process to create their works. This exhibition will present both collaborative and solo works by the two artists.\n\n[Related Events]\n1. Opening Live Event\nDate & Time: September 5th, 19:30~\nPerformer: Takahiro Kawaguchi\nFee: Advance 2,500 yen / At door 3,000 yen +1 drink order\n2. Closing Live Event\nDate & Time: September 19th, 19:30~\nPerformer: o'bo\nFee: Advance 2,500 yen / At door 3,000 yen +1 drink order\n※Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/aab2925f/Wayfinding%20dmforpost%20-%20hibiki%20Kmjm.jpg",
       "description": "この度、9月5日(土)より写真家、須田マリザとミックスメディアアーティスト、スズキショーンショウスケによる2人展、『WAYFINDING』を開催します。須田はここ数年、登山に励み、山々を撮影してきました。一方、スズキは海でのアクティビティは好んで行ってきましたが、海を題材に作品を作ったことがありませんでした。それぞれのアプローチや向き合い方が違う中でも関心のあった、「山」と「海」に焦点を当てました。\n「Wayfinding」とは、視覚的、空間的、認知的な手がかりを使って、目的地までの道のりを見つけ出すプロセスのことを指します。時に美しく、時に厳しい自然の元へ行くとそのプロセスが必要になり、全ての判断を任され、自分の感覚を信じて前へ進み続けることを余儀なくされます。作家自身もその場面に自ら立ち合うことで、そのプロセスを頼りに作品制作を行いました。本展は2人のコラボレーション作品とソロ作品を発表します。\n\n[関連イベント]\n1. Opening Live Event\n日時: 9月5日 19:30～\n出演: 川口貴大\n料金: 予約 2500円 / 当日 3000円 +1drink order\n2. Closing Live Event\n日時: 9月19日 19:30～\n出演: o'bo\n料金: 予約 2500円 / 当日 3000円 +1drink order\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -77299,8 +77425,17 @@
       "id": "df0972f47676",
       "source": "tokyo_art_beat",
       "title": "中野泰輔 「Spin Around the Night Consumed by the Fire」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "나카노 다이스케 「Spin Around the Night Consumed by the Fire」",
+          "description": "나카노 다이스케의 『Spin Around the Night Consumed by the Fire』 출간을 기념하는 전시를 Utrecht / NOW IDEA에서 개최합니다.\n\n『Spin Around the Night Consumed by the Fire』는 2000년 도쿄의 크루징 파크에서 발생한 살인 사건을 출발점으로, 밤의 공원에서 촬영된 나이트 비전 사진과 현실과 환상 사이를 오가는 이미지를 결합한 사진집입니다. 실제로 존재했던 사건과 그로부터 생겨난 상상과 기억, 그리고 사진을 찍는 행위가 얽히면서 하나의 이야기로 구성됩니다. 이 책의 디자인은 대만을 거점으로 활동하는 디자이너 Aaron Nieh(아론 니에)가 담당했습니다. 사진뿐만 아니라 페이지 구성과 텍스트, 지면의 리듬을 포함하여 책 자체를 하나의 공간으로 설계함으로써, 사진집 안에 독자적인 시간과 이야기를 만들어내고 있습니다. 전시 기간 중에는 사진집 판매 외에도 관련 작품도 감상하실 수 있습니다.\n\n[관련 이벤트]\n토크 이벤트\n일시: 2026년 9월 4일 17:00~18:00\n등단자: 나카노 다이스케, 가와시마 고토리, 우라시바 마사시\n장소: UTRECHT\n요금: 1100엔 (음료 1잔 포함) (예약 필수)\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Taisuke Nakano \"Spin Around the Night Consumed by the Fire\"",
+          "description": "An exhibition commemorating the publication of Taisuke Nakano's \"Spin Around the Night Consumed by the Fire\" will be held at Utrecht / NOW IDEA.\n\n\"Spin Around the Night Consumed by the Fire\" is a photobook that combines night vision photographs taken in a Tokyo cruising park, starting from a murder case that occurred there in 2000, with images that move between reality and fantasy. Actual events, the imagination and memories born from them, and the act of taking photographs intertwine to form a single narrative. The design of this book was handled by Aaron Nieh, a designer based in Taiwan. By designing the book itself as a single space, including not only the photographs but also the page composition, text, and rhythm of the layout, a unique time and story are created within the photobook. During the exhibition period, in addition to the sale of the photobook, related works will also be on display.\n\n[Related Events]\nTalk Event\nDate & Time: September 4, 2026, 17:00〜18:00\nSpeakers: Taisuke Nakano, Kotori Kawashima, Masashi Urashiba\nVenue: UTRECHT\nFee: 1,100 yen (includes 1 drink) (Reservation required)\n※Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/d588d39d/nakano-003_c42995cc-af07-4aee-b463-3e56e58bdbe3_1000x.webp",
       "description": "中野泰輔『Spin Around the Night Consumed by the Fire』刊行を記念した展示をUtrecht / NOW IDEAにて開催します。\n\n『Spin Around the Night Consumed by the Fire』は、2000年に東京のクルージング・パークで起きた殺人事件を出発点に、夜の公園で撮影されたナイトビジョンの写真と、現実と幻想のあいだを行き来するイメージを組み合わせた写真集です。実際に存在した出来事と、そこから生まれた想像や記憶、そして写真を撮るという行為が絡み合いながら、一つの物語へと編成されていきます。本書のデザインは、台湾を拠点に活動するデザイナーAaron Nieh（アーロン・ニエ）が手がけています。写真だけではなく、ページの構成やテキスト、紙面のリズムを含め、本そのものをひとつの空間として設計することで、写真集の中に独自の時間と物語を立ち上げています。会期中は写真集の販売に加え、関連作品もご覧いただけます。\n\n[関連イベント]\nトークイベント\n日時: 2026年9月4日17:00〜18:00\n登壇者: 中野泰輔、川島小鳥、浦芝眞史\n会場: UTRECHT\n料金: 1100円（1ドリンク付）（要予約）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -77353,8 +77488,15 @@
       "id": "4f286e7827dd",
       "source": "tokyo_art_beat",
       "title": "マヌエル・ファン・ダイク 「SKETCH」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "마누엘 반 다이크 「SKETCH」"
+        },
+        "en": {
+          "title": "Manuel van Dijk \"SKETCH\""
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/93d1027c/%E4%B8%8D%E6%98%8E.jpg",
       "description": null,
       "medium": "mixed",
@@ -77400,8 +77542,17 @@
       "id": "47ea31df3931",
       "source": "tokyo_art_beat",
       "title": "「コレクション展Ⅱ 特集 フォトグラフ」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "컬렉션전 II 특집 포토그래프",
+          "description": "저희 미술관의 약 8,400점에 달하는 소장품 중 사진이 차지하는 비율은 약 3%로 많지는 않지만, 최근 사진작가 개인전을 개최하는 등 사진 컬렉션도 조금씩 늘어났습니다. 컬렉션전 II에서는 새로 소장한 이시카와 나오키, 시노미야 유지, 후지와라 신야의 사진 작품 외에도 구타이 미술 협회의 제작 현장을 포착한 오쓰지 기요지의 다큐멘터리 사진과 에이큐의 포토그램 등 사진을 중심으로 소장품을 소개합니다. 그 외에도 드가 《마네와 마네 부인상》, 바스키아 《소방관》, 모네 《수련, 버드나무의 반영》 등 저희 미술관을 대표하는 서양 회화 명품도 전시합니다. 또한, 컬렉션 전시실 내 현대 작가 소개 시리즈 'guest room' 제11탄에서는 기타큐슈시를 거점으로 국내외에서 활약하는 아베 사치코(1975-)의 펜 드로잉을 전시합니다. 폭이 불과 1~1.5밀리미터 정도의 타원형 무늬가 화면에 정연하게 펼쳐지는 모습은 압권입니다. 또한, 제작 기간 11년 9개월 17일에 걸쳐 완성된 세로 10미터의 대작 《Drawing works#11》은 완성 후 첫 공개됩니다."
+        },
+        "en": {
+          "title": "Collection Exhibition II: Special Feature, Photograph",
+          "description": "Among the approximately 8,400 works in our collection, photographs account for only about 3%, which is not a large number. However, in recent years, due to holding solo exhibitions by photographers, our photography collection has gradually grown. In Collection Exhibition II, we will introduce our collection with a focus on photography, including newly acquired photographic works by Naoki Ishikawa, Yuji Shinomiya, and Shinya Fujiwara, as well as documentary photographs by Kiyoji Otsuji capturing the production site of the Gutai Art Association, and photograms by Ei-Q. In addition, masterpieces of Western painting representing our museum, such as Degas's 'Manet and Madame Manet,' Basquiat's 'Fireman,' and Monet's 'Water Lilies, Reflections of Willows,' will also be exhibited. Furthermore, in the 11th installment of the contemporary artist introduction series 'guest room' within the collection exhibition room, pen drawings by Sachiko Abe (1975-), who is active both domestically and internationally based in Kitakyushu City, will be exhibited. The sight of elliptical patterns, each only about 1 to 1.5 millimeters wide, spreading neatly across the screen is breathtaking. Additionally, the 10-meter-tall masterpiece 'Drawing works#11,' which took 11 years, 9 months, and 17 days to create, will be publicly shown for the first time after its completion."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/95d29d6b/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-09-01%2010.22.40.png",
       "description": "当館の約8,400点にのぼる収蔵作品のうち、写真が占めるのは約3％と多くはありませんが、近年、写真家の個展を開催したことなどにより、写真のコレクションも少しずつ増えてきました。コレクション展Ⅱでは、新たに収蔵した石川直樹、四宮佑次、藤原新也の写真作品のほか、具体美術協会の制作現場をとらえた大辻清司によるドキュメント写真や、瑛九によるフォトグラムなど、写真を切り口に所蔵品をご紹介します。そのほか、ドガ《マネとマネ夫人像》、バスキア《消防士》、モネ《睡蓮、柳の反影》などの当館を代表する西洋絵画の名品も展示します。また、コレクション展示室内での現代作家の紹介シリーズ「guest room」第11弾では、北九州市を拠点に国内外で活躍する阿部幸子（1975- ）のペンによるドローイングを展示。幅わずか1～1.5ミリメートル程度の楕円形模様が整然と画面に広がる様子は圧巻です。また、制作期間11年9か月17日に及んだ縦10メートルの大作《Drawing works#11》は完成後初公開となります。",
       "medium": "photo",
@@ -77440,8 +77591,15 @@
       "id": "be33bef0e2dd",
       "source": "tokyo_art_beat",
       "title": "姜美善 「事実の選択」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "강미선 「사실의 선택」"
+        },
+        "en": {
+          "title": "Kang Mi-sun 'Selection of Facts'"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/085f01ce/cf14_gangmisun.jpg",
       "description": null,
       "medium": "mixed",
@@ -77487,8 +77645,17 @@
       "id": "07db250cc4d0",
       "source": "tokyo_art_beat",
       "title": "山根晋 「The orange that was blue」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "야마네 스스무 「The orange that was blue」",
+          "description": "DIGINNER GALLERY에서 처음으로 사진작가이자 아티스트인 야마네 스스무의 개인전 「The orange that was blue」를 개최합니다. 사진에 찍힌 것뿐만 아니라 그 전후의 시간과 기억, 보이지 않는 이미지에 주목해 온 야마네. 본 전시에서는 사진에서의 색채 반전과 시간 및 공간의 중첩에서 탄생한 두 가지 신작 시리즈를 발표합니다. 야마네가 포착하는 '사진'의 새로운 가능성을 꼭 현장에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Susumu Yamane 'The orange that was blue'",
+          "description": "DIGINNER GALLERY will host the first solo exhibition by photographer and artist Susumu Yamane, titled 'The orange that was blue.' Yamane has focused not only on what is captured in photographs but also on the time and memories before and after, and on unseen images. This exhibition will present two new series born from the inversion of colors in photography and the layering of time and space. Please come and see the new possibilities of 'photography' as captured by Yamane at the venue."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/69fa5c52/unnamed.jpg",
       "description": "DIGINNER GALLERYでは初となる、写真家・アーティスト山根晋の個展「The orange that was blue」を開催します。写真に写るものだけでなく、その前後にある時間や記憶、見えない像に目を向けてきた山根。本展では、写真における色彩の反転と、時間や空間の重なりから生まれた二つの新作シリーズを発表します。山根が捉える「写真」の新たな可能性を、ぜひ会場でご覧ください。",
       "medium": "photo",
@@ -77534,8 +77701,19 @@
       "id": "3fc14d44bd8a",
       "source": "tokyo_art_beat",
       "title": "「T3 PHOTO ASIA 2026」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「T3 PHOTO ASIA 2026」",
+          "description": "「T3 PHOTO ASIA 2026」는 아시아의 사진 기반 아트 마켓을 선도하겠다는 비전에서 탄생한 아트 페어입니다. 일본 최대 규모의 도시형 국제 사진 축제인 「T3 PHOTO FESTIVAL TOKYO」의 일환으로 개최됩니다. '아시아의 갤러리와 아티스트들이 모이는 아트 사진 시장을 창출하고 세계 사진 문화를 이끌어간다'는 미션을 가지고 있으며, T3 PHOTO FESTIVAL TOKYO와 연동 및 시너지 효과를 창출함으로써 아시아에서 가장 영향력 있는 사진 아트 페어로서의 지위 확립을 목표로 하고 있습니다. 개최 기간 동안의 매출 규모는 매년 확대되고 있으며, 갤러리 수도 2024년 14개에서 2025년 19개로 증가했고, 올해는 24개 갤러리 출품이 예정되어 있습니다. 올해부터는 출판 및 인쇄 기술에 특화된 출판사와 서점을 소개하는 섹션인 「Next Editon」을 신설하여 시장의 교류와 확대를 더욱 추진할 예정입니다. 국제화도 진행되어 작년에는 해외 초청 게스트 33명을 기록했으며, 뉴욕 현대미술관 (MoMA) 큐레이터 록사나 마르코치 씨, 퐁피두 센터 큐레이터 플로리안 에브너 씨의 게스트 강연도 진행되었습니다.\n\n장소: 6층 도쿄 타테모노 피아 시어터 & 컨퍼런스"
+        },
+        "ja": {
+          "title": "「T3 PHOTO ASIA 2026」"
+        },
+        "en": {
+          "description": "“T3 PHOTO ASIA 2026” is an art fair born from the vision of leading the photography-based art market in Asia. It is held as part of “T3 PHOTO FESTIVAL TOKYO,” Japan's largest urban international photography festival. Its mission is to “create an art photography market where galleries and artists from Asia gather, and to lead the world's photographic culture.” By collaborating with and creating synergy with T3 PHOTO FESTIVAL TOKYO, it aims to establish itself as the most influential photography art fair in Asia. The scale of sales during the event period has been expanding year by year, and the number of galleries has increased from 14 in 2024 to 19 in 2025, with 24 galleries scheduled to exhibit this year. Starting this year, a new section called “Next Editon” will be established to introduce publishers and bookstores specializing in publishing and printing technology, further promoting market exchange and expansion. Internationalization is also progressing, with 33 overseas guests visiting last year, and guest lectures by Roxana Marcoci, Curator at the Museum of Modern Art (MoMA), New York, and Florian Ebner, Curator at Centre Pompidou, were also held.\n\nVenue: 6F Tokyo Tatemono Pia Theater & Conference"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/5e198cb0/main.jpg",
       "description": "「T3 PHOTO ASIA 2026」は、アジアにおけるフォトグラフィベースのアートマーケットをリードするというビジョンから生まれたアートフェアです。日本最大級の都市型国際写真祭「T3 PHOTO FESTIVAL TOKYO」の一環として開催します。「アジアのギャラリーやアーティストが集うアートフォトグラフィー市場を創出し、世界の写真文化を牽引する」をミッションとしており、T3 PHOTO FESTIVAL TOKYOと連動・相乗効果を生み出すことで、アジアで最も影響力のある写真アートフェアとしての地位確立を目指しています。開催期間中の売上規模は年々拡大しており、ギャラリー数も2024年の14から2025年で19に増え、今年は24のギャラリー出展が予定されています。本年度から出版や印刷技術に特化した出版社や書店を紹介するセクション「Next Editon」を新設し、さらなるマーケットの交流と拡大を推進します。 国際化も進んでおり海外からの来日ゲストも昨年33名を記録したほか、ニューヨーク近代美術館（MoMA）キュレーター・Roxana Marcoci氏、ポンピドゥーセンター キュレーター・Florian Ebner氏のゲスト登壇も実施しました。\n\n会場: 6階 東京建物 ぴあ シアター＆カンファレンス",
       "medium": "photo",
@@ -77574,8 +77752,17 @@
       "id": "5f2a8217d5ab",
       "source": "tokyo_art_beat",
       "title": "マイク・オミーリー 「9/12」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "마이크 오말리 「9/12」",
+          "description": "사진집 발매에 맞춘 사진전. 2001년 9월 12일, 트윈 타워가 공격받은 다음 날, 스트리트 포토그래퍼 마이크 오말리는 변화하는 뉴욕 다운타운의 풍경을 카메라에 담았습니다. 『9/12』에는 연기에 휩싸인 로어 맨해튼을 배경으로 사이렌 소리가 촬영팀 주변에 울려 퍼지는 듯한, 지금까지 거의 공개되지 않았던 귀중한 사진들이 담겨 있습니다. 오말리는 흑백 필름을 사용하여 상실감에 휩싸이면서도 비극 직후 솟아오른 저항 정신으로 지탱된 거리를 스케이터들이 나아가는 모습을 포착했습니다. 2001년 9월 11일 사건 25주년을 기념하여 출간된 이 신간은 상상할 수 없는 고난을 견디면서도 모든 어려움에 맞서 결코 포기하지 않았던 뉴요커들의 정신을 기리는 것입니다."
+        },
+        "en": {
+          "title": "Mike O'Malley “9/12”",
+          "description": "A photo exhibition coinciding with the release of a photobook. On September 12, 2001, the day after the Twin Towers were attacked, street photographer Mike O'Malley captured the transforming landscape of downtown New York. “9/12” contains a collection of precious, largely unseen photographs, depicting Lower Manhattan enveloped in smoke, with the sound of sirens echoing around the film crew. Using black-and-white film, O'Malley captures skaters navigating a cityscape imbued with a sense of loss yet bolstered by the defiance that emerged immediately after the tragedy. Published to mark the 25th anniversary of the events of September 11, 2001, this new book celebrates the spirit of New Yorkers who endured unimaginable hardship, faced every challenge, and never gave up."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/ae6f0ef3/912_DM_web.jpg",
       "description": "写真集の発売に合わせての写真展。2001年9月12日、ツインタワーが攻撃を受けた翌日、ストリートフォトグラファーのマイク·オミーリーは、変貌しつつあるニューヨークのダウンタウンの風景をカメラに収めた。『9/12』には、煙に包まれたロウアー·マンハッタンを背景に、サイレンの音が撮影クルーの周囲に響き渡るような、これまでほとんど公開されてこなかった貴重な写真の数々が収められている。オミーリーはモノクロフィルムを用いて、喪失感に包まれながらも、悲劇の直後に湧き上がった反抗心によって支えられた街並みを、スケーターたちが突き進む姿を捉えている。2001年9月11日の事件から25周年を機に刊行されたこの新刊は、想像を絶する苦難に耐えながらも、あらゆる困難に立ち向かい、決して諦めなかったニューヨーカーたちの精神を称えるものである。",
       "medium": "photo",
@@ -77621,8 +77808,17 @@
       "id": "6f91f6b9ae02",
       "source": "fujifilm_square",
       "title": "「東京写真倶楽部展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「도쿄 사진 클럽전」",
+          "description": "저희 클럽에서는 매월 다양한 분야에 관심을 가진 호기심 많은 회원들이 모여, 작품의 묘사를 정성스럽게 재현하는 사진 프린트를 통해 사진 표현을 배우고 있습니다. 저희 작품을 고품질로 이미지 그대로 묘사하는 후지필름의 은염 사진 프린트가 작품의 매력을 충분히 이끌어냅니다. 부디 전시장에서 작품의 깊이를 직접 느껴보시길 바랍니다. 잉크젯 프린트 기술도 향상되었지만, 은염 사진 프린트만의 훌륭함과 사진전에서 전시하는 즐거움을 꼭 감상해 주십시오. 동시 개최: 「와이와이 사진 교실 작품전」"
+        },
+        "en": {
+          "title": "“Tokyo Photo Club Exhibition”",
+          "description": "Every month, our club brings together curious members interested in various fields to learn photographic expression through photo prints that meticulously reproduce the depiction of their works. Fujifilm's silver halide photo prints, which render our works in high quality and exactly as imagined, fully bring out the charm of the pieces. We invite you to experience the depth of the works directly at the venue. While inkjet printing technology has improved, please come and see the unique brilliance of silver halide prints and the joy of exhibiting them at a photo exhibition. Concurrently held: “Waiwai Photo Class Exhibition”"
+        }
+      },
       "poster_image_url": "https://fujifilmsquare.jp/assets/img/photo_event_260904_01_mv.jpg",
       "description": "当俱楽部では毎月、さまざまな分野に興味を持つ好奇心旺盛なメンバーが集まり、作品の描写を丁寧に再現する写真プリントを通して、写真表現を学んでいます。そんな私たちの作品を高品質でイメージ通りに描写する富士フイルムの銀写真プリントが作品の魅力を存分に引き出してくれます。 ぜひ会場にて、作品の味わいを直接感じていただきたいと思います。インクジェットプリントの技術も向上してきましたが、銀写真プリントならではの素晴らしさ、そして写真展で展示することの楽しさを、どうぞご覧ください。 同時開催：「わいわい写真教室作品展」",
       "medium": "photo",
@@ -77661,8 +77857,17 @@
       "id": "ceba9fb7fcc3",
       "source": "tokyo_art_beat",
       "title": "チョン・チョルフン 「Two Windows」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "정철훈 「Two Windows」",
+          "description": "CAGE GALLERY는 2026년 9월 5일(토)부터 Chulhoon Jung(정철훈)의 《Two Windows》를 개최합니다.\n정철훈은 서울을 기반으로 한국과 유럽을 오가며 활동하는 사진작가입니다. 작가의 일상 속 사물이나 사건과의 만남 속에서 포착되는 이미지는 있는 그대로인 듯하면서도, 분명히 독특한 시점에 기반하여 선택된 형상으로서의 질감을 가집니다.\n본 전시 《Two Windows》에서 발표되는 〈green machine〉(2024), 〈utility pants〉(2024) 또한 정철훈이 무수히 보고 셔터를 누른 것들 중에서 선택되었습니다. 그 이유와 배경은 독립 큐레이터 하상현이 본 전시에 기고한 텍스트에 자세히 기록되어 있지만, 작품이 작품으로서 성립될 수 있는 과정은 촬영된 시점이 아니라 사후적으로, '늦게' 찾아온다는 의미에서 작가 자신 또한 그 사진을 감상자처럼 경험하고 우연히 발견된 이야기에 이끌리고 있다고 할 수 있습니다. 정철훈의 《Two Windows》를 이 기회에 꼭 관람하시기 바랍니다."
+        },
+        "en": {
+          "title": "Chulhoon Jung \"Two Windows\"",
+          "description": "CAGE GALLERY will present \"Two Windows\" by Chulhoon Jung starting Saturday, September 5, 2026.\nChulhoon Jung is a photographer based in Seoul, active across Korea and Europe. The images captured through encounters with objects and events in the artist's daily life appear as they are, yet possess a textural quality as forms clearly selected based on a unique perspective.\nThe works presented in this exhibition, \"Two Windows,\" including \"green machine\" (2024) and \"utility pants\" (2024), were also selected by Chulhoon Jung from countless things he saw and photographed. The reasons and background are detailed in the text contributed to this exhibition by independent curator Ha Sang-hyun. However, the process by which a work can be established as a work comes \"later,\" not at the time of shooting, meaning the artist himself experiences the photographs like a viewer, guided by stories discovered by chance. We invite you to experience Chulhoon Jung's \"Two Windows\" at this opportunity."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/c267f40d/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-09-03%20173507.png",
       "description": "CAGE GALLERYは、2026年9月5日（土）より、Chulhoon Jung（チョン・チョルフン）による《Two Windows》を開催します。\nチョルフンは、ソウルを拠点に韓国とヨーロッパを横断して活動している写真家です。作家の日常にあるものや出来事との出会いの中で切り取られるイメージは、ありのままのようでいて、あきらかに独特の視点に基づいて選択された形象としての質感を持ちます。\n本展《Two Windows》で発表される〈green machine〉（2024）、〈utility pants〉（2024）もまた、チョルフンが無数に見て、シャッターを切ったものの中から選択されています。その理由や背景は、インディペンデント・キュレーターのハ・サンヒョンが本展に寄せたテキストに詳しく記されていますが、作品が作品として成立し得るプロセスは、撮影された時ではなく事後的に、「遅れて」やってきているという意味において、作家自身もまた、その写真を鑑賞者のように経験し、偶然に見出された物語に導かれていると言えるでしょう。チョン・チョルフンの《Two Windows》を、是非この機会にご覧ください。",
       "medium": "photo",
@@ -77708,8 +77913,15 @@
       "id": "406d0ea07ae1",
       "source": "tokyo_art_beat",
       "title": "藤波宏輔 「Ψ常若ーTOKOWAKAー今もあり、常にあり、そして存在し続ける」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "후지나미 코스케 「Ψ 토코와카 - 지금도 있고, 항상 있으며, 계속해서 존재한다」"
+        },
+        "en": {
+          "title": "Kōsuke Fujinami \"Ψ Tokowaka - Exists Now, Always Exists, and Continues to Exist\""
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/4c4cb791/fujinami_main%20-%20Creative%20Lounge%20MOV%20aiiima.jpg",
       "description": null,
       "medium": "mixed",
@@ -77755,8 +77967,15 @@
       "id": "56b8984b95f7",
       "source": "tokyo_art_beat",
       "title": "山口輝 「なんじのサイコロ」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "야마구치 히카루 「너의 주사위」"
+        },
+        "en": {
+          "title": "Hikaru Yamaguchi \"Thy Dice\""
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/5737ddb8/%E4%B8%8D%E6%98%8E.jpg",
       "description": null,
       "medium": "mixed",
@@ -77802,8 +78021,15 @@
       "id": "0ba89c47e1d8",
       "source": "tokyo_art_beat",
       "title": "岡田裕介 「AYNI｜コノホシノアイニツイテ」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "오카다 유스케 「AYNI｜이 별의 사랑에 대하여」"
+        },
+        "en": {
+          "title": "Yūsuke Okada \"AYNI | About the Love of This Star\""
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/transferred/images.ctfassets.net/j05yk38inose/U25yOBeu3Dr11S5FcT7c7/3f6ed390a9d53691a9b69bed9039c0c2/bec8dbb9-3df1-4617-a66f-609f8e44bcd7.jpg",
       "description": null,
       "medium": "mixed",
@@ -80954,8 +81180,15 @@
       "venue": {
         "id": "9d43ad6fe782",
         "name": "代官山ヒルサイドフォーラム",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "다이칸야마 힐사이드 포럼"
+          },
+          "en": {
+            "name": "Daikanyama Hillside Forum"
+          }
+        },
         "region": "恵比寿、代官山、中目黒",
         "district": null,
         "lat": 35.64869226830792,
@@ -80994,8 +81227,15 @@
       "venue": {
         "id": "1db5e3321d12",
         "name": "LUMIX BASE TOKYO",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "LUMIX BASE TOKYO"
+          },
+          "ja": {
+            "name": "LUMIX BASE TOKYO"
+          }
+        },
         "region": "表参道、青山",
         "district": null,
         "lat": 35.671541127532805,
@@ -81034,8 +81274,15 @@
       "venue": {
         "id": "1011d5ca0f04",
         "name": "Gallery HUG FOR＿.",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Gallery HUG FOR＿."
+          },
+          "ja": {
+            "name": "Gallery HUG FOR＿."
+          }
+        },
         "region": "神奈川県",
         "district": null,
         "lat": 35.31610097883106,
@@ -81169,8 +81416,15 @@
       "venue": {
         "id": "36ec166eb041",
         "name": "AIR大原Gallery",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "AIR 오하라 Gallery"
+          },
+          "en": {
+            "name": "AIR Ohara Gallery"
+          }
+        },
         "region": "京都府",
         "district": null,
         "lat": 35.1166953928104,
@@ -81293,8 +81547,15 @@
       "venue": {
         "id": "c5d12a7029aa",
         "name": "KANA KAWANISHI GALLERY",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "KANA KAWANISHI GALLERY"
+          },
+          "ja": {
+            "name": "KANA KAWANISHI GALLERY"
+          }
+        },
         "region": "清澄白河、両国",
         "district": null,
         "lat": 35.683577370128994,
@@ -81333,8 +81594,15 @@
       "venue": {
         "id": "151e25302f4c",
         "name": "MADISONBLUE TOKYO",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "MADISONBLUE TOKYO"
+          },
+          "ja": {
+            "name": "MADISONBLUE TOKYO"
+          }
+        },
         "region": "表参道、青山",
         "district": null,
         "lat": 35.66297147689711,
@@ -81392,8 +81660,15 @@
       "venue": {
         "id": "c8123c53bcb7",
         "name": "札幌市資料館",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "삿포로시 자료관"
+          },
+          "en": {
+            "name": "Sapporo City Archive Museum"
+          }
+        },
         "region": "北海道",
         "district": null,
         "lat": 43.058548882577746,
@@ -81425,8 +81700,15 @@
       "venue": {
         "id": "1cd7dfe8dc26",
         "name": "MOMO GALLERY",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "MOMO GALLERY"
+          },
+          "ja": {
+            "name": "MOMO GALLERY"
+          }
+        },
         "region": "愛知県",
         "district": null,
         "lat": 35.1803110961423,
@@ -81489,8 +81771,15 @@
       "venue": {
         "id": "920816c5e98e",
         "name": "igno...book plus（イグノブックプラス）",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "igno...book plus"
+          },
+          "en": {
+            "name": "igno...book plus"
+          }
+        },
         "region": "栃木県",
         "district": null,
         "lat": 36.55479835878377,
@@ -81576,8 +81865,15 @@
       "venue": {
         "id": "da49f70b4991",
         "name": "Gallery CORSO（ギャラリーコルソ）",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "Gallery CORSO"
+          },
+          "en": {
+            "name": "Gallery CORSO"
+          }
+        },
         "region": "竹橋、水道橋、末広町",
         "district": null,
         "lat": 35.69565126392108,
@@ -81609,8 +81905,15 @@
       "venue": {
         "id": "5aa3427c8f38",
         "name": "ON READING",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "읽기에 대하여"
+          },
+          "ja": {
+            "name": "読書について"
+          }
+        },
         "region": "愛知県",
         "district": null,
         "lat": 35.160657361770035,
@@ -81649,8 +81952,15 @@
       "venue": {
         "id": "c8fcaf46a260",
         "name": "Art Space & Cafe Barrack",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Art Space & Cafe Barrack"
+          },
+          "ja": {
+            "name": "Art Space & Cafe Barrack"
+          }
+        },
         "region": "愛知県",
         "district": null,
         "lat": 35.22581,
@@ -81689,8 +81999,15 @@
       "venue": {
         "id": "d249ab91c915",
         "name": "石神井公園ふるさと文化館",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "샤쿠지이 공원 후루사토 문화관"
+          },
+          "en": {
+            "name": "Shakujii Koen Furusato Bunka-kan"
+          }
+        },
         "region": "武蔵野、多摩",
         "district": null,
         "lat": 35.737506714990324,
@@ -81722,8 +82039,15 @@
       "venue": {
         "id": "93b1ee935307",
         "name": "茨城県近代美術館",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "이바라키현 근대미술관"
+          },
+          "en": {
+            "name": "Ibaraki-ken Kindai Bijutsukan"
+          }
+        },
         "region": "茨城県",
         "district": null,
         "lat": 36.36785041851619,
@@ -81886,8 +82210,15 @@
       "venue": {
         "id": "e7ea0eaeeee8",
         "name": "GALLERY PREMIER（ギャラリープルミエ）",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "GALLERY PREMIER"
+          },
+          "en": {
+            "name": "GALLERY PREMIER"
+          }
+        },
         "region": "沖縄県",
         "district": null,
         "lat": 26.32776,
@@ -81973,8 +82304,15 @@
       "venue": {
         "id": "0dc69467f1c2",
         "name": "0地点",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "0지점"
+          },
+          "en": {
+            "name": "Point Zero"
+          }
+        },
         "region": "北海道",
         "district": null,
         "lat": 43.06542,
@@ -82013,8 +82351,15 @@
       "venue": {
         "id": "054215623e7c",
         "name": "THE CAMPUS",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "THE CAMPUS"
+          },
+          "ja": {
+            "name": "THE CAMPUS"
+          }
+        },
         "region": "天王洲、品川",
         "district": null,
         "lat": 35.63004,
@@ -82470,8 +82815,15 @@
       "venue": {
         "id": "0a436c7490b5",
         "name": "新潟市新津美術館",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "니가타시 아키하 미술관"
+          },
+          "en": {
+            "name": "Niigata City Akiha Art Museum"
+          }
+        },
         "region": "新潟県",
         "district": null,
         "lat": 37.7624414629265,
@@ -82564,8 +82916,15 @@
       "venue": {
         "id": "a16e9aad4c77",
         "name": "void+（ヴォイドプラス）",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "void+ (보이드플러스)"
+          },
+          "en": {
+            "name": "void+"
+          }
+        },
         "region": "表参道、青山",
         "district": null,
         "lat": 35.664391771095,
@@ -91880,8 +92239,15 @@
     {
       "id": "9d43ad6fe782",
       "name": "代官山ヒルサイドフォーラム",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "다이칸야마 힐사이드 포럼"
+        },
+        "en": {
+          "name": "Daikanyama Hillside Forum"
+        }
+      },
       "venue_type": "other",
       "region": "恵比寿、代官山、中目黒",
       "district": null,
@@ -91894,8 +92260,15 @@
     {
       "id": "1db5e3321d12",
       "name": "LUMIX BASE TOKYO",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "LUMIX BASE TOKYO"
+        },
+        "ja": {
+          "name": "LUMIX BASE TOKYO"
+        }
+      },
       "venue_type": "other",
       "region": "表参道、青山",
       "district": null,
@@ -91908,8 +92281,15 @@
     {
       "id": "1011d5ca0f04",
       "name": "Gallery HUG FOR＿.",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "Gallery HUG FOR＿."
+        },
+        "ja": {
+          "name": "Gallery HUG FOR＿."
+        }
+      },
       "venue_type": "gallery",
       "region": "神奈川県",
       "district": null,
@@ -91922,8 +92302,15 @@
     {
       "id": "36ec166eb041",
       "name": "AIR大原Gallery",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "AIR 오하라 Gallery"
+        },
+        "en": {
+          "name": "AIR Ohara Gallery"
+        }
+      },
       "venue_type": "gallery",
       "region": "京都府",
       "district": null,
@@ -91936,8 +92323,15 @@
     {
       "id": "c5d12a7029aa",
       "name": "KANA KAWANISHI GALLERY",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "KANA KAWANISHI GALLERY"
+        },
+        "ja": {
+          "name": "KANA KAWANISHI GALLERY"
+        }
+      },
       "venue_type": "gallery",
       "region": "清澄白河、両国",
       "district": null,
@@ -91950,8 +92344,15 @@
     {
       "id": "151e25302f4c",
       "name": "MADISONBLUE TOKYO",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "MADISONBLUE TOKYO"
+        },
+        "ja": {
+          "name": "MADISONBLUE TOKYO"
+        }
+      },
       "venue_type": "other",
       "region": "表参道、青山",
       "district": null,
@@ -91964,8 +92365,15 @@
     {
       "id": "c8123c53bcb7",
       "name": "札幌市資料館",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "삿포로시 자료관"
+        },
+        "en": {
+          "name": "Sapporo City Archive Museum"
+        }
+      },
       "venue_type": "other",
       "region": "北海道",
       "district": null,
@@ -91978,8 +92386,15 @@
     {
       "id": "1cd7dfe8dc26",
       "name": "MOMO GALLERY",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "MOMO GALLERY"
+        },
+        "ja": {
+          "name": "MOMO GALLERY"
+        }
+      },
       "venue_type": "gallery",
       "region": "愛知県",
       "district": null,
@@ -91992,8 +92407,15 @@
     {
       "id": "920816c5e98e",
       "name": "igno...book plus（イグノブックプラス）",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "igno...book plus"
+        },
+        "en": {
+          "name": "igno...book plus"
+        }
+      },
       "venue_type": "other",
       "region": "栃木県",
       "district": null,
@@ -92006,8 +92428,15 @@
     {
       "id": "da49f70b4991",
       "name": "Gallery CORSO（ギャラリーコルソ）",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "Gallery CORSO"
+        },
+        "en": {
+          "name": "Gallery CORSO"
+        }
+      },
       "venue_type": "gallery",
       "region": "竹橋、水道橋、末広町",
       "district": null,
@@ -92020,8 +92449,15 @@
     {
       "id": "5aa3427c8f38",
       "name": "ON READING",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "읽기에 대하여"
+        },
+        "ja": {
+          "name": "読書について"
+        }
+      },
       "venue_type": "other",
       "region": "愛知県",
       "district": null,
@@ -92034,8 +92470,15 @@
     {
       "id": "c8fcaf46a260",
       "name": "Art Space & Cafe Barrack",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "Art Space & Cafe Barrack"
+        },
+        "ja": {
+          "name": "Art Space & Cafe Barrack"
+        }
+      },
       "venue_type": "cafe",
       "region": "愛知県",
       "district": null,
@@ -92048,8 +92491,15 @@
     {
       "id": "d249ab91c915",
       "name": "石神井公園ふるさと文化館",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "샤쿠지이 공원 후루사토 문화관"
+        },
+        "en": {
+          "name": "Shakujii Koen Furusato Bunka-kan"
+        }
+      },
       "venue_type": "other",
       "region": "武蔵野、多摩",
       "district": null,
@@ -92062,8 +92512,15 @@
     {
       "id": "93b1ee935307",
       "name": "茨城県近代美術館",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이바라키현 근대미술관"
+        },
+        "en": {
+          "name": "Ibaraki-ken Kindai Bijutsukan"
+        }
+      },
       "venue_type": "other",
       "region": "茨城県",
       "district": null,
@@ -92076,8 +92533,15 @@
     {
       "id": "e7ea0eaeeee8",
       "name": "GALLERY PREMIER（ギャラリープルミエ）",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "GALLERY PREMIER"
+        },
+        "en": {
+          "name": "GALLERY PREMIER"
+        }
+      },
       "venue_type": "gallery",
       "region": "沖縄県",
       "district": null,
@@ -92090,8 +92554,15 @@
     {
       "id": "0dc69467f1c2",
       "name": "0地点",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "0지점"
+        },
+        "en": {
+          "name": "Point Zero"
+        }
+      },
       "venue_type": "other",
       "region": "北海道",
       "district": null,
@@ -92104,8 +92575,15 @@
     {
       "id": "054215623e7c",
       "name": "THE CAMPUS",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "THE CAMPUS"
+        },
+        "ja": {
+          "name": "THE CAMPUS"
+        }
+      },
       "venue_type": "other",
       "region": "天王洲、品川",
       "district": null,
@@ -92118,8 +92596,15 @@
     {
       "id": "0a436c7490b5",
       "name": "新潟市新津美術館",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "니가타시 아키하 미술관"
+        },
+        "en": {
+          "name": "Niigata City Akiha Art Museum"
+        }
+      },
       "venue_type": "other",
       "region": "新潟県",
       "district": null,
@@ -92132,8 +92617,15 @@
     {
       "id": "a16e9aad4c77",
       "name": "void+（ヴォイドプラス）",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "void+ (보이드플러스)"
+        },
+        "en": {
+          "name": "void+"
+        }
+      },
       "venue_type": "other",
       "region": "表参道、青山",
       "district": null,
