@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T17:02:42.173438+00:00",
+  "generated_at": "2026-09-13T20:44:27.599381+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -41906,7 +41906,7 @@
       "price_max": null,
       "start_date": "2026-07-04",
       "end_date": "2026-09-12",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "442d3addf4ce",
@@ -58951,7 +58951,7 @@
       "price_max": null,
       "start_date": "2026-07-13",
       "end_date": "2026-09-12",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "a9283a55927a",
@@ -63735,7 +63735,7 @@
       "price_max": null,
       "start_date": "2026-08-07",
       "end_date": "2026-09-12",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "951c6cfd377b",
@@ -66004,22 +66004,11 @@
       "popularity_score": null
     },
     {
-      "id": "dc052d585970",
+      "id": "d1d3cf2d3abe",
       "source": "totem_pole",
-      "title": "Tokyo Turtle Dove 3",
-      "lang": "en",
-      "tr": {
-        "ko": {
-          "title": "도쿄 터틀 도브 3",
-          "description": "아리모토 신야 / Shinya Arimoto\n\n꿩비둘기 / Tokyo Turtle Dove 3\n\n2026.9.15 (화) – 9.27 (일)\n\n개관 12:00 – 19:00 월요일 휴관\n\n[신간 발매 안내] 이번 전시 작품을 수록한 신작 ZINE 「ariphoto selection vol.13」을 전시 기간 중, 전시장 내에서 선행 발매합니다. vol.11, vol.12와 함께 살펴보시기 바랍니다."
-        },
-        "ja": {
-          "title": "東京タートルダブ 3"
-        },
-        "en": {
-          "description": "Shinya Arimoto / Shinya Arimoto\n\nOriental Turtle Dove / Tokyo Turtle Dove 3\n\nSeptember 15 (Tue) – September 27 (Sun), 2026\n\nOpen 12:00 – 19:00 Closed Mondays\n\n[New Publication Announcement] The new ZINE \"ariphoto selection vol.13,\" which includes the works from this exhibition, will be pre-released at the venue during the exhibition period. Please take a look along with vol.11 and vol.12."
-        }
-      },
+      "title": "キジバト / Tokyo Turtle Dove 3",
+      "lang": null,
+      "tr": {},
       "poster_image_url": "https://tppg.jp/wp/wp-content/uploads/2026/07/kijibato_3_1.jpg",
       "description": "有元伸也 / Shinya Arimoto\n\nキジバト / Tokyo Turtle Dove 3\n\n2026.9.15 (tue) – 9.27 (sun)\n\nOpen 12:00 – 19:00 Closed Mondays\n\n【新刊発売のお知らせ】今回の展示作品を収録した新作 ZINE 「ariphoto selection vol.13」を会期中、会場内にて先行発売いたします。vol.11, vol.12 と併せまして、手に取ってご覧ください。",
       "medium": "photo",
@@ -66674,7 +66663,7 @@
       "price_max": null,
       "start_date": "2026-08-26",
       "end_date": "2026-09-12",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "c22f91d83796",
@@ -71338,7 +71327,7 @@
       "price_max": null,
       "start_date": "2026-09-02",
       "end_date": "2026-09-12",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "be0910525f68",
@@ -80800,7 +80789,7 @@
       "price_max": null,
       "start_date": "2026-09-13",
       "end_date": "2026-10-31",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8bc60f268986",
@@ -82363,6 +82352,328 @@
         }
       ],
       "source_url": "https://www.placem.com/schedule/2026/main/20261102/exhibition.php",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "1caf70214940",
+      "source": "place_m",
+      "title": "Rules and Data",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://www.placem.com/schedule/2026/main/20261109/moto-01.jpg",
+      "description": "2026.11.09 - 2026.11.15 本橋松二（ギャラリーA） Rules and Data 写真や動画の無かった時代の人々には、立ち去ったり亡くなったりの、親しかった人の顔を思い浮かべる、笑い声や箸の使い方、体臭までも、いつでも思いのままに、そんな「思い浮かべ能力」があったのではないか？",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-09",
+      "end_date": "2026-11-15",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "2da18874aafa",
+        "name": "Place M",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Place M"
+          },
+          "ja": {
+            "name": "Place M"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.6877688,
+        "lng": 139.7125787
+      },
+      "artists": [
+        {
+          "id": "8669f2db06cd",
+          "name": "本橋松二（ギャラリーA）",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.placem.com/schedule/2026/main/20261109/exhibition.php",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "094f9c301bf8",
+      "source": "place_m",
+      "title": "TOKYO PALETTE",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://www.placem.com/schedule/2026/mini/20261109/Campanale-02.jpg",
+      "description": "2026.11.09 - 2026.11.15 Federico CAMPANALE（ギャラリーB） TOKYO PALETTE Tokyo Palette is an ongoing series begun at the end of 2025. It treats Tokyo as a visual condition: a city that has grown beyond legibility, where infrastructure, architecture, and ornament collapse into a single restless plane. The photographs bring all urban elements to occupy a similar foreground position, carrying the same visual weight. Post-war concrete sits next to glass towers and traces of traditional architecture as though time were only accumulated, each decade pressed against the next without distance. As a result, the human presence is absorbed rather than excluded. The few figures that appear are scaled down to near-invisibility by the built environment surrounding them, showing a city that has grown complete without them.",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-09",
+      "end_date": "2026-11-15",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "2da18874aafa",
+        "name": "Place M",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Place M"
+          },
+          "ja": {
+            "name": "Place M"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.6877688,
+        "lng": 139.7125787
+      },
+      "artists": [
+        {
+          "id": "c3f06251c56b",
+          "name": "Federico CAMPANALE（ギャラリーB）",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.placem.com/schedule/2026/mini/20261109/exhibition.php",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "b42ac31204e8",
+      "source": "tokyo_art_beat",
+      "title": "「田中達也展 みたてのくみたて」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/34ef2347/exhTanaka_Tatsuya_mitatenokumitate_NAM_page-0001.jpg",
+      "description": "日常にあるものを別の物に見立てたアート作品を制作する田中達也（1981- ）。Instagramのフォロワー数は400万人（2026年6月現在）を超え、また2011年から毎日欠かさずインターネット上で発表される作品は、国内外から絶大な支持を得ています。\n2022年に新潟市新津美術館で開催した「MINIATURE LIFE展2 田中達也 見立ての世界」では、幅広い年齢層から支持され、大きな反響を呼びました。新津美術館で2度目の田中達也展となる本展では「田中達也のアイデアは、どこからやってくるのか？」という問いに迫り、写真と立体あわせて約160点の作品を紹介します。会場内の作品は撮影可能なほか、撮影スポットも設置。こどもから大人まで楽しめる構成で開催いたします。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-18",
+      "end_date": "2026-11-08",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "0a436c7490b5",
+        "name": "新潟市新津美術館",
+        "lang": null,
+        "tr": {},
+        "region": "新潟県",
+        "district": null,
+        "lat": 37.7624414629265,
+        "lng": 139.1123682209015
+      },
+      "artists": [
+        {
+          "id": "598ce84a3f31",
+          "name": "田中達也",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "다나카 타츠야"
+            },
+            "en": {
+              "name": "Tatsuya Tanaka"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Tatsuya-Tanaka-Miniature-Life-Mitate-Mind/niitsu-art-museum/2026-09-18",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "b451cc9caaf2",
+      "source": "tokyo_art_beat",
+      "title": "ジェローム・ミン 「ボールルーム・マケット―エルザッツ・エディション」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/99e5ef27/MING.jpg",
+      "description": "IG Photo Galleryでは2026年9月8日（火）より、ジェローム・ミン展「ボールルーム・マケット―エルザッツ・エディション」を開催いたします。ジェローム・ミンの日本での初個展となります。\n\nジェローム・ミンはロンドン生まれ、アジアを中心に世界各地に滞在し、現在は東京を拠点としている作家です。写真のほか、彫刻、パフォーマンス、手製本、インスタレーションを発表してきました。2019年にはロンドンの写真集、アートブックの専門出版社、MACK が主催する「MACK First Book Award」を受賞した写真集『Oobanken』で、世界的に注目を集めました。今回、発表するのはミンがポーランドのワルシャワ滞在中に着手した「ボールルーム・マケット」シリーズの実験的なエディションであり、世界初公開となります。「ボールルーム・マケット」はミンが最初の写真集『Oobanken』を制作したあと、3年間住んだポーランドのワルシャワでつくりはじめられました。マケット（模型）とあるように、作り終えて完成ではなく、「それ自体を糧に進化し続ける作品群であり、目に見えないものを文脈化し再構築するもの（an evolving body of work feeding off itself, contextualizing and reconstructing the invisible）」（ステートメントより）として位置づけています。\n\nミンの最初の写真集『Oobanken』はミャンマーで制作された作品ですが、写真に写っているのは、ミャンマーの現実の風景そのものではなく、多くの場合、彼がアトリエでつくったオブジェたちとパフォーマンスです。ミンは不可視の現実を、自身の経験と手を通してオブジェやパフォーマンスで可視化し、さらにそれを多くの人とシェアするために写真というメディアを使いました。「ボールルーム・マケット」にもその思想が反映されています。会場には、連続性を持つ写真が壁面に展示されるほか、手焼きのプリントとともに、ささやかなオブジェが並ぶほか、本展示のタイトルでもある「ボールルーム・マケット」の手製本──エルザッツ・エディション──が展示されます。\n\n「エルザッツ」とは、戦時などの物資不足の際に用いられた「代用品」、それも「粗悪な代用品」のことです。ミンは自身の中に生まれたアイデアを具現化するための手がかりとして、また、特定の時間軸と文脈に作品を位置づけるためのキーワードとして「エルザッツ」という言葉を選択しました。また、「ボールルーム・マケット」の作品制作には彼自身がワルシャワで過ごした時間とそこでの個人的な体験が反映されています。その当時、20年ぶりにヨーロッパへ戻ったことで感じた変化への衝撃、そして娘が生まれたという個人的な経験。加えて、20世紀の動乱の痕跡を残すワルシャワという街が、彼を目に見えない記憶や歴史を再構築する作品制作へと導きました。\n\n本展は、ミンの内面世界と、ヨーロッパの歴史という「時間」と、ワルシャワという「場所」から受けたインスピレーション、そして、現在進行形のテクノロジーに抗する手段としての手製本とが重なったものとなります。同時代を生きる私たちの想像力を問う展覧会になることでしょう。ご期待ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-08",
+      "end_date": "2026-09-26",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "f00fc907708f",
+        "name": "IG Photo Gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "IG 포토 갤러리"
+          },
+          "ja": {
+            "name": "IGフォトギャラリー"
+          }
+        },
+        "region": "銀座、丸の内",
+        "district": null,
+        "lat": 35.67060803254507,
+        "lng": 139.76928225338963
+      },
+      "artists": [
+        {
+          "id": "7c02a3f6c394",
+          "name": "ジェローム・ミン",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Jerome-Ming-Ballroom-Maquette-Ersatz-Edition/DD77-E403/2026-09-08",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "03746055eaf0",
+      "source": "tokyo_art_beat",
+      "title": "髙橋恭司 「Mini/Cars」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/c2fe6cd8/tumblr_027d00692a3b684867b3e880e7c30439_96ff5ce7_1280.jpg",
+      "description": "時代をリードする写真家・髙橋恭司の個展 “Mini/Cars” を、9月19日（土）より開催します。\n\n髙橋は1990年代から、国内外のファッション・カルチャー媒体や広告を中心に、幅広い領域で写真を発表してきました。1990年代初頭には、当時国内で主流だった白黒写真の美学にとらわれることなく、アメリカのニュー・カラーを源流とするカラーフィルムによる写真表現を⽇本でいち早く展開し、独自の表現を築いてきました。\n\nvoid+で3回目となる本展では、ミニカーを被写体とした新作を紹介します。小さな被写体に向き合うため、撮影もできるだけ小さな体制で行われました。ミニカー、周囲の風景、光や影、そしてその瞬間に入り込んだもの——実際の車とは異なるスケールをもつミニカーが現実の風景のなかに置かれることで、大きさや距離の感覚が揺らぎ、見慣れた場所に別の風景が立ち上がっていきます。\n\nミニカーは風景になじんでいるようにも、そこからわずかにはみ出しているようにも感じられ、その印象は写真ごとに異なります。あらかじめ決められたイメージへと寄せるのではなく、その場で生まれる状況や偶然を受け入れながら、一枚一枚の写真がつくられていきました。\n\n会場では新作約10点に加え、髙橋がミニカーを撮影する様子を収めた約2分の映像も展示します。小さな被写体をきっかけに、現実との境界を曖昧にしながら想像をひらいていく “Mini/Cars” の世界を、ぜひ会場でご覧ください。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-19",
+      "end_date": "2026-10-10",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "a16e9aad4c77",
+        "name": "void+（ヴォイドプラス）",
+        "lang": null,
+        "tr": {},
+        "region": "表参道、青山",
+        "district": null,
+        "lat": 35.664391771095,
+        "lng": 139.7146486416651
+      },
+      "artists": [
+        {
+          "id": "1629e41741b5",
+          "name": "髙橋恭司",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kyoji-Takahashi-MiniCars/15-E4-AC9-F/2026-09-19",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "79a669ce0dff",
+      "source": "tokyo_art_beat",
+      "title": "横山隆平 「TOKYO GRAFFITI ARCHIVE 東京グラフィティアーカイブ 」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/b1e97236/%E3%83%8F%E3%82%9A%E3%83%8D%E3%83%AB%E5%B1%95%E7%94%A8%E7%B4%A0%E6%9D%90%E2%91%A0-2000x1414.jpg",
+      "description": "エアロゾルスプレーやフェルトペンなどを用いてストリートに名前を記し、己の存在を表現する「グラフィティ」。1960年代の末、ニューヨークの若者たちによって始められたその文化は、ストリートカルチャーの盛り上がりとともに世界、そして日本にも拡散され、いまやあらゆる場所で目にするまでに発展したーーー\n\n2026年6月、左右社より日本におけるグラフィティ写真集『TOKYO GRAFFITI ARCHIVE 東京グラフィティアーカイブ』が刊行されました。少し時間が経ちましたが、刊行を記念して写真展を開催いたします。\n\n2015年から東京オリンピック2020の直前までに、おもに渋谷を中心としたエリアで撮影された200枚以上のストリートの写真。そこに映り込むグラフィティは、すでにそのほとんどが消されているか、建物自体が消失してしまっています。この貴重な記録集を手掛けたのは、20年にわたって“都市とは何か”をテーマとし、モノクロフィルムによるストリートスナップを中心に作品を展開し続けてきた、写真家の横山隆平さん。\n\n「2010年代、たしかにこんな街の姿があった」\n\nそう、どこか懐かしくなるような、雑多で熱気あふれる街の姿をぜひお楽しみください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-15",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "a99c05f8f3ec",
+        "name": "誠光社",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "세이코샤"
+          },
+          "en": {
+            "name": "Seikosha"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.01830679587178,
+        "lng": 135.76959521842002
+      },
+      "artists": [
+        {
+          "id": "566f3eb99723",
+          "name": "横山隆平",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Ryuhei-Yokoyama-Tokyo-Graffiti-Archive/seikosha/2026-10-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f694560c29ce",
+      "source": "totem_pole",
+      "title": "Gems and A Rose",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://tppg.jp/wp/wp-content/uploads/2026/09/gems-and-a-rose_1.jpeg",
+      "description": "蔡云逸、楊喩雯 / Clarice Yunyi Cai、Yang Yuwen\n\n宝石と薔薇 / Gems and A Rose\n\n2026.10.6 (Tue) – 10.18 (Sun)\n\nOpen 12:00 – 19:00 Closed Mondays\n\nWe are two, isolated like gems in our unthinkable otherness. But the rose contains and transcends us, we are one rose, beyond.— D.H. Lawrence, “Love,” in Love, Sex, Men, and WomenD.H.ロレンスが語った愛のかたちを、現代を生きる私たちは、どのように受け取り直すことができるのだろうか。極めて官能的な愛の炎のなかで、破壊的で緊張を孕んだ炎の摩擦の中、人は相手の根本的な他者性によって滅ぼされ、その本質的な他者性へと還元されてしまう。これは破壊的な、俗世の愛である。しかしこれは、私たちをそれぞれ独自の個体へと浄化してくれる唯一の炎でもある。私たちを混沌の中から溶かし出し、宝石のような唯一無二の、独立した存在へと焼き鍛える。そして薔薇は、そうした二つの存在を包み込み、超越する愛そのものである。本展では、ロレンスの愛をめぐる思考をひとつの起点としながら、二人の女性作家が、それぞれの視点と異なるメディアを通して、愛、個体、そして他者との関係をあらためて見つめ直す。\n\n蔡云逸｜美術家1995年上海生まれ、Dream Diaryと記憶をベースとした物語を想像し、ポエティックな作品を作る。2018年東京藝術大学院美術研究科先端表現専攻卒業、2023年武蔵野美術大学博士号取得。第56回昭和会展パリ賞、「TOKYO MIDTOWN AWARD 2021」アート部門優秀賞を受賞。個展2025 「Satan’s Murmuring」 Gallery Where 北京、中国2025 CAI YUNYI Solo Exhibition LEA project マドリード、スペイン2025 新世代への視点 2025 蔡云逸展、コバヤシ画廊 東京\n\n楊 喩雯 / Yang Yuwen\n\nProfile / Artist Site",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-06",
+      "end_date": "2026-10-18",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5163e693d1ea",
+        "name": "Totem Pole Photo Gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "토템 폴 포토 갤러리"
+          },
+          "ja": {
+            "name": "Totem Pole Photo Gallery"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.6901810430105,
+        "lng": 139.71638630984123
+      },
+      "artists": [
+        {
+          "id": "0a0b35d22329",
+          "name": "蔡云逸、楊喩雯 / Clarice Yunyi Cai、Yang Yuwen",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://tppg.jp/gems-and-a-rose/",
       "featured": false,
       "popularity_score": null
     }
@@ -91802,6 +92113,34 @@
       "country": "JP",
       "lat": 35.63004,
       "lng": 139.7432,
+      "website": null
+    },
+    {
+      "id": "0a436c7490b5",
+      "name": "新潟市新津美術館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "新潟県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 37.7624414629265,
+      "lng": 139.1123682209015,
+      "website": null
+    },
+    {
+      "id": "a16e9aad4c77",
+      "name": "void+（ヴォイドプラス）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "表参道、青山",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.664391771095,
+      "lng": 139.7146486416651,
       "website": null
     }
   ],
@@ -112331,6 +112670,36 @@
     {
       "id": "5cd2d05bb3a7",
       "name": "サトウタケヒト",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8669f2db06cd",
+      "name": "本橋松二（ギャラリーA）",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c3f06251c56b",
+      "name": "Federico CAMPANALE（ギャラリーB）",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7c02a3f6c394",
+      "name": "ジェローム・ミン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1629e41741b5",
+      "name": "髙橋恭司",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0a0b35d22329",
+      "name": "蔡云逸、楊喩雯 / Clarice Yunyi Cai、Yang Yuwen",
       "lang": null,
       "tr": {}
     }
