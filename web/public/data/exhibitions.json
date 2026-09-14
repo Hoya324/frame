@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T20:32:28.207411+00:00",
+  "generated_at": "2026-09-14T21:58:34.728622+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -27959,7 +27959,7 @@
       "price_max": null,
       "start_date": "2026-05-26",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2cae7bd4b141",
@@ -40269,7 +40269,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2cae7bd4b141",
@@ -48408,7 +48408,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "0dc4fba72bd9",
@@ -54547,7 +54547,7 @@
       "price_max": null,
       "start_date": "2026-09-07",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -57237,20 +57237,11 @@
       "popularity_score": null
     },
     {
-      "id": "e871bbd475a3",
-      "source": "photo_sema",
+      "id": "3408614026a3",
+      "source": "sema",
       "title": "《마틴 파 : We Are Martin Parr》",
-      "lang": "ko",
-      "tr": {
-        "en": {
-          "title": "《Martin Parr: We Are Martin Parr》",
-          "description": "The intense colors and close-up perspectives we encounter daily in advertising images, social media, and tourist snapshots are no longer unfamiliar to us. World-renowned photographer Martin Parr (1952–2025) has persistently captured these sensibilities of contemporary visual culture for decades. His photographs, imbued with his unique humor and observational skills, have become a vast landscape that interprets our lives and culture, breathing alongside us. Commemorating the artist's legacy, 《Martin Parr: We Are Martin Parr》 is the first large-scale retrospective held in Asia after his passing. This exhibition presents 14 series and over 500 works, ranging from his early career to his later years, along with an introduction to the 90 photo books he published. Notably, works related to South and North Korea, photographed during his visits to Korea from the late 1990s to the early 2000s, can also be seen here.\n\nMartin Parr, who worked as an artist for the world-renowned photography group Magnum Photos*, has been the most persistent observer of everyday life and visual culture in modern society for decades. He consistently documented how people express themselves through images in tourist destinations, sports stadiums, fast-food restaurants, and bustling streets around the world where leisure and consumption take place. In particular, the expanding consumer culture and mass tourism landscape after the 1980s became an important backdrop for his work. It is not enough to simply understand his photographs as images that criticize or satirize consumer society. His gaze does not distance itself from the subject but rather moves closer to that world. The artist's gaze, lingering on exaggerated colors, dense compositions, and moments that might otherwise be overlooked, makes us look at familiar daily life in an unfamiliar way. The figures in this familiar world are not protagonists of special events. They are ordinary neighbors around us: people enjoying holidays with sunglasses, shoppers at supermarkets, or those eating food or taking pictures. In such seemingly trivial scenes, Martin Parr sharply captures our desires, tastes, consumption, and behavioral patterns today. The landscape of life, where we adorn, record, and remember ourselves through images, is finally revealed clearly through his unique humorous observation.\n\nIn an era like today, where artificial intelligence rapidly produces smooth and homogeneous images, his photographs rather remind us of the materiality and immediacy of photography as a medium. He focuses on accidental moments, overflowing everyday scenes, and somewhat awkward and imperfect situations, rather than refined beauty. Therefore, his photographs do not merely record a specific era but rather prompt us to question what we see and how we perceive it within contemporary visual culture. This exhibition aims to follow Martin Parr's long-held 'way of seeing, honestly confronting head-on.' Rather than confining his photographs to a specific message, we focus on the gaze itself, which deeply assimilates with the subject and spreads joyfully. Figures captured at an excessively close distance and objects filled with intense colors overlap precisely with our present-day selves. That is, us as beings who consume, enjoy, and constantly reveal ourselves through images. And it asks: Are we looking at them? Or are we already standing together within that scene?\n\n*Magnum Photos is an international group of photographers and a photo agency established in 1947, a representative collective of photographers who have led the trend of modern documentary photography."
-        },
-        "ja": {
-          "title": "《マーティン・パー : We Are Martin Parr》",
-          "description": "今日、私たちが広告イメージやSNS、観光スナップ写真で毎日目にする強烈な色彩と密着した視線は、もはや見慣れないものではありません。世界的な写真家マーティン・パー（1952–2025）は、まさにこのような同時代の視覚文化の感覚を数十年間執拗に捉え続けてきました。彼が特有のユーモアと観察力で残した写真たちは、私たちの生活と文化を読み解く一つの巨大な風景となり、私たちの傍らで息づいています。このような作家の足跡を称える《マーティン・パー: We Are Martin Parr》は、作家没後アジアで初めて開催される大規模な回顧展です。本展では、初期の作品から晩年に至る14のシリーズと500点余りの作品を展示し、彼が出版した全90冊の写真集も併せて紹介します。特に1990年代後半から2000年代初頭にかけて韓国を訪れて撮影した、韓国と北朝鮮に関する作品も今回の場で一緒に見ることができます。\n\n世界的な写真家グループ、マグナム・フォト（Magnum Photos）*の作家として活動したマーティン・パーは、この数十年間、現代社会の日常と視覚文化を最も執拗に観察してきた写真家です。彼は、レジャーと消費が行われる世界中の観光地やスポーツ競技場、ファストフード店、活気あふれる街角で、人々がイメージを通じて自らを表現する様子を絶えず記録してきました。特に1980年代以降に拡大した消費文化と大衆観光の風景は、彼の作品を構成する重要な背景となりました。彼の写真を単に消費社会を批判したり風刺したりするイメージとしてのみ理解するには十分ではありません。彼の視線は対象と距離を置くよりも、むしろその世界に近づいていきます。誇張された色彩と密度の高い画面、何気なく通り過ぎてしまいそうな瞬間に留まる作家の視線は、慣れ親しんだ日常を異質なものとして見つめさせます。この親しみやすい世界の中の人物たちは、特別な事件の主人公ではありません。サングラスをかけて休暇を楽しむ人々、スーパーマーケットの買い物客、あるいは食事をしたり写真を撮ったりする私たちの身近な隣人たちです。マーティン・パーはこのように些細な場面の中で、今日私たちが持つ欲望や好み、消費と行動様式を鋭く捉え出します。イメージを通じて自らを飾り、記録し、記憶する生活の風景が、彼特有のユーモラスな観察を通じて初めて鮮明に現れるのです。\n\n今日のように人工知能が滑らかで均質な画像を素早く生産する時代において、彼の写真はむしろ写真という媒体の物質性と現場性を改めて思い出させます。彼は洗練された美しさよりも、偶発的な瞬間や溢れる日常の風景、どこかぎこちなく不完全な場面に注目します。それゆえ、彼の写真は特定の時代を記録するにとどまらず、同時代の視覚文化の中で私たちが何を見てどのように見ているのかを再び問いかけます。今回の展示は、マーティン・パーが長年固守してきた「正直に正面から向き合う見方」を辿ってみようとするものです。彼の写真を特定のメッセージに閉じ込めるのではなく、対象と深く同化し、愉快に広がっていく視線そのものに注目します。過度に接近した距離で捉えられた人物たちと、強烈な色彩に満ちた事物たちは、今日の私たちの姿とそっくり重なります。消費し、楽しみ、イメージを通じて絶えず自らを表現する存在としての私たち、ということです。そして問いかけます。私たちは彼らを見つめているのでしょうか。それとも、すでにその場面の中に一緒に立っているのでしょうか。\n\n*マグナム・フォト（Magnum Photos）は1947年に設立された国際的な写真家グループであり写真エージェンシーで、現代ドキュメンタリー写真の流れを牽引してきた代表的な写真家集団です。"
-        }
-      },
+      "lang": null,
+      "tr": {},
       "poster_image_url": "https://sema.seoul.go.kr/common/imgFileView?FILE_ID=1014363",
       "description": "오늘날 우리가 광고 이미지나 SNS, 관광 스냅사진에서 매일 마주하는 강렬한 색채와 밀착된 시선은 더 이상 낯설지 않습니다. 세계적인 사진가 마틴 파(1952–2025)는 바로 이러한 동시대 시각문화의 감각을 수십 년간 집요하게 포착해 왔습니다. 그가 특유의 유머와 관찰력으로 남긴 사진들은 우리의 삶과 문화를 읽어내는 하나의 거대한 풍경이 되어 우리 곁에 숨 쉬고 있습니다. 이러한 작가의 발자취를 기리는 《마틴 파: We Are Martin Parr》는 작가 사후 아시아에서 처음 열리는 대규모 회고전입니다. 이번 전시에서는 초기 작업부터 말년에 이르는 14개 시리즈와 500여 점의 작품을 선보이며, 그가 출판한 총 90권의 사진집을 함께 소개합니다. 특히 1990년대 후반부터 2000년대 초반까지 한국을 방문하며 촬영한 남한과 북한 관련 작업 역시 이번 자리에서 함께 만나볼 수 있습니다.\n\n세계적인 사진가 그룹 매그넘 포토스(Magnum Photos)*의 작가로 활동한 마틴 파는 지난 수십 년간 현대 사회의 일상과 시각문화를 가장 집요하게 관찰해 온 사진가입니다. 그는 여가와 소비가 이루어지는 전 세계의 관광지와 스포츠 경기장, 패스트푸드점과 활기 넘치는 거리에서 사람들이 이미지를 통해 스스로를 드러내는 방식을 꾸준히 기록해 왔습니다. 특히 1980년대 이후 확장된 소비문화와 대중관광의 풍경은 그의 작업을 이루는 중요한 배경이 되었습니다. 그의 사진을 단순히 소비사회를 비판하거나 풍자하는 이미지로만 이해하기에는 충분하지 않습니다. 그의 시선은 대상과 거리를 두기보다 오히려 그 세계 가까이로 들어갑니다. 과장된 색채와 밀도 높은 화면, 무심히 지나칠 법한 순간들에 머무는 작가의 시선은 익숙한 일상을 낯설게 바라보게 만듭니다. 이 친근한 세계 속 인물들은 특별한 사건의 주인공이 아닙니다. 선글라스를 끼고 휴가를 즐기는 사람들, 마트의 쇼핑객, 혹은 음식을 먹거나 사진을 찍는 우리 주변의 평범한 이웃들입니다. 마틴 파는 이렇듯 대수롭지 않은 장면 안에서 오늘날 우리가 지닌 욕망과 취향, 소비와 행동 방식을 예리하게 포착해 냅니다. 이미지를 통해 스스로를 꾸미고 기록하며 기억하는 삶의 풍경이 특유의 유머러스한 관찰을 통해 비로소 선명하게 드러나는 것입니다.\n\n오늘날처럼 인공지능이 매끄럽고 균질한 이미지를 빠르게 생산해내는 시대에 그의 사진은 오히려 사진이라는 매체의 물질성과 현장성을 다시 떠올리게 합니다. 그는 정제된 아름다움보다 우연한 순간과 넘쳐나는 일상의 풍경, 어딘가 어색하고 불완전한 장면들에 주목합니다. 그렇기에 그의 사진은 특정 시대를 기록하는 데 머물지 않고, 동시대 시각문화 속에서 우리가 무엇을 보고 어떻게 바라보는지를 다시 질문하게 만듭니다. 이번 전시는 마틴 파가 오랜 세월 고수해 온 ‘솔직하게 정면으로 마주하는 보기의 방식’을 따라가 보고자 합니다. 그의 사진을 특정한 메시지에 가두기보다, 대상과 깊이 동화되어 유쾌하게 번져 나가는 시선 그 자체에 주목합니다. 지나치게 가까운 거리에서 포착된 인물들과 강렬한 색채로 가득한 사물들은 오늘날 우리의 모습과 고스란히 겹쳐집니다. 소비하고 즐기며, 이미지를 통해 끊임없이 자신을 드러내는 존재로서의 우리 말입니다. 그리고 묻습니다. 우리는 그들을 바라보고 있는 것일까요. 아니면 이미 그 장면 안에 함께 서 있는 것일까요.\n\n*매그넘 포토스(Magnum Photos)는 1947년 설립된 국제 사진가 그룹이자 사진 에이전시로, 현대 다큐멘터리 사진의 흐름을 이끌어온 대표적인 사진가 집단입니다.",
       "medium": "photo",
@@ -57264,21 +57255,14 @@
       "status": "ongoing",
       "open_hours": null,
       "venue": {
-        "id": "0923603ff7b6",
-        "name": "서울시립 사진미술관",
-        "lang": "ko",
-        "tr": {
-          "en": {
-            "name": "Seoul Museum of Photography"
-          },
-          "ja": {
-            "name": "ソウル市立写真美術館"
-          }
-        },
-        "region": null,
+        "id": "5aa8b91a99e6",
+        "name": "Photography Seoul Museum of Art",
+        "lang": null,
+        "tr": {},
+        "region": "서울",
         "district": null,
-        "lat": 37.6555150225578,
-        "lng": 127.048947814686
+        "lat": 37.65551475245142,
+        "lng": 127.04894736120839
       },
       "artists": [],
       "source_url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1553791",
@@ -63062,7 +63046,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "11d9da4f76f5",
@@ -64138,7 +64122,7 @@
       "price_max": null,
       "start_date": "2026-08-19",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "05006a834bff",
@@ -64897,7 +64881,7 @@
       "price_max": null,
       "start_date": "2026-08-21",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "a900af852e17",
@@ -66092,7 +66076,7 @@
       "price_max": null,
       "start_date": "2026-09-01",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "5163e693d1ea",
@@ -67112,7 +67096,7 @@
       "price_max": null,
       "start_date": "2026-09-02",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "018b6124fde6",
@@ -67878,7 +67862,7 @@
       "price_max": null,
       "start_date": "2026-08-15",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "1d4115c60595",
@@ -68395,7 +68379,7 @@
       "price_max": null,
       "start_date": "2026-08-17",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "8102261bc897",
@@ -68514,7 +68498,7 @@
       "price_max": null,
       "start_date": "2026-09-08",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "01d56f5bd85a",
@@ -68844,7 +68828,7 @@
       "price_max": null,
       "start_date": "2026-09-14",
       "end_date": "2026-09-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -69045,7 +69029,7 @@
       "price_max": null,
       "start_date": "2026-09-05",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "d0718ada2e82",
@@ -69094,7 +69078,7 @@
       "price_max": null,
       "start_date": "2026-09-08",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "14db67420757",
@@ -69210,7 +69194,7 @@
       "price_max": null,
       "start_date": "2026-08-15",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "520572d2b656",
@@ -71718,20 +71702,11 @@
       "popularity_score": null
     },
     {
-      "id": "d15bd2ef36f8",
+      "id": "53147497b027",
       "source": "sema",
       "title": "서울시립 서서울미술관 미디어 작가전 《김희천: 두더지들》",
-      "lang": "ko",
-      "tr": {
-        "en": {
-          "title": "Seoul Museum of Art Seosoul Media Artist Exhibition 《Kim Heecheon: Moles》",
-          "description": "Seoul Museum of Art Seosoul Media Artist Exhibition 《Kim Heecheon: Moles》\n\nThe Seoul Museum of Art Seosoul Media Artist Exhibition is a special exhibition at the Seosoul Museum of Art that spotlights major contemporary Korean media artists who have presented artistic perspectives on rapidly changing society. The Media Artist Exhibition aims to interpret the artist's world of work from various angles, support the creation of new works, and foster artistic knowledge and forms.\n\nThe Media Artist Exhibition, held for the first time at the Seosoul Museum of Art, invited artist Kim Heecheon, who has presented critical perspectives on contemporary technological environments and visual culture. In modern society, physical systems are being digitized and connected to digital environments, constantly updating each other and reconstructing the world. The artist has questioned how the virtual operates as a layer of reality, and how the existence of 'I' can be perceived in a world where technology has become invisible. The artist's unique work, created by intersecting languages and technologies from various fields such as video, games, architecture, film, and literature, provides us, living in this contemporary era, with critical and aesthetic perspectives for self-reflection, and for perceiving and sensing the world.\n\nThe sentence “The world has become a screen,”1 described in the artist's first video work 〈Babel〉 (2015), expresses the artist's perspective on the world. Based on images captured by the camera, the artist posits that in a moving world, the screen is no longer a medium that replicates reality but an environment that produces reality and constitutes the world. In 〈Mesher〉 (2018), the artist states that in the future, “the only world we can perceive will be the world illuminated and captured by the screen.”2 Through works such as 〈Sled〉 (2016), 〈Home〉 (2017), 〈Mesher〉 (2018), and 〈Tank〉 (2019), the artist has depicted a world and cultural landscape mediated by media, while deeply exploring issues such as reality and virtuality, data and networks, internalized screens, the resolution of the world, consciousness, and experience, by intersecting multidimensional time and space. The artist moves beyond simply representing various themes of this technological environment within their work, instead using them as a technology to produce images and narratives within the structure of visual media, and sometimes designing them as a process to mediate us and the world we live in.\n\nThis exhibition focuses on introducing the artist's recent works since 2023, and for the first time, unveils game, video, and photography works produced with the support of the Seosoul Museum of Art. The “spiritual series”3, 〈Cutter3〉 (2023) and 〈Double Forger〉 (2023), are auto-playing game works created with the Unity game engine. These two works are not screen recordings played back as videos, but rather 'games' that are rendered in real-time via input values and played automatically. The artist experimented with whether a game engine could be used as a new tool for creating moving images, and used the spatiotemporal conditions and narratives of games to address the changing temporality in an information-driven world.\n\nThe new work 〈Lemon〉 (2026) began with the imagination that a mole, which appeared as an Easter egg4 in 〈Cutter3〉 and 〈Double Forger〉, had been secretly moving between the two works, digging tunnels. 〈Lemon〉 unfolds by following the gameplay of 'Butter3', a fictional video game starring the mole 'Butter'. In the work, the 'mole' possesses the characteristics of a double agent moving between different game worlds, symbolizing both the desire to escape an environment captured by technology and an entity that shakes a self singularly fixed by technology.\n\nWith the advent of smartphones, personalized algorithms capture what the subject sees and reacts to, and the system, in turn, intervenes in what the subject sees and reacts to through technology-mediated interfaces. In a world where technology has become invisible due to advanced performance, the subject cannot perceive the interface, and the distance between the system and the subject disappears, making it impossible to distinguish between the technology-mediated world and the world they have experienced. Now, the system captures, models, and predicts the subject at the screen level, and the subject, surrounded by experiences created by such artificial systems, repeatedly internalizes the modeled results.5 Against this backdrop, the new work 〈Marlin〉 (2026) is a multi-channel video created with generative artificial intelligence (AI), and it addresses the changes that the near-future image ecosystem surrounding us will bring to the world, and the resulting shifts in human perception and perspective.\n\nThe photography work 〈.dng〉 (2026), unveiled for the first time, consists of about 100 photographs selected for this exhibition from 5,841 photos taken by the artist with a mobile phone. The exhibited photographs are not fixed to a specific theme but capture the flow of time and accidental, discontinuous experiences. Recorded through 'the artist's eye,' the photographs capture the relationship between the self living in the present and the external world within a certain frame through personal narratives.\n\nThis exhibition will provide an opportunity for deep reflection on society and culture changing under the influence of contemporary technological environments and media, as well as on existence and perception, time and space, technology and humanity. It is structured to allow visitors to temporarily depart from the surface and experience a sensory journey where reality and virtuality intersect, within a space that combines the artificial environment of the museum with the digital imagination of the artworks.\n\nLee Seongmin (Curator, Seoul Museum of Art)\n\n1 Excerpt from artist Kim Heecheon's 'Memo (2025.10)'.\n\n2 Excerpt from artist Kim Heecheon's 'Memo (2025.10)', from a text describing the worldview of 〈Mesher〉.\n\n3 “A sequel that does not directly follow the background or worldview of a previous work but shares its elements is called a ‘spiritual successor.’ As 〈Cutter3〉 is the spiritual successor to 〈Double Forger〉, which was created later, these two have been arbitrarily named the ‘spiritual series.’” Refer to artist Kim Heecheon’s memo ‘Mole 01 and Mole 02’ (2026.2).\n\n4 An Easter egg is a message or feature hidden by developers within a program that does not affect the game's controls or story progression.\n\n5 Refer to artist Kim Heecheon's 'Marlin_Pre-memo (2026.5)'"
-        },
-        "ja": {
-          "title": "ソウル市立西ソウル美術館 メディア作家展 《キム・ヒチョン: モグラたち》",
-          "description": "ソウル市立西ソウル美術館 メディア作家展 《キム・ヒチョン: モグラたち》\n\nソウル市立西ソウル美術館メディア作家展は、急激に変化する社会に対する芸術的観点を提示してきた韓国の主要な現代メディア作家に焦点を当てる、西ソウル美術館の企画展です。メディア作家展は、作家の作品世界を多角的に解釈し、新作の制作を支援し、芸術的知識と形態を創造していくことを目指します。\n\n西ソウル美術館で初めて開催されるメディア作家展は、現代の技術環境と視覚文化に対する批判的な視点を提示してきたキム・ヒチョン作家を招聘しました。現代社会において、物理的システムはデータ化され、デジタル環境と接続されることで、互いを絶えず更新し、世界を再構築しています。作家は、仮想が現実の一層として機能し、技術が不可視化された世界で「私」という存在をどのように知覚できるのかを問い続けてきました。映像、ゲーム、建築、映画、文学など、様々な分野の言語と技術を交差させながら作り上げてきた作家の独自の作品は、同時代を生きる私たちに、自己を省察し、世界を認識し、感覚するための批判的かつ美学的な視点を提供します。\n\n作家の最初のビデオ作品〈バベル〉(2015)で記述された「世界はスクリーンになった。」1 という文章は、作家が世界を眺める観点を表現しています。作家は、カメラで捉えたイメージを基に動く世界において、スクリーンはもはや現実を複製する媒体ではなく、現実を生産し、世界を構成する環境になったと述べ、〈メッシャー〉(2018)では、未来には「スクリーンが映し出し、捉えた世界だけが私たちが認識できる唯一の世界」2 であるだろうと語ります。〈ソルメ〉(2016)、〈ホーム〉(2017)、〈メッシャー〉(2018)、〈タンク〉(2019)などを経由しながら、作家はメディアを通じて媒介された世界と文化的風景を描く一方で、実在と仮想、データとネットワーク、内在化されたスクリーン、世界の解像度、意識と経験などの問題を多次元的な時間と空間を交差させながら深く扱ってきました。作家は、このような技術環境が持つ様々なテーマを作品内で単に再現する形式から脱却し、視覚的媒体の構造の中でイメージと叙事を生産する技術として使用し、私たちと私たちが生きる世界を媒介するためのプロセスとして設計することもあります。\n\n今回の展覧会は、2023年以降の作家の近作に焦点を当てて紹介するとともに、西ソウル美術館が制作支援して作られたゲーム、映像、そして写真作品を初めて公開します。「精神的シリーズ」3 である〈カッター3〉(2023)と〈ダブルフォージャー〉(2023)は、ゲームエンジンUnityで制作された自動再生ゲーム作品です。これら二つの作品は、画面を録画して映像として再生するのではなく、入力値を通じてリアルタイムでレンダリングされる「ゲーム」として自動プレイされます。作家は、ゲームエンジンを新しいムービングイメージ制作ツールとして使用できるかを実験しながら、ゲームの時空間的条件とナラティブを利用して、情報化された世界における変化する時間性を扱いました。\n\n新作〈レモン〉(2026)は、〈カッター3〉と〈ダブルフォージャー〉でイースターエッグ4として登場したモグラが、二つの作品の間を、トンネルを掘りながら密かに行き来していたという想像から始まりました。〈レモン〉は、モグラ「バター」を主人公とした架空のビデオゲーム「バター3」のプレイに沿って展開されます。作品において「モグラ」は、異なるゲーム世界を行き来する二重スパイの属性を持ち、技術に捕獲された環境から脱却しようとする願望を象徴すると同時に、技術によって単一に固定された自己を揺るがす存在です。\n\nスマートフォンの登場とともに、パーソナライズされたアルゴリズムは主体が何を見て反応するかを捉え、システムは再び技術が媒介するインターフェースを通じて主体が何を見て反応するかに介入します。性能の高度化により技術が不可視化された世界では、主体はインターフェースを認識できなくなり、システムと主体の距離は消滅し、技術が媒介した世界と自身が経験した世界を区別できなくなります。今やシステムはスクリーンの層位で主体を捉え、モデリングし、予測し、主体はこのような人工のシステムによる経験に囲まれながら、モデリングされた結果を繰り返し内在化するようになります。5 このような背景から制作された新作〈マルリン〉(2026)は、生成型人工知能(AI)で作られた多チャンネル映像で、作品は私たちを取り巻く近未来のイメージ生態系が世界にもたらす変化と、それに伴う人間の認識と視点の変化を扱っています。\n\n今回初めて公開される写真作品である〈.dng〉(2026)は、作家が携帯電話で撮影した5,841枚の写真の中から、今回の展覧会のために選別した約100点の写真で構成されます。展示された写真は一定のテーマに固定されず、時間の流れと偶発的で不連続な経験を捉えています。「作家の目」で記録された写真は、個人的な叙事を通じて、現在を生きる私と外部世界との関係を一定のフレームの中で捉えます。\n\n今回の展覧会は、現代の技術環境とメディアの影響により変化する社会と文化に対する省察とともに、存在と知覚、時間と空間、技術と人間について深く思索する機会を提供するでしょう。美術館という人工的な環境と作品のデジタル的想像力が結合した空間で、観覧客が地表面を一時的に離れ、実在と仮想が交差する感覚的な旅を経験できるよう構成されます。\n\nイ・ソンミン (ソウル市立美術館 学芸研究士)\n\n1 キム・ヒチョン作家の「メモ(2025.10)」より抜粋。\n\n2 キム・ヒチョン作家の「メモ(2025.10)」における〈メッシャー〉の世界観に関する記述より抜粋。\n\n3 「前作の背景や世界観と直接的には繋がらないが、前作の要素をそのまま共有する形式の続編を『精神的続編(spiritual successor)』と呼ぶ。〈カッター3〉は後に作られた〈ダブルフォージャー〉の精神的続編であるため、この二つを任意に『精神的シリーズ』と名付けた。」キム・ヒチョン作家のメモ「モグラ01とモグラ02」(2026.2)を参照。\n\n4 イースターエッグ(Easter egg)は、開発者がプログラムの中に隠したメッセージや機能で、ゲームの操作方法やストーリーの進行には影響しない。\n\n5 キム・ヒチョン作家の「マルリン_先行メモ(2026.5)」を参照。"
-        }
-      },
+      "lang": null,
+      "tr": {},
       "poster_image_url": "https://sema.seoul.go.kr/common/imgFileView?FILE_ID=1015413",
       "description": "서울시립 서서울미술관 미디어 작가전 《김희천: 두더지들》\n\n서울시립 서서울미술관 미디어 작가전은 급격하게 변화하는 사회에 대한 예술적 관점을 제시해 온 한국 동시대 주요 미디어 작가를 집중 조명하는 서서울미술관의 기획 전시입니다. 미디어 작가전은 작가의 작업 세계를 다각도로 해석하며, 새로운 작품의 제작을 지원하고, 예술적 지식과 형태를 만들어가고자 합니다.\n\n서서울미술관에서 처음 열리는 미디어 작가전은 동시대 기술환경과 시각문화에 대한 비평적인 관점을 제시해 온 김희천 작가를 초청하였습니다. 현대 사회에서 물리적 시스템은 데이터화 되어 디지털 환경과 연결되면서 서로를 끊임없이 갱신하고 세계를 재구성하고 있습니다. 작가는 가상이 현실의 한 층위로 작동하고, 기술이 비가시화된 세계에서 ‘나’라는 존재를 어떻게 지각할 수 있는가를 질문해 왔습니다. 영상, 게임, 건축, 영화, 문학 등 여러 분야의 언어와 기술을 교차하며 만들어온 작가의 고유한 작업은, 동시대를 살아가는 우리에게 자신을 성찰하고 세계를 인식하고 감각하기 위한 비평적이고 미학적인 관점을 제공합니다.\n\n작가의 첫 비디오 작업 〈바벨〉(2015)에서 서술된 “세계는 스크린이 되었다.”1 라는 문장은 작가가 세계를 바라보는 관점을 표현하고 있습니다. 작가는 카메라로 포착한 이미지를 바탕으로 움직이는 세계에서 스크린은 더 이상 현실을 복제하는 매체가 아닌 현실을 생산하고 세계를 구성하는 환경이 되었고, 〈메셔〉(2018)에서는 미래에는 “스크린이 비추고 포착한 세계만이 우리가 인식할 수 있는 유일한 세계” 2 일 것이라고 말합니다. 〈썰매〉(2016), 〈홈〉(2017), 〈메셔〉(2018), 〈탱크〉(2019) 등을 경유하면서, 작가는 미디어를 통해 매개된 세계와 문화적 풍경을 그리는 한편, 실재와 가상, 데이터와 네트워크, 내재화된 스크린, 세계의 해상도, 의식과 경험 등의 문제를 다차원적인 시간과 공간을 교차하며 심도깊게 다루어왔습니다. 작가는 이러한 기술환경이 갖는 여러 주제를 작업 안에서 단순히 재현하는 형식을 벗어나, 시각적 매체의 구조 안에서 이미지와 서사를 생산하는 기술로 사용하고, 우리와 우리가 사는 세계를 매개하기 위한 과정으로 설계하기도 합니다.\n\n이번 전시는 2023년 이후 작가의 근작들을 집중해서 소개하면서, 서서울미술관이 제작 지원하여 만든 게임과 영상, 그리고 사진 작업을 처음 공개합니다. “정신적 시리즈” 3 인 〈커터3〉(2023)와 〈더블포져〉(2023)는 게임 엔진 유니티(Unity)로 제작된 자동 재생 게임 작업입니다. 두 작품은 화면을 녹화해서 영상으로 재생하는 것이 아닌, 입력값을 통해 실시간으로 렌더링 되는 ‘게임’으로서 자동 플레이됩니다. 작가는 게임 엔진을 새로운 무빙 이미지 제작 도구로 사용할 수 있는지를 실험하면서, 게임의 시공간적 조건과 내러티브를 이용해 정보화된 세계에서 변화하는 시간성을 다루었습니다.\n\n신작 〈레몬〉(2026)은 〈커터3〉와 〈더블포져〉에서 이스터 에그 4 로 등장했던 두더지가 두 작품 사이를, 땅굴을 파며 몰래 오가고 있었다는 상상에서 시작되었습니다. 〈레몬〉은 두더지 '버터'를 주인공으로 한 가상의 비디오 게임 ‘버터3’의 플레이를 따라 전개됩니다. 작품에서 ‘두더지’는 서로 다른 게임 세계를 오가는 이중첩자의 속성을 지니고 있으며, 기술에 포획된 환경에서 벗어나고자 하는 염원을 상징하는 동시에, 기술에 의해 단일하게 고정된 자아를 흔드는 존재입니다.\n\n스마트폰의 등장과 함께 개인화된 알고리듬은 주체가 무엇을 보고 반응하는지를 포착하고, 시스템은 다시 기술이 매개하는 인터페이스를 통해 주체가 무엇을 보고 반응하는지에 개입합니다. 성능의 고도화로 기술이 비가시화된 세계에서 주체는 인터페이스를 인식하지 못하고, 시스템과 주체의 거리는 사라져 기술이 매개한 세계와 자신이 경험한 세계를 더 이상 구분하지 못하게 됩니다. 이제 시스템은 스크린의 층위에서 주체를 포착하고 모델링하고 예측하며, 주체는 이러한 인공의 시스템에 의한 경험에 둘러싸이면서 모델링 된 결과를 반복적으로 내재화하게 됩니다.5 이러한 배경에서 제작된 신작 〈말린〉(2026)은 생성형 인공 지능(AI)으로 만든 다채널 영상으로, 작품은 우리를 둘러싼 근미래의 이미지 생태계가 세계에 가져올 변화와 이에 따른 인간의 인식과 시점의 변화를 다루고 있습니다.\n\n이번에 처음 공개되는 사진 작업인 〈.dng〉(2026)는 작가가 휴대전화로 촬영한 5,841장의 사진 중에서 이번 전시를 위해 선별한 100여 점의 사진으로 구성됩니다. 전시된 사진은 일정한 주제로 고정되지 않으며, 시간의 흐름과 우연적이고 불연속적인 경험을 담고 있습니다. ‘작가의 눈’으로 기록된 사진은 개인적 서사를 통해 현재를 살아가는 나와 외부 세계와의 관계를 일정한 프레임 안에서 포착합니다.\n\n이번 전시는 동시대 기술 환경과 미디어의 영향으로 변화하는 사회와 문화에 대한 성찰과 함께, 존재와 지각, 시간과 공간, 기술과 인간에 관해 깊이 사유할 수 있는 기회를 마련해줄 것입니다. 미술관이라는 인공적인 환경과 작품의 디지털적 상상력이 결합한 공간에서, 관람객들이 지표면을 잠시 이탈해 실재와 가상이 교차하는 감각적인 여정을 경험할 수 있도록 구성됩니다.\n\n이성민 (서울시립미술관 학예연구사)\n\n1 김희천 작가의 ‘메모(2025.10)’에서 발췌.\n\n2 김희천 작가의 ‘메모(2025.10)’에서 〈메셔〉의 세계관에 관해 서술한 글에서 발췌.\n\n3 “전작의 배경이나 세계관과 직접적으로 이어지지 않지만, 전작의 요소를 그대로 공유하는 방식의 후속작을 ‘정신적 후속작(spiritual successor)’이라 부른다. 〈커터3〉는 후에 만들어진 〈더블포져〉의 정신적 후속작인 관계로, 이 둘을 임의로 ‘정신적 시리즈’라 명했다.” 김희천 작가의 메모 ‘두더지 01과 두더지 02’(2026.2)를 참조.\n\n4 이스터 에그(Easter egg)는 개발자들이 프로그램 속에 숨겨놓은 메시지나 기능으로 게임의 조작 방법이나 스토리 진행에 영향을 미치지 않는다.\n\n5 김희천 작가의 ‘말린_선행메모(2026.5)’를 참조",
       "medium": "mixed",
@@ -71745,21 +71720,14 @@
       "status": "ongoing",
       "open_hours": null,
       "venue": {
-        "id": "abf8db56d88b",
-        "name": "서울시립 서서울미술관",
-        "lang": "ko",
-        "tr": {
-          "en": {
-            "name": "Seoul Metropolitan Seoseoul Museum of Art"
-          },
-          "ja": {
-            "name": "ソウル市立ソソウル美術館"
-          }
-        },
+        "id": "eb20cfd48f82",
+        "name": "Seo-Seoul Museum of Art",
+        "lang": null,
+        "tr": {},
         "region": "서울",
         "district": null,
-        "lat": 37.45774583773384,
-        "lng": 126.89553915985154
+        "lat": null,
+        "lng": null
       },
       "artists": [],
       "source_url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1565012",
@@ -71938,7 +71906,7 @@
       "price_max": null,
       "start_date": "2026-09-05",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "d0718ada2e82",
@@ -72344,7 +72312,7 @@
       "price_max": null,
       "start_date": "2026-08-29",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "55ce56517bf7",
@@ -72823,7 +72791,7 @@
       "price_max": null,
       "start_date": "2026-09-01",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "aaf20116001f",
@@ -72942,7 +72910,7 @@
       "price_max": null,
       "start_date": "2026-09-05",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "10bff6a85945",
@@ -73977,7 +73945,7 @@
       "price_max": null,
       "start_date": "2026-09-03",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "162d896d238b",
@@ -74376,7 +74344,7 @@
       "price_max": null,
       "start_date": "2026-09-08",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "54c1740b50d0",
@@ -74734,7 +74702,7 @@
       "price_max": null,
       "start_date": "2026-09-04",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "a675a16b2969",
@@ -75691,7 +75659,7 @@
       "price_max": null,
       "start_date": "2026-09-08",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "3b69a96c179c",
@@ -75854,7 +75822,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "81f43c8f3b9f",
@@ -76285,7 +76253,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "a61c8d163161",
@@ -76722,7 +76690,7 @@
       "price_max": null,
       "start_date": "2026-09-01",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "9feaf5101d3b",
@@ -77446,7 +77414,7 @@
       "price_max": null,
       "start_date": "2026-09-01",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "56a6b6cdf1d8",
@@ -77507,7 +77475,7 @@
       "price_max": null,
       "start_date": "2026-09-01",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "651dc68ae219",
@@ -78174,7 +78142,7 @@
       "price_max": null,
       "start_date": "2026-09-03",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "10849331c937",
@@ -78959,7 +78927,7 @@
       "price_max": null,
       "start_date": "2026-09-08",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -79362,7 +79330,7 @@
       "price_max": null,
       "start_date": "2026-09-05",
       "end_date": "2026-09-13",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "3f964f346a6a",
@@ -79400,7 +79368,7 @@
       "lang": null,
       "tr": {},
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/e6d410ff/gesta_conte_front%20-%20Fuminao%20SUENAGA%20(1).jpg",
-      "description": "「メディウムとディメンション：Continuum」は、東京造形大学の60周年記念事業「ゲシュタルトゥング企画の」の一つとして開催される、美術評論家・中尾拓哉のキュレーションによる「Continuum＝連続体」をテーマに異なる時間軸を含み込んで開催される展覧会です。本展は、5月、9月、12月の3回の会期にまたがりながら、それぞれを別の展覧会とせずに、3会期を通して1つの流れをつくり出していきます。ただし、それは統一的な時間と空間を土台とする一つのグループ展となるのではなく、複数の時間に向かって広がり、個別に展開されていくものです。鈴木のぞみ、玉山拓郎、Nerhol、三田村光土里の4人のアーティストは、過去・現在・未来という直線的な時間感覚に対して、発生、再生、転換、置換というようにその流れをそれぞれに扱い、また組み替えていきます。つまり、本展は形式的には一つの展覧会でありながらも、異なる時間軸を行き来しようとする4つの展覧会を同時に開催するものだと言えるでしょう。\n\nさらに、奥村雄樹、長田奈緒、鹿野震一郎、鈴木のぞみ、玉山拓郎、豊嶋康子、中尾拓哉、Nerhol、水上愛美、三田村光土里、山内祥太、山根一晃の作品による回顧展形式の展覧会「Maltiple-delay」を同時開催し、通常は過去から現在へと向かい展示が行われる展覧会の時間軸を逆転させ、現在から過去（原点）へと向かって展開していきます。本展は、展示空間の新たな次元を生成し、アートにおける時間と空間、その認識の境界について再考することで、現代表現に潜む連続性の意義を問い直します。",
+      "description": "「メディウムとディメンション：Continuum」は、東京造形大学の60周年記念事業「ゲシュタルトゥング企画の」の一つとして開催される、美術評論家・中尾拓哉のキュレーションによる「Continuum＝連続体」をテーマに異なる時間軸を含み込んで開催される展覧会です。本展は、5月、9月、12月の3回の会期にまたがりながら、それぞれを別の展覧会とせずに、3会期を通して1つの流れをつくり出していきます。ただし、それは統一的な時間と空間を土台とする一つのグループ展となるのではなく、複数の時間に向かって広がり、個別に展開されていくものです。鈴木のぞみ、玉山拓郎、Nerhol、三田村光土里の4人のアーティストは、過去・現在・未来という直線的な時間感覚に対して、発生、再生、転換、置換というようにその流れをそれぞれに扱い、また組み替えていきます。つまり、本展は形式的には一つの展覧会でありながらも、異なる時間軸を行き来しようとする4つの展覧会を同時に開催するものだと言えるでしょう。\n\nさらに、奥村雄樹、長田奈緒、鹿野震一郎、鈴木のぞみ、玉山拓郎、豊嶋康子、中尾拓哉、Nerhol、水上愛美、三田村光土里、山内祥太、山根一晃の作品による回顧展形式の展覧会「Maltiple-delay」を同時開催し、通常は過去から現在へと向かい展示が行われる展覧会の時間軸を逆転させ、現在から過去（原点）へと向かって展開していきます。本展は、展示空間の新たな次元を生成し、アートにおける時間と空間、その認識の境界について再考することで、現代表現に潜む連続性の意義を問い直します。\n\n[関連イベント]\nトークイベント「Continuum」とはなにか？――内（展覧会）と外（展覧会）の時間」\n日時: 2026年9月21日14:00〜16:00\n登壇者: 鈴木俊晴（豊田市美術館学芸員）、秋吉風人、玉山拓郎、中尾拓哉\n会場: BAU SHIBUYA（2F 教室21）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
       "exhibition_type": "group",
       "genre_tags": [],
@@ -79528,6 +79496,12 @@
         {
           "id": "d34a3c453a21",
           "name": "山内祥太",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "9688a61f3528",
+          "name": "秋吉風人",
           "lang": null,
           "tr": {}
         }
@@ -80651,9 +80625,9 @@
       "popularity_score": null
     },
     {
-      "id": "cd7d6a2a15f6",
+      "id": "3e4ae31e59bb",
       "source": "tokyo_art_beat",
-      "title": "島田篤人 「そこ一里 #03」",
+      "title": "嶋田篤人 「そこ一里 #03」",
       "lang": null,
       "tr": {},
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/320e5073/SokoIchiri_2026_main.jpeg",
@@ -80686,6 +80660,12 @@
         "lng": 139.70127030139764
       },
       "artists": [
+        {
+          "id": "aec5f306b1ec",
+          "name": "嶋田篤人",
+          "lang": null,
+          "tr": {}
+        },
         {
           "id": "f32e826420a6",
           "name": "島田篤人",
@@ -82613,7 +82593,7 @@
       "lang": null,
       "tr": {},
       "poster_image_url": "https://www.placem.com/schedule/2026/main/20261026/kushi_01.jpg",
-      "description": "2026.10.26 - 2026.11.01 櫛野浩良 人のいない風景 人の営みによって形づくられたものが、人の姿を伴わずに風景の中に存在する状態を撮影した写真展",
+      "description": "2026.10.26 - 2026.11.01 櫛野浩良 人のいない風景 私は、電柱、鉄塔、風車、田んぼなど、人の営みによって形づくられたものが、人の姿を伴わずに風景の中に存在して いる状態を撮影しています。 それらを本来の機能や用途だけではなく、人の営みが風景化したものとして捉えています。 そうした風景の中では、人の姿がなくても、構造物や場所を通して人間的な 気配が立ち上がることがあります。 自然と人工物のあいだにある均衡の中で、無機質でありながら人間的で、静かでありながらどこか緊張を含んでいる。 そういう瞬間に遭遇した時、固有の場所や文脈に回収されない余白を残し、記録だけには閉じない、見る人の記憶や感情へと開かれた風景であってほしいと思っています。",
       "medium": "photo",
       "exhibition_type": "solo",
       "genre_tags": [],
@@ -83033,6 +83013,583 @@
         }
       ],
       "source_url": "https://tppg.jp/gems-and-a-rose/",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "3fb1a95c946c",
+      "source": "tokyo_art_beat",
+      "title": "長倉洋海 「蒼き空に歌い、草原に横たわれ」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/5cc7ce2f/postcard.jpg",
+      "description": "写真家 長倉洋海氏は、50年にわたり、アフガニスタンやエルサルバドルなどの紛争地、アマゾンやシベリアなどの辺境の地、温暖化に揺れる南太平洋の島々など世界各地を訪れ、そこで生きる人々を撮影してきました。\n本展では、その中から「生きるとは何か」「人は何とつながって生きているのか」という問いをテーマに、58点の作品を展示します。会場では、印象的な大判作品も交えながら、長倉氏が世界各地で出会った人々や風景を臨場感豊かに紹介します。作品は、あたかもその場に佇むかのように土地の空気や人々の息遣いを伝えるとともに、長倉氏が半世紀にわたり見つめ続けてきた人間の営みや「生きること」の意味を問いかけます。\n\n[関連イベント]\n1. トークイベント\n日時: 10月10日 14:00～15:30\n登壇者: 長倉洋海\n場所: キヤノンホール S\n料金: 無料（要事前申込み）\n2. ギャラリートーク\n1. トークイベント\n日時: 10月3日・17日・31日・11月7日 各日とも14:00～15:00\n場所: キヤノンギャラリー S\n料金: 無料（申込み不要）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-02",
+      "end_date": "2026-11-10",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "0c280c625181",
+        "name": "キヤノンギャラリーS",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "캐논 갤러리 S"
+          },
+          "en": {
+            "name": "Canon Gallery S"
+          }
+        },
+        "region": "天王洲、品川",
+        "district": null,
+        "lat": 35.62571436431203,
+        "lng": 139.74076925334083
+      },
+      "artists": [
+        {
+          "id": "f0e81ad9a61e",
+          "name": "長倉洋海",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hiromi-Nagakura-Exhibition/6-F0-D796-D/2026-10-02",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "b1f59642c61e",
+      "source": "tokyo_art_beat",
+      "title": "「九州産業大学大学院 芸術研究科 造形表現専攻 写真・映像領域 作品展 Gazing at the Pulse 脈を見つめる」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/14aa5602/Outlook-q0yznrq4.png",
+      "description": "本写真展は、九州産業大学大学院芸術研究科写真・映像領域に在籍する大学院生による展覧会「Gazing at the Pulse 脈を見つめる」です。\n\n流れる血潮や生命の鼓動であり、その実態を直接目で見ることはできない「脈」は、目に見えないからといって、そこに「ない」わけではありません。人々の営みや木々、窓や電柱あるいは都市。一見バラバラに見えるこれらの風景は、その深層に流れる静かな気配や生命のリズムによってつながっています。私たちはカメラを通して、目の前に広がる光景の奥底へ眼差しを向け、見つめ続けてきました。写し出された対象を、単なる「目に映るだけの被写体」として消費するだけでは終わらせないように。その表層を、突き抜けさらに深くへ、世界の深層に潜む「脈動」を探る私たちの姿勢をここに込めました。会場に並ぶ多様な視点の交錯を通してから、皆様の日常の裏側にも流れている、静かで確かな脈動を感じ取っていただければ幸いです。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-02",
+      "end_date": "2026-10-08",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "fa66fa67ffb6",
+        "name": "ソニーイメージングギャラリー 銀座",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "소니 이미징 갤러리 긴자"
+          },
+          "en": {
+            "name": "Sony Imaging Gallery Ginza"
+          }
+        },
+        "region": "銀座、丸の内",
+        "district": null,
+        "lat": 35.67081410702651,
+        "lng": 139.76495499698825
+      },
+      "artists": [
+        {
+          "id": "f0906fbc6239",
+          "name": "甲斐菜月",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e122bee36bc3",
+          "name": "桂克栄",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "10425b738563",
+          "name": "朱世鵬",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "81325b831dfb",
+          "name": "張驍",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "826a4a2d136b",
+          "name": "陳健翎",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "f723564ddc5a",
+          "name": "陳子曦",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c6679ce01d33",
+          "name": "中村英史郎",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5d1263d95211",
+          "name": "楊燕姝",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kyushu-Sango-University-Graduate-School-Photography-Exhibition-Gazing-at-the-Pulse/61-AB7373/2026-10-02",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "3f68d4c79412",
+      "source": "tokyo_art_beat",
+      "title": "植田正治 + 牟禮朱美 展",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/64808155/kv.png",
+      "description": "世界的に知られる写真家・植田正治と、その教えを受けた写真家・牟禮朱美による二人展を開催します。ともに鳥取県出身で、植田は生涯にわたり鳥取を拠点に創作を続け、牟禮も現在、鳥取で制作活動を行っています。共通の被写体である「子ども」をテーマに、植田正治は「Shoji Ueda's Inner Child」、牟禮朱美は「さなぎの中はだれも知らない」を東京建物八重洲ビルで展示します。世代を超えて鳥取の風土に育まれた二人の写真家による、作品の響き合いをぜひご覧ください。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "9bb4307ccf48",
+        "name": "東京建物八重洲ビル",
+        "lang": null,
+        "tr": {},
+        "region": "京橋、日本橋",
+        "district": null,
+        "lat": 35.68236460000001,
+        "lng": 139.7713346
+      },
+      "artists": [
+        {
+          "id": "0a0cb36d131b",
+          "name": "植田正治",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "우에다 쇼지"
+            },
+            "en": {
+              "name": "Shoji Ueda"
+            }
+          }
+        },
+        {
+          "id": "1e6ed1cd084a",
+          "name": "牟禮朱美",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Shoji-Ueda-Akemi-Mure-Exhibition/Tokyo-Tatemono-Yaesu-Building/2026-10-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "d9c5b677876c",
+      "source": "tokyo_art_beat",
+      "title": "小城崇史 「つなぐ音つむぐ人 2026 〜未来に伝える雅楽の調べ〜」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/56ae3ea0/82f49b77-7033-406f-9682-24888d42cbac.jpg",
+      "description": "ユネスコ無形文化遺産にも登録された、世界最古のオーケストラともいわれる雅楽。日本古来の音楽や演舞と、アジア大陸から伝来した音楽が融合することで成立しているこの古典芸能に、民間の立場から伝承活動を続けているグループがあります。ふとしたきっかけでご縁をいただき、その世界に魅せられた作者が2008年から撮り続けてきた作品の中から、今回はコロナ禍以降に撮影された作品を展示します。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-12",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5d573a079256",
+        "name": "Gallery 463",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Gallery 463"
+          },
+          "ja": {
+            "name": "Gallery 463"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.69007461890496,
+        "lng": 139.72185528270845
+      },
+      "artists": [
+        {
+          "id": "5fb297bc3737",
+          "name": "小城崇史",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Takafumi-Kojo-Exhibition/gallery-463/2026-10-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f9face7a821f",
+      "source": "tokyo_art_beat",
+      "title": "「清川泰次 傑作展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/ef3ac16d/r8-2_page-0001.jpg",
+      "description": "独自の抽象表現を探求し続けた画家・清川泰次（1919-2000）。静岡県浜松市に生まれた清川は、1944年に慶応義塾大学を卒業後、本格的に画家として活動をはじめ、1947年に二科展に初入選を果たしました。1949年に東京・成城に移り、木造の自宅兼アトリエを構えます。1961年には、清川の趣向を反映させたコンクリートの建物へと姿を変えました。清川はここで多くの作品を生み出していきました。\n\n作家の没後、ご遺族からのご厚意により、自宅兼アトリエであった建物と作品を世田谷区へご寄贈いただき、2003年に清川泰次記念ギャラリーが世田谷美術館分館として開館しました。以来20年にわたり清川の画業を紹介してきましたが、建物老朽化により改築工事を予定しています。\n\n本展では、美術評論家の富永惣一が展評で取り上げた《題のない絵》（1959）から、清川泰次記念ギャラリーにご来館のお客様から人気の高かった作品まで、写真、立体作品なども交えてご紹介します。\n作家が過ごした建物での最後の展覧会となるこの機会に、清川泰次がアトリエに残した“傑作”の数々をご覧ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-01",
+      "end_date": "2027-02-28",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "64da213bfd00",
+        "name": "清川泰次記念ギャラリー／区民ギャラリー",
+        "lang": null,
+        "tr": {},
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.638603541982526,
+        "lng": 139.6008682784851
+      },
+      "artists": [
+        {
+          "id": "4ce8c940359d",
+          "name": "清川泰次",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kiyokawa-Taiji-Masterpieces/6-B054-AE9/2026-10-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "af6ed7ea900b",
+      "source": "tokyo_art_beat",
+      "title": "河合真人 「夜の香りが消えぬうちに」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/e53dcb9f/%E2%91%A1kawai_1.jpg",
+      "description": "京都写真美術館 ギャラリー・ジャパネスク2階展示室にて、2026年9月29日（火）から10月11日（日）まで、河合真人 個展「夜の香りが消えぬうちに」を開催します。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-11",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "54c1740b50d0",
+        "name": "京都写真美術館 ギャラリー・ジャパネスク",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "교토 사진 미술관 갤러리 재패네스크"
+          },
+          "en": {
+            "name": "Kyoto Museum of Photography Gallery Japanesque"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.009916818776944,
+        "lng": 135.78263679265976
+      },
+      "artists": [
+        {
+          "id": "64bd4a21a2a8",
+          "name": "河合真人",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Mahito-Kawai-Before-the-Scent-of-Night-Fades/kyoto-museum-of-photography-gallery-japanesque/2026-09-29",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "23493c5566e7",
+      "source": "tokyo_art_beat",
+      "title": "「ひつじの皮を脱いだ絵画教室展 vol.5」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/666b003f/%E3%83%81%E3%83%A9%E3%82%B7%E7%94%BB%E5%83%8F_%E3%82%AA%E3%83%A2%E3%83%86%20-%20Art%20School%20LUKA%20NOSE.jpg",
+      "description": "「ひつじの皮を脱いだ絵画教室展 vol.5」と題し、前後半に分けて約310名の生徒による作品を展示いたします。\n前半のおとなクラス生徒展示は、井上文雄氏（CAMP／ディレクター）のキュレーションによる「告発」を開催します。現代のアートシーンにおいて重要なテーマとなっている人権や社会正義、社会が抱えるさまざまな問題を背景に、普段はそれぞれの仕事や生活を持つ140名を超える社会人の生徒たちが、自ら問題意識を持ち、作品としてどのように表現できるのかに取り組みます。美術を専門とする作家だけではなく、一般の社会人が現代社会の問題について考え、それを作品として提示すること自体も、本展の重要な試みのひとつです。\n後半は、こどもクラス生徒展示「奇才発見！？ヘンテコ道具の商品発明」を開催。約170名の生徒たちの自由な発想から生まれた「ヘンテコ道具」が会場を埋め尽くします。\n\n前期: 9月25日～29日\n後期: 10月1日～4日",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-25",
+      "end_date": "2026-10-04",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "b4255c9d988c",
+        "name": "渋谷ヒカリエ 8/ CUBE 1, 2, 3",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "시부야 히카리에 8/ CUBE 1, 2, 3"
+          },
+          "en": {
+            "name": "Shibuya Hikarie 8/ CUBE 1, 2, 3"
+          }
+        },
+        "region": "渋谷",
+        "district": null,
+        "lat": 35.65889516579491,
+        "lng": 139.7035868134407
+      },
+      "artists": [
+        {
+          "id": "8f4994c2d3a3",
+          "name": "絵画教室ルカノーズ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hitsuji-no-Kawa-o-Nuida-Painting-Class-Exhibition-Vol-5/E7327-FD8/2026-09-25",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "3a9587a6d72a",
+      "source": "tokyo_art_beat",
+      "title": "「『shuku+ga（祝＋我）』なんにもない日に、おめでとう。」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/f826b333/shuku%EF%BC%8Bga_photo_01%20-%20Hiroki%20Takemoto%20(2).jpg",
+      "description": "デザイナー 圷イサクによるプロジェクト『shuku+ga（祝＋我）』が始動します。第1弾として、ネックレス・ZINE・アートポスターのセットを発売。あわせて2026年9月25日（金）〜27日（日）、東京・代官山のALにて展示と受注販売会を開催します。11月にはソウルへの巡回を予定しています。\n自分と、大切な誰かを祝う。変わり続ける東京と、そこに流れる時間を背景に、写真家・川島小鳥が、田辺あゆみやTAEHEONをはじめとする計10名の飾らない姿と、その場の空気を撮り下ろしました。会場では、松井正憲（METER）のデザインのアートポスターと、全60ページのZINE、圷が手がけた3種の真鍮製ネックレスを展示します。会期中は、これらを組み合わせたセットの受注販売も行います。読み、部屋に飾り、身につける。空間と身体をつなぐ、ひとつのセットとしてお届けします。「なんにもない日」も、誰かにとっては特別な一日。日常のなかにある偶然や、点のように過ぎていく時間、そして整えすぎないことも、『shuku+ga』が大切にするテーマのひとつです。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-25",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "7a6765269871",
+        "name": "AL",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "AL"
+          },
+          "ja": {
+            "name": "AL"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.645727268369676,
+        "lng": 139.70369193051891
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/ShukuGa/B100-AACB/2026-09-25",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "44c3a3ea2f19",
+      "source": "tokyo_art_beat",
+      "title": "田川基成 「Settlement」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/d7add334/20260919_DM_tagawa_v1%20-%20yuji%20sato.png",
+      "description": "zolin gallery では、田川基成展「Settlement」を開催します。長崎県出身の写真家・田川基成は、第20回三木淳賞(2018年)、日本写真協会新人賞(2022年)、第46回写真の町東川賞・飛騨野数右衛門賞（2026年）を受賞するなど、近年、精力的に作品制作と発表を行なっています。本年二月には、北海道での約10年の撮影期間を経て、赤々舎より写真集『北海道』を上梓しました。北海道大学農学部の出身でもある田川は、学生時代を過ごした北の地を繰り返し再訪し、近代的領域としての「北海道」をテーマに撮影を重ねてきました。「Settlement」展では、これまで中判フィルムで約2500カット撮影されてきた同シリーズの中から、入植の歴史を今も感じさせる集落の風景や、家屋、墓地、神社などを含む周辺のランドスケープを中心に展示が構成されます。\n\n北海道の風景には、「本州以南とは明らかに違った、人間と自然の距離」を感じると作家は表現します。また自然の中に点在する橋梁や護岸ブロック、あるいは除雪によって形成された雪山などの「人為的なもの」も、ここでは際立って見えると言います。北海道を外から、そして内からも眺める視点を持つ写真家の新鮮な視覚や違和感を起点に、入植、定住、集落、植民地、清算、などの意味を持つ「Settlement」をテーマに据えて本展は構成されます。近代史と、現代、それ以前から続く自然の混じり合う汽水のような風景を通して、北海道という土地を再考する視座を提供します。本展は、写真集『北海道』(赤々舎)に収録されていない未発表作で主に構成され、約25点のイメージが展示される予定です。\n\n[関連イベント]\n1. ギャラリートーク①\n日時: 2026年9月20日17:30〜\n2. ギャラリートーク②\n日時: 2026年9月21日17:30〜\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-19",
+      "end_date": "2026-09-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "d535cb326023",
+        "name": "zolin gallery（ゾウリンギャラリー）",
+        "lang": null,
+        "tr": {},
+        "region": "北海道",
+        "district": null,
+        "lat": 42.99438,
+        "lng": 141.3689
+      },
+      "artists": [
+        {
+          "id": "fbd724e5306f",
+          "name": "田川基成",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "다가와 모토나리"
+            },
+            "en": {
+              "name": "Tagawa Motonari"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Motonari-Tagawa-Settlement/zolin-gallery/2026-09-19",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "d39e360c7b1a",
+      "source": "tokyo_art_beat",
+      "title": "佐々木康 「メディアが見ないウクライナ 『20-50』- ドローンが拡張した射程圏 それが我々の新しい日常なのか」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/d170391a/Lo_D3A5294%20-%20K.jpg",
+      "description": "戦争はどこまで日常に入り込むのか。そして、人はその現実をどのように受け止め、そこに暮らし続けるのか。「20−50」は、ドローンによって拡張された新たな戦場の距離であると同時に、戦争と日常の境界が曖昧になっていく現在のウクライナを見つめるための距離でもあります。2026年、林忠彦賞を受賞した写真集『ヘルソン―ミサイルの降る夜に』の撮影から約3年。今年の夏、写真家・佐々木康は再びウクライナ各地を訪れ、写真集に登場した兵士や友人たちを訪ね、その後の暮らしと、長期化する戦争がもたらした変化を記録しました。写真展「20−50」は、ドローン技術の急速な進化によって変化する「戦争と日常の境界」をテーマとしています。かつて前線から0〜20kmほどとされていた「キルゾーン」は、ドローンの長距離化によって20〜50kmへと拡大し、これまで比較的安全とされてきた地域にも戦禍が及ぶようになりました。写真集に登場した人々の現在の姿とともに、攻撃を受ける市街地、対ドローン用ネットに覆われた道路、そして、その傍らで続いていく人々の日常。本展は、約3年という時間の中で変化した人々の暮らしと戦争のかたちをたどりながら、戦場と日常を隔てていた境界が失われつつある現在のウクライナを見つめます。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-07",
+      "end_date": "2026-10-02",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "32eaf6028821",
+        "name": "日本外国特派員協会",
+        "lang": null,
+        "tr": {},
+        "region": "銀座、丸の内",
+        "district": null,
+        "lat": 35.67774616101853,
+        "lng": 139.7614971360139
+      },
+      "artists": [
+        {
+          "id": "13a3a4e48152",
+          "name": "佐々木康",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Ko-Sasaki-The-Ukraine-The-Media-Does-Not-See-20-50-Is-This-Our-New-Norm-Living-With-Drones/A1-A9342-A/2026-09-07",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "3dc433acf635",
+      "source": "tokyo_art_beat",
+      "title": "「カメラと写真のしくみと歴史」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/6d2dc51b/m90-20260630-sikumirekisi.jpg",
+      "description": "日本カメラ博物館（館長 櫻井龍子）では、2026年6月30日（火）から10月18日（日）まで、特別展「カメラと写真のしくみと歴史」を開催します。カメラのしくみは、フィルムやイメージセンサーなどの感光材料の進化と密接に関わりながら発展してきました。それに伴い新たな写真表現の可能性も広がり、記録や芸術としてはもちろんのこと、コミュニケーションツールとしても活用されるなど、文化として成熟を遂げ広く認知されています。今回の企画は、感光材料とカメラ技術のかかわりを明らかにしながら、その発達史をたどる特別展です。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-06-30",
+      "end_date": "2026-10-18",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "4f6b533d9524",
+        "name": "日本カメラ博物館",
+        "lang": null,
+        "tr": {},
+        "region": "竹橋、水道橋、末広町",
+        "district": null,
+        "lat": 35.6860813926111,
+        "lng": 139.74286437301632
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Mechanics-and-History-of-Cameras-and-Photography/jcii-camera-museum/2026-06-30",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "4f927f9afdf3",
+      "source": "tokyo_art_beat",
+      "title": "「写真家ソール・ライターの原点 Origins in Color」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/00df969a/a4flyer_saul-leiter_small_page-0001.jpg",
+      "description": "ニューヨークを拠点に鮮烈な色彩と独自の視点で都市に生きる人々の姿を切り取った写真家、ソール・ライター（1923～2013）。写真史において芸術としての写真は長らくモノクロが中心であったなか、商業用とみなされていたカラー写真で自身の表現を追究した彼は、「カラー写真のパイオニア」と称されています。\n当初画家を志して1946年にピッツバーグからニューヨークへ移住したライターは、1958年にファッション誌『ハーパーズ・バザー』のカメラマンとなりました。以降、1980年代まで多くの雑誌でファッション写真を手がけ人気を博します。その傍らで、ニューヨークの街を舞台に繰り広げられる日常を写し続け、絵画も描きました。\n\n50代半ばであった1981年、ライターは商業写真スタジオを閉じ、キャリアの表舞台から姿を消します。そして、自身の美意識に基づいたカラー写真作品の制作に専念、2006年に初の写真集『Early Color』を発表すると、同書は芸術としてのカラー写真が見直される契機のひとつとなりました。2008年に大規模な回顧展が開催され、2012年にはドキュメンタリー映画も製作されるなど、隠遁生活のような後半生を過ごしていたライターは、晩年再び脚光を浴びることとなったのです。\n\n日本でも2017年以降に各地で開催された回顧展が大きな話題を呼びました。本展ではライターの色彩感覚をテーマに、初期から晩年までの写真だけでなく、絵画や没後に発見されたカラースライドなど様々な作品を通じて、創作活動の源泉に迫ります。「ニューヨークが生んだ伝説の写真家」ソール・ライターの色彩と詩情にあふれた世界をお楽しみください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-02",
+      "end_date": "2026-11-15",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "7f2defa24150",
+        "name": "鹿児島市立美術館",
+        "lang": null,
+        "tr": {},
+        "region": "鹿児島県",
+        "district": null,
+        "lat": 31.595752323161545,
+        "lng": 130.55332145767213
+      },
+      "artists": [
+        {
+          "id": "bbb6f2401dec",
+          "name": "ソール・ライター",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "솔 라이터"
+            },
+            "en": {
+              "name": "Saul Leiter"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Saul-Leiter-Origins-in-Color/kagoshima-city-museum-of-art/2026-10-02",
       "featured": false,
       "popularity_score": null
     }
@@ -92633,6 +93190,118 @@
       "country": "JP",
       "lat": 35.664391771095,
       "lng": 139.7146486416651,
+      "website": null
+    },
+    {
+      "id": "eb20cfd48f82",
+      "name": "Seo-Seoul Museum of Art",
+      "lang": null,
+      "tr": {},
+      "venue_type": "museum",
+      "region": "서울",
+      "district": null,
+      "address": null,
+      "country": "KR",
+      "lat": null,
+      "lng": null,
+      "website": null
+    },
+    {
+      "id": "5aa8b91a99e6",
+      "name": "Photography Seoul Museum of Art",
+      "lang": null,
+      "tr": {},
+      "venue_type": "museum",
+      "region": "서울",
+      "district": null,
+      "address": null,
+      "country": "KR",
+      "lat": 37.65551475245142,
+      "lng": 127.04894736120839,
+      "website": null
+    },
+    {
+      "id": "9bb4307ccf48",
+      "name": "東京建物八重洲ビル",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "京橋、日本橋",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.68236460000001,
+      "lng": 139.7713346,
+      "website": null
+    },
+    {
+      "id": "64da213bfd00",
+      "name": "清川泰次記念ギャラリー／区民ギャラリー",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "世田谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.638603541982526,
+      "lng": 139.6008682784851,
+      "website": null
+    },
+    {
+      "id": "d535cb326023",
+      "name": "zolin gallery（ゾウリンギャラリー）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "北海道",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 42.99438,
+      "lng": 141.3689,
+      "website": null
+    },
+    {
+      "id": "32eaf6028821",
+      "name": "日本外国特派員協会",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "銀座、丸の内",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.67774616101853,
+      "lng": 139.7614971360139,
+      "website": null
+    },
+    {
+      "id": "4f6b533d9524",
+      "name": "日本カメラ博物館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "竹橋、水道橋、末広町",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.6860813926111,
+      "lng": 139.74286437301632,
+      "website": null
+    },
+    {
+      "id": "7f2defa24150",
+      "name": "鹿児島市立美術館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "鹿児島県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 31.595752323161545,
+      "lng": 130.55332145767213,
       "website": null
     }
   ],
@@ -113192,6 +113861,108 @@
     {
       "id": "0a0b35d22329",
       "name": "蔡云逸、楊喩雯 / Clarice Yunyi Cai、Yang Yuwen",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f0e81ad9a61e",
+      "name": "長倉洋海",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f0906fbc6239",
+      "name": "甲斐菜月",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e122bee36bc3",
+      "name": "桂克栄",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "10425b738563",
+      "name": "朱世鵬",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "81325b831dfb",
+      "name": "張驍",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "826a4a2d136b",
+      "name": "陳健翎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f723564ddc5a",
+      "name": "陳子曦",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c6679ce01d33",
+      "name": "中村英史郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5d1263d95211",
+      "name": "楊燕姝",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1e6ed1cd084a",
+      "name": "牟禮朱美",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5fb297bc3737",
+      "name": "小城崇史",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4ce8c940359d",
+      "name": "清川泰次",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "64bd4a21a2a8",
+      "name": "河合真人",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8f4994c2d3a3",
+      "name": "絵画教室ルカノーズ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "13a3a4e48152",
+      "name": "佐々木康",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9688a61f3528",
+      "name": "秋吉風人",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "aec5f306b1ec",
+      "name": "嶋田篤人",
       "lang": null,
       "tr": {}
     }
