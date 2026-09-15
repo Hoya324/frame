@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T17:43:08.981220+00:00",
+  "generated_at": "2026-09-15T21:28:46.643961+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -24815,7 +24815,7 @@
       "price_max": null,
       "start_date": "2026-09-15",
       "end_date": "2026-10-03",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "3933dbcc80a6",
@@ -66014,7 +66014,7 @@
       "price_max": null,
       "start_date": "2026-09-15",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5163e693d1ea",
@@ -69132,7 +69132,7 @@
       "price_max": null,
       "start_date": "2026-09-02",
       "end_date": "2026-09-14",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "4ff6c8fdf9f9",
@@ -70380,7 +70380,7 @@
       "price_max": null,
       "start_date": "2026-09-02",
       "end_date": "2026-09-14",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "1dc76ed0df03",
@@ -72648,7 +72648,7 @@
       "price_max": null,
       "start_date": "2026-09-02",
       "end_date": "2026-09-14",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "e5c7ef943a0f",
@@ -73295,7 +73295,7 @@
       "price_max": null,
       "start_date": "2026-09-15",
       "end_date": "2026-09-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "cf50d8160f85",
@@ -75366,7 +75366,7 @@
       "price_max": null,
       "start_date": "2026-09-08",
       "end_date": "2026-09-14",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "7a6765269871",
@@ -77954,7 +77954,7 @@
       "price_max": null,
       "start_date": "2026-09-15",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "651dc68ae219",
@@ -78008,7 +78008,7 @@
       "price_max": null,
       "start_date": "2026-09-15",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "54c1740b50d0",
@@ -80291,7 +80291,7 @@
       "price_max": null,
       "start_date": "2026-09-15",
       "end_date": "2026-09-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "bad41612e0e3",
@@ -82421,7 +82421,7 @@
       "price_max": null,
       "start_date": "2026-09-15",
       "end_date": "2026-09-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "aaf20116001f",
@@ -83590,6 +83590,527 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Saul-Leiter-Origins-in-Color/kagoshima-city-museum-of-art/2026-10-02",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "b987bf805f95",
+      "source": "tokyo_art_beat",
+      "title": "アイラゴン 「人類の三回目の呼吸」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/d91dd5e3/751413444_1969421197092752_7066105439202039983_n.jpg",
+      "description": "呼吸は、いちばん小さな循環である。一方向に流れるだけの現代の消費に対して、アイラゴンのルーツである遊牧の世界観は、まったく別の前提に立つ。すべては呼吸のように、めぐっていく。《人類の三回目の呼吸》は、遊牧民の住居ゲル（パオ）を思わせる円筒形の構造体に、羊毛フェルトで編んだ白い三つ編みのロープが絡み合うインスタレーションである。会場に響くのは、アイラゴン自身の声——祖父から受け継いだホーメイ——と自然の音。ひとつの喉からふたつの声が生まれる歌唱は、それ自体が身体の中の循環だ。\nモンゴル族には髪を三つ編み（辮）に編む伝統があり、3歳で辮を切る儀式が今も行われている。辮は身体に刻まれたアイデンティティのしるしであり、三つ編みとは、3つの束が絡み合い1つの形になることでもある——呼吸と、自然と、私たちのように。モンゴルと日本、伝統と現代、失われるものと取り戻されるもの——切り離されたものを、アイラゴンは三つ編みのように結び直していく。\n本展は、才能を咲かせるヤンマーの「HANASAKA」の理念のもと、若い才能が社会へ羽ばたく場としてHANASAKA SQUAREをひらく試みでもある。消えかけた記憶に、もう一度息を吹き込むこと。この小さな広場から、その呼吸が始まる。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "c0100ea9b8af",
+        "name": "HANASAKA SQUARE",
+        "lang": null,
+        "tr": {},
+        "region": "京橋、日本橋",
+        "district": null,
+        "lat": 35.67994289197518,
+        "lng": 139.76939394836688
+      },
+      "artists": [
+        {
+          "id": "116ceb1df503",
+          "name": "アイラゴン",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Ayalguun-The-third-of-Human-Breath/Hanasaka-Square/2026-10-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "3dfc188d51f9",
+      "source": "tokyo_art_beat",
+      "title": "piczo 「レインカネーション」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/1dad3d95/_DSC1315_web.jpg",
+      "description": "20年間住み慣れたイギリスを離れ、日本へと拠点を移す前に撮りたいと考えた場所。それは2022年に妻と訪れたアイスランドだった。同じ被写体、同じ車、同じルートを辿り、同じホテルに滞在するという、記憶をなぞるかのような旅。それは、過去の記録を現在に呼び起こすような、不思議な体験だったという。\n「reincarnation」――転生、再来、再生という意味を持つ本展のタイトルには、写真に記録された過去が固定されたものではなく、新たな意味を宿し生まれ変われる「動的な記憶」であるという、写真の本質が示されている。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "ce1c55a3de47",
+        "name": "八重洲ダイビル",
+        "lang": null,
+        "tr": {},
+        "region": "京橋、日本橋",
+        "district": null,
+        "lat": 35.6793843,
+        "lng": 139.7705593
+      },
+      "artists": [
+        {
+          "id": "55cdb9940019",
+          "name": "piczo",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Piczo-Reincarnation/Yaesu-Dai-Building/2026-10-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "3e763d8d9ec3",
+      "source": "tokyo_art_beat",
+      "title": "小島康敬 「中今 | ベルリン」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/84ca3eb3/01.jpg",
+      "description": "9月17日（木）より、BOOK AND SONSにて、小島康敬による写真展「中今 | ベルリン」を開催いたします。 写真家・小島康敬が提示するのは、私たちが知る歴史や記憶から乖離し、時空間をも通り抜けたような、どこでもない「ベルリン」。\n最先端の量子理論や、時間と空間の中心を指す古神道の概念「中今（Naka-ima）」に着想を得て制作された本シリーズは、過去・現在・未来が同時に存在する「立体的な今」を静かに捉え引き出します。\n東京、ニューヨークを経てたどり着いた目線の高さによる平面的でミニマルな画面構成。 特定の場所や歴史的表象を削ぎ落とした作品群は、ロラン・バルトが称した「空虚な記号」のように中心を空虚に保ち、観る者に意味の解釈をそっと委ねます。撮影された瞬間の「かつてあった」一瞬の奥に流れる時間と距離、そしてどこか静けさを纏った円環する時間の深みを、ぜひ会場でご体感ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-17",
+      "end_date": "2026-10-04",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "8b8bf1f13f39",
+        "name": "BOOK AND SONS",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "BOOK AND SONS"
+          },
+          "ja": {
+            "name": "BOOK AND SONS"
+          }
+        },
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.630555907872754,
+        "lng": 139.68703549294352
+      },
+      "artists": [
+        {
+          "id": "ca1442c24b42",
+          "name": "小島康敬",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yasutaka-Kojima-Nakaima-Berlin/87-C23676/2026-09-17",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "07b394f7be26",
+      "source": "tokyo_art_beat",
+      "title": "伊丹豪 「a plan for all things」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/9f64533b/%C2%A9%EF%B8%8EGo%20Itami,%20triangle%2020250731,%20Inkjet%20print%20on%20baryta%20paper,%202026_small%20-%20Ayumi%20Suzuki.jpeg",
+      "description": "CAVE-AYUMI GALLERYでは、2026年10⽉3⽇（土）より、写真家 伊丹豪による個展「a plan for all things」を開催いたします。\n\n伊丹豪は、画面のすべてにピントが合った「全焦点」の写真を通して、写真を見ること、撮ることについて考えてきました。画面の中にあるものを等しく鮮明に写し出すことで、写真を見るときに生まれる視線のヒエラルキーを問いかけています。伊丹の写真はこうした構造への問いを含みながら、鮮やかな色彩や大胆な構図、身近なものを思いがけない組み合わせによって表現します。見る人はまずその色彩や構図の面白さに惹きつけられ、そこから、何が意図され何が偶然なのかという問いへと導かれていきます。本展で発表される写真は、すべて作家の自宅で撮影されています。家にある家具や⽇用品など、そこにあるものだけを使い、ものを置いたり、動かしたりしながら画面をつくっていきます。そこには過去に見てきた写真や絵画、美術の構造を、家にあるものの配置として組み直し、撮影し、撮影後には解体するという作家の意図があります。撮影が終わればその配置は解体され、写真に残るのは、その場に実際にあったものとすでに存在しない配置です。\n\n「a plan for all things」というタイトルには、「plan＝計画」と「plane＝平面」という複数の意味が重ねられています。ものを選び、配置し、撮影するという行為と、そこにあるすべてのものが定着される一枚の平面。美術からの引用も、生活の中にあるものも、作為も偶然も、同じ表面に等しい密度で並びます。タイトルにはこうした制作の行為と写真そのもののあり方が重ねられています。何が重要なのか、何が偶然なのか。何が作家によって意図的に置かれたものなのか。その境界はあえて明確にされず、写真そのものが判断を決めるのではなく、見る人に委ねられます。私たちは何に目を向け、何を意味のあるものとして捉えるのか。伊丹豪の写真は、「何を見るか」という問いを通して、私たちが世界をどのように見て、何に価値を与えているのかを問いかけます。\n\nこれまで伊丹は、建築家やデザイナー、出版社との協働もたびたび行ってきました。そこにも、作品のあり方を作家だけで決めるのではなく、他者との関係の中でつくるという姿勢が見られます。本展では、建築家・板坂留五が会場デザインを行います。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "1a56a45138cd",
+        "name": "CAVE-AYUMIGALLERY",
+        "lang": null,
+        "tr": {},
+        "region": "市ヶ谷、神楽坂",
+        "district": null,
+        "lat": 35.70404087992325,
+        "lng": 139.7346701531842
+      },
+      "artists": [
+        {
+          "id": "e331b5fdd0fe",
+          "name": "伊丹豪",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Go-Itami-A-Plan-For-All-Things/31-FB21-D7/2026-10-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "47109ad2f2e6",
+      "source": "tokyo_art_beat",
+      "title": "「Map it. AREA (de) CODE 0014003」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/cb7bb8ce/01_KeyVisual%20-%20Yumika%20Nishikido.png",
+      "description": "本プログラム「Map it. AREA (de) CODE 0014003」は、市民参加型のアートプログラムです。渋谷三丁目を舞台に、専門分野の異なる3組のアーティストと一般参加者が、町を歩き、観察し、対話をしながら、表現を立ち上げていきます。Mapという言葉をどのように解釈するかは参加者次第。アーティストと一緒に「地図」という概念そのものを問い直し、まだ正解のない新たな渋谷三丁目の地図を探る試みです。\n\n9月30日まで、参加者を募集しています。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-01",
+      "end_date": "2027-03-31",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "20a327dfbcf7",
+        "name": "Museum of Imaginary Narrative Arts［MINA］",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "상상의 서사 예술 박물관［MINA］"
+          },
+          "ja": {
+            "name": "想像物語芸術博物館［MINA］"
+          }
+        },
+        "region": "渋谷",
+        "district": null,
+        "lat": 35.65792261051691,
+        "lng": 139.70449924173354
+      },
+      "artists": [
+        {
+          "id": "d22724984003",
+          "name": "井出竜郎",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "498cc7d71fe3",
+          "name": "西野正将",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "03249f148dd3",
+          "name": "アートコレクティブ穴",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Map-it-Area-de-Code-0014003/museum-of-imaginary-narrative-arts-mina/2026-10-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f4cf931667dd",
+      "source": "tokyo_art_beat",
+      "title": "岡部稔 「improvisations 抽象写真と針金と」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/8a8a8ab9/5th_%E5%B2%A1%E9%83%A8%E5%B1%9502%20(1)-1%20-%20Sakiko%20Fushimi%20(1).jpg",
+      "description": "岡部稔は、身近な風景の中から色彩や形態を切り取り、独自の構図による抽象写真を制作しています。本展では、沼津市静浦で三日月を撮影した際、「色とカタチ」の面白さに目覚め、抽象写真の世界へのめり込んでいった岡部稔の足跡をたどります。また、1本の針金を自在に曲げ、線を描くように形づくる立体作品「ワイヤースケッチ」を紹介します。写真と針金という異な素材による作品を通して、岡部稔の表現をご覧ください。\n\n[関連イベント]\nワークショップ\n日時: 2026年10月24日11:00〜12:30 / 14:00〜15:30\n定員: 1回6名\n料金: 2000円\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-10",
+      "end_date": "2026-12-20",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "733a973139e5",
+        "name": "沼津市庄司美術館（モンミュゼ沼津）",
+        "lang": null,
+        "tr": {},
+        "region": "静岡県",
+        "district": null,
+        "lat": 35.09518,
+        "lng": 138.8515
+      },
+      "artists": [
+        {
+          "id": "518511f6d25c",
+          "name": "岡部稔",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Minoru-Okabe-Improvisations/numazu-shoji-museum-of-art/2026-10-10",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f95318f94826",
+      "source": "tokyo_art_beat",
+      "title": "真月洋子 「marginalia」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/0f66257a/unnamed.jpg",
+      "description": "[関連イベント]\n1. アーティストトーク\n日時: 2026年9月26日18:30〜\n登壇者: 真月洋子\n会場: gallery N\n料金: 無料\n2. アイリッシュミュージック ライブ\n日時: 2026年10月3日18:30〜\n会場: gallery N\n料金: 無料\n※イベント詳細は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-26",
+      "end_date": "2026-10-11",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "4eaa366e4b4f",
+        "name": "gallery N",
+        "lang": null,
+        "tr": {},
+        "region": "愛知県",
+        "district": null,
+        "lat": 35.15979562338713,
+        "lng": 136.95981066347082
+      },
+      "artists": [
+        {
+          "id": "b54b76cf4851",
+          "name": "真月洋子",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yoko-Mazuki-Marginalia/BE706-F04/2026-09-26",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "6f0fc8420ca1",
+      "source": "tokyo_art_beat",
+      "title": "「ぐるり、めぐる」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/f8ff67c2/2609%E3%81%AE%E3%82%B3%E3%83%92%E3%82%9A%E3%83%BC.jpeg",
+      "description": "この度、ギャラリー冬青では初の写真家・千葉桜 洋さんと家族による作品展『ぐるり、めぐる』を開催いたします。\n\n幼い頃、聴覚の大部分を失い、写真や絵によって徐々に言葉を習得した父・洋さんは、2000年頃から家族との日々や散歩道、旅行先で、息子・洸さんが歩く姿や、ふと立ち止まって見つめる先を、静かに写しています。洸さんは重度の知的障害を伴う自閉症があり、言葉によるコミュニケーションよりも手をカクカク動かすなど独自の行動やサインで感情を表します。展示作品に在るのは、父・母から息子へ一方的に向けられる視線だけではありません。息子の視線の先を一緒に見て、ときには立ち止まりながら、ともに時間を過ごす。その営みのなかから、作品たちは生まれています。洋さんの写真作品を何度か拝見する度に、私はまだ一度もお会いしたことのなかったご家族の姿を不思議と思い浮かべるようになっていました。写真に写っていても、いなくても見る者にとって「家族」は切り離せない存在です。千葉桜家がそうある様に「寄り添う形」で、家族ぞれぞれのまなざしを一堂に展示してみたいと思うようになりました。そんな思いから父・洋さんが撮影した銀塩写真を中心に、母・紀春さんによる水彩画、息子・洸さんによるクレヨンドローイングを組み合わせた作品群を展示いたします。写真と絵画作品からすくい上げられた時間や記憶が、作品の間をぐるりとめぐっていく様です。\n\n写真や絵画は、言葉だけでは捉えきれない他者の感覚やまなざしに近づくための、ひとつの手がかりともなれるのではないだろうか。本展では、言葉を介したコミュニケーションが当たり前とされる社会のなかで、幼い頃に写真や絵を通して言葉を獲得した作家自身の経験とも重なりながら、言葉とは異なる方法で他者とつながり、理解し合う可能性を静かに問いかけます。\n\n[関連イベント]\n1. トークイベント\n日時: 2026年9月16日18:30〜19:30\n登壇者: 千葉桜洋、東ちづる（俳優・一般社団法人Get in touch）\n会場: ギャラリー冬青\n料金: 2000円（ドリンク付き）（定員20名、要事前申込み）\n2. トークイベント\n日時: 2026年9月19日17:00〜18:30\n登壇者: 千葉桜洋、仲野泰生（元 川崎市岡本太郎美術館学芸員・現 京都場館長）\n会場: ギャラリー冬青\n料金: 2000円（ドリンク付き）（定員20名、要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "428d66c8a712",
+        "name": "ギャラリー冬青",
+        "lang": null,
+        "tr": {},
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.6986452051339,
+        "lng": 139.66299835391538
+      },
+      "artists": [
+        {
+          "id": "5f1c47e96a55",
+          "name": "千葉桜洋",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "de957d27a774",
+          "name": "千葉桜紀春",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "fec66751e1e5",
+          "name": "千葉桜洸",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Gururi-Meguru/0-D65073-A/2026-09-16",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "95fcedd7f378",
+      "source": "tokyo_art_beat",
+      "title": "「PAIDIAP」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/afc68a46/PAIDIAP%20-%20%E5%8D%83%E4%BB%A3%E6%B3%B0%E7%9D%A6.jpg",
+      "description": "この度、gallery光婉-koen-にて9/20-9/26の間、jvnpey、櫛引、矢野央祐、千代泰睦、志村孝太郎、敷浪然太郎によるgroup exhibition \"PAIDIAP\"を開催。\n\n今回の展示タイトル\"PAIDIAP\"は、ギリシア語paideíā（paideia（教育）におけるpaidia（遊び））から来ており、オランダの歴史家、ヨハン・ホイジンガの提唱した「ホモ・ルーデンス」における遊び（ludus）がその形相を表す前の概念、根源であるpaidiaを探る試みである。\n\n古来から儀式や祭りなどの行為は、あらゆる場で営まれ、時間、空間的制限を与えながらコミュニティを形作った。それらは集団において人々に役割を与え、ひとは与えられたその役割を演じた。儀式と遊戯の類似点は指摘すれば際限なく挙げられるが、これらの儀式における役割や規則などが、現代において我々の社会全体へと変貌を遂げ、また、それら社会を少しずつ形作る個人のアイデンティティやナショナリズムなどの諸概念を生み、企業、インフラなどの装置と化し現代では欠かすことのできないものにまで成長を遂げた。元来、人間が持つプリミティブな感覚が形作った社会は、もはや遊びとはかけ離れた物に変化している。今展覧会では、目まぐるしく変わる社会の中で、primitiveな感覚を共有しつつそれぞれの方法でアウトプットを重ねるartistの作品を是非ご覧下さい。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-20",
+      "end_date": "2026-09-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5b6cc2a033fd",
+        "name": "光婉",
+        "lang": null,
+        "tr": {},
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.64447,
+        "lng": 139.7011
+      },
+      "artists": [
+        {
+          "id": "63738d4aff0c",
+          "name": "志村孝太郎",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "aa53e0d48804",
+          "name": "千代泰睦",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "04252f6cb79d",
+          "name": "矢野央祐",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4c83b105d1ff",
+          "name": "jvnpey",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "69fd54d53acd",
+          "name": "normalBean",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1d713d20551e",
+          "name": "zentaro",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Paidiap/koen/2026-09-20",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "ced3d34643cf",
+      "source": "tokyo_art_beat",
+      "title": "山田大補 + ステロタイプ 「ステロタイプ30周年記念展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/aded1be3/60b839_8bdb18a157d2402aa1279e8f3b6f2947_page-0001.jpg",
+      "description": "2026年10月2日（金）よりKaikai Kiki Galleryにて「ステロタイプ30周年記念展」を開催いたします。本展は、ビジュアルデザインスタジオ・ステロタイプの創業30周年を記念し、2003年に逝去した山田大補が1996年から2003年までに手がけた作品と、ステロタイプが1996年から現在まで手がけてきた作品を紹介する展覧会です。ステロタイプ創業者であり、アートディレクター／グラフィックデザイナーとして活動した山田大補（1972–2003）。タイポグラフィー、コラージュ、レイヤーを駆使した独自のグラフィック表現で、音楽、ファッション、ストリート、アニメ、ゲームなど、さまざまな領域に作品を残し、1990年代から2000年代初頭のデザインシーンに鮮烈な印象を残しました。\n\n本展では、1996年から2003年までに山田大補が手がけたグラフィックや映像作品を23年ぶりに公開します。会場では、村上隆「727」展覧会ポスターをはじめ、『GHOST IN THE SHELL / 攻殻機動隊』ポスター、グラフィックウェアレーベル「ASYURAFIRST」のTシャツデザインなどを展示します。また、1996年から現在まで、ステロタイプが手がけてきた『BLEACH』『ブラッククローバー』『ポケットモンスター』など、アニメ・ゲーム分野を中心とした映像やビジュアルデザインを展示します。山田大補の作品と、現在のステロタイプの作品。二つの「WORKS」を通じて、30年にわたる歩みをご覧ください。",
+      "medium": "video",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-02",
+      "end_date": "2026-10-24",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "8f3eae7e325f",
+        "name": "Kaikai Kiki Gallery",
+        "lang": null,
+        "tr": {},
+        "region": "白金、広尾",
+        "district": null,
+        "lat": 35.65386011399576,
+        "lng": 139.72703909759753
+      },
+      "artists": [
+        {
+          "id": "e09ead504b86",
+          "name": "山田大補",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "eb65eca853e6",
+          "name": "ステロタイプ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Daisuke-Yamada-Stereo-Type-Stereo-Type-30th-Anniversary-Exhibition/90-D56-F39/2026-10-02",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "906dc23a7fac",
+      "source": "tokyo_art_beat",
+      "title": "YUTARO SAITO 「72 CLUB TOUR」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/83251a3c/1%20-%20Y%20%E2%80%9CYuta%E2%80%9D%20S.jpeg",
+      "description": "写真家YUTARO SAITOは2021年より、「NOT PLASTIC FASHION」というコンセプトのもと、高齢者のファッションをテーマに撮影しています。衣服がイメージとして流通する現代において、失われつつある身体性と個人の時間に焦点を当て、着るという行為に内在する記憶や習慣を掘り起こしてきました。本展「72 CLUB TOUR」は、写真集「72 CLUB CALENDAR」の出版に際し、国内主要ブックフェアでの販売および全国各地での展示を行う巡回展です。\n\n「72 CLUB CALENDAR」はこれまでNOTEやFASHIONSNAPといったメディアで発表してきた高齢男性のファッションインタビュー記事に、未発表作を加え再構成したものです。高齢者の装いが持つ機能性に着目し、本書はカレンダー・写真集・展示物という複数の役割を併せ持ちます。本展では、「72 CLUB CALENDAR」を含めた高齢男性のポートレート作品や衣服と、「NOT PLASTIC FASHION(2030)」シリーズよりポスター作品を展示いたします。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-18",
+      "end_date": "2026-10-02",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "7eceec581cde",
+        "name": "COPYCENTER GALLERY （コピーセンターギャラリー）",
+        "lang": null,
+        "tr": {},
+        "region": "東京：その他",
+        "district": null,
+        "lat": 35.74913,
+        "lng": 139.7194
+      },
+      "artists": [
+        {
+          "id": "e5d406bbbbcf",
+          "name": "YUTARO SAITO",
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "YUTARO SAITO"
+            },
+            "ja": {
+              "name": "YUTARO SAITO"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yutaro-Saito-72-Club-Tour/copycenter-gallery/2026-09-18",
       "featured": false,
       "popularity_score": null
     }
@@ -93302,6 +93823,132 @@
       "country": "JP",
       "lat": 31.595752323161545,
       "lng": 130.55332145767213,
+      "website": null
+    },
+    {
+      "id": "c0100ea9b8af",
+      "name": "HANASAKA SQUARE",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "京橋、日本橋",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.67994289197518,
+      "lng": 139.76939394836688,
+      "website": null
+    },
+    {
+      "id": "ce1c55a3de47",
+      "name": "八重洲ダイビル",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "京橋、日本橋",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.6793843,
+      "lng": 139.7705593,
+      "website": null
+    },
+    {
+      "id": "1a56a45138cd",
+      "name": "CAVE-AYUMIGALLERY",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "市ヶ谷、神楽坂",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.70404087992325,
+      "lng": 139.7346701531842,
+      "website": null
+    },
+    {
+      "id": "733a973139e5",
+      "name": "沼津市庄司美術館（モンミュゼ沼津）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "静岡県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.09518,
+      "lng": 138.8515,
+      "website": null
+    },
+    {
+      "id": "4eaa366e4b4f",
+      "name": "gallery N",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "愛知県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.15979562338713,
+      "lng": 136.95981066347082,
+      "website": null
+    },
+    {
+      "id": "428d66c8a712",
+      "name": "ギャラリー冬青",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "武蔵野、多摩",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.6986452051339,
+      "lng": 139.66299835391538,
+      "website": null
+    },
+    {
+      "id": "5b6cc2a033fd",
+      "name": "光婉",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "恵比寿、代官山、中目黒",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.64447,
+      "lng": 139.7011,
+      "website": null
+    },
+    {
+      "id": "8f3eae7e325f",
+      "name": "Kaikai Kiki Gallery",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "白金、広尾",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.65386011399576,
+      "lng": 139.72703909759753,
+      "website": null
+    },
+    {
+      "id": "7eceec581cde",
+      "name": "COPYCENTER GALLERY （コピーセンターギャラリー）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "東京：その他",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.74913,
+      "lng": 139.7194,
       "website": null
     }
   ],
@@ -113963,6 +114610,126 @@
     {
       "id": "aec5f306b1ec",
       "name": "嶋田篤人",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "116ceb1df503",
+      "name": "アイラゴン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "55cdb9940019",
+      "name": "piczo",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ca1442c24b42",
+      "name": "小島康敬",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e331b5fdd0fe",
+      "name": "伊丹豪",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d22724984003",
+      "name": "井出竜郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "498cc7d71fe3",
+      "name": "西野正将",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "03249f148dd3",
+      "name": "アートコレクティブ穴",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "518511f6d25c",
+      "name": "岡部稔",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b54b76cf4851",
+      "name": "真月洋子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5f1c47e96a55",
+      "name": "千葉桜洋",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "de957d27a774",
+      "name": "千葉桜紀春",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fec66751e1e5",
+      "name": "千葉桜洸",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "63738d4aff0c",
+      "name": "志村孝太郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "aa53e0d48804",
+      "name": "千代泰睦",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "04252f6cb79d",
+      "name": "矢野央祐",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4c83b105d1ff",
+      "name": "jvnpey",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "69fd54d53acd",
+      "name": "normalBean",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1d713d20551e",
+      "name": "zentaro",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e09ead504b86",
+      "name": "山田大補",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "eb65eca853e6",
+      "name": "ステロタイプ",
       "lang": null,
       "tr": {}
     }
