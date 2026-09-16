@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T05:33:32.288926+00:00",
+  "generated_at": "2026-09-16T12:24:40.304029+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -57257,8 +57257,15 @@
       "venue": {
         "id": "5aa8b91a99e6",
         "name": "Photography Seoul Museum of Art",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "서울시립 사진미술관"
+          },
+          "ja": {
+            "name": "ソウル市立写真美術館"
+          }
+        },
         "region": "서울",
         "district": null,
         "lat": 37.65551475245142,
@@ -71722,8 +71729,15 @@
       "venue": {
         "id": "eb20cfd48f82",
         "name": "Seo-Seoul Museum of Art",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "서서울미술관"
+          },
+          "ja": {
+            "name": "西ソウル美術館"
+          }
+        },
         "region": "서울",
         "district": null,
         "lat": null,
@@ -78043,8 +78057,17 @@
       "id": "ccd68c0f6b43",
       "source": "tokyo_art_beat",
       "title": "小寺創太 「米会話」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "코데라 소타 「미회화」",
+          "description": "Token Art Center에서는 2026년 9월 12일부터 코데라 소타 개인전 「미회화」를 개최합니다.\n\n코데라 소타는 자신의 신체를 전시 공간에 두는 「있는 파」를 표방하며, 신체와 그것을 둘러싼 환경 및 타인과의 관계, 그리고 전시 제도 자체를 재고하는 작품들을 발표해 왔습니다. 2022년 Token Art Center에서 개최된 「조교도시」에서는 공공 공간에 설치된 「배제 예술」을 기점으로 배제와 포섭의 구조에 주목했습니다. 거기서부터 신체를 둘러싼 공간의 경계와 경계로 인해 발생하는 배제로 관심을 넓혀온 코데라가 이번에 주목하는 것은 「미국」입니다. 최근 코데라는 통상적으로 출입할 수 없는 요코타 기지 내에 들어가는 수단으로 기지 내에서 이루어지는 영어 회화 학습에 주목하여 실제로 기지 내부에서 영어 회화를 계속하고 있습니다. 미군 기지는 전후 일본에서 미국의 존재를 상징하는 「경계 너머」입니다. 코데라는 기지 내에서 영어 회화를 배우는 경험을 통해 자신의 미국에 대한 동경과 반감, 영어에 대한 콤플렉스와 마주하면서 전후 일본이 미국을 수용해 온 역사를 재고하기 시작했습니다.\n\n본 전시에서는 「We Are The World」와 「팔굉일우」와 같은 단어들이 중요한 모티프로 다루어집니다. 각각 다른 시대와 맥락에 속하면서도 세계와 사람들의 연결을 보여주는, 언뜻 보면 보편적이고 긍정적인 울림을 가진 단어들입니다. 그러나 「하나의 세계」나 「하나의 공동체」라는 이념이 국가나 패권의 논리와 결합될 때, 「우리」라는 단어는 그 외부에 있는 자를 만들어내고 내부에서는 동조를 강요하게 됩니다. 연대를 내세우는 단어가 어느새 경계를 긋고 배제와 포섭을 정당화하는 단어로 변해갑니다. 코데라가 포착하려는 것은 그러한 이념의 변용과 그 너머의 폭주, 그리고 자멸입니다. 보편성을 내세우는 단어가 배타적인 힘을 띠고, 그것이 더욱 추진됨으로써 결국 당초의 이상 자체가 공허해지고 자신을 지탱하던 논리를 붕괴시켜 나갑니다. 세계화와 민족주의, 보편성과 배제, 동경과 폭력은 대립하는 것으로서가 아니라 서로를 만들어내면서 순환하는 것으로 나타납니다. 「미회화」라는 전시 제목은 「영어 회화」와 「미국」을 겹쳐 만든 코데라의 조어입니다. 거대한 정치와 역사를 다루면서도 그 출발점에는 영어를 말하는 것에 대한 콤플렉스와 미국에 대한 개인적인 동경과 반감이 있습니다. 거기서부터 요코타 기지라는 구체적인 장소를 경유하여 전후 일본과 미국, 그리고 「세계」를 둘러싼 더 큰 문제로 전개됩니다.\n\n본 전시에서는 위 개념에 따라 모든 신작 설치, 음향, 사진, 영상을 발표합니다. 요코타 기지라는 구체적인 장소에서 전후 일본과 미국, 그리고 「세계」를 둘러싼 질문으로 전개되는 코데라 소타의 새로운 시도를 꼭 현장에서 관람해 주십시오."
+        },
+        "en": {
+          "title": "Kodera Sota \"Beikaiwa\"",
+          "description": "Token Art Center will host Sota Kodera's solo exhibition \"Beikaiwa\" starting September 12, 2026.\n\nSota Kodera has advocated for \"the 'present' faction,\" which places one's own body in the exhibition space, and has presented works that re-examine the body, its surrounding environment, relationships with others, and the exhibition system itself. In \"Tamed City,\" held at Token Art Center in 2022, he focused on the structures of exclusion and inclusion, starting from \"Exclusion Art\" installed in public spaces. From there, Kodera expanded his interest to the boundaries of the space surrounding the body and the exclusion created by those boundaries, and this time he focuses on \"America.\" In recent years, Kodera has turned his attention to English conversation classes held within Yokota Air Base as a means to enter the base, which is normally inaccessible, and has actually continued English conversation inside the base. U.S. military bases symbolize \"the other side of the border,\" representing the presence of America in postwar Japan. Through the experience of learning English conversation at the base, Kodera began to re-examine the history of postwar Japan's acceptance of America, while confronting his own longing for and antipathy towards America, and his complex about English.\n\nIn this exhibition, terms such as \"We Are The World\" and \"Hakkō Ichiu\" are treated as important motifs. These are words that, while belonging to different eras and contexts, indicate the connections between the world and people, and at first glance have a universal and positive resonance. However, when the ideals of \"one world\" or \"one community\" are linked to the logic of nation-states and hegemony, the word \"we\" creates those who are outside and forces conformity within. Words advocating solidarity eventually draw boundaries and transform into words that justify exclusion and inclusion. What Kodera seeks to capture is such a transformation of ideals, the runaway consequences that follow, and self-destruction. Words proclaiming universality take on an exclusionary power, and as this is further pushed, the original ideal itself eventually becomes hollow, collapsing the logic that supported it. Globalism and nationalism, universality and exclusion, longing and violence appear not as opposing forces, but as circulating elements that generate each other. The exhibition title \"Beikaiwa\" is a coined word by Kodera, combining \"English conversation\" (Eikaiwa) and \"America\" (America). While dealing with grand politics and history, its starting point lies in a complex about speaking English and a personal longing for and antipathy towards America. From there, it expands, via the specific location of Yokota Air Base, to larger issues surrounding postwar Japan and America, and \"the world.\"\n\nBased on the above concept, this exhibition will present all new installations, sound art, photographs, and videos. Please come and see Sota Kodera's new endeavor, which unfolds from the specific location of Yokota Air Base into questions surrounding postwar Japan and America, and \"the world.\""
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/64ad5ca0/mainimg2026.jpg",
       "description": "Token Art Centerでは、2026年9月12日より小寺創太 個展「米会話」を開催します。\n\n小寺創太は、自身の身体を展示空間に置く「いる派」を標榜し、身体とそれを取り巻く環境や他者との関係、そして展覧会制度そのものを問い直すような作品を発表してきました。2022年にToken Art Centerで開催した「調教都市」では、公共空間に設置された「排除アート」を起点に、排除や包摂の構造に目を向けました。そこから、身体を取り巻く空間の境界や、境界によって生まれる排除へと関心を広げてきた小寺が、今回着目するのは「アメリカ」です。近年、小寺は、通常は立ち入ることのできない横田基地内に入る手段として、基地内で行われている英会話学習に目を付け、実際に基地の内部で英会話を続けています。米軍基地は、戦後日本におけるアメリカの存在を象徴する「境界の向こう側」です。小寺は、基地内で英会話を学ぶという経験を通して、自身のアメリカへの憧憬や反感、英語へのコンプレックスと向き合いながら、戦後日本がアメリカを受容してきた歴史を問い直し始めました。\n\n本展では、「We Are The World」や「八紘一宇」といった言葉が重要なモチーフとして扱われます。それぞれ異なる時代や文脈に属しながら、世界や人々の結びつきを示す、一見すると普遍的で肯定的な響きを持つ言葉です。しかし、「ひとつの世界」や「ひとつの共同体」という理念が国家や覇権の論理と結びつくとき、「私たち」という言葉は、その外側にいる者を生み出し、内側では同調を強いることになります。連帯を掲げる言葉が、いつしか境界を引き、排除と包摂を正当化する言葉へと変わっていきます。小寺が捉えようとするのは、そのような理念の変容と、その先にある暴走、そして自滅です。普遍性を掲げる言葉が排外的な力を帯び、それがさらに押し進められることで、やがて当初の理想そのものが空洞化し、自らを支えていた論理を崩壊させていく。グローバリズムとナショナリズム、普遍性と排除、憧れと暴力は、対立するものとしてではなく、互いを生み出しながら循環するものとして現れます。「米会話」という展覧会タイトルは、「英会話」と「アメリカ」を重ねた小寺による造語です。大きな政治や歴史を扱いながらも、その出発点にあるのは、英語を話すことへのコンプレックスやアメリカへの個人的な憧憬と反感です。そこから横田基地という具体的な場所を経由し、戦後日本とアメリカ、そして「世界」をめぐるより大きな問題へと展開していきます。\n\n本展では、上記コンセプトに基づき、すべて新作のインスタレーション、音響、写真、映像を発表します。横田基地という具体的な場所から、戦後日本とアメリカ、そして「世界」をめぐる問いへと展開していく小寺創太の新たな試みを、ぜひ会場でご覧ください。",
       "medium": "mixed",
@@ -78090,8 +78113,17 @@
       "id": "10a730240251",
       "source": "tokyo_art_beat",
       "title": "「境界を越えるアイデンティティ 人間と自然の対話 ファルネジーナコレクション」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「경계를 넘어서는 정체성 인간과 자연의 대화 파르네시나 컬렉션」",
+          "description": "이탈리아 문화원에서는 9월 12일(토)부터 10월 22일(목)까지 파르네시나 컬렉션 25주년을 기념하여 이탈리아 현대 미술전 「경계를 넘어서는 정체성 인간과 자연의 대화 파르네시나 컬렉션」을 개최합니다. 주로 1970년대부터 현재에 이르기까지 미술계에서 큰 존재감을 보여온 이탈리아를 대표하는 여성 작가들의 작품에 초점을 맞춰 소개합니다. 파르네시나 컬렉션은 이탈리아 외교부 및 국제협력부가 소장한 현대 미술 컬렉션입니다. 700점 이상의 작품을 보유한 이탈리아 유수의 공공 컬렉션 중 하나로, 외교부가 위치한 파르네시나 궁에 전시될 뿐만 아니라 해외 전시를 통해 다양성 있는 세계의 가교 역할을 계속하고 있습니다. 일본에서는 2023년 「이탈리아 현대 미술전 파르네시나 컬렉션」에서 처음으로 본격적으로 소개되어 큰 화제가 되었습니다. 이번에는 「경계를 넘어서는 정체성」이라는 주제를 통해 서로 다른 세대에 속하며 각기 다른 표현 언어를 사용하는 작가들의 작품을 다시 해석하고, 환경 위기, 이민, 지정학적 불안정성, 그리고 심각한 문화 변용을 특징으로 하는 현대 사회에서 「정체성」이라는 개념을 다각적으로 고찰합니다. 베를린을 비롯한 각국에서의 순회전 중 이번 일본 전시는 유럽 외 지역에서 처음으로 열리는 전시입니다.\n\n[관련 이벤트]\n강연회 「경계를 넘어서는 정체성」\n일시: 2026년 9월 14일 18:00~\n등단자: 베네데타 카르피 데 레스미니 (본 전시 감수자, 큐레이터·미술 평론가), 카나이 나오 (신슈대학 인문학부 교수)\n장소: 이탈리아 문화원 홀\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "\"Identity Beyond Borders: A Dialogue Between Humans and Nature, Farnesina Collection\"",
+          "description": "The Italian Cultural Institute will hold the Italian Contemporary Art Exhibition \"Identity Beyond Borders: A Dialogue Between Humans and Nature, Farnesina Collection\" from September 12 (Sat) to October 22 (Thu), commemorating the 25th anniversary of the Farnesina Collection. The exhibition will primarily focus on and introduce works by leading Italian female artists who have demonstrated a significant presence in the art world from the 1970s to the present day. The Farnesina Collection is a contemporary art collection owned by the Italian Ministry of Foreign Affairs and International Cooperation. It is one of Italy's foremost public collections, boasting over 700 works, and continues to function as a bridge to a diverse world through exhibitions at the Palazzo della Farnesina, where the Ministry is located, as well as overseas. In Japan, it was first fully introduced in the 2023 \"Italian Contemporary Art Exhibition: Farnesina Collection\" and garnered significant attention. This time, through the theme of \"Identity Beyond Borders,\" we will re-interpret the works of artists from different generations, each employing distinct expressive languages, and multi-dimensionally examine the concept of \"identity\" in a contemporary era characterized by environmental crises, migration, geopolitical instability, and profound cultural transformation. This exhibition in Japan is the first outside of Europe among the touring exhibitions held in various countries, including Berlin.\n\n[Related Event]\nLecture \"Identity Beyond Borders\"\nDate: September 14, 2026, 18:00~\nSpeakers: Benedetta Carpi de Resmini (Supervisor of this exhibition, Curator, Art Critic), Nao Kanai (Professor, Faculty of Humanities, Shinshu University)\nVenue: Italian Cultural Institute Hall\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/9bc05818/Mariagrazia_Pontorno_per_sito.jpg",
       "description": "このたび、イタリア文化会館では、9月12日（土）から10月22日（木）まで、ファルネジーナコレクション25周年を記念し、イタリア現代美術展「境界を越えるアイデンティティ 人間と自然の対話ファルネジーナコレクション」を開催いたします。主に1970年代から現代に至るまで美術界で大きな存在感を示してきた、イタリアを代表する女性アーティストたちの作品に焦点を当てて紹介します。ファルネジーナコレクションは、イタリア外務・国際協力省が所蔵する現代美術コレクションです。700点以上の作品を有するイタリア有数の公的コレクションのひとつで、同省のあるファルネジーナ宮に展示されるほか、海外での展示を通して、多様性ある世界の架け橋として機能し続けています。日本では、2023年の「イタリア現代美術展 ファルネジーナコレクション」で初めて本格的に紹介され、大きな話題となりました。今回は、「境界を越えるアイデンティティ」というテーマを通して、異なる世代に属し、それぞれ異なる表現言語を用いるアーティストたちの作品をあらためて読み解き、環境危機、移民、地政学的不安定さ、そして深刻な文化変容を特徴とする現代における「アイデンティティ」という概念を多角的に考察します。ベルリンをはじめとした各国での巡回展で、このたびの日本展は、ヨーロッパ外で初の展示となります。\n\n[関連イベント]\n講演会「境界を越えるアイデンティティ」\n日時: 2026年9月14日18:00〜\n登壇者: ベネデッタ・カルピ・デ・レズミーニ（本展監修者、キュレーター・美術評論家）、金井直（信州大学人文学部教授）\n会場: イタリア文化会館 ホール\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -78130,8 +78162,17 @@
       "id": "5ad9812ba696",
       "source": "tokyo_art_beat",
       "title": "藤元敬二 「tasogare」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "후지모토 케이지 「tasogare」",
+          "description": "[관련 이벤트]\n1. 토크 이벤트①\n일시: 2026년 9월 5일 17:30~\n2. 토크 이벤트②\n일시: 2026년 9월 12일 17:30~\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Keiji Fujimoto 「tasogare」",
+          "description": "[Related Events]\n1. Talk Event ①\nDate & Time: September 5, 2026, 17:30~\n2. Talk Event ②\nDate & Time: September 12, 2026, 17:30~\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/9086929f/image003.jpg",
       "description": "[関連イベント]\n1. トークイベント①\n日時: 2026年9月5日17:30〜\n2. トークイベント②\n日時: 2026年9月12日17:30〜\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -78344,8 +78385,15 @@
       "id": "1120ccc2e4f0",
       "source": "tokyo_art_beat",
       "title": "「春と修羅 展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「봄과 수라 전」"
+        },
+        "en": {
+          "title": "“Spring and Shura Exhibition”"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/5708aa27/3%20-%20En%20yu.png",
       "description": null,
       "medium": "mixed",
@@ -78493,8 +78541,17 @@
       "id": "009017420c0b",
       "source": "tokyo_art_beat",
       "title": "ザネレ・ムホリ 「ものが王冠になるとき、」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "자넬레 무홀리 「사물이 왕관이 될 때,」",
+          "description": "사진은 빼앗는 것에서 시작되었다. 쏘고(shoot), 포획하고(capture), 노출시키는(expose) — 사진의 어휘는 소유와 지배의 어휘이다. 카메라는 오랫동안 '보는 자'의 특권이었고, 아프리카의 신체는 '보이는 대상'으로서 객체화되어 왔다. 본 전시를 구성하는 자넬레 무홀리의 『Somnyama Ngonyama, Hail the Dark Lioness (칠흑의 암사자여, 찬양하라)』는 이 구조에 대한 가장 근본적인 응답이다. 무홀리는 빨래집게나 고무장갑 — 가사 노동자로 살았던 어머니의, 그리고 노동을 강요당해 온 사람들의 도구 — 를 왕관이나 장신구로 다시 엮어 몸에 두르고, 카메라를 자신에게 향하게 한다. 사물이 왕관이 될 때, 수탈의 기억은 자부심으로 다시 쓰여진다. 깊은 검은색으로 새겨진 신체가 화면의 중심에서 우리를 똑바로 되돌아본다. 누가 누구를 보는가.\n무홀리는 시선의 방향을 바꾸면서, 과거에 빼앗았던 쪽에서 아무것도 빼앗아 오지 않는다. 사진은 여기서 존재의 '증거'임을 멈추고, '나는 여기에 있다. 이 형태로, 스스로를 정의한다'는 입법 행위로 변모한다. 누구에게서도 빼앗지 않고, 가치가 창조된다. 찍는 자와 찍히는 자 — 대립으로 고정되어 온 두 항은 무홀리의 신체 위에서 하나로 겹쳐지고, '대(對)'는 '와(と)'로 다시 쓰여진다. 묻고 있는 것은, 우리 시선의 측면이다. 당신은 누구를, 어느 쪽에서 보고 있는가."
+        },
+        "en": {
+          "title": "Zanele Muholi “When Things Become Crowns,”",
+          "description": "Photography began with taking. To shoot, to capture, to expose—the vocabulary of photography is one of possession and control. For a long time, the camera was the privilege of the 'beholder,' and African bodies have continuously been objectified as 'objects to be seen.' Zanele Muholi's 'Somnyama Ngonyama, Hail the Dark Lioness,' which forms part of this exhibition, is the most fundamental response to this structure. Muholi reweaves clothespins and rubber gloves—tools of her mother, who lived as a domestic worker, and of people forced into labor—into crowns and ornaments, adorning herself and turning the camera on herself. When things become crowns, memories of exploitation are rewritten as pride. A body etched in deep black gazes straight back at us from the center of the frame. Who sees whom?\nWhile changing the direction of the gaze, Muholi takes nothing back from those who once took. Photography here ceases to be 'evidence' of existence and transforms into a legislative act: 'I am here. In this form, I define myself.' Value is created without taking from anyone. The two terms—the photographer and the photographed—which have been fixed as an opposition, overlap as one on Muholi's body, and 'versus' is rewritten as 'and.' What is being questioned is our own gaze. Who are you looking at, and from which side?"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/38976a64/Bester-VIII--Philadelphia--2018-1_mini.jpg",
       "description": "写真は、奪うことから始まった。撃つ（shoot）、捕らえる（capture）、晒す（expose）——写真の語彙は所有と支配の語彙である。カメラは長らく「見る側」の特権であり、アフリカの身体は「見られる対象」として客体化され続けてきた。 本展を構成するザネレ・ムホリの『Somnyama Ngonyama, Hail the Dark Lioness（漆黒のライオネスよ、讃えよ）』は、この構造へのもっとも根本的な応答である。ムホリは洗濯バサミやゴム手袋——家事労働者として生きた母の、そして労働を強いられてきた人々の道具——を王冠や装身具へと編み直して身にまとい、カメラを自らに向ける。ものが王冠になるとき、収奪の記憶は誇りへと書き換えられる。深い黒へと焼き込まれた身体が、画面の中心からわたしたちをまっすぐに見返す。 誰が誰を見るのか。\nムホリはまなざしの方向を変えながら、かつて奪った側から何ひとつ奪い返さない。写真はここで存在の「証拠」であることをやめ、「私はここにいる。この形で、自らを定義する」という立法行為へと変貌する。誰からも奪うことなく、価値が創造される。撮る者と撮られる者——対立として固定されてきた二項はムホリの身体の上でひとつに重なり、「対」は「と」へと書き換えられる。問われているのは、わたしたちのまなざしの側である。あなたは誰を、どちら側から見ているのか。",
       "medium": "photo",
@@ -78540,8 +78597,17 @@
       "id": "70132d8cf259",
       "source": "tokyo_art_beat",
       "title": "仲野太賀 + 阿部裕介 「Once Upon A Time！KYOTO」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "나카노 타이가 + 아베 유스케 「Once Upon A Time！KYOTO」",
+          "description": "이번에 PURPLE에서는 배우 나카노 타이가, 사진작가 아베 유스케의 사진전 「Once Upon A Time!」을 9월 10일 (목)부터 개최합니다. 「대하드라마 『도요토미 형제!』의 기록을 남기고 싶다」는 나카노 타이가의 생각에서 기획된 본 전시. 사진작가 아베 유스케가 약 1년간 촬영한 작품들에는 드라마에 관련된 모든 사람들의 마음과 열정이 매력적으로 담겨 있습니다."
+        },
+        "en": {
+          "title": "Nakano Taiga + Abe Yusuke “Once Upon A Time！KYOTO”",
+          "description": "PURPLE will be holding the photo exhibition 'Once Upon A Time!' by actor Nakano Taiga and photographer Abe Yusuke starting September 10 (Thursday). This exhibition was planned based on Nakano Taiga's desire to 'preserve and convey the records of the Taiga drama 'Toyotomi Brothers!'' The works photographed by photographer Abe Yusuke over approximately one year beautifully capture the feelings and passion of everyone involved in the drama."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/db995423/unnamed.png",
       "description": "この度PURPLEでは俳優・仲野太賀、写真家・阿部裕介による写真展「 Once Upon A Time！」を、9/10（木）より開催いたします。「大河ドラマ『 豊臣兄弟！』の記録を残し、伝えたい 」という、仲野太賀の思いから企画された本展。写真家・阿部裕介が約1年間にわたり撮影した作品には、ドラマに関わる全ての人々の想いや熱量が魅力的に写し出されています。",
       "medium": "photo",
@@ -78593,8 +78659,17 @@
       "id": "0ece181d18ba",
       "source": "tokyo_art_beat",
       "title": "「植田正治 まなざしの輝き」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「우에다 쇼지 시선의 반짝임」",
+          "description": "이번 전시회에서는 우에다 쇼지의 시선과 관점에 주목하며 만들어진 다채로운 이미지의 궤적을 다시 소개합니다. 우에다의 특징적인 시점은 전쟁 전부터 볼 수 있었으며, '우에다 스타일'이라 불리는 독특한 스타일의 중요한 요소가 되었습니다. 특히, 인물을 오브제처럼 보고 해변이나 사구에 배치한 연출 사진은 우에다의 사진을 이야기할 때 빼놓을 수 없습니다. 다만, 전쟁 전부터 만년까지 같은 시선과 관점으로 촬영된 것만은 아닙니다. 이웃 유미가하마에서 촬영된 가족 사진의 따뜻한 느낌부터 패션 사진의 감정을 배제한 세련된 느낌까지 실로 다채롭습니다.\n\n또한, 전쟁 전부터 만년에 이르기까지 우에다의 사진은 조형적인 요소가 강하며, 특징적인 구도 또는 역광 효과를 활용한 작품이 많이 보입니다. 풍경을 모티프로 한 수면, 설면 등 주변 사물에도 시선을 돌리고 있습니다. 더욱 독특하며 조형적인 시선의 연장선상이라고도 할 수 있는 작품들도 다수 있습니다. 사진을 위한 사진이라고도 할 수 있는 우에다만의 작품군입니다. 1980년대 초 패션 사진을 다룬 이후, 광고계에서도 우에다의 사진은 주목받았고, 이전보다 '의뢰에 의한 촬영'이 늘어난 것으로 보입니다. 이러한 상황 속에서도 '자유로운' 또는 '사적인' 느낌의 사진들이 많이 촬영되었습니다. 초기부터 만년까지의 작품을 통해 우에다 쇼지의 사진을 시선과 관점을 키워드로 세 가지 섹션으로 나누어 소개합니다. 시선과 관점이라는 모호한 테마를 다양한 시대의 이미지로 부각시키면서, 마치 기적과도 같은 작품의 빛남을 소개합니다."
+        },
+        "en": {
+          "title": "\"Shoji Ueda: The Radiance of the Gaze\"",
+          "description": "\"This exhibition reintroduces the trajectory of diverse images created with a focus on Shoji Ueda's gaze and perspective. Ueda's distinctive perspective can be seen from before the war and and has become an important element of his unique 'Ueda-style.' Among these, his staged photographs, where figures are treated like objects and arranged on beaches and sand dunes, are indispensable when discussing Ueda's photography. However, not all photographs from before the war to his later years were taken with the same gaze and perspective. His works are truly diverse, ranging from the heartwarming family photos taken at nearby Yumigahama to the stylish fashion photographs devoid of emotion.\n\nFurthermore, from before the war to his later years, Ueda's photographs strongly feature formative elements, with many works showcasing distinctive compositions or utilizing the effects of backlighting. He also turned his attention to everyday objects as motifs, such as water surfaces and snowscapes. There are also numerous works that are even more unique and can be considered an extension of his formative gaze. These are collections of works unique to Ueda, which can be called 'photographs for photography.' Since he began working on fashion photography in the early 1980s, Ueda's photographs have also attracted attention from the advertising world, and it seems that 'commissioned photography' has increased compared to before. Amidst this situation, many photographs that feel 'free' or 'private' have also been taken. Through his works from the early to later years, Shoji Ueda's photography will be introduced in three sections, using 'gaze' and 'perspective' as keywords. While highlighting the ambiguous themes of gaze and perspective with images from various eras, the exhibition will present the radiance of his truly miraculous works.\""
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/ed1d554e/r8d2_001.jpg__360x509_q85_crop_subsampling-2_upscale.jpg",
       "description": "今回の展覧会では、植田正治のまなざし、視点に着目しながら生み出された多彩なイメージの軌跡をあらためて紹介します。植田の特徴的な視点は戦前から見られ、植田調といわれるユニークなスタイルの重要な要素となっています。なかでも、人物をオブジェのように見立て、砂浜や砂丘に配置した演出写真は植田の写真を語る上で欠かすことができません。ただ、戦前から晩年まで同じまなざし、視点で撮影されたものばかりではありません。近所の弓ヶ浜で撮影された家族写真のほのぼのとしたものから、ファッション写真の感情を排したスタイリッシュなものまで実に多彩です。\n\nまた、戦前から晩年に至るまで、植田の写真は造形的な要素が強く、特徴的な構図、あるいは逆光の効果を活かした作品が多く見られます。風景をモティーフとした、水面、雪面など身の周りの事物にも目を向けています。さらにユニークであり、造形的なまなざしの延長線上ともいえる作品の数々もあります。写真のための写真ともいえる植田ならではの作品群です。1980年代初めファッション写真を手掛けて以降、広告の世界からも植田の写真は注目され、以前に比べ「依頼による撮影」が増えたようです。このような状況の一方で、「自由な」、あるいは「私的な」とも感じられる写真が多く撮影されています。初期から晩年までの作品を通して、植田正治の写真をまなざしや視点をキーワードに三つのセクションに分け紹介します。まなざしや視点といった曖昧なテーマをさまざまな年代のイメージで浮き彫りにしつつ、まさに奇跡のような作品の輝きを紹介します。",
       "medium": "photo",
@@ -78647,8 +78722,17 @@
       "id": "5b4caf94d0a0",
       "source": "tokyo_art_beat",
       "title": "篠田優 「Garden」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「시노다 유 Garden」",
+          "description": "이번 전시회에 전시된 사진들은 모두 흑백 필름으로 촬영되었습니다. 시노다가 출품작 촬영에 사용한 필름은 친분이 있던 사진작가 이이다 테츠(1948-2023)로부터 물려받은 것이었습니다.\n피사체는 주로 두 가지 덩어리로 나눌 수 있습니다. 하나는 이이다가 촬영지로 애착을 가졌던 장소의 풍경입니다. 그리고 이이다가 자신의 소장 도서로 모았고, 결과적으로 시노다가 물려받게 된 서적들의 모습입니다. 어쩌면 이 사진들을 통해 언어와는 다른 형태로 그려지는 것은, 지금도 여전히 떠나지 않는 사진작가의 부드러운 뒷모습일지도 모릅니다."
+        },
+        "en": {
+          "title": "\"Yu Shinoda: Garden\"",
+          "description": "\"All photographs displayed in this exhibition were taken with monochrome film. The film Shinoda used for the exhibited works was inherited from his close friend, photographer Tetsu Iida (1948-2023).\nThe subjects can be primarily divided into two groups: one is the landscapes of places Iida was fond of as shooting locations, and the other is the appearance of books that Iida collected as his personal library and which Shinoda subsequently inherited. Perhaps through these photographs, what is depicted in a form different from words is the gentle silhouette of the photographer, who still lingers.\""
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/d2c38ef0/202609shinoda_main-1-1536x1228.jpg",
       "description": "本展覧会に並ぶ写真はすべてモノクロームのフィルムで撮影されています。篠田が出展作の撮影に使用したそれは、親交のあった写真家の飯田鉄（1948-2023）より譲られたものでした。\n被写体は主に二つのまとまりへと分けることができます。ひとつは飯田が撮影地として愛着を持っていた場所の風景。そして、飯田が自らの蔵書として集め、結果として篠田が譲り受けることになった書籍の姿です。もしかしたらそれらの写真によって、言葉によるものとは異なるかたちで描き出されるのは、いまもまだ去ることのない写真家の、やわらかな後ろ姿なのかもしれません。",
       "medium": "photo",
@@ -78694,8 +78778,17 @@
       "id": "177b9458b349",
       "source": "tokyo_art_beat",
       "title": "伊波リンダ 「Design of Okinawa」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「이바 린다 Design of Okinawa」",
+          "description": "[관련 이벤트]\n갤러리 토크\n일시: 2026년 9월 23일 13:00~14:00\n등단자: 이바 린다, 아베 코스즈 (류큐 대학 인문사회학부 교수), 오카다 유미코 (SugarcaneRoom gallery 큐레이터)\n※이벤트 상세 정보 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "\"Linda Iha: Design of Okinawa\"",
+          "description": "\"[Related Event]\nGallery Talk\nDate & Time: September 23, 2026, 13:00-14:00\nSpeakers: Linda Iha, Kosuzu Abe (Professor, Faculty of Humanities and Social Sciences, University of the Ryukyus), Yumiko Okada (SugarcaneRoom gallery Curator)\n*Please check the official website for event details and application methods.\""
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/6bb0ec31/20260725%E3%83%AA%E3%83%B3%E3%82%BF%E3%82%99%E3%81%95%E3%82%93_%E3%82%A2%E3%83%BC%E3%83%88%E3%83%9B%E3%82%99%E3%83%BC%E3%83%88%E3%82%99%201.jpg",
       "description": "[関連イベント]\nギャラリートーク\n日時: 2026年9月23日13:00〜14:00\n登壇者: 伊波リンダ、阿部小涼（琉球大学 人文社会学部 教授）、岡田有美子（SugarcaneRoom gallery Curator）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -78748,8 +78841,15 @@
       "id": "f15d07651b64",
       "source": "tokyo_photographic_art_museum",
       "title": "木村伊兵衛写真賞第50回記念写真展",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "김무라 이헤이 사진상 제50회 기념 사진전"
+        },
+        "en": {
+          "title": "Kimura Ihei Photography Award 50th Anniversary Photography Exhibition"
+        }
+      },
       "poster_image_url": "https://topmuseum.jp/wp-content/uploads/2026/09/kimura-e1788854848918.jpg",
       "description": null,
       "medium": "photo",
@@ -78788,8 +78888,17 @@
       "id": "46a8639729fa",
       "source": "tokyo_art_beat",
       "title": "「Icons and Image Makers ナショナル ポート レート ギャラリー展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「Icons and Image Makers 내셔널 포트레이트 갤러리전」",
+          "description": "본 전시에서는 런던의 내셔널 포트레이트 갤러리가 소장한 세계 최고 수준의 사진 컬렉션에서 영국 영화, 음악, 패션계를 상징하는 아이콘들의 초상화를 엄선하여 소개합니다. 국제적으로 높은 평가를 받는 사진가들의 작품을 통해 영국 문화를 빛낸 인물상과 시대를 비추는 초상 사진의 매력에 다가갑니다. 1950년대부터 현대까지를 아우르는 본 전시는 초상화 한 점 한 점을 렌즈 앞에 선 피사체와 렌즈 뒤에서 셔터를 누르는 사진가라는 두 창조적인 힘이 만나는 역동적인 순간으로 포착합니다.\n사진가와 피사체의 대화 속에서 새로운 페르소나가 탄생하기도 하고, 그 인물의 본질이 드러나기도 합니다. 세실 비튼과 오드리 헵번은 할리우드 스타의 이미지를 함께 만들어냈고, 테리 오닐은 데이비드 보위의 사운드를 시각화했으며, 데이비드 베일리와 진 슈림프턴은 「스윙잉 식스티즈」를 상징하는 스타일을 확립했습니다. 이러한 전설적인 협업은 한 인물을 시대의 아이콘으로 끌어올리는 역할을 해왔습니다.\n\n한편, 대중적 이미지 뒤에 있는 한 인간으로서의 모습을 포착하려 한 사진가들도 있습니다. 예를 들어, 엠마 하디의 다니엘 래드클리프의 부드럽고 섬세한 초상화는 젊은 스타가 명성과 마주하는 모습을 보여주며, 타미 아프탑은 올리비아 딘의 장난기 넘치는 면모를 우리에게 보여줍니다.\n\n배우, 음악가, 모델들은 카메라 앞에서 연기하는 것에 익숙하지만, 셔터가 눌리는 순간, 그러한 유명인들의 꾸밈없는 본모습이 우연히 포착되기도 합니다. 본 전시의 마지막에는 마틴 파의 해변에서 휴식을 취하는 해리 스타일스의 유쾌한 스냅샷이나 코린 데이와의 대화에 몰두하는 케이트 모스의 몽타주 등, 더욱 자연스럽고 솔직한 초상화를 소개합니다. 그곳에는 만들어진 페르소나가 문득 풀리고, 슈퍼스타들이 꾸밈없는 본모습을 드러내는 귀중한 순간이 담겨 있습니다.\n\n이러한 매력적인 초상화는 내셔널 포트레이트 갤러리 컬렉션의 핵심 질문을 던집니다 — 이미지와 정체성은 어디에서 교차하는가? — 본 전시는 영국 문화를 이끌어온 아이콘들과 그들의 모습을 만들어온 사진가들의 창의성을 기리는 전시입니다."
+        },
+        "en": {
+          "title": "「Icons and Image Makers National Portrait Gallery Exhibition」",
+          "description": "This exhibition presents a carefully selected collection of portraits of iconic figures from the British film, music, and fashion industries, drawn from the world-class photography collection of London's National Portrait Gallery. Through the works of internationally acclaimed photographers, we delve into the personalities that shaped British culture and the captivating appeal of portrait photography that reflects its era. Spanning from the 1950s to the present day, this exhibition views each portrait as a dynamic moment where two creative forces meet: the subject standing before the lens and the photographer capturing the shot from behind it.\nFrom the dialogue between photographer and subject, new personas can emerge, or the true essence of an individual can be revealed. Cecil Beaton and Audrey Hepburn together created the image of a Hollywood star, Terry O'Neill visualized David Bowie's sound, and David Bailey and Jean Shrimpton established the style emblematic of the 'Swinging Sixties'. Such legendary collaborations have played a role in elevating individuals to become icons of their era.\n\nMeanwhile, some photographers have sought to capture the individual behind the public image. For example, Emma Hardy's gentle and delicate portrait of Daniel Radcliffe reflects the young star grappling with fame, while Tami Aftab shows us Olivia Dean's playful side.\n\nActors, musicians, and models are accustomed to performing in front of the camera, but in the fleeting moment a shutter clicks, the unadorned true selves of these celebrities can sometimes be accidentally captured. At the end of this exhibition, we present more natural and candid portraits, such as Martin Parr's cheerful snapshot of Harry Styles relaxing by the sea, and Corinne Day's montage of Kate Moss engrossed in conversation. These images reveal precious moments where constructed personas momentarily dissolve, allowing superstars to show their unvarnished true selves.\n\nThese captivating portraits pose a central question at the heart of the National Portrait Gallery's collection: Where do image and identity intersect? This exhibition celebrates the creativity of the icons who have driven British culture and the photographers who have shaped their images."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/76660c7e/01%20%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%AD%E3%83%83%E3%83%88%20%E3%83%A9%E3%83%B3%E3%83%95%E3%82%9A%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%99%20by%20%E3%83%AB%E3%82%A4%E3%82%B9%20%E3%83%A2%E3%83%BC%E3%83%AA%E3%83%BC.jpg",
       "description": "本展では、ロンドンのナショナル ポートレート ギャラリーが所蔵する世界屈指の写真コレクションから、英国の映画、音楽、ファッション界を象徴するアイコンたちのポートレートを厳選して紹介します。国際的に高い評価を受ける写真家たちの作品を通して、英国カルチャーを彩った人物像と、時代を映し出すポートレート写真の魅力に迫ります。1950年代から現代までを網羅する本展は、一点一点のポートレートを、レンズの前に立つ被写体と、レンズの後ろでシャッターを切る写真家という、二つの創造的な力が出会うダイナミックな瞬間として捉えています。\n写真家と被写体の対話の中から、新たなペルソナが生み出されることもあれば、その人物の本質が浮かび上がることもあります。セシル ビートンとオードリー ヘプバーンは、ハリウッドスターのイメージをともにつくり上げ、テリー オニールはデヴィッド ボウイのサウンドを視覚化し、デヴィッド ベイリーとジーン シュリンプトンは、「スウィンギング シックスティーズ」を象徴するスタイルを確立しました。このような伝説的なコラボレーションは、一人の人物を時代のアイコンへと押し上げる役割を果たしてきました。\n\nその一方で、公のイメージの背後にある、一人の人間としての姿を捉えようとした写真家もいます。たとえば、エマ ハーディによるダニエル ラドクリフの優しく繊細なポートレートは、若きスターが名声と向き合う姿を映し出し、タミ アフタブは、オリヴィア ディーンの遊び心あふれる一面を私たちに見せてくれます。\n\n俳優、ミュージシャン、モデルたちは、カメラの前で演じることに慣れていますが、シャッターが切られる一瞬、そうした著名人の飾らない素顔が偶然捉えられることもあります。本展の最後には、マーティン パーによる海辺でくつろぐハリー スタイルズの陽気なスナップショットや、コリーヌ デイとの会話に没頭するケイト モスのモンタージュなど、より自然体で率直なポートレートを紹介します。そこには、つくり上げられたペルソナがふと解け、スーパースターたちが飾らない素顔をのぞかせる、貴重な瞬間が映し出されています。\n\nこうした魅力的な肖像は、ナショナル ポートレート ギャラリーのコレクションの核心にある問いを投げかけます――イメージとアイデンティティはどこで交差するのか？――本展は、英国文化を牽引してきたアイコンたち、そして彼らの姿を形づくってきた写真家たちのクリエイティビティを称える展覧会です。",
       "medium": "photo",
@@ -78828,8 +78937,17 @@
       "id": "4c7f5c9ad496",
       "source": "tokyo_art_beat",
       "title": "梅本健太 「PORTRAITS：HANDS」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "우메모토 켄타 「PORTRAITS：HANDS」",
+          "description": "아트, 기술, 공예 — 영역을 넘나드는 창조적인 교차점에서 새로운 가능성을 여는 갤러리 공간 「A-POC SPACE」. A-POC ABLE ISSEY MIYAKE의 최신 제작물을 시작으로, 표현의 경계 자체를 재고하는 이 공간의 개관 기념으로 사진가 우메모토 켄타 씨의 「PORTRAITS：HANDS」를 개최하고 있습니다.\n\nA-POC ABLE ISSEY MIYAKE가 새로운 도전을 거듭하는 가운데, 동시대에 공명하며 각자의 영역에서 창조에 몰두하는 사람들의 모습을 기록하고 싶다는 생각에서 본 프로젝트는 2024년 여름, 조용히 시작되었습니다. 공감을 단서로 선택된 표현자들을 우메모토 씨의 시점을 통해 담아냅니다. 그리고 제작의 본질을 다시금 전달하는 상징으로 떠오른 것이 바로 '손'이었습니다.\n\n촬영뿐만 아니라 출력 과정에서도 우메모토 씨는 자신의 손을 통해 한 장 한 장의 프린트를 제작합니다. 손을 찍기 위해 손을 움직입니다. 그 제작 방식은 본 작품의 주제와 자연스럽게 연결됩니다. 오랜 세월 탐구해 온 UV 인쇄 기술을 기반으로, 색상, 톤, 질감을 섬세하게 제어하며 구현된 이미지. 사진으로서의 선명함을 유지하면서도, 도트 입자나 미세한 인쇄 오차, 의도와 무의도 사이에서 나타나는 표정은 이미지 재현에 그치지 않는 물질로서의 고유한 강도를 지닙니다.\n\n회장에서는 모노톤 배경에서 떠오르는 23명의 표현자들의 손 초상화를 라이트박스를 사용하여 전시합니다. 작품이 내부에서 발산하는 빛과 공간에 스며드는 자연광이 어우러지는 이 공간에서, 만지고, 확인하고, 움직이는 것 — 창조의 원천인 '손'의 초상화를 감상해 주십시오."
+        },
+        "en": {
+          "title": "Kenta Umemoto 「PORTRAITS：HANDS」",
+          "description": "Art, technology, craft – a gallery space, 'A-POC SPACE,' that opens up new possibilities from creative intersections transcending domains. As the inaugural exhibition for this space, which re-examines the very boundaries of expression, starting from A-POC ABLE ISSEY MIYAKE's latest creations, we are holding 'PORTRAITS: HANDS' by photographer Kenta Umemoto.\n\nAs A-POC ABLE ISSEY MIYAKE continues to take on new challenges, a desire arose to document the figures of people who resonate with the contemporary era and engage in creation within their respective fields – with this in mind, this project quietly began in the summer of 2024. Artists selected through empathy are captured through Umemoto's perspective. And what emerged as a symbol to convey the essence of craftsmanship anew was 'hands'.\n\nNot only in shooting but also in the output process, Umemoto creates each print with his own hands. To photograph hands, he moves his hands. This method of creation naturally aligns with the theme of this work. Based on UV printing technology, which he has explored for many years, images are brought forth with delicate control over color, tone, and texture. While maintaining photographic clarity, the expressions that emerge from the dot particles, slight printing misalignments, and the interplay between intention and serendipity possess a unique material strength that goes beyond mere image reproduction.\n\nAt the venue, portraits of the hands of 23 artists, emerging from a monotone background, are exhibited using lightboxes. In this space, where the light emanating from within the artworks converges with the natural light filtering into the room, we invite you to touch, confirm, and move – to experience the portraits of 'hands' at the source of creation."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/8fa95d73/APOC_ABLE_PORTRAITS_%20HANDS_FLYER.jpg",
       "description": "アート、テクノロジー、クラフト——領域を横断する創造的な交差から、新たな可能性をひらくギャラリー空間「A-POC SPACE」。A-POC ABLE ISSEY MIYAKEの最新のものづくりを起点に、表現の境界そのものを問い直すこの空間のこけら落としとして、写真家・梅本健太氏による「PORTRAITS：HANDS」を開催しています。\n\nA-POC ABLE ISSEY MIYAKEが新たな挑戦を重ねていくなかで、同時代に響き合い、それぞれの領域で創造に向き合う人々の姿を記録したい——その思いから、本プロジェクトは2024年夏、静かに動きはじめました。共感を手がかりに選ばれた表現者たちを、梅本氏の視点を通して写し取っていく。そして、ものづくりの本質をあらためて伝える象徴として浮かび上がったのが、「手」でした。\n\n撮影のみならず、出力の工程においても、梅本氏は自らの手を介して一枚一枚のプリントを制作しています。手を写すために、手を動かす。その制作のあり方は、本作の主題と自ずと重なります。長年にわたり探求してきたUV印刷の技術を基盤に、色・トーン・質感を繊細に制御しながら、立ち上げられた像。写真としての鮮明さを保ちながら、ドットの粒子やわずかな印刷のずれ、作為と無作為のあわいに立ち現れる表情は、イメージの再現にとどまらない、物質としての固有の強度を持ちます。\n\n会場では、モノトーンの背景から浮かび上がる23名の表現者たちの手の肖像を、ライトボックスを用いて展示します。作品が内側から放つ光と、空間に差し込む自然光が重なり合うこの空間で、触れること。確かめ、動かすこと——創造の源泉にある「手」の肖像をご覧ください。",
       "medium": "photo",
@@ -83173,8 +83291,15 @@
       "venue": {
         "id": "9bb4307ccf48",
         "name": "東京建物八重洲ビル",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "도쿄 타테모노 야에스 빌딩"
+          },
+          "en": {
+            "name": "Tokyo Tatemono Yaesu Building"
+          }
+        },
         "region": "京橋、日本橋",
         "district": null,
         "lat": 35.68236460000001,
@@ -83273,8 +83398,15 @@
       "venue": {
         "id": "64da213bfd00",
         "name": "清川泰次記念ギャラリー／区民ギャラリー",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "키요카와 타이지 기념 갤러리 / 구민 갤러리"
+          },
+          "en": {
+            "name": "Kiyokawa Taiji Memorial Gallery / Ward Residents' Gallery"
+          }
+        },
         "region": "世田谷",
         "district": null,
         "lat": 35.638603541982526,
@@ -83447,8 +83579,15 @@
       "venue": {
         "id": "d535cb326023",
         "name": "zolin gallery（ゾウリンギャラリー）",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "zolin gallery"
+          },
+          "en": {
+            "name": "zolin gallery"
+          }
+        },
         "region": "北海道",
         "district": null,
         "lat": 42.99438,
@@ -83494,8 +83633,15 @@
       "venue": {
         "id": "32eaf6028821",
         "name": "日本外国特派員協会",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "일본외국특파원협회"
+          },
+          "en": {
+            "name": "The Foreign Correspondents' Club of Japan"
+          }
+        },
         "region": "銀座、丸の内",
         "district": null,
         "lat": 35.67774616101853,
@@ -83534,8 +83680,15 @@
       "venue": {
         "id": "4f6b533d9524",
         "name": "日本カメラ博物館",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "일본 카메라 박물관"
+          },
+          "en": {
+            "name": "Japan Camera Museum"
+          }
+        },
         "region": "竹橋、水道橋、末広町",
         "district": null,
         "lat": 35.6860813926111,
@@ -83567,8 +83720,15 @@
       "venue": {
         "id": "7f2defa24150",
         "name": "鹿児島市立美術館",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "가고시마 시립 미술관"
+          },
+          "en": {
+            "name": "Kagoshima City Museum of Art"
+          }
+        },
         "region": "鹿児島県",
         "district": null,
         "lat": 31.595752323161545,
@@ -83614,8 +83774,15 @@
       "venue": {
         "id": "c0100ea9b8af",
         "name": "HANASAKA SQUARE",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "HANASAKA SQUARE"
+          },
+          "ja": {
+            "name": "HANASAKA SQUARE"
+          }
+        },
         "region": "京橋、日本橋",
         "district": null,
         "lat": 35.67994289197518,
@@ -83654,8 +83821,15 @@
       "venue": {
         "id": "ce1c55a3de47",
         "name": "八重洲ダイビル",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "야에스 다이비루"
+          },
+          "en": {
+            "name": "Yaesu Daibiru"
+          }
+        },
         "region": "京橋、日本橋",
         "district": null,
         "lat": 35.6793843,
@@ -83741,8 +83915,15 @@
       "venue": {
         "id": "1a56a45138cd",
         "name": "CAVE-AYUMIGALLERY",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "CAVE-AYUMIGALLERY"
+          },
+          "ja": {
+            "name": "CAVE-AYUMIGALLERY"
+          }
+        },
         "region": "市ヶ谷、神楽坂",
         "district": null,
         "lat": 35.70404087992325,
@@ -83840,8 +84021,15 @@
       "venue": {
         "id": "733a973139e5",
         "name": "沼津市庄司美術館（モンミュゼ沼津）",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "누마즈시 쇼지 비주쓰칸 (몽뮤제 누마즈)"
+          },
+          "en": {
+            "name": "Numazu City Shoji Museum of Art (Mon Musée Numazu)"
+          }
+        },
         "region": "静岡県",
         "district": null,
         "lat": 35.09518,
@@ -83880,8 +84068,15 @@
       "venue": {
         "id": "4eaa366e4b4f",
         "name": "gallery N",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "gallery N"
+          },
+          "ja": {
+            "name": "gallery N"
+          }
+        },
         "region": "愛知県",
         "district": null,
         "lat": 35.15979562338713,
@@ -83920,8 +84115,15 @@
       "venue": {
         "id": "428d66c8a712",
         "name": "ギャラリー冬青",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 동청"
+          },
+          "en": {
+            "name": "Gallery Tosei"
+          }
+        },
         "region": "武蔵野、多摩",
         "district": null,
         "lat": 35.6986452051339,
@@ -83972,8 +84174,15 @@
       "venue": {
         "id": "5b6cc2a033fd",
         "name": "光婉",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "광완"
+          },
+          "en": {
+            "name": "Kōen"
+          }
+        },
         "region": "恵比寿、代官山、中目黒",
         "district": null,
         "lat": 35.64447,
@@ -84042,8 +84251,15 @@
       "venue": {
         "id": "8f3eae7e325f",
         "name": "Kaikai Kiki Gallery",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Kaikai Kiki Gallery"
+          },
+          "ja": {
+            "name": "Kaikai Kiki Gallery"
+          }
+        },
         "region": "白金、広尾",
         "district": null,
         "lat": 35.65386011399576,
@@ -84088,8 +84304,15 @@
       "venue": {
         "id": "7eceec581cde",
         "name": "COPYCENTER GALLERY （コピーセンターギャラリー）",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "COPYCENTER GALLERY"
+          },
+          "en": {
+            "name": "COPYCENTER GALLERY"
+          }
+        },
         "region": "東京：その他",
         "district": null,
         "lat": 35.74913,
@@ -93716,8 +93939,15 @@
     {
       "id": "eb20cfd48f82",
       "name": "Seo-Seoul Museum of Art",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "서서울미술관"
+        },
+        "ja": {
+          "name": "西ソウル美術館"
+        }
+      },
       "venue_type": "museum",
       "region": "서울",
       "district": null,
@@ -93730,8 +93960,15 @@
     {
       "id": "5aa8b91a99e6",
       "name": "Photography Seoul Museum of Art",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "서울시립 사진미술관"
+        },
+        "ja": {
+          "name": "ソウル市立写真美術館"
+        }
+      },
       "venue_type": "museum",
       "region": "서울",
       "district": null,
@@ -93744,8 +93981,15 @@
     {
       "id": "9bb4307ccf48",
       "name": "東京建物八重洲ビル",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "도쿄 타테모노 야에스 빌딩"
+        },
+        "en": {
+          "name": "Tokyo Tatemono Yaesu Building"
+        }
+      },
       "venue_type": "other",
       "region": "京橋、日本橋",
       "district": null,
@@ -93758,8 +94002,15 @@
     {
       "id": "64da213bfd00",
       "name": "清川泰次記念ギャラリー／区民ギャラリー",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "키요카와 타이지 기념 갤러리 / 구민 갤러리"
+        },
+        "en": {
+          "name": "Kiyokawa Taiji Memorial Gallery / Ward Residents' Gallery"
+        }
+      },
       "venue_type": "other",
       "region": "世田谷",
       "district": null,
@@ -93772,8 +94023,15 @@
     {
       "id": "d535cb326023",
       "name": "zolin gallery（ゾウリンギャラリー）",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "zolin gallery"
+        },
+        "en": {
+          "name": "zolin gallery"
+        }
+      },
       "venue_type": "gallery",
       "region": "北海道",
       "district": null,
@@ -93786,8 +94044,15 @@
     {
       "id": "32eaf6028821",
       "name": "日本外国特派員協会",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "일본외국특파원협회"
+        },
+        "en": {
+          "name": "The Foreign Correspondents' Club of Japan"
+        }
+      },
       "venue_type": "other",
       "region": "銀座、丸の内",
       "district": null,
@@ -93800,8 +94065,15 @@
     {
       "id": "4f6b533d9524",
       "name": "日本カメラ博物館",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "일본 카메라 박물관"
+        },
+        "en": {
+          "name": "Japan Camera Museum"
+        }
+      },
       "venue_type": "other",
       "region": "竹橋、水道橋、末広町",
       "district": null,
@@ -93814,8 +94086,15 @@
     {
       "id": "7f2defa24150",
       "name": "鹿児島市立美術館",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "가고시마 시립 미술관"
+        },
+        "en": {
+          "name": "Kagoshima City Museum of Art"
+        }
+      },
       "venue_type": "other",
       "region": "鹿児島県",
       "district": null,
@@ -93828,8 +94107,15 @@
     {
       "id": "c0100ea9b8af",
       "name": "HANASAKA SQUARE",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "HANASAKA SQUARE"
+        },
+        "ja": {
+          "name": "HANASAKA SQUARE"
+        }
+      },
       "venue_type": "other",
       "region": "京橋、日本橋",
       "district": null,
@@ -93842,8 +94128,15 @@
     {
       "id": "ce1c55a3de47",
       "name": "八重洲ダイビル",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "야에스 다이비루"
+        },
+        "en": {
+          "name": "Yaesu Daibiru"
+        }
+      },
       "venue_type": "other",
       "region": "京橋、日本橋",
       "district": null,
@@ -93856,8 +94149,15 @@
     {
       "id": "1a56a45138cd",
       "name": "CAVE-AYUMIGALLERY",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "CAVE-AYUMIGALLERY"
+        },
+        "ja": {
+          "name": "CAVE-AYUMIGALLERY"
+        }
+      },
       "venue_type": "gallery",
       "region": "市ヶ谷、神楽坂",
       "district": null,
@@ -93870,8 +94170,15 @@
     {
       "id": "733a973139e5",
       "name": "沼津市庄司美術館（モンミュゼ沼津）",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "누마즈시 쇼지 비주쓰칸 (몽뮤제 누마즈)"
+        },
+        "en": {
+          "name": "Numazu City Shoji Museum of Art (Mon Musée Numazu)"
+        }
+      },
       "venue_type": "other",
       "region": "静岡県",
       "district": null,
@@ -93884,8 +94191,15 @@
     {
       "id": "4eaa366e4b4f",
       "name": "gallery N",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "gallery N"
+        },
+        "ja": {
+          "name": "gallery N"
+        }
+      },
       "venue_type": "gallery",
       "region": "愛知県",
       "district": null,
@@ -93898,8 +94212,15 @@
     {
       "id": "428d66c8a712",
       "name": "ギャラリー冬青",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "갤러리 동청"
+        },
+        "en": {
+          "name": "Gallery Tosei"
+        }
+      },
       "venue_type": "other",
       "region": "武蔵野、多摩",
       "district": null,
@@ -93912,8 +94233,15 @@
     {
       "id": "5b6cc2a033fd",
       "name": "光婉",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "광완"
+        },
+        "en": {
+          "name": "Kōen"
+        }
+      },
       "venue_type": "other",
       "region": "恵比寿、代官山、中目黒",
       "district": null,
@@ -93926,8 +94254,15 @@
     {
       "id": "8f3eae7e325f",
       "name": "Kaikai Kiki Gallery",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "Kaikai Kiki Gallery"
+        },
+        "ja": {
+          "name": "Kaikai Kiki Gallery"
+        }
+      },
       "venue_type": "gallery",
       "region": "白金、広尾",
       "district": null,
@@ -93940,8 +94275,15 @@
     {
       "id": "7eceec581cde",
       "name": "COPYCENTER GALLERY （コピーセンターギャラリー）",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "COPYCENTER GALLERY"
+        },
+        "en": {
+          "name": "COPYCENTER GALLERY"
+        }
+      },
       "venue_type": "gallery",
       "region": "東京：その他",
       "district": null,
