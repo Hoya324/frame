@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T17:44:08.688023+00:00",
+  "generated_at": "2026-09-16T21:23:57.675455+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -73204,7 +73204,7 @@
       "price_max": null,
       "start_date": "2026-09-16",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "1ab862183c75",
@@ -75326,7 +75326,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-09-15",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "b5a0a1a747b1",
@@ -76858,7 +76858,7 @@
       "price_max": null,
       "start_date": "2026-09-16",
       "end_date": "2026-09-30",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "a99c05f8f3ec",
@@ -77914,7 +77914,7 @@
       "price_max": null,
       "start_date": "2026-09-16",
       "end_date": "2026-09-21",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ce8764530297",
@@ -80214,7 +80214,7 @@
       "price_max": null,
       "start_date": "2026-09-16",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "018b6124fde6",
@@ -81753,7 +81753,7 @@
       "price_max": null,
       "start_date": "2026-09-16",
       "end_date": "2026-09-23",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "c8123c53bcb7",
@@ -84110,7 +84110,7 @@
       "price_max": null,
       "start_date": "2026-09-16",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "428d66c8a712",
@@ -84160,7 +84160,7 @@
       "lang": null,
       "tr": {},
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/afc68a46/PAIDIAP%20-%20%E5%8D%83%E4%BB%A3%E6%B3%B0%E7%9D%A6.jpg",
-      "description": "この度、gallery光婉-koen-にて9/20-9/26の間、jvnpey、櫛引、矢野央祐、千代泰睦、志村孝太郎、敷浪然太郎によるgroup exhibition \"PAIDIAP\"を開催。\n\n今回の展示タイトル\"PAIDIAP\"は、ギリシア語paideíā（paideia（教育）におけるpaidia（遊び））から来ており、オランダの歴史家、ヨハン・ホイジンガの提唱した「ホモ・ルーデンス」における遊び（ludus）がその形相を表す前の概念、根源であるpaidiaを探る試みである。\n\n古来から儀式や祭りなどの行為は、あらゆる場で営まれ、時間、空間的制限を与えながらコミュニティを形作った。それらは集団において人々に役割を与え、ひとは与えられたその役割を演じた。儀式と遊戯の類似点は指摘すれば際限なく挙げられるが、これらの儀式における役割や規則などが、現代において我々の社会全体へと変貌を遂げ、また、それら社会を少しずつ形作る個人のアイデンティティやナショナリズムなどの諸概念を生み、企業、インフラなどの装置と化し現代では欠かすことのできないものにまで成長を遂げた。元来、人間が持つプリミティブな感覚が形作った社会は、もはや遊びとはかけ離れた物に変化している。今展覧会では、目まぐるしく変わる社会の中で、primitiveな感覚を共有しつつそれぞれの方法でアウトプットを重ねるartistの作品を是非ご覧下さい。",
+      "description": "この度、gallery光婉-koen-にて9/20-9/26の間、 j 志村孝太郎、千代泰睦、矢野央祐、jvnpey、normal Bean、zentaroによるgroup exhibition \"PAIDIAP\"を開催。今回の展示タイトル\"PAIDIAP\"は、ギリシア語paideíā（paideia（教育）におけるpaidia（遊び））から来ており、オランダの歴史家、ヨハン・ホイジンガの提唱した「ホモ・ルーデンス」における遊び（ludus）がその形相を表す前の概念、根源であるpaidiaを探る試みである。\n\n古来から儀式や祭りなどの行為は、あらゆる場で営まれ、時間、空間的制限を与えながらコミュニティを形作った。それらは集団において人々に役割を与え、ひとは与えられたその役割を演じた。儀式と遊戯の類似点は指摘すれば際限なく挙げられるが、これらの儀式における役割や規則などが、現代において我々の社会全体へと変貌を遂げ、また、それら社会を少しずつ形作る個人のアイデンティティやナショナリズムなどの諸概念を生み、企業、インフラなどの装置と化し現代では欠かすことのできないものにまで成長を遂げた。元来、人間が持つプリミティブな感覚が形作った社会は、もはや遊びとはかけ離れた物に変化している。今展覧会では、目まぐるしく変わる社会の中で、primitiveな感覚を共有しつつそれぞれの方法でアウトプットを重ねるartistの作品を是非ご覧下さい。",
       "medium": "mixed",
       "exhibition_type": "group",
       "genre_tags": [],
@@ -84334,6 +84334,198 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Yutaro-Saito-72-Club-Tour/copycenter-gallery/2026-09-18",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "b401f9b71b65",
+      "source": "tokyo_art_beat",
+      "title": "澤田育久 + ステファン・ケッペル 「WHITE COPIES」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/feb5c5e5/WHITE%20COPIES.png%20-%20kanzan%20gallery%E4%B8%80%E8%88%AC%E8%B2%A1%E5%9B%A3%E6%B3%95%E4%BA%BA%E6%97%A5%E6%9C%AC%E5%86%99%E7%9C%9F%E3%82%A2%E3%83%BC%E3%83%88%E5%8D%94%E4%BC%9A.png",
+      "description": "2025年、オランダ人アーティスト、ステファン・ケッペルと東京の写真家、澤田育久、そして北京を拠点とする出版社ori.studioによるプロジェクト「WHITE COPIES」が神保町の「The White」にて展開されました。本プロジェクトは、ケッペルの東京での滞在制作を契機として二つの展覧会を開催し、ドキュメンテーションブックとして結実するものです。本展タイトル「WHITE COPIES」は、ケッペルが使用するドラフトプリンターのトナー切れアラートに由来します。東京郊外で澤田が撮影した写真をケッペルがプリントしている最中にトナーが減少し、マニュアルに記載された技術トラブルの項目が脳裏に浮かびました。この印刷の減衰と欠落の経験が、ギャラリー名の響きと結びつき、「WHITE COPIES」という名称へと結実しました。これらのイメージは、像が立ち現れ、また消えていくさまを思わせ、古典的な暗室写真を想起させます。そして、白いイメージは、純粋さや光への欲望とも関わっています。\n\nケッペルは滞在中、建築と都市構造を手がかりにリサーチを行い、ブロック、窓、公共の椅子など、都市の匿名的な部位に着目して撮影しました。あわせて、さまざまな種類の印刷用紙や古書、フィールドワークで見出した廃棄ロール紙を、将来的な制作素材として収集しています。滞在後は、東京で撮影したイメージをもとに、アムステルダムのスタジオでプリント作品を制作。並行して澤田とリモートでイメージの交換と再構成を続け、撮影・印刷・再撮影という反復を通じて、都市像を多層化させています。本展では、東京で収集した素材を契機とした実験的な制作や、共同プロセスに基づくパフォーマティブなアプローチに加え、2025年の展覧会以降に制作された最新のプリント作品も展示します。これらの作品群は、異なる都市経験の交差によって、固有性を超えて立ち現れる、匿名的で普遍的な都市構造を浮かび上がらせます。さらに、今秋ori.studioよりリリース予定の「WHITE COPIES」のダミーブックや、その制作過程もあわせて展示し、プロジェクト全体を俯瞰して紹介します。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-10",
+      "end_date": "2026-09-27",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "f463daf15a4a",
+        "name": "Kanzan Gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Kanzan 갤러리"
+          },
+          "ja": {
+            "name": "Kanzan ギャラリー"
+          }
+        },
+        "region": "浅草橋、馬喰町",
+        "district": null,
+        "lat": 35.69350280330762,
+        "lng": 139.7802538527435
+      },
+      "artists": [
+        {
+          "id": "818ef8c36443",
+          "name": "澤田育久",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "fc95842b23a1",
+          "name": "ステファン・ケッペル",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Ikuhisa-Sawada-Stephan-Keppel-White-Copies/8-A6-D24-E2/2026-09-10",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "3e4c0e23b51a",
+      "source": "tokyo_art_beat",
+      "title": "「クリエイター交流会『なごりおしい夜』第二夜」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/4755e74d/ny2026%20-%20%E5%A4%A7%E6%A9%8B%E7%B5%B5%E9%87%8C%E5%A5%88.jpg",
+      "description": "「なごりおしい夜」は、Web、グラフィック、写真、映像、イラストなど、異なる領域で活動する人たちが、肩書きや地域を越えて夜の名古屋に集まり、新しい刺激や出会い、会話を愉しむ交流会です。「まだ、帰りたくない...」そんな気持ちを皆んなで分かち合う、なごりおしい夜に乾杯しましょう。",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-17",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "944e390ef289",
+        "name": "名古屋造形大学ギャラリー",
+        "lang": null,
+        "tr": {},
+        "region": "愛知県",
+        "district": null,
+        "lat": 35.19045695911794,
+        "lng": 136.90474280223847
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Nagorioshi-Yoru/nagoya-zokei-university-gallery/2026-10-17",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "11ec566d4a5d",
+      "source": "tokyo_art_beat",
+      "title": "「The Three-Body Problems」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/28a793c9/TBP_DM%20fix_artbeat_1.jpg",
+      "description": "これまであまり関わりのなかった小林明子・渡辺絵梨奈・BASHOWの3人が写真を媒介に知り合い、それぞれ異なるアプローチで制作している作品を同時に発表します。タイトルの「The Three-Body Problems（三体問題）」とは、古典力学、天体力学において2つの天体がどのように軌道を描くかは計算可能なものが、3つになるとその起動はカオスになり、どんな形を描くのか全くの予測不可能なものになることを指します。展示までのおよそ半年の制作期間、定期的に集まって互いの制作を観測したり同じ時間軸を共有していくことで、意識的/無意識的に予想だにしない作用が生まれることを三体問題になぞらえ、各作家から生成されるイメージの宇宙を共有・展開する試みです。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-09",
+      "end_date": "2026-10-19",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "7eceec581cde",
+        "name": "COPYCENTER GALLERY （コピーセンターギャラリー）",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "COPYCENTER GALLERY"
+          },
+          "en": {
+            "name": "COPYCENTER GALLERY"
+          }
+        },
+        "region": "東京：その他",
+        "district": null,
+        "lat": 35.74913,
+        "lng": 139.7194
+      },
+      "artists": [
+        {
+          "id": "0503529b9545",
+          "name": "小林明子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "9ed7244db65b",
+          "name": "渡辺絵梨奈",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0047e628f2e1",
+          "name": "BASHOW",
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "BASHOW"
+            },
+            "ja": {
+              "name": "BASHOW"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/The-Three-Body-Problems/copycenter-gallery/2026-10-09",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "e0a3a8365144",
+      "source": "tokyo_art_beat",
+      "title": "Yasutaka Okada 「路 / Path」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/809c33a4/1001event.jpg",
+      "description": "京都のアーティスト Yasutaka Okada の写真展を、横浜で開催します。今年春、KYOTOGRAPHIE 京都国際写真祭のサテライトプログラム KG+ で発表した個展「路 / Path」。その展示を、みなとみらいの BUKATSUDO に再構成して持ち込みます。最終日には、本人によるライブ演奏とトークを行います。\n\n[関連イベント]\nライブ演奏・トーク\n日時: 2026年10月4日16:00〜\n会場: BUKATSUDO HALL\n料金: 2000円 + 1ドリンクオーダー制（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-04",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "212a5c18fcd0",
+        "name": "BUKATSUDO GALLERY",
+        "lang": null,
+        "tr": {},
+        "region": "神奈川県",
+        "district": null,
+        "lat": 35.45489144964111,
+        "lng": 139.6323300076679
+      },
+      "artists": [
+        {
+          "id": "aef0eda4a5d9",
+          "name": "Yasutaka Okada",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yasutaka-Okada-Path/bukatsudo-gallery/2026-10-01",
       "featured": false,
       "popularity_score": null
     }
@@ -94291,6 +94483,34 @@
       "country": "JP",
       "lat": 35.74913,
       "lng": 139.7194,
+      "website": null
+    },
+    {
+      "id": "944e390ef289",
+      "name": "名古屋造形大学ギャラリー",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "愛知県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.19045695911794,
+      "lng": 136.90474280223847,
+      "website": null
+    },
+    {
+      "id": "212a5c18fcd0",
+      "name": "BUKATSUDO GALLERY",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "神奈川県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.45489144964111,
+      "lng": 139.6323300076679,
       "website": null
     }
   ],
@@ -115072,6 +115292,30 @@
     {
       "id": "eb65eca853e6",
       "name": "ステロタイプ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fc95842b23a1",
+      "name": "ステファン・ケッペル",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0503529b9545",
+      "name": "小林明子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9ed7244db65b",
+      "name": "渡辺絵梨奈",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "aef0eda4a5d9",
+      "name": "Yasutaka Okada",
       "lang": null,
       "tr": {}
     }
