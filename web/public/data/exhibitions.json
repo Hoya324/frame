@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T17:42:13.306670+00:00",
+  "generated_at": "2026-09-17T21:28:04.718785+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -44540,7 +44540,7 @@
       "price_max": null,
       "start_date": "2026-07-22",
       "end_date": "2026-09-16",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": "月－土 11:00－18:00 / 日・祝休館",
       "venue": {
         "id": "b9a5f994c6d3",
@@ -79029,8 +79029,8 @@
           "title": "色彩の中に潜む身体"
         }
       },
-      "poster_image_url": "https://d1jikcjf8oridj.cloudfront.net/i/32/aa6gIbrh_lptxhC.jpeg",
-      "description": null,
+      "poster_image_url": "https://d1jikcjf8oridj.cloudfront.net/i/3e/XcVW1VbE_ULOamB.jpeg",
+      "description": "禅フォトギャラリーは2026年10月2日（金）から2026年10月31日（土）、そして2026年11月24日（火）から2026年12月19日（土）まで、写真家・Tokyo Rumando個展「The Body Lurking Within Color」を開催いたします。...",
       "medium": "photo",
       "exhibition_type": "curated",
       "genre_tags": [],
@@ -79038,7 +79038,7 @@
       "price_min": null,
       "price_max": null,
       "start_date": "2026-10-02",
-      "end_date": "2026-10-31",
+      "end_date": "2026-12-19",
       "status": "upcoming",
       "open_hours": "火－土 12:00－19:00 / 日・月・祝休廊",
       "venue": {
@@ -81139,7 +81139,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-09-16",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "68e82b6b6f51",
@@ -82507,7 +82507,7 @@
       "price_max": null,
       "start_date": "2026-09-17",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "33e2eeae1f83",
@@ -84144,7 +84144,7 @@
       "price_max": null,
       "start_date": "2026-09-17",
       "end_date": "2026-10-04",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8b8bf1f13f39",
@@ -84821,6 +84821,400 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Yasutaka-Okada-Path/bukatsudo-gallery/2026-10-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "e27fd1372909",
+      "source": "gallery_now",
+      "title": "<고요히 다시 살아가는> K-PHOTO WAVE 7 AWARDS 황명자 개인전",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": null,
+      "description": null,
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-05",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "b3002506ba4c",
+        "name": "gallery NoW",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "gallery NoW"
+          },
+          "ja": {
+            "name": "gallery NoW"
+          }
+        },
+        "region": "서울",
+        "district": null,
+        "lat": 37.5227599286117,
+        "lng": 127.034970463533
+      },
+      "artists": [],
+      "source_url": "https://blog.naver.com/gallerynow/224414911588",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "867c3aaaecf5",
+      "source": "tokyo_art_beat",
+      "title": "鬼海弘雄 「路上〈表紙の1枚〉」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/7270595e/IMG_9399%20-%20%E3%81%84%E3%81%AA%E3%82%82%E3%81%82%E3%81%8D%E3%81%93.JPEG",
+      "description": "プレコグ・ギャラリーでは2026年9月19日（土）〜23日（水・祝）に、写真家・鬼海弘雄の個展を開催いたします。\n\n写真もエッセイも、鬼海弘雄が残した作品のテーマは常に路上にありました。当然、その作品を収めた書籍の表紙を飾った写真も、世界のどこかの路上で撮影されたものです。本展では、そうした“表紙の1枚”を展示販売いたします。さらに、会場では、鬼海が生前に好んで手元に置いていた書籍（他の作家による写真集や画集）の一部の販売を行います。現在、希少本となっているものも含まれますので、ぜひこの機会にご覧いただけますと幸いです。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-19",
+      "end_date": "2026-09-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "56a2fcefe9d5",
+        "name": "プレコグ・ギャラリー",
+        "lang": null,
+        "tr": {},
+        "region": "渋谷",
+        "district": null,
+        "lat": 35.66203154302754,
+        "lng": 139.70574827976228
+      },
+      "artists": [
+        {
+          "id": "8f5ef43a6e1d",
+          "name": "鬼海弘雄",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hiroo-Kikai-Rojo-Cover-Image/precog-gallery/2026-09-19",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "823b298e35da",
+      "source": "tokyo_art_beat",
+      "title": "マイケル・ケンナ 「BEAUTIFUL FUKUSHIMA」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/d4542443/%E3%83%9E%E3%82%A4%E3%82%B1%E3%83%AB%E3%83%BB%E3%82%B1%E3%83%B3%E3%83%8A%E5%86%99%E7%9C%9F%E5%B1%95%E3%80%8CBEAUTIFUL%20FUKUSHIMA%E3%80%8D%20_A4%E3%83%81%E3%83%A9%E3%82%B7_page-0001.jpg",
+      "description": "本展は、福島県主催で開催されます。昨年、マイケル・ケンナ氏が、俳優 松重豊氏による福島県 PR動画シリーズ『福島 豊』に出演。福島での撮影風景を披露して話題を集めました 。本展では 、震災か15年を経た福島を、マイケル・ケンナ氏が訪れ撮影した新作写真から40点を選りすぐり、日本で初めて公開します。ケンナ氏が暗室で制作したオリジナルプリントが福島県内で公開されるのも初となります。福島の自然や風土、人々に深い感銘を受け、撮影された写真は、特有の繊細なモノクロームの階調により、静けさと力強さをあわせ持ち、復興に向けた福島の新しい風景として表現されています。本展は、猪苗代町内で開催される総合芸術イベント「September JAM」にあわせて開催されます。廃校を改装したRoots猪苗代の空間で最新作をご覧いただきます。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-19",
+      "end_date": "2026-09-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "98e5839e227e",
+        "name": "Roots猪苗代 School Area",
+        "lang": null,
+        "tr": {},
+        "region": "福島県",
+        "district": null,
+        "lat": 37.490707306455995,
+        "lng": 140.15654588161468
+      },
+      "artists": [
+        {
+          "id": "9b5c135aa583",
+          "name": "マイケル・ケンナ",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마이클 케나"
+            },
+            "en": {
+              "name": "Michael Kenna"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Michael-Kenna-Beautiful-Fukushima/Roots-Inawashiro-School-Area/2026-09-19",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "bf548a488500",
+      "source": "tokyo_art_beat",
+      "title": "「神棲む谷−地に生きる人々 中川賢俊まなざしの旅路」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/61f69ed9/nakagawa%20masatoshi_2026_front.avif",
+      "description": "近代化に抗いながら祭りに親しみ、自然に寄り添う人々に魅せられた中川賢俊はカメラを携え、遠近法ではない視角で人々と交差し、この遠山谷の地に生きる村の人たちの表情と生きざまを深くとらえてきた。人々の奥底にあるものこそ時代を照射し、今を生きる私たちの羅針盤として朽ちないものと見抜いた中川は、やがて社会への還元と啓発の営みを重ねてきた。写真をとおして時代の批評を宿す中川賢俊の「まつろわぬ」思考こそ、混迷の時代に欠かせないものであろう。\n\n[関連イベント]\n体験ワークショップ〈カメラの中に入ってみよう！〉\n日時: 2026年9月19日13:30〜\n登壇者: 山内孝一（現代美術家）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-08-29",
+      "end_date": "2026-10-05",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "38a552322cf9",
+        "name": "アンフォルメル中川村美術館",
+        "lang": null,
+        "tr": {},
+        "region": "長野県",
+        "district": null,
+        "lat": 35.64663,
+        "lng": 137.9546
+      },
+      "artists": [
+        {
+          "id": "18377ce7b006",
+          "name": "中川賢俊",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Masatoshi-Nakagawas-Journey-Valley-of-the-Gods-People-Living-on-the-Land/informel-nakagawamura-museum/2026-08-29",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "1464d925fd55",
+      "source": "tokyo_art_beat",
+      "title": "「『Half of Us』京都・写真店maruphoto一周年記念写真展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/076e1de2/half%20of%20us%20%E6%AD%A3%E9%9D%A2%20-%20%E5%86%99%E7%9C%9F%E5%BA%97maruphoto%20(1).jpg",
+      "description": "2026年10月、maruphoto写真店は一周年を迎えます。\n\n一周年を記念して、みんなのハーフ写真展「Half of Us」を開催します。本展示では、ハーフカメラで撮影されたフィルム写真を集めました。一本のフィルムで約2倍の枚数を撮ることができるハーフカメラ。フィルムの価格が上がり続ける今、日常をより気軽に残せるカメラとして、その面白さを改めて感じています。今回集まった写真の多くは、「作品」として撮られたものではありません。そのとき、それぞれの場所にあった「いま、ここ」を残した写真です。maruphotoを始めたときから、私たちは「写真を通して、人と人がまるく繋がる場所をつくりたい」と考えてきました。一周年の節目に、みなさんの写真がmaruphotoに集まります。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-19",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "238fe96014e5",
+        "name": "写真店maruphoto",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "사진점 maruphoto"
+          },
+          "en": {
+            "name": "Photo Shop maruphoto"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.018383294965,
+        "lng": 135.77478583068847
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Maruphoto-1st-Anniversary-Exhibition/maruphoto/2026-10-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "6e35ce60906a",
+      "source": "tokyo_art_beat",
+      "title": "「水島貴大写真集出版記念展 『環島回憶錄 / Memoirs of Huandao Taiwan 2020-2025』」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/94ca0964/img001.jpg%2016_20%20-%20%E3%82%B9%E3%82%AE%E3%83%A2%E3%83%88%E3%83%A2%E3%83%A2%E3%82%AB.jpg",
+      "description": "「環島回憶錄」は台湾全土で街とそこに生きる人々を主題に撮影した写真作品である。\n\n[関連イベント]\n①水島貴大×有元伸也(写真家)\n日時: 10月31日 14:00～15:30\n②水島貴大×蓮井元彦(写真家)×池谷修一(写真編集者)\n日時: 11月27日 14:00～15:30\n③水島貴大×田中佑典(文化編集者)\n日時: 11月27日 18:00～19:30\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-16",
+      "end_date": "2026-11-28",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "020ae6e78a04",
+        "name": "KOSHA KOSHA AKIHABARA",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "코샤 코샤 아키하바라"
+          },
+          "ja": {
+            "name": "コシャ コシャ アキハバラ"
+          }
+        },
+        "region": "浅草橋、馬喰町",
+        "district": null,
+        "lat": 35.69745,
+        "lng": 139.7803
+      },
+      "artists": [
+        {
+          "id": "8de4db1c0fd2",
+          "name": "水島貴大",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "미즈시마 타카히로"
+            },
+            "en": {
+              "name": "Mizushima Takahiro"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Tkahiro-Mizushima-Memoirs-of-Huandao-Taiwan-2020-2025/kosha-kosha-akihabara/2026-10-16",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "9c395ac9806c",
+      "source": "tokyo_art_beat",
+      "title": "タカハシヤヒロ + 今関秀介 「エアポケット」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/38c9b5ec/B2%E3%83%9B%E3%82%9A%E3%82%B9%E3%82%BF%E3%83%BC%E7%B8%A6%20-%202%20-%20Yahiro%20Takahashi.jpg",
+      "description": "本展は、日常の隙間に潜むリミナルスペース（境界空間）を、2人の写真家が独自の視点で切り取った写真展です。\n意味を剥ぎ取られ、常識の枠組みから外れた「ここではないどこか」。あなたが普段見落としている都市の「エアポケット」に迷い込む、静謐な写真体験をギャラリーでご体感ください。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-15",
+      "end_date": "2026-10-19",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "801538c3e8a0",
+        "name": "ARTGEN.GALLERY（アートゲンギャラリー）",
+        "lang": null,
+        "tr": {},
+        "region": "東京：その他",
+        "district": null,
+        "lat": 35.60630362959117,
+        "lng": 139.70875281378025
+      },
+      "artists": [
+        {
+          "id": "fc347d646756",
+          "name": "タカハシヤヒロ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "9bac953d03e6",
+          "name": "今関秀介",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yahiro-Takahashi-Shusuke-Imazeki-Air-Pocket/artgen-gallery/2026-10-15",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "d42e10d337b0",
+      "source": "tokyo_art_beat",
+      "title": "原田直宏 「2」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/28312448/Key_Visual%20-%20Naohiro%20Harada%20Photography.jpg",
+      "description": "本展では、原田が2009–2011年に制作した「Drifting」と、2019–2021年に制作した「Tokyo Fishgraphs」という2つのシリーズの未公開写真を同時に展示します。\nどちらも前作のセレクションで選ばれなかった未公開写真の中から、新たに選ばれた写真を中心に展示が構成されています。\n\n・Driftingについて\nhttps://chosecommune.com/book/the-artists-atlas-tokyo\n初作が2014年にZen Foto Galleryから出版され、今秋にフランスの出版社「CHOSE COMMUNE」からリリースされた新しい都市のガイドブック「THE ARTIST’S ATLAS: TOKYO」に未公開作品が収録され、現在話題となっています。\n\n・Tokyo Fishgraphs IIについて\nhttps://www.libraryman.se/naohiro-harada-tokyo-fishgraphs-ii/\n2022年にスウェーデンの出版社「Libraryman」から出版された「Tokyo Fishgraphs | 2020」の続編作品が今夏にリリースされました。前作はLibraryman Award受賞作品となっており、海外を含め、様々なメディアで取り上げられました。\n\n写真展の「2」というタイトルには、続編の意味が込められており、初作と続編の関係性、時間を経て選び直されたイメージ等、普段取り上げられることの少ないアートブックの続編が出来上がる経緯や意味を考察できるような展示内容になっています。会期中にはアーティストトークも予定しています。\n\n[関連イベント]\nアーティストトーク\n日時: 2026年10月9日19:00〜20:00\n登壇者: 原田直弘\n会場: 東塔堂\n料金: 無料（事前申込み不要）\n※イベント詳細は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-24",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5fd5efce5309",
+        "name": "東塔堂",
+        "lang": null,
+        "tr": {},
+        "region": "渋谷",
+        "district": null,
+        "lat": 35.654119805343235,
+        "lng": 139.70319109395945
+      },
+      "artists": [
+        {
+          "id": "3472f14e56e3",
+          "name": "原田直宏",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Naohiro-Harada-2/9-CC43-FE0/2026-10-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "c315ec10e78a",
+      "source": "tokyo_art_beat",
+      "title": "マイケル・ケンナ 「BEAUTIFUL FUKUSHIMA」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/1b795a99/01Inawashiro%20Lake%20Sunrise,%20Fukushima,%20Japan.%202026.jpg",
+      "description": "マイケル・ケンナは、昨年、俳優・松重豊氏の依頼で初めて福島を訪れました。福島の風土や人々に魅了されたケンナは、その後、幾度も福島を訪れ、各地で撮影を重ねてきました。東日本大震災から15年を迎える2026年、復興に向けて歩み続ける福島の美しい風景を世界に伝えたいという思いから、オリジナルプリントを制作し、すべて新作による写真集『In Fukushima』を出版しました。福島県では9月に猪苗代町で日本初のお披露目を行うほか、作家の意向に賛同した世界各地のギャラリーで「FUKUSHIMA」の展覧会が開催されます。アートアンリミテッドでは、T3 Photo Asia（10/16-10/19）と乃木坂のギャラリーで本シリーズを紹介します。\n\n[関連イベント]\nマイケル・ケンナ サイン会\n日時: 2026年10月24日16:00〜18:00\n登壇者: マイケル・ケンナ（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-24",
+      "end_date": "2026-11-21",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "c6edd85e51f2",
+        "name": "ギャラリー・アートアンリミテッド",
+        "lang": null,
+        "tr": {},
+        "region": "六本木、乃木坂",
+        "district": null,
+        "lat": 35.66679278605789,
+        "lng": 139.7273010192391
+      },
+      "artists": [
+        {
+          "id": "9b5c135aa583",
+          "name": "マイケル・ケンナ",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마이클 케나"
+            },
+            "en": {
+              "name": "Michael Kenna"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Michael-Kenna-Beautiful-Fukushima/95360-DA8/2026-10-24",
       "featured": false,
       "popularity_score": null
     }
@@ -94820,6 +95214,90 @@
       "country": "JP",
       "lat": 35.45489144964111,
       "lng": 139.6323300076679,
+      "website": null
+    },
+    {
+      "id": "56a2fcefe9d5",
+      "name": "プレコグ・ギャラリー",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "渋谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.66203154302754,
+      "lng": 139.70574827976228,
+      "website": null
+    },
+    {
+      "id": "98e5839e227e",
+      "name": "Roots猪苗代 School Area",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "福島県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 37.490707306455995,
+      "lng": 140.15654588161468,
+      "website": null
+    },
+    {
+      "id": "38a552322cf9",
+      "name": "アンフォルメル中川村美術館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "長野県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.64663,
+      "lng": 137.9546,
+      "website": null
+    },
+    {
+      "id": "801538c3e8a0",
+      "name": "ARTGEN.GALLERY（アートゲンギャラリー）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "東京：その他",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.60630362959117,
+      "lng": 139.70875281378025,
+      "website": null
+    },
+    {
+      "id": "5fd5efce5309",
+      "name": "東塔堂",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "渋谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.654119805343235,
+      "lng": 139.70319109395945,
+      "website": null
+    },
+    {
+      "id": "c6edd85e51f2",
+      "name": "ギャラリー・アートアンリミテッド",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "六本木、乃木坂",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.66679278605789,
+      "lng": 139.7273010192391,
       "website": null
     }
   ],
@@ -115625,6 +116103,36 @@
     {
       "id": "aef0eda4a5d9",
       "name": "Yasutaka Okada",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8f5ef43a6e1d",
+      "name": "鬼海弘雄",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "18377ce7b006",
+      "name": "中川賢俊",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fc347d646756",
+      "name": "タカハシヤヒロ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9bac953d03e6",
+      "name": "今関秀介",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3472f14e56e3",
+      "name": "原田直宏",
       "lang": null,
       "tr": {}
     }
