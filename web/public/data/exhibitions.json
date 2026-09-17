@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T05:36:09.329742+00:00",
+  "generated_at": "2026-09-17T12:26:57.700158+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -78218,8 +78218,17 @@
       "id": "175ea5346a65",
       "source": "tokyo_art_beat",
       "title": "児玉浩宜 + 何兆南 「Trace Layers」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "코다마 히로노리 + 하조남 「Trace Layers」",
+          "description": "도시 표면에 새겨진 흔적을 통해 시간의 겹침을 바라보는 전시회. 본 전시에서는 도시에 축적된 흔적을 다른 시각으로 포착하는 두 작가를 소개한다. 코다마 히로노리의 「BLOCK CITY」에서는 사회적 사건의 소용돌이 속에서 실시간으로 변화하는 도시 공간을 바라본다. 그곳에서는 사람들의 행위와 모임이 도시에 일시적인 변화를 만들어내고, 풍경은 끊임없이 갱신된다.\n한편, South HO의 「Work Naming Has Yet to Succeed」에서는 사건이 지나간 후에 남겨지는 흔적에 주목한다. 항의 활동이나 사회 운동의 잔재, 보수나 삭제의 흔적은 이윽고 일상 풍경으로 스며들어 풍경의 일부로 침전된다.\n사건의 발생과 그 여파, 생성되는 흔적과 시간 속에서 변질되면서 계속 남아있는 흔적. 양자의 시점을 오가며, 본 전시는 도시를 단순한 물리적 공간이 아닌, 무수한 사건과 기억이 겹겹이 쌓이며 다시 쓰여지는 장소로 재해석한다."
+        },
+        "en": {
+          "title": "Kodama Hironori + South HO 「Trace Layers」",
+          "description": "An exhibition that explores the layers of time through traces etched on the city's surface. This exhibition introduces two artists who capture traces accumulated in the city from different perspectives. Kodama Hironori's \"BLOCK CITY\" observes urban spaces that change in real-time amidst the vortex of social events. There, people's actions and gatherings create temporary changes in the city, and the landscape is constantly updated.\nMeanwhile, South HO's \"Work Naming Has Yet to Succeed\" focuses on traces left behind after events have passed. Remnants of protests and social movements, and traces of repairs and erasures, eventually seep into the everyday landscape, settling as part of it.\nThe occurrence of events and their aftermath, the traces generated, and the traces that persist while transforming over time. By traversing both perspectives, this exhibition re-examines the city not merely as a physical space, but as a place where countless events and memories overlap and are rewritten."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/389e8d7f/85103-16-6ab63be3112b50d599447126fb8aa6de-3900x3120.jpg",
       "description": "都市の表面に刻まれた痕跡を通じて、時間の重なりを見つめる展覧会。本展では、都市に堆積した痕跡を異なる視点から捉える二人の作家を紹介する。児玉浩宜の「BLOCK CITY」では、社会的な出来事の渦中においてリアルタイムに変化する都市空間を見つめる。そこでは人々の行為や集まりが都市に一時的な変化を生み出し、風景は絶えず更新されていく。\n一方、South HOの「Work Naming Has Yet to Succeed」では、出来事が過ぎ去った後に残される痕跡に着目する。抗議活動や社会運動の名残、補修や消去の痕跡は、やがて日常風景へと滲み込み、風景の一部として沈殿していく。\n出来事の発生とその余波、生成される痕跡と時間のなかで変質しながら残り続ける痕跡。両者の視点を往還することで、本展は都市を単なる物理的な空間ではなく、無数の出来事や記憶が折り重なりながら書き換えられていく場として捉え直す。",
       "medium": "mixed",
@@ -78278,8 +78287,17 @@
       "id": "7508e2e950c6",
       "source": "tokyo_art_beat",
       "title": "「写真と想像力: 鈴木のぞみ & 上原沙也加 with the Higashikawa Award Collection」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「사진과 상상력: 스즈키 노조미 & 우에하라 사야카 with the Higashikawa Award Collection」",
+          "description": "최근 눈부신 활약을 보이는 스즈키 노조미와 우에하라 사야카. 두 사람은 사진을 통해 뛰어난 표현 활동을 하는 인물에게 수여되는 '사진의 마을' 히가시카와상(신인작가상)을 함께 수상했습니다. 본 전시에서는 스즈키와 우에하라의 히가시카와상 수상작과 그 이후 제작된 근작을 소개합니다.\n여기서 키워드로 삼은 것은 상상력이라는 단어입니다. 길거리나 일상용품에서 볼 수 있는 작은 구멍. 그 구멍을 통과한 빛이 만드는 영상을 스즈키는 인화지나 일상용품에 정착시켜 왔습니다. 희미한 빛의 흔적은 스즈키가 발견한 또 다른 세계의 모습입니다. 자신이 생활하는 장소를 다시 바라본다. 지금 눈앞에 있는 풍경에는 어떤 시간이 겹겹이 쌓여 있을까. 우에하라는 풍경의 세부에서 사건을 더듬듯이 오키나와를 계속 찍고 있습니다. 상상력이란 여기서는 여백을 읽는 힘이라고 생각합니다. 두 사람은 단순히 피사체나 정보를 쫓는 것이 아니라, 그 장소나 사물의 역사, 그 이면의 의미를 헤아립니다. 한 장의 사진 속에 펼쳐지는 시공간을 함께 상상하는 기회가 되기를 바랍니다."
+        },
+        "en": {
+          "title": "「Photography and Imagination: Suzuki Nozomi & Uehara Sayaka with the Higashikawa Award Collection」",
+          "description": "Nozomi Suzuki and Sayaka Uehara have shown remarkable activity in recent years. Both have received the Higashikawa Award (New Photographer Award) from \"The Town of Photography,\" an award given to individuals who demonstrate outstanding expressive activities through photography. This exhibition introduces Suzuki's and Uehara's Higashikawa Award-winning works, along with their recent works created thereafter.\nThe keyword here is \"imagination.\" Suzuki has captured images created by light passing through small holes found in cityscapes and everyday objects onto photographic paper and daily items. These faint traces of light are the forms of another world that Suzuki has discovered. Re-examining the place where one lives. What kind of time layers are superimposed on the landscape right before one's eyes? Uehara continues to photograph Okinawa, tracing events from the details of its landscapes. Imagination, here, is considered the ability to read between the lines. The two artists not only pursue subjects and information but also grasp the history of the place and objects, and the underlying meanings. We hope this exhibition provides an opportunity to collectively imagine the spatiotemporal dimensions that unfold beyond a single photograph."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/e3e931dd/85103-16-1cc5a1e2bb1876820c5e5d1fb86546b1-3000x2409.jpg",
       "description": "近年、目覚ましい活躍をみせる鈴木のぞみと上原沙也加。ふたりは、写真を通じ優れた表現活動を行う人物に贈られる「写真の町」東川賞（新人作家賞）をともに受賞しています。本展では、鈴木と上原の東川賞受賞作と、その後制作された近作をご紹介します。\nここでキーワードとしたのは想像力という言葉です。街中や日用品に見られる小さな穴。その穴を通った光が作る映像を、鈴木は印画紙や日用品に定着させてきました。かすかな光の痕跡は、鈴木が見出したもうひとつの世界の姿です。自分が生活する場所を見つめ直す。いま目の前にある風景にはどのような時間が折り重なっているのか。上原は、風景の細部から出来事をたどるように、沖縄を撮り続けています。想像力とは、ここでは余白を読む力だと考えます。ふたりは、ただ被写体や情報を追うだけでなく、その場所や物の歴史、背後の意味をくみ取ります。一枚の写真の奥に広がる時空を、ともに想像する機会となれば幸いです。",
       "medium": "mixed",
@@ -78338,8 +78356,17 @@
       "id": "f9c7dedada5c",
       "source": "tokyo_art_beat",
       "title": "ルーカス・フォグリア 「Constant Bloom」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "루카스 포글리아 「Constant Bloom」",
+          "description": "페인티드 레이디(히메아카타테하)는 세계에서 가장 긴 거리를 이동하는 나비이다. 루카스 포글리아는 아프리카에서 중동, 지중해를 넘어 유럽에 이르는 그들의 여정을 따라가며, 그 길에서 만나는 사람들과 풍경과 함께 그 모습을 포착해 왔다. 『Constant Bloom』은 자연과 인간, 생태계와 정치적 경계선을 분리된 것이 아니라 끊임없이 연결되는 하나의 연속된 세계의 일부로 재해석하려는 시도이다."
+        },
+        "en": {
+          "title": "Lucas Foglia 「Constant Bloom」",
+          "description": "The Painted Lady (Vanessa cardui) is the butterfly with the world's longest migration. Lucas Foglia has traced their journey from Africa to the Middle East, across the Mediterranean, and into Europe, capturing their presence alongside the people and landscapes encountered along the way. 『Constant Bloom』 is an attempt to re-examine nature and humanity, ecosystems and political boundaries, not as separate entities, but as part of a single, continuously interconnected world."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/d0ed5a45/a5eca3f51c0523f16767688535779000f0387059-1600x1200.jpg",
       "description": "ペインテッド・レディ（ヒメアカタテハ）は、世界最長の渡りを行う蝶である。ルーカス・フォグリアは、アフリカから中東、地中海を越えてヨーロッパへと至る彼らの旅路を辿り、その途上で出会う人々や風景とともにその姿を捉えてきた。『Constant Bloom』は、自然と人間、生態系と政治的境界線を切り離されたものとしてではなく、絶え間なく繋がり合うひとつの連続した世界の一部として捉え直す試みである。",
       "medium": "mixed",
@@ -78993,8 +79020,15 @@
       "id": "7acb39401ed7",
       "source": "zen_foto",
       "title": "The Body Lurking Within Color",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "색 속에 숨어 있는 몸"
+        },
+        "ja": {
+          "title": "色彩の中に潜む身体"
+        }
+      },
       "poster_image_url": "https://d1jikcjf8oridj.cloudfront.net/i/32/aa6gIbrh_lptxhC.jpeg",
       "description": null,
       "medium": "photo",
@@ -79033,8 +79067,17 @@
       "id": "74cf8c9721ac",
       "source": "place_m",
       "title": "KESHIN ー At the Threshold of Inside and Out ー",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "KESHIN ー At the Threshold of Inside and Out ー",
+          "description": "2026.09.08 - 2026.09.13 스즈키 나오코 KESHIN ー At the Threshold of Inside and Out ー 화신 — 신불이 세속의 형태로 나타나는 것. 나는 이 현상을 일상의 모든 장면에서 발견한다. 아무것도 생각하지 않으려 하며 포착하는 순간이 있다. 사고를 멈추고 원시적인 생물의 상태로 돌아가려 할 때, 내 안의 신성에 접근하면서 동시에 나이면서 내가 아닌 것이 나타난다. 그것은 욕심 많은 시도일지도 모른다. 무심을 지향하는 것은 이 '내가 아닌 나'를 통해 신성에 닿고 싶다는 충동에서 비롯된다. 모순적이다. 신성한 것을 추구하면서 그 수단은 욕망에 기반을 둔다. 그러나 이 모순 속에 진실이 있는 것이 아닐까? 아무것도 생각하지 않으려 하는 가운데, 내면의 신성과 외부의 신성이 만나는 순간이 찾아온다. 이 작품들은 그 포착하기 어려운 경계의 증거이다."
+        },
+        "en": {
+          "title": "KESHIN ー At the Threshold of Inside and Out ー",
+          "description": "2026.09.08 - 2026.09.13 Naoko Suzuki KESHIN ー At the Threshold of Inside and Out ー KESHIN — The incarnation of gods and buddhas in worldly forms. I find this phenomenon in all aspects of everyday life. There are moments I let go of all thought to grasp it. When I stop my thoughts and try to return to a primitive state of being, something both within and beyond me appears, accessing my inner divinity. It may be a selfish endeavor. The pursuit of a mind beyond thought arises from the impulse to touch divinity through this “self that is not myself.” It’s a paradoxical truth: That the approach to the sacred is rooted in greed. Yet perhaps the truth lies precisely within this contradiction. In the attempt to think of nothing, a moment when the inner divine meets the outer comes. These works are the evidence of that elusive boundary."
+        }
+      },
       "poster_image_url": "https://www.placem.com/schedule/2026/main/20260908/NAOKOSUZUKI_01.jpg",
       "description": "2026.09.08 - 2026.09.13 鈴木ナオコ KESHIN ー At the Threshold of Inside and Out ー 化身 — 神仏が世俗の形で現れること。 私はこの現象を日常のあらゆる場面に見出している。 何も考えないようにして、とらえる瞬間がある。 思考を停止させ、原始的な生き物の状態に戻ろうとする時、 自分の中の神性にアクセスしながら、同時に自分であって自分でないものが立ち現れる。 それは欲深い取り組みかもしれない。 無心をめざすのは、この「自分でない自分」を通して神性に触れたいという衝動から生まれている。 矛盾している。 神聖なものを求めながら、その手段は欲に基づいている。 しかし、この矛盾の中にこそ真実があるのではないか。 何も考えまいとする中で、内なる神性と外なる神性が出会う瞬間が訪れる。 これらの作品は、その捉え難い境界の証拠である。 KESHIN — The incarnation of gods and buddhas in worldly forms. I find this phenomenon in all aspects of everyday life. There are moments I let go of all thought to grasp it. When I stop my thoughts and try to return to a primitive state of being, something both within and beyond me appears, accessing my inner divinity. It may be a selfish endeavor. The pursuit of a mind beyond thought arises from the impulse to touch divinity through this “self that is not myself.” It’s a paradoxical truth: That the approach to the sacred is rooted in greed. Yet perhaps the truth lies precisely within this contradiction. In the attempt to think of nothing, a moment when the inner divine meets the outer comes. These works are the evidence of that elusive boundary.",
       "medium": "photo",
@@ -79087,8 +79130,17 @@
       "id": "ddf65e20142a",
       "source": "tokyo_art_beat",
       "title": "ニック・ナイト 「ROSES FOR TOKYO」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "닉 나이트 「ROSES FOR TOKYO」",
+          "description": "2026년 9월 5일 (토)부터 신주쿠 이세탄 본점 본관 2층 이세탄 더 스페이스에서 세계적인 패션 포토그래퍼 닉 나이트(Nick Knight)의 전시회를 개최합니다. 일본에서 개인전을 개최하는 것은 8년 만인 이번 전시는, 장미의 덧없는 아름다움에 대한 끊임없는 매력에서 탄생했으며, 장미가 속삭이는 시적인 감성에 영감을 받았습니다. 그러한 장미를 테마로 제작된 다양한 작품들을 소개하고 판매합니다. 이 기회에 꼭 전시장을 방문하시어 닉 나이트(Nick Knight)가 표현하는 장미의 세계를 만끽하시기 바랍니다."
+        },
+        "en": {
+          "title": "Nick Knight 「ROSES FOR TOKYO」",
+          "description": "Starting Saturday, September 5, 2026, we will hold an exhibition by world-renowned fashion photographer Nick Knight at ISETAN THE SPACE on the 2nd floor of the Main Building of Shinjuku Isetan Main Store. This exhibition, his first solo show in Japan in eight years, was born from an endless fascination with the ephemeral beauty of roses and inspired by the poetic sentiment they convey. We will introduce and sell a variety of works created with roses as their theme. Please take this opportunity to visit the venue and enjoy the world of roses expressed by Nick Knight."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/c05bb45f/kn-3.jpeg",
       "description": "2026年9月5日（土）より新宿店伊勢丹 本館2階イセタン ザ・スペースにて,、世界的ファッションフォトグラファー Nick Knight（ニック・ナイト）のエキシビジョンを開催いたします。日本で個展を開催するのは8年ぶりとなる本展は、薔薇のはかない美しさへの尽きない魅力から生まれ、薔薇が語りかける詩情に触発されたものです。そんな薔薇をテーマに制作された作品の数々をご紹介・販売いたします。ぜひこの機会に会場へお運びいただき、Nick Knightが表現する薔薇の世界をご堪能ください。",
       "medium": "photo",
@@ -79134,8 +79186,17 @@
       "id": "6c2f48566fca",
       "source": "tokyo_art_beat",
       "title": "「MYM モードの諦王」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「MYM 모드의 제왕」",
+          "description": "세계적인 개념 미술의 거장 마쓰자와 유타카(1922~2006)와 현대 미술에서 시를 시도하는 사쿠라 미쓰(1967~)가 23년 전인 2003년 도요타 시 미술관에서 개최한 2인전 「유미쓰호」는 큰 반향을 불러일으켰습니다만, 이번 전시에서는 그 전후에 마쓰자와가 사쿠라에게 보낸 수수께끼에 싸인 두 통의 사적인 편지를 최초 공개합니다. 그리고 「유미쓰호」전 당시 사쿠라를 만났던 철학자이자 시인 시노하라 모토아키(1950~)가 이번 전시를 위해 제안한 「모드의 제왕」이라는 테마 아래, 시노하라와 사쿠라가 신구 오브제를 발표합니다. 또한 해외에서도 눈부신 활약을 펼치고 있는 젊은 미술가 다마야마 다쿠로(1990~)는 사쿠라의 의뢰에 따른 작품을 특별 전시하는 것 외에도 관련 이벤트에 참가하여 마쓰자와 유타카의 작업에 대해 시노하라와 사쿠라 두 사람과 이야기를 나눌 예정입니다.\n\n[관련 이벤트]\n좌담 「마쓰자와 유타카의 방법 ― 시, 오브제, 계시, 행위, 그리고 소멸」\n일시: 2026년 9월 26일 14:00~16:00\n등단자: 시노하라 모토아키, 다마야마 다쿠로, 사쿠라 미쓰\n장소: 교토 국제 교류 회관 교류 살롱\n요금: 1000엔 (사전 신청 필수)\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "「MYM The Renouncing King of Mode」",
+          "description": "The two-person exhibition 'Yūmitsu-hō,' held 23 years ago in 2003 at the Toyota Municipal Museum of Art by Yutaka Matsuzawa (1922-2006), a global master of conceptual art, and Mitsu Sakura (1967-), who attempts poetry in contemporary art, garnered a significant response. In this exhibition, two enigmatic private letters sent by Matsuzawa to Sakura before and after that exhibition will be unveiled for the first time. Furthermore, under the theme 'The Renouncing King of Mode,' proposed for this exhibition by philosopher and poet Motoaki Shinohara (1950-), who met Sakura during the 'Yūmitsu-hō' exhibition, Shinohara and Sakura will present new and old objets. Additionally, young artist Takuro Tamayama (1990-), who has been remarkably active overseas, will specially exhibit works based on a request from Sakura and participate in related events, discussing Yutaka Matsuzawa's work with Shinohara and Sakura.\n\n[Related Events]\nRoundtable Discussion: 'Yutaka Matsuzawa's Method ― Poetry, Objet, Revelation, Act, and Disappearance'\nDate & Time: September 26, 2026, 14:00-16:00\nSpeakers: Motoaki Shinohara, Takuro Tamayama, Mitsu Sakura\nVenue: Kyoto International Community House Exchange Salon\nAdmission: 1,000 yen (advance registration required)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/94d3eb75/%E5%A5%A5%E4%BB%98%E4%BD%BF%E7%94%A8%E7%94%BB%E5%83%8F%EF%BC%88%E3%83%88%E3%83%AA%E3%83%9F%E3%83%B3%E3%82%AF%E3%82%99%EF%BC%89%20-%20%E4%BF%A1.jpg",
       "description": "世界的なコンセプチュアル・アートの巨匠である松澤宥（1922～2006）と、現代美術で詩を試みる佐倉密（1967～）が、23年前の2003年に豊田市美術館で開催した二人展「宥密法」は大きな反響を呼びましたが、本展では、その前後に松澤が佐倉に送った謎に包まれた二枚の私書を初公開します。そして、「宥密法」展の際に佐倉と出会っていた哲学者で詩人の篠原資明（1950～）が、本展のために提案した「モードの諦王」というテーマの下、篠原と佐倉が新旧のオブジェを発表します。また、海外での活躍も目覚ましい若手美術家玉山拓郎（1990～）は、佐倉からの依頼に基づく作品を特別に展示するほか、関連イベントにも参加し、松澤宥の仕事について、篠原と佐倉の二人と語り合います。\n\n[関連イベント]\n鼎談「松澤宥の方法 ― 詩、オブジェ、啓示、行為、そして消滅」\n日時: 2026年9月26日14:00〜16:00\n登壇者: 篠原資明、玉山拓郎、佐倉密\n会場: 京都市国際交流会館 交流サロン\n料金: 1000円（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -79193,8 +79254,19 @@
       "id": "82feaf6b02cf",
       "source": "tokyo_art_beat",
       "title": "「LIQUIHACKS! - 6 ARTISTS / 6 HACKS」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「LIQUIHACKS! - 6 ARTISTS / 6 HACKS」",
+          "description": "회화의 역사를 되돌아보면, 표현에 대한 끊임없는 추구와 시대에 대한 응답, 사회에 대한 주장의 이면에서 화재에 대한 도전과 시행착오, 일탈, 발견이 반복되어 왔습니다. 작가가 자기 표현을 위해 화재를 탐구하고, 길러진 독자적인 방법은 화재 제조업체가 마련한 용도를 뛰어넘어, 표현은 화재를 해킹합니다. 이번 전시는 여섯 명의 작가가 실천하는 사진, 회화, 설치 미술, 가상 세계로 전개되는 작품들을 리퀴텍스의 협력을 얻어 화재의 관점에서 재발견하는 시도입니다. 회장에서 판매되는 각 작가가 선택한 리퀴텍스 아크릴 물감과 미디엄을 조합한 「6 ARTISTS / 6 HACKS」는 작가의 방법 일부를 가져갈 수 있으며, 작가 지원이 되는 활동입니다. 작품을 보는 것뿐만 아니라, 작품을 구성하는 화재를 아는 것, 손에 넣는 것. 그 사이를 오가며 잘 아는, 혹은 아직 모르는 물감의 가능성을 만납니다."
+        },
+        "ja": {
+          "title": "「LIQUIHACKS! - 6 ARTISTS / 6 HACKS」"
+        },
+        "en": {
+          "description": "Looking back at the history of painting, behind the relentless pursuit of expression, responses to the times, and assertions to society, there have been repeated challenges, trial and error, deviations, and discoveries concerning art materials. Artists explore art materials for their self-expression, and the unique methods they cultivate transcend the intended uses provided by material manufacturers; expression 'hacks' the materials. This exhibition is an attempt to rediscover works by six artists, spanning photography, painting, installation, and virtual worlds, from the perspective of art materials, with the cooperation of Liquitex. The '6 ARTISTS / 6 HACKS' sets, combining Liquitex acrylic paints and mediums chosen by each artist and sold at the venue, allow visitors to take home a part of the artists' methods and also support the artists. It's not just about seeing the artworks, but also about understanding and holding the materials that compose them. By moving between these two aspects, you will encounter the possibilities of paints, both familiar and yet unknown."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/d13a3cfa/C1FBE172-2B9C-4AB1-BCE1-7C4459568DCF%20-%20youkobo%20Art%20Base%20Camp.jpeg",
       "description": "絵画の歴史を振り返れば、表現の飽くなき追求や時代への応答、社会への主張の陰で、画材への挑戦や試行錯誤、逸脱、発見が繰り返されてきました。作家が自己の表現のために画材を探究し、培われた独自の方法は、画材メーカーが用意した用途を飛び越え、表現は画材をハックする。本展は六名の作家が実践する写真、絵画、インスタレーション、バーチャルワールドへと展開する作品を、リキテックスの協力を得て、画材の視点から再発見する試みです。会場で販売される各作家が選んだリキテックスのアクリル絵具、メディウムを組み合わせた「6 ARTISTS / 6 HACKS 」は、作家の方法の一部を持ち帰ることができ、また作家の支援となる取組です。作品を見ることだけでなく、作品を構成する画材を知ること、手にすること。そのあいだを行き来しながら、よく知る、或いはまだ知らない絵具の可能性に出会います。",
       "medium": "photo",
@@ -79270,8 +79342,19 @@
       "id": "8cffce2d9813",
       "source": "tokyo_art_beat",
       "title": "「UNKO OF UNKO」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「UNKO OF UNKO」",
+          "description": "매주 바뀌는 똥 합동 전시 'UNKO OF UNKO'는 도쿄도 아다치구가 운영하는 '해보고 싶다'를 응원하는 지역 교류 거점 '아야 센터 구루구루' 내 갤러리 '오아시스'를 무대로, 디자인 컴퍼니 우, 오모시로 호진 카약(자원 멤버), 스트리트 아티스트 UNCORIN, 일러스트레이터 이노우에 이쿠라 4팀이 만들어내는 합동 전시다. 약 1개월에 걸쳐 각 팀이 1주일마다 릴레이 형식으로 전시를 전개하며, 각자의 시점에서 '똥'을 테마로 한 작품 세계를 제시한다. 전시 기간 중에는 본 전시를 위해 제작된 작품을 수록한 '문고판 똥 책 UNKO B UNKO'도 판매한다.\n\n[관련 이벤트]\n토크 이벤트, 라이브 연주\n일시: 2026년 10월 9일 17:00~18:00\n등단자: 웅코 뮤지엄 멤버(오모시로 호진 카약), 뮤직 펍 반반(사전 신청 필수)\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "ja": {
+          "title": "「UNKO OF UNKO」"
+        },
+        "en": {
+          "description": "The weekly rotating joint exhibition \"UNKO OF UNKO\" is a collaborative exhibition created by four groups: Design Company Woo, Omoshiro Hojin Kayac (volunteer members), street artist UNCORIN, and illustrator Ikura Inoue. It takes place at the gallery \"oasis\" within \"Aya Center Guruguru,\" a local exchange hub operated by Adachi Ward, Tokyo, that supports \"I want to try\" initiatives. Over approximately one month, each group will present their exhibition in a relay format, one week at a time, showcasing their unique artistic world centered on the theme of \"unko\" (poop). During the exhibition period, \"Bunko-style Unko Book UNKO B UNKO,\" which compiles works created for this exhibition, will also be available for purchase.\n\n[Related Events]\nTalk event, live music performance\nDate & Time: October 9, 2026, 17:00-18:00\nSpeakers: Unko Museum members (Omoshiro Hojin Kayac), Music Pub Banban (advance registration required)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/84e9dcb9/UNKO_OF_UNKO_re_-carousel_TOP_1%20-%20%E5%AE%87%E9%83%BD%E5%8B%9D%E5%AE%8F.jpg",
       "description": "週替りのウンコ合同展示「UNKO OF UNKO」は、東京都足立区が運営する「やってみたい」を応援する地域の交流拠点「あやセンターぐるぐる」内のギャラリー「oasis」を舞台に、デザインカンパニー ウー、面白法人カヤック（有志メンバー）、ストリートアーティスト UNCORIN、イラストレーター 井上いくらの4組が生み出す合同展示である。約1か月にわたり、各組が1週間ごとに展示をリレー形式で展開し、それぞれの視点から「ウンコ」をテーマにした作品世界を提示する。会期中には本展のために制作された作品を収録した『文庫型うんこブック UNKO B UNKO』も販売する。\n\n[関連イベント]\nトークイベント、生演奏ライブ\n日時: 2026年10月9日17:00〜18:00\n登壇者: うんこミュージアムメンバー（面白法人カヤック）、ミュージックパブ ばんばん（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -79335,8 +79418,17 @@
       "id": "f4d6fc12d17d",
       "source": "tokyo_art_beat",
       "title": "「浜昇の戦後と昭和 Vol.5 『TOKYO MIDNIGHT』」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「하마 노보루의 전후와 쇼와 Vol.5 『TOKYO MIDNIGHT』」",
+          "description": "photographers’ gallery에서는 '하마 노보루의 전후와 쇼와'라는 제목으로 2026년 1월부터 사진작가 하마 노보루의 연속 사진전(총 6회)을 개최하고 있습니다. 제5회를 맞이하는 본 전시에서는 1977년에 발표된 이래 약 50년 만에 공개되는 'TOKYO MIDNIGHT'를 전시합니다. 반세기의 시간을 넘어 이 작품을 감상할 수 있는 다시없는 기회가 될 것입니다."
+        },
+        "en": {
+          "title": "「Noboru Hama's Post-war and Showa Vol.5 『TOKYO MIDNIGHT』」",
+          "description": "photographers' gallery has been holding a series of photography exhibitions (6 in total) by photographer Noboru Hama, titled \"Noboru Hama's Post-war and Showa,\" since January 2026. This fifth exhibition will feature \"TOKYO MIDNIGHT,\" which is being shown for the first time in approximately 50 years since its announcement in 1977. This will be a rare opportunity to view this work after half a century."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/3c2a0cda/tokyomidnight01.jpg",
       "description": "photographers’ galleryでは「浜昇の戦後と昭和」と題し、2026年1月より写真家・浜昇の連続写真展（全6回）を開催しています。第5回を迎える本展では、1977年に発表されて以来、約50年ぶりの公開となる「TOKYO MIDNIGHT」を展示いたします。半世紀の時を隔てて本作をご覧いただける、またとない機会となります。",
       "medium": "photo",
@@ -79389,8 +79481,17 @@
       "id": "144f7415ce7f",
       "source": "tokyo_art_beat",
       "title": "米田拓朗 「Rest in Peach」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "요네다 타쿠로 「Rest in Peach」",
+          "description": "본 전시에서는 후쿠시마현 북부 지방(후쿠시마시, 다테시, 고오리마치, 구니미마치)의 복숭아밭에서 여름에 촬영된 작품들을 전시합니다. 하늘 높이 뭉게구름이 피어오르고, 내리쬐는 햇살에 눈을 감고 싶어지는 여름 무렵, 복숭아 수확은 절정을 맞이합니다. 솜털이 햇빛에 반짝이고 열매가 통통하게 부풀어 오르는 시기가 되면, 잎이 무성한 나무 아래에 은색이나 흰색 반사 시트를 깔아 착색을 한꺼번에 가속화합니다. '하츠히메', '교세이', '아카츠키', '마도카', '유키아네' 등 수확기가 다른 품종의 복숭아를 잎 그늘에 숨어 따서 바구니에 담는 작업을 매일 반복하며, '복숭아 달력'에 휩쓸리듯 나날이 흘러갑니다.\n\n농작업은 매년 날씨 변화를 읽으며 더듬더듬, 그러나 명확하게 순서대로 진행됩니다. 하지만 농부조차도 그 작업 하나하나가 복숭아의 품질에 어떻게 영향을 미치는지 외부에서는 그 비밀을 알 수 없습니다. 날씨 불순 등의 우연에도 좌우되고, 열매를 맺을지 미리 약속되지 않은 가운데, 사람들은 햇빛을 받아 붉게 물드는 복숭아의 모습을 그리며 묵묵히 작업을 해나갑니다. 그리고 한여름에 주렁주렁 열린 복숭아를 손에 넣었을 때 비로소 그동안의 작업 하나하나에 마음을 쏟습니다. 요네다는 후쿠시마 제1원자력발전소 사고 후 2011년 8월에 촬영을 시작했습니다. '복숭아는 기다려주지 않는다'며 원전 사고 중에도 밭에 나와 있던 사람들의, 누구에게 보여주기 위함이 아니라 그저 복숭아의 결실을 향해 작업하는 모습을 곁에서 계속 지켜보는 것. 사람들이 의지하는 땅과 지명이 가진 울림이 바뀌어도 여전히 누구에게도 빼앗길 수 없는 '안주의 땅'은 어디인가. 'Rest in Peach'에는 그 질문이 반향하고 있습니다."
+        },
+        "en": {
+          "title": "Takuro Yoneda 「Rest in Peach」",
+          "description": "This exhibition features works photographed in the summer at peach orchards in the northern region of Fukushima Prefecture (Fukushima City, Date City, Koori Town, Kunimi Town). In summer, when towering cumulonimbus clouds rise high in the sky and the scorching sun makes one want to avert their gaze, the peach harvest reaches its peak. As the peaches' downy fuzz glistens in the sunlight and the fruits swell plumply, silver and white reflective sheets are spread beneath the lush trees to rapidly accelerate their coloring. Day after day, the work of picking different varieties of peaches with varying harvest times—such as \"Hatsuhime,\" \"Gyosei,\" \"Akatsuki,\" \"Madoka,\" and \"Yukiane\"—from under the shade of leaves and placing them into baskets is repeated, and the days pass as if caught in a \"peach calendar.\"\n\nFarm work is carried out each year by trial and error, anticipating changes in weather, yet proceeding in a clearly structured manner. Nevertheless, even farmers cannot fully grasp from the outside how each individual task contributes to the quality of the peaches. Influenced by unpredictable factors like adverse weather, and without any prior guarantee of a successful harvest, people silently continue their work, envisioning the peaches ripening red under the sun. Only when they hold the bountifully ripened peaches in the height of summer do they reflect on each and every task they performed. Yoneda began photographing in August 2011, after the Fukushima Daiichi Nuclear Power Plant accident. He continued to observe people who, even amidst the nuclear accident, went out to their fields because \"peaches won't wait,\" working not for anyone else to see, but simply towards the peaches' fruition. Even as the land people rely on and the resonance of place names are rewritten, where is the \"place of peace\" that no one can take away? That question resonates in \"Rest in Peach.\""
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/a52c9947/%E7%B1%B3%E7%94%B0%E5%B1%95_%E5%BA%83%E5%A0%B1%E7%94%A8%E5%86%99%E7%9C%9F.jpg",
       "description": "本展では、福島の県北地方（福島市・伊達市・桑折町・国見町）の桃園にて夏に撮影された作品を展示いたします。天高くまで入道雲が湧き立ち、照りつける陽射しに目を伏せたくなるような夏の頃、桃の収穫は盛りを迎えます。産毛が日光にきらめき実が丸々と膨らむ時期になると、葉の生い茂る樹の下に銀や白の反射シートを敷き詰め、着色を一気に加速させます。「はつひめ」「暁星」「あかつき」「まどか」「幸茜」……と収穫期の異なる品種の桃を、葉陰に潜り込んでもぎとっては籠に詰める作業を来る日も来る日も繰り返し、「桃の暦」に巻き込まれるようにして日々は過ぎていきます。\n\n農作業は毎年、天候の変化を読みながら手探りで、しかしはっきりと順序立てて進められます。とはいえ農家でさえ、その作業ひとつひとつが桃の出来にどう関わっているのか、外からはその秘密を知ることができません。天候不順などの偶然にも左右され、実を結ぶかどうかあらかじめの約束は交わされないなか、人々は陽の光を浴びて赤く色づく桃の姿を思い描いて、黙々と作業をこなしていきます。そして夏の盛りに、たわわに実った桃を手にしたときはじめて、それまでの作業ひとつひとつに思いを巡らせます。米田は福島第一原子力発電所事故後の2011年8月に撮影を開始しました。「桃は待ってくれない」と原発事故のさなかも畑に出ていた人々の、誰に見せるためでもなく、ただ桃の実りに向かって作業する姿を傍らで見続けること。人々が拠って立つ土地と地名のもつ響きが書き換えられてもなお、誰にも奪われることのない「安住の地」はどこか。「Rest in Peach」にはその問いが反響しています。",
       "medium": "mixed",
@@ -79436,8 +79537,17 @@
       "id": "ed01d639c041",
       "source": "tokyo_art_beat",
       "title": "時吉あきな 「bura-bura」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "토키요시 아키나 「bura-bura」",
+          "description": "토키요시 아키나가 제작하는 콜라주에서 영감을 얻어, 사진을 조합하여 탄생한 새로운 기법 「bura-bura」. 전시장에서는 신작 「bura-bura」 키홀더를 비롯해, 사전에 모집한 주문 작품을 전시합니다. 사진에서 탄생하는, 조금 신비롭고 사랑스러운 작품들. 부디 이 기회에 실물을 직접 보고 감상해 주십시오."
+        },
+        "en": {
+          "title": "Akina Tokiyoshi 「bura-bura」",
+          "description": "「bura-bura」 is a new technique born from combining photographs, inspired by collages created by Akina Tokiyoshi. At the venue, new \"bura-bura\" keychains will be exhibited, along with commissioned works collected in advance. These are slightly mysterious and adorable works born from photographs. Please take this opportunity to see the actual pieces."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/11bf7ecb/IMG_4444%20-%20%E3%83%8F%E3%83%BC%E3%83%8F%E3%83%95%E3%83%BC.JPG",
       "description": "時吉あきなが制作するコラージュから着想を得て、写真を組み合わせることで生まれた新しい技法「bura-bura」。会場では、新作の「bura-bura」キーホルダーをはじめ、事前に募集したオーダー作品を展示いたします。写真から生まれる、少し不思議で愛らしい作品たち。ぜひこの機会に、実物を手に取ってご覧ください。",
       "medium": "photo",
@@ -79483,8 +79593,17 @@
       "id": "f21c214a03b4",
       "source": "tokyo_art_beat",
       "title": "「メディウムとディメンション：Continuum 第二期」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「미디엄과 디멘션: Continuum 제2기」",
+          "description": "「미디엄과 디멘션: Continuum」은 도쿄조형대학 60주년 기념 사업 「게슈탈퉁 기획」의 일환으로 개최되는, 미술 평론가 나카오 타쿠야의 큐레이션으로 「Continuum=연속체」를 테마로 하여 다양한 시간축을 포함하며 개최되는 전시회입니다. 본 전시는 5월, 9월, 12월 세 차례의 회기에 걸쳐 진행되며, 각각을 별개의 전시회로 두지 않고 세 회기를 통해 하나의 흐름을 만들어 나갑니다. 다만, 이는 통일적인 시간과 공간을 기반으로 하는 하나의 그룹전이 아니라, 여러 시간으로 확장되고 개별적으로 전개되는 것입니다. 스즈키 노조미, 타마야마 타쿠로, Nerhol, 미타무라 미도리 네 명의 아티스트는 과거·현재·미래라는 직선적인 시간 감각에 대해 발생, 재생, 전환, 치환과 같이 그 흐름을 각자 다루고 재구성해 나갑니다. 즉, 본 전시는 형식적으로는 하나의 전시회이면서도, 서로 다른 시간축을 오가려는 네 개의 전시회를 동시에 개최하는 것이라고 할 수 있습니다.\n\n또한, 오쿠무라 유키, 오사다 나오, 카노 신이치로, 스즈키 노조미, 타마야마 타쿠로, 토요시마 야스코, 나카오 타쿠야, Nerhol, 미즈카미 마나미, 미타무라 미도리, 야마우치 쇼타, 야마네 카즈아키의 작품으로 구성된 회고전 형식의 전시회 「Maltiple-delay」를 동시 개최하여, 통상적으로 과거에서 현재로 향하는 전시의 시간축을 역전시켜 현재에서 과거(원점)로 향해 전개해 나갑니다. 본 전시는 전시 공간의 새로운 차원을 생성하고, 예술에서의 시간과 공간, 그 인식의 경계에 대해 재고함으로써 현대 표현에 내재된 연속성의 의미를 재조명합니다.\n\n[관련 이벤트]\n토크 이벤트 「Continuum」이란 무엇인가?――내부(전시회)와 외부(전시회)의 시간」\n일시: 2026년 9월 21일 14:00~16:00\n등단자: 스즈키 토시하루 (도요타시 미술관 학예원), 아키요시 후토, 타마야마 타쿠로, 나카오 타쿠야\n장소: BAU SHIBUYA (2F 교실21)\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "「Medium and Dimension: Continuum Part II」",
+          "description": "\"Medium and Dimension: Continuum\" is an exhibition curated by art critic Takuya Nakao, held as part of Tokyo Zokei University's 60th-anniversary project \"Gestaltung Kikaku,\" with the theme of \"Continuum\" (continuous body) and encompassing different time axes. This exhibition spans three periods in May, September, and December, creating a single flow throughout the three periods rather than treating each as a separate exhibition. However, it is not a single group exhibition based on unified time and space, but rather something that expands across multiple times and develops individually. Four artists—Nozomi Suzuki, Takuro Tamayama, Nerhol, and Midori Mitamura—each handle and reconfigure the flow of linear time (past, present, future) through concepts such as generation, regeneration, transformation, and displacement. In other words, while formally a single exhibition, it can be said to simultaneously host four exhibitions that attempt to traverse different time axes.\n\nFurthermore, a retrospective-style exhibition titled \"Maltiple-delay,\" featuring works by Yuki Okumura, Nao Osada, Shinichiro Kano, Nozomi Suzuki, Takuro Tamayama, Yasuko Toyoshima, Takuya Nakao, Nerhol, Manami Mizukami, Midori Mitamura, Shota Yamauchi, and Kazuaki Yamane, will be held concurrently. This exhibition reverses the usual timeline of exhibitions, which typically progress from past to present, instead unfolding from the present towards the past (origin). This exhibition generates new dimensions in the exhibition space and reconsiders the boundaries of time, space, and their perception in art, thereby re-examining the significance of continuity inherent in contemporary expression.\n\n[Related Event]\nTalk Event: \"What is 'Continuum'? — Time Inside (Exhibition) and Outside (Exhibition)\"\nDate: September 21, 2026, 14:00–16:00\nSpeakers: Toshiharu Suzuki (Curator, Toyota Municipal Museum of Art), Futo Akiyoshi, Takuro Tamayama, Takuya Nakao\nVenue: BAU SHIBUYA (2F Classroom 21)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/e6d410ff/gesta_conte_front%20-%20Fuminao%20SUENAGA%20(1).jpg",
       "description": "「メディウムとディメンション：Continuum」は、東京造形大学の60周年記念事業「ゲシュタルトゥング企画の」の一つとして開催される、美術評論家・中尾拓哉のキュレーションによる「Continuum＝連続体」をテーマに異なる時間軸を含み込んで開催される展覧会です。本展は、5月、9月、12月の3回の会期にまたがりながら、それぞれを別の展覧会とせずに、3会期を通して1つの流れをつくり出していきます。ただし、それは統一的な時間と空間を土台とする一つのグループ展となるのではなく、複数の時間に向かって広がり、個別に展開されていくものです。鈴木のぞみ、玉山拓郎、Nerhol、三田村光土里の4人のアーティストは、過去・現在・未来という直線的な時間感覚に対して、発生、再生、転換、置換というようにその流れをそれぞれに扱い、また組み替えていきます。つまり、本展は形式的には一つの展覧会でありながらも、異なる時間軸を行き来しようとする4つの展覧会を同時に開催するものだと言えるでしょう。\n\nさらに、奥村雄樹、長田奈緒、鹿野震一郎、鈴木のぞみ、玉山拓郎、豊嶋康子、中尾拓哉、Nerhol、水上愛美、三田村光土里、山内祥太、山根一晃の作品による回顧展形式の展覧会「Maltiple-delay」を同時開催し、通常は過去から現在へと向かい展示が行われる展覧会の時間軸を逆転させ、現在から過去（原点）へと向かって展開していきます。本展は、展示空間の新たな次元を生成し、アートにおける時間と空間、その認識の境界について再考することで、現代表現に潜む連続性の意義を問い直します。\n\n[関連イベント]\nトークイベント「Continuum」とはなにか？――内（展覧会）と外（展覧会）の時間」\n日時: 2026年9月21日14:00〜16:00\n登壇者: 鈴木俊晴（豊田市美術館学芸員）、秋吉風人、玉山拓郎、中尾拓哉\n会場: BAU SHIBUYA（2F 教室21）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -79632,8 +79751,17 @@
       "id": "0d3a6dcacd2c",
       "source": "tokyo_art_beat",
       "title": "「あしたの畑 2026 REFLECTION」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「내일의 밭 2026 REFLECTION」",
+          "description": "급속한 고령화와 산업 구조의 변화로 인해 교토 단고 지역에서는 한때 사람들의 손에 의해 지켜져 온 자연과 문화의 풍경이 사라지고 있습니다. 「내일의 밭」은 이러한 과제에 대해 「수공예·아트·음식」을 매개로 지구와 문화, 그리고 사람과의 관계를 재생하는 것을 목적으로 하는 지속적인 문화적 시도와 체험의 장입니다. 6년째를 맞이하는 올해는 「돌아봄」을 테마로 내걸고, 원시적인 삶에 경의를 표하면서도 혁신하는 시도를 세대와 국경, 분야를 넘나드는 협력을 통해 미래 삶의 원형을 탐구합니다.\n\n2025년 9월 30일부터 10월 20일까지 도쿄 롯폰기 힐스에서 개최된 「la Galerie du 19M Tokyo」 기획전 「Beyond Our Horizons」에서는 파리의 le19M(르 디즈누프엠)에 모인 메종 다르와 일본·프랑스 아티스트·장인 약 30팀의 협업 작품이 소개되었습니다. le19M은 샤넬에 의해 2021년 파리에 설립된, 패션과 장식의 메티에 다르에 열정을 쏟는 700명의 장인과 전문가, 11개의 메종 다르를 보유한 유일무이한 장소입니다. 그 후, 작품은 1월 29일부터 5월 10일까지 파리의 la Galerie du 19M에서 전시되었으며, 전시 작품의 일부가 2026년 10월 12일부터 샤넬사의 호의로 대여되어 단고초 타이자 최초의 아트 갤러리인 SEI TAIZA에서 공개됩니다.\n\n또한, 공예의 기술과 정신을 전승하는 시도로서, 새롭게 공방이 될 타이자 플레이스를 창설했습니다. 워크숍과 혁신적인 창작을 통해 장인 정신의 계승에 도전합니다. 이 시도는 「문화 예술을 통해 사람들이 모이는 계기와 배움의 장을 만들고, 다음 세대로 이어가며, 지역의 지속 가능한 집락 구상으로서 주목받는 매력과 새로운 가치관을 창출하는 활동」이라는 내일의 밭의 사명에 샤넬사가 찬동하여 실현되는 것입니다."
+        },
+        "en": {
+          "title": "「Ashita no Hatake 2026 REFLECTION」",
+          "description": "Due to rapid aging and changes in industrial structure, the natural and cultural landscapes once preserved by people in Kyoto's Tango region are gradually being lost. \"Ashita no Hatake\" is a sustainable cultural initiative and experiential platform that aims to regenerate the relationship between the earth, culture, and people, using \"handicrafts, art, and food\" as a medium to address these challenges. In its sixth year, this project adopts \"Reflection\" as its theme, exploring prototypes for future living through cross-generational, cross-border, and cross-disciplinary collaborations, attempting to innovate while respecting primitive ways of life.\n\nFrom September 30 to October 20, 2025, the \"la Galerie du 19M Tokyo\" special exhibition \"Beyond Our Horizons,\" held at Roppongi Hills in Tokyo, showcased collaborative works by approximately 30 Japanese and French artists and artisans, along with Maisons d'art gathered at le19M in Paris. le19M is a unique place established by Chanel in Paris in 2021, housing 700 artisans and specialists passionate about fashion and decorative Métiers d'art, and 11 Maisons d'art. Subsequently, the works were exhibited at la Galerie du 19M in Paris from January 29 to May 10, and a portion of these exhibited works will be loaned by the courtesy of Chanel and displayed at SEI TAIZA, the first art gallery in Taiza, Tango-cho, starting October 12, 2026.\n\nFurthermore, as an endeavor to pass on the skills and spirit of craft, Taiza Place has been newly established as a workshop. Through workshops and innovative creations, it challenges the inheritance of craftsmanship. This initiative is realized with the endorsement of Chanel, aligning with Ashita no Hatake's mission to \"create opportunities for people to gather and learn through culture and art, connect to the next generation, and generate attractive new values that draw attention as a sustainable community concept in the region.\""
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/9ec1f2c1/01-040569%20-%20Shunya%20Hashizume.jpg",
       "description": "急速な高齢化や産業構造の変化により、京都・丹後地域では、かつて人々の手によって守られてきた自然や文化の風景が失われつつあります。「あしたの畑」は、そうした課題に対し、「手仕事・アート・食」を媒介として地球と文化、そして人との関係を再生することを目的とする、持続的な文化的試みと体験の場です。6年目を迎える今年度は、「顧み」をテーマに掲げ、原始的な暮らしに敬意を払いながらも革新する試みを、世代や国境、分野を越えた協働を通じて、未来の暮らしの原型を探ります。\n\n2025年9月30日より10月20日まで、東京・六本木ヒルズにて開催された「la Galerie du 19M Tokyo」企画展「Beyond Our Horizons」では、パリのle19M（ル ディズヌフエム）に集うメゾンダールと日本・フランスのアーティスト・職人約30組によるコラボレーション作品が紹介されました。le19Mは、シャネルによって2021年にパリに設立された、ファッションと装飾のメティエダールに情熱を注ぐ700名の職人と専門家、11のメゾンダールを擁する唯一無二の場所です。その後、作品は1月29日より5月10日まで、パリの la Galerie du 19Mで展示されており、展示作品の一部が、2026年10月12日より、シャネル社のご厚意により貸与され、丹後町間人（たいざ）初のアートギャラリーであるSEI TAIZAにて公開されます。\n\nまた、クラフトの技と心を伝承する試みとして、新たに工房となる間人プレイスを創設。ワークショップや革新的なクリエイションを通じて、クラフトマンシップの継承に挑戦します。この試みは、「文化芸術を通して人が集まるきっかけと学ぶ場を生み出し、次世代に繋げ、地域におけるサステナブルな集落構想として注目される魅力と新しい価値観を生み出す活動」というあしたの畑の使命に、シャネル社が賛同し、実現するものです。",
       "medium": "mixed",
@@ -79775,8 +79903,17 @@
       "id": "496ecef75295",
       "source": "tokyo_art_beat",
       "title": "ベッティナ・ランス 「密室」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "베티나 랭스 「밀실」",
+          "description": "Art Gallery M84는 2026년 10월 5일(월)부터 베티나 랭스 사진전 『밀실』 No.12를 개최합니다. 이번 작품전은 Art Gallery M84의 제172회 전시로 진행되는 개인전입니다. 「샤넬(CHANEL)」의 영상 작업을 맡은 것으로 알려져 있으며, 『보그』, 『피가로』 등의 잡지에서 활약하는 프랑스를 대표하는 여성 사진작가 베티나 랭스(Bettina Rheims)의 본 갤러리 12번째 개인전입니다. 세르주 브람리의 소설과 협업하여 1990년부터 1992년까지 제작된 파리 여성들을 촬영한 누드 사진집(Chambre Close/샹브르 클로즈=밀실)으로, 파격적인 포즈가 화제가 되어 유럽뿐만 아니라 미국, 일본, 한국, 호주, 모스크바에서도 베스트셀러가 되어 전 세계에 그 이름이 알려졌다고 합니다.\n\n여성을 촬영한 작품을 다수 발표해 온 랭스는 일관되게 여성들이 타고나는 화려함과 덧없음, 내면에서 솟아나는 아름다움과 고뇌, 우울함을 힘있게 담아왔습니다. 렌즈 앞에서 꾸밈없는 심정과 농후한 인간성을 아낌없이 드러냅니다. 작품 속에는 \"랭스가 아니면 찍을 수 없다\"고까지 일컬어지는 몸짓과 눈빛과 함께, 순간적으로 포착된 본능적인 여성들의 모습을 담아내는 베티나 랭스의 매력에 다가가고자 합니다. 유럽에서는 나체상이 미술관 등의 실내나 정원 등 사적 공간에 설치되어 있지만, 일본에서는 평화의 상징으로 거리나 공공 공간에 나부상 조각 작품이 많습니다. 그러나 사진의 세계에서는 실내 전시임에도 불구하고 나부를 주제로 한 예술 사진이 급감하고 있습니다. 일본에서 누드 작품 전시는 거의 전무하다고까지 말할 수 있는 상황에서, 사진작가 베티나 랭스가 포착한 동성의 아름다운 작품 약 30점을 전시할 예정입니다. 입장은 성인 한정으로 하겠습니다."
+        },
+        "en": {
+          "title": "Bettina Rheims \"Chambre Close\"",
+          "description": "Art Gallery M84 will hold the Bettina Rheims Photo Exhibition \"Chambre Close\" No. 12 starting Monday, October 5, 2026. This exhibition is a solo exhibition, the 172nd exhibition at Art Gallery M84. It is the 12th solo exhibition at this gallery by Bettina Rheims, a leading French female photographer known for her work on CHANEL movies and her contributions to magazines such as Vogue and Figaro. Her nude photo book (Chambre Close), created from 1990 to 1992 in collaboration with Serge Bramly's novel, featuring Parisian women, became a bestseller not only in Europe but also in the United States, Japan, South Korea, Australia, and Moscow, spreading her name worldwide, thanks to its provocative poses.\n\nRheims, who has presented numerous works depicting women, has consistently captured the splendor and transience that women inherently possess, as well as the beauty, anguish, and melancholy that well up from within them, with powerful imagery. In front of the lens, she unreservedly exposes unadorned emotions and profound humanity. Through her works, which include gestures and gazes said to be \"only Rheims can capture,\" we hope to delve into the charm of Bettina Rheims, who captures the instinctive figures of women caught in a moment. In Europe, nude statues are installed in private spaces such as indoors in museums and gardens, but in Japan, many nude sculptures are found in cities and public spaces as symbols of peace. However, in the world of photography, art photography with nude themes has drastically decreased, even for indoor exhibitions. In a situation where nude exhibitions are almost nonexistent in Japan, we plan to exhibit approximately 30 beautiful works of the same sex captured by photographer Bettina Rheims. Admission will be restricted to adults."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/151b69f8/P39.jpg",
       "description": "Art Gallery M８４は、2026年10月5日(月)よりベッティナ・ランス写真展『密室』No.12を開催致します。今回の作品展は、Art Gallery M84の第172回目の展示として実施する個展です。「シャネル（CHANEL）」のムービーを手掛けたことで知られ、『ヴォーグ』『フィガロ』などの雑誌で活躍するフランスを代表する女性写真家ベッティナ・ランス（Bettina Rheims）の当ギャラリー12回目となる個展です。セルジュ・ブラムリーの小説とコラボレーションによる1990年から1992年に制作されたパリの女性達を撮影したヌード写真集(Chambre Close/シャンブル・クローズ=密室)で、あられもないポーズが話題となりヨーロッパだけでなく米国、日本、韓国、オーストラリア、モスクワでもベストセラーとなり世界中にその名が広がったと言います。\n\n女性を写した作品を数多く発表してきたランスは、一貫して女性達が生まれながらにしてまとう華やかさと儚さ、内面から湧き出る美や苦悩、憂いを力強く写してきました。レンズの前で飾り気のない心情や濃厚な人間性を惜しげもなくさらしています。作品の中には、「ランスでなければ写せない」とまで言われるしぐさや眼差しとともに、瞬間に写し取られた本能的な女性達の姿を捉えるベッティナ・ランスの魅力に迫りたいと思います。欧州で裸体像は、美術館などの屋内や庭園など私的空間に設置されていますが、日本では、平和の象徴として、街や公共空間に裸婦像の彫刻作品が多いです。ところが写真の世界では、屋内展示でありながらも裸婦をテーマの芸術写真が激減しています。日本でヌード作品の展示は皆無に近いとさえ言える状況にあえて、写真家ベッティナ・ランスが捉えた同性の美しき作品を約30点展示予定です。入場は、成人限定とさせて頂きます。",
       "medium": "photo",
@@ -79822,8 +79959,19 @@
       "id": "e443a170ce5d",
       "source": "tokyo_art_beat",
       "title": "「EXCHANGE EXHIBITION」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「교류전」",
+          "description": "일본대학 예술학부와 바냐루카대학 예술아카데미와의 교류 전시회·상영회가 개최됩니다. 이 전시회는 보스니아 헤르체고비나와 일본과의 교류와 관련된 전시회로서, 주보스니아 일본대사관의 후원을 받아 운영을 진행하고 있습니다."
+        },
+        "ja": {
+          "title": "「交流展」"
+        },
+        "en": {
+          "description": "An exchange exhibition and screening will be held between the Nihon University College of Art and the Academy of Arts of the University of Banja Luka. This exhibition, related to the exchange between Bosnia and Herzegovina and Japan, is being organized with the sponsorship of the Embassy of Japan in Bosnia and Herzegovina."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/2c2d2eb9/IMG_5299%20-%20Aku%20Ryu.jpeg",
       "description": "日本大学芸術学部とバニャ・ルカ大学芸術アカデミーとの交流展覧会・上映会が行われます。この展覧会はボスニア・ヘルツェゴビナと日本との交流に関わる展覧会として、在ボスニア日本大使館より後援いただき運営を進めております。",
       "medium": "mixed",
@@ -79918,8 +80066,17 @@
       "id": "c57792ad40f3",
       "source": "tokyo_art_beat",
       "title": "「空間彩添 Vol.4 」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「공간 채색 Vol.4」",
+          "description": "「공간 채색 Vol.4」는 생활 및 업무 공간에 색을 더하는 것을 테마로 한, 50cm 이내의 작품들을 모은 그룹전입니다. 회화, 일러스트레이션, 믹스트 미디어 등 다양한 표현의 작품들을 전시합니다. 아오키 사토코, 이이무라 타케시, 이케다 카즈키, 카토, Kamihasami, 칸사카 타카히로, 사카모토 치카, saori, 츠키노 카에루, 츠츠이 후미나, ʜᴏиᴏᴋα., 하타노 코모모, 마키 세이이치로, maru hiromi, 모리모토 아츠시, 야기조, 야마자키 타쿠미 등 17명이 참여합니다. 자택의 거실이나 다이닝룸, 서재, 점포, 사무실 등에 쉽게 들여놓을 수 있는 크기의 작품들을 통해 각 작가들이 만들어내는 다채로운 세계관을 감상하실 수 있습니다. 일상 공간과 예술의 새로운 만남을 제안하는 전시회입니다."
+        },
+        "en": {
+          "title": "「Kukan Saiten Vol. 4」",
+          "description": "\"Kukan Saiten Vol. 4\" is a group exhibition featuring works under 50cm, themed around adding color to living and working spaces. It showcases works with diverse expressions, including paintings, illustrations, and mixed media. 17 artists will participate: Satoko Aoki, Takeshi Iimura, Kazuki Ikeda, Kato, Kamihasami, Takahiro Kansaka, Chika Sakamoto, saori, Tsukino Kaeru, Fumina Tsutsui, ʜᴏиᴏᴋα., Komomo Hatano, Seiichiro Maki, maru hiromi, Atsushi Morimoto, Yagizo, and Takumi Yamazaki. Through works sized to easily fit into home living rooms, dining rooms, studies, shops, or offices, you can experience the diverse worldviews created by each artist. This exhibition proposes a new encounter between everyday spaces and art."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/6a6552a9/368FD50B-B37C-425D-9A83-FB7D34012425_1_105_c%20-%20Micaco%20Fujisawa.jpeg",
       "description": "「空間彩添 Vol.4」は、暮らしや仕事の空間に彩りを添えることをテーマにした、50cm以内の作品を集めたグループ展です。絵画、イラストレーション、ミクストメディアなど、多様な表現による作品を展示。あおきさとこ、飯村武志、池田和貴、カトウ、Kamihasami、勘坂隆裕、坂本千華、saori、月乃カエル、筒井文那、ʜᴏиᴏᴋα.、波多野小桃、牧聖一朗、maru hiromi、モリモトアツシ、山羊蔵、山﨑拓巳の17名が参加します。自宅のリビングやダイニング、書斎、店舗、オフィスなどに取り入れやすいサイズの作品を通して、それぞれの作家が生み出す多彩な世界観をご覧いただけます。日常空間とアートとの新たな出会いを提案する展覧会です。",
       "medium": "mixed",
@@ -80061,8 +80218,17 @@
       "id": "506f30f4cb18",
       "source": "tokyo_art_beat",
       "title": "磯谷博史 「天気雨のとき When Sunshowers Come」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "이소가이 히로후미 「맑은 날 비가 올 때 When Sunshowers Come」",
+          "description": "2026년 가을 전시에서는 예술이 비추는 생활 양식과 문화 코드인 '우리 삶의 형태'에 주목하여, 이름 없는 사건들로부터 그 모습을 드러내는 이소가이 히로후미의 작품을 소개합니다.\n어딘가 원풍경이나 원체험을 떠올리게 하는 이미지를 통해 기억을 일깨우고, 감상자의 능동적인 사고를 움직이게 하는 이소가이. 과거의 추억과 도시의 풍경, 개인의 역사와 사회 코드가 조용히 교차하는 그의 표현은 우리의 지각을 흔들고 새로운 현실을 제시합니다. 이번 전시에서 작품과의 만남이 우리를 역사의 방관자에서 세계를 새롭게 읽어내는 당사자로 이끄는 기회가 되기를 바랍니다.\n\n[관련 이벤트]\n토크 이벤트\n일시: 9월 19일 16:00~17:30\n등단자: 이소가이 히로후미 × 이시다 케이코\n요금: 무료\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Hirofumi Isogai \"When Sunshowers Come\"",
+          "description": "The 2026 Autumn Exhibition will focus on lifestyles and cultural codes reflected by art, \"The Forms of Our Lives,\" and introduce works by Hirofumi Isogai, which bring forth their forms from unnamed events.\nThrough images that evoke a sense of original landscapes or primal experiences, Isogai awakens memories and stimulates the active thinking of viewers. His expressions, where past recollections and urban landscapes, individual histories and social codes quietly intertwine, shake our perceptions and present a new reality. We hope that encountering the works in this exhibition will provide an an opportunity to draw us from being mere spectators of history into active participants who reinterpret the world anew.\n\n[Related Event]\nTalk Event\nDate: September 19, 16:00-17:30\nSpeakers: Hirofumi Isogai × Keiko Ishida\nAdmission: Free\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/f2b670a5/26AUbannerS.png",
       "description": "2026年秋展では、芸術が映し出す生活様式や文化コード「わたしたちの生の形態」に着目し、名前のない出来事からその姿を浮きあがらせる磯谷博史の作品を紹介します。\nどこか原風景や原体験を想起させるイメージをとおして、記憶を呼び覚まし、鑑賞者の能動的な思考を駆動させる磯谷。過去の追憶と都市の風景、個人の歴史と社会コードが静かに交錯するその表現は、わたしたちの知覚を揺さぶり、新たなリアリティを提示します。本展における作品との遭遇が、わたしたちを歴史の傍観者から、世界をあたらしく詠みなおす当事者へと引き入れる機会となれば幸いです。\n\n[関連イベント]\nトークイベント\n日時: 9月19日 16:00〜17:30\n登壇者: 磯谷博史×石田圭子\n料金: 無料\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -80108,8 +80274,15 @@
       "id": "9091ca0a7c45",
       "source": "tokyo_art_beat",
       "title": "フォトレツ 「80,000年後に、また会いましょう」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "포트레츠 「80,000년 후에 다시 만나요」"
+        },
+        "en": {
+          "title": "Photretz \"See You Again in 80,000 Years\""
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/ebd1b84a/image.png",
       "description": null,
       "medium": "photo",
@@ -80155,8 +80328,17 @@
       "id": "1cdfdd961b13",
       "source": "tokyo_art_beat",
       "title": "若林満 「Dérive （漂流）」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "와카바야시 미츠루 「Dérive (표류)」",
+          "description": "라이카 카메라 재팬 주식회사는 이번에 사진작가 와카바야시 미츠루의 사진전 「Dérive (표류)」를 라이카 갤러리 교토에서 개최합니다.\n\n거리를 걷다 보면 문득 눈에 띄는 풍경이 있습니다. 와카바야시 미츠루는 그러한 순간들을 사진으로 남겨왔습니다. 그곳에는 특별한 장소나 극적인 순간을 찾아 헤매는 것이 아닙니다. 무심코 지나가는 일상 속에서 어떤 풍경에 눈길이 멈추고 셔터를 누릅니다. 그 작은 우연의 축적이 와카바야시의 사진을 형성하고 있습니다.\n\n이번 전시의 제목 「Dérive (데리브)」는 프랑스어로 '표류'를 의미합니다. 1950년대 상황주의 인터내셔널의 활동 속에서 전개된 이 개념은 도시를 목적지로 향하는 장소만이 아니라, 걷기를 통해 그 환경과 감각을 체험하는 실천으로 여겨졌습니다. 와카바야시가 'Dérive'라는 단어를 접한 것은 자신이 이미 오랫동안 이어온 촬영 방식을 되돌아보는 과정에서였습니다. 왜 그 장소에서 발걸음을 멈췄는지 그때는 자신도 알 수 없었습니다. 하지만 목적지를 정하지 않고 거리를 걷고 눈앞에 나타나는 것을 받아들이는 감각은 바로 'Dérive'라는 단어로 다시 해석될 수 있는 것이었습니다.\n\n그것은 새로운 사고방식을 익혔다기보다는, 지금까지 자신 안에 있던 감각에 하나의 이름이 부여된 것일지도 모릅니다. 와카바야시의 사진에 담긴 것은 누군가에 의해 특별한 의미가 부여된 풍경이 아닙니다. 빛과 공기, 사람의 기척, 그 땅에 흐르는 시간. 걷다가 우연히 마주친 것에 시선을 주고 그대로 받아들임으로써, 익숙한 세상 속에서 또 다른 표정이 떠오릅니다.\n\n이번 전시에서는 매일의 발걸음 속에서 만나고 계속해서 찍어온 풍경을 통해 한 사진작가가 '보는' 행위와 어떻게 마주해왔는지를 소개합니다. 세상은 언제나 우리에게 열려 있습니다. 와카바야시의 사진을 통해 늘 보던 풍경에 다시 한번 눈길을 주시기를 바랍니다."
+        },
+        "en": {
+          "title": "Mitsuru Wakabayashi \"Dérive (Drifting)\"",
+          "description": "Leica Camera Japan Co., Ltd. is pleased to announce the exhibition \"Dérive (Drifting)\" by photographer Mitsuru Wakabayashi at Leica Gallery Kyoto.\n\nWhile walking through the city, there are landscapes that suddenly catch the eye. Mitsuru Wakabayashi has captured such fleeting moments in his photographs. It's not about searching for special places or dramatic moments. In the midst of everyday life, a certain scene catches his eye, and he presses the shutter. This accumulation of small coincidences shapes Wakabayashi's photography.\n\nThe title of this exhibition, \"Dérive,\" means \"drifting\" in French. This concept, developed in the 1950s within the activities of the Situationist International, considered the city not merely as a place to reach a destination, but as a practice of experiencing its environment and sensations through walking. Wakabayashi encountered the word \"Dérive\" while reflecting on his long-standing approach to photography. He didn't know at the time why he stopped at a particular spot. However, the sensation of walking through the city without a fixed destination and accepting what appeared before him could indeed be reinterpreted through the word \"Dérive.\"\n\nIt might be less about acquiring a new way of thinking and more about giving a name to a sensation that had always existed within him. Wakabayashi's photographs do not depict landscapes given special meaning by someone else. They capture light and air, the presence of people, and the time lingering in that place. By paying attention to what he encounters by chance while walking and accepting it as it is, another expression emerges within the familiar world.\n\nIn this exhibition, we introduce how one photographer has confronted the act of \"seeing\" through the landscapes he has encountered and continued to photograph in his daily walks. The world is always open to us. We hope that through Wakabayashi's photographs, you will once again turn your eyes to the familiar scenery."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/914b08c0/01-%C2%A9%20Mitsuru%20Wakabayashi.jpg",
       "description": "ライカカメラジャパン株式会社はこのたび、写真家・若林満による写真展「Dérive（漂流）」をライカギャラリー京都にて開催いたします。\n\n街を歩くなかで、ふと目に留まる風景がある。若林満は、そうした一瞬を写真に残してきました。そこにあるのは、特別な場所や劇的な瞬間を探し求めることではありません。何気なく過ぎていく日常のなかで、ある風景に目が留まり、シャッターを切る。その小さな偶然の積み重ねが、若林の写真を形づくっています。\n\n本展のタイトル「Dérive（デリヴ）」は、フランス語で「漂流」を意味します。1950年代、シチュアシオニスト・インターナショナルの活動のなかで展開されたこの概念は、都市を目的地へ向かうだけの場所ではなく、歩くことを通してその環境や感覚を体験する実践として考えられました。若林が「Dérive」という言葉に出会ったのは、自身がすでに長く続けてきた撮影のあり方を振り返るなかでのことでした。なぜその場所で足を止めたのか、そのときには自分でもわからない。けれども行く先を定めずに街を歩き、目の前に現れるものを受け入れていく感覚は、まさに「Dérive」という言葉によって捉え直すことができるものでした。\n\nそれは、新しい考え方を身につけたというよりも、これまで自分のなかにあった感覚にひとつの名前が与えられたということなのかもしれません。若林の写真に写るのは、誰かによって特別な意味を与えられた風景ではありません。光や空気、人の気配、その土地に漂う時間。歩くことで偶然出会ったものに目を向け、そのまま受け止めることで、見慣れた世界のなかにある別の表情が浮かび上がります。\n\n本展では、日々の歩みのなかで出会い、撮り続けてきた風景を通して、ひとりの写真家が「見る」という行為とどのように向き合ってきたのかをご紹介します。世界は、いつも私たちに開かれている。若林の写真を通して、いつもの風景にもう一度目を向けていただければと思います。",
       "medium": "photo",
@@ -80202,8 +80384,15 @@
       "id": "8f8189429de3",
       "source": "tokyo_art_beat",
       "title": "鈴木秀ヲ 「ブリキのカメラ」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "스즈키 히데오 「브리키노 카메라」"
+        },
+        "en": {
+          "title": "Suzuki Hideo 「Buriki no Kamera」"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/575bbd36/%E3%83%AB%E3%83%BC%E3%83%8B%E3%82%A3%E9%88%B4%E6%9C%A8%E7%A7%80%E3%83%B2.jpg",
       "description": null,
       "medium": "gear",
@@ -80249,8 +80438,19 @@
       "id": "eb34f3948405",
       "source": "tokyo_art_beat",
       "title": "「before dawn」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「before dawn」",
+          "description": "사진, 일러스트, 콜라주, 3DCG. 표현 방식은 달라도, 우리는 각자 무언가에 시선을 향하고, 멈춰 서서, 계속 응시하고 있습니다. 일상의 풍경이나 기억, 마음속 깊이 남아있는 감정. 작품에 담긴, 아름다움만으로는 표현할 수 없는, 말로 형언할 수 없는 마음. 각자의 표현이 교차함으로써 생겨나는 감각을, 회장에서 발견해 주시면 감사하겠습니다."
+        },
+        "ja": {
+          "title": "「before dawn」"
+        },
+        "en": {
+          "description": "Photography, illustration, collage, 3DCG. Even if the methods of expression differ, each of us directs our gaze towards something, stops, and continues to observe it. Daily scenery and memories, emotions that linger deep in our hearts. The unspoken feelings contained within the works, which cannot be expressed by beauty alone. We hope you will discover the sensations born from the intersection of these various expressions at the venue."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/16da4e54/insta_fix%20-%20%E4%BB%B2%E6%BE%A4%E8%A3%95.png",
       "description": "写真、イラスト、コラージュ、3DCG。表現方法は違っていても、私たちはそれぞれ何かに視線を向け、立ち止まり、見つめ続けています。日々の風景や記憶、心の奥に残り続ける感情。作品に込められた、美しさだけでは表せない、言葉にならない想い。それぞれの表現が交差することで生まれる感覚を、会場で見つけていただけたら幸いです。",
       "medium": "photo",
@@ -80320,8 +80520,19 @@
       "id": "50e2f6b6b01c",
       "source": "tokyo_art_beat",
       "title": "「CROSSOVER6 5th」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「CROSSOVER6 5th」",
+          "description": "사진을 좋아하고 그 표현 수단으로서 사람들이 모이는 사진전에서 봐주셨으면 합니다. 그런 마음을 공유하는 6명이 모였습니다... 이번이 5회째입니다. 셔터를 누른 순간의 작은 감동을 SNS뿐만 아니라 인화물로도 전하고 싶습니다. 그 인화물을 보면서 이야기하고 즐거운 시간을 함께 보낼 수 있다면 좋겠습니다. 이번 전시에는 지금까지의 이미지와는 다른 작은 발견이 있을지도 모릅니다. 그 작은 발견으로 이어질 수 있도록 조금씩 준비를 진행하고 있습니다. 작품 스타일도 다른 개성 넘치는 6명의 감성이 교차하는 공간을 마음껏 즐겨주세요."
+        },
+        "ja": {
+          "title": "「CROSSOVER6 5th」"
+        },
+        "en": {
+          "description": "We want people who love photography to see it at a photo exhibition where it serves as a means of expression. Six people who share such feelings have gathered... This is our 5th time. We want to convey the small emotions of the moment the shutter is pressed, not only through SNS but also through prints. We hope to talk while viewing the prints and spend an enjoyable time together. In this exhibition, there might be small discoveries different from previous impressions. We are gradually preparing to lead to those small discoveries. Please enjoy at your leisure the space where the sensibilities of six unique individuals with different styles intersect."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/d527bb2a/PhotoCollage_1785581373006.jpg",
       "description": "写真が好きでその表現手段として人が集う写真展で観てほしい。そんな思いを共有する6人が集まりました・・・今回で5回目となります。シャッターを押した瞬間のちょっとした感動をSNSだけでなくプリントで伝えたい。そのプリントを観ながらお話しして楽しい時間を一緒に過ごせたらと思います今回の展示に今までのイメージと違う小さな発見があるかもしれません。その小さな発見につながるよう少しずつ準備を進めています。作風も違う個性あふれる6人の感性が交差する空間をごゆっくりお楽しみください。",
       "medium": "photo",
@@ -80397,8 +80608,17 @@
       "id": "b34515458f53",
       "source": "tokyo_art_beat",
       "title": "山田芳正 「煙突XII」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "야마다 요시마사 「굴뚝 XII」",
+          "description": "「나는 여기에 있다」는 변함없는 확실성을 내세우며 계속 서 있는 굴뚝의 모습에 매료되어, 25년 이상 일관되게 도심 속 「굴뚝」을 계속 촬영해 온 야마다 요시마사. 이번이 12회째를 맞는 「굴뚝」 전시회입니다."
+        },
+        "en": {
+          "title": "Yamada Yoshimasa 'Chimney XII'",
+          "description": "Fascinated by the unchanging certainty of chimneys that stand tall, asserting 'I am here,' Yamada Yoshimasa has consistently photographed 'chimneys' in the city for over a quarter-century. This marks the 12th 'Chimney' exhibition."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/dab48323/yamada2026_800%20-%20%E3%82%AD%E3%82%99%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC%E3%82%BD%E3%83%A9%E3%83%AA%E3%82%B9.jpg",
       "description": "「私はここに在る」と変わることのない確かさを突き付けて立ち続ける煙突の姿に魅了され、四半世紀以上、一貫して街中の「煙突」を撮り続ける山田芳正。今回で12回目を迎える「煙突」展です。",
       "medium": "mixed",
@@ -80444,8 +80664,17 @@
       "id": "6c9dca05bf0f",
       "source": "tokyo_art_beat",
       "title": "マキエマキ 「為蔵の恋人」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "마키에마키 「타메조의 연인」",
+          "description": "마키에마키 10주년 기념 해를 마무리하는 본 전시는 가상의 사진 애호가 '타메조'가 남긴 '비밀 앨범'을 축으로 전개되는 이야기입니다. 2018년부터 2025년에 걸쳐 제작한 작품에 본 전시를 위해 새로 촬영한 신작을 더해 시간의 흐름을 느낄 수 있도록 구성했습니다. 마키에마키의 작품은 'male gaze(남성의 시선)'을 자신의 신체로 표현하는 셀프 포트레이트입니다. 작품 속에서 '타메조의 연인'으로 비치는 마키에마키는 가상의 촬영자인 타메조의 지배욕과 승인 욕구를 충족시키는 존재로 나타납니다. 뷰파인더를 들여다보는 타메조의 에로틱한 시선을 받아들이고 카메라 앞에서 피부를 드러내는 그 모습에는 쇼와 시대 남자들이 성적으로 소비해 온 여성상이 짙게 투영되어 있습니다. 관람객은 '타메조의 연인'이 보여주는 수줍음과 당혹감, 그리고 카메라를 향한 시선을 통해 타메조의 욕망을 간접 체험함과 동시에 자신의 시선의 존재 방식을 의식하게 될 것입니다. 그러나 그 세계는 모두 작가인 마키에마키가 셀프 포트레이트라는 수법으로 구축한 픽션입니다. 한 사람의 신체가 '찍는 자'와 '찍히는 자' 양쪽의 역할을 함으로써 작가, 피사체, 그리고 가상의 촬영자라는 복수의 주체가 중첩 구조처럼 겹쳐집니다. 관람객이 보는 것은 타메조의 시선인가, 아니면 자신의 욕망인가. 혹은 그 모든 것을 설계한 작가의 시선인가. '타메조의 연인'을 가학적인 남성의 시선으로 지배하고 있다고 생각하는 관람객은 자신도 모르는 사이에 마키에마키가 설치한 시선의 구조에 편입되는 것입니다."
+        },
+        "en": {
+          "title": "Makiemaki 'Tamezo's Lover'",
+          "description": "This exhibition, marking the culmination of Makiemaki's 10th-anniversary year, unfolds a narrative centered on a 'secret album' left behind by the fictional photography enthusiast, Tamezo. It features works created between 2018 and 2025, along with new pieces specially shot for this exhibition, arranged to evoke a sense of time's passage. Makiemaki's works are self-portraits that express the 'male gaze' through her own body. In the works, Makiemaki, appearing as 'Tamezo's Lover,' emerges as a being who fulfills the fictional photographer Tamezo's desire for control and need for approval. Her acceptance of Tamezo's erotic gaze through the viewfinder and her baring of skin before the camera strongly project the image of women sexually consumed by men of the Showa era. Viewers will re-experience Tamezo's desires through the shyness, confusion, and gaze directed at the camera by 'Tamezo's Lover,' while simultaneously becoming aware of their own way of seeing. However, this entire world is a fiction constructed by the artist Makiemaki through the method of self-portraiture. By having one body play both the role of 'the one who shoots' and 'the one who is shot,' multiple subjects—the artist, the subject, and the fictional photographer—overlap in a nested structure. Is what the viewer sees Tamezo's gaze, or their own desires? Or is it the artist's gaze, who designed it all? Viewers who believe they are dominating 'Tamezo's Lover' with a sadistic male gaze are, without realizing it, being drawn into the structure of vision orchestrated by Makiemaki."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/6c201f88/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-09-08%2015.02.21.png",
       "description": "マキエマキ10周年記念イヤーの締めくくりとなる本展は、架空の写真愛好家「為蔵」が遺した“秘密のアルバム”を軸に展開する物語です。2018年から2025年にかけて制作した作品に、本展のために撮り下ろした新作を加え、時間の流れを感じるように構成しました。マキエマキの作品は、「male gaze（男性のまなざし）」を自身の身体で表現するセルフポートレートです。作品の中で「為蔵の恋人」として写るマキエマキは、架空の撮影者である為蔵の支配欲や承認欲求を満たす存在として現れます。ファインダーを覗く為蔵のエロティックな視線を受け入れ、カメラの前で肌をさらすその姿には、昭和の男たちが性的に消費してきた女性像が色濃く投影されています。鑑賞者は、「為蔵の恋人」が見せる恥じらいや戸惑い、そしてカメラに向けられた視線を通して、為蔵の欲望を追体験すると同時に、自らの視線のあり方を意識することになるでしょう。しかし、その世界はすべて、作者であるマキエマキがセルフポートレートという手法によって構築したフィクションです。一人の身体が「撮る者」と「撮られる者」の両方の役割を果たすことで、作者、被写体、そして架空の撮影者という複数の主体が入れ子構造のように重なり合うのです。鑑賞者が見るのは為蔵の視線なのか、それとも自身の欲望なのか。あるいは、そのすべてを設計した作家の視線なのか。「為蔵の恋人」をサディスティックな男性のまなざしで支配しているつもりの鑑賞者は、知らぬ間に、マキエマキが仕掛けた視線の構造に取り込まれているのです。",
       "medium": "photo",
@@ -80498,8 +80727,17 @@
       "id": "a85a2cc0fc6d",
       "source": "tokyo_art_beat",
       "title": "石井友規 「『いのちの視点』写真展 - 大阪・関西万博から見つけた未来のピースたち -」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "이시이 토모키 「'생명의 시점' 사진전 - 오사카·간사이 엑스포에서 찾은 미래의 조각들 -」",
+          "description": "조용히 「엑스포가 정말로 전하고 싶었던 것」을 다시 한번 되돌아보고 싶습니다.\n\n2025년 오사카·간사이 엑스포 폐막으로부터 1년. 젊은 건축가들이 「환경」 「다양성」 「생명의 연결」이라는 질문에 마주하며 생각을 형상화한 엑스포 화장실 등 20개 시설. 본 사진전은 그 장소에 담긴 메시지를 사진으로 담아내어, 방문했던 분들에게는 다시 그 생각을, 방문하지 못했던 분들에게는 미래를 향한 메시지를 1억 화소의 대형 사진 전시로 전달합니다. 우리는 2050년, 우리 아이들이 살아갈 세상이 생명이 빛나는 곳이 되기를 목표로 합니다.\n\n사진 전시 외에도, 전시 기간 중에는 매일 시설을 실제로 설계한 젊은 건축가들이 회장을 방문하여 「어린이 대상 SDGs 워크숍」과 「토크쇼」를 개최하여 방문객들이 엑스포의 테마를 체험할 수 있도록 할 예정입니다. 그 외에도 이시이 토모키가 직접 어린이들을 위한 갤러리 투어를 개최하여, 전시된 사진을 통해 환경 문제에 대한 환경성 등록 환경 카운슬러로서의 관점도 소개할 예정입니다.\n\n[관련 이벤트]\n1. 토크쇼 「젊은 건축가들의 오사카·간사이 엑스포에서의 도전과 그 이후」\n일시: 2026년 9월 22일, 9월 23일, 9월 24일, 9월 25일 16:30~, 9월 26일 14:00~, 16:30~, 9월 27일 13:00~\n등단자: 노나카 아츠미 + 미타니 히로키, 오마타 유스케, 스즈키 준페이 + 무라베 스미 + 미조바타 유스케, 사이토 신고 + 네모토 유키 + 타시로 무무, 하마다 아키노리, 요네자와 타카시, 타케무라 유리카\n장소: 오사카부립 에노코지마 문화예술창조센터 enoco 1층 룸4\n요금: 무료 (예약 필수)\n2. 어린이 대상 SDGs 워크숍 ① 「엑스포에서 돌아온 '곤란한 나무'로 나만의 미니미니 쌓기 기둥을 만들자!」\n일시: 2026년 9월 22일 13:00~, 13:30~, 14:00~, 14:30~\n등단자: 노나카 아츠미 + 미타니 히로키 (나노미터 아키텍처)\n장소: 오사카부립 에노코지마 문화예술창조센터 enoco 1층 룸4 워크숍 공간\n요금: 무료 (예약 필수, 각 회 정원 3명)\n3. 어린이 대상 SDGs 워크숍 ② 「공기로 부풀어 오르는 텐트를 만들어 보자」\n일시: 2026년 9월 23일 13:00~, 14:00~\n등단자: 오마타 유스케 (오마타 유스케 건축설계사무소 / new building office)\n장소: 오사카부립 에노코지마 문화예술창조센터 enoco 1층 룸4 워크숍 공간\n요금: 무료 (예약 필수, 각 회 정원 10명) (초등학생 이상 대상, 부모님과 함께 참여해 주세요)\n4. 어린이 대상 SDGs 워크숍 ② 「공기로 부풀어 오르는 텐트를 만들어 보자」\n일시: 2026년 9월 27일 10:30~, 11:30~, 12:30\n등단자: 오아제 마사후미 (모노가타리 코사쿠쇼)\n장소: 오사카부립 에노코지마 문화예술창조센터 enoco 1층 룸4 워크숍 공간\n요금: 무료 (예약 필수, 각 회 정원 8명) (초등학교 4학년 이상 대상)\n※이벤트 상세 정보 및 신청 방법은 공식 홈페이지에서 확인해 주세요."
+        },
+        "en": {
+          "title": "Ishii Tomoki 'Photography Exhibition 'Perspective on Life' - Pieces of the Future Found at the Osaka-Kansai Expo -'",
+          "description": "We want to quietly re-examine 'what the Expo truly wanted to convey.'\n\nOne year after the closing of the 2025 Osaka-Kansai Expo. Young architects confronted the questions of 'environment,' 'diversity,' and 'connections of life,' giving form to their ideas in 20 facilities, including the Expo toilets. This photography exhibition captures the messages embedded in these places through photographs, delivering those thoughts once again to visitors, and a message for the future to those who could not visit, through a large-scale 100-megapixel photo display. We aim for the world our children will live in in 2050 to be a place where life shines.\n\nIn addition to the photo exhibition, young architects who actually designed the facilities will visit the venue daily during the exhibition period to hold 'SDGs Workshops for Children' and 'Talk Shows,' aiming to allow visitors to experience the Expo's themes. Furthermore, Ishii Tomoki himself will conduct gallery tours for children, introducing perspectives on environmental issues from his standpoint as an environmental counselor registered with the Ministry of the Environment, based on the exhibited photographs.\n\n[Related Events]\n1. Talk Show: 'Challenges and Beyond for Young Architects at the Osaka-Kansai Expo'\nDate & Time: September 22, 23, 24, 25, 2026 from 16:30; September 26 from 14:00 and 16:30; September 27 from 13:00\nSpeakers: Atsumi Nonaka + Hiroki Mitani, Yusuke Omata, Jumpei Suzuki + Sumi Murabe + Yusuke Mizobata, Shingo Saito + Yuki Nemoto + Mumu Tashiro, Akinori Hamada, Takashi Yonezawa, Yurika Takemura\nVenue: Osaka Prefectural Enokojima Cultural and Art Creation Center enoco, 1st Floor, Room 4\nFee: Free (Reservation required)\n2. SDGs Workshop for Children ①: 'Let's Make Our Own Mini Stacking Pillars with 'Troublesome Wood' Returned from the Expo!'\nDate & Time: September 22, 2026 from 13:00, 13:30, 14:00, 14:30\nSpeakers: Atsumi Nonaka + Hiroki Mitani (Nanometer Architecture)\nVenue: Osaka Prefectural Enokojima Cultural and Art Creation Center enoco, 1st Floor, Room 4 Workshop Space\nFee: Free (Reservation required, 3 participants per session)\n3. SDGs Workshop for Children ②: 'Let's Try Making an Air-Inflated Tent'\nDate & Time: September 23, 2026 from 13:00, 14:00\nSpeakers: Yusuke Omata (Omata Yusuke Architects / new building office)\nVenue: Osaka Prefectural Enokojima Cultural and Art Creation Center enoco, 1st Floor, Room 4 Workshop Space\nFee: Free (Reservation required, 10 participants per session) (For elementary school students and above, please participate with a parent/guardian)\n4. SDGs Workshop for Children ②: 'Let's Try Making an Air-Inflated Tent'\nDate & Time: September 27, 2026 from 10:30, 11:30, 12:30\nSpeakers: Masafumi Koaze (Monogatari Kousakusho)\nVenue: Osaka Prefectural Enokojima Cultural and Art Creation Center enoco, 1st Floor, Room 4 Workshop Space\nFee: Free (Reservation required, 8 participants per session) (For 4th graders and above)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/a2de2b7c/%E3%80%8C%E3%81%84%E3%81%AE%E3%81%A1%E3%81%AE%E8%A6%96%E7%82%B9%E3%80%8D%E5%86%99%E7%9C%9F%E5%B1%95%E3%83%95%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC%E8%A1%A8%20-%20%E3%81%84%E3%81%AE%E3%81%A1%E3%81%AE%E8%A6%96%E7%82%B9%20%E5%86%99%E7%9C%9F%E5%B1%95%E5%AE%9F%E8%A1%8C%E5%A7%94%E5%93%A1%E4%BC%9A.jpg",
       "description": "静かに「万博が本当に伝えたかったこと」を見つめ直したい。\n\n2025年大阪・関西万博の閉幕から一年。若手建築家たちが「環境」「多様性」「いのちのつながり」という問いに向き合い、想いを形にした万博トイレなど20の施設。本写真展は、その場所に込められたメッセージを写真で切り取り、訪れた方には再びその想いを、訪れることができなかった方には未来へのメッセージを1億画素の大型写真展示でお届けします。私たちは、2050年、私たちの子どもたちが暮らす世界が、いのちが輝く場所であることを目指しています。\n\n写真展示のほかに、会期中は日替わりで実際に施設を設計した若手建築家が会場を訪れ、「子ども向けSDGsワークショップ」と「トークショー」を開催し、来場者へ万博のテーマを体感してもらうことを目指しています。それ以外にも石井友規が自ら子ども向けにギャラリーツアーを開催し、展示する写真から環境問題について環境省登録環境カウンセラーとしての観点も紹介していきます。\n\n[関連イベント]\n1. トークショー「若手建築家による大阪・関西万博での挑戦とその先」\n日時: 2026年9月22日、9月23日、9月24日、9月25日16:30〜、9月26日14:00〜、16:30〜、9月27日13:00〜\n登壇者: 野中あつみ ＋ 三谷裕樹、小俣裕亮、鈴木淳平 ＋ 村部墨 ＋ 溝端友輔、斎藤信吾 ＋ 根本友樹 ＋ 田代夢々、浜田晶則、米澤隆、竹村優里佳\n会場: 大阪府立江之子島文化芸術創造センターenoco 1階 ルーム4\n料金: 無料（要予約）\n2. 子ども向け SDGs ワークショップ①「万博から返ってきた『困った木』で、自分だけのミニミニ積み柱を作ろう！」\n日時: 2026年9月22日13:00〜、13:30〜、14:00〜、14:30〜\n登壇者: 野中あつみ ＋ 三谷裕樹（ナノメートルアーキテクチャー）\n会場: 大阪府立江之子島文化芸術創造センターenoco 1階 ルーム4 ワークショップスペース\n料金: 無料（要予約、各回定員3名）\n3. 子ども向け SDGs ワークショップ②「空気でふくらむテントをつくってみよう」\n日時: 2026年9月23日13:00〜、14:00〜\n登壇者: 小俣裕亮（小俣裕亮建築設計事務所 / new building office）\n会場: 大阪府立江之子島文化芸術創造センターenoco 1階 ルーム4 ワークショップスペース\n料金: 無料（要予約、各回定員10名）（小学生以上対象、親子で参加ください）\n4. 子ども向け SDGs ワークショップ②「空気でふくらむテントをつくってみよう」\n日時: 2026年9月27日10:30〜、11:30〜、12:30\n登壇者: 小畦雅史（ものがたり工作所）\n会場: 大阪府立江之子島文化芸術創造センターenoco 1階 ルーム4 ワークショップスペース\n料金: 無料（要予約、各回定員8名）（小学4年生以上対象）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -80545,8 +80783,17 @@
       "id": "41d22d45cc7e",
       "source": "tokyo_art_beat",
       "title": "儀間朝龍 「NYG POP」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "기마 초류 「NYG POP」",
+          "description": "골판지 아티스트로서 '유통과 소비'를 주제로, 전 세계 시장으로 운반되어 오는 다채로운 골판지를 소재로 다양한 모티프를 콜라주하여 작품을 제작하는 기마 초류. Roll에서 4년 만에 열리는 'NYG POP'이라는 제목의 이번 전시에서는 올봄 미국 방문 시 겪었던 일들과 보고 들었던 것들에서 영감을 얻어 제작한 신작을 전시, 판매합니다. 예나 지금이나 우리 생활에 없어서는 안 될 골판지. 유통과 소비 속에서 많은 사람들이 관계를 맺고, 그 안에서 수많은 이야기가 탄생합니다. 그렇습니다, 골판지에는 우리가 알 수 없는 무수한 드라마가 담겨 있습니다."
+        },
+        "en": {
+          "title": "Gima Choryu 「NYG POP」",
+          "description": "Gima Choryu, a cardboard artist, creates works by collaging various motifs using colorful cardboard boxes transported to markets from all over the world, based on the theme of 'distribution and consumption.' This exhibition, titled 'NYG POP,' is his first at Roll in four years, and will feature and sell new works inspired by events and observations from his trip to the United States this spring. Cardboard has been indispensable to our lives, both in the past and present. Many people are involved in its distribution and consumption, and countless stories are born within it. Indeed, cardboard holds innumerable dramas that we know nothing about."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/b0571e05/NYG_POP_260817_YFVG02%20-%20PR%20-%20Yosuke%20Fujiki%20Van%20Gogh%20Co.,%20Ltd..jpg",
       "description": "ダンボール・アーティストとして「流通と消費」をテーマに、世界中から市場に運ばれてくる色とりどりのダンボールを素材に、さまざまなモティーフをコラージュして作品制作を行なっている儀間朝龍。Rollでは4年ぶりとなる“NYG POP”と題した本展では、今春に渡米した際に起きた出来事や見聞きした物事から着想を得て制作した新作を展示、販売します。今も昔も私たちの生活に欠かせないダンボール。流通と消費の中でたくさんの人が関わり、またその中でたくさんの物語が生まれています。そう、ダンボールには私たちの知る由もない無数のドラマがあるのです。",
       "medium": "mixed",
@@ -80592,8 +80839,17 @@
       "id": "0741d13a161a",
       "source": "tokyo_art_beat",
       "title": "楊一楽 + JACKSON kaki 「another way」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "양일락 + JACKSON kaki 「another way」",
+          "description": "이번에 TAV GALLERY에서는 이정문 기획의 양일락과 JACKSON kaki 2인전 'another way'를 개최합니다. 본 전시 'another way'는 이정문 기획의 양일락과 JACKSON kaki 2인전입니다. 국가라는 이름으로 끊임없이 갱신되는 권력에 의해 그어진 선에 신체를 통해 응답하는 두 작가의 실천을 병치합니다. 선을 넘는 것도, 머무는 것도 답이 아닙니다. 불안정한 세상에서 다른 방식으로 존재하기 위한 하나의 자세를 제시하고자 합니다.\n\n우리 몸은 국가라는 이름으로 끊임없이 갱신되는 권력에 의해 그어진 선에 무의식적으로 반응하고 있습니다. 그 선을 넘는 것이 반드시 자유를 의미하지 않으며, 그 선 안에 머무는 것이 반드시 안전을 의미하지도 않습니다. 본 전시는 생활에 명시되지 않은 선에 직면하고, 불안정한 세상에서 하나의 자세를 만들고, 다른 방식으로 존재하는 것을 시도합니다. 양일락은 사진작가로서 현장 조사를 기반으로 한 리서치와 아날로그 촬영 기법을 활용한 작업을 계속해 왔습니다. JACKSON kaki는 3DCG, 영상, 퍼포먼스, 설치, 사운드 등 복합적인 표현 기법을 통해 신체와 기술의 관계를 탈구적인 감각으로 그려냅니다.\n\n이번 전시에서 양일락은 2025년 치바 해안에 떠밀려온 고래의 죽음과 행정 당국의 '처리'를 개인이 둘러보는 작품을 발표합니다. JACKSON kaki는 보행, 전철, 그리고 LUUP을 통해 도시 이동에 숨겨진 정치성이 어떻게 한 개인의 몸을 스쳐 지나가는지를 묻습니다. 지금까지 서로 알지 못했던 두 작가이지만, 사회를 바라보는 시점에는 유사한 점이 있습니다. 양측은 각각 다른 방식으로 국가라는 기계의 부조리와 신체를 통해 대면해 왔습니다. 본 전시는 그 두 가지 실천을 병치함으로써 기획되었습니다. 많은 관람 바랍니다."
+        },
+        "en": {
+          "title": "Yang Yilaku + JACKSON kaki 「another way」",
+          "description": "TAV GALLERY is pleased to present 'another way,' a duo exhibition by Yang Yilaku and JACKSON kaki, curated by Li Jingwen. This exhibition, 'another way,' curated by Li Jingwen, features the practices of Yang Yilaku and JACKSON kaki, juxtaposing their responses through the body to lines drawn by power continuously updated under the name of the state. Neither crossing the line nor remaining within it is the answer. We aim to present an attitude for existing in an unstable world in a different way.\n\nOur bodies unconsciously react to lines drawn by power continuously updated under the name of the state. Crossing that line does not necessarily mean freedom, nor does remaining within it necessarily mean safety. This exhibition attempts to confront the unstated lines in life, create an attitude in an unstable world, and exist in a different way. As a photographer, Yang Yilaku has continued to create works using fieldwork-based research and analog photography techniques. JACKSON kaki uses complex expressive methods such as 3DCG, video, performance, installation, and sound to depict the relationship between the body and technology with a dislocated sensibility.\n\nIn this exhibition, Yang Yilaku presents a work that individually explores the death of a whale washed ashore on the Chiba coast in 2025 and its 'disposal' by the administration. JACKSON kaki questions how the political nature hidden in urban movement, through walking, trains, and LUUP, passes through an individual's body. Although the two artists had no prior acquaintance, their perspectives on society are similar. Both have confronted the absurdity of the state as a machine through their bodies, each in a different way. This exhibition was planned by juxtaposing these two practices. We invite you to visit."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/2e92066c/unnamed.png",
       "description": "この度、TAV GALLERYでは、李静文の企画による楊一楽とJACKSON kakiの二人展「another way」を開催する。本展「another way」は李静文の企画による楊一楽とJACKSON kakiの二人展である。国家という名のもとで更新され続ける権力によって引かれた線に、身体を通して応答する二人の実践を並置する。踏み越えることも、留まり続けることも、答えではない。不安定な世の中において、別の方法で存在するための一つの姿勢を提示したい。\n\n私たちの身体は、国家という名で更新され続ける権力によって引かれた線に、気づかないうちに反応している。その線を踏み越えることは、必ずしも自由を意味しない、その線の中にいることも、必ずしも安全を意味しない。本展が試みるのは、生活に明示されてない線に向き合い、不安定な世の中に１つの姿勢を作り、別の方法で存在することである。楊一楽は写真家として、フィールドワークに基づくリサーチとアナログの撮影手法を用いた制作を続けてきた。JACKSON kakiは3DCG、映像、パフォーマンス、インスタレーション、サウンドといった複合的な表現手法を通じて、身体とテクノロジーの関係を脱臼的な感覚のうちに描き出す。\n\n本展では、楊一楽は、2025年に千葉の海岸に打ち上げられたクジラの死と、行政による「処理」を個人でめぐる作品を発表する。JACKSON kakiは、歩行、電車、そしてLUUPを通して、都市における移動に隠される政治性が、いかに一人の身体を通り過ぎていくのかを問う。これまで面識のなかった二人の作家だが、社会を見る視点には近しいものがある。両者はそれぞれ異なる方法で、国家という機械の不条理と、身体を介して対面してきた。本展は、その二つの実践を並置することで企画された。ぜひご高覧ください。",
       "medium": "mixed",
@@ -80652,8 +80908,17 @@
       "id": "61b97baea75f",
       "source": "tokyo_art_beat",
       "title": "カンケ・ブルノ 「YUBIN / 東京郵便配達の記録」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "칸케 브루노 「YUBIN / 도쿄 우편 배달 기록」",
+          "description": "2026년 9월 19일 (토)부터 nagaya paper lab에서는 사진작가 칸케 브루노의 사진전 'YUBIN / 도쿄 우편 배달 기록'을 개최합니다.\n칸케 씨가 오랫동안 작업해 온 'YUBIN'은 도쿄 23구를 걸으며 우편 배달원의 시점을 단서로 도시를 바라보는 프로젝트입니다. 거리에 흩어져 있는 우편함, 건물 입구, 공공도로와 사유지의 경계. 평소라면 지나쳤을 법한 장소들을 우편 배달원의 시선으로 바라보면 도쿄라는 도시가 조금 다르게 보입니다. 'YUBIN'은 사진뿐만 아니라 엽서북, 파인아트 프린트, 메일 아트 등 '우편'이라는 시스템 자체를 작품의 일부로 전개해 왔습니다. nagaya paper lab에서는 지금까지도 칸케 씨의 출판물 『YUBIN selection』을 취급해 왔습니다. 책과 인쇄물을 다루고, 그것들이 사람에서 사람으로 전달되는 것을 소중히 여기는 nagaya에게 '우편'을 통해 도시를 바라보는 이 작품을 전시하는 것은 매우 자연스러운 연결고리입니다.\n이번 전시에서는 nagaya가 위치한 스미다구에서 촬영된 사진을 중심으로 소개합니다. 칸케 씨가 바라본 스미다구의 풍경을 실제로 그 거리 안에 있는 nagaya에서 보는 것. 늘 걷던 거리를 조금 다른 시각으로 다시 볼 수 있는 기회가 되기를 바랍니다.\n\n[관련 이벤트]\n1. OPENING TALK\n일시: 9월 19일 16:00~17:30\n요금: 원 드링크 주문\n2. 칸케 브루노와 함께하는 「배달원의 시선으로 도시를 보다 — YUBIN FIELD WALK」\n일시: 10월 3일 14:00~15:00\n요금: 1500엔 + 원 드링크 주문\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Kanke Bruno 「YUBIN / Records of Tokyo Post Delivery」",
+          "description": "From Saturday, September 19, 2026, nagaya paper lab will host 'YUBIN / Records of Tokyo Post Delivery,' a photography exhibition by photographer Kanke Bruno.\nKanke's long-running project 'YUBIN' is a project that explores the city by walking through Tokyo's 23 wards, using the perspective of a postal worker as a clue. Mailboxes scattered throughout the city, building entrances, the boundaries between public roads and private land. When you look at places you would normally overlook through the eyes of a postal worker, the city of Tokyo appears a little different. 'YUBIN' has developed not only as photographs but also as postcard books, fine art prints, mail art, and other forms, making the 'postal' system itself part of the artwork. nagaya paper lab has also previously handled Kanke's publication 'YUBIN selection.' For nagaya, which handles books and printed materials and values their transmission from person to person, exhibiting this work that views the city through 'mail' has a very natural connection.\nThis exhibition will primarily feature photographs taken in Sumida Ward, where nagaya is located. We hope it will be an opportunity to see the landscapes of Sumida Ward, as observed by Kanke, right here at nagaya within that very city, and to re-examine the streets we always walk from a slightly different perspective.\n\n[Related Events]\n1. OPENING TALK\nDate: September 19, 16:00-17:30\nFee: One drink order\n2. Kanke Bruno's \"Seeing the City from a Delivery Person's Perspective — YUBIN FIELD WALK\"\nDate: October 3, 14:00-15:00\nFee: 1500 yen + one drink order\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/e11e913d/%E3%83%A1%E3%82%A4%E3%83%B3%E7%94%BB%E5%83%8F%20-%20Yoshikatsu%20Fujii.jpg",
       "description": "2026年9月19日（土）より、nagaya paper labでは、写真家カンケ・ブルノによる写真展「YUBIN / 東京郵便配達の記録」を開催します。\nカンケさんが長年取り組んでいる「YUBIN」は、東京23区を歩きながら、郵便配達員の視点を手がかりに都市を見つめるプロジェクトです。街の中に点在する郵便受け、建物の入口、公道と私有地の境界。普段なら見過ごしてしまうような場所を、郵便配達員の目線を借りて眺めてみると、東京という街が少し違って見えてきます。「YUBIN」は写真だけでなく、ポストカードブック、ファインアートプリント、メールアートなど、「郵便」という仕組みそのものを作品の一部として展開してきました。nagaya paper labではこれまでも、カンケさんの出版物『YUBIN selection』を取り扱ってきました。本や印刷物を扱い、それらが人から人へ渡っていくことを大切にしているnagayaにとって、「郵便」を通して都市を見るこの作品を展示することには、とても自然なつながりがあります。\n今回の展示では、nagayaのある墨田区で撮影された写真を中心に紹介します。カンケさんが見つめた墨田区の風景を、実際にその街の中にあるnagayaで見る。いつも歩いている街を、少し違った視点から見直す機会になればと思います。\n\n[関連イベント]\n1. OPENING TALK\n日時: 9月19日 16:00～17:30\n料金: ワンドリンクオーダー\n2. カンケ・ブルノと巡る 「配達員の目線で街を見る — YUBIN FIELD WALK」\n日時: 10月3日 14:00～15:00\n料金: 1500円 + ワンドリンクオーダー\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -80699,8 +80964,15 @@
       "id": "b12db1bbebc9",
       "source": "tokyo_art_beat",
       "title": "中尾龍太 「Havana, As It Was」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "나카오 류타 「Havana, As It Was」"
+        },
+        "en": {
+          "title": "Ryuta Nakao 「Havana, As It Was」"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/17e87b12/%E5%B1%95%E7%A4%BA%E4%BD%9C%E5%93%81_800%20-%20%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC%E3%82%BD%E3%83%A9%E3%83%AA%E3%82%B9.jpg",
       "description": null,
       "medium": "mixed",
@@ -80799,8 +81071,17 @@
       "id": "e0034b5c4d9d",
       "source": "tokyo_art_beat",
       "title": "ハン・ヨンス 「Unfolding Time」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "한영수 「Unfolding Time」",
+          "description": "1933년 현재 북한 개성에서 부유한 가정의 장남으로 태어난 한영수는 한국 전쟁(1950-53)에서 젊은 장교로 한국군에 복무했으며, 전후 서울로 돌아온 후 한국 리얼리즘 사진의 선구적인 그룹인 신선회(Shinsunhoe)에 참여합니다. 이후 한영수는 전쟁의 흔적을 남기면서도 급속한 복구를 이루어가는 도시와 근대화의 물결 속에서 변모하는 사회, 그리고 그 속에서 살아가는 사람들을 독자적인 시점에서 계속 촬영했습니다.\n\n본 전시에서는 주로 한국 전쟁 직후인 1950년대부터 60년대에 걸쳐 촬영된 작품들을 소개합니다. 그곳에는 잔해가 남은 거리와 전통적인 한옥이 보이는 한편, 양장을 한 여성, 상점, 자동차, 광고, 다리, 새로운 건축물 등 급속히 모습을 바꾸어가는 도시의 여러 모습이 포착되어 있습니다. 하이힐을 신고 거리를 걷는 여성, 양복을 취급하는 상점, 잡지 가판대를 운영하는 젊은 부부, 놀이에 열중하는 아이들, 강변에서 각자의 시간을 보내는 사람들, 거리를 오가는 수많은 시민, 그리고 잇따라 건설되는 새로운 도시 공간. 한영수가 포착한 전후 서울은 단순히 '전쟁으로 파괴된 도시'로 제시되는 것만이 아닙니다. 오히려 그의 시선은 전후의 피해나 빈곤이라는 사회적 현실을 배경으로 하면서도, 그곳에만 국한되지 않는 사람들의 생명력과 자존심을 향하고 있습니다. 어떤 상황에서도 사람들은 다시 웃고, 자신의 몸가짐을 단정히 하며, 아름다워지려 합니다. 한영수의 사진에는 그러한 인간의 삶이 지닌 조용한 강인함과 사회가 다시 움직이기 시작하는 순간의 에너지가 새겨져 있습니다.\n\n또한, 사진에 담긴 의복이나 건축, 도시 공간, 그리고 아이들의 모습은 개별적인 생활 풍경을 넘어 사회의 변모를 보여주는 중요한 지표가 됩니다. 여성들의 양장은 근대화에 따른 젠더 규범이나 생활 양식의 변화를 시사하며, 새로 건설되는 건축물이나 도로는 도시 자체가 재편되어가는 과정을 이야기합니다. 한편, 아이들의 모습에는 전쟁을 경험한 세대에서 다음 세대로 시간이 이행해가는 감각이 새겨져 있습니다. 특히 한강에 모인 사람들의 모습에서는 전쟁으로 중단되었던 일상을 사람들이 조금씩 되찾아가는 과정을 볼 수 있습니다. 이러한 작품들에서 드러나는 1950년대 서울은 현재에서 보면 이미 사라진 과거입니다. 그러나 그곳에 살았던 사람들에게는 아직 아무것도 정해지지 않은 미래이기도 했습니다. 한영수의 사진은 그 '과거'와 '미래'가 교차하는 역사적인 시간을 포착하고 있습니다.\n\n한영수의 사진 표현의 특징은 사회나 도시의 현실을 기록하는 다큐멘터리로서의 성격과 패션 사진을 연상시키는 세련된 조형미가 공존한다는 점에 있습니다. 언뜻 보면 길거리에서 우연히 마주친 한 순간을 포착한 스냅샷처럼 보이는 작품이라 할지라도, 화면 내부에서는 인물, 건축, 도로, 빛, 그림자, 선 등의 요소들이 매우 정교하게 배치되어 있습니다. 오래된 건물이나 비탈길, 전선, 간판, 상품, 도로, 그리고 그곳을 오가는 사람들이 복잡하게 얽힌 도시의 현실을 한영수는 결정적인 순간에 포착하여 화면 내의 다양한 요소들을 긴밀한 구도 속에 통합합니다. 그곳에는 우연성을 받아들이면서도 빛과 공간, 인물과 건축, 정과 동의 관계를 예민하게 포착하고 화면 전체를 통제하는 고도의 구성력이 있습니다. 혼잡한 도시의 풍경은 그의 카메라를 통해 긴장감 있는 시각적 질서로 변환됩니다.\n\n더욱이 한영수의 사진에는 정지된 이미지 내부에 시간의 흐름을 느끼게 하는 작품들이 많이 보입니다. 화면 속 인물은 어디에서 와서 어디로 향하는가. 그곳에 찍힌 두 사람은 어떤 관계인가. 사진은 한 순간을 고정하면서도 그 전후에 존재하는 시간을 상상하게 합니다. 그런 의미에서 한영수의 작품은 단순한 기록 사진에 그치지 않고, 영화의 한 장면처럼 시간을 내포하며 보는 이의 상상력에 의해 시나 단편 소설과도 같은 이야기를 만들어내는 힘을 갖추고 있습니다. 일본에서 두 번째 한영수 개인전이 되는 본 전시에서 전시되는 작품들은 촬영된 지 70년 가까이 지난 현재에도 여전히 신선한 시각적 강도를 유지하며, 변화의 한가운데에 있었던 사람들의 모습을 통해 오늘을 살아가는 우리에게도 직접적으로 말을 걸어옵니다."
+        },
+        "en": {
+          "title": "Han Youngsoo 「Unfolding Time」",
+          "description": "Born in 1933 as the eldest son of a wealthy family in Kaesong, then part of North Korea, Han Youngsoo served as a young officer in the South Korean army during the Korean War (1950–53). After returning to Seoul post-war, he joined Shinsunhoe, a pioneering group in Korean realist photography. Thereafter, Han continued to photograph, from his unique perspective, the city undergoing rapid reconstruction while bearing the scars of war, the society transforming amidst the wave of modernization, and the people living within it.\n\nThis exhibition primarily introduces works photographed from the 1950s to the 1960s, immediately following the Korean War. They capture various aspects of a city rapidly changing its appearance: while streets with rubble and traditional hanok houses are visible, so too are Western-dressed women, shops, cars, advertisements, bridges, and new buildings. Women walking the streets in high heels, stores selling Western clothing, a young couple running a magazine stand, children engrossed in play, people spending their time as they please by the Han River, countless citizens moving through the city, and new urban spaces being constructed one after another. The post-war Seoul captured by Han is not merely presented as \"a city destroyed by war.\" Rather, his gaze, while acknowledging the social realities of post-war damage and poverty, is directed towards the vitality and self-esteem of the people, which cannot be reduced to those circumstances. Regardless of the situation, people laugh again, tidy themselves, and strive to be beautiful. Han's photographs capture the quiet strength inherent in such human endeavors and the energy of society as it begins to move again.\n\nFurthermore, the clothing, architecture, urban spaces, and children's figures depicted in the photographs transcend individual daily scenes, serving as important indicators of societal transformation. The Western attire of women suggests changes in gender norms and lifestyles accompanying modernization, while newly constructed buildings and roads narrate the process of the city itself being reorganized. Meanwhile, the figures of children embody the sense of time transitioning from the generation that experienced war to the next. Particularly in the images of people gathered by the Han River, one can observe the process by which people gradually reclaim the daily lives interrupted by war. The Seoul of the 1950s that emerges from these works is, from today's perspective, an already lost past. However, for the people who lived there, it was also a future yet to be defined. Han Youngsoo's photographs capture this historical time where \"past\" and \"future\" intersect.\n\nA characteristic feature of Han's photographic expression is the coexistence of a documentary nature, recording the realities of society and the city, with a sophisticated aesthetic beauty reminiscent of fashion photography. Even works that at first glance appear to be snapshots capturing a chance encounter on a street corner reveal an extremely precise arrangement of elements such as figures, architecture, roads, light, shadow, and lines within the frame. Han captures the complex urban reality—old buildings, sloping roads, power lines, signboards, merchandise, streets, and the people moving through them—at a decisive moment, integrating diverse elements within the frame into a tight composition. This demonstrates a high level of compositional skill that, while embracing serendipity, keenly perceives the relationships between light and space, figures and architecture, stillness and movement, and controls the entire frame. The cluttered urban landscape is transformed into a visually ordered scene with a sense of tension through his camera.\n\nFurthermore, many of Han's photographs convey a sense of time flowing within a static image. Where do the figures in the frame come from, and where are they going? What is the relationship between the two people depicted? While fixing a single moment, the photographs invite imagination about the time that exists before and after it. In this sense, Han's works are not merely documentary photographs; they encapsulate time like a scene from a film and possess the power to evoke narratives akin to poetry or short stories through the viewer's imagination. The collection of works exhibited in this exhibition, Han Youngsoo's second solo show in Japan, retains a fresh visual intensity even today, nearly 70 years after they were taken, and speaks directly to us living today through the figures of people who were in the midst of change."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/0afc1054/unnamed%20(1).jpg",
       "description": "1933年、現在の北朝鮮・開城に裕福な家庭の長男として生まれたハン・ヨンスは、朝鮮戦争（1950–53）では若い士官として韓国軍に従軍し、戦後ソウルに戻った後、韓国リアリズム写真の先駆的なグループである新線会（Shinsunhoe）に参加します。以後、ハンは、戦争の痕跡を残しながら急速な復興を遂げていく都市と、近代化の波のなかで変貌する社会、そしてその只中を生きる人々を、独自の視点から撮影し続けました。\n\n本展では、主に朝鮮戦争直後の1950年代から60年代にかけて撮影された作品を紹介します。そこには、瓦礫の残る街路や伝統的な韓屋が見られる一方で、洋装の女性、商店、車、広告、橋、新たな建築物など、急速に姿を変えつつある都市の諸相が捉えられています。ハイヒールを履いて街を歩く女性、洋服を扱う店舗、マガジンスタンドを営む若い夫婦、遊びに興じる子供たち、川辺で思い思いの時間を過ごす人々、街を行き交う無数の市民、そして次々と建設される新しい都市空間。ハンが捉えた戦後のソウルは、単に「戦争によって破壊された都市」として提示されるだけのものではありません。むしろ彼の視線は、戦後の被害や貧困という社会的現実を背景に持ちながらも、そこに還元されることのない、人々の生命力や自尊心に向けられています。どのような状況にあっても、人は再び笑い、自らの身なりを整え、美しくあろうとする。ハンの写真には、そうした人間の営みがもつ静かな強さと、社会が再び動き始める瞬間のエネルギーが刻まれています。\n\nまた、写真に写し出された服装や建築、都市空間、そして子供たちの姿は、個々の生活風景を超えて、社会の変容を示す重要な指標となっています。女性たちの洋装は、近代化に伴うジェンダー規範や生活様式の変化を示唆し、新たに建設される建築物や道路は、都市そのものが再編されていく過程を物語ります。一方、子供たちの姿には、戦争を経験した世代から次の世代へと時間が移行していく感覚が刻まれています。とりわけ漢江に集う人々の姿には、戦争によって中断された日常を、人々が少しずつ取り戻していく過程を見ることができます。こうした作品から浮かび上がる1950年代のソウルは、現在から見ればすでに失われた過去です。しかし、そこに生きた人々にとって、それはまだ何ものにも定められていない未来でもありました。ハン・ヨンスの写真は、その「過去」と「未来」が交差する歴史的な時間を捉えています。\n\nハンの写真表現の特徴は、社会や都市の現実を記録するドキュメンタリーとしての性格と、ファッション写真を想起させる洗練された造形美が共存している点にあります。一見すると、街角で偶然遭遇した一瞬を捉えたスナップショットのように見える作品であっても、画面内部では人物、建築、道路、光、影、線などの要素が極めて精緻に配置されています。古い建物や坂道、電線、看板、商品、道路、そしてそこを行き交う人々が複雑に入り組む都市の現実を、ハンは決定的な瞬間に切り取り、画面内の多様な要素を緊密な構図のなかに統合します。そこには、偶然性を受け入れながらも、光と空間、人物と建築、静と動の関係を鋭敏に捉え、画面全体を統御する高度な構成力があります。雑然とした都市の風景は、彼のカメラを通すことで緊張感のある視覚的秩序へと変換されるのです。\n\nさらに、ハンの写真には、静止したイメージの内部に時間の流れを感じさせる作品が数多く見られます。画面の人物はどこから来て、どこへ向かうのか。そこに写る二人はどのような関係にあるのか。写真は一瞬を固定しながら、その前後に存在する時間を想像させます。その意味で、ハンの作品は単なる記録写真にとどまらず、映画の一場面のように時間を内包し、見る者の想像力によって詩や短編小説にも似た物語を立ち上げる力を備えています。日本における二度目のハン・ヨンス個展となる本展で展示される作品群は、撮影から70年近くを経た現在においてもなお新鮮な視覚的強度を保ち、変化のただ中にあった人々の姿を通して、今日を生きる私たちにも直接的に語りかけます。",
       "medium": "photo",
@@ -84411,8 +84692,15 @@
       "venue": {
         "id": "944e390ef289",
         "name": "名古屋造形大学ギャラリー",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "나고야 조케이 대학 갤러리"
+          },
+          "en": {
+            "name": "Nagoya Zokei University Gallery"
+          }
+        },
         "region": "愛知県",
         "district": null,
         "lat": 35.19045695911794,
@@ -84510,8 +84798,15 @@
       "venue": {
         "id": "212a5c18fcd0",
         "name": "BUKATSUDO GALLERY",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "BUKATSUDO GALLERY"
+          },
+          "ja": {
+            "name": "BUKATSUDO GALLERY"
+          }
+        },
         "region": "神奈川県",
         "district": null,
         "lat": 35.45489144964111,
@@ -94488,8 +94783,15 @@
     {
       "id": "944e390ef289",
       "name": "名古屋造形大学ギャラリー",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "나고야 조케이 대학 갤러리"
+        },
+        "en": {
+          "name": "Nagoya Zokei University Gallery"
+        }
+      },
       "venue_type": "other",
       "region": "愛知県",
       "district": null,
@@ -94502,8 +94804,15 @@
     {
       "id": "212a5c18fcd0",
       "name": "BUKATSUDO GALLERY",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "BUKATSUDO GALLERY"
+        },
+        "ja": {
+          "name": "BUKATSUDO GALLERY"
+        }
+      },
       "venue_type": "gallery",
       "region": "神奈川県",
       "district": null,
