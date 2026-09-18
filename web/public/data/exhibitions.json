@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T17:09:34.413921+00:00",
+  "generated_at": "2026-09-18T20:51:43.986225+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -43067,7 +43067,7 @@
       "price_max": null,
       "start_date": "2026-07-01",
       "end_date": "2026-09-17",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "3f88230e73b4",
@@ -66492,7 +66492,7 @@
       "price_max": null,
       "start_date": "2026-09-18",
       "end_date": "2026-11-29",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "11d9da4f76f5",
@@ -68071,7 +68071,7 @@
           "description": "消えゆくものを見る技術\nThe Art of Seeing Obscurity\nキム・ジヒョン、イ・ジンシル、チェ・スジョン\n今年のダークルームの2番目の企画《消えゆくものを見る技術 The Art of Seeing Obscurity》は、ダットの公募で選定された作家キム・ジヒョン、イ・ジンシル、チェ・スジョンと共にします。3名の作家は、目の前の被写体を鮮明に再現することを目的にしていません。キム・ジヒョン作家が記録しているのは、不在に近い風景です。作家は、ある場面と次の場面の間で消滅したリズムと偶発的な波長の瞬間を捉えます。イ・ジンシル作家は、失われた時間の層を風景の中に重ね合わせます。作家の想像の中で再構成された、透明で薄い膜に覆われた風景は、慣れ親しんだようでいて見慣れない感覚を呼び起こします。チェ・スジョン作家は、過去の記憶の中に残された影や酸化した灰のような痕跡を写真に収めます。傷を癒し、再び始める過程の中で残されたイメージは、見る人の心に深い響きを与える一篇の詩のようです。ダークルームは、消えゆくすべての瞬間への美しい哀悼の時間に皆様を招待します。\n① ブックバインディングワークショップ 〈自分だけのノート作り〉\n· 日時: 10月15日(木) 16:00\n② FNL#37 ラウンドテーブル\n· 日時: 10月16日(金) 19:30\n*出典および提供: ダットプレス ダークルーム"
         }
       },
-      "poster_image_url": "https://art-map.co.kr/art-map/public//upload/2026/08/exhibition/1e9974b5543088689b27948b62e4ac97_file20260807T232150.808.jpg",
+      "poster_image_url": "https://media.art-map.co.kr/art-map/public/upload/2026/08/exhibition/1e9974b5543088689b27948b62e4ac97_file20260807T232150.808.jpg",
       "description": "사라짐을 보는 기술\nThe Art of Seeing Obscurity\n김지현, 이진실, 최수정\n올해 다크룸의 두번째 기획 《사라짐을 보는 기술 The Art of Seeing Obscurity》는 닻의 공모로 선정된 작가 김지현, 이진실, 최수정과 함께합니다. 세 명의 작가는 눈앞의 피사체를 선명하게 재현하는 데 목적을 두지 않습니다. 김지현 작가가 기록하고 있는 것은 부재에 가까운 풍경입니다. 작가는 한 장면과 다음 장면 사이에서 소멸한 리듬과 우연한 파장의 순간을 포착합니다. 이진실 작가는 사라진 시간의 층위를 풍경 속에 중첩시킵니다. 작가의 상상 속에서 재구성된, 투명하고 얇은 막에 가려진 풍경들은 익숙하고도 낯선 감각을 불러일으킵니다. 최수정 작가는 과거의 기억 속에 남겨진 그림자와 산화된 재와 같은 흔적들을 사진에 담아냅니다. 상처를 보듬고 다시 시작하는 과정 속에서 남겨진 이미지는 보는 이의 마음에 깊은 울림을 주는 한 편의 시와 같습니다. 다크룸은 사라지는 모든 순간을 향한 아름다운 애도의 시간으로 여러분을 초대합니다.\n① 북바인딩 워크샵 〈나만의 노트 만들기〉\n· 일시: 10월 15일(목) 16:00\n② FNL#37 라운드 테이블\n· 일시: 10월 16일(금) 19:30\n*출처 및 제공 : 닻프레스 다크룸",
       "medium": "photo",
       "exhibition_type": "solo",
@@ -69660,7 +69660,7 @@
       "price_max": null,
       "start_date": "2026-09-18",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5008fe29f522",
@@ -72868,7 +72868,7 @@
       "price_max": null,
       "start_date": "2026-09-04",
       "end_date": "2026-09-17",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "fa66fa67ffb6",
@@ -75780,7 +75780,7 @@
       "price_max": null,
       "start_date": "2026-09-18",
       "end_date": "2026-11-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8660ef4ca212",
@@ -75954,7 +75954,7 @@
       "price_max": null,
       "start_date": "2026-09-04",
       "end_date": "2026-09-17",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "c59f775c1b0f",
@@ -78770,7 +78770,7 @@
       "price_max": null,
       "start_date": "2026-09-18",
       "end_date": "2026-09-30",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "23129cff8bfd",
@@ -78826,7 +78826,7 @@
       "price_max": null,
       "start_date": "2026-09-18",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "083bc0b12de9",
@@ -79062,7 +79062,21 @@
         "lat": 35.6620146,
         "lng": 139.7312925
       },
-      "artists": [],
+      "artists": [
+        {
+          "id": "441e5f93d66c",
+          "name": "Tokyo Rumando＋",
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "Tokyo Rumando＋"
+            },
+            "ja": {
+              "name": "Tokyo Rumando＋"
+            }
+          }
+        }
+      ],
       "source_url": "https://zen-foto.jp/jp/exhibition/the-body-lurking-within-color",
       "featured": false,
       "popularity_score": null
@@ -80243,7 +80257,7 @@
       "price_max": null,
       "start_date": "2026-09-18",
       "end_date": "2026-10-24",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5c1b17e07888",
@@ -80297,7 +80311,7 @@
       "price_max": null,
       "start_date": "2026-09-18",
       "end_date": "2026-10-01",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "fa66fa67ffb6",
@@ -81459,7 +81473,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-09-17",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -81499,7 +81513,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-09-17",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -83214,7 +83228,7 @@
       "price_max": null,
       "start_date": "2026-09-18",
       "end_date": "2026-11-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "0a436c7490b5",
@@ -84466,7 +84480,7 @@
       "lang": null,
       "tr": {},
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/afc68a46/PAIDIAP%20-%20%E5%8D%83%E4%BB%A3%E6%B3%B0%E7%9D%A6.jpg",
-      "description": "この度、gallery光婉-koen-にて9/20-9/26の間、 j 志村孝太郎、千代泰睦、矢野央祐、jvnpey、normal Bean、zentaroによるgroup exhibition \"PAIDIAP\"を開催。今回の展示タイトル\"PAIDIAP\"は、ギリシア語paideíā（paideia（教育）におけるpaidia（遊び））から来ており、オランダの歴史家、ヨハン・ホイジンガの提唱した「ホモ・ルーデンス」における遊び（ludus）がその形相を表す前の概念、根源であるpaidiaを探る試みである。\n\n古来から儀式や祭りなどの行為は、あらゆる場で営まれ、時間、空間的制限を与えながらコミュニティを形作った。それらは集団において人々に役割を与え、ひとは与えられたその役割を演じた。儀式と遊戯の類似点は指摘すれば際限なく挙げられるが、これらの儀式における役割や規則などが、現代において我々の社会全体へと変貌を遂げ、また、それら社会を少しずつ形作る個人のアイデンティティやナショナリズムなどの諸概念を生み、企業、インフラなどの装置と化し現代では欠かすことのできないものにまで成長を遂げた。元来、人間が持つプリミティブな感覚が形作った社会は、もはや遊びとはかけ離れた物に変化している。今展覧会では、目まぐるしく変わる社会の中で、primitiveな感覚を共有しつつそれぞれの方法でアウトプットを重ねるartistの作品を是非ご覧下さい。",
+      "description": "この度、gallery光婉-koen-にて9/20-9/26の間、 志村考太郎、千代泰睦、矢野央祐、jvnpey、normal Bean、zentaroによるgroup exhibition \"PAIDIAP\"を開催。今回の展示タイトル\"PAIDIAP\"は、ギリシア語paideíā（paideia（教育）におけるpaidia（遊び））から来ており、オランダの歴史家、ヨハン・ホイジンガの提唱した「ホモ・ルーデンス」における遊び（ludus）がその形相を表す前の概念、根源であるpaidiaを探る試みである。\n\n古来から儀式や祭りなどの行為は、あらゆる場で営まれ、時間、空間的制限を与えながらコミュニティを形作った。それらは集団において人々に役割を与え、ひとは与えられたその役割を演じた。儀式と遊戯の類似点は指摘すれば際限なく挙げられるが、これらの儀式における役割や規則などが、現代において我々の社会全体へと変貌を遂げ、また、それら社会を少しずつ形作る個人のアイデンティティやナショナリズムなどの諸概念を生み、企業、インフラなどの装置と化し現代では欠かすことのできないものにまで成長を遂げた。元来、人間が持つプリミティブな感覚が形作った社会は、もはや遊びとはかけ離れた物に変化している。今展覧会では、目まぐるしく変わる社会の中で、primitiveな感覚を共有しつつそれぞれの方法でアウトプットを重ねるartistの作品を是非ご覧下さい。",
       "medium": "mixed",
       "exhibition_type": "group",
       "genre_tags": [],
@@ -84496,8 +84510,8 @@
       },
       "artists": [
         {
-          "id": "63738d4aff0c",
-          "name": "志村孝太郎",
+          "id": "ce552e0054fe",
+          "name": "志村考太郎",
           "lang": null,
           "tr": {}
         },
@@ -84605,7 +84619,7 @@
       "price_max": null,
       "start_date": "2026-09-18",
       "end_date": "2026-10-02",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "7eceec581cde",
@@ -85247,6 +85261,319 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Michael-Kenna-Beautiful-Fukushima/95360-DA8/2026-10-24",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "575d1346e2f9",
+      "source": "tokyo_art_beat",
+      "title": "「熊谷守一展 －墨画淡彩を中心に－」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/ea9454ca/mori.omote.jpg",
+      "description": "花や虫、猫などの身近な生き物を描き、対象を単純化した独自の作品が広く親しまれている、岐阜県恵那郡付知村(現中津川市)出身の画家・熊谷守一。その画業においては多数の日本画も手掛けており、独自の様式が生まれた背景の一つには、墨や紙を用いた日本画の制作が影響したことが考えられています。\n本展は柳ケ瀬画廊(岐阜市)の協力のもと、墨画淡彩による日本画を中心に、版画作品や油彩画、写真など多彩な作品を展示します。あらゆるいのちを静かに見つめ描き続けた、熊谷の確かなまなざしを感じる契機となれば幸いです。\n\n[関連イベント]\n1. 映画「モリのいる場所」と企画展鑑賞\n日時: 10月10日 14:00～\n場所: 羽島市歴史民俗資料館・映画資料館 / 不二竹鼻町屋ギャラリー展示室\n料金: 無料（当日有効の共通入館券〈一般500円〉が必要）\n2. トークイベント「熊谷守一の不思議 二つを一つに 例えば日本画と洋画、生と死とか・・・」\n日時: 10月24日 13:30～\n場所: 不二竹鼻町屋ギャラリー2階研修室\n料金: 無料（当日有効の入館券が必要）\n3. 制作ワークショップ「うごくモリカズ猫をつくろう」\n日時: 11月1日 13:30～\n講師: 足立絵美氏（日本画家、創画会会友）\n場所: 不二竹鼻町屋ギャラリー2階研修室\n料金: 500円（別途当日有効の入館券が必要）\n4. 学芸員による展覧会ガイド\n日時: 10月28日・11月14日 13:30～\n場所: 不二竹鼻町屋ギャラリー1階展示室\n料金: 無料（当日有効の入館券が必要）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-03",
+      "end_date": "2026-11-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "9ca1d76cb446",
+        "name": "不二竹鼻町屋ギャラリー",
+        "lang": null,
+        "tr": {},
+        "region": "岐阜県",
+        "district": null,
+        "lat": 35.32334666276851,
+        "lng": 136.70175836093483
+      },
+      "artists": [
+        {
+          "id": "a672b90ee3f8",
+          "name": "熊谷守一",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Morikazu-Kumagai-Exhibition/fuji-takehana-machiya-gallery/2026-10-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "6fbfac5d523e",
+      "source": "tokyo_art_beat",
+      "title": "矢嶋裕美子 「『明日のメランコリー』- ジャネーの法則 -」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/4ea05dde/%E6%98%8E%E6%97%A5%E3%81%AE%E3%83%A1%E3%83%A9%E3%83%B3%E3%82%B3%E3%83%AA%E3%83%BC%20-%20yumichin365.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-06",
+      "end_date": "2026-10-18",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "eefd71b39805",
+        "name": "ありかホール",
+        "lang": null,
+        "tr": {},
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.70656128800646,
+        "lng": 139.68454291534425
+      },
+      "artists": [
+        {
+          "id": "37f861b14d46",
+          "name": "矢嶋裕美子",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yumiko-Yajima-Exhibition/arika-hole/2026-10-06",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "8a8fdbc079ff",
+      "source": "tokyo_art_beat",
+      "title": "アントニー・ケアンズ + ピータン 「STUDIO＋ 拡張する現代写真 #2」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/0e562401/MEP-Antony-Cairns_5912_Tadzio_web.jpg",
+      "description": "写真は、見えるものを写す装置ではない。世界を書き換える「変換」の装置である。3次元の世界は2次元の平面に、フィジカルな世界はデータ＝情報に置き換えられ、イメージは大きさを持たない。この変換は複写ではなく、介入である。見えないものを見えるようにし、動かせないはずのものを到来させる。本展の2人は、この力を別々の方向へ突き詰める。\nアントニー・ケアンズは、知覚の側へ向かう。1980年代のトイ・ビデオカメラで夜の都市を撮り、粗いピクセルの向こうに、都市が時間の積層に沈めてきた骨格を浮かび上がらせる。見えやすいものだけが肥大する社会から、見えなくされた現実を取り出す。\nピータンは、物質の側へ向かう。「石を動かすと世界のバランスが崩れる」という禁忌を、物質と情報の等価交換ですり抜け、世界の秩序を保ったまま石を会場に到来させる。ここでは見える/見えないは問題ではない。変換が現実を動かしてしまうことの証明である。見えなくされたものを取り出すケアンズ「と」、動かせないものを到来させるピータン。京橋の街を100年建ててきたこのビルで、2つの変換は出会う。作品の前に立つあなたも、すでにその変換のなかにいる。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5e31793a054c",
+        "name": "TODA BUILDING",
+        "lang": null,
+        "tr": {},
+        "region": "京橋、日本橋",
+        "district": null,
+        "lat": 35.6783,
+        "lng": 139.7716
+      },
+      "artists": [
+        {
+          "id": "8970e86320b8",
+          "name": "アントニー・ケアンズ",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "Antony Cairns"
+            },
+            "en": {
+              "name": "Antony Cairns"
+            }
+          }
+        },
+        {
+          "id": "0bdca9d6c183",
+          "name": "ピータン",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Antony-Cairns-Pidan-Exhibition/toda-building/2026-10-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "3735a9bfa8d0",
+      "source": "tokyo_art_beat",
+      "title": "間庭裕基 「かつて、ルーゲンバルク通りで」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/f968685c/b0165526_06041284.jpg",
+      "description": "東京を拠点に活動する間庭裕基は、主として写真や映像メディアを用いた表現に取り組むアーティストです。イメージが生成・受容される過程で周辺化される物事やその痕跡を手掛かりに、場所に堆積した時間を捉える試みを行っています。\n\nこのたびの京都での展覧会では、2023年、TOKASにおけるレジデンスの際に行った、私的空間と公共空間の「あわい」を模索するプロジェクト「Altanative Loggia（オルタナティブ・ロッジア）」を踏まえ、自らが「公」（自分を取り巻くもの）に触れた、あるいは触れられた時に感じる、敷居をまたぐような経験を重ねながら、作品とインスタレーションを制作します。また会期末には、中本憲利（インディペンデントキュレーター・批評家）をゲストに、アーティスト・トークを開催いたします。\n\n[関連イベント]\nアーティストトーク\n日時: 2026年10月24日18:00〜20:00\n登壇者: 中本憲利（インディペンデントキュレーター、批評家）、間庭裕基\n会場: 現代美術製作所\n料金: 無料（事前申込み不要、定員15名）\n※イベント詳細は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-25",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "ef5b4b3f1515",
+        "name": "現代美術製作所",
+        "lang": null,
+        "tr": {},
+        "region": "京都府",
+        "district": null,
+        "lat": 35.03321846971629,
+        "lng": 135.75457058341505
+      },
+      "artists": [
+        {
+          "id": "e6f05803d57e",
+          "name": "間庭裕基",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yuki-Maniwa-Exhibition/17-C8-DE57/2026-10-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "8e8a27adf7b2",
+      "source": "tokyo_art_beat",
+      "title": "つげ忠男 + 中里和人 「マレビト・ゴッホ 日本サイハテ紀行」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/e6601071/tuge_nakazato1.jpg",
+      "description": "1968年デビュー以来､劇画表現に新たな地平を切り拓き､海外でも高い評価を得る劇画家・つげ忠男と､風景の裏側に潜むマージナルな領域を凝視しつづける写真家・中里和人による画と写真の異色コラボレーション｡\n本企画展では、現実と夢幻の間を彷徨いつづけた魂の画家・ゴッホの視座を借りて、日常の裏側にかくれた不可視の「サイハテ」風景を浮かびあがらせる。また、本展舞台となるかつての北千住など、東京下町界隈の風景・営みを活写した最新作も併せて展示する。\n\n[関連イベント]\nトークセッション「ゴッホの居る場所」\n日時: 10月11日 18:00～\n登壇者: つげ忠男×中里和人×高野慎三\n料金: 2000円（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-19",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "40b2a5b7ab82",
+        "name": "仲町の家",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "나카초노 이에"
+          },
+          "en": {
+            "name": "Nakacho no Ie"
+          }
+        },
+        "region": "東京：その他",
+        "district": null,
+        "lat": 35.74417319515003,
+        "lng": 139.80168775463105
+      },
+      "artists": [
+        {
+          "id": "4ee0d0b6215a",
+          "name": "つげ忠男",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b08d71280933",
+          "name": "中里和人",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Tadao-Tsuge-Katsuhito-Nakazato-Exhibition/nakacho-house/2026-10-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "bcf31c3c9b36",
+      "source": "tokyo_art_beat",
+      "title": "児玉房子 「1966-1981 東京、大阪そして東北で」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/3529ee37/L418PR-01R.jpg",
+      "description": "JCIIフォトサロンでは、来る2026年9月29日（火）～11月1日（日）まで、児玉房子作品展「1966-1981 東京、大阪そして東北で」を開催します。桑沢デザイン研究所で写真家の石元泰博や大辻清司らから写真を学んだ児玉房子氏は、『世界写真年鑑 ‘70』（平凡社）の“若い眼”選出を契機に、富士ゼロックス（現・富士フイルムビジネスイノベーション）が発行していたPR誌『グラフィケーション』の写真担当に抜擢され、同誌終刊（2018年）までスタッフカメラマンとして活躍しました。「グラフィック」と「コミュニケーション」からなる合成語を冠し、企業誌でありながら文化誌の側面もあった同誌で、独自の視点で社会を切り取った児玉氏は、雑誌や新聞の連載等で活躍の場を広げていき、1993年に日本写真協会年度賞を受賞する他、2025年にはフランスの出版社から写真集が発売されるなど、国内外で高い評価を受けています。本展では、長きにわたって街と人にカメラを向けてきた児玉房子氏が、1966年から1981年の間に、東京、大阪、東北などの各地をスナップした作品60点（すべてモノクロ）を展示します。\n\n万博を控えた大阪、学生運動やヒッピー文化など若者たちのエネルギーが溢れる東京、地方ならではの空気が漂う東北など、児玉氏が撮影したのは、日本が高度経済成長を遂げてバブル経済へ突入していく直前の、社会が急速に変貌していく時代です。氏は「人人がこういう時代をどう生きていくかを見定めたいと思うし、それを撮り続けたい」という思いで各地を巡りました。野球のオブジェをじっと見つめる少女、カメラに微笑みかける若い男女、長閑な田舎道を歩く母と子の姿など、日々の何気ない瞬間を写しとめた写真群は、人々の暮らしや時代の息づかいを鮮やかに伝えています。社会への関心と被写体への共感のまなざしは、同じ時代を生きる同伴者としてカメラを向ける児玉氏ならではのものでしょう。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-29",
+      "end_date": "2026-11-01",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "cf1528c9ba68",
+        "name": "JCIIフォトサロン",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "JCII 포토살롱"
+          },
+          "en": {
+            "name": "JCII Photo Salon"
+          }
+        },
+        "region": "竹橋、水道橋、末広町",
+        "district": null,
+        "lat": 35.68608910721222,
+        "lng": 139.7425536441803
+      },
+      "artists": [
+        {
+          "id": "43192bef44eb",
+          "name": "児玉房子",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Fusako-Kodama-1966-1981-Tokyo-Osaka-and-Tohoku/jcii-photo-salon/2026-09-29",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "be6837b569eb",
+      "source": "tokyo_art_beat",
+      "title": "Pascal Greco 「PHOTOGRAPHING THE VIRTUAL IN THE AGE OF ANIMA LUDENS」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/4639af7a/Codex-%E7%94%BB%E5%83%8F-2026%E5%B9%B49%E6%9C%8810%E6%97%A5-22_53_35.png",
+      "description": "遊び／ゲームを軸にした分野横断クリエイター支援プロジェクト〈ars●bit（アーソビット）〉は、2026年秋、東京・渋谷とフランス・アルルをつなぐ二つの展覧会を開催します。東京・渋谷の404 Not Foundでは、9月25日から10月4日まで、スイスを拠点に活動する写真家Pascal Grecoの写真・映像展「PHOTOGRAPHING THE VIRTUAL IN THE AGE OF ANIMA LUDENS」を開催。会期初日と終盤には、ゲーム、映像、写真、現代アートの実践者を迎えたトークイベントを行います。続いて10月10日から11月8日まで、フランス・アルルの芸術祭「Festival Octobre Numérique 2026」のメインプログラムとして、グループ展「Anima Ludens（アニマ・ルーデンス）」を開催します。世界的なバイラルヒットとなったKOTAKE CREATE『8番出口』や草野絵美《Ornament Survival》、ヤノベケンジ〈SHIP’S CAT〉のゲーム化作品など、日本のインディーゲーム、現代美術、工芸、そしてそれらの融合から生まれた分野横断的な作品群が、17世紀に再建された歴史ある礼拝堂に一堂に集結します。\n\n会場：404 Not Found\n\n[関連イベント]\n1. トークイベント①\n日時: 2026年9月25日18:00〜20:00\n登壇者: Pascal Greco（写真家）、薄羽涼彌（映像作家、ゲーム開発者）、HSP（クリエイティブディレクター、DJ、アーティスト）、ma 間マ摩（アーティスト）、戸村陽（建築家／デジタルデザイナー）、中川大地、J-mon\n2. トークイベント②\n日時: 2026年10月2日18:30〜20:00\n登壇者: Pascal Greco（写真家）、小林健太（写真家）、後藤繁雄（編集者・クリエイティブディレクター・アートプロデューサー）、J-mon\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-25",
+      "end_date": "2026-10-04",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "7acc7006de39",
+        "name": "渋谷サクラステージ",
+        "lang": null,
+        "tr": {},
+        "region": "渋谷",
+        "district": null,
+        "lat": 35.65720252465471,
+        "lng": 139.7016168328098
+      },
+      "artists": [
+        {
+          "id": "d714822d95c8",
+          "name": "Pascal Greco",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Pascal-Greco-Photographing-The-Virtual-In-The-Age-of-Anima-Ludens/shibuya-sakura-stage/2026-09-25",
       "featured": false,
       "popularity_score": null
     }
@@ -95337,6 +95664,76 @@
       "country": "JP",
       "lat": 35.66679278605789,
       "lng": 139.7273010192391,
+      "website": null
+    },
+    {
+      "id": "9ca1d76cb446",
+      "name": "不二竹鼻町屋ギャラリー",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "岐阜県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.32334666276851,
+      "lng": 136.70175836093483,
+      "website": null
+    },
+    {
+      "id": "eefd71b39805",
+      "name": "ありかホール",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "武蔵野、多摩",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.70656128800646,
+      "lng": 139.68454291534425,
+      "website": null
+    },
+    {
+      "id": "5e31793a054c",
+      "name": "TODA BUILDING",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "京橋、日本橋",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.6783,
+      "lng": 139.7716,
+      "website": null
+    },
+    {
+      "id": "ef5b4b3f1515",
+      "name": "現代美術製作所",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "京都府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.03321846971629,
+      "lng": 135.75457058341505,
+      "website": null
+    },
+    {
+      "id": "7acc7006de39",
+      "name": "渋谷サクラステージ",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "渋谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.65720252465471,
+      "lng": 139.7016168328098,
       "website": null
     }
   ],
@@ -116074,12 +116471,6 @@
       "tr": {}
     },
     {
-      "id": "63738d4aff0c",
-      "name": "志村孝太郎",
-      "lang": null,
-      "tr": {}
-    },
-    {
       "id": "aa53e0d48804",
       "name": "千代泰睦",
       "lang": null,
@@ -116172,6 +116563,60 @@
     {
       "id": "3472f14e56e3",
       "name": "原田直宏",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a672b90ee3f8",
+      "name": "熊谷守一",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "37f861b14d46",
+      "name": "矢嶋裕美子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0bdca9d6c183",
+      "name": "ピータン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e6f05803d57e",
+      "name": "間庭裕基",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4ee0d0b6215a",
+      "name": "つげ忠男",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b08d71280933",
+      "name": "中里和人",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "43192bef44eb",
+      "name": "児玉房子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d714822d95c8",
+      "name": "Pascal Greco",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ce552e0054fe",
+      "name": "志村考太郎",
       "lang": null,
       "tr": {}
     }
