@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T05:30:14.299563+00:00",
+  "generated_at": "2026-09-18T12:03:32.635562+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -79023,10 +79023,14 @@
       "lang": "en",
       "tr": {
         "ko": {
-          "title": "색 속에 숨어 있는 몸"
+          "title": "색 속에 숨어 있는 몸",
+          "description": "젠 포토 갤러리는 2026년 10월 2일 (금)부터 2026년 10월 31일 (토)까지, 그리고 2026년 11월 24일 (화)부터 2026년 12월 19일 (토)까지 사진작가 Tokyo Rumando 개인전 「The Body Lurking Within Color」를 개최합니다...."
         },
         "ja": {
           "title": "色彩の中に潜む身体"
+        },
+        "en": {
+          "description": "Zen Photo Gallery will hold photographer Tokyo Rumando's solo exhibition 「The Body Lurking Within Color」 from Friday, October 2, 2026 to Saturday, October 31, 2026, and from Tuesday, November 24, 2026 to Saturday, December 19, 2026...."
         }
       },
       "poster_image_url": "https://d1jikcjf8oridj.cloudfront.net/i/3e/XcVW1VbE_ULOamB.jpeg",
@@ -81127,8 +81131,15 @@
       "id": "14d82b13d699",
       "source": "tokyo_art_beat",
       "title": "田村虎之亮 「眺める 見つめる 眼差す ベラルーシ」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "타무라 토라노스케 「바라보다, 응시하다, 주시하다 벨라루스」"
+        },
+        "en": {
+          "title": "Tamura Toranosuke 「Gazing, Staring, Eyeing Belarus」"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/d65936ef/unnamed%20(4).jpg",
       "description": null,
       "medium": "mixed",
@@ -81174,8 +81185,15 @@
       "id": "5068e91915de",
       "source": "tokyo_art_beat",
       "title": "Tomoko Rikimaru 「あいまの標本 - callbox archives -」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "Tomoko Rikimaru 「사이의 표본 - callbox archives -」"
+        },
+        "en": {
+          "title": "Tomoko Rikimaru 「Specimens of Intervals - callbox archives -」"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/ebcaca8d/S__78954500.jpg",
       "description": null,
       "medium": "mixed",
@@ -81221,8 +81239,15 @@
       "id": "d83f433f98cd",
       "source": "tokyo_art_beat",
       "title": "「Summer Group Show」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「여름 그룹전」"
+        },
+        "ja": {
+          "title": "「夏のグループ展」"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/62c4feaa/SGS--.jpg",
       "description": null,
       "medium": "mixed",
@@ -85192,8 +85217,15 @@
       "venue": {
         "id": "c6edd85e51f2",
         "name": "ギャラリー・アートアンリミテッド",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 아트 언리미티드"
+          },
+          "en": {
+            "name": "Gallery Art Unlimited"
+          }
+        },
         "region": "六本木、乃木坂",
         "district": null,
         "lat": 35.66679278605789,
@@ -95289,8 +95321,15 @@
     {
       "id": "c6edd85e51f2",
       "name": "ギャラリー・アートアンリミテッド",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "갤러리 아트 언리미티드"
+        },
+        "en": {
+          "name": "Gallery Art Unlimited"
+        }
+      },
       "venue_type": "other",
       "region": "六本木、乃木坂",
       "district": null,
