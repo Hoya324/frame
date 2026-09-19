@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T16:30:17.765607+00:00",
+  "generated_at": "2026-09-19T20:34:14.736980+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -57142,7 +57142,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-10-25",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "0ca0e7cbef4e",
@@ -72013,7 +72013,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-11-29",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "c864fabff6a3",
@@ -72266,7 +72266,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-12-06",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5a91c76e1136",
@@ -74134,7 +74134,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "d0718ada2e82",
@@ -76335,7 +76335,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-10-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "c937b8cda4cb",
@@ -77033,7 +77033,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-11-23",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "42a2bd5d21e2",
@@ -79017,22 +79017,11 @@
       "popularity_score": null
     },
     {
-      "id": "7acb39401ed7",
+      "id": "536248b2addd",
       "source": "zen_foto",
-      "title": "The Body Lurking Within Color",
-      "lang": "en",
-      "tr": {
-        "ko": {
-          "title": "색 속에 숨어 있는 몸",
-          "description": "젠 포토 갤러리는 2026년 10월 2일 (금)부터 2026년 10월 31일 (토)까지, 그리고 2026년 11월 24일 (화)부터 2026년 12월 19일 (토)까지 사진작가 Tokyo Rumando 개인전 「The Body Lurking Within Color」를 개최합니다...."
-        },
-        "ja": {
-          "title": "色彩の中に潜む身体"
-        },
-        "en": {
-          "description": "Zen Photo Gallery will hold photographer Tokyo Rumando's solo exhibition 「The Body Lurking Within Color」 from Friday, October 2, 2026 to Saturday, October 31, 2026, and from Tuesday, November 24, 2026 to Saturday, December 19, 2026...."
-        }
-      },
+      "title": "Tokyo Rumando 写真展「The Body Lurking Within Color」",
+      "lang": null,
+      "tr": {},
       "poster_image_url": "https://d1jikcjf8oridj.cloudfront.net/i/3e/XcVW1VbE_ULOamB.jpeg",
       "description": "禅フォトギャラリーは2026年10月2日（金）から2026年10月31日（土）、そして2026年11月24日（火）から2026年12月19日（土）まで、写真家・Tokyo Rumando個展「The Body Lurking Within Color」を開催いたします。...",
       "medium": "photo",
@@ -79225,7 +79214,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-12-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "0c336f85c4dc",
@@ -80000,7 +79989,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-09-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "d6c478588864",
@@ -80947,7 +80936,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-10-12",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8102261bc897",
@@ -81048,7 +81037,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-10-12",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ee5c613982c1",
@@ -81110,7 +81099,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-10-18",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "a6d8e77d5fe8",
@@ -81758,7 +81747,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-10-18",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "6b99ee7d383f",
@@ -81829,7 +81818,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-10-12",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "36ec166eb041",
@@ -81960,7 +81949,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-10-24",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "c5d12a7029aa",
@@ -82231,7 +82220,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-12-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "da9be60df40c",
@@ -82278,7 +82267,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "da49f70b4991",
@@ -83329,7 +83318,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-10-10",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "a16e9aad4c77",
@@ -83894,7 +83883,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-09-23",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "d535cb326023",
@@ -84919,7 +84908,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-09-23",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "56a2fcefe9d5",
@@ -84959,7 +84948,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "98e5839e227e",
@@ -85574,6 +85563,133 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Pascal-Greco-Photographing-The-Virtual-In-The-Age-of-Anima-Ludens/shibuya-sakura-stage/2026-09-25",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "160325e0711a",
+      "source": "tokyo_art_beat",
+      "title": "「MINIATURE LIFE展 田中達也 見立ての世界」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/27be430c/4218c904f397b0be48ba0e3785a7751b.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-21",
+      "end_date": "2026-11-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "eaf5b1f791bd",
+        "name": "南アルプス市立美術館",
+        "lang": null,
+        "tr": {},
+        "region": "山梨県",
+        "district": null,
+        "lat": 35.61693,
+        "lng": 138.4653
+      },
+      "artists": [
+        {
+          "id": "598ce84a3f31",
+          "name": "田中達也",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "다나카 타츠야"
+            },
+            "en": {
+              "name": "Tatsuya Tanaka"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Miniature-Life-Exhibition-Tatsuya-Tanaka-Mitate-World/minami-alps-city-museum-of-art/2026-09-21",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "94e67b7e104d",
+      "source": "tokyo_art_beat",
+      "title": "「養老孟司と小檜山賢二の虫展 ～みて、かんじて、そしてかんがえよう」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/a43476aa/mushi_ten_A4_page-0001.jpg",
+      "description": "解剖学者で、大の虫好きとしても知られる養老孟司。そして、対象物の全てにピントがあう深度合成技法を駆使し、昆虫写真の新たな可能性を切り拓いた小檜山賢二。長年の虫友だちであるふたりの展覧会です。深く考え抜かれた養老先生の言葉と、虫たちを数百倍に大きくした小檜山先生の写真を、大小さまざまなパネルや立体展示物、映像にしました。驚きと不思議に満ちた虫たちの「なんだ、これは？」の世界を、ぜひお楽しみください。",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-09",
+      "end_date": "2026-11-29",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "1fabcdfd3cf4",
+        "name": "岡山県立美術館",
+        "lang": null,
+        "tr": {},
+        "region": "岡山県",
+        "district": null,
+        "lat": 34.667927313972214,
+        "lng": 133.9301549225668
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Insects-An-Exhibition-by-Takeshi-Yoro-and-Kenji-Kohiyama-Look-Feel-and-Think/D45518-DF/2026-10-09",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "b82a8fecbadf",
+      "source": "tokyo_art_beat",
+      "title": "土田ヒロミ 「記憶と記録 －ヒロシマ・ベルリン・エルサレム・私－」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/7ec4cfa7/Leaflet_page-0001.jpg",
+      "description": "金津創作の森では、「森はあらゆる芸術の源である」という故・針生一郎初代館長の基本理念のもと、自然と人間の共生をアートで表現する作家を、アートドキュメントシリーズとして紹介してきました。30回目となる今回は、福井県（南越前町出身）の写真家・土田ヒロミを招聘し、故郷においての集大成となる展覧会を開催します。現代日本の構造を鋭く捉えた「ウロボロスのゆくえ」をはじめ、「ヒロシマ」、「ベルリン」、「エルサレム」のシリーズを中心に構成します。さらに、老いの変化を可視化した「Aging」や双子をテーマにしたシリーズを加え、作品を通して社会性と土田の身体（生）が交差し共鳴する、貴重な展観を創出します。また、双子の兄である七宝焼作家の土田善太郎の作品も紹介し、双子それぞれの異なる表現を通した芸術的対話もご覧いただけます。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-24",
+      "end_date": "2026-12-13",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "fdcfb213236e",
+        "name": "金津創作の森美術館",
+        "lang": null,
+        "tr": {},
+        "region": "福井県",
+        "district": null,
+        "lat": 36.23055,
+        "lng": 136.2613
+      },
+      "artists": [
+        {
+          "id": "3e58b68cc51f",
+          "name": "土田ヒロミ",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "츠치다 히로미"
+            },
+            "en": {
+              "name": "Hiromi Tsuchida"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hiromi-Tsuchida-RememberingDocumenting-Hiroshima-Berlin-Jerusalem-and-I/kanaz-forest-of-creation/2026-10-24",
       "featured": false,
       "popularity_score": null
     }
@@ -95734,6 +95850,48 @@
       "country": "JP",
       "lat": 35.65720252465471,
       "lng": 139.7016168328098,
+      "website": null
+    },
+    {
+      "id": "eaf5b1f791bd",
+      "name": "南アルプス市立美術館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "山梨県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.61693,
+      "lng": 138.4653,
+      "website": null
+    },
+    {
+      "id": "1fabcdfd3cf4",
+      "name": "岡山県立美術館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "岡山県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.667927313972214,
+      "lng": 133.9301549225668,
+      "website": null
+    },
+    {
+      "id": "fdcfb213236e",
+      "name": "金津創作の森美術館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "福井県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 36.23055,
+      "lng": 136.2613,
       "website": null
     }
   ],
