@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T17:52:49.373871+00:00",
+  "generated_at": "2026-09-23T21:33:58.790500+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -68200,7 +68200,7 @@
       "price_max": null,
       "start_date": "2026-08-19",
       "end_date": "2026-09-22",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "b3002506ba4c",
@@ -77221,7 +77221,7 @@
       "price_max": null,
       "start_date": "2026-09-10",
       "end_date": "2026-09-22",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "8265e63774ea",
@@ -81683,7 +81683,7 @@
       "price_max": null,
       "start_date": "2026-09-23",
       "end_date": "2026-10-04",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "9d43ad6fe782",
@@ -81730,7 +81730,7 @@
       "price_max": null,
       "start_date": "2026-09-23",
       "end_date": "2026-10-04",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "1db5e3321d12",
@@ -86112,6 +86112,71 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Hiromi-Tsuchida-RememberingDocumenting-Hiroshima-Berlin-Jerusalem-and-I/kanaz-forest-of-creation/2026-10-24",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f9f7c89ab137",
+      "source": "njp_art_center",
+      "title": "현대 트랜스로컬 시리즈: 하늘의 잔물결을 따라 - 달, 메아리, 모기, 그리고 밈",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://njp.ggcf.kr/storage/upload/2026/09/23/vgcFflescbXwFSSsAui2HknYwgdJosTCC4t09Asi.jpg",
+      "description": "제인 진 카이젠, <옛 달, 새 달 > (2026)\n\n백남준아트센터, 상파울루 피나코테카 미술관 공동 전시\n\n이 전시는 현대자동차가 진행하는 ‘현대 트랜스로컬 시리즈(Hyundai Translocal Series)’의 일환으로, 2024년부터 백남준아트센터와 상파울루 피나코테카 미술관이 이어온 초지역적 예술 협업의 결실이다. 참여 작가와 양 기관의 큐레이터는 서로의 도시를 방문하여 현지의 문화와 역사, 언어와 예술, 이민의 역사를 살펴보며 각 지역의 고유한 맥락을 이해하고, 사전 포럼을 통해 공동 큐레이토리얼의 연구를 심화했다. 이러한 과정에서 축적된 경험과 논의를 바탕으로 참여 작가들은 새로운 작품을 제작하여 선보이며, 서로 다른 지역과 문화적 맥락의 만남이 만들어내는 새로운 관계와 가능성을 통해 초지역성(translocality)을 재고한다.\n\n백남준아트센터가 위치한 용인과 피나코테카 미술관이 자리한 상파울루는 지구 반대편 있으며, 정확히 12시간의 시차를 두고 있다. 그러나 시공간적으로 멀리 떨어진 두 도시는 오늘날의 통신 기술을 통해 실시간으로 연결되어 서로를 마주할 수 있다. 백남준은 1984년부터 파리, 뉴욕, 서울, 도쿄 등 세계 여러 도시를 연결하는 세 차례의 위성 프로젝트를 통해 기술적 연결에 그치지 않고, 서로 다른 시간과 문화적 배경을 지닌 사람들이 만나 관계를 형성하고 새로운 가능성을 만들어가는 장을 열었다. 특히 각 지역의 고유성을 유지하면서 서로 연결되고 영향을 주고받는 ‘초지역적’ 관점에서, 그의 위성 프로젝트는 도시 간 새로운 관계를 모색한 초기의 초지역적 실천으로 볼 수 있다.\n\n이러한 백남준의 사유를 바탕으로, 이 전시는 서로 다른 도시를 기반으로 활동하는 네 명의 동시대 작가들의 만남을 주선하고, 지역과 문화의 차이가 교차하는 지점에서 새로운 관계와 상상력이 형성되는 과정을 탐색한다. 용인과 상파울루를 잇는 이 전시는 서로 다른 지역의 경험과 시각이 만나고 새로운 의미를 만들어가는 예술적 실천을 제안한다.\n\n현대자동차현대 트랜스로컬 시리즈는 국내외 예술 기관의 초지역적 협업 전시를 지원하는 현대자동차의 아트 파트너십입니다\n\n2026년 11월 5일 (목) 오후 4시, 백남준아트센터 1층 랜덤액세스홀\n\n2026.10.17.-2027.3.14. 갤러리아 프라사\n\n2026.11.28.-2027.4.18. 그랑지 갤러리아\n\n기획: 안나 마리아 마이아, 안나 파울라 로페즈\n\nhttps://pinacoteca.org.br\n\n/ 031-201-8546\n\n현대 트랜스로컬 시리즈: 하늘의 잔물결을 따라 - 달, 메아리, 모기, 그리고 밈",
+      "medium": "video",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-05",
+      "end_date": "2027-03-28",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "162d896d238b",
+        "name": "백남준아트센터",
+        "lang": "ko",
+        "tr": {
+          "en": {
+            "name": "Nam June Paik Art Center"
+          },
+          "ja": {
+            "name": "白南準アートセンター"
+          }
+        },
+        "region": "경기",
+        "district": null,
+        "lat": 37.2691466271795,
+        "lng": 127.110437937287
+      },
+      "artists": [
+        {
+          "id": "897c5ef7b07d",
+          "name": "김 크리스틴 선",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "515a3f098ced",
+          "name": "비아히츠",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "aad1a5bba89c",
+          "name": "제인 진 카이젠",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a8918275a9d0",
+          "name": "비비안 카쿠리",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://njp.ggcf.kr/exhibitions/247",
       "featured": false,
       "popularity_score": null
     }
@@ -117323,6 +117388,24 @@
     {
       "id": "ce552e0054fe",
       "name": "志村考太郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "515a3f098ced",
+      "name": "비아히츠",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "aad1a5bba89c",
+      "name": "제인 진 카이젠",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a8918275a9d0",
+      "name": "비비안 카쿠리",
       "lang": null,
       "tr": {}
     }
