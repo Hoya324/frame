@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:55:14.308818+00:00",
+  "generated_at": "2026-09-25T21:35:28.758238+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -70608,7 +70608,7 @@
       "price_max": null,
       "start_date": "2026-09-25",
       "end_date": "2026-11-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": "月－土 11:00－18:00 / 日・祝休館",
       "venue": {
         "id": "b9a5f994c6d3",
@@ -72226,7 +72226,7 @@
       "price_max": null,
       "start_date": "2026-09-04",
       "end_date": "2026-09-24",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "264da55cd4ca",
@@ -79511,7 +79511,7 @@
       "price_max": null,
       "start_date": "2026-09-25",
       "end_date": "2026-10-04",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "afe71f7d0299",
@@ -80533,7 +80533,7 @@
       "price_max": null,
       "start_date": "2026-09-25",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "6280e6d2993d",
@@ -81643,7 +81643,7 @@
       "price_max": null,
       "start_date": "2026-09-25",
       "end_date": "2026-10-15",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "264da55cd4ca",
@@ -82928,7 +82928,7 @@
       "price_max": null,
       "start_date": "2026-09-25",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "054215623e7c",
@@ -84103,7 +84103,7 @@
       "price_max": null,
       "start_date": "2026-09-25",
       "end_date": "2026-10-04",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "b4255c9d988c",
@@ -84150,7 +84150,7 @@
       "price_max": null,
       "start_date": "2026-09-25",
       "end_date": "2026-09-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "7a6765269871",
@@ -85957,7 +85957,7 @@
       "price_max": null,
       "start_date": "2026-09-25",
       "end_date": "2026-10-04",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "7acc7006de39",
@@ -87179,6 +87179,247 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Yasutaka-Kojima-Berlin-Tokyo/photo-gallery-and-photobooks-cafe-aquta/2026-10-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "2d0949ed5260",
+      "source": "tokyo_art_beat",
+      "title": "頭山ゆう紀 「flowing back」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/97a2e7fa/_Yuhki_Touyama%20-%20kanzan%20gallery%E4%B8%80%E8%88%AC%E8%B2%A1%E5%9B%A3%E6%B3%95%E4%BA%BA%E6%97%A5%E6%9C%AC%E5%86%99%E7%9C%9F%E3%82%A2%E3%83%BC%E3%83%88%E5%8D%94%E4%BC%9A.jpg",
+      "description": "kanzan galleryではこのたび、生と死について考える展覧会シリーズ、kanzan Curatorial Exchange「生死」 vol.1 として、頭山ゆう紀の個展「flowing back」を開催いたします。シリーズタイトルの「生死」はフランスの哲学者ジャック・デリダが1975-1976年度に高等師範学校（ENS）で行った講義に由来し、そこではニーチェ、ジャコブ、フロイトなどの読解を通じて、生の要素と死の要素が混じり合うことで可能になる生について述べられています。このテーマは一般的には「生と死」のように表記されますが、デリダはこの「と」を取り去ることによって、生と死の境界を、対立でも同一化でもない差異性の働きとして思考します。\n\n頭山ゆう紀はこれまで、友人の死に強い喪失感を覚えつつも、写真の中にはその人の存在や過ごした時間が残るということを意識した「境界線13」や、突然亡くなった母の死を受け入れないまま榛名湖畔でその不在と過ごす中で生まれた「In fog」、そして末期の癌と診断された祖母が亡くなるまでの介護の合間に撮られた風景写真と祖母の目線を想像しながら撮影された白黒写真で構成された「残された風景」のように、親しい人々の死への応答として制作を続けてきました。\n\n今回の作品「flowing back」は、モノクロームの『境界線13』（赤々舎 2008）や『さすらい』（abp 2008）以降、2009年から現在までの十数年の間に撮られた数多くのカラー写真の中から新たにセレクトされたもので構成されています。そこでは植物や水の写真に混じって、かつての「境界線13」には含めることができなかった母親の姿を認めることができます。\n\n通常の喪の作業においては、愛する人の死によって引き起こされた苦痛が時間が経つにつれ徐々に和らいでいきますが、それが完遂したとき、ある意味でもう一度その人を失うことになります。その忘却に抗うこと、そのためには喪の失敗を肯定する必要があります。そこでは喪の作業に終わりがなく、完了することは不可能になります。そうすることでようやく死者は他者として生者のうちに留まり、そこから終わりのない内的対話が開始されるのです。しかし、もし死者を自分自身の中に引き受け、同化し、また理想化しつつ内面化してしまったら、その人はもはや他者ではなくなってしまいます。それゆえに、他者の他者性を重視すればするほど、喪の作業は失敗に終わる必要があるのです。\n\n頭山は以前、ハン・ガンの『別れを告げない』（白水社 2024）に感銘を受けたと語りました。恐ろしくも美しい描写、読む側が想像を膨らませることのできる余白の大きさ、そしてそれを体験することの心地よさを味わう中で、彼女は写真でもそのようなことができないかと考えるようになりました。十数年の間に撮られた写真から構成された今回の作品には、一見してわかりやすいテーマやメッセージは見受けられません。しかし、その余白に自身の人生を重ね合わせることで、鑑賞者はさまざまな想像を膨らませることができます。「これまでは死と向きあって写真を撮っている感覚があったけれど、いまは生きることの方を考えている感じがします」と語る彼女にとって、こうして過去の写真を現在において再び見ることは、喪の作業の継続であるとともに、個人的だったものが外部に開かれていき、新しい発見に繋がるきっかけになるでしょう。\n\n[関連イベント]\nギャラリートーク\n日時: 10月3日（土）16:00〜17:00（予約不要・参加無料）\n登壇者: 頭山ゆう紀、小池浩央（当展キュレーター）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-03",
+      "end_date": "2026-11-08",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "f463daf15a4a",
+        "name": "Kanzan Gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Kanzan 갤러리"
+          },
+          "ja": {
+            "name": "Kanzan ギャラリー"
+          }
+        },
+        "region": "浅草橋、馬喰町",
+        "district": null,
+        "lat": 35.69350280330762,
+        "lng": 139.7802538527435
+      },
+      "artists": [
+        {
+          "id": "f4d66046981a",
+          "name": "頭山ゆう紀",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "두야마 유우키"
+            },
+            "en": {
+              "name": "Tooyama Yuuki"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yuhki-Touyama-Flowing-Back/8-A6-D24-E2/2026-10-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "9355bdcda4d1",
+      "source": "tokyo_art_beat",
+      "title": "ルーク・オザワ 「CHROME LEGACY」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/ac0a433c/Luke_ChromeLegacy_DM_4C%20-%20Photo%20Gallery%20Jam%20(2).jpg",
+      "description": "伝説となった航空機やエアライン、空港の風景。ルーク・オザワがフィルム時代に撮影した作品群を通して、かつて空を彩った時代の記憶をたどります。\n\n本展では、ポジフィルムをデジタル化し、ラムダプリントで再現。現在では見ることのできない機体や空港の姿が、鮮やかによみがえります。53年にわたり航空写真を撮り続け、今なお第一線で活躍する写真家だからこそ捉えることのできた、かけがえのない空の情景。受け継がれる空の記憶を、ぜひご覧ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-15",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "35890a070489",
+        "name": "Jam Photo Gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "잼 포토 갤러리"
+          },
+          "ja": {
+            "name": "ジャム フォト ギャラリー"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.633729809940476,
+        "lng": 139.71033352761268
+      },
+      "artists": [
+        {
+          "id": "4656fd781821",
+          "name": "ルーク・オザワ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Luke-HOzawa-Chrome-Legacy/jam-photo-gallery/2026-11-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "1dcd762c4d4a",
+      "source": "tokyo_art_beat",
+      "title": "津野青嵐 + 二藤建人 「ボディ、大丈夫です」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/af43e125/poster%20-%20894%E4%BD%90%E3%80%85%E6%9C%A8%E7%94%B1%E7%B4%80.png",
+      "description": "「大丈夫です」。やんわりとした拒否によって他人との摩擦を減らし、なめらかな関係性を維持する便利な言葉です。同時に、相手の領域へ踏み込むことも自らの内面を開示することも避ける、防波堤のような役割を果たすこともあります。近年のこうした言葉遣いに見られるように、わたしたちは身体性を伴った他者との関係を簡略化し、将来的に取り除こうとしてはいないでしょうか。さらに、AIの進化が示すように、わたしたちは自らの身体を取り囲む数多くの事柄との折り合いを外部に委ねようとしています。本展では、そうした方向に進む社会のなかで、自らの身体をつうじて他者との色濃い関係を構築しようと模索する2人の作家・津野青嵐と二藤建人を紹介します。\n\n津野青嵐はこれまで、衣服づくりや身体経験をめぐる実践、執筆など分野を横断しながら自身の身体との付き合い方を探求してきました。看護師でもある津野の表現は、ケアを介した他者の存在とともに、ケアする側とされる側の関係は一方向ではないことを描写しています。《Walking With》では、津野が巨大なドレスを背負いながら友人たちのサポートによってどうにか歩みを進める姿から、他者なくしては成立しない身体のあり方を明示します。二藤建人は彫刻制作を起点にしながら、多様なメディアを用いて表現を続けてきました。《誰かの重さを踏みしめる》のように、重さを受け止めて支え合い、自他の関係性を身体で感じ取ることを焦点化してきた二藤の関心は、自ずと実母や配偶者、実子へと及びます。近作では、子育てのさなかで生まれる戸惑い、親という役割によって変化していく「わたし」と家族の関係性を問うています。津野と二藤は、意識による身体制御のむずかしさや、環境による変化など、自らの身体の困難な側面を知るところから探求をはじめ、その先で、他者との関わり合いへの気づきを得ています。2人の表現は、他者を遠ざけるためではなく、「大丈夫」と自らの身体を肯定することで、他者と深く響き合うための確かな手がかりとなるでしょう。\n\n[関連イベント]\n1. ギャラリーツアー\n日時: 2026年11月3日14:00〜15:30\n2. ゲストトーク①\n日時: 2026年11月15日14:00〜16:00\n登壇者: 小林耕平、二藤建人\n3. ゲストトーク②\n日時: 2026年11月21日14:00〜16:00\n登壇者: 伊藤亜紗、津野青嵐\n4. てつがくカフェ「展覧会『ボディ、大丈夫です』から考える」\n日時: 2026年11月28日14:00〜16:30\n5. てつがくカフェ「展覧会『ボディ、大丈夫です』からもっと考える」\n日時: 2026年11月29日14:00〜16:30\n6. 見えない人と見える人の鑑賞会\n日時: 2026年12月4日10:00〜12:00、12月6日13:00〜15:00\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-03",
+      "end_date": "2027-01-11",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "d746cfa41b97",
+        "name": "せんだいメディアテーク",
+        "lang": null,
+        "tr": {},
+        "region": "宮城県",
+        "district": null,
+        "lat": 38.26553165507039,
+        "lng": 140.865572284468
+      },
+      "artists": [
+        {
+          "id": "780148113b54",
+          "name": "津野青嵐",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c2d781021111",
+          "name": "二藤建人",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Seiran-Tsuno-Kento-Nito-Body-Im-Fine/4-E8-C01-DD/2026-11-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "4cb803b133d0",
+      "source": "tokyo_art_beat",
+      "title": "清永安雄 「天花 — Heavenly Flowers —」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/7a52d966/%E2%91%A0tenge_kokuchi.png",
+      "description": "京都写真美術館では2026年10月1日（木）から12月27日（日）まで、清永安雄 作品展『天花 — Heavenly Flowers —』を開催いたします。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-01",
+      "end_date": "2026-12-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "54c1740b50d0",
+        "name": "京都写真美術館 ギャラリー・ジャパネスク",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "교토 사진 미술관 갤러리 재패네스크"
+          },
+          "en": {
+            "name": "Kyoto Museum of Photography Gallery Japanesque"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.009916818776944,
+        "lng": 135.78263679265976
+      },
+      "artists": [
+        {
+          "id": "c4a6e87accf1",
+          "name": "清永安雄",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "키요나가 야스오"
+            },
+            "en": {
+              "name": "Kiyonaga Yasuo"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yasuo-Kiyonaga-Heavenly-Flowers/kyoto-museum-of-photography-gallery-japanesque/2026-10-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "9996ee2435e2",
+      "source": "tokyo_art_beat",
+      "title": "「FaN Week 2026 コレクターズⅤ-ALL MY LOVING-」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/d7c23fe8/260901_collectors_poster_ol.webp",
+      "description": "ビジネスシーンの最前線で活躍しながら、アートにも深く関心を抱き、作品を収集するコレクターを紹介してきた「コレクターズ」展。5回目を迎える本展では、建築家の永山祐子氏と、実業家の原田栄二氏のコレクションから代表的な43点を展示します。\n\nそのアーティストの作品が好きだからコレクションし、手元に置く――コレクターとしてはごく当たり前の振る舞いではありますが、その結果できあがったコレクションは、美術館のコレクション展や企画展、そしてアートフェアの会場では決して目にすることができない、独自の作品の集合体となって私たちの前に現れます。本展ではテーマを「ALL MY LOVING（ありったけの愛）」としました。コレクターの私的な眼差し（愛情）を受け取るインティメイトな雰囲気の作品群、という形容は、両者のコレクションに当てはまりそうです。個人コレクションとは本来、そういったものなのではないでしょうか？今回の展示作品から、コレクターのアートへの愛情を感じていただければ幸いです。",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-19",
+      "end_date": "2026-10-12",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "3032bae70185",
+        "name": "福岡市美術館",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "후쿠오카시 미술관"
+          },
+          "en": {
+            "name": "Fukuoka City Art Museum"
+          }
+        },
+        "region": "福岡県",
+        "district": null,
+        "lat": 33.583856247035804,
+        "lng": 130.3795317165492
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/A9-A7-D64-F/2026-09-19",
       "featured": false,
       "popularity_score": null
     }
@@ -97577,6 +97818,20 @@
       "country": "JP",
       "lat": 34.404219779226196,
       "lng": 132.4564844524364,
+      "website": null
+    },
+    {
+      "id": "d746cfa41b97",
+      "name": "せんだいメディアテーク",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "宮城県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 38.26553165507039,
+      "lng": 140.865572284468,
       "website": null
     }
   ],
@@ -118816,6 +119071,24 @@
     {
       "id": "dc03ed1ae9c7",
       "name": "ミヤザキサトコ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4656fd781821",
+      "name": "ルーク・オザワ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "780148113b54",
+      "name": "津野青嵐",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c2d781021111",
+      "name": "二藤建人",
       "lang": null,
       "tr": {}
     }
