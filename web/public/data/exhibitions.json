@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T00:24:30.751804+00:00",
+  "generated_at": "2026-09-28T06:10:01.975609+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -64201,8 +64201,15 @@
         {
           "id": "707f6bbf88bd",
           "name": "中嶋琉平",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나카지마 류헤이"
+            },
+            "en": {
+              "name": "Ryuhei Nakajima"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Ichika-Hiiragi-Ryuhei-Nakajima-The-Beginning/gallery-cafe-bar-three-three/2026-07-30",
@@ -64257,8 +64264,15 @@
         {
           "id": "92686c206c0f",
           "name": "古田亘",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "후루타 와타루"
+            },
+            "en": {
+              "name": "Wataru Furuta"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Wataru-Furuta-Kemonohara-Yuki-Tamashiro/speak-for-wall/2026-08-19",
@@ -81430,8 +81444,17 @@
       "id": "f594ea524170",
       "source": "tokyo_art_beat",
       "title": "「遅と土の芸術祭2026 ― Slow and Clay Nakacho Art Festival 2026－」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「늦과 흙의 예술제 2026 ― Slow and Clay Nakacho Art Festival 2026－」",
+          "description": "「늦과 흙의 예술제 2026」은 늦사 그랑프리와 뜻을 같이한 도예가 그룹 「지주도로사」를 중심으로 한, 「느림」을 테마로 하는 도자기 전시와 이벤트로 구성되는 예술제입니다. 「흙」이라는 소재를 46억 년에 걸친 지구의 역사가 만들어 온 소재로 다시 바라보는 것을 출발점으로 삼고 있습니다. 성형·건조·소성이라는 도예 특유의 공정에는 속도나 효율과는 다른 고유한 시간이 존재합니다. 본 예술제는 흙, 도예의 시간성에 주목하고 「느림」이라는 개념 그 자체를 재정의하는 것을 목적으로 합니다.\n2026년, 도쿄도 아다치구 센주나카초에서 「늦과 흙의 예술제」는 첫 번째 개최를 맞이합니다. 흙이라는 소재에 뿌리내린 전시와 이벤트를 통해 「느림」을 재정의하는 시도를 이곳에서 발신합니다.\n\n[관련 이벤트]\n1. 늦 테이프 커팅, 제1회 지주도로차 선수권 경주\n일시: 9월 13일 14:00~\n요금: 무료\n2. 스기노 신페이 라이브\n일시: 9월 19일\n3. 제1회 늦사 더비\n일시: 9월 19일\n4. 늦 라쿠고\n일시: 9월 22일 18:30~\n출연: 카츠라 쿠노이치\n요금: 2000엔\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "「Oso to Tsuchi no Geijutsusai 2026 ― Slow and Clay Nakacho Art Festival 2026－」",
+          "description": "\"Oso to Tsuchi no Geijutsusai 2026\" is an art festival consisting of pottery exhibitions and events with \"slowness\" as its theme, centered around the potter group \"Chisōdeisha,\" who share the same aspirations as the Chishi Grand Prix. It starts by re-examining \"clay\" as a material created by the Earth's 4.6-billion-year history. The unique processes of pottery—forming, drying, and firing—involve specific times that differ from speed and efficiency. This art festival aims to redefine the very concept of \"slowness\" by focusing on the temporality of clay and pottery.\nIn 2026, the \"Oso to Tsuchi no Geijutsusai\" will hold its first event in Senju Nakacho, Adachi Ward, Tokyo. Through exhibitions and events rooted in the material of clay, this place will disseminate attempts to redefine \"slowness.\"\n\n[Related Events]\n1. Oso Tape Cut, 1st Chisōdeisha Championship Race\nDate: September 13, 14:00~\nFee: Free\n2. Shinpei Sugino Live\nDate: September 19\n3. 1st Chishi Derby\nDate: September 19\n4. Oso Rakugo\nDate: September 22, 18:30~\nPerformer: Kunoichi Katsura\nFee: 2,000 yen\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/8ed35733/HRQxMS6bIAAdglE%20-%20%E3%81%AA%E3%81%8B%E3%82%80%E3%82%89%E3%81%97%E3%82%87%E3%81%86%E3%81%93%EF%BC%88%E6%9C%AC%E5%B1%8B%E3%81%97%E3%82%83%E3%82%93%EF%BC%89.jpg",
       "description": "「遅と土の芸術祭2026」は、遅四グランプリと志を同じくした陶芸家グループ「遅走泥社」を中心とした、「遅」をテーマとする焼き物の展示とイベントで構成される芸術祭です。「土」という素材を、46億年にわたる地球の歴史がつくり出してきた素材として捉え直すことを出発点としています。成形・乾燥・焼成という、陶芸特有の工程には、速さや効率とは異なる固有の時間が存在します。本芸術祭は、土、陶芸の時間性に着目し、「遅さ」という概念そのものを再定義することを目的としています。\n2026年、東京都足立区・千住仲町において、「遅と土の芸術祭」は第1回目の開催を迎えます。土という素材に根差した展示とイベントを通じて、「遅さ」を再定義する試みを、この地から発信します。\n\n[関連イベント]\n1. 遅テープカット、第一回 遅走泥車選手権競走\n日時: 9月13日 14:00～\n料金: 無料\n2. 杉野晋平ライブ\n日時: 9月19日\n3. 第一回 遅四ダービー\n日時: 9月19日\n4. 遅落語\n日時: 9月22日 18:30～\n出演: 桂九ノ一\n料金: 2000円\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -82922,8 +82945,17 @@
       "id": "2e6b99f628ea",
       "source": "tokyo_art_beat",
       "title": "小橋川共男 展",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "코바시가와 토모오 전",
+          "description": "푸른 바다에 숨 쉬는 생명력 넘치는 약동, 시라호 산호의 투명한 군청색, 그리고 사람과 바람이 연주하는 고요한 기억. 반세기 동안 오키나와의 진정한 모습을 파인더에 담아온 사진작가 코바시가와 토모오가 선사하는 영혼의 기록."
+        },
+        "en": {
+          "title": "Kobashigawa Tomoo Exhibition",
+          "description": "The vibrant life pulsating in the blue sea, the clear ultramarine of Shiraho Coral, and the quiet memories woven by people and the wind. A record of the soul presented by photographer Kobashigawa Tomoo, who has continued to capture the true essence of Okinawa through his viewfinder for half a century."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/39a06a89/a3(RGB)%20-%20212%20Hitomi.jpg",
       "description": "青き海に息づく生命的躍動、白保サンゴの透き通る群青、そして人と風上が奏でる静かな記憶。半世紀にわたり沖縄の真実の姿をファインダーに収め続けた写真家・小橋川共男が贈る魂の記録。",
       "medium": "photo",
@@ -82969,8 +83001,17 @@
       "id": "db97784b6dd8",
       "source": "tokyo_art_beat",
       "title": "オカダキサラ 「1/250」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "오카다 키사라 「1/250」",
+          "description": "도쿄 바쿠로초의 아트 갤러리 KKAG(Kiyoyuki Kuwabara Accounting Gallery)에서는 2026년 10월 7일(수)부터 10월 24일(토)까지 오카다 키사라 사진전 「1/250」을 개최합니다.\nKKAG에서 6년 만에 전시를 하는 오카다 키사라. 그녀는 '도시가 놓친 기적의 현장'을 주제로 사진 작품을 계속 제작하고 있습니다. 올해 출간한 사진집 『1/250』은 18년간 촬영한 약 150만 장의 사진 중에서 셔터 스피드 1/250초로 촬영한 250장을 선정하여 '1초'를 한 권의 작품으로 만들었습니다. 본 전시에서는 책에 담긴 1초의 세계를 프린트와 영상을 섞어가며 공간에 재현합니다.\n\n[관련 이벤트]\n토크 이벤트\n일시: 10월 10일 14:00～15:00\n등단자: 오카다 키사라 × 그래픽 디자이너 하시즈메 히토미 씨\n요금: 무료 (사전 신청 필수)\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Okada Kisara '1/250'",
+          "description": "KKAG (Kiyoyuki Kuwabara Accounting Gallery), an art gallery in Bakurocho, Tokyo, will hold the Okada Kisara Photo Exhibition \"1/250\" from Wednesday, October 7 to Saturday, October 24, 2026.\nThis will be Okada Kisara's first exhibition at KKAG in six years. She continues to create photographic works on the theme of \"Miraculous Scenes Missed by the City.\" Her photo book \"1/250,\" published this year, selects 250 photos taken at a shutter speed of 1/250 second from approximately 1.5 million photos taken over 18 years, creating \"one second\" as a single work. In this exhibition, the world of one second captured in the book will be recreated in the space, combining prints and video.\n\n[Related Events]\nTalk Event\nDate & Time: October 10, 14:00-15:00\nSpeakers: Okada Kisara × Graphic Designer Hitomi Hashizume\nFee: Free (Pre-registration required)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/07d78245/okadakisara%20main%20visual%20for%20press%20-%20%E6%A1%91%E5%8E%9F%E6%B8%85%E5%B9%B8.jpg",
       "description": "東京・馬喰町のアートギャラリーKKAG（Kiyoyuki Kuwabara Accounting Gallery）では、2026年10月7日（水）から10月24日（土）まで、オカダキサラ写真展「1/250」を開催します。\nKKAGでは6年ぶりの展示となるオカダキサラ。彼女は「街が見逃した奇跡の現場」をテーマに写真作品の制作を続けています。本年刊行した写真集『1/250』は、18年間撮り続けた約150万枚の写真の中から、シャッタースピード1/250秒で撮影した250枚を選び、「1秒」を一冊の作品としました。本展では、本に収められた1秒分の世界を、プリントと映像を交えながら空間に再現します。\n\n[関連イベント]\nトークイベント\n日時: 10月10日 14:00～15:00\n登壇者: オカダキサラ × グラフィックデザイナー 橋詰ひとみ氏\n料金: 無料（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -83016,8 +83057,17 @@
       "id": "ed00698b92d9",
       "source": "tokyo_art_beat",
       "title": "中村絵美 「北の極点」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "나카무라 에미 「북극점」",
+          "description": "2026년 10월 4일(일)부터 나카무라 에미 개인전 「북극점」을 개최합니다.\n나카무라 에미는 자연 가이드의 시점과 지역사 이해를 바탕으로 홋카이도 내 각지를 방문하며 독자적인 현장 조사를 계속해 왔습니다. 최근에는 아오모리의 자연과 역사에도 관심을 넓혀 아키타에 거점을 두고 양 지역에서 얻은 관찰과 경험을 바탕으로 작품의 이미지를 심화하고 있습니다.\n본 전시에서는 나카무라가 자연 가이드를 배우기 위해 도토에 거주하던 시기에 만난 '북극점'이라는 말을 바탕으로 아오모리에서 자생하는 북방 식물을 모티프로 한 신작이 발표됩니다. 아울러 관련작으로 VOCA전 2024 출품작도 전시합니다.\n\n[관련 이벤트]\n1. 오프닝 토크\n등단자: 나카무라 에미 × 호리에 마사토 (본 전시 주최자 겸 기획자)\n일시: 10월 4일 17:00~\n2. 아티스트 토크\n등단자: 나카무라 에미 × 다카하시 시게미 (아오모리 현립 미술관 총괄 학예 주간)\n일시: 11월 15일 18:30~\n3. Reframe — 홋카이도에서 사진을 생각하기 위한 연속 강좌\n「제1회 홋카이도에서의 사진 기술의 확산 막말・메이지・다이쇼」\n일시: 9월 7일 18:00~19:15\n강사: 오시타 토모카즈 씨 (홋카이도립 근대미술관 학예부장)\n「제2회 『아이누 풍속 사진』으로 역사를 따라가다」\n일시: 10월 2일 18:00~19:15\n강사: 오사카 타쿠 씨 (홋카이도 박물관 아이누 민족 문화 연구 센터 학예 주사)\n「제3회 아오모리 개척 사진? 」\n일시: 11월 15일 13:00~14:15\n강사: 다카하시 시게미 씨 (아오모리 현립 미술관 총괄 학예 주간)\n요금: 각 1000엔 (학생 무료)\n장소: 삿포로 문화 예술 교류 센터 SCARTS 4F 대기실 401\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Emi Nakamura 'The Northern Pole'",
+          "description": "Emi Nakamura's solo exhibition \"The Northern Pole\" will be held starting Sunday, October 4, 2026.\nEmi Nakamura has been conducting unique fieldwork, visiting various locations throughout Hokkaido based on her perspective as a nature guide and her understanding of local history. In recent years, she has expanded her interest to the nature and history of Aomori, establishing a base in Akita, and deepening the imagery of her works based on observations and experiences gained in both regions.\nThis exhibition will feature new works inspired by northern plants growing in Aomori, based on the phrase \"The Northern Pole\" which Nakamura encountered while living in Doto to study nature guiding. Additionally, works from the VOCA Exhibition 2024 will be displayed as related pieces.\n\n[Related Events]\n1. Opening Talk\nSpeakers: Emi Nakamura × Masato Horie (Exhibition Organizer and Planner)\nDate & Time: October 4, 17:00~\n2. Artist Talk\nSpeakers: Emi Nakamura × Shigemi Takahashi (Chief Curator, Aomori Prefectural Museum of Art)\nDate & Time: November 15, 18:30~\n3. Reframe — A Series of Lectures on Photography from Hokkaido\n\"Part 1: The Spread of Photographic Technology in Hokkaido during the Bakumatsu, Meiji, and Taisho Periods\"\nDate & Time: September 7, 18:00-19:15\nLecturer: Tomokazu Oshita (Head of Curatorial Department, Hokkaido Museum of Modern Art)\n\"Part 2: Tracing History from 'Ainu Customs Photography'\"\nDate & Time: October 2, 18:00-19:15\nLecturer: Taku Osaka (Chief Curator, Ainu Culture Research Center, Hokkaido Museum)\n\"Part 3: Aomori Pioneer Photography?\"\nDate & Time: November 15, 13:00-14:15\nLecturer: Shigemi Takahashi (Chief Curator, Aomori Prefectural Museum of Art)\nFee: 1000 yen each (Free for students)\nVenue: Sapporo Cultural Arts Community Center SCARTS 4F Waiting Room 401\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/459b9f29/%E5%8C%97%E3%81%AE%E6%A5%B5%E7%82%B9%E3%83%95%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC_%E5%B1%95%E7%A4%BA%E9%9D%A2%20-%20%E5%A0%80%E6%B1%9F%E7%90%86%E4%BA%BA.jpg",
       "description": "2026年10月4日（日）より、中村絵美個展「北の極点」を開催いたします。\n中村絵美は、ネイチャーガイドの視点と地域史の理解に基づいて、道内各地を訪ね、独自のフィールドワークを続けてきました。近年は、青森の自然や歴史にも関心を広げ、秋田に拠点を持ち、両地域で得た観察や体験をもとに作品のイメージを深めています。\n本展では、中村がネイチャーガイドを学ぶため道東に在住していた時期に出会った「北の極点」という言葉をもとに、青森に生育する北方植物をモチーフにした新作が発表されます。あわせて、関連作としてVOCA展2024出品作も展示いたします。\n\n[関連イベント]\n1. オープニングトーク\n登壇者: 中村絵美×堀江理人（本展主催者兼企画者）\n日時: 10月4日 17:00〜\n2. アーティストトーク\n登壇者: 中村絵美×高橋しげみ（青森県立美術館 総括学芸主幹）\n日時: 11月15日 18:30〜\n3. Reframe —北海道から写真を考えるための連続講座\n「第1回 北海道における写真技術のひろがり 幕末・明治・大正」\n日時: 9月7日 18:00〜19:15\n講師: 大下智一氏（北海道立近代美術館 学芸部⻑）\n「第2回 『アイヌ風俗写真』から歴史をたどる」\n日時: 10月2日 18:00〜19:15\n講師: 大坂拓氏（北海道博物館アイヌ民族文化研究センター 学芸主査）\n「第3回 青森開拓写真？ 」\n日時: 11月15日 13:00〜14:15\n講師: 高橋しげみ氏（青森県立美術館 総括学芸主幹）\n料金: 各1000円（学生は無料）\n場所: 札幌文化芸術交流センター SCARTS 4F 控室401\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -84238,8 +84288,17 @@
       "id": "23493c5566e7",
       "source": "tokyo_art_beat",
       "title": "「ひつじの皮を脱いだ絵画教室展 vol.5」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「양의 탈을 벗은 회화 교실전 vol.5」",
+          "description": "「양의 탈을 벗은 회화 교실전 vol.5」라는 제목으로, 전반부와 후반부로 나누어 약 310명의 학생들의 작품을 전시합니다.\n전반부 성인 클래스 학생 전시는 이노우에 후미오 씨(CAMP/디렉터)의 큐레이션으로 \"고발\"을 개최합니다. 현대 미술계에서 중요한 주제가 되고 있는 인권과 사회 정의, 사회가 안고 있는 다양한 문제들을 배경으로, 평소에는 각자의 직업과 생활을 가진 140명이 넘는 성인 학생들이 스스로 문제의식을 가지고 작품으로 어떻게 표현할 수 있을지 노력합니다. 미술을 전문으로 하는 작가뿐만 아니라, 일반 사회인들이 현대 사회의 문제에 대해 생각하고 그것을 작품으로 제시하는 것 자체도 본 전시의 중요한 시도 중 하나입니다.\n후반부에는 어린이 클래스 학생 전시 \"기재 발견!? 엉뚱한 도구의 상품 발명\"을 개최합니다. 약 170명의 학생들의 자유로운 발상에서 탄생한 \"엉뚱한 도구\"들이 전시장을 가득 채울 것입니다.\n\n전기: 9월 25일~29일\n후기: 10월 1일~4일"
+        },
+        "en": {
+          "title": "\"Painting Class Exhibition: Shedding the Sheep's Skin, Vol. 5\"",
+          "description": "Titled \"Painting Class Exhibition: Shedding the Sheep's Skin, Vol. 5,\" works by approximately 310 students will be exhibited in two parts.\nPart 1, featuring adult class students, will present \"Indictment,\" curated by Fumio Inoue (CAMP/Director). Against the backdrop of human rights, social justice, and various societal issues that have become important themes in the contemporary art scene, over 140 adult students, who usually have their own jobs and lives, will address how they can express their own awareness of these issues as artworks. Not only artists specializing in fine arts, but also ordinary adults contemplating contemporary social issues and presenting them as artworks is one of the important endeavors of this exhibition.\nPart 2 will feature the children's class student exhibition, \"Discovery of Genius!? Invention of Wacky Tool Products.\" \"Wacky Tools\" born from the free ideas of approximately 170 students will fill the venue.\n\nPart 1: September 25-29\nPart 2: October 1-4"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/666b003f/%E3%83%81%E3%83%A9%E3%82%B7%E7%94%BB%E5%83%8F_%E3%82%AA%E3%83%A2%E3%83%86%20-%20Art%20School%20LUKA%20NOSE.jpg",
       "description": "「ひつじの皮を脱いだ絵画教室展 vol.5」と題し、前後半に分けて約310名の生徒による作品を展示いたします。\n前半のおとなクラス生徒展示は、井上文雄氏（CAMP／ディレクター）のキュレーションによる「告発」を開催します。現代のアートシーンにおいて重要なテーマとなっている人権や社会正義、社会が抱えるさまざまな問題を背景に、普段はそれぞれの仕事や生活を持つ140名を超える社会人の生徒たちが、自ら問題意識を持ち、作品としてどのように表現できるのかに取り組みます。美術を専門とする作家だけではなく、一般の社会人が現代社会の問題について考え、それを作品として提示すること自体も、本展の重要な試みのひとつです。\n後半は、こどもクラス生徒展示「奇才発見！？ヘンテコ道具の商品発明」を開催。約170名の生徒たちの自由な発想から生まれた「ヘンテコ道具」が会場を埋め尽くします。\n\n前期: 9月25日～29日\n後期: 10月1日～4日",
       "medium": "mixed",
@@ -84285,8 +84344,17 @@
       "id": "3a9587a6d72a",
       "source": "tokyo_art_beat",
       "title": "「『shuku+ga（祝＋我）』なんにもない日に、おめでとう。」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「shuku+ga (축+아)」 아무것도 없는 날에, 축하해.",
+          "description": "디자이너 아쿠츠 이사쿠의 프로젝트 『shuku+ga (축+아)』가 시작됩니다. 첫 번째로, 목걸이, ZINE, 아트 포스터 세트를 발매합니다. 이와 함께 2026년 9월 25일(금)부터 27일(일)까지 도쿄 다이칸야마의 AL에서 전시 및 주문 판매회를 개최합니다. 11월에는 서울 순회를 예정하고 있습니다.\n자신과 소중한 누군가를 축하합니다. 끊임없이 변화하는 도쿄와 그곳에 흐르는 시간을 배경으로, 사진작가 카와시마 코토리가 타나베 아유미와 TAEHEON을 비롯한 총 10명의 꾸밈없는 모습과 그 장소의 분위기를 촬영했습니다. 전시장에서는 마츠이 마사노리(METER)가 디자인한 아트 포스터와 총 60페이지의 ZINE, 아쿠츠가 제작한 3종의 황동 목걸이를 전시합니다. 전시 기간 동안에는 이들을 조합한 세트의 주문 판매도 진행합니다. 읽고, 방에 장식하고, 몸에 착용합니다. 공간과 신체를 연결하는 하나의 세트로 제공됩니다. \"아무것도 없는 날\"도 누군가에게는 특별한 하루입니다. 일상 속의 우연과 점처럼 흘러가는 시간, 그리고 너무 꾸미지 않는 것도 『shuku+ga』가 소중히 여기는 테마 중 하나입니다."
+        },
+        "en": {
+          "title": "\"shuku+ga (Celebration + Self)\" Congratulations on a day with nothing special.",
+          "description": "Designer Isaku Akutsu's project \"shuku+ga (Celebration + Self)\" is launching. As its first installment, a set of a necklace, ZINE, and art poster will be released. Concurrently, an exhibition and pre-order sale will be held at AL in Daikanyama, Tokyo, from September 25 (Fri) to 27 (Sun), 2026. A tour to Seoul is planned for November.\nCelebrate yourself and someone important. Against the backdrop of an ever-changing Tokyo and the time flowing within it, photographer Kotori Kawashima captured the unadorned figures of 10 individuals, including Ayumi Tanabe and TAEHEON, and the atmosphere of the moment. The venue will feature art posters designed by Masanori Matsui (METER), a 60-page ZINE, and three types of brass necklaces created by Akutsu. During the exhibition period, pre-orders for sets combining these items will also be taken. Read it, display it in your room, wear it. It will be delivered as a single set connecting space and body. Even a \"day with nothing special\" can be a special day for someone. The coincidences in daily life, time passing like dots, and not over-arranging things are among the themes that \"shuku+ga\" values."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/f826b333/shuku%EF%BC%8Bga_photo_01%20-%20Hiroki%20Takemoto%20(2).jpg",
       "description": "デザイナー 圷イサクによるプロジェクト『shuku+ga（祝＋我）』が始動します。第1弾として、ネックレス・ZINE・アートポスターのセットを発売。あわせて2026年9月25日（金）〜27日（日）、東京・代官山のALにて展示と受注販売会を開催します。11月にはソウルへの巡回を予定しています。\n自分と、大切な誰かを祝う。変わり続ける東京と、そこに流れる時間を背景に、写真家・川島小鳥が、田辺あゆみやTAEHEONをはじめとする計10名の飾らない姿と、その場の空気を撮り下ろしました。会場では、松井正憲（METER）のデザインのアートポスターと、全60ページのZINE、圷が手がけた3種の真鍮製ネックレスを展示します。会期中は、これらを組み合わせたセットの受注販売も行います。読み、部屋に飾り、身につける。空間と身体をつなぐ、ひとつのセットとしてお届けします。「なんにもない日」も、誰かにとっては特別な一日。日常のなかにある偶然や、点のように過ぎていく時間、そして整えすぎないことも、『shuku+ga』が大切にするテーマのひとつです。",
       "medium": "photo",
@@ -84325,8 +84393,17 @@
       "id": "44c3a3ea2f19",
       "source": "tokyo_art_beat",
       "title": "田川基成 「Settlement」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "타가와 모토나리 「Settlement」",
+          "description": "zolin gallery에서는 타가와 모토나리전 \"Settlement\"를 개최합니다. 나가사키현 출신 사진작가 타가와 모토나리는 제20회 미키 준상(2018년), 일본 사진 협회 신인상(2022년), 제46회 사진의 마을 히가시카와상・히다노 카즈에몬상(2026년)을 수상하는 등 최근 활발하게 작품 제작과 발표를 하고 있습니다. 올해 2월에는 홋카이도에서 약 10년간의 촬영 기간을 거쳐 아카카샤에서 사진집 『홋카이도』를 출간했습니다. 홋카이도 대학 농학부 출신이기도 한 타가와는 학창 시절을 보낸 북쪽 땅을 반복적으로 재방문하며 근대적 영역으로서의 \"홋카이도\"를 주제로 촬영을 이어왔습니다. \"Settlement\"전에서는 지금까지 중형 필름으로 약 2500컷 촬영된 동일 시리즈 중에서, 이주 역사를 지금도 느끼게 하는 마을 풍경과 가옥, 묘지, 신사 등을 포함한 주변 경관을 중심으로 전시가 구성됩니다.\n\n작가는 홋카이도의 풍경에서 \"혼슈 이남과는 확연히 다른, 인간과 자연의 거리\"를 느낀다고 표현합니다. 또한 자연 속에 점재하는 교량이나 호안 블록, 혹은 제설로 형성된 설산 등 \"인위적인 것\"들도 이곳에서는 두드러져 보인다고 말합니다. 홋카이도를 밖에서, 그리고 안에서도 바라보는 시점을 가진 사진작가의 신선한 시각과 위화감을 기점으로, 이주, 정주, 마을, 식민지, 청산 등의 의미를 가진 \"Settlement\"를 주제로 본 전시가 구성됩니다. 근대사와 현대, 그리고 그 이전부터 이어지는 자연이 뒤섞인 기수와 같은 풍경을 통해 홋카이도라는 땅을 재고하는 시각을 제공합니다. 본 전시는 사진집 『홋카이도』(아카카샤)에 수록되지 않은 미발표작으로 주로 구성되며, 약 25점의 이미지가 전시될 예정입니다.\n\n[관련 이벤트]\n1. 갤러리 토크 ①\n일시: 2026년 9월 20일 17:30~\n2. 갤러리 토크 ②\n일시: 2026년 9월 21일 17:30~\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Motonari Tagawa 「Settlement」",
+          "description": "zolin gallery will host Motonari Tagawa's exhibition \"Settlement.\" Motonari Tagawa, a photographer from Nagasaki Prefecture, has been actively producing and presenting his works in recent years, having received awards such as the 20th Miki Jun Award (2018), the Photographic Society of Japan Newcomer's Award (2022), and the 46th Higashikawa Award for Photography / Kazueimon Hidano Award (2026). In February of this year, after approximately 10 years of shooting in Hokkaido, he published the photo book \"Hokkaido\" through Akakasha. Tagawa, who also graduated from the Faculty of Agriculture at Hokkaido University, has repeatedly revisited the northern land where he spent his student days, continuously photographing \"Hokkaido\" as a modern territory. The \"Settlement\" exhibition will feature approximately 2500 shots from this series, taken with medium format film, focusing on landscapes of settlements that still evoke the history of colonization, as well as surrounding landscapes including houses, cemeteries, and shrines.\n\nThe artist describes feeling \"a clearly different distance between humans and nature compared to south of Honshu\" in the landscapes of Hokkaido. He also states that \"artificial elements\" such as bridges and revetment blocks scattered in nature, or snow piles formed by snow removal, appear particularly prominent here. Starting from the fresh perspective and sense of incongruity of a photographer who views Hokkaido from both outside and within, this exhibition is structured around the theme of \"Settlement,\" which carries meanings such as colonization, permanent residence, community, colony, and liquidation. It offers a viewpoint to reconsider the land of Hokkaido through landscapes like brackish water, where modern history, the present, and nature continuing from before blend together. This exhibition will primarily consist of approximately 25 unreleased images not included in the photo book \"Hokkaido\" (Akakasha).\n\n[Related Events]\n1. Gallery Talk ①\nDate: September 20, 2026, 17:30~\n2. Gallery Talk ②\nDate: September 21, 2026, 17:30~\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/d7add334/20260919_DM_tagawa_v1%20-%20yuji%20sato.png",
       "description": "zolin gallery では、田川基成展「Settlement」を開催します。長崎県出身の写真家・田川基成は、第20回三木淳賞(2018年)、日本写真協会新人賞(2022年)、第46回写真の町東川賞・飛騨野数右衛門賞（2026年）を受賞するなど、近年、精力的に作品制作と発表を行なっています。本年二月には、北海道での約10年の撮影期間を経て、赤々舎より写真集『北海道』を上梓しました。北海道大学農学部の出身でもある田川は、学生時代を過ごした北の地を繰り返し再訪し、近代的領域としての「北海道」をテーマに撮影を重ねてきました。「Settlement」展では、これまで中判フィルムで約2500カット撮影されてきた同シリーズの中から、入植の歴史を今も感じさせる集落の風景や、家屋、墓地、神社などを含む周辺のランドスケープを中心に展示が構成されます。\n\n北海道の風景には、「本州以南とは明らかに違った、人間と自然の距離」を感じると作家は表現します。また自然の中に点在する橋梁や護岸ブロック、あるいは除雪によって形成された雪山などの「人為的なもの」も、ここでは際立って見えると言います。北海道を外から、そして内からも眺める視点を持つ写真家の新鮮な視覚や違和感を起点に、入植、定住、集落、植民地、清算、などの意味を持つ「Settlement」をテーマに据えて本展は構成されます。近代史と、現代、それ以前から続く自然の混じり合う汽水のような風景を通して、北海道という土地を再考する視座を提供します。本展は、写真集『北海道』(赤々舎)に収録されていない未発表作で主に構成され、約25点のイメージが展示される予定です。\n\n[関連イベント]\n1. ギャラリートーク①\n日時: 2026年9月20日17:30〜\n2. ギャラリートーク②\n日時: 2026年9月21日17:30〜\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -84659,8 +84736,17 @@
       "id": "3e763d8d9ec3",
       "source": "tokyo_art_beat",
       "title": "小島康敬 「中今 | ベルリン」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "코지마 야스노리 「나카이마 | 베를린」",
+          "description": "9월 17일 (목)부터 BOOK AND SONS에서 코지마 야스노리의 사진전 「나카이마 | 베를린」을 개최합니다. 사진작가 코지마 야스노리가 제시하는 것은 우리가 아는 역사나 기억에서 벗어나 시공간마저 통과한 듯한, 어디에도 없는 「베를린」입니다.\n최첨단 양자 이론과 시간과 공간의 중심을 가리키는 고신도(古神道)의 개념 「나카이마 (Naka-ima)」에서 영감을 얻어 제작된 본 시리즈는 과거, 현재, 미래가 동시에 존재하는 「입체적인 지금」을 조용히 포착하여 이끌어냅니다.\n도쿄, 뉴욕을 거쳐 도달한 시선 높이에 따른 평면적이고 미니멀한 화면 구성. 특정 장소나 역사적 표상을 깎아낸 작품들은 롤랑 바르트가 칭한 「공허한 기호」처럼 중심을 공허하게 유지하며, 보는 이에게 의미 해석을 조용히 맡깁니다. 촬영된 순간의 「과거에 존재했던」 한순간의 깊이에 흐르는 시간과 거리, 그리고 어딘가 고요함을 두른 순환하는 시간의 깊이를 꼭 전시장에서 경험해 보시기 바랍니다."
+        },
+        "en": {
+          "title": "Yasunori Kojima \"Naka-ima | Berlin\"",
+          "description": "From Thursday, September 17th, BOOK AND SONS will host a photography exhibition by Yasunori Kojima titled \"Naka-ima | Berlin\". Photographer Yasunori Kojima presents a \"Berlin\" that is nowhere, detached from the history and memories we know, as if it has passed through space and time.\nInspired by cutting-edge quantum theory and the ancient Shinto concept of \"Naka-ima,\" which points to the center of time and space, this series quietly captures and brings forth a \"three-dimensional present\" where past, present, and future coexist simultaneously.\nThe flat and minimalist screen composition, achieved at eye-level after passing through Tokyo and New York. The works, stripped of specific locations and historical representations, maintain an empty center like the \"empty signifier\" praised by Roland Barthes, gently entrusting the interpretation of meaning to the viewer. Please experience at the venue the time and distance flowing deep within the \"once-existed\" moment of the photographed instant, and the depth of circular time, imbued with a certain stillness."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/84ca3eb3/01.jpg",
       "description": "9月17日（木）より、BOOK AND SONSにて、小島康敬による写真展「中今 | ベルリン」を開催いたします。 写真家・小島康敬が提示するのは、私たちが知る歴史や記憶から乖離し、時空間をも通り抜けたような、どこでもない「ベルリン」。\n最先端の量子理論や、時間と空間の中心を指す古神道の概念「中今（Naka-ima）」に着想を得て制作された本シリーズは、過去・現在・未来が同時に存在する「立体的な今」を静かに捉え引き出します。\n東京、ニューヨークを経てたどり着いた目線の高さによる平面的でミニマルな画面構成。 特定の場所や歴史的表象を削ぎ落とした作品群は、ロラン・バルトが称した「空虚な記号」のように中心を空虚に保ち、観る者に意味の解釈をそっと委ねます。撮影された瞬間の「かつてあった」一瞬の奥に流れる時間と距離、そしてどこか静けさを纏った円環する時間の深みを、ぜひ会場でご体感ください。",
       "medium": "photo",
@@ -84706,8 +84792,17 @@
       "id": "07b394f7be26",
       "source": "tokyo_art_beat",
       "title": "伊丹豪 「a plan for all things」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "이타미 고 「a plan for all things」",
+          "description": "CAVE-AYUMI GALLERY에서는 2026년 10월 3일 (토)부터 사진작가 이타미 고의 개인전 「a plan for all things」를 개최합니다.\n\n이타미 고는 화면의 모든 것에 초점이 맞춰진 「전초점(全焦點)」 사진을 통해 사진을 보는 것, 찍는 것에 대해 생각해 왔습니다. 화면 속에 있는 것을 똑같이 선명하게 담아냄으로써 사진을 볼 때 생기는 시선의 위계질서를 묻고 있습니다. 이타미의 사진은 이러한 구조에 대한 질문을 포함하면서도 선명한 색채와 대담한 구도, 친숙한 것들을 예상치 못한 조합으로 표현합니다. 보는 사람은 먼저 그 색채와 구도의 재미에 이끌리고 거기서부터 무엇이 의도된 것이고 무엇이 우연인지에 대한 질문으로 이끌려 갑니다. 본 전시에서 발표되는 사진은 모두 작가의 자택에서 촬영되었습니다. 집에 있는 가구나 일용품 등, 그곳에 있는 것만을 사용하여 물건을 놓거나 움직이면서 화면을 만들어 갑니다. 그 안에는 과거에 보아왔던 사진이나 회화, 미술의 구조를 집에 있는 물건의 배치로 재구성하고 촬영하며, 촬영 후에는 해체한다는 작가의 의도가 있습니다. 촬영이 끝나면 그 배치는 해체되고 사진에 남는 것은 그 장소에 실제로 있었던 것과 이미 존재하지 않는 배치입니다.\n\n「a plan for all things」라는 제목에는 「plan=계획」과 「plane=평면」이라는 여러 의미가 중첩되어 있습니다. 물건을 선택하고 배치하며 촬영하는 행위와 그곳에 있는 모든 것이 정착되는 한 장의 평면. 미술로부터의 인용도, 생활 속에 있는 것도, 의도도 우연도 같은 표면에 동일한 밀도로 나열됩니다. 제목에는 이러한 제작 행위와 사진 그 자체의 존재 방식이 중첩되어 있습니다. 무엇이 중요한지, 무엇이 우연인지. 무엇이 작가에 의해 의도적으로 놓인 것인지. 그 경계는 굳이 명확히 하지 않고 사진 그 자체가 판단을 결정하는 것이 아니라, 보는 사람에게 맡겨집니다. 우리는 무엇에 주목하고, 무엇을 의미 있는 것으로 받아들일까요? 이타미 고의 사진은 「무엇을 볼 것인가」라는 질문을 통해 우리가 세상을 어떻게 보고 무엇에 가치를 부여하는지를 묻습니다.\n\n지금까지 이타미는 건축가나 디자이너, 출판사와의 협업도 자주 해왔습니다. 그곳에서도 작품의 존재 방식을 작가 혼자 결정하는 것이 아니라 타자와의 관계 속에서 만든다는 태도를 엿볼 수 있습니다. 본 전시에서는 건축가 이타사카 류고가 전시장 디자인을 맡습니다."
+        },
+        "en": {
+          "title": "Go Itami \"a plan for all things\"",
+          "description": "CAVE-AYUMI GALLERY will host a solo exhibition by photographer Go Itami titled \"a plan for all things\" starting Saturday, October 3, 2026.\n\nGo Itami has explored the acts of viewing and taking photographs through \"pan-focus\" images, where everything in the frame is in sharp focus. By rendering everything in the frame with equal clarity, he questions the hierarchy of gaze that emerges when we look at photographs. Itami's photographs, while incorporating these structural inquiries, express themselves through vibrant colors, bold compositions, and unexpected combinations of familiar objects. Viewers are first drawn in by the interesting colors and compositions, and from there, they are led to questions about what is intentional and what is accidental. All photographs presented in this exhibition were taken at the artist's home. Using only furniture and daily necessities found in his house, he creates compositions by placing and moving objects. His intention is to reconfigure the structures of photographs, paintings, and art he has seen in the past as arrangements of objects in his home, photograph them, and then dismantle them after shooting. Once the shooting is complete, the arrangement is dismantled, and what remains in the photograph is what was actually there and an arrangement that no longer exists.\n\nThe title \"a plan for all things\" layers multiple meanings: \"plan\" as in a scheme, and \"plane\" as in a flat surface. It encompasses the act of selecting, arranging, and photographing objects, and the single plane where all things present are fixed. Quotations from art, everyday objects, intentionality, and chance all align with equal density on the same surface. The title thus overlays the act of creation with the very nature of photography. What is important, what is accidental? What was intentionally placed by the artist? These boundaries are deliberately left unclear; photography itself does not make the judgment, but rather it is entrusted to the viewer. What do we focus on, and what do we perceive as meaningful? Go Itami's photographs, through the question of \"what do we see?\", challenge how we view the world and what we value.\n\nItami has frequently collaborated with architects, designers, and publishers. This also reflects an attitude of creating works not solely determined by the artist, but within relationships with others. For this exhibition, architect Ryugo Itasaka will be responsible for the venue design."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/9f64533b/%C2%A9%EF%B8%8EGo%20Itami,%20triangle%2020250731,%20Inkjet%20print%20on%20baryta%20paper,%202026_small%20-%20Ayumi%20Suzuki.jpeg",
       "description": "CAVE-AYUMI GALLERYでは、2026年10⽉3⽇（土）より、写真家 伊丹豪による個展「a plan for all things」を開催いたします。\n\n伊丹豪は、画面のすべてにピントが合った「全焦点」の写真を通して、写真を見ること、撮ることについて考えてきました。画面の中にあるものを等しく鮮明に写し出すことで、写真を見るときに生まれる視線のヒエラルキーを問いかけています。伊丹の写真はこうした構造への問いを含みながら、鮮やかな色彩や大胆な構図、身近なものを思いがけない組み合わせによって表現します。見る人はまずその色彩や構図の面白さに惹きつけられ、そこから、何が意図され何が偶然なのかという問いへと導かれていきます。本展で発表される写真は、すべて作家の自宅で撮影されています。家にある家具や⽇用品など、そこにあるものだけを使い、ものを置いたり、動かしたりしながら画面をつくっていきます。そこには過去に見てきた写真や絵画、美術の構造を、家にあるものの配置として組み直し、撮影し、撮影後には解体するという作家の意図があります。撮影が終わればその配置は解体され、写真に残るのは、その場に実際にあったものとすでに存在しない配置です。\n\n「a plan for all things」というタイトルには、「plan＝計画」と「plane＝平面」という複数の意味が重ねられています。ものを選び、配置し、撮影するという行為と、そこにあるすべてのものが定着される一枚の平面。美術からの引用も、生活の中にあるものも、作為も偶然も、同じ表面に等しい密度で並びます。タイトルにはこうした制作の行為と写真そのもののあり方が重ねられています。何が重要なのか、何が偶然なのか。何が作家によって意図的に置かれたものなのか。その境界はあえて明確にされず、写真そのものが判断を決めるのではなく、見る人に委ねられます。私たちは何に目を向け、何を意味のあるものとして捉えるのか。伊丹豪の写真は、「何を見るか」という問いを通して、私たちが世界をどのように見て、何に価値を与えているのかを問いかけます。\n\nこれまで伊丹は、建築家やデザイナー、出版社との協働もたびたび行ってきました。そこにも、作品のあり方を作家だけで決めるのではなく、他者との関係の中でつくるという姿勢が見られます。本展では、建築家・板坂留五が会場デザインを行います。",
       "medium": "photo",
@@ -87096,8 +87191,15 @@
       "venue": {
         "id": "91353358f8a6",
         "name": "足利市立美術館",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "아시카가 시립 미술관"
+          },
+          "en": {
+            "name": "Ashikaga Municipal Museum of Art"
+          }
+        },
         "region": "栃木県",
         "district": null,
         "lat": 36.33431549541938,
@@ -87239,8 +87341,15 @@
       "venue": {
         "id": "201ab5bd37b5",
         "name": "オルタナティブスペース コア",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "얼터너티브 스페이스 코어"
+          },
+          "en": {
+            "name": "Alternative Space Core"
+          }
+        },
         "region": "広島県",
         "district": null,
         "lat": 34.404219779226196,
@@ -87521,8 +87630,15 @@
       "venue": {
         "id": "d746cfa41b97",
         "name": "せんだいメディアテーク",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "센다이 미디어테크"
+          },
+          "en": {
+            "name": "Sendai Mediatheque"
+          }
+        },
         "region": "宮城県",
         "district": null,
         "lat": 38.26553165507039,
@@ -98082,8 +98198,15 @@
     {
       "id": "91353358f8a6",
       "name": "足利市立美術館",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "아시카가 시립 미술관"
+        },
+        "en": {
+          "name": "Ashikaga Municipal Museum of Art"
+        }
+      },
       "venue_type": "other",
       "region": "栃木県",
       "district": null,
@@ -98096,8 +98219,15 @@
     {
       "id": "201ab5bd37b5",
       "name": "オルタナティブスペース コア",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "얼터너티브 스페이스 코어"
+        },
+        "en": {
+          "name": "Alternative Space Core"
+        }
+      },
       "venue_type": "other",
       "region": "広島県",
       "district": null,
@@ -98110,8 +98240,15 @@
     {
       "id": "d746cfa41b97",
       "name": "せんだいメディアテーク",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "센다이 미디어테크"
+        },
+        "en": {
+          "name": "Sendai Mediatheque"
+        }
+      },
       "venue_type": "other",
       "region": "宮城県",
       "district": null,
@@ -114997,14 +115134,28 @@
     {
       "id": "707f6bbf88bd",
       "name": "中嶋琉平",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "나카지마 류헤이"
+        },
+        "en": {
+          "name": "Ryuhei Nakajima"
+        }
+      }
     },
     {
       "id": "92686c206c0f",
       "name": "古田亘",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "후루타 와타루"
+        },
+        "en": {
+          "name": "Wataru Furuta"
+        }
+      }
     },
     {
       "id": "04bcad349b3d",
