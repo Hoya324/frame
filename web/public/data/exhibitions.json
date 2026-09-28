@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T22:02:51.554308+00:00",
+  "generated_at": "2026-09-28T00:24:30.751804+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -62717,44 +62717,93 @@
         {
           "id": "7536e2d09145",
           "name": "森高千里",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "모리타카 치사토"
+            },
+            "en": {
+              "name": "Chisato Moritaka"
+            }
+          }
         },
         {
           "id": "1fc424e076a7",
           "name": "安野ともこ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "안노 토모코"
+            },
+            "en": {
+              "name": "Tomoko Anno"
+            }
+          }
         },
         {
           "id": "7b9befe8b94e",
           "name": "箭内道彦",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "야나이 미치히코"
+            },
+            "en": {
+              "name": "Michihiko Yanai"
+            }
+          }
         },
         {
           "id": "d9679bb012c2",
           "name": "山川修一",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "야마카와 슈이치"
+            },
+            "en": {
+              "name": "Yamakawa Shuichi"
+            }
+          }
         },
         {
           "id": "52c330a351fe",
           "name": "山川希衣子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "야마카와 키에코"
+            },
+            "en": {
+              "name": "Yamakawa Kieko"
+            }
+          }
         },
         {
           "id": "fe54fcad2523",
           "name": "山岸ケン",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "야마기시 켄"
+            },
+            "en": {
+              "name": "Yamagishi Ken"
+            }
+          }
         },
         {
           "id": "ea68e70be0a4",
           "name": "山口あかね",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "야마구치 아카네"
+            },
+            "en": {
+              "name": "Yamaguchi Akane"
+            }
+          }
         },
         {
           "id": "c3cedf73fe3a",
@@ -81630,8 +81679,17 @@
       "id": "a9b653232915",
       "source": "tokyo_art_beat",
       "title": "「四季光彩2026」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「사계광채 2026」",
+          "description": "본 전시는 캐논 포토클럽 도쿄 제1 회원들의 사진전입니다. 캐논 포토클럽은 회원제 사진 동호회 '캐논 포토서클'의 전국 각지 회원들이 각 지역에 모여 사진전이나 촬영회 등을 개최하는 자율 운영 커뮤니티입니다. 캐논 포토클럽 도쿄 제1은 '자연 풍경'을 촬영 테마로 사진작가 미와 카오루 씨의 감수 아래 활동하고 있으며, 회원들이 각자의 작품 스타일에 맞춰 '와시', '화재지', '매트지', '광택지' 등 질감이 다른 다양한 용지로 표현한 작품 50점을 전시합니다."
+        },
+        "en": {
+          "title": "\"Shiki Kousai 2026\"",
+          "description": "This exhibition is a photography exhibition by members of Canon Photo Club Tokyo No. 1. Canon Photo Club is a self-operating community where members of the membership-based photography circle \"Canon Photo Circle\" gather in various regions across the country to hold photo exhibitions, photo shoots, and other activities. Canon Photo Club Tokyo No. 1 operates under the supervision of photographer Kaoru Miwa, with \"natural landscapes\" as its photography theme. The exhibition will feature 50 works expressed by members using various papers with different textures, such as Washi, art paper, matte paper, and glossy paper, to suit their individual styles."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/998c9764/20260824%E2%91%A0.jpg",
       "description": "本展は、キヤノンフォトクラブ東京第1の会員による写真展です。キヤノンフォトクラブは、会員制写真サークル「キヤノンフォトサークル」の全国各地の会員が各地域で集い、写真展や撮影会などを行う自主運営のコミュニティーです。キヤノンフォトクラブ東京第1は「自然風景」を撮影テーマとして写真家・三輪薫氏監修の下で活動をしており、会員がそれぞれの作風に合わせ「和紙」「画材紙」「マット紙」「光沢紙」など、風合いの異なるさまざまな用紙で表現した作品を50点展示します。",
       "medium": "photo",
@@ -81670,8 +81728,17 @@
       "id": "f3ce131552a2",
       "source": "tokyo_art_beat",
       "title": "柿本ケンサク 「いつでもいま – ガラスに映す光」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "카키모토 켄사쿠 「이츠데모 이마 – 가라스니 우츠스 히카리」",
+          "description": "도쿄 다이칸야마의 gallery ON THE HILL은 2026년 9월 23일(수·공휴일)부터 10월 4일(일)까지 다이칸야마 힐사이드 테라스 힐사이드 포럼에서 카키모토 켄사쿠 사진전 『이츠데모 이마 – 가라스니 우츠스 히카리』를 개최합니다. 영화, 드라마, 광고 영상을 제작하는 한편 국내외에서 사진 및 현대 미술 작품을 발표하고 있는 카키모토 켄사쿠는 2016년 다이칸야마 힐사이드 테라스에서 열린 전시 『TRANSLATOR』를 통해 사진작가로 데뷔했습니다. 2021년에는 『TRANSFORMATION』에서 시간과 기억을 둘러싼 실험으로 나아갔습니다. 그리고 2026년 9월, 세 번째로 같은 장소로 돌아와 미시마 리츠에의 투명한 유리를 통해 사진을 '빛의 기억'으로 업데이트합니다.\n\n본 전시에서는 사진과 유리라는 두 가지 다른 매체를 통해 '고정'과 '유동', '정착'과 '융해', '점'과 '선'의 긴장 관계를 다룹니다. 점으로 정착된 빛이 선으로 시간 속으로 풀려나고, 융해된 기억이 보는 사람 안에서 다시 상을 맺습니다. 이는 이 순간에만 생겨나는 대화의 장이 됩니다. 카키모토 켄사쿠는 미시마 리츠에의 유리 10점을 빛을 그리기 위한 렌즈로 사용했습니다. 유리의 위치를 몇 밀리미터 움직이고 각도를 바꾸면서 통과하는 빛을 포착했습니다. 눈앞의 풍경을 그대로 담아내는 것이 아니라, 빛이나 우연과 대화하며 셔터를 누름으로써 시간의 흐름이나 계절의 공기, 신체의 흔들림, 유리의 개체 차이가 기억의 흔적으로 사진 속에 남아 있습니다. 사진과 유리라는 다른 매체가 교차하며 만들어낸 빛을 꼭 감상해 주십시오.\n\n[관련 이벤트]\n아티스트 토크\n일시: 2026년 10월 3일 16:00~17:30\n등단자: 카키모토 켄사쿠 (사진작가·영상작가), 미시마 리츠에 (아티스트), 아사쿠라 미카 (gallery ON THE HILL)\n장소: 다이칸야마 힐사이드 테라스 힐사이드 포럼 도쿄도 시부야구 사루가쿠초 18-8 힐사이드 테라스 F동 1F\n요금: 1000엔 (사전 신청 필수)\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "\"Kensaku Kakimoto 「Itsudemo Ima – Garasu ni Utsusu Hikari」\"",
+          "description": "gallery ON THE HILL in Daikanyama, Tokyo, will hold the Kensaku Kakimoto Photo Exhibition 『Itsudemo Ima – Garasu ni Utsusu Hikari』 at Daikanyama Hillside Terrace Hillside Forum from September 23 (Wednesday, holiday) to October 4 (Sunday), 2026. Kensaku Kakimoto, who works on films, dramas, and commercial videos while also presenting photography and contemporary art works both domestically and internationally, began his career as a photographer in 2016 with the exhibition 『TRANSLATOR』 at Daikanyama Hillside Terrace. In 2021, he advanced to an experiment exploring time and memory with 『TRANSFORMATION』. Then, in September 2026, he returns to the same location for the third time, updating photography as \"memories of light\" through Ritsue Mishima's transparent glass.\n\nThis exhibition explores the tension between \"fixation\" and \"fluidity,\" \"setting\" and \"melting,\" and \"points\" and \"lines\" through the two different media of photography and glass. Light fixed as points unravels into time as lines, and melted memories form images again within the viewer. This creates a space for dialogue that can only arise in this moment. Kensaku Kakimoto used 10 pieces of Ritsue Mishima's glass as lenses to depict light. By moving the glass a few millimeters and changing its angle, he captured the passing light. Instead of simply capturing the scene in front of him, by pressing the shutter while interacting with light and chance, the flow of time, the atmosphere of the season, the sway of the body, and the individual differences of the glass are preserved in the photographs as traces of memory. Please come and see the light created by the intersection of these different media: photography and glass.\n\n[Related Event]\nArtist Talk\nDate: October 3, 2026, 16:00–17:30\nSpeakers: Kensaku Kakimoto (Photographer/Filmmaker), Ritsue Mishima (Artist), Mika Asakura (gallery ON THE HILL)\nVenue: Daikanyama Hillside Terrace Hillside Forum, 1F, Hillside Terrace F-building, 18-8 Sarugaku-cho, Shibuya-ku, Tokyo\nFee: 1000 yen (advance registration required)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/e551ee0b/04_kensakukakimoto_Hikari_2026.jpg",
       "description": "東京代官山のgallery ON THE HILLは、2026年9月23日（水・祝）から10月4日（日）まで、代官山ヒルサイドテラス・ヒルサイドフォーラムにて『いつでもいま – ガラスに映す光』柿本ケンサク写真展を開催いたします。映画、ドラマ、広告映像を手がける一方、国内外で写真・現代美術作品を発表している柿本ケンサクは2016年、代官山ヒルサイドテラスにおける展示『TRANSLATOR』にて写真家として出発。2021年には『TRANSFORMATION』にて時間と記憶をめぐる実験へと進みました。そして2026年9月、三たび同じ場所に戻り、三嶋りつ恵の透明なガラスを通して写真を「光の記憶」として更新します。\n\n本展では、写真とガラスという二つの異なるメディアを通して、「固定」と「流動」、「定着」と「融解」、「点」と「線」の緊張関係を扱います。点として定着した光が線として時間へとほどけ、融解した記憶が見る者の中で再び像を結ぶ。この瞬間にしか生まれない対話の場となります。柿本ケンサクは、三嶋りつ恵の10点のガラスを光を描くためのレンズとして用いました。ガラスの位置を数ミリ動かし、角度を変えながら、通過する光を捉えました。目の前の風景をそのまま写し取るのではなく、光や偶然と対話しながらシャッターを押すことで、時間の流れや季節の空気、身体の揺れ、ガラスの個体差が、記憶の痕跡として写真の中に残されています。写真とガラスという異なるメディアが交わることで生まれた光をぜひご覧ください。\n\n[関連イベント]\nアーティストトーク\n日時: 2026年10月3日16:00〜17:30\n登壇者: 柿本ケンサク（写真家・映像作家）、三嶋りつ恵（アーティスト）、朝倉美佳（gallery ON THE HILL）\n会場: 代官山ヒルサイドテラス・ヒルサイドフォーラム 東京都渋谷区猿楽町18-8 ヒルサイドテラスF棟 1F\n料金: 1000円（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -81717,8 +81784,17 @@
       "id": "0f9f7d2214da",
       "source": "tokyo_art_beat",
       "title": "柿本ケンサク 「いつでもいま」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "카키모토 켄사쿠 「이츠데모 이마」",
+          "description": "LUMIX BASE TOKYO에서는 『이츠데모 이마 – 가라스니 우츠스 히카리』 카키모토 켄사쿠 사진전과 연동하여 LUMIX L10으로 촬영된 작품들로 구성된 사진전을 개최합니다. 본 전시에서는 힐사이드 포럼과는 다른 작품들을 통해 카키모토 씨가 LUMIX L10과 함께 만들어낸 새로운 표현을 감상하실 수 있습니다."
+        },
+        "en": {
+          "title": "\"Kensaku Kakimoto 「Itsudemo Ima」\"",
+          "description": "LUMIX BASE TOKYO will hold a photo exhibition featuring works shot with LUMIX L10, in conjunction with the Kensaku Kakimoto Photo Exhibition 『Itsudemo Ima – Garasu ni Utsusu Hikari』. At this exhibition, you can see new expressions created by Mr. Kakimoto with the LUMIX L10, through a different set of works than those at the Hillside Forum."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/bfcaad2a/09_kensakukakimoto_Hikari_2026.jpg",
       "description": "LUMIX BASE TOKYOでは、『いつでもいま – ガラスに映す光』柿本ケンサク写真展と連動し、LUMIX L10で撮影された作品による写真展を開催します。本展ではヒルサイドフォーラムとは異なる作品群を通して、柿本氏がLUMIX L10とともに生み出した新たな表現をご覧いただけます。",
       "medium": "photo",
@@ -82244,8 +82320,17 @@
       "id": "b2b8b8fcc26c",
       "source": "tokyo_art_beat",
       "title": "「周縁からの眺め Viewing from the periphery」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「주변부에서 바라보기 Viewing from the periphery」",
+          "description": "나고야 성하마을 주변부에 위치한 나고야시 히가시구(햐쿠닌초・도쿠가와・아카츠카초)를 장소로 하여 젊은 작가 5인의 전시회를 개최합니다. 모두 도보 거리에 있는 고택을 활용한 두 개의 갤러리와 에도 시대의 마치야로 이루어진 세 곳의 전시장을 둘러보며 마을과 작품을 그 주변부에서 바라봄으로써 새로운 지역의 매력과 사람들과의 만남, 깨달음이 분명 있을 것입니다. 또한, 각 작가의 작품들도 사물을 중심으로 파악하는 것이 아니라 일상 속에 숨어있는 위화감, 기억, 풍경, 관계성 등에 주목하여 감상자에게 새로운 시각을 제공할 것입니다. 전시 기간 중에는 관련 이벤트를 개최하여 다양한 사람들이 교차하고 오가는 만남과 교류의 장을 조성합니다. 이번 전시회에서는 예술을 통한 새로운 사람들의 모임과 그곳에서 보이는 새로운 지역의 매력 창조를 시도합니다.\n\n장소: MOMO GALLERY, 도쿠가와 고민가 갤러리 유이 -MUSUBI-, 쿠마노야 마치야 문화 클럽\n\n[관련 이벤트]\n1. 아티스트 토크 ①\n일시: 2026년 9월 27일 15:00〜17:00\n등단자: 사오토메 카오루, 데구치 카야노\n장소: MOMO GALLERY\n2. 아티스트 토크 ②\n일시: 2026년 9월 27일 16:00〜17:00\n등단자: 센바 미즈키, 니시오 아키노, 무라카미 카이\n장소: 도쿠가와 고민가 갤러리 유이 -MUSUBI-\n3. DANCE\n일시: 2026년 10월 3일, 10월 4일 17:00〜\n장소: 도쿠가와 고민가 갤러리 유이 -MUSUBI-\n요금: 2000엔\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "「Viewing from the periphery」",
+          "description": "The exhibition will be held in Higashi Ward, Nagoya City (Hyakunin-chō, Tokugawa, Akatsuka-chō), located on the periphery of Nagoya Jōkamachi, featuring five young artists. By visiting three venues—two galleries utilizing old folk houses and one machiya from the Edo period, all within walking distance—and viewing the town and artworks from their periphery, visitors are sure to discover new local charms, encounters with people, and insights. Furthermore, the works of each artist, rather than approaching things from a central perspective, focus on the subtle discomforts, memories, landscapes, and relationships hidden in everyday life, offering viewers new perspectives. During the exhibition period, related events will be held to create opportunities for diverse people to meet, interact, and exchange ideas. This exhibition attempts to foster new gatherings of people through art and to create new local attractions visible from these interactions.\n\nVenues: MOMO GALLERY, Tokugawa Kominka Gallery Yui -MUSUBI-, Kumanoya Machiya Bunka Kurabu\n\n[Related Events]\n1. Artist Talk ①\nDate & Time: September 27, 2026, 15:00〜17:00\nSpeakers: Kaoru Saotome, Kayano Deguchi\nVenue: MOMO GALLERY\n2. Artist Talk ②\nDate & Time: September 27, 2026, 16:00〜17:00\nSpeakers: Mizuki Senba, Akino Nishio, Kai Murakami\nVenue: Tokugawa Kominka Gallery Yui -MUSUBI-\n3. DANCE\nDate & Time: October 3 & 4, 2026, 17:00〜\nVenue: Tokugawa Kominka Gallery Yui -MUSUBI-\nAdmission: 2000 yen\n※Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/827605bb/flyer_0828_omote.jpg",
       "description": "名古屋城下町の周縁に位置する名古屋市東区（百人町・徳川・赤塚町）を会場とし、若手アーティスト5名による展覧会を開催します。いずれも徒歩圏内にある、古民家を活用した二つのギャラリー、江戸時代の町屋からなる三会場を巡り、街や作品をその周縁から眺めることにより、新たな地域の魅力や人との出会い、気づきがきっとあるはずです。また、それぞれのアーティストの作品も、物事を中心から捉えるのではなく、日常の中に潜む違和感、記憶、風景、関係性などに目を向け、鑑賞者に新たな視座をもたらすものとなるでしょう。会期中には関連イベントを開催し、様々な人が交差し、行き来する出会いや交流の場を創出します。この展覧会では、アートを介した新たな人の集まりと、そこから見える新たな地域の魅力の創造を試みます。\n\n会場：MOMO GALLERY、徳川古民家ギャラリー結 -MUSUBI-、熊野屋町屋文化倶楽部\n\n[関連イベント]\n1. アーティストトーク①\n日時: 2026年9月27日15:00〜17:00\n登壇者: 五月女かおる、でぐちかやの\n会場: MOMO GALLERY\n2. アーティストトーク②\n日時: 2026年9月27日16:00〜17:00\n登壇者: 仙波瑞姫、西尾秋乃、村上可威\n会場: 徳川古民家ギャラリー結 -MUSUBI-\n3. DANCE\n日時: 2026年10月3日、10月4日17:00〜\n会場: 徳川古民家ギャラリー結 -MUSUBI-\n料金: 2000円\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -82315,8 +82400,17 @@
       "id": "c5d4a05d9c06",
       "source": "tokyo_art_beat",
       "title": "萩原博之 「私は知りたい I want to know」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "하기와라 히로유키 「나는 알고 싶다 I want to know」",
+          "description": "이번에 igno...book plus에서는 처음으로 개인전, 하기와라 히로유키 사진전 「나는 알고 싶다 I want to know」를 개최합니다. 본 전시에서는 2025년 2월에 발간된 사진집 「나는 알고 싶다 I want to know」에 대해 새롭게 수작업으로 인화한 컬러 프린트 작품들을 전시합니다."
+        },
+        "en": {
+          "title": "Hiroyuki Hagiwara 「I want to know」",
+          "description": "igno...book plus will host its first solo exhibition, the Hiroyuki Hagiwara Photo Exhibition 'I want to know.' This exhibition will feature newly hand-printed color works from the photo book 'I want to know,' published in February 2025."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/1f2f7b32/image0.jpeg",
       "description": "この度、igno...book plusでは初めてとなる個展、萩原博之 写真展「私は知りたい I want to know」を開催致します。本展では、2025年2月に刊行した写真集「私は知りたい I want to know」について、新たに手焼きカラープリントした作品を展示致します。",
       "medium": "photo",
@@ -82362,8 +82456,17 @@
       "id": "8056836666c7",
       "source": "tokyo_art_beat",
       "title": "河鍋暁斎 「『暁斎が住まう湯島』－描かれた神仏と寺社への思い－」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "카와나베 쿄사이 「『쿄사이가 살았던 유시마』－그려진 신불과 사찰에 대한 마음－」",
+          "description": "카와나베 쿄사이가 유시마 지역에 오랫동안 거주했던 점에 주목하여, 쿄사이와 인연이 있는 시설의 소장품을 포함하여 전시합니다. 사찰에 봉헌된 문화재로서, 특히 신불에 대한 마음을 전합니다.\n\n[관련 이벤트]\n「쿄사이와 인연이 있는 곳을 둘러보는 가이드 투어」\n일시: 2026년 11월 중순\n주최: 분쿄구 관광협회 주최\n※이벤트 상세 내용은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Kawanabe Kyōsai 「『Yushima, Where Kyōsai Lived』—Thoughts on Deities, Buddhas, and Temples Depicted」",
+          "description": "Focusing on Kawanabe Kyōsai's long residence in the Yushima area, the exhibition will include works from facilities associated with Kyōsai. As cultural properties dedicated to temples and shrines, we convey his particular thoughts on deities and Buddhas.\n\n[Related Event]\n「Guided Tour of Places Associated with Kyōsai」\nDate: Mid-November 2026\nOrganizer: Bunkyo City Tourism Association\n※Please check the official website for event details."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/3909f183/01%E3%83%81%E3%83%A9%E3%82%B7%EF%BC%88%E8%A1%A8%EF%BC%892.6%20-%20%E6%B8%A1%E8%BE%BA%E7%9B%B4%20(1).jpg",
       "description": "河鍋暁斎が湯島地域に長く住んだことに着目し、暁斎に所縁ある施設の所蔵を含めて展示を致します。寺社への奉納した文化財として、特に神仏への思いをお伝えします。\n\n[関連イベント]\n「暁斎所縁の地を巡るガイドツアー」\n日時: 2026年11月中旬\n主催: 文京区観光協会主催\n※イベント詳細は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -82409,8 +82512,17 @@
       "id": "e4a8d98cf849",
       "source": "tokyo_art_beat",
       "title": "「滅びの美 -伍ノ廃-」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「멸망의 미 -오노하이-」",
+          "description": "\"마음에 와닿는 폐허\"가 분명 있을 것입니다. 2019년부터 개최되어 이번이 5회째를 맞는 폐허 예술 그룹전. 총 18팀의 작가가 디지털 사진, 필름 사진, 디오라마, 그래픽 아트, 영상, 생성 AI, 항공 촬영, 수중 촬영, 인물 사진, VR 등 다채로운 폐허 작품과 상품을 선보입니다."
+        },
+        "en": {
+          "title": "「Beauty of Ruin -Go no Hai-」",
+          "description": "There will surely be \"ruins that resonate with you.\" This group exhibition of ruin-themed art, held since 2019, is now in its fifth iteration. A total of 18 artists will showcase a wide variety of ruin-themed works, including digital photography, film photography, dioramas, graphic art, videos, generative AI, aerial photography, underwater photography, portraits, and VR, along with merchandise."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/f832b7c0/%E5%87%9B%E6%B9%AF%20-%20Masaki%20KAWATA.jpg",
       "description": "\"刺さる廃墟\"がきっとある。2019年から開催され今回で5回目を迎える廃墟系アートのグループ展。総勢18組の作家がデジタル写真、フイルム写真、ジオラマ、グラフィックアート、動画、生成AI、空撮、水中撮影、ポートレート、VRなど多種多様な廃墟作品と物販を披露する。",
       "medium": "mixed",
@@ -82449,8 +82561,17 @@
       "id": "89242068d0bf",
       "source": "tokyo_art_beat",
       "title": "足立涼 「I Want To Check The Shape Of Trees」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "아다치 료 「I Want To Check The Shape Of Trees」",
+          "description": "사진가 아다치 료의 사진집 「I Want To Check The Shape Of Trees」 출판에 맞춰, 동명의 전시회를 Art Space & Cafe Barrack와 ON READING에서 동시 개최합니다.\n\n작년 말 출판된 이 사진집은 2020년 이후 다양한 세계적 사건과 개인 환경의 변화 등을 거쳐 드러난 '집 안'과 '밖'이라는 서로 다른 두 공간, 그리고 그에 따른 '타자'와 '개인'의 관계성을 주제로 구성되었습니다. 사진집 발매에 맞춰 전시회를 개최함에 있어, 사진집이 가진 '집과 밖, 타자와 개인의 관계성'이라는 위 주제에 호응하도록 전시회와 사진집이 단절 없이 연결되고, 사진집을 구성하는 공간적 연속성과 사건들을 3차원 전시 공간에 두 회장 각각 다른 접근 방식으로 전개하고자 합니다.\n\n[관련 이벤트]\n토크 이벤트\n일시: 2026년 10월 3일 17:00~\n등단자: 아다치 료 (사진가), 카노 다이스케 (그래픽 디자이너), 히라이 아키라 (카토 분메이샤/atelier gray 프린팅 디렉터)\n장소: ON READING\n요금: 무료\n※이벤트 상세 내용은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Adachi Ryo 「I Want To Check The Shape Of Trees」",
+          "description": "With the publication of photographer Ryo Adachi's photobook \"I Want To Check The Shape Of Trees,\" an exhibition of the same title will be held simultaneously at Art Space & Cafe Barrack and ON READING.\n\nThe photobook, published late last year, was structured around the theme of the relationship between \"inside the home\" and \"outside\" – two distinct spaces that became apparent through various global events and changes in individual environments since 2020 – and furthermore, the relationship between \"others\" and \"the individual\" that accompanies them. In conjunction with the release of the photobook, and in order to hold the exhibition, we aim to seamlessly connect the exhibition and the photobook, allowing the exhibition to resonate with the photobook's theme of \"the relationship between home and outside, others and the individual.\" We will attempt to unfold the spatial continuity and events that constitute the photobook into a 3-dimensional exhibition space, with different approaches at each of the two venues.\n\n[Related Events]\nTalk Event\nDate & Time: October 3, 2026, 17:00~\nSpeakers: Ryo Adachi (Photographer), Daisuke Kano (Graphic Designer), Akira Hirai (Kato Bunmeisha/atelier gray Printing Director)\nVenue: ON READING\nAdmission: Free\n*Please check the official website for event details."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/e7070809/01_RyoAdachi_DM%20-%20%E8%B6%B3%E7%AB%8B%E6%B6%BC%20(1).jpg",
       "description": "写真家・足立涼の写真集「I Want To Check The Shape Of Trees」の出版に伴い、同タイトルの展覧会をArt Space & Cafe BarrackとON READINGにて同時開催します。\n\n昨年末に出版した同写真集は、2020年以降の様々な世界的な事象や個人の環境の変化などを経て顕在化した「家の中」と「外」という異なる二つの空間同士、さらにそれに伴う「他者」と「個人」の関係性をテーマとして構成した写真集でした。写真集の発売に合わせて展覧会を開催するにあたり、写真集が持つ「家と外、他者と個人との関係性」という上記のテーマに呼応するように、展覧会と写真集が断絶なく接続され、写真集を構成する空間的な連なりや事象を3次元の展示空間に、2会場それぞれ異なったアプローチで展開することを試みます。\n\n[関連イベント]\nトークイベント\n日時: 2026年10月3日17:00〜\n登壇者: 足立涼（写真家）、加納大輔（グラフィックデザイナー）、平井彰（加藤文明社/atelier gray プリンティングディレクター）\n会場: ON READING\n料金: 無料\n※イベント詳細は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -82496,8 +82617,17 @@
       "id": "9bbba99c3d00",
       "source": "tokyo_art_beat",
       "title": "足立涼 「I Want To Check The Shape Of Trees」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "아다치 료 「I Want To Check The Shape Of Trees」",
+          "description": "사진가 아다치 료의 사진집 「I Want To Check The Shape Of Trees」 출판에 맞춰, 동명의 전시회를 Art Space & Cafe Barrack와 ON READING에서 동시 개최합니다.\n\n작년 말 출판된 이 사진집은 2020년 이후 다양한 세계적 사건과 개인 환경의 변화 등을 거쳐 드러난 '집 안'과 '밖'이라는 서로 다른 두 공간, 그리고 그에 따른 '타자'와 '개인'의 관계성을 주제로 구성되었습니다. 사진집 발매에 맞춰 전시회를 개최함에 있어, 사진집이 가진 '집과 밖, 타자와 개인의 관계성'이라는 위 주제에 호응하도록 전시회와 사진집이 단절 없이 연결되고, 사진집을 구성하는 공간적 연속성과 사건들을 3차원 전시 공간에 두 회장 각각 다른 접근 방식으로 전개하고자 합니다.\n\n[관련 이벤트]\n토크 이벤트\n일시: 2026년 11월 28일 15:00~\n등단자: 아다치 료 (사진가), 쿠로다 요시타카 (ON READING 점주)\n장소: Art Space & Cafe Barrack\n요금: 무료 (1인 1음료 주문 필수) (정원 15명) (사전 예약 필수)\n※이벤트 상세 내용 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Adachi Ryo 「I Want To Check The Shape Of Trees」",
+          "description": "With the publication of photographer Ryo Adachi's photobook \"I Want To Check The Shape Of Trees,\" an exhibition of the same title will be held simultaneously at Art Space & Cafe Barrack and ON READING.\n\nThe photobook, published late last year, was structured around the theme of the relationship between \"inside the home\" and \"outside\" – two distinct spaces that became apparent through various global events and changes in individual environments since 2020 – and furthermore, the relationship between \"others\" and \"the individual\" that accompanies them. In conjunction with the release of the photobook, and in order to hold the exhibition, we aim to seamlessly connect the exhibition and the photobook, allowing the exhibition to resonate with the photobook's theme of \"the relationship between home and outside, others and the individual.\" We will attempt to unfold the spatial continuity and events that constitute the photobook into a 3-dimensional exhibition space, with different approaches at each of the two venues.\n\n[Related Events]\nTalk Event\nDate & Time: November 28, 2026, 15:00~\nSpeakers: Ryo Adachi (Photographer), Yoshitaka Kuroda (ON READING owner)\nVenue: Art Space & Cafe Barrack\nAdmission: Free (1 drink order required) (Capacity: 15 people) (Reservation required)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/b2dd7771/01_RyoAdachi_DM%20-%20%E8%B6%B3%E7%AB%8B%E6%B6%BC.jpg",
       "description": "写真家・足立涼の写真集「I Want To Check The Shape Of Trees」の出版に伴い、同タイトルの展覧会をArt Space & Cafe BarrackとON READINGにて同時開催します。\n\n昨年末に出版した同写真集は、2020年以降の様々な世界的な事象や個人の環境の変化などを経て顕在化した「家の中」と「外」という異なる二つの空間同士、さらにそれに伴う「他者」と「個人」の関係性をテーマとして構成した写真集でした。写真集の発売に合わせて展覧会を開催するにあたり、写真集が持つ「家と外、他者と個人との関係性」という上記のテーマに呼応するように、展覧会と写真集が断絶なく接続され、写真集を構成する空間的な連なりや事象を3次元の展示空間に、2会場それぞれ異なったアプローチで展開することを試みます。\n\n[関連イベント]\nトークイベント\n日時: 2026年11月28日15:00〜\n登壇者: 足立涼（写真家）、黒田義隆（ON READING店主）\n会場: Art Space & Cafe Barrack\n料金: 無料（要1ドリンクオーダー）（定員15名）（要予約）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -82543,8 +82673,17 @@
       "id": "ecb41e3902af",
       "source": "tokyo_art_beat",
       "title": "「水を守る―千川家と千川上水の330年―」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「물을 지키다―센카와 가문과 센카와 상수 330년―」",
+          "description": "겐로쿠 9년(1696년), 에도 막부는 5대 쇼군 도쿠가와 쓰나요시의 오나리 고텐인 고이시카와 고텐 등에 물을 공급하기 위해 다마가와 상수에서 분수하는 센카와 상수를 개착했습니다. 그 공사를 맡은 것이 센카와 가문입니다. 센카와 상수는 에도의 무가 저택과 사찰, 신사 등에 물을 보냈고, 이윽고 수로를 따라 마을 논밭을 적시는 용수로도 이용되었습니다. 본 전시에서는 네리마구 지정 문화재 「센카와 가문 문서」 등을 통해 센카와 상수 개착, 용수 관리, 막부 말기・메이지 시대의 변화, 그리고 센카와 가문이 관리에서 벗어나기까지의 발자취를 소개합니다. 고문서와 그림 지도, 옛 사진, 지도를 통해 지역의 삶을 지탱한 물과 그것을 계속 지켜온 사람들의 발자취를 꼭 현장에서 확인해 주십시오.\n\n[관련 행사]\n1. 강연회 「에도의 상수도 인프라―센카와 상수 개착과 운영―」\n일시: 2026년 9월 22일 14:00~16:00\n강연자: 오이시 마나부 (시즈오카시 역사박물관 관장)\n장소: 샤쿠지이 공원 후루사토 문화관 1층 다목적 회의실\n2. 현장 학습 「센카와 상수를 걷다」\n일시: 2026년 10월 25일 9:30~12:00\n강연자: 네리마구립 샤쿠지이 공원 후루사토 문화관 학예사\n장소: 세이부 신주쿠선 가미이구사역\n요금: 50엔 (사전 신청 필수)\n3. 전시 해설회\n일시: 2026년 9월 27일, 10월 21일 14:00~\n장소: 샤쿠지이 공원 후루사토 문화관 2층 기획 전시실\n※행사 상세 내용 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "“Protecting Water: The Senkawa Family and the Senkawa Aqueduct's 330 Years”",
+          "description": "In Genroku 9 (1696), the Edo Shogunate constructed the Senkawa Aqueduct, branching off from the Tamagawa Aqueduct, to supply water to the Koishikawa Goten and other residences, including the Onari Goten of the 5th Shogun, Tokugawa Tsunayoshi. The Senkawa family undertook this construction. The Senkawa Aqueduct supplied water to samurai residences, temples, and shrines in Edo, and eventually was also used as irrigation water for the rice paddies in villages along its route. This exhibition introduces the history of the Senkawa Aqueduct, from its construction and water management to the changes during the late Edo and Meiji periods, and the Senkawa family's eventual departure from its management, based on materials such as the \"Senkawa Family Documents,\" a Nerima City Designated Cultural Property. Through ancient documents, illustrated maps, old photographs, and maps, please come and see the history of the water that supported local life and the people who continued to protect it.\n\n[Related Events]\n1. Lecture: \"Edo's Water Supply Infrastructure: The Construction and Operation of the Senkawa Aqueduct\"\nDate & Time: September 22, 2026, 14:00-16:00\nSpeaker: Manabu Oishi (Director, Shizuoka City Museum of History)\nVenue: Multipurpose Conference Room, 1F, Shakujii Park Furusato Bunka-kan\n2. Fieldwork: \"Walking the Senkawa Aqueduct\"\nDate & Time: October 25, 2026, 9:30-12:00\nSpeaker: Curator, Nerima City Shakujii Park Furusato Bunka-kan\nVenue: Kami-Igusa Station on the Seibu Shinjuku Line\nFee: 50 yen (Advance registration required)\n3. Exhibition Talk\nDate & Time: September 27, October 21, 2026, 14:00-\nVenue: Special Exhibition Room, 2F, Shakujii Park Furusato Bunka-kan\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/b9e262ba/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-09-10%2010.18.22.png",
       "description": "元禄9（1696）年、江戸幕府は５代将軍徳川綱吉の御成御殿である小石川御殿などへ水を届けるため、玉川上水から分水する千川上水を開削しました。その工事を請け負ったのが、千川家です。千川上水は、江戸の武家屋敷や寺社などへ水を送り、やがて流路沿いの村々の田を潤す用水としても利用されました。本展では、練馬区指定文化財「千川家文書」などから、千川上水の開削、用水管理、幕末・明治の変化、そして千川家が管理を離れるまでの歩みを紹介します。古文書や絵図、古写真、地図を通じて、地域の暮らしを支えた水と、それを守り続けた人たちの歩みを、ぜひ会場でご覧ください。\n\n[関連イベント]\n1. 講演会「江戸の上水インフラ―千川上水の開削と運営―」\n日時: 2026年9月22日14:00〜16:00\n登壇者: 大石学（静岡市歴史博物館館長）\n会場: 石神井公園ふるさと文化館1階 多目的会議室\n2. フィールドワーク「千川上水を歩く」\n日時: 2026年10月25日9:30〜12:00\n登壇者: 練馬区立石神井公園ふるさと文化館学芸員\n会場: 西武新宿線上井草駅\n料金: 50円（要事前申込み）\n3. 展示解説会\n日時: 2026年9月27日、10月21日14:00〜\n会場: 石神井公園ふるさと文化館2階 企画展示室\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -82583,8 +82722,17 @@
       "id": "b7d5f531cfd8",
       "source": "tokyo_art_beat",
       "title": "「中西夏之 緩やかにみつめるためにいつまでも佇む、装置」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「나카니시 나쓰유키 천천히 응시하기 위해 영원히 머무는, 장치」",
+          "description": "전후 일본을 대표하는 화가 나카니시 나쓰유키(1935-2016)의 사후 첫 회고전을 개최합니다. 나카니시는 도쿄 예술대학 회화과를 졸업한 후, 날카로운 회화와 오브제로 주목받았고, 이후 다카마쓰 지로, 아카세가와 겐페이와 함께 전위 미술가 집단 「하이레드 센터」를 결성하여 도쿄 시내에서 실험적인 퍼포먼스를 펼쳤습니다. 그 후 무용가 히지카타 다쓰미 등과의 협업을 거쳐 1960년대 후반부터 회화 제작을 재개합니다. 「예술」 그 자체를 재고한 끝에 도달한, 화가와 회화가 존재하는 장소에 대한 깊은 사유를 바탕으로, 긴 자루의 붓으로 그리는 독자적인 기법으로 보라색과 황록색을 기조로 하는 수많은 연작을 탄생시켰습니다. 그것들은 나카니시가 회화의 본질에 대해 기록한 말 「천천히 응시하기 위해 영원히 머무는, 장치」가 시사하듯이, 작품과 마주하는 풍요로운 시간에 잠기도록 감상자를 이끌어줍니다. 본 전시에서는 약 75점의 회화와 오브제, 드로잉, 사진 등 다채로운 자료, 그리고 이바라키・롯카쿠도를 모티프로 한 설치 작품 《착륙과 착수 XIV 이즈라 해안》(2013)의 “재생”을 통해 나카니시의 반세기에 걸친 창작 궤적을 되돌아봅니다."
+        },
+        "en": {
+          "title": "“Natsuyuki Nakanishi: A Device to Linger Forever, to Gaze Gently”",
+          "description": "We are holding the first posthumous retrospective exhibition of Natsuyuki Nakanishi (1935-2016), a leading painter of post-war Japan. After graduating from the Department of Painting at Tokyo University of the Arts, Nakanishi gained attention for his avant-garde paintings and objects. He then formed the avant-garde artist group \"Hi-Red Center\" with Jirō Takamatsu and Genpei Akasegawa, staging experimental performances in the streets of Tokyo. Subsequently, after collaborating with dancer Tatsumi Hijikata and others, he resumed painting in the late 1960s. Based on deep reflections on the place of the painter and painting, which he arrived at after re-examining \"art\" itself, he created numerous series of works, primarily in purple and yellow-green, using a unique technique of painting with long-handled brushes. As suggested by Nakanishi's words on the nature of painting, \"A Device to Linger Forever, to Gaze Gently,\" these works invite viewers to immerse themselves in a rich time spent engaging with the art. This exhibition looks back at Nakanishi's half-century of creative trajectory through approximately 75 paintings and objects, diverse materials such as drawings and photographs, and the \"recreation\" of his installation \"Landing and Alighting XIV: Izura Coast\" (2013), which takes Ibaraki's Rokkaku-dō as its motif."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/c3c8b483/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-09-10%2010.02.16.png",
       "description": "戦後日本を代表する画家・中西夏之（1935-2016）の、没後初の回顧展を開催します。中西は東京藝術大学絵画科を卒業後、先鋭的な絵画やオブジェで注目されたのち、高松次郎や赤瀬川原平とともに前衛美術家集団「ハイレッド・センター」を結成し、東京の街中で実験的なパフォーマンスを繰り広げました。その後、舞踏家・土方巽らとの協働を経て、1960年代後半から絵画制作を再開します。「芸術」そのものを問い直した上でたどりついた、画家と絵画の存在する場所についての深い思考に基づき、長い柄の筆で描く独自の手法で、紫や黄緑を基調とする数々の連作を生み出しました。それらは、中西が絵画のありようについて記した言葉「緩やかにみつめるためにいつまでも佇む、装置」が示唆するとおり、作品と向き合う豊かな時間に浸るよう鑑賞者を誘います。本展では、約75点の絵画やオブジェと、ドローイング、写真などの多彩な資料、さらに茨城・六角堂をモチーフとするインスタレーション《着陸と着水 XIV 五浦海岸》(2013)の“再生”により、中西の半世紀におよぶ創作の軌跡を振り返ります。",
       "medium": "photo",
@@ -86008,8 +86156,15 @@
       "venue": {
         "id": "eaf5b1f791bd",
         "name": "南アルプス市立美術館",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "남알프스 시립미술관"
+          },
+          "en": {
+            "name": "Minami Alps Municipal Museum of Art"
+          }
+        },
         "region": "山梨県",
         "district": null,
         "lat": 35.61693,
@@ -86055,8 +86210,15 @@
       "venue": {
         "id": "1fabcdfd3cf4",
         "name": "岡山県立美術館",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "오카야마 현립미술관"
+          },
+          "en": {
+            "name": "Okayama Prefectural Museum of Art"
+          }
+        },
         "region": "岡山県",
         "district": null,
         "lat": 34.667927313972214,
@@ -86088,8 +86250,15 @@
       "venue": {
         "id": "fdcfb213236e",
         "name": "金津創作の森美術館",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "가나즈 소사쿠노모리 미술관"
+          },
+          "en": {
+            "name": "Kanazu Sosaku no Mori Museum of Art"
+          }
+        },
         "region": "福井県",
         "district": null,
         "lat": 36.23055,
@@ -86200,8 +86369,15 @@
       "venue": {
         "id": "7309ddc1177f",
         "name": "Paik Ground Seoul Museum of Art",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "백그라운드 서울 뮤지엄 오브 아트"
+          },
+          "ja": {
+            "name": "パイク・グラウンド ソウル・ミュージアム・オブ・アート"
+          }
+        },
         "region": "서울",
         "district": null,
         "lat": null,
@@ -86280,8 +86456,15 @@
       "venue": {
         "id": "2e6284b90891",
         "name": "スパイラル",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "스파이럴"
+          },
+          "en": {
+            "name": "Spiral"
+          }
+        },
         "region": "表参道、青山",
         "district": null,
         "lat": 35.6637697853656,
@@ -86552,8 +86735,15 @@
       "venue": {
         "id": "0ebcfadbf0ff",
         "name": "岡山シティミュージアム",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "오카야마 시티 뮤지엄"
+          },
+          "en": {
+            "name": "Okayama City Museum"
+          }
+        },
         "region": "岡山県",
         "district": null,
         "lat": 34.66651,
@@ -86585,8 +86775,15 @@
       "venue": {
         "id": "4687f076189d",
         "name": "写真企画室 ホトリ",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "사진기획실 호토리"
+          },
+          "en": {
+            "name": "Shashin Kikakushitsu Hotori"
+          }
+        },
         "region": "浅草橋、馬喰町",
         "district": null,
         "lat": 35.6994713597767,
@@ -86649,8 +86846,15 @@
       "venue": {
         "id": "a534fd8924ca",
         "name": "Cyg art gallery（シグアートギャラリー）",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "Cyg art gallery (시그 아트 갤러리)"
+          },
+          "en": {
+            "name": "Cyg art gallery"
+          }
+        },
         "region": "岩手県",
         "district": null,
         "lat": 39.70039,
@@ -86689,8 +86893,15 @@
       "venue": {
         "id": "075882738785",
         "name": "Gallery Nomart（ギャラリーノマル）",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "Gallery Nomart (갤러리 노말)"
+          },
+          "en": {
+            "name": "Gallery Nomart"
+          }
+        },
         "region": "大阪府",
         "district": null,
         "lat": 34.68258566343129,
@@ -86736,8 +86947,15 @@
       "venue": {
         "id": "d3207f3c8c56",
         "name": "小海町高原美術館",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "고우미마치 고원미술관"
+          },
+          "en": {
+            "name": "Koumi-machi Kogen Bijutsukan"
+          }
+        },
         "region": "長野県",
         "district": null,
         "lat": 36.05943372278252,
@@ -97654,8 +97872,15 @@
     {
       "id": "eaf5b1f791bd",
       "name": "南アルプス市立美術館",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "남알프스 시립미술관"
+        },
+        "en": {
+          "name": "Minami Alps Municipal Museum of Art"
+        }
+      },
       "venue_type": "other",
       "region": "山梨県",
       "district": null,
@@ -97668,8 +97893,15 @@
     {
       "id": "1fabcdfd3cf4",
       "name": "岡山県立美術館",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오카야마 현립미술관"
+        },
+        "en": {
+          "name": "Okayama Prefectural Museum of Art"
+        }
+      },
       "venue_type": "other",
       "region": "岡山県",
       "district": null,
@@ -97682,8 +97914,15 @@
     {
       "id": "fdcfb213236e",
       "name": "金津創作の森美術館",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "가나즈 소사쿠노모리 미술관"
+        },
+        "en": {
+          "name": "Kanazu Sosaku no Mori Museum of Art"
+        }
+      },
       "venue_type": "other",
       "region": "福井県",
       "district": null,
@@ -97696,8 +97935,15 @@
     {
       "id": "7309ddc1177f",
       "name": "Paik Ground Seoul Museum of Art",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "백그라운드 서울 뮤지엄 오브 아트"
+        },
+        "ja": {
+          "name": "パイク・グラウンド ソウル・ミュージアム・オブ・アート"
+        }
+      },
       "venue_type": "museum",
       "region": "서울",
       "district": null,
@@ -97710,8 +97956,15 @@
     {
       "id": "2e6284b90891",
       "name": "スパイラル",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "스파이럴"
+        },
+        "en": {
+          "name": "Spiral"
+        }
+      },
       "venue_type": "other",
       "region": "表参道、青山",
       "district": null,
@@ -97724,8 +97977,15 @@
     {
       "id": "0ebcfadbf0ff",
       "name": "岡山シティミュージアム",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오카야마 시티 뮤지엄"
+        },
+        "en": {
+          "name": "Okayama City Museum"
+        }
+      },
       "venue_type": "other",
       "region": "岡山県",
       "district": null,
@@ -97738,8 +97998,15 @@
     {
       "id": "4687f076189d",
       "name": "写真企画室 ホトリ",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "사진기획실 호토리"
+        },
+        "en": {
+          "name": "Shashin Kikakushitsu Hotori"
+        }
+      },
       "venue_type": "other",
       "region": "浅草橋、馬喰町",
       "district": null,
@@ -97752,8 +98019,15 @@
     {
       "id": "a534fd8924ca",
       "name": "Cyg art gallery（シグアートギャラリー）",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "Cyg art gallery (시그 아트 갤러리)"
+        },
+        "en": {
+          "name": "Cyg art gallery"
+        }
+      },
       "venue_type": "gallery",
       "region": "岩手県",
       "district": null,
@@ -97766,8 +98040,15 @@
     {
       "id": "075882738785",
       "name": "Gallery Nomart（ギャラリーノマル）",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "Gallery Nomart (갤러리 노말)"
+        },
+        "en": {
+          "name": "Gallery Nomart"
+        }
+      },
       "venue_type": "gallery",
       "region": "大阪府",
       "district": null,
@@ -97780,8 +98061,15 @@
     {
       "id": "d3207f3c8c56",
       "name": "小海町高原美術館",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "고우미마치 고원미술관"
+        },
+        "en": {
+          "name": "Koumi-machi Kogen Bijutsukan"
+        }
+      },
       "venue_type": "other",
       "region": "長野県",
       "district": null,
@@ -114124,44 +114412,93 @@
     {
       "id": "7536e2d09145",
       "name": "森高千里",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "모리타카 치사토"
+        },
+        "en": {
+          "name": "Chisato Moritaka"
+        }
+      }
     },
     {
       "id": "1fc424e076a7",
       "name": "安野ともこ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "안노 토모코"
+        },
+        "en": {
+          "name": "Tomoko Anno"
+        }
+      }
     },
     {
       "id": "7b9befe8b94e",
       "name": "箭内道彦",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "야나이 미치히코"
+        },
+        "en": {
+          "name": "Michihiko Yanai"
+        }
+      }
     },
     {
       "id": "d9679bb012c2",
       "name": "山川修一",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "야마카와 슈이치"
+        },
+        "en": {
+          "name": "Yamakawa Shuichi"
+        }
+      }
     },
     {
       "id": "52c330a351fe",
       "name": "山川希衣子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "야마카와 키에코"
+        },
+        "en": {
+          "name": "Yamakawa Kieko"
+        }
+      }
     },
     {
       "id": "fe54fcad2523",
       "name": "山岸ケン",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "야마기시 켄"
+        },
+        "en": {
+          "name": "Yamagishi Ken"
+        }
+      }
     },
     {
       "id": "ea68e70be0a4",
       "name": "山口あかね",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "야마구치 아카네"
+        },
+        "en": {
+          "name": "Yamaguchi Akane"
+        }
+      }
     },
     {
       "id": "c3cedf73fe3a",
