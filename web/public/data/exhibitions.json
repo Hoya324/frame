@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T20:43:37.930465+00:00",
+  "generated_at": "2026-09-30T22:02:50.987234+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -41223,7 +41223,7 @@
       "price_max": null,
       "start_date": "2026-09-30",
       "end_date": "2027-01-17",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ebe6d0623fa0",
@@ -66153,7 +66153,7 @@
       "price_max": null,
       "start_date": "2026-08-17",
       "end_date": "2026-09-29",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "0c280c625181",
@@ -75711,7 +75711,7 @@
       "price_max": null,
       "start_date": "2026-09-03",
       "end_date": "2026-09-29",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "d14fcdc7e328",
@@ -82652,7 +82652,7 @@
       "price_max": null,
       "start_date": "2026-09-30",
       "end_date": "2026-10-05",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "838c559a265c",
@@ -91443,6 +91443,401 @@
       },
       "artists": [],
       "source_url": "https://topmuseum.jp/exhibition/5425/",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f488fef39fcc",
+      "source": "gallery_now",
+      "title": "<예기치 못한 손님 An Unexpected Guest> 김연수 개인전",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://blogthumb.pstatic.net/MjAyNjA5MzBfMTQg/MDAxNzkwNzU3MTIyODAz.lkWD0T-Vhxc9xEsWIpLT1cSZ-aftcUFOnzory8Zk6AEg.wzlvEfCIh7P_vsIIeZLo_dDs6wL1g7ZrI9q-HszD6Xsg.JPEG/%BA%B8%C0%CC%C1%F6%BE%CA%B4%C2%BC%FB%B0%E1_2026_OilonCanvas_130x190cm.jpg?type=s3",
+      "description": null,
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-28",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "b3002506ba4c",
+        "name": "gallery NoW",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "gallery NoW"
+          },
+          "ja": {
+            "name": "gallery NoW"
+          }
+        },
+        "region": "서울",
+        "district": null,
+        "lat": 37.5227599286117,
+        "lng": 127.034970463533
+      },
+      "artists": [],
+      "source_url": "https://blog.naver.com/gallerynow/224427325846",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "319bdb6c22d4",
+      "source": "gallery_tosei",
+      "title": "Maciej Herman写真展",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/jpg/EXHIBITIONS/PAST/2026/2610/2610.jpg",
+      "description": "Maciej Herman�ｼ医�槭メ繧ｧ繧､繝ｻ繝倥Ν繝槭Φ)蜀咏悄螻�縲� 縲�縲�縲�縲�縲�縲�縲�縲� 縲�縲� NAOCZNO - 逶ｮ謦�閠�- 2026蟷ｴ9譛�29譌･�ｼ育↓�ｼ峨�� 10譛�11譌･�ｼ域律�ｼ峨��菴懷ｮｶ逡･豁ｴ\n\n繧ｼ繝ｩ繝√Φ繧ｷ繝ｫ繝舌�ｼ繝励Μ繝ｳ繝�\n\nCopyright (c) Maciej Herman All Rights Reserved",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-11",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "1ab862183c75",
+        "name": "Gallery Tosei",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Gallery Tosei"
+          },
+          "ja": {
+            "name": "Gallery Tosei"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.6986456,
+        "lng": 139.6628774
+      },
+      "artists": [],
+      "source_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/html/EXHIBITIONS/j_2610_Maciej%20Herman.html",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "4e0d8c6cdb5a",
+      "source": "tokyo_art_beat",
+      "title": "増山士郎 「世界の果てで、動物と対話する」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/96647c93/ShiroMASUYAMA_PressImage%20-%20Masuyama%20Shiro.jpg",
+      "description": "Art Center NEWでは5日間の特別企画として、増山士郎の回顧展「世界の果てで、動物と対話する」を開催いたします。増山は世界各地のアーティスト・イン・レジデンスを渡り歩きながら、現地の人々を巻き込んだ、場に根ざしたプロジェクトを展開してきました。ダブリンのアイルランド近代美術館、そして2009年にベルファストのFlax Art Studiosでレジデンス滞在したことをきっかけに、2010年からは、紛争の影響が今も残る英国・北アイルランドで、唯一の在住日本人ビジュアル・アーティストとして活動を続けています。本回顧展では、増山の多様な活動の中でもとりわけ人気の高い、「動物」をテーマに世界各地で実現した作品群に焦点を当てます。\n\n増山は2011年の東日本大震災以降、世界で急速に進むグローバリゼーションや、日本や西欧における現代の生活様式に深い疑問を抱くようになりました。そこで、世界各地の現地の人々と動物を巻き込みながら、消費主義の広がりによって衰退しつつある伝統的な動物繊維の技術を用いて、アイルランドの羊（2012）、ペルーのアルパカ（2014）、モンゴルのラクダ（2015）、北極圏（米国アラスカ、グリーンランド）のジャコウウシ（2023）による4つのシリーズ作品「Self Sufficient Life」を実現しました。本展では、「札幌国際芸術祭SIAF2024」の公募プロジェクトの一環として札幌のCAI03で開催され好評を得た同名の個展でも披露した、「Self Sufficient Life」の4作と、アイルランドのハエ（2016）、タイの鶏（2017）、キプロスのロバ（2022）、インドの象（2023）の計8作品に加え、日本初公開となる2作品を展示します。ヨーロッパでは流通していない猫用の嗜好品・またたびを、北アイルランドとウィーンの市場で布教すべく行商したプロジェクト「またたび」（2024）と、フランスでトリュフ探しのために訓練される伝統的な豚と現代的な犬を比較する2チャンネル・ビデオ作品「並行する過去と現在——トリュフを探して」（2026）です。合計10作品を一堂に披露します。\n\n動物という、多くの観客にとって親しみやすいモチーフを扱いながらも、作品には各国の社会情勢への鋭い視点や、現代に生きる私たちへの問いかけが込められており、示唆に富んだ展覧会となるでしょう。会期中の11月21日（土）には、長年にわたり増山の展覧会評を書いてきた評論家・福住廉氏との対談を開催します。また本展にあわせて、過去24年間・世界42か所におよぶアーティスト・イン・レジデンスの滞在記をまとめた自叙伝を出版予定です。11月22日（日）には、本書の編集を担当したArt-Phil／monade contemporary｜単子現代のF.アツミ氏との対談による出版記念イベントも開催します。2つの対談を除き、展覧会は入場無料です。ぜひ多くの皆さまにお越しいただければ幸いです。\n\n[関連イベント]\n1. 評論家トーク\n日時: 2026年11月21日15:00〜16:00\n定員: 50名\n料金: 1000円\n2. 出版記念トーク\n日時: 2026年11月22日15:00〜16:00\n定員: 50名\n料金: 1000円\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-24",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "cc5c0d6982da",
+        "name": "Art Center NEW",
+        "lang": null,
+        "tr": {},
+        "region": "神奈川県",
+        "district": null,
+        "lat": 35.46182266532946,
+        "lng": 139.62658379364012
+      },
+      "artists": [
+        {
+          "id": "6ae0cdabda20",
+          "name": "増山士郎",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Shiro-Masuyama-Talking-to-the-Animals-in-the-End-of-the-World/art-center-new/2026-11-20",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "e653cd5fa7d6",
+      "source": "tokyo_art_beat",
+      "title": "中村晃 「現相 GENSŌ」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/41134866/AN_return.jpeg",
+      "description": "Art Gallery M84は、2026年11月17日（火）より中村晃写真展『現相 GENSŌ』を開催致します。今回の作品展は、Art Gallery M84の第176回目の展示として実施する個展です。写真展『現相 GENSŌ』は、自身の父親と亡くなった年齢が重なったことを一つの節目とて、「生きる」ということを改めて見つめ直した作品です。身体や卵、動植物、自然現象などを手掛かりに、生命の始まりや、受け継がれてきた命、記憶、他の生命との繋がりへと視線を向けていく。生命が形を持つ以前を彷彿とさせる深い青や、断片的に切り取られた身体、静かに佇む生命の姿。それらを通して、写真に写るものの奥にある目には見えない「生」の気配を作家なりに探った作品約19点を展示します。ニューヨーク、ロサンゼルスなど国内外で作品を発表し、近年は「Photo Vogue」にも掲載されるなど、写真表現の幅を広げてきた中村晃の世界を、ぜひ会場でご覧ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-17",
+      "end_date": "2026-11-29",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "8882c8060b40",
+        "name": "Art Gallery M84",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Art Gallery M84"
+          },
+          "ja": {
+            "name": "Art Gallery M84"
+          }
+        },
+        "region": "銀座、丸の内",
+        "district": null,
+        "lat": 35.6701700910944,
+        "lng": 139.76835191558408
+      },
+      "artists": [
+        {
+          "id": "5165969e0243",
+          "name": "中村晃",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Akira-Nakamura-Genso/D6-FE8782/2026-11-17",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "9d187f3423bc",
+      "source": "tokyo_art_beat",
+      "title": "ヨウコ・グロゴウスキー 展",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/8826d65b/%E2%91%A3yoko_main_Athens_7121.jpg",
+      "description": "京都写真美術館2階展示室にて、2026年11月17日（火）から11月22日（日）まで、ヨウコ•グロゴウスキー写真作品展Vol-3を開催します。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-17",
+      "end_date": "2026-11-22",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "54c1740b50d0",
+        "name": "京都写真美術館 ギャラリー・ジャパネスク",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "교토 사진 미술관 갤러리 재패네스크"
+          },
+          "en": {
+            "name": "Kyoto Museum of Photography Gallery Japanesque"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.009916818776944,
+        "lng": 135.78263679265976
+      },
+      "artists": [
+        {
+          "id": "3b0c4784d208",
+          "name": "ヨウコ・グロゴウスキー",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yoko-Glogowsky-Exhibition/kyoto-museum-of-photography-gallery-japanesque/2026-11-17",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "96275d84d2ed",
+      "source": "tokyo_art_beat",
+      "title": "本山周平 「月光」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/847d84f0/%E3%83%AB%E3%83%BC%E3%83%8B%E3%82%A3%E6%9C%AC%E5%B1%B1%E6%A7%98.jpg",
+      "description": "本山氏が初めてカメラを手にした時、ノストラダムスの大予言なるものが流行し、街は世紀末的気配に満ち溢れていました。街のなかへと溶け込んで、眼に映るモノ全てを写真にしようと意気込む日々。2000年代初頭に連続展として発表された写真冊子『SM TABLOID』から続いていた東京のナイトシーンを含め、夜祭や地方都市の夜の断片が約70点展示されます。本展覧会と同タイトルの写真集「月光」の装丁を担当された加藤勝也氏をお招きしてトークイベントを開催いたします。今回出版された作品が本になるまでのお話をお伺いします。\n\n[関連イベント]\nギャラリートーク「写真集ができるまで」\n日時: 2026年10月17日18:00〜19:00\n登壇者: 加藤勝也、本山周平\n会場: ルーニィ 247 ファインアーツ\n料金: 無料（事前予約優先）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-25",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "018b6124fde6",
+        "name": "ルーニィ 247 ファインアーツ",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "루니 247 파인아츠"
+          },
+          "en": {
+            "name": "Rooney 247 Fine Arts"
+          }
+        },
+        "region": "浅草橋、馬喰町",
+        "district": null,
+        "lat": 35.692819870905694,
+        "lng": 139.77994191009685
+      },
+      "artists": [
+        {
+          "id": "20a081ab3f3e",
+          "name": "本山周平",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Shuhei-Motoyama-Exhibition/6694-D683/2026-10-14",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "eba16f8f9889",
+      "source": "tokyo_art_beat",
+      "title": "岩崎吾郎 「心象 チベット」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-08/c5976e3f/%E2%91%A2Main_Iwasaki1.jpg",
+      "description": "京都写真美術館 ギャラリー・ジャパネスク 2階展示室にて、2026年10月13日（火）から10月25日（日）まで、岩崎吾郎 写真展「心象 チベット」を開催します。\n「チベット」という言葉は様々な意味やイメージにつながる。「チベット高地」、「チベット自治区」、「チベット民族」、「チベット仏教」。それらはひとつことではなく、確かで明らかな定義あるわけではなく、ときには重なりながら拡がり、しかし時には厳密な意味をもって場所や、時代、視点を指し示している。深く知るほどにそこがチベットの魅力と気付く。今回はいくつかの聖地や巡礼地での「祈るすがた」を通して、圧倒的な自然と、その中で長い時間をかけて紡がれてきた歴史と暮らしを描いた。ここだからこそ、その祈るすがたに必然を感じる。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-13",
+      "end_date": "2026-10-25",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "54c1740b50d0",
+        "name": "京都写真美術館 ギャラリー・ジャパネスク",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "교토 사진 미술관 갤러리 재패네스크"
+          },
+          "en": {
+            "name": "Kyoto Museum of Photography Gallery Japanesque"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.009916818776944,
+        "lng": 135.78263679265976
+      },
+      "artists": [
+        {
+          "id": "dcf7a86ac557",
+          "name": "岩崎吾郎",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Goro-Iwasaki-Exhibiton/kyoto-museum-of-photography-gallery-japanesque/2026-10-13",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "1e628639cb80",
+      "source": "tokyo_art_beat",
+      "title": "西村知己 「隻鳧（せきふ）」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/49d4b647/065_%E8%A5%BF%E6%9D%91%E7%9F%A5%E5%B7%B3%E5%B1%95_0912_%E5%85%A5%E7%A8%BF%E5%BE%8C%E4%BF%AE%E6%AD%A302-564x800.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-25",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "597d1c3872e5",
+        "name": "照恩寺",
+        "lang": null,
+        "tr": {},
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.73977,
+        "lng": 139.4905
+      },
+      "artists": [
+        {
+          "id": "2ed2d4daf34b",
+          "name": "西村知己",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Tomomi-Nishimura-Exhibition/shouonji-temple/2026-10-08",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "4bd7cd59327f",
+      "source": "tokyo_art_beat",
+      "title": "西田航 「未名景 — BEFORE MEANING」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/1d1f51d9/MIMEIKEI_PRESS_01_WataruNishida.jpg",
+      "description": "写真家・西田航は、2026年11月18日から23日まで、東京・恵比寿のAmerica-Bashi Galleryにて新作個展『未名景 — BEFORE MEANING』を開催し、同名写真集を発表します。本作では「見ることは、意味づけることより先にある。」という考えを起点に、人物、建物、道路、植物、光や反射など、像は明確でありながら意味が一つに定まりきらない都市の風景を見つめます。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "838c559a265c",
+        "name": "America-Bashi Gallery（アメリカ橋ギャラリー）",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "America-Bashi Gallery (아메리카바시 갤러리)"
+          },
+          "en": {
+            "name": "America-Bashi Gallery (America-Bashi Gallery)"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.64332200748064,
+        "lng": 139.7114891844791
+      },
+      "artists": [
+        {
+          "id": "cecb1d03ce64",
+          "name": "西田航",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Wataru-Nishida-Before-Meaning/F92841-BF/2026-11-18",
       "featured": false,
       "popularity_score": null
     }
@@ -102142,6 +102537,34 @@
       "country": "JP",
       "lat": 35.66204174873168,
       "lng": 139.6989780513043,
+      "website": null
+    },
+    {
+      "id": "cc5c0d6982da",
+      "name": "Art Center NEW",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "神奈川県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.46182266532946,
+      "lng": 139.62658379364012,
+      "website": null
+    },
+    {
+      "id": "597d1c3872e5",
+      "name": "照恩寺",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "武蔵野、多摩",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.73977,
+      "lng": 139.4905,
       "website": null
     }
   ],
@@ -125433,6 +125856,48 @@
     {
       "id": "0fe76d3bd875",
       "name": "松井正子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6ae0cdabda20",
+      "name": "増山士郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5165969e0243",
+      "name": "中村晃",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3b0c4784d208",
+      "name": "ヨウコ・グロゴウスキー",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "20a081ab3f3e",
+      "name": "本山周平",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "dcf7a86ac557",
+      "name": "岩崎吾郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2ed2d4daf34b",
+      "name": "西村知己",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "cecb1d03ce64",
+      "name": "西田航",
       "lang": null,
       "tr": {}
     }
