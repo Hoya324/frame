@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T19:06:39.136598+00:00",
+  "generated_at": "2026-10-01T22:54:00.150899+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -78703,7 +78703,7 @@
       "price_max": null,
       "start_date": "2026-09-01",
       "end_date": "2026-09-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "320fd688dcc3",
@@ -78752,7 +78752,7 @@
       "price_max": null,
       "start_date": "2026-09-01",
       "end_date": "2026-09-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "320fd688dcc3",
@@ -78801,7 +78801,7 @@
       "price_max": null,
       "start_date": "2026-09-16",
       "end_date": "2026-09-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "a99c05f8f3ec",
@@ -80730,7 +80730,7 @@
       "price_max": null,
       "start_date": "2026-09-18",
       "end_date": "2026-09-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "23129cff8bfd",
@@ -83176,7 +83176,7 @@
       "price_max": null,
       "start_date": "2026-09-10",
       "end_date": "2026-09-30",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2b026f949fc5",
@@ -85657,7 +85657,7 @@
       "price_max": null,
       "start_date": "2026-10-01",
       "end_date": "2026-10-15",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "a99c05f8f3ec",
@@ -85994,7 +85994,7 @@
       "price_max": null,
       "start_date": "2026-10-01",
       "end_date": "2026-10-12",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5d573a079256",
@@ -86050,7 +86050,7 @@
       "price_max": null,
       "start_date": "2026-10-01",
       "end_date": "2027-02-28",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "64da213bfd00",
@@ -86724,7 +86724,7 @@
       "price_max": null,
       "start_date": "2026-10-01",
       "end_date": "2027-03-31",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "20a327dfbcf7",
@@ -87364,7 +87364,7 @@
       "price_max": null,
       "start_date": "2026-10-01",
       "end_date": "2026-10-04",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "212a5c18fcd0",
@@ -87633,7 +87633,7 @@
       "price_max": null,
       "start_date": "2026-10-01",
       "end_date": "2026-10-19",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "238fe96014e5",
@@ -88890,7 +88890,7 @@
       "price_max": null,
       "start_date": "2026-10-01",
       "end_date": "2026-12-28",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "c15fb8bc2960",
@@ -89916,7 +89916,7 @@
       "price_max": null,
       "start_date": "2026-10-01",
       "end_date": "2026-12-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "54c1740b50d0",
@@ -90665,7 +90665,7 @@
       "price_max": null,
       "start_date": "2026-10-01",
       "end_date": "2027-02-21",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "faeea2eef0cd",
@@ -91252,7 +91252,7 @@
       "price_max": null,
       "start_date": "2026-10-01",
       "end_date": "2026-11-01",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ccea32f45898",
@@ -91838,6 +91838,640 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Wataru-Nishida-Before-Meaning/F92841-BF/2026-11-18",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "c14485632eb2",
+      "source": "fujifilm_square",
+      "title": "幕末明治を写した記録写真 Photographs of the Late Edo / Early Meiji Period ～フジフイルム スクエア 写真歴史博物館 収蔵品より～",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://fujifilmsquare.jp/assets/img/photo_event_261101_05_mv.jpg",
+      "description": "幕末から明治時代の初期にかけて日本各地を写した記録写真は「横浜写真」と呼ばれています。幕末に来日した英国人のフェリーチェ・ベアトは、日本各地の風景や人物を撮影し、1864年に横浜で営業写真館を開業、その時販売した外国人向けの解説文付き写真アルバムが、「横浜写真」アルバムのはじまりです。「横浜写真」は来日外国人の土産用として人気が高く、その後は、日本人の写真家たちが競って日本各地の風景、風俗を撮影し、「横浜写真」アルバムにして販売しました。 「横浜写真」アルバムは、蒔絵（まきえ）や螺鈿（らでん）を施した漆塗りの豪華な木製表紙に、四切サイズ程度のモノクロの鶏卵紙に人工彩色した、50枚から100枚の写真を装丁しています。その豪華な作りから、西洋の写真文化と日本の伝統工芸が融合した和洋折衷の美術工芸品と呼び、現在では、写真の記録的価値、文化的価値が改めて見直されています。 本展では、「横浜写真」アルバムの写真から選りすぐりの当社収蔵作品、約40点を展示します。約150年前の日本の風景、建物、生活、人物をお楽しみください。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-01",
+      "end_date": "2026-12-24",
+      "status": "upcoming",
+      "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
+      "venue": {
+        "id": "d8d9c7e67b31",
+        "name": "フジフイルム スクエア",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "후지필름 스퀘어"
+          },
+          "en": {
+            "name": "Fujifilm Square"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.665607,
+        "lng": 139.7304444
+      },
+      "artists": [],
+      "source_url": "https://fujifilmsquare.jp/exhibition/261101_05.html",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "403541a8ea6c",
+      "source": "tokyo_art_beat",
+      "title": "「第51回 翠嵐会美術展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/ba9f71dc/40e39b24c53f32470aa635f08a935844.jpeg",
+      "description": "このたびHideharu Fukasaku Gallery & Museum（FEI ART MUSEUM YOKOHAMA）では、神奈川県立横浜翠嵐高等学校（旧 県立横浜二中）の同窓生による「翠嵐会美術展」を開催いたします。写真家 土門拳をはじめとする数多の著名人を輩出している翠嵐高校は、神奈川県有数の伝統ある進学校として知られています。長年、精力的な創作活動を続けてきたOB・OG有志による力強い作品が魅力の展覧会も、今年で51回目を迎えました。コロナ禍を経ても変わらずに多くの参加者が集い、油彩・彫刻・写真・書など、多彩な作品が会場を埋め尽くし、見応えのある展覧会となっています。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-18",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "e101149b9512",
+        "name": "Hideharu Fukasaku Gallery & Museum（FEI ART MUSEUM YOKOHAMA）",
+        "lang": null,
+        "tr": {},
+        "region": "神奈川県",
+        "district": null,
+        "lat": 35.46926596448794,
+        "lng": 139.61861860178163
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/51st-Suiran-Art-Exhibition/97929-AB9/2026-10-14",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "fe315a8b5652",
+      "source": "tokyo_art_beat",
+      "title": "「タカシマヤ クロニクル 百･華･繚･乱 第Ⅳ期：乱の時代」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/ab0e590c/chronicle4_page-0001.jpg",
+      "description": "⾼島屋の歴史は、1831(天保２)年正⽉、初代飯⽥新七が京都‧烏丸松原で古着⽊綿商「⾼島屋」を創業したことに始まります。2026(令和８)年は⾼島屋創業195周年にあたります。\n⾼島屋史料館では、創業以来の史料や美術品、呉服、広告宣伝物など、⾼島屋の歴史とともに蓄積されてきた多種多彩な品々を収蔵しています。本年は会期を４期に分け、収蔵品を通して、⾼島屋の195年をご紹介しています。\n⽇本がバブル景気に沸いた時代からその崩壊へ－。20世紀の終わり、百貨店は低成⻑を余儀なくされました。その後も、先⾏きが不透明で、複雑化の⼀途をたどる現代は、まさしく「乱」の時代といえます。本展では、インターネットの普及を背景に世の中が⼤きく変化し、⼈々の価値観の多様化が進んだ平成時代から、令和の時代を⽣き抜く⾼島屋の現在、そして来たる創業200周年に向けて、⾼島屋グループが描く未来像までをご紹介します。\n「百」「華」「繚」「乱」－各時代の⾼島屋をお楽しみいただければ幸いです。\n\n※本展は会期をⅠ‧Ⅱ部に分け、展⽰作品を⼀部⼊れ替えて構成します。\n[第Ⅰ部]10⽉10⽇(⼟)－11⽉16⽇(⽉)\n[第Ⅱ部]11⽉21⽇(⼟)－12⽉21⽇(⽉)\n※会期は変更となる場合がございます。",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-10",
+      "end_date": "2026-12-21",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "d81344293d93",
+        "name": "高島屋史料館",
+        "lang": null,
+        "tr": {},
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.66236,
+        "lng": 135.5063
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/takashimaya-archives/2026-10-10",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "1fb6b3c5eef5",
+      "source": "tokyo_art_beat",
+      "title": "Koichiro Kojima 「麻酔風景」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/af78b549/Kojima2026%E3%83%8F%E3%82%99%E3%83%8A%E3%83%BC_%E3%82%A2%E3%83%BC%E3%83%88%E3%83%9B%E3%82%99%E3%83%BC%E3%83%88%E3%82%99%201.jpg",
+      "description": "この度JITSUZAISEIでは、2026.10/10(土)-10/25(日)の期間、Koichiro Kojimaさんによる三度目の個展「麻酔風景」を開催いたします。\n実家で創業100年を超える写真館を営みながら、いわゆるオーソドックスな写真とは異なる方法で、独自の表現を追求してきたKojimaさん。特殊な被写体や支持体を用いながら、写真というメディアそのものを問い直すような作品を制作されています。\n本展では、これまで制作してきたフリッカー現象を用いた作品に加え、新たにシルクスクリーンの技法を取り入れています。イメージを映し出す「幕」でありながら、その語源には「隠す」「覆う」という相反する意味を持つ“Screen”。「見せること」と「隠すこと」の境界が曖昧になった現代のデジタル環境を背景に、Kojimaさんは今回、技法としてのスクリーンだけではなく、その言葉が持つ意味そのものを改めて捉え直します。\nこれまでの作品からさらに展開した、新たな作品群をぜひ会場でご覧ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-10",
+      "end_date": "2026-10-25",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "d69b9661ac9b",
+        "name": "JITSUZAISEI",
+        "lang": null,
+        "tr": {},
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.66934561835238,
+        "lng": 135.54829655952452
+      },
+      "artists": [
+        {
+          "id": "61d0f1e2d701",
+          "name": "Koichiro Kojima",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Koichiro-Kojima-Anesthetic-Fukei/jitsuzaisei/2026-10-10",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "207edbc38f7e",
+      "source": "tokyo_art_beat",
+      "title": "佐方晴登 「三里塚IV-土地の時間」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/1172f5d6/Sakata_800px01.jpg",
+      "description": "これまで、新東京国際空港（現・成田国際空港）の建設に対する反対運動である「三里塚闘争」をテーマとした「大きな物語の歴史」I～III（今回の展示は、このシリーズの連番として位置づけた）と、第三滑走路の増設など「成田空港の更なる機能強化」によって失われつつある農村地帯を撮影した「壊死するフウケイ」I～IIの二つのシリーズを軸に、継続的に作品を発表してきた。今回の展示では、三里塚闘争を主なテーマとしながらも、これまで作品を捉える枠組みとしてきた「大きな物語／小さな物語」からいったん離れ、三里塚（注）という土地に蓄積された歴史のレイヤーに着目した。\n\nそれは、「闘争」だけではない、この地域が歩んできた歴史である。無論、厳密な意味で「歴史のレイヤー」そのものが写真に写るわけではない。また、風景を「歴史」として解釈することは、決して中立的な行為ではなく、政治的な営みでもある。しかし、だからといって、それを避けるべきではないと考えている。歴史的な出来事は、確かにその土地で起こり、人々の記憶として蓄積され、文字や語り、イメージとして受け継がれてきた。目の前にある風景もまた、そうした歴史と切り離して捉えることはできない。だからこそ、その土地に刻まれ、蓄積されてきた歴史を無視するのではなく、写真を通してあらためて見つめ直すことを試みた。\n\n注：ここでいう「三里塚」は、現在の成田市の大字としての「三里塚」地区のみを指すものではなく、かつて三里塚闘争が繰り広げられた広い地域を指している。闘争の展開に伴い、「三里塚」という名称は、成田市南東部から芝山町北部にかけての地域を指す言葉としても用いられるようになった。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-24",
+      "end_date": "2026-11-29",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5163e693d1ea",
+        "name": "Totem Pole Photo Gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "토템 폴 포토 갤러리"
+          },
+          "ja": {
+            "name": "Totem Pole Photo Gallery"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.6901810430105,
+        "lng": 139.71638630984123
+      },
+      "artists": [
+        {
+          "id": "25a0ab04a68f",
+          "name": "佐方晴登",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Haruto-Sakata-Sanrizuka-IV-Layers-Of-Time/2-D82-C04-B/2026-11-24",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "830f655486d8",
+      "source": "tokyo_art_beat",
+      "title": "淵上裕太 「新宿」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/372ec1a9/1%20(2).jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-17",
+      "end_date": "2026-11-22",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5163e693d1ea",
+        "name": "Totem Pole Photo Gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "토템 폴 포토 갤러리"
+          },
+          "ja": {
+            "name": "Totem Pole Photo Gallery"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.6901810430105,
+        "lng": 139.71638630984123
+      },
+      "artists": [
+        {
+          "id": "505a92b96a20",
+          "name": "淵上裕太",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "후치가미 유타"
+            },
+            "en": {
+              "name": "Yuta Fuchigami"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yuta-Fuchikami-Shinjuku/2-D82-C04-B/2026-11-17",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "e92e9bb03526",
+      "source": "tokyo_art_beat",
+      "title": "新井悠史 「OVERALIVE 2」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/2f0b9e51/1%20(1).jpg",
+      "description": "「OVERALIVE」は、ときには過剰なエネルギーで生きることで様々な障壁を超越していくという、目には見えない命の力強さやしなやかさを浮かび上がらせるためのプロジェクトです。第二章となる本展も、新井悠史が制作した音楽と共にご高覧いただけます。是非ご体感ください。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-15",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5163e693d1ea",
+        "name": "Totem Pole Photo Gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "토템 폴 포토 갤러리"
+          },
+          "ja": {
+            "name": "Totem Pole Photo Gallery"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.6901810430105,
+        "lng": 139.71638630984123
+      },
+      "artists": [
+        {
+          "id": "0882fd3cd9fe",
+          "name": "新井悠史",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "아라이 유시"
+            },
+            "en": {
+              "name": "Arai Yushi"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yushi-Arai-Overalive-2/2-D82-C04-B/2026-11-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "bcc07b72b0fb",
+      "source": "tokyo_art_beat",
+      "title": "小島康敬 「中今 | ベルリン」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/8e73311b/01.jpg",
+      "description": "10月8日（木）より、THE BOOK ENDでは、小島康敬による写真展「中今 | ベルリン」を開催いたします。\n\n写真家・小島康敬が提示するのは、私たちが知る歴史や記憶から乖離し、時空間をも通り抜けたような、どこでもない「ベルリン」。最先端の量子理論や、時間と空間の中心を指す古神道の概念「中今（Naka-ima）」に着想を得て制作された本シリーズは、過去・現在・未来が同時に存在する「立体的な今」を静かに捉え引き出します。東京、ニューヨークを経てたどり着いた目線の高さによる平面的でミニマルな画面構成。特定の場所や歴史的表象を削ぎ落とした作品群は、ロラン・バルトが称した「空虚な記号」のように中心を空虚に保ち、観る者に意味の解釈をそっと委ねます。撮影された瞬間の「かつてあった」一瞬の奥に流れる時間と距離、そしてどこか静けさを纏った円環する時間の深みを、ぜひ会場でご体感ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-08",
+      "end_date": "2026-11-09",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "82f20bbfb3dd",
+        "name": "THE BOOK END",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "THE BOOK END"
+          },
+          "ja": {
+            "name": "THE BOOK END"
+          }
+        },
+        "region": "兵庫県",
+        "district": null,
+        "lat": 34.68592,
+        "lng": 135.1868
+      },
+      "artists": [
+        {
+          "id": "ca1442c24b42",
+          "name": "小島康敬",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yasutaka-Kojima-Naka-Ima-Berlin/the-book-end/2026-10-08",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "15cc23fc4b7f",
+      "source": "tokyo_art_beat",
+      "title": "サンティアゴ・リアニョ 「72-0 / 霧の向こうへ（Seventy Second and Zero）」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/5e347d97/Seventy%20Second%20and%20Zero%20Poster.jpeg",
+      "description": "GALLERY ETHERでは、2026年10月8日（木）から10月15日（木）まで、コロンビア・ボゴタを拠点に活動するアーティスト、サンティアゴ・リアニョ（Santiago Riaño）による日本初の個展「72-0 / 霧の向こうへ（Seventy Second and Zero）」を開催いたします。\n\n本展の着想源となったのは、ボゴタ郊外の自然保護区「ラ・クンブレラ」です。都市と山の境界に位置し、ボゴタの街を見渡すことのできるこの場所を、リアニョの父はかつて冗談まじりに「72-0」と呼んでいました。リアニョはこの名前を、都市の喧騒と山の静寂の間に立ち、「すべてに先立ち、静かに見守るもの」として捉えています。日本で初めての個展となる本展では、世代を超えて受け継がれてきた写真を中心に、さまざまな転写技法を用いた作品や、自然の中から採取した、その場所に由来する陶片を取り入れた作品を展示します。リアニョは「死」を、移行しながらもなお残り続ける状態として捉え、物質や記憶を通して「目に見えるもの」と「目に見えないもの」の境界を探究してきました。本展では、摩耗や時間の痕跡を宿した素材を用いながら、すでにそこには存在しないものと、今なお私たちの前に残り続けるものとの対話を提示します。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-15",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "6ddef654bbc6",
+        "name": "Gallery Ether（ギャラリーイーサ）",
+        "lang": null,
+        "tr": {},
+        "region": "六本木、乃木坂",
+        "district": null,
+        "lat": 35.659378467766594,
+        "lng": 139.7238341096666
+      },
+      "artists": [
+        {
+          "id": "f11dab891b7c",
+          "name": "サンティアゴ・リアニョ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Santiago-Riano-72-0-Seventy-Second-And-Zero/2586-C481/2026-10-08",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "0e664024e18c",
+      "source": "tokyo_art_beat",
+      "title": "「つくる女性の100年」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/68ae95e2/%E2%98%85women100years_A4_260804_ol_page-0001.jpg",
+      "description": "女性の表現者たちのおよそ100年の歩みをたどる展覧会です。道を切りひらいた作家から現代を生きる作家まで、教育環境や表現手段、ライフスタイル等の変化に注目しつつ、幅広く紹介します。表現方法や制作背景はそれぞれに異なりますが、手を動かし思考を重ね、何かを生み出す姿勢は、すべての出展作家に共通して見出すことができます。本展は、性別を問わず現代を生きるすべての人々に、創造力と表現する勇気を示してくれることでしょう。",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2027-01-09",
+      "end_date": "2027-03-22",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "fefebd7d53e1",
+        "name": "大阪中之島美術館",
+        "lang": null,
+        "tr": {},
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.69220289428225,
+        "lng": 135.49178938426974
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Creative-Woman-in-Japan-Paving-the-Way-for-100-Years/nakanoshima-museum-of-art-osaka/2027-01-09",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "ab839380863d",
+      "source": "tokyo_art_beat",
+      "title": "「写真、その複数形 〜写真をめぐるいくつもの入口」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/476741c4/b403dfbbf62f9ba2b650d154261be93e%20-%20XIAOYING%20GUO.jpeg",
+      "description": "武蔵野美術大学映像学科菅沼比呂志ゼミでは、「写真、その複数形 〜 写真をめぐるいくつもの入口」展を開催いたします。菅沼ゼミには、学部4年生から大学院、博士課程で合計22名の学生がおります。年齢は21歳から35歳まで幅広く、また、海外からの留学生が15人います。大学で写真を学び始めた人、大学ではデザイン等他の領域を学び、大学院から本格的に写真を学び始めた人、大学を卒業後、社会に出て仕事をしてから、あらためて大学院で写真を学び始めた人などキャリアも様々です。\n\nこうした様々な価値観をもった22名の学生たちが、それぞれの写真作品を作っています。いずれもが写真を学び考えるため22通りの入口を作って、その世界を押し広げようとしています。入口はあっても出口が用意されているのか、入ったら迷路になっているのか、その先は分かりませんが、覚悟を持ってチャレンジしているはずです。SNSでは、生成AIで作られたイメージが飛び交う時代に、カメラを持ってこの世界と対峙しています。それぞれの世界をじっくりご覧いただき、忌憚のないご意見ご感想を、お寄せいただければ嬉しいです。\n\n会期中、10月3日（土）には評論家のきりとりめでる氏を、10月4日（日）には写真家の野口里佳氏をお招きし、学生たちの作品に講評をいただくトークイベントも開催する予定です。あわせてお楽しみください。\n\n[関連イベント]\nトークイベント①\n日時: 10月3日（土）13:00〜14:30\n出演: きりとりめでる（批評家）\n定員: 15人\nトークイベント②\n日時: 10月4日（日）13:00〜14:30\n出演: 野口里佳 （写真家）\n定員: 10人\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-26",
+      "end_date": "2026-10-04",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "fe321df86458",
+        "name": "1/M（イチエム）",
+        "lang": null,
+        "tr": {},
+        "region": "市ヶ谷、神楽坂",
+        "district": null,
+        "lat": 35.692898490629595,
+        "lng": 139.73563583069225
+      },
+      "artists": [
+        {
+          "id": "3627c0b36f2f",
+          "name": "天辰碩文",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "85cebe6f8ced",
+          "name": "郭暁頴",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "99c6946a17e3",
+          "name": "葛苡辰",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "2556563785f7",
+          "name": "神田侑",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "dbc482b09058",
+          "name": "魏昕",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "51b9df9b91c8",
+          "name": "黃逸",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "66cc9db1d9ac",
+          "name": "小藤田花怜",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "404a662884f7",
+          "name": "邵一靜",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e91525dd9615",
+          "name": "朱予墨",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "12b469f1ef06",
+          "name": "翟健瑋",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "94c6cf8c3f71",
+          "name": "張欣予",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "088243179c37",
+          "name": "張時哲",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "7aff17f64ce9",
+          "name": "Chen Elton",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d47854eeb097",
+          "name": "陳泓毅",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a403f1734fae",
+          "name": "寺井雅也",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e05b58b3cdf3",
+          "name": "鄧瀟宇",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e8b819c5774f",
+          "name": "内藤翼",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "3b42c1f013dd",
+          "name": "平岩歩乃果",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "7263afe2468b",
+          "name": "松尾侑音",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1a149ef341bc",
+          "name": "楊磊",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d10696fbccb8",
+          "name": "李藝豪",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a26478ec7af5",
+          "name": "劉宇軒",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Many-Ways-Into-Photography/1-M/2026-09-26",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "48e54b13ac81",
+      "source": "tokyo_art_beat",
+      "title": "とも吉 「なんてことない毎日、」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/f0af951a/image001.jpg",
+      "description": "[関連イベント]\nギターの生演奏\n日時: 2026年10月4日、10月10日17:00〜\n出演: 吉上恭太\n会場: OGU MAG\n料金: 無料（事前申込み不要）\n※イベント詳細は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-11",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "10849331c937",
+        "name": "OGU MAG",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "OGU MAG"
+          },
+          "ja": {
+            "name": "OGU MAG"
+          }
+        },
+        "region": "東京：その他",
+        "district": null,
+        "lat": 35.74187638979451,
+        "lng": 139.76654576374148
+      },
+      "artists": [
+        {
+          "id": "2681cdb56706",
+          "name": "とも吉",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Tomokichi-Ordinary-Days/504-CB5-A2/2026-10-01",
       "featured": false,
       "popularity_score": null
     }
@@ -102565,6 +103199,90 @@
       "country": "JP",
       "lat": 35.73977,
       "lng": 139.4905,
+      "website": null
+    },
+    {
+      "id": "e101149b9512",
+      "name": "Hideharu Fukasaku Gallery & Museum（FEI ART MUSEUM YOKOHAMA）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "museum",
+      "region": "神奈川県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.46926596448794,
+      "lng": 139.61861860178163,
+      "website": null
+    },
+    {
+      "id": "d81344293d93",
+      "name": "高島屋史料館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "大阪府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.66236,
+      "lng": 135.5063,
+      "website": null
+    },
+    {
+      "id": "d69b9661ac9b",
+      "name": "JITSUZAISEI",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "大阪府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.66934561835238,
+      "lng": 135.54829655952452,
+      "website": null
+    },
+    {
+      "id": "6ddef654bbc6",
+      "name": "Gallery Ether（ギャラリーイーサ）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "六本木、乃木坂",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.659378467766594,
+      "lng": 139.7238341096666,
+      "website": null
+    },
+    {
+      "id": "fefebd7d53e1",
+      "name": "大阪中之島美術館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "大阪府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.69220289428225,
+      "lng": 135.49178938426974,
+      "website": null
+    },
+    {
+      "id": "fe321df86458",
+      "name": "1/M（イチエム）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "市ヶ谷、神楽坂",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.692898490629595,
+      "lng": 139.73563583069225,
       "website": null
     }
   ],
@@ -125898,6 +126616,162 @@
     {
       "id": "cecb1d03ce64",
       "name": "西田航",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "61d0f1e2d701",
+      "name": "Koichiro Kojima",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "25a0ab04a68f",
+      "name": "佐方晴登",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f11dab891b7c",
+      "name": "サンティアゴ・リアニョ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3627c0b36f2f",
+      "name": "天辰碩文",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "85cebe6f8ced",
+      "name": "郭暁頴",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "99c6946a17e3",
+      "name": "葛苡辰",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2556563785f7",
+      "name": "神田侑",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "dbc482b09058",
+      "name": "魏昕",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "51b9df9b91c8",
+      "name": "黃逸",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "66cc9db1d9ac",
+      "name": "小藤田花怜",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "404a662884f7",
+      "name": "邵一靜",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e91525dd9615",
+      "name": "朱予墨",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "12b469f1ef06",
+      "name": "翟健瑋",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "94c6cf8c3f71",
+      "name": "張欣予",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "088243179c37",
+      "name": "張時哲",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7aff17f64ce9",
+      "name": "Chen Elton",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d47854eeb097",
+      "name": "陳泓毅",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a403f1734fae",
+      "name": "寺井雅也",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e05b58b3cdf3",
+      "name": "鄧瀟宇",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e8b819c5774f",
+      "name": "内藤翼",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3b42c1f013dd",
+      "name": "平岩歩乃果",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7263afe2468b",
+      "name": "松尾侑音",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1a149ef341bc",
+      "name": "楊磊",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d10696fbccb8",
+      "name": "李藝豪",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a26478ec7af5",
+      "name": "劉宇軒",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2681cdb56706",
+      "name": "とも吉",
       "lang": null,
       "tr": {}
     }
