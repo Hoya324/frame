@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T09:17:06.541825+00:00",
+  "generated_at": "2026-10-01T10:48:37.845303+00:00",
   "masters": [
     {
       "id": "percival-lowell",
@@ -124,26 +124,6 @@
           }
         },
         {
-          "id": "wikimedia-125814908",
-          "title": "홍순목",
-          "year": "1884",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/%ED%99%8D%EC%88%9C%EB%AA%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/%ED%99%8D%EC%88%9C%EB%AA%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:%ED%99%8D%EC%88%9C%EB%AA%A9.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "조선 말 영의정을 지낸 홍순목의 1884년 초상 사진입니다. 격동의 한 해를 앞둔 노정치가의 모습을 차분하게 기록한 작품으로, 초기 초상 사진 특유의 정적인 긴장감이 느껴집니다. 갑신정변을 전후한 시대의 지배층을 증언하는 귀중한 인물 사료입니다.",
-          "tr": {
-            "en": {
-              "commentary": "An 1884 portrait of Hong Sun-mok, who had served as chief state councillor in late Joseon. It is a calm record of an elder statesman on the eve of a tumultuous year, carrying the still, quiet tension characteristic of early portrait photography. As testimony to the ruling class of the era around the Gapsin Coup, it is a precious documentary portrait."
-            },
-            "ja": {
-              "commentary": "朝鮮末期に領議政を務めた洪淳穆の1884年の肖像写真です。激動の一年を前にした老政治家の姿を静かに記録した作品で、初期肖像写真ならではの静謐な緊張感が漂います。甲申政変前後の時代の支配層を証言する貴重な人物史料です。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-27576120",
           "title": "홍만식 홍순목 홍영식 홍정식 외",
           "year": "1884",
@@ -160,6 +140,26 @@
             },
             "ja": {
               "commentary": "1884年、領議政を務めた洪淳穆と、洪万植・洪英植らその一族をともに収めた集合肖像です。報聘使の副使としてローウェルと縁を結んだ洪英植が写る写真であり、同じ年の甲申政変の激浪がこの一族を襲う直前の姿である点に深い余韻が残ります。一枚の家族写真がそのまま時代の記録となった例です。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-125814908",
+          "title": "홍순목",
+          "year": "1884",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/%ED%99%8D%EC%88%9C%EB%AA%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/%ED%99%8D%EC%88%9C%EB%AA%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:%ED%99%8D%EC%88%9C%EB%AA%A9.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "조선 말 영의정을 지낸 홍순목의 1884년 초상 사진입니다. 격동의 한 해를 앞둔 노정치가의 모습을 차분하게 기록한 작품으로, 초기 초상 사진 특유의 정적인 긴장감이 느껴집니다. 갑신정변을 전후한 시대의 지배층을 증언하는 귀중한 인물 사료입니다.",
+          "tr": {
+            "en": {
+              "commentary": "An 1884 portrait of Hong Sun-mok, who had served as chief state councillor in late Joseon. It is a calm record of an elder statesman on the eve of a tumultuous year, carrying the still, quiet tension characteristic of early portrait photography. As testimony to the ruling class of the era around the Gapsin Coup, it is a precious documentary portrait."
+            },
+            "ja": {
+              "commentary": "朝鮮末期に領議政を務めた洪淳穆の1884年の肖像写真です。激動の一年を前にした老政治家の姿を静かに記録した作品で、初期肖像写真ならではの静謐な緊張感が漂います。甲申政変前後の時代の支配層を証言する貴重な人物史料です。"
             }
           }
         },
@@ -572,14 +572,14 @@
           }
         },
         {
-          "id": "wikimedia-10478344",
-          "title": "Kusakabe Kimbei - 241 Chrysanthemum",
+          "id": "wikimedia-16976984",
+          "title": "Kusakabe Kimbei 566 Theatre Street",
           "year": null,
           "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Kusakabe_Kimbei_-_241_Chrysanthemum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Kusakabe_Kimbei_-_241_Chrysanthemum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Kusakabe_Kimbei_566_Theatre_Street.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Kusakabe_Kimbei_566_Theatre_Street.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kusakabe_Kimbei_-_241_Chrysanthemum.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kusakabe_Kimbei_566_Theatre_Street.JPG",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -716,26 +716,6 @@
           }
         },
         {
-          "id": "wikimedia-10622992",
-          "title": "Shirokiya Nihonbashi Tokyo 1911 Kazumasa Ogawa-2",
-          "year": "1911",
-          "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Shirokiya_Nihonbashi_Tokyo_1911_Kazumasa_Ogawa-2.jpg/1280px-Shirokiya_Nihonbashi_Tokyo_1911_Kazumasa_Ogawa-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Shirokiya_Nihonbashi_Tokyo_1911_Kazumasa_Ogawa-2.jpg/1280px-Shirokiya_Nihonbashi_Tokyo_1911_Kazumasa_Ogawa-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shirokiya_Nihonbashi_Tokyo_1911_Kazumasa_Ogawa-2.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "같은 1911년의 시로키야 백화점을 담은 또 다른 사진입니다. 각도를 달리해 포착한 건물과 거리의 모습에서 근대 도쿄의 공기가 한층 입체적으로 전해집니다. 오가와가 남긴 도시 기록 사진의 정밀함을 보여 주는 한 장입니다.",
-          "tr": {
-            "en": {
-              "commentary": "Another 1911 view of the Shirokiya department store. Captured from a different vantage, the building and its street convey the air of modern Tokyo with added dimension. The image displays the precision that distinguishes Ogawa's urban documentary photography."
-            },
-            "ja": {
-              "commentary": "同じ1911年の白木屋百貨店をとらえた、もうひとつの写真です。角度を変えて切り取られた建物と街路の姿から、近代東京の空気がいっそう立体的に伝わってきます。小川が残した都市記録写真の精密さを示す一枚です。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-10437365",
           "title": "Ogawa Kazumasa - E 175 (Omizuza) Shinto Temple Nikko",
           "year": "1880",
@@ -756,22 +736,22 @@
           }
         },
         {
-          "id": "wikimedia-49682856",
-          "title": "Two Women by Ogawa Kazumasa, Honolulu Museum of Art",
-          "year": "1890",
+          "id": "wikimedia-10622992",
+          "title": "Shirokiya Nihonbashi Tokyo 1911 Kazumasa Ogawa-2",
+          "year": "1911",
           "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Two_Women_by_Ogawa_Kazumasa%2C_Honolulu_Museum_of_Art.JPG/1280px-Two_Women_by_Ogawa_Kazumasa%2C_Honolulu_Museum_of_Art.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Two_Women_by_Ogawa_Kazumasa%2C_Honolulu_Museum_of_Art.JPG/1280px-Two_Women_by_Ogawa_Kazumasa%2C_Honolulu_Museum_of_Art.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Shirokiya_Nihonbashi_Tokyo_1911_Kazumasa_Ogawa-2.jpg/1280px-Shirokiya_Nihonbashi_Tokyo_1911_Kazumasa_Ogawa-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Shirokiya_Nihonbashi_Tokyo_1911_Kazumasa_Ogawa-2.jpg/1280px-Shirokiya_Nihonbashi_Tokyo_1911_Kazumasa_Ogawa-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Two_Women_by_Ogawa_Kazumasa,_Honolulu_Museum_of_Art.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shirokiya_Nihonbashi_Tokyo_1911_Kazumasa_Ogawa-2.jpg",
           "credit": "Wikimedia Commons · Public domain",
-          "commentary": "",
+          "commentary": "같은 1911년의 시로키야 백화점을 담은 또 다른 사진입니다. 각도를 달리해 포착한 건물과 거리의 모습에서 근대 도쿄의 공기가 한층 입체적으로 전해집니다. 오가와가 남긴 도시 기록 사진의 정밀함을 보여 주는 한 장입니다.",
           "tr": {
             "en": {
-              "commentary": ""
+              "commentary": "Another 1911 view of the Shirokiya department store. Captured from a different vantage, the building and its street convey the air of modern Tokyo with added dimension. The image displays the precision that distinguishes Ogawa's urban documentary photography."
             },
             "ja": {
-              "commentary": ""
+              "commentary": "同じ1911年の白木屋百貨店をとらえた、もうひとつの写真です。角度を変えて切り取られた建物と街路の姿から、近代東京の空気がいっそう立体的に伝わってきます。小川が残した都市記録写真の精密さを示す一枚です。"
             }
           }
         },
@@ -792,6 +772,26 @@
             },
             "ja": {
               "commentary": "箱根の温泉町・宮ノ下を望んだ風景写真です。山並みに沿って広がる町の姿が、高い視点から一望のもとにとらえられています。明治期の西洋人に人気のあった保養地の風景を伝える記録です。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-49682856",
+          "title": "Two Women by Ogawa Kazumasa, Honolulu Museum of Art",
+          "year": "1890",
+          "medium": null,
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Two_Women_by_Ogawa_Kazumasa%2C_Honolulu_Museum_of_Art.JPG/1280px-Two_Women_by_Ogawa_Kazumasa%2C_Honolulu_Museum_of_Art.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Two_Women_by_Ogawa_Kazumasa%2C_Honolulu_Museum_of_Art.JPG/1280px-Two_Women_by_Ogawa_Kazumasa%2C_Honolulu_Museum_of_Art.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Two_Women_by_Ogawa_Kazumasa,_Honolulu_Museum_of_Art.JPG",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
             }
           }
         },
@@ -980,26 +980,6 @@
           }
         },
         {
-          "id": "wikimedia-36839783",
-          "title": "JAPAN - C1870`s Nagasaki Ebisu Shrine - UCHIDA KUICHI",
-          "year": "1870",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/JAPAN_-_C1870%60s_Nagasaki_Ebisu_Shrine_-_UCHIDA_KUICHI.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/JAPAN_-_C1870%60s_Nagasaki_Ebisu_Shrine_-_UCHIDA_KUICHI.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:JAPAN_-_C1870%60s_Nagasaki_Ebisu_Shrine_-_UCHIDA_KUICHI.png",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1870년대 나가사키의 에비스 신사를 담은 사진입니다. 신사의 경내와 주변 지형을 한 화면에 아우르는 시점이 안정적이며, 항구 도시의 신앙 공간을 차분히 기록했습니다. 풍경과 신앙, 생활이 겹쳐진 메이지 초기 나가사키의 모습을 전하는 자료적 가치가 큰 작품입니다.",
-          "tr": {
-            "en": {
-              "commentary": "A photograph of the Ebisu Shrine in Nagasaki from the 1870s. The vantage point, embracing both the shrine precincts and the surrounding terrain in a single frame, is assured, quietly recording a space of devotion within the port city. Where landscape, faith, and daily life overlap, the work carries great documentary value as an image of early Meiji Nagasaki."
-            },
-            "ja": {
-              "commentary": "1870年代、長崎の恵美須神社を収めた写真です。神社の境内と周囲の地形をひとつの画面に収める視点が安定しており、港町の信仰の場を静かに記録しています。風景と信仰と暮らしが重なり合う明治初期の長崎の姿を伝える、資料的価値の高い作品です。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-36839781",
           "title": "C1870`s Nagasaki Inasa Coast - UCHIDA KUICHI",
           "year": "1870",
@@ -1016,6 +996,26 @@
             },
             "ja": {
               "commentary": "1870年代、長崎・稲佐の海岸を捉えた風景写真です。港に面した海岸線のゆるやかな曲線と水面の光を生かした画面が、開港都市の情趣を伝えます。外国船が行き交った時代の長崎の海辺を記録した、地形と時代がともに写し込まれた作品です。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-36839783",
+          "title": "JAPAN - C1870`s Nagasaki Ebisu Shrine - UCHIDA KUICHI",
+          "year": "1870",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/JAPAN_-_C1870%60s_Nagasaki_Ebisu_Shrine_-_UCHIDA_KUICHI.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/JAPAN_-_C1870%60s_Nagasaki_Ebisu_Shrine_-_UCHIDA_KUICHI.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:JAPAN_-_C1870%60s_Nagasaki_Ebisu_Shrine_-_UCHIDA_KUICHI.png",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1870년대 나가사키의 에비스 신사를 담은 사진입니다. 신사의 경내와 주변 지형을 한 화면에 아우르는 시점이 안정적이며, 항구 도시의 신앙 공간을 차분히 기록했습니다. 풍경과 신앙, 생활이 겹쳐진 메이지 초기 나가사키의 모습을 전하는 자료적 가치가 큰 작품입니다.",
+          "tr": {
+            "en": {
+              "commentary": "A photograph of the Ebisu Shrine in Nagasaki from the 1870s. The vantage point, embracing both the shrine precincts and the surrounding terrain in a single frame, is assured, quietly recording a space of devotion within the port city. Where landscape, faith, and daily life overlap, the work carries great documentary value as an image of early Meiji Nagasaki."
+            },
+            "ja": {
+              "commentary": "1870年代、長崎の恵美須神社を収めた写真です。神社の境内と周囲の地形をひとつの画面に収める視点が安定しており、港町の信仰の場を静かに記録しています。風景と信仰と暮らしが重なり合う明治初期の長崎の姿を伝える、資料的価値の高い作品です。"
             }
           }
         },
@@ -2308,14 +2308,14 @@
           }
         },
         {
-          "id": "wikimedia-15325303",
-          "title": "Ansel Adams - National Archives 79-AA-W19",
+          "id": "wikimedia-15325232",
+          "title": "Ansel Adams - National Archives 79-AA-F12",
           "year": "1941",
           "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Ansel_Adams_-_National_Archives_79-AA-W19.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-W19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Ansel_Adams_-_National_Archives_79-AA-W19.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-W19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Ansel_Adams_-_National_Archives_79-AA-F12.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-F12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Ansel_Adams_-_National_Archives_79-AA-F12.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-F12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-W19.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-F12.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -2328,14 +2328,14 @@
           }
         },
         {
-          "id": "wikimedia-15325349",
-          "title": "Ansel Adams - National Archives 79-AA-F22",
-          "year": "1941",
+          "id": "wikimedia-15325326",
+          "title": "Ansel Adams - National Archives 79-AA-A04",
+          "year": "1933",
           "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Ansel_Adams_-_National_Archives_79-AA-F22.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-F22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Ansel_Adams_-_National_Archives_79-AA-F22.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-F22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Ansel_Adams_-_National_Archives_79-AA-A04.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-A04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Ansel_Adams_-_National_Archives_79-AA-A04.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-A04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-F22.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-A04.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -2348,22 +2348,22 @@
           }
         },
         {
-          "id": "wikimedia-15325368",
-          "title": "Ansel Adams - National Archives 79-AA-F11",
+          "id": "wikimedia-15325195",
+          "title": "Ansel Adams - National Archives 79-AA-H06",
           "year": "1941",
           "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Ansel_Adams_-_National_Archives_79-AA-F11.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-F11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Ansel_Adams_-_National_Archives_79-AA-F11.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-F11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Ansel_Adams_-_National_Archives_79-AA-H06.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-H06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Ansel_Adams_-_National_Archives_79-AA-H06.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-H06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-F11.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-H06.jpg",
           "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1941년 국립공원 연작의 하나로, 애덤스가 고안한 존 시스템의 정수를 보여주는 작품입니다. 가장 깊은 그림자부터 눈부신 하이라이트까지 단계별 계조를 제어하는 이 방법은 흑백 사진을 정밀한 악보처럼 다루게 했습니다. 국립기록보관소에 보존된 원판은 그 기술적 완성도를 오늘까지 증언합니다.",
+          "commentary": "",
           "tr": {
             "en": {
-              "commentary": "Part of the 1941 national parks series, this work distills the essence of the Zone System Adams devised. By controlling the scale of tones from the deepest shadow to brilliant highlight, the method let him handle black-and-white photography like a precisely written score. The original held at the National Archives still testifies to that technical mastery."
+              "commentary": ""
             },
             "ja": {
-              "commentary": "1941年の国立公園連作の一枚で、アダムスが考案したゾーンシステムの真髄を示す作品です。最も深い影からまばゆいハイライトまで階調を段階的に制御するこの手法は、モノクロ写真を精密な楽譜のように扱うことを可能にしました。国立公文書館に保存された原板が、その技術的完成度を今に伝えています。"
+              "commentary": ""
             }
           }
         },
@@ -2452,14 +2452,14 @@
           }
         },
         {
-          "id": "wikimedia-31404796",
-          "title": "Arthur Rothstein - Rice distribution during Chinese famine ppmsca.07586",
+          "id": "wikimedia-127918575",
+          "title": "Arthur Rothstein - marching Chinese troops ppmsca.07799 (4to3)",
           "year": "1946",
           "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Arthur_Rothstein_-_Rice_distribution_during_Chinese_famine_ppmsca.07586.jpg/1280px-Arthur_Rothstein_-_Rice_distribution_during_Chinese_famine_ppmsca.07586.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Arthur_Rothstein_-_Rice_distribution_during_Chinese_famine_ppmsca.07586.jpg/1280px-Arthur_Rothstein_-_Rice_distribution_during_Chinese_famine_ppmsca.07586.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Arthur_Rothstein_-_marching_Chinese_troops_ppmsca.07799_%284to3%29.jpg/1280px-Arthur_Rothstein_-_marching_Chinese_troops_ppmsca.07799_%284to3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Arthur_Rothstein_-_marching_Chinese_troops_ppmsca.07799_%284to3%29.jpg/1280px-Arthur_Rothstein_-_marching_Chinese_troops_ppmsca.07799_%284to3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arthur_Rothstein_-_Rice_distribution_during_Chinese_famine_ppmsca.07586.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arthur_Rothstein_-_marching_Chinese_troops_ppmsca.07799_(4to3).jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -2472,14 +2472,14 @@
           }
         },
         {
-          "id": "wikimedia-127918575",
-          "title": "Arthur Rothstein - marching Chinese troops ppmsca.07799 (4to3)",
+          "id": "wikimedia-31404796",
+          "title": "Arthur Rothstein - Rice distribution during Chinese famine ppmsca.07586",
           "year": "1946",
           "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Arthur_Rothstein_-_marching_Chinese_troops_ppmsca.07799_%284to3%29.jpg/1280px-Arthur_Rothstein_-_marching_Chinese_troops_ppmsca.07799_%284to3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Arthur_Rothstein_-_marching_Chinese_troops_ppmsca.07799_%284to3%29.jpg/1280px-Arthur_Rothstein_-_marching_Chinese_troops_ppmsca.07799_%284to3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Arthur_Rothstein_-_Rice_distribution_during_Chinese_famine_ppmsca.07586.jpg/1280px-Arthur_Rothstein_-_Rice_distribution_during_Chinese_famine_ppmsca.07586.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Arthur_Rothstein_-_Rice_distribution_during_Chinese_famine_ppmsca.07586.jpg/1280px-Arthur_Rothstein_-_Rice_distribution_during_Chinese_famine_ppmsca.07586.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arthur_Rothstein_-_marching_Chinese_troops_ppmsca.07799_(4to3).jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arthur_Rothstein_-_Rice_distribution_during_Chinese_famine_ppmsca.07586.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -2552,14 +2552,14 @@
           }
         },
         {
-          "id": "wikimedia-187069463",
-          "title": "Nethers Store and Post Office",
-          "year": "1935",
+          "id": "wikimedia-33422394",
+          "title": "A Boat On A River With Rolling Hills In The Background In The Kiangsu Province Or Yunnan Province In China (1946) Arthur Rothstein (RESTORED) (4094285750)",
+          "year": "1946",
           "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Nethers_Store_and_Post_Office.tif/lossy-page1-1280px-Nethers_Store_and_Post_Office.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Nethers_Store_and_Post_Office.tif/lossy-page1-1280px-Nethers_Store_and_Post_Office.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Boat_On_A_River_With_Rolling_Hills_In_The_Background_In_The_Kiangsu_Province_Or_Yunnan_Province_In_China_%281946%29_Arthur_Rothstein_%28RESTORED%29_%284094285750%29.jpg/1280px-A_Boat_On_A_River_With_Rolling_Hills_In_The_Background_In_The_Kiangsu_Province_Or_Yunnan_Province_In_China_%281946%29_Arthur_Rothstein_%28RESTORED%29_%284094285750%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Boat_On_A_River_With_Rolling_Hills_In_The_Background_In_The_Kiangsu_Province_Or_Yunnan_Province_In_China_%281946%29_Arthur_Rothstein_%28RESTORED%29_%284094285750%29.jpg/1280px-A_Boat_On_A_River_With_Rolling_Hills_In_The_Background_In_The_Kiangsu_Province_Or_Yunnan_Province_In_China_%281946%29_Arthur_Rothstein_%28RESTORED%29_%284094285750%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nethers_Store_and_Post_Office.tif",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Boat_On_A_River_With_Rolling_Hills_In_The_Background_In_The_Kiangsu_Province_Or_Yunnan_Province_In_China_(1946)_Arthur_Rothstein_(RESTORED)_(4094285750).jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -2572,14 +2572,14 @@
           }
         },
         {
-          "id": "wikimedia-33422394",
-          "title": "A Boat On A River With Rolling Hills In The Background In The Kiangsu Province Or Yunnan Province In China (1946) Arthur Rothstein (RESTORED) (4094285750)",
-          "year": "1946",
+          "id": "wikimedia-187069463",
+          "title": "Nethers Store and Post Office",
+          "year": "1935",
           "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Boat_On_A_River_With_Rolling_Hills_In_The_Background_In_The_Kiangsu_Province_Or_Yunnan_Province_In_China_%281946%29_Arthur_Rothstein_%28RESTORED%29_%284094285750%29.jpg/1280px-A_Boat_On_A_River_With_Rolling_Hills_In_The_Background_In_The_Kiangsu_Province_Or_Yunnan_Province_In_China_%281946%29_Arthur_Rothstein_%28RESTORED%29_%284094285750%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Boat_On_A_River_With_Rolling_Hills_In_The_Background_In_The_Kiangsu_Province_Or_Yunnan_Province_In_China_%281946%29_Arthur_Rothstein_%28RESTORED%29_%284094285750%29.jpg/1280px-A_Boat_On_A_River_With_Rolling_Hills_In_The_Background_In_The_Kiangsu_Province_Or_Yunnan_Province_In_China_%281946%29_Arthur_Rothstein_%28RESTORED%29_%284094285750%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Nethers_Store_and_Post_Office.tif/lossy-page1-1280px-Nethers_Store_and_Post_Office.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Nethers_Store_and_Post_Office.tif/lossy-page1-1280px-Nethers_Store_and_Post_Office.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Boat_On_A_River_With_Rolling_Hills_In_The_Background_In_The_Kiangsu_Province_Or_Yunnan_Province_In_China_(1946)_Arthur_Rothstein_(RESTORED)_(4094285750).jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nethers_Store_and_Post_Office.tif",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -2716,26 +2716,6 @@
           }
         },
         {
-          "id": "wikimedia-126292843",
-          "title": "On the 'RIP' tracks (Repair In Place), an Illinois Central employee jacks up a gondola to swap out a truck during November, 1942. Jack Delano photo",
-          "year": "1942",
-          "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/On_the_%27RIP%27_tracks_%28Repair_In_Place%29%2C_an_Illinois_Central_employee_jacks_up_a_gondola_to_swap_out_a_truck_during_November%2C_1942._Jack_Delano_photo.jpg/1280px-On_the_%27RIP%27_tracks_%28Repair_In_Place%29%2C_an_Illinois_Central_employee_jacks_up_a_gondola_to_swap_out_a_truck_during_November%2C_1942._Jack_Delano_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/On_the_%27RIP%27_tracks_%28Repair_In_Place%29%2C_an_Illinois_Central_employee_jacks_up_a_gondola_to_swap_out_a_truck_during_November%2C_1942._Jack_Delano_photo.jpg/1280px-On_the_%27RIP%27_tracks_%28Repair_In_Place%29%2C_an_Illinois_Central_employee_jacks_up_a_gondola_to_swap_out_a_truck_during_November%2C_1942._Jack_Delano_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:On_the_%27RIP%27_tracks_(Repair_In_Place),_an_Illinois_Central_employee_jacks_up_a_gondola_to_swap_out_a_truck_during_November,_1942._Jack_Delano_photo.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1942년 11월, 일리노이 센트럴 철도의 현장 수리 선로(RIP tracks)에서 한 직원이 무개화차를 들어 올려 대차를 교체하는 장면입니다. 전시 수송의 흐름을 멈추지 않기 위해 그 자리에서 차량을 고치던 노동의 구체적인 공정이 캡션과 함께 생생히 남았습니다. 거대한 차체와 한 사람의 노동자가 이루는 대비가 델라노 철도 연작의 정수를 보여줍니다.",
-          "tr": {
-            "en": {
-              "commentary": "November 1942: on the Illinois Central's RIP (Repair In Place) tracks, an employee jacks up a gondola car to swap out a truck. The concrete process of labor — repairing cars on the spot so wartime transport would never stop — survives vividly along with its caption. The contrast between the massive car body and a single worker captures the essence of Delano's railroad series."
-            },
-            "ja": {
-              "commentary": "1942年11月、イリノイ・セントラル鉄道の現場修理線(RIPトラック)で、従業員が無蓋車をジャッキで持ち上げ、台車を交換する場面です。戦時輸送の流れを止めないため、その場で車両を修理した労働の具体的な工程が、キャプションとともに生々しく残されました。巨大な車体とひとりの労働者が成す対比に、デラーノの鉄道連作の真髄が表れています。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-11164522",
           "title": "Jack Delano, Federal housing, Yauco, Puerto Rico, 1942",
           "year": "1942",
@@ -2752,6 +2732,26 @@
             },
             "ja": {
               "commentary": "1942年、プエルトリコのヤウコにある連邦住宅を記録した写真です。デラーノは1941年にFSAの任務で初めてプエルトリコを訪れて以来この島に深く魅了され、のちに移住して生涯を過ごしました。住宅政策の現場を収めたこの記録は、彼とプエルトリコの長い縁が始まった頃の貴重な場面です。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-126292843",
+          "title": "On the 'RIP' tracks (Repair In Place), an Illinois Central employee jacks up a gondola to swap out a truck during November, 1942. Jack Delano photo",
+          "year": "1942",
+          "medium": null,
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/On_the_%27RIP%27_tracks_%28Repair_In_Place%29%2C_an_Illinois_Central_employee_jacks_up_a_gondola_to_swap_out_a_truck_during_November%2C_1942._Jack_Delano_photo.jpg/1280px-On_the_%27RIP%27_tracks_%28Repair_In_Place%29%2C_an_Illinois_Central_employee_jacks_up_a_gondola_to_swap_out_a_truck_during_November%2C_1942._Jack_Delano_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/On_the_%27RIP%27_tracks_%28Repair_In_Place%29%2C_an_Illinois_Central_employee_jacks_up_a_gondola_to_swap_out_a_truck_during_November%2C_1942._Jack_Delano_photo.jpg/1280px-On_the_%27RIP%27_tracks_%28Repair_In_Place%29%2C_an_Illinois_Central_employee_jacks_up_a_gondola_to_swap_out_a_truck_during_November%2C_1942._Jack_Delano_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:On_the_%27RIP%27_tracks_(Repair_In_Place),_an_Illinois_Central_employee_jacks_up_a_gondola_to_swap_out_a_truck_during_November,_1942._Jack_Delano_photo.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1942년 11월, 일리노이 센트럴 철도의 현장 수리 선로(RIP tracks)에서 한 직원이 무개화차를 들어 올려 대차를 교체하는 장면입니다. 전시 수송의 흐름을 멈추지 않기 위해 그 자리에서 차량을 고치던 노동의 구체적인 공정이 캡션과 함께 생생히 남았습니다. 거대한 차체와 한 사람의 노동자가 이루는 대비가 델라노 철도 연작의 정수를 보여줍니다.",
+          "tr": {
+            "en": {
+              "commentary": "November 1942: on the Illinois Central's RIP (Repair In Place) tracks, an employee jacks up a gondola car to swap out a truck. The concrete process of labor — repairing cars on the spot so wartime transport would never stop — survives vividly along with its caption. The contrast between the massive car body and a single worker captures the essence of Delano's railroad series."
+            },
+            "ja": {
+              "commentary": "1942年11月、イリノイ・セントラル鉄道の現場修理線(RIPトラック)で、従業員が無蓋車をジャッキで持ち上げ、台車を交換する場面です。戦時輸送の流れを止めないため、その場で車両を修理した労働の具体的な工程が、キャプションとともに生々しく残されました。巨大な車体とひとりの労働者が成す対比に、デラーノの鉄道連作の真髄が表れています。"
             }
           }
         },
@@ -3104,26 +3104,6 @@
           }
         },
         {
-          "id": "wikimedia-8385746",
-          "title": "Toni Frissell Berlin Wall",
-          "year": "1961",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Toni_Frissell_Berlin_Wall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Toni_Frissell_Berlin_Wall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toni_Frissell_Berlin_Wall.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "",
-          "tr": {
-            "en": {
-              "commentary": ""
-            },
-            "ja": {
-              "commentary": ""
-            }
-          }
-        },
-        {
           "id": "wikimedia-6372258",
           "title": "Paddington Station by Toni Frissell 1951",
           "year": "1951",
@@ -3140,6 +3120,26 @@
             },
             "ja": {
               "commentary": "1951年、ロンドンのパディントン駅をとらえた写真です。巨大な鉄骨アーチの下に差し込む光と行き交う人々の動きが、鉄道駅特有の劇場のような空間感をつくり出し、戦後ロンドンの空気を一枚に凝縮しています。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-8385746",
+          "title": "Toni Frissell Berlin Wall",
+          "year": "1961",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Toni_Frissell_Berlin_Wall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Toni_Frissell_Berlin_Wall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toni_Frissell_Berlin_Wall.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
             }
           }
         },
@@ -3664,10 +3664,10 @@
           "title": "Versailles, Coin de Parc",
           "year": "1904",
           "medium": "Albumen print",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Eug%C3%A8ne_Atget_-_Versailles%2C_Coin_de_Parc_-_1963.946.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Eug%C3%A8ne_Atget_-_Versailles%2C_Coin_de_Parc_-_1963.946.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Eug%C3%A8ne_Atget_-_Versailles%2C_Coin_de_Parc_-_1963.986.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Eug%C3%A8ne_Atget_-_Versailles%2C_Coin_de_Parc_-_1963.986.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Atget_-_Versailles,_Coin_de_Parc_-_1963.946.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Atget_-_Versailles,_Coin_de_Parc_-_1963.986.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "외젠 아제는 1904년 베르사유 공원의 한 구석을 알부멘 프린트로 담아냈다. 흑백의 섬세한 톤과 깊이 있는 그림자는 프랑스 바로크 양식의 정원 건축과 자연의 조화를 극적으로 드러내며, 찰나의 순간을 영원한 시간 속에 박제시킨 듯한 인상을 준다. 이는 당시 파리의 도시 풍경과 건축물을 기록하던 아제의 작업 맥락 속에서, 사라져가는 과거의 아름다움을 보존하려는 그의 예술적 의지를 보여주는 중요한 작품이다.",
           "tr": {
@@ -4827,7 +4827,7 @@
       "deathYear": 1870,
       "tagline": "칼로타입 초상의 개척자",
       "bio": "데이비드 옥타비우스 힐은 스코틀랜드의 화가로, 화학자 로버트 애덤슨과 함께 사진사 초창기의 가장 빛나는 협업을 이뤄낸 인물입니다. 1843년부터 1848년까지 이어진 두 사람의 파트너십은 칼로타입 기법으로 회화적 깊이를 지닌 초상 사진을 개척했습니다. 스코틀랜드 자유교회 성직자들의 초상과 뉴헤이븐 어민들의 연작은 사진이 탄생한 지 불과 몇 년 만에 도달한 놀라운 예술적 성취로 평가받습니다. '힐과 애덤슨'이라는 이름으로 남은 이들의 작업은 오늘날까지 초상 사진의 고전으로 사랑받고 있습니다.",
-      "portraitUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/David_Octavius_Hill_-_Unidentified_minister_%28Sketch_for_the_The_Signing_of_the_Deed_of_Demission%2C_The_Disruption_of_the_Church_of_Scotland_1843%29_-_PG_3128_-_National_Galleries_of_Scotland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "portraitUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/David_Octavius_Hill_%281802-1870%29_-_Portrait_of_a_Minister_-_PG_2713_-_National_Galleries_of_Scotland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "tr": {
         "en": {
           "tagline": "Pioneer of the calotype portrait",
@@ -5279,7 +5279,7 @@
       "deathYear": 1943,
       "tagline": "대성당의 빛을 담은 거장",
       "bio": "프레더릭 H. 에번스는 19세기 말에서 20세기 초 영국 픽토리얼리즘을 대표하는 건축 사진의 거장입니다. 그는 영국과 프랑스의 대성당 내부를 순수한 플래티넘 프린트로 담아내며, 돌과 빛만으로 숭고한 공간의 깊이를 표현했습니다. 네거티브에 어떤 수정도 가하지 않는 '순수 사진'을 고집한 그의 태도는 이후 스트레이트 포토그래피의 정신적 토대가 되었습니다. 대표작 '바다 같은 계단(A Sea of Steps)'은 건축 사진의 역사에서 가장 아름다운 이미지 가운데 하나로 꼽힙니다.",
-      "portraitUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366708.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "portraitUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366704.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "tr": {
         "en": {
           "tagline": "Master of cathedral light",
@@ -5412,22 +5412,22 @@
           }
         },
         {
-          "id": "wikimedia-98050744",
-          "title": "Frederick H. Evans (British, 1853-1943) - Gloucester Cathedral from the Southeast - 2019.101 - Cleveland Museum of Art",
-          "year": null,
+          "id": "wikimedia-60497103",
+          "title": "Grotesques by Aubrey Beardsley. Facsimile Platinum Prints by Frederick H. Evans from the Twelve Original Drawings in His Collection with a Portrait Frontispiece MET DP366707",
+          "year": "1910",
           "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Frederick_H._Evans_%28British%2C_1853-1943%29_-_Gloucester_Cathedral_from_the_Southeast_-_2019.101_-_Cleveland_Museum_of_Art.jpg/1280px-Frederick_H._Evans_%28British%2C_1853-1943%29_-_Gloucester_Cathedral_from_the_Southeast_-_2019.101_-_Cleveland_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Frederick_H._Evans_%28British%2C_1853-1943%29_-_Gloucester_Cathedral_from_the_Southeast_-_2019.101_-_Cleveland_Museum_of_Art.jpg/1280px-Frederick_H._Evans_%28British%2C_1853-1943%29_-_Gloucester_Cathedral_from_the_Southeast_-_2019.101_-_Cleveland_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366707.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366707.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frederick_H._Evans_(British,_1853-1943)_-_Gloucester_Cathedral_from_the_Southeast_-_2019.101_-_Cleveland_Museum_of_Art.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366707.jpg",
           "credit": "Wikimedia Commons · Public domain",
-          "commentary": "프레더릭 H. 에번스가 남동쪽에서 바라본 글로스터 대성당의 전경으로, 클리블랜드 미술관 소장작입니다. 첨탑과 석조 구조의 수직선이 만들어내는 리듬과 부드러운 자연광의 계조가 영국 고딕 건축의 위용을 차분하게 드러냅니다. 대성당 사진의 대가로 불린 에번스의 정밀한 시선과 톤 감각이 응축된 작품입니다.",
+          "commentary": "",
           "tr": {
             "en": {
-              "commentary": "This is Frederick H. Evans's view of Gloucester Cathedral from the southeast, held by the Cleveland Museum of Art. The rhythm of vertical lines formed by the tower and stonework, together with the soft gradations of natural light, calmly reveal the grandeur of English Gothic architecture. The work condenses the precise eye and tonal sensibility of Evans, celebrated as the master of cathedral photography."
+              "commentary": ""
             },
             "ja": {
-              "commentary": "フレデリック・H・エヴァンスが南東から望んだグロスター大聖堂の全景で、クリーブランド美術館の所蔵作品です。尖塔と石造構造の垂直線が生むリズムと、柔らかな自然光の階調が、イギリス・ゴシック建築の威容を静かに浮かび上がらせます。大聖堂写真の巨匠と呼ばれたエヴァンスの精緻なまなざしとトーンの感覚が凝縮された作品です。"
+              "commentary": ""
             }
           }
         }
@@ -5455,6 +5455,26 @@
         }
       },
       "works": [
+        {
+          "id": "aic-23800",
+          "title": "Moulins de Montmartre",
+          "year": "possibly 1842/50, printed 1965",
+          "medium": "Gelatin silver print, No. 18 from the portfolio \"Bayard: XXV Calotypes, 1842-1850\" (1965)",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Hippolyte_Bayard_Molinos_Montmartre_c.1842.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Hippolyte_Bayard_Molinos_Montmartre_c.1842.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hippolyte_Bayard_Molinos_Montmartre_c.1842.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "몽마르트르가 아직 풍차가 돌아가는 변두리 언덕이었던 시절을 담은 바야르의 칼로타입입니다. 훗날 화가들의 성지가 되는 이 언덕의 전원적 풍경은, 도시화 이전 파리 근교의 모습을 전하는 귀중한 시각 자료입니다. 풍차의 실루엣과 언덕의 능선이 만드는 소박한 구도에서, 일상 풍경에서 시정을 발견하던 초기 사진가의 눈을 읽을 수 있습니다.",
+          "tr": {
+            "en": {
+              "commentary": "A calotype by Bayard from the days when Montmartre was still an outlying hill of turning windmills. This pastoral view of the hill that would later become a sanctuary for painters is a precious visual document of the Paris outskirts before urbanization. In the modest composition of windmill silhouettes and the ridge of the hill, one reads the early photographer's eye for finding poetry in everyday scenery."
+            },
+            "ja": {
+              "commentary": "モンマルトルがまだ風車の回る場末の丘だった時代を収めたバヤールのカロタイプです。のちに画家たちの聖地となるこの丘の田園的な風景は、都市化以前のパリ近郊の姿を伝える貴重な視覚資料です。風車のシルエットと丘の稜線が生む素朴な構図に、日常の風景に詩情を見出した初期写真家の眼を読み取ることができます。"
+            }
+          }
+        },
         {
           "id": "wikimedia-60498122",
           "title": "[Windmills, Montmartre]",
@@ -5768,14 +5788,14 @@
           }
         },
         {
-          "id": "wikimedia-67973381",
-          "title": "The foremost women photographers of America A series of beautiful photographs showing what American women have done with the camera. First- The work of Mrs. Gertrude Käsebier - - Edited by LCCN2013645939",
-          "year": "1901",
+          "id": "wikimedia-29802704",
+          "title": "Lucille Thomajon",
+          "year": "1908",
           "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/The_foremost_women_photographers_of_America_A_series_of_beautiful_photographs_showing_what_American_women_have_done_with_the_camera._First-_The_work_of_Mrs._Gertrude_K%C3%A4sebier_-_-_Edited_by_LCCN2013645939.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/The_foremost_women_photographers_of_America_A_series_of_beautiful_photographs_showing_what_American_women_have_done_with_the_camera._First-_The_work_of_Mrs._Gertrude_K%C3%A4sebier_-_-_Edited_by_LCCN2013645939.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg/1280px-Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg/1280px-Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_foremost_women_photographers_of_America_A_series_of_beautiful_photographs_showing_what_American_women_have_done_with_the_camera._First-_The_work_of_Mrs._Gertrude_K%C3%A4sebier_-_-_Edited_by_LCCN2013645939.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -5808,14 +5828,14 @@
           }
         },
         {
-          "id": "wikimedia-12854640",
-          "title": "Joseph T. Keiley, photographed by Gertrude Käsebier, 1900",
-          "year": "1899",
+          "id": "wikimedia-29800950",
+          "title": "Sunshine in the House",
+          "year": "1908",
           "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Joseph_T._Keiley%2C_photographed_by_Gertrude_K%C3%A4sebier%2C_1900.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Joseph_T._Keiley%2C_photographed_by_Gertrude_K%C3%A4sebier%2C_1900.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Gertrude_K%C3%A4sebier_-_Sunshine_in_the_House_-_Google_Art_Project.jpg/1280px-Gertrude_K%C3%A4sebier_-_Sunshine_in_the_House_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Gertrude_K%C3%A4sebier_-_Sunshine_in_the_House_-_Google_Art_Project.jpg/1280px-Gertrude_K%C3%A4sebier_-_Sunshine_in_the_House_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Joseph_T._Keiley,_photographed_by_Gertrude_K%C3%A4sebier,_1900.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gertrude_K%C3%A4sebier_-_Sunshine_in_the_House_-_Google_Art_Project.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -5828,14 +5848,14 @@
           }
         },
         {
-          "id": "wikimedia-29802704",
-          "title": "Lucille Thomajon",
-          "year": "1908",
+          "id": "wikimedia-67973381",
+          "title": "The foremost women photographers of America A series of beautiful photographs showing what American women have done with the camera. First- The work of Mrs. Gertrude Käsebier - - Edited by LCCN2013645939",
+          "year": "1901",
           "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg/1280px-Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg/1280px-Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/The_foremost_women_photographers_of_America_A_series_of_beautiful_photographs_showing_what_American_women_have_done_with_the_camera._First-_The_work_of_Mrs._Gertrude_K%C3%A4sebier_-_-_Edited_by_LCCN2013645939.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/The_foremost_women_photographers_of_America_A_series_of_beautiful_photographs_showing_what_American_women_have_done_with_the_camera._First-_The_work_of_Mrs._Gertrude_K%C3%A4sebier_-_-_Edited_by_LCCN2013645939.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_foremost_women_photographers_of_America_A_series_of_beautiful_photographs_showing_what_American_women_have_done_with_the_camera._First-_The_work_of_Mrs._Gertrude_K%C3%A4sebier_-_-_Edited_by_LCCN2013645939.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
