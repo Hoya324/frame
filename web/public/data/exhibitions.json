@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T20:27:12.404595+00:00",
+  "generated_at": "2026-10-02T22:03:29.043386+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -52282,7 +52282,7 @@
       "price_max": null,
       "start_date": "2026-08-01",
       "end_date": "2026-10-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "1efd2fe0449e",
@@ -82417,7 +82417,7 @@
       "price_max": null,
       "start_date": "2026-10-02",
       "end_date": "2026-11-29",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "632017aa776b",
@@ -82529,7 +82529,7 @@
       "price_max": null,
       "start_date": "2026-10-02",
       "end_date": "2026-12-19",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": "火－土 12:00－19:00 / 日・月・祝休廊",
       "venue": {
         "id": "7c9ba25d35a8",
@@ -84238,7 +84238,7 @@
       "price_max": null,
       "start_date": "2026-09-18",
       "end_date": "2026-10-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "fa66fa67ffb6",
@@ -88515,7 +88515,7 @@
       "price_max": null,
       "start_date": "2026-10-02",
       "end_date": "2026-11-10",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "0c280c625181",
@@ -88578,7 +88578,7 @@
       "price_max": null,
       "start_date": "2026-10-02",
       "end_date": "2026-10-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "fa66fa67ffb6",
@@ -89284,7 +89284,7 @@
       "price_max": null,
       "start_date": "2026-10-02",
       "end_date": "2026-11-15",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "7f2defa24150",
@@ -89993,7 +89993,7 @@
       "price_max": null,
       "start_date": "2026-10-02",
       "end_date": "2026-10-24",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8f3eae7e325f",
@@ -91566,7 +91566,7 @@
         }
       },
       "poster_image_url": "https://njp.ggcf.kr/storage/upload/2026/09/23/vgcFflescbXwFSSsAui2HknYwgdJosTCC4t09Asi.jpg",
-      "description": "제인 진 카이젠, <옛 달, 새 달 > (2026)\n\n백남준아트센터, 상파울루 피나코테카 미술관 공동 전시\n\n이 전시는 현대자동차가 진행하는 ‘현대 트랜스로컬 시리즈(Hyundai Translocal Series)’의 일환으로, 2024년부터 백남준아트센터와 상파울루 피나코테카 미술관이 이어온 초지역적 예술 협업의 결실이다. 참여 작가와 양 기관의 큐레이터는 서로의 도시를 방문하여 현지의 문화와 역사, 언어와 예술, 이민의 역사를 살펴보며 각 지역의 고유한 맥락을 이해하고, 사전 포럼을 통해 공동 큐레이토리얼의 연구를 심화했다. 이러한 과정에서 축적된 경험과 논의를 바탕으로 참여 작가들은 새로운 작품을 제작하여 선보이며, 서로 다른 지역과 문화적 맥락의 만남이 만들어내는 새로운 관계와 가능성을 통해 초지역성(translocality)을 재고한다.\n\n백남준아트센터가 위치한 용인과 피나코테카 미술관이 자리한 상파울루는 지구 반대편 있으며, 정확히 12시간의 시차를 두고 있다. 그러나 시공간적으로 멀리 떨어진 두 도시는 오늘날의 통신 기술을 통해 실시간으로 연결되어 서로를 마주할 수 있다. 백남준은 1984년부터 파리, 뉴욕, 서울, 도쿄 등 세계 여러 도시를 연결하는 세 차례의 위성 프로젝트를 통해 기술적 연결에 그치지 않고, 서로 다른 시간과 문화적 배경을 지닌 사람들이 만나 관계를 형성하고 새로운 가능성을 만들어가는 장을 열었다. 특히 각 지역의 고유성을 유지하면서 서로 연결되고 영향을 주고받는 ‘초지역적’ 관점에서, 그의 위성 프로젝트는 도시 간 새로운 관계를 모색한 초기의 초지역적 실천으로 볼 수 있다.\n\n이러한 백남준의 사유를 바탕으로, 이 전시는 서로 다른 도시를 기반으로 활동하는 네 명의 동시대 작가들의 만남을 주선하고, 지역과 문화의 차이가 교차하는 지점에서 새로운 관계와 상상력이 형성되는 과정을 탐색한다. 용인과 상파울루를 잇는 이 전시는 서로 다른 지역의 경험과 시각이 만나고 새로운 의미를 만들어가는 예술적 실천을 제안한다.\n\n현대자동차현대 트랜스로컬 시리즈는 국내외 예술 기관의 초지역적 협업 전시를 지원하는 현대자동차의 아트 파트너십입니다\n\n2026년 11월 5일 (목) 오후 4시, 백남준아트센터 1층 랜덤액세스홀\n\n2026.10.17.-2027.3.14. 갤러리아 프라사\n\n2026.11.28.-2027.4.18. 그랑지 갤러리아\n\n기획: 안나 마리아 마이아, 안나 파울라 로페즈\n\nhttps://pinacoteca.org.br\n\n/ 031-201-8546\n\n현대 트랜스로컬 시리즈: 하늘의 잔물결을 따라 - 달, 메아리, 모기, 그리고 밈",
+      "description": "제인 진 카이젠, <옛 달, 새 달 > (2026)\n\n백남준아트센터, 상파울루 피나코테카 미술관 공동 전시\n\n이 전시는 현대자동차가 진행하는 ‘현대 트랜스로컬 시리즈(Hyundai Translocal Series)’의 일환으로, 2024년부터 백남준아트센터와 상파울루 피나코테카 미술관이 이어온 초지역적 예술 협업의 결실이다. 참여 작가와 양 기관의 큐레이터는 서로의 도시를 방문하여 현지의 문화와 역사, 언어와 예술, 이민의 역사를 살펴보며 각 지역의 고유한 맥락을 이해하고, 사전 포럼을 통해 공동 큐레이토리얼의 연구를 심화했다. 이러한 과정에서 축적된 경험과 논의를 바탕으로 참여 작가들은 새로운 작품을 제작하여 선보이며, 서로 다른 지역과 문화적 맥락의 만남이 만들어내는 새로운 관계와 가능성을 통해 초지역성(translocality)을 재고한다.\n\n백남준아트센터가 위치한 용인과 피나코테카 미술관이 자리한 상파울루는 지구 반대편 있으며, 정확히 12시간의 시차를 두고 있다. 그러나 시공간적으로 멀리 떨어진 두 도시는 오늘날의 통신 기술을 통해 실시간으로 연결되어 서로를 마주할 수 있다. 백남준은 1984년부터 파리, 뉴욕, 서울, 도쿄 등 세계 여러 도시를 연결하는 세 차례의 위성 프로젝트를 통해 기술적 연결에 그치지 않고, 서로 다른 시간과 문화적 배경을 지닌 사람들이 만나 관계를 형성하고 새로운 가능성을 만들어가는 장을 열었다. 특히 각 지역의 고유성을 유지하면서 서로 연결되고 영향을 주고받는 ‘초지역적’ 관점에서, 그의 위성 프로젝트는 도시 간 새로운 관계를 모색한 초기의 초지역적 실천으로 볼 수 있다.\n\n이러한 백남준의 사유를 바탕으로, 이 전시는 서로 다른 도시를 기반으로 활동하는 네 명의 동시대 작가들의 만남을 주선하고, 지역과 문화의 차이가 교차하는 지점에서 새로운 관계와 상상력이 형성되는 과정을 탐색한다. 용인과 상파울루를 잇는 이 전시는 서로 다른 지역의 경험과 시각이 만나고 새로운 의미를 만들어가는 예술적 실천을 제안한다.\n\n경기문화재단 백남준아트센터, 상파울루 피나코테카 미술관\n\n현대자동차현대 트랜스로컬 시리즈는 국내외 예술 기관의 초지역적 협업 전시를 지원하는 현대자동차의 아트 파트너십입니다.\n\n문화체육관광부, 한국국제문화교류진흥원\n\n본 전시는 <2026 코리아라운드컬처(Kore·A·Round Culture)> 선정 사업입니다.\n\n2026년 11월 5일 (목) 오후 4시, 백남준아트센터 1층 랜덤액세스홀\n\n2026.10.17.-2027.3.14. 갤러리아 프라사\n\n2026.11.28.-2027.4.18. 그랑지 갤러리아\n\n기획: 안나 마리아 마이아, 안나 파울라 로페즈\n\nhttps://pinacoteca.org.br\n\n/ 031-201-8546\n\n현대 트랜스로컬 시리즈: 하늘의 잔물결을 따라 - 달, 메아리, 모기, 그리고 밈",
       "medium": "video",
       "exhibition_type": "group",
       "genre_tags": [],
@@ -91759,7 +91759,7 @@
       "price_max": null,
       "start_date": "2026-10-02",
       "end_date": "2026-10-04",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "2e6284b90891",
@@ -94236,7 +94236,7 @@
       "price_max": null,
       "start_date": "2026-10-02",
       "end_date": "2026-10-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "f5369e2f3ba2",
@@ -94797,7 +94797,7 @@
       "price_max": null,
       "start_date": "2026-10-02",
       "end_date": "2026-10-19",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "3aea7b037036",
@@ -96215,6 +96215,522 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Tomokichi-Ordinary-Days/504-CB5-A2/2026-10-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "5f574eeb6f87",
+      "source": "acc",
+      "title": "〈ACT 페스티벌 2026〉 전시",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://www.acc.go.kr/resources/upload/2354/20260917144223_1752614112.jpg",
+      "description": "ACT 페스티벌 2026 전시 2026.10.23.금. - 11.8.일 문화창조원 복합전시 3관 및 복합전시 4관 아이, 휴먼: 테크네세(世)에 응답하기 I,Human: Responding to the Technecene 기술은 앞만 보고 달립니다. 우리도 함께 달려왔습니다. 이 페스티벌은 잠시 멈춰 서기를 권합니다. 멈춰 서서 묻습니다. 인간은 무엇인가. 나는 기술과 어떤 사이인가. 페스티벌의 제목 《아이, 휴먼》은 SF 문학의 거장, 아이작 아시모프의 『아이, 로봇』에서 왔습니다. 아시모프는 로봇에게 '인간을 해치지 말라'는 원칙을 심었습니다. 윤리를 기계 안에 넣으려 한 것입니다. 이제 우리는 그 질문을 인간에게 돌립니다. 기계 앞에 서서 '나'를 다시 말해 봅니다. 나, 인간. 테크네세(Technecene)는 기술(techne)이 세계를 만드는 가장 큰 힘이 된 시대(世, cene)를 가리키는 말로, ACT 페스티벌 2026이 제안하는 신조어입니다. 인간이 땅과 기후를 바꾼 시대를 인류세(Anthropocene)라 부른다면, 지금은 기술이 우리의 감각과 판단, 관계의 모양까지 바꾸는 시대, 테크네세(世)입니다. 1964년 백남준은 최초의 예술 로봇 K-456을 만들었습니다. 전파로 움직이며 걷다가 넘어지던 로봇입니다. 그 옆에 오늘의 기계들이 섭니다. 말을 걸면 대답하는 로봇 설치 작품, 관람객의 숨결에 따라 움직이는 원형 스크린, 몸을 가진 채 스스로 움직이는 피지컬 AI 신작들입니다. 예순 해가 넘는 세월의 거리를 두고 두 세대의 기계가 마주 봅니다. 기술은 잘 작동할 때는 보이지 않습니다. 너무 매끄러워서, 우리는 그것이 거기 있다는 사실조차 잊습니다. 기술이 보이는 것은 어긋나는 순간입니다. 그래서 이 전시는 어긋남, 곧 글리치(Glitch)를 붙잡습니다. 글리치는 두 얼굴로 나타납니다. 하나는 인지적 글리치입니다. 눈앞의 영상이 기계가 만든 것인지 사람이 만든 것인지 알 수 없어지는 순간, 흔들리는 것은 영상이 아니라 우리의 눈과 믿음입니다. 다른 하나는 물리적 글리치입니다. 기술과 기계의 몸이 삐걱거리고 멈추는 순간입니다. 글리치는 고장이 아닙니다. 감춰진 구조가 드러나는 틈입니다. 기계가 넘어지고 헛말을 할 때, 그것이 누구를 기준으로 만들어졌는지가 드러납니다. 어긋남은 늘 묻습니다. 누구를 기준으로 삼았는가. 윤리는 기계 안에 들어 있지 않습니다. 기계는 책임지지 않습니다. 테크네세의 윤리는 그 틈 앞에서 우리가 무엇을 보느냐에서 시작합니다. 누군가에게 매끄러운 기술이 다른 누군가에게는 매일의 글리치입니다. 서둘러 덮기 전에, 그 틈이 누구에게 열려 있었는지 들여다보는 것. 무엇을 보았는지가 무엇을 고칠지를 정합니다. 이 질문은 여러 갈래로 이어집니다. 전시장에서는 헤드셋을 쓰고 다른 세계 안으로 걸어 들어가고, 밤의 극장에서는 빛과 소리가 하나가 되는 오디오비주얼 공연을 만납니다. 다이얼로그에서는 작가들과 마주 앉아 이야기를 나누고, 전당의 미디어월은 관람객을 향해 같은 질문을 띄웁니다. 응답하는 쪽은 우리입니다. 천천히 걸으며, 당신의 응답을 찾아보시기 바랍니다. 〈ACT 페스티벌 2026〉 바로가기 +",
+      "medium": "video",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-23",
+      "end_date": "2026-11-08",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "d2e95c70b2bc",
+        "name": "국립아시아문화전당",
+        "lang": null,
+        "tr": {},
+        "region": "광주",
+        "district": null,
+        "lat": 35.147057304165,
+        "lng": 126.92003143495
+      },
+      "artists": [],
+      "source_url": "https://www.acc.go.kr/main/exhibition.do?PID=0202&action=Read&bnkey=EM_0000010108",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "1af629a64a75",
+      "source": "tokyo_art_beat",
+      "title": "キース・マグレガー 「City of Lights, Hong Kong's Neon Heritage •《香港・霓虹魅色》」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/ec39cbee/Neon%20Exb%20IG%20poster%2020260929%20(1).jpg",
+      "description": "11月6日より、Blue Lotus GalleryとVictoria 1842は、キース・マグレガー（Keith Macgregor）が香港を象徴するネオンサインの風景を記録した代表的シリーズから厳選した作品を紹介する写真展『City of Lights』を日本で開催します。\n\n本展は、Blue Lotus Editionsより新たに刊行される写真集にあわせて開催されるもので、マグレガーが長年にわたり撮影してきた膨大なアーカイブから作品を厳選して構成されています。1990年代から2000年代にかけて撮影されたこれらの写真は、夜の香港を鮮やかに映し出し、色彩、光の反射、そしてネオンの輝きに包まれた都市の姿を記録しています。会場では、写真集に収録された作品の一部に加え、厳選された限定エディション・プリントも展示。変わりゆく香港のネオン街の風景を長年にわたり見つめ続けてきたマグレガーの視点を、より深く紹介します。\n\nこれらの写真に写し出された風景の多くは、現在ではすでに姿を消しています。ネオンサインが次々と撤去され、見慣れた街並みも変貌を続けるなか、『City of Lights』は単なる視覚的な美しさを超えた意義を持つ作品群となっています。そこには、香港独自の都市文化の一側面が保存され、徐々に過去のものとなりつつある夜の都市景観が貴重な記録として残されています。しかし、本展が伝えるのは「失われていくもの」の物語だけではありません。大規模な商業ネオンサインの時代が終わりを迎えつつある一方で、ネオンという表現媒体は、新たな世代のアーティストやクリエイターたちによって形を変えながら受け継がれています。本展と写真集を通して、香港のネオン文化が築いてきたレガシーを記録するとともに、その光が現在の香港のビジュアルカルチャーにどのような影響を与え続けているのかを紹介します。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-06",
+      "end_date": "2026-11-29",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "682d65a7e00b",
+        "name": "Victoria 1842",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Victoria 1842"
+          },
+          "ja": {
+            "name": "Victoria 1842"
+          }
+        },
+        "region": "市ヶ谷、神楽坂",
+        "district": null,
+        "lat": 35.696806126370575,
+        "lng": 139.7347398978591
+      },
+      "artists": [
+        {
+          "id": "69f19a1f1de1",
+          "name": "キース・マグレガー",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Keith-Macgregor-City-of-Lights-Hong-Kongs-Neon-Heritage/victoria-1842/2026-11-06",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "fc7afff90d65",
+      "source": "tokyo_art_beat",
+      "title": "「ジョムルジョムル チャンプルー」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/026ade90/jomul_flyer_O3_fix_ol.jpeg",
+      "description": "韓国・京畿道（キョンギド）に暮らすアーティスト7名とキュレーターによるグループ展。ソウル近郊に都市が連なる京畿道と沖縄は、歴史や環境の面で重なるところがあり、本展はその二つの地域が交差する点をたどる。\n\nタイトルは、手を使って何かをこね、もみほぐす所作を表す韓国語「ジョムルジョムル」と、沖縄で「混ぜ合わせる」を意味する「チャンプルー」を重ねたもの。旅や書物、制作を通じて沖縄と向き合ってきた作家たちが、神話、鳥、陶芸と音楽、詩、手で和えて作るナムルなど、京畿と沖縄が重なり合う側面を持ち寄る。出品作品は絵画、インスタレーション、工芸、映像、写真、ドローイング、詩と多岐にわたる。歴史や記憶の重なりと、暮らしのなかの小さな共通点を同じ地平に置き、いくつもの層として重ねる構成をとる。鑑賞者はどの層からでも作品に入ることができる。会期初日には、韓国側のキュレーター・参加作家と、沖縄の写真家・伊波リンダ、詩人・野原誠喜、画家・松尾海彦によるアーティストトークを開催する。\n\n[関連イベント]\nアーティストトーク\n日時: 2026年10月20日18:00〜\n登壇者: ペ・ジンソン、参加作家、伊波リンダ、野原誠喜、松尾海彦\n料金: 無料（事前申込み不要）\n※イベント詳細は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-25",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "c1a3b8200685",
+        "name": "Buffer（バッファ）",
+        "lang": null,
+        "tr": {},
+        "region": "沖縄県",
+        "district": null,
+        "lat": 26.33067802945636,
+        "lng": 127.79888180737494
+      },
+      "artists": [
+        {
+          "id": "24e05fc9bc5e",
+          "name": "ク・ジオン",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "fbfc61fbc2ea",
+          "name": "パク・ダビン",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "3c5c9a82434f",
+          "name": "シン・ユボ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "26bdcd2fb00e",
+          "name": "イ・ユリン",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "93e22a43fba1",
+          "name": "チョン・ヒス",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "db387d26b08d",
+          "name": "チョ・ヨンビン",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "beaf37664eba",
+          "name": "チュリ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Jomul-Jomul-Champroo/buffer/2026-10-20",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "85b488d6d234",
+      "source": "tokyo_art_beat",
+      "title": "マチュイ・ヘルマン 「NAOCZNOS’C’-目撃者-」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/dacb3163/25610%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%92%E3%82%99%E3%82%B7%E3%82%99%E3%83%A5%E3%82%A2%E3%83%AB.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-11",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "428d66c8a712",
+        "name": "ギャラリー冬青",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 동청"
+          },
+          "en": {
+            "name": "Gallery Tosei"
+          }
+        },
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.6986452051339,
+        "lng": 139.66299835391538
+      },
+      "artists": [
+        {
+          "id": "99ad200528a3",
+          "name": "マチュイ・ヘルマン",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Maciej-Herman-Exhibition/0-D65073-A/2026-09-29",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "ef2e02519d0e",
+      "source": "tokyo_art_beat",
+      "title": "「小さな文化祭『たうらぁ〜と』」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/7c84a70a/%E3%81%9F%E3%81%86%E3%82%89%EF%BD%9E%E3%81%A8%E9%96%8B%E5%82%AC%E7%94%BB%E5%83%8F.png",
+      "description": "みんなのお気に入りを持ち寄ってつくる参加型アート展「たうらぁ〜と展」を10月に開催いたします。 おうちに代々伝わる美術品や旅先で見つけた思い出の品、お気に入りの絵や写真、子どもの工作、手作り作品など、みんなの「好き」を展示して、「どうして好きなの？」そんな話をしながら楽しむ市民参加型の小さな文化祭です。薬王寺太一氏のワークショップ作品も展示。たくさんの作品が集結しますので、どうぞご期待ください。\n\n[関連イベント]\n「実験月見台ラジオ」\nインターネットラジオ「ゆめのたね」の番組「IKE!G Club」とコラボレーションし、月見台住宅の魅力を発信する『実験月見台ラジオ たうらぁ〜と篇』を開催します。 これは月見台住宅A-30の軒先をオープンスタジオにして行う公開収録です。収録の臨場感を間近で感じながら、おしゃべりや地域の話題をみんなで和気あいあいと楽しむ参加型のエンタメ収録企画です。\n日時: 2026年10月12日13:00〜\n会場: 月見台住宅 A-30 軒先",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-10",
+      "end_date": "2026-10-12",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "eccc611ad904",
+        "name": "アートスペース　月だいたい八日",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "아트 스페이스 츠키 다이타이 요카"
+          },
+          "en": {
+            "name": "Art Space Tsuki Daitai Yoka"
+          }
+        },
+        "region": "神奈川県",
+        "district": null,
+        "lat": 35.28984608402615,
+        "lng": 139.63478750744108
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Taura-Art/tsukihachigallery/2026-10-10",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "8d382c6d33c4",
+      "source": "tokyo_art_beat",
+      "title": "Marie-Charlotte Juszczak + 星野安信 「Vision of 24」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/1ee17514/VISION%20OF%2024%20EXHIBITION%20FINAL%20POSTER.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-18",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "7f967fddf44a",
+        "name": "ギャラリーニエプス",
+        "lang": null,
+        "tr": {},
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.68824383884333,
+        "lng": 139.71765553071907
+      },
+      "artists": [
+        {
+          "id": "7821f0d35845",
+          "name": "Marie-Charlotte Juszczak",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8f3d9f8ae0ce",
+          "name": "星野安信",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Marie-Charlotte-Juszczak-Yasushin-Hoshino-Vision-of-24/5-EB4-EA51/2026-10-12",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "609f86aaf662",
+      "source": "tokyo_art_beat",
+      "title": "北井一夫 「IROHA」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/257514e9/unnamed.jpg",
+      "description": "ZEIT-FOTO kunitachiでは、2026年10月17日より北井一夫「IROHA」展を開催いたします。本展では最新作である〈IROHA〉シリーズを中心に、そこへ至る60年にわたる作家の軌跡の断片とともに展示いたします。〈IROHA〉は、北井が自身の過去のオリジナル・プリントを破り、その上に絵具を施した作品です。破れた写真の像と裂け目に、色彩や「い・ろ・は」「一・二・三」といった文字や形が重ねられ、それぞれ異なるイメージが生み出されています。\n\n一見すると、オリジナル・プリントを破り、そこに絵具を加える行為は、写真をより強く一点物の作品へと変えるもののようにも見えます。しかし〈IROHA〉の魅力は、一点一点がもつ画面の強さと同時に、それらが連なることで生まれるリズムにもあります。裂け目、色彩、文字や形が反復と変奏を繰り返すなかに、北井が写真家として出発した頃の息づかいと、現在の手つきとが重なり合います。また〈IROHA〉は、北井の写真家としての歩みそのものを考えるうえでも興味深い位置にあります。雑誌という複数の写真が連なる場で発表を重ねてきた北井の写真は、のちにオリジナル・プリントとして、一点一点の作品としても広く鑑賞されるようになりました。〈IROHA〉では、そのオリジナル・プリントを作家自身が破り、絵具を加えることで、二度と同じものの存在しない作品へと変化させています。それでいて100点を超える本シリーズには、北井の写真がもともと備えていた連なりとリズムが、別の姿となって立ち現れています。\n\n80歳を超えた北井が破いたのは、今から60年前、20歳のときに撮影した学生運動の写真でした。北井自身が「私の写真の始まりとなったプリント」と呼ぶそれらに手をかけた行為を、作家は「私自身への反抗だった」と振り返っています。過去を保存するのではなく、自らの原点を破り、そこに色や文字を重ねることによって、再び新しい制作へと向かう。〈IROHA〉には、写真家としての出発点と現在とが、一枚の画面の上で交差しています。加えて今回は、〈三里塚〉や〈フナバシストーリー〉、〈ライカで散歩〉等も出品されます。〈IROHA〉にあらわれた新たな現在と、その背後に積み重なる北井一夫の仕事を、ぜひこの機会にご覧ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-17",
+      "end_date": "2026-11-21",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "a3f587f900ac",
+        "name": "ZEIT-FOTO kunitachi（ツァイト・フォト国立）",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "ZEIT-FOTO kunitachi (자이트 포토 쿠니타치)"
+          },
+          "en": {
+            "name": "ZEIT-FOTO kunitachi (Zeit-Foto Kunitachi)"
+          }
+        },
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.69098913575165,
+        "lng": 139.44039519344292
+      },
+      "artists": [
+        {
+          "id": "359094b3b653",
+          "name": "北井一夫",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "키타이 카즈오"
+            },
+            "en": {
+              "name": "Kitai Kazuo"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kazuo-Kitai-Iroha/8526-FE88/2026-10-17",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "8035b6bd965f",
+      "source": "tokyo_art_beat",
+      "title": "「お酒と写真集」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/6d29efb3/%E9%9D%92%20%E3%82%B7%E3%83%B3%E3%83%95%E3%82%9A%E3%83%AB%20%E6%98%A0%E7%94%BB%20%E3%83%9B%E3%82%9A%E3%82%B9%E3%82%BF%E3%83%BC%20A3%20(%E3%83%9B%E3%82%9A%E3%82%B9%E3%83%88%E3%82%AB%E3%83%BC%E3%83%88%E3%82%99%EF%BC%88A4%EF%BC%89)%20-%20i%20t.jpg",
+      "description": "本展では、15名の写真家が、それぞれ自身で出版した写真集1冊と、写真作品1点を持ち寄り、展示・販売します。写真集を「読む」だけではなく、お酒や珈琲とともに味わうものとして捉えることで、写真との新しい出会い方を提案する展覧会です。一冊の写真集には、写真家が積み重ねてきた時間や視点が詰まっています。それぞれの写真家の世界をゆっくりと楽しんでいただけます。タイトルに「お酒」とありますが、お酒を飲めない方もどうぞお気軽にお越しください。コーヒーやソフトドリンクもご用意していますので、それぞれのスタイルで写真集と作品をお楽しみいただけます。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-25",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "cd15b30513c1",
+        "name": "Gallery Cafe Bar THREE THREE",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "갤러리 카페 바 쓰리 쓰리"
+          },
+          "ja": {
+            "name": "ギャラリーカフェバー スリー スリー"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.68902,
+        "lng": 139.6832
+      },
+      "artists": [
+        {
+          "id": "211cc3440798",
+          "name": "オカダキサラ",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오카다 키사라"
+            },
+            "en": {
+              "name": "Okada Kisara"
+            }
+          }
+        },
+        {
+          "id": "a12ca99f0e20",
+          "name": "岡部文",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "05ebfe17d6be",
+          "name": "小松透",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1c5099543dea",
+          "name": "坂本陽",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사카모토 요"
+            },
+            "en": {
+              "name": "Yo Sakamoto"
+            }
+          }
+        },
+        {
+          "id": "023d8ab02def",
+          "name": "佐藤圭司",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a4972d450c59",
+          "name": "佐藤充",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d4c6203643ba",
+          "name": "鈴木信彦",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4faf3bcae90d",
+          "name": "瀬戸正人",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0ba932d14349",
+          "name": "都築響一",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "츠즈키 쿄이치"
+            },
+            "en": {
+              "name": "Kyoichi Tsuzuki"
+            }
+          }
+        },
+        {
+          "id": "707f6bbf88bd",
+          "name": "中嶋琉平",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나카지마 류헤이"
+            },
+            "en": {
+              "name": "Ryuhei Nakajima"
+            }
+          }
+        },
+        {
+          "id": "96e063e98699",
+          "name": "中藤毅彦",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나카후지 다케히코"
+            },
+            "en": {
+              "name": "Takehiko Nakafuji"
+            }
+          }
+        },
+        {
+          "id": "cc853255540a",
+          "name": "柊一華",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "히이라기 이치카"
+            },
+            "en": {
+              "name": "Hiiragi Ichika"
+            }
+          }
+        },
+        {
+          "id": "f2b78b2395fb",
+          "name": "藤原敦",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "591a66511ec9",
+          "name": "紅子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e800e79b4683",
+          "name": "村上仁一",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Alcohol-and-Photography/gallery-cafe-bar-three-three/2026-10-03",
       "featured": false,
       "popularity_score": null
     }
@@ -107117,6 +107633,34 @@
       "country": "JP",
       "lat": 35.692898490629595,
       "lng": 139.73563583069225,
+      "website": null
+    },
+    {
+      "id": "c1a3b8200685",
+      "name": "Buffer（バッファ）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "沖縄県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 26.33067802945636,
+      "lng": 127.79888180737494,
+      "website": null
+    },
+    {
+      "id": "7f967fddf44a",
+      "name": "ギャラリーニエプス",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "新宿、初台、四ツ谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.68824383884333,
+      "lng": 139.71765553071907,
       "website": null
     }
   ],
@@ -133854,6 +134398,126 @@
     {
       "id": "2681cdb56706",
       "name": "とも吉",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "69f19a1f1de1",
+      "name": "キース・マグレガー",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "24e05fc9bc5e",
+      "name": "ク・ジオン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fbfc61fbc2ea",
+      "name": "パク・ダビン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3c5c9a82434f",
+      "name": "シン・ユボ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "26bdcd2fb00e",
+      "name": "イ・ユリン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "93e22a43fba1",
+      "name": "チョン・ヒス",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "db387d26b08d",
+      "name": "チョ・ヨンビン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "beaf37664eba",
+      "name": "チュリ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "99ad200528a3",
+      "name": "マチュイ・ヘルマン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7821f0d35845",
+      "name": "Marie-Charlotte Juszczak",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8f3d9f8ae0ce",
+      "name": "星野安信",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a12ca99f0e20",
+      "name": "岡部文",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "05ebfe17d6be",
+      "name": "小松透",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "023d8ab02def",
+      "name": "佐藤圭司",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a4972d450c59",
+      "name": "佐藤充",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d4c6203643ba",
+      "name": "鈴木信彦",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4faf3bcae90d",
+      "name": "瀬戸正人",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f2b78b2395fb",
+      "name": "藤原敦",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "591a66511ec9",
+      "name": "紅子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e800e79b4683",
+      "name": "村上仁一",
       "lang": null,
       "tr": {}
     }
