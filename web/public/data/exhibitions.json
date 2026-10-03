@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T19:17:43.330519+00:00",
+  "generated_at": "2026-10-03T21:07:41.104498+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -59225,7 +59225,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "4009714e3e38",
@@ -69696,7 +69696,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-11-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "708a01bf31b9",
@@ -72951,7 +72951,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-25",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "f9437c057f04",
@@ -77770,7 +77770,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-11",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "946e416ecc76",
@@ -78431,7 +78431,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-12-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5e8a96e6edb3",
@@ -81552,7 +81552,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "403794866387",
@@ -81628,7 +81628,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "59ad92ee8947",
@@ -81704,7 +81704,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "4009714e3e38",
@@ -82042,7 +82042,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5feff1bbc25b",
@@ -84301,7 +84301,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-12-03",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "1efd2fe0449e",
@@ -86927,7 +86927,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-12",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5aa3427c8f38",
@@ -87358,7 +87358,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-12",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "e7ea0eaeeee8",
@@ -88732,7 +88732,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "9bb4307ccf48",
@@ -89172,7 +89172,7 @@
       "price_max": null,
       "start_date": "2026-09-07",
       "end_date": "2026-10-02",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "32eaf6028821",
@@ -89347,7 +89347,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "c0100ea9b8af",
@@ -89410,7 +89410,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ce1c55a3de47",
@@ -89536,7 +89536,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "1a56a45138cd",
@@ -90057,7 +90057,7 @@
       "price_max": null,
       "start_date": "2026-09-18",
       "end_date": "2026-10-02",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "7eceec581cde",
@@ -90809,7 +90809,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-24",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5fd5efce5309",
@@ -90935,7 +90935,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-11-23",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "9ca1d76cb446",
@@ -91059,7 +91059,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5e31793a054c",
@@ -91135,7 +91135,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-25",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ef5b4b3f1515",
@@ -91198,7 +91198,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-19",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "40b2a5b7ab82",
@@ -92732,7 +92732,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-12",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "eba4f5e63243",
@@ -92984,7 +92984,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-25",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "76373e5b77c3",
@@ -93047,7 +93047,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-11-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "f463daf15a4a",
@@ -93613,7 +93613,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-04",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "56f172501426",
@@ -93662,7 +93662,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2027-01-17",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ab669725c2ba",
@@ -96577,7 +96577,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-25",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "cd15b30513c1",
@@ -96731,6 +96731,53 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Alcohol-and-Photography/gallery-cafe-bar-three-three/2026-10-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "ce73de4edd41",
+      "source": "artmap",
+      "title": "《투명한 사물들》",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://media.art-map.co.kr/art-map/public/upload/2026/10/exhibition/2db142dd3fbf2f579f0861ec1adb6256_thumb.jpg",
+      "description": "투명한 사물들\n책이 있는 풍경은 차분한 울림을 전한다. 글을 읽지 않아도 그 존재감만으로 느껴지는 공기가 있다. 얇은 표면 위에 얹힌 글과 이미지, 그렇게 쌓인 종이의 무게에는 오랜 시간과 여러 장소에서 벼려진 작가의 생각이 담겨 있다. 책이 아름다운 사물이 될 수 있는 이유는 굳이 설명하지 않아도 수없이 많을 것이다.\n좋은 이야기를 글로 풀어내는 일만큼이나 책의 형식과 재료가 지닌 고유한 결 또한 중요하다. 우리가 책을 경험하는 방식이 그만큼 다양하기 때문이다. 손으로 페이지를 넘기고, 펼치고, 눈으로 보고 생각하고 느낀다. 종이의 색과 질감, 무게와 밀도, 탄성을 읽고 해석하는 일. 서로 다른 재료를 엮어 조화로운 형식과 구조를 만들고, 이야기가 머무는 집을 짓는 일. 우리는 이러한 작업을 하는 숙련된 창작자를 북아티스트라 부른다.\n가벼운 종이 한 장에 담긴 이야기들이 엮여 정신의 공간이 된다. 작가가 삶에서 마주한 호기심으로 시작하여 깊이 관찰하고 재구성한 이야기가 책이 된다. 책을 만드는 일에는 정답이 없다. 주어진 모든 가능성을 열어두고 하나씩 지워가는 선택의 과정이 있을 뿐이다. 그것은 무지의 구름 속을 지나, 희미한 막 너머에 존재하는 투명한 세계의 원형을 찾아가는 일인 것이다.\n《투명한 사물들》에 참여하는 네 명의 작가는 모두 종이와 빛이라는 재료를 사용하여 책을 만든다. 세상에 대한 그들의 호기심과 탐구심, 상상력이 재료를 만나고, 그것을 다루는 성실한 태도와 숙련된 기술을 통해 하나의 책으로 구현된다. 그 과정에서 탄생한 이 온전한 사물들은 순도 높게 빛나는 보석과 같다. 예술이 지향하는 투명성이 불필요한 것을 걷어내고 본질이 스스로를 드러내는 것을 말한다면, 동양 미학이 말하는 맑고 정한 기운, 종교와 철학이 던지는 근원적인 질문들 또한 결국 책을 통해 전해지고, 책을 만드는 일 속에서 구현되는 것은 아닐까.\n종이와 책, 이는 인간 정신이 지닌 아름다움이 머무는 곳이다. 책의 경험은 고요한 모양을 띤다. 손으로 만지고 느끼는 일이 점점 줄어들고, 머물러 사유하는 여유를 갖기 어려워진 시대에 책이 있는 풍경은 그 모습만으로 위로와 안도감을 건넨다. 이 전시는 인간의 정신과 몸이 할 수 있는 가장 아름다운 일 가운데 하나가 책을 만드는 일이라는 것을 보여준다.\n*출처: 닻 미술관",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "paid",
+      "price_min": 5000,
+      "price_max": 5000,
+      "start_date": "2026-09-12",
+      "end_date": "2026-12-27",
+      "status": "ongoing",
+      "open_hours": "수~일요일 11:00~18:00",
+      "venue": {
+        "id": "c37f03959bac",
+        "name": "닻미술관",
+        "lang": "ko",
+        "tr": {
+          "en": {
+            "name": "Dat Art Museum"
+          },
+          "ja": {
+            "name": "ダット美術館"
+          }
+        },
+        "region": "경기",
+        "district": null,
+        "lat": 37.3803474507034,
+        "lng": 127.271091523802
+      },
+      "artists": [
+        {
+          "id": "be5e8af8816c",
+          "name": "율레 클라우디아 만(Jule Claudia Mahn), 파트리시아 라가르데(Patricia Lagarde), 베로니카 셰퍼스(Veronika Schäpers), 송해인(Haein Song)",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://art-map.co.kr/exhibition/view.php?idx=32760",
       "featured": false,
       "popularity_score": null
     }
@@ -134518,6 +134565,12 @@
     {
       "id": "e800e79b4683",
       "name": "村上仁一",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "be5e8af8816c",
+      "name": "율레 클라우디아 만(Jule Claudia Mahn), 파트리시아 라가르데(Patricia Lagarde), 베로니카 셰퍼스(Veronika Schäpers), 송해인(Haein Song)",
       "lang": null,
       "tr": {}
     }
