@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T19:17:53.237162+00:00",
+  "generated_at": "2026-10-04T21:27:13.672500+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -24815,7 +24815,7 @@
       "price_max": null,
       "start_date": "2026-09-15",
       "end_date": "2026-10-03",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "3933dbcc80a6",
@@ -65013,7 +65013,7 @@
       "price_max": null,
       "start_date": "2026-07-04",
       "end_date": "2026-10-03",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "d7c65d3bd7db",
@@ -65776,7 +65776,7 @@
       "price_max": null,
       "start_date": "2026-08-01",
       "end_date": "2026-10-03",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "1a59d5ded262",
@@ -73387,7 +73387,7 @@
       "price_max": null,
       "start_date": "2026-08-26",
       "end_date": "2026-10-03",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "06e97e01e910",
@@ -80515,7 +80515,7 @@
       "price_max": null,
       "start_date": "2026-09-05",
       "end_date": "2026-10-03",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "288839f7e876",
@@ -83230,7 +83230,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-10-03",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "5e7cd386d448",
@@ -85383,7 +85383,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-10-03",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "8d88cff42a52",
@@ -86752,7 +86752,7 @@
       "price_max": null,
       "start_date": "2026-10-04",
       "end_date": "2026-10-18",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "920816c5e98e",
@@ -87484,7 +87484,7 @@
       "price_max": null,
       "start_date": "2026-10-04",
       "end_date": "2026-11-16",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "0dc69467f1c2",
@@ -88426,22 +88426,11 @@
       "popularity_score": null
     },
     {
-      "id": "f694560c29ce",
+      "id": "a9dff1ffce09",
       "source": "totem_pole",
-      "title": "Gems and A Rose",
-      "lang": "en",
-      "tr": {
-        "ko": {
-          "title": "Gems and A Rose",
-          "description": "차이윈이, 양위원 / Clarice Yunyi Cai, Yang Yuwen\n\n호세키토바라 / Gems and A Rose\n\n2026.10.6 (Tue) – 10.18 (Sun)\n\nOpen 12:00 – 19:00 Closed Mondays\n\nWe are two, isolated like gems in our unthinkable otherness. But the rose contains and transcends us, we are one rose, beyond.— D.H. Lawrence, “Love,” in Love, Sex, Men, and WomenD.H. 로렌스가 말한 사랑의 형태를 현대에 사는 우리는 어떻게 다시 받아들일 수 있을까? 지극히 관능적인 사랑의 불꽃 속에서, 파괴적이고 긴장감을 품은 불꽃의 마찰 속에서, 사람은 상대방의 근본적인 타자성에 의해 멸망하고 그 본질적인 타자성으로 환원되어 버린다. 이것은 파괴적인, 속세의 사랑이다. 그러나 이것은 우리를 각각 독자적인 개체로 정화시켜 주는 유일한 불꽃이기도 하다. 우리를 혼돈 속에서 녹여내어, 보석처럼 유일무이한, 독립적인 존재로 단련시킨다. 그리고 장미는 그러한 두 존재를 감싸 안고 초월하는 사랑 그 자체이다. 본 전시에서는 로렌스의 사랑에 대한 사유를 하나의 기점으로 삼아, 두 여성 작가가 각자의 시점과 다른 매체를 통해 사랑, 개체, 그리고 타자와의 관계를 다시금 들여다본다.\n\n차이윈이｜미술가 1995년 상하이 출생, Dream Diary와 기억을 기반으로 한 이야기를 상상하며 시적인 작품을 만든다. 2018년 도쿄예술대학원 미술연구과 첨단표현전공 졸업, 2023년 무사시노미술대학 박사 학위 취득. 제56회 쇼와카이전 파리상, 「TOKYO MIDTOWN AWARD 2021」아트 부문 우수상을 수상. 개인전 2025 「Satan’s Murmuring」 Gallery Where 베이징, 중국 2025 CAI YUNYI Solo Exhibition LEA project 마드리드, 스페인 2025 신세대에게의 시점 2025 차이윈이전, 코바야시 화랑 도쿄\n\n양위원 / Yang Yuwen\n\nProfile / Artist Site"
-        },
-        "ja": {
-          "title": "Gems and A Rose"
-        },
-        "en": {
-          "description": "Clarice Yunyi Cai, Yang Yuwen / Clarice Yunyi Cai, Yang Yuwen\n\nGems and A Rose / Gems and A Rose\n\n2026.10.6 (Tue) – 10.18 (Sun)\n\nOpen 12:00 – 19:00 Closed Mondays\n\nWe are two, isolated like gems in our unthinkable otherness. But the rose contains and transcends us, we are one rose, beyond.— D.H. Lawrence, “Love,” in Love, Sex, Men, and WomenHow can we, living in the modern age, reinterpret the form of love that D.H. Lawrence spoke of? In the intensely sensual flame of love, amidst the destructive and tension-filled friction of that flame, one is destroyed by the fundamental otherness of the partner and reduced to that essential otherness. This is a destructive, worldly love. Yet, this is also the only flame that purifies us into unique individuals. It melts us out of chaos, forging us into unique, independent beings like gems. And the rose is love itself, encompassing and transcending these two beings. In this exhibition, taking Lawrence's thoughts on love as a starting point, two female artists re-examine love, individuality, and relationships with others through their respective perspectives and different media.\n\nClarice Yunyi Cai | Artist Born in Shanghai in 1995, she creates poetic works by imagining stories based on Dream Diary and memories. Graduated from Tokyo University of the Arts Graduate School of Fine Arts, Department of Advanced Art Expression in 2018, and obtained a Ph.D. from Musashino Art University in 2023. Received the Paris Prize at the 56th Showa-kai Exhibition and the Excellence Award in the Art Division of \"TOKYO MIDTOWN AWARD 2021.\" Solo Exhibitions: 2025 \"Satan’s Murmuring\" Gallery Where, Beijing, China; 2025 CAI YUNYI Solo Exhibition LEA project, Madrid, Spain; 2025 Perspective for New Generations 2025 Clarice Yunyi Cai Exhibition, Kobayashi Gallery, Tokyo.\n\nYang Yuwen / Yang Yuwen\n\nProfile / Artist Site"
-        }
-      },
+      "title": "宝石と薔薇 / Gems and A Rose",
+      "lang": null,
+      "tr": {},
       "poster_image_url": "https://tppg.jp/wp/wp-content/uploads/2026/09/gems-and-a-rose_1.jpeg",
       "description": "蔡云逸、楊喩雯 / Clarice Yunyi Cai、Yang Yuwen\n\n宝石と薔薇 / Gems and A Rose\n\n2026.10.6 (Tue) – 10.18 (Sun)\n\nOpen 12:00 – 19:00 Closed Mondays\n\nWe are two, isolated like gems in our unthinkable otherness. But the rose contains and transcends us, we are one rose, beyond.— D.H. Lawrence, “Love,” in Love, Sex, Men, and WomenD.H.ロレンスが語った愛のかたちを、現代を生きる私たちは、どのように受け取り直すことができるのだろうか。極めて官能的な愛の炎のなかで、破壊的で緊張を孕んだ炎の摩擦の中、人は相手の根本的な他者性によって滅ぼされ、その本質的な他者性へと還元されてしまう。これは破壊的な、俗世の愛である。しかしこれは、私たちをそれぞれ独自の個体へと浄化してくれる唯一の炎でもある。私たちを混沌の中から溶かし出し、宝石のような唯一無二の、独立した存在へと焼き鍛える。そして薔薇は、そうした二つの存在を包み込み、超越する愛そのものである。本展では、ロレンスの愛をめぐる思考をひとつの起点としながら、二人の女性作家が、それぞれの視点と異なるメディアを通して、愛、個体、そして他者との関係をあらためて見つめ直す。\n\n蔡云逸｜美術家1995年上海生まれ、Dream Diaryと記憶をベースとした物語を想像し、ポエティックな作品を作る。2018年東京藝術大学院美術研究科先端表現専攻卒業、2023年武蔵野美術大学博士号取得。第56回昭和会展パリ賞、「TOKYO MIDTOWN AWARD 2021」アート部門優秀賞を受賞。個展2025 「Satan’s Murmuring」 Gallery Where 北京、中国2025 CAI YUNYI Solo Exhibition LEA project マドリード、スペイン2025 新世代への視点 2025 蔡云逸展、コバヤシ画廊 東京\n\n楊 喩雯 / Yang Yuwen\n\nProfile / Artist Site",
       "medium": "photo",
@@ -95957,23 +95946,14 @@
       "popularity_score": null
     },
     {
-      "id": "e92e9bb03526",
-      "source": "tokyo_art_beat",
-      "title": "新井悠史 「OVERALIVE 2」",
-      "lang": "ja",
-      "tr": {
-        "ko": {
-          "title": "아라이 유시 「OVERALIVE 2」",
-          "description": "「OVERALIVE」는 때로는 과도한 에너지로 살아감으로써 다양한 장벽을 초월해 나가는, 눈에 보이지 않는 생명의 강인함과 유연함을 부각시키기 위한 프로젝트입니다. 제2장이 되는 본 전시 또한 아라이 유시가 제작한 음악과 함께 감상하실 수 있습니다. 꼭 경험해 보세요."
-        },
-        "en": {
-          "title": "Yushi Arai \"OVERALIVE 2\"",
-          "description": "\"OVERALIVE\" is a project to highlight the invisible strength and resilience of life, which sometimes transcends various barriers by living with excessive energy. This exhibition, which is the second chapter, can also be viewed with music produced by Yushi Arai. Please experience it."
-        }
-      },
-      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/2f0b9e51/1%20(1).jpg",
-      "description": "「OVERALIVE」は、ときには過剰なエネルギーで生きることで様々な障壁を超越していくという、目には見えない命の力強さやしなやかさを浮かび上がらせるためのプロジェクトです。第二章となる本展も、新井悠史が制作した音楽と共にご高覧いただけます。是非ご体感ください。",
-      "medium": "mixed",
+      "id": "c8cca7e15fa9",
+      "source": "totem_pole",
+      "title": "OVERALIVE 2",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://tppg.jp/wp/wp-content/uploads/2026/09/1.jpg",
+      "description": "新井 悠史 / Yushi Arai\n\nOVERALIVE 2\n\n2026.11.3 (tue) – 11.15 (sun)\n\nOpen 12:00 – 19:00 Closed Mondays\n\n命が何かを超え、魂を生む。その瞬間に吹く風を写したい。\n\nOveralive! Ensoul!That’s the breeze I chase.\n\n「OVERALIVE」は、ときには過剰なエネルギーで生きることで様々な障壁を超越していくという、目には見えない命の力強さやしなやかさを浮かび上がらせるためのプロジェクトです。第二章となる本展も、新井悠史が制作した音楽と共にご高覧いただけます。是非ご体感ください。\n\n“OVERALIVE” is a project designed to reveal the invisible strength and resilience of life—a force that surmounts various obstacles through the sheer, sometimes overflowing energy of living. For this exhibition, which marks the project’s second chapter, visitors are invited to experience the work accompanied by music composed by Yushi Arai. We hope you will come and experience it for yourself.\n\n新井 悠史 / Yushi Arai\n\nProfile / Artist Site",
+      "medium": "photo",
       "exhibition_type": "solo",
       "genre_tags": [],
       "fee_type": "free",
@@ -96002,6 +95982,19 @@
       },
       "artists": [
         {
+          "id": "736ccd08432b",
+          "name": "新井 悠史 / Yushi Arai",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "아라이 유시 / Yushi Arai"
+            },
+            "en": {
+              "name": "Yushi Arai"
+            }
+          }
+        },
+        {
           "id": "0882fd3cd9fe",
           "name": "新井悠史",
           "lang": "ja",
@@ -96015,7 +96008,7 @@
           }
         }
       ],
-      "source_url": "https://www.tokyoartbeat.com/events/-/Yushi-Arai-Overalive-2/2-D82-C04-B/2026-11-03",
+      "source_url": "https://tppg.jp/overalive-2/",
       "featured": false,
       "popularity_score": null
     },
