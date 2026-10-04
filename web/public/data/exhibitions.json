@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T21:07:41.104498+00:00",
+  "generated_at": "2026-10-04T00:28:22.142960+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -94937,8 +94937,15 @@
       "id": "f488fef39fcc",
       "source": "gallery_now",
       "title": "<예기치 못한 손님 An Unexpected Guest> 김연수 개인전",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "<An Unexpected Guest> Kim Yeon-su Solo Exhibition"
+        },
+        "ja": {
+          "title": "<예기치 못한 손님 An Unexpected Guest> キム・ヨンス 個展"
+        }
+      },
       "poster_image_url": "https://blogthumb.pstatic.net/MjAyNjA5MzBfMTQg/MDAxNzkwNzU3MTIyODAz.lkWD0T-Vhxc9xEsWIpLT1cSZ-aftcUFOnzory8Zk6AEg.wzlvEfCIh7P_vsIIeZLo_dDs6wL1g7ZrI9q-HszD6Xsg.JPEG/%BA%B8%C0%CC%C1%F6%BE%CA%B4%C2%BC%FB%B0%E1_2026_OilonCanvas_130x190cm.jpg?type=s3",
       "description": null,
       "medium": "photo",
@@ -94977,8 +94984,17 @@
       "id": "319bdb6c22d4",
       "source": "gallery_tosei",
       "title": "Maciej Herman写真展",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "Maciej Herman 사진전",
+          "description": "Maciej Herman�ｼ医�槭メ繧ｧ繧､繝ｻ繝倥Ν繝槭Φ)蜀咏悄螻�縲� 縲�縲�縲�縲�縲�縲�縲�縲� 縲�縲� NAOCZNO - 逶ｮ謦�閠�- 2026년 9월 29일 (화) ~ 10월 11일 (일) 개최\n\n繧ｼ繝ｩ繝√Φ繧ｷ繝ｫ繝舌�ｼ繝励Μ繝ｳ繝�\n\nCopyright (c) Maciej Herman All Rights Reserved"
+        },
+        "en": {
+          "title": "Maciej Herman Photography Exhibition",
+          "description": "Maciej Herman�ｼ医�槭メ繧ｧ繧､繝ｻ繝倥Ν繝槭Φ)蜀咏悄螻�縲� 縲�縲�縲�縲�縲�縲�縲�縲� 縲�縲� NAOCZNO - 逶ｮ謦�閠�- September 29, 2026 (Tue) - October 11 (Sun) held\n\n繧ｼ繝ｩ繝√Φ繧ｷ繝ｫ繝舌�ｼ繝励Μ繝ｳ繝�\n\nCopyright (c) Maciej Herman All Rights Reserved"
+        }
+      },
       "poster_image_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/jpg/EXHIBITIONS/PAST/2026/2610/2610.jpg",
       "description": "Maciej Herman�ｼ医�槭メ繧ｧ繧､繝ｻ繝倥Ν繝槭Φ)蜀咏悄螻�縲� 縲�縲�縲�縲�縲�縲�縲�縲� 縲�縲� NAOCZNO - 逶ｮ謦�閠�- 2026蟷ｴ9譛�29譌･�ｼ育↓�ｼ峨�� 10譛�11譌･�ｼ域律�ｼ峨��菴懷ｮｶ逡･豁ｴ\n\n繧ｼ繝ｩ繝√Φ繧ｷ繝ｫ繝舌�ｼ繝励Μ繝ｳ繝�\n\nCopyright (c) Maciej Herman All Rights Reserved",
       "medium": "photo",
@@ -96319,8 +96335,15 @@
       "venue": {
         "id": "c1a3b8200685",
         "name": "Buffer（バッファ）",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "Buffer (버퍼)"
+          },
+          "en": {
+            "name": "Buffer"
+          }
+        },
         "region": "沖縄県",
         "district": null,
         "lat": 26.33067802945636,
@@ -96482,8 +96505,15 @@
       "venue": {
         "id": "7f967fddf44a",
         "name": "ギャラリーニエプス",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 니엡스"
+          },
+          "en": {
+            "name": "Gallery Niepce"
+          }
+        },
         "region": "新宿、初台、四ツ谷",
         "district": null,
         "lat": 35.68824383884333,
@@ -107685,8 +107715,15 @@
     {
       "id": "c1a3b8200685",
       "name": "Buffer（バッファ）",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "Buffer (버퍼)"
+        },
+        "en": {
+          "name": "Buffer"
+        }
+      },
       "venue_type": "other",
       "region": "沖縄県",
       "district": null,
@@ -107699,8 +107736,15 @@
     {
       "id": "7f967fddf44a",
       "name": "ギャラリーニエプス",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "갤러리 니엡스"
+        },
+        "en": {
+          "name": "Gallery Niepce"
+        }
+      },
       "venue_type": "other",
       "region": "新宿、初台、四ツ谷",
       "district": null,
