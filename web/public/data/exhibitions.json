@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T00:28:22.142960+00:00",
+  "generated_at": "2026-10-04T06:36:21.956636+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -91623,8 +91623,15 @@
         {
           "id": "a8918275a9d0",
           "name": "비비안 카쿠리",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Vivian Kakuri"
+            },
+            "ja": {
+              "name": "ヴィヴィアン・カクリ"
+            }
+          }
         }
       ],
       "source_url": "https://njp.ggcf.kr/exhibitions/247",
@@ -91726,8 +91733,15 @@
         {
           "id": "b391a168e166",
           "name": "中田友木",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나카타 유키"
+            },
+            "en": {
+              "name": "Nakata Yuki"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Yuki-Nakata-Emotions-In-My-Life/gallery-solaris/2026-10-20",
@@ -91782,14 +91796,28 @@
         {
           "id": "d246d4031b47",
           "name": "安藤瑠美",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "안도 루미"
+            },
+            "en": {
+              "name": "Ando Rumi"
+            }
+          }
         },
         {
           "id": "cc2aaff72971",
           "name": "金本凜太朗",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "가네모토 린타로"
+            },
+            "en": {
+              "name": "Kanemoto Rintaro"
+            }
+          }
         },
         {
           "id": "eb32ac0bad5b",
@@ -91820,8 +91848,15 @@
         {
           "id": "16d4a5610e69",
           "name": "小見山峻",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "고미야마 슌"
+            },
+            "en": {
+              "name": "Komiyama Shun"
+            }
+          }
         },
         {
           "id": "e707cafe6b4f",
@@ -91889,20 +91924,41 @@
         {
           "id": "c93cc15faffd",
           "name": "あべれいこ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "아베 레이코"
+            },
+            "en": {
+              "name": "Abe Reiko"
+            }
+          }
         },
         {
           "id": "98488afaf051",
           "name": "SHIGECHAN",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "SHIGECHAN"
+            },
+            "ja": {
+              "name": "SHIGECHAN"
+            }
+          }
         },
         {
           "id": "9760bbdfd3f0",
           "name": "タカハシケイジ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "다카하시 케이지"
+            },
+            "en": {
+              "name": "Takahashi Keiji"
+            }
+          }
         },
         {
           "id": "8d9f87dbc96c",
@@ -91920,38 +91976,80 @@
         {
           "id": "fcf130f59c6d",
           "name": "平見和美",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "히라미 가즈미"
+            },
+            "en": {
+              "name": "Hirami Kazumi"
+            }
+          }
         },
         {
           "id": "d36266296fc8",
           "name": "藤井雅彦",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "후지이 마사히코"
+            },
+            "en": {
+              "name": "Fujii Masahiko"
+            }
+          }
         },
         {
           "id": "756e3618b0b0",
           "name": "mikko",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "미코"
+            },
+            "ja": {
+              "name": "ミッコ"
+            }
+          }
         },
         {
           "id": "2e8b77823da2",
           "name": "百瀬哲也",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "모모세 테츠야"
+            },
+            "en": {
+              "name": "Momose Tetsuya"
+            }
+          }
         },
         {
           "id": "58f41512056c",
           "name": "吉冨覚律",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "요시토미 카쿠리츠"
+            },
+            "en": {
+              "name": "Yoshitomi Kakuritsu"
+            }
+          }
         },
         {
           "id": "551375a6b5fc",
           "name": "橋本大和",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "하시모토 야마토"
+            },
+            "en": {
+              "name": "Hashimoto Yamato"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/FILMing/gallery-solaris/2026-09-29",
@@ -92169,32 +92267,67 @@
         {
           "id": "4b1b0229b469",
           "name": "Sumiko Yamanobe",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "야마노베 스미코"
+            },
+            "ja": {
+              "name": "ヤマノベ スミコ"
+            }
+          }
         },
         {
           "id": "7b865152a721",
           "name": "Chogenbo",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "초겐보"
+            },
+            "ja": {
+              "name": "Chogenbo"
+            }
+          }
         },
         {
           "id": "7d1fca2d0248",
           "name": "渺Byou",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "묘Byou"
+            },
+            "en": {
+              "name": "渺Byou"
+            }
+          }
         },
         {
           "id": "98fc78c76bd6",
           "name": "きむらそうすけ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "기무라 소스케"
+            },
+            "en": {
+              "name": "Kimura Sousuke"
+            }
+          }
         },
         {
           "id": "2301ad552df9",
           "name": "Ichiro Mori",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "이치로 모리"
+            },
+            "ja": {
+              "name": "Ichiro Mori"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Between-Dog-and-Wolf-Between-Fungi-Butterflies-Desire-and-Panda/05120-A9-D/2026-10-14",
@@ -92249,8 +92382,15 @@
         {
           "id": "5f999138f51e",
           "name": "藤倉翼",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "후지쿠라 츠바사"
+            },
+            "en": {
+              "name": "Fujikura Tsubasa"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Tsubasa-Fujikura-Neon-sign/cyg-art-gallery/2026-10-10",
@@ -92368,14 +92508,28 @@
         {
           "id": "ecba418673d8",
           "name": "梅原龍三郎",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "우메하라 류자부로"
+            },
+            "en": {
+              "name": "Ryūzaburō Umehara"
+            }
+          }
         },
         {
           "id": "14bb3cf1fa84",
           "name": "栗林今朝男",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "구리바야시 게사오"
+            },
+            "en": {
+              "name": "Kesao Kuribayashi"
+            }
+          }
         },
         {
           "id": "2a6e2b4ef762",
@@ -92575,8 +92729,15 @@
         {
           "id": "c36a26563329",
           "name": "津田翔一",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "쓰다 쇼이치"
+            },
+            "en": {
+              "name": "Shōichi Tsuda"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/View-Landscape-from-Animation-to-Contemporary-Art/koumi-machi-kogen-museum-of-art/2026-09-12",
@@ -92644,14 +92805,28 @@
         {
           "id": "b91731add7f2",
           "name": "石元泰博",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이시모토 야스히로"
+            },
+            "en": {
+              "name": "Yasuhiro Ishimoto"
+            }
+          }
         },
         {
           "id": "3d8b4320595a",
           "name": "薗部澄",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "소노베 기요시"
+            },
+            "en": {
+              "name": "Kiyoshi Sonobe"
+            }
+          }
         },
         {
           "id": "572615d5b336",
@@ -92669,14 +92844,28 @@
         {
           "id": "229f35493e15",
           "name": "比嘉康雄",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "비가 야스오"
+            },
+            "en": {
+              "name": "Higa Yasuo"
+            }
+          }
         },
         {
           "id": "2532f47ca385",
           "name": "江成常夫",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "에나리 쓰네오"
+            },
+            "en": {
+              "name": "Enari Tsuneo"
+            }
+          }
         },
         {
           "id": "88b4c73056ba",
@@ -93800,20 +93989,41 @@
         {
           "id": "0ff6d17c5cf9",
           "name": "千葉正也",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "지바 마사야"
+            },
+            "en": {
+              "name": "Chiba Masaya"
+            }
+          }
         },
         {
           "id": "3dbd1a8dbb74",
           "name": "ソニー・スズキ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "소니 스즈키"
+            },
+            "en": {
+              "name": "Sony Suzuki"
+            }
+          }
         },
         {
           "id": "eccc16a384fe",
           "name": "百瀬文",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "모모세 후미"
+            },
+            "en": {
+              "name": "Momose Fumi"
+            }
+          }
         },
         {
           "id": "f9d44392ee58",
@@ -95033,8 +95243,17 @@
       "id": "4e0d8c6cdb5a",
       "source": "tokyo_art_beat",
       "title": "増山士郎 「世界の果てで、動物と対話する」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "마스야마 시로 「세상의 끝에서, 동물과 대화하다」",
+          "description": "Art Center NEW에서는 5일간의 특별 기획으로, 마스야마 시로의 회고전 「세상의 끝에서, 동물과 대화하다」를 개최합니다. 마스야마는 세계 각지의 아티스트 인 레지던시를 거치며 현지 사람들을 참여시킨, 장소 기반 프로젝트를 전개해 왔습니다. 더블린의 아일랜드 현대미술관, 그리고 2009년 벨파스트의 Flax Art Studios에서 레지던시 체류를 계기로, 2010년부터는 분쟁의 영향이 여전히 남아있는 영국 북아일랜드에서 유일한 재주 일본인 비주얼 아티스트로서 활동을 이어가고 있습니다. 본 회고전에서는 마스야마의 다양한 활동 중에서도 특히 인기가 높은 '동물'을 주제로 세계 각지에서 실현된 작품군에 초점을 맞춥니다.\n\n마스야마는 2011년 동일본 대지진 이후, 세계에서 급속히 진행되는 세계화와 일본 및 서유럽의 현대 생활 양식에 깊은 의문을 품게 되었습니다. 이에 세계 각지의 현지인과 동물을 참여시키면서, 소비주의의 확산으로 쇠퇴하고 있는 전통적인 동물 섬유 기술을 사용하여 아일랜드의 양(2012), 페루의 알파카(2014), 몽골의 낙타(2015), 북극권(미국 알래스카, 그린란드)의 사향소(2023)로 이루어진 4개의 시리즈 작품 「Self Sufficient Life」를 실현했습니다. 본 전시에서는 「삿포로 국제 예술제 SIAF2024」의 공모 프로젝트 일환으로 삿포로의 CAI03에서 개최되어 호평을 얻었던 동명의 개인전에서도 선보였던 「Self Sufficient Life」의 4작품과 아일랜드의 파리(2016), 태국의 닭(2017), 키프로스의 당나귀(2022), 인도의 코끼리(2023) 등 총 8작품에 더해, 일본에서 처음 공개되는 2작품을 전시합니다. 유럽에서는 유통되지 않는 고양이용 기호품 마타타비를 북아일랜드와 빈 시장에서 전파하기 위해 행상한 프로젝트 「마타타비」(2024)와, 프랑스에서 트러플 탐색을 위해 훈련되는 전통적인 돼지와 현대적인 개를 비교하는 2채널 비디오 작품 「평행하는 과거와 현재—트러플을 찾아서」(2026)입니다. 총 10작품을 한자리에 선보입니다.\n\n동물이라는 많은 관객에게 친숙한 모티프를 다루면서도, 작품에는 각국의 사회 정세에 대한 날카로운 시점과 현대를 살아가는 우리에게 던지는 질문이 담겨 있어 시사하는 바가 많은 전시회가 될 것입니다. 전시 기간 중 11월 21일(토)에는 오랫동안 마스야마의 전시 평론을 써온 평론가 후쿠즈미 렌 씨와의 대담을 개최합니다. 또한 본 전시에 맞춰 지난 24년간 세계 42곳에 이르는 아티스트 인 레지던시 체류기를 엮은 자서전을 출판할 예정입니다. 11월 22일(일)에는 본서의 편집을 담당한 Art-Phil／monade contemporary｜단자현대의 F. 아츠미 씨와의 대담을 통한 출판 기념 이벤트도 개최합니다. 두 대담을 제외하고 전시회는 입장 무료입니다. 많은 분들의 방문을 바랍니다.\n\n[관련 이벤트]\n1. 평론가 토크\n일시: 2026년 11월 21일 15:00~16:00\n정원: 50명\n요금: 1000엔\n2. 출판 기념 토크\n일시: 2026년 11월 22일 15:00~16:00\n정원: 50명\n요금: 1000엔\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Shiro Masuyama \"At the End of the World, Dialoguing with Animals\"",
+          "description": "Art Center NEW will host a five-day special exhibition, Shiro Masuyama's retrospective \"At the End of the World, Dialoguing with Animals.\" Masuyama has traveled to artist-in-residence programs around the world, developing site-specific projects that involve local communities. Following his residency at the Irish Museum of Modern Art in Dublin and Flax Art Studios in Belfast in 2009, he has continued to work as the only resident Japanese visual artist in Northern Ireland, UK, where the effects of conflict still linger. This retrospective focuses on Masuyama's diverse body of work, particularly his popular \"animal\"-themed projects realized in various locations worldwide.\n\nSince the Great East Japan Earthquake in 2011, Masuyama has developed deep questions about rapid globalization and modern lifestyles in Japan and Western Europe. In response, he has involved local people and animals worldwide, using traditional animal fiber techniques that are declining due to the spread of consumerism, to create four series of works titled \"Self Sufficient Life\": Irish Sheep (2012), Peruvian Alpaca (2014), Mongolian Camel (2015), and Arctic Musk Ox (US Alaska, Greenland) (2023). This exhibition will feature the four \"Self Sufficient Life\" works, which were also well-received at his solo exhibition of the same name held at CAI03 in Sapporo as part of the Sapporo International Art Festival SIAF2024 open call project, along with a total of eight works including Irish Flies (2016), Thai Chickens (2017), Cypriot Donkeys (2022), and Indian Elephants (2023). Additionally, two works will be shown for the first time in Japan: \"Matatabi\" (2024), a project where he peddled matatabi, a cat stimulant not distributed in Europe, in markets in Northern Ireland and Vienna to promote it, and \"Parallel Past and Present - Searching for Truffles\" (2026), a two-channel video work comparing traditional pigs and modern dogs trained for truffle hunting in France. A total of 10 works will be presented.\n\nWhile dealing with animals, a motif familiar to many viewers, the works contain sharp insights into the social conditions of various countries and questions posed to us living in the present day, making this an exhibition rich in suggestion. During the exhibition period, on November 21 (Saturday), a dialogue will be held with critic Ren Fukuzumi, who has written exhibition reviews for Masuyama for many years. In conjunction with this exhibition, an autobiography compiling his artist-in-residence experiences over the past 24 years in 42 locations worldwide is scheduled for publication. On November 22 (Sunday), a book launch event will also be held, featuring a dialogue with F. Atsumi of Art-Phil / monade contemporary | Tanago Gendai, who was responsible for editing the book. The exhibition is free of charge, excluding the two dialogues. We hope many of you will visit.\n\n[Related Events]\n1. Critic Talk\nDate: November 21, 2026, 15:00-16:00\nCapacity: 50 people\nFee: 1000 yen\n2. Book Launch Talk\nDate: November 22, 2026, 15:00-16:00\nCapacity: 50 people\nFee: 1000 yen\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/96647c93/ShiroMASUYAMA_PressImage%20-%20Masuyama%20Shiro.jpg",
       "description": "Art Center NEWでは5日間の特別企画として、増山士郎の回顧展「世界の果てで、動物と対話する」を開催いたします。増山は世界各地のアーティスト・イン・レジデンスを渡り歩きながら、現地の人々を巻き込んだ、場に根ざしたプロジェクトを展開してきました。ダブリンのアイルランド近代美術館、そして2009年にベルファストのFlax Art Studiosでレジデンス滞在したことをきっかけに、2010年からは、紛争の影響が今も残る英国・北アイルランドで、唯一の在住日本人ビジュアル・アーティストとして活動を続けています。本回顧展では、増山の多様な活動の中でもとりわけ人気の高い、「動物」をテーマに世界各地で実現した作品群に焦点を当てます。\n\n増山は2011年の東日本大震災以降、世界で急速に進むグローバリゼーションや、日本や西欧における現代の生活様式に深い疑問を抱くようになりました。そこで、世界各地の現地の人々と動物を巻き込みながら、消費主義の広がりによって衰退しつつある伝統的な動物繊維の技術を用いて、アイルランドの羊（2012）、ペルーのアルパカ（2014）、モンゴルのラクダ（2015）、北極圏（米国アラスカ、グリーンランド）のジャコウウシ（2023）による4つのシリーズ作品「Self Sufficient Life」を実現しました。本展では、「札幌国際芸術祭SIAF2024」の公募プロジェクトの一環として札幌のCAI03で開催され好評を得た同名の個展でも披露した、「Self Sufficient Life」の4作と、アイルランドのハエ（2016）、タイの鶏（2017）、キプロスのロバ（2022）、インドの象（2023）の計8作品に加え、日本初公開となる2作品を展示します。ヨーロッパでは流通していない猫用の嗜好品・またたびを、北アイルランドとウィーンの市場で布教すべく行商したプロジェクト「またたび」（2024）と、フランスでトリュフ探しのために訓練される伝統的な豚と現代的な犬を比較する2チャンネル・ビデオ作品「並行する過去と現在——トリュフを探して」（2026）です。合計10作品を一堂に披露します。\n\n動物という、多くの観客にとって親しみやすいモチーフを扱いながらも、作品には各国の社会情勢への鋭い視点や、現代に生きる私たちへの問いかけが込められており、示唆に富んだ展覧会となるでしょう。会期中の11月21日（土）には、長年にわたり増山の展覧会評を書いてきた評論家・福住廉氏との対談を開催します。また本展にあわせて、過去24年間・世界42か所におよぶアーティスト・イン・レジデンスの滞在記をまとめた自叙伝を出版予定です。11月22日（日）には、本書の編集を担当したArt-Phil／monade contemporary｜単子現代のF.アツミ氏との対談による出版記念イベントも開催します。2つの対談を除き、展覧会は入場無料です。ぜひ多くの皆さまにお越しいただければ幸いです。\n\n[関連イベント]\n1. 評論家トーク\n日時: 2026年11月21日15:00〜16:00\n定員: 50名\n料金: 1000円\n2. 出版記念トーク\n日時: 2026年11月22日15:00〜16:00\n定員: 50名\n料金: 1000円\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -95661,8 +95880,15 @@
         {
           "id": "25a0ab04a68f",
           "name": "佐方晴登",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사카타 하루토"
+            },
+            "en": {
+              "name": "Sakata Haruto"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Haruto-Sakata-Sanrizuka-IV-Layers-Of-Time/2-D82-C04-B/2026-11-24",
@@ -95904,8 +96130,15 @@
         {
           "id": "f11dab891b7c",
           "name": "サンティアゴ・リアニョ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "산티아고 리아뇨"
+            },
+            "en": {
+              "name": "Santiago Riaño"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Santiago-Riano-72-0-Seventy-Second-And-Zero/2586-C481/2026-10-08",
@@ -96009,62 +96242,132 @@
         {
           "id": "3627c0b36f2f",
           "name": "天辰碩文",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "아마타츠 히로후미"
+            },
+            "en": {
+              "name": "Amatatsu Hirofumi"
+            }
+          }
         },
         {
           "id": "85cebe6f8ced",
           "name": "郭暁頴",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "곽효영"
+            },
+            "en": {
+              "name": "Guo Xiaoying"
+            }
+          }
         },
         {
           "id": "99c6946a17e3",
           "name": "葛苡辰",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "갈이진"
+            },
+            "en": {
+              "name": "Ge Yichen"
+            }
+          }
         },
         {
           "id": "2556563785f7",
           "name": "神田侑",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "칸다 유"
+            },
+            "en": {
+              "name": "Kanda Yū"
+            }
+          }
         },
         {
           "id": "dbc482b09058",
           "name": "魏昕",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "기신"
+            },
+            "en": {
+              "name": "Gishin"
+            }
+          }
         },
         {
           "id": "51b9df9b91c8",
           "name": "黃逸",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오이츠"
+            },
+            "en": {
+              "name": "Ōitsu"
+            }
+          }
         },
         {
           "id": "66cc9db1d9ac",
           "name": "小藤田花怜",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "코토다 카렌"
+            },
+            "en": {
+              "name": "Kotōda Karen"
+            }
+          }
         },
         {
           "id": "404a662884f7",
           "name": "邵一靜",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "쇼이세이"
+            },
+            "en": {
+              "name": "Shōisei"
+            }
+          }
         },
         {
           "id": "e91525dd9615",
           "name": "朱予墨",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "주 요보쿠"
+            },
+            "en": {
+              "name": "Shu Yoboku"
+            }
+          }
         },
         {
           "id": "12b469f1ef06",
           "name": "翟健瑋",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "테키 켄이"
+            },
+            "en": {
+              "name": "Teki Ken'i"
+            }
+          }
         },
         {
           "id": "94c6cf8c3f71",
@@ -96134,44 +96437,93 @@
         {
           "id": "e05b58b3cdf3",
           "name": "鄧瀟宇",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "토 쇼우"
+            },
+            "en": {
+              "name": "To Sho'u"
+            }
+          }
         },
         {
           "id": "e8b819c5774f",
           "name": "内藤翼",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나이토 츠바사"
+            },
+            "en": {
+              "name": "Naito Tsubasa"
+            }
+          }
         },
         {
           "id": "3b42c1f013dd",
           "name": "平岩歩乃果",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "히라이와 호노카"
+            },
+            "en": {
+              "name": "Hiraiwa Honoka"
+            }
+          }
         },
         {
           "id": "7263afe2468b",
           "name": "松尾侑音",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마쓰오 유네"
+            },
+            "en": {
+              "name": "Matsuo Yune"
+            }
+          }
         },
         {
           "id": "1a149ef341bc",
           "name": "楊磊",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "양레이"
+            },
+            "en": {
+              "name": "Yang Lei"
+            }
+          }
         },
         {
           "id": "d10696fbccb8",
           "name": "李藝豪",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이예하오"
+            },
+            "en": {
+              "name": "Li Yihao"
+            }
+          }
         },
         {
           "id": "a26478ec7af5",
           "name": "劉宇軒",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "류위쉬안"
+            },
+            "en": {
+              "name": "Liu Yuxuan"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Many-Ways-Into-Photography/1-M/2026-09-26",
@@ -96226,8 +96578,15 @@
         {
           "id": "2681cdb56706",
           "name": "とも吉",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "토모키치"
+            },
+            "en": {
+              "name": "Tomokichi"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Tomokichi-Ordinary-Days/504-CB5-A2/2026-10-01",
@@ -96238,8 +96597,17 @@
       "id": "5f574eeb6f87",
       "source": "acc",
       "title": "〈ACT 페스티벌 2026〉 전시",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "〈ACT Festival 2026〉 Exhibition",
+          "description": "ACT Festival 2026 Exhibition October 23 (Fri) - November 8 (Sun), 2026, Complex Exhibition Hall 3 and 4, Culture Creation Agency. I, Human: Responding to the Technecene. Technology runs forward, and we have run with it. This festival invites us to pause. To pause and ask: What is human? What is my relationship with technology? The festival's title, \"I, Human,\" comes from \"I, Robot\" by the master of SF literature, Isaac Asimov. Asimov instilled in robots the principle \"Do not harm humans,\" attempting to embed ethics within machines. Now, we turn that question back to humanity. Standing before machines, we redefine \"I.\" I, human. Technecene is a neologism proposed by ACT Festival 2026, referring to an era (世, cene) where technology (techne) has become the greatest force shaping the world. If the era when humans changed the land and climate is called the Anthropocene, then now is the Technecene, an era where technology changes even our senses, judgments, and the very shape of our relationships.\n\nIn 1964, Nam June Paik created K-456, the first art robot, which moved by radio waves, walked, and then fell. Beside it stand today's machines: robot installations that respond when spoken to, circular screens that move with the viewer's breath, and new physical AI works that move autonomously with their own bodies. Two generations of machines face each other across more than sixty years. Technology is invisible when it works well. It's so seamless that we forget it's even there. Technology becomes visible at the moment of misalignment. This exhibition, therefore, embraces misalignment, or Glitch. Glitch appears with two faces. One is cognitive glitch: the moment we can no longer tell if the image before our eyes was made by a machine or a human, what wavers is not the image but our eyes and beliefs. The other is physical glitch: the moment technology and the machine's body creak and stop. Glitch is not a malfunction. It is a gap where hidden structures are revealed. When a machine falls or speaks nonsense, it reveals whose standards it was built upon. Misalignment always asks: Whose standards were used? Ethics are not contained within machines. Machines do not take responsibility. The ethics of the Technecene begin with what we see in the face of that gap. What is seamless technology for some is a daily glitch for others. Before rushing to cover it up, we must look into who that gap was open to. What we see determines what we fix.\n\nThis question branches out in various directions. In the exhibition hall, visitors wear headsets and walk into another world, and in the night theater, they encounter audiovisual performances where light and sound become one. In the dialogues, they sit face-to-face with artists and share stories, while the media wall of the hall poses the same question to the audience. We are the ones who respond. Please walk slowly and find your own response. Go to 〈ACT Festival 2026〉 +"
+        },
+        "ja": {
+          "title": "〈ACTフェスティバル 2026〉 展覧会",
+          "description": "ACTフェスティバル 2026 展覧会 2026.10.23.金. - 11.8.日 文化創造院複合展示3館および複合展示4館 アイ、ヒューマン：テクネセ(世)に応答する I,Human: Responding to the Technecene。技術は前だけを見て走り、私たちも共に走ってきました。このフェスティバルは、一時立ち止まることを勧めます。立ち止まって問いかけます。人間とは何か。私は技術とどのような関係にあるのか。フェスティバルのタイトル《アイ、ヒューマン》は、SF文学の巨匠、アイザック・アシモフの『われはロボット』から来ています。アシモフはロボットに「人間を傷つけてはならない」という原則を植え付けました。倫理を機械の中に組み込もうとしたのです。今、私たちはその問いを人間に向けます。機械の前に立ち、「私」を改めて語ってみます。私、人間。テクネセ(Technecene)は、技術(techne)が世界を形成する最大の力となった時代(世, cene)を指す言葉で、ACTフェスティバル 2026が提案する新造語です。人間が大地と気候を変えた時代を人新世(Anthropocene)と呼ぶならば、今は技術が私たちの感覚や判断、関係の形まで変える時代、テクネセ(世)です。\n\n1964年、白南準（ナム・ジュン・パイク）は最初の芸術ロボットK-456を制作しました。電波で動き、歩いては転ぶロボットです。その隣に今日の機械たちが並びます。話しかけると答えるロボット設置作品、観客の息遣いに合わせて動く円形スクリーン、身体を持ち自ら動くフィジカルAIの新作群です。60年以上の時を経て、二世代の機械が向き合います。技術はうまく機能している時には見えません。あまりにも滑らかすぎて、私たちはそれがそこにあることさえ忘れてしまいます。技術が見えるのは、ずれが生じる瞬間です。だからこの展覧会は、ずれ、すなわちグリッチ(Glitch)を捉えます。グリッチは二つの顔で現れます。一つは認知的グリッチです。目の前の映像が機械によって作られたものなのか、人間によって作られたものなのか分からなくなる瞬間、揺らぐのは映像ではなく、私たちの目と信頼です。もう一つは物理的グリッチです。技術と機械の身体がきしみ、停止する瞬間です。グリッチは故障ではありません。隠された構造が露わになる隙間です。機械が転んだり、的外れなことを言ったりする時、それが誰を基準に作られたのかが明らかになります。ずれは常に問いかけます。誰を基準にしたのか。倫理は機械の中にはありません。機械は責任を負いません。テクネセの倫理は、その隙間の前で私たちが何を見るかから始まります。ある人にとって滑らかな技術が、別の人にとっては毎日のグリッチなのです。急いで覆い隠す前に、その隙間が誰に開かれていたのかを覗き込むこと。何を見たかが、何を修正するかを決めます。\n\nこの問いは様々な方向に続きます。展示会場ではヘッドセットを装着して別の世界へと足を踏み入れ、夜の劇場では光と音が一体となるオーディオビジュアル公演に出会います。ダイアログでは作家たちと向かい合って語り合い、殿堂のメディアウォールは観客に向けて同じ問いを投げかけます。応答するのは私たちです。ゆっくりと歩きながら、あなたの応答を見つけてみてください。〈ACTフェスティバル 2026〉へ移動 +"
+        }
+      },
       "poster_image_url": "https://www.acc.go.kr/resources/upload/2354/20260917144223_1752614112.jpg",
       "description": "ACT 페스티벌 2026 전시 2026.10.23.금. - 11.8.일 문화창조원 복합전시 3관 및 복합전시 4관 아이, 휴먼: 테크네세(世)에 응답하기 I,Human: Responding to the Technecene 기술은 앞만 보고 달립니다. 우리도 함께 달려왔습니다. 이 페스티벌은 잠시 멈춰 서기를 권합니다. 멈춰 서서 묻습니다. 인간은 무엇인가. 나는 기술과 어떤 사이인가. 페스티벌의 제목 《아이, 휴먼》은 SF 문학의 거장, 아이작 아시모프의 『아이, 로봇』에서 왔습니다. 아시모프는 로봇에게 '인간을 해치지 말라'는 원칙을 심었습니다. 윤리를 기계 안에 넣으려 한 것입니다. 이제 우리는 그 질문을 인간에게 돌립니다. 기계 앞에 서서 '나'를 다시 말해 봅니다. 나, 인간. 테크네세(Technecene)는 기술(techne)이 세계를 만드는 가장 큰 힘이 된 시대(世, cene)를 가리키는 말로, ACT 페스티벌 2026이 제안하는 신조어입니다. 인간이 땅과 기후를 바꾼 시대를 인류세(Anthropocene)라 부른다면, 지금은 기술이 우리의 감각과 판단, 관계의 모양까지 바꾸는 시대, 테크네세(世)입니다. 1964년 백남준은 최초의 예술 로봇 K-456을 만들었습니다. 전파로 움직이며 걷다가 넘어지던 로봇입니다. 그 옆에 오늘의 기계들이 섭니다. 말을 걸면 대답하는 로봇 설치 작품, 관람객의 숨결에 따라 움직이는 원형 스크린, 몸을 가진 채 스스로 움직이는 피지컬 AI 신작들입니다. 예순 해가 넘는 세월의 거리를 두고 두 세대의 기계가 마주 봅니다. 기술은 잘 작동할 때는 보이지 않습니다. 너무 매끄러워서, 우리는 그것이 거기 있다는 사실조차 잊습니다. 기술이 보이는 것은 어긋나는 순간입니다. 그래서 이 전시는 어긋남, 곧 글리치(Glitch)를 붙잡습니다. 글리치는 두 얼굴로 나타납니다. 하나는 인지적 글리치입니다. 눈앞의 영상이 기계가 만든 것인지 사람이 만든 것인지 알 수 없어지는 순간, 흔들리는 것은 영상이 아니라 우리의 눈과 믿음입니다. 다른 하나는 물리적 글리치입니다. 기술과 기계의 몸이 삐걱거리고 멈추는 순간입니다. 글리치는 고장이 아닙니다. 감춰진 구조가 드러나는 틈입니다. 기계가 넘어지고 헛말을 할 때, 그것이 누구를 기준으로 만들어졌는지가 드러납니다. 어긋남은 늘 묻습니다. 누구를 기준으로 삼았는가. 윤리는 기계 안에 들어 있지 않습니다. 기계는 책임지지 않습니다. 테크네세의 윤리는 그 틈 앞에서 우리가 무엇을 보느냐에서 시작합니다. 누군가에게 매끄러운 기술이 다른 누군가에게는 매일의 글리치입니다. 서둘러 덮기 전에, 그 틈이 누구에게 열려 있었는지 들여다보는 것. 무엇을 보았는지가 무엇을 고칠지를 정합니다. 이 질문은 여러 갈래로 이어집니다. 전시장에서는 헤드셋을 쓰고 다른 세계 안으로 걸어 들어가고, 밤의 극장에서는 빛과 소리가 하나가 되는 오디오비주얼 공연을 만납니다. 다이얼로그에서는 작가들과 마주 앉아 이야기를 나누고, 전당의 미디어월은 관람객을 향해 같은 질문을 띄웁니다. 응답하는 쪽은 우리입니다. 천천히 걸으며, 당신의 응답을 찾아보시기 바랍니다. 〈ACT 페스티벌 2026〉 바로가기 +",
       "medium": "video",
@@ -96271,8 +96639,17 @@
       "id": "1af629a64a75",
       "source": "tokyo_art_beat",
       "title": "キース・マグレガー 「City of Lights, Hong Kong's Neon Heritage •《香港・霓虹魅色》」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "키스 맥그리거 「City of Lights, Hong Kong's Neon Heritage •《홍콩・네온의 매혹》」",
+          "description": "11월 6일부터 Blue Lotus Gallery와 Victoria 1842는 키스 맥그리거(Keith Macgregor)가 홍콩을 상징하는 네온사인 풍경을 기록한 대표 시리즈에서 엄선한 작품을 소개하는 사진전 『City of Lights』를 일본에서 개최합니다.\n\n본 전시는 Blue Lotus Editions에서 새로이 간행되는 사진집에 맞춰 개최되며, 맥그리거가 오랜 기간 촬영해 온 방대한 아카이브에서 엄선된 작품들로 구성됩니다. 1990년대부터 2000년대에 걸쳐 촬영된 이 사진들은 밤의 홍콩을 선명하게 비추며, 색채, 빛의 반사, 그리고 네온의 빛으로 둘러싸인 도시의 모습을 기록하고 있습니다. 전시장에서는 사진집에 수록된 작품 일부 외에도 엄선된 한정 에디션 프린트도 전시됩니다. 변화하는 홍콩의 네온 거리 풍경을 오랫동안 지켜봐 온 맥그리거의 시점을 더욱 깊이 있게 소개합니다.\n\n이 사진들에 담긴 풍경의 대부분은 현재 이미 사라졌습니다. 네온사인이 차례로 철거되고 익숙한 거리 풍경도 계속 변모하는 가운데, 『City of Lights』는 단순한 시각적 아름다움을 넘어선 의미를 지닌 작품군이 되었습니다. 여기에는 홍콩 고유의 도시 문화의 한 측면이 보존되어, 점차 과거의 것이 되어가는 밤의 도시 경관이 귀중한 기록으로 남아 있습니다. 그러나 본 전시가 전하는 것은 '사라져가는 것'의 이야기만이 아닙니다. 대규모 상업 네온사인 시대가 끝나가고 있는 한편, 네온이라는 표현 매체는 새로운 세대의 아티스트와 크리에이터들에 의해 형태를 바꾸면서 계승되고 있습니다. 본 전시와 사진집을 통해 홍콩 네온 문화가 쌓아온 유산을 기록함과 동시에, 그 빛이 현재 홍콩의 비주얼 문화에 어떤 영향을 계속 미치고 있는지를 소개합니다."
+        },
+        "en": {
+          "title": "Keith Macgregor \"City of Lights, Hong Kong's Neon Heritage • Hong Kong: The Allure of Neon Colors\"",
+          "description": "From November 6, Blue Lotus Gallery and Victoria 1842 will present \"City of Lights,\" a photography exhibition in Japan featuring selected works from Keith Macgregor's iconic series documenting Hong Kong's emblematic neon signscapes.\n\nThis exhibition is held in conjunction with the new photo book to be published by Blue Lotus Editions and comprises a selection of works from Macgregor's extensive archive, photographed over many years. These photographs, taken from the 1990s to the 2000s, vividly capture Hong Kong at night, documenting the city's appearance enveloped in color, light reflections, and the glow of neon. The venue will display a selection of works included in the photo book, along with carefully chosen limited edition prints, offering a deeper insight into Macgregor's long-standing perspective on Hong Kong's evolving neon streetscapes.\n\nMany of the landscapes depicted in these photographs have already disappeared. As neon signs are progressively removed and familiar streetscapes continue to transform, \"City of Lights\" represents a body of work with significance beyond mere visual beauty. It preserves an aspect of Hong Kong's unique urban culture, leaving a valuable record of a nocturnal cityscape that is gradually becoming a thing of the past. However, this exhibition does not solely tell a story of \"what is being lost.\" While the era of large-scale commercial neon signs is drawing to a close, neon as a medium of expression is being carried forward by new generations of artists and creators, albeit in altered forms. Through this exhibition and photo book, we aim to document the legacy built by Hong Kong's neon culture and illustrate how its light continues to influence the city's current visual culture."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/ec39cbee/Neon%20Exb%20IG%20poster%2020260929%20(1).jpg",
       "description": "11月6日より、Blue Lotus GalleryとVictoria 1842は、キース・マグレガー（Keith Macgregor）が香港を象徴するネオンサインの風景を記録した代表的シリーズから厳選した作品を紹介する写真展『City of Lights』を日本で開催します。\n\n本展は、Blue Lotus Editionsより新たに刊行される写真集にあわせて開催されるもので、マグレガーが長年にわたり撮影してきた膨大なアーカイブから作品を厳選して構成されています。1990年代から2000年代にかけて撮影されたこれらの写真は、夜の香港を鮮やかに映し出し、色彩、光の反射、そしてネオンの輝きに包まれた都市の姿を記録しています。会場では、写真集に収録された作品の一部に加え、厳選された限定エディション・プリントも展示。変わりゆく香港のネオン街の風景を長年にわたり見つめ続けてきたマグレガーの視点を、より深く紹介します。\n\nこれらの写真に写し出された風景の多くは、現在ではすでに姿を消しています。ネオンサインが次々と撤去され、見慣れた街並みも変貌を続けるなか、『City of Lights』は単なる視覚的な美しさを超えた意義を持つ作品群となっています。そこには、香港独自の都市文化の一側面が保存され、徐々に過去のものとなりつつある夜の都市景観が貴重な記録として残されています。しかし、本展が伝えるのは「失われていくもの」の物語だけではありません。大規模な商業ネオンサインの時代が終わりを迎えつつある一方で、ネオンという表現媒体は、新たな世代のアーティストやクリエイターたちによって形を変えながら受け継がれています。本展と写真集を通して、香港のネオン文化が築いてきたレガシーを記録するとともに、その光が現在の香港のビジュアルカルチャーにどのような影響を与え続けているのかを紹介します。",
       "medium": "photo",
@@ -96306,8 +96683,15 @@
         {
           "id": "69f19a1f1de1",
           "name": "キース・マグレガー",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "키스 맥그리거"
+            },
+            "en": {
+              "name": "Keith Macgregor"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Keith-Macgregor-City-of-Lights-Hong-Kongs-Neon-Heritage/victoria-1842/2026-11-06",
@@ -96318,8 +96702,17 @@
       "id": "fc7afff90d65",
       "source": "tokyo_art_beat",
       "title": "「ジョムルジョムル チャンプルー」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「조물조물 찬푸루」",
+          "description": "한국 경기도에 거주하는 7명의 작가와 큐레이터가 참여하는 그룹전. 서울 근교에 도시들이 이어지는 경기도와 오키나와는 역사와 환경 면에서 겹치는 부분이 있으며, 본 전시는 이 두 지역이 교차하는 지점을 탐색합니다.\n\n제목은 손으로 무언가를 반죽하고 주무르는 동작을 나타내는 한국어 '조물조물'과 오키나와에서 '섞다'를 의미하는 '찬푸루'를 결합한 것입니다. 여행과 서적, 창작 활동을 통해 오키나와와 마주해 온 작가들이 신화, 새, 도예와 음악, 시, 손으로 버무려 만드는 나물 등 경기도와 오키나와가 겹쳐지는 측면들을 한데 모읍니다. 출품작은 회화, 설치미술, 공예, 영상, 사진, 드로잉, 시 등 다양합니다. 역사와 기억의 중첩과 삶 속의 작은 공통점들을 같은 지평에 놓고 여러 층으로 쌓아 올리는 구성을 취합니다. 관람객은 어느 층에서든 작품에 들어갈 수 있습니다. 전시 첫날에는 한국 측 큐레이터 및 참여 작가와 오키나와 사진작가 이바 린다, 시인 노하라 세이키, 화가 마츠오 카이히코가 참여하는 아티스트 토크를 개최합니다.\n\n[연계 행사]\n아티스트 토크\n일시: 2026년 10월 20일 18:00~\n참여자: 배진성, 참여 작가, 이바 린다, 노하라 세이키, 마츠오 카이히코\n요금: 무료 (사전 신청 불필요)\n※행사 상세 내용은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "「Jomul Jomul Champuru」",
+          "description": "A group exhibition by seven artists and a curator living in Gyeonggi-do, Korea. Gyeonggi-do, where cities are connected in the vicinity of Seoul, and Okinawa share commonalities in terms of history and environment, and this exhibition traces the points where these two regions intersect.\n\nThe title combines 'Jomul Jomul,' a Korean word describing the act of kneading and massaging something with hands, and 'Champuru,' an Okinawan word meaning 'to mix together.' Artists who have engaged with Okinawa through travel, books, and creative work bring together aspects where Gyeonggi and Okinawa overlap, such as myths, birds, ceramics and music, poetry, and namul made by hand. The exhibited works span a wide range, including paintings, installations, crafts, video, photography, drawings, and poetry. The exhibition is structured to layer historical and memory overlaps, along with small commonalities in daily life, on the same plane, creating multiple strata. Viewers can enter the artwork from any layer. On the first day of the exhibition, an artist talk will be held featuring the Korean curator and participating artists, Okinawan photographer Iha Linda, poet Nohara Seiki, and painter Matsuo Kaihiko.\n\n[Related Event]\nArtist Talk\nDate: October 20, 2026, 18:00~\nSpeakers: Bae Jin-seong, participating artists, Iha Linda, Nohara Seiki, Matsuo Kaihiko\nAdmission: Free (no advance registration required)\n*Please check the official website for event details."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/026ade90/jomul_flyer_O3_fix_ol.jpeg",
       "description": "韓国・京畿道（キョンギド）に暮らすアーティスト7名とキュレーターによるグループ展。ソウル近郊に都市が連なる京畿道と沖縄は、歴史や環境の面で重なるところがあり、本展はその二つの地域が交差する点をたどる。\n\nタイトルは、手を使って何かをこね、もみほぐす所作を表す韓国語「ジョムルジョムル」と、沖縄で「混ぜ合わせる」を意味する「チャンプルー」を重ねたもの。旅や書物、制作を通じて沖縄と向き合ってきた作家たちが、神話、鳥、陶芸と音楽、詩、手で和えて作るナムルなど、京畿と沖縄が重なり合う側面を持ち寄る。出品作品は絵画、インスタレーション、工芸、映像、写真、ドローイング、詩と多岐にわたる。歴史や記憶の重なりと、暮らしのなかの小さな共通点を同じ地平に置き、いくつもの層として重ねる構成をとる。鑑賞者はどの層からでも作品に入ることができる。会期初日には、韓国側のキュレーター・参加作家と、沖縄の写真家・伊波リンダ、詩人・野原誠喜、画家・松尾海彦によるアーティストトークを開催する。\n\n[関連イベント]\nアーティストトーク\n日時: 2026年10月20日18:00〜\n登壇者: ペ・ジンソン、参加作家、伊波リンダ、野原誠喜、松尾海彦\n料金: 無料（事前申込み不要）\n※イベント詳細は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -96353,44 +96746,93 @@
         {
           "id": "24e05fc9bc5e",
           "name": "ク・ジオン",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "구지온"
+            },
+            "en": {
+              "name": "Ku Jion"
+            }
+          }
         },
         {
           "id": "fbfc61fbc2ea",
           "name": "パク・ダビン",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "박다빈"
+            },
+            "en": {
+              "name": "Park Dabin"
+            }
+          }
         },
         {
           "id": "3c5c9a82434f",
           "name": "シン・ユボ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "신유보"
+            },
+            "en": {
+              "name": "Shin Yubo"
+            }
+          }
         },
         {
           "id": "26bdcd2fb00e",
           "name": "イ・ユリン",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이유린"
+            },
+            "en": {
+              "name": "Lee Yurin"
+            }
+          }
         },
         {
           "id": "93e22a43fba1",
           "name": "チョン・ヒス",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "정희수"
+            },
+            "en": {
+              "name": "Jeong Hisu"
+            }
+          }
         },
         {
           "id": "db387d26b08d",
           "name": "チョ・ヨンビン",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "조영빈"
+            },
+            "en": {
+              "name": "Jo Yeongbin"
+            }
+          }
         },
         {
           "id": "beaf37664eba",
           "name": "チュリ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "주리"
+            },
+            "en": {
+              "name": "Juri"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Jomul-Jomul-Champroo/buffer/2026-10-20",
@@ -96401,8 +96843,15 @@
       "id": "85b488d6d234",
       "source": "tokyo_art_beat",
       "title": "マチュイ・ヘルマン 「NAOCZNOS’C’-目撃者-」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "마체이 헤르만 「NAOCZNOS’C’-목격자-」"
+        },
+        "en": {
+          "title": "Maciej Herman 「NAOCZNOS’C’ -Witness-」"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/dacb3163/25610%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%92%E3%82%99%E3%82%B7%E3%82%99%E3%83%A5%E3%82%A2%E3%83%AB.jpg",
       "description": null,
       "medium": "mixed",
@@ -96436,8 +96885,15 @@
         {
           "id": "99ad200528a3",
           "name": "マチュイ・ヘルマン",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마티외 헤르만"
+            },
+            "en": {
+              "name": "Mathieu Hermann"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Maciej-Herman-Exhibition/0-D65073-A/2026-09-29",
@@ -96448,8 +96904,17 @@
       "id": "ef2e02519d0e",
       "source": "tokyo_art_beat",
       "title": "「小さな文化祭『たうらぁ〜と』」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「작은 문화제 『타우라아트』」",
+          "description": "모두가 좋아하는 것을 가져와 함께 만드는 참여형 아트 전시 '타우라아트전'이 10월에 개최됩니다. 집안 대대로 전해 내려오는 미술품이나 여행지에서 발견한 추억의 물건, 좋아하는 그림이나 사진, 아이들의 공작, 수제 작품 등 모두의 '좋아하는 것'을 전시하고 '왜 좋아하는지?'에 대해 이야기하며 즐기는 시민 참여형 작은 문화제입니다. 야쿠오지 타이치 씨의 워크숍 작품도 전시됩니다. 많은 작품이 한자리에 모이니 많은 기대 바랍니다.\n\n[연계 행사]\n'실험 츠키미다이 라디오'\n인터넷 라디오 '유메노타네'의 프로그램 'IKE!G Club'과 협력하여 츠키미다이 주택의 매력을 발신하는 '실험 츠키미다이 라디오 타우라아트 편'을 개최합니다. 이것은 츠키미다이 주택 A-30 처마를 오픈 스튜디오로 하여 진행되는 공개 녹화입니다. 녹화의 현장감을 가까이서 느끼면서, 담소와 지역의 화제를 모두가 화기애애하게 즐기는 참여형 엔터테인먼트 녹화 기획입니다.\n일시: 2026년 10월 12일 13:00~\n장소: 츠키미다이 주택 A-30 처마"
+        },
+        "en": {
+          "title": "「Small Cultural Festival 'Taura Art'」",
+          "description": "The participatory art exhibition 'Taura Art Exhibition,' where everyone brings their favorite items, will be held in October. It is a small, citizen-participatory cultural festival where everyone displays their 'likes'—such as artworks passed down through generations, souvenirs found during travels, favorite paintings or photos, children's crafts, and handmade works—and enjoys conversations about 'why they like them.' Works from Taichi Yakuoji's workshop will also be exhibited. We anticipate a large collection of works, so please look forward to it.\n\n[Related Event]\n'Experimental Tsukimidai Radio'\nIn collaboration with 'IKE!G Club,' a program on the internet radio 'Yumenotane,' we will host 'Experimental Tsukimidai Radio: Taura Art Edition,' which will promote the charm of Tsukimidai Housing. This is a public recording session held with the eaves of Tsukimidai Housing A-30 serving as an open studio. It's a participatory entertainment recording project where everyone can enjoy lively conversations and local topics while experiencing the live atmosphere of the recording up close.\nDate: October 12, 2026, 13:00~\nVenue: Tsukimidai Housing A-30 Eaves"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/7c84a70a/%E3%81%9F%E3%81%86%E3%82%89%EF%BD%9E%E3%81%A8%E9%96%8B%E5%82%AC%E7%94%BB%E5%83%8F.png",
       "description": "みんなのお気に入りを持ち寄ってつくる参加型アート展「たうらぁ〜と展」を10月に開催いたします。 おうちに代々伝わる美術品や旅先で見つけた思い出の品、お気に入りの絵や写真、子どもの工作、手作り作品など、みんなの「好き」を展示して、「どうして好きなの？」そんな話をしながら楽しむ市民参加型の小さな文化祭です。薬王寺太一氏のワークショップ作品も展示。たくさんの作品が集結しますので、どうぞご期待ください。\n\n[関連イベント]\n「実験月見台ラジオ」\nインターネットラジオ「ゆめのたね」の番組「IKE!G Club」とコラボレーションし、月見台住宅の魅力を発信する『実験月見台ラジオ たうらぁ〜と篇』を開催します。 これは月見台住宅A-30の軒先をオープンスタジオにして行う公開収録です。収録の臨場感を間近で感じながら、おしゃべりや地域の話題をみんなで和気あいあいと楽しむ参加型のエンタメ収録企画です。\n日時: 2026年10月12日13:00〜\n会場: 月見台住宅 A-30 軒先",
       "medium": "photo",
@@ -96523,8 +96988,15 @@
         {
           "id": "7821f0d35845",
           "name": "Marie-Charlotte Juszczak",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "마리-샤를로트 유슈차크"
+            },
+            "ja": {
+              "name": "マリー＝シャルロット・ユシュチャク"
+            }
+          }
         },
         {
           "id": "8f3d9f8ae0ce",
@@ -133490,134 +133962,288 @@
     {
       "id": "a8918275a9d0",
       "name": "비비안 카쿠리",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Vivian Kakuri"
+        },
+        "ja": {
+          "name": "ヴィヴィアン・カクリ"
+        }
+      }
     },
     {
       "id": "b391a168e166",
       "name": "中田友木",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "나카타 유키"
+        },
+        "en": {
+          "name": "Nakata Yuki"
+        }
+      }
     },
     {
       "id": "d246d4031b47",
       "name": "安藤瑠美",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "안도 루미"
+        },
+        "en": {
+          "name": "Ando Rumi"
+        }
+      }
     },
     {
       "id": "cc2aaff72971",
       "name": "金本凜太朗",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "가네모토 린타로"
+        },
+        "en": {
+          "name": "Kanemoto Rintaro"
+        }
+      }
     },
     {
       "id": "16d4a5610e69",
       "name": "小見山峻",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "고미야마 슌"
+        },
+        "en": {
+          "name": "Komiyama Shun"
+        }
+      }
     },
     {
       "id": "c93cc15faffd",
       "name": "あべれいこ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "아베 레이코"
+        },
+        "en": {
+          "name": "Abe Reiko"
+        }
+      }
     },
     {
       "id": "98488afaf051",
       "name": "SHIGECHAN",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "SHIGECHAN"
+        },
+        "ja": {
+          "name": "SHIGECHAN"
+        }
+      }
     },
     {
       "id": "9760bbdfd3f0",
       "name": "タカハシケイジ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "다카하시 케이지"
+        },
+        "en": {
+          "name": "Takahashi Keiji"
+        }
+      }
     },
     {
       "id": "fcf130f59c6d",
       "name": "平見和美",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "히라미 가즈미"
+        },
+        "en": {
+          "name": "Hirami Kazumi"
+        }
+      }
     },
     {
       "id": "d36266296fc8",
       "name": "藤井雅彦",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "후지이 마사히코"
+        },
+        "en": {
+          "name": "Fujii Masahiko"
+        }
+      }
     },
     {
       "id": "756e3618b0b0",
       "name": "mikko",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "미코"
+        },
+        "ja": {
+          "name": "ミッコ"
+        }
+      }
     },
     {
       "id": "2e8b77823da2",
       "name": "百瀬哲也",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "모모세 테츠야"
+        },
+        "en": {
+          "name": "Momose Tetsuya"
+        }
+      }
     },
     {
       "id": "58f41512056c",
       "name": "吉冨覚律",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "요시토미 카쿠리츠"
+        },
+        "en": {
+          "name": "Yoshitomi Kakuritsu"
+        }
+      }
     },
     {
       "id": "551375a6b5fc",
       "name": "橋本大和",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "하시모토 야마토"
+        },
+        "en": {
+          "name": "Hashimoto Yamato"
+        }
+      }
     },
     {
       "id": "4b1b0229b469",
       "name": "Sumiko Yamanobe",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "야마노베 스미코"
+        },
+        "ja": {
+          "name": "ヤマノベ スミコ"
+        }
+      }
     },
     {
       "id": "7b865152a721",
       "name": "Chogenbo",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "초겐보"
+        },
+        "ja": {
+          "name": "Chogenbo"
+        }
+      }
     },
     {
       "id": "7d1fca2d0248",
       "name": "渺Byou",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "묘Byou"
+        },
+        "en": {
+          "name": "渺Byou"
+        }
+      }
     },
     {
       "id": "98fc78c76bd6",
       "name": "きむらそうすけ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "기무라 소스케"
+        },
+        "en": {
+          "name": "Kimura Sousuke"
+        }
+      }
     },
     {
       "id": "2301ad552df9",
       "name": "Ichiro Mori",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "이치로 모리"
+        },
+        "ja": {
+          "name": "Ichiro Mori"
+        }
+      }
     },
     {
       "id": "5f999138f51e",
       "name": "藤倉翼",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "후지쿠라 츠바사"
+        },
+        "en": {
+          "name": "Fujikura Tsubasa"
+        }
+      }
     },
     {
       "id": "ecba418673d8",
       "name": "梅原龍三郎",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "우메하라 류자부로"
+        },
+        "en": {
+          "name": "Ryūzaburō Umehara"
+        }
+      }
     },
     {
       "id": "14bb3cf1fa84",
       "name": "栗林今朝男",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "구리바야시 게사오"
+        },
+        "en": {
+          "name": "Kesao Kuribayashi"
+        }
+      }
     },
     {
       "id": "2a6e2b4ef762",
@@ -133817,32 +134443,67 @@
     {
       "id": "c36a26563329",
       "name": "津田翔一",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "쓰다 쇼이치"
+        },
+        "en": {
+          "name": "Shōichi Tsuda"
+        }
+      }
     },
     {
       "id": "b91731add7f2",
       "name": "石元泰博",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이시모토 야스히로"
+        },
+        "en": {
+          "name": "Yasuhiro Ishimoto"
+        }
+      }
     },
     {
       "id": "3d8b4320595a",
       "name": "薗部澄",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "소노베 기요시"
+        },
+        "en": {
+          "name": "Kiyoshi Sonobe"
+        }
+      }
     },
     {
       "id": "229f35493e15",
       "name": "比嘉康雄",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "비가 야스오"
+        },
+        "en": {
+          "name": "Higa Yasuo"
+        }
+      }
     },
     {
       "id": "2532f47ca385",
       "name": "江成常夫",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "에나리 쓰네오"
+        },
+        "en": {
+          "name": "Enari Tsuneo"
+        }
+      }
     },
     {
       "id": "88b4c73056ba",
@@ -134042,20 +134703,41 @@
     {
       "id": "0ff6d17c5cf9",
       "name": "千葉正也",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "지바 마사야"
+        },
+        "en": {
+          "name": "Chiba Masaya"
+        }
+      }
     },
     {
       "id": "3dbd1a8dbb74",
       "name": "ソニー・スズキ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "소니 스즈키"
+        },
+        "en": {
+          "name": "Sony Suzuki"
+        }
+      }
     },
     {
       "id": "eccc16a384fe",
       "name": "百瀬文",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "모모세 후미"
+        },
+        "en": {
+          "name": "Momose Fumi"
+        }
+      }
     },
     {
       "id": "44894c7bacd8",
@@ -134310,74 +134992,158 @@
     {
       "id": "25a0ab04a68f",
       "name": "佐方晴登",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "사카타 하루토"
+        },
+        "en": {
+          "name": "Sakata Haruto"
+        }
+      }
     },
     {
       "id": "f11dab891b7c",
       "name": "サンティアゴ・リアニョ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "산티아고 리아뇨"
+        },
+        "en": {
+          "name": "Santiago Riaño"
+        }
+      }
     },
     {
       "id": "3627c0b36f2f",
       "name": "天辰碩文",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "아마타츠 히로후미"
+        },
+        "en": {
+          "name": "Amatatsu Hirofumi"
+        }
+      }
     },
     {
       "id": "85cebe6f8ced",
       "name": "郭暁頴",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "곽효영"
+        },
+        "en": {
+          "name": "Guo Xiaoying"
+        }
+      }
     },
     {
       "id": "99c6946a17e3",
       "name": "葛苡辰",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "갈이진"
+        },
+        "en": {
+          "name": "Ge Yichen"
+        }
+      }
     },
     {
       "id": "2556563785f7",
       "name": "神田侑",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "칸다 유"
+        },
+        "en": {
+          "name": "Kanda Yū"
+        }
+      }
     },
     {
       "id": "dbc482b09058",
       "name": "魏昕",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "기신"
+        },
+        "en": {
+          "name": "Gishin"
+        }
+      }
     },
     {
       "id": "51b9df9b91c8",
       "name": "黃逸",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오이츠"
+        },
+        "en": {
+          "name": "Ōitsu"
+        }
+      }
     },
     {
       "id": "66cc9db1d9ac",
       "name": "小藤田花怜",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "코토다 카렌"
+        },
+        "en": {
+          "name": "Kotōda Karen"
+        }
+      }
     },
     {
       "id": "404a662884f7",
       "name": "邵一靜",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "쇼이세이"
+        },
+        "en": {
+          "name": "Shōisei"
+        }
+      }
     },
     {
       "id": "e91525dd9615",
       "name": "朱予墨",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "주 요보쿠"
+        },
+        "en": {
+          "name": "Shu Yoboku"
+        }
+      }
     },
     {
       "id": "12b469f1ef06",
       "name": "翟健瑋",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "테키 켄이"
+        },
+        "en": {
+          "name": "Teki Ken'i"
+        }
+      }
     },
     {
       "id": "94c6cf8c3f71",
@@ -134447,110 +135213,236 @@
     {
       "id": "e05b58b3cdf3",
       "name": "鄧瀟宇",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "토 쇼우"
+        },
+        "en": {
+          "name": "To Sho'u"
+        }
+      }
     },
     {
       "id": "e8b819c5774f",
       "name": "内藤翼",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "나이토 츠바사"
+        },
+        "en": {
+          "name": "Naito Tsubasa"
+        }
+      }
     },
     {
       "id": "3b42c1f013dd",
       "name": "平岩歩乃果",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "히라이와 호노카"
+        },
+        "en": {
+          "name": "Hiraiwa Honoka"
+        }
+      }
     },
     {
       "id": "7263afe2468b",
       "name": "松尾侑音",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "마쓰오 유네"
+        },
+        "en": {
+          "name": "Matsuo Yune"
+        }
+      }
     },
     {
       "id": "1a149ef341bc",
       "name": "楊磊",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "양레이"
+        },
+        "en": {
+          "name": "Yang Lei"
+        }
+      }
     },
     {
       "id": "d10696fbccb8",
       "name": "李藝豪",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이예하오"
+        },
+        "en": {
+          "name": "Li Yihao"
+        }
+      }
     },
     {
       "id": "a26478ec7af5",
       "name": "劉宇軒",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "류위쉬안"
+        },
+        "en": {
+          "name": "Liu Yuxuan"
+        }
+      }
     },
     {
       "id": "2681cdb56706",
       "name": "とも吉",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "토모키치"
+        },
+        "en": {
+          "name": "Tomokichi"
+        }
+      }
     },
     {
       "id": "69f19a1f1de1",
       "name": "キース・マグレガー",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "키스 맥그리거"
+        },
+        "en": {
+          "name": "Keith Macgregor"
+        }
+      }
     },
     {
       "id": "24e05fc9bc5e",
       "name": "ク・ジオン",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "구지온"
+        },
+        "en": {
+          "name": "Ku Jion"
+        }
+      }
     },
     {
       "id": "fbfc61fbc2ea",
       "name": "パク・ダビン",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "박다빈"
+        },
+        "en": {
+          "name": "Park Dabin"
+        }
+      }
     },
     {
       "id": "3c5c9a82434f",
       "name": "シン・ユボ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "신유보"
+        },
+        "en": {
+          "name": "Shin Yubo"
+        }
+      }
     },
     {
       "id": "26bdcd2fb00e",
       "name": "イ・ユリン",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이유린"
+        },
+        "en": {
+          "name": "Lee Yurin"
+        }
+      }
     },
     {
       "id": "93e22a43fba1",
       "name": "チョン・ヒス",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "정희수"
+        },
+        "en": {
+          "name": "Jeong Hisu"
+        }
+      }
     },
     {
       "id": "db387d26b08d",
       "name": "チョ・ヨンビン",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "조영빈"
+        },
+        "en": {
+          "name": "Jo Yeongbin"
+        }
+      }
     },
     {
       "id": "beaf37664eba",
       "name": "チュリ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "주리"
+        },
+        "en": {
+          "name": "Juri"
+        }
+      }
     },
     {
       "id": "99ad200528a3",
       "name": "マチュイ・ヘルマン",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "마티외 헤르만"
+        },
+        "en": {
+          "name": "Mathieu Hermann"
+        }
+      }
     },
     {
       "id": "7821f0d35845",
       "name": "Marie-Charlotte Juszczak",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "마리-샤를로트 유슈차크"
+        },
+        "ja": {
+          "name": "マリー＝シャルロット・ユシュチャク"
+        }
+      }
     },
     {
       "id": "8f3d9f8ae0ce",
