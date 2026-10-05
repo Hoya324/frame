@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T00:37:44.107021+00:00",
+  "generated_at": "2026-10-05T06:16:51.525476+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -94722,32 +94722,67 @@
         {
           "id": "332209c3e2e9",
           "name": "戸塚美月",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "토츠카 미즈키"
+            },
+            "en": {
+              "name": "Mizuki Totsuka"
+            }
+          }
         },
         {
           "id": "c3035ae111dd",
           "name": "橋本啓佑",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "하시모토 케이스케"
+            },
+            "en": {
+              "name": "Keisuke Hashimoto"
+            }
+          }
         },
         {
           "id": "14571d8292e2",
           "name": "李超",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "리 쵸"
+            },
+            "en": {
+              "name": "Cho Ri"
+            }
+          }
         },
         {
           "id": "e573daf62186",
           "name": "間所美月",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마도로 미즈키"
+            },
+            "en": {
+              "name": "Mizuki Madoro"
+            }
+          }
         },
         {
           "id": "4c311a4d6d4b",
           "name": "村山心南",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "무라야마 코코나"
+            },
+            "en": {
+              "name": "Kokona Murayama"
+            }
+          }
         },
         {
           "id": "d91b2ee3b3d4",
@@ -95276,8 +95311,15 @@
         {
           "id": "6ae0cdabda20",
           "name": "増山士郎",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마스야마 시로"
+            },
+            "en": {
+              "name": "Masuyama Shirō"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Shiro-Masuyama-Talking-to-the-Animals-in-the-End-of-the-World/art-center-new/2026-11-20",
@@ -95332,8 +95374,15 @@
         {
           "id": "5165969e0243",
           "name": "中村晃",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나카무라 아키라"
+            },
+            "en": {
+              "name": "Nakamura Akira"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Akira-Nakamura-Genso/D6-FE8782/2026-11-17",
@@ -95388,8 +95437,15 @@
         {
           "id": "3b0c4784d208",
           "name": "ヨウコ・グロゴウスキー",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "요코 그로고우스키"
+            },
+            "en": {
+              "name": "Yoko Glogowski"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Yoko-Glogowsky-Exhibition/kyoto-museum-of-photography-gallery-japanesque/2026-11-17",
@@ -95444,8 +95500,15 @@
         {
           "id": "20a081ab3f3e",
           "name": "本山周平",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "모토야마 슈헤이"
+            },
+            "en": {
+              "name": "Motoyama Shūhei"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Shuhei-Motoyama-Exhibition/6694-D683/2026-10-14",
@@ -95500,8 +95563,15 @@
         {
           "id": "dcf7a86ac557",
           "name": "岩崎吾郎",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이와사키 고로"
+            },
+            "en": {
+              "name": "Iwasaki Gorō"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Goro-Iwasaki-Exhibiton/kyoto-museum-of-photography-gallery-japanesque/2026-10-13",
@@ -96946,8 +97016,15 @@
       "id": "8d382c6d33c4",
       "source": "tokyo_art_beat",
       "title": "Marie-Charlotte Juszczak + 星野安信 「Vision of 24」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "Marie-Charlotte Juszczak + 호시노 야스노부 「Vision of 24」"
+        },
+        "en": {
+          "title": "Marie-Charlotte Juszczak + Hoshino Yasunobu 「Vision of 24」"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/1ee17514/VISION%20OF%2024%20EXHIBITION%20FINAL%20POSTER.jpg",
       "description": null,
       "medium": "mixed",
@@ -97006,8 +97083,17 @@
       "id": "609f86aaf662",
       "source": "tokyo_art_beat",
       "title": "北井一夫 「IROHA」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "기타이 가즈오 「IROHA」",
+          "description": "ZEIT-FOTO kunitachi에서는 2026년 10월 17일부터 기타이 가즈오 「IROHA」전을 개최합니다. 본 전시에서는 최신작인 〈IROHA〉 시리즈를 중심으로, 그에 이르는 60년에 걸친 작가의 궤적의 단편과 함께 전시합니다. 〈IROHA〉는 기타이가 자신의 과거 오리지널 프린트를 찢고 그 위에 물감을 칠한 작품입니다. 찢어진 사진의 이미지와 찢어진 틈에 색채나 '이로하', '일·이·삼'과 같은 글자와 형태가 겹쳐져 각각 다른 이미지가 만들어지고 있습니다.\n\n언뜻 보면 오리지널 프린트를 찢고 그 위에 물감을 더하는 행위는 사진을 더욱 강한 단일 작품으로 변화시키는 것처럼 보입니다. 그러나 〈IROHA〉의 매력은 한 점 한 점이 지닌 화면의 강렬함과 동시에, 그것들이 이어짐으로써 생겨나는 리듬에도 있습니다. 찢어진 틈, 색채, 글자와 형태가 반복과 변주를 거듭하는 가운데, 기타이가 사진가로서 출발했던 시절의 숨결과 현재의 손길이 겹쳐집니다. 또한 〈IROHA〉는 기타이의 사진가로서의 발자취 그 자체를 생각하는 데 있어서도 흥미로운 위치에 있습니다. 잡지라는 여러 사진이 이어지는 장에서 발표를 거듭해 온 기타이의 사진은 나중에 오리지널 프린트로서 한 점 한 점의 작품으로도 널리 감상되게 되었습니다. 〈IROHA〉에서는 그 오리지널 프린트를 작가 자신이 찢고 물감을 더함으로써 두 번 다시 같은 것이 존재하지 않는 작품으로 변화시키고 있습니다. 그러면서도 100점을 넘는 본 시리즈에는 기타이의 사진이 원래 갖추고 있던 연속성과 리듬이 다른 모습으로 나타나고 있습니다.\n\n80세가 넘은 기타이가 찢은 것은 지금으로부터 60년 전, 20세 때 촬영한 학생 운동 사진이었습니다. 기타이 자신이 \"내 사진의 시작이 된 프린트\"라고 부르는 그것들에 손을 댄 행위를 작가는 \"나 자신에 대한 반항이었다\"고 회고합니다. 과거를 보존하는 것이 아니라 자신의 원점을 찢고 그 위에 색과 글자를 겹침으로써 다시 새로운 제작으로 나아가는 것입니다. 〈IROHA〉에는 사진가로서의 출발점과 현재가 한 장의 화면 위에서 교차하고 있습니다. 또한 이번에는 〈산리즈카〉나 〈후나바시 스토리〉, 〈라이카로 산책〉 등도 출품됩니다. 〈IROHA〉에 나타난 새로운 현재와 그 뒤에 쌓여 있는 기타이 가즈오의 작업을 이 기회에 꼭 감상해 주십시오."
+        },
+        "en": {
+          "title": "Kitai Kazuo 「IROHA」",
+          "description": "ZEIT-FOTO kunitachi will hold the Kitai Kazuo 'IROHA' exhibition starting October 17, 2026. This exhibition will feature the latest 'IROHA' series, along with fragments of the artist's 60-year journey leading up to it. 'IROHA' is a work in which Kitai tore up his past original prints and applied paint over them. Colors, and characters and shapes such as 'i-ro-ha' and 'ichi-ni-san,' are layered over the torn photographic images and rips, creating distinct images.\n\nAt first glance, the act of tearing up original prints and adding paint might seem to transform the photographs into stronger, one-of-a-kind works. However, the appeal of 'IROHA' lies not only in the strength of each individual screen but also in the rhythm created by their sequence. Amidst the repetition and variation of rips, colors, characters, and shapes, the breath of Kitai's early days as a photographer and his current touch overlap. Furthermore, 'IROHA' holds an interesting position for considering Kitai's journey as a photographer itself. Kitai's photographs, which were repeatedly published in magazines, a medium where multiple photos are sequenced, later came to be widely appreciated as individual original prints. In 'IROHA,' the artist himself tears up these original prints and adds paint, transforming them into works that can never be replicated. Yet, in this series of over 100 pieces, the continuity and rhythm that Kitai's photographs originally possessed reappear in a different form.\n\nThe photographs Kitai, now over 80, tore were those of student movements he took 60 years ago, when he was 20. Kitai himself refers to these as \"the prints that marked the beginning of my photography,\" and he reflects on the act of touching them as \"a rebellion against myself.\" Instead of preserving the past, he tears up his own origins and layers colors and characters over them, moving towards new creation once again. In 'IROHA,' the photographer's starting point and present intersect on a single canvas. In addition, works such as 'Sanrizuka,' 'Funabashi Story,' and 'Leica de Sanpo' will also be exhibited. We invite you to take this opportunity to see the new present revealed in 'IROHA' and the accumulated work of Kitai Kazuo behind it."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/257514e9/unnamed.jpg",
       "description": "ZEIT-FOTO kunitachiでは、2026年10月17日より北井一夫「IROHA」展を開催いたします。本展では最新作である〈IROHA〉シリーズを中心に、そこへ至る60年にわたる作家の軌跡の断片とともに展示いたします。〈IROHA〉は、北井が自身の過去のオリジナル・プリントを破り、その上に絵具を施した作品です。破れた写真の像と裂け目に、色彩や「い・ろ・は」「一・二・三」といった文字や形が重ねられ、それぞれ異なるイメージが生み出されています。\n\n一見すると、オリジナル・プリントを破り、そこに絵具を加える行為は、写真をより強く一点物の作品へと変えるもののようにも見えます。しかし〈IROHA〉の魅力は、一点一点がもつ画面の強さと同時に、それらが連なることで生まれるリズムにもあります。裂け目、色彩、文字や形が反復と変奏を繰り返すなかに、北井が写真家として出発した頃の息づかいと、現在の手つきとが重なり合います。また〈IROHA〉は、北井の写真家としての歩みそのものを考えるうえでも興味深い位置にあります。雑誌という複数の写真が連なる場で発表を重ねてきた北井の写真は、のちにオリジナル・プリントとして、一点一点の作品としても広く鑑賞されるようになりました。〈IROHA〉では、そのオリジナル・プリントを作家自身が破り、絵具を加えることで、二度と同じものの存在しない作品へと変化させています。それでいて100点を超える本シリーズには、北井の写真がもともと備えていた連なりとリズムが、別の姿となって立ち現れています。\n\n80歳を超えた北井が破いたのは、今から60年前、20歳のときに撮影した学生運動の写真でした。北井自身が「私の写真の始まりとなったプリント」と呼ぶそれらに手をかけた行為を、作家は「私自身への反抗だった」と振り返っています。過去を保存するのではなく、自らの原点を破り、そこに色や文字を重ねることによって、再び新しい制作へと向かう。〈IROHA〉には、写真家としての出発点と現在とが、一枚の画面の上で交差しています。加えて今回は、〈三里塚〉や〈フナバシストーリー〉、〈ライカで散歩〉等も出品されます。〈IROHA〉にあらわれた新たな現在と、その背後に積み重なる北井一夫の仕事を、ぜひこの機会にご覧ください。",
       "medium": "photo",
@@ -97060,8 +97146,17 @@
       "id": "8035b6bd965f",
       "source": "tokyo_art_beat",
       "title": "「お酒と写真集」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「술과 사진집」",
+          "description": "본 전시에서는 15명의 사진가가 각자 직접 출판한 사진집 1권과 사진 작품 1점을 가져와 전시 및 판매합니다. 사진집을 '읽는' 것뿐만 아니라 술이나 커피와 함께 음미하는 것으로 받아들여, 사진과의 새로운 만남 방식을 제안하는 전시회입니다. 한 권의 사진집에는 사진가가 쌓아온 시간과 시점이 담겨 있습니다. 각 사진가의 세계를 천천히 즐기실 수 있습니다. 제목에 '술'이 들어가 있지만, 술을 마시지 못하는 분들도 부담 없이 찾아주세요. 커피나 소프트드링크도 준비되어 있으니, 각자의 스타일로 사진집과 작품을 즐기실 수 있습니다."
+        },
+        "en": {
+          "title": "「Alcohol and Photo Books」",
+          "description": "In this exhibition, 15 photographers will each bring one self-published photo book and one photographic work for display and sale. This exhibition proposes a new way to encounter photography, by viewing photo books not just as something to 'read,' but as something to be savored with alcohol or coffee. Each photo book is filled with the time and perspective that the photographer has accumulated. You can slowly enjoy the world of each photographer. Although the title includes 'alcohol,' those who do not drink are also welcome to visit. Coffee and soft drinks are also available, so you can enjoy the photo books and works in your own style."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/6d29efb3/%E9%9D%92%20%E3%82%B7%E3%83%B3%E3%83%95%E3%82%9A%E3%83%AB%20%E6%98%A0%E7%94%BB%20%E3%83%9B%E3%82%9A%E3%82%B9%E3%82%BF%E3%83%BC%20A3%20(%E3%83%9B%E3%82%9A%E3%82%B9%E3%83%88%E3%82%AB%E3%83%BC%E3%83%88%E3%82%99%EF%BC%88A4%EF%BC%89)%20-%20i%20t.jpg",
       "description": "本展では、15名の写真家が、それぞれ自身で出版した写真集1冊と、写真作品1点を持ち寄り、展示・販売します。写真集を「読む」だけではなく、お酒や珈琲とともに味わうものとして捉えることで、写真との新しい出会い方を提案する展覧会です。一冊の写真集には、写真家が積み重ねてきた時間や視点が詰まっています。それぞれの写真家の世界をゆっくりと楽しんでいただけます。タイトルに「お酒」とありますが、お酒を飲めない方もどうぞお気軽にお越しください。コーヒーやソフトドリンクもご用意していますので、それぞれのスタイルで写真集と作品をお楽しみいただけます。",
       "medium": "photo",
@@ -97114,8 +97209,15 @@
         {
           "id": "05ebfe17d6be",
           "name": "小松透",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "코마쓰 토루"
+            },
+            "en": {
+              "name": "Komatsu Toru"
+            }
+          }
         },
         {
           "id": "1c5099543dea",
@@ -97133,26 +97235,54 @@
         {
           "id": "023d8ab02def",
           "name": "佐藤圭司",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사토 케이지"
+            },
+            "en": {
+              "name": "Sato Keiji"
+            }
+          }
         },
         {
           "id": "a4972d450c59",
           "name": "佐藤充",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사토 미쓰루"
+            },
+            "en": {
+              "name": "Sato Mitsuru"
+            }
+          }
         },
         {
           "id": "d4c6203643ba",
           "name": "鈴木信彦",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "스즈키 노부히코"
+            },
+            "en": {
+              "name": "Suzuki Nobuhiko"
+            }
+          }
         },
         {
           "id": "4faf3bcae90d",
           "name": "瀬戸正人",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "세토 마사토"
+            },
+            "en": {
+              "name": "Seto Masato"
+            }
+          }
         },
         {
           "id": "0ba932d14349",
@@ -97209,20 +97339,41 @@
         {
           "id": "f2b78b2395fb",
           "name": "藤原敦",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "후지와라 아츠시"
+            },
+            "en": {
+              "name": "Atsushi Fujiwara"
+            }
+          }
         },
         {
           "id": "591a66511ec9",
           "name": "紅子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "베니코"
+            },
+            "en": {
+              "name": "Beniko"
+            }
+          }
         },
         {
           "id": "e800e79b4683",
           "name": "村上仁一",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "무라카미 진이치"
+            },
+            "en": {
+              "name": "Jin'ichi Murakami"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Alcohol-and-Photography/gallery-cafe-bar-three-three/2026-10-03",
@@ -97268,8 +97419,15 @@
         {
           "id": "be5e8af8816c",
           "name": "율레 클라우디아 만(Jule Claudia Mahn), 파트리시아 라가르데(Patricia Lagarde), 베로니카 셰퍼스(Veronika Schäpers), 송해인(Haein Song)",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Jule Claudia Mahn, Patricia Lagarde, Veronika Schäpers, Haein Song"
+            },
+            "ja": {
+              "name": "ユーレ・クラウディア・マン、パトリシア・ラガルド、ベロニカ・シェーパース、ソン・ヘイン"
+            }
+          }
         }
       ],
       "source_url": "https://art-map.co.kr/exhibition/view.php?idx=32760",
@@ -134842,32 +135000,67 @@
     {
       "id": "332209c3e2e9",
       "name": "戸塚美月",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "토츠카 미즈키"
+        },
+        "en": {
+          "name": "Mizuki Totsuka"
+        }
+      }
     },
     {
       "id": "c3035ae111dd",
       "name": "橋本啓佑",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "하시모토 케이스케"
+        },
+        "en": {
+          "name": "Keisuke Hashimoto"
+        }
+      }
     },
     {
       "id": "14571d8292e2",
       "name": "李超",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "리 쵸"
+        },
+        "en": {
+          "name": "Cho Ri"
+        }
+      }
     },
     {
       "id": "e573daf62186",
       "name": "間所美月",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "마도로 미즈키"
+        },
+        "en": {
+          "name": "Mizuki Madoro"
+        }
+      }
     },
     {
       "id": "4c311a4d6d4b",
       "name": "村山心南",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "무라야마 코코나"
+        },
+        "en": {
+          "name": "Kokona Murayama"
+        }
+      }
     },
     {
       "id": "d91b2ee3b3d4",
@@ -134937,32 +135130,67 @@
     {
       "id": "6ae0cdabda20",
       "name": "増山士郎",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "마스야마 시로"
+        },
+        "en": {
+          "name": "Masuyama Shirō"
+        }
+      }
     },
     {
       "id": "5165969e0243",
       "name": "中村晃",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "나카무라 아키라"
+        },
+        "en": {
+          "name": "Nakamura Akira"
+        }
+      }
     },
     {
       "id": "3b0c4784d208",
       "name": "ヨウコ・グロゴウスキー",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "요코 그로고우스키"
+        },
+        "en": {
+          "name": "Yoko Glogowski"
+        }
+      }
     },
     {
       "id": "20a081ab3f3e",
       "name": "本山周平",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "모토야마 슈헤이"
+        },
+        "en": {
+          "name": "Motoyama Shūhei"
+        }
+      }
     },
     {
       "id": "dcf7a86ac557",
       "name": "岩崎吾郎",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이와사키 고로"
+        },
+        "en": {
+          "name": "Iwasaki Gorō"
+        }
+      }
     },
     {
       "id": "2ed2d4daf34b",
@@ -135452,56 +135680,119 @@
     {
       "id": "05ebfe17d6be",
       "name": "小松透",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "코마쓰 토루"
+        },
+        "en": {
+          "name": "Komatsu Toru"
+        }
+      }
     },
     {
       "id": "023d8ab02def",
       "name": "佐藤圭司",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "사토 케이지"
+        },
+        "en": {
+          "name": "Sato Keiji"
+        }
+      }
     },
     {
       "id": "a4972d450c59",
       "name": "佐藤充",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "사토 미쓰루"
+        },
+        "en": {
+          "name": "Sato Mitsuru"
+        }
+      }
     },
     {
       "id": "d4c6203643ba",
       "name": "鈴木信彦",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "스즈키 노부히코"
+        },
+        "en": {
+          "name": "Suzuki Nobuhiko"
+        }
+      }
     },
     {
       "id": "4faf3bcae90d",
       "name": "瀬戸正人",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "세토 마사토"
+        },
+        "en": {
+          "name": "Seto Masato"
+        }
+      }
     },
     {
       "id": "f2b78b2395fb",
       "name": "藤原敦",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "후지와라 아츠시"
+        },
+        "en": {
+          "name": "Atsushi Fujiwara"
+        }
+      }
     },
     {
       "id": "591a66511ec9",
       "name": "紅子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "베니코"
+        },
+        "en": {
+          "name": "Beniko"
+        }
+      }
     },
     {
       "id": "e800e79b4683",
       "name": "村上仁一",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "무라카미 진이치"
+        },
+        "en": {
+          "name": "Jin'ichi Murakami"
+        }
+      }
     },
     {
       "id": "be5e8af8816c",
       "name": "율레 클라우디아 만(Jule Claudia Mahn), 파트리시아 라가르데(Patricia Lagarde), 베로니카 셰퍼스(Veronika Schäpers), 송해인(Haein Song)",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Jule Claudia Mahn, Patricia Lagarde, Veronika Schäpers, Haein Song"
+        },
+        "ja": {
+          "name": "ユーレ・クラウディア・マン、パトリシア・ラガルド、ベロニカ・シェーパース、ソン・ヘイン"
+        }
+      }
     }
   ]
 }
