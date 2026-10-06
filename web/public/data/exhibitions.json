@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T22:45:18.464424+00:00",
+  "generated_at": "2026-10-06T00:13:25.952319+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -24995,7 +24995,7 @@
       "price_max": null,
       "start_date": "2026-06-20",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "3c0a06885059",
@@ -53716,7 +53716,7 @@
       "price_max": null,
       "start_date": "2026-07-28",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "65e91b43fb96",
@@ -59803,7 +59803,7 @@
       "price_max": null,
       "start_date": "2026-07-16",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "162d896d238b",
@@ -61677,7 +61677,7 @@
       "price_max": null,
       "start_date": "2026-07-18",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "48561c553989",
@@ -66726,7 +66726,7 @@
       "price_max": null,
       "start_date": "2026-09-29",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "5163e693d1ea",
@@ -76010,7 +76010,7 @@
       "price_max": null,
       "start_date": "2026-08-29",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "49e79bf83254",
@@ -76723,7 +76723,7 @@
       "price_max": null,
       "start_date": "2026-09-28",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -76786,7 +76786,7 @@
       "price_max": null,
       "start_date": "2026-09-28",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -77003,7 +77003,7 @@
       "price_max": null,
       "start_date": "2026-09-08",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "0369da1db600",
@@ -77896,7 +77896,7 @@
       "price_max": null,
       "start_date": "2026-09-10",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ca319cce88ff",
@@ -79318,7 +79318,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "37f737766ac5",
@@ -79622,7 +79622,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ec7e14bc9bb2",
@@ -83041,7 +83041,7 @@
       "price_max": null,
       "start_date": "2026-09-25",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "afe71f7d0299",
@@ -83687,7 +83687,7 @@
       "price_max": null,
       "start_date": "2026-10-05",
       "end_date": "2026-10-17",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8882c8060b40",
@@ -84924,7 +84924,7 @@
       "price_max": null,
       "start_date": "2026-09-11",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "75b6ca2ad503",
@@ -85382,8 +85382,8 @@
       "price_min": null,
       "price_max": null,
       "start_date": "2026-09-11",
-      "end_date": "2026-10-03",
-      "status": "past",
+      "end_date": "2026-10-11",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8d88cff42a52",
@@ -85835,7 +85835,7 @@
       "price_max": null,
       "start_date": "2026-09-23",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "9d43ad6fe782",
@@ -85898,7 +85898,7 @@
       "price_max": null,
       "start_date": "2026-09-23",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "1db5e3321d12",
@@ -86637,7 +86637,7 @@
       "price_max": null,
       "start_date": "2026-09-27",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "1cd7dfe8dc26",
@@ -87779,7 +87779,7 @@
       "price_max": null,
       "start_date": "2026-10-05",
       "end_date": "2026-10-11",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -88986,7 +88986,7 @@
       "price_max": null,
       "start_date": "2026-09-25",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "b4255c9d988c",
@@ -89462,7 +89462,7 @@
       "price_max": null,
       "start_date": "2026-09-17",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "8b8bf1f13f39",
@@ -90311,7 +90311,7 @@
       "price_max": null,
       "start_date": "2026-10-01",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "212a5c18fcd0",
@@ -91328,7 +91328,7 @@
       "price_max": null,
       "start_date": "2026-09-25",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "7acc7006de39",
@@ -91762,7 +91762,7 @@
       "price_max": null,
       "start_date": "2026-10-02",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2e6284b90891",
@@ -91890,7 +91890,7 @@
       "price_max": null,
       "start_date": "2026-09-29",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "bad41612e0e3",
@@ -93791,7 +93791,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "56f172501426",
@@ -96282,7 +96282,7 @@
       "price_max": null,
       "start_date": "2026-09-26",
       "end_date": "2026-10-04",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "fe321df86458",
@@ -97431,6 +97431,244 @@
         }
       ],
       "source_url": "https://art-map.co.kr/exhibition/view.php?idx=32760",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "3468a8009c5f",
+      "source": "tokyo_art_beat",
+      "title": "宮下五郎 「MUMBAI RIDERS展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/fb54727f/2fa3e2b2-a98c-419d-93f8-1ddb278b5877.jpg",
+      "description": "ありかHoleは、2026年10月27日（火）から、宮下五郎「Mumbai Riders」展を開催します。\nインドムンバイの鉄道は、ラッシュ時の乗車率250%。すべてのドアは全開。 命の危険を恐れない乗客たちの日常をレンズが捉えたモノクロ写真群を、ご鑑賞ください。\n本作品は、東京、ニューヨーク、モスクワで、電車の窓の中の人々を切り取った WINDOWSシリーズの新たな展開になります。 同一のフレームを武器に、世界の都市で移動する人々の日常を次々と撮影する宮下五郎の最新作です。\n写真集「Mumbai Riders」も同時に出版になります。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-27",
+      "end_date": "2026-11-05",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "eefd71b39805",
+        "name": "ありかホール",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "아리카 홀"
+          },
+          "en": {
+            "name": "Arika Hall"
+          }
+        },
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.70656128800646,
+        "lng": 139.68454291534425
+      },
+      "artists": [
+        {
+          "id": "964103c426a0",
+          "name": "宮下五郎",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Goro-Miyashita-Mumbai-Riders/arika-hole/2026-10-27",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "eeb541862600",
+      "source": "tokyo_art_beat",
+      "title": "「美術学科 学生作品展 2026年秋」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/47b80801/TUJ%20Student%20Show%20Poster.jpg",
+      "description": "TUJ Art Galleryでは、2026年秋のグループ展を開催します。\n本展では、テンプル大学ジャパンキャンパス（TUJ）のアート・プログラムにおけるスタジオ・アート科目を受講した学生が、2026年夏学期に制作した作品を中心に、多様な作品をご紹介します。\nBachelor of Arts in Art（美術学士）専攻では、リベラルアーツの学びを基盤に、視覚芸術の実践を重視しています。学生は、伝統的な2D、3D、デジタルメディアを幅広く学び、基礎的な制作力を身につけます。本プログラムは、視覚芸術の経験が限られている学生を主な対象としていますが、すでに専門的な美術教育を受けた学生にも対応しています。\n授業では、ドローイング、絵画、版画、2次元・3次元デザイン、デジタル写真、デジタルイメージング、インターネット・イメージング、動画、モーショングラフィックス、美術史などを扱います。\n本プログラムでは、現代のアートやデザインの制作を学際的な視点から捉え、アナログおよびデジタルメディアの技術に加え、現代の制作活動に不可欠な社会的・歴史的背景についての理解を身につけることを目指しています。",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-05",
+      "end_date": "2026-10-26",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "6274759d888d",
+        "name": "テンプル大学 ジャパンキャンパス",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "템플 대학교 재팬 캠퍼스"
+          },
+          "en": {
+            "name": "Temple University Japan Campus"
+          }
+        },
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.64270137948371,
+        "lng": 139.67390802390844
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Art-Department-Student-Exhibition-Fall-2026/448-B0723/2026-10-05",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "595530c933f8",
+      "source": "tokyo_art_beat",
+      "title": "「Ephemere Photo Fest 2026」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": null,
+      "description": "2026年10月17日〜27日、浅草橋のThree Space Tokyoにて、Ephemere Photo Fest 2026を開催します。現代写真、フォトブック、そして「印刷されたもの」に触れる体験をテーマにした、毎年開催の国際的な写真フェスティバルです。入場無料で、3フロアにわたり、展示、出版、アーティストトーク、ワークショップ、交流イベントを行います。1階では、世界90名のアーティストによる270点の作品を紹介する Come What May: Threefold Perspectives, Fragments, and Forms を開催。3枚のイメージからなるトリプティック（三連作）をひとつの表現形式として捉え、そこから生まれる時間、リズム、物語性を探ります。\n\n2階では、世界各地から集めた50冊以上の独立系フォトブックを紹介する The Ephemere Photobook Exhibition、3階では、国内外の9名の写真家によるグループ展ANTHOLOGY 3 を開催します。また、京都新聞印刷との協働による Ephemere Photo Journal Vol. 2（テーマ「Ephemerality Through Triplicities」）をはじめ、日本、イギリス、フィリピン、オーストラリアのアーティストによる新刊・モノグラフも発表します。会期中は、アーティストトーク、ブックローンチ、交流会に加え、Anthotype、Cyanotype、Mordançageなどの写真技法、ZINE制作、ビジュアル編集を体験できる無料ワークショップを開催。Ephemere Photobook Dummy Masterclassの最終成果発表も行います。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "81f43c8f3b9f",
+        "name": "Three Space Tokyo",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Three Space Tokyo"
+          },
+          "ja": {
+            "name": "Three Space Tokyo"
+          }
+        },
+        "region": "浅草橋、馬喰町",
+        "district": null,
+        "lat": 35.700875122738566,
+        "lng": 139.7854637024641
+      },
+      "artists": [
+        {
+          "id": "a04691e784f0",
+          "name": "Takashi Fukukawa",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "ee30be74d0a7",
+          "name": "Kousuke Shimasaki",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5cc2508a4d62",
+          "name": "Alfred Ong",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "bf1a1550c517",
+          "name": "César Vásquez Altamirano",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "9d8f1a0d2be6",
+          "name": "Lisa Jayne Cramer",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Ephemere-Photo-Fest-2026/three-space-tokyo/2026-10-17",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "c19d6ced42ad",
+      "source": "tokyo_art_beat",
+      "title": "坂本龍一 展",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/8158a5ad/unnamed%20(1).jpg",
+      "description": "SAIでは、坂本龍一が1980年代に撮影した写真を紹介する展覧会「PHOTO RYUICHI SAKAMOTO」を、2026年10月17日（土）から11月8日（日）まで開催いたします。1980年代。音楽家として世界を舞台に活動しながら、坂本龍一はカメラを手に、日々の風景や人々の姿を記録していました。そこに写っているのは、特別な出来事ばかりではありません。何気なく目にしたもの。旅先で見た風景。ふと差し込む光。その瞬間に感じた空気。一枚一枚の写真には、坂本龍一がその時代を過ごした時間と、彼が見ていた世界が静かに残されています。親密な視線の先にあるものの、小さな声を聞くように。彼の目に映った残像を見るように。写真は、わたしたちに静かに語りかけます。美しく、詩的で、どこか私的な写真。その一瞬一瞬から、坂本龍一が見つめていた世界に触れていただければと思います。\n\n[関連イベント]\n1. トークショー 1\n日時: 2026年10月17日16:00〜17:30\n登壇者: 佐々木敦 （評論家）、後藤繁雄（編集者）\n料金: 2000円（先着順）\n2. トークショー 2\n日時: 2026年11月1日14:00〜15:30\n登壇者: 島袋道浩（アーティスト）、後藤繁雄（編集者）\n料金: 2000円（先着順）\n3. Polaroid ワークショップ\n日時: 2026年10月24日13:00〜14:30 / 16:00〜17:30\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-17",
+      "end_date": "2026-11-08",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5a30eb6b8f44",
+        "name": "SAI",
+        "lang": null,
+        "tr": {},
+        "region": "渋谷",
+        "district": null,
+        "lat": 35.661652193431095,
+        "lng": 139.70166523775723
+      },
+      "artists": [
+        {
+          "id": "1096d3886d5a",
+          "name": "坂本龍一",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Ryuichi-Sakamoto-Exhibition/C5-E3409-F/2026-10-17",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f7dae2e1bcb9",
+      "source": "tokyo_art_beat",
+      "title": "渋田薫 「Singing Keys, Dancing Colors」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/87fb5cc1/20261004_115823340%20-%20Kaoru%20Shibuta%20(1).png",
+      "description": "純白の空間に解き放たれる、鮮烈な色彩とリズミカルな線。音や自然の微細な振動を共感覚によって捉え、絵画へと昇華させるアーティスト・渋田薫の個展「Singing Keys, Dancing Colors」をTHE HARMONYSTにて開催いたします。本展のメインビジュアルに象徴されるように、軽やかに跳ねる原色のかたち、五線譜や鍵盤を想起させる直線と幾何学的なグリッド、そして宙を舞う繊細なストロークは、まるで音楽そのものがカンバスの上で踊り、歌っているかのような共鳴を生み出しています。クラシック音楽のポリフォニーや土地の息づかいを起点に生み出されるその絵肌は、鑑賞者の視覚だけでなく聴覚や身体感覚をも揺り動かします。空間を満たす色彩のメロディと、目に見えない響きが織りなすハーモニー。日常の知覚をひらき、音と色がひとつに溶け合う空間をぜひご体感ください。\n\n[関連イベント]\n1. MUSIC EVENT\n日時: 2026年10月25日15:30〜17:30\n登壇者: 渋田薫、林晶彦\n料金: 5000円＋ 1Drink（定員: 16名）、MUSIC EVENT セット: 15000円（要事前申込み）\n2. Work Shop\n日時: 2026年10月25日18:30〜20:30\n登壇者: 野中真規子\n料金: 11000円（定員: 10名）、WORKSHOP セット: 15,000円（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-25",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "0936b3ef7488",
+        "name": "THE HARMONYST",
+        "lang": null,
+        "tr": {},
+        "region": "白金、広尾",
+        "district": null,
+        "lat": 35.648869876640056,
+        "lng": 139.72037568469045
+      },
+      "artists": [
+        {
+          "id": "8d18ee8f5dee",
+          "name": "渋田薫",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kaoru-Shibuta-Singing-Keys-Dancing-Colors/the-harmonyst/2026-10-03",
       "featured": false,
       "popularity_score": null
     }
@@ -108375,6 +108613,20 @@
       "country": "JP",
       "lat": 35.68824383884333,
       "lng": 139.71765553071907,
+      "website": null
+    },
+    {
+      "id": "0936b3ef7488",
+      "name": "THE HARMONYST",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "白金、広尾",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.648869876640056,
+      "lng": 139.72037568469045,
       "website": null
     }
   ],
@@ -135793,6 +136045,54 @@
           "name": "ユーレ・クラウディア・マン、パトリシア・ラガルド、ベロニカ・シェーパース、ソン・ヘイン"
         }
       }
+    },
+    {
+      "id": "964103c426a0",
+      "name": "宮下五郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a04691e784f0",
+      "name": "Takashi Fukukawa",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ee30be74d0a7",
+      "name": "Kousuke Shimasaki",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5cc2508a4d62",
+      "name": "Alfred Ong",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "bf1a1550c517",
+      "name": "César Vásquez Altamirano",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9d8f1a0d2be6",
+      "name": "Lisa Jayne Cramer",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1096d3886d5a",
+      "name": "坂本龍一",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8d18ee8f5dee",
+      "name": "渋田薫",
+      "lang": null,
+      "tr": {}
     }
   ]
 }
