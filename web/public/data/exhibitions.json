@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T16:35:43.248071+00:00",
+  "generated_at": "2026-10-06T22:39:57.688133+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -73853,7 +73853,7 @@
       "price_max": null,
       "start_date": "2026-10-06",
       "end_date": "2026-10-18",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "1d36b2ca73b5",
@@ -82655,7 +82655,7 @@
       "price_max": null,
       "start_date": "2026-09-05",
       "end_date": "2026-10-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "387e375de738",
@@ -84735,7 +84735,7 @@
       "price_max": null,
       "start_date": "2026-09-30",
       "end_date": "2026-10-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "838c559a265c",
@@ -88450,7 +88450,7 @@
       "price_max": null,
       "start_date": "2026-10-06",
       "end_date": "2026-10-18",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5163e693d1ea",
@@ -90381,7 +90381,7 @@
       "price_max": null,
       "start_date": "2026-09-29",
       "end_date": "2026-10-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "b3002506ba4c",
@@ -90556,7 +90556,7 @@
       "price_max": null,
       "start_date": "2026-08-29",
       "end_date": "2026-10-05",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "38a552322cf9",
@@ -90994,7 +90994,7 @@
       "price_max": null,
       "start_date": "2026-10-06",
       "end_date": "2026-10-18",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "eefd71b39805",
@@ -93108,7 +93108,7 @@
       "price_max": null,
       "start_date": "2026-10-06",
       "end_date": "2026-10-24",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "f00fc907708f",
@@ -95089,7 +95089,7 @@
       "price_max": null,
       "start_date": "2026-10-06",
       "end_date": "2026-10-18",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "afe71f7d0299",
@@ -97640,9 +97640,9 @@
       "popularity_score": null
     },
     {
-      "id": "c19d6ced42ad",
+      "id": "bda633c82229",
       "source": "tokyo_art_beat",
-      "title": "坂本龍一 展",
+      "title": "坂本龍一 「PHOTO RYUICHI SAKAMOTO」",
       "lang": null,
       "tr": {},
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/8158a5ad/unnamed%20(1).jpg",
@@ -97675,7 +97675,7 @@
           "tr": {}
         }
       ],
-      "source_url": "https://www.tokyoartbeat.com/events/-/Ryuichi-Sakamoto-Exhibition/C5-E3409-F/2026-10-17",
+      "source_url": "https://www.tokyoartbeat.com/events/-/Ryuichi-Sakamoto-Photo-Ryuichi-Sakamoto/C5-E3409-F/2026-10-17",
       "featured": false,
       "popularity_score": null
     },
@@ -97723,6 +97723,571 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Kaoru-Shibuta-Singing-Keys-Dancing-Colors/the-harmonyst/2026-10-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "962e12b12438",
+      "source": "fujifilm_square",
+      "title": "野町和嘉写真展「サハラ SAHARA THE ETERNAL」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://fujifilmsquare.jp/assets/img/photo_event_261030_01_mv.jpg",
+      "description": "フジフイルム スクエアでは、2026年10月30日（金）～11月26日（木）まで、野町和嘉写真展「サハラ SAHARA THE ETERNAL」を開催いたします。果てしなく広がる砂と岩からなる荒涼たる大地。湿潤な気候の日本からは、想像を絶する極乾の世界。1972年、ヨーロッパから車でアフリカへ向かい、初めて砂漠に足を踏み入れた野町氏は、サハラと衝撃的な出合いをしました。その後数カ月単位のサハラ滞在を繰り返しながら撮影した中から、本展ではモノクローム写真を中心に展示します。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-30",
+      "end_date": "2026-11-26",
+      "status": "upcoming",
+      "open_hours": "10:00－19:00（最終日は14:00まで、入館は終了10分前まで）",
+      "venue": {
+        "id": "d8d9c7e67b31",
+        "name": "フジフイルム スクエア",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "후지필름 스퀘어"
+          },
+          "en": {
+            "name": "Fujifilm Square"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.665607,
+        "lng": 139.7304444
+      },
+      "artists": [],
+      "source_url": "https://fujifilmsquare.jp/exhibition/261030_01.html",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "09fc212908bb",
+      "source": "tokyo_art_beat",
+      "title": "長崎剛志 「N-tree 28周年記念作品集展示会『原始庭苑』出版記念展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/2683393f/%E9%95%B7%E5%B4%8E%E5%89%9B%E5%BF%97%EF%BC%8FN-tree_%E3%80%8C%E5%8E%9F%E5%A7%8B%E5%BA%AD%E8%8B%91%E3%80%8D%E5%87%BA%E7%89%88%E8%A8%98%E5%BF%B5%E5%B1%95_%E3%83%95%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC_page-0001.jpg",
+      "description": "長崎剛志は庭園美術家として、東京を拠点に国内外で個人邸から集合住宅、神社仏閣の庭園を制作してきました。N-tree設立28周年記念にこれまでの表現活動を本に纏め、発表する機会を企画いたしました。\n\n作品集『原始庭苑』は、これまで自身の視点で撮影してきた写真を主に、自身でレイアウト、装丁した造本です。庭園美術としての作品群をプロジェクトやシリーズで分類するのではなく、庭をつくる上で大切な“木、石、空気、人間”にカテゴライズしています。2024年から25年にかけて、東京、長崎、奈良と巡回してきた庭園美術展『原始庭苑』の会場風景、2026年の近作ロンドン、集合住宅の中庭のプロジェクトも掲載しております。展示会場は、古道具 Let ’Em In、room 103を運営するa b.o.s.の協力のもとヴィンテージ家具や小物などによる住空間を演出、本書とくつろぐ「原始のための部屋」をスタイリングいたします。\n\n[関連イベント]\nトークイベント「原始のための部屋」座談会と小宴\n日時: 2026年10月18日15:00〜17:00\n登壇者: 長崎剛志\n会場: room 103\n料金: 無料（事前申込み不要）\n※イベント詳細は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-16",
+      "end_date": "2026-10-20",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "234a6a9faff0",
+        "name": "room 103（ルームイチマルサン）",
+        "lang": null,
+        "tr": {},
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.7000796868087,
+        "lng": 139.43950061615195
+      },
+      "artists": [
+        {
+          "id": "10668880dfbd",
+          "name": "長崎剛志",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Takeshi-Nagasaki-N-tree-28th-Anniversary-Collection-Exhibition/Room-103/2026-10-16",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "a63d9f117235",
+      "source": "tokyo_art_beat",
+      "title": "「横浜キヤノンイーグルス写真展 2026」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/b1d4b587/20260901.jpg",
+      "description": "本展はJAPAN RUGBY LEAGUE ONE（ジャパンラグビー リーグワン）2025-26シーズン（以下本シーズン）における「横浜キヤノンイーグルス」の戦いの様子を捉えた作品を展示する写真展です。本写真展では、昨シーズンの戦いの軌跡を写真とともに振り返ります。\nシーズンを通して、チームは多くの挑戦と向き合いながら、一試合一試合に全力で取り組んでまいりました。結果として目標としていた成績には届きませんでしたが、苦しい局面でも仲間を信じ、支え合いながら戦い続けた選手たちの姿、そしてどんな時も後押ししてくださったサポーターの皆さまの存在は、チームにとって大きな力となりました。\n写真に収められているのは、勝利の喜びだけではありません。悔しさや葛藤、挑戦、そして成長への歩みもまた、このシーズンを形づくる大切な瞬間です。ぜひ一枚一枚の写真を通して、選手たちの熱意やチームの歩みを感じていただければ幸いです。作品はすべて、キヤノンの大判プリンター「imagePROGRAF」でプリントし、展示します。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-16",
+      "end_date": "2026-11-21",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "264da55cd4ca",
+        "name": "オープンギャラリー1・2",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "오픈 갤러리 1・2"
+          },
+          "en": {
+            "name": "Open Gallery 1・2"
+          }
+        },
+        "region": "天王洲、品川",
+        "district": null,
+        "lat": 35.62571436431203,
+        "lng": 139.74076925334083
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yokohama-Canon-Eagles-Photo-Exhibition-2026/2-E174-B58/2026-10-16",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "3985ef2e73d7",
+      "source": "tokyo_art_beat",
+      "title": "「写真表現講座展 GOTO AKIコース」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/ca2c8e62/20260831.jpg",
+      "description": "本展は、キヤノンマーケティングジャパンが開催している「キヤノンの写真表現講座」における講座・【マスタークラス】講評と展示の実践（GOTO AKI氏担当）の発表展です。\n写真家GOTO AKI氏を講師に迎え、計8回の講座を通じて、写真家やキュレーターが実践している展示までの詳細なプロセスを具体的に学び、実際に自分自身で展示づくりを行った5名の参加者がそれぞれのテーマに沿った作品を展示します。展示の作品はすべてキヤノン製のプリンターを使用してプリントし、展示します。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-16",
+      "end_date": "2026-11-02",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "264da55cd4ca",
+        "name": "オープンギャラリー1・2",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "오픈 갤러리 1・2"
+          },
+          "en": {
+            "name": "Open Gallery 1・2"
+          }
+        },
+        "region": "天王洲、品川",
+        "district": null,
+        "lat": 35.62571436431203,
+        "lng": 139.74076925334083
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Goto-Aki-Course-Photography-Exhibition/2-E174-B58/2026-10-16",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "a3b17680aead",
+      "source": "tokyo_art_beat",
+      "title": "「原泉アートデイズ！」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/c19ae56f/000753e8-57ae-4add-a6b0-5c0e351b7c07.png",
+      "description": "今年で開催9回目！自然とアートに出会おう ！静岡県掛川市北部に位置する中山間地・原泉地区で現代アートを観て、触れることのできる展覧会「原泉アートデイズ！」 を今年も開催します。4つの国と地域から参加した、国内外の様々なジャンルの８組のアーティストたちが、HARAIZUMI AIR（原泉アーティスト・イン・レジデンス）に参加し、実際に原泉地区に滞在して制作した様々な作品を、期間中はいろんな場所で鑑賞することができます。旧茶⼯場や空き家、空き施設などを展⽰会場に活⽤している点も特徴的です。また、アートストアでは参加アーティストたちの原画やアート作品、オリジナルグッズなどがずらりと並び、ショッピングを楽しむこともできます。その他、パフォーマンスやワークショップなどイベントも楽しめ、おしゃれなレンタサイクル（台数限定／事前申込）で、自然の中をサイクリングしながらアートに触れられます。この秋は、自然の中でゆったりと時間を過ごしながら、アートを楽しんでみませんか？",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-22",
+      "end_date": "2026-11-15",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "322f4254bda6",
+        "name": "旧原泉第2製茶工場",
+        "lang": null,
+        "tr": {},
+        "region": "静岡県",
+        "district": null,
+        "lat": 34.86814,
+        "lng": 138.0183
+      },
+      "artists": [
+        {
+          "id": "c2cefad7439a",
+          "name": "井口貴夫",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "618b5605e8e3",
+          "name": "水戸部春菜",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "ba178688e7ab",
+          "name": "井上修志",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "21eaa92afe1e",
+          "name": "ファビアン・ハメル",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "2ddc6b88e6e7",
+          "name": "ルーカス・カンネマン",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0f91038eb491",
+          "name": "EBC-223 EXPANSIVE BONELESS COLECTIVE",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "29d5557cb89d",
+          "name": "ルシアーナ ベルタレッリ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "77054e7c389d",
+          "name": "マルシオ エリアス サントス",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Haraizumi-Art-Days/former-haraizumi-no-2-tea-factory/2026-10-22",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "356567a55964",
+      "source": "tokyo_art_beat",
+      "title": "T.Fujiba 「空港散歩Ⅴ 朱から蒼 〜Airport Stroll V TOTTORI SUNSET & STARLIGHT〜」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/58c8fd44/141446e4-6819-4102-850b-a65aa9c7ce63.png",
+      "description": "鳥取市の市街地程近くの日本海に面した立地の鳥取空港。就航地は羽田空港のみ、1日5往復というローカル空港である。その1便を逃すと次のチャンスは1年後というシチュエーションもザラな環境で、10年以上にわたり「一便入魂」のスタイルでその情景を追い続けてきた。「空港散歩」シリーズ第5作となる今回のテーマは「朱から蒼へ」。前作「空港散歩2020」が自分にとっての集大成であったのに対し、今作はその先への「深化」への挑戦である。「fujibaオレンジ」とも言われる、PENTAX独自のホワイトバランス「CTE」を効かせた夕景に加え、今回は、鳥取県が誇る「星取県」の美しい夜空「蒼」まで視野を広げ、夕方以降の3便のみに撮影対象を絞ることで、同じ便の機体が刻一刻と表情を変える多層的な美を追求した。ありふれたローカル空港の日常の定点観測から垣間見える、ドラマチックな光の移ろいを楽しんでもらえれば幸いである。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-23",
+      "end_date": "2026-10-29",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "f228e0d4700b",
+        "name": "富士フォトギャラリー銀座",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "후지 포토 갤러리 긴자"
+          },
+          "en": {
+            "name": "Fuji Photo Gallery Ginza"
+          }
+        },
+        "region": "銀座、丸の内",
+        "district": null,
+        "lat": 35.67500218926484,
+        "lng": 139.7684536441803
+      },
+      "artists": [
+        {
+          "id": "8940abcbfe6e",
+          "name": "T.Fujiba",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/TFujiba-Airport-Stroll-V-Tottori-Sunset-Starlight/fuji-photo-gallery-ginza/2026-10-23",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "fe7fbe8de081",
+      "source": "tokyo_art_beat",
+      "title": "徳永雅之 + 蜂須賀公之 「LIVE AS NOTHING」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/1b30ea0e/f95fb5a7-ff77-4451-b2f4-4cd433c61187.png",
+      "description": "UNA（徳永＋蜂須賀の音楽ユニット）のライブを開くことから始まった今回の展覧会。徳永雅之の絵画と、蜂須賀公之の写真が並ぶ時、映像と音が重なる時、見たことのない風景が生まれます。”LIVE AS NOTHING”とは、今まで無かった風景の中に立つことであり、、そこに生き続けることです。\n\n[関連イベント]\nLIVE PERFORMANCE as UNA（徳永＋蜂須賀）\n日時: 2026年10月24日18:00〜\n出演: UNA\n会場: gallery shell102\n料金: 1200円（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-23",
+      "end_date": "2026-11-01",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "6f512eb34016",
+        "name": "gallery shell102",
+        "lang": null,
+        "tr": {},
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.70005604103586,
+        "lng": 139.58577979571822
+      },
+      "artists": [
+        {
+          "id": "b8f067431df6",
+          "name": "徳永雅之",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "9d802bf03e22",
+          "name": "蜂須賀公之",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Masayuki-Tokunaga-Masayuki-Hachisuka-Live-As-Nothing/gallery-shell102/2026-10-23",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "8d1798784ab5",
+      "source": "tokyo_art_beat",
+      "title": "眞木孝明 「野良デザインの蒐集｜重す」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/d994134a/ccb11b03-e671-488f-8919-4a604630c6fc.jpg",
+      "description": "ビールケースのテーブル、金網フェンスのホウキ立て。街は、本来の用途とは異なるかたちで活用される工業製品で溢れています。「野良デザインの蒐集」は、そうした即興的でありながら合理的な道具の使われ方を観察する研究活動です。本展示では、これまで蒐集してきた事例の中から「重す」という行為に着目し、写真とともにたどります。タイヤやペットボトルなど、本来は別の目的でつくられたものが、その質量と形状を活かして、対象物を固定するために使われる。その場にあるものを、そのまま活かすという行為は、野良デザインの特徴を端的に表します。そして時に、専用につくられた道具よりも、その街の暮らしの文脈がにじむ、文化的な景観を形成することもあります。つくり手の想定を離れた道具が、つかい手の暮らしの中でどのように新たな役割を得ているのか。道具と人の関係を捉えるヒントは、路上に潜んでいるかもしれません。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-10",
+      "end_date": "2026-10-11",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "4049c010cb92",
+        "name": "ホトリヲ",
+        "lang": null,
+        "tr": {},
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.683220656053614,
+        "lng": 135.5102214386578
+      },
+      "artists": [
+        {
+          "id": "033cb4267976",
+          "name": "眞木孝明",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Takaaki-Sanagi-Collecting-Feral-DesignOmosu/Hotolio/2026-10-10",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "3f992caf8204",
+      "source": "tokyo_art_beat",
+      "title": "石田哲也 「Space of Curry」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/666325a2/bde3c639-37ac-474c-80bd-caebce8e964b.png",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-25",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "492d48d4c9b9",
+        "name": "武蔵屋画廊",
+        "lang": null,
+        "tr": {},
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.662765,
+        "lng": 139.6686616
+      },
+      "artists": [
+        {
+          "id": "b34f8f35e47e",
+          "name": "石田哲也",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Tetsuya-Ishida-Space-of-Curry/Musashiya-Gallery/2026-10-14",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "49418e5f462d",
+      "source": "tokyo_art_beat",
+      "title": "西村祐馬 「Materialized Fiction」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/38a3ca0c/0ad271cc-833c-4f9b-978e-5d9e1de0fc35.png",
+      "description": "MIDORI.so Bakuroyokoyama Galleryでは、T3 PHOTO FESTIVAL TOKYOの「Area Pickup Partnerships」の一環として、2つの展覧会を開催します。前半となる本展では、写真家・アーティスト 西村祐馬による個展「Materialized Fiction」を開催します。西村祐馬は1995年生まれ。2018年、日本大学芸術学部デザイン学科卒業。「個人の存在を未来まで遺すこと」をコンセプトに、写真を軸とした作品制作を続けています。ケヴィン・ケリーやレイ・カーツワイルをはじめとする未来思想に影響を受け、人類の進歩やテクノロジーの進化によって生まれる可能性とその両面性について、身近な日常の光景へと引き寄せながら考察してきました。\n\nクローンやAIなどの技術が発達し、精神と肉体の関係が現在とは異なるものになったとき、「人間」という存在はどのようなかたちをとるのでしょうか。西村は、身体の「外側」と「内側」の構造を手がかりに、まだ存在しない人類や生態系、世界のあり方を想像し、それらを作品として物質化します。本展の起点となったのは、「人は電気を食べられないのか」という素朴な疑問でした。電気は機械を動かすエネルギーになる一方で、人間はそれを直接摂取することができません。しかし私たちは、電気によって画面に映し出されるアニメやゲーム、映画などのイメージから、日々さまざまな感情や活力を受け取っています。この疑問から、「ゲームや映画のキャラクターが身体（フィジカルボディ）を持ったらどうなるのか」「存在しない生態系が物質として目の前に現れたら、どのように見えるのか」といった、さまざまな“もしも”が派生していきました。\n\n本展で発表されるのは、そうした小さな疑問と想像から生まれた、いわば「世界の試作品」です。展示作品はすべて、写真を革に印刷して制作されています。通常は平面的なイメージとして存在する写真を、動物の身体に由来する「革」という物質に定着させること。それは、フィクションやデジタルイメージに身体を与え、物理的な現実の側へと引き出す行為でもあります。ここにある作品は、未来を予測するためのものではありません。現実のルールをほんの少しだけずらし、その先に現れるかもしれない風景を観測し、思考するための実験です。私たちが「現実」と呼んでいるものも、唯一の答えではなく、無数に存在する“もしも”の中から選ばれた、ひとつのバージョンにすぎないのかもしれません。フィクションに身体を与えることで、いま目の前にある現実そのものを見つめ直す。「Materialized Fiction」は、写真と物質、身体とイメージ、現実とフィクションの境界を行き来しながら、私たちが生きる世界の別の可能性を提示します。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-19",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "4d358832edbc",
+        "name": "MIDORI.so Bakuroyokoyama",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "MIDORI.so Bakuroyokoyama"
+          },
+          "ja": {
+            "name": "MIDORI.so Bakuroyokoyama"
+          }
+        },
+        "region": "浅草橋、馬喰町",
+        "district": null,
+        "lat": 35.69271,
+        "lng": 139.7837
+      },
+      "artists": [
+        {
+          "id": "30eece968a3b",
+          "name": "西村祐馬",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yuma-Nishimura-Materialized-Fiction/midori-so-bakuroyokoyama/2026-10-08",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "8bcecfcdaf31",
+      "source": "tokyo_art_beat",
+      "title": "「NMAOサテライト」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/08f36dcc/85508e2b-c5ba-4652-a722-c21ef0663cbc.jpg",
+      "description": "独立行政法人国立美術館 国立国際美術館は、2026年10月10日（土）から11月7日（土）まで、大阪中之島美術館2階の多目的スペースにおいて、「国立国際美術館（NMAO）×大阪中之島美術館（NAKKA）コレクション活用連携事業 コレナカ NMAOサテライト」を開催いたします。国立国際美術館のコレクションから選りすぐった8作家の現代美術作品を大阪中之島美術館2階の多目的スペースにおいて、無料でご覧いただけます。本展は、国立国際美術館と大阪中之島美術館が有するコレクションおよび専門性を相互に活かし、地域文化の振興と地域活性化を目指す連携事業「コレナカ（Collections in Nakanoshima NMAO–NAKKA）」の一環として開催するものです。\n\n「NMAOサテライト」では、通常の展示室とは異なる、開かれた空間に作品を置くことで、そこにいる人々が思いがけず作品と出会う状況をつくります。その思いがけない出会いは、作品について考えたり、自分自身を見つめ直したりするきっかけになるかもしれません。そのような小さな出来事が積み重なれば、コレクションが社会に生きるということに繋がっていくでしょう。本展では、それぞれの作家が持つユニークなアプローチを通じて現代美術の豊かな魅力に触れることができます。展示されるのは、森村泰昌、塩田千春、中原浩大、宮永愛子、加藤翼、潘逸舟(ハンイシュ)、松井智惠、ライアン・ガンダーの作品です。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-10",
+      "end_date": "2026-11-07",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "fefebd7d53e1",
+        "name": "大阪中之島美術館",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "오사카 나카노시마 미술관"
+          },
+          "en": {
+            "name": "Osaka Nakanoshima Museum of Art"
+          }
+        },
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.69220289428225,
+        "lng": 135.49178938426974
+      },
+      "artists": [
+        {
+          "id": "3ae4b72fa1f3",
+          "name": "森村泰昌",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "모리무라 야스마사"
+            },
+            "en": {
+              "name": "Morimura Yasumasa"
+            }
+          }
+        },
+        {
+          "id": "2ecca1e2b49f",
+          "name": "塩田千春",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e5be2e64b9cf",
+          "name": "中原浩大",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "3b3414f56aa8",
+          "name": "宮永愛子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4013cda99e51",
+          "name": "加藤翼",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "가토 쓰바사"
+            },
+            "en": {
+              "name": "Tsubasa Kato"
+            }
+          }
+        },
+        {
+          "id": "017b47605834",
+          "name": "潘逸舟(ハンイシュ)",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "99dfd3705abb",
+          "name": "松井智惠",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8f38c1bdd0a1",
+          "name": "ライアン・ガンダー",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/NMAO-Satelite/nakanoshima-museum-of-art-osaka/2026-10-10",
       "featured": false,
       "popularity_score": null
     }
@@ -108688,6 +109253,76 @@
       "country": "JP",
       "lat": 35.648869876640056,
       "lng": 139.72037568469045,
+      "website": null
+    },
+    {
+      "id": "234a6a9faff0",
+      "name": "room 103（ルームイチマルサン）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "武蔵野、多摩",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.7000796868087,
+      "lng": 139.43950061615195,
+      "website": null
+    },
+    {
+      "id": "322f4254bda6",
+      "name": "旧原泉第2製茶工場",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "静岡県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.86814,
+      "lng": 138.0183,
+      "website": null
+    },
+    {
+      "id": "6f512eb34016",
+      "name": "gallery shell102",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "武蔵野、多摩",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.70005604103586,
+      "lng": 139.58577979571822,
+      "website": null
+    },
+    {
+      "id": "4049c010cb92",
+      "name": "ホトリヲ",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "大阪府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.683220656053614,
+      "lng": 135.5102214386578,
+      "website": null
+    },
+    {
+      "id": "492d48d4c9b9",
+      "name": "武蔵屋画廊",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "世田谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.662765,
+      "lng": 139.6686616,
       "website": null
     }
   ],
@@ -136152,6 +136787,132 @@
     {
       "id": "8d18ee8f5dee",
       "name": "渋田薫",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "10668880dfbd",
+      "name": "長崎剛志",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c2cefad7439a",
+      "name": "井口貴夫",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "618b5605e8e3",
+      "name": "水戸部春菜",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ba178688e7ab",
+      "name": "井上修志",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "21eaa92afe1e",
+      "name": "ファビアン・ハメル",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2ddc6b88e6e7",
+      "name": "ルーカス・カンネマン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0f91038eb491",
+      "name": "EBC-223 EXPANSIVE BONELESS COLECTIVE",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "29d5557cb89d",
+      "name": "ルシアーナ ベルタレッリ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "77054e7c389d",
+      "name": "マルシオ エリアス サントス",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8940abcbfe6e",
+      "name": "T.Fujiba",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b8f067431df6",
+      "name": "徳永雅之",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9d802bf03e22",
+      "name": "蜂須賀公之",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "033cb4267976",
+      "name": "眞木孝明",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b34f8f35e47e",
+      "name": "石田哲也",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "30eece968a3b",
+      "name": "西村祐馬",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2ecca1e2b49f",
+      "name": "塩田千春",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e5be2e64b9cf",
+      "name": "中原浩大",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3b3414f56aa8",
+      "name": "宮永愛子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "017b47605834",
+      "name": "潘逸舟(ハンイシュ)",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "99dfd3705abb",
+      "name": "松井智惠",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8f38c1bdd0a1",
+      "name": "ライアン・ガンダー",
       "lang": null,
       "tr": {}
     }
