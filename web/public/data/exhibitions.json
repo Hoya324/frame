@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T19:00:40.307753+00:00",
+  "generated_at": "2026-10-09T22:42:25.605573+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -48527,7 +48527,7 @@
       "price_max": null,
       "start_date": "2026-10-09",
       "end_date": "2026-10-12",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ac7b7daf2602",
@@ -88576,7 +88576,7 @@
       "price_max": null,
       "start_date": "2026-10-02",
       "end_date": "2026-10-08",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "fa66fa67ffb6",
@@ -90301,7 +90301,7 @@
       "price_max": null,
       "start_date": "2026-10-09",
       "end_date": "2026-10-19",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "7eceec581cde",
@@ -91531,7 +91531,7 @@
       "price_max": null,
       "start_date": "2026-10-09",
       "end_date": "2026-11-29",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "1fabcdfd3cf4",
@@ -94150,7 +94150,7 @@
       "price_max": null,
       "start_date": "2026-10-09",
       "end_date": "2026-11-01",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "37f737766ac5",
@@ -94213,7 +94213,7 @@
       "price_max": null,
       "start_date": "2026-10-09",
       "end_date": "2026-10-22",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "fa66fa67ffb6",
@@ -94549,7 +94549,7 @@
       "price_max": null,
       "start_date": "2026-10-02",
       "end_date": "2026-10-08",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "f5369e2f3ba2",
@@ -99301,7 +99301,7 @@
       "price_max": null,
       "start_date": "2026-10-09",
       "end_date": "2026-10-14",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ad8bb1071c3a",
@@ -99511,7 +99511,7 @@
       "price_max": null,
       "start_date": "2026-10-09",
       "end_date": "2026-10-29",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": "10:00－19:00（最終日は14:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -99779,7 +99779,7 @@
       "price_max": null,
       "start_date": "2026-10-09",
       "end_date": "2026-10-24",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "75b535c40c0e",
@@ -100021,7 +100021,7 @@
       "price_max": null,
       "start_date": "2026-10-09",
       "end_date": "2026-10-25",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5ae1921d4451",
@@ -100424,6 +100424,237 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Now-I-Meet-Contemporary-Art-Yayoi-Kusama-Yoshitomo-Nara-Takashi-Murakami-Andy-Warhol-Banksy-and-More/7-F50-B25-D/2026-11-14",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "cee3bc82c3b7",
+      "source": "tokyo_art_beat",
+      "title": "「走水水源地2026」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/10770e0b/ad70e268-bf03-4874-9257-5c8c6c31cc77.jpg",
+      "description": "豊かな湧水に恵まれた走水は、都市化が進んだ東京湾岸にあって、海と山とがつながる三浦半島本来の地形の記憶を残す希少な場所です。古事記や日本書紀にその地名が刻まれているように、この地には古くから、海とともにある人のいとなみがありました。\n「水源」とは、水が湧き出る場所をさします。\nしかし、水は突然そこに現れるのではありません。海から蒸発した水が雲となり雨となって大地に降り注ぎ、地中に浸透した水は長い時間をかけて地層の裂け目を巡るなかで磨かれ、やがて清らかな水となって地上に湧き出ます。そして湧き出た水は人々の暮らしを支え、再び海へと還っていきます。\n「水源」とは、目には見えない循環や蓄積が重なり、新たな流れとして姿を現す場所でもあります。\n「走水水源地2026」は、かつて「海に一番近い小学校」として親しまれてきた旧走水小学校を舞台に、地域を中心としたイベント「Through the Water 2026 Autumn」（主催：Through the Water 実行委員会）と連動して開催します。展示、ワークショップ、シンポジウムを通して、走水という土地に流れてきた文化の水脈をたどるとともに、人々が土地と出会い、対話し、未来を思い描く場をひらいていく、その最初の流れをつくる試みでもあります。\nこの土地から海を望むことは、ひとつの風景を見ることにとどまりません。近景から遠景へ、現在から過去、そして未来へ、この世界のすべてが、そこに連なっています。\n\n[関連イベント]\n1. 海藻とサイアノタイプ（日光写真）のワークショップ\n日時: 11月1日 14:00～15:30\n講師: ルカ・レグリーズ\n料金: 2000円\n2. トーク「足元のことー横須賀の実践」\n日時: 11月1日 13:00～13:45\n登壇: 牧野颯紀（横須賀市まちなみ景観課）、藤原香奈（株式会社やとと 代表）\n料金: 1000円（横須賀市民は500円）\n3. トーク「走水から見えてくる、海を通じた学びの可能性」\n日時: 11月3日 10:30～12:00\n登壇: 田口康大（一般社団法人3710Lab（みなとラボ））、金澤等（一般社団法人ひとひろ／かねよ食堂）\n料金: 2000円（横須賀市民は500円）\n4. トーク「対岸のこと」\n日時: 11月3日 13:00～15:00\n登壇: 槙原泰介（美術作家）、塚本由晴（建築家）、田村聖輝（建築家）、細淵太麻紀（BankART1929代表／アーティスト）\n料金: 2000円（横須賀市民は500円）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-31",
+      "end_date": "2026-11-03",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "b32e28469048",
+        "name": "旧走水小学校",
+        "lang": null,
+        "tr": {},
+        "region": "神奈川県",
+        "district": null,
+        "lat": 35.2654457,
+        "lng": 139.7291322
+      },
+      "artists": [
+        {
+          "id": "22c2f54b1add",
+          "name": "大巻伸嗣",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "15e9bc92a100",
+          "name": "片岡純也 + 岩竹理恵",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c6730573ae9a",
+          "name": "チャチャ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a81a409fd950",
+          "name": "保良雄",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "호라 유"
+            },
+            "en": {
+              "name": "Hora Yu"
+            }
+          }
+        },
+        {
+          "id": "618b5605e8e3",
+          "name": "水戸部春菜",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "미토베 하루나"
+            },
+            "en": {
+              "name": "Mitobe Haruna"
+            }
+          }
+        },
+        {
+          "id": "ac32819c63e6",
+          "name": "ルカ・レグリーズ",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "루카 레글리즈"
+            },
+            "en": {
+              "name": "Luca Leglise"
+            }
+          }
+        },
+        {
+          "id": "9c70658c74c8",
+          "name": "原口典之",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Former-Hashirimizu-Elementary-School/2026-10-31",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "b492f7c7655c",
+      "source": "tokyo_art_beat",
+      "title": "青木大祐 「generate mold.」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/a698e3b0/3aad816d-1b76-4006-ade0-8efb79fd1c43.jpg",
+      "description": "青木は自らの身体を事物に見立てたセルフポートレートで作品制作している写真作家。写真にカビを発生させる独自技法を用いて表現を行なっている。新作21点による写真展。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-30",
+      "end_date": "2026-11-04",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "68e82b6b6f51",
+        "name": "新宿眼科画廊",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "신주쿠 간카 가로"
+          },
+          "en": {
+            "name": "Shinjuku Ganka Garou"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.694618390076414,
+        "lng": 139.70617795331054
+      },
+      "artists": [
+        {
+          "id": "b09cf699ab1d",
+          "name": "青木大祐",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Daiyuu-Aoki-Generate-Mold/450-ABDCA/2026-10-30",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "fcbf9afc87b5",
+      "source": "tokyo_art_beat",
+      "title": "ニック・ヘイムズ 「Chronograph」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/98062243/d51471ad-2b8a-486b-98e1-6030db63a0f2.jpg",
+      "description": "この度、ロサンゼルスを拠点とする写真家・ニック・ヘイムズ（Nick Haymes）の新刊写真集『Chronograph』の刊行を記念して、個展「Chronograph」を開催いたします。2001年から2026年にかけて作者が撮影した25年以上にわたる写真を収録する本書『Chronograph』は、パートナーのリナ（Lina）と二人の子ども、フィリップ（Philipp）、ローレンス（Lawrence）との暮らしを記録した没入感あふれるクロニクルである。450ページを超える紙面に約1,000点の写真を収録し、ロサンゼルスとニューヨークを行き来しながら、長年にわたるドキュメンタリーの視線を最も身近な存在へと向けている。作者は、家族を感傷的な物語としてではなく、心理的な緊張や矛盾を内包する存在として捉える。子どもたちの姿、家の中の風景、動き続ける身体、荒々しい遊び、愛情、そして緊張が走る瞬間が交錯し、美しさと居心地の悪さは切り離されることなく共存する。無垢さは向こう見ずな振る舞いと隣り合い、親密さは不安と表裏一体となるなかで、子どもたちは成長し、人間関係は変化し、身体もまた移り変わっていく。ドキュメンタリー写真と丹念に演出されたタブローを行き来する写真表現は、自然な瞬間を捉えながらも、どこか演劇的な空気を漂わせている。本書は、家族を固定された社会的単位として提示するのではなく、近しさが安心感にも息苦しさにもなり得る、不安定な感情の場として描き出す。その結果として生まれるのは、愛情と葛藤が複雑に絡み合い、愛という脆くも強い結びつきが絶えず試され、更新され続ける家族の姿を見つめた、深い心理的ポートレートである。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-20",
+      "end_date": "2026-11-01",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "afe71f7d0299",
+        "name": "photographers’ gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "photographers’ gallery"
+          },
+          "ja": {
+            "name": "photographers’ gallery"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.691454453384196,
+        "lng": 139.70873067567402
+      },
+      "artists": [
+        {
+          "id": "8f507dee5b2b",
+          "name": "ニック・ヘイムズ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Nick-Haymes-Chronograph/366-C5555/2026-10-20",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "55801bd8d2f5",
+      "source": "tokyo_art_beat",
+      "title": "「ポータル・アフロアジア」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/f124a972/6388e8df-c449-452c-83b9-8e12791723ec.jpg",
+      "description": "韓国における米軍基地村は、長年にわたり、冷戦をめぐる地政学とその軍事秩序によって形づくられてきました。しかし今日、これらの場所は、アフリカ出身の移民コミュニティにとって、新たな移住、定住、文化交流の空間へと変容しつつあります。「ポータル：アフロアジア」は、韓国の米軍基地村を象徴する二つの場所である、東豆川（トンドゥチョン）の保山洞（ポサンドン）と坡州（パジュ）に焦点を当て、軍事的な必要性から形成された空間が、新たな社会関係やコミュニティの生まれる、トランスナショナルな場へと変化していく過程をたどります。歴史記録やアーカイブ資料、地域のコミュニティの人々のポートレート、ストリートや日常の風景を捉えた写真を通じて、本展は、いまも進行するこれらの変容に目を向けます。\n\n「ポータル：アフロアジア」における「ポータル」とは、異なる場所と時間、歴史と経験が交差し、新たな関係が生まれる通路を指します。アフリカのディアスポラによる移住と定住が、軍事的な移動の歴史が刻まれた場所に重なるとき、アフリカとアジアの関係は、固定化された歴史的、地理的、文化的な枠組みの内にとどまりません。それは、身体的な出会い、移動と記憶、想像と連帯を通じて、絶えず組み替えられていきます。本展が提示する「アフロアジア・フューチャリズム」は、アフリカとアジアの美学を単純に融合させるものではありません。むしろ、植民地主義、軍事化、排除という歴史の交差を持つアフリカとアジアの間の連帯が、新たな共同性と未来を生み出す方法論および実践を意味します。\n\nこうした問いは、写真、映像、アーカイブや参加型の実践、さらにはアフリカ出身の移民と韓国のそれぞれの若者による協働の音楽プロジェクトへと展開されます。ここで、アフロアジアの未来は、いまだ到来しない、理想化された単一の時間として構想されるものではありません。それは、現実や日々の生活のなかにすでに存在するコミュニティの中での出会い、記憶、対立、交渉、連帯を通じて絶えず生み出される、複数の可能性です。本展は、アフリカとアジアの関係を、移動、文化交流、連帯の実践を通じて絶えず組み替えられる、開かれた、変化し続けるものとして捉えます。私たちはすでに、ともに未来を作っているのです。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-16",
+      "end_date": "2026-11-29",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "f2bed08ed523",
+        "name": "The 5th Floor（花園アレイ）",
+        "lang": null,
+        "tr": {},
+        "region": "上野、谷中",
+        "district": null,
+        "lat": 35.71647614700467,
+        "lng": 139.7688577413324
+      },
+      "artists": [
+        {
+          "id": "5415747163b4",
+          "name": "アフロアジア・コレクティヴ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Portal-Afro-Asia/5-C2-E814-D/2026-10-16",
       "featured": false,
       "popularity_score": null
     }
@@ -111662,6 +111893,34 @@
       "country": "JP",
       "lat": 38.26389764413198,
       "lng": 140.8549402426903,
+      "website": null
+    },
+    {
+      "id": "b32e28469048",
+      "name": "旧走水小学校",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "神奈川県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.2654457,
+      "lng": 139.7291322,
+      "website": null
+    },
+    {
+      "id": "f2bed08ed523",
+      "name": "The 5th Floor（花園アレイ）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "上野、谷中",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.71647614700467,
+      "lng": 139.7688577413324,
       "website": null
     }
   ],
@@ -140306,6 +140565,48 @@
     {
       "id": "8acc9cea5fa8",
       "name": "李禹煥",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "22c2f54b1add",
+      "name": "大巻伸嗣",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "15e9bc92a100",
+      "name": "片岡純也 + 岩竹理恵",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c6730573ae9a",
+      "name": "チャチャ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9c70658c74c8",
+      "name": "原口典之",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b09cf699ab1d",
+      "name": "青木大祐",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8f507dee5b2b",
+      "name": "ニック・ヘイムズ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5415747163b4",
+      "name": "アフロアジア・コレクティヴ",
       "lang": null,
       "tr": {}
     }
