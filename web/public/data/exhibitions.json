@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T01:51:39.061520+00:00",
+  "generated_at": "2026-10-09T11:17:37.936834+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -99697,8 +99697,15 @@
       "venue": {
         "id": "1d04870fbffe",
         "name": "富山市ガラス美術館",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "도야마시 유리 미술관"
+          },
+          "en": {
+            "name": "Toyama Glass Art Museum"
+          }
+        },
         "region": "富山県",
         "district": null,
         "lat": 36.68853,
@@ -99730,8 +99737,15 @@
       "venue": {
         "id": "6b3e6725f2e9",
         "name": "gallery N 神田社宅",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "gallery N 간다 사택"
+          },
+          "en": {
+            "name": "gallery N Kanda Company Housing"
+          }
+        },
         "region": "竹橋、水道橋、末広町",
         "district": null,
         "lat": 35.69297909719087,
@@ -99770,8 +99784,15 @@
       "venue": {
         "id": "75b535c40c0e",
         "name": "CENTER/EDO",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "CENTER/EDO"
+          },
+          "ja": {
+            "name": "CENTER/EDO"
+          }
+        },
         "region": "京橋、日本橋",
         "district": null,
         "lat": 35.6762,
@@ -100005,8 +100026,15 @@
       "venue": {
         "id": "5ae1921d4451",
         "name": "COYAMA",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "COYAMA"
+          },
+          "ja": {
+            "name": "COYAMA"
+          }
+        },
         "region": "神奈川県",
         "district": null,
         "lat": 35.57581273744245,
@@ -100045,8 +100073,15 @@
       "venue": {
         "id": "6b7ed39453aa",
         "name": "宮城県美術館",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "미야기현 미술관"
+          },
+          "en": {
+            "name": "Miyagi Museum of Art"
+          }
+        },
         "region": "宮城県",
         "district": null,
         "lat": 38.26389764413198,
@@ -111527,8 +111562,15 @@
     {
       "id": "1d04870fbffe",
       "name": "富山市ガラス美術館",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "도야마시 유리 미술관"
+        },
+        "en": {
+          "name": "Toyama Glass Art Museum"
+        }
+      },
       "venue_type": "other",
       "region": "富山県",
       "district": null,
@@ -111541,8 +111583,15 @@
     {
       "id": "6b3e6725f2e9",
       "name": "gallery N 神田社宅",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "gallery N 간다 사택"
+        },
+        "en": {
+          "name": "gallery N Kanda Company Housing"
+        }
+      },
       "venue_type": "gallery",
       "region": "竹橋、水道橋、末広町",
       "district": null,
@@ -111555,8 +111604,15 @@
     {
       "id": "75b535c40c0e",
       "name": "CENTER/EDO",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "CENTER/EDO"
+        },
+        "ja": {
+          "name": "CENTER/EDO"
+        }
+      },
       "venue_type": "other",
       "region": "京橋、日本橋",
       "district": null,
@@ -111569,8 +111625,15 @@
     {
       "id": "5ae1921d4451",
       "name": "COYAMA",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "COYAMA"
+        },
+        "ja": {
+          "name": "COYAMA"
+        }
+      },
       "venue_type": "other",
       "region": "神奈川県",
       "district": null,
@@ -111583,8 +111646,15 @@
     {
       "id": "6b7ed39453aa",
       "name": "宮城県美術館",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "미야기현 미술관"
+        },
+        "en": {
+          "name": "Miyagi Museum of Art"
+        }
+      },
       "venue_type": "other",
       "region": "宮城県",
       "district": null,
