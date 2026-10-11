@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T20:11:24.115731+00:00",
+  "generated_at": "2026-10-11T21:57:11.681697+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -74505,7 +74505,7 @@
       "price_max": null,
       "start_date": "2026-09-04",
       "end_date": "2026-10-10",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "020ae6e78a04",
@@ -88324,7 +88324,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-10-10",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "a16e9aad4c77",
@@ -93129,7 +93129,7 @@
       "price_max": null,
       "start_date": "2026-10-11",
       "end_date": "2026-10-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "af71a4816793",
@@ -94789,7 +94789,7 @@
       "price_max": null,
       "start_date": "2026-09-24",
       "end_date": "2026-10-10",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "3cbb011ca657",
