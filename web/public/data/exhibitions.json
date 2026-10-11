@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T00:51:01.971445+00:00",
+  "generated_at": "2026-10-11T06:21:15.907075+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -99047,10 +99047,12 @@
       "lang": "ja",
       "tr": {
         "ko": {
-          "title": "「LIVING IN CINEMA 배우 야쿠쇼 코지」"
+          "title": "「LIVING IN CINEMA 배우 야쿠쇼 코지」",
+          "description": "\"오늘 촬영한 장면을 내일 찍을 장면의 단서로 삼으면서, 이 남자는 어떤 사람일까 계속 생각했다.\" 야쿠쇼 코지가 연기하는 그 역할이 항상 마치 그 세계를 살고 있는 것처럼 보이는 것은, 그렇게 계속 질문하는 자세에서 비롯된 것일지도 모른다. 인간은 알 수 없는 존재이기에 흥미롭다는 조용한 호기심과, 쉽게 말로 표현할 수 없는 것을 담아낼 수 있는 영화라는 훌륭한 표현에 대한 깊은 사랑. 오랫동안 일본을 대표하며 세계 최전선에서 활약하는 배우, 야쿠쇼 코지의 발자취를 되돌아봅니다."
         },
         "en": {
-          "title": "「LIVING IN CINEMA Actor Koji Yakusho」"
+          "title": "「LIVING IN CINEMA Actor Koji Yakusho」",
+          "description": "\"Using the scene filmed today as a clue for the scene to be shot tomorrow, I kept thinking about what kind of person this man could be.\" The roles Koji Yakusho plays always seem as if he is truly living in that world, which may stem from his continuous questioning attitude. A quiet curiosity that humans are interesting precisely because they are unknowable, and a deep love for film as a wonderful form of expression that can capture what cannot be easily put into words. We look back at the journey of Koji Yakusho, an actor who has long represented Japan and has been active on the world's forefront."
         }
       },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/2492b8f5/98f11c07-c235-4728-b29c-b1cf53ea1c76.jpg",
@@ -99499,8 +99501,17 @@
       "id": "517d3eb83b41",
       "source": "fujifilm_square",
       "title": "映画『汝、星のごとく』× instax™“チェキ” ふたりの時間をたどる写真展",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "영화 '너의 별처럼' × instax™ \"체키\" 두 사람의 시간을 따라가는 사진전",
+          "description": "후지필름 스퀘어에서 \"영화 '너의 별처럼' × instax™ '체키' 두 사람의 시간을 따라가는 사진전\"을 개최합니다. 본 전시는 후지필름 주식회사(본사: 도쿄도 미나토구, 대표이사 사장 겸 CEO: 고토 테이이치)가 진행하는 instax™ '체키'와 10월 9일 개봉하는 영화 '너의 별처럼'의 협업 프로모션 중 하나입니다. 영화의 배경이 된 세토우치의 아름다운 풍경과 카이와 아케미가 함께 걸어온 15년의 나날을 담은 사진 및 체키 프린트™를 전시합니다. 사진과 함께 영화의 세계를 따라가며, 두 사람의 궤적을 다시 체험할 수 있습니다."
+        },
+        "en": {
+          "title": "Movie \"You, Like a Star\" × instax™ \"Cheki\" Photo Exhibition Tracing the Time of Two People",
+          "description": "Fujifilm Square will host the \"Movie 'You, Like a Star' × instax™ 'Cheki' Photo Exhibition Tracing the Time of Two People.\" This exhibition is one of the collaborative promotions between instax™ \"Cheki,\" implemented by Fujifilm Corporation (Headquarters: Minato-ku, Tokyo; Representative Director, President and CEO: Teiichi Goto), and the movie \"You, Like a Star,\" which will be released on October 9th. The exhibition will feature photographs and Cheki Prints™ capturing the beautiful scenery of Setouchi, which served as the movie's setting, and the 15 years that Kai and Akemi spent together. Visitors can re-experience the journey of the two characters while tracing the world of the movie through the photographs."
+        }
+      },
       "poster_image_url": "https://fujifilmsquare.jp/assets/img/photo_event_261009_01_mv.jpg",
       "description": "フジフイルム スクエアにて、「映画『汝、星のごとく』× instax™“チェキ” ふたりの時間をたどる写真展」を開催いたします。 本展は、富士フイルム株式会社（本社：東京都港区、代表取締役社長・CEO：後藤 禎一）が実施するinstax™“チェキ”と10月9日公開の映画『汝、星のごとく』のコラボプロモーションの一つです。 映画の舞台となった瀬戸内の美しい風景や、櫂と暁海がともに歩んだ15年の日々を写した写真やチェキプリント™を展示します。写真とともに映画の世界をたどりながら、ふたりの軌跡を追体験いただけます。",
       "medium": "photo",
@@ -99539,8 +99550,17 @@
       "id": "be7308503424",
       "source": "tokyo_art_beat",
       "title": "本間理恵子 「此処」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "혼마 리에코 「이곳」",
+          "description": "Art Gallery M84는 2026년 10월 20일(화)부터 혼마 리에코 사진전 『이곳』을 개최한다. 이번 사진전은 Art Gallery M84의 173번째 전시로 진행되는 개인전이다. 사진전 『이곳』은 「cube」와 「rooted」 두 시리즈로 구성되어 있다.\n「cube」에서는 복잡한 내면을 가진 피사체와 바깥 세계와의 관계를 비추려 한다. 이 세상에는 많은 정보가 넘쳐난다. 부정적인 감정을 유발하는 뉴스나 익명의 악의, 언어의 흉기. 그것들에 접할 때, 자신의 껍질에 틀어박혀 현실에서 도망치고 싶어진다. 누군가와 연결되고 싶은 바람과 그것을 이룰 수 없는 간극에서 생겨나는 갈등. 현실로부터의 도피가 이 시리즈의 중심 테마이다.\n작품에 등장하는 유리 상자는 안쪽을 사람의 마음, 바깥쪽을 현실 세계로 간주하여 그 둘을 가르는 경계를 나타낸다. 언뜻 보면 고독하고 폐쇄적인 이 상자는 동시에 스트레스 많은 현실에서 일시적으로 도피할 수 있는 '마음의 쉼터'이기도 하다.\n자신 안의 나약함을 받아들이는 것에서 탄생한 이 작품에는, 만약 자신과 같이 상처받은 사람이 있다면 그 마음을 조용히 지켜주는 장소가 되기를 바라는 염원이 담겨 있다.\n「rooted」는 사람으로서 살아가는 시간이 끝난 후에도 다른 형태로 이 세상의 일부로 계속 존재할 수 있다면——이라는 상상에서 탄생한 시리즈이다. 인간이라는 윤곽을 조용히 벗어나 하나의 생명에서 더 큰 생명의 순환으로 회귀하는 것에 대한 이야기이기도 하다.\n이 시리즈에서는 식물, 유목, 모래, 풀밭 등 자연 속에 벌거벗은 몸을 놓는다. 옷을 벗고 사회적 정보를 잃은 몸은 점차 그 윤곽을 모호하게 만들고, 사람과 자연을 갈랐던 경계가 풀어진다.\n만약 인생의 끝에 식물이 되는 미래를 선택할 수 있다면. 흙으로 돌아가는 것이 아니라 그곳에 뿌리를 내리고, 몸은 조금씩 흙과 모래에 잠기고, 가지와 잎으로 덮여 마침내 풍경의 일부가 되어간다. 그것은 소멸이 아니라 인간이라는 형태를 벗어나, 한때 자신도 그 일부였던 큰 생명의 순환으로 돌아가는 이미지이다."
+        },
+        "en": {
+          "title": "Rieko Honma \"Koko\"",
+          "description": "Art Gallery M84 will host Rieko Honma's photo exhibition \"Koko\" starting Tuesday, October 20, 2026. This exhibition is Art Gallery M84's 173rd exhibition and a solo show. The photo exhibition \"Koko\" consists of two series: \"cube\" and \"rooted.\"\nIn \"cube,\" Honma attempts to portray the relationship between subjects with complex inner worlds and the external world. This world is overflowing with information: news that triggers negative emotions, anonymous malice, and verbal weapons. When exposed to these, one feels like retreating into one's shell and escaping from reality. The desire to connect with others and the conflict arising from the inability to bridge that gap. Escapism from reality is the central theme of this series.\nThe glass boxes appearing in the works represent the boundary separating the inner world (human heart) from the outer world (reality). At first glance, these boxes appear solitary and confining, but they also serve as a \"shelter for the mind,\" offering a temporary escape from a stressful reality.\nThis work, born from accepting one's own weaknesses, carries the wish that if there are others who are similarly hurt, this place might gently protect their hearts.\n\"rooted\" is a series born from the imagination of what if, even after one's time as a human being ends, one could continue to exist as part of this world in a different form. It is also a story about quietly departing from the human form and returning from a single life to a larger cycle of life.\nIn this series, naked bodies are placed in nature, amidst plants, driftwood, sand, and grass. Stripped of clothes and social information, the body gradually blurs its contours, and the boundaries that separated humans from nature dissolve.\nWhat if, at the end of life, one could choose a future of becoming a plant? Instead of returning to the soil, one would take root there, the body slowly sinking into the soil and sand, covered by branches and leaves, eventually becoming part of the landscape. This is not disappearance but an image of leaving the human form and returning to the great cycle of life, of which one was once a part."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/1dac27a2/DSC4082-scaled.jpg",
       "description": "Art Gallery M84は、2026年10月20日(火)より本間理恵子写真展『此処』を開催する。今回の写真展は、Art Gallery M84の第173回目の展示として実施する個展である。写真展『此処』は、「cube」と「rooted」の2シリーズで構成されている。\n「cube」では、複雑な内面を持つ被写体と、外側の世界との関わりを映し出そうとしている。この世界には多くの情報が溢れている。ネガティブな感情を引き起こすニュースや、匿名の悪意、言葉の凶器。それらに触れるとき、自分の殻に閉じこもり、現実から逃げ出したくなる。誰かと繋がりたいという願望と、それを叶えられない隔たりから生まれる葛藤。現実からの逃避が、このシリーズの中心的なテーマである。\n作品に登場するガラスの箱は、内側を人の心、外側を現実世界とみなし、その二つを隔てる境界を表している。一見すると孤独で閉塞的なこの箱は、同時に、ストレスの多い現実から一時的に逃げ込むことのできる「心のシェルター」でもある。\n自分自身の弱さを受け入れることから生まれたこの作品には、もし同じように傷ついた人がいるなら、その心をそっと守る場所であってほしいという願いが込められている。\n「rooted」は、人として生きる時間が終わったあとも、別のかたちでこの世界の一部として存在し続けることができたなら——という想像から生まれたシリーズである。人間という輪郭を静かに離れ、ひとつの生命から、より大きな生命の循環へと回帰していくことをめぐる物語でもある。\nこのシリーズでは、植物、流木、砂、草むらなど、自然の中に裸の身体を置いている。衣服を脱ぎ、社会的な情報を失った身体は、次第にその輪郭を曖昧にし、人と自然を隔てていた境界がほどけていく。\nもし人生の終わりに、植物になるという未来を選べるとしたら。土に還るのではなく、そこに根を下ろし、身体は少しずつ土や砂に沈み、枝や葉に覆われ、やがて風景の一部になっていく。それは消滅ではなく、人間というかたちを離れ、かつて自分もその一部であった大きな生命の循環へと還っていくイメージである。",
       "medium": "photo",
@@ -99574,8 +99594,15 @@
         {
           "id": "e19ce23ae151",
           "name": "本間理恵子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "혼마 리에코"
+            },
+            "en": {
+              "name": "Honma Rieko"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Rieko-Honma-Here/D6-FE8782/2026-10-20",
@@ -99586,8 +99613,17 @@
       "id": "1a9316c31884",
       "source": "tokyo_art_beat",
       "title": "「東京大学創立150周年記念特別展示『地震と火山 – 画図・写真・波形に記録された地球の動態』」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「도쿄대학 창립 150주년 기념 특별전 『지진과 화산 – 그림, 사진, 파형으로 기록된 지구의 동태』」",
+          "description": "밀접하게 연관된 자연 현상인 지진과 화산 활동은 때때로 큰 재해를 초래하기 때문에 고대부터 사람들의 큰 관심사였을 것이다. 따라서 활동을 기록하고 메커니즘을 이해하기 위한 노력이 끊임없이 이어져 왔다. 그 국제적인 거점 중 하나인 도쿄대학 지진연구소는 메이지 시대 정부 사업의 일부를 계승하고 간토 대지진을 계기로 설립되었으며, 도상, 문서, 각종 데이터 등 방대한 연구 자료와 표본을 보관하고 있으며 현재도 계속해서 생산하고 있다. 이러한 기록들은 일본 지진·화산학의 역사를 풀어내고 미래로 이어주는 유일무이한 정보원이라고 할 수 있다. 이번 인터미디어테크 특별전에서는 메이지 시대 이래 과학자들의 업적을 총람한다. 전시 자료는 지진연구소의 소장 자료뿐만 아니라 1877년 도쿄대학 창립 이래 학술 표본을 수집해 온 종합연구박물관의 소장품 등 도쿄대학 컬렉션으로 구성되어 있다. 또한, 인터미디어테크만의 전시 구성의 일환으로 촉각으로 만져볼 수 있는 모형 등을 활용한 다감각 미디어도 포함했다. 본 전시를 통해 지진과 화산에 맞섰던 연구자들의 시선과 탐구의 열정을 느끼실 수 있기를 바란다. 이번 기획은 2025년 지진연구소 창립 100주년, 2026년 종합연구박물관 30주년(전신인 종합연구자료관 60주년), 그리고 2027년 도쿄대학 150주년이라는 전환점을 계기로 개최되는 것이다."
+        },
+        "en": {
+          "title": "\"The University of Tokyo 150th Anniversary Special Exhibition 'Earthquakes and Volcanoes – Earth's Dynamics Recorded in Drawings, Photographs, and Waveforms'\"",
+          "description": "Earthquakes and volcanic activity, closely related natural phenomena, have at times caused major disasters and must have been a great concern to people since ancient times. For this reason, efforts to record their activities and understand their mechanisms have continued ceaselessly. The Earthquake Research Institute, The University of Tokyo, one of the international centers for such studies, was established following the Great Kanto Earthquake, taking over part of a Meiji-era government project. It stores and continues to generate vast research materials and specimens, including images, documents, and various data. These records are a unique source of information that unravels the history of seismology and volcanology in Japan and connects it to the future. This special exhibition at Intermediatheque offers an overview of the endeavors of scientists since the Meiji era. The exhibition materials consist not only of the Earthquake Research Institute's collection but also the University of Tokyo Collection, including academic specimens collected by The University Museum, The University of Tokyo, since the university's founding in 1877. Furthermore, as part of Intermediatheque's unique exhibition design, multi-sensory media, such as touchable models, have been incorporated. We hope that through this exhibition, visitors will feel the gaze and passion for inquiry of the researchers who confronted earthquakes and volcanoes. This project is being held to commemorate the 100th anniversary of the Earthquake Research Institute in 2025, the 30th anniversary of The University Museum, The University of Tokyo (and the 60th anniversary of its predecessor, the Comprehensive Research Materials Center) in 2026, and the 150th anniversary of The University of Tokyo in 2027."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/29765f63/88fabdc9-fd05-447d-a509-9fd2484a5c09.jpeg",
       "description": "密接に関わり合う自然現象である地震と火山活動は、時に大きな災害をもたらすことから、古来、人々の大きな関心事であったはずである。そのため活動を記録し、メカニズムを理解するための営みが累々と続けられてきた。その国際的な拠点の一つである東京大学地震研究所は、明治期の政府事業の一部を引き継ぎ、関東大震災を機に設立されたもので、図像、文書、各種データなどの膨大な研究資料、標本を保管し、かつ、現在も生み出し続けている。それらの記録類は日本における地震・火山学の歴史をひもとき、未来につなげる唯一無二の情報源だと言えよう。今回のインターメディアテク特別展示では、語る明治期以来の科学者たちの営為を通覧するものである。展示資料は、地震研究所の収蔵資料だけでなく、1877年の東京大学創立以来の学術標本を収集している総合研究博物館の収蔵品など東京大学コレクションをもって構成されている。また、インターメディアテクならではの展示構成の一環として、触察可能な模型などを用いた多感覚的メディアも組み入れた。本展示を通して、地震と火山に向き合った研究者たちのまなざしと探究の熱意を感じていただければさいわいである。今回の企画は、2025年の地震研究所創立100周年、2026年の総合研究博物館30周年（前身の総合研究資料館60周年）、そして2027年の東京大学150周年という節目を機に開催するものである。",
       "medium": "photo",
@@ -99626,8 +99662,17 @@
       "id": "a5da457a8e0d",
       "source": "tokyo_art_beat",
       "title": "鈴木崇 「もののをかし」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "스즈키 다카시 「모노노 오카시」",
+          "description": "사진이라는 매체를 통해 시각과 지각의 관계성 및 인식의 변화에 주목하며 작품을 전개하는 스즈키 다카시. 스즈키의 시선을 단서로 불확실한 이 세상의 모습을 탐구합니다. 일상생활에서 만나는 수많은 사물과 이미지. 우리는 시각을 통해 다양한 것을 파악합니다. 하지만 그것들은 실제로 어떻게 이해되고 있을까요? 스즈키는 「All is not as it seems」(모든 것이 보이는 대로만은 아니다)라고 묻습니다. 본 전시에서는 스즈키의 신작과 구작과 함께 작가가 선정한 본관 컬렉션도 함께 전시합니다. 「모노노 오카시」를 테마로 구성된 전시장은 여러분을 시각과 지각을 둘러싼 사색으로 이끌 것입니다."
+        },
+        "en": {
+          "title": "Takashi Suzuki \"Mono no Okashi\"",
+          "description": "Takashi Suzuki develops his works by focusing on the relationship between sight and perception and changes in recognition through the medium of photography. Using Suzuki's gaze as a clue, we explore the uncertain nature of this world. We encounter countless objects and images in our daily lives. We grasp various things through sight. But how are they actually understood? Suzuki asks, \"All is not as it seems\" (Everything is not as it seems). This exhibition will feature Suzuki's new and old works, along with selected items from the museum's collection chosen by the artist. The venue, themed \"Mono no Okashi,\" will invite visitors into contemplation surrounding sight and perception."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/13ad12a5/447e3eab-6b2a-4154-a2cb-a677e11a919e.jpg",
       "description": "写真というメディアを介して、視覚と知覚の関係性や認識の変化に注目し、作品を展開する鈴木崇。鈴木の眼差しを手がかりに不確かなこの世界のあり方を探ります。普段の生活のなかで出会う数々のものやイメージ。私たちは視覚を通してさまざまなことを把握しています。しかし、それらは実際どのように理解されているのでしょうか？「All is not as it seems」（すべてが見かけ通りとは限らない）と、鈴木は問いかけます。本展では、鈴木の新旧作品とともに、作家が選んだ当館コレクションもあわせて展示します。「もののをかし」をテーマに構成した会場では、視覚と知覚をめぐる思索へとみなさんを誘います。",
       "medium": "photo",
@@ -99680,8 +99725,17 @@
       "id": "648b55a4f656",
       "source": "tokyo_art_beat",
       "title": "「フィンランド スピリット サウナ―自然と生きる温もりの文化―」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「핀란드 스피릿 사우나―자연과 함께하는 따뜻한 문화―」",
+          "description": "최근 일본에서도 인기가 높아지고 있는 사우나. 그 본고장인 핀란드는 약 300만 개의 사우나를 보유한 사우나 대국으로 알려져 있습니다. 핀란드에서 사우나는 온욕 시설이나 행위뿐만 아니라, 그곳에서 사용하는 도구와 보내는 방식까지 폭넓게 포함합니다. 몸을 따뜻하게 하고 심신을 치유하며 건강 효과를 얻는 것은 물론, 출산이나 장례와 관련된 신성한 장소, 단란이나 상담과 같은 소통의 장소로서 사우나는 예로부터 사람들의 삶과 밀접하게 연결되어 왔습니다. 혹독한 자연과 공생하며 길러지고 사회의 모든 장면에 깊이 뿌리내린 이 문화는 사람들에게 없어서는 안 될 생활의 일부이며, 핀란드 문화의 중심이라고 할 수 있습니다. 본 전시회에서는 핀란드를 대표하는 건축가인 알바르 아알토가 설계한 사우나의 재현을 비롯하여, 다양한 전시물을 통해 사우나의 기능과 역사, 생활 및 문화로의 확장을 소개하고, 핀란드 사회와 정신성에 숨 쉬는 사우나 문화를 조명합니다.\n\n[관련 이벤트]\n1. 기념 강연회\n일시: 2026년 10월 31일 13:30~15:30\n등단자: 티모 리에코 (알바르 아알토 미술관 수석 큐레이터 / 본 전시 감수)\n장소: 도야마 시립 도서관 3층 세미나실\n요금: 무료 (사전 예약 우선)\n2. 워크숍 \"유리 힘멜리 만들기\"\n일시: 2026년 12월 20일 10:00~11:30, 14:00~15:30\n장소: 도야마 시 유리 미술관\n요금: 2500엔 (사전 예약 우선) (정원 각 회 15명 정도, 초등학교 4학년 이상 대상)\n3. 사우나전×호토리자 타이업 기획\n장소: 미니 시어터 \"호토리자\"\n4. 학예사와의 갤러리 토크\n일시: 2026년 11월 21일, 12월 6일, 2027년 1월 11일 14:00~\n등단자: 도야마 시 유리 미술관 학예사\n장소: 도야마 시 유리 미술관 2･3층 전시실 1－3\n요금: 무료 (사전 신청 불필요, 관람권 필요)\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "\"Finland Spirit Sauna: A Culture of Warmth Living with Nature\"",
+          "description": "Saunas have recently gained popularity in Japan. Finland, the home of saunas, is known as a sauna superpower with approximately 3 million saunas. In Finland, a sauna broadly encompasses not only the bathing facilities and acts but also the tools used and the way time is spent there. Beyond warming the body, healing the mind and body, and gaining health benefits, saunas have been closely intertwined with people's lives since ancient times as sacred places related to childbirth and funerals, and as communication spaces for family gatherings and discussions. This culture, cultivated through coexistence with harsh nature and deeply rooted in all aspects of society, is an indispensable part of people's lives and can be said to be at the heart of Finnish culture. This exhibition introduces the functions and history of saunas, and their spread into daily life and culture through various exhibits, including a recreation of a sauna designed by Alvar Aalto, a leading Finnish architect, delving into the sauna culture that breathes within Finnish society and spirituality.\n\n[Related Events]\n1. Commemorative Lecture\nDate: October 31, 2026, 13:30–15:30\nSpeaker: Timo Riekko (Chief Curator, Alvar Aalto Museum / Supervisor of this exhibition)\nVenue: Toyama Municipal Library, 3rd Floor Seminar Room\nAdmission: Free (Advance reservation preferred)\n2. Workshop \"Making Glass Himmeli\"\nDate: December 20, 2026, 10:00–11:30, 14:00–15:30\nVenue: Toyama Glass Art Museum\nAdmission: 2500 yen (Advance reservation preferred) (Capacity: approx. 15 people per session, for elementary school students in 4th grade and above)\n3. Sauna Exhibition × Hotoriza Tie-up Project\nVenue: Mini Theater \"Hotoriza\"\n4. Gallery Talk by Curator\nDate: November 21, 2026, December 6, 2026, January 11, 2027, 14:00–\nSpeaker: Curator, Toyama Glass Art Museum\nVenue: Toyama Glass Art Museum, 2nd & 3rd Floor Exhibition Rooms 1–3\nAdmission: Free (No advance application required, exhibition ticket necessary)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/f7228229/4e50a9bc-8e98-4f8c-abfd-96b7f02dd262.png",
       "description": "近年日本でも人気が高まるサウナ。その本場であるフィンランドは、約300万ものサウナを有するサウナ大国として知られています。フィンランドでは、サウナは温浴の施設や行為だけでなく、そこで用いる道具や過ごし方まで広く含みます。体を温め、心身を癒し健康効果を得るのはもちろんのこと、出産や葬送にまつわる神聖な場、団らんや相談といったコミュニケーションの場として、サウナは古くから人々の暮らしと密接に結びついてきました。厳しい自然と共生する中で培われ、社会のあらゆる場面に深く根差すこの文化は、人々にとって欠かすことのできない生活の一部であり、フィンランド文化の中心であると言ってよいでしょう。本展覧会では、フィンランドを代表する建築家であるアルヴァ・アアルトが設計したサウナの再現をはじめ、多様な展示物を通してサウナの機能や歴史、生活や文化への広がりをご紹介し、フィンランドの社会や精神性に息づくサウナ文化に迫ります。\n\n[関連イベント]\n1. 記念講演会\n日時: 2026年10月31日13:30〜15:30\n登壇者: ティモ・リエッコ（アルヴァ・アアルト美術館 主席キュレーター／本展監修）\n会場: 富山市立図書館 3階セミナールーム\n料金: 無料（事前予約優先）\n2. ワークショップ「ガラスのヒンメリ作り」\n日時: 2026年12月20日10:00〜11:30、14:00〜15:30\n会場: 富山市ガラス美術館\n料金: 2500円（事前予約優先）（定員各回15名程度、小学4年生以上対象）\n3. サウナ展×ほとり座 タイアップ企画\n会場: ミニシアター「ほとり座」\n4. 学芸員によるギャラリートーク\n日時: 2026年11月21日、12月6日、2027年1月11日14:00〜\n登壇者: 富山市ガラス美術館 学芸員\n会場: 富山市ガラス美術館2･3階 展示室1－3\n料金: 無料（事前申込み不要、観覧券必要）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -99720,8 +99774,17 @@
       "id": "3138f0146812",
       "source": "tokyo_art_beat",
       "title": "宮内由梨 「No body is an island 零れる皮膚」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "미야우치 유리 「No body is an island 코보레루 히후」",
+          "description": "갤러리 N 간다 샤타쿠에서는 미야우치 유리 「No body is an island 코보레루 히후」를 개최합니다. 미야우치 유리는 지바 시 미술관에서 개최 중인 지바 개부 900년 기념 특별전 「츠키토 호시토―비주츠가 츠나구 토키」에 참여하고 있습니다. 함께 꼭 관람해 주십시오.\n\n[관련 이벤트]\n아티스트 토크\n일시: 2026년 10월 31일 16:00~\n등단자: 코타카 타쿠로 (아티스트/영화감독/큐레이터)\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "\"Yuri Miyauchi 「No body is an island Koboreru Hifu」\"",
+          "description": "Gallery N Kanda Shataku will host Yuri Miyauchi's \"No body is an island Koboreru Hifu.\" Yuri Miyauchi is participating in the Chiba Kaifu 900th Anniversary Special Exhibition \"Tsuki to Hoshi to - Bijutsu ga Tsunagu Toki\" currently held at Chiba City Museum of Art. We encourage you to visit both.\n\n[Related Event]\nArtist Talk\nDate: October 31, 2026, 16:00–\nSpeaker: Takuro Kotaka (Artist/Film Director/Curator)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/3a669329/f0907e3c-41ef-46ae-bd05-b4bca0a46872.jpg",
       "description": "ギャラリーN神田社宅では宮内由梨「No body is an island 零れる皮膚」を開催致します。宮内由梨は千葉市美術館で開催中の千葉開府900年記念特別展「月と星と―美術がつなぐとき」に参加しております。あわせてぜひご高覧ください。\n\n[関連イベント]\nアーティストトーク\n日時: 2026年10月31日16:00〜\n登壇者: 小鷹拓郎（アーティスト/映画監督/キュレーター）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -99755,8 +99818,15 @@
         {
           "id": "365cc92389a4",
           "name": "宮内由梨",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "미야우치 유리"
+            },
+            "en": {
+              "name": "Miyauchi Yuri"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Yuri-Miauchi-No-body-is-an-island/5-F1-B481-E/2026-10-17",
@@ -99767,8 +99837,19 @@
       "id": "e693a3228a95",
       "source": "tokyo_art_beat",
       "title": "「PUNK 02｜RECYCLED NOISE」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「PUNK 02｜RECYCLED NOISE」",
+          "description": "CENTER의 시리즈 기획 「PUNK」의 두 번째인 본 전시는 패션과 관련된 소비-재생으로부터의 창조를 테마로, 폐의류를 원료로 한 보드 PANECO를 지지체로 한 아트를 전시합니다. 30명의 작가들이 각자 「PUNK」의 테마에 대해 숙고하고, GREEN을 테마 컬러로 하여 기법을 응용한 작품들을 선보입니다. 또한, 이 전시 작품들을 수록한 ZINE도 제작하고 있으며, ZINE 판매 수익의 일부는 그린피스 재팬에 기부하여 사회 공헌 활동에 참여할 예정입니다."
+        },
+        "ja": {
+          "title": "「PUNK 02｜RECYCLED NOISE」"
+        },
+        "en": {
+          "description": "This exhibition, the second in CENTER's \"PUNK\" series, showcases art using PANECO boards made from discarded clothing as a support medium, with the theme of creation from consumption and regeneration related to fashion. Thirty artists have each interpreted the \"PUNK\" theme and developed works employing various techniques with GREEN as the theme color. A ZINE featuring these exhibited works has also been produced, and a portion of the ZINE sales will be donated to Greenpeace Japan, participating in social contribution activities."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/3a421ad9/cec2668a-02a1-465e-93ff-d75ab7f6e265.jpg",
       "description": "CENTERのシリーズ企画「PUNK」の第二回である本展は、ファッションにまつわる消費ー再生からの創造をテーマに、廃棄衣料を原料としたボードPANECOを支持体としたアートを展示。30名の作家たちが、各々「PUNK」のテーマについて咀嚼し、GREENをテーマカラーに手法を凝らした作品を展開します。また、これらの展示作品を収録したZINEも制作しており、ZINEの売上の一部はグリーンピース・ジャパンへの寄付で社会貢献活動への参加を予定しています。",
       "medium": "mixed",
@@ -99802,20 +99883,41 @@
         {
           "id": "2a45e8d2e33b",
           "name": "安野谷昌穂",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "안노야 마사호"
+            },
+            "en": {
+              "name": "Annoya Masaho"
+            }
+          }
         },
         {
           "id": "c74fdf9cbf70",
           "name": "石部巧",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이시베 타쿠미"
+            },
+            "en": {
+              "name": "Ishibe Takumi"
+            }
+          }
         },
         {
           "id": "43621aaec4e3",
           "name": "伊藤桂司",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이토 케이지"
+            },
+            "en": {
+              "name": "Ito Keiji"
+            }
+          }
         },
         {
           "id": "5a6a9a828a92",
@@ -99863,26 +99965,54 @@
         {
           "id": "fe035178eb07",
           "name": "Jeremy Yamamura",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "제레미 야마무라"
+            },
+            "ja": {
+              "name": "ジェレミー・ヤマムラ"
+            }
+          }
         },
         {
           "id": "75a466576049",
           "name": "シャラポア野口",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "샤라포아 노구치"
+            },
+            "en": {
+              "name": "Sharapoa Noguchi"
+            }
+          }
         },
         {
           "id": "0af8013154b1",
           "name": "白根ゆたんぽ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "시라네 유탄포"
+            },
+            "en": {
+              "name": "Shirane Yutanpo"
+            }
+          }
         },
         {
           "id": "8c623f770a71",
           "name": "Think.",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "생각."
+            },
+            "ja": {
+              "name": "思考。"
+            }
+          }
         },
         {
           "id": "01c665020ade",
@@ -99900,20 +100030,41 @@
         {
           "id": "bdcab57193bc",
           "name": "瀬尾椋生",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "세오 료세이"
+            },
+            "en": {
+              "name": "Seo Ryosei"
+            }
+          }
         },
         {
           "id": "8e0d34590d81",
           "name": "田中ヒサミ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "다나카 히사미"
+            },
+            "en": {
+              "name": "Hisami Tanaka"
+            }
+          }
         },
         {
           "id": "147b6dc0c925",
           "name": "chappy",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "채피"
+            },
+            "ja": {
+              "name": "チャッピー"
+            }
+          }
         },
         {
           "id": "26fe72873670",
@@ -99931,74 +100082,158 @@
         {
           "id": "27f98c352059",
           "name": "トツカアヤ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "도쓰카 아야"
+            },
+            "en": {
+              "name": "Aya Totsuka"
+            }
+          }
         },
         {
           "id": "68737798cd0d",
           "name": "なかおみちお",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나카오 미치오"
+            },
+            "en": {
+              "name": "Michio Nakao"
+            }
+          }
         },
         {
           "id": "6582e2dfc623",
           "name": "NAZE",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "나제"
+            },
+            "ja": {
+              "name": "ナゼ"
+            }
+          }
         },
         {
           "id": "02d71b5e539e",
           "name": "抜水摩耶",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "누키미즈 마야"
+            },
+            "en": {
+              "name": "Nukimizu Maya"
+            }
+          }
         },
         {
           "id": "c5819c69060f",
           "name": "Funny Dress-up Lab",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "퍼니 드레스업 랩"
+            },
+            "ja": {
+              "name": "ファニー ドレスアップ ラボ"
+            }
+          }
         },
         {
           "id": "1f45614f4b16",
           "name": "hermippe",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "hermippe"
+            },
+            "ja": {
+              "name": "hermippe"
+            }
+          }
         },
         {
           "id": "319ae5d65f70",
           "name": "MAW",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "MAW"
+            },
+            "ja": {
+              "name": "MAW"
+            }
+          }
         },
         {
           "id": "57f0ba220057",
           "name": "前田流星",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마에다 류세이"
+            },
+            "en": {
+              "name": "Maeda Ryusei"
+            }
+          }
         },
         {
           "id": "46abffe864bd",
           "name": "マツモトダイスケ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마츠모토 다이스케"
+            },
+            "en": {
+              "name": "Daisuke Matsumoto"
+            }
+          }
         },
         {
           "id": "c25f575c906d",
           "name": "間峠武蔵",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마토게 무사시"
+            },
+            "en": {
+              "name": "Musashi Matoge"
+            }
+          }
         },
         {
           "id": "0192722a4e45",
           "name": "山崎由紀子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "야마자키 유키코"
+            },
+            "en": {
+              "name": "Yukiko Yamazaki"
+            }
+          }
         },
         {
           "id": "6366b057572d",
           "name": "Yukari Nishi",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "유카리 니시"
+            },
+            "ja": {
+              "name": "ニシ・ユカリ"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Punk-02Recycled-Noise/center-edo/2026-10-09",
@@ -100044,8 +100279,15 @@
         {
           "id": "f689d3025d70",
           "name": "大山顕",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오야마 아키라"
+            },
+            "en": {
+              "name": "Akira Oyama"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Ken-Ohyama-Kawaii-Buildings-On-Squares-Sags-and-the-Weight-of-the-Ordinary/coyama/2026-10-09",
@@ -100091,62 +100333,132 @@
         {
           "id": "36e16a1214bb",
           "name": "アラン・ビルテレイスト",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "알랭 빌테레이스트"
+            },
+            "en": {
+              "name": "Alain Billetereyst"
+            }
+          }
         },
         {
           "id": "6affb6300890",
           "name": "アンドレアス・グルスキー",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "안드레아스 구르스키"
+            },
+            "en": {
+              "name": "Andreas Gursky"
+            }
+          }
         },
         {
           "id": "b12a7021f8a7",
           "name": "アンディ・ウォーホル",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "앤디 워홀"
+            },
+            "en": {
+              "name": "Andy Warhol"
+            }
+          }
         },
         {
           "id": "3f1c0fd6f343",
           "name": "アニッシュ・カプーア",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "아니쉬 카푸어"
+            },
+            "en": {
+              "name": "Anish Kapoor"
+            }
+          }
         },
         {
           "id": "ac4f39e6d79d",
           "name": "アンゼルム・キーファー",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "안젤름 키퍼"
+            },
+            "en": {
+              "name": "Anselm Kiefer"
+            }
+          }
         },
         {
           "id": "9875f9fb650e",
           "name": "バンクシー",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "뱅크시"
+            },
+            "en": {
+              "name": "Banksy"
+            }
+          }
         },
         {
           "id": "64262445d22b",
           "name": "サイ・トゥオンブリー",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사이 트웜블리"
+            },
+            "en": {
+              "name": "Cy Twombly"
+            }
+          }
         },
         {
           "id": "3b7d73f9e658",
           "name": "ダミアン・ハースト",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "데미안 허스트"
+            },
+            "en": {
+              "name": "Damien Hirst"
+            }
+          }
         },
         {
           "id": "7db0863fb401",
           "name": "デイヴィッド・ホックニー",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "데이비드 호크니"
+            },
+            "en": {
+              "name": "David Hockney"
+            }
+          }
         },
         {
           "id": "489e5617ca48",
           "name": "フランク・ステラ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "프랭크 스텔라"
+            },
+            "en": {
+              "name": "Frank Stella"
+            }
+          }
         },
         {
           "id": "8567bba8ae21",
@@ -100237,14 +100549,28 @@
         {
           "id": "1f59985a7b40",
           "name": "石田徹也",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이시다 테츠야"
+            },
+            "en": {
+              "name": "Tetsuya Ishida"
+            }
+          }
         },
         {
           "id": "989aca3a167b",
           "name": "伊藤存",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이토 존"
+            },
+            "en": {
+              "name": "Zon Ito"
+            }
+          }
         },
         {
           "id": "0a0cb36d131b",
@@ -100275,26 +100601,54 @@
         {
           "id": "806d2b10e823",
           "name": "春月美菜",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "하루츠키 미나"
+            },
+            "en": {
+              "name": "Mina Harutsuki"
+            }
+          }
         },
         {
           "id": "c6640d3518d8",
           "name": "加藤泉",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "카토 이즈미"
+            },
+            "en": {
+              "name": "Izumi Kato"
+            }
+          }
         },
         {
           "id": "11f5b8b4c38e",
           "name": "河原温",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "카와라 온"
+            },
+            "en": {
+              "name": "On Kawara"
+            }
+          }
         },
         {
           "id": "3d7f53e26cda",
           "name": "草間彌生",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "쿠사마 야요이"
+            },
+            "en": {
+              "name": "Yayoi Kusama"
+            }
+          }
         },
         {
           "id": "f31ae40f5908",
@@ -100312,8 +100666,15 @@
         {
           "id": "54bd662f909b",
           "name": "小林孝亘",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "고바야시 다카노부"
+            },
+            "en": {
+              "name": "Takanobu Kobayashi"
+            }
+          }
         },
         {
           "id": "2ecca1e2b49f",
@@ -100344,8 +100705,15 @@
         {
           "id": "d4b69cf68152",
           "name": "菅木志雄",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "스가 기시오"
+            },
+            "en": {
+              "name": "Kishio Suga"
+            }
+          }
         },
         {
           "id": "1f0d54e79f74",
@@ -100363,8 +100731,15 @@
         {
           "id": "09b0a36a9f99",
           "name": "田中敦子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "다나카 아쓰코"
+            },
+            "en": {
+              "name": "Atsuko Tanaka"
+            }
+          }
         },
         {
           "id": "4c96aa8d8126",
@@ -100395,32 +100770,67 @@
         {
           "id": "e96244326d53",
           "name": "名和晃平",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나와 고헤이"
+            },
+            "en": {
+              "name": "Kohei Nawa"
+            }
+          }
         },
         {
           "id": "241400b0c903",
           "name": "村上隆",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "무라카미 다카시"
+            },
+            "en": {
+              "name": "Takashi Murakami"
+            }
+          }
         },
         {
           "id": "be8db01a1bd8",
           "name": "元永定正",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "모토나가 사다마사"
+            },
+            "en": {
+              "name": "Sadamasa Motonaga"
+            }
+          }
         },
         {
           "id": "90421441e786",
           "name": "吉原治良",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "요시하라 지로"
+            },
+            "en": {
+              "name": "Jirō Yoshihara"
+            }
+          }
         },
         {
           "id": "8acc9cea5fa8",
           "name": "李禹煥",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이우환"
+            },
+            "en": {
+              "name": "Lee Ufan"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Now-I-Meet-Contemporary-Art-Yayoi-Kusama-Yoshitomo-Nara-Takashi-Murakami-Andy-Warhol-Banksy-and-More/7-F50-B25-D/2026-11-14",
@@ -100448,8 +100858,15 @@
       "venue": {
         "id": "b32e28469048",
         "name": "旧走水小学校",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "구 하시리미즈 초등학교"
+          },
+          "en": {
+            "name": "Former Hashirimizu Elementary School"
+          }
+        },
         "region": "神奈川県",
         "district": null,
         "lat": 35.2654457,
@@ -100459,20 +100876,41 @@
         {
           "id": "22c2f54b1add",
           "name": "大巻伸嗣",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오마키 신지"
+            },
+            "en": {
+              "name": "Shinji Ohmaki"
+            }
+          }
         },
         {
           "id": "15e9bc92a100",
           "name": "片岡純也 + 岩竹理恵",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "카타오카 준야 + 이와타케 리에"
+            },
+            "en": {
+              "name": "Junya Kataoka + Rie Iwatake"
+            }
+          }
         },
         {
           "id": "c6730573ae9a",
           "name": "チャチャ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "차차"
+            },
+            "en": {
+              "name": "Chacha"
+            }
+          }
         },
         {
           "id": "a81a409fd950",
@@ -100516,8 +100954,15 @@
         {
           "id": "9c70658c74c8",
           "name": "原口典之",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "하라구치 노리유키"
+            },
+            "en": {
+              "name": "Noriyuki Haraguchi"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Former-Hashirimizu-Elementary-School/2026-10-31",
@@ -100563,8 +101008,15 @@
         {
           "id": "b09cf699ab1d",
           "name": "青木大祐",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "아오키 다이스케"
+            },
+            "en": {
+              "name": "Daisuke Aoki"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Daiyuu-Aoki-Generate-Mold/450-ABDCA/2026-10-30",
@@ -100610,8 +101062,15 @@
         {
           "id": "8f507dee5b2b",
           "name": "ニック・ヘイムズ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "닉 헤임스"
+            },
+            "en": {
+              "name": "Nick Hames"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Nick-Haymes-Chronograph/366-C5555/2026-10-20",
@@ -100639,8 +101098,15 @@
       "venue": {
         "id": "f2bed08ed523",
         "name": "The 5th Floor（花園アレイ）",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "The 5th Floor (하나조노 아레이)"
+          },
+          "en": {
+            "name": "The 5th Floor (Hanazono Alley)"
+          }
+        },
         "region": "上野、谷中",
         "district": null,
         "lat": 35.71647614700467,
@@ -100650,8 +101116,15 @@
         {
           "id": "5415747163b4",
           "name": "アフロアジア・コレクティヴ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "아프로아시아 컬렉티브"
+            },
+            "en": {
+              "name": "Afro-Asia Collective"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Portal-Afro-Asia/5-C2-E814-D/2026-10-16",
@@ -111898,8 +112371,15 @@
     {
       "id": "b32e28469048",
       "name": "旧走水小学校",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "구 하시리미즈 초등학교"
+        },
+        "en": {
+          "name": "Former Hashirimizu Elementary School"
+        }
+      },
       "venue_type": "other",
       "region": "神奈川県",
       "district": null,
@@ -111912,8 +112392,15 @@
     {
       "id": "f2bed08ed523",
       "name": "The 5th Floor（花園アレイ）",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "The 5th Floor (하나조노 아레이)"
+        },
+        "en": {
+          "name": "The 5th Floor (Hanazono Alley)"
+        }
+      },
       "venue_type": "other",
       "region": "上野、谷中",
       "district": null,
@@ -140187,32 +140674,67 @@
     {
       "id": "e19ce23ae151",
       "name": "本間理恵子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "혼마 리에코"
+        },
+        "en": {
+          "name": "Honma Rieko"
+        }
+      }
     },
     {
       "id": "365cc92389a4",
       "name": "宮内由梨",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "미야우치 유리"
+        },
+        "en": {
+          "name": "Miyauchi Yuri"
+        }
+      }
     },
     {
       "id": "2a45e8d2e33b",
       "name": "安野谷昌穂",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "안노야 마사호"
+        },
+        "en": {
+          "name": "Annoya Masaho"
+        }
+      }
     },
     {
       "id": "c74fdf9cbf70",
       "name": "石部巧",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이시베 타쿠미"
+        },
+        "en": {
+          "name": "Ishibe Takumi"
+        }
+      }
     },
     {
       "id": "43621aaec4e3",
       "name": "伊藤桂司",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이토 케이지"
+        },
+        "en": {
+          "name": "Ito Keiji"
+        }
+      }
     },
     {
       "id": "5a6a9a828a92",
@@ -140247,182 +140769,392 @@
     {
       "id": "fe035178eb07",
       "name": "Jeremy Yamamura",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "제레미 야마무라"
+        },
+        "ja": {
+          "name": "ジェレミー・ヤマムラ"
+        }
+      }
     },
     {
       "id": "75a466576049",
       "name": "シャラポア野口",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "샤라포아 노구치"
+        },
+        "en": {
+          "name": "Sharapoa Noguchi"
+        }
+      }
     },
     {
       "id": "0af8013154b1",
       "name": "白根ゆたんぽ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "시라네 유탄포"
+        },
+        "en": {
+          "name": "Shirane Yutanpo"
+        }
+      }
     },
     {
       "id": "8c623f770a71",
       "name": "Think.",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "생각."
+        },
+        "ja": {
+          "name": "思考。"
+        }
+      }
     },
     {
       "id": "bdcab57193bc",
       "name": "瀬尾椋生",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "세오 료세이"
+        },
+        "en": {
+          "name": "Seo Ryosei"
+        }
+      }
     },
     {
       "id": "8e0d34590d81",
       "name": "田中ヒサミ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "다나카 히사미"
+        },
+        "en": {
+          "name": "Hisami Tanaka"
+        }
+      }
     },
     {
       "id": "147b6dc0c925",
       "name": "chappy",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "채피"
+        },
+        "ja": {
+          "name": "チャッピー"
+        }
+      }
     },
     {
       "id": "27f98c352059",
       "name": "トツカアヤ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "도쓰카 아야"
+        },
+        "en": {
+          "name": "Aya Totsuka"
+        }
+      }
     },
     {
       "id": "68737798cd0d",
       "name": "なかおみちお",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "나카오 미치오"
+        },
+        "en": {
+          "name": "Michio Nakao"
+        }
+      }
     },
     {
       "id": "6582e2dfc623",
       "name": "NAZE",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "나제"
+        },
+        "ja": {
+          "name": "ナゼ"
+        }
+      }
     },
     {
       "id": "02d71b5e539e",
       "name": "抜水摩耶",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "누키미즈 마야"
+        },
+        "en": {
+          "name": "Nukimizu Maya"
+        }
+      }
     },
     {
       "id": "c5819c69060f",
       "name": "Funny Dress-up Lab",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "퍼니 드레스업 랩"
+        },
+        "ja": {
+          "name": "ファニー ドレスアップ ラボ"
+        }
+      }
     },
     {
       "id": "1f45614f4b16",
       "name": "hermippe",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "hermippe"
+        },
+        "ja": {
+          "name": "hermippe"
+        }
+      }
     },
     {
       "id": "319ae5d65f70",
       "name": "MAW",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "MAW"
+        },
+        "ja": {
+          "name": "MAW"
+        }
+      }
     },
     {
       "id": "57f0ba220057",
       "name": "前田流星",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "마에다 류세이"
+        },
+        "en": {
+          "name": "Maeda Ryusei"
+        }
+      }
     },
     {
       "id": "46abffe864bd",
       "name": "マツモトダイスケ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "마츠모토 다이스케"
+        },
+        "en": {
+          "name": "Daisuke Matsumoto"
+        }
+      }
     },
     {
       "id": "c25f575c906d",
       "name": "間峠武蔵",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "마토게 무사시"
+        },
+        "en": {
+          "name": "Musashi Matoge"
+        }
+      }
     },
     {
       "id": "0192722a4e45",
       "name": "山崎由紀子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "야마자키 유키코"
+        },
+        "en": {
+          "name": "Yukiko Yamazaki"
+        }
+      }
     },
     {
       "id": "6366b057572d",
       "name": "Yukari Nishi",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "유카리 니시"
+        },
+        "ja": {
+          "name": "ニシ・ユカリ"
+        }
+      }
     },
     {
       "id": "f689d3025d70",
       "name": "大山顕",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오야마 아키라"
+        },
+        "en": {
+          "name": "Akira Oyama"
+        }
+      }
     },
     {
       "id": "36e16a1214bb",
       "name": "アラン・ビルテレイスト",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "알랭 빌테레이스트"
+        },
+        "en": {
+          "name": "Alain Billetereyst"
+        }
+      }
     },
     {
       "id": "6affb6300890",
       "name": "アンドレアス・グルスキー",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "안드레아스 구르스키"
+        },
+        "en": {
+          "name": "Andreas Gursky"
+        }
+      }
     },
     {
       "id": "b12a7021f8a7",
       "name": "アンディ・ウォーホル",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "앤디 워홀"
+        },
+        "en": {
+          "name": "Andy Warhol"
+        }
+      }
     },
     {
       "id": "3f1c0fd6f343",
       "name": "アニッシュ・カプーア",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "아니쉬 카푸어"
+        },
+        "en": {
+          "name": "Anish Kapoor"
+        }
+      }
     },
     {
       "id": "ac4f39e6d79d",
       "name": "アンゼルム・キーファー",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "안젤름 키퍼"
+        },
+        "en": {
+          "name": "Anselm Kiefer"
+        }
+      }
     },
     {
       "id": "9875f9fb650e",
       "name": "バンクシー",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "뱅크시"
+        },
+        "en": {
+          "name": "Banksy"
+        }
+      }
     },
     {
       "id": "64262445d22b",
       "name": "サイ・トゥオンブリー",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "사이 트웜블리"
+        },
+        "en": {
+          "name": "Cy Twombly"
+        }
+      }
     },
     {
       "id": "3b7d73f9e658",
       "name": "ダミアン・ハースト",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "데미안 허스트"
+        },
+        "en": {
+          "name": "Damien Hirst"
+        }
+      }
     },
     {
       "id": "7db0863fb401",
       "name": "デイヴィッド・ホックニー",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "데이비드 호크니"
+        },
+        "en": {
+          "name": "David Hockney"
+        }
+      }
     },
     {
       "id": "489e5617ca48",
       "name": "フランク・ステラ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "프랭크 스텔라"
+        },
+        "en": {
+          "name": "Frank Stella"
+        }
+      }
     },
     {
       "id": "8567bba8ae21",
@@ -140487,128 +141219,275 @@
     {
       "id": "1f59985a7b40",
       "name": "石田徹也",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이시다 테츠야"
+        },
+        "en": {
+          "name": "Tetsuya Ishida"
+        }
+      }
     },
     {
       "id": "989aca3a167b",
       "name": "伊藤存",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이토 존"
+        },
+        "en": {
+          "name": "Zon Ito"
+        }
+      }
     },
     {
       "id": "806d2b10e823",
       "name": "春月美菜",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "하루츠키 미나"
+        },
+        "en": {
+          "name": "Mina Harutsuki"
+        }
+      }
     },
     {
       "id": "c6640d3518d8",
       "name": "加藤泉",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "카토 이즈미"
+        },
+        "en": {
+          "name": "Izumi Kato"
+        }
+      }
     },
     {
       "id": "11f5b8b4c38e",
       "name": "河原温",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "카와라 온"
+        },
+        "en": {
+          "name": "On Kawara"
+        }
+      }
     },
     {
       "id": "3d7f53e26cda",
       "name": "草間彌生",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "쿠사마 야요이"
+        },
+        "en": {
+          "name": "Yayoi Kusama"
+        }
+      }
     },
     {
       "id": "54bd662f909b",
       "name": "小林孝亘",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "고바야시 다카노부"
+        },
+        "en": {
+          "name": "Takanobu Kobayashi"
+        }
+      }
     },
     {
       "id": "d4b69cf68152",
       "name": "菅木志雄",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "스가 기시오"
+        },
+        "en": {
+          "name": "Kishio Suga"
+        }
+      }
     },
     {
       "id": "09b0a36a9f99",
       "name": "田中敦子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "다나카 아쓰코"
+        },
+        "en": {
+          "name": "Atsuko Tanaka"
+        }
+      }
     },
     {
       "id": "e96244326d53",
       "name": "名和晃平",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "나와 고헤이"
+        },
+        "en": {
+          "name": "Kohei Nawa"
+        }
+      }
     },
     {
       "id": "241400b0c903",
       "name": "村上隆",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "무라카미 다카시"
+        },
+        "en": {
+          "name": "Takashi Murakami"
+        }
+      }
     },
     {
       "id": "be8db01a1bd8",
       "name": "元永定正",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "모토나가 사다마사"
+        },
+        "en": {
+          "name": "Sadamasa Motonaga"
+        }
+      }
     },
     {
       "id": "90421441e786",
       "name": "吉原治良",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "요시하라 지로"
+        },
+        "en": {
+          "name": "Jirō Yoshihara"
+        }
+      }
     },
     {
       "id": "8acc9cea5fa8",
       "name": "李禹煥",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이우환"
+        },
+        "en": {
+          "name": "Lee Ufan"
+        }
+      }
     },
     {
       "id": "22c2f54b1add",
       "name": "大巻伸嗣",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오마키 신지"
+        },
+        "en": {
+          "name": "Shinji Ohmaki"
+        }
+      }
     },
     {
       "id": "15e9bc92a100",
       "name": "片岡純也 + 岩竹理恵",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "카타오카 준야 + 이와타케 리에"
+        },
+        "en": {
+          "name": "Junya Kataoka + Rie Iwatake"
+        }
+      }
     },
     {
       "id": "c6730573ae9a",
       "name": "チャチャ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "차차"
+        },
+        "en": {
+          "name": "Chacha"
+        }
+      }
     },
     {
       "id": "9c70658c74c8",
       "name": "原口典之",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "하라구치 노리유키"
+        },
+        "en": {
+          "name": "Noriyuki Haraguchi"
+        }
+      }
     },
     {
       "id": "b09cf699ab1d",
       "name": "青木大祐",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "아오키 다이스케"
+        },
+        "en": {
+          "name": "Daisuke Aoki"
+        }
+      }
     },
     {
       "id": "8f507dee5b2b",
       "name": "ニック・ヘイムズ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "닉 헤임스"
+        },
+        "en": {
+          "name": "Nick Hames"
+        }
+      }
     },
     {
       "id": "5415747163b4",
       "name": "アフロアジア・コレクティヴ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "아프로아시아 컬렉티브"
+        },
+        "en": {
+          "name": "Afro-Asia Collective"
+        }
+      }
     }
   ]
 }
