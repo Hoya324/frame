@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T16:45:36.929966+00:00",
+  "generated_at": "2026-10-13T19:55:22.583928+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -99922,32 +99922,67 @@
         {
           "id": "5a6a9a828a92",
           "name": "wimp",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "겁쟁이"
+            },
+            "ja": {
+              "name": "弱虫"
+            }
+          }
         },
         {
           "id": "7352039d163e",
           "name": "Aitone",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "아이토네"
+            },
+            "ja": {
+              "name": "アイトネ"
+            }
+          }
         },
         {
           "id": "147fc04c0705",
           "name": "小川泰",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오가와 야스"
+            },
+            "en": {
+              "name": "Ogawa Yasu"
+            }
+          }
         },
         {
           "id": "3e57e18a6f84",
           "name": "荻野竜一",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오기노 류이치"
+            },
+            "en": {
+              "name": "Ogino Ryuichi"
+            }
+          }
         },
         {
           "id": "320af89d6d71",
           "name": "小田佑二",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오다 유지"
+            },
+            "en": {
+              "name": "Oda Yuji"
+            }
+          }
         },
         {
           "id": "05c1ac07d5f0",
@@ -100244,8 +100279,17 @@
       "id": "edcaa3817c14",
       "source": "tokyo_art_beat",
       "title": "大山顕 「『かわいいビル』刊行記念写真展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "오야마 켄 「『귀여운 빌딩』 출판 기념 사진전」",
+          "description": "사진가이자 작가인 오야마 켄의 사진집 「귀여운 빌딩」 출판을 기념하는 사진전.\n외출한 곳에서 우연히 발견하고 '좋다'고 생각하여 20년 동안 찍어 모은 '귀여운 빌딩' 사진들. 왜 '좋다'고 생각했는지, '귀여움'이란 무엇인지.\n홍콩, 방콕, 런던, 뉴욕, 홋카이도부터 가고시마까지, 세계 각지에서 발견한 귀여운 빌딩 120점 중 일부를 전시합니다. 완전히 다른 논리와 규모에 속하는 빌딩과 전선이 공존하는 장소가 도시라고 논하는 오야마 켄의 최신작.\n\n[관련 이벤트]\n토크쇼\n일시: 10월 18일 14:00～15:30\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Ken Ohyama: Photo Exhibition Commemorating the Publication of 'Cute Buildings'",
+          "description": "A photo exhibition commemorating the publication of \"Kawaii Biru\" (Cute Buildings), a photo collection by photographer and writer Ken Ohyama.\nThe exhibition features photos of \"cute buildings\" that Ohyama happened to see while out and about, thought \"that's nice,\" and continued to photograph for 20 years. Why did he think \"that's nice,\" and what exactly is \"kawaii\" (cute)?\nA selection of 120 \"cute buildings\" discovered around the world, from Hong Kong, Bangkok, London, and New York to Hokkaido and Kagoshima, will be on display. This is Ken Ohyama's latest work, arguing that a city is a place where buildings and power lines, belonging to completely different logics and scales, coexist.\n\n[Related Events]\nTalk Show\nDate & Time: October 18, 2:00 PM - 3:30 PM\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/a03a26de/bb3ca9d6-8e0b-4a8e-b720-495f812d7ce5.jpg",
       "description": "写真家でライターの大山顕の写真集「かわいいビル」刊行を記念した写真展。\n出かけた先でたまたま見かけ、「いいな」と思って20年にわたり撮りためてきた「かわいいビル」の写真。なぜ「いいな」と思ったのか、「かわいい」とはなんなのか。\n香港、バンコク、ロンドン、ニューヨーク、北海道から鹿児島まで、世界各地で見つけたかわいいビル120点の中から一部を展示。まったく異なる論理とスケールに属しているビルと電線が同居する場が都市であると論じる、大山顕の最新作。\n\n[関連イベント]\nトークショー\n日時: 10月18日 14:00～15:30\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -100298,8 +100342,17 @@
       "id": "2b60d6722bde",
       "source": "tokyo_art_beat",
       "title": "「いま、私は現代アートと出会う －草間彌生、奈良美智、村上隆、アンディ・ウォーホル、バンクシー …」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「지금, 나는 현대미술과 만나다 －쿠사마 야요이, 나라 요시토모, 무라카미 다카시, 앤디 워홀, 뱅크시 …」",
+          "description": "미술관에서 작품을 감상하는 경험은 때때로 우리의 감정을 흔들고, 예상치 못한 감각이나 기억을 불러일으키기도 합니다. 본 전시에서는 그러한 '작품과의 만남'을 주제로, 국내외 작가들의 약 70점의 작품을 소개합니다. 이 작품들은 한 컬렉터가 '현대미술의 재미를 이해하고 싶다'며 수집을 시작한 컬렉션의 일부로, 쿠사마 야요이, 나라 요시토모, 무라카미 다카시, 앤디 워홀, 뱅크시 등 현대미술을 대표하는 작가들이 다수 포함되어 있지만, 그 표현은 실로 다채롭습니다. 이에 본 전시에서는 그 매력을 풀어낼 단서로, 색과 형태, 빛, 사람의 모습, 선, 풍경과 기억과 같은 단순한 키워드를 중심으로 전시를 구성했습니다. 현대미술을 '지금 시대에 만들어진 것'으로 이해하면, 그 안에는 '지금'을 살아가는 우리와 호응하는 시점이나 질문이 숨어 있을지도 모릅니다. 때로는 난해하고, 때로는 우리의 인식을 흔들기도 하는 현대미술. 본 전시에서 이 작품들과 만나면서, 예술을 즐기는 방법을 발견하는 계기가 되기를 바랍니다."
+        },
+        "en": {
+          "title": "「Now, I Encounter Contemporary Art – Yayoi Kusama, Yoshitomo Nara, Takashi Murakami, Andy Warhol, Banksy …」",
+          "description": "The experience of appreciating art in a museum can sometimes stir our emotions and evoke unexpected sensations and memories. This exhibition introduces approximately 70 works by domestic and international artists, centered on the theme of such \"encounters with art.\" These works are part of a collection started by a collector who wished to \"understand the appeal of contemporary art,\" and while it includes many leading contemporary artists such as Yayoi Kusama, Yoshitomo Nara, Takashi Murakami, Andy Warhol, and Banksy, their expressions are truly diverse. Therefore, this exhibition is structured around simple keywords such as color and form, light, human figures, lines, and landscapes and memories, as clues to deciphering its appeal. If we view contemporary art as \"something created in the present era,\" it may contain perspectives and questions that resonate with us who live \"now.\" Contemporary art can sometimes be complex, and sometimes it shakes our perceptions. We hope that encountering these works at this exhibition will provide an opportunity to discover new ways to enjoy art."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/5890b38e/5bc27b23-d698-492e-8e44-771e0da95d6d.jpg",
       "description": "美術館で作品を鑑賞する体験は、ときに私たちの感情を揺さぶり、思いがけない感覚や記憶を呼び起こすことがあります。本展ではそうした「作品との出会い」をテーマに、国内外の作家による約70点の作品をご紹介します。これらは、ある一人のコレクターが「現代アートの面白さを理解したい」と収集を始めたコレクションの一部であり、草間彌生、奈良美智、村上隆、アンディ・ウォーホル、バンクシーら現代アートを代表する作家が多く含まれていますが、その表現は実に多彩です。そこで本展はその魅力を読み解く手がかりとして、色やかたち、光、人の姿、線、風景と記憶といったシンプルなキーワードを軸にして展示を構成しました。現代アートを「いまの時代につくられたもの」と捉えると、そこには「いま」を生きる私たちと呼応する視点や問いが潜んでいるかもしれません。ときに難解で、ときに私たちの認識をも揺さぶる現代アート。本展でこれらの作品と出会うことで、アートの楽しみ方を発見するきっかけとなれば幸いです。",
       "medium": "mixed",
@@ -100463,38 +100516,80 @@
         {
           "id": "8567bba8ae21",
           "name": "ジャスパー・ジョーンズ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "재스퍼 존스"
+            },
+            "en": {
+              "name": "Jasper Johns"
+            }
+          }
         },
         {
           "id": "9c17235d2e7b",
           "name": "ジェフ・クーンズ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "제프 쿤스"
+            },
+            "en": {
+              "name": "Jeff Koons"
+            }
+          }
         },
         {
           "id": "3f4e6d992d69",
           "name": "ジョーン・ミッチェル",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "조안 미첼"
+            },
+            "en": {
+              "name": "Joan Mitchell"
+            }
+          }
         },
         {
           "id": "1471c7bdfc97",
           "name": "ジュリアン・オピー",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "줄리안 오피"
+            },
+            "en": {
+              "name": "Julian Opie"
+            }
+          }
         },
         {
           "id": "e257a989f9ac",
           "name": "キャスリーン・ジェイコブス",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "캐슬린 제이콥스"
+            },
+            "en": {
+              "name": "Kathleen Jacobs"
+            }
+          }
         },
         {
           "id": "61affd3ee134",
           "name": "ナム・ジュン・パイク",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "남준 파이크"
+            },
+            "en": {
+              "name": "Nam June Paik"
+            }
+          }
         },
         {
           "id": "97e79914a907",
@@ -100512,8 +100607,15 @@
         {
           "id": "466635ddafad",
           "name": "ロイ・リキテンスタイン",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "로이 리히텐슈타인"
+            },
+            "en": {
+              "name": "Roy Lichtenstein"
+            }
+          }
         },
         {
           "id": "894a7c593d31",
@@ -100531,20 +100633,41 @@
         {
           "id": "c259a38c4630",
           "name": "グザヴィエ・ヴェイヤン",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "그자비에 베이앙"
+            },
+            "en": {
+              "name": "Xavier Veilhan"
+            }
+          }
         },
         {
           "id": "9f79a639c6f1",
           "name": "荒川修作",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "아라카와 슈사쿠"
+            },
+            "en": {
+              "name": "Shusaku Arakawa"
+            }
+          }
         },
         {
           "id": "533de9cf0b3d",
           "name": "イケムラレイコ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이케무라 레이코"
+            },
+            "en": {
+              "name": "Leiko Ikemura"
+            }
+          }
         },
         {
           "id": "1f59985a7b40",
@@ -100841,8 +100964,17 @@
       "id": "cee3bc82c3b7",
       "source": "tokyo_art_beat",
       "title": "「走水水源地2026」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「하시리미즈 수원지 2026」",
+          "description": "풍부한 용수가 솟아나는 하시리미즈는 도시화가 진행된 도쿄만 연안에 위치하며, 바다와 산이 연결되는 미우라 반도 본래의 지형적 기억을 간직한 희귀한 장소입니다. 고사기나 일본서기에 그 지명이 새겨져 있듯이, 이 지역에는 예로부터 바다와 함께하는 사람들의 삶이 있었습니다.\n'수원'이란 물이 솟아나는 장소를 말합니다. 그러나 물은 갑자기 그곳에 나타나는 것이 아닙니다. 바다에서 증발한 물이 구름이 되어 비가 되어 대지에 쏟아지고, 땅속으로 스며든 물은 오랜 시간을 거쳐 지층의 틈새를 돌며 정화되어, 마침내 맑은 물이 되어 지상으로 솟아납니다. 그리고 솟아난 물은 사람들의 삶을 지탱하며 다시 바다로 돌아갑니다. '수원'이란 눈에 보이지 않는 순환과 축적이 겹쳐져 새로운 흐름으로 모습을 드러내는 장소이기도 합니다.\n「하시리미즈 수원지 2026」은 과거 '바다에서 가장 가까운 초등학교'로 사랑받았던 구 하시리미즈 초등학교를 무대로, 지역 중심 이벤트인 「Through the Water 2026 Autumn」(주최: Through the Water 실행위원회)과 연계하여 개최됩니다. 전시, 워크숍, 심포지엄을 통해 하시리미즈라는 땅에 흘러온 문화의 수맥을 더듬어보고, 사람들이 땅과 만나고 대화하며 미래를 그려나가는 장을 여는 첫 번째 흐름을 만드는 시도이기도 합니다.\n이 땅에서 바다를 바라보는 것은 하나의 풍경을 보는 것에 그치지 않습니다. 근경에서 원경으로, 현재에서 과거, 그리고 미래로, 이 세상의 모든 것이 그곳에 이어져 있습니다.\n\n[관련 이벤트]\n1. 해조류와 사이아노타입(일광 사진) 워크숍\n일시: 11월 1일 14:00～15:30\n강사: 루카 레그레즈\n요금: 2000엔\n2. 토크 「발밑의 일 - 요코스카의 실천」\n일시: 11월 1일 13:00～13:45\n등단: 마키노 사츠키 (요코스카시 도시경관과), 후지와라 카나 (주식회사 야토토 대표)\n요금: 1000엔 (요코스카 시민은 500엔)\n3. 토크 「하시리미즈에서 보이는, 바다를 통한 배움의 가능성」\n일시: 11월 3일 10:30～12:00\n등단: 다구치 코다이 (일반사단법인 3710Lab (미나토 연구소)), 가나자와 히토시 (일반사단법인 히토히로 / 가네요 식당)\n요금: 2000엔 (요코스카 시민은 500엔)\n4. 토크 「건너편의 일」\n일시: 11월 3일 13:00～15:00\n등단: 마키하라 다이스케 (미술 작가), 츠카모토 요시하루 (건축가), 타무라 마사키 (건축가), 호소부치 타마키 (BankART1929 대표 / 아티스트)\n요금: 2000엔 (요코스카 시민은 500엔)\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "「Hashirimizu Water Source 2026」",
+          "description": "Hashirimizu, blessed with abundant spring water, is a rare place in the urbanized Tokyo Bay Area that retains the memory of the Miura Peninsula's original topography, where the sea and mountains are connected. As its name is inscribed in the Kojiki and Nihon Shoki, this land has long been home to human activities intertwined with the sea.\nA \"water source\" refers to a place where water springs forth. However, water does not suddenly appear there. Water evaporated from the sea becomes clouds and falls as rain onto the earth; the water that permeates underground is purified over a long period as it circulates through fissures in the strata, eventually emerging as clear spring water on the surface. This spring water then supports people's lives and eventually returns to the sea. A \"water source\" is also a place where invisible cycles and accumulations overlap, manifesting as a new flow.\n\"Hashirimizu Water Source 2026\" will be held at the former Hashirimizu Elementary School, once affectionately known as \"the elementary school closest to the sea,\" in conjunction with the community-focused event \"Through the Water 2026 Autumn\" (organized by the Through the Water Executive Committee). Through exhibitions, workshops, and symposiums, it is also an attempt to trace the cultural currents that have flowed through the land of Hashirimizu, and to create the initial flow for people to encounter the land, engage in dialogue, and envision the future.\nGazing at the sea from this land is not merely seeing a single landscape. From foreground to background, from present to past, and into the future, everything in this world is connected there.\n\n[Related Events]\n1. Seaweed and Cyanotype (Sun Print) Workshop\nDate & Time: November 1, 2:00 PM - 3:30 PM\nInstructor: Luca Legrez\nFee: 2,000 yen\n2. Talk: \"What's Underfoot - Practices in Yokosuka\"\nDate & Time: November 1, 1:00 PM - 1:45 PM\nSpeakers: Satsuki Makino (Yokosuka City Townscape and Landscape Division), Kana Fujiwara (Representative, Yatoto Co., Ltd.)\nFee: 1,000 yen (500 yen for Yokosuka citizens)\n3. Talk: \"Possibilities for Learning Through the Sea, as Seen from Hashirimizu\"\nDate & Time: November 3, 10:30 AM - 12:00 PM\nSpeakers: Kodai Taguchi (General Incorporated Association 3710Lab (Minato Lab)), Hitoshi Kanazawa (General Incorporated Association Hitohiro / Kaneyo Shokudo)\nFee: 2,000 yen (500 yen for Yokosuka citizens)\n4. Talk: \"About the Opposite Shore\"\nDate & Time: November 3, 1:00 PM - 3:00 PM\nSpeakers: Taisuke Makihara (Artist), Yoshiharu Tsukamoto (Architect), Masaki Tamura (Architect), Tamaki Hosobuchi (Representative, BankART1929 / Artist)\nFee: 2,000 yen (500 yen for Yokosuka citizens)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/10770e0b/ad70e268-bf03-4874-9257-5c8c6c31cc77.jpg",
       "description": "豊かな湧水に恵まれた走水は、都市化が進んだ東京湾岸にあって、海と山とがつながる三浦半島本来の地形の記憶を残す希少な場所です。古事記や日本書紀にその地名が刻まれているように、この地には古くから、海とともにある人のいとなみがありました。\n「水源」とは、水が湧き出る場所をさします。\nしかし、水は突然そこに現れるのではありません。海から蒸発した水が雲となり雨となって大地に降り注ぎ、地中に浸透した水は長い時間をかけて地層の裂け目を巡るなかで磨かれ、やがて清らかな水となって地上に湧き出ます。そして湧き出た水は人々の暮らしを支え、再び海へと還っていきます。\n「水源」とは、目には見えない循環や蓄積が重なり、新たな流れとして姿を現す場所でもあります。\n「走水水源地2026」は、かつて「海に一番近い小学校」として親しまれてきた旧走水小学校を舞台に、地域を中心としたイベント「Through the Water 2026 Autumn」（主催：Through the Water 実行委員会）と連動して開催します。展示、ワークショップ、シンポジウムを通して、走水という土地に流れてきた文化の水脈をたどるとともに、人々が土地と出会い、対話し、未来を思い描く場をひらいていく、その最初の流れをつくる試みでもあります。\nこの土地から海を望むことは、ひとつの風景を見ることにとどまりません。近景から遠景へ、現在から過去、そして未来へ、この世界のすべてが、そこに連なっています。\n\n[関連イベント]\n1. 海藻とサイアノタイプ（日光写真）のワークショップ\n日時: 11月1日 14:00～15:30\n講師: ルカ・レグリーズ\n料金: 2000円\n2. トーク「足元のことー横須賀の実践」\n日時: 11月1日 13:00～13:45\n登壇: 牧野颯紀（横須賀市まちなみ景観課）、藤原香奈（株式会社やとと 代表）\n料金: 1000円（横須賀市民は500円）\n3. トーク「走水から見えてくる、海を通じた学びの可能性」\n日時: 11月3日 10:30～12:00\n登壇: 田口康大（一般社団法人3710Lab（みなとラボ））、金澤等（一般社団法人ひとひろ／かねよ食堂）\n料金: 2000円（横須賀市民は500円）\n4. トーク「対岸のこと」\n日時: 11月3日 13:00～15:00\n登壇: 槙原泰介（美術作家）、塚本由晴（建築家）、田村聖輝（建築家）、細淵太麻紀（BankART1929代表／アーティスト）\n料金: 2000円（横須賀市民は500円）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -100973,8 +101105,17 @@
       "id": "b492f7c7655c",
       "source": "tokyo_art_beat",
       "title": "青木大祐 「generate mold.」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "아오키 다이스케 「generate mold.」",
+          "description": "아오키는 자신의 신체를 사물에 비유한 셀프 포트레이트로 작품을 제작하는 사진작가이다. 사진에 곰팡이를 발생시키는 독자적인 기법을 사용하여 표현하고 있다. 신작 21점으로 구성된 사진전."
+        },
+        "en": {
+          "title": "Daisuke Aoki \"generate mold.\"",
+          "description": "Aoki is a photographer who creates works using self-portraits in which he likens his own body to an object. He expresses himself using a unique technique of generating mold on photographs. This is a photography exhibition featuring 21 new works."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/a698e3b0/3aad816d-1b76-4006-ade0-8efb79fd1c43.jpg",
       "description": "青木は自らの身体を事物に見立てたセルフポートレートで作品制作している写真作家。写真にカビを発生させる独自技法を用いて表現を行なっている。新作21点による写真展。",
       "medium": "photo",
@@ -101027,8 +101168,17 @@
       "id": "fcbf9afc87b5",
       "source": "tokyo_art_beat",
       "title": "ニック・ヘイムズ 「Chronograph」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "닉 헤임스 「Chronograph」",
+          "description": "이번에 로스앤젤레스를 기반으로 활동하는 사진작가 닉 헤임스(Nick Haymes)의 신간 사진집 『Chronograph』 출간을 기념하여 개인전 「Chronograph」를 개최합니다. 2001년부터 2026년에 걸쳐 작가가 촬영한 25년 이상의 사진을 수록한 이 책 『Chronograph』는 파트너 리나(Lina)와 두 자녀 필립(Philipp), 로렌스(Lawrence)와의 삶을 기록한 몰입감 넘치는 연대기입니다. 450페이지가 넘는 지면에 약 1,000점의 사진을 수록하고, 로스앤젤레스와 뉴욕을 오가며 오랜 세월 동안 가장 가까운 존재에게 다큐멘터리적 시선을 향하고 있습니다. 작가는 가족을 감상적인 이야기로 보는 것이 아니라 심리적인 긴장과 모순을 내포하는 존재로 파악합니다. 아이들의 모습, 집 안 풍경, 끊임없이 움직이는 신체, 거친 놀이, 애정, 그리고 긴장이 흐르는 순간들이 교차하며 아름다움과 불편함은 분리되지 않고 공존합니다. 순수함은 무모한 행동과 나란히 하고, 친밀함은 불안과 표리일체가 되는 가운데 아이들은 성장하고 인간관계는 변화하며 신체 또한 변해갑니다. 다큐멘터리 사진과 세심하게 연출된 타블로를 오가는 사진 표현은 자연스러운 순간을 포착하면서도 어딘가 연극적인 분위기를 풍깁니다. 이 책은 가족을 고정된 사회적 단위로 제시하는 것이 아니라, 친밀함이 안도감과 답답함 모두가 될 수 있는 불안정한 감정의 장으로 그려냅니다. 그 결과로 탄생하는 것은 애정과 갈등이 복잡하게 얽히고, 사랑이라는 연약하면서도 강한 유대감이 끊임없이 시험받고 갱신되는 가족의 모습을 응시한 깊은 심리적 초상입니다."
+        },
+        "en": {
+          "title": "Nick Haymes \"Chronograph\"",
+          "description": "We are pleased to announce the solo exhibition \"Chronograph\" to commemorate the publication of \"Chronograph,\" a new photo book by Los Angeles-based photographer Nick Haymes. This book, \"Chronograph,\" features over 25 years of photographs taken by the artist from 2001 to 2026, and is an immersive chronicle documenting his life with his partner Lina and their two children, Philipp and Lawrence. With approximately 1,000 photographs across more than 450 pages, the book follows Haymes as he travels between Los Angeles and New York, directing his long-term documentary gaze towards his closest subjects. The artist views family not as a sentimental narrative, but as an entity encompassing psychological tension and contradiction. Images of children, domestic scenes, constantly moving bodies, rough play, affection, and moments of tension intertwine, where beauty and discomfort coexist without separation. Innocence stands alongside recklessness, and intimacy is inseparable from anxiety, as children grow, relationships evolve, and bodies transform. His photographic expression, moving between documentary photography and meticulously staged tableaux, captures natural moments while exuding a theatrical atmosphere. This book does not present family as a fixed social unit, but rather depicts it as an unstable emotional space where closeness can be both comforting and suffocating. The result is a profound psychological portrait that gazes upon the family, where love and conflict are intricately intertwined, and the fragile yet strong bond of love is constantly tested and renewed."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/98062243/d51471ad-2b8a-486b-98e1-6030db63a0f2.jpg",
       "description": "この度、ロサンゼルスを拠点とする写真家・ニック・ヘイムズ（Nick Haymes）の新刊写真集『Chronograph』の刊行を記念して、個展「Chronograph」を開催いたします。2001年から2026年にかけて作者が撮影した25年以上にわたる写真を収録する本書『Chronograph』は、パートナーのリナ（Lina）と二人の子ども、フィリップ（Philipp）、ローレンス（Lawrence）との暮らしを記録した没入感あふれるクロニクルである。450ページを超える紙面に約1,000点の写真を収録し、ロサンゼルスとニューヨークを行き来しながら、長年にわたるドキュメンタリーの視線を最も身近な存在へと向けている。作者は、家族を感傷的な物語としてではなく、心理的な緊張や矛盾を内包する存在として捉える。子どもたちの姿、家の中の風景、動き続ける身体、荒々しい遊び、愛情、そして緊張が走る瞬間が交錯し、美しさと居心地の悪さは切り離されることなく共存する。無垢さは向こう見ずな振る舞いと隣り合い、親密さは不安と表裏一体となるなかで、子どもたちは成長し、人間関係は変化し、身体もまた移り変わっていく。ドキュメンタリー写真と丹念に演出されたタブローを行き来する写真表現は、自然な瞬間を捉えながらも、どこか演劇的な空気を漂わせている。本書は、家族を固定された社会的単位として提示するのではなく、近しさが安心感にも息苦しさにもなり得る、不安定な感情の場として描き出す。その結果として生まれるのは、愛情と葛藤が複雑に絡み合い、愛という脆くも強い結びつきが絶えず試され、更新され続ける家族の姿を見つめた、深い心理的ポートレートである。",
       "medium": "photo",
@@ -101081,8 +101231,17 @@
       "id": "55801bd8d2f5",
       "source": "tokyo_art_beat",
       "title": "「ポータル・アフロアジア」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「포털 아프로아시아」",
+          "description": "한국의 미군 기지촌은 오랫동안 냉전의 지정학과 군사 질서에 의해 형성되어 왔습니다. 그러나 오늘날 이 장소들은 아프리카 출신 이민자 커뮤니티에게 새로운 이주, 정착, 문화 교류의 공간으로 변모하고 있습니다. 「포털: 아프로아시아」는 한국 미군 기지촌을 상징하는 두 곳인 동두천 보산동과 파주에 초점을 맞춰, 군사적 필요에 의해 형성된 공간이 새로운 사회적 관계와 커뮤니티가 탄생하는 초국가적 장소로 변화하는 과정을 추적합니다. 역사 기록과 아카이브 자료, 지역 커뮤니티 사람들의 초상화, 거리와 일상의 풍경을 담은 사진을 통해 본 전시는 현재 진행 중인 이러한 변모에 주목합니다.\n\n「포털: 아프로아시아」에서 '포털'은 서로 다른 장소와 시간, 역사와 경험이 교차하고 새로운 관계가 탄생하는 통로를 의미합니다. 아프리카 디아스포라의 이주와 정착이 군사적 이동의 역사가 새겨진 장소에 겹쳐질 때, 아프리카와 아시아의 관계는 고정된 역사적, 지리적, 문화적 틀 안에 머무르지 않습니다. 그것은 신체적 만남, 이동과 기억, 상상과 연대를 통해 끊임없이 재구성됩니다. 본 전시가 제시하는 '아프로아시아 퓨처리즘'은 아프리카와 아시아의 미학을 단순히 융합하는 것이 아닙니다. 오히려 식민주의, 군사화, 배제라는 역사의 교차점을 가진 아프리카와 아시아 간의 연대가 새로운 공동체성과 미래를 창조하는 방법론 및 실천을 의미합니다.\n\n이러한 질문들은 사진, 영상, 아카이브 및 참여형 실천, 나아가 아프리카 출신 이민자와 한국의 젊은이들 각각의 협력 음악 프로젝트로 전개됩니다. 여기서 아프로아시아의 미래는 아직 도래하지 않은, 이상화된 단일한 시간으로 구상되는 것이 아닙니다. 그것은 현실과 일상생활 속에 이미 존재하는 커뮤니티 안에서의 만남, 기억, 대립, 협상, 연대를 통해 끊임없이 생성되는 여러 가능성입니다. 본 전시는 아프리카와 아시아의 관계를 이동, 문화 교류, 연대의 실천을 통해 끊임없이 재구성되는 개방적이고 변화하는 것으로 파악합니다. 우리는 이미 함께 미래를 만들고 있습니다."
+        },
+        "en": {
+          "title": "\"Portal Afro-Asia\"",
+          "description": "US military base villages in Korea have long been shaped by the geopolitics of the Cold War and its military order. Today, however, these places are transforming into new spaces for migration, settlement, and cultural exchange for immigrant communities from Africa. \"Portal: Afro-Asia\" focuses on two symbolic locations of US military base villages in Korea—Bosandong in Dongducheon and Paju—tracing the process by which spaces formed out of military necessity are changing into transnational sites where new social relationships and communities emerge. Through historical records, archival materials, portraits of local community members, and photographs capturing street scenes and daily life, this exhibition highlights these ongoing transformations.\n\nIn \"Portal: Afro-Asia,\" \"portal\" refers to a passage where different places and times, histories and experiences intersect, and new relationships are born. When the migration and settlement of the African diaspora overlap with places marked by a history of military movement, the relationship between Africa and Asia does not remain within fixed historical, geographical, and cultural frameworks. It is constantly reconfigured through physical encounters, movement and memory, imagination and solidarity. The \"Afro-Asia Futurism\" presented in this exhibition is not a simple fusion of African and Asian aesthetics. Rather, it signifies a methodology and practice through which solidarity between Africa and Asia, which share histories of colonialism, militarization, and exclusion, generates new commonalities and futures.\n\nThese inquiries unfold into photography, video, archives, participatory practices, and even collaborative music projects by young immigrants from Africa and young Koreans. Here, the future of Afro-Asia is not conceived as an idealized, singular time that has yet to arrive. It is a multitude of possibilities constantly generated through encounters, memories, conflicts, negotiations, and solidarity within communities already existing in reality and daily life. This exhibition views the relationship between Africa and Asia as an open, ever-changing entity, constantly reconfigured through movement, cultural exchange, and practices of solidarity. We are already building the future together."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/f124a972/6388e8df-c449-452c-83b9-8e12791723ec.jpg",
       "description": "韓国における米軍基地村は、長年にわたり、冷戦をめぐる地政学とその軍事秩序によって形づくられてきました。しかし今日、これらの場所は、アフリカ出身の移民コミュニティにとって、新たな移住、定住、文化交流の空間へと変容しつつあります。「ポータル：アフロアジア」は、韓国の米軍基地村を象徴する二つの場所である、東豆川（トンドゥチョン）の保山洞（ポサンドン）と坡州（パジュ）に焦点を当て、軍事的な必要性から形成された空間が、新たな社会関係やコミュニティの生まれる、トランスナショナルな場へと変化していく過程をたどります。歴史記録やアーカイブ資料、地域のコミュニティの人々のポートレート、ストリートや日常の風景を捉えた写真を通じて、本展は、いまも進行するこれらの変容に目を向けます。\n\n「ポータル：アフロアジア」における「ポータル」とは、異なる場所と時間、歴史と経験が交差し、新たな関係が生まれる通路を指します。アフリカのディアスポラによる移住と定住が、軍事的な移動の歴史が刻まれた場所に重なるとき、アフリカとアジアの関係は、固定化された歴史的、地理的、文化的な枠組みの内にとどまりません。それは、身体的な出会い、移動と記憶、想像と連帯を通じて、絶えず組み替えられていきます。本展が提示する「アフロアジア・フューチャリズム」は、アフリカとアジアの美学を単純に融合させるものではありません。むしろ、植民地主義、軍事化、排除という歴史の交差を持つアフリカとアジアの間の連帯が、新たな共同性と未来を生み出す方法論および実践を意味します。\n\nこうした問いは、写真、映像、アーカイブや参加型の実践、さらにはアフリカ出身の移民と韓国のそれぞれの若者による協働の音楽プロジェクトへと展開されます。ここで、アフロアジアの未来は、いまだ到来しない、理想化された単一の時間として構想されるものではありません。それは、現実や日々の生活のなかにすでに存在するコミュニティの中での出会い、記憶、対立、交渉、連帯を通じて絶えず生み出される、複数の可能性です。本展は、アフリカとアジアの関係を、移動、文化交流、連帯の実践を通じて絶えず組み替えられる、開かれた、変化し続けるものとして捉えます。私たちはすでに、ともに未来を作っているのです。",
       "medium": "mixed",
@@ -140739,32 +140898,67 @@
     {
       "id": "5a6a9a828a92",
       "name": "wimp",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "겁쟁이"
+        },
+        "ja": {
+          "name": "弱虫"
+        }
+      }
     },
     {
       "id": "7352039d163e",
       "name": "Aitone",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "아이토네"
+        },
+        "ja": {
+          "name": "アイトネ"
+        }
+      }
     },
     {
       "id": "147fc04c0705",
       "name": "小川泰",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오가와 야스"
+        },
+        "en": {
+          "name": "Ogawa Yasu"
+        }
+      }
     },
     {
       "id": "3e57e18a6f84",
       "name": "荻野竜一",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오기노 류이치"
+        },
+        "en": {
+          "name": "Ogino Ryuichi"
+        }
+      }
     },
     {
       "id": "320af89d6d71",
       "name": "小田佑二",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오다 유지"
+        },
+        "en": {
+          "name": "Oda Yuji"
+        }
+      }
     },
     {
       "id": "fe035178eb07",
@@ -141159,62 +141353,132 @@
     {
       "id": "8567bba8ae21",
       "name": "ジャスパー・ジョーンズ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "재스퍼 존스"
+        },
+        "en": {
+          "name": "Jasper Johns"
+        }
+      }
     },
     {
       "id": "9c17235d2e7b",
       "name": "ジェフ・クーンズ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "제프 쿤스"
+        },
+        "en": {
+          "name": "Jeff Koons"
+        }
+      }
     },
     {
       "id": "3f4e6d992d69",
       "name": "ジョーン・ミッチェル",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "조안 미첼"
+        },
+        "en": {
+          "name": "Joan Mitchell"
+        }
+      }
     },
     {
       "id": "1471c7bdfc97",
       "name": "ジュリアン・オピー",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "줄리안 오피"
+        },
+        "en": {
+          "name": "Julian Opie"
+        }
+      }
     },
     {
       "id": "e257a989f9ac",
       "name": "キャスリーン・ジェイコブス",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "캐슬린 제이콥스"
+        },
+        "en": {
+          "name": "Kathleen Jacobs"
+        }
+      }
     },
     {
       "id": "61affd3ee134",
       "name": "ナム・ジュン・パイク",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "남준 파이크"
+        },
+        "en": {
+          "name": "Nam June Paik"
+        }
+      }
     },
     {
       "id": "466635ddafad",
       "name": "ロイ・リキテンスタイン",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "로이 리히텐슈타인"
+        },
+        "en": {
+          "name": "Roy Lichtenstein"
+        }
+      }
     },
     {
       "id": "c259a38c4630",
       "name": "グザヴィエ・ヴェイヤン",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "그자비에 베이앙"
+        },
+        "en": {
+          "name": "Xavier Veilhan"
+        }
+      }
     },
     {
       "id": "9f79a639c6f1",
       "name": "荒川修作",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "아라카와 슈사쿠"
+        },
+        "en": {
+          "name": "Shusaku Arakawa"
+        }
+      }
     },
     {
       "id": "533de9cf0b3d",
       "name": "イケムラレイコ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이케무라 레이코"
+        },
+        "en": {
+          "name": "Leiko Ikemura"
+        }
+      }
     },
     {
       "id": "1f59985a7b40",
