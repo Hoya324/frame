@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T17:57:48.954071+00:00",
+  "generated_at": "2026-10-14T21:50:54.358069+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -73790,7 +73790,7 @@
       "price_max": null,
       "start_date": "2026-10-14",
       "end_date": "2026-11-29",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "15f10dd9c57a",
@@ -92326,7 +92326,7 @@
       "price_max": null,
       "start_date": "2026-10-14",
       "end_date": "2026-10-18",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "4687f076189d",
@@ -95619,7 +95619,7 @@
       "price_max": null,
       "start_date": "2026-10-14",
       "end_date": "2026-10-25",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "018b6124fde6",
@@ -95918,7 +95918,7 @@
       "price_max": null,
       "start_date": "2026-10-14",
       "end_date": "2026-10-18",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "e101149b9512",
@@ -98575,7 +98575,7 @@
       "price_max": null,
       "start_date": "2026-10-14",
       "end_date": "2026-10-25",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "492d48d4c9b9",
@@ -99690,7 +99690,7 @@
       "price_max": null,
       "start_date": "2026-10-14",
       "end_date": "2027-02-11",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "b3d3b58939ea",
@@ -101967,6 +101967,241 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Ryosuke-Miyata-I-Saw-a-Little-Death-It-Was-One-Hell-of-a-Wonderful-Place/Akai-Hashi-Gallery/2026-10-17",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "923d03548a7d",
+      "source": "tokyo_art_beat",
+      "title": "柴田徹之 「美しき奇妙な夢見し - India illusion -」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/eeb230ff/eed48257-c44a-4080-82ea-b7aa5dd9d409.jpg",
+      "description": "三千年の夢を求めてガンジス川をヒマラヤへと遡り、ベンガル湾へ下る旅の記憶。冬霧の聖地を行き交う巡礼たちの影、そのマーヤ(幻影)に唯一くさびを打ち込むように存在する放浪修行者(サドゥ)たちの肖像、ガンジス川巡礼が醸し出す夢うつつの情景という二つの側面を中心に、百点以上の写真を自由なレイアウトによる直貼りで展示します。美しき大地とそこに潜む奇妙な影が交錯するインスタレーションです。また、デカン高原の密林に眠る知られざる古代壁画の写真も併せて公開します。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-26",
+      "end_date": "2026-12-01",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "a5eb554acccc",
+        "name": "ギャラリー国立",
+        "lang": null,
+        "tr": {},
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.697495003159396,
+        "lng": 139.44451072883606
+      },
+      "artists": [
+        {
+          "id": "771ee2880d7f",
+          "name": "柴田徹之",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Tetsuyuki-Shibata-India-illusion/gallery-kunitachi/2026-11-26",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "2e7392b1b48a",
+      "source": "tokyo_art_beat",
+      "title": "ナガタダイスケ 「blur」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/12428220/3f4c6f64-e9e8-4e4c-af37-2d5836971d11.jpg",
+      "description": "このたび、DELTA/KYOTOGRAPHIE Permanent Spaceでは、ナガタダイスケの個展「blur」を開催いたします。今回展示するシリーズ〈blur〉の作品からは、都市の風景が見えるもののどうしたことか、そこにどこかぎこちなさを感じさせます。画面に見えるもの自体は「これは○○である」とはっきり識別できるものの、例えばそこに写る人物にフォーカスしてみると、性別や年齢、背丈、体格などといった詳細な情報は削ぎ落とされています。近づいて見ればプリントであることはすぐにわかりますが、内容そのものは判然とせず、このイメージが絵画なのか、写真なのか、あるいはAIによって生成されたものなのか、見る者に判断を迷わせます。同時に、日本の都市であることはわかっても、その場所性は排除されています。均一化された日本の都市風景の中から、見る者はふと、どこかの都市の気配を見出そうとします。このシリーズは、撮影した写真の一部分を大幅に拡大した写真作品です。もともと平面的な写真は、この一連の作業でさらに奥行きを欠いた平面性を帯びていきます。こうして写真がもつ情報や信憑性を削ぎ落とすことにより、見る側にはその欠落を補いながら読み解く余地が残され、イメージの解釈はさまざまな方向へと開かれていきます。\n\n[関連イベント]\nトークイベント\n日時: 2026年10月18日19:00〜20:30\n登壇者: ナガタダイスケ、小林麻衣子（芦屋市立美術博物館学芸員）\n会場: DELTA/KYOTOGRAPHIE Permanent Space ／オンライン配信\n料金: 500円（1ドリンク制、定員15名、事前申込み必要）（オンライン 1000円）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-17",
+      "end_date": "2026-11-22",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "77951f0177a3",
+        "name": "DELTA / KYOTOGRAPHIE Permanent Space",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "DELTA / KYOTOGRAPHIE 상설 공간"
+          },
+          "ja": {
+            "name": "DELTA / KYOTOGRAPHIE 常設スペース"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.030379655690425,
+        "lng": 135.76843656519299
+      },
+      "artists": [
+        {
+          "id": "63bc396675f0",
+          "name": "ナガタダイスケ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Daisuke-Nagata-Blur/1-EE33-B43/2026-10-17",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "9876bb210061",
+      "source": "tokyo_art_beat",
+      "title": "佐々木黎 「Look at this」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/7f3f7999/174a04b1-6747-4739-a9bc-8a2fb9c50228.jpg",
+      "description": "18歳の写真家・佐々木黎による写真展「Look at this」を開催します。本展では、佐々木が17歳のとき、報道を通して知った能登半島の状況に疑問を抱き、自ら現地へ足を運んで撮影した写真を展示します。そこで現実に何が起きているのか。報道だけでは見えてこないものは何か。17歳の佐々木が見た能登の現実を、ぜひ会場でご覧ください。\n\n[関連イベント]\nアーティストトーク\n日時: 2026年11月7日16:00〜\n登壇者: 佐々木黎\n会場: ナガヤペーパーラボ\n料金: 無料（1ドリンクオーダー制）\n※イベント詳細は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-25",
+      "end_date": "2026-11-08",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "8102261bc897",
+        "name": "ナガヤ・ペーパー・ラボ",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "나가야 페이퍼 랩"
+          },
+          "en": {
+            "name": "Nagaya Paper Lab"
+          }
+        },
+        "region": "東京：その他",
+        "district": null,
+        "lat": 35.71687782228344,
+        "lng": 139.82349119510653
+      },
+      "artists": [
+        {
+          "id": "a7902ee52ef8",
+          "name": "佐々木黎",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Ray-Sasaki-Look-At-This/nagaya-paper-lab",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "95c5350a6c23",
+      "source": "tokyo_art_beat",
+      "title": "「水」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/ecbc54cd/2a1ea24f-2689-4e68-8b7c-e807ee5ea428.jpg",
+      "description": "Art Gallery M84は、2026年11月10日(火)より第84回プレザントクラブ写真展『水』を開催致します。今回の作品展は、Art Gallery M84で第175回目の展示として実施するグループ展です。プレザントクラブは、各会員が楽しく写真のレベルアップと会員間の交流を図ることを目標に活動しています。各会員は、それぞれ自分のテーマに取り組み写真活動を行っていますが、毎年共通のテーマを決めて写真展に向けて作品を仕上げています。今回のテーマは『水』です。落ちてきた水が爆発するような瞬間やシャワーの様にトマトに降り注ぐなど新たな視点の作品達です。写真表現の幅を広げてきたプレザントクラブ会員の世界を、ぜひ会場でご覧ください。活動は、作品作りの感覚をみがくため講師指導の下、月例撮影会と月例作品研究会を基本として、毎月開催する月例会では各会員が持参した作品に対して講師・同人による作品指導・作例研究後、全員参加での意見交換を実施して、会員のレベルアップに務めてまいりました。今回の写真展は、会員が１年間取り組んだ合計30点の組・単写真作品を展示・発表します。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-10",
+      "end_date": "2026-11-15",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "8882c8060b40",
+        "name": "Art Gallery M84",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Art Gallery M84"
+          },
+          "ja": {
+            "name": "Art Gallery M84"
+          }
+        },
+        "region": "銀座、丸の内",
+        "district": null,
+        "lat": 35.6701700910944,
+        "lng": 139.76835191558408
+      },
+      "artists": [
+        {
+          "id": "4bf7614739ed",
+          "name": "石川尚子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5137f213a861",
+          "name": "越智今日子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d06c8a43534b",
+          "name": "上村誠",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "486a1700a441",
+          "name": "川俣周三",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "01fbb1c959ef",
+          "name": "齋藤創一",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d3d335c14a81",
+          "name": "佐藤昭",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "54fc0f52daa2",
+          "name": "志保澤辰夫",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "959421d989dc",
+          "name": "土屋朝美",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "db770de55c6e",
+          "name": "野田光治",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e0d56d505334",
+          "name": "長谷川順一",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Water/D6-FE8782/2026-11-10",
       "featured": false,
       "popularity_score": null
     }
@@ -113289,6 +113524,20 @@
       "country": "JP",
       "lat": 35.29336581923472,
       "lng": 139.5796764588955,
+      "website": null
+    },
+    {
+      "id": "a5eb554acccc",
+      "name": "ギャラリー国立",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "武蔵野、多摩",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.697495003159396,
+      "lng": 139.44451072883606,
       "website": null
     }
   ],
@@ -142628,6 +142877,84 @@
     {
       "id": "518c22e5d452",
       "name": "宮田涼介",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "771ee2880d7f",
+      "name": "柴田徹之",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "63bc396675f0",
+      "name": "ナガタダイスケ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a7902ee52ef8",
+      "name": "佐々木黎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4bf7614739ed",
+      "name": "石川尚子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5137f213a861",
+      "name": "越智今日子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d06c8a43534b",
+      "name": "上村誠",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "486a1700a441",
+      "name": "川俣周三",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "01fbb1c959ef",
+      "name": "齋藤創一",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d3d335c14a81",
+      "name": "佐藤昭",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "54fc0f52daa2",
+      "name": "志保澤辰夫",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "959421d989dc",
+      "name": "土屋朝美",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "db770de55c6e",
+      "name": "野田光治",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e0d56d505334",
+      "name": "長谷川順一",
       "lang": null,
       "tr": {}
     }
