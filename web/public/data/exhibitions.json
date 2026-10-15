@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T17:45:25.082845+00:00",
+  "generated_at": "2026-10-15T21:23:33.881971+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -7359,7 +7359,7 @@
       "price_max": null,
       "start_date": "2026-10-15",
       "end_date": null,
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "725b77e9a74b",
@@ -90801,7 +90801,7 @@
       "price_max": null,
       "start_date": "2026-10-15",
       "end_date": "2026-10-19",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "801538c3e8a0",
@@ -99310,7 +99310,7 @@
       "price_max": null,
       "start_date": "2026-10-09",
       "end_date": "2026-10-14",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ad8bb1071c3a",
@@ -101772,7 +101772,7 @@
       "price_max": null,
       "start_date": "2026-10-15",
       "end_date": "2026-10-21",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "88cb1cebd561",
@@ -102202,6 +102202,807 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Water/D6-FE8782/2026-11-10",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "9ef2c32cbc11",
+      "source": "tokyo_art_beat",
+      "title": "佐内正史 「『復刊 生きている』刊行記念展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/73788a4d/519149e6-4c32-4eb7-8edc-fb8255e33897.jpg",
+      "description": "写真史に刻まれた名作写真集『生きている』の、約30年ぶりの復刊を記念した展示を開催します。写真家・佐内正史の初めての写真集『生きている』は1997年4月に刊行され、誰も見たことがなかった写真群は様々な反響を呼び、新たな才能を世の中が知るところとなりました。『生きている』はその後版を重ねましたが、本文に使っていた用紙が生産中止となったことが原因で重版ができなくなり、長らく品切れとなっていました。\n\nしかし、2025年に青幻舎が30周年を迎えるにあたって、メモリアルイヤーのスペシャル企画として、今では手に入らなくなってしまった本を復刊しようというプロジェクトが立ち上がり、読者の皆様からリクエストを募った結果、『生きている』の復刊を望む多くの声が寄せられ、復刊が決定したのです。本展では『復刊 生きている』の印刷物を使って佐内自らが制作した特製ポスターの展示をメインに、「生きている」の世界を体感できる特別な空間が出現します。また、写真家/佐内正史、スタイリスト/伊賀大介、TANGTANGデザイナー/丹野真人の3人によるフォトTシャツレーベル「GASATANG」が『生きている』の復刊に合わせて制作したTシャツやトートバッグなどのグッズも展開。皆様と一緒に30年ぶりの復刊を祝う場になればと願っております。こぞってお立ち寄りください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-16",
+      "end_date": "2026-10-31",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "a99c05f8f3ec",
+        "name": "誠光社",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "세이코샤"
+          },
+          "en": {
+            "name": "Seikosha"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.01830679587178,
+        "lng": 135.76959521842002
+      },
+      "artists": [
+        {
+          "id": "aeb80c15cad6",
+          "name": "佐内正史",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사나이 마사후미"
+            },
+            "en": {
+              "name": "Masafumi Sanai"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Masafumi-Sanai-Ikiteiru-Republication-Celebration-Exhibition/seikosha/2026-10-16",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "4461b1f27a1c",
+      "source": "tokyo_art_beat",
+      "title": "盧琪婷 + Eva Chih 「自分自身のアミーゴになろう」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/380a6fa3/9a8f7bbb-b8e4-43fc-8cd9-a235d8caa94b.jpg",
+      "description": "台湾・台北を拠点とする作家2名が、10月4日から11月3日まで当施設に滞在します。本展は、その滞在期間中に沼津で制作した作品を発表する成果発表展です。展示は4部構成で、中心となるのは、画家のChita Luが滞在中に描いた絵と、写真家のEva Chihが沼津で撮影した写真を、1枚の大画面に構成した共作です。このほか、滞在の記録をまとめた冊子、来場者を撮影したポラロイド写真に作家が手描きの額縁を添えて渡す参加型作品、滞在の記録映像を展示します。制作にあたっては、画材の調達とフィルムの現像を静岡県内で行う予定です。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-27",
+      "end_date": "2026-11-02",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "7b72b6e23f45",
+        "name": "Artspace入サ岩﨑商店",
+        "lang": null,
+        "tr": {},
+        "region": "静岡県",
+        "district": null,
+        "lat": 35.10171051884251,
+        "lng": 138.8535159769923
+      },
+      "artists": [
+        {
+          "id": "e307573c6497",
+          "name": "盧琪婷",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c5af35a5dbaa",
+          "name": "Eva Chih",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Chita-Lu-Eva-Chih-Be-Your-Own-Amigo/Artspace-Irisa-Iwazaki-Shouten/2026-10-27",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "2679d5e42c8b",
+      "source": "tokyo_art_beat",
+      "title": "下屋敷和文 「途上｜along the way エキシビジョン」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/fbff76cb/575b7fbf-7e42-417a-a736-91da3f43cdd9.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-01",
+      "end_date": "2026-11-15",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "a99c05f8f3ec",
+        "name": "誠光社",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "세이코샤"
+          },
+          "en": {
+            "name": "Seikosha"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.01830679587178,
+        "lng": 135.76959521842002
+      },
+      "artists": [
+        {
+          "id": "d2042bb2628d",
+          "name": "下屋敷和文",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kazufumi-Shimoyashiki-Along-the-way-Exhibition/seikosha/2026-11-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "d3796d3b143f",
+      "source": "tokyo_art_beat",
+      "title": "「TAAP Live 2026」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/6d31b1bc/bd190c28-c524-41d2-ac52-078855ef4cdc.jpg",
+      "description": "Tokyo Artist Accelerator Program（TAAP）は、自立した継続的な活動を目指す美術・映像分野の若手アーティストを支援するプログラムです。アーティスト自身によって作品を語るプレゼンテーションに焦点をあて、作品を語る力の向上とコンセプト強化の両面からサポートします。選考を経た支援アーティストへ、自由度の高い制作支援金を支給するとともに、現代アートの多様なスペシャリストと8ヶ月にわたる継続的なメンタリングを実施し、プレゼンテーションの機会（TAAP Live）を創出することで、東京を起点とする若手アーティストの飛躍を支援します。TAAP第３期支援アーティストが集い、8か月にわたるメンタリングの成果として、作品のコンセプトや制作の背景をプレゼンテーションするイベントが「TAAP Live」です。\n\n◼️内容・スケジュール：\n◉プレゼンテーション\n12名の支援アーティストが、作品について語る各10分間のプレゼンテーションステージ。ギャラリストやアーティスト、コレクター、キュレーターら多様な背景を持つ現代アートのスペシャリストによって構成される選考委員およびメンターとの継続的な対話を重ねてきた成果を発表します。※プレゼンテーションは日本語のみとなります。内容・登壇順は予告なく変更される場合がありますので、最新のタイムテーブルはTAAP公式サイトでご確認ください。\n\n2026年11月14日（土）\n13:00 古川諒子 『名前になる原因』\n13:45 敷地理 『舌上の星座、痛み | Crucified Stars on the Tongue』\n14:25 安原杏子 『神話と資源とインフラ』\n15:20 澤寛 『JASMERAH: Spectacle of the Unseen マンドール事件、記録と記憶のずれをめぐって』\n16:00 何梓羽 『品川沖異常接触事件』\n16:40 井村一登 『breaststroke effect』\n\n2026年11月15日（日）\n13:00 石原海 『都市の星座をつくる―北九州と地域のコミュニティ主体の映像制作』\n13:45 鍋梨世知 『アウト・オブ・工芸』\n14:25 山中春海 『戦争PTSDと世代間連鎖 / 「Who is sitting there?」』\n15:20 岩井美佳 『「いま、ここ」を感じる水路の話』\n16:00 志賀耕太 『Once Upon a Time in… Tokyo ―「もしも」で遊ぶ歴史について』\n16:40 みょうじなまえ 『デスデザイン / 未来における死と葬送のデザインについて』\n\n2026年11月16日（月）\n12:00-13:05 みょうじなまえ / 志賀耕太 / 岩井美佳 / 山中春海\n13:15-14:15 鍋梨世知 / 井村一登 / 何梓羽 / 澤寛\n14:25-15:25 安原杏子 / 敷地理 / 古川諒子 / 石原海\n\n◉ワーク・イン・プログレス展示\n支援アーティストそれぞれのプレゼンテーション内容をもとに、その活動やコンセプト、プロセスを展示し、アーティスト活動を多面的に知ることができる場を設けました。また、プレゼンテーション資料もモニターにて公開します。\n\n2026年11月14日（土） 12:00-19:00（最終入場：18:30）\n2026年11月15日（日） 12:00-19:00（最終入場：18:30）\n2026年11月16日（月） 12:00-17:00（最終入場：16:30）\n\n[関連イベント]\n1. トークセッション\n日時: 2026年11月14日、11月15日17:45〜18:30\nファシリテーター: あづまっくす\n2. アーティストトーク\n日時: 2026年11月16日15:30〜16:30\n登壇者: 発表アーティスト\n※イベント詳細は公式ホームページよりご確認ください。",
+      "medium": "video",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-14",
+      "end_date": "2026-11-16",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5e31793a054c",
+        "name": "TODA BUILDING",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "TODA BUILDING"
+          },
+          "ja": {
+            "name": "TODA BUILDING"
+          }
+        },
+        "region": "京橋、日本橋",
+        "district": null,
+        "lat": 35.6783,
+        "lng": 139.7716
+      },
+      "artists": [
+        {
+          "id": "1088d53dbf8c",
+          "name": "石原海",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "9845813cd70e",
+          "name": "井村一登",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "fe3fad9c8d3f",
+          "name": "岩井美佳",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "de28038e3de3",
+          "name": "何梓羽",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "하재우"
+            },
+            "en": {
+              "name": "He Ziyu"
+            }
+          }
+        },
+        {
+          "id": "66775611c58a",
+          "name": "澤寛",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "16f5e1ae3b1c",
+          "name": "志賀耕太",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "시가 코타"
+            },
+            "en": {
+              "name": "Shiga Kota"
+            }
+          }
+        },
+        {
+          "id": "3c7b6df769f2",
+          "name": "敷地理",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "004f25850864",
+          "name": "鍋梨世知",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c5ddfedf8214",
+          "name": "古川諒子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "2767e8584c36",
+          "name": "みょうじなまえ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "31d4cadf9587",
+          "name": "安原杏子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5e3b298e40bd",
+          "name": "山中春海",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/TAAP-Live-2026/toda-building/2026-11-14",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "d19d1503105e",
+      "source": "tokyo_art_beat",
+      "title": "北村圭介 「巡る」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/e65db909/42c13e1f-fbeb-417d-9b03-53f99d2fb6d6.jpg",
+      "description": "個展『巡る』が、2026年10月29日（木）から11月17日（火）まで、東京・目黒のBOOK AND SONSにて開催されます。本展は、子どもの頃の断片的で曖昧な記憶をテーマに、自身の子どもたちとの日々を撮り続けてきた写真によって構成される展覧会です。何気ない日常の風景や、ふとした表情、いつか忘れてしまうかもしれない瞬間。写真に残された光景を通して、記憶と時間のあいだにある曖昧さや、過ぎ去った日々の気配を見つめます。また、展覧会に合わせて同名の写真集『巡る』も刊行。写真作品に加え、一冊の本としての構成や装丁、印刷にもこだわって制作されています。写真というかたちで残された時間が、見る人それぞれの記憶と重なり合うような展覧会です。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-29",
+      "end_date": "2026-11-17",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "8b8bf1f13f39",
+        "name": "BOOK AND SONS",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "BOOK AND SONS"
+          },
+          "ja": {
+            "name": "BOOK AND SONS"
+          }
+        },
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.630555907872754,
+        "lng": 139.68703549294352
+      },
+      "artists": [
+        {
+          "id": "49b3c0d67248",
+          "name": "北村圭介",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Keisuke-Kitamura-Meguru/87-C23676/2026-10-29",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "7c168770e096",
+      "source": "tokyo_art_beat",
+      "title": "松元康明 「（R）AW（e）」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/cd3f8308/91615439-9b75-4d47-88f5-ee91955c1478.jpg",
+      "description": "ここ数年、松元さんが奥深い森に通って制作しているふたつのプロジェクト。\n森の空気感をなるだけ生の状態(RAW) で捉えた“somewhere forest”と、そのイメージに森への畏怖の念 (AWE) を込めた表現を加えた “piles”。\n“somewhere forest”は、F値開放で撮られたモノクローム写真で、その場に立っていた時の湿った空気や眩しい木漏れ日を思い出させます。そのプリントを森の土で煮込み、パズルの様に森のピースを再構築した”piles”は、迫ってくる目には見えない森のパワーのうねりや様々な生命のリズムを想起させます。全く違う印象を持ったイメージ達ですが、それぞれが違った観点で松元さんにとっての森を表現する大切なシリーズです。\n今回、この異なったふたつのアプローチを同じ空間に存在させる事でどのような相乗効果が現れるのか、より多くの方々に体験して頂けたら幸いです。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-28",
+      "end_date": "2026-11-15",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "018b6124fde6",
+        "name": "ルーニィ 247 ファインアーツ",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "루니 247 파인아츠"
+          },
+          "en": {
+            "name": "Rooney 247 Fine Arts"
+          }
+        },
+        "region": "浅草橋、馬喰町",
+        "district": null,
+        "lat": 35.692819870905694,
+        "lng": 139.77994191009685
+      },
+      "artists": [
+        {
+          "id": "a9dcc39f29fa",
+          "name": "松元康明",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yasuaki-Matsumoto-Rawe/6694-D683/2026-10-28",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "ea5454bad49b",
+      "source": "tokyo_art_beat",
+      "title": "松田真生 「劇場」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/e7bf17f0/ab3493aa-7ade-4617-b0da-98df41679ca3.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-26",
+      "end_date": "2026-10-31",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "b421867c34c6",
+        "name": "ギャラリー巷房",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 코보"
+          },
+          "en": {
+            "name": "Gallery Kobo"
+          }
+        },
+        "region": "銀座、丸の内",
+        "district": null,
+        "lat": 35.6737337182724,
+        "lng": 139.7688297118101
+      },
+      "artists": [
+        {
+          "id": "b684e67c90e0",
+          "name": "松田真生",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Mao-Matsuda-Theater/D64-B034-A/2026-10-26",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "e148267749d6",
+      "source": "tokyo_art_beat",
+      "title": "森山大道 + アンダース・ペーターセン 「『MP』 （Moriyama + Petersen）」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/07c45db6/38e2c536-39e4-4f9d-936a-a926ed6ee0b0.jpg",
+      "description": "スタジオ35分では、森山大道とアンダース・ペーターセンの二人展を開催いたします。本展は前期をAD（Anders + Daido）、後期をMP（Moriyama + Petersen）とし、会期を二期に分けて開催します。前期と後期で作品はすべて入れ替わり、各期、両作家から8点ずつ、計16点の作品を展示・販売いたします。\n\n森山大道は1938年に大阪で、アンダース・ペーターセンは1944年にストックホルムで生まれました。1968年、森山大道が『にっぽん劇場写真帖』を出版し、独自のスタイルを発展させていた頃、アンダース・ペーターセンは、のちに代表作となる『Café Lehmitz』の撮影をドイツ・ハンブルクで行っていました。二人に共通するのは、モノクロームによる私的なスナップショットというアプローチです。その表現は、直感的であると同時に、身体的なものでもあります。レンズを通して外界に即興的に反応することで生まれるイメージは、見る者に強烈な印象を与え、その後の写真表現にも大きな影響を及ぼしてきました。\n\n2025年、スタジオ35分ではアンダース・ペーターセンの『Café Lehmitz』を展示しました。この展覧会をきっかけに、アンダースとの交流はより深いものになりました。今回の展覧会を企画する種火となったのは、スウェーデン・ストックホルムにある彼のスタジオを訪れた際の、ある会話だったように思います。彼から「最近、大道はどんな活動をしているの？」と聞かれました。森山さんと個人的な面識のない私は、インスタグラムで見かけた近年の森山さんの顔写真を見せ、「白髪になったみたいだよ」と答えました。すると彼は、「こっちの方が絶対いいよ」と笑いました。\n\n極東の日本と極北のスウェーデン。遠く離れた土地で、同じ時代を写真とともに疾走してきた二人。言葉や国境を越えて、写真を通して共感し合うことができる。そんな二人の関係に魅力を感じ、二人の作品をスタジオ35分の小さな空間に並べてみたいと思うようになりました。本展では、二人の作品を単純に対比させるのではなく、それぞれのイメージが同じ空間でどのように共鳴し、反響し合うのかを探ります。写真の黄金時代ともいえる20世紀にそれぞれの表現を切り拓いてきた二人の巨匠。二人の名作の共演を、ぜひご高覧ください。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-25",
+      "end_date": "2026-12-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "faa42437658a",
+        "name": "スタジオ35分",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "스튜디오 35분"
+          },
+          "en": {
+            "name": "Studio 35 Minutes"
+          }
+        },
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.717703340381306,
+        "lng": 139.67294365040235
+      },
+      "artists": [
+        {
+          "id": "a84a56f0f320",
+          "name": "森山大道",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "모리야마 다이도"
+            },
+            "en": {
+              "name": "Daido Moriyama"
+            }
+          }
+        },
+        {
+          "id": "32426257af2e",
+          "name": "アンダース・ペーターセン",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Daido-Moriyama-Anders-Petersen-MPMoriyama-Petersen/713-BBAA7/2026-11-25",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "2e30ff19a7fe",
+      "source": "tokyo_art_beat",
+      "title": "森山大道 + アンダース・ペーターセン 「 『AD』（Anders + Daido）」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/da4ae079/f7d1f502-1fe7-4553-9836-d4197a4e6165.jpg",
+      "description": "スタジオ35分では、森山大道とアンダース・ペーターセンの二人展を開催いたします。本展は前期をAD（Anders + Daido）、後期をMP（Moriyama + Petersen）とし、会期を二期に分けて開催します。前期と後期で作品はすべて入れ替わり、各期、両作家から8点ずつ、計16点の作品を展示・販売いたします。\n\n森山大道は1938年に大阪で、アンダース・ペーターセンは1944年にストックホルムで生まれました。1968年、森山大道が『にっぽん劇場写真帖』を出版し、独自のスタイルを発展させていた頃、アンダース・ペーターセンは、のちに代表作となる『Café Lehmitz』の撮影をドイツ・ハンブルクで行っていました。二人に共通するのは、モノクロームによる私的なスナップショットというアプローチです。その表現は、直感的であると同時に、身体的なものでもあります。レンズを通して外界に即興的に反応することで生まれるイメージは、見る者に強烈な印象を与え、その後の写真表現にも大きな影響を及ぼしてきました。\n\n2025年、スタジオ35分ではアンダース・ペーターセンの『Café Lehmitz』を展示しました。この展覧会をきっかけに、アンダースとの交流はより深いものになりました。今回の展覧会を企画する種火となったのは、スウェーデン・ストックホルムにある彼のスタジオを訪れた際の、ある会話だったように思います。彼から「最近、大道はどんな活動をしているの？」と聞かれました。森山さんと個人的な面識のない私は、インスタグラムで見かけた近年の森山さんの顔写真を見せ、「白髪になったみたいだよ」と答えました。すると彼は、「こっちの方が絶対いいよ」と笑いました。\n\n極東の日本と極北のスウェーデン。遠く離れた土地で、同じ時代を写真とともに疾走してきた二人。言葉や国境を越えて、写真を通して共感し合うことができる。そんな二人の関係に魅力を感じ、二人の作品をスタジオ35分の小さな空間に並べてみたいと思うようになりました。本展では、二人の作品を単純に対比させるのではなく、それぞれのイメージが同じ空間でどのように共鳴し、反響し合うのかを探ります。写真の黄金時代ともいえる20世紀にそれぞれの表現を切り拓いてきた二人の巨匠。二人の名作の共演を、ぜひご高覧ください。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-21",
+      "end_date": "2026-11-21",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "faa42437658a",
+        "name": "スタジオ35分",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "스튜디오 35분"
+          },
+          "en": {
+            "name": "Studio 35 Minutes"
+          }
+        },
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.717703340381306,
+        "lng": 139.67294365040235
+      },
+      "artists": [
+        {
+          "id": "a84a56f0f320",
+          "name": "森山大道",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "모리야마 다이도"
+            },
+            "en": {
+              "name": "Daido Moriyama"
+            }
+          }
+        },
+        {
+          "id": "32426257af2e",
+          "name": "アンダース・ペーターセン",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Daido-Moriyama-Anders-Petersen-AD-Anders-Daido/713-BBAA7/2026-10-21",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "04937c47fd24",
+      "source": "tokyo_art_beat",
+      "title": "「ゆっきゅんDIVALAND」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/5deba7e6/e2bf651c-08fa-458f-8785-5f844b6930bf.png",
+      "description": "DIVAとして音楽活動を中心に幅広く活動するゆっきゅんのDIVA活動開始5周年を記念した展覧会「ゆっきゅんDIVALAND」を、開催いたします。2021年に「DIVA PROJECT」を始動し、音楽活動を中心に、作詞提供、映画批評やコラム執筆、トークなどジャンルを横断しながら、日常のささいな感情を独自の言葉と表現へと変えて人々の内なるDIVAに火を付けてきたゆっきゅん。2026年10月には、初の書籍『孤独はかけがえないディスコ』も刊行されました。本展では、活動を始めてから現在までの軌跡を、写真や年表とともに振り返ります。これまで実際に着用した衣装や写真、活動にまつわる秘蔵資料など、普段は見ることのできないアイテムを展示するほか、ゆっきゅんの部屋を再現したスペースも登場。\n\n何気ない日常や、名前のつかない気持ちさえもかけがえのないものへと変えてきたゆっきゅんの世界を体感できる空間を展開します。来園者、あんたがDIVA。会期中は、トークイベントも開催。5周年を記念した特別な企画を通して、ゆっきゅんと一緒にDIVAの世界を楽しむことができます。本展の開催を記念したオリジナルグッズも販売予定。5周年ならではのアイテムにもぜひご注目ください。展示とイベントを通して、ゆっきゅんのこれまでとこれからを感じられる「DIVALAND」をお届けします。\n\n[関連イベント]\n1. SPECIAL TALK SHOW DAY.1\n日時: 2026年10月30日19:00〜\n登壇者: 藪前知子、須藤絢乃\n料金: 2300円\n2. SPECIAL TALK SHOW DAY.2\n日時: 2026年11月3日19:00〜\n登壇者: YUHEI\n料金: 2300円\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-29",
+      "end_date": "2026-11-03",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "b99033a3f93f",
+        "name": "GALLERY X",
+        "lang": null,
+        "tr": {},
+        "region": "渋谷",
+        "district": null,
+        "lat": 35.66204174873168,
+        "lng": 139.6989780513043
+      },
+      "artists": [
+        {
+          "id": "0ad4555ba65a",
+          "name": "ゆっきゅん",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yukkyun-Divaland/FDCA21-B9/2026-10-29",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "4b3c5565e5e8",
+      "source": "tokyo_art_beat",
+      "title": "「森と、小さなクリーチャーズ」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/17696187/967518d0-b898-4fcb-a1af-2d777aa78150.png",
+      "description": "森の奥で小さな存在たちと出会う。立体や絵、写真を通して、それぞれの作家が描く世界を感じていただけたら嬉しいです。12名の作家による多彩な世界が広がります。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-24",
+      "end_date": "2026-11-07",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "14b5d56a101d",
+        "name": "Art Gallery Shirokane 6c",
+        "lang": null,
+        "tr": {},
+        "region": "白金、広尾",
+        "district": null,
+        "lat": 35.644484904309984,
+        "lng": 139.72335306134224
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Forest-and-Little-Creatures/art-gallery-shirokane-6c/2026-10-24",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "cb0b26ff5681",
+      "source": "tokyo_art_beat",
+      "title": "クレイグ・マクディーン 「750 Super Sport」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/c0e2a947/eb9ef8af-204e-49c0-8f68-d229d1d8243d.jpg",
+      "description": "NYを拠点に活動するイギリス出身のファッションフォトグラファー、Craig McDean（クレイグ・マクディーン）の新刊写真集『750 Super Sport』の刊行を記念し、写真展を開催いたします。Craig McDeanは、写真家Nick Knight（ニック・ナイト）のアシスタントとしてキャリアをスタート。その後、ロンドンを拠点に写真家として活動を始め、i-DやThe Faceをはじめ、数多くのファッション誌で作品を発表してきました。これまでに、Jil Sander、Calvin Kleinをはじめ、Chanel、Max Mara、Gucci、Giorgio Armani、Yves Saint Laurentなど、数多くの世界的ファッションブランドのキャンペーンを手がけています。また、Vogue、W、AnOther Magazineなどの主要ファッション誌では、エディトリアル・スプレッドを定期的に発表し、ファッションフォトグラフィーの第一線で活躍を続けています。\n\n本展に合わせ、SUPER LABOよりCraig McDeanのプライベートワークを収録した写真集『750 Super Sport』を刊行いたします。写真集では、Ducatiのモーターサイクルをテーマに撮り下ろした作品を収録し、本展ではその中から数点を展示いたします。ファッション写真とは異なる視点から捉えられたモーターサイクルと、その周囲に広がる世界。Craig McDeanのプライベートワークを通して、これまでとは異なる彼の写真表現をご覧いただけます。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-22",
+      "end_date": "2026-11-28",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "02db9d878919",
+        "name": "SUPER LABO STORE TOKYO",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "SUPER LABO STORE TOKYO"
+          },
+          "ja": {
+            "name": "SUPER LABO STORE TOKYO"
+          }
+        },
+        "region": "竹橋、水道橋、末広町",
+        "district": null,
+        "lat": 35.6985,
+        "lng": 139.7592
+      },
+      "artists": [
+        {
+          "id": "1491deb09552",
+          "name": "クレイグ・マクディーン",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Craig-Mc-Dean-750-Super-Sport/super-labo-store-tokyo/2026-10-22",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f738e1d73545",
+      "source": "tokyo_art_beat",
+      "title": "周予銘 「捕鼠者」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/8a5968b8/be82969a-e0bd-4c53-b901-1d69faa4e366.JPG",
+      "description": "本展では、作者が自身の飼育経験を出発点に、生命の循環と異なる種のあいだに存在する関係性を探る作品を紹介します。幼い頃から動物に関心を寄せてきた作者は、特にネズミとヘビの関係に強く惹かれ、やがてヘビの飼育を始めました。飼育という人為的に構築された環境のなかでは、それぞれの生き物に異なる役割が与えられ、命は繰り返し与えられ、維持され、そして終わりを迎えます。そこでは、自然界における捕食者と被食者の関係も、人間の介入によって新たなかたちへと組み替えられていきます。本展を通して作家は、飼育という小さなシステムのなかに生まれる生命の関係性を見つめ直し、人間が定めた役割や秩序のもとで、生き物本来の性質がどこまで保たれるのかを問いかけます。また、異なる種のあいだに存在する境界は、私たち人間にとって、どこまで認識し得るものなのでしょうか。身近な飼育経験から出発しながら、生命の本質と人間の認識のあり方へと視点を広げる試みです。\n\n※本展には、ヘビやネズミを写実的に捉えた写真作品が含まれます。一部の作品には、動物の死骸を写した写真が含まれます。ご覧になる方によっては不安や不快感を覚える場合がございますので、あらかじめご了承ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-29",
+      "end_date": "2026-11-02",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "238fe96014e5",
+        "name": "写真店maruphoto",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "사진점 maruphoto"
+          },
+          "en": {
+            "name": "Photo Shop maruphoto"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.018383294965,
+        "lng": 135.77478583068847
+      },
+      "artists": [
+        {
+          "id": "ba7b477f919a",
+          "name": "周予銘",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Zhou-Yuming-Ratcatcher/maruphoto/2026-10-29",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "3940bc64fdb5",
+      "source": "tokyo_art_beat",
+      "title": "「第81回 福岡県美術展覧会 筑豊巡回展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/4342a2c1/%E3%83%9B%E3%82%9A%E3%82%B9%E3%82%BF%E3%83%BC_%E5%9C%A7%E7%B8%AE%20-%20%E7%B9%94%E7%94%B0%E5%BB%A3%E5%96%9C%E7%BE%8E%E8%A1%93%E9%A4%A8.jpg",
+      "description": "第81回 福岡県美術展覧会 筑豊巡回展を開催します。「県展」の名で親しまれる福岡県美術展覧会は、毎年約2,500点の応募がある県内最大級の公募展です。本展では、洋画・日本画・写真・デザイン・書の5部門から選りすぐりの作品を、3期に分けて展示します。一般公募の入賞作品をはじめ、福岡県美術協会員の入賞作品、筑豊地区の入選作品・会員作品など、見応えのある作品が一堂に集まります。各会期最終日には、福岡県美術協会会員による「合評会」を開催します。講師が作品の見方や受賞作品のポイントを解説する、作品をより深く楽しむことができる機会です。また、11月8日（日）には、筑豊フィルハーモニー管弦楽団による「オダビdeミニ・コン♪」を開催します。展示室で美術作品を鑑賞しながら音楽を楽しむ、特別なひとときをお届けします。芸術の秋に、さまざまなジャンルの作品と音楽に触れてみませんか。ご家族やご友人と一緒に、ぜひ嘉麻市立織田廣喜美術館へお越しください。皆さまのご来館を心よりお待ちしております。\n\n【会期】\n第1期：洋画／10月28日（水）～11月1日（日）\n第2期：日本画・写真・デザイン／11月4日（水）～11月8日（日）\n第3期：書／11月11日（水）～11月15日（日）\n\n[関連イベント]\n1. 合評会①\n日時: 2026年11月1日15:30〜\n2. 合評会②\n日時: 2026年11月8日14:00〜\n3. 合評会③\n日時: 2026年11月15日15:30〜\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-28",
+      "end_date": "2026-11-15",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "365f8a71901c",
+        "name": "嘉麻市立織田廣喜美術館",
+        "lang": null,
+        "tr": {},
+        "region": "福岡県",
+        "district": null,
+        "lat": 33.56045921412805,
+        "lng": 130.70836387492236
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/81st-Fukuoka-Prefectural-Art-Exhibition-Chikuho-Traveling-Exhibition/hiroki-oda-museum-of-art/2026-10-28",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "6a1cdb2fbef7",
+      "source": "tokyo_art_beat",
+      "title": "「祝祭と旅、記憶と光」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/a96a5cba/13d52639-40c0-4003-8218-eabdde585d61.jpg",
+      "description": "尾角朋子、澄毅、ミスミタクマによる三人展「祝祭と旅、記憶と光」を開催いたします。タイトルである祝祭、旅、記憶、光という4つの要素を軸に3人の写真家・作家の世界を提示します。会期中の土曜日にはギャラリートークも開催するので、ぜひお越し頂けたら幸いです。\n\n[関連イベント]\n1. ギャラリートーク\n日時: 2026年10月17日14:00〜\n登壇者: 出展作家\n会場: HILL TOP GALLERY\n料金: 無料（事前申込み不要）\n2. ギャラリートーク\n日時: 2026年10月24日16:00〜\n登壇者: 出展作家、勝又公仁彦（写真家・京都芸術大学教授）\n会場: HILL TOP GALLERY\n料金: 無料（事前申込み不要）\n※イベント詳細は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-25",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "f46b9eafe809",
+        "name": "HILL TOP GALLERY",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "힐탑 갤러리"
+          },
+          "ja": {
+            "name": "ヒルトップギャラリー"
+          }
+        },
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.67668176195835,
+        "lng": 135.50449119510654
+      },
+      "artists": [
+        {
+          "id": "313e31475f99",
+          "name": "尾角朋子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "42b30726d3d9",
+          "name": "澄毅",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "스미 타케시"
+            },
+            "en": {
+              "name": "Sumi Takeshi"
+            }
+          }
+        },
+        {
+          "id": "230fbf07296d",
+          "name": "ミスミタクマ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Celebration-Journey-Memory-and-Light/hill-top-gallery/2026-10-17",
       "featured": false,
       "popularity_score": null
     }
@@ -113538,6 +114339,62 @@
       "country": "JP",
       "lat": 35.697495003159396,
       "lng": 139.44451072883606,
+      "website": null
+    },
+    {
+      "id": "7b72b6e23f45",
+      "name": "Artspace入サ岩﨑商店",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "静岡県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.10171051884251,
+      "lng": 138.8535159769923,
+      "website": null
+    },
+    {
+      "id": "b99033a3f93f",
+      "name": "GALLERY X",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "渋谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.66204174873168,
+      "lng": 139.6989780513043,
+      "website": null
+    },
+    {
+      "id": "14b5d56a101d",
+      "name": "Art Gallery Shirokane 6c",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "白金、広尾",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.644484904309984,
+      "lng": 139.72335306134224,
+      "website": null
+    },
+    {
+      "id": "365f8a71901c",
+      "name": "嘉麻市立織田廣喜美術館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "福岡県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 33.56045921412805,
+      "lng": 130.70836387492236,
       "website": null
     }
   ],
@@ -142955,6 +143812,138 @@
     {
       "id": "e0d56d505334",
       "name": "長谷川順一",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e307573c6497",
+      "name": "盧琪婷",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c5af35a5dbaa",
+      "name": "Eva Chih",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d2042bb2628d",
+      "name": "下屋敷和文",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1088d53dbf8c",
+      "name": "石原海",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9845813cd70e",
+      "name": "井村一登",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fe3fad9c8d3f",
+      "name": "岩井美佳",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "66775611c58a",
+      "name": "澤寛",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3c7b6df769f2",
+      "name": "敷地理",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "004f25850864",
+      "name": "鍋梨世知",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c5ddfedf8214",
+      "name": "古川諒子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2767e8584c36",
+      "name": "みょうじなまえ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "31d4cadf9587",
+      "name": "安原杏子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5e3b298e40bd",
+      "name": "山中春海",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "49b3c0d67248",
+      "name": "北村圭介",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a9dcc39f29fa",
+      "name": "松元康明",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b684e67c90e0",
+      "name": "松田真生",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "32426257af2e",
+      "name": "アンダース・ペーターセン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0ad4555ba65a",
+      "name": "ゆっきゅん",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1491deb09552",
+      "name": "クレイグ・マクディーン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ba7b477f919a",
+      "name": "周予銘",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "313e31475f99",
+      "name": "尾角朋子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "230fbf07296d",
+      "name": "ミスミタクマ",
       "lang": null,
       "tr": {}
     }
