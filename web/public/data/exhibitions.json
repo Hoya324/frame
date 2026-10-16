@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T17:21:59.500602+00:00",
+  "generated_at": "2026-10-16T20:57:36.499599+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -74617,7 +74617,7 @@
       "price_max": null,
       "start_date": "2026-09-04",
       "end_date": "2026-10-15",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "264da55cd4ca",
@@ -85786,7 +85786,7 @@
       "price_max": null,
       "start_date": "2026-09-25",
       "end_date": "2026-10-15",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "264da55cd4ca",
@@ -87165,7 +87165,7 @@
       "price_max": null,
       "start_date": "2026-10-16",
       "end_date": "2026-11-01",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "682d65a7e00b",
@@ -88387,7 +88387,7 @@
       "price_max": null,
       "start_date": "2026-10-01",
       "end_date": "2026-10-15",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "a99c05f8f3ec",
@@ -90738,7 +90738,7 @@
       "price_max": null,
       "start_date": "2026-10-16",
       "end_date": "2026-11-28",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "020ae6e78a04",
@@ -94668,7 +94668,7 @@
         }
       },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/65d20e98/image.webp",
-      "description": "本美術展の初期計画を共に構想してきた、故 山峰潤也氏の未完の企画をテレコムセンターにてドキュメント展示。国内外で独自に築いてきた実践のアーカイブと共に彼の軌跡をたどります。\n\n会場: テレコムセンター 5F",
+      "description": "本美術展の初期計画を共に構想してきた、故 山峰潤也氏の未完の企画をテレコムセンターにてドキュメント展示。国内外で独自に築いてきた実践のアーカイブと共に彼の軌跡をたどります。\n\n本展では、実現しなかった展覧会構想を記録したアーカイブ冊子と展示プランを紹介しています。そこに含まれる作家は以下の通りです。\nオウ・ソウイー × チェン・ヨウルー（ハー・ラボ・スペース）、小宮りさ麻吏奈、ウー・チーユー、ジョウ・シャオフー、ナキット・サンドラ・スービ、イサム・クルバジ、リチャード・モス、フードスケープス、コーネリア・ソルフランク、リー・イーファン、ディス、ミラ・M・ヤン、小泉明郎、ジョーダン・ウォルフソン、ローレン・マッカーシー、ソンウ、ユリウス・フォン・ビスマルク、ジュラ・シュスト、アデル・アビディン、渡辺志桜里、ハルーン・ミルザ、森靖、ソニア・ゴメス、タレク・アトゥイ、ルー・ヤン、ブラスト・セオリー、レアンドロ・エルリッヒ、ジャコモ・ザガネッリ\n\n会場: テレコムセンター 5F",
       "medium": "mixed",
       "exhibition_type": "curated",
       "genre_tags": [],
@@ -96344,7 +96344,7 @@
       "price_max": null,
       "start_date": "2026-10-08",
       "end_date": "2026-10-15",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "6ddef654bbc6",
@@ -97760,7 +97760,7 @@
           "description": "Ephemere Photo Fest 2026 will be held from October 17th to 27th, 2026, at Three Space Tokyo in Asakusabashi. This is an annual international photography festival themed around experiencing contemporary photography, photobooks, and \"printed matter.\" Admission is free, and the festival will feature exhibitions, publications, artist talks, workshops, and networking events across three floors. On the first floor, \"Come What May: Threefold Perspectives, Fragments, and Forms\" will showcase 270 works by 90 artists from around the world. This exhibition explores the time, rhythm, and narrative that emerge when a triptych (a work composed of three images) is viewed as a single form of expression.\n\nOn the second floor, \"The Ephemere Photobook Exhibition\" will feature over 50 independent photobooks collected from various parts of the world, and on the third floor, \"ANTHOLOGY 3,\" a group exhibition by nine photographers from Japan and abroad, will be held. Additionally, new publications and monographs by artists from Japan, the UK, the Philippines, and Australia will be unveiled, including \"Ephemere Photo Journal Vol. 2\" (themed \"Ephemerality Through Triplicities\"), produced in collaboration with Kyoto Shimbun Insatsu. During the festival, free workshops will be offered, allowing participants to experience photographic techniques such as Anthotype, Cyanotype, and Mordançage, as well as ZINE production and visual editing, in addition to artist talks, book launches, and networking events. The final presentation of the Ephemere Photobook Dummy Masterclass will also take place."
         }
       },
-      "poster_image_url": null,
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/3293d3b7/844b7936-7501-46bd-9d9a-d4810e3ad226.jpg",
       "description": "2026年10月17日〜27日、浅草橋のThree Space Tokyoにて、Ephemere Photo Fest 2026を開催します。現代写真、フォトブック、そして「印刷されたもの」に触れる体験をテーマにした、毎年開催の国際的な写真フェスティバルです。入場無料で、3フロアにわたり、展示、出版、アーティストトーク、ワークショップ、交流イベントを行います。1階では、世界90名のアーティストによる270点の作品を紹介する Come What May: Threefold Perspectives, Fragments, and Forms を開催。3枚のイメージからなるトリプティック（三連作）をひとつの表現形式として捉え、そこから生まれる時間、リズム、物語性を探ります。\n\n2階では、世界各地から集めた50冊以上の独立系フォトブックを紹介する The Ephemere Photobook Exhibition、3階では、国内外の9名の写真家によるグループ展ANTHOLOGY 3 を開催します。また、京都新聞印刷との協働による Ephemere Photo Journal Vol. 2（テーマ「Ephemerality Through Triplicities」）をはじめ、日本、イギリス、フィリピン、オーストラリアのアーティストによる新刊・モノグラフも発表します。会期中は、アーティストトーク、ブックローンチ、交流会に加え、Anthotype、Cyanotype、Mordançageなどの写真技法、ZINE制作、ビジュアル編集を体験できる無料ワークショップを開催。Ephemere Photobook Dummy Masterclassの最終成果発表も行います。",
       "medium": "photo",
       "exhibition_type": "group",
@@ -98060,7 +98060,7 @@
       "price_max": null,
       "start_date": "2026-10-16",
       "end_date": "2026-10-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "234a6a9faff0",
@@ -98123,7 +98123,7 @@
       "price_max": null,
       "start_date": "2026-10-16",
       "end_date": "2026-11-21",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "264da55cd4ca",
@@ -98172,7 +98172,7 @@
       "price_max": null,
       "start_date": "2026-10-16",
       "end_date": "2026-11-02",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "264da55cd4ca",
@@ -101259,7 +101259,7 @@
       "price_max": null,
       "start_date": "2026-10-16",
       "end_date": "2026-11-29",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "f2bed08ed523",
@@ -102339,7 +102339,7 @@
       "price_max": null,
       "start_date": "2026-10-16",
       "end_date": "2026-10-31",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "a99c05f8f3ec",
@@ -103201,6 +103201,347 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Celebration-Journey-Memory-and-Light/hill-top-gallery/2026-10-17",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "bf87b98d513c",
+      "source": "museum_hanmi",
+      "title": "《Roger Ballen. The Works: Drawing meets Photography》",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://museumhanmi.or.kr/wp-content/uploads/2026/10/roger-poster_homepage-724x1024.png",
+      "description": "뮤지엄한미는 사진과 드로잉의 결합을 통해 독창적인 시각 언어를 구축한 예술가 로저 발렌(Roger Ballen, 1950– )의 개인전 《Roger Ballen. The Works: Drawing meets Photography》를 2026년 10월 16일부터 2027년 2월 21일까지 삼청본관에서 개최한다.\n\n미국 뉴욕에서 태어나 현재 남아프리카공화국 요하네스버그를 기반으로 활동하는 로저 발렌은 현대 사진예술을 대표하는 작가 중 한 명이다. 그는 인간의 무의식과 내면, 사회의 주변부를 지속적으로 탐구하며 우리가 외면하거나 낯설게 여기는 존재들이 결국 우리 자신의 또 다른 모습임을 드러내왔다. 사진과 드로잉, 설치를 넘나들며 구축한 그의 작품 세계는 ‘발레네스크(Ballenesque)’로 불리는 독자적인 미학을 보여준다.\n\n이번 전시는 60여 년에 걸친 로저 발렌의 작업 세계를 아우르며, 발렌 미학의 핵심을 이루는 사진과 드로잉의 관계가 초기 다큐멘터리 작업부터 근작에 이르기까지 어떻게 발전해왔는지를 살펴본다. 그의 작업은 기존의 사진사적 계보만으로 설명하기 어려운 독자성을 지니는 동시에, 사진과 드로잉이라는 서로 다른 매체의 가능성을 결합해 구축한 새로운 조형 언어를 보여준다. 주요 사진 연작과 함께 에칭과 폴라로이드 위 드로잉 작품 등을 통해 두 매체가 서로 영향을 주고받으며 변화해온 과정과 하나의 장르로 규정하기 어려운 로저 발렌의 작품 세계를 입체적으로 조명한다.\n\n장소\n\n뮤지엄한미 삼청\n\n참여작가\n\n로저 발렌\n\n보도자료",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-16",
+      "end_date": "2027-02-21",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "320fd688dcc3",
+        "name": "삼청",
+        "lang": "ko",
+        "tr": {
+          "en": {
+            "name": "Samcheong"
+          },
+          "ja": {
+            "name": "サムチョン"
+          }
+        },
+        "region": null,
+        "district": null,
+        "lat": 37.5849977825639,
+        "lng": 126.981758302922
+      },
+      "artists": [],
+      "source_url": "https://museumhanmi.or.kr/post_exhibition/%e3%80%8aroger-ballen-the-works-drawing-meets-photography%e3%80%8b/",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "6e6c202ba3d7",
+      "source": "tokyo_art_beat",
+      "title": "吉田優 「TOKYO STREET ON CAT～STAND ALONE～」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/0327f2d3/08ae2986-f622-4797-bc6e-978b8a43b724.jpg",
+      "description": "ストリートフォトをメインに撮っていた作家が軽い気持ちで始めた猫撮影だったが、猫の魅力に取り憑かれどんどん嵌まり込んでいく。\nしかし、不器用な自分は二足の草鞋は履けない、二兎を追う者は一兎も得ずになるのは明白。\n選択を迫られて、悩みに悩んだ結果、二つと思わず一つのものと考えれば良いのでは？と思い付き、猫でストリートフォトを撮ることにしたという作品を展示します。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-19",
+      "end_date": "2026-11-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5d573a079256",
+        "name": "Gallery 463",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Gallery 463"
+          },
+          "ja": {
+            "name": "Gallery 463"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.69007461890496,
+        "lng": 139.72185528270845
+      },
+      "artists": [
+        {
+          "id": "3d10a4ae7043",
+          "name": "吉田優",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yu-Yoshida-Tokyo-Street-on-CatStand-Alone/gallery-463/2026-11-19",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "9e4ab8c63b7e",
+      "source": "tokyo_art_beat",
+      "title": "沈昭良 「浮航―いまだ完結しない島のマジカル」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/1d3c1820/d2092882-003e-4d13-b7e0-2cef448d701b.png",
+      "description": "台湾を代表する写真家・沈昭良による初期の代表作《築地魚市場》とともに、台湾の民衆文化を見つめた三部作《STAGE》、《SINGERS & STAGES》、《台湾綜芸団》を展示します。台湾の冠婚葬祭に登場する折り畳み式の移動式ステージカーは、見慣れた街をー瞬で賑やかなステージへと変容させます。これまで幾度も政治の変遷や異文化を受け入れ、絶えず変化しながら進む、台湾という島。その人々の生活と歴史が、カラフルなステージの奥に見えます。\n\n[関連イベント]\n1. トークショー 浮航―沈昭良のマジカル\n日時: 2026年11月20日18:30〜20:00\n登壇者: 沈昭良（写真家、華梵大學写真・VRデザイン学科教授）、伊藤俊治（美術史家）、港千尋（写真家）\n会場: 東陽町ぐりんたす 2階ホール（要事前申込み）\n2. トークショー 沈昭良の写真―沈昭良は何をどう撮ってきたのか\n日時: 2027年1月22日18:00〜20:00\n登壇者: 沈昭良（写真家、華梵大學写真・VRデザイン学科教授）、菅沼比呂志（キュレーター、武蔵野美術大学教授）、小林紗由里（東京国立近代美術館研究員）、沈裕融（評論家、華梵大學写真・VRデザイン学科助教授）\n会場: 東陽町ぐりんたす 2階ホール（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-20",
+      "end_date": "2027-03-01",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "4f9b61f1e862",
+        "name": "Gallery A4",
+        "lang": null,
+        "tr": {},
+        "region": "東京：その他",
+        "district": null,
+        "lat": 35.668785140329796,
+        "lng": 139.8199396950383
+      },
+      "artists": [
+        {
+          "id": "2114a9fd06c7",
+          "name": "沈昭良",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Shen-Chao-Liang-Floating-Voyage-Unfinished-Island-Magic/059722-B9/2026-11-20",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "73e4fbfeb04b",
+      "source": "tokyo_art_beat",
+      "title": "バダイ 「生のあと」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/18f1955c/a016fc64-dd0f-4e6b-94d4-906863351490.png",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-28",
+      "end_date": "2026-11-01",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "ada5bf81cae5",
+        "name": "ギャラリー・ルスティコ",
+        "lang": null,
+        "tr": {},
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.70542365624913,
+        "lng": 139.64848591031398
+      },
+      "artists": [
+        {
+          "id": "7fb2985e2b1f",
+          "name": "バダイ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Baday-Traces-of-Being/gallery-rustico/2026-10-28",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "013444f25d5e",
+      "source": "tokyo_art_beat",
+      "title": "「DAIGO. SHOOTING -“TAKE OFF”-」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/8c6284b3/9b92a25f-4ec0-4c42-8d9a-7aee4e96d1b1.jpg",
+      "description": "DAIGO.（小林大悟）が自身の作品を撮影する過程を公開する、1日限りのオープンスタジオ形式のイベントです。作品をどのような写真で届けるか、構図や光、見せ方を探りながら一点ずつ撮影します。来場者は、一般公開中も続く作品撮影の様子と、作品そのものを自由に鑑賞できます。\n青空を見上げる人物や、画面の外へ向かう視線。「完成しすぎない物語」を大切にするDAIGO.の作品には、鑑賞者がそれぞれの物語を思い描く余白が残されています。本イベントは、次の個展に向けた最初の一歩となります。\n入場無料・予約不要。作品の撮影は可能です。作家や来場者など人物を撮影する際は、事前にご本人へお声がけください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "ac8ed056af7c",
+        "name": "PARALLEL CROSS GALLERY",
+        "lang": null,
+        "tr": {},
+        "region": "東京：その他",
+        "district": null,
+        "lat": 35.67538,
+        "lng": 139.4824
+      },
+      "artists": [
+        {
+          "id": "8fc082c94163",
+          "name": "DAIGO.（小林大悟）",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Daigo-Shooting-Take-Off-/parallel-cross-gallery/2026-11-21",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "41b66b4d03f1",
+      "source": "tokyo_art_beat",
+      "title": "「ラファエル・ザルカ：幾何学、時間、スケートボード」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/9f00b6b2/462a5575-e5ef-4b6b-a1a4-54fd4ba82064.png",
+      "description": "写真、彫刻、映像、執筆などにより、科学史・美術史・ストリートカルチャーといった異なる領域を軽やかに横断するフランス現代アーティストの実践。\n\nパリを拠点に活動するアーティスト、ラファエル・ザルカ（1977–）の日本では初となる本格的な個展を開催します。ザルカは、幾何学、数学、彫刻、建築、スケートボードなど、異なる領域を横断しながら、形態と空間、運動と時間の関係を探究してきました。数学や科学の歴史、建築や抽象彫刻などに見られる幾何学的な形態や原理をリサーチし、それらを独自の視点から読み替えることで、彫刻、写真、映像、ドローイング、テキストなど、多様な作品へと展開しています。\n\nザルカの活動において、スケートボードは個人的な愛好を出発点とする重要なテーマです。スケートボードを通じて都市や建築の空間に身体的に関わるなかで、段差や傾斜、曲面、構造物などに潜む幾何学的な形態に着目し、既存の空間を本来とは異なる仕方で読み替えてきました。そこには、身体の運動と空間との関係だけでなく、公共空間を誰がどのように使うのかという問いも含まれています。\n\n本展では、これまでの代表作に加え、京都での滞在・制作を通して新たに制作される作品も展示する予定です。彫刻、写真、映像、ドローイング、模型などを通して、ザルカが形態を発見し、リサーチと思考を経て作品へと変換していく実践を紹介します。ザルカはこれまで、時代や場所を超えて、過去に生み出された形態や作品と対話を重ねながら、作品を制作してきました。本展では、そうした継続的なリサーチと対話の軌跡をたどるとともに、京都という新たな場所との出会いから生まれる作品を紹介します。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2027-02-06",
+      "end_date": "2027-05-05",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "98306f03c648",
+        "name": "京都市京セラ美術館",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "교토시 교세라 미술관"
+          },
+          "en": {
+            "name": "Kyoto City Kyocera Art Museum"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.01285979346205,
+        "lng": 135.78354111750633
+      },
+      "artists": [
+        {
+          "id": "ef686c10058e",
+          "name": "ラファエル・ザルカ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Raphael-ZarkaGeometry-Time-and-Skateboarding/639-FB820/2027-02-06",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "457771b33bed",
+      "source": "tokyo_art_beat",
+      "title": "RainaSu 「流れは到着より早い」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/0dea9528/d2a7a9e3-f87f-4478-9d03-f48adff2d1b0.jpg",
+      "description": "RainaSu（本名: 張雨萌）は2001年中国出身である。韓国・弘益大学大学院で写真を学び、修士課程を修了した。現在は東京を拠点に活動している。\n家庭の事情で、幼い頃から何度も引っ越しを経験し、変化の多い環境の中で育った。そのため、彼女にとっては、不安定であることが生活のあたりまえとなっている。\n写真に興味を持ってからは、低速シャッターを使って動くものを捉え、その動きの跡を画面に残すことを好んでいる。もし「はっきりしていること」がひとつの安定した状態を表すなら、彼女が見つめているのは、安定にたどり着くまでの、変わり続ける不安定な状態である。\n彼女にとって写真は、現実をそのまま写すだけではなく、現実をあらためて見つめ、組み立て直すための方法でもある。そのため、撮影後に色を大きく変えることも、彼女にとって大切な感情表現のひとつとなっている。\n本展「流れは到着より早い」は、到着への予感を主題とする。目的地や結果への想像は、現実よりもかえって詩的に感じられ、到着までの時間を果てしなく思わせる。しかし、命とは流れていく時間の体験であり、決して止まらない。本展では、その流れの中にある、きらめく永遠を味わう。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-19",
+      "end_date": "2026-10-21",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "993660bc4e6d",
+        "name": "Moon Gallery & Studio",
+        "lang": null,
+        "tr": {},
+        "region": "上野、谷中",
+        "district": null,
+        "lat": 35.7159769657921,
+        "lng": 139.78438448958397
+      },
+      "artists": [
+        {
+          "id": "2ed4224576f4",
+          "name": "RainaSu",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Rainasu-Flow-Before-Arrival/moon-gallery-and-studio/2026-10-19",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "e8d9b1f5758e",
+      "source": "tokyo_art_beat",
+      "title": "中島恵美子 「Serendipity Ⅳ –幸せな偶然–」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/5c383ba8/30897384-4862-424e-a099-e0a3c80b6964.jpg",
+      "description": "子供の頃の中島さんは、ムーミンの登場人物、心優しい放浪の哲学者スナフキンが大好きでした。自由に旅することをこよなく愛する彼がいつも一人でふらりと旅に出る姿に心配を覚えながらも、いつか大人になったらあんな風に旅をしてみたいと思ったのだとか。\n偶然出会った美しい夕焼け、どこまでも続く水平線、新たな出会いや体験を通して世界は広がってゆく。まだまだ世界には知らないことが沢山ある。その中で自分のしたいことがなにかを知るため、中島さんは今日も旅に出ます。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-12",
+      "end_date": "2026-11-22",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "018b6124fde6",
+        "name": "ルーニィ 247 ファインアーツ",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "루니 247 파인아츠"
+          },
+          "en": {
+            "name": "Rooney 247 Fine Arts"
+          }
+        },
+        "region": "浅草橋、馬喰町",
+        "district": null,
+        "lat": 35.692819870905694,
+        "lng": 139.77994191009685
+      },
+      "artists": [
+        {
+          "id": "8d8f9823f560",
+          "name": "中島恵美子",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Emiko-Nakajima-Serendipity-IV/6694-D683/2026-11-12",
       "featured": false,
       "popularity_score": null
     }
@@ -114649,6 +114990,62 @@
       "country": "JP",
       "lat": 33.56045921412805,
       "lng": 130.70836387492236,
+      "website": null
+    },
+    {
+      "id": "4f9b61f1e862",
+      "name": "Gallery A4",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "東京：その他",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.668785140329796,
+      "lng": 139.8199396950383,
+      "website": null
+    },
+    {
+      "id": "ada5bf81cae5",
+      "name": "ギャラリー・ルスティコ",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "武蔵野、多摩",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.70542365624913,
+      "lng": 139.64848591031398,
+      "website": null
+    },
+    {
+      "id": "ac8ed056af7c",
+      "name": "PARALLEL CROSS GALLERY",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "東京：その他",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.67538,
+      "lng": 139.4824,
+      "website": null
+    },
+    {
+      "id": "993660bc4e6d",
+      "name": "Moon Gallery & Studio",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "上野、谷中",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.7159769657921,
+      "lng": 139.78438448958397,
       "website": null
     }
   ],
@@ -144198,6 +144595,48 @@
     {
       "id": "230fbf07296d",
       "name": "ミスミタクマ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3d10a4ae7043",
+      "name": "吉田優",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2114a9fd06c7",
+      "name": "沈昭良",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7fb2985e2b1f",
+      "name": "バダイ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8fc082c94163",
+      "name": "DAIGO.（小林大悟）",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ef686c10058e",
+      "name": "ラファエル・ザルカ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2ed4224576f4",
+      "name": "RainaSu",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8d8f9823f560",
+      "name": "中島恵美子",
       "lang": null,
       "tr": {}
     }
