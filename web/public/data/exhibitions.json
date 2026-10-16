@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T05:23:24.532791+00:00",
+  "generated_at": "2026-10-16T12:13:25.541454+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -101301,8 +101301,17 @@
       "id": "c694380ad09d",
       "source": "tokyo_art_beat",
       "title": "「日本リアリズム写真集団 第57回JRP京都支部展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「일본 리얼리즘 사진집단 제57회 JRP 교토 지부전」",
+          "description": "교토 사진 미술관 2층 전시실에서 2026년 10월 27일(화)부터 11월 1일(일)까지 일본 리얼리즘 사진집단 제57회 JRP 교토 지부전을 개최합니다."
+        },
+        "en": {
+          "title": "Japan Realism Photo Group's 57th JRP Kyoto Branch Exhibition",
+          "description": "Japan Realism Photo Group's 57th JRP Kyoto Branch Exhibition will be held at the Kyoto Museum of Photography's 2nd floor exhibition room from October 27 (Tuesday) to November 1 (Sunday), 2026."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/5a568d45/%E2%91%A1JRP_kokuchi.JPG",
       "description": "京都写真美術館 2階展示室にて、2026年10月27日(火)から11月1日(日)まで、日本リアリズム写真集団 第57回JRP京都支部展を開催します。",
       "medium": "photo",
@@ -101482,8 +101491,17 @@
       "id": "327d87fed529",
       "source": "tokyo_art_beat",
       "title": "杉水五大 + ジュリエット・アニェル 「隆起 UPLIFT」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "스기미즈 고다이 + 줄리엣 아넬 「융기 UPLIFT」",
+          "description": "MIDORI.so 바쿠로요코야마 갤러리에서는, 2026년 10월 23일 (금)부터 11월 7일 (토)까지, T3 PHOTO FESTIVAL TOKYO의 「Area Pickup Partnerships」의 일환으로, 야쿠시마 국제 사진제 (Yakushima Photography Festival ｜YPF)에 의한 전시회 「융기 UPLIFT」를 개최합니다. 본 전시에서는, 2026년에 야쿠시마에서 체류 제작을 진행한 스기미즈 고다이와 줄리엣 아넬의 작품을 소개합니다.\n\n전시회 타이틀 「융기 UPLIFT」는, 해저로부터의 융기에 의해 형성된 야쿠시마의 생성 과정에 유래합니다. 동시에, 일본과 프랑스라는 다른 배경을 가지고, 사진과 영상이라는 다른 매체로 제작하는 두 사람의 작품을, 같은 야쿠시마를 기점으로 하나의 공간에 놓음으로써 발생하는 작용에도 중첩됩니다. 두 개의 다른 시점이나 표현이 서로 작용함으로써, 각자의 작품만으로는 보이지 않았던 야쿠시마의 풍경이나 시간이 새로운 형태로 나타납니다. 본 전시에서는, 그러한 두 개의 힘이 교차함으로써 발생하는 장 그 자체를 「융기」로 파악하고 있습니다."
+        },
+        "en": {
+          "title": "Sugimizu Godai + Juliette Agnel 「Uplift UPLIFT」",
+          "description": "MIDORI.so Bakuroyokoyama Gallery will host the exhibition \"Uplift UPLIFT\" by Yakushima International Photography Festival (Yakushima Photography Festival ｜YPF) as part of T3 PHOTO FESTIVAL TOKYO's \"Area Pickup Partnerships,\" from Friday, October 23 to Saturday, November 7, 2026. This exhibition introduces works by Sugimizu Godai and Juliette Agnel, who completed a residency on Yakushima in 2026.\n\nThe exhibition title \"Uplift UPLIFT\" is derived from the formation of Yakushima, which was created by uplift from the seabed. Simultaneously, it also reflects the interaction created by placing the works of two artists with different backgrounds—Japan and France—and working in different mediums—photography and video—in a single space, with Yakushima as their common starting point. As two different perspectives and expressions interact, the landscapes and time of Yakushima, which could not be seen through their individual works alone, emerge in new forms. In this exhibition, the very space created by the intersection of these two forces is regarded as \"Uplift.\""
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/ee1f8bcf/8730e0f1-1028-44e7-b4fa-68d6248655db.jpg",
       "description": "MIDORI.so Bakuroyokoyama Galleryでは、2026年10月23日（金）から11月7日（土）まで、T3 PHOTO FESTIVAL TOKYOの「Area Pickup Partnerships」の一環として、屋久島国際写真祭（Yakushima Photography Festival ｜YPF）による展覧会「隆起 UPLIFT」を開催します。 本展では、2026年に屋久島で滞在制作を行った杉水五大とジュリエット・アニェルの作品を紹介します。\n\n展覧会タイトル「隆起 UPLIFT」は、海底からの隆起によって形成された屋久島の成り立ちに由来します。同時に、日本とフランスという異なる背景を持ち、写真と映像という異なるメディウムで制作する二人の作品を、同じ屋久島を起点として一つの空間に置くことで生まれる作用にも重ねられています。二つの異なる視点や表現が互いに作用することで、それぞれの作品だけでは見えてこなかった屋久島の風景や時間が新たなかたちで現れます。本展では、そうした二つの力が交わることで生まれる場そのものを「隆起」として捉えています。",
       "medium": "mixed",
@@ -101535,8 +101553,17 @@
       "id": "92374dcefd82",
       "source": "tokyo_art_beat",
       "title": "トヤマタクロウ 「Ventilate（ベンチレート）」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "토야마 타쿠로 「Ventilate (벤틸레이트)」",
+          "description": "토야마 타쿠로의 사진집 『Ventilate』 출판에 맞춰, 동명의 개인전을 개최합니다. 본 작품에서는 평범한 주택지와 그 벽면, 사진 프린트를 촬영한 사진, 회화나 게임 화면과 같은 어떤 종류의 모델을 연상시키는 장면 등 여러 요소가 일련의 흐름 속에서 다루어집니다. 여기서는 사진에서의 촉각적인 시각성과, 이미지의 물질적인 전이 및 기억의 중첩에 의해 발생하는 유사성과 차이에 대한 관심이 나타납니다. 이 사진들은 하나의 의미나 대상에 밀폐되지 않고, 질감이나 형태, 문화적인 참조를 통해 다른 이미지로 연결되며 눈앞을 스쳐 지나갑니다. 전시장에서는 신작 프린트 작품의 전시 및 판매와 더불어, 지금까지 제작된 사진집도 판매합니다."
+        },
+        "en": {
+          "title": "Toyama Takuro 「Ventilate (Benchirēto)」",
+          "description": "To coincide with the publication of Toyama Takuro's photobook 『Ventilate』, a solo exhibition of the same title will be held. In this work, several elements are treated in a continuous flow, such as ordinary residential areas and their walls, photographs taken of photographic prints, and scenes reminiscent of certain models like paintings or game screens. It demonstrates an interest in the haptic visuality in photography and the similarities and discrepancies arising from the material transfer of images and the layering of memories. These photographs are not confined to a single meaning or subject; instead, they connect to other images and pass before our eyes through textures, forms, and cultural references. At the venue, in addition to the exhibition and sale of new print works, previously produced photobooks will also be available for purchase."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/971470c1/6b51d1a6-dc87-40fb-a0a7-6f3041e2932c.jpg",
       "description": "トヤマタクロウによる写真集『Ventilate』の出版に伴い、同タイトルの個展を開催いたします。本作では、ありふれた住宅地とその壁面、写真のプリントを撮影した写真、絵画やゲームの画面のようなある種のモデルを想起させるシーンといった、いくつかの要素が一連の流れの中で扱われます。そこでは、写真における触覚的な視覚性と、像の物質的な移し替えや記憶の重なりによって生じる類似やずれへの関心が示されています。これらの写真は、ひとつの意味や対象に密閉されることなく、テクスチャーやフォルム、文化的な参照を通じて、別のイメージへと接続しては目の前を通り過ぎてゆきます。会場では新作のプリント作品の展示・販売に加え、これまでに制作された写真集の販売を行います。",
       "medium": "photo",
@@ -101582,8 +101609,17 @@
       "id": "64b684f40cc4",
       "source": "tokyo_art_beat",
       "title": "「10p10fp展2026」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「10p10fp전2026」",
+          "description": "아이즈에 공장을 둔 Sigma가 개발한 풀프레임 디지털 미러리스 카메라 「fp / fp L」. 작은 바디에 숨겨진 큰 가능성에 매료된 동료들이 모여, fp와 fp L만을 위한 사진전을 시작하여 올해로 4회째를 맞이합니다. 올해도 사진작가 오와시 요스케 씨를 어드바이저로 모시고, 12명의 작가가 각자의 시점에서 사진·영상과 마주하고 있습니다. 같은 카메라에서 탄생하는 12개의 다른 시점. 개성은 각자의 방향으로 확장되며, 그 교차와 연결이 fp의 세계를 더욱 넓혀갑니다. 4회째를 맞이한 본 전시를 부디 편안하게 즐겨주십시오."
+        },
+        "en": {
+          "title": "「10p10fp Exhibition 2026」",
+          "description": "The full-frame digital mirrorless camera \"fp / fp L\" developed by Sigma, which has a factory in Aizu. Friends drawn to the great potential hidden in its small body gathered and started a photo exhibition exclusively for fp and fp L, now celebrating its 4th year. This year, photographer Yosuke Owashi joins us again as an advisor, and 12 artists are engaging with photography and video from their unique perspectives. Twelve different viewpoints emerge from the same camera. Individuality expands in various directions, and their intersection and connection further broaden the world of fp. Please enjoy this 4th iteration of the exhibition at your leisure."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/514d8e02/eacaa6bf-ba2e-4498-b08c-8c51ff8d840c.jpg",
       "description": "会津に工場を持つSigmaが開発したフルサイズデジタルミラーレスカメラ「fp / fp L」。小さなボディに秘められた大きな可能性に惹かれた仲間たちが集い、fpとfp Lだけの写真展を始めて、今年で4回目を迎えます。今年もフォトグラファー・尾鷲陽介氏をアドバイザーに迎え、12人の作家が、それぞれの視点で写真・映像と向き合っています。同じカメラから生まれる、12の異なる視点。個性はそれぞれの方向へと拡張され、その交差と連なりが、fpの世界をさらに押し広げていきます。4回目を迎えた本展を、どうぞゆったりとお楽しみください。",
       "medium": "mixed",
@@ -101706,8 +101742,15 @@
       "venue": {
         "id": "1b77aad41743",
         "name": "東葛西1-11-6-A倉庫",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "동카사이 1-11-6-A 창고"
+          },
+          "en": {
+            "name": "Higashikasai 1-11-6-A Warehouse"
+          }
+        },
         "region": "東京：その他",
         "district": null,
         "lat": 35.6720238136788,
@@ -101918,8 +101961,15 @@
       "venue": {
         "id": "b44a2b0846ba",
         "name": "TIGER MOUNTAIN（タイガーマウンテン）",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "TIGER MOUNTAIN"
+          },
+          "en": {
+            "name": "TIGER MOUNTAIN"
+          }
+        },
         "region": "麻布台、虎ノ門",
         "district": null,
         "lat": 35.665286186530196,
@@ -101934,8 +101984,17 @@
       "id": "838c8289861b",
       "source": "tokyo_art_beat",
       "title": "宮田涼介 「小さな死を見た。それはそれは素晴らしい場所だったぜ。」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "미야타 료스케 「작은 죽음을 보았다. 그곳은 정말 멋진 곳이었다.」",
+          "description": "즈시 아트 페스티벌 2026 내 전시 작품입니다. 사진, 영상, 언어 표현을 결합한 설치 작품. 회사원으로 일하며 창작 활동을 이어가는 작가 자신의 시점에서 '억압'과 '개인' 사이에서 흔들리는 인간의 모습을 표현합니다.\n\n작가 미야타 료스케는 평소 회사원으로 일하면서 음악, 영상, 집필 등 창작 활동을 계속해 왔습니다. 조직의 일원으로서 요구되는 모습과 한 개인으로서의 내면 사이에는 항상 긴장 관계가 존재합니다. 이번 작품은 그 긴장감 속에서 어떻게 자신을 유지하며 살아갈 것인가 하는 질문에서 탄생했습니다. 그 실마리로 참조하고 있는 것은 1990년대에 발생한 이른바 '도덴 OL 살인 사건'의 피해자, 그리고 조르주 바타유나 시몬 베유와 같은 사상가들입니다. 이들 모두 사회적 역할과 개인의 내면이라는 이중성을 극한까지 살아낸 존재로서 본 작품의 제작 동기에 깊이 관여하고 있습니다. 미야타는 \"회사를 그만두지 않고, 그러나 사회 속에서 자신을 내던지지 않는 삶의 방식\"을 모색하는 한 회사원으로서, 이 작품을 통해 자신과 같은 고민을 안고 있는 직장인들에게 어떤 생각이나 질문을 던지고 싶다고 생각합니다.\n\n본 작품에는 성인용 표현이 포함되어 있습니다. 초등학생, 중학생 이하의 어린이 및 가족 단위 방문객은 주의하시기 바랍니다."
+        },
+        "en": {
+          "title": "Miyata Ryosuke \"I saw a small death. It was a truly wonderful place.\"",
+          "description": "This work will be exhibited at the Zushi Art Festival 2026. It is an installation piece combining photography, video, and linguistic expression. From the perspective of the artist, who continues creative activities while working as a company employee, it expresses the human condition oscillating between \"repression\" and \"individuality.\"\n\nThe artist, Miyata Ryosuke, has continued creative activities such as music, video, and writing while working as a company employee. There is always a tension between the role expected as a member of an organization and the inner self as an individual. This work was born from the question of how to maintain oneself and live within that tension. As a starting point, he references the victim of the so-called \"Toden OL Murder Case\" that occurred in the 1990s, as well as thinkers such as Georges Bataille and Simone Weil. All of them, as beings who lived the duality of social role and individual inner self to the extreme, are deeply involved in the motivation for creating this work. Miyata, as a company employee exploring \"a way of life that does not quit the company but also does not abandon oneself within society,\" hopes to pose some thoughts and questions to other working people facing similar struggles through this work.\n\nThis work contains adult content. Please be advised that it may not be suitable for children under elementary or junior high school age, or for family visits."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/d599b37e/b1595f0f-cb56-4929-bf71-4394571d7a9e.jpg",
       "description": "逗子アートフェスティバル2026内での展示作品となります。写真・映像・言語表現を組み合わせたインスタレーション作品。会社員として働きながら創作活動を続ける作家自身の視点から、「抑圧」と「個」の間で揺れ動く人間のありようを表現する。\n\n作家の宮田涼介は、普段は会社員として働きながら、音楽・映像・執筆といった創作活動を続けてきた。組織の一員として求められる姿と、一個人としての内面との間には、常に緊張関係がある。今回の作品は、その緊張感の中でどのように自分自身を保ちながら生きていくか、という問いから生まれたものである。その足がかりとして参照しているのが、1990年代に起きたいわゆる「東電OL殺人事件」の被害者、そしてジョルジュ・バタイユやシモーヌ・ヴェイユといった思想家たちである。いずれも、社会的な役割と個人の内面という二重性を極限まで生きた存在として、本作の制作動機に深く関わっている。宮田は「会社を辞めることなく、しかし社会の中で自分自身を投げ捨てない生き方」を模索する一人の会社員として、この作品を通じて、同じように悩みを抱える働く人々に、何らかの思考や問いを投げかけたいと考えている。\n\n本作品には、成人向けの表現が含まれます。小学生・中学生以下のお子様、ご家族連れでのご来場にはご注意ください。",
       "medium": "mixed",
@@ -101951,8 +102010,15 @@
       "venue": {
         "id": "b64d80e57e6d",
         "name": "赤い橋ぎゃらりー",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "아카이하시 갤러리"
+          },
+          "en": {
+            "name": "Akai Hashi Gallery"
+          }
+        },
         "region": "神奈川県",
         "district": null,
         "lat": 35.29336581923472,
@@ -101974,8 +102040,17 @@
       "id": "923d03548a7d",
       "source": "tokyo_art_beat",
       "title": "柴田徹之 「美しき奇妙な夢見し - India illusion -」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "시바타 테츠유키 「아름답고 기묘한 꿈을 꾸다 - India illusion -」",
+          "description": "삼천 년의 꿈을 찾아 갠지스강을 히말라야로 거슬러 올라가 벵골만으로 내려가는 여행의 기억. 겨울 안개 낀 성지를 오가는 순례자들의 그림자, 그 마야(환영)에 유일하게 쐐기를 박듯 존재하는 방랑 수행자(사두)들의 초상, 그리고 갠지스강 순례가 자아내는 몽환적인 정경이라는 두 가지 측면을 중심으로, 백 점 이상의 사진을 자유로운 레이아웃으로 직접 붙여 전시합니다. 아름다운 대지와 그 속에 숨어 있는 기묘한 그림자가 교차하는 설치 작품입니다. 또한, 데칸 고원의 밀림에 잠들어 있는 알려지지 않은 고대 벽화 사진도 함께 공개합니다."
+        },
+        "en": {
+          "title": "Shibata Tetsuyuki \"I Dreamt a Beautiful and Strange Dream - India illusion -\"",
+          "description": "Memories of a journey seeking a three-thousand-year dream, tracing the Ganges River upstream to the Himalayas and then downstream to the Bay of Bengal. Focusing on two aspects: the shadows of pilgrims traversing the sacred sites in winter fog, the portraits of wandering ascetics (sadhus) who exist as if to drive a wedge into that Maya (illusion), and the dreamlike scenes evoked by the Ganges pilgrimage, over a hundred photographs will be displayed directly with a free layout. It is an installation where a beautiful land and the strange shadows lurking within it intersect. Additionally, photographs of unknown ancient murals sleeping in the dense forests of the Deccan Plateau will also be unveiled."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/eeb230ff/eed48257-c44a-4080-82ea-b7aa5dd9d409.jpg",
       "description": "三千年の夢を求めてガンジス川をヒマラヤへと遡り、ベンガル湾へ下る旅の記憶。冬霧の聖地を行き交う巡礼たちの影、そのマーヤ(幻影)に唯一くさびを打ち込むように存在する放浪修行者(サドゥ)たちの肖像、ガンジス川巡礼が醸し出す夢うつつの情景という二つの側面を中心に、百点以上の写真を自由なレイアウトによる直貼りで展示します。美しき大地とそこに潜む奇妙な影が交錯するインスタレーションです。また、デカン高原の密林に眠る知られざる古代壁画の写真も併せて公開します。",
       "medium": "photo",
@@ -101991,8 +102066,15 @@
       "venue": {
         "id": "a5eb554acccc",
         "name": "ギャラリー国立",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 쿠니타치"
+          },
+          "en": {
+            "name": "Gallery Kunitachi"
+          }
+        },
         "region": "武蔵野、多摩",
         "district": null,
         "lat": 35.697495003159396,
@@ -102014,8 +102096,17 @@
       "id": "2e7392b1b48a",
       "source": "tokyo_art_beat",
       "title": "ナガタダイスケ 「blur」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "나가타 다이스케 「blur」",
+          "description": "이번에 DELTA/KYOTOGRAPHIE Permanent Space에서는 나가타 다이스케의 개인전 「blur」를 개최합니다. 이번에 전시되는 시리즈 〈blur〉의 작품들에서는 도시 풍경이 보이지만 어딘가 어색함이 느껴집니다. 화면에 보이는 것 자체는 '이것은 ○○이다'라고 명확히 식별할 수 있지만, 예를 들어 거기에 찍힌 인물에 초점을 맞추면 성별, 연령, 키, 체격 등과 같은 상세한 정보는 제거되어 있습니다. 가까이서 보면 인쇄물이라는 것을 금방 알 수 있지만, 내용 자체는 불분명하여 이 이미지가 회화인지, 사진인지, 아니면 AI에 의해 생성된 것인지 보는 이에게 판단을 망설이게 합니다. 동시에 일본의 도시라는 것은 알 수 있지만, 그 장소성은 배제되어 있습니다. 균일화된 일본의 도시 풍경 속에서 보는 이는 문득 어딘가의 도시의 기운을 찾아내려 합니다. 이 시리즈는 촬영한 사진의 일부분을 크게 확대한 사진 작품입니다. 원래 평면적인 사진은 이 일련의 작업을 통해 더욱 깊이를 잃은 평면성을 띠게 됩니다. 이처럼 사진이 가진 정보와 신뢰성을 제거함으로써 보는 이에게는 그 결핍을 보완하며 해석할 여지가 남겨지고, 이미지의 해석은 다양한 방향으로 열리게 됩니다.\n\n[관련 이벤트]\n토크 이벤트\n일시: 2026년 10월 18일 19:00~20:30\n등단자: 나가타 다이스케, 고바야시 마이코 (아시야 시립 미술 박물관 학예원)\n장소: DELTA/KYOTOGRAPHIE Permanent Space / 온라인 중계\n요금: 500엔 (음료 1잔 포함, 정원 15명, 사전 신청 필수) (온라인 1000엔)\n※이벤트 상세 정보 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Nagata Daisuke \"blur\"",
+          "description": "DELTA/KYOTOGRAPHIE Permanent Space is pleased to present \"blur,\" a solo exhibition by Nagata Daisuke. The works in the \"blur\" series, on display this time, show urban landscapes, yet somehow convey a sense of awkwardness. While the objects visible on the screen can be clearly identified as \"this is XX,\" focusing on, for example, the people depicted, reveals that detailed information such as gender, age, height, and physique has been stripped away. Upon closer inspection, it is immediately clear that they are prints, but the content itself remains indistinct, leaving viewers to ponder whether these images are paintings, photographs, or perhaps AI-generated. Simultaneously, while it is recognizable as a Japanese city, its specific locality is excluded. From within the homogenized urban landscapes of Japan, viewers may suddenly try to discern the atmosphere of some particular city. This series consists of photographic works created by significantly enlarging a portion of a captured photograph. Originally two-dimensional, photographs acquire an even greater lack of depth and flatness through this series of processes. By stripping away the information and credibility inherent in photographs in this way, viewers are left with room to interpret and fill in the gaps, opening up various directions for understanding the images.\n\n[Related Event]\nTalk Event\nDate & Time: October 18, 2026, 19:00–20:30\nSpeakers: Nagata Daisuke, Maiko Kobayashi (Curator, Ashiya City Museum of Art & History)\nVenue: DELTA/KYOTOGRAPHIE Permanent Space / Online Streaming\nAdmission: 500 yen (includes 1 drink, capacity 15 people, advance registration required) (Online: 1,000 yen)\n※Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/12428220/3f4c6f64-e9e8-4e4c-af37-2d5836971d11.jpg",
       "description": "このたび、DELTA/KYOTOGRAPHIE Permanent Spaceでは、ナガタダイスケの個展「blur」を開催いたします。今回展示するシリーズ〈blur〉の作品からは、都市の風景が見えるもののどうしたことか、そこにどこかぎこちなさを感じさせます。画面に見えるもの自体は「これは○○である」とはっきり識別できるものの、例えばそこに写る人物にフォーカスしてみると、性別や年齢、背丈、体格などといった詳細な情報は削ぎ落とされています。近づいて見ればプリントであることはすぐにわかりますが、内容そのものは判然とせず、このイメージが絵画なのか、写真なのか、あるいはAIによって生成されたものなのか、見る者に判断を迷わせます。同時に、日本の都市であることはわかっても、その場所性は排除されています。均一化された日本の都市風景の中から、見る者はふと、どこかの都市の気配を見出そうとします。このシリーズは、撮影した写真の一部分を大幅に拡大した写真作品です。もともと平面的な写真は、この一連の作業でさらに奥行きを欠いた平面性を帯びていきます。こうして写真がもつ情報や信憑性を削ぎ落とすことにより、見る側にはその欠落を補いながら読み解く余地が残され、イメージの解釈はさまざまな方向へと開かれていきます。\n\n[関連イベント]\nトークイベント\n日時: 2026年10月18日19:00〜20:30\n登壇者: ナガタダイスケ、小林麻衣子（芦屋市立美術博物館学芸員）\n会場: DELTA/KYOTOGRAPHIE Permanent Space ／オンライン配信\n料金: 500円（1ドリンク制、定員15名、事前申込み必要）（オンライン 1000円）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -102061,8 +102152,17 @@
       "id": "9876bb210061",
       "source": "tokyo_art_beat",
       "title": "佐々木黎 「Look at this」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "사사키 레이 「Look at this」",
+          "description": "18세 사진작가 사사키 레이의 사진전 「Look at this」를 개최합니다. 본 전시에서는 사사키가 17세 때, 보도를 통해 알게 된 노토반도의 상황에 의문을 품고 직접 현장을 찾아 촬영한 사진들을 전시합니다. 그곳에서 실제로 무슨 일이 일어나고 있는지. 보도만으로는 보이지 않는 것은 무엇인지. 17세 사사키가 본 노토의 현실을 꼭 현장에서 확인해 주십시오.\n\n[관련 이벤트]\n아티스트 토크\n일시: 2026년 11월 7일 16:00~\n등단자: 사사키 레이\n장소: 나가야 페이퍼 랩\n요금: 무료 (1음료 주문 필수)\n※이벤트 상세 내용은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Rei Sasaki 「Look at this」",
+          "description": "We will hold a photo exhibition \"Look at this\" by 18-year-old photographer Rei Sasaki. This exhibition will feature photographs taken by Sasaki when he was 17, after he questioned the situation on the Noto Peninsula, which he learned about through news reports, and traveled to the site himself. What is actually happening there? What cannot be seen through news reports alone? Please come and see the reality of Noto as seen by 17-year-old Sasaki.\n\n[Related Event]\nArtist Talk\nDate & Time: November 7, 2026, 16:00~\nSpeaker: Rei Sasaki\nVenue: Nagaya Paper Lab\nAdmission: Free (1 drink order required)\n*Please check the official website for event details."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/7f3f7999/174a04b1-6747-4739-a9bc-8a2fb9c50228.jpg",
       "description": "18歳の写真家・佐々木黎による写真展「Look at this」を開催します。本展では、佐々木が17歳のとき、報道を通して知った能登半島の状況に疑問を抱き、自ら現地へ足を運んで撮影した写真を展示します。そこで現実に何が起きているのか。報道だけでは見えてこないものは何か。17歳の佐々木が見た能登の現実を、ぜひ会場でご覧ください。\n\n[関連イベント]\nアーティストトーク\n日時: 2026年11月7日16:00〜\n登壇者: 佐々木黎\n会場: ナガヤペーパーラボ\n料金: 無料（1ドリンクオーダー制）\n※イベント詳細は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -102108,8 +102208,17 @@
       "id": "95c5350a6c23",
       "source": "tokyo_art_beat",
       "title": "「水」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「물」",
+          "description": "Art Gallery M84는 2026년 11월 10일(화)부터 제84회 플레전트 클럽 사진전 『물』을 개최합니다. 이번 작품전은 Art Gallery M84에서 175번째 전시로 진행되는 그룹전입니다. 플레전트 클럽은 각 회원이 즐겁게 사진 실력을 향상시키고 회원 간 교류를 도모하는 것을 목표로 활동하고 있습니다. 각 회원은 각자 자신의 테마로 사진 활동을 하고 있으며, 매년 공통 테마를 정하여 사진전을 위한 작품을 완성하고 있습니다. 이번 테마는 『물』입니다. 떨어지는 물이 폭발하는 듯한 순간이나 샤워처럼 토마토에 쏟아지는 등 새로운 시점의 작품들입니다. 사진 표현의 폭을 넓혀온 플레전트 클럽 회원들의 세계를 꼭 현장에서 확인해 주십시오. 활동은 작품 제작 감각을 연마하기 위해 강사 지도 아래 월례 촬영회와 월례 작품 연구회를 기본으로 하며, 매월 개최되는 월례회에서는 각 회원이 지참한 작품에 대해 강사 및 동인에 의한 작품 지도 및 작품 사례 연구 후, 전원 참여 의견 교환을 실시하여 회원들의 실력 향상에 힘써왔습니다. 이번 사진전에서는 회원들이 1년간 작업한 총 30점의 연작 및 단일 사진 작품을 전시 및 발표합니다."
+        },
+        "en": {
+          "title": "「Water」",
+          "description": "Art Gallery M84 will hold the 84th Pleasant Club Photo Exhibition \"Water\" starting Tuesday, November 10, 2026. This exhibition is a group exhibition, the 175th exhibition to be held at Art Gallery M84. The Pleasant Club aims to help each member enjoy improving their photography skills and foster interaction among members. Each member engages in photographic activities based on their own themes, but every year a common theme is decided, and works are completed for the photo exhibition. This year's theme is \"Water.\" The works present new perspectives, such as moments when falling water seems to explode, or water showering down on tomatoes. Please come and see the world of Pleasant Club members, who have expanded the range of photographic expression. The club's activities are based on monthly photo sessions and monthly work study groups under the guidance of instructors to refine the members' sense of creation. At the monthly meetings, after instructors and fellow members provide guidance and study examples for works brought by each member, all members participate in discussions to improve their skills. This photo exhibition will display and present a total of 30 series and single photographic works that members have worked on for one year."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/ecbc54cd/2a1ea24f-2689-4e68-8b7c-e807ee5ea428.jpg",
       "description": "Art Gallery M84は、2026年11月10日(火)より第84回プレザントクラブ写真展『水』を開催致します。今回の作品展は、Art Gallery M84で第175回目の展示として実施するグループ展です。プレザントクラブは、各会員が楽しく写真のレベルアップと会員間の交流を図ることを目標に活動しています。各会員は、それぞれ自分のテーマに取り組み写真活動を行っていますが、毎年共通のテーマを決めて写真展に向けて作品を仕上げています。今回のテーマは『水』です。落ちてきた水が爆発するような瞬間やシャワーの様にトマトに降り注ぐなど新たな視点の作品達です。写真表現の幅を広げてきたプレザントクラブ会員の世界を、ぜひ会場でご覧ください。活動は、作品作りの感覚をみがくため講師指導の下、月例撮影会と月例作品研究会を基本として、毎月開催する月例会では各会員が持参した作品に対して講師・同人による作品指導・作例研究後、全員参加での意見交換を実施して、会員のレベルアップに務めてまいりました。今回の写真展は、会員が１年間取り組んだ合計30点の組・単写真作品を展示・発表します。",
       "medium": "photo",
@@ -102209,8 +102318,17 @@
       "id": "9ef2c32cbc11",
       "source": "tokyo_art_beat",
       "title": "佐内正史 「『復刊 生きている』刊行記念展」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "사나이 마사후미 「『복간 살아있다』 간행 기념전」",
+          "description": "사진사에 새겨진 명작 사진집 『살아있다』의 약 30년 만의 복간을 기념하는 전시를 개최합니다. 사진작가 사나이 마사후미의 첫 사진집 『살아있다』는 1997년 4월에 간행되었으며, 아무도 본 적 없는 사진들은 다양한 반향을 불러일으키며 새로운 재능을 세상에 알렸습니다. 『살아있다』는 이후 여러 판을 거듭했지만, 본문에 사용된 용지가 생산 중단되면서 증쇄가 불가능해져 오랫동안 품절 상태였습니다.\n\n그러나 2025년에 세이겐샤가 30주년을 맞이함에 따라, 기념 연도의 특별 기획으로 이제는 구할 수 없게 된 책을 복간하려는 프로젝트가 시작되었고, 독자 여러분의 요청을 받은 결과 『살아있다』의 복간을 바라는 많은 목소리가 모여 복간이 결정되었습니다. 본 전시에서는 『복간 살아있다』의 인쇄물을 사용하여 사나이 본인이 제작한 특제 포스터 전시를 중심으로, \"살아있다\"의 세계를 체험할 수 있는 특별한 공간이 나타납니다. 또한, 사진작가 사나이 마사후미, 스타일리스트 이가 다이스케, TANGTANG 디자이너 단노 마사토 세 사람이 만든 포토 티셔츠 레이블 \"GASATANG\"이 『살아있다』의 복간에 맞춰 제작한 티셔츠와 토트백 등의 굿즈도 선보입니다. 여러분과 함께 30년 만의 복간을 축하하는 자리가 되기를 바랍니다. 많은 방문 부탁드립니다."
+        },
+        "en": {
+          "title": "Masafumi Sanai 「Exhibition Commemorating the Republication of 『Living』」",
+          "description": "An exhibition will be held to commemorate the republication of the masterpiece photo book 『Living』, inscribed in photographic history, after approximately 30 years. Photographer Masafumi Sanai's first photo book, 『Living』, was published in April 1997. The collection of photographs, unlike anything seen before, garnered various reactions and introduced a new talent to the world. 『Living』 went through multiple editions, but due to the discontinuation of the paper used for the main text, it could no longer be reprinted and had been out of stock for a long time.\n\nHowever, as Seigensha approaches its 30th anniversary in 2025, a project was launched as a special commemorative year initiative to republish the book, which had become unobtainable. As a result of soliciting requests from readers, many voices expressed a desire for the republication of 『Living』, and the decision to republish was made. This exhibition will primarily feature special posters created by Sanai himself using printed materials from 『Republished: Living』, creating a special space where visitors can experience the world of \"Living.\" Additionally, goods such as T-shirts and tote bags created by the photo T-shirt label \"GASATANG,\" formed by photographer Masafumi Sanai, stylist Daisuke Iga, and TANGTANG designer Masato Tanno, will be available, coinciding with the republication of 『Living』. We hope this will be a place to celebrate the republication after 30 years together with everyone. Please feel free to stop by."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/73788a4d/519149e6-4c32-4eb7-8edc-fb8255e33897.jpg",
       "description": "写真史に刻まれた名作写真集『生きている』の、約30年ぶりの復刊を記念した展示を開催します。写真家・佐内正史の初めての写真集『生きている』は1997年4月に刊行され、誰も見たことがなかった写真群は様々な反響を呼び、新たな才能を世の中が知るところとなりました。『生きている』はその後版を重ねましたが、本文に使っていた用紙が生産中止となったことが原因で重版ができなくなり、長らく品切れとなっていました。\n\nしかし、2025年に青幻舎が30周年を迎えるにあたって、メモリアルイヤーのスペシャル企画として、今では手に入らなくなってしまった本を復刊しようというプロジェクトが立ち上がり、読者の皆様からリクエストを募った結果、『生きている』の復刊を望む多くの声が寄せられ、復刊が決定したのです。本展では『復刊 生きている』の印刷物を使って佐内自らが制作した特製ポスターの展示をメインに、「生きている」の世界を体感できる特別な空間が出現します。また、写真家/佐内正史、スタイリスト/伊賀大介、TANGTANGデザイナー/丹野真人の3人によるフォトTシャツレーベル「GASATANG」が『生きている』の復刊に合わせて制作したTシャツやトートバッグなどのグッズも展開。皆様と一緒に30年ぶりの復刊を祝う場になればと願っております。こぞってお立ち寄りください。",
       "medium": "photo",
@@ -102263,8 +102381,17 @@
       "id": "4461b1f27a1c",
       "source": "tokyo_art_beat",
       "title": "盧琪婷 + Eva Chih 「自分自身のアミーゴになろう」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "노기정 + Eva Chih 「자신만의 아미고가 되자」",
+          "description": "대만 타이베이를 거점으로 하는 작가 2명이 10월 4일부터 11월 3일까지 본 시설에 체류합니다. 본 전시는 그 체류 기간 동안 누마즈에서 제작한 작품을 발표하는 성과 발표전입니다. 전시는 4부 구성으로, 중심이 되는 것은 화가 Chita Lu가 체류 중에 그린 그림과 사진작가 Eva Chih가 누마즈에서 촬영한 사진을 한 장의 대형 화면에 구성한 공동 작업입니다. 이 외에도 체류 기록을 정리한 책자, 방문객을 촬영한 폴라로이드 사진에 작가가 손으로 그린 액자를 덧붙여 전달하는 참여형 작품, 체류 기록 영상을 전시합니다. 제작에 있어서는 화구 조달과 필름 현상을 시즈오카현 내에서 진행할 예정입니다."
+        },
+        "en": {
+          "title": "Chita Lu + Eva Chih 「Let's Be Our Own Amigo」",
+          "description": "Two artists based in Taipei, Taiwan, will stay at our facility from October 4 to November 3. This exhibition is a presentation of the works created in Numazu during their stay. The exhibition consists of four parts, centered on a collaborative work composed of paintings drawn by artist Chita Lu during her stay and photographs taken by photographer Eva Chih in Numazu, presented on a single large screen. In addition, there will be a booklet summarizing their stay, an interactive piece where artists hand-draw frames for Polaroid photos taken of visitors and present them, and a video documenting their stay. For the production, art materials will be procured and film developed within Shizuoka Prefecture."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/380a6fa3/9a8f7bbb-b8e4-43fc-8cd9-a235d8caa94b.jpg",
       "description": "台湾・台北を拠点とする作家2名が、10月4日から11月3日まで当施設に滞在します。本展は、その滞在期間中に沼津で制作した作品を発表する成果発表展です。展示は4部構成で、中心となるのは、画家のChita Luが滞在中に描いた絵と、写真家のEva Chihが沼津で撮影した写真を、1枚の大画面に構成した共作です。このほか、滞在の記録をまとめた冊子、来場者を撮影したポラロイド写真に作家が手描きの額縁を添えて渡す参加型作品、滞在の記録映像を展示します。制作にあたっては、画材の調達とフィルムの現像を静岡県内で行う予定です。",
       "medium": "mixed",
@@ -102280,8 +102407,15 @@
       "venue": {
         "id": "7b72b6e23f45",
         "name": "Artspace入サ岩﨑商店",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "Artspace 이리사 이와사키 상점"
+          },
+          "en": {
+            "name": "Artspace Iri-sa Iwasaki Shoten"
+          }
+        },
         "region": "静岡県",
         "district": null,
         "lat": 35.10171051884251,
@@ -102309,8 +102443,15 @@
       "id": "2679d5e42c8b",
       "source": "tokyo_art_beat",
       "title": "下屋敷和文 「途上｜along the way エキシビジョン」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "시모야시키 카즈후미 「도상｜along the way 전시」"
+        },
+        "en": {
+          "title": "Kazufumi Shimoyashiki 「On the Way | along the way Exhibition」"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/fbff76cb/575b7fbf-7e42-417a-a736-91da3f43cdd9.jpg",
       "description": null,
       "medium": "mixed",
@@ -102356,8 +102497,19 @@
       "id": "d3796d3b143f",
       "source": "tokyo_art_beat",
       "title": "「TAAP Live 2026」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「TAAP Live 2026」",
+          "description": "Tokyo Artist Accelerator Program (TAAP)는 자립적이고 지속적인 활동을 목표로 하는 미술·영상 분야의 젊은 아티스트를 지원하는 프로그램입니다. 아티스트 스스로 작품을 이야기하는 프레젠테이션에 초점을 맞춰, 작품을 이야기하는 능력 향상과 콘셉트 강화 양면에서 지원합니다. 선발된 지원 아티스트에게는 자유도 높은 제작 지원금을 지급하고, 현대 미술의 다양한 전문가들과 8개월에 걸친 지속적인 멘토링을 실시하며, 프레젠테이션 기회(TAAP Live)를 창출함으로써 도쿄를 거점으로 하는 젊은 아티스트의 비약을 지원합니다. TAAP 제3기 지원 아티스트들이 모여 8개월에 걸친 멘토링의 성과로서 작품의 콘셉트와 제작 배경을 프레젠테이션하는 이벤트가 「TAAP Live」입니다.\n\n◼️내용・스케줄：\n◉프레젠테이션\n12명의 지원 아티스트가 작품에 대해 이야기하는 각 10분간의 프레젠테이션 스테이지. 갤러리스트, 아티스트, 컬렉터, 큐레이터 등 다양한 배경을 가진 현대 미술 전문가들로 구성된 선정 위원 및 멘토와의 지속적인 대화를 거쳐 온 성과를 발표합니다. ※프레젠테이션은 일본어로만 진행됩니다. 내용 및 등단 순서는 예고 없이 변경될 수 있으므로, 최신 시간표는 TAAP 공식 웹사이트에서 확인해 주십시오.\n\n2026년 11월 14일 (토)\n13:00 후루카와 료코 『이름이 되는 원인』\n13:45 시키지 리 『혀 위의 별자리, 고통 | Crucified Stars on the Tongue』\n14:25 야스하라 교코 『신화와 자원과 인프라』\n15:20 사와 히로시 『JASMERAH: Spectacle of the Unseen 만도르 사건, 기록과 기억의 어긋남을 둘러싸고』\n16:00 허자우 『시나가와 앞바다 이상 접촉 사건』\n16:40 이무라 카즈토 『breaststroke effect』\n\n2026년 11월 15일 (일)\n13:00 이시하라 카이 『도시의 별자리를 만들다 ― 기타큐슈와 지역 커뮤니티 주체의 영상 제작』\n13:45 나베 리요 『아웃 오브 공예』\n14:25 야마나카 하루미 『전쟁 PTSD와 세대 간 연쇄 / 「Who is sitting there?」』\n15:20 이와이 미카 『「지금, 여기」를 느끼는 수로 이야기』\n16:00 시가 코타 『Once Upon a Time in… Tokyo ―「만약」으로 노는 역사에 대하여』\n16:40 묘지 나마에 『데스 디자인 / 미래의 죽음과 장례 디자인에 대하여』\n\n2026년 11월 16일 (월)\n12:00-13:05 묘지 나마에 / 시가 코타 / 이와이 미카 / 야마나카 하루미\n13:15-14:15 나베 리요 / 이무라 카즈토 / 허자우 / 사와 히로시\n14:25-15:25 야스하라 교코 / 시키지 리 / 후루카와 료코 / 이시하라 카이\n\n◉워크 인 프로그레스 전시\n지원 아티스트 각자의 프레젠테이션 내용을 바탕으로 그 활동과 콘셉트, 프로세스를 전시하여 아티스트 활동을 다면적으로 알 수 있는 장을 마련했습니다. 또한, 프레젠테이션 자료도 모니터를 통해 공개합니다.\n\n2026년 11월 14일 (토) 12:00-19:00 (최종 입장: 18:30)\n2026년 11월 15일 (일) 12:00-19:00 (최종 입장: 18:30)\n2026년 11월 16일 (월) 12:00-17:00 (최종 입장: 16:30)\n\n[관련 이벤트]\n1. 토크 세션\n일시: 2026년 11월 14일, 11월 15일 17:45~18:30\n진행자: 아즈막스\n2. 아티스트 토크\n일시: 2026년 11월 16일 15:30~16:30\n등단자: 발표 아티스트\n※이벤트 상세 내용은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "ja": {
+          "title": "「TAAP Live 2026」"
+        },
+        "en": {
+          "description": "The Tokyo Artist Accelerator Program (TAAP) is a program that supports young artists in the fields of art and video who aim for independent and continuous activities. It focuses on presentations where artists themselves talk about their works, providing support for both improving their ability to articulate their work and strengthening their concepts. By providing selected artists with highly flexible production grants, conducting continuous mentoring over eight months with diverse specialists in contemporary art, and creating presentation opportunities (TAAP Live), the program supports the leap of young artists based in Tokyo. \"TAAP Live\" is an event where TAAP's third-term supported artists gather to present the concepts and backgrounds of their works as the outcome of eight months of mentoring.\n\n◼️Contents and Schedule:\n◉Presentations\nA presentation stage where 12 supported artists talk about their works for 10 minutes each. They will present the results of continuous dialogue with selection committee members and mentors, who are contemporary art specialists with diverse backgrounds, including gallerists, artists, collectors, and curators. *Presentations will be in Japanese only. Content and order of speakers may change without notice, so please check the latest timetable on the official TAAP website.\n\nNovember 14, 2026 (Sat)\n13:00 Ryoko Furukawa 『The Cause of Becoming a Name』\n13:45 Ri Shikiji 『Constellations on the Tongue, Pain | Crucified Stars on the Tongue』\n14:25 Kyoko Yasuhara 『Myths, Resources, and Infrastructure』\n15:20 Hiroshi Sawa 『JASMERAH: Spectacle of the Unseen The Mandor Incident, Regarding the Discrepancy Between Record and Memory』\n16:00 He Ziyu 『Shinagawa Offshore Abnormal Contact Incident』\n16:40 Kazuto Imura 『breaststroke effect』\n\nNovember 15, 2026 (Sun)\n13:00 Kai Ishihara 『Creating Urban Constellations - Kitakyushu and Community-Led Video Production』\n13:45 Riyo Nabe 『Out of Craft』\n14:25 Harumi Yamanaka 『War PTSD and Intergenerational Chains / 「Who is sitting there?」』\n15:20 Mika Iwai 『The Story of Waterways that Feel \"Here and Now\"』\n16:00 Kota Shiga 『Once Upon a Time in… Tokyo - On History Played with \"What If\"』\n16:40 Myoji Namae 『Death Design / On the Design of Death and Funeral in the Future』\n\nNovember 16, 2026 (Mon)\n12:00-13:05 Myoji Namae / Kota Shiga / Mika Iwai / Harumi Yamanaka\n13:15-14:15 Riyo Nabe / Kazuto Imura / He Ziyu / Hiroshi Sawa\n14:25-15:25 Kyoko Yasuhara / Ri Shikiji / Ryoko Furukawa / Kai Ishihara\n\n◉Work-in-Progress Exhibition\nBased on the presentation content of each supported artist, we have created a space to exhibit their activities, concepts, and processes, allowing for a multifaceted understanding of their artistic endeavors. Presentation materials will also be displayed on monitors.\n\nNovember 14, 2026 (Sat) 12:00-19:00 (Last entry: 18:30)\nNovember 15, 2026 (Sun) 12:00-19:00 (Last entry: 18:30)\nNovember 16, 2026 (Mon) 12:00-17:00 (Last entry: 16:30)\n\n[Related Events]\n1. Talk Session\nDate: November 14, November 15, 2026, 17:45-18:30\nFacilitator: Adzumax\n2. Artist Talk\nDate: November 16, 2026, 15:30-16:30\nSpeakers: Presenting Artists\n*Please check the official website for event details."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/6d31b1bc/bd190c28-c524-41d2-ac52-078855ef4cdc.jpg",
       "description": "Tokyo Artist Accelerator Program（TAAP）は、自立した継続的な活動を目指す美術・映像分野の若手アーティストを支援するプログラムです。アーティスト自身によって作品を語るプレゼンテーションに焦点をあて、作品を語る力の向上とコンセプト強化の両面からサポートします。選考を経た支援アーティストへ、自由度の高い制作支援金を支給するとともに、現代アートの多様なスペシャリストと8ヶ月にわたる継続的なメンタリングを実施し、プレゼンテーションの機会（TAAP Live）を創出することで、東京を起点とする若手アーティストの飛躍を支援します。TAAP第３期支援アーティストが集い、8か月にわたるメンタリングの成果として、作品のコンセプトや制作の背景をプレゼンテーションするイベントが「TAAP Live」です。\n\n◼️内容・スケジュール：\n◉プレゼンテーション\n12名の支援アーティストが、作品について語る各10分間のプレゼンテーションステージ。ギャラリストやアーティスト、コレクター、キュレーターら多様な背景を持つ現代アートのスペシャリストによって構成される選考委員およびメンターとの継続的な対話を重ねてきた成果を発表します。※プレゼンテーションは日本語のみとなります。内容・登壇順は予告なく変更される場合がありますので、最新のタイムテーブルはTAAP公式サイトでご確認ください。\n\n2026年11月14日（土）\n13:00 古川諒子 『名前になる原因』\n13:45 敷地理 『舌上の星座、痛み | Crucified Stars on the Tongue』\n14:25 安原杏子 『神話と資源とインフラ』\n15:20 澤寛 『JASMERAH: Spectacle of the Unseen マンドール事件、記録と記憶のずれをめぐって』\n16:00 何梓羽 『品川沖異常接触事件』\n16:40 井村一登 『breaststroke effect』\n\n2026年11月15日（日）\n13:00 石原海 『都市の星座をつくる―北九州と地域のコミュニティ主体の映像制作』\n13:45 鍋梨世知 『アウト・オブ・工芸』\n14:25 山中春海 『戦争PTSDと世代間連鎖 / 「Who is sitting there?」』\n15:20 岩井美佳 『「いま、ここ」を感じる水路の話』\n16:00 志賀耕太 『Once Upon a Time in… Tokyo ―「もしも」で遊ぶ歴史について』\n16:40 みょうじなまえ 『デスデザイン / 未来における死と葬送のデザインについて』\n\n2026年11月16日（月）\n12:00-13:05 みょうじなまえ / 志賀耕太 / 岩井美佳 / 山中春海\n13:15-14:15 鍋梨世知 / 井村一登 / 何梓羽 / 澤寛\n14:25-15:25 安原杏子 / 敷地理 / 古川諒子 / 石原海\n\n◉ワーク・イン・プログレス展示\n支援アーティストそれぞれのプレゼンテーション内容をもとに、その活動やコンセプト、プロセスを展示し、アーティスト活動を多面的に知ることができる場を設けました。また、プレゼンテーション資料もモニターにて公開します。\n\n2026年11月14日（土） 12:00-19:00（最終入場：18:30）\n2026年11月15日（日） 12:00-19:00（最終入場：18:30）\n2026年11月16日（月） 12:00-17:00（最終入場：16:30）\n\n[関連イベント]\n1. トークセッション\n日時: 2026年11月14日、11月15日17:45〜18:30\nファシリテーター: あづまっくす\n2. アーティストトーク\n日時: 2026年11月16日15:30〜16:30\n登壇者: 発表アーティスト\n※イベント詳細は公式ホームページよりご確認ください。",
       "medium": "video",
@@ -102483,8 +102635,17 @@
       "id": "d19d1503105e",
       "source": "tokyo_art_beat",
       "title": "北村圭介 「巡る」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "키타무라 케이스케 「메구루」",
+          "description": "개인전 『메구루』가 2026년 10월 29일 (목)부터 11월 17일 (화)까지 도쿄 메구로의 BOOK AND SONS에서 개최됩니다. 이번 전시는 어린 시절의 단편적이고 모호한 기억을 주제로, 작가 자신의 아이들과의 나날을 계속해서 찍어온 사진들로 구성된 전시회입니다. 평범한 일상의 풍경이나, 문득 스치는 표정, 언젠가 잊혀질지도 모르는 순간들. 사진에 남겨진 광경을 통해 기억과 시간 사이에 존재하는 모호함과 지나간 날들의 흔적을 응시합니다. 또한, 전시회에 맞춰 동명의 사진집 『메구루』도 출간됩니다. 사진 작품 외에도 한 권의 책으로서의 구성과 장정, 인쇄에도 심혈을 기울여 제작되었습니다. 사진이라는 형태로 남겨진 시간이 보는 사람 각자의 기억과 겹쳐지는 듯한 전시회입니다."
+        },
+        "en": {
+          "title": "Keisuke Kitamura \"Meguru\"",
+          "description": "The solo exhibition \"Meguru\" will be held at BOOK AND SONS in Meguro, Tokyo, from Thursday, October 29, 2026 to Tuesday, November 17, 2026. This exhibition is composed of photographs taken by the artist of his daily life with his children, themed around fragmented and ambiguous memories from childhood. Ordinary everyday scenes, fleeting expressions, moments that might someday be forgotten. Through the scenes preserved in photographs, the exhibition gazes at the ambiguity between memory and time, and the lingering presence of days gone by. In conjunction with the exhibition, a photo book of the same title, \"Meguru,\" will also be published. In addition to the photographic works, great care has been taken in the composition, binding, and printing as a book. It is an exhibition where time preserved in the form of photographs will overlap with the memories of each viewer."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/e65db909/42c13e1f-fbeb-417d-9b03-53f99d2fb6d6.jpg",
       "description": "個展『巡る』が、2026年10月29日（木）から11月17日（火）まで、東京・目黒のBOOK AND SONSにて開催されます。本展は、子どもの頃の断片的で曖昧な記憶をテーマに、自身の子どもたちとの日々を撮り続けてきた写真によって構成される展覧会です。何気ない日常の風景や、ふとした表情、いつか忘れてしまうかもしれない瞬間。写真に残された光景を通して、記憶と時間のあいだにある曖昧さや、過ぎ去った日々の気配を見つめます。また、展覧会に合わせて同名の写真集『巡る』も刊行。写真作品に加え、一冊の本としての構成や装丁、印刷にもこだわって制作されています。写真というかたちで残された時間が、見る人それぞれの記憶と重なり合うような展覧会です。",
       "medium": "photo",
@@ -102530,8 +102691,17 @@
       "id": "7c168770e096",
       "source": "tokyo_art_beat",
       "title": "松元康明 「（R）AW（e）」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "마츠모토 야스아키 「(R)AW(e)」",
+          "description": "최근 몇 년간 마츠모토 씨가 깊은 숲을 오가며 작업한 두 가지 프로젝트. 숲의 공기감을 최대한 날것의 상태(RAW)로 포착한 “somewhere forest”와, 그 이미지에 숲에 대한 경외감(AWE)을 담은 표현을 더한 “piles”. “somewhere forest”는 F값 개방으로 촬영된 흑백 사진으로, 그곳에 서 있었을 때의 습한 공기와 눈부신 나뭇잎 사이로 비치는 햇살을 떠올리게 합니다. 그 프린트를 숲의 흙으로 삶아 퍼즐처럼 숲의 조각들을 재구축한 “piles”는 다가오는 눈에 보이지 않는 숲의 힘의 물결과 다양한 생명의 리듬을 연상시킵니다. 전혀 다른 인상을 가진 이미지들이지만, 각각 다른 관점에서 마츠모토 씨에게 숲을 표현하는 중요한 시리즈입니다. 이번에 이 서로 다른 두 가지 접근 방식을 같은 공간에 존재하게 함으로써 어떤 시너지 효과가 나타날지, 더 많은 분들이 경험해 주시기를 바랍니다."
+        },
+        "en": {
+          "title": "Yasuaki Matsumoto \"(R)AW(e)\"",
+          "description": "For the past few years, Matsumoto has been working on two projects by visiting deep forests. \"somewhere forest\" captures the atmosphere of the forest in as raw a state as possible, and \"piles\" adds expressions imbued with a sense of awe for the forest to those images. \"somewhere forest\" consists of monochrome photographs taken with an open aperture, recalling the humid air and dazzling sunlight filtering through the trees when standing in that place. \"piles,\" created by boiling these prints in forest soil and reconstructing pieces of the forest like a puzzle, evokes the unseen surge of the forest's power and the rhythms of various lives. Although these images have completely different impressions, each is an important series that expresses Matsumoto's perception of the forest from a different perspective. We hope that many people will experience what kind of synergistic effects will emerge by allowing these two different approaches to coexist in the same space."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/cd3f8308/91615439-9b75-4d47-88f5-ee91955c1478.jpg",
       "description": "ここ数年、松元さんが奥深い森に通って制作しているふたつのプロジェクト。\n森の空気感をなるだけ生の状態(RAW) で捉えた“somewhere forest”と、そのイメージに森への畏怖の念 (AWE) を込めた表現を加えた “piles”。\n“somewhere forest”は、F値開放で撮られたモノクローム写真で、その場に立っていた時の湿った空気や眩しい木漏れ日を思い出させます。そのプリントを森の土で煮込み、パズルの様に森のピースを再構築した”piles”は、迫ってくる目には見えない森のパワーのうねりや様々な生命のリズムを想起させます。全く違う印象を持ったイメージ達ですが、それぞれが違った観点で松元さんにとっての森を表現する大切なシリーズです。\n今回、この異なったふたつのアプローチを同じ空間に存在させる事でどのような相乗効果が現れるのか、より多くの方々に体験して頂けたら幸いです。",
       "medium": "photo",
@@ -102577,8 +102747,15 @@
       "id": "ea5454bad49b",
       "source": "tokyo_art_beat",
       "title": "松田真生 「劇場」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "마츠다 마오 「극장」"
+        },
+        "en": {
+          "title": "Mao Matsuda \"Theater\""
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/e7bf17f0/ab3493aa-7ade-4617-b0da-98df41679ca3.jpg",
       "description": null,
       "medium": "mixed",
@@ -102761,8 +102938,15 @@
       "venue": {
         "id": "b99033a3f93f",
         "name": "GALLERY X",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "GALLERY X"
+          },
+          "ja": {
+            "name": "GALLERY X"
+          }
+        },
         "region": "渋谷",
         "district": null,
         "lat": 35.66204174873168,
@@ -102801,8 +102985,15 @@
       "venue": {
         "id": "14b5d56a101d",
         "name": "Art Gallery Shirokane 6c",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Art Gallery Shirokane 6c"
+          },
+          "ja": {
+            "name": "Art Gallery Shirokane 6c"
+          }
+        },
         "region": "白金、広尾",
         "district": null,
         "lat": 35.644484904309984,
@@ -102928,8 +103119,15 @@
       "venue": {
         "id": "365f8a71901c",
         "name": "嘉麻市立織田廣喜美術館",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "가마 시립 오다 히로키 미술관"
+          },
+          "en": {
+            "name": "Kama City Oda Hiroki Museum"
+          }
+        },
         "region": "福岡県",
         "district": null,
         "lat": 33.56045921412805,
@@ -114288,8 +114486,15 @@
     {
       "id": "1b77aad41743",
       "name": "東葛西1-11-6-A倉庫",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "동카사이 1-11-6-A 창고"
+        },
+        "en": {
+          "name": "Higashikasai 1-11-6-A Warehouse"
+        }
+      },
       "venue_type": "other",
       "region": "東京：その他",
       "district": null,
@@ -114302,8 +114507,15 @@
     {
       "id": "b44a2b0846ba",
       "name": "TIGER MOUNTAIN（タイガーマウンテン）",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "TIGER MOUNTAIN"
+        },
+        "en": {
+          "name": "TIGER MOUNTAIN"
+        }
+      },
       "venue_type": "other",
       "region": "麻布台、虎ノ門",
       "district": null,
@@ -114316,8 +114528,15 @@
     {
       "id": "b64d80e57e6d",
       "name": "赤い橋ぎゃらりー",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "아카이하시 갤러리"
+        },
+        "en": {
+          "name": "Akai Hashi Gallery"
+        }
+      },
       "venue_type": "other",
       "region": "神奈川県",
       "district": null,
@@ -114330,8 +114549,15 @@
     {
       "id": "a5eb554acccc",
       "name": "ギャラリー国立",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "갤러리 쿠니타치"
+        },
+        "en": {
+          "name": "Gallery Kunitachi"
+        }
+      },
       "venue_type": "other",
       "region": "武蔵野、多摩",
       "district": null,
@@ -114344,8 +114570,15 @@
     {
       "id": "7b72b6e23f45",
       "name": "Artspace入サ岩﨑商店",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "Artspace 이리사 이와사키 상점"
+        },
+        "en": {
+          "name": "Artspace Iri-sa Iwasaki Shoten"
+        }
+      },
       "venue_type": "other",
       "region": "静岡県",
       "district": null,
@@ -114358,8 +114591,15 @@
     {
       "id": "b99033a3f93f",
       "name": "GALLERY X",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "GALLERY X"
+        },
+        "ja": {
+          "name": "GALLERY X"
+        }
+      },
       "venue_type": "gallery",
       "region": "渋谷",
       "district": null,
@@ -114372,8 +114612,15 @@
     {
       "id": "14b5d56a101d",
       "name": "Art Gallery Shirokane 6c",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "Art Gallery Shirokane 6c"
+        },
+        "ja": {
+          "name": "Art Gallery Shirokane 6c"
+        }
+      },
       "venue_type": "gallery",
       "region": "白金、広尾",
       "district": null,
@@ -114386,8 +114633,15 @@
     {
       "id": "365f8a71901c",
       "name": "嘉麻市立織田廣喜美術館",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "가마 시립 오다 히로키 미술관"
+        },
+        "en": {
+          "name": "Kama City Oda Hiroki Museum"
+        }
+      },
       "venue_type": "other",
       "region": "福岡県",
       "district": null,
