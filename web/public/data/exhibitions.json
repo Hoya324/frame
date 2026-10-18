@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T16:32:59.120301+00:00",
+  "generated_at": "2026-10-18T20:33:51.524390+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -80803,22 +80803,11 @@
       "popularity_score": null
     },
     {
-      "id": "2a19e925a946",
+      "id": "0d448baa71f3",
       "source": "totem_pole",
-      "title": "Choosing “facts”",
-      "lang": "en",
-      "tr": {
-        "ko": {
-          "title": "사실의 선택"
-        },
-        "ja": {
-          "title": "事実の選択",
-          "description": "カン・ミソン / カンミソン / gang,misun / カン・ミソン\n\n事実の選択 / Choosing “facts” / 事実の選択\n\n2026.10.20 (Tue) – 11.1 (Sun)\n\nOpen 12:00 – 19:00 Closed Mondays\n\nカン・ミソン プロフィール"
-        },
-        "en": {
-          "description": "Gang Mi-seon / Kan Mison / gang,misun / Gang Mi-seon\n\nChoosing Facts / Choosing “facts” / Choosing Facts\n\n2026.10.20 (Tue) – 11.1 (Sun)\n\nOpen 12:00 – 19:00 Closed Mondays\n\nGang Mi-seon Profile"
-        }
-      },
+      "title": "事実の選択 / Choosing “facts” / 사실의 선택",
+      "lang": null,
+      "tr": {},
       "poster_image_url": "https://tppg.jp/wp/wp-content/uploads/2026/08/cf14_gangmisun.jpg",
       "description": "姜美善 / カンミソン / gang,misun / 강 미선\n\n事実の選択 / Choosing “facts” / 사실의 선택\n\n2026.10.20 (Tue) – 11.1 (Sun)\n\nOpen 12:00 – 19:00 Closed Mondays\n\n姜美善プロフィール",
       "medium": "photo",
@@ -81019,7 +81008,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-10-17",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "02db9d878919",
@@ -83687,7 +83676,7 @@
       "price_max": null,
       "start_date": "2026-10-05",
       "end_date": "2026-10-17",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "8882c8060b40",
@@ -90250,7 +90239,7 @@
       "price_max": null,
       "start_date": "2026-10-17",
       "end_date": "2026-10-17",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "944e390ef289",
@@ -96118,21 +96107,14 @@
       "popularity_score": null
     },
     {
-      "id": "830f655486d8",
-      "source": "tokyo_art_beat",
-      "title": "淵上裕太 「新宿」",
-      "lang": "ja",
-      "tr": {
-        "ko": {
-          "title": "후치가미 유타 「신주쿠」"
-        },
-        "en": {
-          "title": "Yuta Fuchigami 「Shinjuku」"
-        }
-      },
-      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/372ec1a9/1%20(2).jpg",
-      "description": null,
-      "medium": "mixed",
+      "id": "2a67f3cfab50",
+      "source": "totem_pole",
+      "title": "SHINJUKU",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://tppg.jp/wp/wp-content/uploads/2026/09/1-1.jpg",
+      "description": "淵上裕太 / Yuta Fuchikami\n\n新宿 / SHINJUKU\n\n2026.11.17 (tue) – 11.22 (sun)\n\n新宿を歩き、声をかけ、撮影した人間たちの記録\n\n淵上裕太\n\nProfile / Artist Site",
+      "medium": "photo",
       "exhibition_type": "solo",
       "genre_tags": [],
       "fee_type": "free",
@@ -96161,6 +96143,19 @@
       },
       "artists": [
         {
+          "id": "291ed3966f60",
+          "name": "淵上裕太 / Yuta Fuchikami",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "후치카미 유타 / Yuta Fuchikami"
+            },
+            "en": {
+              "name": "Fuchikami Yuta / Yuta Fuchikami"
+            }
+          }
+        },
+        {
           "id": "505a92b96a20",
           "name": "淵上裕太",
           "lang": "ja",
@@ -96174,7 +96169,7 @@
           }
         }
       ],
-      "source_url": "https://www.tokyoartbeat.com/events/-/Yuta-Fuchikami-Shinjuku/2-D82-C04-B/2026-11-17",
+      "source_url": "https://tppg.jp/shinjuku-2/",
       "featured": false,
       "popularity_score": null
     },
@@ -103542,6 +103537,53 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Emiko-Nakajima-Serendipity-IV/6694-D683/2026-11-12",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "bbb6723541ce",
+      "source": "place_m",
+      "title": "めくれた家-The Peeled House-",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://www.placem.com/schedule/2026/main/20261221/web_450pix_1.jpg",
+      "description": "2026.12.21 - 2026.12.27 前川光平×卯月梨沙 2人展 めくれた家-The Peeled House- 存在しないと信じられてきたものが、ある瞬間から確かな存在へとすり替わることがある。 幽霊や噂話のように、一度知ってしまうと頭から離れず、見なかったことには戻れなくなる。目の端に残る影のように、それは執拗に私たちの内側に滞留し続ける。 本展は、前川光平の生活の痕跡や物が外部へと露出した「家」と、卯月梨沙の記憶や経験の奥に沈んでいたものが内部から滲み出す「家」から構成される。 どちらも生活の只中にありながら、説明できない重さや気配を帯びるそれらは、日常から隠され、あるいは抑圧されたものの表出でもある。 一度めくれてしまった外殻は元の場所へ戻ることはなく、見る者の内側に不可逆的な痕跡として残り続けるだろう。 Things that have long been believed not to exist can, at a certain moment, shift into something undeniably real. Like ghosts or rumors, once we become aware of them, they linger in our minds, making it impossible to return to a state of not having seen. Like a shadow caught at the edge of our vision, they persistently remain within us. This exhibition brings together two visions of the “house”: Kohei Maekawa’s, where traces of everyday life and objects are exposed to the outside, and Risa Uzuki’s, where things long submerged in the depths of memory and experience seep outward from within. Though both are rooted in the midst of everyday life, they carry an inexplicable weight and presence. They are also manifestations of things hidden from daily life, or held in repression. Once its outer shell has been peeled back, it can never return to its original place. What has been exposed will remain within the viewer as an irreversible trace. ●12月26日(土)18時〜 瀬戸正人×前川光平×卯月梨沙トークイベント(観覧無料) ●12月27日(日)18時〜 クロージングライブ(観覧無料) ※ライブ中は一部作品を取り外すため、通常の展示状態とは異なります。あらかじめご了承ください。 主催：卯月梨沙 助成：アーツカウンシル東京［スタートアップ助成］",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-21",
+      "end_date": "2026-12-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "2da18874aafa",
+        "name": "Place M",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Place M"
+          },
+          "ja": {
+            "name": "Place M"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.6877688,
+        "lng": 139.7125787
+      },
+      "artists": [
+        {
+          "id": "108bb5e3a7b4",
+          "name": "前川光平×卯月梨沙 2人展",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.placem.com/schedule/2026/main/20261221/exhibition.php",
       "featured": false,
       "popularity_score": null
     }
@@ -144637,6 +144679,12 @@
     {
       "id": "8d8f9823f560",
       "name": "中島恵美子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "108bb5e3a7b4",
+      "name": "前川光平×卯月梨沙 2人展",
       "lang": null,
       "tr": {}
     }
