@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T21:13:11.313794+00:00",
+  "generated_at": "2026-10-19T22:35:09.207395+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -45285,7 +45285,7 @@
       "price_max": null,
       "start_date": "2026-07-24",
       "end_date": "2026-10-18",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "716226843826",
@@ -52345,7 +52345,7 @@
       "price_max": null,
       "start_date": "2026-07-31",
       "end_date": "2026-10-18",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "403afe8b017e",
@@ -53249,7 +53249,7 @@
       "price_max": null,
       "start_date": "2026-09-05",
       "end_date": "2026-10-18",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ebe6d0623fa0",
@@ -57345,7 +57345,7 @@
       "price_max": null,
       "start_date": "2026-07-16",
       "end_date": "2026-10-18",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "5aa8b91a99e6",
@@ -73853,7 +73853,7 @@
       "price_max": null,
       "start_date": "2026-10-06",
       "end_date": "2026-10-18",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "1d36b2ca73b5",
@@ -77707,7 +77707,7 @@
       "price_max": null,
       "start_date": "2026-10-13",
       "end_date": "2026-10-18",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "bad41612e0e3",
@@ -82344,20 +82344,13 @@
       "popularity_score": null
     },
     {
-      "id": "f15d07651b64",
+      "id": "4fbfd175488a",
       "source": "tokyo_photographic_art_museum",
-      "title": "木村伊兵衛写真賞第50回記念写真展",
-      "lang": "ja",
-      "tr": {
-        "ko": {
-          "title": "김무라 이헤이 사진상 제50회 기념 사진전"
-        },
-        "en": {
-          "title": "Kimura Ihei Photography Award 50th Anniversary Photography Exhibition"
-        }
-      },
+      "title": "木村伊兵衛写真賞",
+      "lang": null,
+      "tr": {},
       "poster_image_url": "https://topmuseum.jp/wp-content/uploads/2026/09/kimura-e1788854848918.jpg",
-      "description": null,
+      "description": "一部の受賞作家の作品の展示はございません。ご来場者のみなさま、展示できなかった作家さまに、主催者からおわび申し上げます。 また、諸般の事情により、受賞作品とは異なる作品を展示している場合もございます。あらかじめご了承ください。 その眼差しが 新たな世界を写し出す 原点から未来を見据えて 2026年の発表をもって「木村伊兵衛写真賞」は第50回を迎えました。この節目に、「木村伊兵衛写真賞第50回記念写真展」を開催します。本展はその歴史を記すだけではありません。62人の受賞作家はつねに進行形で創作を続けてきました。 展示される受賞作などは若き日のデビュー作ではなく、それぞれが揺籃期をこえ、写真表現の広野に新たな息吹を吹き込んだ記念碑的な作品群といえます。作家たちは、「写真」というきわめて多様な対象に向かう懐の深い表現術を駆使してきました。ドキュメンタリー、スナップショット、ポートレート、ネイチャー、私写真、ジェンダー、コンテンポラリーアート、そして「写真」を拡張する表現へ。本展は、あらゆる領域で融通無碍な活動を続けている写真家たちの原点に出逢うことで、写真表現の未来をあらためて見据えようという試みです。 木村伊兵衛写真賞とは 戦前、戦後を通じ日本の写真界に大きな貢献をはたした写真家、木村伊兵衛（1901～1974年）の業績を記念して制定された写真賞です。 授賞対象は毎年1月から12月までの間、写真の制作・発表活動で優れた成果をあげた新人。活動は写真集、展示、雑誌など広く一般に発表されたもので、写真表現のあらゆる分野を含みます。正賞は賞状と賞牌、副賞に100万円が贈られます。1975年に朝日新聞社によって創設、「アサヒカメラ」が運営事務局を担い、2008年、朝日新聞出版発足後に同社と朝日新聞社との共催になりました。2020年の「アサヒカメラ」休刊に伴い、現在は、朝日新聞出版マーケティング部に運営事務局が置かれています 【お問い合わせ】 木村伊兵衛写真賞事務局 主 催： 朝日新聞出版、朝日新聞社 特別協力： 東京都写真美術館 協 力： 川崎市市民ミュージアム 協 賛： 株式会社ニコン、株式会社ニコンイメージングジャパン、富士フイルム株式会社、ソニーマーケティング株式会社、キヤノンマーケティングジャパン株式会社、ライカカメラジャパン株式会社、株式会社シグマ、OM デジタルソリューションズ株式会社、株式会社フレームマン 後 援： 公益社団法人日本写真家協会、全日本写真連盟",
       "medium": "photo",
       "exhibition_type": "curated",
       "genre_tags": [],
@@ -85198,7 +85191,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-10-18",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "a6d8e77d5fe8",
@@ -86074,7 +86067,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-10-18",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "6b99ee7d383f",
@@ -86750,7 +86743,7 @@
       "price_max": null,
       "start_date": "2026-10-04",
       "end_date": "2026-10-18",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "920816c5e98e",
@@ -87840,7 +87833,7 @@
       "price_max": null,
       "start_date": "2026-10-13",
       "end_date": "2026-10-18",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -87891,7 +87884,7 @@
       "price_max": null,
       "start_date": "2026-10-19",
       "end_date": "2026-10-25",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -88448,7 +88441,7 @@
       "price_max": null,
       "start_date": "2026-10-06",
       "end_date": "2026-10-18",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "5163e693d1ea",
@@ -89231,7 +89224,7 @@
       "price_max": null,
       "start_date": "2026-06-30",
       "end_date": "2026-10-18",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "4f6b533d9524",
@@ -91062,7 +91055,7 @@
       "price_max": null,
       "start_date": "2026-10-06",
       "end_date": "2026-10-18",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "eefd71b39805",
@@ -92324,7 +92317,7 @@
       "price_max": null,
       "start_date": "2026-10-14",
       "end_date": "2026-10-18",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "4687f076189d",
@@ -95220,7 +95213,7 @@
       "price_max": null,
       "start_date": "2026-10-06",
       "end_date": "2026-10-18",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "afe71f7d0299",
@@ -95916,7 +95909,7 @@
       "price_max": null,
       "start_date": "2026-10-14",
       "end_date": "2026-10-18",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "e101149b9512",
@@ -97224,7 +97217,7 @@
       "price_max": null,
       "start_date": "2026-10-12",
       "end_date": "2026-10-18",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "7f967fddf44a",
@@ -102254,7 +102247,7 @@
       "price_max": null,
       "start_date": "2026-10-17",
       "end_date": "2026-10-18",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "b64d80e57e6d",
@@ -104154,7 +104147,7 @@
       "price_max": null,
       "start_date": "2026-10-19",
       "end_date": "2026-10-21",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "993660bc4e6d",
@@ -104308,6 +104301,410 @@
         }
       ],
       "source_url": "https://www.placem.com/schedule/2026/main/20261221/exhibition.php",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "346c93462222",
+      "source": "gallery_tosei",
+      "title": "Jung A KIM写真展",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/jpg/EXHIBITIONS/PAST/2026/2611/2611.jpg",
+      "description": "Jung A KIM�ｼ医く繝�繝ｻ繧ｸ繝ｧ繝ｳ繧｢)蜀咏悄螻�縲� 縲�縲�縲�縲�縲�縲�縲�縲� 縲�縲� 繧�縺後※縲√☆縺ｹ縺ｦ縺ｮ闡峨�ｯ縺昴ｌ縺槭ｌ縺ｮ蝣ｴ謇�縺ｸ縺ｨ驍�縺｣縺ｦ繧�縺上�� 2026蟷ｴ11譛�6譌･�ｼ磯�托ｼ峨�� 11譛�21譌･�ｼ亥悄�ｼ峨��菴懷ｮｶ逡･豁ｴ\n\n繧｢繝ｼ繧ｫ繧､繝舌Ν繝斐げ繝｡繝ｳ繝医�励Μ繝ｳ繝�\n\nCopyright (c) Jung A Kim All Rights Reserved",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-06",
+      "end_date": "2026-11-21",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "1ab862183c75",
+        "name": "Gallery Tosei",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Gallery Tosei"
+          },
+          "ja": {
+            "name": "Gallery Tosei"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.6986456,
+        "lng": 139.6628774
+      },
+      "artists": [],
+      "source_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/html/EXHIBITIONS/j_2611_Jung%20A%20Kim.html",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "5772da57db80",
+      "source": "tokyo_art_beat",
+      "title": "瀬戸葵 「ボイス」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/d1b8e71a/025aa9e9-2deb-4d4b-b922-91aab3b7dcbd.jpg",
+      "description": "瀬戸葵は一年半にわたりアジアを旅し、出会った人々の姿を撮影した。そこに写るのは、それぞれの土地で日々を生きる人々である。異なる土地を歩き、人々と向き合いながら、その表情や身振り、暮らしの時間に耳を澄ませてきた。「VOICE」は、旅のなかで見つめた人々の姿を通して、生きることの意味を問い続ける。見る人が写真からそれぞれの声を受け取り、自らの生を見つめる場をひらく。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-27",
+      "end_date": "2026-11-01",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "cf50d8160f85",
+        "name": "Nine Gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Nine Gallery"
+          },
+          "ja": {
+            "name": "Nine Gallery"
+          }
+        },
+        "region": "表参道、青山",
+        "district": null,
+        "lat": 35.671671126597005,
+        "lng": 139.71564693865776
+      },
+      "artists": [
+        {
+          "id": "48697c3619d7",
+          "name": "瀬戸葵",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Aoi-Seto-Voice/nine-gallery/2026-10-27",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "d1444b5f10d9",
+      "source": "tokyo_art_beat",
+      "title": "林宏樹 「HAGATA」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/38b5eb7d/435a3a2e-7678-4a7e-aa67-7b3d1de8f980.jpg",
+      "description": "このたび、studio嶋にて、林宏樹写真展『HAGATA』を開催いたします。『HAGATA』は、2023年に自主レーベルelectronより刊行した写真集です。日々のうつろいのなかで目に留まるもの。ときには、自分の内側から向かってくるように感じるもの、そうしたものに目を向け、撮り続けてきた43点の写真を一冊に収めています。本展では、刊行以来初めて『HAGATA』のオリジナルプリントを展示します。本の中で一つの流れを持っていた写真は、展示空間であたらしい印象と関係性を持ちます。写真集とはまた異なる『HAGATA』を、ぜひ会場でご覧ください。\n\n[関連イベント]\n6×7フィルムスライドショー\n日時: 2026年11月15日14:00〜、18:00〜（第二公演終了後クロージングパーティーあり）\n登壇者: 林宏樹、稗田晃大、セノオリョウタ\n会場: studio嶋\n料金: 2500円\n※イベント詳細は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-07",
+      "end_date": "2026-11-15",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "ee30cf994ede",
+        "name": "嶋 studio shima",
+        "lang": null,
+        "tr": {},
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.628040628191975,
+        "lng": 139.63469723007677
+      },
+      "artists": [
+        {
+          "id": "b252af735ee8",
+          "name": "林宏樹",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hiroki-Hayashi-Hagata/studio-shima/2026-11-07",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "54baf5fc03a5",
+      "source": "tokyo_art_beat",
+      "title": "「蓮沼執太 活動20周年記念アルバムジャケット展『てんてんてん』」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/fc698ce4/f948650f-7463-4935-a3bf-28b1ffa70ebf.jpg",
+      "description": "活動20周年を迎える音楽家・アーティスト蓮沼執太のアルバムのジャケット・ワークスを展示します。2006年、アメリカのレーベルWestern Vinylからのアルバムリリースに始まり、これまで行ってきた活動で生まれたCDやレコード、コンサート公演、展覧会、様々なプロジェクトで、蓮沼の活動とともに数々のビジュアルが生み出されてきました。それらは、音楽を届けるためのイメージであると同時に、様々なクリエイターとの協働を映し出してきました。その中でも、アルバムのジャケット・ワークスは音楽家の姿勢をあらわす重要なものであり、蓮沼の多岐に及ぶ音楽性が反映、展開されています。本展は過去のジャケット・ワークスをひとつの空間に並べ、一堂にご覧いただける初めての機会となります。蓮沼執太の20年間の活動の変遷、歩んできたクリエイティブの蓄積をぜひお楽しみください。\n\n光と音の空間に並ぶ20年間のジャケット・ワークス会場に浮かび上がる「てんてん」の光。その点線に沿って、蓮沼執太のこれまでのジャケット・ワークスが時系列に並びます。音が流れる空間でひとつひとつの作品を鑑賞しながら、音楽とともに生まれてきたビジュアルの変遷や、様々なクリエイターとの協働の軌跡をご覧いただけます。会場構成を手がけるのは、蓮沼執太と親交の深い建築家・元木大輔が率いるDDAA。作品と音、そして光を中心としたシンプルな構成が、個々のジャケットの表現を引き立て、蓮沼執太の20年間の活動をひとつの空間につなぎます。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-16",
+      "end_date": "2026-10-26",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "b99033a3f93f",
+        "name": "GALLERY X",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "GALLERY X"
+          },
+          "ja": {
+            "name": "GALLERY X"
+          }
+        },
+        "region": "渋谷",
+        "district": null,
+        "lat": 35.66204174873168,
+        "lng": 139.6989780513043
+      },
+      "artists": [
+        {
+          "id": "ab10073be937",
+          "name": "池谷陸",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "74eb2d0f50f4",
+          "name": "オードリー・フォンドゥカヴ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "800f360101e8",
+          "name": "金氏徹平",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "013b4337287a",
+          "name": "川村麻純",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5b3fe53b3b0a",
+          "name": "カンパニーツー",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b4ed08a79108",
+          "name": "小池アイ子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "737347326afc",
+          "name": "近藤恵介",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "10d3b0eb18bd",
+          "name": "四宮義俊",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "26b4360ff8e2",
+          "name": "ジョアンナ・タガダ・ホフベック",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "2f19e7386637",
+          "name": "田中せり",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e8d136440ede",
+          "name": "長嶋五郎",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4ee2d061aa86",
+          "name": "長嶋りかこ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "2e719923f6c9",
+          "name": "蓮沼執太",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5421399b48e7",
+          "name": "服部一成",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d245631be948",
+          "name": "平山昌尚",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a1082a19977a",
+          "name": "横尾忠則",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "요코오 타다노리"
+            },
+            "en": {
+              "name": "Tadanori Yokoo"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Shuta-Hasunuma-20th-Anniversary-Album-Artwork-Exhibition-Ten-Ten-Ten/FDCA21-B9/2026-10-16",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f181cffe75f7",
+      "source": "tokyo_art_beat",
+      "title": "「CAMERIDER FESTIVAL 2026 『A PIECE OF BIKE』」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/40af2c64/8cb3563d-f001-4daa-9711-676fd5fd9809.png",
+      "description": "CAMERIDER FESTIVALは、バイクポートレートをコンセプトにしたグループ写真展です。2023年以来、2回目の開催となる今回は、9人のカメライダーが参加。「A PIECE OF BIKE」をテーマに、バイクと過ごした時間や思い出、愛車への想いを、3×3の9マスに自由にレイアウトし、一つの作品として紡ぎます。9人それぞれの視点から、人とバイクの間に生まれる物語を表現します。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-28",
+      "end_date": "2026-11-09",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "4ff6c8fdf9f9",
+        "name": "UNITEDcafe（ユナイテッドカフェ）",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "UNITEDcafe"
+          },
+          "en": {
+            "name": "UNITEDcafe"
+          }
+        },
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.63162749868051,
+        "lng": 139.66976638467312
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Camerider-Festival-2026-A-Piece-of-Bike/unitedcafe/2026-10-28",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "598219529459",
+      "source": "tokyo_art_beat",
+      "title": "Yamamoto Hiroshi + glafworks 「THE TRACE」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/29a5c4ff/bc733e20-0b64-4754-bd44-b7cf7b622f9e.png",
+      "description": "私たちを本当に遠くへ連れて行くものは何か。それは物理的な出力ではない。未知を知ろうとする『探究心』と、一歩を踏み出す『行動力』人間の内なる『THE POWER』だ。今回、その力を宿すYAMAMOTO HIROSHI氏とのコラボレーション撮影を敢行。単なる移動手段にも、クラシックな装いにも留まらない。現代的ミニマリズムとインダストリアルな質感が融合した新次元のバイクファッション。レンズ越しに広がる圧倒的な静寂とリアリティの中で、交わることのなかった二つの視点が今、一つのフレームで交差する。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "4ff6c8fdf9f9",
+        "name": "UNITEDcafe（ユナイテッドカフェ）",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "UNITEDcafe"
+          },
+          "en": {
+            "name": "UNITEDcafe"
+          }
+        },
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.63162749868051,
+        "lng": 139.66976638467312
+      },
+      "artists": [
+        {
+          "id": "9e47226514b9",
+          "name": "Yamamoto Hiroshi",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5e60c03f4c99",
+          "name": "glafworks",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hiroshi-Yamamoto-Glafworks-The-Trace/unitedcafe/2026-11-11",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "c0374fb1b648",
+      "source": "tokyo_art_beat",
+      "title": "Yamamoto Hiroshi + glafworks 「THE TRACE」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/29a5c4ff/bc733e20-0b64-4754-bd44-b7cf7b622f9e.png",
+      "description": "私たちを本当に遠くへ連れて行くものは何か。それは物理的な出力ではない。未知を知ろうとする『探究心』と、一歩を踏み出す『行動力』人間の内なる『THE POWER』だ。今回、その力を宿すYAMAMOTO HIROSHI氏とのコラボレーション撮影を敢行。単なる移動手段にも、クラシックな装いにも留まらない。現代的ミニマリズムとインダストリアルな質感が融合した新次元のバイクファッション。レンズ越しに広がる圧倒的な静寂とリアリティの中で、交わることのなかった二つの視点が今、一つのフレームで交差する。",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-28",
+      "end_date": "2026-11-09",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "1dc76ed0df03",
+        "name": "UNITEDcafe宮ヶ瀬（ユナイテッドカフェ宮ヶ瀬）",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "UNITEDcafe 미야가세"
+          },
+          "en": {
+            "name": "UNITEDcafe Miyagase"
+          }
+        },
+        "region": "神奈川県",
+        "district": null,
+        "lat": 35.5347715,
+        "lng": 139.2705804
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hiroshi-Yamamoto-Glafworks-The-Trace/Unitedcafe-Miyagase/2026-10-28",
       "featured": false,
       "popularity_score": null
     }
@@ -115812,6 +116209,20 @@
       "country": "JP",
       "lat": 35.7159769657921,
       "lng": 139.78438448958397,
+      "website": null
+    },
+    {
+      "id": "ee30cf994ede",
+      "name": "嶋 studio shima",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "世田谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.628040628191975,
+      "lng": 139.63469723007677,
       "website": null
     }
   ],
@@ -145894,6 +146305,120 @@
           "name": "Maekawa Kohei × Uzuki Risa Two-Person Exhibition"
         }
       }
+    },
+    {
+      "id": "48697c3619d7",
+      "name": "瀬戸葵",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b252af735ee8",
+      "name": "林宏樹",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ab10073be937",
+      "name": "池谷陸",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "74eb2d0f50f4",
+      "name": "オードリー・フォンドゥカヴ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "800f360101e8",
+      "name": "金氏徹平",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "013b4337287a",
+      "name": "川村麻純",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5b3fe53b3b0a",
+      "name": "カンパニーツー",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b4ed08a79108",
+      "name": "小池アイ子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "737347326afc",
+      "name": "近藤恵介",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "10d3b0eb18bd",
+      "name": "四宮義俊",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "26b4360ff8e2",
+      "name": "ジョアンナ・タガダ・ホフベック",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2f19e7386637",
+      "name": "田中せり",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e8d136440ede",
+      "name": "長嶋五郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4ee2d061aa86",
+      "name": "長嶋りかこ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "2e719923f6c9",
+      "name": "蓮沼執太",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5421399b48e7",
+      "name": "服部一成",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d245631be948",
+      "name": "平山昌尚",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9e47226514b9",
+      "name": "Yamamoto Hiroshi",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5e60c03f4c99",
+      "name": "glafworks",
+      "lang": null,
+      "tr": {}
     }
   ]
 }
