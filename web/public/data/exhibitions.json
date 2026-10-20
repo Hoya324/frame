@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T17:59:38.350167+00:00",
+  "generated_at": "2026-10-20T21:48:41.054399+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -57394,7 +57394,7 @@
       "price_max": null,
       "start_date": "2026-07-07",
       "end_date": "2026-10-19",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "7657ae4d41c7",
@@ -59403,7 +59403,7 @@
       "price_min": null,
       "price_max": null,
       "start_date": "2024-01-08",
-      "end_date": "2026-12-31",
+      "end_date": "2026-11-08",
       "status": "ongoing",
       "open_hours": null,
       "venue": {
@@ -80827,7 +80827,7 @@
       "price_max": null,
       "start_date": "2026-10-20",
       "end_date": "2026-11-01",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5163e693d1ea",
@@ -80968,7 +80968,7 @@
       "price_max": null,
       "start_date": "2026-10-17",
       "end_date": "2026-10-19",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "5feff1bbc25b",
@@ -90301,7 +90301,7 @@
       "price_max": null,
       "start_date": "2026-10-09",
       "end_date": "2026-10-19",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "7eceec581cde",
@@ -90689,7 +90689,7 @@
       "price_max": null,
       "start_date": "2026-10-01",
       "end_date": "2026-10-19",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "238fe96014e5",
@@ -90801,7 +90801,7 @@
       "price_max": null,
       "start_date": "2026-10-15",
       "end_date": "2026-10-19",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "801538c3e8a0",
@@ -91266,7 +91266,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-19",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "40b2a5b7ab82",
@@ -91792,7 +91792,7 @@
       "price_max": null,
       "start_date": "2026-10-20",
       "end_date": "2026-10-25",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "bad41612e0e3",
@@ -94486,7 +94486,7 @@
       "price_max": null,
       "start_date": "2026-10-20",
       "end_date": "2026-11-01",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8882c8060b40",
@@ -95173,7 +95173,7 @@
       "price_max": null,
       "start_date": "2026-10-02",
       "end_date": "2026-10-19",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "3aea7b037036",
@@ -96977,7 +96977,7 @@
       "price_max": null,
       "start_date": "2026-10-20",
       "end_date": "2026-10-25",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "c1a3b8200685",
@@ -98662,7 +98662,7 @@
       "price_max": null,
       "start_date": "2026-10-08",
       "end_date": "2026-10-19",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "4d358832edbc",
@@ -99602,7 +99602,7 @@
       "price_max": null,
       "start_date": "2026-10-20",
       "end_date": "2026-11-01",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8882c8060b40",
@@ -101220,7 +101220,7 @@
       "price_max": null,
       "start_date": "2026-10-20",
       "end_date": "2026-11-01",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "afe71f7d0299",
@@ -104960,6 +104960,711 @@
       },
       "artists": [],
       "source_url": "https://www.tokyoartbeat.com/events/-/Hiroshi-Yamamoto-Glafworks-The-Trace/Unitedcafe-Miyagase/2026-10-28",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "6cbf0d44491c",
+      "source": "sema",
+      "title": "《린 허쉬만 리슨: 나의 [나]들》",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://sema.seoul.go.kr/common/imgFileView?FILE_ID=1026305",
+      "description": "《린 허쉬만 리슨: 나의 [나]들》은 서울시립미술관의 2026년 전시 의제인 ‘기술’에 응답하여 기획된 전시로, 미국의 원로 여성 미디어아티스트이자 영화감독인 린 허쉬만 리슨(1941~)의 아시아 최초 미술관 개인전이다. 1941년생인 린 허쉬만 리슨은 비디오, 인터넷, AI와 같은 새로운 기술을 예술적 매체로 과감히 수용해 실험한 미디어 아트의 선구자로 평가된다. 작가는 1960~70년대 ‘여성의 정체성’을 다룬 페미니즘 계열의 작업에서 출발해, 인간과 기술의 접속, 감시사회와 프라이버시, 알고리즘과 데이터 추적, 그리고 생명공학에 이르기까지 끊임없이 탐구영역을 확장해 왔다. 이번 전시는 ‘기술과 미디어가 우리의 정체성에 어떤 영향을 미치는가’ 라는 질문을 바탕으로, 드로잉, 회화, 사진, 조각, 미디어 설치, 영상, 영화 등 200여 점의 작품을 소개한다.\n\n전시의 영문 제목인 ‘First Person Plural’은 린 허쉬만 리슨이 1984년부터 이어온 비디오 작업 〈전자일기〉 시리즈 중 세 번째 작품의 제목에서 빌어온 것이다. ‘First Person Plural’은 영어 문법에서 ‘1인칭 복수(we)’를 뜻하는데, 영상에서 작가는 자신과 흑인 남성의 이야기를 교차시킴으로써 ‘나’라는 존재가 타인과의 경험 속에서 확장되는 유동적인 존재임을 암시한다. 한편 전시의 한글 제목인 ‘나의 [나]들’은 프로그래밍에서 사용되는 대괄호 기호를 통해, 기술 환경 안에서 복제되며 끊임없이 재구성되는 복수의 자아를 담아낸다. 본 전시는 <1. 카멜레온의 고백>, <2. 페르소나 만들기>, <3. 살과 기계>, <4. 스크린, 응답하다>, <5. 데이터가 사랑이 될 때>, <6. 편집된 미래>의 여섯 개의 섹션으로 구성되며, 작가의 활동 궤적과 기술 발전을 연결해 정체성이 어떻게 변화하고 확장되는지 보여준다. 선천적 정체성은 사회적 관계와 기계를 거쳐 확장되고, 미디어와 네트워크로 연결되며, 유전공학을 통해 생물학적으로 편집되는 단계에까지 이르게 된다.\n\n지금까지 린 허쉬만 리슨은 주로 ‘기술 선구자’, 혹은 ‘페미니즘 작가’라는 수식어로 설명되어 왔다. 이번 전시 《린 허쉬만 리슨: 나의 [나]들》은 이러한 수식어에 상대적으로 가려졌던 ‘정체성 탐구’가 60여 년에 걸쳐 어떻게 전개되어 왔는지를 살펴본다. 이를 통해 관람객이 작가의 이야기에 자신의 모습을 겹쳐보고 생각해보는 시간을 제공한다. 나아가 본 전시가 아시아 최초 미술관 개인전인 만큼, 그의 예술 세계를 종합적으로 조망하는 기회를 통해 여성 미디어 아트의 역사를 새롭게 살펴보는 계기가 되기를 바란다.",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-21",
+      "end_date": "2027-02-21",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "d03bbce7fcff",
+        "name": "서울시립미술관 서소문본관",
+        "lang": null,
+        "tr": {},
+        "region": "서울",
+        "district": null,
+        "lat": 37.56410579887691,
+        "lng": 126.9736988634857
+      },
+      "artists": [],
+      "source_url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1559068",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "8cca5674cc54",
+      "source": "tokyo_art_beat",
+      "title": "岩崎美ゆき 「きみの海は不可侵」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/57b56a13/61c1c689-86ad-412e-9f68-a8259312c654.jpg",
+      "description": "岩崎美ゆきの作品はデビューより一貫して、直裁に風景を写しとる硬質なストレートフォトグラフィーによって構成されています。深い被写界深度で撮影された写真は、画面の隅々までピントが合うことにより、かえってそれを見る者の眼差しを画面上に彷徨わせるようです。本展覧会は2025年5月にArt-space TARN（奈良）で開催されたジュエリー作家ambervacanceとの２人展「Utopia」の内容を新たに再構成したものになります。着実に作品の発表を続ける写真家の現在形をぜひご覧ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-30",
+      "end_date": "2026-11-04",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "23129cff8bfd",
+        "name": "Alt_Medium",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Alt_Medium"
+          },
+          "ja": {
+            "name": "Alt_Medium"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.71661464828487,
+        "lng": 139.70035702006683
+      },
+      "artists": [
+        {
+          "id": "d23ec14c1b87",
+          "name": "岩崎美ゆき",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Miyuki-Iwasaki-Your-Sea-Is-Inviolable/F7-BA6-D85/2026-10-30",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f2916c13b7dd",
+      "source": "tokyo_art_beat",
+      "title": "黒﨑彰 「群像」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/125f89ab/4e2fca38-4b5c-4a71-9bde-c0cfb26aea87.jpg",
+      "description": "写真家・黒﨑彰が長年にわたり撮影してきた、ハンセン病療養所の風景と、そこで暮らす人々の姿を紹介する写真展。本展では、邑久光明園の自然や建築を記録した写真シリーズ《光明園 ―逍遙―》（2022–2023）と、全国のハンセン病療養所を訪ねるなかで出会った人々を撮影した《群像》（2004–）を展示する。会場は、国立療養所邑久光明園内に残る旧裳掛小・中学校第三分校（光明学園）。療養所のなかに残された旧学校建築を会場に、黒﨑が記録してきた風景と人々の姿を紹介する。\n\n[関連イベント]\nトークショー「岡山から始めよう―ハンセン病療養所と写真―」\n日時: 2026年11月3日13:00〜\n登壇者: 黒﨑彰（写真家）、キムラ タダシ（学芸員）、黒尾和久（国立重監房資料館部長・考古学者）\n会場: ふれあいホール（国立療養所邑久光明園内）\n定員: 100名（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-31",
+      "end_date": "2027-01-31",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "c0f10c809bc4",
+        "name": "旧裳掛小・中学校 第三分校（光明学園）",
+        "lang": null,
+        "tr": {},
+        "region": "岡山県",
+        "district": null,
+        "lat": 34.671670376333196,
+        "lng": 134.2268264441803
+      },
+      "artists": [
+        {
+          "id": "6928e3f018ef",
+          "name": "黒﨑彰",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Akira-Kurosaki-Gunzo/Former-Mokake-Elementary-and-Junior-High-School-Third-Branch-Komyo-Gakuen/2026-10-31",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "1984716ce2da",
+      "source": "tokyo_art_beat",
+      "title": "マキエマキ 「為蔵の恋人」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/05b322b6/f31a16e4-77a6-4067-990f-5e385fb1d449.jpeg",
+      "description": "マキエマキ10周年記念イヤーの締めくくりとなる本展は、架空の写真愛好家「為蔵」が遺した“秘密のアルバム”を軸に展開する物語です。2018年から2025年にかけて制作した作品に、本展のために撮り下ろした新作を加え、時間の流れを感じるように構成しました。\nマキエマキの作品は、「male gaze（男性のまなざし）」を自身の身体で表現するセルフポートレートです。\n作品の中で「為蔵の恋人」として写るマキエマキは、架空の撮影者である為蔵の支配欲や承認欲求を満たす存在として現れます。ファインダーを覗く為蔵のエロティックな視線を受け入れ、カメラの前で肌をさらすその姿には、昭和の男たちが性的に消費してきた女性像が色濃く投影されています。\n鑑賞者は、「為蔵の恋人」が見せる恥じらいや戸惑い、そしてカメラに向けられた視線を通して、為蔵の欲望を追体験すると同時に、自らの視線のあり方を意識することになるでしょう。\nしかし、その世界はすべて、作者であるマキエマキがセルフポートレートという手法によって構築したフィクションです。一人の身体が「撮る者」と「撮られる者」の両方の役割を果たすことで、作者、被写体、そして架空の撮影者という複数の主体が入れ子構造のように重なり合うのです。\n鑑賞者が見るのは為蔵の視線なのか、それとも自身の欲望なのか。あるいは、そのすべてを設計した作家の視線なのか。\n「為蔵の恋人」をサディスティックな男性のまなざしで支配しているつもりの鑑賞者は、知らぬ間に、マキエマキが仕掛けた視線の構造に取り込まれているのです。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-27",
+      "end_date": "2026-11-01",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "bad41612e0e3",
+        "name": "ギャラリー・ソラリス",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 솔라리스"
+          },
+          "en": {
+            "name": "Gallery Solaris"
+          }
+        },
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.67689,
+        "lng": 135.5031
+      },
+      "artists": [
+        {
+          "id": "3172f594feaa",
+          "name": "マキエマキ",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마키에 마키"
+            },
+            "en": {
+              "name": "Makie Maki"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Maki-Makie-Tamezos-Lover/gallery-solaris/2026-10-27",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "75d28f71f027",
+      "source": "tokyo_art_beat",
+      "title": "「GRAPHGATE展2026」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/29731168/181e6059-d17f-412a-a7e4-54eecaf32cb5.jpg",
+      "description": "「GRAPHGATE」は、作品づくりに強い意志を持った写真・映像作家の発掘を目的としたオーディションで、キヤノンマーケティングジャパンが2023年に開始しました。「入賞だけで終わらせず、さらに次へとつなげてほしい」という思いから、選考には作品の表面的な美しさや表現技法だけでなく、作品を通して強い意思や創作意欲を伝えるコミュニケーション力を重視しています。本展では、2026年4月1日から6月3日に募集を行った第4回GRAPHGATEの応募者の中から、一次選考、二次選考、三次選考を経て決定した優秀賞5名（写真作品から5名）と佳作7名（写真作品から6名、映像作品から1名）の計12名による作品を展示します。写真作品は各作家がそれぞれ割り振られた壁面内において、一次選考～三次選考で提出した作品群の中から自身でセレクトした作品を展示します。それぞれの作品群は、作家たちがこれまで何を思いどのような創作活動を行ってきたのか、そしてこれから何を目的に何を表現していきたいか、作品とともに語られる作家の意思、そして未来が表現されています。11月28日（土）には優秀賞5名から1名のグランプリを選出する公開選考会を開催致します。\n\n[関連イベント]\nGRAPHGATE グランプリ選考会\n日時: 2026年11月28日14:00〜17:45\n会場: キヤノン S タワー3階 キヤノンホール S\n料金: 無料（要事前申込み、定員150名）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-24",
+      "end_date": "2026-12-17",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "264da55cd4ca",
+        "name": "オープンギャラリー1・2",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "오픈 갤러리 1・2"
+          },
+          "en": {
+            "name": "Open Gallery 1・2"
+          }
+        },
+        "region": "天王洲、品川",
+        "district": null,
+        "lat": 35.62571436431203,
+        "lng": 139.74076925334083
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Graphgate-2026/2-E174-B58/2026-11-24",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "0397555588ee",
+      "source": "tokyo_art_beat",
+      "title": "「2026 iichiko PERSON AWARD 2026 EXHIBITION」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/c5a7ef0a/d3865569-7bc7-434e-a0b0-0e096062ce12.jpg",
+      "description": "「iichiko PERSON AWARD」は東京藝術大学デザイン科と三和酒類株式会社が行う受託研究プロジェクトです。若年層の生活・嗜好実態を考察し、「iichiko」の未来へ向けた価値を考えることをコンセプトに始まりました。日本の生活文化において酒は、祝い事や社交の場だけでなく、日常の時間や感情のリズムと密接に結びついてきました。「iichiko PERSON AWARD」では現代における \"生活と酒の関係性\"を各々の視点で切り取り、新しいお酒との関わり方を表現します。本展覧会では、「いいちこパーソン」をモチーフにした作品を[写真][動画][アートピース]の３部門で募集し、集まった作品を展示します。",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-23",
+      "end_date": "2026-10-25",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "a8a7f62e3883",
+        "name": "東京藝術大学 大学美術館・陳列館",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "도쿄 예술대학 대학 미술관・진열관"
+          },
+          "en": {
+            "name": "Tokyo University of the Arts University Art Museum and Chinretsukan"
+          }
+        },
+        "region": "上野、谷中",
+        "district": null,
+        "lat": 35.71920490768729,
+        "lng": 139.77186636581834
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/2026-iichiko-Person-Award-2026-Exhibition/DBFDD779/2026-10-23",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "877fac7fc9c8",
+      "source": "tokyo_art_beat",
+      "title": "「Nagasaki meets Fukuoka, Fukuoka meets Nagasaki 展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/14e11b5d/caee009a-4083-4272-94e8-82f0cf641c0a.jpg",
+      "description": "本展は、長崎市出身で美術愛好家の川上繁治氏（95歳）が主催する企画展です。川上氏はかつて宇久画廊のオーナーとして多くの現代作家の展示を行ってきました。半世紀以上にわたり現代作家との交流を大切にし、美術文化の発展に尽力しております。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-24",
+      "end_date": "2026-11-01",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "1ce957d8d2c4",
+        "name": "樂ギャラリー",
+        "lang": null,
+        "tr": {},
+        "region": "長崎県",
+        "district": null,
+        "lat": 32.74426100851038,
+        "lng": 129.8782222128975
+      },
+      "artists": [
+        {
+          "id": "d31d0b369b7e",
+          "name": "安藤圭汰",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0cbcff2308b4",
+          "name": "小島拓朗",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "286561cfa487",
+          "name": "中村ケイ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0f59a571bbce",
+          "name": "明松智",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "ba48247296a9",
+          "name": "金氣太郎",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "607a92366dd7",
+          "name": "團俊晴",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "685a897bd65a",
+          "name": "野島泉里",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1063d907d4cd",
+          "name": "林田英昭",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "7cba2aa535ae",
+          "name": "小倉基弘",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Nagasaki-Meets-Fukuoka-Fukuoka-Meets-Nagasaki/Raku-Gallery/2026-10-24",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "27fcdfdadd88",
+      "source": "tokyo_art_beat",
+      "title": "棗涼香 「ブランケット」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/a5cdeaf2/6e8dcd66-caa8-4dcf-9c37-fd11cf46f50c.jpg",
+      "description": "2023年～2025年の二年間、愛する4匹のねこたちが月に登った。その中で記録してきた生の形と死の気配。そこに絡みつくように残った愛しさと苦しみは、平坦な日常に埋もれる愛を模索し掬い上げ、今もまだ愛するということとは、みとるということとは何かを私に問い続けている。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-06",
+      "end_date": "2026-11-08",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "ac97d40fd2bb",
+        "name": "ギャルリー・ジュイエ",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 쥘리에"
+          },
+          "en": {
+            "name": "Galerie Juillet"
+          }
+        },
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.710343675076,
+        "lng": 139.6470381407201
+      },
+      "artists": [
+        {
+          "id": "17023acee857",
+          "name": "棗涼香",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Suzuka-Natsume-Natsume/7-ACE63-E1/2026-11-06",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "b47bd89ede41",
+      "source": "tokyo_art_beat",
+      "title": "樋口徹 「epilogue」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/df38984b/79ac1b36-8c1a-4729-9a1f-f28279ab0d37.jpg",
+      "description": "2025年2月に逝去した写真家・樋口徹の個展「epilogue」を、仙台のGallery TURNAROUNDにて開催します。樋口徹は1943年、宮城県名取市生まれ。仙台市を拠点に活動してきた写真家です。本展に先立ち、10月21日から11月1日までは、樋口と親交のあった11名の写真家と樋口本人の作品による「写真12人展 dialogue」を開催。二つの展覧会を通して、樋口の作品とその歩みを振り返ります。樋口は2015年、Gallery TURNAROUNDで個展「土台 dodai 3.11 report いえのあったばしょ」を開催しました。東日本大震災後の沿岸部に残された家々の土台を撮影した写真に加え、セメントや砂による模型、拾い集めたものなどを組み合わせた展示を発表しています。その後もギャラリーにたびたび足を運び、「次の写真集がまとまったら、また個展を」と話していました。今回の「epilogue」では、樋口が生前、繰り返し撮影していた桜の木を写した未発表作品を、ご家族の協力のもと新たにプリントし、展示します。展覧会タイトルの「epilogue」には、樋口の歩みを振り返りながら、その作品や記憶がこれからも続いていくことへの思いを込めています。また、二つの展覧会の締めくくりとして、11月15日（日）14:00よりクロージング懇親会を開催します。どなたでもご参加いただけます。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-04",
+      "end_date": "2026-11-15",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "b45afa6fb57d",
+        "name": "ギャラリー ターンアラウンド",
+        "lang": null,
+        "tr": {},
+        "region": "宮城県",
+        "district": null,
+        "lat": 38.25735847919293,
+        "lng": 140.86270489894994
+      },
+      "artists": [
+        {
+          "id": "7a564f31ec99",
+          "name": "樋口徹",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Toru-Higuchi-Epilogue/F5-DD7-D7-E/2026-11-04",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "ee1da4d13967",
+      "source": "tokyo_art_beat",
+      "title": "「Craig McDean Photo Exhibition at UNDER R TOKYO」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/a55c07dc/959d06e5-e702-4be9-8d2f-dae29d5b1a2f.jpg",
+      "description": "UNDER Rは、2026年10月23日（金）から11月6日（金）までの期間、ニューヨークを拠点に活躍するイギリス出身のファッションフォトグラファー、Craig McDean（クレイグ・マクディーン）によるフォトエキシビションを開催。\n\n1990年代初頭、『i-D』、『The Face』などのカルチャー誌で頭角を現したCraig McDeanは、その後、CHANEL、JIL SANDER、Calvin Kleinをはじめとする世界的ブランドの広告キャンペーンやエディトリアルを数多く手がけ、現代ファッションフォトグラフィーを代表する写真家として第一線で活躍し続けている。本展では、Craig McDeanが撮り下ろしたDucatiモーターバイクをテーマとした写真作品の展示と、同名写真集の発売を中心に、UNDER Rとのコラボレーションによるアパレルコレクションを展開。\n\n写真、デザイン、ファッション、モーターカルチャーが交差する、本プロジェクトならではの世界観をご体感いただけます。展示作品の主題となるのは、Ducatiを象徴する歴史的モデル「750 Supersport Green Frame」。1970年代初頭、Ducatiのチーフデザイナー、ファビオ・タリオーニによって開発された750cc Lツインエンジン搭載のレーシングマシンは、1972年のイモラ200マイルレースでデビュー戦にして1位・2位を独占し、Ducatiの名を世界へと押し上げた。その後、市販モデルとしてわずか401台のみが生産された「Green Frame」は、現在もなお伝説的な存在として世界中のコレクターを魅了している。\n\n1974年型750 Supersportは、公道走行が可能なレーシングマシンそのものと言える存在。シングルシート、エアフィルターを持たない吸気システム、開放型エキゾースト、トリプルディスクブレーキ、そして独創的なデスモドロミック・バルブシステムなど、当時の量産車の常識を覆す高性能を備え、職人の手によって一台ずつ組み上げられた機械芸術として高い評価を受けている。Craig McDeanは、このプロジェクトを通じて、奇跡的に出会った2台の特別なDucatiと向き合い、その造形美や歴史、そして受け継がれるクラフトマンシップを写真という表現で記録しました。彼にとってこれらのバイクは単なるモーターサイクルではなく、時代を超えて受け継がれる美と情熱の象徴でもある。\n\nCraig McDeanが捉えたDucatiの美学と、それを起点に広がる写真・ファッション・カルチャーが融合するUNDER Rでの空間をお楽しみください。\nまた、10月23日(金) 18時より、フリーエントランスのレセプションを開催します。Craig McDean本人も来場し、特別な世界観をお届けいたします。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-23",
+      "end_date": "2026-11-06",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "35ac81610e05",
+        "name": "UNDER R",
+        "lang": null,
+        "tr": {},
+        "region": "渋谷",
+        "district": null,
+        "lat": 35.675160509222366,
+        "lng": 139.70937363803387
+      },
+      "artists": [
+        {
+          "id": "1491deb09552",
+          "name": "クレイグ・マクディーン",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "크레이그 맥딘"
+            },
+            "en": {
+              "name": "Craig McDean"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Craig-Mc-Dean-Photo-Exhibition-at-Under-R-Tokyo/Under-R/2026-10-23",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "2ae4494a09ff",
+      "source": "tokyo_art_beat",
+      "title": "「組 版」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/82fa1866/0cab1437-052e-45f2-97f9-496c9bc0f4fd.jpg",
+      "description": "10月17日より、藤原印刷株式会社による企画展示「組 版」を神田錦町1-1-6にて開催。美しく個性的な本を生み出し続けている同社の祖業でもあり、本の制作工程では必須となる「組版」という技術。本展は、通常表面化されないその技術に着目し、新しい本の視点を提示することで、本を選び、読むという一連の行為にひとつの示唆を与える試みでもある。会場は、組版の解説に加え、各書店員さまの選書をもとに組版の分析を行うなど、本に込められた魅力を深く丁寧に見つめ直し、読み解くための展示内容で構成される。展示の内容をまとめた図録も販売予定。",
+      "medium": "mixed",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-25",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "3ad9e538d829",
+        "name": "グラフィックギャラリー1-1-6",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "그래픽 갤러리 1-1-6"
+          },
+          "en": {
+            "name": "Graphic Gallery 1-1-6"
+          }
+        },
+        "region": "竹橋、水道橋、末広町",
+        "district": null,
+        "lat": 35.69238015007205,
+        "lng": 139.7642737607479
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Typesetting/graphic-gallery-1-1-6/2026-10-17",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "0020a5bcdb1f",
+      "source": "tokyo_art_beat",
+      "title": "ナガタダイスケ 「赤いタクシー/blur」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/33361492/6a2309e4-25e9-41a2-9b91-9bad391f6f97.jpg",
+      "description": "京都蔦屋書店開業3周年を記念し、当企画のキービジュアルの写真を担当したナガタダイスケの個展「赤いタクシー / blur」を2026年10月17日（土）～11月17日（火）の期間、6F SHARE LOUNGEおよび 5F内売場 各所にて開催します。キービジュアルにも採用された、作家の代表作でもある「blur」シリーズは、高い場所から俯瞰で撮影された写真を、さらに一部分を拡大し細部を抽象化させることで、絵画的な魅力も併せ持った写真作品です。写真の持つ記録性の機能を削除し、デジタル上でトリミングすることで新たな都市の見え方を視覚化しています。\n\n今回は「京都の街」をテーマに本企画のために撮り下ろした、赤いタクシーをモチーフとした作品をSHARE LOUNGE内アートウォールに展示、さらに店内各所に、同じく赤いタクシーをモチーフにした小作品も点在させます。京都の碁盤の目をイメージした店内を走る幸運の赤いタクシーを、他企画と合わせてお楽しみください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-17",
+      "end_date": "2026-11-17",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "976ee20a7adf",
+        "name": "京都 蔦屋書店",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "교토 츠타야 서점"
+          },
+          "en": {
+            "name": "Kyoto Tsutaya Books"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.0031186485682,
+        "lng": 135.76828392193931
+      },
+      "artists": [
+        {
+          "id": "63bc396675f0",
+          "name": "ナガタダイスケ",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나가타 다이스케"
+            },
+            "en": {
+              "name": "Daisuke Nagata"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Daisuke-Nagata-Red-Taxi-Blur/kyoto-tsutaya-books/2026-10-17",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "52377afd8d7e",
+      "source": "tokyo_art_beat",
+      "title": "balshark 「Tug at the Sleeve -知らない記憶-」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/b61b4ea5/88bd2332-de5d-4477-a496-6e0fea72920e.jpeg",
+      "description": "[関連イベント]\nトークイベント\n日時: 2026年11月7日17:30〜18:30\n登壇者: 渡部さとる(写真家)\n料金: 2000円\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-15",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "aa409e6bf5f4",
+        "name": "gallery晴れ –南青山–",
+        "lang": null,
+        "tr": {},
+        "region": "表参道、青山",
+        "district": null,
+        "lat": 35.66728711446389,
+        "lng": 139.71561955701088
+      },
+      "artists": [
+        {
+          "id": "90b32fd5270b",
+          "name": "balshark",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Balshark-Tug-at-the-Sleeve/gallery-hare-minamiaoyama/2026-11-03",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "aaefdf157c91",
+      "source": "tokyo_art_beat",
+      "title": "「複合企画展『縫合』vol.2 - 視覚、聴覚、味覚」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/738a6af1/62a0f7fa-7362-44d4-bfe3-83ddafe26da8.jpeg",
+      "description": "”感覚を縫う”をコンセプトに、“展示×音楽×飲食“の複合企画展「縫合」第二回を開催。2026年11月7日（土）、8日（日） 東京 国立市 room103にて。\n\n◯「視覚（展示）」\n・延命、川成 灯、ｱﾒﾉﾁ ﾕｷ、Yuka Ito、Taiki Kishiyama\n\n◯「味覚（飲食）」\n11/7（土）\n・daytune.\n11/8（日）\n・喫茶ポプラ\n\n[関連イベント]\n「聴覚（音楽ライブ）」\n日時: 2026年11月7日15:30〜、11月8日14:00〜\n登壇者: 11月7日 高井息吹、宗藤竜太 / 11月8日 栢本ての、日髙晴野\n会場: room 103\n料金: 一般 3400円、U20 2400円（1ドリンクオーダー制）未就学児 無料（要予約、23席限定）（予約不要で音漏れ視聴可、投げ銭制）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-07",
+      "end_date": "2026-11-08",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "234a6a9faff0",
+        "name": "room 103（ルームイチマルサン）",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "room 103"
+          },
+          "en": {
+            "name": "room 103"
+          }
+        },
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.7000796868087,
+        "lng": 139.43950061615195
+      },
+      "artists": [
+        {
+          "id": "87d297ff1c96",
+          "name": "延命",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c83fad5c9e1b",
+          "name": "川成灯",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d99616186b91",
+          "name": "ｱﾒﾉﾁﾕｷ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "d5cf8d9137d2",
+          "name": "Yuka Ito",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b90fb66ae756",
+          "name": "Taiki Kishiyama",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "dddd50016341",
+          "name": "高井息吹",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a1b44d2accfc",
+          "name": "宗藤竜太",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "cfdeb7332110",
+          "name": "栢本ての",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "9b7b5554601b",
+          "name": "日髙晴野",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Multisensory-Event-Hougou-Vol2-Sight-Sound-and-Taste/Room-103/2026-11-07",
       "featured": false,
       "popularity_score": null
     }
@@ -116513,6 +117218,90 @@
       "country": "JP",
       "lat": 35.628040628191975,
       "lng": 139.63469723007677,
+      "website": null
+    },
+    {
+      "id": "d03bbce7fcff",
+      "name": "서울시립미술관 서소문본관",
+      "lang": null,
+      "tr": {},
+      "venue_type": "museum",
+      "region": "서울",
+      "district": null,
+      "address": null,
+      "country": "KR",
+      "lat": 37.56410579887691,
+      "lng": 126.9736988634857,
+      "website": null
+    },
+    {
+      "id": "c0f10c809bc4",
+      "name": "旧裳掛小・中学校 第三分校（光明学園）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "岡山県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.671670376333196,
+      "lng": 134.2268264441803,
+      "website": null
+    },
+    {
+      "id": "1ce957d8d2c4",
+      "name": "樂ギャラリー",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "長崎県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 32.74426100851038,
+      "lng": 129.8782222128975,
+      "website": null
+    },
+    {
+      "id": "b45afa6fb57d",
+      "name": "ギャラリー ターンアラウンド",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "宮城県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 38.25735847919293,
+      "lng": 140.86270489894994,
+      "website": null
+    },
+    {
+      "id": "35ac81610e05",
+      "name": "UNDER R",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "渋谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.675160509222366,
+      "lng": 139.70937363803387,
+      "website": null
+    },
+    {
+      "id": "aa409e6bf5f4",
+      "name": "gallery晴れ –南青山–",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "表参道、青山",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.66728711446389,
+      "lng": 139.71561955701088,
       "website": null
     }
   ],
@@ -146842,6 +147631,144 @@
           "name": "グラフワークス"
         }
       }
+    },
+    {
+      "id": "d23ec14c1b87",
+      "name": "岩崎美ゆき",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6928e3f018ef",
+      "name": "黒﨑彰",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d31d0b369b7e",
+      "name": "安藤圭汰",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0cbcff2308b4",
+      "name": "小島拓朗",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "286561cfa487",
+      "name": "中村ケイ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0f59a571bbce",
+      "name": "明松智",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ba48247296a9",
+      "name": "金氣太郎",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "607a92366dd7",
+      "name": "團俊晴",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "685a897bd65a",
+      "name": "野島泉里",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1063d907d4cd",
+      "name": "林田英昭",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7cba2aa535ae",
+      "name": "小倉基弘",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "17023acee857",
+      "name": "棗涼香",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7a564f31ec99",
+      "name": "樋口徹",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "90b32fd5270b",
+      "name": "balshark",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "87d297ff1c96",
+      "name": "延命",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c83fad5c9e1b",
+      "name": "川成灯",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d99616186b91",
+      "name": "ｱﾒﾉﾁﾕｷ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "d5cf8d9137d2",
+      "name": "Yuka Ito",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b90fb66ae756",
+      "name": "Taiki Kishiyama",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "dddd50016341",
+      "name": "高井息吹",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a1b44d2accfc",
+      "name": "宗藤竜太",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "cfdeb7332110",
+      "name": "栢本ての",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9b7b5554601b",
+      "name": "日髙晴野",
+      "lang": null,
+      "tr": {}
     }
   ]
 }
