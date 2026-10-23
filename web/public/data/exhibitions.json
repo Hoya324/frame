@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T05:40:23.414222+00:00",
+  "generated_at": "2026-10-23T12:10:07.847021+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -101827,20 +101827,41 @@
         {
           "id": "bf6d63e68625",
           "name": "お",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오"
+            },
+            "en": {
+              "name": "o"
+            }
+          }
         },
         {
           "id": "013dc1f2cd58",
           "name": "おさ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오사"
+            },
+            "en": {
+              "name": "osa"
+            }
+          }
         },
         {
           "id": "80aea1028486",
           "name": "おさむ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오사무"
+            },
+            "en": {
+              "name": "Osamu"
+            }
+          }
         },
         {
           "id": "2125a40aac8c",
@@ -106104,8 +106125,17 @@
       "id": "9448bb2b34c3",
       "source": "artmap",
       "title": "재즈의 탈영토화(The Deterritorialization of Jazz)",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "The Deterritorialization of Jazz",
+          "description": "[Opening and Reception]\nDate: October 24, 2026 (Sat) 5 PM\nHosted by: Jeonbuk Special Self-Governing Province, Jeonbuk Special Self-Governing Province Culture & Tourism Foundation\nOrganized by: Hwang Hee-cheol\nThe Deterritorialization of Jazz\nOn the tragic soil of the 'human market,' the most brutal in human history, this exhibition traces the trajectory of how Jazz, a universal free art of humanity, was born and able to deterritorialize, through portrait photographs of jazz artists from New Orleans, the birthplace of jazz.\n*Source: Artist Hwang Hee-cheol"
+        },
+        "ja": {
+          "title": "ジャズの脱領土化(The Deterritorialization of Jazz)",
+          "description": "[オープニングおよびレセプション]\n日時：2026年10月24日(土) 午後5時\n主催：全羅北道特別自治道、(財)全羅北道特別自治道文化観光財団\n主管：ファン・ヒチョル\nジャズの脱領土化(The Deterritorialization of Jazz)\n人類史で最も悲惨だった「人間市場」という悲劇的な土壌の上で、いかにしてジャズ(Jazz)という人類普遍の自由芸術が誕生し、脱領土化(Deterritorialization)できたのかを、ジャズの故郷ニューオーリンズ(New Orleans)のジャズアーティストの肖像写真を通してその軌跡を追跡する。\n*出典：作家 ファン・ヒチョル"
+        }
+      },
       "poster_image_url": "https://media.art-map.co.kr/art-map/public/upload/2026/10/exhibition/dc92ae0adb221a01f3160aa2431e1890_thumb.jpg",
       "description": "[오프닝 및 리셉션]\n일시 : 2026년 10월 24일(토) 오후5시\n주최: 전북특별자치도,(재)전북특별자치도문화관광재단\n주관:황희철\n재즈의 탈영토화(The Deterritorialization of Jazz)\n인류사에서 가장 참혹했던 '인간 시장'이라는 비극적 토양 위에서, 어떻게 재즈(Jazz)라는 인류 보편의 자유 예술이 탄생하여 탈영토화(Deterritorialization) 할 수 있었는지를 재즈의 고장 뉴올리언스(New Orleans) 재즈 아티스트 초상사진을 통해 그 궤적을 추적한다.\n*출처: 작가 황희철",
       "medium": "photo",
@@ -106121,8 +106151,15 @@
       "venue": {
         "id": "0abc6051b14e",
         "name": "갤러리AP9",
-        "lang": null,
-        "tr": {},
+        "lang": "ko",
+        "tr": {
+          "en": {
+            "name": "Gallery AP9"
+          },
+          "ja": {
+            "name": "ギャラリーAP9"
+          }
+        },
         "region": null,
         "district": null,
         "lat": 35.809867438959,
@@ -106132,8 +106169,15 @@
         {
           "id": "67dba8629d3e",
           "name": "황희철",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Hwang Hee-cheol"
+            },
+            "ja": {
+              "name": "ファン・ヒチョル"
+            }
+          }
         }
       ],
       "source_url": "https://art-map.co.kr/exhibition/view.php?idx=32865",
@@ -106144,8 +106188,17 @@
       "id": "749263c29119",
       "source": "pgi",
       "title": "ミカエル・レヴィン Critical Places",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "미카엘 레빈 Critical Places",
+          "description": "John Quarstein. Cypress Bridge over Nottoway River. 2023 / Nat Turner Insurrection. 1831 ©Mikael Levin\n\n4th of July. La Grange, Missouri. 2022 / The Lin Uprising, 1849 ©Mikael Levin\n\nAstoria, Queens, New York. 2021 / The Newtown Revolt, 1708 ©Mikael Levin\n\nLizzie Ln, off Route 22, Madison County, Mississippi. 2021 / Madison and Hinds Counties Rebellion, 1835 ©Mikael Levin\n\nThe Hanging Tree. Cherry Grove Plantation. Adams County, Mississippi. 2024 / The Second Creek Conspiracy, 1861 ©Mikael Levin\n\nYork, Pennsylvania. 2019 / Margaret Bradley Conspiracy, 1803 ©Mikael Levin\n\nPGI에서는 국내 최초로 미국 사진작가 미카엘 레빈(Mikael Levin)의 전시회 'Critical Places'를 개최합니다.\n\n레빈은 1977년 런던의 The Photographers’ Gallery에서 첫 개인전을 개최하며 사진작가로서의 경력을 시작했습니다. 이후 '장소', '정체성', '시간성'을 둘러싼 사진 표현을 추구해 왔습니다. 현재는 뉴욕주 롱아일랜드를 거점으로 활동하고 있습니다.\n\n본 전시에서는 노예 제도 하의 미국에서 일어난 반란의 무대가 된 장소를 방문하여 현재의 풍경을 촬영한 시리즈 《CRITICAL PLACES; SITES OF AMERICAN SLAVE REBELLION》을 소개합니다.\n\n그가 촬영하는 것은 언뜻 보면 평범한 사람들의 생활 공간이나 풍경입니다. 그러나 동시에 그곳은 1700년대 초부터 1800년대까지 100년 이상 지속된 미국 각지에서 일어난 노예 반란과 봉기의 무대가 된 장소입니다. 그곳에 남아 있는 것은 역사를 전하는 기념비나 표지판이 아닙니다. 도로, 숲, 공터, 주택지 등 특별한 의미를 갖지 않는 현재의 풍경 속에 과거 사건의 흔적이 묻혀 있습니다.\n\n레빈은 그 장소들을 직접 방문하여 자신의 경험을 사진으로 기록합니다. 카메라를 통해 현재의 풍경과 마주함으로써 우리의 역사 인식이 재고됩니다.\n\n이처럼 '기억되는 것'과 '잊히는 것'의 차이는 단순한 역사적 공백이 아닙니다. 무엇이 기억되고 무엇이 잊히는지에 대한 선택의 배후에는 사회의 가치관과 권력 관계가 존재할 것입니다.\n\n2025년에는 구겐하임 펠로우십의 펠로우로 선정되는 등 오랫동안 국제적으로 활동해 온 레빈. 본 전시는 그의 작품을 일본에서 처음으로 종합적으로 소개하는 기회가 될 것입니다.\n\n본 전시에서는 《CRITICAL PLACES; SITES OF AMERICAN SLAVE REBELLION》에서 젤라틴 실버 프린트 약 25점을 전시합니다.\n\nCritical Places\n\n<Critical Places>는 노예가 된 사람들의 반란이 풍경 속에서 어떻게 기억되고 있는지, 혹은 기억되지 않고 있는지에 대한 작품입니다. 저는 실제로 이 장소들을 방문하여 그곳에서 본 것을 사진으로 기록했습니다. 그리고 그것들을 '역사적 의식의 지형' 속에 있는 '중요한 장소(critical places)'로 제시하며, 이 반란들이 현재의 사회 및 경제 구조 속에서 어떤 형태로 계속 울려 퍼지고 있는지를 드러내고자 합니다.\n\n지금까지 쓰여진 역사의 대부분은 소수의 대규모 반란에 초점을 맞추고 있습니다. 그러나 이러한 반란이 실제로 얼마나 광범위하게 일어났는지는 쓰여진 '역사'에서 빠져 있습니다. 노예가 된 사람들이 아프리카에서 처음 끌려온 때부터 남북 전쟁에 이르기까지 250건이 넘는 반란이 일어났습니다.\n\n또한 그들이 속박에 저항한 방법이 다양했던 것과 마찬가지로, 반란에도 다양한 형태가 있었다는 것도 충분히 이야기되지 않고 있습니다. 음모, 살인, 도피, 그리고 때로는 단순한 소문으로 인해 사람들이 목숨을 잃는 일조차 있었습니다. 그 대부분에 대해 오늘날 우리가 알 수 있는 정보는 거의 없습니다. 그 실상을 파악하기 위해서는 종종 기록의 행간을 읽고, 그리고 침묵 그 자체를 읽어야 합니다.\n\n지금까지 촬영해 온 15개의 반란은 전체의 극히 일부입니다. 즉, 이것은 반란의 역사를 포괄적이고 권위적으로 기록한 것도, 그 총괄도 아닙니다. 저는 그 역할을 맡을 입장도 자격도 없습니다. 제가 다루지 않은 것 중에도 역사적으로 중요한 반란이 있었다는 것을 더 전문적인 입장에 있는 사람들이 지적할 것입니다.\n\n제가 선택한 것은 보다 개인적인 선택에 의한 것입니다. 그것은 역사를 보다 국지적이고 세부적으로 포착하는 시점이기도 합니다. 그 점은 제가 촬영한 사진에 나타나는 일상적인 풍경이나 사건의 모습에서도 드러납니다.\n\n미카엘 레빈\n\n미카엘 레빈(Mikael Levin)\n\n1954년 뉴욕시에서 태어났습니다. 미국과 프랑스 국적을 가지고 있으며, 현재는 뉴욕주 롱아일랜드를 거점으로 활동하고 있습니다. 장소, 정체성, 시간성에 대한 개념을 탐구하며 기억에 형태를 부여하는 작품을 제작하고 있습니다.\n\n2025년에 구겐하임 펠로우십을 수상했습니다. 주요 미술관 개인전으로는 유대 미술 역사 박물관(파리, 2010년), 베라르도 미술관(리스본, 2009년), 프랑스 국립 도서관(파리, 2003년), 국제 사진 센터(뉴욕, 1997년), 멘도사 재단(카라카스, 1980년)이 있습니다.\n\n작품은 휘트니 미술관(뉴욕), 유대 박물관(베를린), 프랑스 국립 조형 예술 센터(파리), 스톡홀름 현대 미술관 등에 소장되어 있습니다. 2003년에는 베네치아 비엔날레에 작품이 출품되었습니다. 일본에서 작품이 소개되는 것은 본 전시가 처음입니다."
+        },
+        "en": {
+          "title": "Mikael Levin Critical Places",
+          "description": "John Quarstein. Cypress Bridge over Nottoway River. 2023 / Nat Turner Insurrection. 1831 ©Mikael Levin\n\n4th of July. La Grange, Missouri. 2022 / The Lin Uprising, 1849 ©Mikael Levin\n\nAstoria, Queens, New York. 2021 / The Newtown Revolt, 1708 ©Mikael Levin\n\nLizzie Ln, off Route 22, Madison County, Mississippi. 2021 / Madison and Hinds Counties Rebellion, 1835 ©Mikael Levin\n\nThe Hanging Tree. Cherry Grove Plantation. Adams County, Mississippi. 2024 / The Second Creek Conspiracy, 1861 ©Mikael Levin\n\nYork, Pennsylvania. 2019 / Margaret Bradley Conspiracy, 1803 ©Mikael Levin\n\nPGI will hold \"Critical Places,\" an exhibition by American photographer Mikael Levin, which will be his first in Japan.\n\nLevin began his career as a photographer in 1977 with his first solo exhibition at The Photographers’ Gallery in London. Since then, he has pursued photographic expression exploring \"place,\" \"identity,\" and \"temporality.\" He is currently based in Long Island, New York.\n\nThis exhibition introduces \"CRITICAL PLACES; SITES OF AMERICAN SLAVE REBELLION,\" a series in which Levin visited locations that were the sites of rebellions under slavery in America and photographed their current landscapes.\n\nWhat he photographs are, at first glance, ordinary places and landscapes of people's daily lives. However, these are also the sites of slave rebellions and uprisings that occurred across America for over a century, from the early 1700s to the 1800s. What remains there are not monuments or signs that convey history. Traces of past events are buried within the current landscapes—roads, forests, vacant lots, residential areas—that hold no special meaning.\n\nLevin actually visits these places and records his experiences through photographs. By confronting the current landscape through the camera, our very understanding of history is re-examined.\n\nThe difference between what is \"remembered\" and what is \"forgotten\" is not merely a historical void. Behind the choice of what is remembered and what is forgotten, there likely exist societal values and power relations.\n\nLevin has been active internationally for many years, including being selected as a Guggenheim Fellowship fellow in 2025. This exhibition marks the first comprehensive introduction of his work in Japan.\n\nThis exhibition will feature approximately 25 gelatin silver prints from \"CRITICAL PLACES; SITES OF AMERICAN SLAVE REBELLION.\"\n\nCritical Places\n\n\"Critical Places\" is a work about how the rebellions of enslaved people are remembered, or not remembered, within the landscape. I actually visited these places and photographed what I saw there. I then present them as \"critical places\" within a \"topography of historical consciousness,\" aiming to illuminate how these rebellions continue to resonate within current social and economic structures.\n\nMuch of the history written so far focuses on a handful of large-scale rebellions. However, how widespread these rebellions actually were is missing from the written \"history.\" Over 250 rebellions occurred from the time enslaved people were first brought from Africa until the Civil War.\n\nFurthermore, it is not adequately told that rebellions took various forms, just as their methods of resisting bondage were diverse. Conspiracies, murders, escapes, and sometimes even mere rumors led to people losing their lives. For most of these, there is very little information we can know today. To grasp their true nature, one often needs to read between the lines of records and read the silence itself.\n\nThe 15 rebellions I have photographed so far are only a small part of the whole. In other words, this is neither a comprehensive nor authoritative record of the history of rebellions, nor is it a summation. I am not in a position to assume that role, nor am I qualified. Those in more specialized positions will surely point out that there were historically significant rebellions that I did not cover.\n\nMy selection is a more personal one. It is also a perspective that captures history more locally and in detail. This is also reflected in the everyday landscapes and events that appear in the photographs I have taken.\n\nMikael Levin\n\nMikael Levin\n\nBorn in New York City in 1954. He holds American and French nationality and is currently based in Long Island, New York. He explores concepts of place, identity, and temporality, creating works that give form to memory.\n\nAwarded the Guggenheim Fellowship in 2025. His major solo exhibitions at museums include the Jewish Museum of Art and History (Paris, 2010), the Berardo Collection Museum (Lisbon, 2009), the Bibliothèque nationale de France (Paris, 2003), the International Center of Photography (New York, 1997), and the Fundación Mendoza (Caracas, 1980).\n\nHis works are held in collections such as the Whitney Museum of American Art (New York), the Jewish Museum Berlin (Berlin), the Centre national des arts plastiques (Paris), and the Moderna Museet (Stockholm). His work was exhibited at the Venice Biennale in 2003. This exhibition marks the first time his work is introduced in Japan."
+        }
+      },
       "poster_image_url": "https://www.pgi.ac/pgi/wp-content/uploads/2026/10/Mikael-Levin_JohnQuarstein_CypressBridgeOverNottowayRiver_2023_NatTurner-Insurrection_1831.jpg",
       "description": "John Quarstein. Cypress Bridge over Nottoway River. 2023 / Nat Turner Insurrection. 1831 ©Mikael Levin\n\n4th of July. La Grange, Missouri. 2022 / The Lin Uprising, 1849 ©Mikael Levin\n\nAstoria, Queens, New York. 2021 / The Newtown Revolt, 1708 ©Mikael Levin\n\nLizzie Ln, off Route 22, Madison County, Mississippi. 2021 / Madison and Hinds Counties Rebellion, 1835 ©Mikael Levin\n\nThe Hanging Tree. Cherry Grove Plantation. Adams County, Mississippi. 2024 / The Second Creek Conspiracy, 1861 ©Mikael Levin\n\nYork, Pennsylvania. 2019 / Margaret Bradley Conspiracy, 1803 ©Mikael Levin\n\nPGIでは、国内では初めてとなるアメリカの写真家、ミカエル・レヴィン（Mikael Levin）による展覧会「Critical Places」を開催いたします。\n\nレヴィンは1977年、ロンドンのThe Photographers’ Galleryで初個展を開催し、写真家としてのキャリアをスタートさせました。以来、「場所」「アイデンティティ」「時間性」をめぐる写真表現を追求してきました。現在はニューヨーク州ロングアイランドを拠点に活動しています。\n\n本展では、奴隷制下のアメリカで起きた反乱の舞台となった場所を訪れ、現在の風景を撮影したシリーズ《CRITICAL PLACES; SITES OF AMERICAN SLAVE REBELLION》をご紹介いたします。\n\n彼が撮影するのは、一見すると何気ない人々の生活の場所や風景です。しかし、同時にそこは、1700年初頭から1800年代まで100年以上に渡って続いた、アメリカ各地で起きた奴隷反乱や蜂起の舞台となった場所です。そこに残されているのは、歴史を伝える記念碑や標識ではありません。道路や森、空き地、住宅地など、特別な意味を持たない現在の風景の中に、かつての出来事の痕跡が埋もれています。\n\nレヴィンは、それらの場所を実際に訪れ、自らの経験を写真として記録します。カメラを通して現在の風景と向き合うことによって、私たちの歴史認識そのものが問い直されます。\n\nこうした「記憶されていること」と「忘れられていること」の差異は、単なる歴史上の空白ではありません。何が記憶され、何が忘れられるのかという選択の背後には、社会の価値観や権力関係が存在しているでしょう。\n\n2025年にはグッゲンハイム・フェローシップのフェローに選出されるなど、長年にわたり国際的に活動してきたレヴィン。本展は、彼の作品を日本で初めてまとまって紹介する機会となります。\n\n本展では、《CRITICAL PLACES; SITES OF AMERICAN SLAVE REBELLION》より、ゼラチンシルバープリント、約25点を展示いたします。\n\nCritical Places\n\n〈Critical Places〉は、奴隷にされた人々の反乱が、風景の中でどのように記憶されているのか、あるいは記憶されていないのか、ということについての作品です。私は、実際にこれらの場所を訪れ、そこで目にしたものを写真に記録しました。そしてそれらを「歴史的意識の地形」の中にある「重要な場所（critical places）」として示し、これらの反乱が、現在の社会や経済構造の中で、どのような形で響き続けているのかを浮かび上がらせようとしています。\n\nこれまで書かれてきた歴史の多くは、ほんの一握りの大規模な反乱に焦点を当てています。しかし、こうした反乱が実際にはどれほど広範に起こっていたのかということは書かれた「歴史」からは抜け落ちています。奴隷にされた人々が、アフリカから最初に連れてこられた時から南北戦争に至るまで、250件を超える反乱が起きていました。\n\nまた、彼らが束縛に抵抗した方法が多岐にわたるのと同様に、反乱にもさまざまな形があったということも、十分には語られていません。陰謀、殺人、逃亡、そして時には、単なる噂によって人々が命を奪われることさえありました。その大部分について、今日私たちが知ることのできる情報はほとんどありません。その実像を捉えるためには、しばしば記録の行間を読み、そして沈黙そのものを読む必要があります。\n\n今まで撮影してきた15の反乱は、全体のほんの一部です。つまりこれは、反乱の歴史を網羅的かつ権威的に記録したものでも、その総括でもありません。私にはその役割を担う立場にはありませんし、その資格もありません。私が取り上げなかった中にも、歴史的に重要な反乱があったことを、より専門的な立場にある人々が指摘することでしょう。\n\n私が選んだのは、より個人的な選択によるものです。それは、歴史をより局所的かつ細部に即して捉える視点でもあります。そのことは、私が撮影した写真に表れる、日常的な風景や出来事のあり方にも示されています。\n\nミカエル・レヴィン\n\nミカエル・レヴィン（Mikael Levin）\n\n1954年、ニューヨーク市に生まれる。アメリカとフランスの国籍を持ち、現在はニューヨーク州ロングアイランドを拠点に活動している。場所、アイデンティティ、時間性に対する概念を探求し、記憶にかたちを与える作品を制作している。\n\n2025年にグッゲンハイム・フェローシップを受賞。主な美術館での個展に、ユダヤ教美術・歴史博物館（パリ、2010年）、ベラルド美術館（リスボン、2009年）、フランス国立図書館（パリ、2003年）、国際写真センター（ニューヨーク、1997年）、メンドーサ財団（カラカス、1980年）がある。\n\n作品は、ホイットニー美術館（ニューヨーク）、ユダヤ博物館（ベルリン）、フランス国立造形芸術センター（パリ）、ストックホルム近代美術館などに収蔵されている。2003年にはヴェネチア・ビエンナーレに作品が出品された。日本で作品が紹介されるのは本展が初めてとなる。",
       "medium": "photo",
@@ -106179,8 +106232,15 @@
         {
           "id": "b48a1ae9983f",
           "name": "ミカエル・レヴィン",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "미카엘 레빈"
+            },
+            "en": {
+              "name": "Mikael Levin"
+            }
+          }
         }
       ],
       "source_url": "https://www.pgi.ac/exhibitions/11561",
@@ -106191,8 +106251,17 @@
       "id": "e6110a7f2ec6",
       "source": "tokyo_art_beat",
       "title": "八島良子 「豚と老人、結婚」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "야시마 요시코 「돼지와 노인, 결혼」",
+          "description": "히로시마현 오노미치시에 거주하는 미술가 야시마 요시코의 개인전을 개최합니다.\n야시마는 지금까지 '피부에 새겨지는 고통'이나 '할머니의 전쟁 경험' 등 신체에 얽힌 고통과 기억, 금기를 단서로 영상, 사진, 입체, 설치, 집필 등 다양한 매체를 활용하여 작업을 이어왔습니다.\n2019년에 시작된 '메멘토 모모'는 야시마가 외딴섬에서 가축 돼지 한 마리를 '모모'라고 이름 붙여 기르고, 직접 도축하여 먹기까지 333일간을 기록한 프로젝트입니다. 돼지의 몸에 손을 대며 돌본 경험과 남겨진 가죽, 지방, 피 등을 통해 자신과 돼지와의 관계에서 사회 구조를 포착하는 활동으로 현재도 이어지고 있습니다.\n본 전시 '돼지와 노인, 결혼'에서는 '메멘토 모모'의 전모와 더불어 돼지, 노인, 결혼을 주제로 신작을 발표합니다. 가축을 둘러싼 대량 생산과 소비, 할머니가 목욕 간호를 받는 장면. 그리고 이문화 결혼식에서 목격한, 축제와 의례 속에서 사람들에게 대접되는 돼지. 이 모든 것은 가까운 사건이나 자신의 경험을 시작으로 야시마는 그 배후에 있는 사회와 문화의 모습을 응시합니다.\n때로는 외면하고 싶어지는 신체에 대한 작용은 어떤 상황에서는 돌봄이 되고, 또한 놓인 상황이나 문화에 따라 다른 의미를 띠게 됩니다. 본 전시에서는 돼지, 노인, 결혼이라는 다른 소재를 통해 신체를 둘러싼 행위와 관계에서 어떤 가치가 발견되는지를 묻습니다.\n\n[관련 이벤트]\n1. 아티스트 토크\n일시: 11월 14일 17:30~\n참가비: 무료 (관람 티켓 필요)\n2. 토크 우치자와 슌코(문필가·일러스트레이터) + 야시마 요시코\n일시: 12월 20일 13:30~15:00\n참가비: 500엔 + 관람 티켓 (예약 필수)\n3. 토크 츠카모토 마리(고치현립미술관 학예사) + 야시마 요시코\n일시: 1월 24일 14:30~16:00\n참가비: 500엔 + 관람 티켓 (예약 필수)\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Yoshiko Yashima \"Pigs, Old People, Marriage\"",
+          "description": "We will hold a solo exhibition by artist Yoshiko Yashima, who resides in Onomichi City, Hiroshima Prefecture.\nYashima has continuously created works using various media such as video, photography, sculpture, installation, and writing, taking as her cues pain and memories related to the body, and taboos, such as \"pain etched into the skin\" and \"her grandmother's war experiences.\"\n\"Memento Momo,\" launched in 2019, is a project that documented 333 days during which Yashima raised a domestic pig named \"Momo\" on a remote island, slaughtered it with her own hands, and consumed it. This activity, which explores social structures through her relationship with the pig, based on her experience of caring for the pig by touching its body and using its remaining skin, fat, and blood, continues to this day.\nIn this exhibition, \"Pigs, Old People, Marriage,\" Yashima will present new works on the themes of pigs, old people, and marriage, in addition to the full scope of \"Memento Momo.\" These include scenes of mass production and consumption surrounding livestock, her grandmother receiving bathing care, and pigs served to people amidst festivities and rituals witnessed at cross-cultural weddings. In all these, starting from familiar events and her own experiences, Yashima examines the underlying social and cultural structures.\nThe interaction with the body, which can sometimes be difficult to face, becomes care in some situations, and takes on different meanings depending on the context and culture. In this exhibition, through the distinct subjects of pigs, old people, and marriage, Yashima questions what values are found in the acts and relationships surrounding the body.\n\n[Related Events]\n1. Artist Talk\nDate & Time: November 14, 17:30~\nAdmission: Free (Exhibition ticket required)\n2. Talk: Shunko Uchizawa (Writer/Illustrator) + Yoshiko Yashima\nDate & Time: December 20, 13:30~15:00\nAdmission: 500 yen + Exhibition ticket (Reservation required)\n3. Talk: Mari Tsukamoto (Curator, Kochi Prefectural Museum of Art) + Yoshiko Yashima\nDate & Time: January 24, 14:30~16:00\nAdmission: 500 yen + Exhibition ticket (Reservation required)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/ebe4474f/6bc50ae5-86dd-4c2e-b159-bb1e9b69dc2f.jpg",
       "description": "広島県尾道市在住の美術家・八島良子の個展を開催します。\n八島は、これまで「皮膚に刻まれる痛み」や「祖母の戦争体験」など、身体にまつわる痛みや記憶、タブーを手がかりに、映像、写真、立体、インスタレーション、執筆など多様なメディアを用いて制作を続けてきました。\n2019年に始動した「メメント・モモ」は、八島が離島で一頭の家畜の豚を「モモ」と名付けて育て、自らの手で屠り、食すまでの333日間を記録したプロジェクトです。豚の身体に触れながら世話をした経験や、残した皮や脂、血などを通して、自身と豚との関係から社会構造を捉える活動として現在も続いています。\n本展「豚と老人、結婚」では、「メメント・モモ」の全容に加え、豚、老人、結婚をテーマに新作を発表します。家畜をめぐる大量生産と消費、祖母が入浴介護を受ける場面。そして異文化の結婚式で目撃した、祝祭と儀礼のなかで人々に振る舞われる豚。いずれも身近な出来事や自身の経験を起点に、八島はその背後にある社会や文化のあり方を見つめます。\n時に目を背けたくなる身体への働きかけは、ある場面ではケアとなり、また置かれる状況や文化によって異なる意味を帯びます。本展では、豚、老人、結婚という異なる題材を通して、身体をめぐる行為や関係に、どのような価値が見出されているのかを問いかけます。\n\n[関連イベント]\n1. アーティストトーク\n日時: 11月14日 17:30～\n参加費: 無料（要観覧チケット）\n2. トーク 内澤旬子（文筆家・イラストレーター） + 八島良子\n日時: 12月20日 13:30～15:00\n参加費: 500円+観覧チケット（要予約）\n3. トーク 塚本麻莉（高知県立美術館学芸員） + 八島良子\n日時: 1月24日 14:30～16:00\n参加費: 500円+観覧チケット（要予約）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -106226,8 +106295,15 @@
         {
           "id": "56f0118761c0",
           "name": "八島良子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "야시마 요시코"
+            },
+            "en": {
+              "name": "Yashima Yoshiko"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Ryoko-Yashima-Pig-Elder-Marriage/art-gallery-miyauchi/2026-11-14",
@@ -106238,8 +106314,17 @@
       "id": "e5ded93f83eb",
       "source": "mmca",
       "title": "MMCA 뉴미디어 소장품 특별전 «기술의 노스탤지어»",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "MMCA New Media Collection Special Exhibition «Nostalgia for Technology»",
+          "description": "The MMCA New Media Collection Special Exhibition «Nostalgia for Technology» is an exhibition that illuminates the evolution of modern media art, from early video art using CRT TVs to contemporary media works interacting with artificial intelligence (AI). It focuses on the inherent materiality of technological media such as electronic signals, the temporality of video, digital editing, and generative algorithms, and examines how these devices have expanded human perception and senses from the past to the present. This will be an opportunity to rediscover past media as active mediators that evoke our physical memories amidst rapid technological advancement, and to rethink the art of the future."
+        },
+        "ja": {
+          "title": "MMCAニューメディア所蔵品特別展「技術のノスタルジア」",
+          "description": "MMCAニューメディア所蔵品特別展「技術のノスタルジア」は、ブラウン管テレビを用いた初期のビデオアートから、人工知能（AI）と相互作用する現代のメディア作品の変遷を照らす展覧会です。電子信号、ビデオの時間性、デジタル編集、生成型アルゴリズムなど、技術メディア固有の物質性に注目し、これらの装置が過去から現在に至るまで人間の知覚と感覚をどのように拡張してきたかを共に考察します。これは、急速な技術発展の中で過ぎ去ったメディアを、私たちの身体的記憶を喚起する能動的な媒体として再発見し、来るべき未来の芸術を新たに考察する機会となるでしょう。"
+        }
+      },
       "poster_image_url": "https://www.mmca.go.kr/upload/exhibition/2026/10/2026102205240356318427.png",
       "description": "MMCA 뉴미디어 소장품 특별전«기술의 노스탤지어»는 브라운관 TV를 이용한 초기 비디오 아트부터 인공지능(AI)과 상호작용하는 현대 미디어 작업의 변천사를 조명하는 전시이다. 전자 신호, 비디오의 시간성, 디지털 편집, 생성형 알고리즘 등 기술 매체 고유의 물질성에 주목하고, 이러한 장치들이 과거부터 현재에 이르기까지 인간의 지각과 감각을 어떻게 확장해 왔는지 함께 살펴본다. 이는 빠른 기술 발전 속에서 지나간 매체들을 우리의 신체적 기억을 환기하는 능동적 매개체로 재발견하고, 다가올 미래의 예술을 새롭게 사유하는 기회가 될 것이다.",
       "medium": "video",
@@ -106255,8 +106340,15 @@
       "venue": {
         "id": "a9aacf6fa0e8",
         "name": "국립현대미술관 청주",
-        "lang": null,
-        "tr": {},
+        "lang": "ko",
+        "tr": {
+          "en": {
+            "name": "National Museum of Modern and Contemporary Art Cheongju"
+          },
+          "ja": {
+            "name": "国立現代美術館 清州"
+          }
+        },
         "region": "충북",
         "district": null,
         "lat": 36.6561955411291,
@@ -106266,68 +106358,145 @@
         {
           "id": "fa8e751d1776",
           "name": "구정아",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Koo Jeong A"
+            },
+            "ja": {
+              "name": "ク・ジョンア"
+            }
+          }
         },
         {
           "id": "fd61e53c0313",
           "name": "권하윤",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Kwon Hayoun"
+            },
+            "ja": {
+              "name": "クォン・ハユン"
+            }
+          }
         },
         {
           "id": "342c3e018a86",
           "name": "김구림",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Kim Kulim"
+            },
+            "ja": {
+              "name": "キム・グリム"
+            }
+          }
         },
         {
           "id": "0e9cd0fd95d8",
           "name": "김두진",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Kim Doojin"
+            },
+            "ja": {
+              "name": "キム・ドゥジン"
+            }
+          }
         },
         {
           "id": "a5c0f958bbc8",
           "name": "김범",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Kim Beom"
+            },
+            "ja": {
+              "name": "キム・ボム"
+            }
+          }
         },
         {
           "id": "40a66e160e85",
           "name": "김세진",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Kim Sejin"
+            },
+            "ja": {
+              "name": "キム・セジン"
+            }
+          }
         },
         {
           "id": "28f058fda8f2",
           "name": "김수자",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Kim Sooja"
+            },
+            "ja": {
+              "name": "キム・スージャ"
+            }
+          }
         },
         {
           "id": "b5dc77dcd560",
           "name": "김아영",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Kim Ayoung"
+            },
+            "ja": {
+              "name": "キム・アヨン"
+            }
+          }
         },
         {
           "id": "cf4a1e674372",
           "name": "김희천",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Kim Heechun"
+            },
+            "ja": {
+              "name": "キム・ヒチョン"
+            }
+          }
         },
         {
           "id": "ae519f7e5d85",
           "name": "류성실",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Ryu Sungshil"
+            },
+            "ja": {
+              "name": "リュ・ソンシル"
+            }
+          }
         },
         {
           "id": "f3737d0e3e25",
           "name": "박현기",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Park Hyunki"
+            },
+            "ja": {
+              "name": "パク・ヒョンギ"
+            }
+          }
         },
         {
           "id": "2f5ac63f7ef7",
@@ -106345,68 +106514,145 @@
         {
           "id": "e2d345004ae1",
           "name": "아피찻퐁 위라세타쿤",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Apichatpong Weerasethakul"
+            },
+            "ja": {
+              "name": "アピチャッポン・ウィーラセタクン"
+            }
+          }
         },
         {
           "id": "0fec7a647e7d",
           "name": "염지혜",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Yeom Jihye"
+            },
+            "ja": {
+              "name": "ヨム・ジヘ"
+            }
+          }
         },
         {
           "id": "63acc4f85df0",
           "name": "이안 쳉",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Ian Cheng"
+            },
+            "ja": {
+              "name": "イアン・チェン"
+            }
+          }
         },
         {
           "id": "68370166bec7",
           "name": "이용백",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Lee Yongbaek"
+            },
+            "ja": {
+              "name": "イ・ヨンベク"
+            }
+          }
         },
         {
           "id": "f89017c16802",
           "name": "이원곤",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Lee Wongon"
+            },
+            "ja": {
+              "name": "イ・ウォンゴン"
+            }
+          }
         },
         {
           "id": "190f839ebfc3",
           "name": "장쉬잔",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Jang Xuzhan"
+            },
+            "ja": {
+              "name": "ジャン・シュジャン"
+            }
+          }
         },
         {
           "id": "cc7b7d06b969",
           "name": "재커리 폼왈트",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Zachary Formwalt"
+            },
+            "ja": {
+              "name": "ザカリー・フォームウォルト"
+            }
+          }
         },
         {
           "id": "92367b45fdc3",
           "name": "제니 홀저",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Jenny Holzer"
+            },
+            "ja": {
+              "name": "ジェニー・ホルツァー"
+            }
+          }
         },
         {
           "id": "30cf77601bdb",
           "name": "하준수",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Ha Junsu"
+            },
+            "ja": {
+              "name": "ハ・ジュンス"
+            }
+          }
         },
         {
           "id": "465383a763a6",
           "name": "한경우",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Han Kyungwoo"
+            },
+            "ja": {
+              "name": "ハン・ギョンウ"
+            }
+          }
         },
         {
           "id": "fb5d1b7b243c",
           "name": "호 추 니엔 (총 23명)",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Ho Tzu Nyen (total 23 members)"
+            },
+            "ja": {
+              "name": "ホー・ツー・ニエン (計23名)"
+            }
+          }
         }
       ],
       "source_url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=2&exhId=202610220002100",
@@ -106417,8 +106663,17 @@
       "id": "09b6bcff4e97",
       "source": "tokyo_art_beat",
       "title": "後藤洋輔 + 徳江帆菜 「観察と想像」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "고토 요스케 + 도쿠에 하나 「관찰과 상상」",
+          "description": "고토 요스케, 도쿠에 하나의 사진과 일러스트레이션 전시입니다. 고토는 사진을, 도쿠에는 일러스트를 통해 일상과 세계를 관찰하고 상상하며 표현합니다. 각자의 사진, 일러스트레이션 외에도 이곳에서만 볼 수 있는 두 사람의 합작품을 전시합니다."
+        },
+        "en": {
+          "title": "Yosuke Goto + Hana Tokue \"Observation and Imagination\"",
+          "description": "This is an exhibition of photographs and illustrations by Yosuke Goto and Hana Tokue. Goto observes, imagines, and expresses daily life and the world through photography, while Tokue does so through illustrations. In addition to their individual photographs and illustrations, collaborative works by the two, which can only be seen here, will be exhibited."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/dbab2f03/b0a3f0d1-df34-4569-b91e-277bed86d079.jpg",
       "description": "後藤洋輔・徳江帆菜による写真とイラストレーションの展示です。後藤は写真を、徳江はイラストを通して日常や世界を観察し、想像し、表現しています。それぞれの写真、イラストレーションの他、ここでしか見られない二人の合作を展示いたします。",
       "medium": "photo",
@@ -106452,14 +106707,28 @@
         {
           "id": "180e2fc0c647",
           "name": "後藤洋輔",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "고토 요스케"
+            },
+            "en": {
+              "name": "Yosuke Goto"
+            }
+          }
         },
         {
           "id": "50d7467f55a4",
           "name": "徳江帆菜",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "토쿠에 하나"
+            },
+            "en": {
+              "name": "Hana Tokue"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Yousuke-Goto-Hanna-Tokue-Exhibition/AEC0-BA15/2026-11-03",
@@ -106470,8 +106739,17 @@
       "id": "cc12653d2407",
       "source": "tokyo_art_beat",
       "title": "かなまる。 「いま、ここから。」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "카나마루. 「지금, 여기에서.」",
+          "description": "교토 사진 미술관 2층 전시실에서 2026년 11월 3일(화)부터 11월 15일(일)까지 카나마루. 개인전 「지금, 여기에서.」를 개최합니다."
+        },
+        "en": {
+          "title": "Kanamaru. \"Now, From Here.\"",
+          "description": "Kanamaru.'s solo exhibition \"Now, From Here.\" will be held in the 2nd-floor exhibition room of the Kyoto Museum of Photography from November 3 (Tuesday) to November 15 (Sunday), 2026."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/32f48b47/%E2%91%A2kanamaru_kokuchi.jpg",
       "description": "京都写真美術館 2階展示室にて、2026年11月3日(火)から11月15日(日)まで、かなまる。個展「いま、ここから。」を開催します。",
       "medium": "photo",
@@ -106505,8 +106783,15 @@
         {
           "id": "3e544ab72fae",
           "name": "かなまる。",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "카나마루."
+            },
+            "en": {
+              "name": "Kanamaru."
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Kanamaru-Now-from-Here/kyoto-museum-of-photography-gallery-japanesque/2026-11-03",
@@ -106517,8 +106802,17 @@
       "id": "5ef13d42eb71",
       "source": "tokyo_art_beat",
       "title": "大塚友記憲 「きこえてくる謠」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "오쓰카 유키노리 「들려오는 노래」",
+          "description": "사진전 「들려오는 노래」는 사진가 오쓰카 유키노리의 동명 사진집을 바탕으로 구성된 전시회입니다. 홋카이도 히가시카와정이 제작 협력한 영화 『카무이의 노래』를 계기로, 오쓰카가 홋카이도의 자연과 땅을 바라보고, 지리 유키에가 『아이누 신요집』에 남긴 말과 그 배경에 있는 아이누 민족의 문화와 자연관에 마음을 기울이며 촬영한 작품을 소개합니다.\n\n[관련 이벤트]\n1. 갤러리 토크\n일시: 2026년 11월 3일 14:00~\n등단자: 오쓰카 유키노리\n2. 대담\n일시: 2026년 11월 7일 13:00~\n등단자: 오쓰카 유키노리, 도이하라 쇼지\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Yukinori Otsuka \"Songs That Can Be Heard\"",
+          "description": "The photo exhibition \"Songs That Can Be Heard\" is an exhibition structured based on the photo book of the same name by photographer Yukinori Otsuka. Triggered by the film \"Kamuy no Uta,\" which Higashikawa Town, Hokkaido, cooperated in producing, Otsuka gazed at the nature and land of Hokkaido, and introduces works photographed while reflecting on the words left by Yukie Chiri in \"Ainu Shin'yōshū\" and the Ainu people's culture and view of nature in the background.\n\n[Related Events]\n1. Gallery Talk\nDate & Time: November 3, 2026, 14:00~\nSpeaker: Yukinori Otsuka\n2. Dialogue\nDate & Time: November 7, 2026, 13:00~\nSpeakers: Yukinori Otsuka, Shoji Doihara\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/3b2f2f33/c72ed731-a1d5-4e7d-82ea-5c995a86d981.jpg",
       "description": "写真展「きこえてくる謠」は、写真家・大塚友記憲による同名写真集をもとに構成する展覧会です。北海道・東川町が制作協力をした映画『カムイのうた』を契機に、大塚が北海道の自然や土地を見つめ、知里幸恵が『アイヌ神謡集』に遺した言葉と、その背景にあるアイヌ民族の文化や自然観に思いを寄せながら撮影した作品を紹介します。\n\n[関連イベント]\n1. ギャラリートーク\n日時: 2026年11月3日14:00〜\n登壇者: 大塚友記憲\n2. 対談\n日時: 2026年11月7日13:00〜\n登壇者: 大塚友記憲、土居原翔司\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -106534,8 +106828,15 @@
       "venue": {
         "id": "9267ace6500c",
         "name": "はつかいち美術ギャラリー",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "하츠카이치 미술 갤러리"
+          },
+          "en": {
+            "name": "Hatsukaichi Art Gallery"
+          }
+        },
         "region": "広島県",
         "district": null,
         "lat": 34.34823838356203,
@@ -106545,8 +106846,15 @@
         {
           "id": "c7f5ec7f9e4a",
           "name": "大塚友記憲",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오츠카 유키노리"
+            },
+            "en": {
+              "name": "Yukinori Otsuka"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Yukinori-Otsuka-Exhibition/hatsukaichi-art-gallery/2026-11-03",
@@ -106557,8 +106865,15 @@
       "id": "2052886852cd",
       "source": "tokyo_art_beat",
       "title": "木村恵 「白い時間」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "키무라 메구미 「시로이 지칸」"
+        },
+        "en": {
+          "title": "Megumi Kimura \"Shiroi Jikan\""
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/9b4ae4aa/850e025e-ad36-4875-86ba-b782b625a3ba.jpg",
       "description": null,
       "medium": "mixed",
@@ -106574,8 +106889,15 @@
       "venue": {
         "id": "31c790f99eed",
         "name": "Gallery子の星",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "Gallery 코노호시"
+          },
+          "en": {
+            "name": "Gallery Konohoshi"
+          }
+        },
         "region": "恵比寿、代官山、中目黒",
         "district": null,
         "lat": 35.65041809509796,
@@ -106585,8 +106907,15 @@
         {
           "id": "fba255d1f1ec",
           "name": "木村恵",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "기무라 메구미"
+            },
+            "en": {
+              "name": "Megumi Kimura"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Kei-Kimura-Exhibition/BC96093-E/2026-11-18",
@@ -106597,8 +106926,17 @@
       "id": "8f9da0ba8dc4",
       "source": "tokyo_art_beat",
       "title": "トリー・セイコ 「Stranger Than Paradise」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "토리 세이코 「Stranger Than Paradise」",
+          "description": "픽토리코 숍 & 갤러리에서는 2026년 11월 10일 (화) ~ 15일 (일) 토리 세이코 사진전 「Stranger Than Paradise」를 개최합니다. 여러분의 방문을 기다립니다."
+        },
+        "en": {
+          "title": "Tori Seiko \"Stranger Than Paradise\"",
+          "description": "Pictorico Shop & Gallery will hold the Tori Seiko Photography Exhibition \"Stranger Than Paradise\" from November 10 (Tue) to 15 (Sun), 2026. We look forward to your visit."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/f25869f8/b7b35d1f-846b-4cb0-bcf9-835a73a58b66.png",
       "description": "ピクトリコ ショップ＆ギャラリーでは、2026年11月10日（火）〜15日（日）トリー・セイコ写真展「Stranger Than Paradise」を開催いたします。皆様のご来場をお待ちしております。",
       "medium": "photo",
@@ -106632,8 +106970,15 @@
         {
           "id": "6be9988d5807",
           "name": "トリー・セイコ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "토리 세이코"
+            },
+            "en": {
+              "name": "Tori Seiko"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Tory-Seico-Stranger-Than-Paradise/CD55-AAD3/2026-11-10",
@@ -106644,8 +106989,17 @@
       "id": "bd9d3418c290",
       "source": "tokyo_art_beat",
       "title": "「すみだ職人たちの群像－六－『3M運動写真展』」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「스미다 쇼쿠닌타치노 군조 - 로쿠 - 『3M 운동 사진전』」",
+          "description": "픽토리코 숍 & 갤러리에서는 2026년 10월 20일 (화) ~ 11월 1일 (일)까지 「스미다 쇼쿠닌타치노 군조 - 로쿠 - [3M 운동 사진전]」을 개최합니다."
+        },
+        "en": {
+          "title": "\"Sumida Shokunintachi no Gunzō - Roku - '3M Undō Photography Exhibition'\"",
+          "description": "Pictorico Shop & Gallery will hold \"Sumida Shokunintachi no Gunzō - Roku - [3M Undō Photography Exhibition]\" from October 20 (Tue) to November 1 (Sun), 2026."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/d72a008d/3e942b35-5c53-4d2a-a1ce-a7d30baafdbb.jpg",
       "description": "ピクトリコショップ＆ギャラリーでは、2026年10月20日（火）〜11月1日（日）まで「すみだ職人たちの群像－六－[3M運動写真展]」を開催いたします。",
       "medium": "photo",
@@ -106684,8 +107038,17 @@
       "id": "e3b9bd435cc7",
       "source": "tokyo_art_beat",
       "title": "相川七瀬 「A Journey in Light」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "아이카와 나나세 「A Journey in Light」",
+          "description": "픽토리코 숍 & 갤러리에서는 2026년 11월 2일 (월) ~ 8일 (일) ※2일과 3일은 사전 예약제 Nanase Aikawa PhotoExhibition 『A Journey in Light』를 개최합니다. 여러분의 방문을 기다립니다."
+        },
+        "en": {
+          "title": "Nanase Aikawa \"A Journey in Light\"",
+          "description": "Pictorico Shop & Gallery will hold the Nanase Aikawa PhotoExhibition \"A Journey in Light\" from November 2 (Mon) to 8 (Sun), 2026. *Reservations required for November 2 and 3. We look forward to your visit."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/b037b96d/81bdb739-d096-420f-b19f-adc0f4cb492b.JPG",
       "description": "ピクトリコ ショップ＆ギャラリーでは、2026年11月2日（月）〜8日（日）※2日と3日は事前予約制Nanase Aikawa PhotoExhibition『A Journey in Light』を開催いたします。皆様のご来場をお待ちしております。",
       "medium": "photo",
@@ -106719,8 +107082,15 @@
         {
           "id": "536fcfa93a00",
           "name": "相川七瀬",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "아이카와 나나세"
+            },
+            "en": {
+              "name": "Nanase Aikawa"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Nanase-Aikawa-A-Journey-in-Light/CD55-AAD3/2026-11-02",
@@ -106731,8 +107101,17 @@
       "id": "0982a07820d7",
       "source": "tokyo_art_beat",
       "title": "小川直之 + 西田信之 「CARPE DIEM」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "오가와 나오유키 + 니시다 노부유키 「CARPE DIEM」",
+          "description": "이번에 야마구치 히로미가 프로듀스하는 YYARTS에서는 오가와 나오유키와 니시다 노부유키의 사진전 「CARPE DIEM」을 개최합니다. 본 전시회에서는 제목인 Carpe Diem (라틴어로 '그날을 잡아라' / '지금 이 순간을 소중히 사용하라'는 의미)처럼, 구름, 물, 빛과 같이 순식간에 형태를 바꾸는 잡기 어려운 것들의 한 순간을 포착하고 있습니다. 실크스크린이나 족자 등 다양한 형식의 작품들을 즐겨주세요. 오랜 지기이기도 한 두 아티스트의 공명을 히가시 긴자의 YYARTS에서 꼭 느껴보시기 바랍니다."
+        },
+        "en": {
+          "title": "Naoyuki Ogawa + Nobuyuki Nishida \"CARPE DIEM\"",
+          "description": "YYARTS, produced by Hiromi Yamaguchi, will hold a photo exhibition \"CARPE DIEM\" by Naoyuki Ogawa and Nobuyuki Nishida. As the title Carpe Diem (Latin for \"seize the day\" / \"make the most of the present moment\") suggests, this exhibition captures fleeting moments of elusive subjects like clouds, water, and light, which instantly change form. Please enjoy the diverse range of works, including silkscreens and hanging scrolls. We invite you to experience the resonance between these two artists, who are old acquaintances, at YYARTS in Higashi Ginza."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/1261754a/1222bacd-3663-4463-ad3d-d32a60df47c5.jpg",
       "description": "この度、山口裕美がプロデュースするYYARTSでは、小川直之と西田信之による写真展「CARPE DIEM」を開催いたします。本展覧会では、タイトルのCarpe Diem (ラテン語で「その日を摘め」/「今という時を大切に使え」という意味）にもあるように、雲、水、光といった、瞬時に形をかえてしまうとらえどころのないものの一瞬を写し取っています。シルクスクリーンや掛軸など形式が多岐に渡る作品群をお楽しみください。旧知の仲でもある二人のアーティストの共鳴をぜひ 東銀座のYYARTSで、 味わいにいらしてください。",
       "medium": "photo",
@@ -106748,8 +107127,15 @@
       "venue": {
         "id": "e56f6a95848f",
         "name": "YY ARTS",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "YY ARTS"
+          },
+          "ja": {
+            "name": "YY ARTS"
+          }
+        },
         "region": "銀座、丸の内",
         "district": null,
         "lat": 35.67204782105894,
@@ -106759,14 +107145,28 @@
         {
           "id": "5da30a54d48d",
           "name": "小川直之",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오가와 나오유키"
+            },
+            "en": {
+              "name": "Naoyuki Ogawa"
+            }
+          }
         },
         {
           "id": "5b2f59947f7a",
           "name": "西田信之",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "니시다 노부유키"
+            },
+            "en": {
+              "name": "Nobuyuki Nishida"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Naoyuki-Ogawa-Nobuyuki-Nishida-Carpe-Diem/0-B6-E1-F36/2026-10-22",
@@ -106777,8 +107177,17 @@
       "id": "51cb36d664c0",
       "source": "tokyo_art_beat",
       "title": "「コレクションと文化財写真」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「컬렉션과 문화재 사진」",
+          "description": "미술관에 소장된 작품들은 시대와 지역을 넘어 다양한 역사와 문화를 우리에게 전해주는 소중한 존재입니다. 그러나 그 안에는 일반적인 감상으로는 알아차리기 어려운 섬세한 표현이나 육안으로는 포착할 수 없는 제작의 흔적이 숨겨져 있는 경우가 있습니다.\n저희 미술관에서는 컬렉션 및 미술 자료의 디지털 아카이브화를 목표로, 우선 컬렉션 50점의 신규 촬영을 실시했습니다. 본 전시는 그 성과를 순차적으로 공개해 나가는 노력의 첫 번째 단계입니다. 이번에는 일반 촬영 외에 특수한 빛을 이용한 촬영을 진행한 5점의 작품을 선정하여, 촬영 방법에 따른 보이는 방식의 차이와 그로부터 해석할 수 있는 작품의 새로운 측면을 소개합니다."
+        },
+        "en": {
+          "title": "\"Collection and Cultural Heritage Photography\"",
+          "description": "Works housed in museums are precious entities that convey various histories and cultures to us across eras and regions. However, some of them contain subtle expressions that are difficult to notice during normal viewing, or traces of creation that cannot be perceived with the naked eye.\nOur museum aims to digitize its collection and art materials, and as a first step, we have newly photographed 50 items from our collection. This exhibition is the first phase of an initiative to progressively release these results. This time, we have selected five works that were photographed using special light in addition to standard photography, and we will introduce the differences in appearance depending on the photographic method, as well as new aspects of the works that can be interpreted from them."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/475feecd/110a804f-b34c-41ad-b730-5dbb54574e96.jpg",
       "description": "美術館に収められた作品は、時代や地域を越えてさまざまな歴史や文化を私たちに伝えてくれる大切な存在です。しかしその中には、通常の鑑賞では気づきにくい細かな表現や、肉眼では捉えられない制作の痕跡が隠されていることがあります。\n当館ではコレクションや美術資料のデジタルアーカイブ化を目指し、まずはコレクション50点の新規撮影を実施いたしました。本展はその成果を順次公開していく取り組みの第1弾です。今回は、通常撮影に加えて特殊な光を用いた撮影を行った5点の作品をピックアップし、撮影方法による見え方の違いと、そこから読み解ける作品の新たな側面をご紹介します。",
       "medium": "photo",
@@ -106794,8 +107203,15 @@
       "venue": {
         "id": "0e6f9e36782b",
         "name": "釧路市立美術館",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "쿠시로 시립 미술관"
+          },
+          "en": {
+            "name": "Kushiro Municipal Museum of Art"
+          }
+        },
         "region": "北海道",
         "district": null,
         "lat": 42.97807009298543,
@@ -106810,8 +107226,17 @@
       "id": "001f14009a66",
       "source": "tokyo_art_beat",
       "title": "田中康予 「ともにつくるみらいのかたち」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "타나카 야스요 「토모니 츠쿠루 미라이노 카타치」",
+          "description": "미군 후추 기지 터를 계기로 환경, 순환, 공존을 테마로 앞으로의 도시와 삶을 방문객과 함께 생각하는 타나카 야스요의 참여형 전시회입니다.\n초록 잎으로 덮인 울타리나 파라볼라 안테나를 모티프로 한 작품, 순환을 테마로 한 설치 미술을 전시하고, 뉴욕의 커뮤니티 가든, 퇴비, 예술 및 교육 활동을 사진으로 소개합니다. 기지 터의 이용 계획 현황을 서로 배우고, 자연과의 공존과 도시의 미래에 대해 생각과 아이디어를 나누는 장을 만듭니다.\n회장에서는 일본 전통 종이(와시)를 각기 다른 색과 무늬로 염색하고, 그 종이로 꽃을 접어 실로 연결하여 쿠스다마를 공동 제작합니다. 또한, 참매의 깃털에서 영감을 얻은 작품 「유메노 핫신」에서는 방문객이 꿈과 희망을 적은 글을 「미라이에노 테가미」 봉투에 넣어, 편지를 보내는 사람과 받는 사람 양쪽의 입장에서 서로 읽으며 꿈을 공유합니다. 한 사람 한 사람의 참여에 따라 전시 기간 중에도 전시가 조금씩 변화해 갑니다."
+        },
+        "en": {
+          "title": "Yasuyo Tanaka 「Tomoni Tsukuru Mirai no Katachi」",
+          "description": "This is an participatory exhibition by Yasuyo Tanaka, which takes the former US Military Fuchu Base Site as an opportunity to consider the future of the city and life with visitors, based on the themes of environment, circulation, and coexistence.\nIt features works inspired by fences covered with green leaves and parabolic antennas, and installations on the theme of circulation, and introduces community gardens, composting, and art and education initiatives in New York through photographs. The exhibition creates a space for learning about the current status of the base site's utilization plan and for sharing thoughts and ideas about coexistence with nature and the future of the city.\nAt the venue, visitors will collaboratively create kusudama (decorative paper balls) by dyeing washi paper in various colors and patterns, folding flowers from the paper, and connecting them with thread. Additionally, in the work \"Yume no Hasshin\" (Sending Dreams), inspired by the feathers of a goshawk, visitors will write their dreams and hopes, place them in \"Mirai e no Tegami\" (Letters to the Future) envelopes, and read them aloud from the perspectives of both sender and receiver, sharing their dreams. Through the participation of each individual, the exhibition will gradually change throughout its duration."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/1bb4b701/d09f3ceb-c576-43a2-9630-e5ca3b3efa3e.jpg",
       "description": "米軍府中基地跡地をきっかけに、環境・循環・共存をテーマとして、これからのまちと暮らしを来場者とともに考える、田中康予の参加型展覧会です。\n緑の葉に覆われたフェンスやパラボラアンテナをモチーフにした作品、循環をテーマにしたインスタレーションを展示し、ニューヨークのコミュニティガーデン、コンポスト、アートや教育の取り組みを写真で紹介します。基地跡地の利用計画の現在の状況を学び合い、自然との共存やまちの未来について、思いやアイデアを寄せる場をつくります。\n会場では、和紙をそれぞれの色や柄に染め、その紙で花を折り、糸でつないで薬玉を共同制作します。また、オオタカの羽にインスピレーションを得た作品「夢の発信」では、来場者が夢や希望を書いた言葉を「未来への手紙」の封筒に入れ、手紙を差し出す人と受け取る人の両方の立場で読み合い、夢を共有します。一人ひとりの参加によって、会期中も展示が少しずつ変化していきます。",
       "medium": "photo",
@@ -106845,8 +107270,15 @@
         {
           "id": "935f7d369a8f",
           "name": "田中康予",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "다나카 야스요"
+            },
+            "en": {
+              "name": "Yasuyo Tanaka"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Yasuyo-Tanaka-Shaping-Our-Future-Together/parallel-cross-gallery/2026-11-25",
@@ -106857,8 +107289,15 @@
       "id": "669946f22b25",
       "source": "tokyo_art_beat",
       "title": "「Feel better soon」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「Feel better soon」"
+        },
+        "ja": {
+          "title": "「Feel better soon」"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/07e4483a/c46e56e2-cfb1-4a9a-8c4e-ba29aa3b7e1c.jpg",
       "description": null,
       "medium": "mixed",
@@ -106874,8 +107313,15 @@
       "venue": {
         "id": "b68c87a1a34a",
         "name": "See Saw gallery + hibit",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "See Saw gallery + hibit"
+          },
+          "ja": {
+            "name": "See Saw gallery + hibit"
+          }
+        },
         "region": "愛知県",
         "district": null,
         "lat": 35.12914,
@@ -106891,14 +107337,28 @@
         {
           "id": "dd0ea291266b",
           "name": "森田浩彰",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "모리타 히로아키"
+            },
+            "en": {
+              "name": "Hiroaki Morita"
+            }
+          }
         },
         {
           "id": "277277239413",
           "name": "狩野哲郎",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "카노 테츠로"
+            },
+            "en": {
+              "name": "Tetsuro Kano"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Feel-Better-Soon/see-saw-gallery-hibit/2026-11-14",
@@ -106909,8 +107369,19 @@
       "id": "9a28d3b71af1",
       "source": "tokyo_art_beat",
       "title": "「RE:SHAPE EXHIBITION 2026」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「RE:SHAPE EXHIBITION 2026」",
+          "description": "「마치토 츠나가루, 쵸도 이이 지칸.」을 제공하는 UDS HOTELS는 호텔을 거점으로 지역과의 새로운 연결과 순환을 만들어내는 프로젝트 「RE:SHAPE」를 시작합니다.\n첫 번째 프로젝트에서는 도쿄 시부야의 호텔 all day place shibuya를 중심으로, 상점이나 커뮤니티 공간 등 시부야 거리에서 버려진 옷을 이전 옷의 기억을 이어받는 일본 전통 종이(와시)로 재생하여 예술 작품으로 재탄생시키는 프로젝트를 전개합니다. 국내외에서 활약하는 6명의 개성 넘치는 아티스트들이 만든 20점 이상의 작품은 「RE:SHAPE EXHIBITION 2026」으로 시부야구 진구마에 2초메의 야외 아트 갤러리 Jinny Street Gallery에서 2026년 11월 1일(일)부터 30일(월)까지 한 달간 전시됩니다.\n전시 작품은 판매도 진행되며, 그 수익금의 일부는 시부야 거리로 환원될 예정입니다. 이를 통해 거리의 자원이 새로운 형태로 바뀌어 거리로 환원되는 순환을 만들어냅니다."
+        },
+        "ja": {
+          "title": "「RE:SHAPE EXHIBITION 2026」"
+        },
+        "en": {
+          "description": "UDS HOTELS, which offers 「Machi to Tsunagaru, Chōdo Ii Jikan.」, is launching 「RE:SHAPE,」 an initiative to create new connections and circulation with the local community, starting from its hotels.\nFor the first phase, centered around the all day place shibuya hotel in Shibuya, Tokyo, the project will transform clothes discarded in Shibuya's shops and community spaces into washi paper that inherits the memories of the garments, thereby reborn as art pieces. Over 20 works created by 6 unique artists active both domestically and internationally will be exhibited as 「RE:SHAPE EXHIBITION 2026」 at the outdoor art gallery Jinny Street Gallery in Jingumae Nichome, Shibuya-ku, for one month from November 1 (Sunday) to November 30 (Monday), 2026.\nThe exhibited works will also be available for sale, and a portion of the proceeds will be returned to the city of Shibuya. This will create a cycle where the city's resources take on new forms and are returned to the city."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/5b9df0e1/1022fee4-ea61-48b4-869e-67ecd4ea383b.jpg",
       "description": "「まちとつながる、ちょうどいい時間。」を提供するUDS HOTELSは、ホテルを起点に地域との新たなつながりと循環を生み出す取り組み「RE:SHAPE」を始動します。\n第一弾では、東京・渋谷のホテルall day place shibuyaを中心に、ショップやコミュニティスペースなど渋谷のまちで手放された服を、これまでの服の記憶を受け継ぐ和紙へと再生し、アート作品へと生まれ変わらせる取り組みを展開します。国内外で活躍する6名の個性豊かなアーティストたちから生まれる20点以上の作品は、「RE:SHAPE EXHIBITION 2026」として、渋谷区神宮前二丁目の屋外アートギャラリーJinny Street Galleryにて2026年11月1日（日）から30日（月）の1ヶ月間展示されます。\n展示作品は販売も実施し、その売上金の一部が渋谷のまちへ還元される予定です。これによりまちの資源が新たなカタチとなり、まちへ還元される循環をつくり上げます。",
       "medium": "mixed",
@@ -106926,8 +107397,15 @@
       "venue": {
         "id": "1a9614227a69",
         "name": "Jinny Street Gallery",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Jinny Street Gallery"
+          },
+          "ja": {
+            "name": "Jinny Street Gallery"
+          }
+        },
         "region": "渋谷",
         "district": null,
         "lat": 35.673306471650115,
@@ -106950,26 +107428,54 @@
         {
           "id": "53977855f937",
           "name": "大河紀",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오가 노리"
+            },
+            "en": {
+              "name": "Nori Oga"
+            }
+          }
         },
         {
           "id": "0abccdd2a435",
           "name": "Kenta Cobayashi",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "켄타 코바야시"
+            },
+            "ja": {
+              "name": "ケンタ コバヤシ"
+            }
+          }
         },
         {
           "id": "966137858e4a",
           "name": "静電場朔（Dian）",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "정전장삭 (Dian)"
+            },
+            "en": {
+              "name": "Jing Dian Chang Shuo (Dian)"
+            }
+          }
         },
         {
           "id": "158aeb70e513",
           "name": "CHiNPAN",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "CHiNPAN"
+            },
+            "ja": {
+              "name": "CHiNPAN"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Reshape-Exhibition-2026/Jinny-Street-Gallery/2026-11-01",
@@ -106980,8 +107486,17 @@
       "id": "1f1d0827e948",
       "source": "tokyo_art_beat",
       "title": "山本まりこ 「とける」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "야마모토 마리코 '토케루'",
+          "description": "[관련 이벤트]\n갤러리 토크\n일시: 2026년 10월 23일, 10월 31일 19:00~19:50\n등단자: 야마모토 마리코\n장소: 소니 이미징 갤러리 긴자 (긴자 플레이스 6층)\n요금: 무료 (사전 예약·추첨제)\n※이벤트 상세 내용 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Mariko Yamamoto 'Tokeru'",
+          "description": "[Related Events]\nGallery Talk\nDate & Time: October 23 & October 31, 2026, 19:00–19:50\nSpeaker: Mariko Yamamoto\nVenue: Sony Imaging Gallery Ginza (Ginza Place 6F)\nAdmission: Free (Advance reservation and lottery system)\n※Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/df4f1a48/11e43ce5-285d-4e1a-83e8-1d9654e6bd6b.jpg",
       "description": "[関連イベント]\nギャラリートーク\n日時: 2026年10月23日、10月31日19:00〜19:50\n登壇者: 山本まりこ\n会場: ソニーイメージングギャラリー 銀座 （銀座プレイス6階）\n料金: 無料（事前予約・抽選制）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -107015,8 +107530,15 @@
         {
           "id": "e4d144dec374",
           "name": "山本まりこ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "야마모토 마리코"
+            },
+            "en": {
+              "name": "Yamamoto Mariko"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Mariko-Yamamoto-Tokeru/61-AB7373/2026-10-23",
@@ -107027,8 +107549,17 @@
       "id": "a5558db18552",
       "source": "tokyo_art_beat",
       "title": "「イマイコレクション リンホフとハッセルブラッドの世界 機能とデザインの美学」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "이마이 컬렉션 린호프와 핫셀블라드의 세계 기능과 디자인의 미학",
+          "description": "일본 카메라 박물관(관장 사쿠라이 류코)에서는 2026년 10월 27일(화)부터 2027년 1월 24일(일)까지 특별전 「이마이 컬렉션 린호프와 핫셀블라드의 세계 기능과 디자인의 미학」을 개최합니다. 홋카이도에 거주하는 사업가 이마이 사다오 씨는 국내외 카메라를 50년 이상 수집해 온 저명한 카메라 수집가입니다. 이번 기획에서는 이마이 씨의 컬렉션에서 많은 것을 제공받고, 일부 일본 카메라 박물관 소장품도 더해 「린호프」와 「핫셀블라드」의 여러 제품을 소개합니다.\n\n「린호프」는 1887년 독일의 발렌틴 린호프에 의해 설립되어 1900년대 초반부터 카메라 제조를 시작했습니다. 1934년에는 회사를 대표하는 「테크니카」를 출시하여 다기능 고정밀 금속 바디의 테크니컬 카메라로서의 지위를 확립했습니다. 이 회사의 렌즈 장착 보드 「린호프 보드」는 다른 카메라에도 채용되어 사실상의 유니버설 마운트가 되는 등 대형 카메라의 최고봉으로서 사진가들에게 지지받아 왔습니다.\n\n「핫셀블라드」는 1841년 스웨덴의 빅터 핫셀블라드에 의해 상사로 설립되었습니다. 사진 재료 판매 등을 담당한 후 1941년에 항공 카메라를 개발하고 1948년에는 최초의 민수용 카메라 「1600F」를 출시했습니다. 이 기종은 자동차 「사브」의 디자인 등을 담당한 식스텐 사손이 외관 디자인을 맡았으며, 이후 개량을 거듭하며 오랫동안 동일한 형식과 디자인을 계승해 온 「핫셀블라드」는 6×6판 일안 리플렉스 카메라의 표준으로서 많은 카메라의 모범이 되었습니다.\n\n현대는 스마트폰 촬영이 정착되어 있는 반면, 젊은 세대를 중심으로 사람이 직접 다루는 사진으로서 필름 수동 카메라가 다시 주목받고 있습니다. 본 전시는 전문가용 두 브랜드를 다루며 역사와 기능성, 디자인성, 대중판 카메라로서의 특징, 고정밀 사진의 매력에 대해 소개합니다. 카메라 애호가는 물론, 보다 본격적인 사진 촬영에 흥미를 갖기 시작한 중급자나 사진가를 지망하는 젊은이들에게도 어필하는 전시입니다."
+        },
+        "en": {
+          "title": "Imai Collection: The World of Linhof and Hasselblad – The Aesthetics of Function and Design",
+          "description": "The Japan Camera Museum (Director: Ryuko Sakurai) will hold a special exhibition, \"Imai Collection: The World of Linhof and Hasselblad – The Aesthetics of Function and Design,\" from Tuesday, October 27, 2026, to Sunday, January 24, 2027. Sadao Imai, a businessman residing in Hokkaido, is a renowned camera collector who has spent over 50 years collecting cameras from Japan and abroad. For this exhibition, many items have been provided from Mr. Imai's collection, supplemented by some items from the Japan Camera Museum's collection, to introduce a variety of Linhof and Hasselblad cameras.\n\nLinhof was founded in 1887 by Valentin Linhof in Germany and began manufacturing cameras in the early 1900s. In 1934, the company released its flagship model, the \"Technika,\" establishing its position as a highly functional and precise technical camera with a metal body. The company's lens mounting board, the \"Linhof Board,\" was also adopted by other cameras, becoming a de facto universal mount, and Linhof has been supported by photographers as the pinnacle of large format cameras.\n\nHasselblad was founded as a trading company in 1841 by Victor Hasselblad in Sweden. After dealing in photographic materials, the company developed aerial cameras in 1941 and released its first civilian camera, the \"1600F,\" in 1948. Sixten Sason, who also designed cars like the \"Saab,\" was responsible for the exterior design of the 1600F. Hasselblad, which continued to follow a similar form and design for many years while undergoing improvements, became the standard for 6x6 medium format SLR cameras and a model for many other cameras.\n\nWhile smartphone photography is now well-established, manual film cameras are once again attracting attention, especially among younger generations, as a form of photography that involves human touch. This exhibition focuses on both professional brands, introducing their history, functionality, design, characteristics as large and medium format cameras, and the appeal of high-definition photography. It is an exhibition that appeals not only to camera enthusiasts but also to intermediate users who are starting to take an interest in more serious photography, and young people aspiring to become photographers."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/ef549f5f/4591f498-fb68-4f5b-97f3-7496a887df44.jpg",
       "description": "日本カメラ博物館（館長 櫻井龍子）では、2026年10月27日（火）～2027年1月24日（日）まで、 特別展「イマイコレクション リンホフとハッセルブラッドの世界 機能とデザインの美学」を開催します。北海道在住の実業家・今井貞男氏は、国内外のカメラを50年以上かけて収集している著名なカメラコレクターです。今回の企画では、今井氏のコレクションから多くをご提供いただき、一部日本カメラ博物館所蔵品も加え、「リンホフ」と「ハッセルブラッド」の数々を紹介します。\n\n「リンホフ」は、1887年にドイツのヴァレンティン・リンホフにより設立され、1900年代前半からカメラの製造を始めます。1934年には同社を代表する「テヒニカ」を発売し、多機能かつ高精度な金属ボディのテクニカルカメラとして地位を確立。同社のレンズ装着ボード「リンホフボード」は他のカメラにも採用され、事実上のユニバーサル・マウントとなるなど、大判カメラの最高峰として写真家に支持されてきました。\n\n「ハッセルブラッド」は、1841年にスウェーデンのヴィクター・ハッセルブラッドにより商社として設立されました。写真材料の販売なども手がけたのち、1941年に航空カメラを開発、1948年には初の民生用カメラ「1600Ｆ」を発売しました。同機は自動車の「サーブ」のデザインなどを手がけたシクステン・サッソンが外観デザインを担当し、以降改良を加えながら長年にわたり同様の型式とデザインを踏襲し続けた「ハッセルブラッド」は、６×６判一眼レフカメラのスタンダードとして多くのカメラの模範となりました。\n\n現代は、スマートフォンでの撮影が定着している反面、若い世代を中心に、人が手をかけた写真としてフィルムのマニュアルカメラがふたたび注目をあびています。本展示は、プロフェッショナル向けの両ブランドをとりあげ、歴史や機能性、デザイン性、大中判カメラとしての特長、高精細写真の魅力について紹介します。カメラ愛好家はもちろん、より本格的な写真撮影に興味を持ちはじめた中級層や、写真家を志す若者にも訴求する展示です。",
       "medium": "photo",
@@ -107067,8 +107598,17 @@
       "id": "1d4ce14b9c40",
       "source": "zen_foto",
       "title": "Dream Within a Dream",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "꿈속의 꿈",
+          "description": "젠 포토 갤러리는 2026년 10월 24일 토요일부터 12월 19일 토요일까지 사진작가 무라카미 마사카즈의 개인전 「꿈속의 꿈」을 선보이게 되어 기쁩니다. 첫 번째 전시..."
+        },
+        "ja": {
+          "title": "夢の中の夢",
+          "description": "ゼンフォトギャラリーは、2026年10月24日（土）から12月19日（土）まで、写真家・村上雅一の個展「夢の中の夢」を開催いたします。初の展覧会..."
+        }
+      },
       "poster_image_url": "https://d1jikcjf8oridj.cloudfront.net/i/d9/AWB3X0Wc_skDfqB.jpeg",
       "description": "Zen Foto Gallery a le plaisir de présenter « Dream Within a Dream », une exposition personnelle du photographe Masakazu Murakami, du samedi 24 octobre au samedi 19 décembre 2026. Première expositio...",
       "medium": "photo",
@@ -118826,8 +119366,15 @@
     {
       "id": "0abc6051b14e",
       "name": "갤러리AP9",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Gallery AP9"
+        },
+        "ja": {
+          "name": "ギャラリーAP9"
+        }
+      },
       "venue_type": "gallery",
       "region": null,
       "district": null,
@@ -118840,8 +119387,15 @@
     {
       "id": "a9aacf6fa0e8",
       "name": "국립현대미술관 청주",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "National Museum of Modern and Contemporary Art Cheongju"
+        },
+        "ja": {
+          "name": "国立現代美術館 清州"
+        }
+      },
       "venue_type": "museum",
       "region": "충북",
       "district": null,
@@ -118854,8 +119408,15 @@
     {
       "id": "9267ace6500c",
       "name": "はつかいち美術ギャラリー",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "하츠카이치 미술 갤러리"
+        },
+        "en": {
+          "name": "Hatsukaichi Art Gallery"
+        }
+      },
       "venue_type": "other",
       "region": "広島県",
       "district": null,
@@ -118868,8 +119429,15 @@
     {
       "id": "31c790f99eed",
       "name": "Gallery子の星",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "Gallery 코노호시"
+        },
+        "en": {
+          "name": "Gallery Konohoshi"
+        }
+      },
       "venue_type": "gallery",
       "region": "恵比寿、代官山、中目黒",
       "district": null,
@@ -118882,8 +119450,15 @@
     {
       "id": "e56f6a95848f",
       "name": "YY ARTS",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "YY ARTS"
+        },
+        "ja": {
+          "name": "YY ARTS"
+        }
+      },
       "venue_type": "other",
       "region": "銀座、丸の内",
       "district": null,
@@ -118896,8 +119471,15 @@
     {
       "id": "0e6f9e36782b",
       "name": "釧路市立美術館",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "쿠시로 시립 미술관"
+        },
+        "en": {
+          "name": "Kushiro Municipal Museum of Art"
+        }
+      },
       "venue_type": "other",
       "region": "北海道",
       "district": null,
@@ -118910,8 +119492,15 @@
     {
       "id": "b68c87a1a34a",
       "name": "See Saw gallery + hibit",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "See Saw gallery + hibit"
+        },
+        "ja": {
+          "name": "See Saw gallery + hibit"
+        }
+      },
       "venue_type": "gallery",
       "region": "愛知県",
       "district": null,
@@ -118924,8 +119513,15 @@
     {
       "id": "1a9614227a69",
       "name": "Jinny Street Gallery",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "Jinny Street Gallery"
+        },
+        "ja": {
+          "name": "Jinny Street Gallery"
+        }
+      },
       "venue_type": "gallery",
       "region": "渋谷",
       "district": null,
@@ -149572,272 +150168,587 @@
     {
       "id": "67dba8629d3e",
       "name": "황희철",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Hwang Hee-cheol"
+        },
+        "ja": {
+          "name": "ファン・ヒチョル"
+        }
+      }
     },
     {
       "id": "56f0118761c0",
       "name": "八島良子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "야시마 요시코"
+        },
+        "en": {
+          "name": "Yashima Yoshiko"
+        }
+      }
     },
     {
       "id": "bf6d63e68625",
       "name": "お",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오"
+        },
+        "en": {
+          "name": "o"
+        }
+      }
     },
     {
       "id": "013dc1f2cd58",
       "name": "おさ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오사"
+        },
+        "en": {
+          "name": "osa"
+        }
+      }
     },
     {
       "id": "80aea1028486",
       "name": "おさむ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오사무"
+        },
+        "en": {
+          "name": "Osamu"
+        }
+      }
     },
     {
       "id": "fa8e751d1776",
       "name": "구정아",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Koo Jeong A"
+        },
+        "ja": {
+          "name": "ク・ジョンア"
+        }
+      }
     },
     {
       "id": "fd61e53c0313",
       "name": "권하윤",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Kwon Hayoun"
+        },
+        "ja": {
+          "name": "クォン・ハユン"
+        }
+      }
     },
     {
       "id": "342c3e018a86",
       "name": "김구림",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Kim Kulim"
+        },
+        "ja": {
+          "name": "キム・グリム"
+        }
+      }
     },
     {
       "id": "0e9cd0fd95d8",
       "name": "김두진",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Kim Doojin"
+        },
+        "ja": {
+          "name": "キム・ドゥジン"
+        }
+      }
     },
     {
       "id": "a5c0f958bbc8",
       "name": "김범",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Kim Beom"
+        },
+        "ja": {
+          "name": "キム・ボム"
+        }
+      }
     },
     {
       "id": "40a66e160e85",
       "name": "김세진",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Kim Sejin"
+        },
+        "ja": {
+          "name": "キム・セジン"
+        }
+      }
     },
     {
       "id": "28f058fda8f2",
       "name": "김수자",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Kim Sooja"
+        },
+        "ja": {
+          "name": "キム・スージャ"
+        }
+      }
     },
     {
       "id": "b5dc77dcd560",
       "name": "김아영",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Kim Ayoung"
+        },
+        "ja": {
+          "name": "キム・アヨン"
+        }
+      }
     },
     {
       "id": "cf4a1e674372",
       "name": "김희천",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Kim Heechun"
+        },
+        "ja": {
+          "name": "キム・ヒチョン"
+        }
+      }
     },
     {
       "id": "ae519f7e5d85",
       "name": "류성실",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Ryu Sungshil"
+        },
+        "ja": {
+          "name": "リュ・ソンシル"
+        }
+      }
     },
     {
       "id": "f3737d0e3e25",
       "name": "박현기",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Park Hyunki"
+        },
+        "ja": {
+          "name": "パク・ヒョンギ"
+        }
+      }
     },
     {
       "id": "e2d345004ae1",
       "name": "아피찻퐁 위라세타쿤",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Apichatpong Weerasethakul"
+        },
+        "ja": {
+          "name": "アピチャッポン・ウィーラセタクン"
+        }
+      }
     },
     {
       "id": "0fec7a647e7d",
       "name": "염지혜",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Yeom Jihye"
+        },
+        "ja": {
+          "name": "ヨム・ジヘ"
+        }
+      }
     },
     {
       "id": "63acc4f85df0",
       "name": "이안 쳉",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Ian Cheng"
+        },
+        "ja": {
+          "name": "イアン・チェン"
+        }
+      }
     },
     {
       "id": "68370166bec7",
       "name": "이용백",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Lee Yongbaek"
+        },
+        "ja": {
+          "name": "イ・ヨンベク"
+        }
+      }
     },
     {
       "id": "f89017c16802",
       "name": "이원곤",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Lee Wongon"
+        },
+        "ja": {
+          "name": "イ・ウォンゴン"
+        }
+      }
     },
     {
       "id": "190f839ebfc3",
       "name": "장쉬잔",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Jang Xuzhan"
+        },
+        "ja": {
+          "name": "ジャン・シュジャン"
+        }
+      }
     },
     {
       "id": "cc7b7d06b969",
       "name": "재커리 폼왈트",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Zachary Formwalt"
+        },
+        "ja": {
+          "name": "ザカリー・フォームウォルト"
+        }
+      }
     },
     {
       "id": "92367b45fdc3",
       "name": "제니 홀저",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Jenny Holzer"
+        },
+        "ja": {
+          "name": "ジェニー・ホルツァー"
+        }
+      }
     },
     {
       "id": "30cf77601bdb",
       "name": "하준수",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Ha Junsu"
+        },
+        "ja": {
+          "name": "ハ・ジュンス"
+        }
+      }
     },
     {
       "id": "465383a763a6",
       "name": "한경우",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Han Kyungwoo"
+        },
+        "ja": {
+          "name": "ハン・ギョンウ"
+        }
+      }
     },
     {
       "id": "fb5d1b7b243c",
       "name": "호 추 니엔 (총 23명)",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Ho Tzu Nyen (total 23 members)"
+        },
+        "ja": {
+          "name": "ホー・ツー・ニエン (計23名)"
+        }
+      }
     },
     {
       "id": "180e2fc0c647",
       "name": "後藤洋輔",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "고토 요스케"
+        },
+        "en": {
+          "name": "Yosuke Goto"
+        }
+      }
     },
     {
       "id": "50d7467f55a4",
       "name": "徳江帆菜",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "토쿠에 하나"
+        },
+        "en": {
+          "name": "Hana Tokue"
+        }
+      }
     },
     {
       "id": "3e544ab72fae",
       "name": "かなまる。",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "카나마루."
+        },
+        "en": {
+          "name": "Kanamaru."
+        }
+      }
     },
     {
       "id": "c7f5ec7f9e4a",
       "name": "大塚友記憲",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오츠카 유키노리"
+        },
+        "en": {
+          "name": "Yukinori Otsuka"
+        }
+      }
     },
     {
       "id": "fba255d1f1ec",
       "name": "木村恵",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "기무라 메구미"
+        },
+        "en": {
+          "name": "Megumi Kimura"
+        }
+      }
     },
     {
       "id": "6be9988d5807",
       "name": "トリー・セイコ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "토리 세이코"
+        },
+        "en": {
+          "name": "Tori Seiko"
+        }
+      }
     },
     {
       "id": "536fcfa93a00",
       "name": "相川七瀬",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "아이카와 나나세"
+        },
+        "en": {
+          "name": "Nanase Aikawa"
+        }
+      }
     },
     {
       "id": "5da30a54d48d",
       "name": "小川直之",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오가와 나오유키"
+        },
+        "en": {
+          "name": "Naoyuki Ogawa"
+        }
+      }
     },
     {
       "id": "5b2f59947f7a",
       "name": "西田信之",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "니시다 노부유키"
+        },
+        "en": {
+          "name": "Nobuyuki Nishida"
+        }
+      }
     },
     {
       "id": "935f7d369a8f",
       "name": "田中康予",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "다나카 야스요"
+        },
+        "en": {
+          "name": "Yasuyo Tanaka"
+        }
+      }
     },
     {
       "id": "dd0ea291266b",
       "name": "森田浩彰",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "모리타 히로아키"
+        },
+        "en": {
+          "name": "Hiroaki Morita"
+        }
+      }
     },
     {
       "id": "277277239413",
       "name": "狩野哲郎",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "카노 테츠로"
+        },
+        "en": {
+          "name": "Tetsuro Kano"
+        }
+      }
     },
     {
       "id": "53977855f937",
       "name": "大河紀",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오가 노리"
+        },
+        "en": {
+          "name": "Nori Oga"
+        }
+      }
     },
     {
       "id": "0abccdd2a435",
       "name": "Kenta Cobayashi",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "켄타 코바야시"
+        },
+        "ja": {
+          "name": "ケンタ コバヤシ"
+        }
+      }
     },
     {
       "id": "966137858e4a",
       "name": "静電場朔（Dian）",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "정전장삭 (Dian)"
+        },
+        "en": {
+          "name": "Jing Dian Chang Shuo (Dian)"
+        }
+      }
     },
     {
       "id": "158aeb70e513",
       "name": "CHiNPAN",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "CHiNPAN"
+        },
+        "ja": {
+          "name": "CHiNPAN"
+        }
+      }
     },
     {
       "id": "b48a1ae9983f",
       "name": "ミカエル・レヴィン",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "미카엘 레빈"
+        },
+        "en": {
+          "name": "Mikael Levin"
+        }
+      }
     },
     {
       "id": "e4d144dec374",
       "name": "山本まりこ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "야마모토 마리코"
+        },
+        "en": {
+          "name": "Yamamoto Mariko"
+        }
+      }
     }
   ]
 }
