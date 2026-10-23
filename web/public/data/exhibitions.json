@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T17:51:54.727931+00:00",
+  "generated_at": "2026-10-23T21:32:10.278440+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -81512,7 +81512,7 @@
       "price_max": null,
       "start_date": "2026-09-12",
       "end_date": "2026-10-22",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "85496eab3ef7",
@@ -94287,7 +94287,7 @@
       "price_max": null,
       "start_date": "2026-10-09",
       "end_date": "2026-10-22",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "fa66fa67ffb6",
@@ -96946,7 +96946,7 @@
       "price_max": null,
       "start_date": "2026-10-23",
       "end_date": "2026-11-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "d2e95c70b2bc",
@@ -98480,7 +98480,7 @@
       "price_max": null,
       "start_date": "2026-10-23",
       "end_date": "2026-10-29",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "f228e0d4700b",
@@ -98543,7 +98543,7 @@
       "price_max": null,
       "start_date": "2026-10-23",
       "end_date": "2026-11-01",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "6f512eb34016",
@@ -101665,7 +101665,7 @@
       "price_max": null,
       "start_date": "2026-10-23",
       "end_date": "2026-11-07",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "4d358832edbc",
@@ -105397,7 +105397,7 @@
       "price_max": null,
       "start_date": "2026-10-23",
       "end_date": "2026-10-25",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "a8a7f62e3883",
@@ -105741,7 +105741,7 @@
       "price_max": null,
       "start_date": "2026-10-23",
       "end_date": "2026-11-06",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "35ac81610e05",
@@ -107507,7 +107507,7 @@
       "price_max": null,
       "start_date": "2026-10-23",
       "end_date": "2026-11-05",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "fa66fa67ffb6",
@@ -107640,6 +107640,329 @@
       },
       "artists": [],
       "source_url": "https://zen-foto.jp/jp/exhibition/dream-within-a-dream",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "82899e34dc94",
+      "source": "acc",
+      "title": "〈ACT 페스티벌 2026〉 미디어파사드",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://www.acc.go.kr/resources/upload/2363/20261002172617_923786368.jpg",
+      "description": "ACT 페스티벌 2026 미디어파사드 2026.10.23.(금) - 12.31.(목) 16:00 - 17:00 아시아문화광장 ACC 미디어월 아이, 휴먼: 테크네세(世)에 응답하기 I, Human: Responding to the Technecene 기술은 앞만 보고 달립니다. 우리도 함께 달려왔습니다. 이 페스티벌은 잠시 멈춰 서기를 권합니다. 멈춰 서서 묻습니다. 인간은 무엇인가. 나는 기술과 어떤 사이인가. 페스티벌의 제목 《아이, 휴먼》은 SF 문학의 거장, 아이작 아시모프의 『아이, 로봇』에서 왔습니다. 아시모프는 로봇에게 '인간을 해치지 말라'는 원칙을 심었습니다. 윤리를 기계 안에 넣으려 한 것입니다. 이제 우리는 그 질문을 인간에게 돌립니다. 기계 앞에 서서 '나'를 다시 말해 봅니다. 나, 인간. 테크네세(Technecene)는 기술(techne)이 세계를 만드는 가장 큰 힘이 된 시대(世, cene)를 가리키는 말로, ACT 페스티벌 2026이 제안하는 신조어입니다. 인간이 땅과 기후를 바꾼 시대를 인류세(Anthropocene)라 부른다면, 지금은 기술이 우리의 감각과 판단, 관계의 모양까지 바꾸는 시대, 테크네세(世)입니다. 1964년 백남준은 최초의 예술 로봇 K-456을 만들었습니다. 전파로 움직이며 걷다가 넘어지던 로봇입니다. 그 옆에 오늘의 기계들이 섭니다. 말을 걸면 대답하는 로봇 설치 작품, 관람객의 숨결에 따라 움직이는 원형 스크린, 몸을 가진 채 스스로 움직이는 피지컬 AI 신작들입니다. 예순 해가 넘는 세월의 거리를 두고 두 세대의 기계가 마주 봅니다. 기술은 잘 작동할 때는 보이지 않습니다. 너무 매끄러워서, 우리는 그것이 거기 있다는 사실조차 잊습니다. 기술이 보이는 것은 어긋나는 순간입니다. 그래서 이 전시는 어긋남, 곧 글리치(Glitch)를 붙잡습니다. 글리치는 두 얼굴로 나타납니다. 하나는 인지적 글리치입니다. 눈앞의 영상이 기계가 만든 것인지 사람이 만든 것인지 알 수 없어지는 순간, 흔들리는 것은 영상이 아니라 우리의 눈과 믿음입니다. 다른 하나는 물리적 글리치입니다. 기술과 기계의 몸이 삐걱거리고 멈추는 순간입니다. 글리치는 고장이 아닙니다. 감춰진 구조가 드러나는 틈입니다. 기계가 넘어지고 헛말을 할 때, 그것이 누구를 기준으로 만들어졌는지가 드러납니다. 어긋남은 늘 묻습니다. 누구를 기준으로 삼았는가. 윤리는 기계 안에 들어 있지 않습니다. 기계는 책임지지 않습니다. 테크네세의 윤리는 그 틈 앞에서 우리가 무엇을 보느냐에서 시작합니다. 누군가에게 매끄러운 기술이 다른 누군가에게는 매일의 글리치입니다. 서둘러 덮기 전에, 그 틈이 누구에게 열려 있었는지 들여다보는 것. 무엇을 보았는지가 무엇을 고칠지를 정합니다. 이 질문은 여러 갈래로 이어집니다. 전시장에서는 헤드셋을 쓰고 다른 세계 안으로 걸어 들어가고, 밤의 극장에서는 빛과 소리가 하나가 되는 오디오비주얼 공연을 만납니다. 다이얼로그에서는 작가들과 마주 앉아 이야기를 나누고, 전당의 미디어월은 관람객을 향해 같은 질문을 띄웁니다. 응답하는 쪽은 우리입니다. 천천히 걸으며, 당신의 응답을 찾아보시기 바랍니다. 〈ACT 페스티벌 2026〉 바로가기 +",
+      "medium": "video",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-23",
+      "end_date": "2026-12-31",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "d2e95c70b2bc",
+        "name": "국립아시아문화전당",
+        "lang": null,
+        "tr": {},
+        "region": "광주",
+        "district": null,
+        "lat": 35.147057304165,
+        "lng": 126.92003143495
+      },
+      "artists": [],
+      "source_url": "https://www.acc.go.kr/main/exhibition.do?PID=0202&action=Read&bnkey=EM_0000010183",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "78266c16c6a7",
+      "source": "tokyo_art_beat",
+      "title": "「D/O a little zine fes 2026」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/d75ce497/3fefc0f1-9244-44d6-8fe8-e1edcceaa086.JPG",
+      "description": "D/Oは、Display（展示）とOffprint（別刷り・印刷物）の頭文字から名付けました。今回は、写真、イラスト、デザインなど、さまざまな分野で活動する作家たちをお招きし、ZINEやアートブックの展示を行います。\n\n[関連イベント]\n1. パラパラ漫画ワークショップ\n日時: 2026年10月24日14:00〜16:00\n登壇者: Adyn Wang\n料金: 3500円\n2. 牛乳パックでつくる版画ワークショップ\n日時: 2026年10月25日14:00〜16:00\n登壇者: Grace Qiu\n料金: 2500円\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-24",
+      "end_date": "2026-10-25",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "0cf369096566",
+        "name": "Othello Gallery（オセロギャラリー）",
+        "lang": null,
+        "tr": {},
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.69886195738815,
+        "lng": 139.66772551469788
+      },
+      "artists": [
+        {
+          "id": "51c36077716e",
+          "name": "RMUTTLEE",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "93ffbf012ff6",
+          "name": "PIDAN",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "9e50310848ab",
+          "name": "Manyi Chan",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1a662062ed34",
+          "name": "明為川的影 Mingweichuandeying",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8895424a11c2",
+          "name": "鄧欽萌",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "77ec13f87d1f",
+          "name": "Liu",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5c42e229c710",
+          "name": "YANLIN LU",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c5aea791d1c3",
+          "name": "flashchannn",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a29931a741c6",
+          "name": "能能粥",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "60e5d116b3a1",
+          "name": "ROLL MAO",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e795228829ff",
+          "name": "殷鶯",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b17342d157bc",
+          "name": "テツコの散歩",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a1adf664a125",
+          "name": "Adyn Wang",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4861de06c01f",
+          "name": "Grace Qiu",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/DO-A-Little-Zine-Fes-2026/Othello-Gallery/2026-10-24",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "86aa4f81684f",
+      "source": "tokyo_art_beat",
+      "title": "松本美枝子 「光がとどまるところ」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/1d22cce0/7b24b1ab-3cda-4ddf-9e28-54ee2cf23c3c.jpeg",
+      "description": "写真家、美術家の松本美枝子は茨城とリオデジャネイロを拠点に、写真や映像、光、音、テクスト、パフォーマンスなど、さまざまなテクノロジーとメディアを横断しながら、世界の捉え方を問い直す試みを続けている。近年は特に地質・地形や都市をリサーチしながら、自然環境と人間が相互に与え合う影響や、そこから生じる感情や幻影を可視化する作品を制作してきた。\n\n今回展示する《光がとどまるところ》は松本の最新の作品シリーズ。結婚をきっかけに、南米、ヨーロッパを行き来するようになった松本は、2023年ごろからブラジルやベルギーなどの都市をリサーチ。本作では古いテクノロジーでありながら近年その価値が見直されているアナログのインスタントフィルムを使用し、あえて遠景を撮影する技法を用いて都市の構造を観察し、風景に刻まれた社会的な痕跡を写しとっている。7センチ四方にも満たない極小のフォーマットに都市の広がりを写し込む試みは、現代における知覚やメディアそのものを問い直す実践でもある。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-23",
+      "end_date": "2026-11-08",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "fc591922ee13",
+        "name": "gallery neo_/ Senshu",
+        "lang": null,
+        "tr": {},
+        "region": "茨城県",
+        "district": null,
+        "lat": 36.0708951182789,
+        "lng": 140.11936911294504
+      },
+      "artists": [
+        {
+          "id": "0afc3af91d3e",
+          "name": "松本美枝子",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Mieko-Matsumoto-Exhibition/gallery-neo-senshu/2026-10-23",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "a387509f415e",
+      "source": "tokyo_art_beat",
+      "title": "陳維 「Surplus Lotus 余剰の蓮果」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/524c3972/5aaa28a2-7efe-47ff-a8c0-817ce038705e.png",
+      "description": "ARTROでは、2026年11月6日(金)から12月13日(日)まで、陳維（チェン・ウェイ）の個展「余剰の蓮果」を開催いたします。築100年を超える蔵を改装したギャラリー「ARTRO」と門跡寺院「曼殊院」、京都の異なるふたつのスペースで、チェン・ウェイ（陳維）の個展『余剰の蓮果』を開催します。展覧会の中心を成すのは、チェンが幾度も京都に足を運び、曼殊院を舞台に撮影した新作写真《Manshu-in》シリーズです。作品が実際制作された場所に身を置き、生み出されたその作品と向き合うことのできる本展は、目の前に広がる風景が、作家のフィルターを通してどのように作品に結実するかを体験できる特別な機会となります。両会場に2点ずつの新作のほか、初公開となる小サイズの写真作品、近年の写真シリーズ、LEDを使った立体作品、映像作品も展示します。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-06",
+      "end_date": "2026-12-13",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "61cef9d14d10",
+        "name": "ARTRO（アルトロ）",
+        "lang": null,
+        "tr": {},
+        "region": "京都府",
+        "district": null,
+        "lat": 35.005946363732114,
+        "lng": 135.76254425644873
+      },
+      "artists": [
+        {
+          "id": "b9239f9e061d",
+          "name": "陳維",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Chen-Wei-Surplus-Lotus/artro/2026-11-06",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "aeb9696ec8d9",
+      "source": "tokyo_art_beat",
+      "title": "ふなだかよ + 舟田亜耶子 「pocket park」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/3db74a7b/71831563-e7ae-4ec0-a770-84c45b474af9.jpg",
+      "description": "ふなだかよと舟田亜耶子は、姉妹としてそれぞれ独自の表現を追求する美術作家です。ふなだかよは母娘の愛や関係性を、写真やフェルトを用いた作品などで表現。舟田亜耶子は「かわいい」ものや自身の欲望、社会の価値観を、写真を使ったオブジェやドローイングなどで探っています。CASは姉妹にとって、特別な場です。本展では、二人が放出のCASという場所を読み解くことによって、新たな表現の可能性を探ります。\n\n[関連イベント]\nアーティストトーク\n日時: 2026年11月28日16:00〜\n登壇者: 𠮷川 神津夫\n料金: 500円\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-14",
+      "end_date": "2026-11-28",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "275ea47887fd",
+        "name": "特定非営利活動法人キャズ （CAS）",
+        "lang": null,
+        "tr": {},
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.6867051379285,
+        "lng": 135.5592438490391
+      },
+      "artists": [
+        {
+          "id": "7263daaa0ee7",
+          "name": "ふなだかよ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "ef595b825932",
+          "name": "舟田亜耶子",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kayo-Funada-Ayako-Funada-Pocket-Park/contemporary-art-and-spirits-cas/2026-11-14",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "c77291effc73",
+      "source": "tokyo_art_beat",
+      "title": "クリスティーネ・ライフェンベルガー + マルティン・シュトライト 「わたしという二つ」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/8726f80c/51653740-1169-4075-a6eb-b8d1efa0b330.png",
+      "description": "この度コートヤードHIROOでは、国際交流プロジェクト「わたしという二つ / Two things called me」の一環として、Christine Reifenberger、Martin Streitによる展覧会を開催する運びとなりました。本プロジェクトは、日本・ドイツ・スイスのアーティストによる国際交流企画です。1990年代から個々に交流を重ねてきた画家・彫刻家・写真家・音楽家たちが、それぞれの国や社会の変化とともに歩んできたアーティストとしての営みを、一堂に見渡す機会として、作家主導で企画されました。都内6つのギャラリーにて、各作家による個展形式で、絵画・彫刻・写真・インスタレーション・パフォーマンスなど、それぞれのメジャーワークを展示いたします。お近くにお越しの際はぜひお立ち寄りいただき、ご高覧下さい。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-20",
+      "end_date": "2026-12-19",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "aaf7879405c2",
+        "name": "コートヤードHIROO",
+        "lang": null,
+        "tr": {},
+        "region": "白金、広尾",
+        "district": null,
+        "lat": 35.65708963966295,
+        "lng": 139.7196595617521
+      },
+      "artists": [
+        {
+          "id": "08be6192ead2",
+          "name": "クリスティーネ・ライフェンベルガー",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e25efe5f37a0",
+          "name": "マルティン・シュトライト",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Christine-Reifenberger-Martin-Streit-Two-things-called-me/FFB879-EA/2026-11-20",
       "featured": false,
       "popularity_score": null
     }
@@ -119529,6 +119852,76 @@
       "country": "JP",
       "lat": 35.673306471650115,
       "lng": 139.7097242706155,
+      "website": null
+    },
+    {
+      "id": "0cf369096566",
+      "name": "Othello Gallery（オセロギャラリー）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "武蔵野、多摩",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.69886195738815,
+      "lng": 139.66772551469788,
+      "website": null
+    },
+    {
+      "id": "fc591922ee13",
+      "name": "gallery neo_/ Senshu",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "茨城県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 36.0708951182789,
+      "lng": 140.11936911294504,
+      "website": null
+    },
+    {
+      "id": "61cef9d14d10",
+      "name": "ARTRO（アルトロ）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "京都府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.005946363732114,
+      "lng": 135.76254425644873,
+      "website": null
+    },
+    {
+      "id": "275ea47887fd",
+      "name": "特定非営利活動法人キャズ （CAS）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "大阪府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.6867051379285,
+      "lng": 135.5592438490391,
+      "website": null
+    },
+    {
+      "id": "aaf7879405c2",
+      "name": "コートヤードHIROO",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "白金、広尾",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.65708963966295,
+      "lng": 139.7196595617521,
       "website": null
     }
   ],
@@ -150749,6 +151142,126 @@
           "name": "Yamamoto Mariko"
         }
       }
+    },
+    {
+      "id": "51c36077716e",
+      "name": "RMUTTLEE",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "93ffbf012ff6",
+      "name": "PIDAN",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9e50310848ab",
+      "name": "Manyi Chan",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1a662062ed34",
+      "name": "明為川的影 Mingweichuandeying",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8895424a11c2",
+      "name": "鄧欽萌",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "77ec13f87d1f",
+      "name": "Liu",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5c42e229c710",
+      "name": "YANLIN LU",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c5aea791d1c3",
+      "name": "flashchannn",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a29931a741c6",
+      "name": "能能粥",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "60e5d116b3a1",
+      "name": "ROLL MAO",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e795228829ff",
+      "name": "殷鶯",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b17342d157bc",
+      "name": "テツコの散歩",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a1adf664a125",
+      "name": "Adyn Wang",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4861de06c01f",
+      "name": "Grace Qiu",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0afc3af91d3e",
+      "name": "松本美枝子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b9239f9e061d",
+      "name": "陳維",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7263daaa0ee7",
+      "name": "ふなだかよ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ef595b825932",
+      "name": "舟田亜耶子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "08be6192ead2",
+      "name": "クリスティーネ・ライフェンベルガー",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e25efe5f37a0",
+      "name": "マルティン・シュトライト",
+      "lang": null,
+      "tr": {}
     }
   ]
 }
