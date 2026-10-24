@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T16:42:30.722162+00:00",
+  "generated_at": "2026-10-24T20:43:37.576885+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -91100,7 +91100,7 @@
       "price_max": null,
       "start_date": "2026-10-24",
       "end_date": "2026-11-21",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "c6edd85e51f2",
@@ -91740,7 +91740,7 @@
       "price_max": null,
       "start_date": "2026-10-24",
       "end_date": "2026-12-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "fdcfb213236e",
@@ -103720,7 +103720,7 @@
       "price_max": null,
       "start_date": "2026-10-24",
       "end_date": "2026-11-07",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "14b5d56a101d",
@@ -105539,7 +105539,7 @@
       "price_max": null,
       "start_date": "2026-10-24",
       "end_date": "2026-11-01",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "1ce957d8d2c4",
@@ -106419,7 +106419,7 @@
         }
       },
       "poster_image_url": "https://www.mmca.go.kr/upload/exhibition/2026/10/2026102205240356318427.png",
-      "description": "MMCA 뉴미디어 소장품 특별전«기술의 노스탤지어»는 브라운관 TV를 이용한 초기 비디오 아트부터 인공지능(AI)과 상호작용하는 현대 미디어 작업의 변천사를 조명하는 전시이다. 전자 신호, 비디오의 시간성, 디지털 편집, 생성형 알고리즘 등 기술 매체 고유의 물질성에 주목하고, 이러한 장치들이 과거부터 현재에 이르기까지 인간의 지각과 감각을 어떻게 확장해 왔는지 함께 살펴본다. 이는 빠른 기술 발전 속에서 지나간 매체들을 우리의 신체적 기억을 환기하는 능동적 매개체로 재발견하고, 다가올 미래의 예술을 새롭게 사유하는 기회가 될 것이다.",
+      "description": "MMCA 뉴미디어 소장품 특별전 «기술의 노스탤지어»는 브라운관 TV를 이용한 초기 비디오 아트부터 인공지능(AI)과 상호작용하는 현대 미디어 작업의 변천사를 조명하는 전시이다. 전자 신호, 비디오의 시간성, 디지털 편집, 생성형 알고리즘 등 기술 매체 고유의 물질성에 주목하고, 이러한 장치들이 과거부터 현재에 이르기까지 인간의 지각과 감각을 어떻게 확장해 왔는지 함께 살펴본다. 이는 빠른 기술 발전 속에서 지나간 매체들을 우리의 신체적 기억을 환기하는 능동적 매개체로 재발견하고, 다가올 미래의 예술을 새롭게 사유하는 기회가 될 것이다.",
       "medium": "video",
       "exhibition_type": "group",
       "genre_tags": [],
@@ -107712,7 +107712,7 @@
       "price_max": null,
       "start_date": "2026-10-24",
       "end_date": "2026-12-19",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": "火－土 12:00－19:00 / 日・月・祝休廊",
       "venue": {
         "id": "7c9ba25d35a8",
@@ -107812,7 +107812,7 @@
       "price_max": null,
       "start_date": "2026-10-24",
       "end_date": "2026-10-25",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "0cf369096566",
@@ -108259,6 +108259,53 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Christine-Reifenberger-Martin-Streit-Two-things-called-me/FFB879-EA/2026-11-20",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "b90745b614f6",
+      "source": "place_m",
+      "title": "徐智の写真宇宙",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://www.placem.com/schedule/2026/main/20261116/20261116-00.jpg",
+      "description": "2026.11.16 - 2026.11.29 徐智 徐智の写真宇宙 中国のアマチュア写真は、中華人民共和国の成立以降、政治や社会経済の変化、そして写真機材の普及を背景に大きく展開してきました。その中で、アマチュア写真家たちの美意識と表現手法は、ごく短い期間のうちに急速な転換を遂げています。それは日本において、戦前の芸術写真から新興写真を経て、戦後の現代写真の黄金期へと至った変遷を、凝縮してたどるかのようでもあります。 本展で紹介する徐智氏は、その典型的な一例です。前世紀に写真とカメラに出会った当初、徐氏の作品は徹頭徹尾サロン写真の傾向にあり、民国期のピクトリアリズム（画意写真）から強い影響を受けていました。しかし徐氏はやがて、唯美的な美意識に根ざした民俗写真から急速に距離を置き、より現実批判的なストリートスナップへと身を投じます。それは、かつての自らの表現に挑むような試みでもありました。そして近年、デジタル写真技術とAIの波の中で、再び新たな映像表現に取り組み始めています。 本展は三部構成で「徐智の写真宇宙」を紹介します。第一部はチベットで撮影されたサロン写真、第二部は上海の都市スナップ、第三部は新たな試みです。徐智氏の作品を通して、中国のアマチュア写真家たちが重ねてきた表現上の選択を垣間見ていただければ幸いです。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-16",
+      "end_date": "2026-11-22",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "2da18874aafa",
+        "name": "Place M",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Place M"
+          },
+          "ja": {
+            "name": "Place M"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.6877688,
+        "lng": 139.7125787
+      },
+      "artists": [
+        {
+          "id": "324ab12ebc78",
+          "name": "徐智",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.placem.com/schedule/2026/main/20261116/exhibition.php",
       "featured": false,
       "popularity_score": null
     }
@@ -151724,6 +151771,12 @@
     {
       "id": "e25efe5f37a0",
       "name": "マルティン・シュトライト",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "324ab12ebc78",
+      "name": "徐智",
       "lang": null,
       "tr": {}
     }
