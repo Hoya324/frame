@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T05:34:42.555636+00:00",
+  "generated_at": "2026-10-25T12:19:13.933610+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -108130,8 +108130,15 @@
         {
           "id": "b9239f9e061d",
           "name": "陳維",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "천웨이"
+            },
+            "en": {
+              "name": "Chen Wei"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Chen-Wei-Surplus-Lotus/artro/2026-11-06",
@@ -108186,14 +108193,28 @@
         {
           "id": "7263daaa0ee7",
           "name": "ふなだかよ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "후나다 카요"
+            },
+            "en": {
+              "name": "Funada Kayo"
+            }
+          }
         },
         {
           "id": "ef595b825932",
           "name": "舟田亜耶子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "후나다 아야코"
+            },
+            "en": {
+              "name": "Funada Ayako"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Kayo-Funada-Ayako-Funada-Pocket-Park/contemporary-art-and-spirits-cas/2026-11-14",
@@ -108248,14 +108269,28 @@
         {
           "id": "08be6192ead2",
           "name": "クリスティーネ・ライフェンベルガー",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "크리스티네 라이펜베르거"
+            },
+            "en": {
+              "name": "Christine Reifensberger"
+            }
+          }
         },
         {
           "id": "e25efe5f37a0",
           "name": "マルティン・シュトライト",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마르틴 슈트라이트"
+            },
+            "en": {
+              "name": "Martin Streit"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Christine-Reifenberger-Martin-Streit-Two-things-called-me/FFB879-EA/2026-11-20",
@@ -108266,8 +108301,17 @@
       "id": "b90745b614f6",
       "source": "place_m",
       "title": "徐智の写真宇宙",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "서지의 사진 우주",
+          "description": "2026.11.16 - 2026.11.29 서지 서지의 사진 우주. 중국의 아마추어 사진은 중화인민공화국 수립 이후 정치 및 사회 경제적 변화, 그리고 사진 장비의 보급을 배경으로 크게 발전해 왔습니다. 그 속에서 아마추어 사진가들의 미의식과 표현 기법은 아주 짧은 기간 동안 급속한 전환을 이루었습니다. 이는 일본에서 전전 예술 사진에서 신흥 사진을 거쳐 전후 현대 사진의 황금기로 이어진 변천을 응축하여 따라가는 것과도 같습니다. 본 전시에서 소개하는 서지 씨는 그 전형적인 한 예입니다. 지난 세기에 사진과 카메라를 처음 접했을 때, 서지 씨의 작품은 철저히 살롱 사진의 경향을 띠었으며, 민국 시대의 픽토리얼리즘(화의 사진)으로부터 강한 영향을 받았습니다. 그러나 서지 씨는 이내 유미적인 미의식에 뿌리를 둔 민속 사진에서 빠르게 벗어나, 보다 현실 비판적인 스트리트 스냅으로 뛰어들었습니다. 이는 과거 자신의 표현에 도전하는 시도이기도 했습니다. 그리고 최근에는 디지털 사진 기술과 AI의 물결 속에서 다시 새로운 영상 표현에 도전하기 시작했습니다. 본 전시는 세 부분으로 구성되어 '서지의 사진 우주'를 소개합니다. 제1부는 티베트에서 촬영된 살롱 사진, 제2부는 상하이의 도시 스냅, 제3부는 새로운 시도입니다. 서지 씨의 작품을 통해 중국 아마추어 사진가들이 거쳐온 표현상의 선택을 엿볼 수 있기를 바랍니다."
+        },
+        "en": {
+          "title": "Xu Zhi's Photography Universe",
+          "description": "2026.11.16 - 2026.11.29 Xu Zhi Xu Zhi's Photography Universe. Chinese amateur photography has developed significantly since the establishment of the People's Republic of China, against a backdrop of political and socioeconomic changes and the widespread adoption of photographic equipment. Within this context, the aesthetic sensibilities and expressive methods of amateur photographers have undergone rapid transformations in a very short period. This transformation is akin to a condensed journey through the evolution of Japanese photography, from pre-war art photography to New Photography, and then to the golden age of post-war contemporary photography. Xu Zhi, featured in this exhibition, is a prime example of this. When Xu Zhi first encountered photography and cameras in the last century, his works were entirely in the style of salon photography, strongly influenced by Pictorialism (Ga-i Shashin) of the Republican era. However, Xu Zhi soon rapidly distanced himself from folk photography rooted in aesthetic sensibilities, immersing himself instead in more critically realistic street snapshots. This was also an attempt to challenge his own past expressions. In recent years, amidst the waves of digital photography technology and AI, he has once again begun to explore new forms of visual expression. This exhibition presents 'Xu Zhi's Photography Universe' in three parts. Part one features salon photography taken in Tibet, part two showcases urban snapshots of Shanghai, and part three explores new endeavors. Through Xu Zhi's works, we hope to offer a glimpse into the expressive choices made by Chinese amateur photographers over time."
+        }
+      },
       "poster_image_url": "https://www.placem.com/schedule/2026/main/20261116/20261116-00.jpg",
       "description": "2026.11.16 - 2026.11.29 徐智 徐智の写真宇宙 中国のアマチュア写真は、中華人民共和国の成立以降、政治や社会経済の変化、そして写真機材の普及を背景に大きく展開してきました。その中で、アマチュア写真家たちの美意識と表現手法は、ごく短い期間のうちに急速な転換を遂げています。それは日本において、戦前の芸術写真から新興写真を経て、戦後の現代写真の黄金期へと至った変遷を、凝縮してたどるかのようでもあります。 本展で紹介する徐智氏は、その典型的な一例です。前世紀に写真とカメラに出会った当初、徐氏の作品は徹頭徹尾サロン写真の傾向にあり、民国期のピクトリアリズム（画意写真）から強い影響を受けていました。しかし徐氏はやがて、唯美的な美意識に根ざした民俗写真から急速に距離を置き、より現実批判的なストリートスナップへと身を投じます。それは、かつての自らの表現に挑むような試みでもありました。そして近年、デジタル写真技術とAIの波の中で、再び新たな映像表現に取り組み始めています。 本展は三部構成で「徐智の写真宇宙」を紹介します。第一部はチベットで撮影されたサロン写真、第二部は上海の都市スナップ、第三部は新たな試みです。徐智氏の作品を通して、中国のアマチュア写真家たちが重ねてきた表現上の選択を垣間見ていただければ幸いです。",
       "medium": "mixed",
@@ -108301,8 +108345,15 @@
         {
           "id": "324ab12ebc78",
           "name": "徐智",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "서지"
+            },
+            "en": {
+              "name": "Seo Ji"
+            }
+          }
         }
       ],
       "source_url": "https://www.placem.com/schedule/2026/main/20261116/exhibition.php",
@@ -151747,38 +151798,80 @@
     {
       "id": "b9239f9e061d",
       "name": "陳維",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "천웨이"
+        },
+        "en": {
+          "name": "Chen Wei"
+        }
+      }
     },
     {
       "id": "7263daaa0ee7",
       "name": "ふなだかよ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "후나다 카요"
+        },
+        "en": {
+          "name": "Funada Kayo"
+        }
+      }
     },
     {
       "id": "ef595b825932",
       "name": "舟田亜耶子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "후나다 아야코"
+        },
+        "en": {
+          "name": "Funada Ayako"
+        }
+      }
     },
     {
       "id": "08be6192ead2",
       "name": "クリスティーネ・ライフェンベルガー",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "크리스티네 라이펜베르거"
+        },
+        "en": {
+          "name": "Christine Reifensberger"
+        }
+      }
     },
     {
       "id": "e25efe5f37a0",
       "name": "マルティン・シュトライト",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "마르틴 슈트라이트"
+        },
+        "en": {
+          "name": "Martin Streit"
+        }
+      }
     },
     {
       "id": "324ab12ebc78",
       "name": "徐智",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "서지"
+        },
+        "en": {
+          "name": "Seo Ji"
+        }
+      }
     }
   ]
 }
