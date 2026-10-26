@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T21:09:18.019611+00:00",
+  "generated_at": "2026-10-26T22:49:13.541474+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -57309,7 +57309,7 @@
       "price_max": null,
       "start_date": "2026-09-19",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "0ca0e7cbef4e",
@@ -66418,7 +66418,7 @@
       "price_max": null,
       "start_date": "2026-08-22",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "8dcc77c58ed9",
@@ -70560,7 +70560,7 @@
       "price_max": null,
       "start_date": "2026-08-13",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "3e9cc1c3e5ad",
@@ -72709,7 +72709,7 @@
       "price_max": null,
       "start_date": "2026-09-05",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "0e17a4ef2695",
@@ -73097,7 +73097,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "f9437c057f04",
@@ -88053,7 +88053,7 @@
       "price_max": null,
       "start_date": "2026-10-19",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -88102,7 +88102,7 @@
       "price_max": null,
       "start_date": "2026-10-26",
       "end_date": "2026-11-01",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -91363,7 +91363,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ef5b4b3f1515",
@@ -91952,7 +91952,7 @@
       "price_max": null,
       "start_date": "2026-10-20",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "bad41612e0e3",
@@ -93415,7 +93415,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "76373e5b77c3",
@@ -95144,7 +95144,7 @@
       "price_max": null,
       "start_date": "2026-10-07",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "05006a834bff",
@@ -95779,7 +95779,7 @@
       "price_max": null,
       "start_date": "2026-10-14",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "018b6124fde6",
@@ -95842,7 +95842,7 @@
       "price_max": null,
       "start_date": "2026-10-13",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "54c1740b50d0",
@@ -95903,7 +95903,7 @@
       "price_max": null,
       "start_date": "2026-10-08",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "597d1c3872e5",
@@ -96176,7 +96176,7 @@
       "price_max": null,
       "start_date": "2026-10-10",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "d69b9661ac9b",
@@ -97144,7 +97144,7 @@
       "price_max": null,
       "start_date": "2026-10-20",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "c1a3b8200685",
@@ -97532,7 +97532,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "cd15b30513c1",
@@ -98132,7 +98132,7 @@
       "price_max": null,
       "start_date": "2026-10-03",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "0936b3ef7488",
@@ -98773,7 +98773,7 @@
       "price_max": null,
       "start_date": "2026-10-14",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "492d48d4c9b9",
@@ -100505,7 +100505,7 @@
       "price_max": null,
       "start_date": "2026-10-09",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "5ae1921d4451",
@@ -102366,7 +102366,7 @@
       "price_max": null,
       "start_date": "2026-10-13",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "651dc68ae219",
@@ -102429,7 +102429,7 @@
       "price_max": null,
       "start_date": "2026-10-07",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "b44a2b0846ba",
@@ -103442,7 +103442,7 @@
       "price_max": null,
       "start_date": "2026-10-26",
       "end_date": "2026-10-31",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "b421867c34c6",
@@ -103944,7 +103944,7 @@
       "price_max": null,
       "start_date": "2026-10-17",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "f46b9eafe809",
@@ -105490,7 +105490,7 @@
       "price_max": null,
       "start_date": "2026-10-23",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "a8a7f62e3883",
@@ -105897,7 +105897,7 @@
       "price_max": null,
       "start_date": "2026-10-17",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "3ad9e538d829",
@@ -107812,7 +107812,7 @@
       "price_max": null,
       "start_date": "2026-10-24",
       "end_date": "2026-10-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "0cf369096566",
@@ -108357,6 +108357,133 @@
         }
       ],
       "source_url": "https://www.placem.com/schedule/2026/main/20261116/exhibition.php",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "9ce2d68ed8e4",
+      "source": "tokyo_art_beat",
+      "title": "「渋谷アーカイブ写真展2026」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/b7093c54/0758b9b8-678a-43f3-a858-65935cd515c3.webp",
+      "description": "2026年11月10日（火）から23日（月・祝）の14日間、コモンズ・アーカイブ・コレクティブ（CAC）は、「渋谷アーカイブ写真展2026」を渋谷ヒカリエ 8/COURT（東京都渋谷区）にて開催します。本展は、渋谷の移り変わりを展示し、その記録を未来へとつなぐことを目的に2023年から始まったアーカイブ・プロジェクトです。2026年は「渋谷の通りと、語られた記憶」をテーマに、新たなアプローチも取り入れ開催します。全11名から聞き取った「オーラルヒストリー（口述記録）」の展示をはじめ、戦後から今日までの渋谷で失われたものをまとめた『渋谷消失事典』の先行販売、9月末に閉店した西武渋谷店の開業当時の写真など、2025年の展示に新規写真を加えた約180点の写真、まちの変遷を感じることのできるSHIBUYA TIMELINEもさらにアップデート。4年目となる本展では、写真をより立体的に読み解く〈都市の記録の層〉を提示します。\n\n2025年に開催した「渋谷アーカイブ写真展2025」では、「名づけられた渋谷の通り」をテーマに、通りの名前の由来や変遷を写真で紐解きました。調べを進めるなかで見えてきたのは、通りの名前には、明確な由来を持たないものもあり、その曖昧さは、渋谷でのさまざまな生活が行き交うなかで、人から人へ語り継がれてきたと示しているということでした。地名が位置を示す静的な情報であるのに対し、通りは人の移動や活動と結びついた動的な空間です。そして、この通りでいくつもの渋谷の文化が生まれました。通りを理解するには、そこで積み重ねられてきた出来事や経験に目を向ける必要があります。2026年は、このテーマを引き継ぎながら、通りの上で営まれてきた人々の活動にも焦点を当てます。通りの背景と写真に、渋谷で時間を過ごした人々のオーラルヒストリー（口述記憶）を重ねることで、写真だけでは読み取れない都市の層を提示します。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-10",
+      "end_date": "2026-11-23",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "67e31b1851e0",
+        "name": "渋谷ヒカリエ 8/ COURT",
+        "lang": null,
+        "tr": {},
+        "region": "渋谷",
+        "district": null,
+        "lat": 35.65889516579491,
+        "lng": 139.7035868134407
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Shibuya-Photo-Archive-Exhibition-2026/1-B32235-B/2026-11-10",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "30d73372528c",
+      "source": "tokyo_art_beat",
+      "title": "横澤進一 「FORKTAIL」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/72af50a1/553d9be5-3344-4c29-a2c8-944e1d22e1f6.jpg",
+      "description": "今回の展示は、出身地である埼玉と現在住んでいる東京の風景写真、そしてその中からセルフパブリッシングで編集してきた家屋・車・河川・猫・墓などの写真集でできています。横澤は長年携わってきたグラフィックデザインの仕事と並行し、2006年頃から写真の撮影とZINEや写真集の制作を始めました。職業病の反動か、おそらく紙に何かを表現する上で横澤がクライアントになりたくなったのだと思います。身体を使い心の底にある澱のような場所を歩き、視覚が反応したひとつのイメージ＝写真を元に本を作る。写真とデザイン。ふたまたに分かれながら共生し続ける互いの視点の間を行きつ戻りつ繰り返すことは、借り物でない横澤の万物との関わり方なのかもしれません。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-31",
+      "end_date": "2026-11-24",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "76373e5b77c3",
+        "name": "Photo Gallery & Photobooks Cafe 芥",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "Photo Gallery & Photobooks Cafe 아쿠타"
+          },
+          "en": {
+            "name": "Photo Gallery & Photobooks Cafe Akuta"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.02800553838461,
+        "lng": 135.74392036998412
+      },
+      "artists": [
+        {
+          "id": "f0e4cb122e8f",
+          "name": "横澤進一",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Shin-ichi-Yokozawa-Forktail/photo-gallery-and-photobooks-cafe-aquta/2026-10-31",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "bcb0a0a27d49",
+      "source": "tokyo_art_beat",
+      "title": "薛青麟 「BRINK｜臨界態」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/b996c9d2/a693d95f-b168-4a41-bcdb-3e53ecbde893.jpg",
+      "description": "BRINK n. 縁、瀬戸際、臨界点。何かが変わり始める瞬間。\n\n本展は、Moon Gallery & Studioの提携写真家である薛青麟の二度目の個展として開催される。作家は「非ニュートン流体」をメタファーに据え、圧力や不確実性にさらされた人間の精神がどのように流動し、形を変えうるかを探る。非ニュートン流体のなかには、ゆっくりとした力には流れるように応じ、強い衝撃には固体のような抵抗を見せるものがある。人間の精神もまた、同様の変化を見せるのではないだろうか。長期にわたる不安は精神を脆くし、突発的な危機は思いがけない強さを引き出す。柔らかさと硬さ、崩壊と回復、停滞と流動は、対立する二項ではなく、異なる圧力のもとで現れる連続した状態として捉えられる。本展のタイトル「BRINK」は、作家がこの一年余りに経験した変化を観察するなかから生まれた。写真と映像を用いて、定義しきれない「あいだ」の状態に迫る。それは脆さと強さのあいだ、崩壊と回復のあいだ、そして過去の自分とまだ形を持たない自分のあいだである。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-28",
+      "end_date": "2026-11-01",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "993660bc4e6d",
+        "name": "Moon Gallery & Studio",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Moon Gallery & Studio"
+          },
+          "ja": {
+            "name": "Moon Gallery & Studio"
+          }
+        },
+        "region": "上野、谷中",
+        "district": null,
+        "lat": 35.7159769657921,
+        "lng": 139.78438448958397
+      },
+      "artists": [
+        {
+          "id": "8f31fbfa0147",
+          "name": "薛青麟",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kirin-Xue-Brink-A-State-Between-States/moon-gallery-and-studio/2026-10-28",
       "featured": false,
       "popularity_score": null
     }
@@ -120372,6 +120499,20 @@
       "country": "JP",
       "lat": 35.65708963966295,
       "lng": 139.7196595617521,
+      "website": null
+    },
+    {
+      "id": "67e31b1851e0",
+      "name": "渋谷ヒカリエ 8/ COURT",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "渋谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.65889516579491,
+      "lng": 139.7035868134407,
       "website": null
     }
   ],
@@ -151872,6 +152013,18 @@
           "name": "Seo Ji"
         }
       }
+    },
+    {
+      "id": "f0e4cb122e8f",
+      "name": "横澤進一",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8f31fbfa0147",
+      "name": "薛青麟",
+      "lang": null,
+      "tr": {}
     }
   ]
 }
