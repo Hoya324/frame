@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T22:15:57.925899+00:00",
+  "generated_at": "2026-10-28T01:07:31.449046+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -108574,32 +108574,67 @@
         {
           "id": "30d455aaa00c",
           "name": "서도호",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Do Ho Suh"
+            },
+            "ja": {
+              "name": "ソ・ドホ"
+            }
+          }
         },
         {
           "id": "d4c009b13d60",
           "name": "베라 브루너-성/발레리 스타들러",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Vera Brunner-Sung / Valerie Stadler"
+            },
+            "ja": {
+              "name": "ベラ・ブルナー＝ソン／ヴァレリー・シュタドラー"
+            }
+          }
         },
         {
           "id": "0509623ff2c5",
           "name": "고티에 드블롱드",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Gauthier Deblonde"
+            },
+            "ja": {
+              "name": "ゴーティエ・ドゥブロンデ"
+            }
+          }
         },
         {
           "id": "594c14295155",
           "name": "석혜인",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Hyein Seok"
+            },
+            "ja": {
+              "name": "ソク・ヘイン"
+            }
+          }
         },
         {
           "id": "942b7a4a4b8c",
           "name": "휴 브로디",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Hugh Brody"
+            },
+            "ja": {
+              "name": "ヒュー・ブローディ"
+            }
+          }
         }
       ],
       "source_url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=2&exhId=202610270002108",
@@ -108741,8 +108776,15 @@
         {
           "id": "3dbb6cb7fcea",
           "name": "全日本学生写真連盟",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "전일본학생사진연맹"
+            },
+            "en": {
+              "name": "Zen Nihon Gakusei Shashin Renmei"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/On-Mono-Koto-and-Dialogue/554-A91-EC/2026-11-04",
@@ -108788,8 +108830,15 @@
         {
           "id": "296ee5ddbe44",
           "name": "公文健太郎",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "구몬 켄타로"
+            },
+            "en": {
+              "name": "Kumon Kentaro"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Kentaro-Kumon-Earth-Is-Quiet/EBF7-BCA5/2026-11-06",
@@ -108835,8 +108884,15 @@
         {
           "id": "eee845a2fcd4",
           "name": "嶋田忠",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "시마다 타다시"
+            },
+            "en": {
+              "name": "Shimada Tadashi"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Tadashi-Shimada-Wild-Moment/61-AB7373/2026-11-06",
@@ -108847,8 +108903,17 @@
       "id": "9e170dff5d7a",
       "source": "tokyo_art_beat",
       "title": "赤木ミライ + 武田なのか 「ご迷惑おかけします。」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "아카기 미라이 + 다케다 나노카 「고메이와쿠 오카케시마스.」",
+          "description": "사람들은 원하는 것을 원하고, 보고 싶은 것을 보고, 하고 싶은 말을 한다. 「고메이와쿠 오카케시마스.」는 사회에 대한 위화감과 인간의 욕망을 주제로 작업하는 도쿄 조케이 대학 학생 2명의 2인전이다. 회화를 기반으로 하면서 영상, 설치, 퍼포먼스 등을 통해 개인의 욕구와 사회의 규범, 타인과의 관계성을 다룬다. 사회 속에서 누구에게도 폐를 끼치지 않고 살아갈 수 있을까? 작품을 통해 일상에 숨겨진 모순과 불합리함을 제시하고, 관람객에게 사회와 자신의 관계를 묻는다. 전시장으로 가져오는 것은 약간의 위화감. 어쩌면 조금 방해가 될지도 모른다. 어쩌면 아무런 도움이 되지 않을지도 모른다. 고메이와쿠 오카케시마스."
+        },
+        "en": {
+          "title": "Mirai Akagi + Nanoka Takeda \"Gomeiwaku Okake Shimasu.\"",
+          "description": "People desire what they want, see what they want to see, and say what they want to say. \"Gomeiwaku Okake Shimasu.\" is a duo exhibition by two Tokyo Zokei University students who create works on the themes of discomfort with society and human desires. Based on painting, the exhibition explores individual desires, social norms, and relationships with others through video, installation, and performance. Is it possible to live in society without causing trouble to anyone? Through their works, the artists present contradictions and irrationalities hidden in daily life, prompting viewers to question their relationship with society and themselves. What is brought into the venue is a slight sense of unease. Perhaps it might be a little disruptive. Perhaps it might be of no use at all. Gomeiwaku Okake Shimasu."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/53ea9350/e41c18d4-5c85-40d4-acf2-a11ed9fa4109.png",
       "description": "人は、欲しいものを欲しがり、見たいものを見て、言いたいことを言う。「ご迷惑おかけします。」は、社会への違和感や人間の欲望をテーマに制作する東京造形大学の学生2名による二人展である。絵画を基盤としながら、映像やインスタレーション、パフォーマンスなどを通じて、個人の欲求と社会の規範、他者との関係性を扱う。社会の中で、誰にも迷惑をかけずに生きることはできるのだろうか。作品を通じて日常に潜む矛盾や不合理さを提示し、鑑賞者に社会と自身の関わりを問いかける。会場に持ち込まれるのは、少しの違和感。もしかしたら、少し邪魔かもしれない。もしかしたら、何の役にも立たないかもしれない。ご迷惑おかけします。",
       "medium": "video",
@@ -108875,14 +108940,28 @@
         {
           "id": "d2befc3cbee0",
           "name": "赤木ミライ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "아카기 미라이"
+            },
+            "en": {
+              "name": "Akagi Mirai"
+            }
+          }
         },
         {
           "id": "7c3e81eff6f2",
           "name": "武田なのか",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "타케다 나노카"
+            },
+            "en": {
+              "name": "Takeda Nanoka"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Mirai-Akagi-Nanoka-Takeda-Exhibition/koukashita-akisouko/2026-11-05",
@@ -108893,8 +108972,17 @@
       "id": "c027a90dd712",
       "source": "tokyo_art_beat",
       "title": "「写真誕生200年 写真×絵画」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「사진 탄생 200년 사진×회화」",
+          "description": "1826년, 프랑스의 발명가 니에프스에 의해 세계 최초의 사진이 촬영되었습니다. 소중한 친구와 가족의 모습을 남기고 싶은 일념으로 사진을 발명했다고 합니다. 시노바즈 화랑에서는 사진 탄생 200년을 기념하여 컬렉션과 갤러리 아티스트들의 특별전을 개최합니다.\n구도와 색채가 아름다운 이케다 마스오, 아키야마 쇼타로의 사진. 자기 자신이 모티프가 된 사와다 토모코, 시마모토 쇼조, 모리무라 야스마사 등의 사진. 디오라마(입체)를 만들고 촬영한 사진으로 회화(평면)로 재구성하려는 야마다 준지, 주변 인물이나 사물의 사진을 디지털로 몽타주하여 새로운 이야기를 만드는 후지나미 리에코 등, 회화로서도 매력을 느끼게 하는 작가와 작품을 출품합니다.\n【특별 전시: 키타가와 켄지】\n포토그라비어(사진 제판에 의한 동판화)의 선구자 키타가와 켄지 씨의 특별 전시를 진행합니다. 키타가와 씨는 오래된 가족 사진이나 니진스키의 초상, 마이브리지의 연속 사진 등 상징적인 이미지를 독자적인 감성으로 재구성하여 새로운 예술 작품으로 승화시켰습니다. 본 전시에서는 화랑 컬렉션에서 엄선한 동판화, 오브제, 콜라주 등을 소개합니다."
+        },
+        "en": {
+          "title": "\"200 Years of Photography: Photography × Painting\"",
+          "description": "In 1826, the world's first photograph was taken by French inventor Niépce. He is said to have invented photography with the sole desire to preserve the images of his cherished friends and family. Shinobazu Gallery will hold a special exhibition featuring its collection and gallery artists to commemorate the 200th anniversary of photography.\nWe will exhibit works by artists whose photographs are appealing as paintings, such as Masuo Ikeda and Shotaro Akiyama, known for their beautiful compositions and colors; Tomoko Sawada, Shozo Shimamoto, and Yasumasa Morimura, who used themselves as motifs; Junji Yamada, who attempts to reconstruct dioramas (three-dimensional objects) into paintings (two-dimensional) using photographs; and Rieko Fujinami, who creates new narratives by digitally montaging photographs of familiar people and objects.\n[Special Exhibition: Kenji Kitagawa]\nWe will feature a special exhibition of Kenji Kitagawa, a leading figure in photogravure (copperplate prints made by photographic plate making). Kitagawa reconfigured symbolic images such as old family photographs, portraits of Nijinsky, and Muybridge's sequential photographs with his unique sensibility, elevating them into new works of art. This exhibition will showcase selected copperplate prints, objects, and collages from the gallery's collection."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/740782e0/4e5532e0-88cb-4294-9c61-6ac0952f4dae.jpg",
       "description": "1826年、フランスの発明家ニエプスにより世界最初の写真が撮影されました。大切な友人・家族の姿を残したい一心で写真を発明したそうです。不忍画廊では写真誕生200年を記念して、コレクションとギャラリーアーティストによる特別展を開催いたします。\n構図や色彩が美しい池田満寿夫・秋山庄太郎の写真。自分自身がモティーフとなった澤田知子・嶋本昭三・森村泰昌などの写真。ジオラマ（立体）を作り、撮影した写真で絵画（平面）として再構成を試みる山田純嗣、身近な人物や事物の写真をデジタルでモンタージュし新たな物語を作る藤浪理恵子など、絵画としても魅力を感じさせる作家・作品を出品いたします。\n【特集展示：北川健次】\nフォトグラビュール（写真製版による銅版画）の第一人者・北川健次氏の特集展示を行います。北川氏は、古い家族写真やニジンスキーの肖像、マイブリッジの連続写真など、象徴的なイメージを独自の感性で再構成し、新たな芸術作品へと昇華させました。本展では画廊コレクションより厳選した銅版画・オブジェ・コラージュ等をご紹介いたします。",
       "medium": "photo",
@@ -108921,14 +109009,28 @@
         {
           "id": "0ef7ae6d6b12",
           "name": "秋山庄太郎",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "아키야마 쇼타로"
+            },
+            "en": {
+              "name": "Akiyama Shotaro"
+            }
+          }
         },
         {
           "id": "b94325be4f7c",
           "name": "池田満寿夫",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이케다 마스오"
+            },
+            "en": {
+              "name": "Ikeda Masuo"
+            }
+          }
         },
         {
           "id": "2a5817d03be7",
@@ -108946,38 +109048,80 @@
         {
           "id": "97392f67153d",
           "name": "北川健次",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "키타가와 켄지"
+            },
+            "en": {
+              "name": "Kitagawa Kenji"
+            }
+          }
         },
         {
           "id": "037a01fdca47",
           "name": "澤田知子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사와다 토모코"
+            },
+            "en": {
+              "name": "Sawada Tomoko"
+            }
+          }
         },
         {
           "id": "254822871fbc",
           "name": "嶋本昭三",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "시마모토 쇼조"
+            },
+            "en": {
+              "name": "Shimamoto Shozo"
+            }
+          }
         },
         {
           "id": "0346592b7116",
           "name": "野澤峻",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "노자와 슌"
+            },
+            "en": {
+              "name": "Shun Nozawa"
+            }
+          }
         },
         {
           "id": "433adc04cacb",
           "name": "藤浪理恵子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "후지나미 리에코"
+            },
+            "en": {
+              "name": "Rieko Fujinami"
+            }
+          }
         },
         {
           "id": "4bdd35fee5fc",
           "name": "細江英公と成田朱希",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "호소에 에이코와 나리타 아케미"
+            },
+            "en": {
+              "name": "Eikoh Hosoe and Akemi Narita"
+            }
+          }
         },
         {
           "id": "3ae4b72fa1f3",
@@ -108995,14 +109139,28 @@
         {
           "id": "05f1e285e8d4",
           "name": "山口典子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "야마구치 노리코"
+            },
+            "en": {
+              "name": "Noriko Yamaguchi"
+            }
+          }
         },
         {
           "id": "102d85f72fc8",
           "name": "山田純嗣",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "야마다 준지"
+            },
+            "en": {
+              "name": "Junji Yamada"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/200-Years-of-Photography-Photography-Painting/551-E0630/2026-11-05",
@@ -109013,8 +109171,17 @@
       "id": "ec9ce3666160",
       "source": "tokyo_art_beat",
       "title": "「写真表現講座展 小髙美穂コース」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「사진 표현 강좌전 오다카 미호 코스」",
+          "description": "본 전시는 캐논 마케팅 재팬이 개최하는 「캐논 사진 표현 강좌」의 강좌인 【마스터 클래스】 미디엄과 표상 – 오늘날의 사진 표현과 작품 제작 (오다카 미호 씨 담당)의 발표전입니다.\n큐레이터 오다카 미호 씨를 강사로 초빙하여 총 8회의 강좌를 통해 사진가와 큐레이터가 실제로 전시를 기획하는 상세한 과정을 구체적으로 배우고, 직접 전시를 기획한 5명의 참가자가 각자의 테마에 맞는 작품을 전시합니다. 전시 작품은 모두 캐논 프린터를 사용하여 인쇄하고 전시됩니다."
+        },
+        "en": {
+          "title": "\"Photography Expression Course Exhibition: Miho Odaka Course\"",
+          "description": "This exhibition is a presentation of the \"Master Class: Medium and Representation – Photographic Expression and Artwork Production Today\" (led by Miho Odaka) course, part of the \"Canon Photography Expression Course\" organized by Canon Marketing Japan.\nWith curator Miho Odaka as the instructor, five participants who learned the detailed process of exhibition planning practiced by photographers and curators through a total of eight sessions, and then created their own exhibitions, will display works aligned with their respective themes. All exhibited works are printed using Canon printers."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-09/4b6806fc/20260831.jpg",
       "description": "本展は、キヤノンマーケティングジャパンが開催している「キヤノンの写真表現講座」における講座・【マスタークラス】メディウムと表象―今日における写真表現と作品制作（小髙美穂氏担当）の発表展です。\nキュレーター小髙美穂氏を講師に迎え、計8回の講座を通じて、写真家やキュレーターが実践している展示までの詳細なプロセスを具体的に学び、実際に自分自身で展示づくりを行った5名の参加者がそれぞれのテーマに沿った作品を展示します。展示の作品はすべてキヤノン製のプリンターを使用してプリントし、展示します。",
       "medium": "photo",
@@ -109053,8 +109220,17 @@
       "id": "6f06fa91c3ff",
       "source": "tokyo_art_beat",
       "title": "マンイ・チャン 「身の回りのモノのレシピ」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "만이 장 「주변 사물의 레시피」",
+          "description": "이번 전시에서는 주변의 사물을 독자적인 시점으로 촬영한 사진 작품과 실제로 만지거나 상상하면서 참여할 수 있는 인터랙티브 설치 작품을 선보입니다. 전시장 내 작은 '레시피'를 계기로 평범한 일상을 조금 다른 시선으로 즐겨주시면 좋겠습니다."
+        },
+        "en": {
+          "title": "Man-yi Chang \"Recipe for Things Around Me\"",
+          "description": "This exhibition features photographic works capturing familiar objects from a unique perspective, along with interactive installations that visitors can engage with by touching or imagining. We hope that the small 'recipes' found in the venue will encourage you to enjoy your everyday life from a slightly different viewpoint."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/40a08589/9ce31ba4-53c4-407b-bc06-3b9bfc7f3bd6.jpg",
       "description": "今回の展示では、身近なものを独自の視点で撮影した写真作品と、実際に触れたり、想像したりしながら参加できるインタラクティブなインスタレーションを展示します。会場にある小さな「レシピ」をきっかけに、いつもの日常をちょっと違う目で楽しんでもらえたら嬉しいです。",
       "medium": "photo",
@@ -109100,8 +109276,15 @@
       "id": "c69a10e6be77",
       "source": "tokyo_art_beat",
       "title": "柴田裕哉 「Y／Y」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "시바타 유야 「Y／Y」"
+        },
+        "en": {
+          "title": "Yuya Shibata \"Y/Y\""
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/cd8def93/67e1876b-8866-47ff-91e2-215f608be3fe.jpg",
       "description": null,
       "medium": "mixed",
@@ -109147,8 +109330,17 @@
       "id": "7e858f133069",
       "source": "tokyo_art_beat",
       "title": "玉川竜 「Specific Phobia」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "타마가와 류 「Specific Phobia」",
+          "description": "이번에 see you gallery에서는 사진작가 타마가와 류의 개인전 「Specific Phobia」를 개최합니다. 자연이 선사하는 압도적인 스케일과 불규칙한 연속성, 혹은 도시의 인프라와 인공물이 자아내는 분위기 — 일상 속에 갑자기 나타나 작가 내면에 사적인 위화감을 새겨온 그러한 감각의 축적이 본 전시의 출발점입니다. 이번 작품에서는 정신의학의 'Specific Phobia(특정 공포증)'라는 개념 아래 이 작품들을 재구성하고자 합니다. 나아가 개인적인 감각을 보다 보편적인 질문으로 연결하여 우리를 둘러싼 환경에 잠재된 긴장감을 조용히 드러냅니다. 전시 개최에 맞춰 동명 작품집 『Specific Phobia』도 출간합니다. 이 기회에 꼭 관람해 주시기 바랍니다.\n\n[관련 이벤트]\n토크쇼\n일시: 2026년 11월 13일 18:30~19:30\n등단자: 타마가와 류 (사진작가), 우치다 마사키 씨 (전 잡지 SWITCH 편집장)\n장소: see you gallery\n요금: 무료 (사전 신청 불필요)\n※이벤트 상세 내용은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Ryu Tamagawa \"Specific Phobia\"",
+          "description": "see you gallery is pleased to present \"Specific Phobia,\" a solo exhibition by photographer Ryu Tamagawa. The overwhelming scale and irregular continuity brought forth by nature, or the atmosphere exuded by urban infrastructure and artificial objects — the accumulation of such sensations, which have suddenly appeared in daily life and imprinted a private sense of unease within the artist, serves as the starting point for this exhibition. In this work, the artist attempts to reconfigure these groups of works under the concept of \"Specific Phobia\" in psychiatry. Furthermore, it connects personal sensations to more universal questions, quietly bringing to light the tension hidden in our surrounding environment. In conjunction with the exhibition, a photobook of the same title, \"Specific Phobia,\" will also be published. We invite you to visit and experience it.\n\n[Related Event]\nTalk Show\nDate: November 13, 2026, 18:30-19:30\nSpeakers: Ryu Tamagawa (Photographer), Mr. Masaki Uchida (Former Editor-in-Chief of SWITCH magazine)\nVenue: see you gallery\nAdmission: Free (No advance registration required)\n*Please check the official website for event details."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/26850fd9/310463d3-0295-4ca7-b989-4585cbe3ad1c.jpg",
       "description": "このたび、see you galleryでは、フォトグラファー・玉川竜による個展「Specific Phobia」を開催いたします。自然界がもたらす圧倒的なスケールや不規則な連続性、あるいは都市のインフラや人工物が醸し出す気配 —日常のなかに突如として姿を現し、作者の内に私秘的な違和感を刻み込んできた、そうした感覚の蓄積が本展の出発点となっています。今作では、精神医学における「Specific Phobia（限局性恐怖症）」という概念のもと、これらの作品群を再構成することを試みます。さらに、個人的な感覚をより普遍的な問いへと接続し、私たちを取り巻く環境に潜む緊張感を静かに浮かび上がらせます。開催にあわせ、同名作品集『Specific Phobia』も刊行いたします。この機会にぜひご高覧ください。\n\n[関連イベント]\nトークショー\n日時: 2026年11月13日18:30〜19:30\n登壇者: 玉川竜（フォトグラファー）、内田正樹氏（元雑誌SWITCH編集長）\n会場: see you gallery\n料金: 無料（事前申込み不要）\n※イベント詳細は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -152781,32 +152973,67 @@
     {
       "id": "30d455aaa00c",
       "name": "서도호",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Do Ho Suh"
+        },
+        "ja": {
+          "name": "ソ・ドホ"
+        }
+      }
     },
     {
       "id": "d4c009b13d60",
       "name": "베라 브루너-성/발레리 스타들러",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Vera Brunner-Sung / Valerie Stadler"
+        },
+        "ja": {
+          "name": "ベラ・ブルナー＝ソン／ヴァレリー・シュタドラー"
+        }
+      }
     },
     {
       "id": "0509623ff2c5",
       "name": "고티에 드블롱드",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Gauthier Deblonde"
+        },
+        "ja": {
+          "name": "ゴーティエ・ドゥブロンデ"
+        }
+      }
     },
     {
       "id": "594c14295155",
       "name": "석혜인",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Hyein Seok"
+        },
+        "ja": {
+          "name": "ソク・ヘイン"
+        }
+      }
     },
     {
       "id": "942b7a4a4b8c",
       "name": "휴 브로디",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Hugh Brody"
+        },
+        "ja": {
+          "name": "ヒュー・ブローディ"
+        }
+      }
     },
     {
       "id": "2d74e0861596",
@@ -152841,92 +153068,197 @@
     {
       "id": "3dbb6cb7fcea",
       "name": "全日本学生写真連盟",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "전일본학생사진연맹"
+        },
+        "en": {
+          "name": "Zen Nihon Gakusei Shashin Renmei"
+        }
+      }
     },
     {
       "id": "296ee5ddbe44",
       "name": "公文健太郎",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "구몬 켄타로"
+        },
+        "en": {
+          "name": "Kumon Kentaro"
+        }
+      }
     },
     {
       "id": "eee845a2fcd4",
       "name": "嶋田忠",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "시마다 타다시"
+        },
+        "en": {
+          "name": "Shimada Tadashi"
+        }
+      }
     },
     {
       "id": "d2befc3cbee0",
       "name": "赤木ミライ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "아카기 미라이"
+        },
+        "en": {
+          "name": "Akagi Mirai"
+        }
+      }
     },
     {
       "id": "7c3e81eff6f2",
       "name": "武田なのか",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "타케다 나노카"
+        },
+        "en": {
+          "name": "Takeda Nanoka"
+        }
+      }
     },
     {
       "id": "0ef7ae6d6b12",
       "name": "秋山庄太郎",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "아키야마 쇼타로"
+        },
+        "en": {
+          "name": "Akiyama Shotaro"
+        }
+      }
     },
     {
       "id": "b94325be4f7c",
       "name": "池田満寿夫",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이케다 마스오"
+        },
+        "en": {
+          "name": "Ikeda Masuo"
+        }
+      }
     },
     {
       "id": "97392f67153d",
       "name": "北川健次",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "키타가와 켄지"
+        },
+        "en": {
+          "name": "Kitagawa Kenji"
+        }
+      }
     },
     {
       "id": "037a01fdca47",
       "name": "澤田知子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "사와다 토모코"
+        },
+        "en": {
+          "name": "Sawada Tomoko"
+        }
+      }
     },
     {
       "id": "254822871fbc",
       "name": "嶋本昭三",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "시마모토 쇼조"
+        },
+        "en": {
+          "name": "Shimamoto Shozo"
+        }
+      }
     },
     {
       "id": "0346592b7116",
       "name": "野澤峻",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "노자와 슌"
+        },
+        "en": {
+          "name": "Shun Nozawa"
+        }
+      }
     },
     {
       "id": "433adc04cacb",
       "name": "藤浪理恵子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "후지나미 리에코"
+        },
+        "en": {
+          "name": "Rieko Fujinami"
+        }
+      }
     },
     {
       "id": "4bdd35fee5fc",
       "name": "細江英公と成田朱希",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "호소에 에이코와 나리타 아케미"
+        },
+        "en": {
+          "name": "Eikoh Hosoe and Akemi Narita"
+        }
+      }
     },
     {
       "id": "05f1e285e8d4",
       "name": "山口典子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "야마구치 노리코"
+        },
+        "en": {
+          "name": "Noriko Yamaguchi"
+        }
+      }
     },
     {
       "id": "102d85f72fc8",
       "name": "山田純嗣",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "야마다 준지"
+        },
+        "en": {
+          "name": "Junji Yamada"
+        }
+      }
     },
     {
       "id": "389d86bf5f45",
