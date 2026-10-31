@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T19:56:35.931537+00:00",
+  "generated_at": "2026-10-31T21:36:34.950488+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -72359,7 +72359,7 @@
       "price_max": null,
       "start_date": "2026-10-31",
       "end_date": "2027-03-14",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "bfd1a434f34d",
@@ -82528,7 +82528,7 @@
       "price_max": null,
       "start_date": "2026-10-31",
       "end_date": "2026-11-23",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ebe6d0623fa0",
@@ -99319,7 +99319,7 @@
       "price_max": null,
       "start_date": "2026-10-31",
       "end_date": "2026-12-19",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "9d155fc31dbf",
@@ -99951,7 +99951,7 @@
       "price_max": null,
       "start_date": "2026-10-31",
       "end_date": "2027-01-24",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "1d04870fbffe",
@@ -101190,7 +101190,7 @@
       "price_max": null,
       "start_date": "2026-10-31",
       "end_date": "2026-11-03",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "b32e28469048",
@@ -101834,7 +101834,7 @@
       "price_max": null,
       "start_date": "2026-10-31",
       "end_date": "2026-11-15",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "439250cf2289",
@@ -101897,7 +101897,7 @@
       "price_max": null,
       "start_date": "2026-10-31",
       "end_date": "2026-11-03",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "f5369e2f3ba2",
@@ -105313,7 +105313,7 @@
       "price_max": null,
       "start_date": "2026-10-31",
       "end_date": "2027-01-31",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "c0f10c809bc4",
@@ -107291,7 +107291,7 @@
       "price_max": null,
       "start_date": "2026-10-31",
       "end_date": "2026-12-06",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "0e6f9e36782b",
@@ -108434,7 +108434,7 @@
       "price_max": null,
       "start_date": "2026-10-31",
       "end_date": "2026-11-24",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "76373e5b77c3",
@@ -110655,7 +110655,7 @@
       "price_max": null,
       "start_date": "2026-10-31",
       "end_date": "2026-11-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "bfc702a2eeb5",
@@ -110722,7 +110722,7 @@
       "price_max": null,
       "start_date": "2026-10-31",
       "end_date": "2026-11-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "f46b9eafe809",
@@ -110843,7 +110843,7 @@
       "price_max": null,
       "start_date": "2026-10-31",
       "end_date": "2027-06-30",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "a9aacf6fa0e8",
@@ -111099,7 +111099,7 @@
       "price_max": null,
       "start_date": "2026-10-31",
       "end_date": "2026-11-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "3ad9e538d829",
