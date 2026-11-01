@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T07:04:18.794606+00:00",
+  "generated_at": "2026-11-01T14:03:05.569707+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -109578,8 +109578,15 @@
       "venue": {
         "id": "2e963d216231",
         "name": "THE NORTH FACE STANDARD KYOTO",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "THE NORTH FACE STANDARD KYOTO"
+          },
+          "ja": {
+            "name": "THE NORTH FACE STANDARD KYOTO"
+          }
+        },
         "region": "京都府",
         "district": null,
         "lat": 35.00712815054853,
@@ -109673,8 +109680,15 @@
       "venue": {
         "id": "6a63d806debf",
         "name": "Zoeee Gallery（ゾーイーギャラリー）",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "Zoeee Gallery"
+          },
+          "en": {
+            "name": "Zoeee Gallery"
+          }
+        },
         "region": "武蔵野、多摩",
         "district": null,
         "lat": 35.7224705,
@@ -109794,8 +109808,15 @@
       "venue": {
         "id": "664bd1ccb621",
         "name": "VOICE",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "VOICE"
+          },
+          "ja": {
+            "name": "VOICE"
+          }
+        },
         "region": "表参道、青山",
         "district": null,
         "lat": 35.6705358,
@@ -109850,8 +109871,15 @@
       "venue": {
         "id": "ca7f1ae6eb50",
         "name": "Wada Fine Arts",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Wada Fine Arts"
+          },
+          "ja": {
+            "name": "Wada Fine Arts"
+          }
+        },
         "region": "銀座、丸の内",
         "district": null,
         "lat": 35.66850315097414,
@@ -109906,8 +109934,15 @@
       "venue": {
         "id": "85c5132f6c4b",
         "name": "zakura（ザクラ）",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "zakura"
+          },
+          "en": {
+            "name": "zakura"
+          }
+        },
         "region": "渋谷",
         "district": null,
         "lat": 35.65532,
@@ -110438,68 +110473,145 @@
         {
           "id": "927d027bb95d",
           "name": "Akiko Suzuki",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "아키코 스즈키"
+            },
+            "ja": {
+              "name": "アキコ スズキ"
+            }
+          }
         },
         {
           "id": "285d4cb86bb5",
           "name": "鈴木カツヨ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "스즈키 카츠요"
+            },
+            "en": {
+              "name": "Suzuki Katsuyo"
+            }
+          }
         },
         {
           "id": "27f45845ccc5",
           "name": "遠井信行",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "토오이 노부유키"
+            },
+            "en": {
+              "name": "Tooi Nobuyuki"
+            }
+          }
         },
         {
           "id": "4cdf19625fd6",
           "name": "中嶋一仁",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나카지마 카즈히토"
+            },
+            "en": {
+              "name": "Nakajima Kazuhito"
+            }
+          }
         },
         {
           "id": "18cc6eceb8c9",
           "name": "長井悠",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나가이 유"
+            },
+            "en": {
+              "name": "Nagai Yu"
+            }
+          }
         },
         {
           "id": "97c9d49029af",
           "name": "成田晶子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나리타 아키코"
+            },
+            "en": {
+              "name": "Akiko Narita"
+            }
+          }
         },
         {
           "id": "ae189b3076e9",
           "name": "ヒロキカツミ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "히로키 카츠미"
+            },
+            "en": {
+              "name": "Katsumi Hiroki"
+            }
+          }
         },
         {
           "id": "06ca4dc0b055",
           "name": "フルカワツカサ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "후루카와 츠카사"
+            },
+            "en": {
+              "name": "Tsukasa Furukawa"
+            }
+          }
         },
         {
           "id": "e9c0f4612434",
           "name": "溝江美来",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "미조에 미라이"
+            },
+            "en": {
+              "name": "Mirai Mizoe"
+            }
+          }
         },
         {
           "id": "a71b11baecb2",
           "name": "吉岡孝芳",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "요시오카 타카요시"
+            },
+            "en": {
+              "name": "Takayoshi Yoshioka"
+            }
+          }
         },
         {
           "id": "f8b0609515dc",
           "name": "渡部遼太郎",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "와타나베 료타로"
+            },
+            "en": {
+              "name": "Ryotaro Watanabe"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/UPs-Group-Photo-Exhibition-Vol4/AEC0-BA15/2026-11-10",
@@ -110554,8 +110666,15 @@
         {
           "id": "77018e1882e9",
           "name": "ひがれお",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "히가 레오"
+            },
+            "en": {
+              "name": "Reo Higa"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Higaleo-Ryukyu-Banh-mi-Doll/Com-Ngon/2026-11-07",
@@ -110610,20 +110729,41 @@
         {
           "id": "08c7e021db6c",
           "name": "キムスージャ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "김수자"
+            },
+            "en": {
+              "name": "Kim Soo-ja"
+            }
+          }
         },
         {
           "id": "bfdf5de97dc5",
           "name": "中﨑透",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나카자키 토루"
+            },
+            "en": {
+              "name": "Toru Nakazaki"
+            }
+          }
         },
         {
           "id": "0c7aa2b17b15",
           "name": "顧剣亨",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "코 켄료"
+            },
+            "en": {
+              "name": "Kenryo Ko"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Kotohogu-Nara-2026-Beyond-Time-and-Space/Naramachi-Center/2026-11-07",
@@ -123217,8 +123357,15 @@
     {
       "id": "2e963d216231",
       "name": "THE NORTH FACE STANDARD KYOTO",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "THE NORTH FACE STANDARD KYOTO"
+        },
+        "ja": {
+          "name": "THE NORTH FACE STANDARD KYOTO"
+        }
+      },
       "venue_type": "other",
       "region": "京都府",
       "district": null,
@@ -123231,8 +123378,15 @@
     {
       "id": "6a63d806debf",
       "name": "Zoeee Gallery（ゾーイーギャラリー）",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "Zoeee Gallery"
+        },
+        "en": {
+          "name": "Zoeee Gallery"
+        }
+      },
       "venue_type": "gallery",
       "region": "武蔵野、多摩",
       "district": null,
@@ -123245,8 +123399,15 @@
     {
       "id": "664bd1ccb621",
       "name": "VOICE",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "VOICE"
+        },
+        "ja": {
+          "name": "VOICE"
+        }
+      },
       "venue_type": "other",
       "region": "表参道、青山",
       "district": null,
@@ -123259,8 +123420,15 @@
     {
       "id": "ca7f1ae6eb50",
       "name": "Wada Fine Arts",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "Wada Fine Arts"
+        },
+        "ja": {
+          "name": "Wada Fine Arts"
+        }
+      },
       "venue_type": "other",
       "region": "銀座、丸の内",
       "district": null,
@@ -123273,8 +123441,15 @@
     {
       "id": "85c5132f6c4b",
       "name": "zakura（ザクラ）",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "zakura"
+        },
+        "en": {
+          "name": "zakura"
+        }
+      },
       "venue_type": "other",
       "region": "渋谷",
       "district": null,
@@ -155598,92 +155773,197 @@
     {
       "id": "927d027bb95d",
       "name": "Akiko Suzuki",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "아키코 스즈키"
+        },
+        "ja": {
+          "name": "アキコ スズキ"
+        }
+      }
     },
     {
       "id": "285d4cb86bb5",
       "name": "鈴木カツヨ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "스즈키 카츠요"
+        },
+        "en": {
+          "name": "Suzuki Katsuyo"
+        }
+      }
     },
     {
       "id": "27f45845ccc5",
       "name": "遠井信行",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "토오이 노부유키"
+        },
+        "en": {
+          "name": "Tooi Nobuyuki"
+        }
+      }
     },
     {
       "id": "4cdf19625fd6",
       "name": "中嶋一仁",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "나카지마 카즈히토"
+        },
+        "en": {
+          "name": "Nakajima Kazuhito"
+        }
+      }
     },
     {
       "id": "18cc6eceb8c9",
       "name": "長井悠",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "나가이 유"
+        },
+        "en": {
+          "name": "Nagai Yu"
+        }
+      }
     },
     {
       "id": "97c9d49029af",
       "name": "成田晶子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "나리타 아키코"
+        },
+        "en": {
+          "name": "Akiko Narita"
+        }
+      }
     },
     {
       "id": "ae189b3076e9",
       "name": "ヒロキカツミ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "히로키 카츠미"
+        },
+        "en": {
+          "name": "Katsumi Hiroki"
+        }
+      }
     },
     {
       "id": "06ca4dc0b055",
       "name": "フルカワツカサ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "후루카와 츠카사"
+        },
+        "en": {
+          "name": "Tsukasa Furukawa"
+        }
+      }
     },
     {
       "id": "e9c0f4612434",
       "name": "溝江美来",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "미조에 미라이"
+        },
+        "en": {
+          "name": "Mirai Mizoe"
+        }
+      }
     },
     {
       "id": "a71b11baecb2",
       "name": "吉岡孝芳",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "요시오카 타카요시"
+        },
+        "en": {
+          "name": "Takayoshi Yoshioka"
+        }
+      }
     },
     {
       "id": "f8b0609515dc",
       "name": "渡部遼太郎",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "와타나베 료타로"
+        },
+        "en": {
+          "name": "Ryotaro Watanabe"
+        }
+      }
     },
     {
       "id": "77018e1882e9",
       "name": "ひがれお",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "히가 레오"
+        },
+        "en": {
+          "name": "Reo Higa"
+        }
+      }
     },
     {
       "id": "08c7e021db6c",
       "name": "キムスージャ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "김수자"
+        },
+        "en": {
+          "name": "Kim Soo-ja"
+        }
+      }
     },
     {
       "id": "bfdf5de97dc5",
       "name": "中﨑透",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "나카자키 토루"
+        },
+        "en": {
+          "name": "Toru Nakazaki"
+        }
+      }
     },
     {
       "id": "0c7aa2b17b15",
       "name": "顧剣亨",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "코 켄료"
+        },
+        "en": {
+          "name": "Kenryo Ko"
+        }
+      }
     },
     {
       "id": "aeacfdc30cdf",
