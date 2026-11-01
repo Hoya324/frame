@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T10:48:37.845303+00:00",
+  "generated_at": "2026-11-01T11:07:49.266529+00:00",
   "masters": [
     {
       "id": "percival-lowell",
@@ -452,26 +452,6 @@
           }
         },
         {
-          "id": "wikimedia-10481465",
-          "title": "Kusakabe Kimbei - 16. Girl in Heavy Storm",
-          "year": "1880",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Kusakabe_Kimbei_-_16._Girl_in_Heavy_Storm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Kusakabe_Kimbei_-_16._Girl_in_Heavy_Storm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kusakabe_Kimbei_-_16._Girl_in_Heavy_Storm.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "거센 비바람 속을 걷는 여인을 스튜디오 안에서 연출한 긴베이의 대표작 중 하나입니다. 바람에 날리는 옷자락과 우산의 긴장감이 정지된 화면에 극적인 운동감을 불어넣습니다. 자연을 무대 장치처럼 재구성한 발상에서, 사진을 회화적 장면 연출로 끌어올린 요코하마 사진의 상상력을 엿볼 수 있습니다.",
-          "tr": {
-            "en": {
-              "commentary": "One of Kimbei's signature images: a woman caught in a fierce storm, staged entirely inside the studio. The tension of wind-whipped garments and umbrella charges the still frame with dramatic movement. In its idea of rebuilding nature as stagecraft, the photograph shows the imaginative reach of Yokohama photography, lifting the medium toward painterly mise-en-scene."
-            },
-            "ja": {
-              "commentary": "激しい風雨のなかを歩く女性をスタジオ内で演出した、金兵衛の代表作のひとつです。風にあおられる着物の裾や傘の緊張感が、静止した画面に劇的な動きを吹き込みます。自然を舞台装置のように再構成する発想に、写真を絵画的な場面演出へと高めた横浜写真の想像力がうかがえます。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-10462984",
           "title": "Kusakabe Kimbei - 2. WORK MEN'S HOLIDAY.",
           "year": "1890",
@@ -492,22 +472,22 @@
           }
         },
         {
-          "id": "wikimedia-10481607",
-          "title": "Kusakabe Kimbei - 194 Eating. Dinner",
+          "id": "wikimedia-10481465",
+          "title": "Kusakabe Kimbei - 16. Girl in Heavy Storm",
           "year": "1880",
           "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Kusakabe_Kimbei_-_194_Eating._Dinner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Kusakabe_Kimbei_-_194_Eating._Dinner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Kusakabe_Kimbei_-_16._Girl_in_Heavy_Storm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Kusakabe_Kimbei_-_16._Girl_in_Heavy_Storm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kusakabe_Kimbei_-_194_Eating._Dinner.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kusakabe_Kimbei_-_16._Girl_in_Heavy_Storm.jpg",
           "credit": "Wikimedia Commons · Public domain",
-          "commentary": "",
+          "commentary": "거센 비바람 속을 걷는 여인을 스튜디오 안에서 연출한 긴베이의 대표작 중 하나입니다. 바람에 날리는 옷자락과 우산의 긴장감이 정지된 화면에 극적인 운동감을 불어넣습니다. 자연을 무대 장치처럼 재구성한 발상에서, 사진을 회화적 장면 연출로 끌어올린 요코하마 사진의 상상력을 엿볼 수 있습니다.",
           "tr": {
             "en": {
-              "commentary": ""
+              "commentary": "One of Kimbei's signature images: a woman caught in a fierce storm, staged entirely inside the studio. The tension of wind-whipped garments and umbrella charges the still frame with dramatic movement. In its idea of rebuilding nature as stagecraft, the photograph shows the imaginative reach of Yokohama photography, lifting the medium toward painterly mise-en-scene."
             },
             "ja": {
-              "commentary": ""
+              "commentary": "激しい風雨のなかを歩く女性をスタジオ内で演出した、金兵衛の代表作のひとつです。風にあおられる着物の裾や傘の緊張感が、静止した画面に劇的な動きを吹き込みます。自然を舞台装置のように再構成する発想に、写真を絵画的な場面演出へと高めた横浜写真の想像力がうかがえます。"
             }
           }
         },
@@ -528,6 +508,26 @@
             },
             "ja": {
               "commentary": "踊りの宴の場面をとらえた風俗写真です。人物の所作と配置を細やかに演出し、一枚の写真のなかに公演のリズムを凝縮しています。手彩色が施された衣装の色彩は、当時の西洋人を魅了した日本風俗イメージの典型を示しています。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-10481607",
+          "title": "Kusakabe Kimbei - 194 Eating. Dinner",
+          "year": "1880",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Kusakabe_Kimbei_-_194_Eating._Dinner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Kusakabe_Kimbei_-_194_Eating._Dinner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kusakabe_Kimbei_-_194_Eating._Dinner.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
             }
           }
         },
@@ -572,14 +572,14 @@
           }
         },
         {
-          "id": "wikimedia-16976984",
-          "title": "Kusakabe Kimbei 566 Theatre Street",
+          "id": "wikimedia-10478318",
+          "title": "Kusakabe Kimbei - 216 Fishing",
           "year": null,
           "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Kusakabe_Kimbei_566_Theatre_Street.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Kusakabe_Kimbei_566_Theatre_Street.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Kusakabe_Kimbei_-_216_Fishing.jpg/1280px-Kusakabe_Kimbei_-_216_Fishing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Kusakabe_Kimbei_-_216_Fishing.jpg/1280px-Kusakabe_Kimbei_-_216_Fishing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kusakabe_Kimbei_566_Theatre_Street.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kusakabe_Kimbei_-_216_Fishing.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -592,14 +592,14 @@
           }
         },
         {
-          "id": "wikimedia-10476736",
-          "title": "Kusakabe Kimbei - 400 Greeting",
+          "id": "wikimedia-16977008",
+          "title": "Kusakabe Kimbei Nagasaki",
           "year": null,
           "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Kusakabe_Kimbei_-_400_Greeting.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Kusakabe_Kimbei_-_400_Greeting.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Kusakabe_Kimbei_Nagasaki.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Kusakabe_Kimbei_Nagasaki.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kusakabe_Kimbei_-_400_Greeting.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kusakabe_Kimbei_Nagasaki.JPG",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -1448,26 +1448,6 @@
           }
         },
         {
-          "id": "wikimedia-4488903",
-          "title": "Nagoya Castle 1979.1.48P01B",
-          "year": "1880",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Nagoya_Castle_1979.1.48P01B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Nagoya_Castle_1979.1.48P01B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nagoya_Castle_1979.1.48P01B.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1880년대에 촬영된 나고야성의 모습입니다. 천수각의 위용과 석벽의 견고한 양감을 안정된 구도로 담아, 일본 성곽 건축의 아름다움을 서양에 알리는 데 기여한 장면입니다. 제2차 세계대전으로 소실되기 전 원래 천수각의 모습을 전한다는 점에서 기록적 가치 또한 큽니다.",
-          "tr": {
-            "en": {
-              "commentary": "A view of Nagoya Castle photographed in the 1880s. Holding the grandeur of the main keep and the solid mass of the stone walls in a stable composition, the scene helped convey the beauty of Japanese castle architecture to the West. It also carries great documentary value in preserving the appearance of the original keep before its destruction in the Second World War."
-            },
-            "ja": {
-              "commentary": "1880年代に撮影された名古屋城の姿です。天守の威容と石垣の堅固な量感を安定した構図に収め、日本の城郭建築の美しさを西洋に伝えることに寄与した場面です。第二次世界大戦で焼失する前の、本来の天守の姿を伝える点でも記録的価値の高い一枚です。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-180293295",
           "title": "Collectie Wereldmuseum, RV-A66-6-1, Prentbriefkaart, 'Collage van Japanse kinderen', maker Tamamura Kozaburo, ca. 1900",
           "year": null,
@@ -1476,6 +1456,26 @@
           "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Collectie_Wereldmuseum%2C_RV-A66-6-1%2C_Prentbriefkaart%2C_%27Collage_van_Japanse_kinderen%27%2C_maker_Tamamura_Kozaburo%2C_ca._1900.jpg/1280px-Collectie_Wereldmuseum%2C_RV-A66-6-1%2C_Prentbriefkaart%2C_%27Collage_van_Japanse_kinderen%27%2C_maker_Tamamura_Kozaburo%2C_ca._1900.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Collectie_Wereldmuseum,_RV-A66-6-1,_Prentbriefkaart,_%27Collage_van_Japanse_kinderen%27,_maker_Tamamura_Kozaburo,_ca._1900.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "wikimedia-180197824",
+          "title": "Collectie Wereldmuseum, 7082-nf-582-3, Foto, 'Het Kannai district, Yokohama', maker Tamamura Kōzaburō, 1890-1900",
+          "year": null,
+          "medium": null,
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Collectie_Wereldmuseum%2C_7082-nf-582-3%2C_Foto%2C_%27Het_Kannai_district%2C_Yokohama%27%2C_maker_Tamamura_K%C5%8Dzabur%C5%8D%2C_1890-1900.jpg/1280px-Collectie_Wereldmuseum%2C_7082-nf-582-3%2C_Foto%2C_%27Het_Kannai_district%2C_Yokohama%27%2C_maker_Tamamura_K%C5%8Dzabur%C5%8D%2C_1890-1900.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Collectie_Wereldmuseum%2C_7082-nf-582-3%2C_Foto%2C_%27Het_Kannai_district%2C_Yokohama%27%2C_maker_Tamamura_K%C5%8Dzabur%C5%8D%2C_1890-1900.jpg/1280px-Collectie_Wereldmuseum%2C_7082-nf-582-3%2C_Foto%2C_%27Het_Kannai_district%2C_Yokohama%27%2C_maker_Tamamura_K%C5%8Dzabur%C5%8D%2C_1890-1900.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Collectie_Wereldmuseum,_7082-nf-582-3,_Foto,_%27Het_Kannai_district,_Yokohama%27,_maker_Tamamura_K%C5%8Dzabur%C5%8D,_1890-1900.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -2024,26 +2024,6 @@
       },
       "works": [
         {
-          "id": "wikimedia-95305822",
-          "title": "Service-pnp-fsa-8d25000-8d25500-8d25515r",
-          "year": "1943",
-          "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Service-pnp-fsa-8d25000-8d25500-8d25515r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Service-pnp-fsa-8d25000-8d25500-8d25515r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Service-pnp-fsa-8d25000-8d25500-8d25515r.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1943년 미국 농업안정국(FSA)·전시정보국 시기에 고든 파크스가 워싱턴에서 남긴 다큐멘터리 기록입니다. 인물과 일상의 디테일을 정면으로 응시하는 그의 카메라는 전시 미국 사회, 특히 흑인 공동체의 삶을 존엄하게 담아냈습니다. 절제된 구도와 자연광의 활용이 기록사진을 넘어선 초상적 깊이를 만들어냅니다.",
-          "tr": {
-            "en": {
-              "commentary": "This is a documentary record Gordon Parks made in Washington in 1943, during his time with the U.S. Farm Security Administration and Office of War Information. His camera, gazing squarely at people and the details of everyday life, captured wartime American society—especially the lives of the Black community—with dignity. The restrained composition and use of natural light give the image a portrait-like depth that goes beyond documentary photography."
-            },
-            "ja": {
-              "commentary": "1943年、米国農業安定局(FSA)・戦時情報局時代にゴードン・パークスがワシントンで残したドキュメンタリーの記録です。人物と日常のディテールを正面から見つめる彼のカメラは、戦時下のアメリカ社会、とりわけ黒人コミュニティの暮らしを尊厳をもって写し取りました。抑制された構図と自然光の活かし方が、記録写真を超えた肖像的な深みを生み出しています。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-2740688",
           "title": "Ella Watson and Her Grandchildren, Washington, D.C.",
           "year": "1942",
@@ -2060,6 +2040,26 @@
             },
             "ja": {
               "commentary": "1942年、ワシントンでゴードン・パークスが政府庁舎の清掃労働者エラ・ワトソンとその孫たちを撮影した作品で、代表作「アメリカン・ゴシック」と対をなす有名な台所のシーンです。狭い生活空間に差し込む光と、世代をまたぐ人物の配置が、ひとりの黒人家族の日常を記念碑的に昇華させています。人種差別の現実を告発しながらも被写体の尊厳を失わない、パークスのドキュメンタリーの真髄を示す一枚です。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-95305822",
+          "title": "Service-pnp-fsa-8d25000-8d25500-8d25515r",
+          "year": "1943",
+          "medium": null,
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Service-pnp-fsa-8d25000-8d25500-8d25515r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Service-pnp-fsa-8d25000-8d25500-8d25515r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Service-pnp-fsa-8d25000-8d25500-8d25515r.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1943년 미국 농업안정국(FSA)·전시정보국 시기에 고든 파크스가 워싱턴에서 남긴 다큐멘터리 기록입니다. 인물과 일상의 디테일을 정면으로 응시하는 그의 카메라는 전시 미국 사회, 특히 흑인 공동체의 삶을 존엄하게 담아냈습니다. 절제된 구도와 자연광의 활용이 기록사진을 넘어선 초상적 깊이를 만들어냅니다.",
+          "tr": {
+            "en": {
+              "commentary": "This is a documentary record Gordon Parks made in Washington in 1943, during his time with the U.S. Farm Security Administration and Office of War Information. His camera, gazing squarely at people and the details of everyday life, captured wartime American society—especially the lives of the Black community—with dignity. The restrained composition and use of natural light give the image a portrait-like depth that goes beyond documentary photography."
+            },
+            "ja": {
+              "commentary": "1943年、米国農業安定局(FSA)・戦時情報局時代にゴードン・パークスがワシントンで残したドキュメンタリーの記録です。人物と日常のディテールを正面から見つめる彼のカメラは、戦時下のアメリカ社会、とりわけ黒人コミュニティの暮らしを尊厳をもって写し取りました。抑制された構図と自然光の活かし方が、記録写真を超えた肖像的な深みを生み出しています。"
             }
           }
         },
@@ -2308,14 +2308,34 @@
           }
         },
         {
-          "id": "wikimedia-15325232",
-          "title": "Ansel Adams - National Archives 79-AA-F12",
+          "id": "wikimedia-15325368",
+          "title": "Ansel Adams - National Archives 79-AA-F11",
           "year": "1941",
           "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Ansel_Adams_-_National_Archives_79-AA-F12.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-F12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Ansel_Adams_-_National_Archives_79-AA-F12.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-F12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Ansel_Adams_-_National_Archives_79-AA-F11.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-F11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Ansel_Adams_-_National_Archives_79-AA-F11.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-F11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-F12.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-F11.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1941년 국립공원 연작의 하나로, 애덤스가 고안한 존 시스템의 정수를 보여주는 작품입니다. 가장 깊은 그림자부터 눈부신 하이라이트까지 단계별 계조를 제어하는 이 방법은 흑백 사진을 정밀한 악보처럼 다루게 했습니다. 국립기록보관소에 보존된 원판은 그 기술적 완성도를 오늘까지 증언합니다.",
+          "tr": {
+            "en": {
+              "commentary": "Part of the 1941 national parks series, this work distills the essence of the Zone System Adams devised. By controlling the scale of tones from the deepest shadow to brilliant highlight, the method let him handle black-and-white photography like a precisely written score. The original held at the National Archives still testifies to that technical mastery."
+            },
+            "ja": {
+              "commentary": "1941年の国立公園連作の一枚で、アダムスが考案したゾーンシステムの真髄を示す作品です。最も深い影からまばゆいハイライトまで階調を段階的に制御するこの手法は、モノクロ写真を精密な楽譜のように扱うことを可能にしました。国立公文書館に保存された原板が、その技術的完成度を今に伝えています。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-15325349",
+          "title": "Ansel Adams - National Archives 79-AA-F22",
+          "year": "1941",
+          "medium": null,
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Ansel_Adams_-_National_Archives_79-AA-F22.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-F22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Ansel_Adams_-_National_Archives_79-AA-F22.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-F22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-F22.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -2328,34 +2348,14 @@
           }
         },
         {
-          "id": "wikimedia-15325326",
-          "title": "Ansel Adams - National Archives 79-AA-A04",
-          "year": "1933",
-          "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Ansel_Adams_-_National_Archives_79-AA-A04.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-A04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Ansel_Adams_-_National_Archives_79-AA-A04.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-A04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-A04.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "",
-          "tr": {
-            "en": {
-              "commentary": ""
-            },
-            "ja": {
-              "commentary": ""
-            }
-          }
-        },
-        {
-          "id": "wikimedia-15325195",
-          "title": "Ansel Adams - National Archives 79-AA-H06",
+          "id": "wikimedia-15325392",
+          "title": "Ansel Adams - National Archives 79-AA-H14",
           "year": "1941",
           "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Ansel_Adams_-_National_Archives_79-AA-H06.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-H06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Ansel_Adams_-_National_Archives_79-AA-H06.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-H06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Ansel_Adams_-_National_Archives_79-AA-H14.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-H14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Ansel_Adams_-_National_Archives_79-AA-H14.jpg/1280px-Ansel_Adams_-_National_Archives_79-AA-H14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-H06.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-H14.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -2572,14 +2572,14 @@
           }
         },
         {
-          "id": "wikimedia-187069463",
-          "title": "Nethers Store and Post Office",
+          "id": "wikimedia-187069461",
+          "title": "Nethers Store and Post Office 2",
           "year": "1935",
           "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Nethers_Store_and_Post_Office.tif/lossy-page1-1280px-Nethers_Store_and_Post_Office.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Nethers_Store_and_Post_Office.tif/lossy-page1-1280px-Nethers_Store_and_Post_Office.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Nethers_Store_and_Post_Office_2.tif/lossy-page1-1280px-Nethers_Store_and_Post_Office_2.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Nethers_Store_and_Post_Office_2.tif/lossy-page1-1280px-Nethers_Store_and_Post_Office_2.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nethers_Store_and_Post_Office.tif",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nethers_Store_and_Post_Office_2.tif",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -2592,14 +2592,14 @@
           }
         },
         {
-          "id": "wikimedia-187069461",
-          "title": "Nethers Store and Post Office 2",
-          "year": "1935",
+          "id": "wikimedia-149274531",
+          "title": "Slot machine players. Las Vegas, Nevada circa 1940 FSA photo by Arthur Rothstein",
+          "year": "1940",
           "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Nethers_Store_and_Post_Office_2.tif/lossy-page1-1280px-Nethers_Store_and_Post_Office_2.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Nethers_Store_and_Post_Office_2.tif/lossy-page1-1280px-Nethers_Store_and_Post_Office_2.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Slot_machine_players._Las_Vegas%2C_Nevada_circa_1940_FSA_photo_by_Arthur_Rothstein.jpg/1280px-Slot_machine_players._Las_Vegas%2C_Nevada_circa_1940_FSA_photo_by_Arthur_Rothstein.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Slot_machine_players._Las_Vegas%2C_Nevada_circa_1940_FSA_photo_by_Arthur_Rothstein.jpg/1280px-Slot_machine_players._Las_Vegas%2C_Nevada_circa_1940_FSA_photo_by_Arthur_Rothstein.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nethers_Store_and_Post_Office_2.tif",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Slot_machine_players._Las_Vegas,_Nevada_circa_1940_FSA_photo_by_Arthur_Rothstein.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -2716,26 +2716,6 @@
           }
         },
         {
-          "id": "wikimedia-11164522",
-          "title": "Jack Delano, Federal housing, Yauco, Puerto Rico, 1942",
-          "year": "1942",
-          "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Jack_Delano%2C_Federal_housing%2C_Yauco%2C_Puerto_Rico%2C_1942.jpg/1280px-Jack_Delano%2C_Federal_housing%2C_Yauco%2C_Puerto_Rico%2C_1942.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Jack_Delano%2C_Federal_housing%2C_Yauco%2C_Puerto_Rico%2C_1942.jpg/1280px-Jack_Delano%2C_Federal_housing%2C_Yauco%2C_Puerto_Rico%2C_1942.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jack_Delano,_Federal_housing,_Yauco,_Puerto_Rico,_1942.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1942년 푸에르토리코 야우코의 연방 주택을 기록한 사진입니다. 델라노는 1941년 FSA의 임무로 푸에르토리코를 처음 찾은 뒤 이 섬에 깊이 매료되었고, 훗날 아예 이주해 평생을 보냈습니다. 주거 정책의 현장을 담은 이 기록은 그와 푸에르토리코의 긴 인연이 시작되던 무렵의 소중한 장면입니다.",
-          "tr": {
-            "en": {
-              "commentary": "A 1942 record of federal housing in Yauco, Puerto Rico. Delano first visited the island on an FSA assignment in 1941, fell deeply under its spell, and would later move there for good. This document of a housing program in progress is a precious scene from the very beginning of his long bond with Puerto Rico."
-            },
-            "ja": {
-              "commentary": "1942年、プエルトリコのヤウコにある連邦住宅を記録した写真です。デラーノは1941年にFSAの任務で初めてプエルトリコを訪れて以来この島に深く魅了され、のちに移住して生涯を過ごしました。住宅政策の現場を収めたこの記録は、彼とプエルトリコの長い縁が始まった頃の貴重な場面です。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-126292843",
           "title": "On the 'RIP' tracks (Repair In Place), an Illinois Central employee jacks up a gondola to swap out a truck during November, 1942. Jack Delano photo",
           "year": "1942",
@@ -2752,6 +2732,26 @@
             },
             "ja": {
               "commentary": "1942年11月、イリノイ・セントラル鉄道の現場修理線(RIPトラック)で、従業員が無蓋車をジャッキで持ち上げ、台車を交換する場面です。戦時輸送の流れを止めないため、その場で車両を修理した労働の具体的な工程が、キャプションとともに生々しく残されました。巨大な車体とひとりの労働者が成す対比に、デラーノの鉄道連作の真髄が表れています。"
+            }
+          }
+        },
+        {
+          "id": "wikimedia-11164522",
+          "title": "Jack Delano, Federal housing, Yauco, Puerto Rico, 1942",
+          "year": "1942",
+          "medium": null,
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Jack_Delano%2C_Federal_housing%2C_Yauco%2C_Puerto_Rico%2C_1942.jpg/1280px-Jack_Delano%2C_Federal_housing%2C_Yauco%2C_Puerto_Rico%2C_1942.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Jack_Delano%2C_Federal_housing%2C_Yauco%2C_Puerto_Rico%2C_1942.jpg/1280px-Jack_Delano%2C_Federal_housing%2C_Yauco%2C_Puerto_Rico%2C_1942.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jack_Delano,_Federal_housing,_Yauco,_Puerto_Rico,_1942.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1942년 푸에르토리코 야우코의 연방 주택을 기록한 사진입니다. 델라노는 1941년 FSA의 임무로 푸에르토리코를 처음 찾은 뒤 이 섬에 깊이 매료되었고, 훗날 아예 이주해 평생을 보냈습니다. 주거 정책의 현장을 담은 이 기록은 그와 푸에르토리코의 긴 인연이 시작되던 무렵의 소중한 장면입니다.",
+          "tr": {
+            "en": {
+              "commentary": "A 1942 record of federal housing in Yauco, Puerto Rico. Delano first visited the island on an FSA assignment in 1941, fell deeply under its spell, and would later move there for good. This document of a housing program in progress is a precious scene from the very beginning of his long bond with Puerto Rico."
+            },
+            "ja": {
+              "commentary": "1942年、プエルトリコのヤウコにある連邦住宅を記録した写真です。デラーノは1941年にFSAの任務で初めてプエルトリコを訪れて以来この島に深く魅了され、のちに移住して生涯を過ごしました。住宅政策の現場を収めたこの記録は、彼とプエルトリコの長い縁が始まった頃の貴重な場面です。"
             }
           }
         },
@@ -2816,14 +2816,14 @@
           }
         },
         {
-          "id": "wikimedia-12692289",
-          "title": "Jack Delano - Santa Fe R.R. near Melrose, New Mexico",
-          "year": "1943",
+          "id": "wikimedia-3259987",
+          "title": "Locomotives-Roundhouse2",
+          "year": "1942",
           "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Jack_Delano_-_Santa_Fe_R.R._near_Melrose%2C_New_Mexico.jpg/1280px-Jack_Delano_-_Santa_Fe_R.R._near_Melrose%2C_New_Mexico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Jack_Delano_-_Santa_Fe_R.R._near_Melrose%2C_New_Mexico.jpg/1280px-Jack_Delano_-_Santa_Fe_R.R._near_Melrose%2C_New_Mexico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Locomotives-Roundhouse2.jpg/1280px-Locomotives-Roundhouse2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Locomotives-Roundhouse2.jpg/1280px-Locomotives-Roundhouse2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jack_Delano_-_Santa_Fe_R.R._near_Melrose,_New_Mexico.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Locomotives-Roundhouse2.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -3104,26 +3104,6 @@
           }
         },
         {
-          "id": "wikimedia-6372258",
-          "title": "Paddington Station by Toni Frissell 1951",
-          "year": "1951",
-          "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Paddington_Station_by_Toni_Frissell_1951.jpg/1280px-Paddington_Station_by_Toni_Frissell_1951.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Paddington_Station_by_Toni_Frissell_1951.jpg/1280px-Paddington_Station_by_Toni_Frissell_1951.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paddington_Station_by_Toni_Frissell_1951.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1951년 런던 패딩턴역을 담은 사진입니다. 거대한 철골 아치 아래로 스며드는 빛과 오가는 사람들의 움직임이 기차역 특유의 극장 같은 공간감을 만들어내며, 전후 런던의 공기를 한 장에 응축합니다.",
-          "tr": {
-            "en": {
-              "commentary": "A photograph of London's Paddington Station in 1951. Light filtering down beneath the great iron arches and the movement of passing travelers create the theatrical sense of space peculiar to railway stations, condensing the air of postwar London into a single frame."
-            },
-            "ja": {
-              "commentary": "1951年、ロンドンのパディントン駅をとらえた写真です。巨大な鉄骨アーチの下に差し込む光と行き交う人々の動きが、鉄道駅特有の劇場のような空間感をつくり出し、戦後ロンドンの空気を一枚に凝縮しています。"
-            }
-          }
-        },
-        {
           "id": "wikimedia-8385746",
           "title": "Toni Frissell Berlin Wall",
           "year": "1961",
@@ -3160,6 +3140,26 @@
             },
             "ja": {
               "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "wikimedia-6372258",
+          "title": "Paddington Station by Toni Frissell 1951",
+          "year": "1951",
+          "medium": null,
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Paddington_Station_by_Toni_Frissell_1951.jpg/1280px-Paddington_Station_by_Toni_Frissell_1951.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Paddington_Station_by_Toni_Frissell_1951.jpg/1280px-Paddington_Station_by_Toni_Frissell_1951.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paddington_Station_by_Toni_Frissell_1951.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "1951년 런던 패딩턴역을 담은 사진입니다. 거대한 철골 아치 아래로 스며드는 빛과 오가는 사람들의 움직임이 기차역 특유의 극장 같은 공간감을 만들어내며, 전후 런던의 공기를 한 장에 응축합니다.",
+          "tr": {
+            "en": {
+              "commentary": "A photograph of London's Paddington Station in 1951. Light filtering down beneath the great iron arches and the movement of passing travelers create the theatrical sense of space peculiar to railway stations, condensing the air of postwar London into a single frame."
+            },
+            "ja": {
+              "commentary": "1951年、ロンドンのパディントン駅をとらえた写真です。巨大な鉄骨アーチの下に差し込む光と行き交う人々の動きが、鉄道駅特有の劇場のような空間感をつくり出し、戦後ロンドンの空気を一枚に凝縮しています。"
             }
           }
         },
@@ -3580,10 +3580,10 @@
           "title": "Rebecca Salsbury Strand",
           "year": "1922",
           "medium": "Gelatin silver print",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Stieglitz_-_Rebecca_Salsbury_Strand_%281922%2C_NGA_35673%29.jpg/1280px-Stieglitz_-_Rebecca_Salsbury_Strand_%281922%2C_NGA_35673%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Stieglitz_-_Rebecca_Salsbury_Strand_%281922%2C_NGA_35673%29.jpg/1280px-Stieglitz_-_Rebecca_Salsbury_Strand_%281922%2C_NGA_35673%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Rebecca_Salsbury_Strand_MET_DP232979.jpg/1280px-Rebecca_Salsbury_Strand_MET_DP232979.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Rebecca_Salsbury_Strand_MET_DP232979.jpg/1280px-Rebecca_Salsbury_Strand_MET_DP232979.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stieglitz_-_Rebecca_Salsbury_Strand_(1922,_NGA_35673).jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rebecca_Salsbury_Strand_MET_DP232979.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "알프레드 스티글리츠의 '레베카 샐스버리 스트랜드'는 빛과 그림자의 섬세한 조화를 통해 인물의 내면을 포착한 걸작입니다. 부드러운 조명이 얼굴의 윤곽을 부드럽게 감싸며 깊이 있는 표정을 드러내고, 절제된 구도는 인물에 대한 집중도를 높여 관람객으로 하여금 인물의 심리에 몰입하게 만듭니다. 1920년대 초, 사진을 순수 예술의 영역으로 끌어올리려 했던 스티글리츠의 노력과 당시의 예술적 흐름 속에서 탄생한 이 작품은 사진사의 중요한 순간을 보여줍니다.",
           "tr": {
@@ -3664,10 +3664,10 @@
           "title": "Versailles, Coin de Parc",
           "year": "1904",
           "medium": "Albumen print",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Eug%C3%A8ne_Atget_-_Versailles%2C_Coin_de_Parc_-_1963.986.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Eug%C3%A8ne_Atget_-_Versailles%2C_Coin_de_Parc_-_1963.986.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Eug%C3%A8ne_Atget_-_Versailles%2C_Coin_de_Parc_-_1963.934.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Eug%C3%A8ne_Atget_-_Versailles%2C_Coin_de_Parc_-_1963.934.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Atget_-_Versailles,_Coin_de_Parc_-_1963.986.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Atget_-_Versailles,_Coin_de_Parc_-_1963.934.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "외젠 아제는 1904년 베르사유 공원의 한 구석을 알부멘 프린트로 담아냈다. 흑백의 섬세한 톤과 깊이 있는 그림자는 프랑스 바로크 양식의 정원 건축과 자연의 조화를 극적으로 드러내며, 찰나의 순간을 영원한 시간 속에 박제시킨 듯한 인상을 준다. 이는 당시 파리의 도시 풍경과 건축물을 기록하던 아제의 작업 맥락 속에서, 사라져가는 과거의 아름다움을 보존하려는 그의 예술적 의지를 보여주는 중요한 작품이다.",
           "tr": {
@@ -4264,10 +4264,10 @@
           "title": "Bust of Patroclus",
           "year": "August 9, 1843",
           "medium": "Salted paper print",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Henry_Fox_Talbot_-_Bust_of_Patroclus_-_B2018.20.5_-_Yale_Center_for_British_Art.jpg/1280px-Henry_Fox_Talbot_-_Bust_of_Patroclus_-_B2018.20.5_-_Yale_Center_for_British_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Henry_Fox_Talbot_-_Bust_of_Patroclus_-_B2018.20.5_-_Yale_Center_for_British_Art.jpg/1280px-Henry_Fox_Talbot_-_Bust_of_Patroclus_-_B2018.20.5_-_Yale_Center_for_British_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/William_Henry_Fox_Talbot_%28British_-_Bust_of_Patroclus._-_Google_Art_Project.jpg/1280px-William_Henry_Fox_Talbot_%28British_-_Bust_of_Patroclus._-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/William_Henry_Fox_Talbot_%28British_-_Bust_of_Patroclus._-_Google_Art_Project.jpg/1280px-William_Henry_Fox_Talbot_%28British_-_Bust_of_Patroclus._-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Henry_Fox_Talbot_-_Bust_of_Patroclus_-_B2018.20.5_-_Yale_Center_for_British_Art.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:William_Henry_Fox_Talbot_(British_-_Bust_of_Patroclus._-_Google_Art_Project.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "탈봇은 빛의 방향과 노출을 자유롭게 실험할 수 있는 석고 흉상을 즐겨 촬영했습니다. '파트로클로스의 흉상'은 정지한 조각을 통해 캘러타이프의 계조와 질감을 탐구한 작업으로, 사진이 어떻게 입체와 빛을 재현하는지를 보여주는 초기 연구입니다.",
           "tr": {
@@ -5279,7 +5279,7 @@
       "deathYear": 1943,
       "tagline": "대성당의 빛을 담은 거장",
       "bio": "프레더릭 H. 에번스는 19세기 말에서 20세기 초 영국 픽토리얼리즘을 대표하는 건축 사진의 거장입니다. 그는 영국과 프랑스의 대성당 내부를 순수한 플래티넘 프린트로 담아내며, 돌과 빛만으로 숭고한 공간의 깊이를 표현했습니다. 네거티브에 어떤 수정도 가하지 않는 '순수 사진'을 고집한 그의 태도는 이후 스트레이트 포토그래피의 정신적 토대가 되었습니다. 대표작 '바다 같은 계단(A Sea of Steps)'은 건축 사진의 역사에서 가장 아름다운 이미지 가운데 하나로 꼽힙니다.",
-      "portraitUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366704.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "portraitUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366708.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "tr": {
         "en": {
           "tagline": "Master of cathedral light",
@@ -5372,26 +5372,6 @@
           }
         },
         {
-          "id": "wikimedia-60497106",
-          "title": "Grotesques by Aubrey Beardsley. Facsimile Platinum Prints by Frederick H. Evans from the Twelve Original Drawings in His Collection with a Portrait Frontispiece MET DP366704",
-          "year": "1910",
-          "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366704.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366704.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366704.jpg",
-          "credit": "Wikimedia Commons · Public domain",
-          "commentary": "",
-          "tr": {
-            "en": {
-              "commentary": ""
-            },
-            "ja": {
-              "commentary": ""
-            }
-          }
-        },
-        {
           "id": "wikimedia-60497107",
           "title": "Grotesques by Aubrey Beardsley. Facsimile Platinum Prints by Frederick H. Evans from the Twelve Original Drawings in His Collection with a Portrait Frontispiece MET DP366708",
           "year": "1910",
@@ -5412,14 +5392,34 @@
           }
         },
         {
-          "id": "wikimedia-60497103",
-          "title": "Grotesques by Aubrey Beardsley. Facsimile Platinum Prints by Frederick H. Evans from the Twelve Original Drawings in His Collection with a Portrait Frontispiece MET DP366707",
+          "id": "wikimedia-60497106",
+          "title": "Grotesques by Aubrey Beardsley. Facsimile Platinum Prints by Frederick H. Evans from the Twelve Original Drawings in His Collection with a Portrait Frontispiece MET DP366704",
           "year": "1910",
           "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366707.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366707.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366704.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366704.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366707.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366704.jpg",
+          "credit": "Wikimedia Commons · Public domain",
+          "commentary": "",
+          "tr": {
+            "en": {
+              "commentary": ""
+            },
+            "ja": {
+              "commentary": ""
+            }
+          }
+        },
+        {
+          "id": "wikimedia-60497105",
+          "title": "Grotesques by Aubrey Beardsley. Facsimile Platinum Prints by Frederick H. Evans from the Twelve Original Drawings in His Collection with a Portrait Frontispiece MET DP366705",
+          "year": "1910",
+          "medium": null,
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366705.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366705.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "source": "wikimedia",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grotesques_by_Aubrey_Beardsley._Facsimile_Platinum_Prints_by_Frederick_H._Evans_from_the_Twelve_Original_Drawings_in_His_Collection_with_a_Portrait_Frontispiece_MET_DP366705.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -5443,7 +5443,7 @@
       "deathYear": 1887,
       "tagline": "사진을 발명한 또 한 사람",
       "bio": "이폴리트 바야르는 다게르, 탤벗과 같은 시기에 독자적인 직접 양화 인화법을 고안한 사진의 '또 다른 발명가'입니다. 1839년 프랑스 정부가 다게르만을 공식 발명자로 인정하자, 그는 익사한 사람처럼 분장한 「익사자로서의 자화상」을 찍어 항의했고, 이는 사진사 최초의 연출 자화상으로 기록됩니다. 이후에도 종이 네거티브로 파리의 거리와 정원을 차분히 기록하며 초기 사진의 시적 가능성을 탐구했습니다. 발명가의 정밀함과 예술가의 위트를 함께 지닌, 사진 역사의 가장 매혹적인 기원 중 하나입니다.",
-      "portraitUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/1839_Hippolyte_Bayard_Self-portrait_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "portraitUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/1839_Hippolyte_Bayard_Self-portrait_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "tr": {
         "en": {
           "tagline": "The other inventor of photography",
@@ -5496,22 +5496,22 @@
           }
         },
         {
-          "id": "wikimedia-87383736",
-          "title": "Hippolyte Bayard, Self‐Portrait as a Drowned Man (Le Noyé), 1840",
-          "year": "1840",
+          "id": "wikimedia-128860683",
+          "title": "1839 Hippolyte Bayard Self-portrait 1",
+          "year": "1839",
           "medium": null,
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Hippolyte_Bayard%2C_Self%E2%80%90Portrait_as_a_Drowned_Man_%28Le_Noy%C3%A9%29%2C_1840.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Hippolyte_Bayard%2C_Self%E2%80%90Portrait_as_a_Drowned_Man_%28Le_Noy%C3%A9%29%2C_1840.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/1839_Hippolyte_Bayard_Self-portrait_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/1839_Hippolyte_Bayard_Self-portrait_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hippolyte_Bayard,_Self%E2%80%90Portrait_as_a_Drowned_Man_(Le_Noy%C3%A9),_1840.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:1839_Hippolyte_Bayard_Self-portrait_1.jpg",
           "credit": "Wikimedia Commons · Public domain",
-          "commentary": "1840년 이폴리트 바야르가 익사체로 분장하고 촬영한 '익사한 남자로서의 자화상'으로, 사진사 최초의 연출된 항의 이미지로 꼽힙니다. 다게르에게 밀려 자신의 발명이 외면당한 데 대한 항변을 한 장의 허구적 주검으로 표현한 발상이 놀랍습니다. 사진이 기록을 넘어 허구와 퍼포먼스의 매체가 될 수 있음을 탄생 직후에 증명한, 개념적으로도 선구적인 작품입니다.",
+          "commentary": "1839년 이폴리트 바야르가 남긴 자화상으로, 사진술이 공표되던 바로 그 해에 발명가 자신이 피사체가 된 기록입니다. 직접 양화 방식을 고안한 그의 실험 정신이 자신을 향한 카메라에서도 드러나며, 초기 인물 사진의 긴 노출이 만들어내는 정적인 밀도가 인상적입니다. 사진의 탄생과 함께한 인물의 얼굴을 마주한다는 점에서 사진사적 의미가 각별한 작품입니다.",
           "tr": {
             "en": {
-              "commentary": "In 1840 Hippolyte Bayard posed as a drowned corpse for his 'Self-Portrait as a Drowned Man,' regarded as photography's first staged protest image. The idea of expressing his grievance—that his invention had been overlooked in favor of Daguerre—through a single fictional corpse is astonishing. Conceptually pioneering, the work proved almost at the medium's birth that photography could be a vehicle for fiction and performance, not just record."
+              "commentary": "This 1839 self-portrait by Hippolyte Bayard is a record in which the inventor became his own subject in the very year photography was announced to the world. The experimental spirit of the man who devised a direct-positive process shows even in the camera turned upon himself, and the still density produced by the long exposures of early portraiture is striking. To face the features of a figure present at photography's birth gives the work a special place in the history of the medium."
             },
             "ja": {
-              "commentary": "1840年、イポリット・バヤールが溺死体に扮して撮影した「溺死者としての自画像」で、写真史上初の演出された抗議イメージとされています。ダゲールに押されて自らの発明が顧みられなかったことへの抗弁を、一枚の虚構の亡骸として表現した発想は驚くべきものです。写真が記録を超えてフィクションとパフォーマンスのメディアになり得ることを、誕生直後に証明した概念的にも先駆的な作品です。"
+              "commentary": "1839年にイポリット・バヤールが残した自画像で、写真術が公表されたまさにその年に、発明家自身が被写体となった記録です。直接陽画方式を考案した彼の実験精神は、自らに向けられたカメラにも表れており、初期人物写真の長時間露光が生む静謐な密度が印象的です。写真の誕生に立ち会った人物の顔と向き合えるという点で、写真史的に格別な意味を持つ作品です。"
             }
           }
         }
@@ -5768,14 +5768,14 @@
           }
         },
         {
-          "id": "wikimedia-17486925",
-          "title": "William Ivins by Gertrude Käsebier c1910",
-          "year": "1910",
+          "id": "wikimedia-29802704",
+          "title": "Lucille Thomajon",
+          "year": "1908",
           "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/William_Ivins_by_Gertrude_K%C3%A4sebier_c1910.jpg/1280px-William_Ivins_by_Gertrude_K%C3%A4sebier_c1910.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/William_Ivins_by_Gertrude_K%C3%A4sebier_c1910.jpg/1280px-William_Ivins_by_Gertrude_K%C3%A4sebier_c1910.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg/1280px-Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg/1280px-Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:William_Ivins_by_Gertrude_K%C3%A4sebier_c1910.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -5788,14 +5788,14 @@
           }
         },
         {
-          "id": "wikimedia-29802704",
-          "title": "Lucille Thomajon",
-          "year": "1908",
+          "id": "wikimedia-17486925",
+          "title": "William Ivins by Gertrude Käsebier c1910",
+          "year": "1910",
           "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg/1280px-Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg/1280px-Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/William_Ivins_by_Gertrude_K%C3%A4sebier_c1910.jpg/1280px-William_Ivins_by_Gertrude_K%C3%A4sebier_c1910.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/William_Ivins_by_Gertrude_K%C3%A4sebier_c1910.jpg/1280px-William_Ivins_by_Gertrude_K%C3%A4sebier_c1910.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gertrude_K%C3%A4sebier_-_Lucille_Thomajon_-_Google_Art_Project.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:William_Ivins_by_Gertrude_K%C3%A4sebier_c1910.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
@@ -5828,14 +5828,14 @@
           }
         },
         {
-          "id": "wikimedia-29800950",
-          "title": "Sunshine in the House",
-          "year": "1908",
+          "id": "wikimedia-29715366",
+          "title": "The Bride",
+          "year": "1902",
           "medium": null,
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Gertrude_K%C3%A4sebier_-_Sunshine_in_the_House_-_Google_Art_Project.jpg/1280px-Gertrude_K%C3%A4sebier_-_Sunshine_in_the_House_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Gertrude_K%C3%A4sebier_-_Sunshine_in_the_House_-_Google_Art_Project.jpg/1280px-Gertrude_K%C3%A4sebier_-_Sunshine_in_the_House_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Gertrude_K%C3%A4sebier_-_The_Bride_-_Google_Art_Project.jpg/1280px-Gertrude_K%C3%A4sebier_-_The_Bride_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Gertrude_K%C3%A4sebier_-_The_Bride_-_Google_Art_Project.jpg/1280px-Gertrude_K%C3%A4sebier_-_The_Bride_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gertrude_K%C3%A4sebier_-_Sunshine_in_the_House_-_Google_Art_Project.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gertrude_K%C3%A4sebier_-_The_Bride_-_Google_Art_Project.jpg",
           "credit": "Wikimedia Commons · Public domain",
           "commentary": "",
           "tr": {
