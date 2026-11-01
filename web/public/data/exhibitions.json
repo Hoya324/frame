@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T20:21:36.819965+00:00",
+  "generated_at": "2026-11-01T22:18:31.312040+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -47775,7 +47775,7 @@
       "price_max": null,
       "start_date": "2026-07-01",
       "end_date": "2026-10-31",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで） 会期中無休",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -60122,7 +60122,7 @@
       "price_max": null,
       "start_date": "2026-05-21",
       "end_date": "2026-10-31",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "162d896d238b",
@@ -74963,7 +74963,7 @@
       "price_max": null,
       "start_date": "2026-11-01",
       "end_date": "2026-12-25",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "1c44e36c0970",
@@ -75026,7 +75026,7 @@
       "price_max": null,
       "start_date": "2026-11-01",
       "end_date": "2026-12-25",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "1c44e36c0970",
@@ -85799,7 +85799,7 @@
       "price_max": null,
       "start_date": "2026-09-13",
       "end_date": "2026-10-31",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "8bc60f268986",
@@ -96029,7 +96029,7 @@
       "price_max": null,
       "start_date": "2026-11-01",
       "end_date": "2026-12-24",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": "10:00－19:00（最終日は16:00まで、入館は終了10分前まで）",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -96215,22 +96215,13 @@
       "popularity_score": null
     },
     {
-      "id": "207edbc38f7e",
-      "source": "tokyo_art_beat",
-      "title": "佐方晴登 「三里塚IV-土地の時間」",
-      "lang": "ja",
-      "tr": {
-        "ko": {
-          "title": "사카타 하루토 「산리즈카 IV - 토지의 시간」",
-          "description": "지금까지 신도쿄 국제공항(현 나리타 국제공항) 건설 반대 운동인 「산리즈카 투쟁」을 주제로 한 「거대한 이야기의 역사」 I~III(이번 전시는 이 시리즈의 연번으로 위치시켰다)와, 제3활주로 증설 등 「나리타 공항의 추가 기능 강화」로 인해 사라져가는 농촌 지역을 촬영한 「괴사하는 풍경」 I~II 두 시리즈를 축으로 지속적으로 작품을 발표해 왔다. 이번 전시에서는 산리즈카 투쟁을 주요 테마로 삼으면서도, 지금까지 작품을 포착하는 틀로 삼아왔던 「거대한 이야기/작은 이야기」에서 잠시 벗어나, 산리즈카(주)라는 땅에 축적된 역사의 층위에 주목했다.\n\n그것은 「투쟁」만이 아닌, 이 지역이 걸어온 역사이다. 물론, 엄밀한 의미에서 「역사의 층위」 그 자체가 사진에 찍히는 것은 아니다. 또한, 풍경을 「역사」로 해석하는 것은 결코 중립적인 행위가 아니며, 정치적인 활동이기도 하다. 그러나 그렇다고 해서 그것을 피해야 한다고 생각하지 않는다. 역사적인 사건들은 분명 그 땅에서 일어났고, 사람들의 기억으로 축적되어, 글과 이야기, 이미지로 계승되어 왔다. 눈앞에 있는 풍경 또한 그러한 역사와 분리하여 파악할 수 없다. 그렇기 때문에 그 땅에 새겨지고 축적되어 온 역사를 무시하는 것이 아니라, 사진을 통해 다시금 들여다보는 것을 시도했다.\n\n주: 여기서 말하는 「산리즈카」는 현재 나리타시의 오아자(大字)로서의 「산리즈카」 지구만을 가리키는 것이 아니라, 과거 산리즈카 투쟁이 벌어졌던 넓은 지역을 가리킨다. 투쟁의 전개에 따라 「산리즈카」라는 명칭은 나리타시 남동부에서 시바야마초 북부에 걸쳐 있는 지역을 가리키는 말로도 사용되게 되었다."
-        },
-        "en": {
-          "title": "Haruto Sakata 「Sanrizuka IV - Time of the Land」",
-          "description": "Up to now, I have continuously presented works centered on two series: \"History of Grand Narratives\" I-III (this exhibition is positioned as a continuation of this series), which takes the \"Sanrizuka Struggle\"—the opposition movement against the construction of New Tokyo International Airport (now Narita International Airport)—as its theme; and \"Necrotic Landscapes\" I-II, which photographs rural areas being lost due to \"further functional enhancement of Narita Airport,\" such as the expansion of the third runway. In this exhibition, while the Sanrizuka Struggle remains the main theme, I have temporarily moved away from the framework of \"grand narratives/small narratives\" that I have used to approach my work, and instead focused on the layers of history accumulated in the land of Sanrizuka (Note).\n\nThis history is not solely about \"struggle,\" but also about the journey this region has taken. Of course, in a strict sense, \"layers of history\" themselves do not appear in photographs. Furthermore, interpreting landscapes as \"history\" is by no means a neutral act; it is also a political endeavor. However, I believe that this does not mean it should be avoided. Historical events certainly occurred in that land, accumulated as people's memories, and have been passed down as texts, narratives, and images. The landscape before our eyes also cannot be separated from such history. For this very reason, I have attempted to re-examine the history etched and accumulated in that land through photography, rather than ignoring it.\n\nNote: \"Sanrizuka\" here does not refer solely to the \"Sanrizuka\" district as an Oaza (large administrative division) of present-day Narita City, but rather to the broader area where the Sanrizuka Struggle once unfolded. With the progression of the struggle, the name \"Sanrizuka\" also came to be used to refer to the region extending from the southeastern part of Narita City to the northern part of Shibayama Town."
-        }
-      },
-      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/1172f5d6/Sakata_800px01.jpg",
-      "description": "これまで、新東京国際空港（現・成田国際空港）の建設に対する反対運動である「三里塚闘争」をテーマとした「大きな物語の歴史」I～III（今回の展示は、このシリーズの連番として位置づけた）と、第三滑走路の増設など「成田空港の更なる機能強化」によって失われつつある農村地帯を撮影した「壊死するフウケイ」I～IIの二つのシリーズを軸に、継続的に作品を発表してきた。今回の展示では、三里塚闘争を主なテーマとしながらも、これまで作品を捉える枠組みとしてきた「大きな物語／小さな物語」からいったん離れ、三里塚（注）という土地に蓄積された歴史のレイヤーに着目した。\n\nそれは、「闘争」だけではない、この地域が歩んできた歴史である。無論、厳密な意味で「歴史のレイヤー」そのものが写真に写るわけではない。また、風景を「歴史」として解釈することは、決して中立的な行為ではなく、政治的な営みでもある。しかし、だからといって、それを避けるべきではないと考えている。歴史的な出来事は、確かにその土地で起こり、人々の記憶として蓄積され、文字や語り、イメージとして受け継がれてきた。目の前にある風景もまた、そうした歴史と切り離して捉えることはできない。だからこそ、その土地に刻まれ、蓄積されてきた歴史を無視するのではなく、写真を通してあらためて見つめ直すことを試みた。\n\n注：ここでいう「三里塚」は、現在の成田市の大字としての「三里塚」地区のみを指すものではなく、かつて三里塚闘争が繰り広げられた広い地域を指している。闘争の展開に伴い、「三里塚」という名称は、成田市南東部から芝山町北部にかけての地域を指す言葉としても用いられるようになった。",
+      "id": "d6b302402faa",
+      "source": "totem_pole",
+      "title": "Sanrizuka IV",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://tppg.jp/wp/wp-content/uploads/2026/09/Sakata_800px01-1.jpg",
+      "description": "佐方 晴登 / Haruto Sakata\n\n三里塚IV-土地の時間 / Sanrizuka IV – Layers of Time\n\n2026.11.24 (tue) – 11.29 (sun)\n\nOpen 12:00 – 19:00\n\nこれまで、新東京国際空港（現・成田国際空港）の建設に対する反対運動である「三里塚闘争」をテーマとした「大きな物語の歴史」I〜III（今回の展示は、このシリーズの連番として位置づけた）と、第三滑走路の増設など「成田空港の更なる機能強化」によって失われつつある農村地帯を撮影した「壊死するフウケイ」I〜IIの二つのシリーズを軸に、継続的に作品を発表してきた。\n\n今回の展示では、三里塚闘争を主なテーマとしながらも、これまで作品を捉える枠組みとしてきた「大きな物語／小さな物語」からいったん離れ、三里塚（注）という土地に蓄積された歴史のレイヤーに着目した。\n\nそれは、「闘争」だけではない、この地域が歩んできた歴史である。無論、厳密な意味で「歴史のレイヤー」そのものが写真に写るわけではない。また、風景を「歴史」として解釈することは、決して中立的な行為ではなく、政治的な営みでもある。しかし、だからといって、それを避けるべきではないと考えている。\n\n歴史的な出来事は、確かにその土地で起こり、人々の記憶として蓄積され、文字や語り、イメージとして受け継がれてきた。目の前にある風景もまた、そうした歴史と切り離して捉えることはできない。だからこそ、その土地に刻まれ、蓄積されてきた歴史を無視するのではなく、写真を通してあらためて見つめ直すことを試みた。\n\n注：ここでいう「三里塚」は、現在の成田市の大字としての「三里塚」地区のみを指すものではなく、かつて三里塚闘争が繰り広げられた広い地域を指している。闘争の展開に伴い、「三里塚」という名称は、成田市南東部から芝山町北部にかけての地域を指す言葉としても用いられるようになった。\n\nThroughout my photographing career, I have been constantly publishing photographs centering around two series, “History of Grand Narrative” I – III (to which this exhibition will be a sequel), and “Death of Landscape” I – II. The former took up the theme of the Sanrizuka Struggle – the protest against the construction of the New Tokyo International Airport (now Narita International Airport) –, while the latter captured farming areas disappearing due to Further Capacity Enhancement of Narita International Airport such as the construction of the third runway.\n\nWhile the Sanrizuka Struggle remains the main theme of this exhibition, this time I stepped back from the “Grand/Small narratives”, the framework for grasping my work, and shifted my focus to layers of history accumulated in Sanrizuka* district.\n\nIt’s not limited to the Struggle but includes the history the locality has gone through. It goes without saying that the exact “layers of history” themselves do not come out in the photographs. Besides, interpreting landscapes as “history” is a political act, never a neutral one. Having said that, however, I believe that I ought not to refrain from doing so.\n\nHistorical events did happen in the locality, were stored in people’s memories, and were passed down as forms of texts, narratives, and images. And the landscapes before my eyes cannot be interpreted in isolation from such a history. Thus, rather than disregarding the history engraved and accumulated in the locality, I attempted to look into it through a fresh lens of photographs.\n\n*Sanrizuka“Sanrizuka” here does not solely mean Sanrizuka district in Narita city but means a wider area where the Sanrizuka Struggle took place. As the struggle intensified, areas referred to as “Sanrizuka” gradually stretched from southeastern Narita city to northern Shibayama town.\n\n撮影協力：木の根ペンション、小泉英政、有限会社三里塚物産、成田市教育委員会、成田市公園緑地課（五十音順・敬称略）\n\n佐方 晴登 / Haruto Sakata\n\nProfile / Artist Site",
       "medium": "photo",
       "exhibition_type": "solo",
       "genre_tags": [],
@@ -96260,6 +96251,12 @@
       },
       "artists": [
         {
+          "id": "2c5550c451ef",
+          "name": "佐方 晴登 / Haruto Sakata",
+          "lang": null,
+          "tr": {}
+        },
+        {
           "id": "25a0ab04a68f",
           "name": "佐方晴登",
           "lang": "ja",
@@ -96273,7 +96270,7 @@
           }
         }
       ],
-      "source_url": "https://www.tokyoartbeat.com/events/-/Haruto-Sakata-Sanrizuka-IV-Layers-Of-Time/2-D82-C04-B/2026-11-24",
+      "source_url": "https://tppg.jp/sanrizuka-4/",
       "featured": false,
       "popularity_score": null
     },
@@ -99382,7 +99379,7 @@
       "price_max": null,
       "start_date": "2026-10-21",
       "end_date": "2026-10-31",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "5375fac6b032",
@@ -100000,7 +99997,7 @@
       "price_max": null,
       "start_date": "2026-10-17",
       "end_date": "2026-10-31",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "6b3e6725f2e9",
@@ -102910,7 +102907,7 @@
       "price_max": null,
       "start_date": "2026-10-16",
       "end_date": "2026-10-31",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "a99c05f8f3ec",
@@ -103047,7 +103044,7 @@
       "price_max": null,
       "start_date": "2026-11-01",
       "end_date": "2026-11-15",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "a99c05f8f3ec",
@@ -103442,7 +103439,7 @@
       "price_max": null,
       "start_date": "2026-10-26",
       "end_date": "2026-10-31",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "b421867c34c6",
@@ -107485,7 +107482,7 @@
       "price_max": null,
       "start_date": "2026-11-01",
       "end_date": "2026-11-30",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "1a9614227a69",
@@ -156094,6 +156091,12 @@
           "name": "TVVINS"
         }
       }
+    },
+    {
+      "id": "2c5550c451ef",
+      "name": "佐方 晴登 / Haruto Sakata",
+      "lang": null,
+      "tr": {}
     }
   ]
 }
