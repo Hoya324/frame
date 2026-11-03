@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T22:21:13.899315+00:00",
+  "generated_at": "2026-11-03T00:54:39.534236+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -17263,7 +17263,7 @@
       "price_max": null,
       "start_date": "2026-05-22",
       "end_date": "2026-11-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "f135319b0417",
@@ -80980,7 +80980,7 @@
       "price_max": null,
       "start_date": "2026-10-20",
       "end_date": "2026-11-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "5163e693d1ea",
@@ -87325,7 +87325,7 @@
       "price_max": null,
       "start_date": "2026-10-16",
       "end_date": "2026-11-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "682d65a7e00b",
@@ -88102,7 +88102,7 @@
       "price_max": null,
       "start_date": "2026-10-26",
       "end_date": "2026-11-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -88165,7 +88165,7 @@
       "price_max": null,
       "start_date": "2026-11-02",
       "end_date": "2026-11-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "2da18874aafa",
@@ -91502,7 +91502,7 @@
       "price_max": null,
       "start_date": "2026-09-29",
       "end_date": "2026-11-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "cf1528c9ba68",
@@ -93541,7 +93541,7 @@
       "price_max": null,
       "start_date": "2026-11-03",
       "end_date": "2026-11-15",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "35890a070489",
@@ -93604,7 +93604,7 @@
       "price_max": null,
       "start_date": "2026-11-03",
       "end_date": "2027-01-11",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "d746cfa41b97",
@@ -94310,7 +94310,7 @@
       "price_max": null,
       "start_date": "2026-10-09",
       "end_date": "2026-11-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "37f737766ac5",
@@ -94646,7 +94646,7 @@
       "price_max": null,
       "start_date": "2026-10-20",
       "end_date": "2026-11-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "8882c8060b40",
@@ -94886,7 +94886,7 @@
       "price_max": null,
       "start_date": "2026-10-10",
       "end_date": "2026-11-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ec7e14bc9bb2",
@@ -95268,7 +95268,7 @@
       "price_max": null,
       "start_date": "2026-10-01",
       "end_date": "2026-11-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ccea32f45898",
@@ -96397,7 +96397,7 @@
       "price_max": null,
       "start_date": "2026-11-03",
       "end_date": "2026-11-15",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5163e693d1ea",
@@ -98385,7 +98385,7 @@
       "price_max": null,
       "start_date": "2026-10-16",
       "end_date": "2026-11-02",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "264da55cd4ca",
@@ -98651,7 +98651,7 @@
       "price_max": null,
       "start_date": "2026-10-23",
       "end_date": "2026-11-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "6f512eb34016",
@@ -99791,7 +99791,7 @@
       "price_max": null,
       "start_date": "2026-10-20",
       "end_date": "2026-11-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "8882c8060b40",
@@ -101409,7 +101409,7 @@
       "price_max": null,
       "start_date": "2026-10-20",
       "end_date": "2026-11-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "afe71f7d0299",
@@ -101535,7 +101535,7 @@
       "price_max": null,
       "start_date": "2026-10-27",
       "end_date": "2026-11-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "54c1740b50d0",
@@ -101710,7 +101710,7 @@
       "price_max": null,
       "start_date": "2026-11-02",
       "end_date": "2026-11-11",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "afe71f7d0299",
@@ -102144,7 +102144,7 @@
       "price_max": null,
       "start_date": "2026-10-17",
       "end_date": "2026-11-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "1b77aad41743",
@@ -102673,7 +102673,7 @@
         }
       },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/7f3f7999/174a04b1-6747-4739-a9bc-8a2fb9c50228.jpg",
-      "description": "18歳の写真家・佐々木黎による写真展「Look at this」を開催します。本展では、佐々木が17歳のとき、報道を通して知った能登半島の状況に疑問を抱き、自ら現地へ足を運んで撮影した写真を展示します。そこで現実に何が起きているのか。報道だけでは見えてこないものは何か。17歳の佐々木が見た能登の現実を、ぜひ会場でご覧ください。\n\n[関連イベント]\nアーティストトーク\n日時: 2026年11月7日16:00〜\n登壇者: 佐々木黎\n会場: ナガヤペーパーラボ\n料金: 無料（1ドリンクオーダー制）\n※イベント詳細は公式ホームページよりご確認ください。",
+      "description": "18歳の写真家・佐々木黎による写真展「Look at this」を開催します。本展では、佐々木が17歳のとき、報道を通して知った能登半島の状況に疑問を抱き、自ら現地へ足を運んで撮影した写真を展示します。そこで現実に何が起きているのか。報道だけでは見えてこないものは何か。17歳の佐々木が見た能登の現実を、ぜひ会場でご覧ください。\n\n予定しておりましたアーティストトークは作家の意向により、nagaya paper labとの同意に基づき中止となりました。",
       "medium": "photo",
       "exhibition_type": "solo",
       "genre_tags": [],
@@ -102716,7 +102716,7 @@
           }
         }
       ],
-      "source_url": "https://www.tokyoartbeat.com/events/-/Ray-Sasaki-Look-At-This/nagaya-paper-lab",
+      "source_url": "https://www.tokyoartbeat.com/events/-/Ray-Sasaki-Look-At-This/nagaya-paper-lab/2026-10-25",
       "featured": false,
       "popularity_score": null
     },
@@ -102988,7 +102988,7 @@
       "price_max": null,
       "start_date": "2026-10-27",
       "end_date": "2026-11-02",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "7b72b6e23f45",
@@ -103847,7 +103847,7 @@
       "price_max": null,
       "start_date": "2026-10-29",
       "end_date": "2026-11-02",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "238fe96014e5",
@@ -104223,7 +104223,7 @@
       "price_max": null,
       "start_date": "2026-10-28",
       "end_date": "2026-11-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ada5bf81cae5",
@@ -104579,22 +104579,22 @@
       "popularity_score": null
     },
     {
-      "id": "346c93462222",
+      "id": "a8a46fd7128b",
       "source": "gallery_tosei",
-      "title": "Jung A KIM写真展",
+      "title": "Jung A KIM 写真展",
       "lang": "ja",
       "tr": {
         "ko": {
           "title": "Jung A KIM 사진전",
-          "description": "Jung A KIM�ｼ医く繝�繝ｻ繧ｸ繝ｧ繝ｳ繧｢)蜀咏悄螻�縲� 縲�縲�縲�縲�縲�縲�縲�縲� 縲�縲� 繧�縺後※縲√☆縺ｹ縺ｦ縺ｮ闡峨�ｯ縺昴ｌ縺槭ｌ縺ｮ蝣ｴ謇�縺ｸ縺ｨ驍�縺｣縺ｦ繧�縺上�� 2026년 11월 6일(금) - 11월 21일(토) 개최 기간\n\n繧｢繝ｼ繧ｫ繧､繝舌Ν繝斐げ繝｡繝ｳ繝医�励Μ繝ｳ繝�\n\nCopyright (c) Jung A Kim All Rights Reserved"
+          "description": "Jung A KIM 사진전 \"아르카디아 도큐멘트\" 그리고 모든 작품은 각자의 장소로 떠납니다. 2026년 11월 6일 (금) ~ 11월 21일 (토) 개최 기간\n\n아르카디아 도큐멘트\n\nCopyright (c) Jung A Kim All Rights Reserved"
         },
         "en": {
-          "title": "Jung A KIM Photo Exhibition",
-          "description": "Jung A KIM�ｼ医く繝�繝ｻ繧ｸ繝ｧ繝ｳ繧｢)蜀咏悄螻�縲� 縲�縲�縲�縲�縲�縲�縲�縲� 縲�縲� 繧�縺後※縲√☆縺ｹ縺ｦ縺ｮ闡峨�ｯ縺昴ｌ縺槭ｌ縺ｮ蝣ｴ謇�縺ｸ縺ｨ驍�縺｣縺ｦ繧�縺上�� November 6 (Fri) - November 21 (Sat), 2026 Exhibition Period\n\n繧｢繝ｼ繧ｫ繧､繝舌Ν繝斐げ繝｡繝ｳ繝医�励Μ繝ｳ繝�\n\nCopyright (c) Jung A Kim All Rights Reserved"
+          "title": "Jung A KIM Photography Exhibition",
+          "description": "Jung A KIM Photography Exhibition \"Arcadia Document\" And all works will embark on their respective journeys. Exhibition Period: November 6 (Fri) - November 21 (Sat), 2026\n\nArcadia Document\n\nCopyright (c) Jung A Kim All Rights Reserved"
         }
       },
       "poster_image_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/jpg/EXHIBITIONS/PAST/2026/2611/2611.jpg",
-      "description": "Jung A KIM�ｼ医く繝�繝ｻ繧ｸ繝ｧ繝ｳ繧｢)蜀咏悄螻�縲� 縲�縲�縲�縲�縲�縲�縲�縲� 縲�縲� 繧�縺後※縲√☆縺ｹ縺ｦ縺ｮ闡峨�ｯ縺昴ｌ縺槭ｌ縺ｮ蝣ｴ謇�縺ｸ縺ｨ驍�縺｣縺ｦ繧�縺上�� 2026蟷ｴ11譛�6譌･�ｼ磯�托ｼ峨�� 11譛�21譌･�ｼ亥悄�ｼ峨��菴懷ｮｶ逡･豁ｴ\n\n繧｢繝ｼ繧ｫ繧､繝舌Ν繝斐げ繝｡繝ｳ繝医�励Μ繝ｳ繝�\n\nCopyright (c) Jung A Kim All Rights Reserved",
+      "description": "Jung A KIM�ｼ医く繝�繝ｻ繧ｸ繝ｧ繝ｳ繧｢�ｼ牙�咏悄螻�縲� 縲�縲�縲�縲�縲�縲�縲�縲� 縲�縲� 繧�縺後※縲√☆縺ｹ縺ｦ縺ｮ闡峨�ｯ縺昴ｌ縺槭ｌ縺ｮ蝣ｴ謇�縺ｸ縺ｨ驍�縺｣縺ｦ繧�縺上�� 2026蟷ｴ11譛�6譌･�ｼ磯�托ｼ峨�� 11譛�21譌･�ｼ亥悄�ｼ峨��菴懷ｮｶ逡･豁ｴ\n\n繧｢繝ｼ繧ｫ繧､繝舌Ν繝斐げ繝｡繝ｳ繝医�励Μ繝ｳ繝�\n\nCopyright (c) Jung A Kim All Rights Reserved",
       "medium": "photo",
       "exhibition_type": "curated",
       "genre_tags": [],
@@ -104652,7 +104652,7 @@
       "price_max": null,
       "start_date": "2026-10-27",
       "end_date": "2026-11-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "cf50d8160f85",
@@ -105391,7 +105391,7 @@
       "price_max": null,
       "start_date": "2026-10-27",
       "end_date": "2026-11-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "bad41612e0e3",
@@ -105554,7 +105554,7 @@
       "price_max": null,
       "start_date": "2026-10-24",
       "end_date": "2026-11-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "1ce957d8d2c4",
@@ -106024,7 +106024,7 @@
       "price_max": null,
       "start_date": "2026-11-03",
       "end_date": "2026-11-15",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "aa409e6bf5f4",
@@ -106792,7 +106792,7 @@
       "price_max": null,
       "start_date": "2026-11-03",
       "end_date": "2026-11-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "14db67420757",
@@ -106868,7 +106868,7 @@
       "price_max": null,
       "start_date": "2026-11-03",
       "end_date": "2026-11-15",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "54c1740b50d0",
@@ -106931,7 +106931,7 @@
       "price_max": null,
       "start_date": "2026-11-03",
       "end_date": "2026-11-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "9267ace6500c",
@@ -107118,7 +107118,7 @@
       "price_max": null,
       "start_date": "2026-10-20",
       "end_date": "2026-11-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "c447f1cb19aa",
@@ -107167,7 +107167,7 @@
       "price_max": null,
       "start_date": "2026-11-02",
       "end_date": "2026-11-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "c447f1cb19aa",
@@ -108512,7 +108512,7 @@
       "price_max": null,
       "start_date": "2026-10-28",
       "end_date": "2026-11-01",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "993660bc4e6d",
@@ -109010,8 +109010,8 @@
         }
       },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/53ea9350/e41c18d4-5c85-40d4-acf2-a11ed9fa4109.png",
-      "description": "人は、欲しいものを欲しがり、見たいものを見て、言いたいことを言う。「ご迷惑おかけします。」は、社会への違和感や人間の欲望をテーマに制作する東京造形大学の学生2名による二人展である。絵画を基盤としながら、映像やインスタレーション、パフォーマンスなどを通じて、個人の欲求と社会の規範、他者との関係性を扱う。社会の中で、誰にも迷惑をかけずに生きることはできるのだろうか。作品を通じて日常に潜む矛盾や不合理さを提示し、鑑賞者に社会と自身の関わりを問いかける。会場に持ち込まれるのは、少しの違和感。もしかしたら、少し邪魔かもしれない。もしかしたら、何の役にも立たないかもしれない。ご迷惑おかけします。",
-      "medium": "video",
+      "description": "「ご迷惑おかけします。」は、危うさと迷いを自覚したうえで発する言葉である。1960年代、赤瀬川原平、中西夏之、高松次郎の三名で構成された前衛芸術グループ、ハイレッド・センター。彼らは日常や社会へゲリラ的なパフォーマンスなどを通して介入し、芸術が美術館やギャラリーの内部だけにあるものではないことを示し、攪乱させた。では、現代の社会でそれを再び試みたとき、それはどのように受け取られるだろうか。コンプライアンスや配慮が重視されている現代では、かつては芸術として成立した行為も、芸術として理解される前に、迷惑行為や不適切な行為として制止される。\n\n赤木ミライは、頭に浮かんだ馬鹿馬鹿しい光景やありえないと思える状況を実際にこの世界に出現させることに関心があり、巨大な牛をはじめとした異物を出現させ、それが他者のいる現実の中で、作家の想定を超えた反応を引き起こしたり、その過程を通してそれに意味を見いだすことについて考えている。武田なのかは、誰にでもできることが本来あるべきアートだと考え、他人のサインの模倣から始まり、意図しない出来事から、作者の意図を超えた意味が生まれ、それが解釈されることによって引き起こる、価値や意味の転換をテーマに制作している。歩く速度も違う、喧嘩もする気が合わない私たちが共通しているのは、悪意無く、何かを愛をもって馬鹿にしている点である。私たちは、ただやってみたいといういたずら心から日常や社会に介入するが、アートを知らない人々にも説明責任を果たす必要があると考える。私たちは、社会にどこまで乱入することができるだろうか。",
+      "medium": "mixed",
       "exhibition_type": "group",
       "genre_tags": [],
       "fee_type": "free",
@@ -109690,7 +109690,7 @@
       "price_max": null,
       "start_date": "2026-11-03",
       "end_date": "2026-11-08",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "6a63d806debf",
@@ -110196,7 +110196,7 @@
       "price_max": null,
       "start_date": "2026-11-03",
       "end_date": "2026-11-15",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "748b0dac9715",
@@ -111316,6 +111316,187 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Tvvins-Still/graphic-gallery-1-1-6/2026-10-31",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "e6d9f9f0d428",
+      "source": "tokyo_art_beat",
+      "title": "工藤司 「ソーアローン so alone」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/dde245d4/dbabbea1-bc92-43c6-b769-390d03558111.png",
+      "description": "先月発売され、瞬く間に完売した写真集『ソーアローン so alone』。そのセカンドエディションの発売を記念し、写真家・工藤司の個展を開催いたします。セカンドエディションは、モノクロで構成し、収録写真を増量。表紙はポスターにもなる仕様になっています。ブックデザインは、ファーストエディションに続き、桂澤源が手がけています。本展では、工藤自身が手焼きしたプリントを展示・販売するほか、『ソーアローン so alone』にまつわるグッズも販売いたします。写真集とプリント、それぞれを通して広がる作品の世界を、ぜひ会場でお楽しみください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-31",
+      "end_date": "2026-11-13",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "b0b014839be8",
+        "name": "代官山 蔦屋書店",
+        "lang": null,
+        "tr": {},
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.648985150803405,
+        "lng": 139.6992946262269
+      },
+      "artists": [
+        {
+          "id": "af13e23e6405",
+          "name": "工藤司",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Tsukasa-Kudo-So-Alone/F4885995/2026-10-31",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "3a7b42e01310",
+      "source": "tokyo_art_beat",
+      "title": "S 「SPARKLE OF LIFE」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/03a3e080/1e4bfd7c-46fc-4337-a74d-6bfa09add14b.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-13",
+      "end_date": "2026-11-15",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "b3fae1454824",
+        "name": "ヒコヒコギャラリー",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "히코히코 갤러리"
+          },
+          "en": {
+            "name": "Hikohiko Gallery"
+          }
+        },
+        "region": "銀座、丸の内",
+        "district": null,
+        "lat": 35.66899,
+        "lng": 139.7683
+      },
+      "artists": [
+        {
+          "id": "b45beb43ee2e",
+          "name": "S",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/S-Sparkle-of-Life/hiko-hiko-gallery/2026-11-13",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f529d820920e",
+      "source": "tokyo_art_beat",
+      "title": "山本勇夢 展",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/4ba4e01a/ab4739df-9b89-43c4-9991-556d6ee09165.jpg",
+      "description": "熊本の写真家、山本勇夢 の写真展を、11月6日より、熊本の「原泉荘」と「Iso Books」の二会場にて開催します。「middle」は、春に竹田で始まった「境界線」の巡回になりますが、他の会場と異なる、新作を含め写真の構成を改めて編み直した内容で、ふたつの会場を巡る、山本自身にとって最も大きな展示になります。また、会期中には熊本では初めてとなるトークイベントを行います。写真のこと、制作のこと、熊本のことなどをお話しさせていただきます。またイベント当日は竹田からnageia cofeeさんにもお越しいただきます。コーヒー片手にお楽しみください。展示とトークイベント共々、ぜひお気軽にお越し頂けると幸いです。\n\n[関連イベント]\n1. トークイベント「昼のお話」\n日時: 2026年11月8日14:00〜15:30\n登壇者: 山本勇夢、後藤大樹、小島直人\n料金: 2000円＋1 drink order（要事前申込み）\n2. トークイベント「夜のお話」\n日時: 2026年11月14日17:00〜\n登壇者: 松浦さくら（Isobooks）、山本勇夢、後藤大樹、小島直人\n料金: 1500円＋1 drink order（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-06",
+      "end_date": "2026-11-15",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "56640e0e6822",
+        "name": "イソブックス",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "이소북스"
+          },
+          "en": {
+            "name": "Isobooks"
+          }
+        },
+        "region": "熊本県",
+        "district": null,
+        "lat": 32.799977327371984,
+        "lng": 130.71546102025508
+      },
+      "artists": [
+        {
+          "id": "4e342a3da931",
+          "name": "山本勇夢",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Isam-Yamamoto-Exhibition/iso-books/2026-11-06",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "342b94fd8564",
+      "source": "tokyo_art_beat",
+      "title": "ミーシャ・ホーレンバック 「MIRROR」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/59f818d2/0a9723cd-3bf7-4360-a46a-fd69991cd4bc.jpg",
+      "description": "Roll（東京・飯田橋）では、2026年10月31日(土) 〜11月22日(日) まで、オーストラリアを拠点に活動するアーティスト、Misha Hollenbach（ミーシャ・ホーレンバック）の個展 “MIRROR”を開催します。Perks And Mini（P.A.M.）の共同設立者としても知られるHollenbachにとって、11年ぶりとなる個展。本展では「石」と「光」を主要なモチーフとする新作《GLASS / GAS / STONE》や映像作品《TRACES》（2016）、ネオシルク作品を展示・販売するほか、写真集『PSY LYF』(2024)を紹介・販売します。\n\nRollでは、Misha Hollenbachの11年ぶりとなる個展を開催します。オーストラリアを拠点にアート、音楽、映像、写真、版画、出版などさまざまな領域を横断しながら制作を続けてきた彼は、Perks And Mini（P.A.M.）の共同設立者としても知られ、グラフィティやテクノ、サブカルチャーに親しんだ若年期から現在に至るまで、特定のジャンルや形式に留まることなく移動と制作を繰り返してきました。“MIRROR”と題した本展では、これまでのMisha Hollenbach自身の実践と、観察者、探究者としての彼自身に鏡を向けるものです。作品のモチーフとして頻繁に現れる「石」と「光」を用いて、石そのものが光源へと変化する新作《GLASS / GAS / STONE》をはじめ、フランス・ブルターニュ地方のカルナックに立つ巨石群を撮影した映像作品《TRACES》（2016）、穴・鏡・窓・夢・風景・石・星といったモチーフによるネオシルクを展示、販売します。また、長年にわたり世界を旅する中で撮影した写真をまとめた初の写真集『PSY LYF』（2024）を併せてご紹介します。旅先で出会った光景や感情、偶然の瞬間を収めた本書は、“MIRROR”において石、光、映像、版画へと姿を変えながら現れるMisha Hollenbachの実践とも呼応することでしょう。本展にどうぞご期待ください。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-31",
+      "end_date": "2026-11-22",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "98dfee56f137",
+        "name": "Roll",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "롤"
+          },
+          "ja": {
+            "name": "ロール"
+          }
+        },
+        "region": "市ヶ谷、神楽坂",
+        "district": null,
+        "lat": 35.70246779203639,
+        "lng": 139.74224402446748
+      },
+      "artists": [
+        {
+          "id": "6434b9b5dd78",
+          "name": "ミーシャ・ホーレンバック",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Misha-Hollenbach-Mirror/roll/2026-10-31",
       "featured": false,
       "popularity_score": null
     }
@@ -123583,6 +123764,20 @@
       "country": "JP",
       "lat": 35.68879726555645,
       "lng": 139.77790326463239,
+      "website": null
+    },
+    {
+      "id": "b0b014839be8",
+      "name": "代官山 蔦屋書店",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "恵比寿、代官山、中目黒",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.648985150803405,
+      "lng": 139.6992946262269,
       "website": null
     }
   ],
@@ -156149,6 +156344,30 @@
           "name": "Haruto Sakata"
         }
       }
+    },
+    {
+      "id": "af13e23e6405",
+      "name": "工藤司",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b45beb43ee2e",
+      "name": "S",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4e342a3da931",
+      "name": "山本勇夢",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6434b9b5dd78",
+      "name": "ミーシャ・ホーレンバック",
+      "lang": null,
+      "tr": {}
     }
   ]
 }
