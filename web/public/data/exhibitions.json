@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T23:29:11.049977+00:00",
+  "generated_at": "2026-11-03T23:53:54.977784+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -111323,8 +111323,17 @@
       "id": "e6d9f9f0d428",
       "source": "tokyo_art_beat",
       "title": "工藤司 「ソーアローン so alone」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "쿠도 츠카사 「소 어론 so alone」",
+          "description": "지난달 발매되어 순식간에 완판된 사진집 『소 어론 so alone』. 그 세컨드 에디션 발매를 기념하여, 사진작가 쿠도 츠카사의 개인전을 개최합니다. 세컨드 에디션은 흑백으로 구성되었으며, 수록 사진이 증량되었습니다. 표지는 포스터로도 활용 가능한 사양입니다. 북 디자인은 퍼스트 에디션에 이어 카츠라자와 겐이 담당했습니다. 본 전시에서는 쿠도 본인이 직접 인화한 프린트를 전시 및 판매하며, 『소 어론 so alone』과 관련된 굿즈도 판매합니다. 사진집과 프린트, 각각을 통해 펼쳐지는 작품의 세계를 꼭 현장에서 즐겨주세요."
+        },
+        "en": {
+          "title": "Tsukasa Kudo \"So Alone so alone\"",
+          "description": "The photobook \"So Alone so alone,\" released last month, sold out instantly. To commemorate the release of its second edition, a solo exhibition by photographer Tsukasa Kudo will be held. The second edition is composed in monochrome and includes an increased number of photographs. The cover is designed to also function as a poster. The book design, following the first edition, was handled by Gen Katsurazawa. At this exhibition, in addition to displaying and selling prints hand-printed by Kudo himself, merchandise related to \"So Alone so alone\" will also be available. Please enjoy the world of the artwork that unfolds through both the photobook and the prints at the venue."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/dde245d4/dbabbea1-bc92-43c6-b769-390d03558111.png",
       "description": "先月発売され、瞬く間に完売した写真集『ソーアローン so alone』。そのセカンドエディションの発売を記念し、写真家・工藤司の個展を開催いたします。セカンドエディションは、モノクロで構成し、収録写真を増量。表紙はポスターにもなる仕様になっています。ブックデザインは、ファーストエディションに続き、桂澤源が手がけています。本展では、工藤自身が手焼きしたプリントを展示・販売するほか、『ソーアローン so alone』にまつわるグッズも販売いたします。写真集とプリント、それぞれを通して広がる作品の世界を、ぜひ会場でお楽しみください。",
       "medium": "photo",
@@ -111340,8 +111349,15 @@
       "venue": {
         "id": "b0b014839be8",
         "name": "代官山 蔦屋書店",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "다이칸야마 츠타야 서점"
+          },
+          "en": {
+            "name": "Daikanyama Tsutaya Books"
+          }
+        },
         "region": "恵比寿、代官山、中目黒",
         "district": null,
         "lat": 35.648985150803405,
@@ -111363,8 +111379,15 @@
       "id": "3a7b42e01310",
       "source": "tokyo_art_beat",
       "title": "S 「SPARKLE OF LIFE」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "S 「SPARKLE OF LIFE」"
+        },
+        "ja": {
+          "title": "S 「SPARKLE OF LIFE」"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/03a3e080/1e4bfd7c-46fc-4337-a74d-6bfa09add14b.jpg",
       "description": null,
       "medium": "mixed",
@@ -111410,8 +111433,17 @@
       "id": "f529d820920e",
       "source": "tokyo_art_beat",
       "title": "山本勇夢 展",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "야마모토 이사무 전",
+          "description": "쿠마모토의 사진작가 야마모토 이사무의 사진전이 11월 6일부터 쿠마모토의 「겐센소」와 「Iso Books」 두 곳에서 개최됩니다. 「middle」은 봄에 타케다에서 시작된 「쿄카이센」의 순회전이지만, 다른 전시장과는 다르게 신작을 포함하여 사진 구성을 새롭게 재구성한 내용으로, 두 곳의 전시장을 순회하는 야마모토 본인에게 가장 큰 전시가 될 것입니다. 또한, 전시 기간 중 쿠마모토에서는 처음으로 토크 이벤트를 진행합니다. 사진, 작품 제작, 쿠마모토 등에 대해 이야기 나눌 예정입니다. 또한, 이벤트 당일에는 타케다에서 nageia cofee도 방문할 예정입니다. 커피 한 잔과 함께 즐겨주세요. 전시와 토크 이벤트 모두 부담 없이 찾아주시길 바랍니다.\n\n[관련 이벤트]\n1. 토크 이벤트 「낮의 이야기」\n일시: 2026년 11월 8일 14:00~15:30\n등단자: 야마모토 이사무, 고토 다이키, 코지마 나오토\n요금: 2000엔 + 1 음료 주문 (사전 신청 필수)\n2. 토크 이벤트 「밤의 이야기」\n일시: 2026년 11월 14일 17:00~\n등단자: 마츠우라 사쿠라 (Isobooks), 야마모토 이사무, 고토 다이키, 코지마 나오토\n요금: 1500엔 + 1 음료 주문 (사전 신청 필수)\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해주세요."
+        },
+        "en": {
+          "title": "Isamu Yamamoto Exhibition",
+          "description": "A photography exhibition by Kumamoto-based photographer Isamu Yamamoto will be held from November 6th at two venues in Kumamoto: \"Gensen-so\" and \"Iso Books.\" \"middle\" is a touring exhibition of \"Kyōkaisen,\" which began in Takeda in spring. However, unlike other venues, it features a re-edited photographic composition, including new works, making it the largest exhibition for Yamamoto himself, spanning two venues. Additionally, during the exhibition period, a talk event, the first of its kind in Kumamoto, will be held. We will discuss topics such as photography, the creative process, and Kumamoto. Furthermore, on the day of the event, nageia cofee will also be joining us from Takeda. Please enjoy with a cup of coffee in hand. We hope you will feel free to visit both the exhibition and the talk event.\n\n[Related Events]\n1. Talk Event \"Daytime Stories\"\nDate: November 8, 2026, 14:00-15:30\nSpeakers: Isamu Yamamoto, Daiki Goto, Naoto Kojima\nFee: 2000 yen + 1 drink order (advance registration required)\n2. Talk Event \"Nighttime Stories\"\nDate: November 14, 2026, 17:00-\nSpeakers: Sakura Matsuura (Isobooks), Isamu Yamamoto, Daiki Goto, Naoto Kojima\nFee: 1500 yen + 1 drink order (advance registration required)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/4ba4e01a/ab4739df-9b89-43c4-9991-556d6ee09165.jpg",
       "description": "熊本の写真家、山本勇夢 の写真展を、11月6日より、熊本の「原泉荘」と「Iso Books」の二会場にて開催します。「middle」は、春に竹田で始まった「境界線」の巡回になりますが、他の会場と異なる、新作を含め写真の構成を改めて編み直した内容で、ふたつの会場を巡る、山本自身にとって最も大きな展示になります。また、会期中には熊本では初めてとなるトークイベントを行います。写真のこと、制作のこと、熊本のことなどをお話しさせていただきます。またイベント当日は竹田からnageia cofeeさんにもお越しいただきます。コーヒー片手にお楽しみください。展示とトークイベント共々、ぜひお気軽にお越し頂けると幸いです。\n\n[関連イベント]\n1. トークイベント「昼のお話」\n日時: 2026年11月8日14:00〜15:30\n登壇者: 山本勇夢、後藤大樹、小島直人\n料金: 2000円＋1 drink order（要事前申込み）\n2. トークイベント「夜のお話」\n日時: 2026年11月14日17:00〜\n登壇者: 松浦さくら（Isobooks）、山本勇夢、後藤大樹、小島直人\n料金: 1500円＋1 drink order（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -111492,8 +111524,15 @@
         {
           "id": "6434b9b5dd78",
           "name": "ミーシャ・ホーレンバック",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "미샤 홀렌백"
+            },
+            "en": {
+              "name": "Misha Hollenbach"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Misha-Hollenbach-Mirror/roll/2026-10-31",
@@ -123769,8 +123808,15 @@
     {
       "id": "b0b014839be8",
       "name": "代官山 蔦屋書店",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "다이칸야마 츠타야 서점"
+        },
+        "en": {
+          "name": "Daikanyama Tsutaya Books"
+        }
+      },
       "venue_type": "other",
       "region": "恵比寿、代官山、中目黒",
       "district": null,
@@ -156366,8 +156412,15 @@
     {
       "id": "6434b9b5dd78",
       "name": "ミーシャ・ホーレンバック",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "미샤 홀렌백"
+        },
+        "en": {
+          "name": "Misha Hollenbach"
+        }
+      }
     }
   ]
 }
