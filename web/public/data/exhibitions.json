@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T23:53:54.977784+00:00",
+  "generated_at": "2026-11-04T07:13:04.820855+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -111367,8 +111367,15 @@
         {
           "id": "af13e23e6405",
           "name": "工藤司",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "쿠도 츠카사"
+            },
+            "en": {
+              "name": "Tsukasa Kudo"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Tsukasa-Kudo-So-Alone/F4885995/2026-10-31",
@@ -111421,8 +111428,15 @@
         {
           "id": "b45beb43ee2e",
           "name": "S",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "S"
+            },
+            "ja": {
+              "name": "S"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/S-Sparkle-of-Life/hiko-hiko-gallery/2026-11-13",
@@ -111477,8 +111491,15 @@
         {
           "id": "4e342a3da931",
           "name": "山本勇夢",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "야마모토 이사무"
+            },
+            "en": {
+              "name": "Isamu Yamamoto"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Isam-Yamamoto-Exhibition/iso-books/2026-11-06",
@@ -111489,8 +111510,17 @@
       "id": "342b94fd8564",
       "source": "tokyo_art_beat",
       "title": "ミーシャ・ホーレンバック 「MIRROR」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "미샤 홀렌바흐 「MIRROR」",
+          "description": "Roll(도쿄 이이다바시)에서는 2026년 10월 31일(토)부터 11월 22일(일)까지 호주를 기반으로 활동하는 아티스트 미샤 홀렌바흐(Misha Hollenbach)의 개인전 “MIRROR”를 개최합니다. Perks And Mini(P.A.M.)의 공동 설립자로도 알려진 홀렌바흐에게는 11년 만의 개인전입니다. 본 전시에서는 '돌'과 '빛'을 주요 모티프로 하는 신작 《GLASS / GAS / STONE》과 영상 작품 《TRACES》(2016), 네오실크 작품을 전시 및 판매하며, 사진집 『PSY LYF』(2024)를 소개 및 판매합니다.\n\nRoll에서는 미샤 홀렌바흐의 11년 만의 개인전을 개최합니다. 호주를 기반으로 예술, 음악, 영상, 사진, 판화, 출판 등 다양한 영역을 넘나들며 작업을 이어온 그는 Perks And Mini(P.A.M.)의 공동 설립자로도 알려져 있으며, 그래피티, 테크노, 서브컬처에 익숙했던 젊은 시절부터 현재에 이르기까지 특정 장르나 형식에 얽매이지 않고 이동과 창작을 반복해 왔습니다. “MIRROR”라는 제목의 본 전시에서는 미샤 홀렌바흐 자신의 지금까지의 실천과 관찰자, 탐구자로서의 그 자신에게 거울을 비추는 것입니다. 작품의 모티프로 자주 등장하는 '돌'과 '빛'을 사용하여 돌 자체가 광원으로 변화하는 신작 《GLASS / GAS / STONE》을 비롯해, 프랑스 브르타뉴 지방 카르나크에 서 있는 거석군을 촬영한 영상 작품 《TRACES》(2016), 구멍, 거울, 창문, 꿈, 풍경, 돌, 별과 같은 모티프의 네오실크를 전시, 판매합니다. 또한, 오랜 세월 세계를 여행하며 촬영한 사진을 모은 첫 사진집 『PSY LYF』(2024)를 함께 소개합니다. 여행지에서 만난 풍경이나 감정, 우연한 순간을 담은 이 책은 “MIRROR”에서 돌, 빛, 영상, 판화로 모습을 바꾸며 나타나는 미샤 홀렌바흐의 실천과도 호응할 것입니다. 본 전시에 많은 기대 바랍니다."
+        },
+        "en": {
+          "title": "Misha Hollenbach \"MIRROR\"",
+          "description": "Roll (Iidabashi, Tokyo) will host \"MIRROR,\" a solo exhibition by Australia-based artist Misha Hollenbach, from October 31 (Sat) to November 22 (Sun), 2026. This marks Hollenbach's first solo exhibition in 11 years, known also as the co-founder of Perks And Mini (P.A.M.). The exhibition will feature and sell new works such as \"GLASS / GAS / STONE,\" which uses 'stone' and 'light' as primary motifs, the video work \"TRACES\" (2016), and neo-silk works, as well as introduce and sell the photo book \"PSY LYF\" (2024).\n\nRoll will host Misha Hollenbach's first solo exhibition in 11 years. Based in Australia, Hollenbach has continuously created across various fields including art, music, video, photography, printmaking, and publishing. Also known as the co-founder of Perks And Mini (P.A.M.), he has moved and created without being confined to specific genres or forms, from his youth immersed in graffiti, techno, and subculture to the present day. Titled \"MIRROR,\" this exhibition turns a mirror to Misha Hollenbach's past practices and to himself as an observer and explorer. Using 'stone' and 'light,' frequently appearing motifs in his work, the exhibition will feature and sell new works like \"GLASS / GAS / STONE,\" where stone itself transforms into a light source, the video work \"TRACES\" (2016) which captures megaliths in Carnac, Brittany, France, and neo-silk works with motifs such as holes, mirrors, windows, dreams, landscapes, stones, and stars. Additionally, we will introduce his first photo book, \"PSY LYF\" (2024), a collection of photographs taken during his travels around the world over many years. This book, capturing scenes, emotions, and accidental moments encountered during his journeys, will resonate with Misha Hollenbach's practice as it transforms into stone, light, video, and printmaking in \"MIRROR.\" We invite you to look forward to this exhibition."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/59f818d2/0a9723cd-3bf7-4360-a46a-fd69991cd4bc.jpg",
       "description": "Roll（東京・飯田橋）では、2026年10月31日(土) 〜11月22日(日) まで、オーストラリアを拠点に活動するアーティスト、Misha Hollenbach（ミーシャ・ホーレンバック）の個展 “MIRROR”を開催します。Perks And Mini（P.A.M.）の共同設立者としても知られるHollenbachにとって、11年ぶりとなる個展。本展では「石」と「光」を主要なモチーフとする新作《GLASS / GAS / STONE》や映像作品《TRACES》（2016）、ネオシルク作品を展示・販売するほか、写真集『PSY LYF』(2024)を紹介・販売します。\n\nRollでは、Misha Hollenbachの11年ぶりとなる個展を開催します。オーストラリアを拠点にアート、音楽、映像、写真、版画、出版などさまざまな領域を横断しながら制作を続けてきた彼は、Perks And Mini（P.A.M.）の共同設立者としても知られ、グラフィティやテクノ、サブカルチャーに親しんだ若年期から現在に至るまで、特定のジャンルや形式に留まることなく移動と制作を繰り返してきました。“MIRROR”と題した本展では、これまでのMisha Hollenbach自身の実践と、観察者、探究者としての彼自身に鏡を向けるものです。作品のモチーフとして頻繁に現れる「石」と「光」を用いて、石そのものが光源へと変化する新作《GLASS / GAS / STONE》をはじめ、フランス・ブルターニュ地方のカルナックに立つ巨石群を撮影した映像作品《TRACES》（2016）、穴・鏡・窓・夢・風景・石・星といったモチーフによるネオシルクを展示、販売します。また、長年にわたり世界を旅する中で撮影した写真をまとめた初の写真集『PSY LYF』（2024）を併せてご紹介します。旅先で出会った光景や感情、偶然の瞬間を収めた本書は、“MIRROR”において石、光、映像、版画へと姿を変えながら現れるMisha Hollenbachの実践とも呼応することでしょう。本展にどうぞご期待ください。",
       "medium": "mixed",
@@ -156394,20 +156424,41 @@
     {
       "id": "af13e23e6405",
       "name": "工藤司",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "쿠도 츠카사"
+        },
+        "en": {
+          "name": "Tsukasa Kudo"
+        }
+      }
     },
     {
       "id": "b45beb43ee2e",
       "name": "S",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "S"
+        },
+        "ja": {
+          "name": "S"
+        }
+      }
     },
     {
       "id": "4e342a3da931",
       "name": "山本勇夢",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "야마모토 이사무"
+        },
+        "en": {
+          "name": "Isamu Yamamoto"
+        }
+      }
     },
     {
       "id": "6434b9b5dd78",
