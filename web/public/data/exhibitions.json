@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T23:47:11.114381+00:00",
+  "generated_at": "2026-11-05T00:13:38.989347+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -111573,8 +111573,17 @@
       "id": "6b46ad981ea7",
       "source": "sema",
       "title": "서서울미술관 뉴미디어 신진작가전 《탈피하지 못하는 뱀은》",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "Seoseoul Museum of Art New Media Emerging Artists Exhibition 《The Snake That Cannot Shed Its Skin》",
+          "description": "Memories passed down through generations bring someone's life into the present, yet leave behind beings that could not be fully approached and experiences that cannot be fully comprehended. The Seoseoul Museum of Art's first new media emerging artists exhibition, 《The Snake That Cannot Shed Its Skin》, focuses on the intersection of traces of the past and present sensations, introducing the distinct artistic explorations of Noh Okyung from Korea and Serene Hui from Hong Kong. The two artists bring fragments of memories passed down through family and lingering traces of life into present sensations in different ways, leaving the absence and distance remaining between the past and present within their works.\n\nNoh Okyung and Serene Hui shared their experiences and critical awareness embedded in their respective works through a 'pen pal exchange,' responding to each other's questions and continuing their reflections. Facing different experiences and critical awareness, they re-examined familiar subjects and expressions and conceived new works. The distance between their experiences became an opportunity to reflect on the scope of their individual thoughts and explore new possibilities. This emerging artists exhibition presents the traces of their pen pal exchange alongside new works, focusing on the artistic practices of Noh Okyung and Serene Hui as they expand through their mutual questions and relationship.\n\nA snake's skin is the surface where its body meets the world and a condition that supports its unique form. The skin that has protected the body becomes a boundary that can no longer be inhabited as it grows. Shedding is an event where the form that constituted oneself is dismantled, and the potential latent within emerges as a new sensation. Traces of the past also take shape within the language and media that conveyed them, revealing meanings that were not fully recognized in the process of encountering present sensations. Noh Okyung and Serene Hui re-place what has been inherited from the past into new expressions, exploring the possibility of approaching unrevealed beings and experiences."
+        },
+        "ja": {
+          "title": "ソウル西部美術館 ニューメディア新進作家展 《脱皮できない蛇は》",
+          "description": "世代を超えて受け継がれた記憶は、誰かの人生を現在に呼び戻しながらも、まだ近づけていない存在や完全に理解できない経験をその外側に残す。ソウル西部美術館初のニューメディア新進作家展《脱皮できない蛇は》は、過去の痕跡と現在の感覚が交差する地点に注目し、韓国のノ・オギョンと香港のセレン・ホイが展開する異なる芸術的探求を紹介する。両作家は、家族を通じて伝えられた記憶の断片と残存する人生の痕跡を、それぞれ異なる方法で現在の感覚の中に呼び込み、過去と現在の間に残された不在と距離を作品の中に留める。\n\nノ・オギョンとセレン・ホイは「ペンパル交流」を通じて、それぞれの作品に宿る経験と問題意識を分かち合い、互いの質問に応答しながら思索を続けた。異なる経験と問題意識に向き合い、慣れ親しんだ対象と表現を再検討し、新作を構想した。互いの経験の間に横たわる距離は、それぞれの思索が及ぶ範囲を振り返り、新たな可能性を模索するきっかけとなった。今回の新進作家展は、ペンパル交流の痕跡と新作を共に展示し、互いの質問と関係性の中で拡張されるノ・オギョンとセレン・ホイの芸術的実践に注目する。\n\n蛇の皮は、体が世界と接する表面であり、固有の形状を支える条件である。体を保護してきた皮は、成長と共に、もはや留まることのできない境界となる。脱皮は、自分を構成してきた形式が解体され、その中に潜在していた可能性が新しい感覚として出現する出来事である。過去の痕跡もまた、それを伝えてきた言語と媒体の中で形をなし、現在の感覚と出会う過程で、まだ認識されていなかった意味を明らかにする。ノ・オギョンとセレン・ホイは、過去から受け継がれたものを新しい表現の中に再び置き、まだ現れていなかった存在や経験に近づく可能性を模索する。"
+        }
+      },
       "poster_image_url": "https://sema.seoul.go.kr/common/imgFileView?FILE_ID=1035538",
       "description": "세대를 거쳐 이어진 기억은 누군가의 삶을 현재로 불러오면서도, 미처 다가서지 못한 존재와 온전히 헤아릴 수 없는 경험을 그 바깥에 남긴다. 서서울미술관의 첫 번째 뉴미디어 신진작가전인 《탈피하지 못하는 뱀은》은 과거의 흔적과 현재의 감각이 교차하는 지점에 주목하며 한국의 노오경과 홍콩의 세렌 후이가 펼치는 서로 다른 예술적 탐구를 소개한다. 두 작가는 가족을 통해 전해진 기억의 단편과 잔존하는 삶의 흔적을 서로 다른 방식으로 현재의 감각 속에 불러오며 과거와 현재 사이에 남은 부재와 거리를 작품 안에 남겨 둔다.\n\n노오경과 세렌 후이는 ‘펜팔 교류’를 통해 각자의 작업에 깃든 경험과 문제의식을 나누고, 서로의 질문에 응답하며 사유를 이어 갔다. 서로 다른 경험과 문제의식을 마주하며 익숙하게 다루어 온 대상과 표현을 다시 살피고 신작을 구상했다. 서로의 경험 사이에 놓인 거리는 각자의 사유가 닿는 범위를 돌아보고 새로운 가능성을 모색하는 계기가 되었다. 이번 신진작가전은 펜팔 교류의 흔적과 신작을 함께 선보이며 서로의 질문과 관계 속에서 확장되는 노오경과 세렌 후이의 예술적 실천에 주목한다.\n\n뱀의 껍질은 몸이 세계와 맞닿는 표면이자 고유한 형상을 지탱하는 조건이다. 몸을 보호해 온 껍질은 성장과 함께 더는 머물 수 없는 경계가 된다. 탈피는 자신을 이루어 온 형식이 해체되면서 그 안에 잠재된 가능성이 새로운 감각으로 출현하는 사건이다. 과거의 흔적 역시 그것을 전해 온 언어와 매체 속에서 모습을 갖추며 현재의 감각과 만나는 과정에서 미처 인식되지 않았던 의미를 드러낸다. 노오경과 세렌 후이는 과거로부터 이어진 것들을 새로운 표현 속에 다시 놓으며 드러나지 않았던 존재와 경험에 다가갈 가능성을 모색한다.",
       "medium": "video",
@@ -111613,8 +111622,17 @@
       "id": "545f81efad3e",
       "source": "tokyo_art_beat",
       "title": "高橋万里子 「AQUA」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "타카하시 마리코 「AQUA」",
+          "description": "타카하시는 지금까지 어머니 등 가까운 인물이나 인형, 식물이나 박제 등을 실내등만 사용하여 희미하게 촬영하는 시리즈를 중심으로, 극채색의 음식 모티프 사진, 인형 콜라주 작품 등, 때때로 마음의 주름과 주변 세계를 탐색하듯이 다양한 표현을 시도하며 작품을 발표해 왔습니다. 2022년에는 초기부터 최근작에 이르는 변천을 담은 사진집 『수베니어』(솔리레스 서점)를 간행했습니다. 본 전시 「AQUA」는 작년 개인전 「BEACH」에 이어 거주지 근처에도 펼쳐지는 해변과 수중 생물을 주목하고 있습니다. 수족관의 독특한 생물, 변화하는 해변과 파도 사이, 여자 친구들의 초상화 등이 조용히 혼재하며 독자적인 섬세한 세계관을 그리고 있습니다."
+        },
+        "en": {
+          "title": "Mariko Takahashi \"AQUA\"",
+          "description": "Takahashi has explored various forms of expression and presented her works, centered on a series delicately photographing close individuals such as her mother, dolls, plants, and taxidermy using only indoor lighting, as well as vibrant food-themed photographs and doll collage works, as if exploring the folds of her heart and the world around her at different times. In 2022, she published the photobook \"Souvenir\" (Soliles Books), which traces the evolution of her work from early pieces to recent ones. This exhibition, \"AQUA,\" following last year's solo exhibition \"BEACH,\" focuses on the seaside and aquatic creatures found near her residence. Unique aquarium creatures, changing beaches and waves, and portraits of female friends quietly intermingle, depicting her unique and delicate worldview."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/b4f6493f/10b51350-cc1e-4060-a22a-22ac70444a5d.jpg",
       "description": "高橋はこれまで、母親ら身近な人物や人形、植物や剝製などを室内灯だけを使用してあえかに撮影するシリーズを中心に、極彩色の食物モチーフの写真、人形のコラージュ作品など、折々の心の襞や身の回りの世界を探るように、多様な表現を試み作品を発表してきました。2022年にはそれら初期から近作に至る変遷を辿った写真集『スーベニア』(ソリレス書店)を刊行しています。本展「AQUA」は、昨年の個展「BEACH」に続いて居住地近くにも広がる海辺や水中の生き物を注視しています。水族館のユニークな生き物、変化する浜辺や波間、女友達のポートレートなどが静かに混在し、独自の繊細な世界観を描いています。",
       "medium": "photo",
@@ -111648,8 +111666,15 @@
         {
           "id": "950604d32b6f",
           "name": "高橋万里子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "다카하시 마리코"
+            },
+            "en": {
+              "name": "Mariko Takahashi"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Mariko-Takahashi-Aqua/16-A83-A7-D/2026-11-28",
@@ -111660,8 +111685,17 @@
       "id": "50eaf5628b97",
       "source": "tokyo_art_beat",
       "title": "磯谷博史 「有時、遠い今」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "이소가이 히로후미 「유시, 토이 이마」",
+          "description": "T.T 고쇼미나미의 두 번째 전시회로, 아티스트 이소가이 히로후미 씨의 개인전 「유시, 토이 이마」를 개최합니다. 의류부터 조각, 건축, 다도에 이르기까지 T.T의 활동의 근간에는 '시간'에 대한 질문이 있습니다. 본 전시에서는 사진, 드로잉, 입체를 넘나들며 작업해 온 작가의 작품을 통해 그 질문에 새로운 각도에서 빛을 비춥니다."
+        },
+        "en": {
+          "title": "Hirofumi Isogai \"Yuji, Toi Ima\"",
+          "description": "As the second exhibition at T.T Goshominami, we will hold a solo exhibition titled \"Yuji, Toi Ima\" by artist Hirofumi Isogai. From clothing to sculpture, architecture, and tea ceremony, at the root of T.T's endeavors lies a question about \"time.\" This exhibition will shed new light on that question through the artist's works, which span photography, drawing, and three-dimensional art."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/61122ee5/a39fd26f-74c0-42e3-a331-7f1d0c55605c.png",
       "description": "T.T 御所南の展覧会、第二回として、アーティスト磯谷博史氏の個展「有時、遠い今」を開催する。衣服から彫刻、建築、茶の湯まで、T.Tの営みの根底には「時間」への問いがある。本展では、写真、ドローイング、立体を横断してきた作家の作品を通して、その問いに新たな角度から光を当てる。",
       "medium": "photo",
@@ -111677,8 +111711,15 @@
       "venue": {
         "id": "743d46ac336d",
         "name": "T.T 御所南",
-        "lang": null,
-        "tr": {},
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "T.T 고쇼미나미"
+          },
+          "en": {
+            "name": "T.T Gosho-Minami"
+          }
+        },
         "region": "京都府",
         "district": null,
         "lat": 35.012831036255356,
@@ -111707,8 +111748,17 @@
       "id": "a91a709e693f",
       "source": "tokyo_art_beat",
       "title": "有村勇史 「BOTTLE NOSE」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "아리무라 유지 「BOTTLE NOSE」",
+          "description": "11월 28일(토)부터 12월 13일(일)까지 구마모토시의 Iso Books에서 사진작가 아리무라 유지의 개인전 「BOTTLE NOSE」를 개최합니다. 본 전시에서는 2025년에 촬영한 사진을 엮은 ZINE 「BOTTLE NOSE」에서 작품을 선정하여 전시합니다. 일상생활이나 놀이의 연장선에서 찍힌 사진에는 문득 눈길을 끈 빛이나 형태, 말이 되기 전의 감각이 남아 있습니다. 한 해의 사진을 선택하여 나열함으로써 풍경들 간의 예상치 못한 연결고리가 드러납니다. 그러나 사진에 찍힌 것이 전부가 아닙니다. 그곳에는 촬영 당시에는 알지 못했던 배경이나 간과했던 현실도 있습니다. 본 전시는 보이는 것과 보이지 않는 것을 다시 한번 바라보는 기회가 될 것입니다."
+        },
+        "en": {
+          "title": "Yuji Arimura \"BOTTLE NOSE\"",
+          "description": "From Saturday, November 28th to Sunday, December 13th, photographer Yuji Arimura's solo exhibition \"BOTTLE NOSE\" will be held at Iso Books in Kumamoto City. This exhibition will feature selected works from the ZINE \"BOTTLE NOSE,\" which compiles photos taken in 2025. The photographs, captured as an extension of daily life and play, retain glimpses of light and form that caught the eye, and sensations that precede words. By selecting and arranging a year's worth of photos, unexpected connections between landscapes emerge. However, what is captured in the photographs is not everything. There are also backgrounds unknown at the time of shooting and realities that were overlooked. This exhibition provides an opportunity to re-examine what is seen and what is unseen."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/2b0ad668/f194105c-2c8a-4a6d-9d89-28ec1d587fbe.jpg",
       "description": "11月28日（土）から12月13日（日）まで、熊本市のIso Booksにて、写真家・有村勇史の個展「BOTTLE NOSE」を開催します。本展では、2025年に撮影した写真をまとめたZINE「BOTTLE NOSE」から作品を選び展示します。普段の暮らしや遊びの延長で写された写真には、ふと目を留めた光や形、言葉になる前の感覚が残されています。一年の写真を選び並べることで、風景同士の思いがけないつながりが浮かび上がります。しかし、写真に写るものがすべてではありません。そこには、撮影時には知らなかった背景や、見過ごしていた現実もあります。本展は、見えるものと見えていないものを見つめ直す機会となります。",
       "medium": "photo",
@@ -111761,8 +111811,17 @@
       "id": "9d62b5a6b369",
       "source": "tokyo_art_beat",
       "title": "大木靖子 「夢幻を織る」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "오키 야스코 「몽환을 짜다」",
+          "description": "오키 씨는 떨어진 잎이나 꽃잎을 주워 핀홀 카메라로 촬영하는 '히토히라' 시리즈를 오랫동안 이어왔지만, 콤팩트 카메라를 손에 넣은 것을 계기로 살아있는 싱싱한 식물에 다가가 작품 제작을 시작했습니다. 수국 덤불에 숨어들고, 꽃받침 덩어리에 위에서 다가가며, 멀리서 바라보는 것과는 다른, 본 적 없는 모습을 찾아 동네에서 시작하여 산이나 대만 등 가는 곳마다 수국과 어울려 촬영합니다. 이번에는 수국 시리즈 최종장의 세 번째 작품입니다. 오키 씨는 작은 요정이 수국에서 장난치고, 숨어들거나 쉬고, 꽃받침을 통해 하늘을 올려다본 풍경으로 엮어내는 이야기를 만들어냈습니다.\n\n[관련 이벤트]\n슬라이드쇼\n일시: 2026년 11월 27일, 11월 28일 18:00~\n장소: 루니 247 파인 아츠\n요금: 1000엔 (사전 신청 불필요)\n※이벤트 상세 내용은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Yasuko Oki \"Weaving Illusions\"",
+          "description": "Ms. Oki had long continued her \"Hitohira\" series, photographing fallen leaves and petals with a pinhole camera, but after acquiring a compact camera, she began creating works by focusing on fresh, living plants. She delves into hydrangea bushes, approaches clusters of sepals from above, and seeks out unseen forms that differ from those viewed from a distance, starting in her neighborhood and then photographing hydrangeas she encounters in mountains, Taiwan, and other destinations. This is the third installment in the final chapter of her hydrangea series. Ms. Oki has created a story woven from scenes of tiny fairies playing in hydrangeas, hiding, resting, and looking up at the sky through the sepals.\n\n[Related Events]\nSlideshow\nDate: November 27, 28, 2026, from 6:00 PM\nVenue: Roonee 247 Fine Arts\nAdmission: 1,000 yen (No advance registration required)\n*Please check the official website for event details."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/3c01e510/0328758d-d1db-41c9-b6a5-6f5186bea3ad.jpg",
       "description": "大木さんは落ちた葉や花びらを拾い針穴カメラで写す「ひとひら」シリーズを長く続けていましたが、コンパクトカメラを手に入れた事がきっかけで、生きている瑞々しい植物に迫って作品制作を始めました。紫陽花の茂みに潜り、ガクのかたまりに上から迫り、離れて眺めるのとは異なる、見たことのない姿を求めて、近所から始まり山や台湾など行く先々の紫陽花と戯れ写していく。今回は紫陽花シリーズの最終章の第三弾。小さな妖精が紫陽花で戯れ、潜ったり休んだり、ガクを透かして空を見上げた光景で織り成す物語を大木さんは作り上げました。\n\n[関連イベント]\nスライドショー\n日時: 2026年11月27日、11月28日18:00〜\n会場: ルーニィ 247 ファインアーツ\n料金: 1000円（事前申込み不要）\n※イベント詳細は公式ホームページよりご確認ください。",
       "medium": "gear",
@@ -111796,8 +111855,15 @@
         {
           "id": "99ce6cd507d8",
           "name": "大木靖子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오키 야스코"
+            },
+            "en": {
+              "name": "Yasuko Oki"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Yasuko-Oki-I-Weave-Ephemeral-Visions/6694-D683/2026-11-24",
@@ -111808,8 +111874,17 @@
       "id": "ea29043aeb69",
       "source": "tokyo_art_beat",
       "title": "安達ロベルト 「静寂と光のあいだ」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "아다치 로베르토 「정적과 빛 사이」",
+          "description": "아다치 씨는 올해 5월부터 6월까지 핀란드와 에스토니아에 머물렀습니다. 이 두 나라는 IT와 복지가 잘 갖춰져 있고 숲과 호수 등 자연이 넘쳐나는 이미지가 강한 북유럽 국가이지만, 다양한 나라에서 살듯이 여행했던 아다치 씨의 말에 따르면 두 나라 모두 정적과 빛으로 가득했다고 합니다. 본래 만날 수 없는 두 가지 사이에 무한한 그러데이션이 존재하는 것처럼 느껴졌다고 합니다. 사진작가, 작곡가, 화가 등 다방면에서 활발하게 활동하고 있는 아다치 씨. 이번에는 전시회장에서 이틀 연속 토크쇼도 진행합니다.\n\n[관련 이벤트]\n1. 토크 이벤트 \"행복의 나라에서 창의성을 업데이트하다 로베르토 씨의 핀란드 아트 저니\"\n일시: 2026년 11월 21일 18:00~\n등단자: 아다치 로베르토, 스기모리 카나코 (루니 247 파인 아츠)\n장소: 루니 247 파인 아츠\n요금: 1000엔 (사전 신청 필요)\n2. 토크 이벤트 \"직함을 버리는 예술: 미디어를 넘나들 때 보이는 표현의 본질\"\n일시: 2026년 11월 22일 13:00~\n등단자: 아다치 로베르토, 하야시 아카리 (루니 247 파인 아츠)\n장소: 루니 247 파인 아츠\n요금: 1000엔 (사전 신청 필요)\n※이벤트 상세 내용 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Roberto Adachi \"Between Silence and Light\"",
+          "description": "Mr. Adachi stayed in Finland and Estonia from May to June this year. These two countries are Nordic nations with a strong image of abundant nature, including forests and lakes, and well-developed IT and welfare systems. However, according to Mr. Adachi, who traveled as if living in various countries, both nations were filled with silence and light. He felt as if an infinite gradation existed between two things that were not meant to intersect. Mr. Adachi is actively involved in various fields as a photographer, composer, and painter. This time, he will also hold a two-day talk show at the exhibition venue.\n\n[Related Events]\n1. Talk Event: \"Updating Creativity in the Land of Happiness: Roberto's Finland Art Journey\"\nDate: November 21, 2026, from 6:00 PM\nSpeakers: Roberto Adachi, Kanako Sugimori (Roonee 247 Fine Arts)\nVenue: Roonee 247 Fine Arts\nAdmission: 1,000 yen (Advance registration required)\n2. Talk Event: \"Art of Discarding Titles: The Essence of Expression Revealed When Crossing Media\"\nDate: November 22, 2026, from 1:00 PM\nSpeakers: Roberto Adachi, Akari Hayashi (Roonee 247 Fine Arts)\nVenue: Roonee 247 Fine Arts\nAdmission: 1,000 yen (Advance registration required)\n*Please check the official website for event details and registration methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/8dc94e04/ccdf91b8-abb1-444e-889b-299efea5b3d4.jpg",
       "description": "安達さんは今年の5月から6月に、フィンランドとエストニアに滞在しました。この二つの国はITや福祉が充実し、森や湖などの自然が溢れるイメージが強い北欧の国ですが、様々な国に暮らすように旅をした安達さん曰く、どちらの国も静寂と光に満ちていたそうです。本来交わるはずのない二つの間に、無限のグラデーションが存在するように思えた。と。写真家、作曲家、画家と多方面で精力的に活躍している安達さん。今回は展覧会会場で2日連続トークショーも行います。\n\n[関連イベント]\n1. トークイベント「幸福の国で創造性をアップデートする ロベルトさんのフィンランド アートジャーニー」\n日時: 2026年11月21日18:00〜\n登壇者: 安達ロベルト、杉守加奈子（ルーニィ 247 ファインアーツ）\n会場: ルーニィ 247 ファインアーツ\n料金: 1000円（要事前申込み）\n2. トークイベント「肩書を捨てるアート：メディアを横断したときに見えてくる表現の本質」\n日時: 2026年11月22日13:00〜\n登壇者: 安達ロベルト、林朱里（ルーニィ 247 ファインアーツ）\n会場: ルーニィ 247 ファインアーツ\n料金: 1000円（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -111843,8 +111918,15 @@
         {
           "id": "b34323f109ca",
           "name": "安達ロベルト",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "아다치 로베르토"
+            },
+            "en": {
+              "name": "Roberto Adachi"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Adachi-Robert-Between-Silence-and-Light/6694-D683/2026-11-18",
@@ -111855,8 +111937,17 @@
       "id": "5a9484a9dd5c",
       "source": "tokyo_art_beat",
       "title": "「オープン・スタジオ 2026-2027/ 11月」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「오픈 스튜디오 2026-2027/ 11월」",
+          "description": "도쿄 아츠 앤 스페이스 (TOKAS)에서는 2006년부터 다양한 분야에서 활동하는 크리에이터에게 체류 제작 기회를 제공하는 레지던시 프로그램을 운영하고 있습니다. TOKAS 레지던시에서는 체류 크리에이터의 제작 및 리서치 과정을 전시·공개하는 「오픈 스튜디오 2026-2027/ 11월」을 11/13(금)~11/15(일) 3일간 개최합니다. 11/14(토), 11/15(일)에는 크리에이터 본인이 직접 작품과 도쿄에서의 제작, 리서치에 대한 토크를 진행합니다. 또한 전시 기간 중에는 스태프가 각 크리에이터의 공간에서 체류 중 활동 및 전시 작품의 볼거리를 일본어로 소개하는 갤러리 투어를 실시합니다. 많은 참여 바랍니다."
+        },
+        "en": {
+          "title": "\"Open Studio 2026-2027/ November\"",
+          "description": "Tokyo Arts and Space (TOKAS) has been running a residency program since 2006, offering creators active in various fields the opportunity for residency-based production. TOKAS Residency will hold \"Open Studio 2026-2027/ November,\" an exhibition and public display of the creative and research processes of resident creators, for three days from November 13 (Fri) to November 15 (Sun). On November 14 (Sat) and November 15 (Sun), creators themselves will give talks about their works, their production in Tokyo, and their research. Additionally, during the exhibition period, staff will conduct gallery tours in Japanese at each creator's space, introducing their activities during their stay and highlights of their exhibited works. We encourage you to participate."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/e3b80664/f1370c85-4751-4516-84a3-d054b22060d9.jpg",
       "description": "トーキョーアーツアンドスペース（TOKAS）では、2006年よりさまざまな分野で活動するクリエーターへ滞在制作の機会を提供するレジデンス・プログラムを実施しています。TOKASレジデンシーでは、滞在するクリエーターの制作やリサーチの過程を展示・公開する「オープン・スタジオ 2026-2027/ 11月」を11/13（金）～11/15（日）の3日間開催いたします。11/14（土）、11/15（日）には、クリエーター自身による作品や東京での制作、リサーチについてのトークを行います。また会期中は、スタッフが各クリエーターのスペースにて滞在中の活動や展示作品の見どころを日本語で紹介するギャラリーツアーを実施します。ぜひご参加ください。",
       "medium": "mixed",
@@ -111890,62 +111981,132 @@
         {
           "id": "2c4088c3d38c",
           "name": "ヴァジコ・チャッキアーニ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "바지코 차키아니"
+            },
+            "en": {
+              "name": "Vaziko Chakiani"
+            }
+          }
         },
         {
           "id": "c6ffb6aea351",
           "name": "キム・キド",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "김기도"
+            },
+            "en": {
+              "name": "Kim Kido"
+            }
+          }
         },
         {
           "id": "91483ada26fe",
           "name": "キャサリン・ボール",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "캐서린 볼"
+            },
+            "en": {
+              "name": "Catherine Ball"
+            }
+          }
         },
         {
           "id": "e5844b88ae8d",
           "name": "パトリック・ホック",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "패트릭 호크"
+            },
+            "en": {
+              "name": "Patrick Hock"
+            }
+          }
         },
         {
           "id": "ebdb10edf8fe",
           "name": "バラン・チャギンリ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "바란 차긴리"
+            },
+            "en": {
+              "name": "Baran Chaginri"
+            }
+          }
         },
         {
           "id": "f38e7b959a86",
           "name": "タイ・ハ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "타이 하"
+            },
+            "en": {
+              "name": "Tai Ha"
+            }
+          }
         },
         {
           "id": "1a9be982030a",
           "name": "ポール・ハン",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "폴 한"
+            },
+            "en": {
+              "name": "Paul Han"
+            }
+          }
         },
         {
           "id": "8fe4eb9cd25c",
           "name": "田凱",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "톈카이"
+            },
+            "en": {
+              "name": "Tian Kai"
+            }
+          }
         },
         {
           "id": "396d6b1dba9f",
           "name": "Chico Dub",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "치코 덥"
+            },
+            "ja": {
+              "name": "チコ・ダブ"
+            }
+          }
         },
         {
           "id": "3a31441dcd61",
           "name": "陳亮融",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "천량룽"
+            },
+            "en": {
+              "name": "Chen Liangrong"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Open-Studio-2026-2027-November/BECBA25-F/2026-11-13",
@@ -111956,8 +112117,15 @@
       "id": "ecef0e4c9a32",
       "source": "tokyo_art_beat",
       "title": "「ラグーンオータム」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「라군 오텀」"
+        },
+        "en": {
+          "title": "“Lagoon Autumn”"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/0895fc9a/921ed1de-ad04-4ef2-a09d-d86c7830a15f.png",
       "description": null,
       "medium": "mixed",
@@ -111973,8 +112141,15 @@
       "venue": {
         "id": "fa72be04ed49",
         "name": "LOOPHOLE",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "LOOPHOLE"
+          },
+          "ja": {
+            "name": "LOOPHOLE"
+          }
+        },
         "region": "武蔵野、多摩",
         "district": null,
         "lat": 35.67305,
@@ -111984,20 +112159,41 @@
         {
           "id": "d8a9bdfd1f02",
           "name": "岩尾恵都子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이와오 케이코"
+            },
+            "en": {
+              "name": "Iwao Keiko"
+            }
+          }
         },
         {
           "id": "4a331587c17e",
           "name": "佐藤純也",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사토 준야"
+            },
+            "en": {
+              "name": "Jun'ya Sato"
+            }
+          }
         },
         {
           "id": "cead44bbe39f",
           "name": "木村俊幸",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "기무라 토시유키"
+            },
+            "en": {
+              "name": "Toshiyuki Kimura"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Lagoon-Autumn/5-F8-FC906/2026-11-21",
@@ -112008,8 +112204,17 @@
       "id": "fa230469fd7b",
       "source": "tokyo_art_beat",
       "title": "岡田美波 「sweaty bangs」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "오카다 미나미 「sweaty bangs」",
+          "description": "사진 작품 전시 및 판매, ZINE “sweaty bangs”, 아티스트 오리지널 굿즈 판매를 진행합니다. 오카다 미나미가 바라보는 일상의 부드러운 시점을 즐겨주세요."
+        },
+        "en": {
+          "title": "Minami Okada “sweaty bangs”",
+          "description": "Photographic works will be exhibited and sold, along with the ZINE “sweaty bangs” and artist original goods. Please enjoy Minami Okada's gentle perspective on everyday life."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/a42b72dd/d8680b93-79e4-406d-aac8-6f94ff164d3d.png",
       "description": "写真作品の展示販売、ZINE “sweaty bangs”、アーティストオリジナルグッズの販売を行います。岡田美波の見る日常の柔らかな視点をお楽しみください。",
       "medium": "photo",
@@ -112025,8 +112230,15 @@
       "venue": {
         "id": "ef9e2538c03c",
         "name": "myoji vintage",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "myoji vintage"
+          },
+          "ja": {
+            "name": "myoji vintage"
+          }
+        },
         "region": "東京：その他",
         "district": null,
         "lat": 35.76321483093248,
@@ -112036,8 +112248,15 @@
         {
           "id": "1c77e650ee39",
           "name": "岡田美波",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오카다 미나미"
+            },
+            "en": {
+              "name": "Minami Okada"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Minami-Okada-Sweaty-Bangs/myoji-vintage/2026-11-13",
@@ -112048,8 +112267,17 @@
       "id": "34f9ab83f603",
       "source": "tokyo_art_beat",
       "title": "ヘラルト・ペトルス・フィーレット 「Raw Art on Paper by G. P. Fieret」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "헤라르트 페트루스 피어렛 「Raw Art on Paper by G. P. Fieret」",
+          "description": "이번에 POST는 네덜란드 사진작가 헤라르트 페트루스 피어렛(Gerard Petrus Fieret, 1924–2009)의 빈티지 젤라틴 실버 프린트 36점으로 구성된 전시회 「Raw Art on Paper by G. P. Fieret」를 개최합니다. 본 전시는 2026년 네덜란드의 Van Zoetendaal Publishers에서 출간된 동명의 사진집에 맞춰 기획되었으며, 피어렛의 오리지널 프린트를 대규모로 소개하는 일본에서는 귀중한 기회가 될 것입니다.\n\n출품작은 모두 1965년부터 1975년 사이에 촬영 및 인화된 젤라틴 실버 프린트입니다. 18×24cm부터 50×60cm까지 총 36점으로, 프린트 표면에는 작가 본인의 서명과 「COPYRIGHT GERRIT PETRUS FIERET」 스탬프가 때로는 같은 프린트에 7번이나 찍혀 있습니다. 젊은 여성, 길거리에서 노는 아이들, 헤이그의 거리 풍경, 작업실 벽, 늙은 개, 그리고 작가 자신. 이 모든 것은 피어렛의 일상 속에 있던 것들입니다. 거친 입자, 초점 흐림, 과다 노출, 솔라리제이션, 손상된 네거티브 필름으로 인화된 사진. 사진의 '실패'로 여겨져 온 요소들을 피어렛은 그대로 작품에 담아냈습니다. 사진집 편집자 빌렘 판 주텐달(Willem van Zoetendaal)이 제목으로 내세운 「Raw Art on Paper (종이 위의 날것의 예술)」이라는 말은 그의 이러한 태도를 간결하게 표현합니다. 본 전시에서는 액자에 담긴 프린트를 벽면에 전시하여, 사진집 지면으로는 전달하기 어려운 종이의 질감, 스탬프 잉크의 농담, 프린트마다 다른 손의 흔적을 가까이에서 보실 수 있습니다.\n\n헤라르트 페트루스 피어렛은 1924년 네덜란드 헤이그에서 태어났습니다. 시인이자 드로잉 작가이기도 했던 그가 사진에 집중한 것은 1965년부터 1975년까지 약 10년간입니다. 헤이그의 작업실을 거점으로 프락티카(Praktica) SLR 카메라를 들고 도시와 사람들을 계속 촬영했으며, 현상부터 인화까지 직접 했습니다. 자신의 작품이 타인에게 유용되는 것을 강하게 경계하여, 프린트 표면에 여러 번 서명과 스탬프를 찍은 것은 그의 작품을 구별하는 가장 큰 특징이 되었습니다. 생전에는 사진계에서 널리 알려지지 않았고, 궁핍 속에서 말년을 보내다 2009년 85세의 나이로 사망했습니다. 재평가가 본격화된 것은 사후로, 2016년에는 파리의 르 발(Le BAL)에서 회고전이 열렸고, Atelier EXB(구 Éditions Xavier Barral)에서 297점을 수록한 592페이지 분량의 작품집이 출간되었습니다. 그리고 2026년에는 본 전시의 계기가 된 사진집 『Raw Art on Paper by G.P. Fieret』가 Van Zoetendaal Publishers에서 출판되었습니다. 현재는 전후 네덜란드 미술을 대표하는 사진작가 중 한 명으로, 또한 아웃사이더 아트의 맥락에서도 논의되고 있습니다.\n\n전시장에서는 사진집 『Raw Art on Paper by G.P. Fieret』(Van Zoetendaal Publishers, 2026년)을 판매합니다. 컬렉터 요하네스 로스(Johannes Roos)가 소장한 약 300점의 프린트 중에서 편집자 빌렘 판 주텐달이 선정한 작품들을 여성, 도시, 어린이, 동물, 자화상이라는 주제별로 엮은 책입니다. 서문은 사진 평론가 프란체스코 자노트(Francesco Zanot)가 담당했으며, 출품작의 대부분이 이 책에 수록되어 있습니다. 또한, 사진집의 편집과 디자인을 맡았던 빌렘 판 주텐달이 본 전시를 위해 디자인한 포스터와 엽서를 제작하여 현장에서 판매합니다. 모두 사진집 인쇄 색조를 기준으로 일본에서 인쇄되었습니다."
+        },
+        "en": {
+          "title": "Gerard Petrus Fieret “Raw Art on Paper by G. P. Fieret”",
+          "description": "POST is pleased to present \"Raw Art on Paper by G. P. Fieret,\" an exhibition featuring 36 vintage gelatin silver prints by Dutch photographer Gerard Petrus Fieret (1924–2009). This exhibition was planned in conjunction with the photo book of the same name, published by Van Zoetendaal Publishers in the Netherlands in 2026, and represents a rare opportunity in Japan to showcase Fieret's original prints on a substantial scale.\n\nAll exhibited works are gelatin silver prints taken and printed between 1965 and 1975. There are 36 pieces, ranging from 18×24cm to 50×60cm. The surface of each print bears the artist's own signature and the stamp \"COPYRIGHT GERRIT PETRUS FIERET,\" sometimes pressed up to seven times on the same print. Young women, children playing in the streets, the cityscape of The Hague, studio walls, an old dog, and the artist himself—all were part of Fieret's daily life. Grainy textures, out-of-focus shots, overexposure, solarization, and prints from damaged negatives: Fieret incorporated these elements, often considered \"failures\" in photography, directly into his work. The phrase \"Raw Art on Paper,\" used by Willem van Zoetendaal, the editor of the photo book, succinctly expresses this approach. In this exhibition, framed prints will be displayed on the walls, allowing visitors to closely examine the paper texture, the nuances of the stamp ink, and the unique hand traces on each print, which are difficult to convey on the pages of a photo book.\n\nGerard Petrus Fieret was born in The Hague, Netherlands, in 1924. A poet and draftsman, he focused on photography for approximately ten years, from 1965 to 1975. Based in his studio in The Hague, he continuously photographed the city and its people with a Praktica SLR camera, handling everything from developing to printing himself. His strong vigilance against others appropriating his work led him to repeatedly sign and stamp the surface of his prints, which became a defining characteristic of his art. During his lifetime, he was not widely known in the photography world and spent his later years in poverty, passing away in 2009 at the age of 85. His re-evaluation began in earnest after his death; in 2016, a retrospective was held at Le BAL in Paris, and a 592-page catalog featuring 297 works was published by Atelier EXB (formerly Éditions Xavier Barral). In 2026, the photo book \"Raw Art on Paper by G.P. Fieret,\" which inspired this exhibition, was published by Van Zoetendaal Publishers. Today, he is recognized as one of the leading photographers of post-war Dutch art and is also discussed within the context of outsider art.\n\nThe photo book \"Raw Art on Paper by G.P. Fieret\" (Van Zoetendaal Publishers, 2026) will be available for purchase at the venue. This book compiles works selected by editor Willem van Zoetendaal from approximately 300 prints owned by collector Johannes Roos, organized by themes such as women, city, children, animals, and self-portraits. The preface was written by photography critic Francesco Zanot, and many of the exhibited works are included in this book. Additionally, Willem van Zoetendaal, who handled the editing and design of the photo book, has created posters and postcards designed specifically for this exhibition, which will also be sold at the venue. Both are printed in Japan, based on the color tones of the photo book's printing."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/fc0691c0/55f080c2-de97-4a06-a05b-4a98d1a9859a.jpg",
       "description": "この度POSTは、オランダの写真家ヘラルト・ペトルス・フィーレット（Gerard Petrus Fieret, 1924–2009）のヴィンテージ・ゼラチンシルバープリント36点による展覧会「Raw Art on Paper by G. P. Fieret」を開催いたします。本展は、2026年にオランダのVan Zoetendaal Publishersから刊行された同名の写真集にあわせて企画されたもので、フィーレットのオリジナルプリントをまとまった規模で紹介する日本では貴重な機会となります。\n\n出品作はすべて1965年から1975年のあいだに撮影・プリントされたゼラチンシルバープリントです。18×24cmから50×60cmまでの36点で、プリントの表面には作家自身の署名と「COPYRIGHT GERRIT PETRUS FIERET」のスタンプが、ときに同じプリントに7回も押されています。若い女性、路上で遊ぶ子どもたち、ハーグの街並み、アトリエの壁、年老いた犬、そして作家自身。いずれも、フィーレットの日々の暮らしのなかにあったものです。粒子の荒れ、ピンボケ、露出過多、ソラリゼーション、傷んだネガからのプリント。写真の「失敗」とされてきた要素を、フィーレットはそのまま作品に取り込みました。写真集の編者ウィレム・ファン・ズーテンダール（Willem van Zoetendaal）がタイトルに掲げた「Raw Art on Paper（紙の上の生の芸術）」という言葉は、その姿勢を端的に言い表しています。本展では額装したプリントを壁面に展示し、写真集の誌面では伝わりにくい紙の質感、スタンプのインクの濃淡、プリントごとに異なる手の痕跡を間近で見ていただけます。\n\nヘラルト・ペトルス・フィーレットは1924年、オランダのハーグに生まれました。詩人でもあり、デッサンも手がけた彼が写真に集中したのは、1965年から1975年までのおよそ10年間です。ハーグのアトリエを拠点に、プラクチカ（Praktica）の一眼レフを手に街と人を撮り続け、現像から焼き付けまでを自ら行いました。自分の作品が他人に流用されることを強く警戒し、プリントの表面に何度も署名とスタンプを押したことは、彼の作品を見分ける最大の特徴になっています。生前は写真界で広く知られることはなく、困窮のなかで晩年を過ごし、2009年に85歳で亡くなりました。再評価が本格化したのは没後で、2016年にはパリのル・バル（Le BAL）で回顧展が開かれ、Atelier EXB（旧Éditions Xavier Barral）から297点を収めた592ページの作品集が刊行されました。そして2026年には、本展のきっかけとなった写真集『Raw Art on Paper by G.P. Fieret』がVan Zoetendaal Publishersから出版されています。現在では戦後オランダ美術を代表する写真家の一人として、またアウトサイダー・アートの文脈からも論じられています。\n\n会場では、写真集『Raw Art on Paper by G.P. Fieret』（Van Zoetendaal Publishers、2026年）を販売します。コレクターのヨハネス・ロース（Johannes Roos）が所蔵する約300点のプリントから編者ウィレム・ファン・ズーテンダールが選んだ作品を、女性、街、子ども、動物、自画像という主題ごとに編んだ一冊です。序文は写真評論家のフランチェスコ・ザノット（Francesco Zanot）が担当し、出品作の多くがこの本に収録されています。あわせて、写真集の編集とデザインを手がけたウィレム・ファン・ズーテンダールが本展のためにデザインしたポスターとポストカードを制作し、会場で販売します。いずれも写真集の印刷の色調を基準に、日本で印刷しています。",
       "medium": "photo",
@@ -112083,8 +112311,15 @@
         {
           "id": "e580cf3e29a0",
           "name": "ヘラルト・ペトルス・フィーレット",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "헤라르트 페트루스 피레트"
+            },
+            "en": {
+              "name": "Gerardus Petrus Villet"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Gerard-Petrus-Fieret-Raw-Art-on-Paper-by-G-P-Fieret/5-E11-D075/2026-11-13",
@@ -112095,8 +112330,17 @@
       "id": "d5b28f8ceb25",
       "source": "tokyo_art_beat",
       "title": "「写真術の系譜―初期写真技法から実験的オルタナティブへ―」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "사진술의 계보―초기 사진 기법부터 실험적 얼터너티브까지―",
+          "description": "본 전시는 19세기에 탄생한 초기 사진술부터 현대의 새로운 표현 수단으로 주목받는 '얼터너티브 프로세스(대체 기법)'까지를 포괄적으로 소개하는 전시회입니다. 사진사의 진전과 나란히 하며 서로 영향을 주고받으며 발전해 온 다채로운 사진술의 변천사를 따라가며, 각 시대를 수놓고 시각 표현의 지평을 열어온 수많은 명작들을 소개합니다. 현재 일상생활부터 예술 현장에 이르기까지 잉크젯이나 레이저 노광에 의한 디지털 프린트가 주류를 이루고 있습니다. 그러나 한편으로는 수작업에 의한 얼터너티브 프로세스는 고해상도 디지털 네거티브를 인화지에 인화하는 하이브리드 기법을 도입함으로써 현대 사진에서 매우 중요한 표현 기법으로서 그 가능성을 확대하고 있습니다. 본 전시의 도입부에서는 현대 얼터너티브 프로세스 사진을 이끄는 연구자 마이크 웨어의 작품을 다룹니다. 치밀한 화학적 탐구와 예술적 감성이 결실을 맺은 작품들은 과학과 예술의 융합이 얼마나 풍부한 시각적 경험을 선사하는지를 보여줍니다.\n\n이어지는 섹션에서는 사진사 여명기를 전하는 귀중한 작품들이 나란히 전시됩니다. 거울 같은 은판에 이미지를 정착시킨 다게레오타입(은판 사진)의 신비로운 빛을 비롯해, 외젠 앗제가 파리 거리를 포착한 알부민(계란지) 프린트, 에드워드 커티스의 오로톤, 에드워드 스타이켄의 포토그라뷰어, 어빙 펜의 플래티넘 팔라듐 프린트 등 거장들의 명작들을 전시합니다. 각 기법이 지닌 고유한 톤과 물질적 깊이, 빛을 포착하는 방식의 차이를 비교해 볼 수 있습니다. 나아가 야스이 나카지, 우메사카 오리, 노먼 록스, 피에르 코르디에 등 사진의 경계를 과감하게 확장하려 했던 국내외 작가들의 실험적 접근을 소개하고, 이를 현대의 최신 사진술로 연결합니다. 초기부터 현대에 이르는 사진술의 특징과 변천사를 따라가며, 앞으로의 새로운 사진의 미래를 상상하는 계기가 되기를 바라며 본 전시를 구성했습니다. 한 장 한 장에 담긴 빛과 물질의 기억, 그리고 작가들의 끊임없는 탐구의 궤적을 꼭 감상해 주시기 바랍니다.\n\n[관련 이벤트]\n'마이크 웨어의 사이데로타입'\n일시: 2026년 11월 23일 18:00~\n등단자: 로버트 풀, 프라딥 말데 외 (일본어 자막 제공)\n장소: 온라인\n요금: 무료 (사전 신청 필수)\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "The Genealogy of Photography: From Early Photographic Techniques to Experimental Alternatives",
+          "description": "This exhibition comprehensively introduces photographic techniques, from early photography born in the 19th century to \"alternative processes (alternative techniques),\" which are gaining attention as new means of expression in contemporary times. We trace the evolution of diverse photographic techniques that have developed in parallel with the progress of photographic history, influencing each other, and present numerous masterpieces that have adorned each era and opened up new horizons for visual expression. Currently, digital prints using inkjet and laser exposure are mainstream, from daily life to artistic fields. However, alternative processes, created through manual work, are expanding their possibilities as extremely important expressive techniques in contemporary photography by incorporating hybrid methods such as printing high-resolution digital negatives onto photographic paper. The introduction to this exhibition features works by Mike Ware, a researcher who leads contemporary alternative process photography. His collection of works, which are the culmination of meticulous chemical exploration and artistic sensibility, demonstrates how the fusion of science and art can bring about rich visual experiences.\n\nThe following section features a valuable collection of works that convey the dawn of photographic history. We will exhibit masterpieces by masters such as the mysterious glow of Daguerreotypes (silver plate photography), which fixed images onto mirror-like silver plates; Eugène Atget's albumen prints capturing the streets of Paris; Edward Curtis's Orotones; Edward Steichen's photogravures; and Irving Penn's platinum palladium prints. You can compare the unique tones, material depth, and differences in how light is captured by each technique. Furthermore, we introduce experimental approaches by domestic and international artists who boldly sought to expand the boundaries of photography, including Yasui Nakaji, Umesaka Ōri, Norman Locks, and Pierre Cordier, connecting them to the latest contemporary photographic techniques. We have structured this exhibition with the hope that by tracing the characteristics and evolution of photographic techniques from their early days to the present, it will serve as an opportunity to imagine the new future of photography. Please enjoy the memories of light and material embedded in each piece, and the trajectory of the artists' relentless pursuit.\n\n[Related Events]\n\"Mike Ware’s Siderotype\"\nDate: November 23, 2026, 18:00~\nSpeakers: Robert Poole, Pradip Malde, and others (with Japanese subtitles)\nVenue: Online\nFee: Free (pre-registration required)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/2ed28468/05285c77-46bb-40cb-ae03-faee104f8c0e.jpg",
       "description": "本展は、19世紀に誕生した初期写真術から、現代の新たな表現手段として注目される「オルタナティブプロセス（代替的技法）」までを包括的に紹介する展覧会です。写真史の進展と並走し、互いに影響を与え合いながら発展した多種多様な写真術の変遷をたどり、各時代を彩り視覚表現の地平を切り開いてきた名作の数々をご紹介します。現在、日常から芸術の現場に至るまで、インクジェットやレーザー露光によるデジタルプリントが主流となっています。しかしその一方で、手仕事によるオルタナティブプロセスは、高精細なデジタルネガから印画紙に焼き付けるといったハイブリッドな手法を取り入れることで、現代写真における極めて重要な表現技法としてその可能性を拡大しています。本展の導入では、現代のオルタナティブプロセス写真を牽引する研究者、マイク・ウェアの作品を取り上げます。緻密な化学的探求と芸術的感性が結実した作品群は、科学とアートの融合がいかに豊かな視覚体験をもたらすかを物語っています。\n\n続くセクションでは、写真史の黎明期を伝える貴重な作品群が並びます。鏡のような銀板に像を定着させたダゲレオタイプ（銀板写真）の神秘的な輝きをはじめ、ウジェーヌ・アジェがパリの街並みを捉えたアルビューメン（鶏卵紙）プリント、エドワード・カーティスのオロトーン、エドワード・スタイケンのフォトグラヴュール、アーヴィング・ペンのプラチナパラジウムプリントといった巨匠たちの名作を展示いたします。それぞれの技法が持つ固有のトーンや物質的な深み、光の捉え方の違いを比較いただけます。さらにその先では、安井仲治や梅阪鶯里、ノーマン・ロックス、ピエール・コルディエら、写真の境界線を果敢に拡張しようとした国内外の作家による実験的アプローチを紹介し、現代の最新写真術へと繋ぎます。初期から現代にいたる写真術の特徴と変遷をたどり、これからの新たな写真の未来を想像する契機となることを願い、本展を構成いたしました。一枚一枚に込められた光と物質の記憶、そして作家たちのあくなき探求の軌跡をぜひご堪能ください。\n\n[関連イベント]\n「Mike Ware’s Siderotype」\n日時: 2026年11月23日18:00〜\n登壇者: Robert Poole、Pradip Malde他（日本語字幕あり）\n会場: オンライン\n料金: 無料（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
@@ -112135,8 +112379,17 @@
       "id": "109a91889d18",
       "source": "tokyo_art_beat",
       "title": "石川竜一 「よ」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "이시카와 류이치 「요」",
+          "description": "이번 PURPLE에서는 이시카와 류이치의 개인전 '요'를 개최합니다. 이시카와의 PURPLE 개인전은 2022년 'zk' 이후 약 4년 만입니다. 본 전시는 이시카와가 중요한 주제로 꾸준히 다뤄온 인물 사진의 최신 시리즈로 구성됩니다. 피사체 중 일부는 이시카와의 지인이지만, 대부분은 거리에서 스쳐 지나가다 말을 걸어 촬영한 사람들입니다. 촬영자에게도 감상자에게도 그 신원을 알 수 없는 사람들이 담겨 있습니다. 우리는 사진 속 인물을 보며 그 사람이 누구인지 알려고 합니다. 나이, 성별, 옷차림, 표정, 생활의 흔적에서 무언가를 읽어내고 그 사람을 이해하려 합니다. 그러나 아무리 선명하게 담겨 있어도 그 사람의 모든 것을 알 수는 없습니다. 오히려 보면 볼수록 그 존재는 생생하게 다가오면서 동시에 우리의 이해로는 다 담을 수 없는 타자로 나타납니다.\n\n이시카와는 이러한 경험을 생각하는 과정에서 주관적으로 경험되는 감각의 질인 '퀄리아'에 도달했습니다. 퀄리아는 빨강의 빨강다움, 통증의 아픔처럼 말이나 설명으로 환원될 수 없는 감각의 질을 의미합니다. 사진에 담긴 신체는 단순히 관찰되고 해석되는 대상이 아닙니다. 피부의 질감, 신체의 긴장, 시선의 강렬함. 그것들은 말로 표현되기 전에 보는 이의 지각에 작용합니다. 우리는 타자를 완전히 알 수는 없습니다. 그럼에도 불구하고 그 사람이 분명히 존재한다는 것을 강하게 느낄 수 있습니다. 전시 제목 '요'는 논리학에서 존재를 나타내는 기호 '∃'(Exist의 첫 글자인 E를 뒤집은 것)에서 유래합니다. 올해 출간된 동명의 사진집과 함께 이시카와는 이 기호를 '요'라고 읽습니다. 그리고 자신의 말로 이렇게 이야기합니다. '사진의 핵심은 무엇이 찍혔는가가 아니라, '여전히 거기에 있는 것'. 말로는 다 할 수 없고, 의미로 환원되지 않으며, 그럼에도 불구하고 분명히 나타나 있는 현상—그것이야말로 '∃(요)'이다.' 타자를 알려고 하는 것과, 다 알 수 없는 존재를 만나는 것. 그 양쪽을 받아들이면서 이시카와는 사진을 계속 찍고 있습니다. 사진과 존재의 관계를 재고하는 새로운 시도를 본 전시를 통해 보실 수 있기를 바랍니다.\n\n[관련 이벤트]\n아카카샤 20주년 기념 슬라이드쇼 @ PURPLE & 교토대 문학연구과 분코모\n일시: 2026년 11월 8일 17:00~\n등단자: 이시카와 류이치, 아사다 마사시, 아카시카 마야, 킨 사지, 다이도 쿄다이\n장소: 교토대학교 문학연구과 분코모\n요금: 2200엔 (사전 신청 필수)\n※이벤트 상세 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Ishikawa Ryuichi 'Yo'",
+          "description": "PURPLE is pleased to present Ryuichi Ishikawa's solo exhibition \"Yo.\" This marks Ishikawa's first solo exhibition at PURPLE in approximately four years, since \"zk\" in 2022. This exhibition features Ishikawa's latest series of portraits, a theme he has continuously explored as a significant subject. While some of the subjects are Ishikawa's acquaintances, many are people he encountered on the street, approached, and photographed. For both the photographer and the viewer, these are individuals whose identities are unknown. We look at the people in the photographs and try to understand who they are. We attempt to decipher something from their age, gender, attire, expressions, and traces of their lives to comprehend them. However, no matter how clearly they are depicted, we cannot know everything about them. Rather, the more we look, the more vividly their presence asserts itself, simultaneously emerging as an 'other' that cannot be fully contained by our understanding.\n\nIn contemplating these experiences, Ishikawa arrived at \"qualia,\" the subjective quality of sensory experience. Qualia refers to the quality of sensation that cannot be reduced to words or explanations, such as the redness of red or the painfulness of pain. The bodies captured in photographs are not merely objects to be observed and interpreted. The texture of the skin, the tension of the body, the intensity of the gaze—these act upon the viewer's perception even before they can be put into words. We cannot fully know others. Yet, we can strongly feel that they undeniably exist. The exhibition title \"Yo\" is derived from the symbol \"∃\" (an inverted E, the first letter of Exist) which represents existence in logic. Along with the photo book of the same name published this year, Ishikawa reads this symbol as \"Yo.\" He states in his own words: \"The essence of photography is not what is captured, but 'that which is still there.' An appearance that cannot be exhausted by words, cannot be reduced to meaning, yet undeniably manifests—that is '∃ (Yo).\" Ishikawa continues to take photographs, embracing both the attempt to know others and the encounter with an existence that cannot be fully known. We hope you will experience this new endeavor to re-examine the relationship between photography and existence through this exhibition.\n\n[Related Events]\nAkakasha 20th Anniversary Slideshow @ PURPLE & Kyoto University Graduate School of Letters Bunko-mo\nDate: November 8, 2026, 17:00~\nSpeakers: Ryuichi Ishikawa, Masashi Asada, Maya Akashika, Kin Saji, Daido Kyodai\nVenue: Kyoto University Graduate School of Letters Bunko-mo\nFee: 2200 JPY (pre-registration required)\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/4cfa7131/db39c438-9584-4871-acf5-dbc98ee89892.png",
       "description": "このたびPURPLEでは、石川竜一の個展「よ」を開催いたします。石川のPURPLEでの個展は、2022年の「zk」以来、約4年ぶりとなります。本展は、石川が重要なテーマとして取り組み続けてきたポートレートの最新シリーズで構成されます。被写体の一部は石川の知人ですが、多くは街ですれ違い、声をかけて撮影した人々です。撮影者にとっても鑑賞者にとっても、その素性を知らない人々が写し出されています。私たちは写真に写る人を見て、その人が誰であるのかを知ろうとします。年齢や性別、装い、表情、生活の痕跡から何かを読み取り、その人を理解しようとします。しかし、どれほど克明に写し出されていても、その人のすべてがわかるわけではありません。むしろ、見れば見るほど、その存在は生々しく迫ってくると同時に、私たちの理解には収まりきらない他者として立ち現れてきます。\n\n石川は、こうした経験を考えるなかで、主観的に経験される感覚の質「クオリア」へと辿り着きました。クオリアとは、赤の赤さ、痛みの痛さのように、言葉や説明には還元できない感覚の質を指します。写真に写る身体は、単に観察され、解釈される対象ではありません。皮膚の質感、身体の緊張、視線の強さ。それらは言葉になるよりも先に、見る者の知覚に働きかけてきます。私たちは他者を完全に知ることはできない。それでも、その人が確かに存在していることを、強く感じ取ることができるのです。展覧会タイトルの「よ」は、論理学で存在を表す記号「∃」（Existの頭文字であるEを反転させたもの）に由来します。本年刊行された同名の写真集とともに、石川はこの記号を「よ」と読んでいます。そして、自らの言葉でこう語ります。「写真の核心にあるものは、何が写っているかではなく、『なお、そこにあるもの』。言葉では尽くせず、意味へ還元されず、それでも確かに現れている現れ－それこそが『∃（よ）』である」他者を知ろうとすることと、知り尽くすことのできない存在に出会うこと。その両方を引き受けながら、石川は写真を撮り続けています。写真と存在の関係を問い直す新たな試みを、本展を通してご覧いただければ幸いです。\n\n[関連イベント]\n赤々舎20周年記念スライドショー@ PURPLE & 京大文学研究科ぶんこも\n日時: 2026年11月8日17:00〜\n登壇者: 石川竜一、浅田政志、赤鹿麻耶、金サジ、大道兄弟\n会場: 京都大学文学研究科ぶんこも\n料金: 2200円（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください",
       "medium": "photo",
@@ -112189,8 +112442,15 @@
       "id": "e2d634754c3f",
       "source": "tokyo_art_beat",
       "title": "渡部さとる 「Noctchrome」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "와타베 사토루 「Noctchrome」"
+        },
+        "en": {
+          "title": "Watabe Satoru 'Noctchrome'"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/b0a764ea/adb379c4-5b67-4fe9-be12-61d080b3beae.png",
       "description": null,
       "medium": "mixed",
@@ -112243,8 +112503,15 @@
       "id": "ee598fa8b8f4",
       "source": "tokyo_art_beat",
       "title": "山田淨二 「photograph L’Œuvre au Noir ー黒の過程ー」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "야마다 조지 「photograph L’Œuvre au Noir -검은 과정-」"
+        },
+        "en": {
+          "title": "Joji Yamada \"photograph L’Œuvre au Noir -The Process of Black-\""
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/1897a711/80b6c2e2-5a45-4ccd-baf3-dc7a46bc39f7.jpg",
       "description": null,
       "medium": "photo",
@@ -112278,8 +112545,15 @@
         {
           "id": "9eec23a31fe0",
           "name": "山田淨二",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "야마다 조지"
+            },
+            "en": {
+              "name": "Joji Yamada"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Johji-Yamada-Photograph-Luvre-au-Noir/gallery-solaris/2026-11-10",
@@ -124576,8 +124850,15 @@
     {
       "id": "743d46ac336d",
       "name": "T.T 御所南",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "T.T 고쇼미나미"
+        },
+        "en": {
+          "name": "T.T Gosho-Minami"
+        }
+      },
       "venue_type": "other",
       "region": "京都府",
       "district": null,
@@ -124590,8 +124871,15 @@
     {
       "id": "fa72be04ed49",
       "name": "LOOPHOLE",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "LOOPHOLE"
+        },
+        "ja": {
+          "name": "LOOPHOLE"
+        }
+      },
       "venue_type": "other",
       "region": "武蔵野、多摩",
       "district": null,
@@ -124604,8 +124892,15 @@
     {
       "id": "ef9e2538c03c",
       "name": "myoji vintage",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "myoji vintage"
+        },
+        "ja": {
+          "name": "myoji vintage"
+        }
+      },
       "venue_type": "other",
       "region": "東京：その他",
       "district": null,
@@ -157235,116 +157530,249 @@
     {
       "id": "950604d32b6f",
       "name": "高橋万里子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "다카하시 마리코"
+        },
+        "en": {
+          "name": "Mariko Takahashi"
+        }
+      }
     },
     {
       "id": "99ce6cd507d8",
       "name": "大木靖子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오키 야스코"
+        },
+        "en": {
+          "name": "Yasuko Oki"
+        }
+      }
     },
     {
       "id": "b34323f109ca",
       "name": "安達ロベルト",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "아다치 로베르토"
+        },
+        "en": {
+          "name": "Roberto Adachi"
+        }
+      }
     },
     {
       "id": "2c4088c3d38c",
       "name": "ヴァジコ・チャッキアーニ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "바지코 차키아니"
+        },
+        "en": {
+          "name": "Vaziko Chakiani"
+        }
+      }
     },
     {
       "id": "c6ffb6aea351",
       "name": "キム・キド",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "김기도"
+        },
+        "en": {
+          "name": "Kim Kido"
+        }
+      }
     },
     {
       "id": "91483ada26fe",
       "name": "キャサリン・ボール",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "캐서린 볼"
+        },
+        "en": {
+          "name": "Catherine Ball"
+        }
+      }
     },
     {
       "id": "e5844b88ae8d",
       "name": "パトリック・ホック",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "패트릭 호크"
+        },
+        "en": {
+          "name": "Patrick Hock"
+        }
+      }
     },
     {
       "id": "ebdb10edf8fe",
       "name": "バラン・チャギンリ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "바란 차긴리"
+        },
+        "en": {
+          "name": "Baran Chaginri"
+        }
+      }
     },
     {
       "id": "f38e7b959a86",
       "name": "タイ・ハ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "타이 하"
+        },
+        "en": {
+          "name": "Tai Ha"
+        }
+      }
     },
     {
       "id": "1a9be982030a",
       "name": "ポール・ハン",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "폴 한"
+        },
+        "en": {
+          "name": "Paul Han"
+        }
+      }
     },
     {
       "id": "8fe4eb9cd25c",
       "name": "田凱",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "톈카이"
+        },
+        "en": {
+          "name": "Tian Kai"
+        }
+      }
     },
     {
       "id": "396d6b1dba9f",
       "name": "Chico Dub",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "치코 덥"
+        },
+        "ja": {
+          "name": "チコ・ダブ"
+        }
+      }
     },
     {
       "id": "3a31441dcd61",
       "name": "陳亮融",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "천량룽"
+        },
+        "en": {
+          "name": "Chen Liangrong"
+        }
+      }
     },
     {
       "id": "d8a9bdfd1f02",
       "name": "岩尾恵都子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이와오 케이코"
+        },
+        "en": {
+          "name": "Iwao Keiko"
+        }
+      }
     },
     {
       "id": "4a331587c17e",
       "name": "佐藤純也",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "사토 준야"
+        },
+        "en": {
+          "name": "Jun'ya Sato"
+        }
+      }
     },
     {
       "id": "cead44bbe39f",
       "name": "木村俊幸",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "기무라 토시유키"
+        },
+        "en": {
+          "name": "Toshiyuki Kimura"
+        }
+      }
     },
     {
       "id": "1c77e650ee39",
       "name": "岡田美波",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오카다 미나미"
+        },
+        "en": {
+          "name": "Minami Okada"
+        }
+      }
     },
     {
       "id": "e580cf3e29a0",
       "name": "ヘラルト・ペトルス・フィーレット",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "헤라르트 페트루스 피레트"
+        },
+        "en": {
+          "name": "Gerardus Petrus Villet"
+        }
+      }
     },
     {
       "id": "9eec23a31fe0",
       "name": "山田淨二",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "야마다 조지"
+        },
+        "en": {
+          "name": "Joji Yamada"
+        }
+      }
     }
   ]
 }
