@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T23:47:47.703152+00:00",
+  "generated_at": "2026-11-06T00:10:34.745275+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -112564,8 +112564,17 @@
       "id": "3f6428bd5567",
       "source": "canon_gallery",
       "title": "세상을 담다, 결국 나를 닮다. <EOS R8 Mark II>",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "Capturing the world, ultimately resembling myself. <EOS R8 Mark II>",
+          "description": "Exhibition Introduction | Capturing the world, ultimately reflecting myself. As a means of proving myself and a tool for recording love. Or as a friend who gives me courage to broaden my world. For some, as a language that conveys their inner thoughts. For our own reasons, we pick up a camera and take photos. The world captured in my own way thus becomes a world that resembles me. Artist Introduction | Kim Nahum · Lee Hwon · Jung Melmel\n\nAs I record the rapid growth of my child and our daily life together, I increasingly think, 'I'm glad I took those photos' as time passes.\n\n- Illustrator Kim Nahum (@nahumkim)\n\nBecause some scenes can only be encountered at that time, that moment, that place, I always carry my camera for those precious moments I wouldn't want to miss.\n\n- Poet and Photographer Lee Hwon (@__leehwon) The camera allows me to look at the world more diversely and more lovingly, and gives me a little more courage.\n\n- Photographer Jung Melmel (@meltingframe)"
+        },
+        "ja": {
+          "title": "世界を写す、結局私に似る。 <EOS R8 Mark II>",
+          "description": "展覧会紹介 | 世界を写す、結局私に似る。自分を証明する手段として、そして愛を記録する道具として。あるいは、私の世界を広げる勇気をくれる友人として。誰かにとっては、内なる言葉を代わりに伝える言語として。それぞれの理由で、私たちはカメラを手に取り、写真を撮ります。そうして私らしく撮った世界が、結局私に似た世界になるのです。作家紹介 | キム・ナフム · イ・フォン · チョン・メルメル\n\n早く成長する子どもの成長や、共に過ごす日常を記録していると、時間が経つにつれて「撮っておいてよかった」と思うようになります。\n\n- 絵本作家 キム・ナフム (@nahumkim)\n\nある場面はその時間、その瞬間、その場所でしか出会えないため、見逃すと惜しい瞬間たちのために、いつもカメラを持ち歩いています。\n\n- 詩人・写真家 イ・フォン (@__leehwon) カメラは、私が世界をより多様に、そしてより愛おしく見つめ、もう少し勇気を出せるようにしてくれます。\n\n- 写真家 チョン・メルメル (@meltingframe)"
+        }
+      },
       "poster_image_url": "https://image.kr.canon/pds/support/1793849531271_D6bkrD3DlO.jpg",
       "description": "전시 소개 l 세상을 담다, 결국 나를 담다. 나를 증명하는 수단이자 사랑을 기록하는 도구로서. 혹은 나의 세계를 넓히도록 용기를 주는 친구로서. 누군가에겐 내면의 말을 대신 전해주는 언어로서. 각자 저마다의 이유로 우리는 카메라를 들어 사진을 찍습니다. 그렇게 나답게 찍은 세상이, 결국 날 닮은 세계가 됩니다. 작가 소개 ㅣ 김나훔 · 이훤 · 정멜멜\n\n빠르게 자라는 아이의 성장, 함께하는 일상을 기록하다 보면 시간이 지날수록 ‘찍길 잘했다’ 생각하게 돼요.\n\n- 그림작가 김나훔 (@nahumkim)\n\n어떤 장면은 그 시간, 그 순간, 그 장소에서만 만날 수 있기 때문에, 놓치면 아까운 순간들을 위해 늘 카메라를 들고 다녀요.\n\n- 시인·사진가 이훤 (@__leehwon) 카메라는 제가 세상을 더 다양하게\n\n그리고 더 사랑스럽게 바라보고, 조금 더 용기를 낼 수 있도록 해줘요.\n\n- 사진작가 정멜멜 (@meltingframe)",
       "medium": "photo",
@@ -112604,8 +112613,17 @@
       "id": "2ffe14996026",
       "source": "fujifilm_square",
       "title": "「土門拳 人を撮る ―昭和・写真鬼の眼―」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「도몬 켄, 사람을 찍다 ―쇼와・사진귀의 눈―」",
+          "description": "후지필름 스퀘어 사진 역사 박물관은 쇼와를 대표하는 일본의 사진가 도몬 켄의 작품에 의한 기획 사진전 「도몬 켄, 사람을 찍다 ―쇼와・사진귀의 눈―」을 개최합니다."
+        },
+        "en": {
+          "title": "「Domon Ken: Photographing People —Showa: The Eye of a Photography Demon—」",
+          "description": "Fujifilm Square Photo History Museum will present a special photography exhibition featuring the works of Domon Ken, a Japanese photographer representing the Showa era, titled 「Domon Ken: Photographing People —Showa: The Eye of a Photography Demon—」."
+        }
+      },
       "poster_image_url": "https://fujifilmsquare.jp/assets/img/photo_event_270104_05_mv.jpg",
       "description": "フジフイルム スクエア 写真歴史博物館は、昭和を代表する日本の写真家・土門拳の作品による企画写真展「土門拳 人を撮る ―昭和・写真鬼しゃしんきの眼め―」を開催いたします。",
       "medium": "photo",
@@ -112644,8 +112662,17 @@
       "id": "cddc4e0f3d36",
       "source": "goeun",
       "title": "고은사진미술관+KT&G 상상마당 올해의 작가전",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "GoEun Museum of Photography + KT&G Sangsangmadang Artist of the Year Exhibition",
+          "description": "The GoEun Museum of Photography has been collaborating with KT&G Sangsangmadang since 2012 to discover and support emerging artists who possess both artistic completeness and experimental spirit, based on the authenticity of photography. This exhibition introduces the works of Seong Eui-seok, selected as the ‘Final Photographer of the Year,’ and Kim Young-kyung and Jiwon Kim, selected as ‘Photographers of the Year.’ These three Photographers of the Year each express passive rebellion against institutions or social conventions, the mobility and transformation of life and images, and a contemporary sense of extinction in different ways. They utilize photography as a documentary, expansive, and experimental medium to connect past memories, present sensations, and future signs.\n\n- Jiwon Kim’s 〈Grand. Grand. Pa〉 unfolds a family story intertwined with the upheavals of Korea’s modern and contemporary history. Personal materials such as photographs, letters, and postcards are re-printed on yellowed paper or presented flipped front-to-back. This method subtly subverts conventions and guides the perspective on records in a new direction. The work began after the artist returned from 10 years of studying in Germany, encountering her great-uncle’s belongings and family records passed down through generations. The position of the youngest daughter, always on the periphery within a large family, led to the choice of slightly twisting the central axis of the long-maintained family history. Images unfolding from the entrance of the exhibition re-read the records of male patriarchs—father, grandfather, great-grandfather—through a woman’s gaze. The trajectory of movement, from childhood in Pyeongyang, refuge during wartime, resettlement in Masan, and continuation to Seoul, transcends individual life, touching the warmth of a generation. Fragments of the past reveal traces left by society, while simultaneously creating subtle cracks in the male-centered family structure. A similar sensation continues amidst the white noise of a slide projector. Photographs with superimposed text on portraits excerpted from press releases make it difficult to easily define the meaning of figures and events. Familiar yet unfamiliar forms loosen authority and invite imagination into unknown realms beyond the record. The circuitous delivery that permeates the entire work is like the lingering presence of the artist, observing from the periphery rather than the center, and generating meaning without direct utterance.\n\n- Kim Young-kyung’s 〈Flowing Land〉 explores the mobility of life and images by appropriating LiDAR as an artistic medium through Lazography[1]. Here, ‘land’ signifies the medium as both physical soil and an ontological foundation. Just as changes in time lead to transformations in life, the artist takes changes in the conditions surrounding images as the subject of her inquiry. The work discusses ‘the movement and transformation of sites’ centered on the two axes of land and image. Moving between printmaking, photography, Lazography, photogrammetry, 3D images, and AI images, she focuses on changes in eras and media, consistently following ‘flowing life.’ 〈Flowing Land〉 takes the ontological change of photography as its main question, contemplating the transformation of sites. The artist posits a fictional excavation narrative to show that photography remains valid as a medium for witnessing and reconstructing its transitional state within an accelerating technological environment. A hypothetical excavation, assuming a future without farmers, is performed at a fictional excavation site made of paper pulp, transcending the records of geological strata. Furthermore, under the contemporary image generation theory excavated from layers of accumulated images, excavation deepens into the act of digging through the paper strata of images. 〈From Land to Clouds〉 expands the preceding problem consciousness to changes in the visual subject moving from human to machine, advancing to a story about new sites. In this series, Lazography functions as a device that reveals how mechanical visual systems perceive and construct the world, beyond human-vision-based representation. In a situation where images perceived abstractly by humans function as concrete coordinate values and information for machines, the artist captures the moment when the criteria for sensation and cognition are shifting. At the intersection of present records and futuristic imagination, photography becomes a medium that testifies to the present while also opening up future time. Kim Young-kyung re-establishes her questions as a photographer. In short, her work expands not only to human life but also to the properties of images. Through a long narrative about movement and transformation, she speaks of the future with photography, while also presenting the future of photography as a medium.\n\n- Seong Eui-seok’s 〈Music Has the Right to Children〉 responds to the anxiety and helplessness felt by a photographer and an individual in a rapidly changing world with image experiments. The sense of being alone and stagnant, seemingly about to disappear in a rapidly changing city, resembles the helplessness of photographic images consumed fleetingly, regardless of the time spent capturing them or the density of labor involved. To visualize this feeling, the artist introduces the concept of Hauntology. Hauntology is a methodology that re-edits past aesthetic elements with modern digital technology to create a contemporary sentiment mixed with nostalgia and anxiety. In the work, this is realized through photographs, stamps, and AI. The camera illuminates an old officetel with rust stains and a stopped corridor. The photographs, embracing both traces of the past and present life, depict scenes that have disappeared or may soon disappear in the rapid currents of the city. Meanwhile, commemorative stamp designs, scanned at high resolution and transformed, dystopically show the present where a bright future dreamed of in the past has arrived. When images of the past and present contained in photographs, and the future imagined by the past in stamps, overlap on one screen, can the present be explained? AI responds with a sense of déjà vu, as if time is distorted and stopped, by mixing the two preceding media. Following the lightbox, viewers slowly reach the artist’s affect, tracing subtly misaligned points within familiar landscapes. Seong Eui-seok’s work does not merely remain a playful combination of images. Starting from stories derived from himself, he expands the category of the contemporary photographer one step further as a ‘sampler’ who selects input values, observes results, and edits as the subject of the record.\n\nThe works of these three artists, who explore new possibilities for the photographic medium beyond traditional representation, are inspiring. We hope you will follow their struggles and perspectives as they explore photography in their own ways, within the slow and quiet rhythm of the exhibition space.\n\n[1] Lazography is a compound word of ‘laser’ and ‘-graphy,’ a term coined by the artist in 2020. It refers to a unique visual format constructed by reinterpreting LiDAR technology as an artistic medium."
+        },
+        "ja": {
+          "title": "ゴウン写真美術館＋KT&G サンサンマダン 今年の作家展",
+          "description": "ゴウン写真美術館は2012年からKT&G サンサンマダンと共に、写真の正統性に基づき、作品の完成度と実験精神を兼ね備えた新進作家を発掘・支援する展覧会を続けている。今回の展覧会では、「今年の最終写真家」に選ばれたソン・ウィソクと、「今年の写真家」に選ばれたキム・ヨンギョン、ジウォン・キムの作品を紹介する。今年の写真家3人は、制度や社会的通念に対する消極的な反抗、生とイメージの移動性と転換、同時代の絶滅感覚をそれぞれ異なる方法で表現する。彼らは写真を記録的、拡張的、実験的媒体として活用し、過去の記憶—現在の感覚—未来の兆候を繋ぐ。\n\n- ジウォン・キムの〈Grand. Grand. Pa〉は、家族の物語を韓国近現代史の激変と重ね合わせて展開する。写真、手紙、葉書などの個人資料は、黄ばんだ紙に再印刷されたり、裏返しに提示されたりする。このような方法は、通念を重くなく覆し、記録を見る視点を新しい方向に誘導する。作品は、ドイツでの10年間の留学生活を終えて帰国し、大叔父の遺品と代々受け継がれてきた家族の記録に直面したことから始まった。大家族の中で常に周辺部に留まっていた末娘の位置は、長年維持されてきた家族史の中心軸を少しひねってみる選択へと繋がった。展示場の入り口から広がるイメージは、父、祖父、曽祖父へと続く男性家長の記録を女性の視点から読み直す。平壌での幼年期、戦時中の避難、馬山での再定住、ソウルへと続く移動の軌跡は、個人の人生を超え、ある世代の体温と触れ合っている。過去の断片は、社会が残した痕跡を明らかにする一方で、男性中心の家族構造に微細な亀裂を入れる。同様の感覚は、スライドプロジェクターの白色ノイズの中で続く。報道資料から抜粋した肖像の上に文言が重ねられた写真は、人物と事件の意味を容易に断定できないようにする。見慣れているようで異質な形象は、権威を緩め、記録の向こうに存在する未知の領域を想像させる。作品全体を貫く迂回的な伝達は、中心よりも周辺に留まって観察し、直接発話することなく意味を発生させる作家の残像のようだ。\n\n- キム・ヨンギョンの〈流れる土地〉は、ライダーを芸術的媒体として専有したレゾグラフィー[1]を通じて、生とイメージの移動性を重ね合わせて探求する。ここで「土地」は、物理的な土壌であり、存在論的な基盤としての媒体を意味する。作家は、時間の変化が生の転換を導くように、イメージを取り巻く条件の変化を探求の対象とする。作品は、土地とイメージという二つの軸を中心に「場の移動と転換」を語る。版画、写真、レゾグラフィー、フォトグラメトリー、3Dイメージ、AIイメージを行き来しながら、時代と媒体の変化に注目し、「流れる生」を着実に追いかける。〈流れる土地〉は、写真の存在論的変化を主要な問いとし、場の転換を考察する。作家は架空の発掘叙事を想定し、加速する技術環境の中で写真が転換中の状態を目撃し、再構成する媒体として依然として有効であることを示す。農夫が消えた未来を仮定した仮想の発掘は、紙パルプで制作された架空の発掘地で遂行され、地層の記録を超える。さらに、堆積したイメージの層位の中で発掘される同時代のイメージ生成論の下、発掘はイメージの紙層を掘り起こす行為へと深化する。〈土地から雲へ〉は、先行する問題意識を人間から機械へと移動する視覚的主体の変化へと拡張させ、新しい場についての物語へと進む。このシリーズにおいて、レゾグラフィーは人間の視覚に基づいた再現を超え、機械的視覚体系が世界を認識し構成する方法を明らかにする装置として機能する。人間には抽象的に認識されるイメージが、機械には具体的な座標値と情報として機能する状況の中で、作家は感覚と認知の基準が移動している瞬間を捉える。現在の記録と未来的な想像が交差する地点で、写真は現在を証言すると同時に、その後の時間まで開いておく媒体となる。キム・ヨンギョンは写真家として問いを立て直す。要するに、作品は人間の生だけでなく、イメージの属性へと拡張される。移動と転換に関する長編叙事を通じて写真で未来を語る一方で、写真という媒体の未来も共に提示する。\n\n- ソン・ウィソクの〈Music Has the Right to Children〉は、急速に変化する世界の中で写真家であり一人の個人が感じた不安と無力感に、イメージ実験で応える。急変する都市で一人取り残され、消え去るような感覚は、捉えるのに費やした時間や労働の密度とは無関係に、流れるように消費される写真-イメージの無力さに似ている。作家はこのような感覚を視覚化するために、ホーントロジー(Hauntology)という概念を持ち出す。ホーントロジーは、過去の美的要素を現代のデジタル技術で再編集し、郷愁と不安が混じり合った同時代の情緒を生み出す方法論である。作品では、これが写真、切手、そしてAIを通じて具現される。カメラは、錆びた水が流れる古いオフィスビルと、止まった廊下を映し出す。過去の痕跡と現在の生活を同時に抱きしめる写真は、都市の急流の中で、今は消え去ったか、あるいはまもなく消え去るかもしれない場面である。一方、高解像度でスキャンして変形した記念切手の図像は、過去に夢見た明るい未来が到来した現在をディストピア的に見せる。写真が含む過去と現在、そして切手の中の過去が想像した未来のイメージが一つの画面に重なる時、現在を説明できるだろうか。AIは、先行する二つの媒体を混ぜ合わせ、時間が歪んだまま止まっているような既視感で答える。観客はライトボックスに沿って、見慣れた風景の中で微妙にずれた地点を手探りしながら、作家の情動に徐々に触れていく。ソン・ウィソクの作品は、単にイメージを結合する遊戯に留まらない。自らから派生した物語を出発点とし、記録の主体から入力値を選択し、結果を観察し、編集する「サンプラー」として、同時代の写真家の範疇を一歩さらに拡張する。\n\n伝統的な再現を超え、写真媒体の新しい可能性を模索する作家3人の作品は、鼓舞的である。展示場のゆっくりとした静かな呼吸の中で、それぞれの方法で写真を探求する彼らの奮闘と視線に寄り添ってみてほしい。\n\n[1] レゾグラフィー(Lazography)は、「laser」と「-graphy」の合成語で、作家が2020年に考案した用語である。ライダー技術を芸術的媒体として再解釈し、構築した独自の視覚形式を指す。"
+        }
+      },
       "poster_image_url": "https://www.goeunmuseum.kr/data/file/exhibition/thumb-cef985959ba0b959dc6e297a8b14f0fe_sCHFwp8B_e5305786249a285fbfed714a228a0a1b41a659d9_600x400.jpg",
       "description": "고은사진미술관은 2012년부터 KT&G 상상마당과 함께 사진의 정통성을 기반으로 작업의 완성도와 실험정신을 겸비한 신진 작가를 발굴·지원하는 전시를 이어오고 있다. 이번 전시에서는 ‘올해의 최종 사진가’로 선정된 성의석과 ‘올해의 사진가’로 선정된 김영경, 지원김의 작업을 소개한다. 올해의 사진가 3인은 제도나 사회적 통념에 대한 소극적인 반항, 삶과 이미지의 이동성과 전환, 동시대의 멸종 감각을 각기 다른 방식으로 드러낸다. 이들은 사진을 기록적, 확장적, 실험적 매체로 활용하여 과거의 기억-현재의 감각-미래의 징후를 연결한다.\n\n- 지원김 〈Grand. Grand. Pa〉는 가족의 이야기를 한국 근현대사의 격변과 포개어 풀어낸다. 사진, 편지, 엽서 등 개인 자료는 누렇게 바랜 종이에 다시 인쇄되거나, 앞뒤가 뒤집힌 채 제시된다. 이러한 방식은 통념을 무겁지 않게 전복하며, 기록을 바라보는 관점을 새로운 방향으로 유도한다. 작업은 독일에서의 10년간 유학 생활을 마치고 귀국하며, 큰아버지의 유품과 대대로 내려온 가족 기록을 마주하면서 시작됐다. 대가족 안에서 늘 주변부에 머물렀던 막내딸의 위치는 오랫동안 유지돼온 가족사의 중심축을 살짝 비틀어보는 선택으로 이어졌다. 전시장 초입부터 펼쳐지는 이미지는 아버지, 할아버지, 증조부로 이어지는 남성 가장들의 기록을 여성의 시선으로 다시 읽어낸다. 평양에서의 유년, 전쟁기 피난, 마산에서의 재정착, 서울로 이어진 이동의 궤적은 개인의 삶을 넘어, 한 세대의 체온과 맞닿아 있다. 과거의 조각들은 사회가 남긴 흔적을 드러내는 동시에, 남성 중심의 가족 구조에 미세한 금을 낸다.비슷한 감각은 슬라이드 프로젝터의 백색 소음 속에서 이어진다. 보도자료에서 발췌한 초상 위에 문구가 덧입혀진 사진은 인물과 사건의 의미를 쉽게 단정할 수 없게 만든다. 익숙하면서 낯선 형상은 권위를 느슨하게 하고, 기록 너머에 존재하는 알 수 없는 영역을 상상하게 한다. 작업 전반을 관통하는 우회적인 전달은 중심보다 주변에 머물며 관찰하고, 직접 발화하지 않고도 의미를 발생시키는 작가의 잔영과 같다.\n\n- 김영경 〈흐르는 땅〉은 라이다를 예술적 매개로 전유한 레조그래피[1]를 통해 삶과 이미지의 이동성을 중첩하여 탐구한다. 여기서 ‘땅’은 물리적 토양이자 존재론적 터전으로서 매체를 의미한다. 작가는 시간의 변화가 삶의 전환을 이끌듯, 이미지를 둘러싼 조건의 변화를 탐구의 대상으로 삼는다. 작업은 땅과 이미지라는 두 축을 중심으로 ‘터의 이동과 전환’을 이야기한다. 판화, 사진, 레조그래피, 포토그래매트리, 3D 이미지, AI 이미지를 오가며 시대와 매체의 변화에 주목하고, '흐르는 삶'을 꾸준히 따라간다. 〈흐르는 땅〉은 사진의 존재론적 변화를 주된 질문으로 삼아 터의 전환을 사유한다. 작가는 허구적 발굴 서사를 상정하여 가속화되는 기술 환경 속에서 사진이 전환 중인 상태를 목격하고 재구성하는 매체로서 여전히 유효함을 보여준다. 농부가 사라진 미래를 가정한 가상의 발굴은 종이죽으로 제작된 허구적 발굴지에서 수행되며 지(地)층의 기록을 넘어선다. 나아가 퇴적된 이미지의 층위 속에서 발굴되는 동시대의 이미지 생성론 아래, 발굴은 이미지의 지(紙)층을 파헤치는 행위로 심화된다. 〈땅에서 구름으로〉는 앞선 문제의식을 인간에서 기계로 이동하는 시각적 주체의 변화로 확장시키며, 새로운 터에 대한 이야기로 나아간다. 이 시리즈에서 레조그래피는 인간의 시각에 기반한 재현을 넘어, 기계적 시각 체계가 세계를 인식하고 구성하는 방식을 드러내는 장치로 작동한다. 인간에게는 추상적으로 인식되는 이미지가 기계에는 구체적인 좌표값과 정보로 기능하는 상황 속에서, 작가는 감각과 인지의 기준이 이동하고 있는 순간을 포착한다. 현재의 기록과 미래적 상상이 교차하는 지점에서 사진은 현재를 증언하는 동시에 이후의 시간까지 열어두는 매체가 된다. 김영경은 사진가로서 질문을 다시 세운다. 요컨대 작업은 인간의 삶뿐만 아니라 이미지의 속성으로 확장된다. 이동과 전환에 대한 장편 서사를 통해 사진으로 미래를 말하는 한편, 사진이라는 매체의 미래 또한 함께 제시한다.\n\n- 성의석 〈Music Has the Right to Children〉은 빠르게 변화하는 세상 속에서 사진가이자 한 개인이 느낀 불안과 무력감에 이미지 실험으로 호응한다. 급변하는 도시에서 홀로 정체된 채 사라질 듯한 감각은, 포착에 들인 시간이나 노동의 밀도와 무관하게 흘러가듯 소비되는 사진-이미지의 무력함과 닮아 있다. 작가는 이러한 감각을 시각화하기 위해 혼톨로지(Hauntology)라는 개념을 가져온다. 혼톨로지는 과거의 미학적 요소를 현대 디지털 기술로 재편집해, 향수와 불안이 섞인 동시대의 정서를 만들어 내는 방법론이다. 작업에서 이는 사진, 우표, 그리고 AI를 통해 구현된다. 카메라는 녹물이 흐르는 낡은 오피스텔과 멈춰 선 복도를 비춘다. 과거의 흔적과 현재의 삶을 동시에 품고 있는 사진은, 도시의 급류 속에서 지금은 사라졌거나 곧 사라질지도 모르는 장면이다. 한편, 고해상도로 스캔해 변형한 기념우표 도상은 과거에 꿈꾸던 밝은 미래가 도래한 현재를 디스토피아적으로 보여준다. 사진이 담고 있는 과거와 현재, 그리고 우표 속 과거가 상상한 미래의 이미지가 한 화면에 겹쳐질 때, 현재를 설명할 수 있을까. AI는 앞선 두 매체를 섞어 시간이 뒤틀린 채 멈춰 있는 듯한 기시감으로 답한다. 관객은 라이트박스를 따라 익숙한 풍경 속에서 미묘하게 어긋난 지점을 더듬으며, 작가의 정동에 서서히 가닿게 된다. 성의석의 작업은 단순히 이미지를 결합하는 유희에 머물지 않는다. 스스로에서 파생된 이야기를 출발점으로 삼아, 기록의 주체에서 입력값을 선택하고 결과를 관찰하며 편집하는 ‘샘플러’로서 동시대 사진가의 범주를 한 발 더 확장한다.\n\n전통적 재현을 넘어 사진 매체의 새로운 가능성을 모색하는 작가 3인의 작업은 고무적이다. 전시장의 느리고 조용한 호흡 속에서, 각자의 방식으로 사진을 탐구하는 이들의 고군분투와 시선을 따라가보길 바란다.\n\n[1] 레조그래피(Lazography)는 ‘laser’와 ‘-graphy’의 합성어로, 작가가 2020년에 고안한 용어이다. 라이다 기술을 예술적 매개로 재해석해 구축한 독자적 시각 형식을 일컫는다.",
       "medium": "photo",
@@ -112679,8 +112706,15 @@
         {
           "id": "9c76cee7fe2d",
           "name": "지원김, 김영경, 성의석",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Jiwon Kim, Kim Youngkyung, Sung Euiseok"
+            },
+            "ja": {
+              "name": "ジウォン・キム、キム・ヨンギョン、ソン・ウィソク"
+            }
+          }
         }
       ],
       "source_url": "https://www.goeunmuseum.kr/bbs/board.php?bo_table=exhibition&wr_id=250",
@@ -112691,8 +112725,17 @@
       "id": "bec3da1e1b51",
       "source": "njp_art_center",
       "title": "NJP 라운지 3. 하지민",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "NJP Lounge 3. Jimin Hah",
+          "description": "Exhibition\n\nNam June Paik Art Center and PSK Holdings Co., Ltd. are pleased to present 《NJP Lounge 3. Jimin Hah》, an exhibition by Jimin Hah, the second selected artist for the emerging artist commission program ‘NJP Lounge 2026.’ NJP Lounge is a commission program that supports the production and exhibition of new works by emerging artists who inherit Nam June Paik’s experimental spirit from today’s perspective and explore new possibilities and alternatives in media art. The exhibition introduces the artist’s existing works and commissioned new works, utilizing a newly created display in the lobby of the Nam June Paik Art Center and the media wall in the lobby of PSK Holdings’ Pangyo Campus. Through this, it shares key contemporary art themes and various media experiments with the audience.\n\nJimin Hah is an artist who explores the moving body and states of discord (不和) through video and performance, continuing formal experiments concerning time and space. 《NJP Lounge 3. Jimin Hah》 (Nov. 12, ’26 – Mar. 19, ’27) presents a total of two video works. <Felt out of joint as a girl> (2026), screened in a new environment, deals with the gender binary norms in sports and the state of bodies that are not fully encompassed within that category, through the body of a transgender athlete undergoing physical training and hormone therapy. The new work <Rolling Ring> (2026), unveiled for the first time in this exhibition, was produced through this commission program. The work expands the artist’s existing practice, which has utilized symbols themselves as formative elements in video sequences, by connecting the chemical structure of hormones—which have the same skeletal structure but act differently depending on their combination method—with the performer’s score.\n\nSelected Artist\n\nJimin Hah (Born 2000)\n\nArtist Jimin Hah has focused on works that explore bodies in discord while possessing motility, primarily through video and performance. Here, the verb ‘to move’ encompasses multiple states: moving, training, and resisting. The artist believes that in the constantly changing environment of the present era, the subject faces mental and physical discord, which ultimately leads to a dynamic state. Therefore, the state of moving along an independent path, creating cracks in the given body, is interpreted in multiple layers from a gender perspective, and this is addressed through various paths within the narrative of the work.\n\nHah graduated from the Department of Visual Design at Hongik University College of Fine Arts and is currently pursuing a professional graduate program in Video Art at the School of Visual Arts, Korea National University of Arts. She participated in an exchange student program in Fine Arts at the State Academy of Fine Arts Stuttgart (SADBK), Germany. She works as a co-director and producer for the performance group Night Beast Play Troupe, and has participated in SeMA Performance 《Breath》 (SeMA Seosoul Museum, 2026), 《Frieze LIVE》 (Frieze LIVE, 2025), and 《Windmill Invitational Performance》 (Windmill, 2025), among others. Major group exhibitions and screenings include 《Twilights》 (Pico, 2026), 《Spectrosynthesis》 (Art Sonje Center, 2026), 《Offsite 2: Eleven Episodes》 (Together Together, 2025), and 《49th Seoul Independent Film Festival Short Film Competition》 (CGV Apgujeong, 2023). In 2026, she received the SPARK Focus Award in the Multidisciplinary Category at the 4th Seoul Arts Award for <Night Beast Play Troupe>, and her work is held in the collection of the Sunpride Foundation (Hong Kong).\n\nNam June Paik Art Center\n\nAdmission: Free\n\nOpening Hours: 10:00 – 18:00 ※ Last admission: 1 hour before closing\n\nClosed: Every Monday, Public Holidays\n\nPSK Holdings Pangyo Campus\n\nAdmission: Free\n\nOpening Hours: 11:00 – 15:00 ※ No separate ticketing required\n\nClosed: Every weekend, Public Holidays\n\n※ Please use public transportation as there is no separate parking space.\n\n※ This exhibition does not offer docent tours.\n\nNJP Lounge 3_SNS\n\nExhibition Poster\n\nFelt out of joint as a girl\n\nJimin Hah, <Felt out of joint as a girl>, 2026, single-channel video, color, silent, 8,960 x 3,840mm, 6,400 x 2,560mm, 3 min 53 sec, Art Sonje Center, supported by Sunpride Foundation\n\nNJP Lounge 2. Jang Yoon-young\n\nJul. 23, 2026 – Nov. 11, 2026\n\nNJP Lounge 3. Jimin Hah"
+        },
+        "ja": {
+          "title": "NJPラウンジ 3. ハ・ジミン",
+          "description": "展示\n\nペクナムジュンアートセンターとPSKホールディングス(株)は、新進作家コミッションプログラム「NJPラウンジ 2026」の2番目の選定作家ハ・ジミンの展覧会《NJPラウンジ 3. ハ・ジミン》を開催する。NJPラウンジは、ペク・ナムジュンの実験精神を今日の視点から継承し、メディアアートの新しい可能性と代替案を模索する新進作家を選定し、新作制作と展示を支援するコミッションプログラムである。ペクナムジュンアートセンターロビーに新しく造成されたディスプレイと、PSKホールディングス板橋キャンパスロビーのメディアウォールを活用し、作家の既存作品とコミッション新作を紹介する。これにより、同時代芸術の主要な話題と多様な媒体的実験を観客と共有する。\n\nハ・ジミンは、運動する身体と不和(不和)の状態を映像とパフォーマンスで探求し、時間と空間に関する形式的実験を続ける作家である。《NJPラウンジ 3. ハ・ジミン》(’26.11.12.～’27.3.19.)では、計2点のビデオ作品を披露する。新しい環境でスクリーニングされる〈ずれた関節と少女のように走る〉(2026)は、身体訓練とホルモン治療を並行するトランスジェンダーアスリートの身体を通じて、スポーツ界の性別二分法的規範と、その範疇に完全に包摂されない身体の状態を扱う。今回の展示で初めて公開する新作〈転がる輪〉(2026)は、本コミッションプログラムを通じて制作された。作品は、同一の骨格を持ちながらも結合方式によって異なる作用をするホルモンの化学構造式をパフォーマーのスコアと連結することで、記号自体を映像シーケンスの造形要素として活用してきた作家の既存の作業世界を拡張する。\n\n選定作家\n\nハ・ジミン / Jimin Hah (2000年生まれ)\n\nハ・ジミン作家は、映像とパフォーマンスを中心に、不和しながらも運動性を持つ身体に関心を持って制作してきた。ここで「運動する」という動詞は、動き、鍛え、抵抗する多重的な状態を包括する。作家は、絶えず変化する現代の環境の中で、主体が精神的・肉体的な不和に直面することで、結果的に動的な状態を持つようになると考える。したがって、与えられた身体に亀裂を入れ、独自の経路で運動する状態は、ジェンダー的観点から多層的に解釈され、これは作品の叙事の中で多様な経路で扱われる。\n\n弘益大学校美術大学視覚デザイン科を卒業し、韓国芸術総合学校造形芸術科専門士課程ビデオアートを専攻している。ドイツ・シュトゥットガルト国立造形芸術アカデミー(SADBK)美術科の交換留学生プログラムに参加した。パフォーマンスグループ夜獣遊び隊の共同演出および制作者として活動し、SeMAパフォーマンス《呼吸》(ソウル市立西ソウル美術館、2026)、《フリーズ・ライブ》(Frieze LIVE、2025)、《ウィンドミル招待公演》(ウィンドミル、2025)などに参加した。主なグループ展およびスクリーニングとしては、《黄昏たち》(ピコ、2026)、《スペクトロシンテシス》(アートソンジェセンター、2026)、《オフサイト 2: 11のエピソード》(トゥゲザートゥゲザー、2025)、《第49回ソウル独立映画祭短編競争》(CGV狎鴎亭、2023)などがある。2026年第4回ソウル芸術賞スパークフォーカス賞多元部門で〈夜獣遊び隊〉で受賞し、サンプライド財団(香港)に作品が所蔵されている。\n\nペクナムジュンアートセンター\n\n観覧料: 無料\n\n観覧時間: 10:00 – 18:00 ※ 入場締切: 観覧終了1時間前\n\n休館日: 毎週月曜日、法定祝日\n\nPSKホールディングス板橋キャンパス\n\n観覧料: 無料\n\n観覧時間: 11:00 – 15:00 ※ 別途チケット購入なし\n\n休館日: 毎週週末、法定祝日\n\n※ 別途駐車スペースがございませんので、公共交通機関のご利用をお願いいたします。\n\n※ 本展示はドーセントツアーを実施しておりません。\n\nNJPラウンジ 3_SNS\n\n展示ポスター\n\nずれた関節と少女のように走る\n\nハ・ジミン、〈ずれた関節と少女のように走る(Felt out of joint as a girl)〉、2026年、シングルチャンネルビデオ、カラー、無音、8,960 x 3,840mm、6,400 x 2,560mm、3分53秒、アートソンジェセンター、サンプライド財団制作支援\n\nNJPラウンジ 2. チャン・ユンヨン\n\n2026年7月23日—2026年11月11日\n\nNJPラウンジ 3. ハ・ジミン"
+        }
+      },
       "poster_image_url": "https://njp.ggcf.kr/storage/upload/2026/11/05/ANJNsZDWZegDxL0IXOTwrPJbKEFvAm8SED2CLYaV.jpg",
       "description": "전시\n\n백남준아트센터와 피에스케이홀딩스(주)는 신진 작가 커미션 프로그램 ‘NJP 라운지 2026’의 두 번째 선정 작가 하지민의 전시 《NJP 라운지 3. 하지민》을 개최한다. NJP 라운지는 백남준의 실험정신을 오늘의 시각으로 계승하며, 미디어아트의 새로운 가능성과 대안을 모색하는 신진 작가를 선정해 신작 제작과 전시를 지원하는 커미션 프로그램이다. 백남준아트센터 로비에 새롭게 조성한 디스플레이와 피에스케이홀딩스 판교캠퍼스 로비의 미디어월을 활용해 작가의 기존 작품과 커미션 신작을 소개한다. 이를 통해 동시대 예술의 주요 화두와 다양한 매체적 실험을 관객과 공유한다.\n\n하지민은 운동하는 신체와 불화(不和)의 상태를 영상과 퍼포먼스로 탐구하며, 시간과 공간에 관한 형식적 실험을 이어가는 작가다. 《NJP 라운지 3. 하지민》(’26.11.12.-’27.3.19.)에서는 총 2점의 비디오 작품을 선보인다. 새로운 환경으로 스크리닝되는 <어긋난 관절과 소녀처럼 달리기>(2026)는 신체 훈련과 호르몬 치료를 병행하는 트랜스젠더 운동선수의 신체를 통해 스포츠계의 성별 이분법적 규범과 그 범주에 온전히 포섭되지 않는 몸의 상태를 다룬다. 이번 전시에서 처음 공개하는 신작 <구르는 고리>(2026)는 본 커미션 프로그램을 통해 제작되었다. 작품은 동일한 골격을 지니면서도 결합 방식에 따라 다르게 작용하는 호르몬의 화학구조식을 퍼포머의 스코어와 연결함으로써 기호 자체를 영상 시퀀스의 조형 요소로 활용해온 작가의 기존 작업세계를 확장한다.\n\n선정작가\n\n하지민 / Jimin Hah (2000년생)\n\n하지민 작가는 영상과 퍼포먼스를 중심으로 불화하는 동시에 운동성을 지닌 몸에 관심을 두고 작업해 왔다. 여기서 '운동하다'라는 동사는 움직이고, 단련하고, 저항하는 다중적인 상태를 아우른다. 작가는 끊임없이 변화하는 현시대의 환경 속에서 주체가 정신적-육체적 불화를 마주함으로써 결과적으로 동적인 상태를 지니게 된다고 생각한다. 따라서 주어진 신체에 균열을 내며 독자적인 경로로 운동하는 상태는 젠더적 관점에서 다층적으로 해석되며, 이는 작업의 서사 안에서 다양한 경로로 다뤄진다.\n\n홍익대학교 미술대학 시각디자인과를 졸업하고, 한국예술종합학교 조형예술과 전문사과정 비디오아트를 전공하고 있다. 독일 슈투트가르트 국립조형예술아카데미(SADBK) 미술과 교환학생 프로그램에 참여했다. 퍼포먼스 그룹 밤짐승 놀이패의 공동연출 및 제작자로 활동하며, 세마 퍼포먼스 《호흡》(서울시립 서서울미술관, 2026), 《프리즈 라이브》(Frieze LIVE, 2025), 《윈드밀 초대공연》(윈드밀, 2025) 등에 참여했다. 주요 단체전 및 스크리닝으로는 《땅거미들》(피코, 2026), 《스펙트로신테시스》(아트선재센터, 2026), 《오프사이트 2: 열한 가지 에피소드》(투게더투게더, 2025), 《제49회 서울독립영화제 단편경쟁》(CGV 압구정, 2023) 등이 있다. 2026년 제4회 서울예술상 스팍포커스상 다원부문에서 <밤짐승 놀이패>로 수상했으며, 선프라이드 재단(홍콩)에 작품이 소장되어 있다.\n\n백남준아트센터\n\n관람요금: 무료\n\n관람시간: 10:00 – 18:00 ※ 입장 마감: 관람 종료 1시간 전\n\n휴 관 일: 매주 월요일, 법정공휴일\n\n피에스케이홀딩스 판교캠퍼스\n\n관람요금: 무료\n\n관람시간: 11:00 – 15:00 ※ 별도 티켓팅 없음\n\n휴 관 일: 매주 주말, 법정공휴일\n\n※ 별도의 주차 공간이 없으므로 대중교통 이용을 부탁드립니다\n\n※ 본 전시는 도슨트를 운영하지 않습니다.\n\nNJP 라운지 3_SNS\n\n전시포스터\n\n어긋난 관절과 소녀처럼 달리기\n\n하지민, <어긋난 관절과 소녀처럼 달리기(Felt out of joint as a girl)>, 2026, 싱글채널 비디오, 컬러, 무성, 8,960 x 3,840mm, 6,400 x 2,560mm, 3분 53초, 아트선재센터, 선프라이드 재단 제작 지원\n\nNJP 라운지 2. 장윤영\n\n2026. 7. 23.—2026. 11. 11.\n\nNJP 라운지 3. 하지민",
       "medium": "video",
@@ -112726,8 +112769,15 @@
         {
           "id": "7b41aa9d480c",
           "name": "하지민",
-          "lang": null,
-          "tr": {}
+          "lang": "ko",
+          "tr": {
+            "en": {
+              "name": "Ha Jimin"
+            },
+            "ja": {
+              "name": "ハ・ジミン"
+            }
+          }
         }
       ],
       "source_url": "https://njp.ggcf.kr/exhibitions/248",
@@ -112738,8 +112788,17 @@
       "id": "3cc1dfa307a8",
       "source": "sema",
       "title": "2026 난지미술창작스튜디오 오픈스튜디오: 런타임",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "2026 Nanji Art Creation Studio Open Studio: Runtime",
+          "description": "The Seoul Museum of Art Nanji Art Creation Studio will host the 2026 Open Studio 《Runtime》 from November 6th to 8th.\n\nIn computing, runtime refers to the time when a program is actually executing. Even twenty years after Nanji opened its doors, the residents' work continues ceaselessly in their studios. 《Runtime》 begins precisely from this ongoing time.\n\nThe time of a residency flows differently for everyone. Some start new projects during their residency, while others revisit long-standing works. The methods and pace of developing work are not the same. The Open Studio is an opportunity to open the studio doors while each artist's work is in full swing. Not only completed works but also works in progress, reference materials, and traces of various attempts are naturally revealed. Visitors can explore the space where the work is situated and its surroundings, encountering the thoughts and works that the residents are currently grappling with more closely.\n\nThe time of those who have passed through Nanji over the past twenty years continues in their respective places, and in the 2026 studio, the current residents are building another layer of time. We invite you to slowly wander through the studios open for three days and join us in the ongoing time of creation here.\n\n* Application link for pre-registered programs\n\nAlways Open\n\nNov. 6 (Fri) – Nov. 8 (Sun), 2026, 13:00–19:00\n\n[Archive Zone]\n\nNanji 20th Anniversary Archive Video & Books\n\nScreening of Nanji Art Creation Studio events, programs, design materials, and interview videos from the past 20 years.\n\nNanji Art Creation Studio Studio A, Room 5\n\n[Viewing Room]\n\nThreading Through\n\nA space where physical works that are difficult to display due to their size or type within the studio can be viewed.\n\nFive artists, each in their own way, present an intermediate, imaginative space that weaves together reality and the material, existence, narrative, and time beyond it.\n\nNanji Art Creation Studio Exhibition Hall 1\n\nBaek Jong-kwan, Shin Kyo-myung, Oh Myo-cho, Yoo Hwa-soo, Lee Ban-jiha\n\n[Outdoor Space Project]\n\nWords That Remain\n\nA project that transfers text from the video 〈Lost and Found〉 (2025) onto banners.\n\nSixty phrases that appeared and disappeared with time gather together, stretching long along the building's surface.\n\nLanguage containing bodies and relationships, memories and traces, emerges from the building to meet the gaze of passersby.\n\nNanji Art Creation Studio Studio A, Rear Exterior Wall\n\nKim Jae-won\n\n[Outdoor Space Project]\n\nQuoth\n\nA project that transcribes accidentally encountered warning signs or someone's blindly scrawled handwriting using painting methodology.\n\nWords collected from the street are transferred to canvas and then hung outside the building, waiting to be discovered by someone.\n\nVarious outdoor locations at Nanji Art Creation Studio\n\nChoi Yoon-seok\n\nPrograms\n\n[Studio Talks]\n\nStudio Talks\n\nTime for artists to directly introduce their studios and works.\n\nListen closely to the artist's thoughts in the space where the work is created, and share stories beyond the work with the audience.\n\nNov. 6 (Fri) – Nov. 8 (Sun), 13:00–19:00\n\nArtist-specific schedules available on-site\n\nIndividual Artist Studios\n\n109 Baek Gu, Gu Na, Baek Jong-kwan, Eun Jae-pil, Lee Dong-hyuk, Lee Ban-jiha, Lee Seong-eun, Lee Ju-yeon, Jung Ga-hee, Takahashi Kentaro, Hwang Gyu-min, Hwang Min-gyu\n\n[Listening Station (On-site registration)]\n\nWidth of Listening\n\nA place where one can sense the width and scope of the world opened up by listening.\n\nIt proposes an exercise to connect the event-worlds of countless senders surrounding us, like a radio spectrum, within the 'width of listening.'\n\nNov. 6 (Fri) – Nov. 8 (Sun), 13:00–17:00\n\nOutdoor area of Nanji Art Creation Studio\n\nDiana Band\n\n[Performance (Pre-registration)]\n\nThe Day Before I Was: Suite\n\nA mental time travel to find 'the landscape of the day before I was born.'\n\nThe tea ceremony-style performance shares tea with four guests (audience members), overlapping historical records from the day before birth with the artist's autobiographical stories.\n\nThis Nanji Open Studio presents a condensed version of 〈Paengchwik-kkik〉 (2025), which was showcased last year.\n\nNov. 6 (Fri) 13:00–13:40 / 16:00–16:40\n\nNov. 7 (Sat) – Nov. 8 (Sun) 13:00–13:40 / 17:00–17:40\n\nNanji Art Creation Studio Studio A, Room 17, Choi Yoon-seok\n\n*Location Guide: After climbing the stairs to the 2nd floor of Studio A, exit through the iron door on the left to the terrace, where you will find Room 17.\n\nRunning time: Approximately 40 minutes\n\n*The tea provided contains a small amount of caffeine.\n\n**Entry to the studio is not permitted during the performance.\n\n[Performance (On-site registration)]\n\nSpaghetti and Ramen\n\nA 'science object play' that unravels the science of light with everyday objects.\n\nThe wave nature of light is translated into sound and visual language, unfolding a world where ramen noodles fly from the sky at 300,000 kilometers per second.\n\nNov. 6 (Fri) 14:00–14:30 / 16:30–17:00\n\nNanji Art Creation Studio Exhibition Hall 2\n\nAndes\n\n[Performance & Artist Talk (Pre-registration)]\n\nNight Walk\n\nA performance depicting a middle-aged woman's night walk through three costume changes.\n\nThe delicate hand gestures of 1930s female impersonation Peking opera pass through the artist's body, transforming into a hybrid body language that transcends the boundaries of tradition and modernity, East and West. The artist talk following the second session will be held with curator Park Yu-jin.\n\nNov. 7 (Sat) 14:00–14:30 / 17:30–18:30\n\nNanji Art Creation Studio Exhibition Hall 2\n\nEun Jae-pil\n\n[Screening & GV]\n\nImport (MovingImage)\n\nNov. 8 (Sun) Part 1 14:00–16:00 / Part 2 16:30–18:30\n\nNanji Art Creation Studio Exhibition Hall 2\n\nKang Na-young, Kim Jae-won, Baek Jong-kwan, Andes, Oh Myo-cho, Lee Ju-yeon, Jung Ga-hee, Hwang Min-gyu\n\nPart 1 (Moving Image) 14:00–15:00 Kim Jae-won, Baek Jong-kwan, Jung Ga-hee, Hwang Min-gyu\nPart 1 GV 15:00-16:00\n\nPart 2 ( ) Import 16:30–17:40 Kang Na-young, Andes, Oh Myo-cho, Lee Ju-yeon\nPart 2 GV 17:40–18:30 Lee Ju-yeon & Han Gong-gi\n* Photography and video recording are restricted during screenings.\n\nDirections\nSubway Line 6, Mapo-gu Office Station, Exit 1, then transfer to bus.\nBus 172, 271, 6715, 7011, 7016, 7019, Mapo 08: Get off at World Cup Park Complex 3 stop, 15-minute walk.\nBus 9707 (Subway Line 2, Dangsan Station Exit 6): Get off at Nanji Hangang Park stop, 3-minute walk.\nBus 8777: Get off at Noeul Park Entrance stop, 2-minute walk. ※ Operates only on weekends.\nShuttle Bus Service (Goyang Residency ↔ Nanji Art Creation Studio)\nNov. 6 (Fri) – Nov. 7 (Sat), first-come, first-served, no reservation required.\nGoyang Residency Main Gate → Nanji Art Creation Studio Studio B Front: 15:00, 16:00\nNanji Art Creation Studio Studio B Front → Goyang Residency Main Gate: 15:30, 16:30\n※ Travel time approx. 30 minutes, schedule may change depending on road conditions.\n※ Not operating on Nov. 8 (Sun).\nWheelchair Users\nPlease note that there is no elevator in Nanji Art Creation Studio, so Studio A 2nd floor is difficult to access by wheelchair. Studio A 1st floor, Studio B, and exhibition halls are wheelchair accessible via ramps."
+        },
+        "ja": {
+          "title": "2026 蘭芝美術創作スタジオ オープンスタジオ: ランタイム",
+          "description": "ソウル市立美術館蘭芝美術創作スタジオは、11月6日から8日まで2026オープンスタジオ《ランタイム Runtime》を開催します。\n\nコンピューティングにおいてランタイム(runtime)とは、プログラムが実際に実行されている時間を指します。蘭芝が開館して20年が経った今も、作業室では入居者の作業が絶え間なく続いています。《ランタイム》は、まさにこの進行中の時間から出発します。\n\nレジデンシーの時間は、それぞれ異なって流れます。ある人は入居期間中に新しい作業を始め、ある人は長年続けてきた作業を再び見つめ直します。作業を進める方式も、速度も同じではありません。オープンスタジオは、それぞれの作業が盛んに行われている中で、作業室の扉を開く場です。完成した作品だけでなく、制作中の作業、参考資料、様々な試みの痕跡まで自然に現れます。観覧客は、作業が置かれた場所とその周辺を共に巡りながら、入居者が今取り組んでいる考えと作業をより近くで感じることができます。\n\n20年間、蘭芝を通り過ぎた人々の時間はそれぞれの場所で続いており、2026年のスタジオでは今の入居者たちがまた一つの時間を積み重ねています。3日間開かれる作業室をゆっくりと巡りながら、今ここで流れる作業の時間に共にしてください。\n\n* 事前申込プログラム申込リンク\n\n常時開放\n\n2026年11月6日(金)～11月8日(日)、13:00～19:00\n\n[アーカイブゾーン]\n\n蘭芝20周年アーカイブ映像および出版物\n\nNanji Residency SeMA 20th Anniversary Archive Video & Books\n\n過去20年間の蘭芝美術創作スタジオのイベント・プログラム、デザイン物、インタビュー映像上映\n\n蘭芝美術創作スタジオ スタジオA 5号\n\n[ビューイングルーム]\n\n隙間の厚み\n\nThreading Through\n\nスタジオ内で見せるのが難しい大きさや種類の物性のある作品を見ることができる空間。\n\n5人の作家たちがそれぞれの方法で現実とその向こうの物質、存在、叙事、時間を織りなす中間的、想像的空間を見せる。\n\n蘭芝美術創作スタジオ 展示室1\n\nペク・ジョンガン、シン・ギョミョン、オ・ミョチョ、ユ・ファス、イ・バンジハ\n\n[屋外空間プロジェクト]\n\n残された言葉\n\nWords That Remain\n\n映像〈遺失物〉(2025)に登場したテキストを横断幕に移したプロジェクト。\n\n時間とともに現れては消えていた60の句が一つに集まり、建物の表面に沿って長く続く。\n\n身体と関係、記憶と痕跡を込めた言語が建物の外に出て、通り過ぎる人々の視線と向き合う。\n\n蘭芝美術創作スタジオ スタジオA 裏面外壁\n\nキム・ジェウォン\n\n[屋外空間プロジェクト]\n\n曰く\n\nQuoth\n\n偶然出会った警告文や、盲目的に書きなぐられた誰かの手書き文字を絵画の方法論で筆写したプロジェクト。\n\n街で収集された文字はキャンバスに移され、再び建物の外に掛けられ、誰かに発見されるのを待つ。\n\n蘭芝美術創作スタジオ 屋外各所\n\nチェ・ユンソク\n\nプログラム\n\n[スタジオトーク]\n\nStudio Talks\n\n作家が直接自身のスタジオと作品を紹介する時間。\n\n作品が作られる空間で作家の考えを近くで聞き、観客と共に作品の向こう側の物語を語り合う。\n\n11月6日(金)～11月8日(日) 13:00～19:00\n\n作家別時間割は現地で確認可能\n\n作家個別スタジオ\n\n109 ペク・グ、グ・ナ、ペク・ジョンガン、ウン・ジェピル、イ・ドンヒョク、イ・バンジハ、イ・ソンウン、イ・ジュヨン、チョン・ガヒ、タカハシ・ケンタロウ、ファン・ギュミン、ファン・ミンギュ\n\n[リスニングステーション(現地受付)]\n\n聴く幅\n\nWidth of Listening\n\n聴くことが開く世界の広さと、包み込む範囲を感覚できる場所。\n\n私たちを取り巻く数多くの発信源の事件-世界が、ラジオのスペクトルのように「聴く幅」の中で共に繋がる練習を提案する。\n\n11月6日(金)～11月8日(日) 13:00～17:00\n\n蘭芝美術創作スタジオ 屋外\n\nダイアナバンド\n\n[パフォーマンス(事前申込)]\n\nペンチュィキク スイート\n\nThe Day Before I Was: Suite\n\n「生まれる前日の風景」を探しに出る精神的時間旅行。\n\n茶会形式のパフォーマンスは、4人のペンゲク(観客)と茶を分かち合いながら、生まれる前日の史料と作家の自伝的物語を重ね合わせる。\n\n今回の蘭芝オープンスタジオでは、昨年披露した〈ペンチュィキク〉(2025)を簡略化した形で披露する。\n\n11月6日(金) 13:00～13:40 / 16:00～16:40\n\n11月7日(土)～11月8日(日) 13:00～13:40 / 17:00～17:40\n\n蘭芝美術創作スタジオ スタジオA 17号室 チェ・ユンソク\n\n*位置案内: スタジオA 2階の階段を上がった後、左側にある鉄扉を通ってテラスに出ると17号室が見つかります。\n\n上演時間: 約40分\n\n*提供されるお茶には微量のカフェインが含まれています。\n\n**パフォーマンス中は作業室への出入りはできません。\n\n[パフォーマンス(現地受付)]\n\nスパゲッティとラーメン\n\nSpaghetti and Ramen\n\n日常の事物で光の科学を解き明かす「科学事物劇」。\n\n光の波動性が音と視覚言語に翻訳され、秒速30万キロメートルで空からラーメンの麺が飛んでくる世界が広がる。\n\n11月6日(金) 14:00～14:30 / 16:30～17:00\n\n蘭芝美術創作スタジオ 展示室2\n\nアンデス\n\n[パフォーマンス&アーティストトーク(事前申込)]\n\n夜の散歩\n\nNight Walk\n\n3回の衣装変化の中で中年女性の夜の散歩を演じるパフォーマンス。\n\n1930年代の女形京劇の繊細な手つきが作家の身体を経て、伝統と現代、東洋と西洋の境界を越え、混種の身体言語へと変奏される。2回目のアーティストトークではパク・ユジンキュレーターと共に進行する。\n\n11月7日(土) 14:00～14:30 / 17:30～18:30\n\n蘭芝美術創作スタジオ 展示室2\n\nウン・ジェピル\n\n[スクリーニング & GV]\n\n(ムービングイメージ) インポート (MovingImage)\n\n11月8日(日) 1部 14:00～16:00 / 2部 16:30～18:30\n\n蘭芝美術創作スタジオ 展示室2\n\nカン・ナヨン、キム・ジェウォン、ペク・ジョンガン、アンデス、オ・ミョチョ、イ・ジュヨン、チョン・ガヒ、ファン・ミンギュ\n\n1部 (ムービングイメージ) 14:00～15:00 キム・ジェウォン、ペク・ジョンガン、チョン・ガヒ、ファン・ミンギュ\n1部 GV 15:00-16:00\n\n2部 ( ) インポート 16:30～17:40 カン・ナヨン、アンデス、オ・ミョチョ、イ・ジュヨン\n2部 GV 17:40～18:30 イ・ジュヨン & ハン・ゴンギ\n* 上映中の写真および映像撮影は制限されます。\n\nアクセス\n地下鉄6号線 麻浦区庁駅下車後、1番出口方面バス乗り換え\nバス172, 271, 6715, 7011, 7016, 7019, 麻浦08: ワールドカップパーク3団地停留所下車、徒歩15分\n9707(2号線 堂山駅6番出口): 蘭芝漢江公園停留所下車後、徒歩3分\n8777: ノウル公園入口停留所で下車後、徒歩2分 ※ 週末のみ運行\nシャトルバス運行 (高陽レジデンシー ↔ 蘭芝美術創作スタジオ)\n11月6日(金)～11月7日(土)、別途予約なしで先着順乗車\n高陽レジデンシー正門前 → 蘭芝美術創作スタジオ スタジオB前: 15:00, 16:00\n蘭芝美術創作スタジオ スタジオB前 → 高陽レジデンシー正門前: 15:30, 16:30\n※ 移動時間約30分、道路状況により運行日程が変更される場合があります。\n※ 11月8日(日)は運行しません。\n車椅子ご利用のお客様\n蘭芝美術創作スタジオ内にはエレベーターがございませんので、スタジオA 2階は車椅子でのアクセスが難しい点、ご了承ください。スタジオA 1階、スタジオB、展示室はスロープを通じて車椅子でのアクセスが可能です。"
+        }
+      },
       "poster_image_url": "https://sema.seoul.go.kr/common/imgFileView?FILE_ID=1034950",
       "description": "서울시립미술관 난지미술창작스튜디오는 11월 6일부터 8일까지 2026 오픈스튜디오 《런타임 Runtime》을 개최합니다.\n\n컴퓨팅에서 런타임(runtime)은 프로그램이 실제로 실행되고 있는 시간을 가리킵니다. 난지가 문을 연 지 스무 해가 지난 지금도 작업실에서는 입주자들의 작업은 끊임없이 지속되고 있습니다. 《런타임》은 바로 이 진행 중인 시간에서 출발합니다.\n\n레지던시의 시간은 저마다 다르게 흐릅니다. 누군가는 입주 기간에 새로운 작업을 시작하고, 누군가는 오래 해온 작업을 다시 들여다봅니다. 작업을 풀어가는 방식도, 속도도 같지 않습니다. 오픈스튜디오는 각자의 작업이 한창인 가운데 작업실의 문을 여는 자리입니다. 완성된 작품뿐 아니라 제작 중인 작업, 참고한 자료, 여러 시도의 흔적까지 자연스럽게 드러납니다. 관람객은 작업이 놓인 자리와 그 주변을 함께 둘러보며, 입주자가 지금 붙들고 있는 생각과 작업을 조금 더 가까이에서 만날 수 있습니다.\n\n스무 해 동안 난지를 거쳐 간 이들의 시간은 각자의 자리에서 계속되고 있고, 2026년의 스튜디오에서는 지금의 입주자들이 또 하나의 시간을 쌓아가고 있습니다. 사흘 동안 문을 여는 작업실을 천천히 오가며, 지금 이곳에서 흐르는 작업의 시간에 함께해 주시기 바랍니다.\n\n* 사전 신청 프로그램 신청 링크\n\n상시 개방\n\n2026. 11. 6.(금)–11.8.(일), 13:00–19:00\n\n[아카이브존]\n\n난지 20주년 아카이브 영상 및 출판물\n\nNanji Residency SeMA 20th Anniversary Archive Video & Books\n\n지난 20년간의 난지미술창작스튜디오 행사 ·프로그램, 디자인물, 인터뷰 영상 상영\n\n난지미술창작스튜디오 스튜디오A 5호\n\n[뷰잉룸]\n\n틈의 두께\n\nThreading Through\n\n스튜디오 내에서 보여주기 힘든 크기나 유형의 물성 있는 작품들을 볼 수 있도록 한 공간.\n\n다섯 작가들이 저마다의 방법으로 현실과 그 너머의 물질, 존재, 서사, 시간을 엮는 중간적, 상상적 공간을 보여준다.\n\n난지미술창작스튜디오 전시실 1\n\n백종관, 신교명, 오묘초, 유화수, 이반지하\n\n[옥외공간 프로젝트]\n\n남은 말들\n\nWords That Remain\n\n영상 〈유실물〉(2025)에 등장한 텍스트를 현수막으로 옮긴 프로젝트.\n\n시간에 따라 나타났다 사라지던 60개의 구절이 한데 모여 건물의 표면을 따라 길게 이어진다.\n\n몸과 관계, 기억과 흔적을 담은 언어가 건물 밖으로 나와 지나가는 이들의 시선과 마주한다.\n\n난지미술창작스튜디오 스튜디오A 후면 외벽\n\n김재원\n\n[옥외공간 프로젝트]\n\n가라사대\n\nQuoth\n\n우연히 마주친 경고문이나 맹목적으로 휘갈겨쓴 누군가의 손글씨를 회화의 방법론으로 필사한 프로젝트.\n\n거리에서 수집된 글씨들은 캔버스로 옮겨지고, 다시 건물 바깥에 걸려 누군가에게 발견되기를 기다린다.\n\n난지미술창작스튜디오 야외 곳곳\n\n최윤석\n\n프로그램\n\n[스튜디오 토크]\n\nStudio Talks\n\n작가가 직접 자신의 스튜디오와 작업을 소개하는 시간.\n\n작업이 만들어지는 공간에서 작가의 생각을 가까이에서 들으며, 관객과 함께 작업 너머의 이야기를 나눈다.\n\n11. 6.(금) –11. 8.(일) 13:00–19:00\n\n작가별 시간표 현장 확인 가능\n\n작가 개별 스튜디오\n\n109 백구, 구나, 백종관, 은재필, 이동혁, 이반지하, 이성은, 이주연, 정가희, 타카하시 켄타로, 황규민, 황민규\n\n[리스닝 스테이션(현장 접수)]\n\n듣기의 폭\n\nWidth of Listening\n\n듣기가 열어내는 세계의 너비와 담아내는 범위를 감각할 수 있는 장소.\n\n우리를 둘러싸고 있는 수많은 발신원의 사건-세계가 라디오의 스펙트럼처럼 '듣기의 폭' 안에서 함께 연결하는 연습을 제안한다.\n\n11. 6.(금) –11. 8.(일) 13:00–17:00\n\n난지미술창작스튜디오 야외\n\n다이애나밴드\n\n[퍼포먼스(사전 신청)]\n\n팽취끽 스위트\n\nThe Day Before I Was: Suite\n\n'태어나기 전날의 풍경'을 찾아 떠나는 정신적 시간여행.\n\n차회 형식의 퍼포먼스는 4명의 팽객(관객)과 차를 나누며 태어나기 전날의 사료와 작가의 자전적 이야기를 겹쳐본다.\n\n이번 난지 오픈스튜디오에서는 지난해 선보인 〈팽취끽〉(2025)을 간추린 형태로 선보인다.\n\n11. 6.(금) 13:00–13:40 / 16:00–16:40\n\n11. 7.(토) –11. 8.(일) 13:00–13:40 / 17:00–17:40\n\n난지미술창작스튜디오 스튜디오A 17호실 최윤석\n\n*위치 안내: 스튜디오 A 2층 계단을 올라오신 후, 왼쪽에 있는 철문을 통해 테라스로 나가시면 17호를 찾으실 수 있습니다.\n\n러닝타임: 약 40분\n\n*제공되는 차에는 미량의 카페인이 포함되어 있습니다.\n\n**퍼포먼스가 진행되는 동안에는 작업실 출입이 불가합니다.\n\n[퍼포먼스(현장 접수)]\n\n스파게티와 라면\n\nSpaghetti and Ramen\n\n일상의 사물로 빛의 과학을 풀어내는 '과학사물극'.\n\n빛의 파동성이 소리와 시각언어로 번역되며, 초속 30만 킬로미터로 하늘에서 라면발이 날아오는 세계가 펼쳐진다.\n\n11. 6.(금) 14:00–14:30 / 16:30–17:00\n\n난지미술창작스튜디오 전시실 2\n\n안데스\n\n[퍼포먼스&아티스트 토크(사전 신청)]\n\n밤걸음\n\nNight Walk\n\n세 번의 의상 변화 속에서 중년 여성의 밤 산책을 연기하는 퍼포먼스.\n\n1930년대 여장 경극의 섬세한 손짓이 작가의 몸을 거쳐, 전통과 현대, 동양과 서양의 경계를 넘나드는 혼종의 신체 언어로 변주된다. 2회차에서 이어지는 아티스트 토크에서는 박유진 큐레이터와 함께한다.\n\n11.7.(토) 14:00–14:30 / 17:30–18:30\n\n난지미술창작스튜디오 전시실 2\n\n은재필\n\n[스크리닝 & GV]\n\n(무빙이미지) 불러오기Import (MovingImage)\n\n11. 8.(일) 1부 14:00–16:00 / 2부 16:30–18:30\n\n난지미술창작스튜디오 전시실 2\n\n강나영, 김재원, 백종관, 안데스, 오묘초, 이주연, 정가희, 황민규\n\n1부 (무빙이미지) 14:00–15:00 김재원, 백종관, 정가희, 황민규1부 GV 15:00-16:00\n\n2부 ( ) 불러오기 16:30–17:40 강나영, 안데스, 오묘초, 이주연2부 GV 17:40–18:30 이주연 & 한공기* 상영 시 사진 및 영상 촬영이 제한됩니다.\n\n오시는 길지하철6호선 마포구청역 하차 후 1번 출구 방면 버스 환승버스172,271, 6715, 7011, 7016, 7019, 마포08월드컵파크 3단지 정류장 하차, 도보 15분9707(2호선 당산역 6번 출구)난지한강공원 정류장 하차 후 도보 3분8777 노을공원입구 정류장에서 하차 후 도보 2분※ 주말만 운영셔틀버스 운영 (고양레지던시 ↔ 난지미술창작스튜디오)11. 6.(금)–11. 7.(토), 별도 예약 없이 선착순 탑승고양레지던시 정문 앞 → 난지미술창작스튜디오 스튜디오 B 앞: 15:00, 16:00난지미술창작스튜디오 스튜디오 B 앞 → 고양레지던시 정문 앞: 15:30, 16:30※ 이동 시간 약 30분, 도로 상황에 따라 운행 일정이 변경될 수 있습니다.※ 11. 8.(일)은 운영하지 않습니다.휠체어 이용 관객난지미술창작스튜디오 내에는 승강기가 확보되어 있지 않으므로, 스튜디오 A 2층은 휠체어 접근이 어려운 점 양해 부탁드립니다. 스튜디오 A 1층, 스튜디오 B, 전시실은 경사로를 통해 휠체어 접근이 가능합니다.",
       "medium": "mixed",
@@ -112771,8 +112830,17 @@
       "id": "bddf93fe8816",
       "source": "tokyo_art_beat",
       "title": "「蜷川実花 with EiM展 望む世界、そして消えるもの Still, we are longing」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「니나가와 미카 with EiM전 바라는 세계, 그리고 사라지는 것 Still, we are longing」",
+          "description": "81일 동안 25만 명을 매료시킨 EiM이 3년 만에 다시 TOKYO NODE로 돌아옵니다. 아티스트 니나가와 미카와 오사카-간사이 엑스포 테마 사업 프로듀서를 맡았던 미야타 히로아키를 비롯해 각 분야의 전문가들이 모인 크리에이티브 팀 EiM이 도전하는 대규모 전시회 「니나가와 미카 with EiM전 바라는 세계, 그리고 사라지는 것 Still, we are longing」. TOKYO NODE 개관 기념 기획 제2탄 「Eternity in a Moment 찰나 속의 영원」으로부터 약 3년, 변화하는 시대와 세계를 바라보며 신작을 들고 도전하는 \"제2장\"이 시작됩니다."
+        },
+        "en": {
+          "title": "\"Mika Ninagawa with EiM Exhibition: The World We Long For, and What Disappears Still, we are longing\"",
+          "description": "EiM, which captivated 250,000 people in 81 days, returns to TOKYO NODE after three years. The large-scale exhibition \"Mika Ninagawa with EiM Exhibition: The World We Long For, and What Disappears Still, we are longing\" is presented by EiM, a creative team of specialists from various fields, including artist Mika Ninagawa and Hiroaki Miyata, who served as theme project producer for the Osaka-Kansai Expo. Approximately three years after TOKYO NODE's second opening commemorative project, \"Eternity in a Moment: Eternity in a Blink,\" \"Chapter 2\" begins, looking at the changing times and world, and challenging with new works."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/b55077e7/74e555da-89ab-4e43-bbd7-64433f0a0e81.png",
       "description": "81日間で25万人を魅了したEiMが、3年の時を経て再びTOKYO NODEへ。アーティストの蜷川実花と大阪・関西万博テーマ事業プロデューサーを務めた宮田裕章をはじめ、各分野のスペシャリストが集うクリエイティブチームEiMが挑む大規模展覧会「蜷川実花 with EiM展 望む世界、そして消えるもの Still, we are longing」。TOKYO NODEの開館記念企画第二弾「Eternity in a Moment 瞬きの中の永遠」からおよそ3年、変わりゆく時代と世界を見つめ、新作を携えて挑む “第二章”が始まります。",
       "medium": "mixed",
@@ -112812,8 +112880,15 @@
         {
           "id": "ce1073032244",
           "name": "EiM",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "EiM"
+            },
+            "ja": {
+              "name": "EiM"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Mika-Ninagawa-with-Ei-M-Exhibition-The-Desired-World-and-Things-That-Disappear/tokyo-node/2027-04-29",
@@ -112824,8 +112899,17 @@
       "id": "d0dbd4c5161c",
       "source": "tokyo_art_beat",
       "title": "亀岡倫太郎 「奥羽 7」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "카메오카 린타로 「오우 7」",
+          "description": "카메오카는 2024년부터 자신의 고향인 도호쿠 지방을 활발하게 촬영해 왔습니다. 「오우」 시리즈는 카메오카 자신의 고향을 포함한 도호쿠 지방이 걸어온 역사를 고찰하며 촬영을 계속하는 시도입니다. 오우는 도호쿠 지방의 옛 이름으로, 태평양 쪽의 무쓰와 동해 쪽의 데와를 합친 것입니다. 메이지 유신 이후, 자유 민권 운동에 참여했던 도호쿠 출신 활동가들에 의해 「오우」 대신 「도호쿠」라는 명칭이 의식적으로 사용되기 시작하여 현재에 이릅니다. 카메오카의 촬영은 이 지명 변경으로 인해 보이지 않게 된 것이 있지 않을까 하는 문제의식에서 시작되었습니다. 카메오카에게 「도호쿠/오우」 촬영은 개인적인 경험과 자신의 기억을 통해 근대에 의해 덧칠된 주름을 벗겨내는 행위라고 할 수 있습니다. 촬영된 사진에는 역사를 상징하는 피사체가 포함되어 있으면서도, 그것에만 머무르지 않고 도시 풍경이나 바다, 산의 자연 등 다양한 요소가 정면으로 포착되어 있습니다. 거기에는 주어진 현실을 받아들이고 기록하려는 카메오카의 자세가 엿보입니다. 본 전시는 나가오카, 카세, 고센-아가노, 가미노야마, 야마가타의 5개 장으로 구성되어 있습니다. 또한, 동명의 사진집 『오우』 제31-35호도 함께 발행합니다."
+        },
+        "en": {
+          "title": "Rintaro Kameoka \"Ou 7\"",
+          "description": "Since 2024, Kameoka has been actively photographing the Tohoku region, his birthplace. The \"Ou\" series is an attempt to continue photographing the Tohoku region, including Kameoka's hometown, while contemplating its history. Ou is the old name for the Tohoku region, combining Mutsu on the Pacific side and Dewa on the Japan Sea side. After the Meiji Restoration, activists from Tohoku involved in the Freedom and People's Rights Movement consciously began using the name \"Tohoku\" instead of \"Ou,\" a practice that continues to this day. Kameoka's photography began with the question of whether something might have become obscured by this renaming of the region. For Kameoka, photographing \"Tohoku/Ou\" can be seen as an act of peeling back the layers overwritten by modernity, through personal experience and his own memories. The photographs include subjects symbolizing history, but also capture various other elements head-on, such as cityscapes, and the nature of the sea and mountains. This reveals Kameoka's stance of accepting and attempting to record the given reality. This exhibition is composed of five chapters: Nagaoka, Kase, Gosen-Agano, Kaminoyama, and Yamagata. Additionally, the photo booklet \"Ou\" issues 31-35, bearing the same name, will be published concurrently."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/abdf8eb7/790bad0e-a8e4-4803-b936-714b2ba53536.jpg",
       "description": "亀岡は2024年より、自身の出身地である東北地方の撮影を精力的に行ってきました。「奥羽」シリーズは亀岡自身の故郷を含む東北地方が歩んできた歴史を考察しながら、撮影を続けていく試みです。\n奥羽とは東北地方の旧称であり、太平洋側の陸奥と日本海側の出羽を合わせたものです。明治維新以降、自由民権運動にかかわった東北出身の活動家たちによって「奥羽」のかわりに「東北」という名称が意識的に使われるようになり、現在に至ります。亀岡の撮影はこの地名の書き換えによって見えにくくなってしまったものがあるのではないかという問題意識から始まりました。亀岡にとって「東北/奥羽」の撮影は、個人的な体験や自身の記憶を通して、近代によって上塗りされたヒダをめくり上げていく行為といえるでしょう。撮影された写真には、歴史を象徴する被写体が含まれつつ、それだけにはとどまらない街の風景や海・山の自然など、様々な要素が正面から捉えられています。そこには所与の現実を受け止め、記録しようする亀岡の姿勢が伺えます。\n本展は、長岡、鹿瀬、五泉・阿賀野、上山、山形の5つの章で構成されています。また、同名の写真冊子『奥羽』第31-35号もあわせて刊行いたします。",
       "medium": "photo",
@@ -112878,8 +112962,17 @@
       "id": "d206eed15dd7",
       "source": "tokyo_art_beat",
       "title": "「カイ・フランク展 時代を超えるフィンランドデザイン」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「카이 프랑크전 시대를 초월한 핀란드 디자인」",
+          "description": "핀란드를 대표하는 디자이너 카이 프랑크(1911-1989). 사람들의 삶에 가까이 다가가 사회적 과제를 해결하는 디자인을 목표로 했던 프랑크는 \"핀란드 디자인의 양심\"이라 불립니다. 철저한 기능성과 단순한 아름다움을 추구한 프랑크는 유리 그릇 「카르티오」와 도자기 「킬타」, 그리고 그 후속작인 「테에마」 등의 시리즈를 만들어내며 기존의 제품 디자인 방식을 일신했습니다. 그의 보편적인 철학은 오늘날까지 오랫동안 영향을 미치고 있습니다. 본 전시는 헬싱키 건축 & 디자인 박물관의 컬렉션을 중심으로 유리 그릇, 도자기 등의 대표작, 패브릭, 스케치, 사진 및 영상 250점 이상을 전시하여 초기부터 만년까지의 작업 전모를 밝힙니다. 또한 일본 문화에 매료되어 여러 차례 일본을 방문했던 프랑크의 발자취와 그에게 영향을 받은 후대 디자이너들의 작품도 소개합니다. 시대를 초월하여 지금도 사랑받는 카이 프랑크의 작품과 그의 디자인을 지탱하는 사상에 다가가는 대규모 회고전입니다."
+        },
+        "en": {
+          "title": "\"Kaj Franck Exhibition: Finnish Design Beyond Time\"",
+          "description": "Kaj Franck (1911-1989), a leading Finnish designer, is known as \"the conscience of Finnish design\" for his aim to create designs that are close to people's lives and solve social issues. Pursuing thorough functionality and simple beauty, Franck created series such as the \"Kartio\" glassware, \"Kilta\" ceramics, and its successor \"Teema,\" revolutionizing the way product design was conceived. His universal philosophy continues to have a lasting influence to this day. This exhibition, centered on the collection of the Helsinki Architecture and Design Museum, showcases over 250 items including representative works of glassware and ceramics, fabrics, sketches, photographs, and videos, revealing the full scope of his work from his early years to his later life. It also introduces Franck's footsteps, as he was drawn to Japanese culture and visited Japan multiple times, as well as works by later designers influenced by him. This major retrospective delves into the works of Kaj Franck, beloved across generations, and the philosophy underpinning his designs."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/3af57578/d445984a-e1c6-445c-b6b3-6e9a6dacc485.jpg",
       "description": "フィンランドを代表するデザイナー、カイ・フランク（1911‒1989）。人々の暮らしに寄り添い、社会的な課題を解決するデザインを目指したフランクは、「フィンランド・デザインの良心」と呼ばれています。徹底した機能性とシンプルな美しさを追求したフランクは、ガラス器の「カルティオ」や陶器の「キルタ」、後継の「ティーマ」などのシリーズを生み出し、それまでのプロダクト・デザインのあり方を一新しました。その普遍的な哲学は今日まで長く影響を与えています。本展はヘルシンキ建築＆デザイン・ミュージアムのコレクションを中心に、ガラス器、陶磁器などの代表作、ファブリック、スケッチ、写真や映像250点以上を展示し、初期から晩年までの仕事の全貌を明らかにします。また日本の文化に惹かれ、複数回の来日を果たしたフランクの足跡や、彼に影響を受けた後のデザイナーの作品も紹介します。時代を超えて今なお愛されるカイ・フランクの作品と、彼のデザインを支える思想に迫る大回顧展です",
       "medium": "mixed",
@@ -112906,8 +112999,15 @@
         {
           "id": "6ee8c6d77706",
           "name": "カイ・フランク",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "카이 프랭크"
+            },
+            "en": {
+              "name": "Kaj Franck"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Kaj-Frank-Retro-Spective-Timeless-Finland-Design/92-D81763/2027-01-16",
@@ -112918,8 +113018,17 @@
       "id": "55469f761cc8",
       "source": "tokyo_art_beat",
       "title": "「ねこ写真家 関由香 ねこと一緒に、今日もいい日。」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "고양이 사진작가 세키 유카 고양이와 함께, 오늘도 좋은 날.",
+          "description": "쓰쿠바시 출신으로 현재 태국 방콕을 거점으로 활동하는 고양이 사진작가 세키 유카 씨. '고양이와 함께, 오늘도 좋은 날'을 테마로 아시아와 일본의 섬들에서 살아가는 고양이들을 촬영하며 지금까지 50권 가까운 사진집을 출간했습니다. 고양이들의 일상을 따뜻한 시선으로 계속 지켜보고 있습니다. 2018년 본관에서 개최했던 '타이완 네코 우라라'에 이어 두 번째로 열리는 이번 전시에서는 약 100점의 고양이 사진을 전시합니다. 또한, 일본과 타이완의 고양이들 외에도 태국에서 촬영된 신작도 소개합니다! 지역에 익숙하게 살아가는 고양이들의 사랑스러운 몸짓과 표정을 통해 고양이와 사람 사이의 따뜻한 시간을 선사합니다."
+        },
+        "en": {
+          "title": "Cat Photographer Yuka Seki: With Cats, Today is a Good Day Too.",
+          "description": "Yuka Seki, a cat photographer originally from Tsukuba City and currently based in Bangkok, Thailand, has photographed cats living in Asia and on the islands of Japan under the theme \"With Cats, Today is a Good Day Too,\" producing nearly 50 photo books to date. She continues to observe the daily lives of cats with a warm gaze. Following \"Taiwan Neko Urara,\" held at our museum in 2018, this exhibition marks her second time here, featuring approximately 100 cat photographs. In addition to cats from Japan and Taiwan, new works photographed in Thailand will also be introduced! Through the adorable gestures and expressions of cats living comfortably in their local communities, we hope to deliver a gentle time shared between cats and people."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/6ed642be/0ff9cb43-ef0f-4fa9-bc3f-83203d6ad365.jpg",
       "description": "つくば市出身で、現在はタイ・バンコクを拠点に活動する、ねこ写真家の関由香さん。「ねこと一緒に、今日もいい日」をテーマに、アジアや日本の島々で暮らすねこたちを撮影し、これまでに50冊近くの写真集を手掛けてきました。ねこたちの日常を温かいまなざしで見つめ続けています。2018年に当館で開催した「台湾ねこうらら」に続き、2度目の開催となる本展では、約100点のねこ写真を展示します。さらに、日本や台湾のねこたちに加えて、タイで撮影された新作もご紹介！地域に馴染んで暮らすねこたちの愛らしい仕草や表情を通して、ねこと人とのやさしい時間をお届けします。",
       "medium": "photo",
@@ -112953,8 +113062,15 @@
         {
           "id": "28122ea86d3e",
           "name": "関由香",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "세키 유카"
+            },
+            "en": {
+              "name": "Seki Yuka"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Yuka-Seki-Cat-Photographer-Its-a-good-day-with-cats/kasama-nichido-museum-of-art/2027-01-02",
@@ -112965,8 +113081,17 @@
       "id": "036885cac127",
       "source": "tokyo_art_beat",
       "title": "「半井桃水館芸術祭 シャンデリア 2026」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "나카라이 토스이칸 예술제 샹들리에 2026",
+          "description": "규슈와 한반도 사이에 위치한 쓰시마는 예로부터 사람과 물건을 잇는 교통의 요충지로 번성해 왔습니다. 이번 전시는 국내외 아티스트들이 쓰시마에 머물며 쓰시마 사람들과 교류하고, 역사와 풍부한 자연, 독특한 문화를 단서로 제작한 작품들을 선보입니다. 이번 전시의 제목 '샹들리에'는 쓰시마의 시인 고 에자키 마스코 씨의 시 '샹들리야'에서 영감을 얻은 것으로, 젓가락으로 떠 올린 당면을 샹들리에에 비유한 시를 본떠 쓰시마의 매력과 아티스트의 작품 하나하나를 샹들리에를 구성하는 빛으로 보고 있습니다. 여러분의 방문을 기다립니다.\n\n[관련 행사]\n오프닝 토크\n일시: 11월 21일 10:00~ / 11월 22일 13:00~\n장소: 쓰시마 박물관 입구\n요금: 무료\n※행사 상세 내용은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Nakarai Tosui-kan Art Festival Chandelier 2026",
+          "description": "Tsushima, located between Kyushu and the Korean Peninsula, has flourished since ancient times as a vital hub connecting people and goods. This exhibition features works created by domestic and international artists who stayed in Tsushima, interacted with its people, and drew inspiration from its history, rich nature, and unique culture. The title of this exhibition, \"Chandelier,\" is inspired by the poem \"Shanderiya\" by the late Tsushima poet Masuko Ezaki, which likens vermicelli noodles picked up with chopsticks to a chandelier. Following this poem, each charm of Tsushima and each work by the artists are regarded as lights that assemble a chandelier. We look forward to your visit.\n\n[Related Events]\nOpening Talk\nDate & Time: November 21, 10:00 AM - / November 22, 1:00 PM -\nVenue: Tsushima Museum Entrance\nAdmission: Free\n*Please check the official website for event details."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/b8327665/79e56cd6-a08f-484c-9900-c0059910b31e.jpg",
       "description": "九州と朝鮮半島の間に位置する対馬は、古来より人や物をつなぐ交通の要所として栄えてきました。本展は、対馬に国内外のアーティストが滞在し、対馬の人々と交流し、歴史や豊かな自然、独特の文化を手がかりに制作した作品が並びます。\n本展のタイトル「シャンデリア」は対馬の詩人、故江崎マス子氏の詩「シャンデリヤ」から着想したもので、箸で掬い上げた春雨をシャンデリアに見立てた詩に倣い、対馬の魅力やアーティストの作品一つ一つを、シャンデリアを組み立てる光と捉えています。皆様のお越しをお待ちしております。\n\n[関連イベント]\nオープニングトーク\n日時: 11月21日 10:00〜 / 11月22日 13:00〜\n場所: 対馬博物館エントランス\n料金: 無料\n※イベント詳細は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -112993,44 +113118,93 @@
         {
           "id": "0833c7c34598",
           "name": "青木野枝",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "아오키 노에"
+            },
+            "en": {
+              "name": "Aoki Noe"
+            }
+          }
         },
         {
           "id": "a207bda9face",
           "name": "Lee Jayeon",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "이 자연"
+            },
+            "ja": {
+              "name": "イ・ジャヨン"
+            }
+          }
         },
         {
           "id": "3be665fc198f",
           "name": "Kang Mimi",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "강 미미"
+            },
+            "ja": {
+              "name": "カン・ミミ"
+            }
+          }
         },
         {
           "id": "61765d9d6cf2",
           "name": "木村桃子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "기무라 모모코"
+            },
+            "en": {
+              "name": "Momoko Kimura"
+            }
+          }
         },
         {
           "id": "9525534309a4",
           "name": "黒田大スケ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "쿠로다 다이스케"
+            },
+            "en": {
+              "name": "Daisuke Kuroda"
+            }
+          }
         },
         {
           "id": "de0f104306e2",
           "name": "坂本森海",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사카모토 신카이"
+            },
+            "en": {
+              "name": "Shinkai Sakamoto"
+            }
+          }
         },
         {
           "id": "67b911904f64",
           "name": "七搦綾乃",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나나사카리 아야노"
+            },
+            "en": {
+              "name": "Ayano Nanasakari"
+            }
+          }
         },
         {
           "id": "f5e0ff9a21ea",
@@ -113048,8 +113222,15 @@
         {
           "id": "11489e15637c",
           "name": "No Sooncheon",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "노순천"
+            },
+            "ja": {
+              "name": "ノ・スンチョン"
+            }
+          }
         },
         {
           "id": "be35c8a9f550",
@@ -113080,8 +113261,15 @@
         {
           "id": "a800d81a92e3",
           "name": "Byeon Hyeeun",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "변혜은"
+            },
+            "ja": {
+              "name": "ビョン・ヘウン"
+            }
+          }
         },
         {
           "id": "2c6bc9b86d79",
@@ -113099,8 +113287,15 @@
         {
           "id": "b4babc568136",
           "name": "吉村衿菜",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "요시무라 에나"
+            },
+            "en": {
+              "name": "Yoshimura Ena"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Chandelier-Nakarai-Tosui-Kan-Art-Fest-2026/nakarai-tosui-kan/2026-11-21",
@@ -113111,8 +113306,17 @@
       "id": "3ddb7e6f5f4d",
       "source": "tokyo_art_beat",
       "title": "「つくってみようよ展覧会 アートと出会う瞬間 ペティルはピースフレイバー」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "만들어 보자 전시회 아트와 만나는 순간 페티루는 피스 플레이버",
+          "description": "이번 전시는 '아트란 어떤 가치가 있을까요?'라는 질문을 출발점으로, 작품을 보는 사람, 관계하는 사람의 경험을 통해 아트의 가치를 생각하는 전시입니다. 역사적 가치나 화폐적 가치뿐만 아니라, 작품과의 만남이 각자의 기억과 감각에 남기는 것을 아트의 가치를 생각하는 단서로 삼습니다. 제목 '페티루'는 '반짝임'을 의미하는 프랑스어 '페티랑'에서 따온 조어입니다. '피스 플레이버'에는 그 반짝임이 한 스푼 향기롭게 풍기는 전시회라는 의미가 담겨 있습니다. 아트와 만나는 반짝이는 추억을 각자의 마음속에, 그리고 전시회 속에 간직하면서 오사카부 컬렉션의 '과거'를 '미래'로 이어갑니다.\n\n[관련 행사]\n큐레이터의 전시 해설 투어\n일시: 2026년 11월 20일 17:00~18:00\n등단자: 히야마 마유 (본 전시 큐레이터)\n장소: 아트 에리어 B1\n요금: 무료 (사전 신청 불필요)\n※행사 상세 내용은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "Let's Make an Exhibition: Moments of Encountering Art, Petil is Peace Flavor",
+          "description": "This exhibition explores the value of art, starting from the question, \"What value does art hold?\" and considering it through the experiences of those who view and engage with the works. Beyond historical and monetary value, the encounters with artworks leave impressions in each individual's memories and senses, serving as clues to understanding art's value. The title \"Petil\" is a coined word derived from the French \"pétillant,\" meaning \"sparkle.\" \"Peace Flavor\" implies an exhibition where that sparkle adds a spoonful of fragrance. While preserving sparkling memories of encountering art within each individual and within the exhibition itself, it connects the \"past\" of Osaka Prefecture's collection to its \"future.\"\n\n[Related Events]\nCurator's Exhibition Tour\nDate & Time: November 20, 2026, 5:00 PM - 6:00 PM\nSpeaker: Mayu Hiyama (Curator of this exhibition)\nVenue: Art Area B1\nAdmission: Free (No advance registration required)\n*Please check the official website for event details."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/37041053/96d9f912-8668-479e-a680-3efd20c0dc4c.png",
       "description": "本展は、「アートってどんな価値があるんでしょう？」という問いを出発点に、作品を見る人、関わる人の体験からアートの価値を考える展覧会です。歴史的価値や貨幣価値だけでなく、作品との出会いが一人ひとりの記憶や感覚に残すものを、アートの価値を考える手がかりにします。タイトルの「ペティル」は、「きらめき」を意味するフランス語「ペティラント」からの造語。「ピースフレイバー」には、そのきらめきがひとさじ香る展覧会という意味合いが込められています。アートに出会うきらめく思い出を、一人ひとりのなかに、そして展覧会のなかにとどめながら、大阪府のコレクションの「これまで」を「これから」へとつなげます。\n\n[関連イベント]\nキュレーターによる展示解説ツアー\n日時: 2026年11月20日17:00〜18:00\n登壇者: 檜山真有（本展キュレーター）\n会場: アートエリアB1\n料金: 無料（事前申込み不要）\n※イベント詳細は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -113144,8 +113348,17 @@
       "id": "a996127c2b33",
       "source": "tokyo_art_beat",
       "title": "あるがせいじ 「sea-shore」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "아루가 세이지 「sea-shore」",
+          "description": "코보1 (3층)에서 종이와 사진 재료를 사용하여 <sea-shore>~해변~을 테마로 입체 작품을 중심으로 한 전시를 개최합니다."
+        },
+        "en": {
+          "title": "Aruga Seiji \"sea-shore\"",
+          "description": "An exhibition focusing on three-dimensional works will be held at Kobo 1 (3rd floor), utilizing paper and photographic materials, under the theme of <sea-shore> ~The Water's Edge~."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/7ba4bfb4/fb2e5c66-db0f-497a-8d10-bd301954a5e4.jpg",
       "description": "巷房1（3階）にて紙と写真の素材を用いて<sea-shore>〜波打ち際〜をテーマに立体作品を中心とした展示をおこないます。",
       "medium": "photo",
@@ -113179,8 +113392,15 @@
         {
           "id": "90ad1e1521dd",
           "name": "あるがせいじ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "아루가 세이지"
+            },
+            "en": {
+              "name": "Aruga Seiji"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Seiji-Aruga-Sea-shore/D64-B034-A/2026-11-16",
@@ -113191,8 +113411,17 @@
       "id": "e17a0a668b13",
       "source": "tokyo_art_beat",
       "title": "「揺らぎ漂う」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「흔들리며 떠다니다」",
+          "description": "이것은 현대 미술가 나카무라 야스지로라는 공통의 스승 밑에서 중고등학교 시절 함께 배웠던 젊은 작가들과 나카무라 본인이 하나의 주제를 공유하여 개최하는 전시 시리즈입니다. 2018년의 「통곡」을 시작으로, 「괴수」, 「테제」, 「끝에 시작」, 「어디로 가는가」, 「꿈의 흔적」, 「진원인」, 「전쟁이다!」로 이어져 올해로 9회째를 맞이합니다. 이번 테마는 「흔들리며 떠다니다」입니다. 지난번 「전쟁이다!」는 전시 공간을 차지하기 위한 싸움이 예상되어 상대방의 작품을 침범하며 전시하는 것을 표현한 것이었지만, 막상 뚜껑을 열어보니 개인의 생각이 전체의 생각으로 바뀌어 사랑이 생겨났다고 합니다. 그래서 이번에는 \"전쟁, 자연재해, 인재로 거칠게 요동치는 시대에 흔들리며 떠다니는 영혼=의식과 연결되는 장을 만든다\"는 염원이 테마가 되었습니다."
+        },
+        "en": {
+          "title": "\"Wavering and Drifting\"",
+          "description": "This is an exhibition series held by young artists who once studied under a common mentor, contemporary artist Yasujiro Nakamura, during their junior and senior high school days, along with Nakamura himself, sharing a single theme. Starting with \"Lamentation\" in 2018, it has continued with \"Kaiju,\" \"Thesis,\" \"Beginning at the End,\" \"Where Are You Going?,\" \"After the Dream,\" \"Epicenter Person,\" and \"It's War!\", making this the 9th installment. This time's theme is \"Wavering and Drifting.\" The previous \"It's War!\" was intended to express an exhibition that invaded the opponent's work, as a struggle for exhibition space was anticipated. However, as it turned out, individual thoughts transformed into collective thoughts, and love was born, they say. Therefore, this time, the aspiration \"to create a space that connects wavering and drifting souls = consciousness in an era raging with war, natural disasters, and man-made disasters\" became the theme."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/780abad7/12c67145-79e9-4771-8245-e7aa42622fba.jpg",
       "description": "かつて中学高校時代に現代美術作家・中村安次郎という共通の恩師の元で学んだ若手の作家たちと中村自身が一つのテーマを共有して開催する展覧会シリーズです。2018年の「慟哭」を皮切りに、「かいじゅう」「テーゼ」「終わりに始まり」「どこにいくの」「夢のあと」「震源人」「戦争だ！」と続き、今年で9回目になります。今回のテーマは「揺らぎ漂う」。前回の「戦争だ！」は、展示場所の取り合いが想定されたことから、相手の作品に侵略しながらの展示を表現したものでしたが、蓋を開けてみれば、個の想いから全体の想いに変わり、愛が生まれていたと言います。そこで今回は「戦争、自然災害、人災と荒れ狂う時代に、揺らぎ漂う魂＝意識と繋がる場を作る」という志がテーマとなりました。",
       "medium": "mixed",
@@ -113226,32 +113455,67 @@
         {
           "id": "ea407463f8bf",
           "name": "中村安次郎",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나카무라 야스지로"
+            },
+            "en": {
+              "name": "Nakamura Yasujiro"
+            }
+          }
         },
         {
           "id": "6af04ca7caca",
           "name": "奥田悠介",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오쿠다 유스케"
+            },
+            "en": {
+              "name": "Okuda Yusuke"
+            }
+          }
         },
         {
           "id": "7cccb65cd239",
           "name": "@yutori_iwata",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "@yutori_iwata"
+            },
+            "ja": {
+              "name": "@yutori_iwata"
+            }
+          }
         },
         {
           "id": "3fd30f6cb2c7",
           "name": "藤田理紗子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "후지타 리사코"
+            },
+            "en": {
+              "name": "Risako Fujita"
+            }
+          }
         },
         {
           "id": "d6982aab7f57",
           "name": "小沢大輝",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오자와 다이키"
+            },
+            "en": {
+              "name": "Daiki Ozawa"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Swinging-and-Drifting/1-D5-C57-EB/2026-11-30",
@@ -113262,8 +113526,17 @@
       "id": "e08517cf7934",
       "source": "tokyo_art_beat",
       "title": "giegling 「ともに」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "giegling 「함께」",
+          "description": "이번에 CONTRAST에서는 독일을 거점으로 하는 아트·음악 컬렉티브 giegling의 도쿄 첫 전시회 「함께」를 개최합니다. 약 15년간 giegling은 음악 레이블로서뿐만 아니라 페스티벌 큐레이션과 세계 각지에서 선보인 독자적인 조명·무대 디자인으로도 알려져 활동의 폭을 넓혀왔습니다. 로스앤젤레스, 뉴욕, 베를린, 암스테르담, 베이징에서 자체 기획 전시회를 개최해 온 그들이 11월부터 한 달간 도쿄에서 레지던시를 진행합니다.\n\n이번 레지던시에 맞춰 기획된 본 전시에서는 giegling만의 미의식과 예술에 대한 유쾌한 접근 방식을 선보입니다. 클럽 문화를 둘러싼 라이프스타일과 미학, 그리고 멤버들이 독일 바우하우스 대학 바이마르에서 함께 공부했던 경험을 교차시키며 자유롭고 구애받지 않는 표현을 창조하고 있습니다. 다양한 미디어를 넘나드는 학제적인 접근 방식을 통해 삶과 사랑, 기쁨에 새로운 시점을 제시합니다. 그것은 사람과 사람을 연결하는 기쁨이자, 그 순간이 영원히 지속되기를 바라는 끝없는 꿈이기도 합니다. 또한 giegling을 둘러싼 폭넓은 커뮤니티에서 로테 비어링가, 오토 에르난데스, 모리츠 뢰베를 비롯한 앞으로의 활약이 기대되는 아티스트들의 작품도 전시됩니다. 여러분들의 많은 방문을 기다립니다.\n\n[관련 이벤트]\n1. 오프닝 파티\n일시: 2026년 11월 14일\n장소: PBOX STND\n2. 콘서트\n일시: 2026년 11월 20일\n장소: sonorium\n3. 클로징 파티\n일시: 2026년 11월 27일\n장소: VENT\n※이벤트 상세 정보 및 신청 방법은 공식 홈페이지에서 확인해 주십시오."
+        },
+        "en": {
+          "title": "giegling \"Together\"",
+          "description": "CONTRAST is pleased to announce \"Together,\" the first exhibition in Tokyo by giegling, a German-based art and music collective. For approximately 15 years, giegling has expanded its activities, known not only as a music label but also for curating festivals and developing unique lighting and stage designs across the globe. Having organized self-initiated exhibitions in Los Angeles, New York, Berlin, Amsterdam, and Beijing, they will now undertake a one-month residency in Tokyo starting in November.\n\nThis exhibition, planned in conjunction with the residency, will showcase giegling's unique aesthetic and playful approach to art. It creates free and unconstrained expressions by intertwining the lifestyle and aesthetics surrounding club culture with the members' shared experiences studying at Bauhaus University Weimar in Germany. Through an interdisciplinary approach that spans various media, it brings new perspectives to life, love, and joy. It is the joy of connecting people, an endless dream wishing for that moment to last forever. Additionally, works by promising artists from giegling's broad community, including Lotte Wieringa, Otto Hernandez, and Moritz Löwe, will be exhibited. We look forward to your visit.\n\n[Related Events]\n1. Opening Party\nDate: November 14, 2026\nVenue: PBOX STND\n2. Concert\nDate: November 20, 2026\nVenue: sonorium\n3. Closing Party\nDate: November 27, 2026\nVenue: VENT\n*Please check the official website for event details and application methods."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/a161518d/34c297b0-e2bf-49ef-94b0-03588e85fab7.jpeg",
       "description": "この度、CONTRASTでは、ドイツを拠点とするアート・音楽コレクティブ、gieglingによる東京初の展覧会「ともに」を開催します。約15年にわたり、gieglingは音楽レーベルとしてだけでなく、フェスティバルのキュレーションや、世界各地で展開してきた独自の照明・ステージデザインでも知られ、その活動の幅を広げてきました。ロサンゼルス、ニューヨーク、ベルリン、アムステルダム、北京で自主企画による展覧会を開催してきた彼らが、11月から1ヶ月間、東京でレジデンシーを行います。\n\n今回のレジデンシーにあわせて企画された本展では、gieglingならではの美意識と、アートに対する遊び心のあるアプローチを展開します。クラブカルチャーを取り巻くライフスタイルや美学、メンバーがドイツのバウハウス大学ヴァイマルで共に学んだ経験を交差させながら、自由でとらわれない表現を生み出しています。さまざまなメディアを横断する学際的なアプローチを通して、人生や愛、喜びに新たな視点をもたらします。それは、人と人とをつなぐ喜びであり、その瞬間が永遠に続いてほしいと願う、終わりのない夢でもあります。また、gieglingを取り巻く幅広いコミュニティから、Lotte Wieringa、Otto Hernandez、Moritz Löweをはじめとする、今後の活躍が期待されるアーティストの作品も展示されます。皆さまのご来場をお待ちしています。\n\n[関連イベント]\n1. Opening Party\n日時: 2026年11月14日\n会場: PBOX STND\n2. Concert\n日時: 2026年11月20日\n会場: sonorium\n3. Closing Party\n日時: 2026年11月27日\n会場: VENT\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "mixed",
@@ -113279,8 +113552,15 @@
       "venue": {
         "id": "2f69486df037",
         "name": "CONTRAST",
-        "lang": null,
-        "tr": {},
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "콘트라스트"
+          },
+          "ja": {
+            "name": "コントラスト"
+          }
+        },
         "region": "渋谷",
         "district": null,
         "lat": 35.66863704358981,
@@ -113290,80 +113570,171 @@
         {
           "id": "1678fb7022d7",
           "name": "giegling",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "giegling"
+            },
+            "ja": {
+              "name": "giegling"
+            }
+          }
         },
         {
           "id": "5fa024561638",
           "name": "Yamur Can",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "Yamur Can"
+            },
+            "ja": {
+              "name": "Yamur Can"
+            }
+          }
         },
         {
           "id": "93f639508bb6",
           "name": "Otto Oscar Hernandez",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "오토 오스카 헤르난데스"
+            },
+            "ja": {
+              "name": "オットー・オスカー・ヘルナンデス"
+            }
+          }
         },
         {
           "id": "5e2e238f4075",
           "name": "Franzi Kohlhoff & Anna Teuber",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "프란치 콜호프 & 안나 토이버"
+            },
+            "ja": {
+              "name": "フランツィ・コールホフ & アンナ・トイバー"
+            }
+          }
         },
         {
           "id": "34fb7700bfa7",
           "name": "Lena Kocutar",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "레나 코추타르"
+            },
+            "ja": {
+              "name": "レナ・コツタール"
+            }
+          }
         },
         {
           "id": "ef1f67458a27",
           "name": "Karl Gottfried König",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "카를 고트프리트 쾨니히"
+            },
+            "ja": {
+              "name": "カール・ゴットフリート・ケーニヒ"
+            }
+          }
         },
         {
           "id": "cc32d83b32e8",
           "name": "Moritz Löwe",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "모리츠 뢰베"
+            },
+            "ja": {
+              "name": "モーリッツ・レーヴェ"
+            }
+          }
         },
         {
           "id": "97cddf2808f0",
           "name": "Rachel Reyes",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "레이첼 레예스"
+            },
+            "ja": {
+              "name": "レイチェル・レイエス"
+            }
+          }
         },
         {
           "id": "ae9a7562a25c",
           "name": "Karl Alexander Schickhardt",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "칼 알렉산더 쉬크하르트"
+            },
+            "ja": {
+              "name": "カール・アレクサンダー・シックハルト"
+            }
+          }
         },
         {
           "id": "7b22979b646a",
           "name": "Ralph Schuster",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "랄프 슈스터"
+            },
+            "ja": {
+              "name": "ラルフ・シュスター"
+            }
+          }
         },
         {
           "id": "da323807d89c",
           "name": "Rafael Vogel",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "라파엘 포겔"
+            },
+            "ja": {
+              "name": "ラファエル・フォーゲル"
+            }
+          }
         },
         {
           "id": "8b04c9a9f825",
           "name": "Holger Wilkens",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "홀거 빌켄스"
+            },
+            "ja": {
+              "name": "ホルガー・ヴィルケンス"
+            }
+          }
         },
         {
           "id": "e3f273aa7e2c",
           "name": "Lotte Wieringa",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "로테 위어링아"
+            },
+            "ja": {
+              "name": "ロッテ・ウィーリンガ"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Giegling-Tomoni/contrast/2026-11-18",
@@ -113374,8 +113745,17 @@
       "id": "043d6fbd6326",
       "source": "tokyo_art_beat",
       "title": "遠藤文香 「Pneuma」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "엔도 아야카 「Pneuma」",
+          "description": "11월 14일 (토)부터 엔도 아야카의 신간 사진집 「Pneuma (프네우마)」(roshin Booksf) 출판을 기념하여 사진전을 개최합니다. 도쿄, 런던, 후쿠오카에 이어 나고야에서는 첫 개최입니다."
+        },
+        "en": {
+          "title": "Endo Ayaka \"Pneuma\"",
+          "description": "Starting Saturday, November 14th, a photo exhibition will be held to commemorate the publication of Endo Ayaka's new photo book \"Pneuma\" (roshin Booksf). Following Tokyo, London, and Fukuoka, this will be the first time it is held in Nagoya."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/1c43b35c/aa06c9c4-2118-4d68-a85f-1ac579fb62f4.jpg",
       "description": "11月14日（土）より遠藤文香による新刊写真集「Pneuma（プネウマ）」（roshin Booksf）の出版を記念し、写真展を開催いたします。東京、ロンドン、福岡に続き名古屋では初開催となります。",
       "medium": "photo",
@@ -125847,8 +126227,15 @@
     {
       "id": "2f69486df037",
       "name": "CONTRAST",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "콘트라스트"
+        },
+        "ja": {
+          "name": "コントラスト"
+        }
+      },
       "venue_type": "other",
       "region": "渋谷",
       "district": null,
@@ -158725,206 +159112,444 @@
     {
       "id": "9c76cee7fe2d",
       "name": "지원김, 김영경, 성의석",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Jiwon Kim, Kim Youngkyung, Sung Euiseok"
+        },
+        "ja": {
+          "name": "ジウォン・キム、キム・ヨンギョン、ソン・ウィソク"
+        }
+      }
     },
     {
       "id": "7b41aa9d480c",
       "name": "하지민",
-      "lang": null,
-      "tr": {}
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "name": "Ha Jimin"
+        },
+        "ja": {
+          "name": "ハ・ジミン"
+        }
+      }
     },
     {
       "id": "ce1073032244",
       "name": "EiM",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "EiM"
+        },
+        "ja": {
+          "name": "EiM"
+        }
+      }
     },
     {
       "id": "6ee8c6d77706",
       "name": "カイ・フランク",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "카이 프랭크"
+        },
+        "en": {
+          "name": "Kaj Franck"
+        }
+      }
     },
     {
       "id": "28122ea86d3e",
       "name": "関由香",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "세키 유카"
+        },
+        "en": {
+          "name": "Seki Yuka"
+        }
+      }
     },
     {
       "id": "0833c7c34598",
       "name": "青木野枝",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "아오키 노에"
+        },
+        "en": {
+          "name": "Aoki Noe"
+        }
+      }
     },
     {
       "id": "a207bda9face",
       "name": "Lee Jayeon",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "이 자연"
+        },
+        "ja": {
+          "name": "イ・ジャヨン"
+        }
+      }
     },
     {
       "id": "3be665fc198f",
       "name": "Kang Mimi",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "강 미미"
+        },
+        "ja": {
+          "name": "カン・ミミ"
+        }
+      }
     },
     {
       "id": "61765d9d6cf2",
       "name": "木村桃子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "기무라 모모코"
+        },
+        "en": {
+          "name": "Momoko Kimura"
+        }
+      }
     },
     {
       "id": "9525534309a4",
       "name": "黒田大スケ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "쿠로다 다이스케"
+        },
+        "en": {
+          "name": "Daisuke Kuroda"
+        }
+      }
     },
     {
       "id": "de0f104306e2",
       "name": "坂本森海",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "사카모토 신카이"
+        },
+        "en": {
+          "name": "Shinkai Sakamoto"
+        }
+      }
     },
     {
       "id": "67b911904f64",
       "name": "七搦綾乃",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "나나사카리 아야노"
+        },
+        "en": {
+          "name": "Ayano Nanasakari"
+        }
+      }
     },
     {
       "id": "11489e15637c",
       "name": "No Sooncheon",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "노순천"
+        },
+        "ja": {
+          "name": "ノ・スンチョン"
+        }
+      }
     },
     {
       "id": "a800d81a92e3",
       "name": "Byeon Hyeeun",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "변혜은"
+        },
+        "ja": {
+          "name": "ビョン・ヘウン"
+        }
+      }
     },
     {
       "id": "b4babc568136",
       "name": "吉村衿菜",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "요시무라 에나"
+        },
+        "en": {
+          "name": "Yoshimura Ena"
+        }
+      }
     },
     {
       "id": "90ad1e1521dd",
       "name": "あるがせいじ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "아루가 세이지"
+        },
+        "en": {
+          "name": "Aruga Seiji"
+        }
+      }
     },
     {
       "id": "ea407463f8bf",
       "name": "中村安次郎",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "나카무라 야스지로"
+        },
+        "en": {
+          "name": "Nakamura Yasujiro"
+        }
+      }
     },
     {
       "id": "6af04ca7caca",
       "name": "奥田悠介",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오쿠다 유스케"
+        },
+        "en": {
+          "name": "Okuda Yusuke"
+        }
+      }
     },
     {
       "id": "7cccb65cd239",
       "name": "@yutori_iwata",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "@yutori_iwata"
+        },
+        "ja": {
+          "name": "@yutori_iwata"
+        }
+      }
     },
     {
       "id": "3fd30f6cb2c7",
       "name": "藤田理紗子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "후지타 리사코"
+        },
+        "en": {
+          "name": "Risako Fujita"
+        }
+      }
     },
     {
       "id": "d6982aab7f57",
       "name": "小沢大輝",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오자와 다이키"
+        },
+        "en": {
+          "name": "Daiki Ozawa"
+        }
+      }
     },
     {
       "id": "1678fb7022d7",
       "name": "giegling",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "giegling"
+        },
+        "ja": {
+          "name": "giegling"
+        }
+      }
     },
     {
       "id": "5fa024561638",
       "name": "Yamur Can",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "Yamur Can"
+        },
+        "ja": {
+          "name": "Yamur Can"
+        }
+      }
     },
     {
       "id": "93f639508bb6",
       "name": "Otto Oscar Hernandez",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "오토 오스카 헤르난데스"
+        },
+        "ja": {
+          "name": "オットー・オスカー・ヘルナンデス"
+        }
+      }
     },
     {
       "id": "5e2e238f4075",
       "name": "Franzi Kohlhoff & Anna Teuber",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "프란치 콜호프 & 안나 토이버"
+        },
+        "ja": {
+          "name": "フランツィ・コールホフ & アンナ・トイバー"
+        }
+      }
     },
     {
       "id": "34fb7700bfa7",
       "name": "Lena Kocutar",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "레나 코추타르"
+        },
+        "ja": {
+          "name": "レナ・コツタール"
+        }
+      }
     },
     {
       "id": "ef1f67458a27",
       "name": "Karl Gottfried König",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "카를 고트프리트 쾨니히"
+        },
+        "ja": {
+          "name": "カール・ゴットフリート・ケーニヒ"
+        }
+      }
     },
     {
       "id": "cc32d83b32e8",
       "name": "Moritz Löwe",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "모리츠 뢰베"
+        },
+        "ja": {
+          "name": "モーリッツ・レーヴェ"
+        }
+      }
     },
     {
       "id": "97cddf2808f0",
       "name": "Rachel Reyes",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "레이첼 레예스"
+        },
+        "ja": {
+          "name": "レイチェル・レイエス"
+        }
+      }
     },
     {
       "id": "ae9a7562a25c",
       "name": "Karl Alexander Schickhardt",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "칼 알렉산더 쉬크하르트"
+        },
+        "ja": {
+          "name": "カール・アレクサンダー・シックハルト"
+        }
+      }
     },
     {
       "id": "7b22979b646a",
       "name": "Ralph Schuster",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "랄프 슈스터"
+        },
+        "ja": {
+          "name": "ラルフ・シュスター"
+        }
+      }
     },
     {
       "id": "da323807d89c",
       "name": "Rafael Vogel",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "라파엘 포겔"
+        },
+        "ja": {
+          "name": "ラファエル・フォーゲル"
+        }
+      }
     },
     {
       "id": "8b04c9a9f825",
       "name": "Holger Wilkens",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "홀거 빌켄스"
+        },
+        "ja": {
+          "name": "ホルガー・ヴィルケンス"
+        }
+      }
     },
     {
       "id": "e3f273aa7e2c",
       "name": "Lotte Wieringa",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "로테 위어링아"
+        },
+        "ja": {
+          "name": "ロッテ・ウィーリンガ"
+        }
+      }
     }
   ]
 }
