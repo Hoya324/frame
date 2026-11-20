@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T17:34:49.039678+00:00",
+  "generated_at": "2026-11-20T21:07:19.134313+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -113855,8 +113855,17 @@
       "id": "08fe506a2cfe",
       "source": "fujifilm_square",
       "title": "中井菜央写真展「海の緒」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "나카이 나오 사진전 「우미노오」",
+          "description": "후지필름 스퀘어에서는 2027년 1월 14일(목)부터 1월 28일(목)까지 사진작가 나카이 나오 씨의 사진전 「우미노오」를 개최합니다. 데뷔 이래 일관되게 \"나는 누구이며, 세계는 무엇인가\"를 추구해 온 나카이 씨가 이번에 모티프로 삼은 것은 \"물\"과 \"바다\"였습니다. 로케이션은 홋카이도였습니다. 2023년 1월부터 한 달간 차박 로케이션 헌팅을 실시했으며, 같은 해 12월부터 왓카나이에 거점으로 해변의 집을 빌려 2026년 3월까지 촬영을 이어갔습니다. 도중에 2024년 11월부터는 시레토코 반도 기슭의 시베쓰에도 두 번째 거점으로 역시 해변의 집을 빌려, 매일 바다를 바라보는 것뿐만 아니라, 그 두 거점에서 홋카이도 전역의 해안선을 따라 차로 원정을 떠나기도 했습니다. 홋카이도에서만 찍을 수 있었지만, 홋카이도라는 범주를 넘어선 그 사진들은 우리의 \"바다\"에 대한 관념을 직접적으로 흔들고, 그 너머의 바다 그 자체, 세계 그 자체에 다가가려 합니다."
+        },
+        "en": {
+          "title": "Nao Nakai Photography Exhibition \"Umi no O\"",
+          "description": "Fujifilm Square will hold the photography exhibition \"Umi no O\" by photographer Nao Nakai from January 14 (Thu) to January 28 (Thu), 2027. Since her debut, Nakai has consistently pursued the question, \"What am I, and what is the world?\" This time, her motifs were \"water\" and \"the sea.\" The location was Hokkaido. From January 2023, she conducted a month-long location scout, sleeping in her car. From December of the same year, she rented a seaside house in Wakkanai as a base, and continued shooting until March 2026. Along the way, from November 2024, she also rented a second seaside house in Shibetsu, at the base of the Shiretoko Peninsula. From these two bases, she not only observed the daily sea but also traveled by car along the entire coastline of Hokkaido. The photographs, which could only be taken in Hokkaido yet transcend the confines of Hokkaido, directly challenge our concept of \"the sea\" and seek to approach the sea itself and the world itself beyond that."
+        }
+      },
       "poster_image_url": "https://fujifilmsquare.jp/assets/img/photo_event_270114_01_mv.jpg",
       "description": "フジフイルム スクエアでは、2027年1月14日（木）～1月28日（木）まで、写真家 中井菜央氏の写真展「海の緒」を開催します。 デビューから一貫して、「私とは、世界とは何か」を追求してきた中井氏が、今回モチーフとしたのが「水」「海」でした。ロケーションは北海道。2023年1月から一カ月間、車中泊のロケハンを実施、同年の12月から、稚内に拠点として海辺の家を借り、2026年の3月まで撮影は続けられました。途中、2024年の11月からは、知床半島の付け根の標津にも二つ目の拠点として、やはり海辺の家を借り、日々の海を見つめただけでなく、またその2拠点から北海道全周の海沿いを車で遠征することもおこないました。 北海道でしか撮れず、しかし、北海道という括りを越えたその写真群は、私たちの「海」の観念を直截に揺さぶり、そのさきの海そのもの・世界そのものへ近づこうとします。",
       "medium": "photo",
@@ -113895,8 +113904,15 @@
       "id": "251627e80f6a",
       "source": "gallery_now",
       "title": "<풍경을 사유하다 Contemplating the Landscape>남경민 개인전",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "Nam Kyung-min Solo Exhibition <Contemplating the Landscape>"
+        },
+        "ja": {
+          "title": "ナム・ギョンミン 個展 <風景を思惟する Contemplating the Landscape>"
+        }
+      },
       "poster_image_url": "https://blogthumb.pstatic.net/MjAyNjExMTlfMTE2/MDAxNzk1MDc0ODYxMjY5.Gi31tEEza0PvdEYjDjK73wyA0v394QyW47MyRySziGgg.4Z99J5Vo81hX-ljKjzJXCq-RsptBoZDKdn2DELNLVREg.JPEG/%B9%E3%C0%C7_%C1%A4%BF%F8%B0%FA_%BC%F6%BF%B5%C0%E5%2C_130.3x162cm%2C_Oil_on_linen%2C_2026.jpg?type=s3",
       "description": null,
       "medium": "photo",
@@ -113935,8 +113951,17 @@
       "id": "5b3dfe31f582",
       "source": "museum_hanmi",
       "title": "김태동 개인전 《Morphing》",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "Kim Tae-dong Solo Exhibition 《Morphing》",
+          "description": "Museum Hanmi will hold Kim Tae-dong's solo exhibition 《Morphing》 at the Samcheong Annex from November 20, 2026 to February 14, 2027. Kim Tae-dong (b. 1978), who has explored the diverse times and landscapes of the city through photography, focuses on the theatricality created by the encounter of unrelated figures and places by combining side portraits of people with night cityscapes in his new work 〈Morphing〉.\n\nThe work begins by photographing side portraits of people immersed in what is called 'city-gazing' while looking at the city from an observatory. The artist prints these images onto materials used for outdoor advertisements, such as acrylic, aluminum, and mesh, and then moves them to the night city to re-photograph them. Through the reflection and transmission of the materials, the city's light and landscape overlap with the portrait images, and the figures' gazes and expressions harmonize with the surrounding space, both inside and outside the photograph, creating scenes that seem to await something or confront an event.\n\nThe work's title 'Morphing' is derived from the word 'metamorphosis' and is inspired by a term used in film, graphics, and animation to refer to a technique where one image gradually transforms into another. This connects to the artistic process where human images transform into new scenes upon encountering the city's light and landscape. The scenes, which do not present a specific narrative, encourage viewers to imagine the story between the situation in which the figures are placed and the scene itself.\n\nVenue\n\nMuseum Hanmi Samcheong Annex\n\nArtist\n\nKim Tae-dong\n\nPress Release"
+        },
+        "ja": {
+          "title": "キム・テドン 個展 《Morphing》",
+          "description": "ミュージアムハンミは、2026年11月20日から2027年2月14日まで、三清別館でキム・テドン個展《Morphing》を開催します。都市の多様な時間と風景を写真で探求してきたキム・テドン（1978–）は、新作〈Morphing〉で人物の側面肖像と夜の都市風景を組み合わせ、互いに無関係だった人物と場所が出会って生み出す演劇性に注目します。\n\n作品は、展望台から都市を眺め、いわゆる「都市ぼんやり」に浸る人物たちの側面肖像を撮影することから始まります。作家は彼らの姿をアクリル、アルミニウム、メッシュなど屋外広告物に使われる素材にプリントし、これを夜の都市に移して再度撮影します。素材の反射と透過により、肖像イメージに都市の光と風景が重なり、人物の視線と表情は写真の内外の周辺空間と調和し、何かを待っているか、あるいは何かの出来事に直面しているかのような場面を構成します。\n\n作品タイトル「モーフィング（Morphing）」は、変形（metamorphosis）に由来する言葉で、映画やグラフィック、アニメーション分野で一つのイメージが別のイメージへと徐々に変化する技法を指す用語から着想を得ました。これは、人物イメージが都市の光と風景と出会い、新たな場面へと変貌する制作過程と繋がります。具体的な叙事が提示されていない場面は、観覧客が人物が置かれた状況と場面の間の物語を想像するように促します。\n\n場所\n\nミュージアムハンミ 三清別館\n\n参加作家\n\nキム・テドン\n\nプレスリリース"
+        }
+      },
       "poster_image_url": "https://museumhanmi.or.kr/wp-content/uploads/2026/11/%EB%AA%A8%ED%95%91_%EA%B9%80%ED%83%9C%EB%8F%99%ED%8F%AC%EC%8A%A4%ED%84%B0_A3LR-724x1024.jpg",
       "description": "뮤지엄한미는 2026년 11월 20일부터 2027년 2월 14일까지 삼청별관에서 김태동 개인전 《Morphing》을 개최한다. 도시의 다양한 시간과 풍경을 사진으로 탐구해온 김태동(1978– )은 신작 〈Morphing〉에서 인물의 측면 초상과 밤의 도시 풍경을 결합하며 서로 무관했던 인물과 장소가 만나 만들어내는 연극성에 주목한다.\n\n작업은 전망대에서 도시를 바라보며 이른바 ‘도시멍’에 잠긴 인물들의 측면 초상을 촬영하는 데서 시작된다. 작가는 이들의 모습을 아크릴, 알루미늄, 메쉬 등 옥외광고물에 쓰이는 재료에 출력하고, 이를 밤의 도시로 옮겨 다시 촬영한다. 재료의 반사와 투과로 초상 이미지에 도시의 빛과 풍경이 겹쳐지고, 인물의 시선과 표정은 사진 안과 밖의 주변 공간과 어우러져 무언가를 기다리거나 어떤 사건을 마주한 듯한 장면을 이룬다.\n\n작업 제목 ‘모핑(Morphing)’은 변형(metamorphosis)에서 유래한 단어로, 영화나 그래픽, 애니메이션 분야에서 하나의 이미지가 다른 이미지로 서서히 변화하는 기법을 가리키는 용어에서 착안했다. 이는 인물 이미지가 도시의 빛과 풍경을 만나 새로운 장면으로 변모하는 작업 과정과 연결된다. 구체적인 서사가 제시되지 않은 장면들은 관람객이 인물이 놓인 상황과 장면 사이의 이야기를 상상하도록 한다.\n\n장소\n\n뮤지엄한미 삼청별관\n\n참여작가\n\n김태동\n\n보도자료",
       "medium": "photo",
@@ -118052,44 +118077,93 @@
         {
           "id": "4ff335be3220",
           "name": "ルーシー・リー",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "루시 리"
+            },
+            "en": {
+              "name": "Lucie Rie"
+            }
+          }
         },
         {
           "id": "2ff029983d68",
           "name": "ハンス・コパー",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "한스 코퍼"
+            },
+            "en": {
+              "name": "Hans Coper"
+            }
+          }
         },
         {
           "id": "3a7e7c7662c2",
           "name": "棟方志功",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "무나카타 시코"
+            },
+            "en": {
+              "name": "Shiko Munakata"
+            }
+          }
         },
         {
           "id": "db0bab2ee58a",
           "name": "柳宗悦",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "야나기 소에쓰"
+            },
+            "en": {
+              "name": "Yanagi Soetsu"
+            }
+          }
         },
         {
           "id": "791e1598040a",
           "name": "栗木達介",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "구리키 다쓰스케"
+            },
+            "en": {
+              "name": "Tatsusuke Kuriki"
+            }
+          }
         },
         {
           "id": "219afa28811a",
           "name": "井上有一",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이노우에 유이치"
+            },
+            "en": {
+              "name": "Inoue Yuichi"
+            }
+          }
         },
         {
           "id": "8f609e2615b4",
           "name": "池田晃将",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이케다 아키마사"
+            },
+            "en": {
+              "name": "Ikeda Akimasa"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Single-Owner-Collection-A-Confluence-of-Beauty-One-Collectors-Eye-Passed-to-the-Next-Generation/Mainichi-Auction/2026-11-19",
@@ -118142,8 +118216,15 @@
         {
           "id": "3c1eb20b2f67",
           "name": "中島里菜",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나카지마 리나"
+            },
+            "en": {
+              "name": "Nakajima Rina"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Rina-Nakajima-In-My-Red-Shoes/2-D82-C04-B/2026-12-15",
@@ -118196,26 +118277,54 @@
         {
           "id": "372702d464da",
           "name": "早坂歩",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "하야사카 아유무"
+            },
+            "en": {
+              "name": "Hayasaka Ayumu"
+            }
+          }
         },
         {
           "id": "55d73436a796",
           "name": "郡山陸",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "고리야마 리쿠"
+            },
+            "en": {
+              "name": "Koriyama Riku"
+            }
+          }
         },
         {
           "id": "2e170d0dfeef",
           "name": "林熙",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "하야시 키"
+            },
+            "en": {
+              "name": "Hayashi Ki"
+            }
+          }
         },
         {
           "id": "431bb82cefb7",
           "name": "小田切優人",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오다기리 유토"
+            },
+            "en": {
+              "name": "Odagiri Yuto"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Green-Belt-Press/2-D82-C04-B/2026-12-08",
@@ -118278,8 +118387,15 @@
         {
           "id": "dd1b26ce7ac1",
           "name": "正村僚麻",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마사무라 료마"
+            },
+            "en": {
+              "name": "Masamura Ryoma"
+            }
+          }
         }
       ],
       "source_url": "https://tppg.jp/606-2/",
@@ -118332,8 +118448,15 @@
         {
           "id": "5be9729c6885",
           "name": "蓮井元彦",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "하스이 모토히코"
+            },
+            "en": {
+              "name": "Hasui Motohiko"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Motohiko-Hasui-From-Nowhere/jam-photo-gallery/2026-12-01",
@@ -118386,8 +118509,15 @@
         {
           "id": "be9669d0b4d1",
           "name": "西山宏太朗",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "니시야마 코타로"
+            },
+            "en": {
+              "name": "Nishiyama Kotaro"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Kotaro-Nishiyama-Exhibition/yohaku/2026-12-02",
@@ -118442,14 +118572,28 @@
         {
           "id": "3e54c859a67d",
           "name": "鈴木直史",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "스즈키 나오후미"
+            },
+            "en": {
+              "name": "Naofumi Suzuki"
+            }
+          }
         },
         {
           "id": "6cfeaf12aa77",
           "name": "西岡千春",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "니시오카 치하루"
+            },
+            "en": {
+              "name": "Chiharu Nishioka"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Tadashi-Suzuki-Chiharu-Nishioka-Exhibition/kyoto-museum-of-photography-gallery-japanesque/2026-12-01",
@@ -118506,20 +118650,41 @@
         {
           "id": "e5406574537b",
           "name": "金子カズミ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "가네코 가즈미"
+            },
+            "en": {
+              "name": "Kazumi Kaneko"
+            }
+          }
         },
         {
           "id": "05acfdbfd9a6",
           "name": "花野裕美",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "하나노 히로미"
+            },
+            "en": {
+              "name": "Hiromi Hanano"
+            }
+          }
         },
         {
           "id": "a6bb621d2593",
           "name": "ササキヒロシ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사사키 히로시"
+            },
+            "en": {
+              "name": "Hiroshi Sasaki"
+            }
+          }
         },
         {
           "id": "7e7544d3f1e4",
@@ -118554,38 +118719,80 @@
         {
           "id": "043041de94e7",
           "name": "mojiwo",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "mojiwo"
+            },
+            "ja": {
+              "name": "mojiwo"
+            }
+          }
         },
         {
           "id": "6132e9db7bfa",
           "name": "emirio",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "emirio"
+            },
+            "ja": {
+              "name": "emirio"
+            }
+          }
         },
         {
           "id": "581be400d273",
           "name": "AkiHito",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "AkiHito"
+            },
+            "ja": {
+              "name": "AkiHito"
+            }
+          }
         },
         {
           "id": "6e9c94e46e98",
           "name": "Takahiro Horii",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "Takahiro Horii"
+            },
+            "ja": {
+              "name": "Takahiro Horii"
+            }
+          }
         },
         {
           "id": "2adba5f3da76",
           "name": "misako",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "misako"
+            },
+            "ja": {
+              "name": "misako"
+            }
+          }
         },
         {
           "id": "bf73f3e18d2f",
           "name": "ハラトシハル",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "하라 토시하루"
+            },
+            "en": {
+              "name": "Toshiharu Hara"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Mix-Up-Vol22/8-CCB4814/2026-12-01",
@@ -118640,8 +118847,15 @@
         {
           "id": "352d4aaf9dd7",
           "name": "中野耕志",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나카노 코지"
+            },
+            "en": {
+              "name": "Koji Nakano"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Koji-Nakano-Jetbirder/nikon-plaza-osaka/2027-01-05",
@@ -118696,8 +118910,15 @@
         {
           "id": "352d4aaf9dd7",
           "name": "中野耕志",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나카노 코지"
+            },
+            "en": {
+              "name": "Koji Nakano"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Koji-Nakano-Jetbirder/32-C9-CB9-C/2026-12-08",
@@ -118754,38 +118975,80 @@
         {
           "id": "4badecdcfa7a",
           "name": "島村朋子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "시마무라 토모코"
+            },
+            "en": {
+              "name": "Tomoko Shimamura"
+            }
+          }
         },
         {
           "id": "48cd9c4d4d46",
           "name": "石川清以子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이시카와 세이코"
+            },
+            "en": {
+              "name": "Seiko Ishikawa"
+            }
+          }
         },
         {
           "id": "23e387d81089",
           "name": "多田美久璃",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "타다 미쿠리"
+            },
+            "en": {
+              "name": "Mikuri Tada"
+            }
+          }
         },
         {
           "id": "fee6e014b97d",
           "name": "佐々木悠",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "사사키 유"
+            },
+            "en": {
+              "name": "Sasaki Yu"
+            }
+          }
         },
         {
           "id": "9b8d2cabbdc3",
           "name": "丸こころ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마루 코코로"
+            },
+            "en": {
+              "name": "Maru Kokoro"
+            }
+          }
         },
         {
           "id": "55ea9ca461ce",
           "name": "中寺美樹",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나카데라 미키"
+            },
+            "en": {
+              "name": "Nakadera Miki"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Bi-Bi-Bi-Beauty-Photo-Exhibition/harakado/2026-11-21",
@@ -118840,14 +119103,28 @@
         {
           "id": "041577b833b9",
           "name": "小柳祐介",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "고야나기 유스케"
+            },
+            "en": {
+              "name": "Koyanagi Yusuke"
+            }
+          }
         },
         {
           "id": "39cb22906238",
           "name": "小野象平",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오노 쇼헤이"
+            },
+            "en": {
+              "name": "Ono Shohei"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Yusuke-Koyanagi-Shohei-Ono-Rc-Pottery-Circuit/graphic-gallery-1-1-6/2026-11-14",
@@ -118900,20 +119177,41 @@
         {
           "id": "10ff92b615ea",
           "name": "ベルナール・フォコン",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "베르나르 포콩"
+            },
+            "en": {
+              "name": "Bernard Faucon"
+            }
+          }
         },
         {
           "id": "3877e26d091f",
           "name": "ジャンルー・シーフ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "장루 시프"
+            },
+            "en": {
+              "name": "Jeanloup Sieff"
+            }
+          }
         },
         {
           "id": "509f87558cd5",
           "name": "ジャック＝アンリ・ラルティーグ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "자크 앙리 라르티그"
+            },
+            "en": {
+              "name": "Jacques Henri Lartigue"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Memoire-de-la-lumiere/jiro-miura-gallery-5/2026-11-21",
@@ -118968,8 +119266,15 @@
         {
           "id": "85e784e066fd",
           "name": "松田優",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마쓰다 유"
+            },
+            "en": {
+              "name": "Matsuda Yu"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Yu-Matsuda-Odoriko/61-AB7373/2026-11-20",
@@ -119024,8 +119329,15 @@
         {
           "id": "bede4410d98b",
           "name": "萬田康文",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "만다 야스후미"
+            },
+            "en": {
+              "name": "Manda Yasufumi"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Yasufumi-Manda-A-Little-While-Ago/D6769-BDB/2026-11-19",
@@ -119080,8 +119392,15 @@
         {
           "id": "adf1457dd22f",
           "name": "Silvergelatin",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "실버젤라틴"
+            },
+            "ja": {
+              "name": "ゼラチンシルバー"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/4-E17543-D/2026-11-12",
@@ -119295,8 +119614,15 @@
         {
           "id": "ed25a680e1cc",
           "name": "川谷光平",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "카와타니 코헤이"
+            },
+            "en": {
+              "name": "Kohei Kawatani"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Kohei-Kawatani-Stereoscope/sukima/2026-11-14",
@@ -119353,20 +119679,41 @@
         {
           "id": "1502d4da69fc",
           "name": "松田康司",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마츠다 코지"
+            },
+            "en": {
+              "name": "Koji Matsuda"
+            }
+          }
         },
         {
           "id": "fc5f0a4d27fa",
           "name": "蔵満明翔",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "쿠라미츠 아키토"
+            },
+            "en": {
+              "name": "Akito Kuramitsu"
+            }
+          }
         },
         {
           "id": "1cfbaeb381dc",
           "name": "植村恭子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "우에무라 쿄코"
+            },
+            "en": {
+              "name": "Kyoko Uemura"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Art-Origination-2026/makurazaki-nanmeikan-cultural-material-center/2026-11-28",
@@ -119421,32 +119768,67 @@
         {
           "id": "89e1b1b7f728",
           "name": "安部みゆき",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "아베 미유키"
+            },
+            "en": {
+              "name": "Abe Miyuki"
+            }
+          }
         },
         {
           "id": "65840b0233d2",
           "name": "うしお",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "우시오"
+            },
+            "en": {
+              "name": "Ushio"
+            }
+          }
         },
         {
           "id": "a6d9d6d10778",
           "name": "江口暢彌",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "에구치 노부야"
+            },
+            "en": {
+              "name": "Eguchi Nobuya"
+            }
+          }
         },
         {
           "id": "01052fb90136",
           "name": "小川愛",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오가와 아이"
+            },
+            "en": {
+              "name": "Ogawa Ai"
+            }
+          }
         },
         {
           "id": "4103e7c4cfd2",
           "name": "折原智江",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "오리하라 토모에"
+            },
+            "en": {
+              "name": "Orihara Tomoe"
+            }
+          }
         },
         {
           "id": "44b6aab2c6b2",
@@ -167984,122 +168366,262 @@
     {
       "id": "4ff335be3220",
       "name": "ルーシー・リー",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "루시 리"
+        },
+        "en": {
+          "name": "Lucie Rie"
+        }
+      }
     },
     {
       "id": "2ff029983d68",
       "name": "ハンス・コパー",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "한스 코퍼"
+        },
+        "en": {
+          "name": "Hans Coper"
+        }
+      }
     },
     {
       "id": "3a7e7c7662c2",
       "name": "棟方志功",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "무나카타 시코"
+        },
+        "en": {
+          "name": "Shiko Munakata"
+        }
+      }
     },
     {
       "id": "db0bab2ee58a",
       "name": "柳宗悦",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "야나기 소에쓰"
+        },
+        "en": {
+          "name": "Yanagi Soetsu"
+        }
+      }
     },
     {
       "id": "791e1598040a",
       "name": "栗木達介",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "구리키 다쓰스케"
+        },
+        "en": {
+          "name": "Tatsusuke Kuriki"
+        }
+      }
     },
     {
       "id": "219afa28811a",
       "name": "井上有一",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이노우에 유이치"
+        },
+        "en": {
+          "name": "Inoue Yuichi"
+        }
+      }
     },
     {
       "id": "8f609e2615b4",
       "name": "池田晃将",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이케다 아키마사"
+        },
+        "en": {
+          "name": "Ikeda Akimasa"
+        }
+      }
     },
     {
       "id": "3c1eb20b2f67",
       "name": "中島里菜",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "나카지마 리나"
+        },
+        "en": {
+          "name": "Nakajima Rina"
+        }
+      }
     },
     {
       "id": "372702d464da",
       "name": "早坂歩",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "하야사카 아유무"
+        },
+        "en": {
+          "name": "Hayasaka Ayumu"
+        }
+      }
     },
     {
       "id": "55d73436a796",
       "name": "郡山陸",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "고리야마 리쿠"
+        },
+        "en": {
+          "name": "Koriyama Riku"
+        }
+      }
     },
     {
       "id": "2e170d0dfeef",
       "name": "林熙",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "하야시 키"
+        },
+        "en": {
+          "name": "Hayashi Ki"
+        }
+      }
     },
     {
       "id": "431bb82cefb7",
       "name": "小田切優人",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오다기리 유토"
+        },
+        "en": {
+          "name": "Odagiri Yuto"
+        }
+      }
     },
     {
       "id": "dd1b26ce7ac1",
       "name": "正村僚麻",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "마사무라 료마"
+        },
+        "en": {
+          "name": "Masamura Ryoma"
+        }
+      }
     },
     {
       "id": "5be9729c6885",
       "name": "蓮井元彦",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "하스이 모토히코"
+        },
+        "en": {
+          "name": "Hasui Motohiko"
+        }
+      }
     },
     {
       "id": "be9669d0b4d1",
       "name": "西山宏太朗",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "니시야마 코타로"
+        },
+        "en": {
+          "name": "Nishiyama Kotaro"
+        }
+      }
     },
     {
       "id": "3e54c859a67d",
       "name": "鈴木直史",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "스즈키 나오후미"
+        },
+        "en": {
+          "name": "Naofumi Suzuki"
+        }
+      }
     },
     {
       "id": "6cfeaf12aa77",
       "name": "西岡千春",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "니시오카 치하루"
+        },
+        "en": {
+          "name": "Chiharu Nishioka"
+        }
+      }
     },
     {
       "id": "e5406574537b",
       "name": "金子カズミ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "가네코 가즈미"
+        },
+        "en": {
+          "name": "Kazumi Kaneko"
+        }
+      }
     },
     {
       "id": "05acfdbfd9a6",
       "name": "花野裕美",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "하나노 히로미"
+        },
+        "en": {
+          "name": "Hiromi Hanano"
+        }
+      }
     },
     {
       "id": "a6bb621d2593",
       "name": "ササキヒロシ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "사사키 히로시"
+        },
+        "en": {
+          "name": "Hiroshi Sasaki"
+        }
+      }
     },
     {
       "id": "7e7544d3f1e4",
@@ -168134,182 +168656,392 @@
     {
       "id": "043041de94e7",
       "name": "mojiwo",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "mojiwo"
+        },
+        "ja": {
+          "name": "mojiwo"
+        }
+      }
     },
     {
       "id": "6132e9db7bfa",
       "name": "emirio",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "emirio"
+        },
+        "ja": {
+          "name": "emirio"
+        }
+      }
     },
     {
       "id": "581be400d273",
       "name": "AkiHito",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "AkiHito"
+        },
+        "ja": {
+          "name": "AkiHito"
+        }
+      }
     },
     {
       "id": "6e9c94e46e98",
       "name": "Takahiro Horii",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "Takahiro Horii"
+        },
+        "ja": {
+          "name": "Takahiro Horii"
+        }
+      }
     },
     {
       "id": "2adba5f3da76",
       "name": "misako",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "misako"
+        },
+        "ja": {
+          "name": "misako"
+        }
+      }
     },
     {
       "id": "bf73f3e18d2f",
       "name": "ハラトシハル",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "하라 토시하루"
+        },
+        "en": {
+          "name": "Toshiharu Hara"
+        }
+      }
     },
     {
       "id": "352d4aaf9dd7",
       "name": "中野耕志",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "나카노 코지"
+        },
+        "en": {
+          "name": "Koji Nakano"
+        }
+      }
     },
     {
       "id": "4badecdcfa7a",
       "name": "島村朋子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "시마무라 토모코"
+        },
+        "en": {
+          "name": "Tomoko Shimamura"
+        }
+      }
     },
     {
       "id": "48cd9c4d4d46",
       "name": "石川清以子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이시카와 세이코"
+        },
+        "en": {
+          "name": "Seiko Ishikawa"
+        }
+      }
     },
     {
       "id": "23e387d81089",
       "name": "多田美久璃",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "타다 미쿠리"
+        },
+        "en": {
+          "name": "Mikuri Tada"
+        }
+      }
     },
     {
       "id": "fee6e014b97d",
       "name": "佐々木悠",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "사사키 유"
+        },
+        "en": {
+          "name": "Sasaki Yu"
+        }
+      }
     },
     {
       "id": "9b8d2cabbdc3",
       "name": "丸こころ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "마루 코코로"
+        },
+        "en": {
+          "name": "Maru Kokoro"
+        }
+      }
     },
     {
       "id": "55ea9ca461ce",
       "name": "中寺美樹",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "나카데라 미키"
+        },
+        "en": {
+          "name": "Nakadera Miki"
+        }
+      }
     },
     {
       "id": "041577b833b9",
       "name": "小柳祐介",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "고야나기 유스케"
+        },
+        "en": {
+          "name": "Koyanagi Yusuke"
+        }
+      }
     },
     {
       "id": "39cb22906238",
       "name": "小野象平",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오노 쇼헤이"
+        },
+        "en": {
+          "name": "Ono Shohei"
+        }
+      }
     },
     {
       "id": "10ff92b615ea",
       "name": "ベルナール・フォコン",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "베르나르 포콩"
+        },
+        "en": {
+          "name": "Bernard Faucon"
+        }
+      }
     },
     {
       "id": "3877e26d091f",
       "name": "ジャンルー・シーフ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "장루 시프"
+        },
+        "en": {
+          "name": "Jeanloup Sieff"
+        }
+      }
     },
     {
       "id": "509f87558cd5",
       "name": "ジャック＝アンリ・ラルティーグ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "자크 앙리 라르티그"
+        },
+        "en": {
+          "name": "Jacques Henri Lartigue"
+        }
+      }
     },
     {
       "id": "85e784e066fd",
       "name": "松田優",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "마쓰다 유"
+        },
+        "en": {
+          "name": "Matsuda Yu"
+        }
+      }
     },
     {
       "id": "bede4410d98b",
       "name": "萬田康文",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "만다 야스후미"
+        },
+        "en": {
+          "name": "Manda Yasufumi"
+        }
+      }
     },
     {
       "id": "adf1457dd22f",
       "name": "Silvergelatin",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "실버젤라틴"
+        },
+        "ja": {
+          "name": "ゼラチンシルバー"
+        }
+      }
     },
     {
       "id": "ed25a680e1cc",
       "name": "川谷光平",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "카와타니 코헤이"
+        },
+        "en": {
+          "name": "Kohei Kawatani"
+        }
+      }
     },
     {
       "id": "1502d4da69fc",
       "name": "松田康司",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "마츠다 코지"
+        },
+        "en": {
+          "name": "Koji Matsuda"
+        }
+      }
     },
     {
       "id": "fc5f0a4d27fa",
       "name": "蔵満明翔",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "쿠라미츠 아키토"
+        },
+        "en": {
+          "name": "Akito Kuramitsu"
+        }
+      }
     },
     {
       "id": "1cfbaeb381dc",
       "name": "植村恭子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "우에무라 쿄코"
+        },
+        "en": {
+          "name": "Kyoko Uemura"
+        }
+      }
     },
     {
       "id": "89e1b1b7f728",
       "name": "安部みゆき",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "아베 미유키"
+        },
+        "en": {
+          "name": "Abe Miyuki"
+        }
+      }
     },
     {
       "id": "65840b0233d2",
       "name": "うしお",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "우시오"
+        },
+        "en": {
+          "name": "Ushio"
+        }
+      }
     },
     {
       "id": "a6d9d6d10778",
       "name": "江口暢彌",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "에구치 노부야"
+        },
+        "en": {
+          "name": "Eguchi Nobuya"
+        }
+      }
     },
     {
       "id": "01052fb90136",
       "name": "小川愛",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오가와 아이"
+        },
+        "en": {
+          "name": "Ogawa Ai"
+        }
+      }
     },
     {
       "id": "4103e7c4cfd2",
       "name": "折原智江",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "오리하라 토모에"
+        },
+        "en": {
+          "name": "Orihara Tomoe"
+        }
+      }
     },
     {
       "id": "44b6aab2c6b2",
