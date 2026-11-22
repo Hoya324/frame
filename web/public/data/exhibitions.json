@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T20:29:27.898437+00:00",
+  "generated_at": "2026-11-22T23:37:23.860317+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -91100,7 +91100,7 @@
       "price_max": null,
       "start_date": "2026-10-24",
       "end_date": "2026-11-21",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "c6edd85e51f2",
@@ -96215,22 +96215,11 @@
       "popularity_score": null
     },
     {
-      "id": "d6b302402faa",
+      "id": "8d41d64f2afd",
       "source": "totem_pole",
-      "title": "Sanrizuka IV",
-      "lang": "en",
-      "tr": {
-        "ko": {
-          "title": "산리즈카 IV",
-          "description": "사카타 하루토 / Haruto Sakata\n\n산리즈카 IV - 땅의 시간 / Sanrizuka IV – Layers of Time\n\n2026.11.24 (tue) – 11.29 (sun)\n\nOpen 12:00 – 19:00\n\n지금까지 신도쿄 국제공항(현 나리타 국제공항) 건설에 대한 반대 운동인 '산리즈카 투쟁'을 주제로 한 '거대한 이야기의 역사' I~III (이번 전시는 이 시리즈의 연번으로 자리매김했다)와, 제3 활주로 증설 등 '나리타 공항의 추가 기능 강화'로 인해 사라져가는 농촌 지역을 촬영한 '괴사하는 풍경' I~II의 두 시리즈를 축으로, 지속적으로 작품을 발표해왔다.\n\nThroughout my photographing career, I have been constantly publishing photographs centering around two series, “History of Grand Narrative” I – III (to which this exhibition will be a sequel), and “Death of Landscape” I – II. The former took up the theme of the Sanrizuka Struggle – the protest against the construction of the New Tokyo International Airport (now Narita International Airport) –, while the latter captured farming areas disappearing due to Further Capacity Enhancement of Narita International Airport such as the construction of the third runway.\n\n이번 전시에서는 산리즈카 투쟁을 주요 테마로 삼으면서도, 지금까지 작품을 파악하는 틀로 삼아왔던 '거대한 이야기/작은 이야기'에서 일단 벗어나, 산리즈카(주)라는 땅에 축적된 역사의 레이어에 주목했다.\n\nWhile the Sanrizuka Struggle remains the main theme of this exhibition, this time I stepped back from the “Grand/Small narratives”, the framework for grasping my work, and shifted my focus to layers of history accumulated in Sanrizuka* district.\n\n그것은 '투쟁'뿐만이 아닌, 이 지역이 걸어온 역사이다. 물론, 엄밀한 의미에서 '역사의 레이어' 그 자체가 사진에 찍히는 것은 아니다. 또한, 풍경을 '역사'로 해석하는 것은 결코 중립적인 행위가 아니며, 정치적인 활동이기도 하다. 하지만, 그렇다고 해서 그것을 피해야 한다고 생각하지 않는다.\n\nIt’s not limited to the Struggle but includes the history the locality has gone through. It goes without saying that the exact “layers of history” themselves do not come out in the photographs. Besides, interpreting landscapes as “history” is a political act, never a neutral one. Having said that, however, I believe that I ought not to refrain from doing so.\n\n역사적인 사건들은 분명히 그 땅에서 일어났고, 사람들의 기억으로 축적되어, 글이나 이야기, 이미지로 계승되어 왔다. 눈앞에 있는 풍경 또한 그러한 역사와 분리하여 파악할 수는 없다. 그렇기 때문에, 그 땅에 새겨지고 축적되어 온 역사를 무시하는 것이 아니라, 사진을 통해 다시 한번 깊이 들여다보는 것을 시도했다.\n\nHistorical events did happen in the locality, were stored in people’s memories, and were passed down as forms of texts, narratives, and images. And the landscapes before my eyes cannot be interpreted in isolation from such a history. Thus, rather than disregarding the history engraved and accumulated in the locality, I attempted to look into it through a fresh lens of photographs.\n\n주: 여기서 말하는 '산리즈카'는 현재 나리타시의 오아자(大字)로서의 '산리즈카' 지구만을 지칭하는 것이 아니라, 과거 산리즈카 투쟁이 벌어졌던 넓은 지역을 지칭한다. 투쟁의 전개에 따라, '산리즈카'라는 명칭은 나리타시 남동부에서 시바야마정 북부에 이르는 지역을 지칭하는 말로도 사용되게 되었다.\n\n*Sanrizuka“Sanrizuka” here does not solely mean Sanrizuka district in Narita city but means a wider area where the Sanrizuka Struggle took place. As the struggle intensified, areas referred to as “Sanrizuka” gradually stretched from southeastern Narita city to northern Shibayama town.\n\n촬영 협력: 키노네 펜션, 코이즈미 히데마사, 유한회사 산리즈카 물산, 나리타시 교육위원회, 나리타시 공원녹지과 (가나다순・경칭 생략)\n\n사카타 하루토 / Haruto Sakata\n\nProfile / Artist Site"
-        },
-        "ja": {
-          "title": "三里塚 IV"
-        },
-        "en": {
-          "description": "Haruto Sakata\n\nSanrizuka IV – Layers of Time\n\n2026.11.24 (tue) – 11.29 (sun)\n\nOpen 12:00 – 19:00\n\nThroughout my photographing career, I have been constantly publishing photographs centering around two series, “History of Grand Narrative” I – III (to which this exhibition will be a sequel), and “Death of Landscape” I – II. The former took up the theme of the Sanrizuka Struggle – the protest against the construction of the New Tokyo International Airport (now Narita International Airport) –, while the latter captured farming areas disappearing due to Further Capacity Enhancement of Narita International Airport such as the construction of the third runway.\n\nWhile the Sanrizuka Struggle remains the main theme of this exhibition, this time I stepped back from the “Grand/Small narratives”, the framework for grasping my work, and shifted my focus to layers of history accumulated in Sanrizuka* district.\n\nIt’s not limited to the Struggle but includes the history the locality has gone through. It goes without saying that the exact “layers of history” themselves do not come out in the photographs. Besides, interpreting landscapes as “history” is a political act, never a neutral one. Having said that, however, I believe that I ought not to refrain from doing so.\n\nHistorical events did happen in the locality, were stored in people’s memories, and were passed down as forms of texts, narratives, and images. And the landscapes before my eyes cannot be interpreted in isolation from such a history. Thus, rather than disregarding the history engraved and accumulated in the locality, I attempted to look into it through a fresh lens of photographs.\n\n*Sanrizuka“Sanrizuka” here does not solely mean Sanrizuka district in Narita city but means a wider area where the Sanrizuka Struggle took place. As the struggle intensified, areas referred to as “Sanrizuka” gradually stretched from southeastern Narita city to northern Shibayama town.\n\nPhotography Cooperation: Kinone Pension, Hidemasa Koizumi, Sanrizuka Bussan Co., Ltd., Narita City Board of Education, Narita City Parks and Green Spaces Division (in alphabetical order of Japanese syllabary, titles omitted)\n\nHaruto Sakata\n\nProfile / Artist Site"
-        }
-      },
+      "title": "三里塚IV-土地の時間 / Sanrizuka IV – Layers of Time",
+      "lang": null,
+      "tr": {},
       "poster_image_url": "https://tppg.jp/wp/wp-content/uploads/2026/09/Sakata_800px01-1.jpg",
       "description": "佐方 晴登 / Haruto Sakata\n\n三里塚IV-土地の時間 / Sanrizuka IV – Layers of Time\n\n2026.11.24 (tue) – 11.29 (sun)\n\nOpen 12:00 – 19:00\n\nこれまで、新東京国際空港（現・成田国際空港）の建設に対する反対運動である「三里塚闘争」をテーマとした「大きな物語の歴史」I〜III（今回の展示は、このシリーズの連番として位置づけた）と、第三滑走路の増設など「成田空港の更なる機能強化」によって失われつつある農村地帯を撮影した「壊死するフウケイ」I〜IIの二つのシリーズを軸に、継続的に作品を発表してきた。\n\n今回の展示では、三里塚闘争を主なテーマとしながらも、これまで作品を捉える枠組みとしてきた「大きな物語／小さな物語」からいったん離れ、三里塚（注）という土地に蓄積された歴史のレイヤーに着目した。\n\nそれは、「闘争」だけではない、この地域が歩んできた歴史である。無論、厳密な意味で「歴史のレイヤー」そのものが写真に写るわけではない。また、風景を「歴史」として解釈することは、決して中立的な行為ではなく、政治的な営みでもある。しかし、だからといって、それを避けるべきではないと考えている。\n\n歴史的な出来事は、確かにその土地で起こり、人々の記憶として蓄積され、文字や語り、イメージとして受け継がれてきた。目の前にある風景もまた、そうした歴史と切り離して捉えることはできない。だからこそ、その土地に刻まれ、蓄積されてきた歴史を無視するのではなく、写真を通してあらためて見つめ直すことを試みた。\n\n注：ここでいう「三里塚」は、現在の成田市の大字としての「三里塚」地区のみを指すものではなく、かつて三里塚闘争が繰り広げられた広い地域を指している。闘争の展開に伴い、「三里塚」という名称は、成田市南東部から芝山町北部にかけての地域を指す言葉としても用いられるようになった。\n\nThroughout my photographing career, I have been constantly publishing photographs centering around two series, “History of Grand Narrative” I – III (to which this exhibition will be a sequel), and “Death of Landscape” I – II. The former took up the theme of the Sanrizuka Struggle – the protest against the construction of the New Tokyo International Airport (now Narita International Airport) –, while the latter captured farming areas disappearing due to Further Capacity Enhancement of Narita International Airport such as the construction of the third runway.\n\nWhile the Sanrizuka Struggle remains the main theme of this exhibition, this time I stepped back from the “Grand/Small narratives”, the framework for grasping my work, and shifted my focus to layers of history accumulated in Sanrizuka* district.\n\nIt’s not limited to the Struggle but includes the history the locality has gone through. It goes without saying that the exact “layers of history” themselves do not come out in the photographs. Besides, interpreting landscapes as “history” is a political act, never a neutral one. Having said that, however, I believe that I ought not to refrain from doing so.\n\nHistorical events did happen in the locality, were stored in people’s memories, and were passed down as forms of texts, narratives, and images. And the landscapes before my eyes cannot be interpreted in isolation from such a history. Thus, rather than disregarding the history engraved and accumulated in the locality, I attempted to look into it through a fresh lens of photographs.\n\n*Sanrizuka“Sanrizuka” here does not solely mean Sanrizuka district in Narita city but means a wider area where the Sanrizuka Struggle took place. As the struggle intensified, areas referred to as “Sanrizuka” gradually stretched from southeastern Narita city to northern Shibayama town.\n\n撮影協力：木の根ペンション、小泉英政、有限会社三里塚物産、成田市教育委員会、成田市公園緑地課（五十音順・敬称略）\n\n佐方 晴登 / Haruto Sakata\n\nProfile / Artist Site",
       "medium": "photo",
@@ -97482,7 +97471,7 @@
       "price_max": null,
       "start_date": "2026-10-17",
       "end_date": "2026-11-21",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "a3f587f900ac",
@@ -98334,7 +98323,7 @@
       "price_max": null,
       "start_date": "2026-10-16",
       "end_date": "2026-11-21",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "264da55cd4ca",
@@ -103594,7 +103583,7 @@
       "price_max": null,
       "start_date": "2026-10-21",
       "end_date": "2026-11-21",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "faa42437658a",
@@ -104286,7 +104275,7 @@
       "price_max": null,
       "start_date": "2026-11-21",
       "end_date": "2026-11-21",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "ac8ed056af7c",
@@ -104601,7 +104590,7 @@
       "price_max": null,
       "start_date": "2026-11-06",
       "end_date": "2026-11-21",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "1ab862183c75",
@@ -109093,7 +109082,7 @@
       "price_max": null,
       "start_date": "2026-11-05",
       "end_date": "2026-11-21",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "32f62022e651",
@@ -109299,7 +109288,7 @@
       "price_max": null,
       "start_date": "2026-11-04",
       "end_date": "2026-11-21",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "264da55cd4ca",
@@ -113416,7 +113405,7 @@
       "price_max": null,
       "start_date": "2026-11-16",
       "end_date": "2026-11-21",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "b421867c34c6",
@@ -114883,7 +114872,7 @@
       "price_max": null,
       "start_date": "2026-11-22",
       "end_date": "2026-12-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "3ff6b1ad4db6",
@@ -115564,7 +115553,7 @@
       "price_max": null,
       "start_date": "2026-11-22",
       "end_date": "2026-11-28",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "56dcce833be6",
@@ -118041,7 +118030,7 @@
       "price_max": null,
       "start_date": "2026-11-19",
       "end_date": "2026-11-21",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "d7c25c9e23c2",
@@ -118232,22 +118221,15 @@
       "popularity_score": null
     },
     {
-      "id": "cbf062d6963b",
-      "source": "tokyo_art_beat",
-      "title": "「Green Belt Press」",
-      "lang": "en",
-      "tr": {
-        "ko": {
-          "title": "「그린 벨트 프레스」"
-        },
-        "ja": {
-          "title": "「グリーンベルト・プレス」"
-        }
-      },
-      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/97b0e7c3/3c23379c-2af5-44d3-9343-cb762ffa0077.jpeg",
-      "description": null,
+      "id": "8353a44a1fae",
+      "source": "totem_pole",
+      "title": "Green Belt Press",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://tppg.jp/wp/wp-content/uploads/2026/10/S__41320469.jpg",
+      "description": "早坂歩、郡山陸、林熙、小田切優人 / Ayumu hayasaka, Riku Koriyama, Xi Lin, Yuto Odagiri\n\nGreen Belt Press\n\n2026.12.8 (tue) – 12.13 (sun)\n\nOpen 12:00 – 19:00\n\nインターネットとSNSの発達によって簡単に写真や映像を共有する事ができる現在、本や紙媒体といった一手間かかるアナログなメディアは縮小し続けている。画面上で膨大な情報が流れていく中、以前から自身のSNSに日記を書き溜めていた小田切は、それらを何らかの形あるものに留め、固定したいと考えていた。“Green Belt”とは緑地帯を意味していて、都市の過剰な肥大化や地方人口の流出を抑えるために、市街地の外周を幅10kmの緑地帯で囲んだロンドンの事例がよく知られている。“Green Belt Press”は、手ざわりや感触なく物事を共有できてしまう行きすぎた構造に対して、フィジカルに引き戻そうとする試みであり、グリーンベルトのような役割を持たせようとする実験でもある。\n\n早坂歩2005年 東京都品川区生まれずっと東京を拠点に活動中小田切優人2003年 東京多摩出身ポートレートを用いて、人と対話しながら自らと社会のつながりを探る郡山陸2005年 東京都出身主にモノクロフィルムを用いた作品を制作中Xi Lin2000年 中国広東省生まれ2023年 来日現在、東京を拠点に活動。",
       "medium": "mixed",
-      "exhibition_type": "group",
+      "exhibition_type": "solo",
       "genre_tags": [],
       "fee_type": "free",
       "price_min": null,
@@ -118274,6 +118256,12 @@
         "lng": 139.71638630984123
       },
       "artists": [
+        {
+          "id": "6da4e982471e",
+          "name": "早坂歩、郡山陸、林熙、小田切優人 / Ayumu hayasaka, Riku Koriyama, Xi Lin, Yuto Odagiri",
+          "lang": null,
+          "tr": {}
+        },
         {
           "id": "372702d464da",
           "name": "早坂歩",
@@ -118327,7 +118315,7 @@
           }
         }
       ],
-      "source_url": "https://www.tokyoartbeat.com/events/-/Green-Belt-Press/2-D82-C04-B/2026-12-08",
+      "source_url": "https://tppg.jp/green-belt-press/",
       "featured": false,
       "popularity_score": null
     },
@@ -120461,7 +120449,7 @@
       "price_max": null,
       "start_date": "2026-11-06",
       "end_date": "2026-11-21",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "428d66c8a712",
@@ -120994,6 +120982,60 @@
       },
       "artists": [],
       "source_url": "https://www.ilwoo.org/default/m02/p03.php?com_board_basic=read_form&com_board_idx=94&com_board_page=&com_board_id=10",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "541829afaab7",
+      "source": "place_m",
+      "title": "徐智の写真宇宙",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://www.placem.com/schedule/2026/main/20261116/20261116-00.jpg",
+      "description": "2026.11.16 - 2026.11.29 徐智 徐智の写真宇宙 中国のアマチュア写真は、中華人民共和国の成立以降、政治や社会経済の変化、そして写真機材の普及を背景に大きく展開してきました。その中で、アマチュア写真家たちの美意識と表現手法は、ごく短い期間のうちに急速な転換を遂げています。それは日本において、戦前の芸術写真から新興写真を経て、戦後の現代写真の黄金期へと至った変遷を、凝縮してたどるかのようでもあります。 本展で紹介する徐智氏は、その典型的な一例です。前世紀に写真とカメラに出会った当初、徐氏の作品は徹頭徹尾サロン写真の傾向にあり、民国期のピクトリアリズム（画意写真）から強い影響を受けていました。しかし徐氏はやがて、唯美的な美意識に根ざした民俗写真から急速に距離を置き、より現実批判的なストリートスナップへと身を投じます。それは、かつての自らの表現に挑むような試みでもありました。そして近年、デジタル写真技術とAIの波の中で、再び新たな映像表現に取り組み始めています。 本展は三部構成で「徐智の写真宇宙」を紹介します。第一部はチベットで撮影されたサロン写真、第二部は上海の都市スナップ、第三部は新たな試みです。徐智氏の作品を通して、中国のアマチュア写真家たちが重ねてきた表現上の選択を垣間見ていただければ幸いです。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-29",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "2da18874aafa",
+        "name": "Place M",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Place M"
+          },
+          "ja": {
+            "name": "Place M"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.6877688,
+        "lng": 139.7125787
+      },
+      "artists": [
+        {
+          "id": "324ab12ebc78",
+          "name": "徐智",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "서지"
+            },
+            "en": {
+              "name": "Seo Ji"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.placem.com/schedule/2026/main/20261116/exhibition.php",
       "featured": false,
       "popularity_score": null
     }
@@ -169917,6 +169959,12 @@
     {
       "id": "6c993d7171d6",
       "name": "高橋伸哉",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6da4e982471e",
+      "name": "早坂歩、郡山陸、林熙、小田切優人 / Ayumu hayasaka, Riku Koriyama, Xi Lin, Yuto Odagiri",
       "lang": null,
       "tr": {}
     }
