@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T00:35:38.208189+00:00",
+  "generated_at": "2026-11-25T02:29:33.841101+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -95590,7 +95590,7 @@
       "price_max": null,
       "start_date": "2026-11-20",
       "end_date": "2026-11-24",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "cc5c0d6982da",
@@ -103516,7 +103516,7 @@
       "price_max": null,
       "start_date": "2026-11-25",
       "end_date": "2026-12-26",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "faa42437658a",
@@ -107351,7 +107351,7 @@
       "price_max": null,
       "start_date": "2026-11-25",
       "end_date": "2026-11-30",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ac8ed056af7c",
@@ -108445,7 +108445,7 @@
       "price_max": null,
       "start_date": "2026-10-31",
       "end_date": "2026-11-24",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "76373e5b77c3",
@@ -114161,7 +114161,7 @@
         }
       },
       "poster_image_url": "https://www.placem.com/schedule/2026/main/20261207/umaba_01.jpg",
-      "description": "2026.12.07 - 2026.12.13 馬場磨貴 DONOR / LETTERS 美術館に並ぶ聖母子像から、写真スタジオの明るいメモリーフォトまで、母と乳児の像はいつも幸福の象徴として私たちの前に現れます。これら母子の理想像は、知らぬ間に私たちの脳裏へ浸透し、刷り込まれた「幸福な母性」に無抵抗に頷いています。 「幸福な母性」とは、宗教が理想化し、美術が象徴化し、写真が理想の日常と結びつけ、社会が期待してきた、歴史的・文化的な“美しい虚構”なのかもしれません。その幸福のかたちは、語られない疲労や不安、複雑な感情を沈黙させることで保たれているのでしょう。 しかし現実の母は、迷いや怒り、愛と不安が交錯する揺らぎのなかにいます。女は子を宿した瞬間から「母」と看做され、自身の理解や実感が追いつかぬまま、社会の期待する母へとなっていきます。女性自身の理解や認識、体験は置き去りのまま。 時折、私はふと考えます。マリアは受胎告知の日、それを本当に静かに受け入れられたのだろうかと。 観念のさらに遠くで、今日も多くの母たちは、目の前の小さな命に、淡々と自らを与え続けています。 本展では2024年にフランス・アルルで発表し、本年各都市を巡回している《DONOR》とともに、新作《LETTERS》を展示します。 長い年月にわたり届き続けている母からの手紙。そして映像を通して、終わることのない「母 」 という存在を見つめます。",
+      "description": "2026.12.07 - 2026.12.13 馬場磨貴 DONOR / LETTERS 美術館に並ぶ聖母子像から、写真スタジオの明るいメモリーフォトまで、母と乳児の像はいつも幸福の象徴として私たちの前に現れます。これら母子の理想像は、知らぬ間に私たちの脳裏へ浸透し、刷り込まれた「幸福な母性」に無抵抗に頷いています。 「幸福な母性」とは、宗教が理想化し、美術が象徴化し、写真が理想の日常と結びつけ、社会が期待してきた、歴史的・文化的な“美しい虚構”なのかもしれません。その幸福のかたちは、語られない疲労や不安、複雑な感情を沈黙させることで保たれているのでしょう。 しかし現実の母は、迷いや怒り、愛と不安が交錯する揺らぎのなかにいます。女は子を宿した瞬間から「母」と看做され、自身の理解や実感が追いつかぬまま、社会の期待する母へとなっていきます。女性自身の理解や認識、体験は置き去りのまま。 時折、私はふと考えます。マリアは受胎告知の日、それを本当に静かに受け入れられたのだろうかと。 観念のさらに遠くで、今日も多くの母たちは、目の前の小さな命に、淡々と自らを与え続けています。 本展では2024年にフランス・アルルで発表し、本年各都市を巡回している《DONOR》とともに、新作《LETTERS》を展示します。 長い年月にわたり届き続けている母からの手紙。そして映像を通して、終わることのない「母 」 という存在を見つめます。 トークイベント開催のお知らせ 馬場磨貴 DONOR / LETTERS 2026年12月12日（土）19:00〜 Place M うつゆみこ×馬場磨貴×瀬戸正人 「母について、表現すること」 母性とは、母という存在、そして表現について、3人で語り合います。",
       "medium": "mixed",
       "exhibition_type": "solo",
       "genre_tags": [],
@@ -116673,7 +116673,7 @@
       "price_max": null,
       "start_date": "2026-11-25",
       "end_date": "2026-11-29",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "56f172501426",
@@ -121201,6 +121201,887 @@
       },
       "artists": [],
       "source_url": "http://www.tosei-sha.jp/TOSEI-NEW-HP/html/EXHIBITIONS/j_261102_Satoru%20Watanabe.html",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "65ae2ef08267",
+      "source": "photo_sema",
+      "title": "《확산의 물결》",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://sema.seoul.go.kr/common/imgFileView?FILE_ID=1036112",
+      "description": "제도를 딛고 도약한 사진예술의 시대\n\n해방 이후, 한국사진은 새로운 흐름을 맞이했습니다.\n\n새 시대에 자생적으로 생겨난 사진단체와 사진연구소, 동호회는 비평적 담론을 모색하고 후학을 양성하는 배움의 터전이자 활동 무대가 되었습니다. 사진공모전의 유행과 이에 부응하려는 사진가들의 노력은 문화예술계 속 사진계의 위상을 점차 강화시켰고, 1964년에 이르러서는 마침내 대한민국미술전람회에 사진부가 신설되어 사진은 제도권 미술계 안에서 독자적인 조형 예술로 공인받게 되었습니다. 흑백 중심의 엄격한 조형 언어는 컬러 매체의 도입과 함께 표현의 지평을 넓혀갔으며, 살롱·회화주의 사진과 보도·기록사진, 그리고 영업·광고사진은 서로 치열하게 경쟁하면서도 저마다의 독자적인 성취를 이루었습니다. 소형 카메라의 보급, 상업 사진관의 팽창, 대중 잡지 등 인쇄 매체의 발달은 이러한 문화적 확산을 견인하며, 마침내 사진이 시대와 사람들의 삶 속에 깊숙이 뿌리내리게 했습니다.\n\n이번 전시는 2025년 개관특별전 《광채 光彩: 시작의 순간들》을 잇는 두 번째 소장품 기획전으로, 제도권 사진예술의 전개와 함께 부상한 여섯 명의 대표 작가를 조망합니다. 정희섭, 문선호, 이경모, 홍순태, 장진필, 이은주는 사진계가 분출하던 도약의 열기를 동력 삼아 시대의 변화에 조응하며 자신만의 예술성과 기록 정신을 표출했습니다. 이들이 시도한 사진적 실천은 한국 사진예술이 나아갈 다채로운 방향성을 제시하였으며, 오늘날 사진이 사회 전반의 문화와 예술을 아우르는 거대한 흐름으로 자리매김하는 바탕이 되었습니다. 이번 전시를 통해 여섯 작가가 포착한 흥미로운 사진의 장면들을 마주하며, 세대와 지역을 초월해 한국 사진의 전환과 확산을 이끈 선구적 물결을 직접 확인해 보시기 바랍니다.",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-25",
+      "end_date": "2027-03-21",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "0923603ff7b6",
+        "name": "서울시립 사진미술관",
+        "lang": "ko",
+        "tr": {
+          "en": {
+            "name": "Seoul Museum of Photography"
+          },
+          "ja": {
+            "name": "ソウル市立写真美術館"
+          }
+        },
+        "region": null,
+        "district": null,
+        "lat": 37.6555150225578,
+        "lng": 127.048947814686
+      },
+      "artists": [],
+      "source_url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1607817",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "612df0ab030f",
+      "source": "tokyo_art_beat",
+      "title": "ロレンツォ・アギウス 「Trainspotting 30th Anniversary #30」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/35622131/618ddf60-ad4a-43c6-957d-8e1d79d3ca7f.webp",
+      "description": "1996年11月30日、映画『トレインスポッティング』が日本で公開されました。それから30年。日本公開30周年を記念した写真展「Trainspotting 30th Anniversary #30」を、2026年11月28日（土）から12月3日（木）まで、東京・恵比寿のギャラリーALで開催します。会場に並ぶのは、同作のスチール撮影を手がけた英国人フォトグラファー、ロレンツォ・アギウス（Lorenzo Agius）が30年にわたって保管してきたコンタクトシート。未公開カットを含む十数点を、シート全体を拡大したジークレー作品として展示し、数量限定で販売します。本展をサポートするBehind the Scenes®が手がけた、CHANNEL FOUR FILMSのオフィシャル30周年記念Tシャツも登場。コンタクトシートは、撮影したカットを一枚に並べ、使用する写真を選ぶためのものです。ひとつ隣のコマでは、俳優がカメラから視線を外す。次のコマでは、ポーズが崩れ、ふと笑みがこぼれる。キャストが揃った集合カットには、俳優たちが笑い合う姿も残っています。会場には、モノクロ写真に加え、カラー写真も並びます。これらのカラー写真は、本展で日本初の公式展示となります。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-28",
+      "end_date": "2026-12-03",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "7a6765269871",
+        "name": "AL",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "AL"
+          },
+          "ja": {
+            "name": "AL"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.645727268369676,
+        "lng": 139.70369193051891
+      },
+      "artists": [
+        {
+          "id": "c2e319dc2bc6",
+          "name": "ロレンツォ・アギウス",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Lorenzo-Agius-Trainspotting-30th-Anniversary-30/B100-AACB/2026-11-28",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "12aea4ea521e",
+      "source": "tokyo_art_beat",
+      "title": "藤田紅於 「再結晶のサンプル」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/6d281ef9/46ba0bac-3593-483d-af31-1d783a3296e0.jpg",
+      "description": "間庭（まにわ）では、藤田紅於による「再結晶のサンプル」を開催いたします。藤田は郊外の新興住宅地をモチーフとして写真作品を制作しています。彼女にとって新興住宅地とは、“事物の表面に残された人々の意識や行為の痕跡が、時間をかけて結びつくことで「結晶化」する洞窟のような場所”だといいます。住宅地という外から見られることを意識していない閉ざされた空間において、積層された事物は住民の行為や嗜好を無防備に晒しながら結合し、その結合の強弱はゆらめきとなって目に見えない輝きを放ちます。その輝きが藤田を惹きつけ、作品をつくらせます。採集した結晶（住宅地の写真）と氷の写真とを合成することは、被写体同士が持つ繋がりを一度解体し、より強い輝きを放つ純度の高いイメージへと作り変える再結晶化の行為といえます。藤田による「再結晶のサンプル」をこの機会にぜひご高覧ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-06",
+      "end_date": "2026-12-20",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "1f5735c11fa2",
+        "name": "間庭",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "마니와"
+          },
+          "en": {
+            "name": "Maniwa"
+          }
+        },
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.67971,
+        "lng": 135.5585
+      },
+      "artists": [
+        {
+          "id": "28b4493141e8",
+          "name": "藤田紅於",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "후지타 고요"
+            },
+            "en": {
+              "name": "Koyo Fujita"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kureo-Fujita-Recrystallization-Sample/maniwa/2026-12-06",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "bf9a8b64f4e8",
+      "source": "tokyo_art_beat",
+      "title": "「百々俊二写真集『別世界 大阪2023‐2026』出版記念展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/7324d439/fd519dd7-a158-462c-8b9e-41913f232509.jpg",
+      "description": "KOSHA KOSHA AKIHABARAにて、2026年12月4日（金）より、百々俊二 写真集『別世界 大阪 2023-2026』刊行記念展を開催いたします。百々俊二は2023年、阪神タイガースの18年ぶりの優勝に沸く道頓堀を目の当たりにしたことをきっかけに、再び大阪の街を本格的に撮り始めました。京橋、天王寺、西成、新世界、鶴橋、難波、道頓堀、大阪駅周辺などを歩き、街を行き交う人々と、変貌を続ける都市の姿を35ミリフィルムで捉えています。1986年の写真集『新世界むかしも今も』、写真集『大阪』など、半世紀以上にわたり大阪を見つめてきた百々。大阪・関西万博を前後して再開発が進み、かつての街並みが失われ、新たな風景が生まれていくなか、過去への郷愁ではなく、現在の大阪との新たな出会いにカメラを向けました。写真集『別世界 大阪 2023-2026』の造本設計は町口覚が担当。街角で出会った人々、雑踏や路地、変わりゆく都市の風景など、2023年から2026年に撮影されたモノクローム作品133点を168ページにわたり収録しています。写真集収録作品より、厳選した約58点を展示します。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-04",
+      "end_date": "2027-01-30",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "020ae6e78a04",
+        "name": "KOSHA KOSHA AKIHABARA",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "코샤 코샤 아키하바라"
+          },
+          "ja": {
+            "name": "コシャ コシャ アキハバラ"
+          }
+        },
+        "region": "浅草橋、馬喰町",
+        "district": null,
+        "lat": 35.69745,
+        "lng": 139.7803
+      },
+      "artists": [
+        {
+          "id": "3cbd30096748",
+          "name": "百々俊二",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Shunji-Dodo-Another-World-Osaka-20232026/kosha-kosha-akihabara/2026-12-04",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "83d75819390f",
+      "source": "tokyo_art_beat",
+      "title": "鶴巻育子 「半径の庭」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/f6428156/e7ba8e2e-c5d2-4dc6-8a40-a896617b238b.jpeg",
+      "description": "本展では、第33回林忠彦賞受賞作『ALT』制作以前から継続的に取り組んでおり、作家活動の重要な軸となっているスナップシリーズの最新作を発表します。鶴巻は、歳を重ねるごとに母の姿と似通い、自身の輪郭が揺らいでいくことに、心地よさを感じるようになりました。いま目の前にあるものにただ反応し、世界を肯定するように写真に収めています。世界に身を委ねるように撮影した現在地のスナップを、どうぞご高覧ください。\n\n[関連イベント]\n1. ギャラリートーク 鶴巻育子×宮添浩司（デザイナー）\n日時: 12月5日 14:00〜15:30\n参加費: 1200円（会場観覧・オンライン配信）\n2. ギャラリーツアー\n日時: 12月19日 14:00～\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-04",
+      "end_date": "2026-12-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "37f737766ac5",
+        "name": "ふげん社",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "후겐사"
+          },
+          "en": {
+            "name": "Fugen-sha"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.630687162511016,
+        "lng": 139.70241720946206
+      },
+      "artists": [
+        {
+          "id": "ea08d77065d2",
+          "name": "鶴巻育子",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Ikuko-Tsurumaki-Radius-Garden/EBF7-BCA5/2026-12-04",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "9cdbe1cdf160",
+      "source": "tokyo_art_beat",
+      "title": "笠間悠貴 + 佐野裕亮 「みずあめつち」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/579ef9be/187ffb33-1d4d-4f5b-b23b-6cbd35457f08.jpg",
+      "description": "衛星からの画像を眺めれば、このユーラシア大陸には、東南アジアから中国沿岸、そして日本にかけて濃い緑が覆う地域と、それからアラビア半島を中心に赤茶色が広がるむき出しの大地、あるいはモンゴルあたりからシベリアを経由してヨーロッパ半島に至る寒冷な薄緑のエリアと、そうした三つの特徴を見つけることができる。これは、和辻哲郎が『風土』の中で規定した「モンスーン」「砂漠」「牧場」という区分におおよそ当てはまるが、そうした遠目の印象、あるいは思弁的な議論から抜け出して、実際に現地に赴き、人々にふれ、具体的な土地を歩くこと、それが当展覧会「みずあめつち」を制作する契機となっている。旅先で出会う場所は、本の中の、あるいは想像の中のステロタイプとは違って、スコールの後の風は爽やかで、サハラのフルーツは甘く、黒い森に降る雪は穏やかだった。但し、その現地に広がる特有の文化や異国情緒を、「みずあめつち」は表象することを目的としてはいない。「みずあめつち」の写真は、ユーラシア大陸におけるそれぞれの風土で、「水面」「天球」「地表」を等倍で撮影してきたものである。当作品が写し出すのは、六切サイズのフィルムと同じだけの範囲である。正確に等倍の、そのどれもが同じサイズの、ユーラシア各地の遠く隔たる場所を、展覧会場に同時に並置している。撮影がおこなわれた2025年から2026年にかけては偶然にも、一握りの人物によって世界はどんどん厳しく、醜い情勢へと変転していった。この時期を、あえて特別な期間として捉えるつもりは別にない。ただしそれでも私たちは、目の前の現実に集中するには、幾分の努力を必要とした。各地の紛争を無視して、縫うように旅をした。その旅の途上で出会った確かな出来事、この世の手触り、対象の物質性、こうした当たり前の抵抗を、写真の指標性そのままに、厳密にトレースすることに徹した。各地に散らばる手近で、かつかけがえのない瞬間を、生成された写真の銀粒子に拮抗させたかった。遠くまで赴き、そして複雑なプロセスを経て、ごく普通の写真を撮った。良いのか悪いのか、正しいのか間違いなのか、記録なのか表現なのか、そうした二元的思考をこそ乗り越えるために。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-04",
+      "end_date": "2026-12-16",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "23129cff8bfd",
+        "name": "Alt_Medium",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Alt_Medium"
+          },
+          "ja": {
+            "name": "Alt_Medium"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.71661464828487,
+        "lng": 139.70035702006683
+      },
+      "artists": [
+        {
+          "id": "0861fc5113a0",
+          "name": "笠間悠貴",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8e3066950f01",
+          "name": "佐野裕亮",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yuki-Kasama-Yusuke-Sano-Mizu-Ame-Tsuchi/F7-BA6-D85/2026-12-04",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "2fd3a9f1287a",
+      "source": "tokyo_art_beat",
+      "title": "「A Box of Impressions, Tokyo」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/f6e60f3e/9c3132d9-8fd2-42b5-a405-ec828f41ceae.jpg",
+      "description": "この度、lemaireは、第2回写真展となる「A Box of Impressions, Tokyo」を開催します。2026年春にパリにて開催された第1回写真展「A Box of Impressions – Palais Royal」は、lemaire共同アーティスティック·ディレクターであるsarah-linh tran（サラ=リン・トラン）とイギリス人キュレーターのlou stoppard（ルー・ストッパード）により、パレ·ロワイヤルとその回廊に連なるショッピングアーケードが持つ独自の建築、そして文化的遺産へのオマージュとして構想されました。21名の写真家が参加し、日々の観察、移ろいゆくもの、そしてパブリックと私的な視線が交わる領域について考察しました。\n\n東京、恵比寿にある1960年代に建てられた個人住宅を改装したlemaire ebisuを舞台に開催される第2回では、sarah-linh tranと日本人キュレーターの深井佐和子が共同でキュレーションを手がけ、パリのアプローチを継承しながら、写真を通じた探求を続けています。\n\n本展には、多様な創作活動や文化的背景を持つ21名の写真家が参加します。各写真家が10点の写真を提供し、コレクションに最適なポストカードサイズのプリントをそれぞれ10部限定で制作。200枚のプリントは、本展のために制作された特別なボックスに収められます。\n\nそれら200枚の写真は、記憶の幾層もの重なりを通して現代日本を描き出す朝吹真理子の著書『TIMELESS』(2018年)に着想を得、キュレーターたちが本書から選び出した18の言葉や語句の断片をキーワードとして、箱という空間の中で、非線形的に構成されています。\n\n観客は、特製のボックスに収められた作品を、ゆっくりと宝探しを楽しむように鑑賞できます。現代性、日常のありふれた光景、そして新鮮な視覚的発見が織り交ぜられた作品群には、平凡さと幻想のあいだに生まれる緊張感が映し出されています。\n\n写真と日常という文化的な営みに対するlemaireの継続的な関心を表す「A Box of Impressions, Tokyo」。会場には、独立系アートブックのディストリビューター兼出版社であるtwelvebooksが選書したライブラリーも併設され、参加アーティストによる出版物もご覧いただけます。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-26",
+      "end_date": "2027-01-31",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "75c7bb8cb22c",
+        "name": "LEMAIRE EBISU",
+        "lang": null,
+        "tr": {},
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.6439107,
+        "lng": 139.7176813
+      },
+      "artists": [
+        {
+          "id": "37a6451578ca",
+          "name": "村田啓",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1d89bbb36aaa",
+          "name": "アンドレア・ベルタッツォン",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "494af1268211",
+          "name": "赤瀬川原平",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "030a868ea60d",
+          "name": "ヴィヴィアン・サッセン",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "비비안 사센"
+            },
+            "en": {
+              "name": "Viviane Sassen"
+            }
+          }
+        },
+        {
+          "id": "445bf7c10998",
+          "name": "原美樹子",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "하라 미키코"
+            },
+            "en": {
+              "name": "Mikiko Hara"
+            }
+          }
+        },
+        {
+          "id": "ece9fbefadc0",
+          "name": "潮田登久子",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "우시오다 토쿠코"
+            },
+            "en": {
+              "name": "Tokuko Ushioda"
+            }
+          }
+        },
+        {
+          "id": "6d9afc751834",
+          "name": "ホンマタカシ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0f20feb4e222",
+          "name": "ヴァレリー・ジューヴ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e10a2a0265f7",
+          "name": "羽田澄子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4faf3bcae90d",
+          "name": "瀬戸正人",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "세토 마사토"
+            },
+            "en": {
+              "name": "Seto Masato"
+            }
+          }
+        },
+        {
+          "id": "ee24e085e42d",
+          "name": "ジョウ・チャン",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "5b096bf776a2",
+          "name": "ニールス・ジュンジ・エドストローム",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "dbfe9a0c099b",
+          "name": "キャット・トゥオン・グエン",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c45905508054",
+          "name": "アンリ・ロア",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e2d35b8f399e",
+          "name": "上田義彦",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "285f57c2051b",
+          "name": "イリーナ・ロゾフスキー",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "3083d56cea7d",
+          "name": "ナタリア・アセベド",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "1f603384a583",
+          "name": "ダヴィデ・ストゥッキ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "022075744bad",
+          "name": "マッティア・ルッフォロ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "026615427fb9",
+          "name": "ルッカ・ルツキー",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "fac5da717903",
+          "name": "アニエス・ヴァルダ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/A-Box-of-Impressions-Tokyo/Lemaire-Ebisu/2026-11-26",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "c83d6990c56b",
+      "source": "tokyo_art_beat",
+      "title": "中村千鶴子 「冬のスケッチ」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/3ea21bab/89b2d166-87fe-4040-993a-6a7d8e295f6a.jpg",
+      "description": "岩手県盛岡市を拠点に活動を続ける中村千鶴子の個展を開催します。本作は「第三回ふげん社写真賞」準グランプリを受賞した作品で本年PURPLEより同名の写真集が刊行されました。地元盛岡、仙台に続いて、東京で作品を紹介いたします。古い建物が解体され、見慣れた景色に穴が開くように空が見える。雪混じりの美しい町の景色の向こうにひとびとの物語が浮かんでは消えていくようでもあり、それらに思いを馳せ、ゆっくり丁寧に見ていただきたい作品展です。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-02",
+      "end_date": "2026-12-13",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "018b6124fde6",
+        "name": "ルーニィ 247 ファインアーツ",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "루니 247 파인아츠"
+          },
+          "en": {
+            "name": "Rooney 247 Fine Arts"
+          }
+        },
+        "region": "浅草橋、馬喰町",
+        "district": null,
+        "lat": 35.692819870905694,
+        "lng": 139.77994191009685
+      },
+      "artists": [
+        {
+          "id": "1e31064871a6",
+          "name": "中村千鶴子",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Tiduko-Nakamura-Winter-Sketches/6694-D683/2026-12-02",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "cab56afd5961",
+      "source": "tokyo_art_beat",
+      "title": "大西徹 「宇宙（ソラ）へ 星の神殿と宇宙の叙事詩」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/b1f52cb3/bc2cb977-f31c-4646-a505-d3f652437306.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-08",
+      "end_date": "2026-12-20",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "bad41612e0e3",
+        "name": "ギャラリー・ソラリス",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 솔라리스"
+          },
+          "en": {
+            "name": "Gallery Solaris"
+          }
+        },
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.67689,
+        "lng": 135.5031
+      },
+      "artists": [
+        {
+          "id": "8f4baab75fea",
+          "name": "大西徹",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Toru-Onishi-To-the-Cosmos-Temples-of-the-Stars-and-the-Epic-of-the-Universe/gallery-solaris/2026-12-08",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "ebe248063957",
+      "source": "tokyo_art_beat",
+      "title": "兼古昭彦 「behavior」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/f3f751d4/cdbe28f7-5618-457c-acdb-4eae86e210cd.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-07",
+      "end_date": "2026-12-12",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "b9dd092bd850",
+        "name": "ギャラリー58",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 58"
+          },
+          "en": {
+            "name": "Gallery 58"
+          }
+        },
+        "region": "銀座、丸の内",
+        "district": null,
+        "lat": 35.6721165368179,
+        "lng": 139.76476437301636
+      },
+      "artists": [
+        {
+          "id": "6e4a75463091",
+          "name": "兼古昭彦",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Akihiko-Kaneko-Behavior/0-E250-B96/2026-12-07",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "085d20d9ed51",
+      "source": "tokyo_art_beat",
+      "title": "谷田梗歌 「Sound of ICE vol.2 with Music」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/52161337/432fcf52-9637-4a66-b588-07a998340a1d.png",
+      "description": "谷田梗歌個展を開催いたします。氷が融けゆく、その一瞬の表情を写真に収める。本展では、音やリズムを感じさせる作品とともに、氷と音楽が響き合う展覧会を開催いたします。“癒しのピアニスト”Rakira氏とのコラボレーションも実現。初日には、即興演奏を得意とする同氏がオリジナル曲を生演奏し、氷の写真と音楽が響き合う特別な時間を生み出します。12月7日（月）以降は、録音による演奏を会場内でお聴きいただけます。視覚から聴覚へと広がる感覚。写真と音楽が織りなす、冬の静謐な空間をご高覧ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-06",
+      "end_date": "2026-12-12",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "ef7b3b9fb87f",
+        "name": "SAN-AI GALLERY + contemporary art",
+        "lang": null,
+        "tr": {},
+        "region": "浅草橋、馬喰町",
+        "district": null,
+        "lat": 35.69405676087514,
+        "lng": 139.78121674726802
+      },
+      "artists": [
+        {
+          "id": "74cf293ff676",
+          "name": "谷田梗歌",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kota-Tanida-Sound-of-ICE-vol2-with-Music/E35-F6-C5-C/2026-12-06",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "c0dc2e89fe98",
+      "source": "tokyo_art_beat",
+      "title": "後藤啓太 「(EVERYTHING BUT) THE COLOR」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/e92e9f70/0a4e983f-d019-4c1a-b27d-110f05edd5c2.jpg",
+      "description": "11月26日（木）よりBOOK AND SONSにて、UNION MAGAZINEからの新刊写真集『(EVERYTHING BUT) THE COLOR』の刊行を記念し、写真家・後藤啓太による写真展を開催いたします。\n\n名も知らない街の窓、通り過ぎたホテルの部屋、誰も座っていない椅子。日常の中で目に留まっても、ほどなく忘れてしまいそうな風景。褪せた壁や薄いカーテンの向こうには、かつて誰かが過ごし、去っていった確かな時間が静かに息づいています。\n\n本作において後藤は、見過ごされがちな日常の断片に目を留め、それらを光と色の繊細な連なりとして紡ぎ出しました。空間に並ぶ写真たちを見渡すとき、一枚の画面では捉えきれなかった色彩が隣り合うイメージと呼応し、何も起きていないように見えた場所が少しずつ表情を変えていきます。初めて目にするはずの部屋に、二度と戻れない場所の面影を感じる——何を懐かしんでいるのかも分からぬまま、写真の中を流れる時間が、見る者それぞれの記憶の奥底へと触れてきます。\n\nありふれた一日にも、二度と同じようには訪れない光がありました。街の名前も、そこにいた人の名も知らない。それでも、佇む風景の向こうに確かに残る光と色があります。忘れかけていた記憶の輪郭へ、もう一度目を向けたくなるような世界を、ぜひ会場でご体感ください。初日にはどなたでもご参加いただけるレセプションパーティーを開催いたしますので、どうぞお気軽にお越しください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-26",
+      "end_date": "2026-12-20",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "8b8bf1f13f39",
+        "name": "BOOK AND SONS",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "BOOK AND SONS"
+          },
+          "ja": {
+            "name": "BOOK AND SONS"
+          }
+        },
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.630555907872754,
+        "lng": 139.68703549294352
+      },
+      "artists": [
+        {
+          "id": "6f5854a415de",
+          "name": "後藤啓太",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Keita-Goto-Everything-But-The-Color/87-C23676/2026-11-26",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "bd15a8059d16",
+      "source": "tokyo_art_beat",
+      "title": "岡安啓人 「Biophilia」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/3b5c551e/07141ab1-210e-411b-8df9-d8590218da62.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-02",
+      "end_date": "2026-12-07",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "838c559a265c",
+        "name": "America-Bashi Gallery（アメリカ橋ギャラリー）",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "America-Bashi Gallery (아메리카바시 갤러리)"
+          },
+          "en": {
+            "name": "America-Bashi Gallery (America-Bashi Gallery)"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.64332200748064,
+        "lng": 139.7114891844791
+      },
+      "artists": [
+        {
+          "id": "79e04b8b58b2",
+          "name": "岡安啓人",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Hirohito-Okayasu-Biophilia/F92841-BF/2026-12-02",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "91a9000929f0",
+      "source": "tokyo_art_beat",
+      "title": "「in metaMorphosis」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/5a8d49f4/c340a816-db81-42cf-9bd2-338c4fbc3cd8.png",
+      "description": "展覧会「in metaMorphosis」は、参加する7名の絵画アーティストが現在置かれている段階や状態、そしてそれぞれの身体的・精神的な自己のありようを映し出しています。絶えず変化し続ける世界のなかで、個々の経験や思い、そして自分を取り巻く環境などに目を向けています。本展は、現在の彼らを形づくってきたものは何か、私たちはいかに変化し続けるのか、そして不確かな未来に向けて、彼らはどこへ、どのように変容していくのかという問いを投げかけます。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-01",
+      "end_date": "2026-12-01",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "838c559a265c",
+        "name": "America-Bashi Gallery（アメリカ橋ギャラリー）",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "America-Bashi Gallery (아메리카바시 갤러리)"
+          },
+          "en": {
+            "name": "America-Bashi Gallery (America-Bashi Gallery)"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.64332200748064,
+        "lng": 139.7114891844791
+      },
+      "artists": [
+        {
+          "id": "cc7c2fb08ad1",
+          "name": "メラニー・ボトニー・ボーカー",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e90fef320cf9",
+          "name": "河隝賢良",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "009b1380f5d7",
+          "name": "エミリ・マガル",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e111275dc8d3",
+          "name": "ローレンス椙山",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "7843778ce680",
+          "name": "安富祖みさお",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "505fb9c6f065",
+          "name": "チェンガオ・ワン",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c4f1442e8472",
+          "name": "デニ・ウエスト",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/In-Metamorphosis/F92841-BF/2026-12-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "ad64490e58f3",
+      "source": "tokyo_art_beat",
+      "title": "ハマリュウノスケ 「Wonder Light」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/a4db12c7/7f3c0a99-eae7-4b87-933a-da584c446806.jpeg",
+      "description": "“Wonder Light” それは夢や希望を探す旅。私たちは目指さなければならないし、進まなければならない、という哀しき宿命の現代人。暗中模索、試行錯誤、そしてまた視界不良で右往左往(笑)。前進に必要なのは顔を上げて光を探すこと。ということで、見てくれた人（自分自身も含めて）の気持ちがフワッと前に向くようにとの想いを込めて人物写真を展示します。被写体の人物はみんな俳優さんです。こちらの希望通りにうまく景色に溶け込んでくれました。彼らの｢ちょうどいい存在感｣にもぜひ注目して見てもらいたいと思います。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-25",
+      "end_date": "2026-11-30",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "838c559a265c",
+        "name": "America-Bashi Gallery（アメリカ橋ギャラリー）",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "America-Bashi Gallery (아메리카바시 갤러리)"
+          },
+          "en": {
+            "name": "America-Bashi Gallery (America-Bashi Gallery)"
+          }
+        },
+        "region": "恵比寿、代官山、中目黒",
+        "district": null,
+        "lat": 35.64332200748064,
+        "lng": 139.7114891844791
+      },
+      "artists": [
+        {
+          "id": "0673e9e38e90",
+          "name": "ハマリュウノスケ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Ryunosuke-Hama-Wonder-Light/F92841-BF/2026-11-25",
       "featured": false,
       "popularity_score": null
     }
@@ -134161,6 +135042,34 @@
       "country": "JP",
       "lat": 35.66203793635022,
       "lng": 139.70261414758818,
+      "website": null
+    },
+    {
+      "id": "75c7bb8cb22c",
+      "name": "LEMAIRE EBISU",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "恵比寿、代官山、中目黒",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.6439107,
+      "lng": 139.7176813,
+      "website": null
+    },
+    {
+      "id": "ef7b3b9fb87f",
+      "name": "SAN-AI GALLERY + contemporary art",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "浅草橋、馬喰町",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.69405676087514,
+      "lng": 139.78121674726802,
       "website": null
     }
   ],
@@ -170237,6 +171146,222 @@
           "name": "Ayumu hayasaka, Riku Koriyama, Xi Lin, Yuto Odagiri"
         }
       }
+    },
+    {
+      "id": "c2e319dc2bc6",
+      "name": "ロレンツォ・アギウス",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3cbd30096748",
+      "name": "百々俊二",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ea08d77065d2",
+      "name": "鶴巻育子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0861fc5113a0",
+      "name": "笠間悠貴",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8e3066950f01",
+      "name": "佐野裕亮",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "37a6451578ca",
+      "name": "村田啓",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1d89bbb36aaa",
+      "name": "アンドレア・ベルタッツォン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "494af1268211",
+      "name": "赤瀬川原平",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6d9afc751834",
+      "name": "ホンマタカシ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0f20feb4e222",
+      "name": "ヴァレリー・ジューヴ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e10a2a0265f7",
+      "name": "羽田澄子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ee24e085e42d",
+      "name": "ジョウ・チャン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5b096bf776a2",
+      "name": "ニールス・ジュンジ・エドストローム",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "dbfe9a0c099b",
+      "name": "キャット・トゥオン・グエン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c45905508054",
+      "name": "アンリ・ロア",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e2d35b8f399e",
+      "name": "上田義彦",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "285f57c2051b",
+      "name": "イリーナ・ロゾフスキー",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3083d56cea7d",
+      "name": "ナタリア・アセベド",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1f603384a583",
+      "name": "ダヴィデ・ストゥッキ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "022075744bad",
+      "name": "マッティア・ルッフォロ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "026615427fb9",
+      "name": "ルッカ・ルツキー",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "fac5da717903",
+      "name": "アニエス・ヴァルダ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "1e31064871a6",
+      "name": "中村千鶴子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8f4baab75fea",
+      "name": "大西徹",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6e4a75463091",
+      "name": "兼古昭彦",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "74cf293ff676",
+      "name": "谷田梗歌",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6f5854a415de",
+      "name": "後藤啓太",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "79e04b8b58b2",
+      "name": "岡安啓人",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "cc7c2fb08ad1",
+      "name": "メラニー・ボトニー・ボーカー",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e90fef320cf9",
+      "name": "河隝賢良",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "009b1380f5d7",
+      "name": "エミリ・マガル",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e111275dc8d3",
+      "name": "ローレンス椙山",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7843778ce680",
+      "name": "安富祖みさお",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "505fb9c6f065",
+      "name": "チェンガオ・ワン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c4f1442e8472",
+      "name": "デニ・ウエスト",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0673e9e38e90",
+      "name": "ハマリュウノスケ",
+      "lang": null,
+      "tr": {}
     }
   ]
 }
