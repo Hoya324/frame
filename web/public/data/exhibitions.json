@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T20:02:16.743638+00:00",
+  "generated_at": "2026-11-26T02:00:12.752207+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -102552,7 +102552,7 @@
       "price_max": null,
       "start_date": "2026-11-26",
       "end_date": "2026-12-01",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "a5eb554acccc",
@@ -115499,7 +115499,7 @@
       "price_max": null,
       "start_date": "2026-11-26",
       "end_date": "2026-11-30",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "238fe96014e5",
@@ -115638,7 +115638,7 @@
       "price_max": null,
       "start_date": "2026-11-19",
       "end_date": "2026-11-25",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "88cb1cebd561",
@@ -116311,7 +116311,7 @@
       "price_max": null,
       "start_date": "2026-11-26",
       "end_date": "2026-12-19",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "689ee5f86635",
@@ -121508,7 +121508,7 @@
       "price_max": null,
       "start_date": "2026-11-26",
       "end_date": "2027-01-31",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "75c7bb8cb22c",
@@ -121877,7 +121877,7 @@
       "price_max": null,
       "start_date": "2026-11-26",
       "end_date": "2026-12-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8b8bf1f13f39",
@@ -122082,6 +122082,355 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Ryunosuke-Hama-Wonder-Light/F92841-BF/2026-11-25",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "3352aff2dcb9",
+      "source": "tokyo_art_beat",
+      "title": "ビクトリア・マカウスカイテ 「白目」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/24fcc799/4ca02322-98a9-4d61-bc44-8672ae50bfce.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-08",
+      "end_date": "2026-12-19",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "2ead7284e923",
+        "name": "Botany",
+        "lang": null,
+        "tr": {},
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.66070035144202,
+        "lng": 139.6537938773155
+      },
+      "artists": [
+        {
+          "id": "90f8eac717a2",
+          "name": "ビクトリア・マカウスカイテ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Viktorija-Makauskaite-White-Eye/botany/2026-12-08",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "89ad33e210d0",
+      "source": "tokyo_art_beat",
+      "title": "偏陸 展",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/d4314fd5/927356a9-d9fa-42c7-afc5-9f448eb77c50.jpg",
+      "description": null,
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-07",
+      "end_date": "2026-12-12",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "b421867c34c6",
+        "name": "ギャラリー巷房",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 코보"
+          },
+          "en": {
+            "name": "Gallery Kobo"
+          }
+        },
+        "region": "銀座、丸の内",
+        "district": null,
+        "lat": 35.6737337182724,
+        "lng": 139.7688297118101
+      },
+      "artists": [
+        {
+          "id": "77d762470b8b",
+          "name": "偏陸",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Henrix-Exhibition/D64-B034-A/2026-12-07",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "b60a70e6553f",
+      "source": "tokyo_art_beat",
+      "title": "「浜昇の戦後と昭和 Vol. 6 『灰と蝶』」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/5237e2a8/ea49c14a-abfd-451b-b169-e97f01455868.jpg",
+      "description": "photographers’ galleryでは「浜昇の戦後と昭和」と題し、2026年1月より写真家・浜昇の連続写真展（全6回）を開催してきました。第6回を迎える本展「灰と蝶」では、1970–80年代の沖縄で撮影した写真をまとめた『沖縄という名』3部作ののち、再び沖縄を訪れて撮影した近年の写真を中心に構成されます。1年間にわたって開催してきた浜昇の連続展は、本展が最終回となります。ぜひご高覧ください。\n\n浜昇「灰と蝶」\n「灰と蝶」には、那覇市波上宮に立つ歌碑を写した1枚がある。「思はざる病となりぬ沖縄をたづねて果たさむつとめありしを」。戦後巡幸を含め、在位中に一度も沖縄に足を踏み入れることのなかった昭和天皇が、1987年の沖縄訪問中止に際して詠んだ歌である。『沖縄という名』（ソリレス書店、2017年）を刊行後に浜は、6月23日「慰霊の日」に繰り返し沖縄を訪れるようになる。かつて沖縄に通っていた頃は意識的に撮影を避けていた沖縄戦の戦跡や強制集団死のあった場所など、沖縄の「現場」を訪れることから撮影を再開する。強制集団死をめぐって浜は、ときに「集団自決」と表記されもすることに危機感を示している。「自決」という言葉がもたらす自発性の響きは、国家がもたらした加害の構造を覆い隠してしまう。遺族の意思に反して靖国神社に住民たちが合祀されている事実をのちに知った浜は、衝撃を受けたという。住民の意思と国家の思惑のねじれ、あるいは両者を隔てる距離。その隔たりのなかでなお、死者を弔うとはどういうことなのか。戦後翌年に本土で生まれた浜は、自身と沖縄との埋めがたい隔たりをも見つめながら沖縄に足を運びつづけている。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-18",
+      "end_date": "2026-12-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "afe71f7d0299",
+        "name": "photographers’ gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "photographers’ gallery"
+          },
+          "ja": {
+            "name": "photographers’ gallery"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.691454453384196,
+        "lng": 139.70873067567402
+      },
+      "artists": [
+        {
+          "id": "62f0f2fa24d2",
+          "name": "浜昇",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "하마 노보루"
+            },
+            "en": {
+              "name": "Hama Noboru"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Noboru-Hama-Ashes-and-Butterflies/366-C5555/2026-12-18",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "43d828417f88",
+      "source": "tokyo_art_beat",
+      "title": "長町文聖 「OLD VILLAGE 1-3」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/2429e484/c1b9d5a0-65a1-4441-84eb-5887cab9e3be.jpg",
+      "description": "長町文聖は2019年より、郊外都市である東京都町田市やその周縁を撮影し「OLD VILLAGE」と題して発表を続けてきました。本展ではこれまでに撮影された全ての写真を改めて見直し、この場所で起こってきた出来事を辿りつつシリーズ「OLD VILLAGE」を再構成して展示いたします。このシリーズはZINEの刊行と連動して継続してまいります。ぜひご高覧ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-11",
+      "end_date": "2026-12-16",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "afe71f7d0299",
+        "name": "photographers’ gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "photographers’ gallery"
+          },
+          "ja": {
+            "name": "photographers’ gallery"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.691454453384196,
+        "lng": 139.70873067567402
+      },
+      "artists": [
+        {
+          "id": "a0f270be74c4",
+          "name": "長町文聖",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "나가마치 분세이"
+            },
+            "en": {
+              "name": "Nagamachi Bunsei"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Fumikiyo-Nagamachi-Old-Village-1-3/366-C5555/2026-12-11",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "744ed6339506",
+      "source": "tokyo_art_beat",
+      "title": "「フィルム多重露光グループ展 『CA SANAR #04』」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/269fdc44/e110dfd4-f07b-43c3-abcb-1e5fba602583.jpeg",
+      "description": "フィルムカメラによる多重露光とは、フィルムの同じ1コマに、複数回露光して複数の画像を重ねて記録する撮影技法です。今展は、フィルムカメラのみによる「多重露光」を用いた公募型の作品展となり、2022年（第1回・名古屋市）、2024年（第2回・東京都）、2025年（第3回・東京都）に続き、今回で4回目の開催となります。\n展示名の「CA SANAR」は「カサナール」と読み、日本語の「重なる」とスペイン語の「癒し」を掛け合わせた造語です。ダジャレのような発想から生まれた名前ですが、回を重ねるごとに定着してきました。\nデジタルカメラが主流の現代において、本展はフィルムカメラのみを使用し、合成などの後処理を一切加えない、ユニークなアナログ作品展となっています。撮影の工夫やアイデア、テクニック、フィルムの種類や現像方法によって、独創的で幻想的、ときに非現実的な世界を生み出せるのが多重露光の魅力です。\n今回は、公募審査を経て選ばれた11名が出展。それぞれ異なる技法やジャンルから生まれる、どこか懐かしく、それでいて新しい「CA SANAR」の世界をどうぞご高覧ください。",
+      "medium": "gear",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-01",
+      "end_date": "2026-12-06",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "bad41612e0e3",
+        "name": "ギャラリー・ソラリス",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 솔라리스"
+          },
+          "en": {
+            "name": "Gallery Solaris"
+          }
+        },
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.67689,
+        "lng": 135.5031
+      },
+      "artists": [
+        {
+          "id": "e3a0e92f1eae",
+          "name": "yu_ri.tk",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a219930f6b76",
+          "name": "カワゴエユウキ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4f468fc25f8d",
+          "name": "KEN",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "f75e997b469c",
+          "name": "まぁ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0eb0fabb8421",
+          "name": "りょえよ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c129e9dbf9db",
+          "name": "籔本近己",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "2adba5f3da76",
+          "name": "misako",
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "misako"
+            },
+            "ja": {
+              "name": "misako"
+            }
+          }
+        },
+        {
+          "id": "972b645a6f83",
+          "name": "ターナー",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "89c35324877d",
+          "name": "mak.takano",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c0ed5aa243e4",
+          "name": "Luke Lachlan Michael",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "80b65ab1a8bf",
+          "name": "山本穂高",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/The-4th-Film-Multiple-Exposure-Group-Exhibition-Ca-Sanar-04/gallery-solaris/2026-12-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "d1dd04880333",
+      "source": "tokyo_art_beat",
+      "title": "髙橋凜 「Bird of passage」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/2196d552/3014a6f9-4494-49aa-9157-a1b05977c95a.jpg",
+      "description": "髙橋凜は東京を拠点に活動するアーティスト。既存のイメージやオブジェクト、個人の小さな出来事を起点に、ドローイング、映像、インスタレーション、パフォーマンスなどを制作する。身近なものや日常の断片を通して、イメージや物の意味がどのように変化し、社会的な仕組みや人々の関係のなかで位置づけられるのかを探っている。",
+      "medium": "video",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-01",
+      "end_date": "2027-01-10",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "9d83962d63d8",
+        "name": "CREATIVE HUB UENO \"es\"",
+        "lang": null,
+        "tr": {},
+        "region": "上野、谷中",
+        "district": null,
+        "lat": 35.712357109604994,
+        "lng": 139.7766516036884
+      },
+      "artists": [
+        {
+          "id": "7a52642a0321",
+          "name": "髙橋凜",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Rin-Takahashi-Bird-of-passage/creative-hub-ueno-es/2026-12-01",
       "featured": false,
       "popularity_score": null
     }
@@ -135070,6 +135419,34 @@
       "country": "JP",
       "lat": 35.69405676087514,
       "lng": 139.78121674726802,
+      "website": null
+    },
+    {
+      "id": "2ead7284e923",
+      "name": "Botany",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "世田谷",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.66070035144202,
+      "lng": 139.6537938773155,
+      "website": null
+    },
+    {
+      "id": "9d83962d63d8",
+      "name": "CREATIVE HUB UENO \"es\"",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "上野、谷中",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.712357109604994,
+      "lng": 139.7766516036884,
       "website": null
     }
   ],
@@ -171360,6 +171737,84 @@
     {
       "id": "0673e9e38e90",
       "name": "ハマリュウノスケ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "90f8eac717a2",
+      "name": "ビクトリア・マカウスカイテ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "77d762470b8b",
+      "name": "偏陸",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e3a0e92f1eae",
+      "name": "yu_ri.tk",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a219930f6b76",
+      "name": "カワゴエユウキ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4f468fc25f8d",
+      "name": "KEN",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f75e997b469c",
+      "name": "まぁ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0eb0fabb8421",
+      "name": "りょえよ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c129e9dbf9db",
+      "name": "籔本近己",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "972b645a6f83",
+      "name": "ターナー",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "89c35324877d",
+      "name": "mak.takano",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c0ed5aa243e4",
+      "name": "Luke Lachlan Michael",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "80b65ab1a8bf",
+      "name": "山本穂高",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7a52642a0321",
+      "name": "髙橋凜",
       "lang": null,
       "tr": {}
     }
