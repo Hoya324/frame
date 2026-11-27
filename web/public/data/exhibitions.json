@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T18:51:34.196254+00:00",
+  "generated_at": "2026-11-27T01:59:09.294629+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -98206,7 +98206,7 @@
       "price_max": null,
       "start_date": "2026-10-30",
       "end_date": "2026-11-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": "10:00－19:00（最終日は14:00まで、入館は終了10分前まで）",
       "venue": {
         "id": "d8d9c7e67b31",
@@ -101643,7 +101643,7 @@
       "price_max": null,
       "start_date": "2026-11-13",
       "end_date": "2026-11-26",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "afe71f7d0299",
@@ -114452,7 +114452,7 @@
       "price_max": null,
       "start_date": "2026-11-27",
       "end_date": "2026-12-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "82069e162ab9",
@@ -114515,7 +114515,7 @@
       "price_max": null,
       "start_date": "2026-11-27",
       "end_date": "2026-12-07",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "5d573a079256",
@@ -122726,6 +122726,542 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Rin-Takahashi-Bird-of-passage/creative-hub-ueno-es/2026-12-01",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "ccb36e0b57b7",
+      "source": "fujifilm_square",
+      "title": "大山行男写真展「富士山 いのちの曼陀羅（まんだら）」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://fujifilmsquare.jp/assets/img/photo_event_270205_01_mv.jpg",
+      "description": "フジフイルム スクエアでは、2027年2月5日（金）から2月25日（木）まで、大山行男写真展「富士山 いのちの曼陀羅まんだら」を開催いたします。 富士山と、人々の祈りや日々の暮らし、多様な生き物たちの営みが重なり合う姿は、一つの曼陀羅のように、移ろいゆく現代の時間を超えた、変わらぬ世界の真相を伝えています。富士山を軸とした、命の広がりと、命の響き合う世界を、ぜひ会場でご体感ください。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2027-02-05",
+      "end_date": "2027-02-25",
+      "status": "upcoming",
+      "open_hours": "10:00－19:00（最終日は14:00まで、入館は終了10分前まで） 会期中無休",
+      "venue": {
+        "id": "d8d9c7e67b31",
+        "name": "フジフイルム スクエア",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "후지필름 스퀘어"
+          },
+          "en": {
+            "name": "Fujifilm Square"
+          }
+        },
+        "region": "東京",
+        "district": null,
+        "lat": 35.665607,
+        "lng": 139.7304444
+      },
+      "artists": [],
+      "source_url": "https://fujifilmsquare.jp/exhibition/270205_01.html",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "2e9ad3665919",
+      "source": "tokyo_art_beat",
+      "title": "和田高広 「デジカメと昔のガラス写真 どっちがエモいか比べてみた」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/0974ae23/01f23054-95a8-453a-bfa4-2398ab26b2b9.jpg",
+      "description": "デジカメと170年前の古典撮影技法湿板と撮り比べてみました。同じ被写体をデジカメとガラス湿板、さらに鶏卵紙プリントと3枚を並べて展示します。昔の写真は顔を白く塗ったそうです。これもデジタルで撮ったものと比べます。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-10",
+      "end_date": "2026-12-21",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "5d573a079256",
+        "name": "Gallery 463",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Gallery 463"
+          },
+          "ja": {
+            "name": "Gallery 463"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.69007461890496,
+        "lng": 139.72185528270845
+      },
+      "artists": [
+        {
+          "id": "14d6d3705fcf",
+          "name": "和田高広",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Takahiro-Wada-Digital-Cameras-vs-Old-Glass-Plate-Negatives/gallery-463/2026-12-10",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "196305e8f200",
+      "source": "tokyo_art_beat",
+      "title": "上白石萌音 「『そもそも』 写真パネル展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/d23e8ea5/5ebeb017-758a-4344-9b3a-cb41e25677c9.jpg",
+      "description": "堀川新文化ビルヂングでは、俳優・上白石萌音さんの待望のエッセイ集第2弾『そもそも』の刊行を記念し、館内にて写真パネル展を開催いたします。前作『いろいろ』から5年。日常の写真や小学生時代を過ごしたメキシコ再訪の記録、創作掌編小説など、全ページ書き下ろしで綴られた等身大の“現在地”。本展では、上白石萌音さんがこれまで撮影してきた写真に加え、フォトグラファー・山本あゆみさんによるメキシコでの撮り下ろし写真などをパネルにして展示いたします。\n\n会場： 堀川新文化ビルヂング ショーウィンドウ、階段",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-09",
+      "end_date": "2027-01-05",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "d0718ada2e82",
+        "name": "NEUTRAL（堀川新文化ビルヂング）",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "NEUTRAL (호리카와 신분카 빌딩)"
+          },
+          "en": {
+            "name": "NEUTRAL (Horikawa Shin Bunka Building)"
+          }
+        },
+        "region": "京都府",
+        "district": null,
+        "lat": 35.023912196494756,
+        "lng": 135.75154559755325
+      },
+      "artists": [
+        {
+          "id": "63fbb20b8605",
+          "name": "上白石萌音",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Mone-Kamishiraishi-Somosomo-Photo-Panel-Exhibition/neutral-horikawa-new-culture-bldg-kyoto/2026-12-09",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "f2117bf470ba",
+      "source": "tokyo_art_beat",
+      "title": "渋谷美鈴 「うつしみ」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/c906c76c/fec78f15-4a65-4182-86fd-cc2487e713cc.jpg",
+      "description": "Art Gallery M84は、2026年12月8日（火）より渋谷美鈴作品展『うつしみ』を開催致します。今回の作品展は、Art Gallery M84の第178回目の展示として開催される個展です。『うつしみ』は、この世に生を享けた人の身体を表す仏教用語です。写真家 渋谷美鈴は言葉では説明しきれない感情や、日常の中で覚える違和感を、女性の身体や物語を通して作品に表現しています。憧れや美しさ、その裏側にある葛藤や嫉妬、理想と現実のずれ。目の前の人物に自身の記憶や感情、ものの見方を重ね、内面にある曖昧な感覚を目に見えるかたちとして残す作品展となります。受け入れ難い身体でありながら、そこに感じる命の形。渋谷が心惹かれる青や透明、水面の光など、ずっと見ていたいものをその身体に重ねることで、身体をこれまでとは異なる眼差しで捉え直す試み。サイアノタイプでガラスに焼き付け、重ね合わせた作品を是非ご覧下さい。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-08",
+      "end_date": "2026-12-20",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "8882c8060b40",
+        "name": "Art Gallery M84",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "Art Gallery M84"
+          },
+          "ja": {
+            "name": "Art Gallery M84"
+          }
+        },
+        "region": "銀座、丸の内",
+        "district": null,
+        "lat": 35.6701700910944,
+        "lng": 139.76835191558408
+      },
+      "artists": [
+        {
+          "id": "ae28bc4b04f5",
+          "name": "渋谷美鈴",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Misuzu-Shibuya-Utsushimi/D6-FE8782/2026-12-08",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "c915c847fe65",
+      "source": "tokyo_art_beat",
+      "title": "「写真の学校 × 美学校 写真工房 『その日暮らし』」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/45816099/790f96b9-ca27-4c47-8fd7-ad3ad485a578.jpeg",
+      "description": "写真の学校／東京写真学園と美学校 写真工房の2026年度生によるグループ展を開催いたします。デジタルとフィルム、商業と美術。一見すると対照的なこれらの二項が対立することなく、もとは同じ「写真」というメディアから枝分かれしたものとしてカオティックに入り乱れます。私たちの社会生活に深く根付いた「写真」の多様な様態を、ぜひ会場でご覧ください。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-04",
+      "end_date": "2026-12-08",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "b5a0a1a747b1",
+        "name": "美学校スタジオ",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "비갓코 스튜디오"
+          },
+          "en": {
+            "name": "Bigakko Studio"
+          }
+        },
+        "region": "竹橋、水道橋、末広町",
+        "district": null,
+        "lat": 35.69800435646467,
+        "lng": 139.75453755092622
+      },
+      "artists": [
+        {
+          "id": "82c42aecc05b",
+          "name": "天野卓",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "83b07a8169b2",
+          "name": "緒方忍",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b8109eb4392a",
+          "name": "舘山未来",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "f33952c35424",
+          "name": "永尾瑞穂",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b2bb9194caa4",
+          "name": "長澤聡美",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c3e409c4479a",
+          "name": "仲村和泰",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "6f0a7909a36c",
+          "name": "中村純也",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "bd37652d4fb4",
+          "name": "納口晶子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "111f3fcddd15",
+          "name": "ぺきき",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "dc5f655b8aeb",
+          "name": "雅士",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Living-Day-to-Day/bigakko-studio/2026-12-04",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "20a7f4c80802",
+      "source": "tokyo_art_beat",
+      "title": "下浦萌香 「オリガさんとアンナさんを訪ねて」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/12127667/d586ce45-881e-4152-8e99-4a016c13e26c.jpeg",
+      "description": "2026年10月、ウズベキスタンのアーティスト、オリガさんとアンナさんを訪ね、約2週間にわたりタシュケントとサマルカンドを旅した下浦萌香による展覧会。旅の中で生まれた作品と、現地で集めた小さなものたちを、大阪・土師ノ里にある隣り合う2つの会場で同時に展示する。デラハジリでは旅先の景色や出会いをもとに制作した作品を、Nowhere Hajinosatoでは、ウズベキスタンで出会った人や物事を紹介する「旅の記録展」として、現地で撮影した写真や持ち帰ったもの、資料などを展示する。\n\n[関連イベント]\n1. トークセッション\n日時: 12月12日（土）18:00開場／18:30開始\n会場: Nowhere Hajinosato 1F\n2. Read Me! モーニング読書会\n日時: 12月20日（日）9:00〜11:00\n参加費: 1000円（要予約）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-09",
+      "end_date": "2026-12-27",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "643b1feb30fb",
+        "name": "Nowhere Hajinosato（ノーウェア土師ノ里）",
+        "lang": null,
+        "tr": {},
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.57225190587956,
+        "lng": 135.6152880191803
+      },
+      "artists": [
+        {
+          "id": "5490a5e622b4",
+          "name": "下浦萌香",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Moeka-Shimoura-Visiting-Olga-and-Anna/Nowhere-Hajinosato/2026-12-09",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "10686f7ed2ac",
+      "source": "tokyo_art_beat",
+      "title": "「第18回高円宮殿下記念根付コンペティション記念展」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/10203001/7a34c2b9-428a-472c-9cc6-530c76021f69.jpg",
+      "description": "本学客員教授の高円宮妃久子殿下は、高円宮憲仁親王殿下とともに世界有数の根付コレクターとして、また、現代根付作家を育まれてこられたことでもよく知られています。大阪芸術大学グループでは高円宮殿下を記念して、平成21年にグループ校（大阪芸術大学、大阪芸術大学短期大学部、大阪芸術大学附属大阪美術専門学校）の在学生を対象に「高円宮殿下記念 根付コンペティション」を創設いたしました。18回目となる今年は対象校に令和8年度より新たに開学した大阪医療大学を加えた127名の学生から127点の応募があり、10月21日に審査を行いました。高円宮妃久子殿下、塚本邦彦大阪芸術大学理事長・学長・学院長、塚本英邦副理事長・副学長・短期大学部学長・大阪医療大学学長、山野宏工芸学科長・教授（ガラス工芸）、壺井勘也美術学科教授（彫刻）、五十嵐公一美術学科教授（博物館長）、向田陽佳氏（根付師）に審査をしていただき、高円宮賞、学長賞など18点の入賞作品が選ばれました。そして、これを記念する展覧会を開催する運びとなりました。展覧会には学生の応募作品127点とともに、高円宮家よりお借りした根付約130点と高円宮妃久子殿下が撮影された「旅する根付」の写真パネル約20点を特別展示いたします。学生の作品をお楽しみいただくとともに、貴重な高円宮家の根付をご高覧いただければ幸いです。",
+      "medium": "photo",
+      "exhibition_type": "curated",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-04",
+      "end_date": "2026-12-19",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "7a9e0bddeca6",
+        "name": "大阪芸術大学博物館",
+        "lang": null,
+        "tr": {},
+        "region": "大阪府",
+        "district": null,
+        "lat": 34.51236449247029,
+        "lng": 135.62925993164626
+      },
+      "artists": [],
+      "source_url": "https://www.tokyoartbeat.com/events/-/18th-Prince-Takamado-Memorial-Netsuke-Competition-Commemorative-Exhibition/osaka-university-of-arts-museum/2026-12-04",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "a474574b888a",
+      "source": "tokyo_art_beat",
+      "title": "アーヴィング・ペン 「Photographs 1939–2006」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/2ef9f5cf/81bc3fd9-93a0-4e71-9194-2614dd994c67.jpeg",
+      "description": "Pace 東京では、2027年1月27日から3月14日まで、アーヴィング・ペンの写真展「Irving Penn: Photographs 1939-2006」を開催いたします。本展は、麻布台ヒルズのギャラリースペースで開催される、初めての写真展となります。ペンのキャリアを通して制作された多彩な作品を幅広く紹介する本展は、ペンの近代写真における傑出した存在感を浮き彫りにします。\n\n力強いイメージと卓越したプリント技術で高い評価を得たペンは、写真を豊かな表現力のあるメディウムとして確立させ、写真史において革新的な役割を果たしました。約70年にわたり、アメリカ国内外で『ヴォーグ』をはじめ、多くの商業クライアントの仕事に携わってきたペンは、その間、ファッションやビューティー広告において革命的な方法で写真を活用しました。また、そうした仕事の傍らで、写真のみならず、絵画やドローイングにおいても個人的な作品世界を追求し、大胆な構図と繊細で豊かな階調を特徴とする数々のポートレートや静物写真、街の風景を生み出しました。「Irving Penn: Photographs 1939-2006」は、人物の顔、食べ物、ファッション、花々など多彩な被写体を捉えた作品を通してペンの幅広い芸術的ヴィジョンを紹介します。鮮やかなカラー写真、ゼラチン・シルバー・プリント、プラチナ・パラジウム・プリントなど、さまざまな技法で制作された作品の数々には、ペンの独自の美意識が息づいています。\n\n東京で行われる本展は、日本の美意識との対話という文脈の中で作品を紹介することにより、ペンと日本との長年にわたる関係に加え、日本が美術やデザインの分野において果たしてきた独自の貢献に光を当てます。東京でペンの作品を紹介する展覧会はこれまで数多く開催されてきました。その歴史は、1953年に東京国立近代美術館で開催された「現代写真展:日本とアメリカ」にまで遡ります。その後、東京を拠点に活動するファッションデザイナーの三宅一生とのクリエイティヴな交流に焦点を当てた展覧会が、1988年、1999年、2012年の3度にわたって開催されています。三宅一生とペンは、制作拠点は違えども、10年以上にわたり交流を深め、三宅がアメリカに送った衣服をペンが撮影するという協働を続けました。本展では、彼らによるこの異文化間の対話を物語る作品の一つ、《Young Woman in a Net (Miyake Design), New York》（1993年）が展示されます。\n\n本展の注目作品は、イサム・ノグチ、パブロ・ピカソ、アレクサンダー・カルダー、サルバドール・ダリ、ジョージア・オキーフなどの芸術家たちのポートレートのほか、ペンのキャリアの初期に制作された《Vogue Fashion Photograph (Jean Patchett) (C), New York 》（1949年）、《Fath Detail, Paris》（1950年）から、晩年の《Balenciaga Yeti Coat (A),(By Ghesquiere), New York 》（2005年）に至るまでのファッション写真、さらには被写体を大胆に切り取ったようなアイコニックなヌード写真、ニュートラルな背景に花の優美な造形と儚げな美しさを際立たせた鮮やかな静物写真、そして光の戯れによってペンの目が幾重にも浮かび上がる、ひび割れた鏡に映る1986年の自画像などです。「Photographs 1939-2006」は、パリで開催中の大規模なペンの展覧会に続くものです。一つは、ブルス・ドゥ・コメルスで2027年1月10日まで開催中の「Le monde selon Penn(ペンの見た世界)」で、もう一つはヨーロッパ写真美術館（MEP）で2027年1月17日まで開催中の「PENN & FASHION」です。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2027-01-27",
+      "end_date": "2027-03-14",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "acbb0c72eda6",
+        "name": "Pace 東京",
+        "lang": null,
+        "tr": {},
+        "region": "麻布台、虎ノ門",
+        "district": null,
+        "lat": 35.66244029339801,
+        "lng": 139.7429543275947
+      },
+      "artists": [
+        {
+          "id": "9d599a6361bf",
+          "name": "アーヴィング・ペン",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Irving-Penn-Photographs-19392006/pace-tokyo/2027-01-27",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "4a0f2b2480e8",
+      "source": "tokyo_art_beat",
+      "title": "倉敷安耶 「MAMA」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/37295f11/38dea029-0b1f-4c96-a4bd-9090954b8ea0.jpg",
+      "description": "このたび、AWASE galleryは、keshik.jpの黒田純平氏によるキュレーション企画展として、倉敷安耶 個展《MAMA》を開催いたします。本展は、特定の場所を持たないギャラリー「keshik.jp」を主宰する黒田氏を企画に迎え、project space 「On」を会場として展開されます。会期は12月12日（土）〜1月10日（日）。※12月28日〜1月8日 冬季休廊のためご注意ください。初日12月12日(土) 17:00〜20:00にはオープニングパーティーを開催します。ぜひ、足をお運びいただけますと幸いです。\n\n倉敷安耶は、人を肉体という個別の物質や、そこに付随するカテゴリーによって隔てられた存在として捉え、自己と他者のあいだに生じる距離をめぐって制作を続けてきた。他者との関係や共同体、ケアを関心の中心に置き、宗教、ジェンダー、死、身体、家族、歴史や伝承を主題としている。近年は祖母、母、そして作家自身という、より身近な存在へとまなざしを向けている。本展の出発点にあるのは、母の身体に残るひとつの傷である。その傷は、かつて両親の夫婦喧嘩の際に偶発的に起きた事故をきっかけに生じたものだ。当時、幼い倉敷は母の傷の手当てをした。傷は数針縫うほどのものだったが、長い時間を経て、今では傷はほとんど見えなくなった。けれど倉敷はのちに、母の傷が自らの内にも残されていたことに気づく。母の身体に刻まれたものは、それを見つめた娘のなかにも、かたちを変えて引き継がれていた。\n\n本展には、もうひとつの記憶が重ねられている。日々の暮らしのなかで、母は娘の衣服のほつれを繕いつづけてきた。傷を縫うことと、布を縫うこと。傷に手を当てることと、穴を繕うこと。医療と家事という異なる領域に属するはずの行為は、手を添え、手間をかけるという身振りのなかで重なり合う。傷は、皮膚の上に残る。皮膚は身体の表面であり、自己と他者が触れ合う境界でもある。本展のメインビジュアルでは、母の背中の傷を写した写真が、倉敷自身の背中に投影されている。母の毛穴やホクロ、傷跡が娘の皮膚に馴染み、ふたつの身体の境目は曖昧になっていく。像を別の支持体へ移し、その質感をまとわせる転写は、倉敷にとって皮膚をつくることに近い。そうして生まれた画面は、それ自体がひとつの身体として立ち上がる。母の身体には、婚姻の時間を物語るもうひとつの痕跡がある。長年身につけてきた結婚指輪は、身体の変化によって薬指に収まらなくなり、いまは小指にはめられている。指輪が結婚という制度と約束を外から示すものだとすれば、傷跡は生活の内側で身体が直接引き受けてきたものだ。同じ時間のなかで生まれ、同じ身体に残るふたつの痕跡は、婚姻という関係がひとつの意味には収まらないことを、静かに映し出している。\n\nいずれも作家自身の家族にまつわる、ごく私的なエピソードである。しかしそこにあるのは特別な物語ではない。親密な関係のなかで傷つき、手当てし、つなぎとめようとすること。それは多くの人が、それぞれのかたちで経験してきたことでもある。ある母と娘の記憶は、見る人それぞれの記憶へと写し取られていく。\n\n会場：project space 「On」",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-12",
+      "end_date": "2027-01-10",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "43233f51072a",
+        "name": "AWASE gallery",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "AWASE gallery"
+          },
+          "ja": {
+            "name": "AWASE gallery"
+          }
+        },
+        "region": "新宿、初台、四ツ谷",
+        "district": null,
+        "lat": 35.69006385273568,
+        "lng": 139.7039576785495
+      },
+      "artists": [
+        {
+          "id": "7cf22d1c160f",
+          "name": "倉敷安耶",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "구라시키 아야"
+            },
+            "en": {
+              "name": "Aya Kurashiki"
+            }
+          }
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Aya-Kurashiki-Mama/awase-gallery/2026-12-12",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "76187b3f88e7",
+      "source": "tokyo_art_beat",
+      "title": "中島大輔 「some, same」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/166396ea/1a13b577-76ed-4f45-a8d8-8404303d21fc.jpg",
+      "description": "写真家・中島大輔の個展「some, same」。写真集『some, same』（2026年11月22日刊行、セルフパブリッシング）の刊行記念展として、同書に掲載された作品15点（発色現像方式印画 Digital C-type print、41 × 27.3 cm）を展示する。会場では写真集を販売。\n『some, same』は、SNSを通じて声をかけた男性たちのからだを撮影した作品集。彼らがインターネット上に公開する写真・動画・テキストの断片を手がかりに、カメラの操作によってルーツやヒストリーが剥ぎ取られた匿名性の高いからだのイメージを通し、「見えること」と「見えないこと」を探る。作品タイトル「some, same」は、日本語訳で「それぞれ、おなじ」。写真集には美術評論家・清水穣の論考を収録、アートディレクション・デザインは坂脇慶。前作『each other』（青幻舎、2008年）から18年ぶりの作品集となる。会期中は全日作家在廊。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-04",
+      "end_date": "2026-12-20",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "fbfa913029fd",
+        "name": "Post-Fake",
+        "lang": null,
+        "tr": {},
+        "region": "六本木、乃木坂",
+        "district": null,
+        "lat": 35.66232416484349,
+        "lng": 139.73382950429917
+      },
+      "artists": [
+        {
+          "id": "5b737baa1a2a",
+          "name": "中島大輔",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Daisuke-Nakashima-Some-Same/Post-Fake/2026-12-04",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "d44c59a725ed",
+      "source": "tokyo_art_beat",
+      "title": "クアシ 「変容する皮膜」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/4a0b19cf/120a2e35-d1bf-489f-ae74-d62aeab5449c.jpg",
+      "description": "私たちのアイデンティティを形づくる、さまざまな層を探る試み。受け継がれてきたものによって刻まれる記憶の層。私たちは時間の流れのなかで、絶えず形を変え、更新されていく。幾重にも重なる層をひもとき、自らのルーツをたどる。写真、絵画、イラストレーション、インスタレーションを通して、本展「ALTERED SKIN」は、私たちのルーツ、文化的な影響、個人的な経験、そして自分自身を形づくる本質とのつながりを探ります。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-05",
+      "end_date": "2026-12-26",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "be10beff4319",
+        "name": "あやセンターぐるぐる oasis",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "아야 센터 구루구루 oasis"
+          },
+          "en": {
+            "name": "Aya Center Guruguru oasis"
+          }
+        },
+        "region": "東京：その他",
+        "district": null,
+        "lat": 35.76169173874979,
+        "lng": 139.82137595774677
+      },
+      "artists": [
+        {
+          "id": "b6dc3194bc0a",
+          "name": "クアシ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kouassi-Altered-Skin/ayacenter-guruguru-oasis/2026-12-05",
       "featured": false,
       "popularity_score": null
     }
@@ -135742,6 +136278,62 @@
       "country": "JP",
       "lat": 35.712357109604994,
       "lng": 139.7766516036884,
+      "website": null
+    },
+    {
+      "id": "643b1feb30fb",
+      "name": "Nowhere Hajinosato（ノーウェア土師ノ里）",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "大阪府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.57225190587956,
+      "lng": 135.6152880191803,
+      "website": null
+    },
+    {
+      "id": "7a9e0bddeca6",
+      "name": "大阪芸術大学博物館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "大阪府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.51236449247029,
+      "lng": 135.62925993164626,
+      "website": null
+    },
+    {
+      "id": "acbb0c72eda6",
+      "name": "Pace 東京",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "麻布台、虎ノ門",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.66244029339801,
+      "lng": 139.7429543275947,
+      "website": null
+    },
+    {
+      "id": "fbfa913029fd",
+      "name": "Post-Fake",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "六本木、乃木坂",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.66232416484349,
+      "lng": 139.73382950429917,
       "website": null
     }
   ],
@@ -172222,6 +172814,108 @@
     {
       "id": "7a52642a0321",
       "name": "髙橋凜",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "14d6d3705fcf",
+      "name": "和田高広",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "63fbb20b8605",
+      "name": "上白石萌音",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ae28bc4b04f5",
+      "name": "渋谷美鈴",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "82c42aecc05b",
+      "name": "天野卓",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "83b07a8169b2",
+      "name": "緒方忍",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b8109eb4392a",
+      "name": "舘山未来",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f33952c35424",
+      "name": "永尾瑞穂",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b2bb9194caa4",
+      "name": "長澤聡美",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c3e409c4479a",
+      "name": "仲村和泰",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6f0a7909a36c",
+      "name": "中村純也",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "bd37652d4fb4",
+      "name": "納口晶子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "111f3fcddd15",
+      "name": "ぺきき",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "dc5f655b8aeb",
+      "name": "雅士",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5490a5e622b4",
+      "name": "下浦萌香",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "9d599a6361bf",
+      "name": "アーヴィング・ペン",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "5b737baa1a2a",
+      "name": "中島大輔",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b6dc3194bc0a",
+      "name": "クアシ",
       "lang": null,
       "tr": {}
     }
