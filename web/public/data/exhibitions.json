@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T17:24:19.405624+00:00",
+  "generated_at": "2026-11-28T18:08:54.019881+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -120926,8 +120926,17 @@
       "id": "77f633b7a17c",
       "source": "tokyo_art_beat",
       "title": "佐藤仁重 「欧州紀行 - A Journey Through Europe -」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "사토 시게오 「유럽 기행 - A Journey Through Europe -」",
+          "description": "Shadow＆Brightness, 빛과 그림자를 테마로 유럽의 길모퉁이를 걸으며 풍토를 느끼고 마주친 풍경을 담아냅니다. 시간이 흘러 지금도 남아있는 풍경은 매력적입니다. 사진은 만남입니다. 날이 밝기 전부터 카메라와 함께 거리로 나서 그 시간에만 맛볼 수 있는 색감을 즐깁니다. 섬세한 빛으로 그려지는 한 장면을 후지필름의 아름다운 프린트로 감상해 보세요."
+        },
+        "en": {
+          "title": "Shigeo Sato \"Oushuu Kikou - A Journey Through Europe -\"",
+          "description": "Walking through the streets of Europe with the theme of \"Shadow & Brightness,\" light and shadow, feeling the local atmosphere, and capturing the scenes encountered. The scenes that remain even after time has passed are captivating. Photography is about encounters. Heading out into the city with a camera before dawn, I enjoy the colors that can only be experienced at that time. Please enjoy a single scene depicted with delicate light, presented in beautiful Fujifilm prints."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/4f4824bb/4739d7b4-832a-486e-a08f-09105c06c01e.png",
       "description": "Shadow＆Brightness、光と影をテーマにヨーロッパの街角を歩き、風土を感じ、出会った光景を写し留めます。時を経て今もなお残る光景は魅力的です。写真は出会い。夜が明ける前からカメラと共に街へ繰り出し、その時間にしか味わえない色合いを楽しみます。繊細な光で描かれるワンシーンを、富士フイルムの美しいプリントで味わってください。",
       "medium": "photo",
@@ -121043,8 +121052,17 @@
       "id": "bd2c6e8eaa2f",
       "source": "ilwoo_space",
       "title": "일우 주최 기획전 《어둠의 왼손 The Left Hand of Darkness》",
-      "lang": null,
-      "tr": {},
+      "lang": "ko",
+      "tr": {
+        "en": {
+          "title": "Ilwoo-hosted special exhibition 《The Left Hand of Darkness》",
+          "description": "The human body is familiar. With two eyes and ears, one nose and mouth, two arms and two legs extending from the torso, and skin smoothly sealing it, the body generally takes on a similar shape. Seeing a form composed of these conditions, we easily call it human. However, if the familiar arrangement is slightly altered, the body suddenly becomes something unfamiliar. The inside and outside of the body are reversed, connected organs move like independent life forms, and beings with skin and faces that seem not to exist in reality emerge. Thus, the distinctions between species and genders blur, and sometimes the body combines with machines or objects, appearing in forms different from before. 《The Left Hand of Darkness》 began from the moment of fascination with the horrific yet inappropriate brilliance displayed by bodies that have slipped from the human form. This exhibition aims to believe in the abundant potential inherent in bodies that violate the norm, and to consider whether that potential can become a force to cultivate dignity across various species.\n\nThe five participating artists invert or transform the human body, manifesting bodies beyond familiar forms in their own unique ways. Bang Soyun translates errors and uncertainties arising in digital environments into paintings, deconstructing and reconstructing fixed bodily forms. In her recent works, Bang Soyun immerses herself in monstrous bodies where skin and bones, muscles and micro-organs combine and scatter. Bodies that have lost their rigid outer shell escape fixed layers, creating strange and uncertain sensations. This interest extends to sculpture. Small figures, converted from digital drawings to 3D, printed, and then colored, originate from error images collected over various periods. Images that become distorted through repeated generation and transformation are transmuted into sculptures. Bang Soyun reads the liberation and purification of the body from abhorrent bodies that have undergone arduous decomposition and delicate gestures.\n\nCho Hanna also strips away the human form through painting, but the artist's focus is not on the body's exterior but its interior. She depicts the world of the body beneath the surface, visualizing the state of the human inner self where memories, emotions, and experiences are intertwined. Her interest in overlapping and changing mental events extends to the body's interior, transforming into things reminiscent of organs, muscles, blood vessels, and cells. The deeper one delves into the smallest units of the body, the further the human form deviates from its original shape. Organs and cells come to resemble roots, fungi, and microorganisms, intertwining and proliferating to create unknown forms that do not fully belong to either. Cho Hanna's creatures, seemingly furthest removed from the human form, are thus born from the most human elements: memory, emotion, and experience.\n\nThe transgression of the body that occurs on the surface of painting extends to Park Sojung's work as the movement of matter occupying real space. The artist disrupts the inside and outside of the body through the movement of soft, fluid materials, exploring the sensations that arise in the process. The body seems to lose its form, melting into a viscous liquid, constantly surging, falling, and circulating by mechanical power. In this repetitive motion where what should be inside spills out and is pushed back in, the boundaries dividing the body become meaningless. This bizarre movement defies the smoothly ordered perception of the human body, persistently stimulating tactile sensations. Park Sojung's fluctuating body images evoke suppressed pleasure, reminiscent of primal moments of contact.\n\nWhile Park Sojung expresses the sensation of the body's interior spilling outwards as a 'fountainization' of the body, Jang Younghae pursues the gaze of technology penetrating the body's interior from the opposite direction. Jang Younghae has explored points where the body's form and perception are distorted in the process of technological devices capturing and representing the body. The body she captures does not manifest as a complete entity; it is perpetually reconfigured according to the device that captures it. In this exhibition, she brings in the principle of shadowless lamps, which eliminate shadows to enable observation and intervention on affected areas, to address the technological gaze that seeks to fully visualize the body and the transformations that occur in that process. Light pouring from various directions clearly reveals the body, while simultaneously viewing the body's interior as an object for observation and analysis. The mechanical gaze piercing the body moves beyond anatomical bodies to specimens and data, blurring the material boundaries that have constituted humans. Jang Younghae questions the modern gaze that has sought to fully grasp and possess the body, and through performance and video works, she gauges the process by which the body today transforms between matter and information.\n\nNow, the deconstructed body in Due Kim's work moves towards imagining a body that relates to non-human beings. Due Kim's body aims for a leap towards a third body, transcending fixed concepts of humanity and gender. His sculptures disrupt the binary order of the body and propose alternative bodies by traversing queer, sadomasochism, popular culture, and religion. Forms that resemble parts of humans but do not converge into a complete human body escape the rules imposed on gender and sexuality, allowing us to imagine other forms the body can take. Meanwhile, Due Kim's body, having escaped the long-established normative framework on this land, expands into a sense of solidarity that forms relationships with objects outside the boundaries in his video works. Mechanical bodies arriving from different spacetimes discover each other, build friendships, and the virtual space they inhabit becomes an alternative sanctuary. The body proposed by Due Kim crosses the boundaries of flesh and machine, pleasure and pain, creating a coexistence of various species that does not allow for the choice of one over the other.\n\nThe exhibition thus gathers untranslatable bodies that have no interest in human well-being. These manifestations of cosmic disorder feel like an uncertain traversal of the human body, and a temptation from something forbidden. Thus, the landscape they create together gives way to a feverish mood of pain and pleasure. Why, then, are bodies that are damaged and restored from darkness not perceived solely as objects of fear? This is surely due to the post-axial bodies here urging the liberation of the self suppressed by social ethics. Blood bursts from fingertips and toes, giving a feeling of freedom as a complete non-existence. The emergence of a new humanity that transcends existing rules clashes with traditional ethics, causing the discomfort of a collapsing fixed order. However, if we try to define ourselves in already constituted ways, it will become a trite repetition, hindering a deep understanding of 'who we are.' This exhibition seeks to read infinite vitality, unconstrained by the whole, from ghost-like protagonists whose identities and selves have been denied by the hegemony of dominant orders and norms.\n\nMeanwhile, the exhibition title 《The Left Hand of Darkness》 is borrowed from Ursula K. Le Guin's novel of the same name. On the planet Gethen in the novel, people do not have a permanent single gender. Their bodies are not fixed to one sex but periodically shift between different sexes, with one person sometimes becoming pregnant and sometimes impregnating another. There, gender, the oldest criterion for distinguishing humans, disappears, and along with it, the relationships that divided strong and weak, protector and protected, dominance and submission, active and passive, also become unclear. Le Guin, through these unique bodies, questions how restrictive the human conditions we have considered natural actually are. In fact, the human body might not have been as clear as we thought from the beginning. Beneath the skin, organs, blood vessels, fat, and bodily fluids, which we never see directly throughout our lives, constantly move, and these are undeniably ours yet are the most alien to us. Inside and outside are continuously connected. Our body is both multiple and singular, unity and multiplicity, existence and non-existence. Or it is an end or another beginning. This means that a post-anthropocentric dignity and an inclusive attitude towards human diversity are urgently needed. Such an open trajectory, exceeding what it means to be human, will change the relationships we form and alter the way we exist in the world. Towards the 'darkness' where unseen beings reside, and with the 'left hand' that gropes the opposite side of familiar order."
+        },
+        "ja": {
+          "title": "Ilwoo主催 企画展 《어둠의 왼손 The Left Hand of Darkness》",
+          "description": "人間の体は慣れ親しんだものだ。二つの目と耳、一つの鼻と口、胴体から伸びる二本の腕と二本の脚、皮膚で滑らかに縫合された体は、概ね似たような形をしている。これらの条件が組み合わされた形を見て、私たちは難なく人間と呼ぶ。しかし、慣れ親しんだ配列が少しでもずれると、体は突然見慣れないものになる。身体の内外が逆転し、連結された器官が独立した生命体のように動き、現実には存在しないような皮膚や顔を持つ存在が出没する。こうして種と性の区別は曖昧になり、時には身体は機械や物体と結合し、以前とは異なる姿で現れる。《闇の左手》は、人間の形から滑り落ちた体たちが誇る、恐ろしくも不適切な輝きに魅了された瞬間から始まった。本展は、身体違反の体たちが内包する豊かな潜在性を信じ、それが多種多様な尊厳を育む力となり得るかを考えてみたい。\n\n展覧会に参加する5人の作家は、人間の体を裏返したり変形させたりしながら、慣れ親しんだ形を超えた身体をそれぞれの方法で出現させる。パン・ソユンは、デジタル環境で発生するエラーと不確実性を絵画に移し、固定された身体の形を解体し再構築する。最近の作品でパン・ソユンは、皮膚と骨、筋肉と微細な器官が結合し、散らばる怪物的な体に没頭する。硬い外皮を失った体は、固定化された層から脱走し、奇妙で不確実な感覚を生み出す。このような関心は彫刻へと続く。デジタルドローイングを3Dに変換して出力し、彩色した小さな形は、様々な時期に収集されたエラー画像から出発する。生成と変形を繰り返して歪んだ画像は、彫刻へと変貌する。パン・ソユンは、過酷な分解と繊細なジェスチャーを経た嫌悪的な身体から、体の解放と浄化を読み取る。\n\nチョ・ハンナもまた、絵画を通して人間の姿を剥ぎ取るが、作家が向かうのは体の外部ではなく、その内部である。彼女は体の下に位置する身体の世界を描き出し、記憶と感情、経験が絡み合った人間内面の状態を可視化する。重なり合い変化する心の出来事への関心は身体内部へと繋がり、臓器や筋肉、血管や細胞を連想させるものへと変奏される。体の最も小さな単位まで深く入り込むほど、人間の姿はその本来の形から遠ざかっていくのだ。臓器と細胞は根や菌類、微生物に似ていき、互いに絡み合い増殖しながら、どちらにも完全に属さない未知の形を作り出す。人間の形から最も遠く離れたようなチョ・ハンナのクリーチャーたちは、記憶と感情、経験という極めて人間的なものから生まれたと言える。\n\n絵画の表面で起こった身体の違反は、パク・ソジョンに至り、実際の空間を占有する物質の運動へと繋がる。作家は、柔らかく流動的な物質の動きを通して身体の内と外を攪乱し、その過程で発生する感覚を探求する。身体はまるで形を失ったかのように粘液質の液体に溶け出し、機械的動力によって絶えず噴き上がり、落下し、循環する。内部にあるべきものが外部に溢れ出し、再び押し上げられる反復的な運動の中で、身体を分ける境界は無意味になる。この奇妙な動きは、滑らかに整頓されてきた人体知覚に逆らい、触覚的な感覚を執拗に刺激する。パク・ソジョンの揺れ動く身体イメージは、抑圧されていた快を呼び起こし、根源的な接触の瞬間を想起させる。\n\nパク・ソジョンが体の内部が外部に溢れ出す感覚を身体の噴水化として表現するならば、チャン・ヨンヘは反対方向から身体の内側へと侵入する技術の視線を追う。チャン・ヨンヘは、技術的装置が身体を捉え再現する過程で、体の形と知覚が歪む地点を探求してきた。彼女が捉えた身体は、完全な実体として現れることはなく、それを捉えた装置によって永遠に再編される。今回の展覧会で彼女は、影を除去して患部の観察と介入を可能にする無影灯の原理を取り入れ、身体を完全に可視化しようとする技術の視線と、その過程で発生する変形を扱う。様々な方向から降り注ぐ光は、体を明確に露出させると同時に、身体内部を観察と分析可能な対象として見つめる。体を貫く機械的な視線は、解剖学的な身体を超えて標本やデータへと移行し、人間を構成してきた物質的な境界を曖昧にする。チャン・ヨンヘは、体を完全に把握し所有しようとしてきた近代的な視線に疑問を投げかけ、今日の身体が物質と情報の間を行き来しながら変形する過程を、パフォーマンスと映像作品で測り知る。\n\n解体された身体は、デュ・キムの作品において、非人間的存在との関係を想像する身体へと進む。デュ・キムの身体は、人間とジェンダーに関する固定された概念から脱却し、第三の身体への飛躍を目指す。彼の彫刻は、クィア、サドマゾヒズム、大衆文化、宗教を経由して、二分化された身体の秩序を攪乱し、代替的な身体を提示する。人間の一部に似ているが、完全な人体に収斂されない形は、ジェンダーとセクシュアリティに与えられた規則から逸脱し、身体が取り得る別の形を想像させる。一方、この地に長く根付いた規範の網の目から抜け出したデュ・キムの身体は、映像に至り、境界の外側の客体と関係を結ぶ連帯意識へと拡張される。異なる時空から到来した機械身体たちは互いを発見し、友情を育み、彼らが留まる仮想空間は代替的な聖域となる。デュ・キムが提案する身体は、肉体と機械、快楽と苦痛の境界を横断し、これとあれの選択を許さない多種多様な共存を生み出す。\n\n本展は、このように人間の安寧には何の関心もない、翻訳不可能な身体たちを集める。その宇宙的無秩序の顕現は、人間身体に対する不確実な横断であり、禁じられた何かからの誘惑のように感じられる。それゆえ、彼らが集まって作った風景は、苦痛と享楽の熱っぽい気分に道を譲る。では、損傷し、闇から復元された身体は、なぜ恐怖としてのみ認識されないのだろうか。それは、ここにある脱-軸的な身体たちが、社会倫理に抑圧された自己の解放を促していることに起因するだろう。つま先と指先から血が噴き出し、それによって完全な非存在として自由を得た気分だ。既存の規則を超える新人類の登場は、伝統的な倫理と衝突し、固定化された秩序が崩壊する不快感をもたらす。しかし、すでに構成された方法で私たち自身を定義しようとするならば、それは陳腐な繰り返しとなり、「私たちは誰なのか」という深い理解を妨げることになるだろう。本展は、支配秩序と規範のヘゲモニーによってアイデンティティと自己を否定された幽霊のような主人公たちから、全体に隷属しない無限の生命力を読み取りたい。\n\n一方、展覧会のタイトル《闇の左手》は、アーシュラ・K・ル＝グウィンの同名小説から借りてきた。小説に登場する惑星ゲセンの人々には、持続的な単一性別がない。彼らの体は一つの性に固定されず、周期的に異なる性を行き来し、ある人が妊娠する体になったり、相手を妊娠させる体になったりする。そこでは、人間を区別してきた最も古い基準である性別が消え、それとともに強者と弱者、保護する者と保護される者、支配と服従、能動と受動を分ける関係もまた不明瞭になる。ル＝グウィンは、この独特な体を通して、私たちが自然だと考えてきた人間の条件が、実はどれほど限定的なものであるかを問い直す。実際、人間の体は、そもそも私たちが考えていたほど明瞭ではなかったのかもしれない。皮膚の下には、一生直接見ることのない臓器や血管、脂肪や体液が絶えず動き、それらは間違いなく私のものであると同時に、私にとって最も異質なものなのだ。内と外は連続的に繋がっている。私たちの体は多者であり一者であり、統一性であり多数性であり、存在であり非存在だ。あるいは終わりであり、また別の始まりでもある。それはすなわち、脱人間中心的な尊厳と人間多様性に対する包容的な態度が緊急に必要であることを意味する。このように人間であることを超える開かれた軌跡は、私たちが結んでいる関係を変化させ、世界に存在する方式を変えることになるだろう。まだ見えない存在たちが宿る「闇」へ、慣れ親しんだ秩序の反対側を手探りする「左手」へ。"
+        }
+      },
       "poster_image_url": null,
       "description": "인간의 몸은 익숙하다. 두 개의 눈과 귀, 하나의 코와 입, 몸통에서 뻗어 나온 두 팔과 두 다리, 피부로 매끄럽게 봉합된 몸은 대체로 비슷한 모양을 취한다. 앞선 조건들이 조합된 형상을 보고 우리는 어렵지 않게 인간이라 부른다. 그러나 익숙한 배열이 조금만 틀어져도 몸은 돌연 낯선 무언가가 된다. 신체의 안팎이 뒤바뀌고, 연결된 기관이 독립적인 생명처럼 움직이며, 현실에는 존재하지 않을 것 같은 피부와 얼굴을 가진 존재들이 출몰한다. 그리하여 종과 성의 구분은 희미해지고, 때때로 신체는 기계나 사물들과 결합하며 이전과 다른 모습으로 등장한다. 《어둠의 왼손》은 인간의 형상에서 미끄러진 몸들이 뽐내는 끔찍하면서도 부적절한 찬란함에 매료된 순간에서부터 시작되었다. 본 전시는 신체 위반의 몸들이 내포한 충만한 잠재성을 믿어보며, 그것이 다종의 존엄을 일구는 힘이 될 수 있을지 생각해보고자 한다.\n\n전시에 참여하는 다섯 작가는 인간의 몸을 뒤집거나 변형하며, 익숙한 형상 너머의 신체를 저마다의 방식으로 출현시킨다. 방소윤은 디지털 환경에서 발생하는 오류와 불확실성을 회화로 옮기며, 고정된 신체의 형상을 해체하고 재구성한다. 최근 작업에서 방소윤은 피부와 뼈, 근육과 미세 기관이 결합하고 흩어지는 괴물적 몸에 몰입한다. 단단한 외피를 잃은 몸은 고정화된 층위를 탈주하여 기이하고 불확실한 감각을 만들어낸다. 이러한 관심은 조각으로 이어진다. 디지털 드로잉들을 3D로 변환하고 출력한 뒤 채색한 작은 형상들은 여러 시기에 걸쳐 수집된 오류 이미지에서 출발한다. 생성과 변형을 반복하다 일그러진 이미지들은 조각으로 탈바꿈된다. 방소윤은 지난한 분해와 섬세한 제스쳐를 거친 혐오적 신체에서 몸의 해방과 정화를 읽어낸다.\n\n조한나 역시 회화를 통해 인간의 모습을 벗겨내지만, 작가가 향하는 곳은 몸의 외부가 아닌 그 내부이다. 그는 몸 아래 자리한 신체의 세계를 그려내어, 기억과 감정, 경험이 엉겨 붙은 인간 내면의 상태를 가시화한다. 겹쳐지고 변화하는 마음의 사건들에 대한 관심은 신체 내부로 이어지고, 장기와 근육, 혈관과 세포를 연상시키는 것들로 변주된다. 몸의 가장 작은 단위까지 깊숙이 들어갈수록 인간의 모습은 그 본연의 형태로부터 멀어지게 되는 것이다. 장기와 세포는 뿌리와 균류, 미생물과 닮아가고, 서로 얽히고 증식하며 어느 쪽에도 온전히 속하지 않는 미지의 형상을 만든다. 인간의 형상에서 가장 멀리 벗어난 듯한 조한나의 크리쳐들은 기억과 감정, 경험이라는 지극히 인간적인 것들로부터 태어난 셈이다.\n\n회화의 표면에서 일어난 신체의 위배는 박소정에 이르러 실제 공간을 점유하는 물질의 운동으로 이어진다. 작가는 부드럽고 유동적인 물질의 움직임을 통해 신체의 안과 밖을 교란하고, 그 과정에서 발생하는 감각을 탐구한다. 신체는 마치 형체를 잃은 듯 점액질의 액체로 녹아내리고, 기계적 동력에 의해 끊임없이 솟구치고 낙하하며 순환한다. 내부에 있어야 할 것이 바깥으로 쏟아지고 다시 밀려 올라오는 반복적인 운동 속에서 신체를 나누는 경계는 무의미해진다. 이 기이한 움직임은 매끄럽게 정돈되어 온 인체 지각을 거스르며 촉각적인 감각을 끈질기게 자극한다. 박소정의 요동치는 신체 이미지는 억눌려 있던 쾌를 불러내며, 원초적인 접촉의 순간을 연상시킨다.\n\n박소정이 몸의 내부가 바깥으로 쏟아져 나오는 감각을 신체의 분수화로 드러낸다면, 장영해는 반대 방향에서 신체의 안쪽으로 침투하는 기술의 시선을 좇는다. 장영해는 기술적 장치가 신체를 포착하고 재현하는 과정에서 몸의 형상과 지각이 왜곡되는 지점을 탐구해왔다. 그가 포착한 신체는 온전한 실체로 현현되지 않으며, 그것을 포착한 장치에 따라 영원히 재편된다. 이번 전시에서 그는 그림자를 제거해 환부에 대한 관찰과 개입을 가능하게 하는 무영등의 원리를 가져와, 신체를 온전히 가시화하려는 기술의 시선과 그 과정에서 발생하는 변형을 다룬다. 여러 방향에서 쏟아지는 빛은 몸을 명료하게 드러내는 동시에, 신체 내부를 관찰과 분석 가능한 대상으로 바라본다. 몸을 꿰뚫는 기계적 시선은 해부학적 신체를 넘어 표본과 데이터로 이동하며, 인간을 구성해온 물질적 경계를 흐린다. 장영해는 몸을 완전히 파악하고 소유하려 해온 근대적 시선에 의문을 제기하며, 오늘날 신체가 물질과 정보 사이를 오가며 변형되는 과정을 퍼포먼스와 영상 작업으로 가늠해 본다.\n\n이제 해체된 신체는 듀킴의 작업에서 비인간 존재와의 관계를 상상하는 몸으로 나아간다. 듀킴의 신체는 인간과 젠더에 대한 고정된 개념을 벗어나 제3의 몸으로의 도약을 지향한다. 그의 조각은 퀴어, 사도마조히즘, 대중문화, 종교를 경유하여 이분화된 신체의 질서를 교란하고 대안적 몸을 제시한다. 인간의 일부를 닮았지만 온전한 인체로 수렴되지 않는 형상은 젠더와 섹슈얼리티에 부여된 규칙을 벗어나며, 몸이 취할 수 있는 또 다른 형태를 상상하게 한다. 한편 이 땅에 오랫동안 자리 잡은 규범의 그물망에서 빠져나온 듀킴의 신체는 영상에 이르러 테두리 바깥의 객체와 관계 맺는 연대의식으로 확장된다. 다른 시공으로부터 도래한 기계신체들은 서로를 발견하고 우정을 쌓으며, 그들이 머무는 가상의 공간은 대안적인 성소가 된다. 듀킴이 제안하는 몸은 육체와 기계, 쾌락과 고통의 경계를 가로지르며 이것과 저것의 선택을 허용하지 않는 다종의 공존을 만들어낸다.\n\n전시는 이처럼 인간의 안녕에는 아무런 관심이 없는 번역불가능한 몸들을 그러모은다. 그 우주적 무질서의 현현들은 인간 몸에 대한 불확실한 횡단이자, 금기된 무언가로부터의 유혹처럼 느껴진다. 그리하여, 그들이 모여 만든 풍경은 고통과 향락의 달뜬 기분 앞에 길을 내어 준다. 그렇다면 훼손되고 어둠에서 복원된 신체는 왜 공포로만 인식되지 않는 것일까. 그것은 분명 이곳에 있는 탈-축자적 몸들이 사회윤리에 억눌린 자아의 해방을 촉구함에 기인할 것이다. 발끝과 손끝으로 피가 터지며, 그로 인해 완전한 비존재로서 자유를 얻은 기분이다. 기존의 규칙을 넘어서는 신인류의 등장은 전통적인 윤리와 충돌하며, 고착화된 질서가 무너지는 불편을 초래한다. 그러나 이미 구성된 방식으로 우리 자신을 정의하려 한다면 그것은 진부한 반복이 되어 ‘우리는 누구인가’에 대한 깊은 이해를 방해하게 될 것이다. 본 전시는 지배질서와 규범의 헤게모니에 의해 정체성과 자아를 부정당한 유령 같은 주인공들에게서 전체에 예속되지 않은 무한의 생명력을 읽어내고 싶다.\n\n한편, 전시의 제목 《어둠의 왼손》은 어슐러 K. 르 귄의 동명 소설에서 빌려왔다. 소설 속 행성 게센의 사람들에게는 지속되는 단일성별이 없다. 그들의 몸은 하나의 성에 고정되지 않은 채 주기적으로 다른 성을 오가며, 한 사람이 임신하는 몸이 되기도, 상대를 임신시키는 몸이 되기도 한다. 그곳에서는 인간을 구분해온 가장 오래된 기준인 성별이 사라지고, 그와 함께 강자와 약자, 보호하는 자와 보호받는 자, 지배와 순종, 능동과 수동을 나누던 관계 역시 불분명하다. 르 귄은 이 독특한 몸들을 통해 우리가 자연스럽다고 여겨온 인간의 조건이 실은 얼마나 제한적인 것인지 되묻는다. 사실, 인간의 몸은 애초부터 우리가 생각했던 것만큼 명료하지 않았을지도 모른다. 피부 아래에는 평생 직접 보지 못하는 장기와 혈관, 지방과 체액이 끊임없이 움직이고, 그것들은 틀림없이 내 것이면서도 내게 가장 이질적인 것들이다. 안과 밖은 연속적으로 이어져 있다. 우리의 몸은 다자이자 일자이고, 통일성이자 다수성이며, 존재이면서 비존재다. 혹은 끝이거나 또 다른 시작이다. 그것은 곧, 탈-인간중심적 존엄과 인간 다양성에 대한 포용적 태도가 긴급하게 필요함을 뜻한다. 이와 같이 인간됨을 초과하는 열린 궤적은 우리가 맺고 있는 관계를 변화시키고, 세상에 존재하는 방식을 바꾸게 될 것이다. 아직 보이지 않는 존재들이 깃든 ‘어둠’으로, 익숙한 질서의 반대편을 더듬는 ‘왼손’으로.",
       "medium": "video",
@@ -123810,8 +123828,17 @@
       "id": "82d5ac9f77ae",
       "source": "tokyo_art_beat",
       "title": "川内倫子 + 野田幸江 「それを生きる」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "카와우치 린코 + 노다 유키에 「그것을 살다」",
+          "description": "MtK Contemporary Art에서는 10월 31일(토)부터 12월 22일(화)까지 카와우치 린코와 노다 유키에의 2인전 「그것을 살다」를 개최합니다. 본 전시에서는 카와우치 린코의 사진 작품 시리즈 《4%》 및 《An interlinking》을 중심으로 전시하며, 노다 유키에의 식물을 이용한 대규모 설치 작품을 소개합니다."
+        },
+        "en": {
+          "title": "Rinko Kawauchi + Yukie Noda \"To Live It\"",
+          "description": "MtK Contemporary Art will hold a duo exhibition by Rinko Kawauchi and Yukie Noda titled \"To Live It\" from Saturday, October 31st to Tuesday, December 22nd. This exhibition will primarily feature Rinko Kawauchi's photography series 《4%》 and 《An interlinking》, and will also introduce a large-scale installation by Yukie Noda using plants."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/40a929b1/b3a223d9-b545-418a-a3cb-10ac9a717554.png",
       "description": "MtK Contemporary Artでは、10月31日（土）から12月22日（火）まで、川内倫子と野田幸江による2人展「それを生きる」を開催いたします。 本展では、川内倫子の写真作品シリーズ《4％》および《An interlinking》を中心に展示するとともに、野田幸江による植物を用いた大規模なインスタレーションをご紹介いたします。",
       "medium": "photo",
@@ -123851,8 +123878,15 @@
         {
           "id": "924b2c8475cc",
           "name": "野田幸江",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "노다 유키에"
+            },
+            "en": {
+              "name": "Noda Yukie"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Rinko-Kawauchi-Sachie-Noda-Exhibition/3-EA8011-F/2026-10-31",
@@ -123863,8 +123897,17 @@
       "id": "d398a4709824",
       "source": "tokyo_art_beat",
       "title": "「In Black Out展 ～Across Mediums～」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「In Black Out전 ～Across Mediums～」",
+          "description": "같은 모습을 바라보아도, 같은 것은 태어나지 않는다. 한 명의 모델을 통해 교차하는, 작가 각자의 시점, 감성, 해석. 일러스트, 사진, 드로잉, 소설. 서로 다른 표현 영역을 넘나드는 작가들에 의한, In Black Out 최초의 주최 전시."
+        },
+        "en": {
+          "title": "「In Black Out Exhibition ～Across Mediums～」",
+          "description": "Even if you look at the same figure, the same thing is not born. The artists' individual perspectives, sensibilities, and interpretations intersect through a single model. Illustration, photography, drawing, novel. In Black Out's first organized exhibition, featuring artists who cross different fields of expression."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/651a96f4/709a93b3-bfd0-41c2-a59c-f62b6c3c755b.jpg",
       "description": "同じ姿を見つめても、同じものは生まれない。ひとりのモデルを通して交差する、作家それぞれの視点、感性、解釈。イラスト、写真、ドローイング、小説。異なる表現領域を横断する作家たちによる、In Black Out 初の主催展示。",
       "medium": "photo",
@@ -123898,44 +123941,93 @@
         {
           "id": "8b974dd6992a",
           "name": "Suzu",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "스즈"
+            },
+            "ja": {
+              "name": "すず"
+            }
+          }
         },
         {
           "id": "33bb84217c2c",
           "name": "まこ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마코"
+            },
+            "en": {
+              "name": "Mako"
+            }
+          }
         },
         {
           "id": "8cc77299bfc1",
           "name": "そうすけ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "소스케"
+            },
+            "en": {
+              "name": "Sosuke"
+            }
+          }
         },
         {
           "id": "50e1f1b518bf",
           "name": "ジャージー",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "저지"
+            },
+            "en": {
+              "name": "Jersey"
+            }
+          }
         },
         {
           "id": "677a1eb3ed02",
           "name": "DD",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "디디"
+            },
+            "ja": {
+              "name": "ディーディー"
+            }
+          }
         },
         {
           "id": "bd512ac2da1a",
           "name": "シマ・シマ子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "시마 시마코"
+            },
+            "en": {
+              "name": "Shima Shimako"
+            }
+          }
         },
         {
           "id": "e8de75fb31d9",
           "name": "タカムラヨォコ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "타카무라 요코"
+            },
+            "en": {
+              "name": "Takamura Yoko"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/In-Black-Out-Exhibition-Across-Mediums/7-ACE63-E1/2026-12-11",
@@ -123946,8 +124038,17 @@
       "id": "40dbdf76b052",
       "source": "tokyo_art_beat",
       "title": "エリオット・アーウィット 「Elliott Erwitt to the Dogs, to the People」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "Elliott Erwitt 「Elliott Erwitt to the Dogs, to the People」",
+          "description": "주식회사 베이크루즈가 운영하는 아트 갤러리 <art cruise gallery by Baycrew's(이하, art cruise gallery)>는 제15회 전시로, Elliott Erwitt의 개인전 『Elliott Erwitt to the Dogs, to the People』(이하, 본 전시)을 2026년 12월 11일(금)부터 개최합니다.\n\nElliott Erwitt의 사진에서는, 개들이 세상을 보는 방식을 바꿔놓습니다. 사람의 무릎보다 낮은 시점에 서면, 다리의 길이와 몸의 크고 작음, 시선의 방향이 예상치 못한 관계를 맺기 시작합니다. 공중에 뜬 개와 노면에 드리워진 그림자, 주인과 개가 닮은 모습. 일상의 단편이 프레임 속에서 선명한 질서를 얻습니다. 그 한순간에는 우연을 놓치지 않는 관찰력과 화면 구석구석까지 미치는 구성 의식이 살아 숨 쉽니다. 본 전시에서는 개가 찍힌 작품을 중심으로, 연인들이나 가족, 도시의 풍경을 담은 대표작도 함께 선보이며, Erwitt의 사진 표현을 따라갑니다. 개의 사진에서 두드러지는 거리나 척도의 어긋남, 몸짓의 호응, 유머와 애감은 사람들을 찍은 작품에도 통합니다. 화면의 일부에 시선을 멈추는 것으로 전체의 의미가 바뀌고, 웃음 뒤에 고독이나 친밀함이 조용히 모습을 드러냅니다. 그 가벼움은 보는 이의 감정과 해석에 여지를 남깁니다. 개도 사람도, 각자의 삶을 영위하는 존재로서 같은 화면에 담겨 있습니다. Erwitt의 사진을 접하는 것은 우리가 평소 무엇을 보고 무엇을 놓치고 있는지를 다시 묻는 것이기도 합니다. 친근한 개들을 입구로 삼아, 보는 것의 기지와 사진이 한순간을 지속시키는 힘을 만나는 전시회입니다."
+        },
+        "en": {
+          "title": "Elliott Erwitt 「Elliott Erwitt to the Dogs, to the People」",
+          "description": "art cruise gallery by Baycrew's (hereinafter, art cruise gallery), an art gallery operated by Baycrew's Co., Ltd., will hold its 15th exhibition, a solo exhibition by Elliott Erwitt titled 『Elliott Erwitt to the Dogs, to the People』 (hereinafter, this exhibition), starting from Friday, December 11, 2026.\n\nIn Elliott Erwitt's photographs, dogs change the way the world is seen. From a perspective lower than human knees, the length of legs, the size of bodies, and the direction of gazes begin to form unexpected relationships. Dogs suspended in mid-air and their shadows on the ground, the similar appearances of owners and their dogs. Fragments of daily life acquire a vivid order within the frame. In that single moment, an observant eye that doesn't miss coincidences and a compositional awareness that extends to every corner of the frame are alive. This exhibition traces Erwitt's photographic expression, focusing on works featuring dogs, while also including representative works capturing lovers, families, and cityscapes. The shifts in distance and scale, the echoes of gestures, and the humor and pathos prominent in his dog photographs also resonate in his works depicting people. By focusing on a part of the image, the overall meaning changes, and after laughter, solitude and intimacy quietly emerge. This lightness leaves room for the viewer's emotions and interpretations. Both dogs and people are captured in the same frame as beings living their respective lives. Engaging with Erwitt's photographs is also an opportunity to re-examine what we usually see and what we overlook. It is an exhibition where, using familiar dogs as an entry point, one encounters the wit of seeing and the power of photography to make a moment last."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/57d07c5b/678f00e7-dc29-4a1a-a77a-5cd7a3e020e0.jpg",
       "description": "株式会社ベイクルーズが運営するアートギャラリー〈art cruise gallery by Baycrew's(以下、art cruise gallery)〉は、第15回目の展示として、Elliott Erwitt(エリオット・アーウィット)の個展『Elliott Erwitt to the Dogs, to the People』（以下、本展）を2026年12月11日（金）より開催いたします。\n\nエリオット・アーウィットの写真では、犬たちが世界の見え方を変えてしまいます。人間の膝よりも低い視点に立つと、脚の長さや身体の大小、視線の方向が、思いがけない関係を結び始めます。宙に浮いた犬と路面に落ちる影、飼い主と犬の似通った姿。日常の断片が、フレームの中で鮮やかな秩序を獲得します。その一瞬には、偶然を見逃さない観察眼と、画面の隅々にまで行き届いた構成意識が息づいています。本展では、犬が写る作品を中心に、恋人たちや家族、街の情景を捉えた代表作も交えながら、アーウィットの写真表現をたどります。犬の写真に際立つ距離や尺度のずれ、身ぶりの呼応、ユーモアと哀感は、人々を写した作品にも通じています。画面の一部に目を留めることで全体の意味が変わり、笑いのあとに、孤独や親密さが静かに姿を現す。その軽やかさは、見る者の感情や解釈に余地を残します。犬も人も、それぞれの生を営む存在として、同じ画面に収まっています。アーウィットの写真に触れることは、私たちが普段、何を見て、何を見落としているのかを問い直すことでもあります。親しみやすい犬たちを入り口に、見ることの機知と、写真が一瞬を持続させる力に出会う展覧会です。",
       "medium": "photo",
@@ -123981,8 +124082,15 @@
         {
           "id": "0151671e6bca",
           "name": "エリオット・アーウィット",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "엘리엇 어윗"
+            },
+            "en": {
+              "name": "Elliott Erwitt"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Elliott-Erwitt-Elliott-Erwitt-to-the-Dogs-to-the-People/art-cruise-gallery-by-baycrews/2026-12-11",
@@ -123993,8 +124101,17 @@
       "id": "011de670c96e",
       "source": "tokyo_art_beat",
       "title": "「KALEIDOSCOPE」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "「KALEIDOSCOPE」",
+          "description": "TUJ Art Gallery는 Temple University, Japan Campus 미술 프로그램 14명의 졸업반 학생들의 그룹 전시회인 Kaleidoscope를 선보입니다. 전시는 회화, 사진, 드로잉, 디지털 미디어, 설치, 서적 등 다양한 매체를 선보입니다. 각 참여 작가가 다른 매체를 사용하고 다른 목표를 탐구함에 따라, 우리는 관람객들이 마치 만화경을 들여다보는 것처럼 이 전시를 감상하도록 초대합니다."
+        },
+        "ja": {
+          "title": "「KALEIDOSCOPE」",
+          "description": "TUJ Art Galleryは、Temple University, Japan Campusの美術プログラムの14名の卒業生によるグループ展「Kaleidoscope」を開催します。本展では、絵画、写真、ドローイング、デジタルメディア、インスタレーション、書籍など、多様なメディアを展示します。各参加アーティストが異なるメディアを使用し、異なる目的を探求しているため、私たちは鑑賞者の皆様に、万華鏡を覗くように本展にアプローチしていただくことをお勧めします。"
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/296110ce/3584580c-3827-42cb-8606-e9bba3494bb1.jpg",
       "description": "TUJ Art Gallery presents Kaleidoscope, a group exhibition by 14 senior Art program students at Temple University, Japan Campus. The exhibition features a diverse range of mediums, including painting, photography, drawing, digital media, installation, and books. With each participating artist using different media and exploring different objectives, we invite viewers to approach this show as if looking through a kaleidoscope.",
       "medium": "photo",
@@ -124028,86 +124145,184 @@
         {
           "id": "67b7f212dc7b",
           "name": "Lauren Diz",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "로렌 디즈"
+            },
+            "ja": {
+              "name": "ローレン・ディズ"
+            }
+          }
         },
         {
           "id": "a1d6a4d89693",
           "name": "Audrey Choi",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "오드리 최"
+            },
+            "ja": {
+              "name": "オードリー・チョイ"
+            }
+          }
         },
         {
           "id": "74fdc04272d4",
           "name": "Dj Cruz",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "디제이 크루즈"
+            },
+            "ja": {
+              "name": "DJクルーズ"
+            }
+          }
         },
         {
           "id": "3affbd090fb2",
           "name": "Jessica K. Freel",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "제시카 K. 프리엘"
+            },
+            "ja": {
+              "name": "ジェシカ・K・フリーエル"
+            }
+          }
         },
         {
           "id": "6c2f5e8c796d",
           "name": "Hua Gao",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "화 가오"
+            },
+            "ja": {
+              "name": "ファ・ガオ"
+            }
+          }
         },
         {
           "id": "755defa6527d",
           "name": "Masanobu Iga",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "마사노부 이가"
+            },
+            "ja": {
+              "name": "マサノブ・イガ"
+            }
+          }
         },
         {
           "id": "e7c0e1d29b03",
           "name": "Lina Kolawole",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "리나 콜라월레"
+            },
+            "ja": {
+              "name": "リナ・コラウォーレ"
+            }
+          }
         },
         {
           "id": "e6f817d57568",
           "name": "Claire Marie Manuel",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "클레어 마리 마누엘"
+            },
+            "ja": {
+              "name": "クレア・マリー・マヌエル"
+            }
+          }
         },
         {
           "id": "89caba1ff381",
           "name": "Fabio Takumi Nakamura",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "파비오 타쿠미 나카무라"
+            },
+            "ja": {
+              "name": "ファビオ・タクミ・ナカムラ"
+            }
+          }
         },
         {
           "id": "ccc04f639144",
           "name": "Lillian Ozawa",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "릴리안 오자와"
+            },
+            "ja": {
+              "name": "リリアン・オザワ"
+            }
+          }
         },
         {
           "id": "b5efdd8f8ed3",
           "name": "Diya Roy",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "디야 로이"
+            },
+            "ja": {
+              "name": "ディヤ・ロイ"
+            }
+          }
         },
         {
           "id": "e40fb9fe3c6c",
           "name": "Sydney Steel Flores",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "시드니 스틸 플로레스"
+            },
+            "ja": {
+              "name": "シドニー スティール フローレス"
+            }
+          }
         },
         {
           "id": "18c58ba84940",
           "name": "Fay Tayeb",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "페이 타이엡"
+            },
+            "ja": {
+              "name": "フェイ タイエブ"
+            }
+          }
         },
         {
           "id": "90932cef6ae7",
           "name": "Ea Wing",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "이아 윙"
+            },
+            "ja": {
+              "name": "イア ウィング"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Kaleidoscope/448-B0723/2026-11-27",
@@ -124118,8 +124333,19 @@
       "id": "9eb0d1949d58",
       "source": "tokyo_art_beat",
       "title": "TAISUKE WADA 「T-RyGHT 5th anniversary winter『trust』」",
-      "lang": null,
-      "tr": {},
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "title": "TAISUKE WADA 「T-RyGHT 5th anniversary winter『trust』」",
+          "description": "배우이자 아티스트로 활동하는 와다 타이스케의 2026년 겨울 개인전. 현장에서만 즐길 수 있는 특별 프로그램도 준비되어 있습니다! 많은 기대 바랍니다. 자세한 내용은 공식 웹사이트에서 확인해 주세요."
+        },
+        "ja": {
+          "title": "TAISUKE WADA 「T-RyGHT 5th anniversary winter『trust』」"
+        },
+        "en": {
+          "description": "A solo exhibition in winter 2026 by Taisuke Wada, who works as an actor and artist. Special programs that can only be experienced at the venue will also be available! Please look forward to it. Please check the official website for details."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/1520d4be/b6838033-a8a9-47dd-bcf5-5b52c3b045e5.jpg",
       "description": "役者、アーティストとして活動する和田泰右の2026年冬の個展。会場でしか味わえない特別プログラムもご用意！ご期待ください。詳細は公式サイトよりご確認ください。",
       "medium": "mixed",
@@ -124153,8 +124379,15 @@
         {
           "id": "7a95eeac7b76",
           "name": "Taisuke Wada",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "타이수케 와다"
+            },
+            "ja": {
+              "name": "タイスケ ワダ"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Taisuke-Wada-T-Ry-GHT-5th-Anniversary-Winter-Trust/7-ACE63-E1/2026-12-04",
@@ -124165,8 +124398,17 @@
       "id": "16d7a548722b",
       "source": "tokyo_art_beat",
       "title": "YOSHIHIRO SAKURAI 「LATENT / RETARD — 潜像と遅延」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "YOSHIHIRO SAKURAI 「LATENT / RETARD — 잠상과 지연」",
+          "description": "본 전시는 2002년 파리 오트쿠튀르 & 프레타포르테 컬렉션 백스테이지를 촬영한 사진과 24년 후인 2026년, 일로 방문한 밀라노 컬렉션 백스테이지를 새로 촬영한 신작으로 구성됩니다. 앞서 언급된 작품들은 작년에 개최된 개인전 「그림자 속의 광채 ETUDE 25 to 48 L’éclat dans l’ombre」의 작품들과 발굴된 네거티브 필름에서 미공개 작품들을 추가하여 선정되었습니다. 구상은 그러한 과거의 사진들과의 재회에서 시작되었습니다. 24년 전 자신이 촬영했던 백스테이지에 지금 다시 카메라를 들고 섰을 때, 어떤 사진이 탄생할 것인가. 이번 촬영에서 사쿠라이는 2002년 당시와 같은 카메라를 사용하여 2026년 새로운 작품 제작에 임했습니다. 하나의 시점이 다른 시간 속에서 각각 맺은 이미지. 같은 주제를 촬영하면서 두 작품군을 가르는 것은 24년이라는 시간만이 아닙니다. 이미지를 둘러싼 환경과 조건, 자신의 경험이 변화하는 가운데 다시 같은 장소에 섰을 때, 작가의 시선에서 무엇이 지속되고, 무엇이 사라지며, 무엇이 갱신되는가. 그 답은 24년을 사이에 둔 양자가 대치될 때 점차 드러납니다.\n\n2002년 사진에는 모델이 렌즈에 시선을 향하지 않고 각자의 시간에 몰두하는 옆모습이나 뒷모습이 있습니다. 샹들리에 아래 펼쳐진 공간, 그림자에 잠긴 검은 드레스. 인물의 몸짓뿐만 아니라 주변 풍경에도 시선을 두는 사진에서는 목격자와 같은 작가의 시선이 두드러집니다. 한편, 신작에는 피사체의 시선이 카메라와 마주치는 순간도 나타납니다. 장소를 응시하는 시선과 피사체를 마주하는 시선. 양자 사이에는 촬영자와 피사체 간의 거리감 차이를 엿볼 수 있습니다. 스마트폰을 든 손이 찍힌 작품도 있어, 촬영을 둘러싼 환경의 변화도 엿볼 수 있습니다. 하지만 이러한 차이는 단순히 과거와 현재를 나누는 것이 아닙니다. 같은 카메라를 통해 비춰진 두 시대의 풍경은 무엇이 변하고 무엇이 변하지 않는지를 보는 이에게 묻습니다. 본 전시 제목인 「LATENT」는 이미지를 품고 있으면서도 아직 눈에 보이지 않는 상태를 의미하는 「잠상」에서 유래합니다. 「RETARD」는 프랑스어로 「지연」을 의미합니다. 마르셀 뒤샹은 《대형 유리》의 제작 노트에서 '회화'를 대신하는 말로 '지연'을 사용하려 했습니다. 편집자이자 사상가인 마쓰오카 세이고 또한 뒤샹의 이 말을 자신의 사색과 연결시켰습니다.\n\n사쿠라이는 마쓰오카의 저작을 통해 '지연'이라는 단어를 접하고, 이전에 접했던 뒤샹의 작품을 다시 읽었습니다. 그곳에서 발견한 것은 자신의 사진과 그 이후의 발자취를 표현하는 듯한 시간의 이해 방식이었습니다. 젊은 시절 촬영한 사진이 오랜 세월을 거쳐 작품으로 발견되고, 그 발견이 새로운 창작의 계기가 되는 것. 2002년 사진에는 촬영 당시에는 알 수 없었던 미래의 가능성이 잠재되어 있었다고도 할 수 있습니다. 「잠상」과 「지연」이라는 두 단어는 과거의 이미지가 시간을 거쳐 새로운 의미를 창출하고 현재의 창작으로 이어지는 본 전시의 구조와 겹쳐집니다. 사쿠라이는 1990년대 후반, 패션을 배우기 위해 파리로 건너갔습니다. 그 후 독학으로 사진을 시작했고, 다시 프랑스로 건너간 이듬해 친구가 관련된 메종의 쇼를 촬영한 것이 백스테이지에 카메라를 향하게 된 계기가 되었습니다. 화려한 무대의 중심이 아닌 그 주변에서 생겨나는 몸짓이나 침묵, 모델 자신이 한순간에 시선을 멈추는 자세는 당시의 사진에도 새겨져 있습니다. 그 작품들을 다시 보는 것은 단순히 과거의 풍경을 발견하는 것뿐만 아니라, 젊은 시절의 기지가 무엇에 이끌렸고 어떤 거리에서 세상을 바라보았는지를 따라가는 길이기도 합니다. 우연한 만남에서 시작된 촬영은 24년 후, 같은 패션 현장에 다시 마주함으로써 자신의 시간을 되돌아보는 행위로 이어집니다. 그곳에는 작품의 변천뿐만 아니라 한 사진가의 발자취가 겹쳐집니다."
+        },
+        "en": {
+          "title": "YOSHIHIRO SAKURAI 「LATENT / RETARD — Latent Image and Delay」",
+          "description": "This exhibition consists of photographs taken backstage at the Paris Haute Couture & Prêt-à-porter Collection in 2002, and new works shot backstage at the Milan Collection, which the artist visited for work in 2026, 24 years later. The aforementioned works were selected by adding unexhibited pieces from the works of last year's solo exhibition, 'The Radiance in the Shadow ETUDE 25 to 48 L’éclat dans l’ombre,' and from the negatives that were discovered. The concept began with a reunion with these past photographs. What kind of photographs would emerge when, 24 years later, the artist stood again with a camera in the same backstage area he had photographed himself? For this shoot, Sakurai used the same camera as in 2002 to create new works in 2026. Images formed by a single perspective at different times. While photographing the same subject, it is not only the 24 years that separate the two bodies of work. As the environment and conditions surrounding images, and the artist's own experiences change, what endures, what is lost, and what is renewed in the artist's gaze when standing in the same place again? The answer gradually emerges when the two, separated by 24 years, are juxtaposed.\n\nThe 2002 photographs feature profiles and backs of models immersed in their own moments, without looking at the lens. The space spreading under a chandelier, black dresses sinking into shadow. From photographs that focus not only on the gestures of people but also on the surrounding scenery, the artist's gaze, like that of a witness, stands out. On the other hand, in the new works, there are moments when the subject's gaze meets the camera. A gaze observing the scene and a gaze confronting the subject. A difference in the sense of distance between the photographer and the subject can be observed between the two. Some works also show hands holding smartphones, revealing changes in the environment surrounding photography. However, these differences do not simply separate the past and the present. The scenes from two eras captured through the same camera ask the viewer what has changed and what remains unchanged. The exhibition title 'LATENT' is derived from 'latent image,' which refers to an image that is held but not yet visible. 'RETARD' means 'delay' in French. Marcel Duchamp attempted to use 'delay' as a word to replace 'painting' in his notes for 'The Large Glass'. Editor and thinker Seigow Matsuoka also connected Duchamp's word to his own thoughts.\n\nSakurai encountered the word 'delay' through Matsuoka's writings and reread Duchamp's works that he had once held. What he found there was a way of understanding time that seemed to describe his own photographs and his subsequent journey. Photographs taken in his youth are discovered as works after many years, and that discovery becomes a catalyst for new creation. It can also be said that the 2002 photographs contained future possibilities that could not have been known at the time they were taken. The two words, 'latent image' and 'delay,' overlap with the structure of this exhibition, where past images create new meanings over time and lead to current creations. In the late 1990s, Sakurai moved to Paris to study fashion. He then began photography self-taught, and the following year, after returning to France, photographing a show for a maison his friend was involved with became the impetus for him to turn his camera backstage. Gestures and silences born on the periphery rather than the center of the glamorous stage, and the models' own momentary pauses, are also etched in the photographs from that time. Revisiting these works is not merely about discovering past scenes, but also a path to trace what attracted his youthful wit and from what distance he viewed the world. The photography, which began with a chance encounter, leads to an act of re-examining his own time by confronting the same fashion scene again 24 years later. There, not only the evolution of his works but also the journey of a single photographer overlaps."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/ce8b5953/d54a8341-d21c-49c2-9c8f-8c7d51e47f8b.jpg",
       "description": "本展は、2002年のパリ・オートクチュール&プレタポルテ・コレクションのバックステージを撮影した写真と、24年後の2026年仕事で訪れたミラノコレクションのバックステージを撮り下ろした新作で構成されます。前述の作品は、昨年に開催した個展「影の中の輝き ETUDE 25 to 48 L’éclat dans l’ombre」の作品とその発掘されたネガから未出品の作品を追加し選出されました。構想は、そうした過去の写真との再会から始まっています。24年前、自分自身が撮影したバックステージに、今再びカメラを持って立ったとき、どのような写真が生まれるのか。今回の撮影で櫻井は、2002年当時と同じカメラを用いて、2026年新たな作品の制作に臨みました。ひとつの視点が異なる時間で、それぞれに結んだ像。同じ主題を撮りながら、2つの作品群を隔てるのは24年という時間だけではありません。イメージをめぐる環境や条件、自身の経験が変化する中で、再び同じ場に立つとき、作家のまなざしの何が持続し、何が失われ、何が更新されるのか。その答えは24年を隔てた両者が対置されるとき、次第に浮かび上がってきます。\n\n2002年の写真には、モデルがレンズに視線を向けることなく、それぞれの時間に身を置く横顔や後ろ姿があります。シャンデリアの下に広がる空間、影に沈む黒いドレス。人物の仕草だけではなく、周囲の光景にも目を向ける写真からは、目撃者のような作家の視線が際立ちます。一方、新作には、被写体のまなざしがカメラと交わる瞬間も現れます。場を見つめる視線と、被写体に向き合う視線。両者の間には、撮影者と被写体との距離感の違いがうかがえます。スマートフォンを構える手が写り込む作品もあり、撮影をめぐる環境の変化も見て取れます。しかし、こうした差異は単純に過去と現在を分けるものではありません。同じカメラを通して写し出された二つの時代の光景は、何が変わり、何が変わらずにあるのかを見る者に問いかけます。本展タイトルの「LATENT」は、像を宿しながら、いまだ目に見えない状態を指す「潜像」に由来。「RETARD」は、フランス語で「遅延」を意味します。マルセル・デュシャンは《大ガラス》の制作ノートにおいて、「絵画」に代わる言葉として「遅延」を用いることを試みました。編集者・思想家の松岡正剛もまた、デュシャンのこの言葉を自身の思索と結びつけています。\n\n櫻井は松岡の著作を通じて「遅延」という言葉に出合い、かつて手にしたデュシャンの作品を改めて読み返しました。そこに見出したのは、自身の写真と、その後の歩みを言い表すような時間の捉え方でした。若い頃に撮影した写真が長い歳月を経て作品として見出され、その発見が新たな創作の契機となる。2002年の写真には、撮影された当時には知り得なかった未来の可能性が潜んでいたともいえます。「潜像」と「遅延」という二つの言葉は、過去のイメージが時間を経て新たな意味を創出し、現在の創作へとつながっていく、本展の構造と重なります。櫻井は1990年代後半、ファッションを学ぶためにパリへ渡りました。その後独学で写真を始め、再び渡仏した翌年、友人が関わるメゾンのショーを撮影したことが、バックステージにカメラを向けるきっかけとなります。華やかな舞台の中心ではなく、その周縁に生まれる身振りや沈黙、モデル自身が一瞬に目を留める姿勢は、当時の写真にも刻まれています。それらの作品群を見返すことは、単に過去の光景を見出すだけではなく、若い頃の機知が何に惹かれ、どのような距離から世界を見ていたのかを辿る道筋でもあります。偶然の出合いから始まった撮影は、24年後、同じファッションの現場に再び向き合うことで、自身の時間を見つめ直す行為へとつながります。そこには、作品の変遷だけでなく、一人の写真家の歩みが重なります。",
       "medium": "photo",
@@ -124193,8 +124435,15 @@
         {
           "id": "964412f25715",
           "name": "YOSHIHIRO SAKURAI",
-          "lang": null,
-          "tr": {}
+          "lang": "en",
+          "tr": {
+            "ko": {
+              "name": "요시히로 사쿠라이"
+            },
+            "ja": {
+              "name": "ヨシヒロ サクライ"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Yoshihiro-Sakurai-Latent-Retard/goyo-gallery/2026-11-28",
@@ -124205,8 +124454,17 @@
       "id": "9f2b92d8bd24",
       "source": "tokyo_art_beat",
       "title": "「美術探鳥」",
-      "lang": null,
-      "tr": {},
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "title": "「미술 탐조」",
+          "description": "새는 우리에게 친숙한 존재인 동시에, 그 모습과 독특한 생태가 예로부터 예술의 영감의 원천이 되어왔습니다. 현대에도 많은 작가들이 새에 매료되어 그 이미지에서 새로운 의미를 찾아내고 있습니다. 본 전시에서는 회화, 사진, 영상 등의 작품과 자료에 나타나는 다양한 새의 표상을 세 가지 키워드로 소개합니다. 첫 번째는 「동경과 호기심」입니다. 새의 모습과 울음소리, 비행 능력에 대한 동경과 깊은 호기심에서 탄생한 작품들을 소개합니다. 두 번째는 「경계와 이동」입니다. 국경이나 제도에 얽매이지 않고 오가는 새의 이미지는 여러 경계 위에서 살아가는 사람들에게 겹쳐질 뿐만 아니라, 인간이 만들어온 경계를 다시 돌아볼 수 있는 시점을 제공합니다. 그리고 세 번째는 「'평화'의 비둘기」입니다. 비둘기는 평화의 상징으로 사랑받는 한편, 일본에서는 군신(하치만신)의 사자로서 군사적인 상징과도 연결되어 왔습니다. 작품과 자료를 통해 일본에서 평화의 표상으로서의 비둘기에 대해 고찰합니다. 현대 미술 속 새들을 찾아 관찰하는 것을 통해 우리 사회를 들여다봅니다."
+        },
+        "en": {
+          "title": "「Art Birdwatching」",
+          "description": "Birds are familiar to us, and their forms and unique ecology have long been a source of inspiration for art. Even in modern times, many artists are fascinated by birds and find new meanings in their images. This exhibition introduces diverse representations of birds appearing in works and materials such as paintings, photographs, and videos, through three keywords. The first is 'Longing and Curiosity.' We introduce works born from a deep longing and curiosity for the appearance, calls, and ability to fly of birds. The second is 'Boundaries and Movement.' The image of birds moving freely without being bound by borders or systems is not only superimposed on people living across multiple boundaries but also provides a perspective for re-examining the boundaries that humans have created. And the third is 'Doves of 'Peace'.' While doves are cherished as symbols of peace, in Japan they have also been associated with military symbolism as messengers of the god of war (Hachiman-shin). Through works and and materials, we will consider doves as representations of peace in Japan. By searching for and observing birds in contemporary art, we will reflect on our society."
+        }
+      },
       "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/d7ff69cb/8897c1af-82d4-4549-a8f4-ecd3160186e9.jpg",
       "description": "鳥はわたしたちにとって身近な存在であると同時に、その姿や独自の生態が古くから芸術の着想源となってきました。現代においても、多くの作家が鳥に魅了され、そのイメージに新たな意味を見出しています。本展では、絵画・写真・映像などの作品や資料にあらわれる多様な鳥の表象を、3つのキーワードから紹介します。ひとつ目は「憧憬と好奇心」。鳥の姿や鳴き声、飛翔する能力への憧憬と深い好奇心から生まれた作品を紹介します。ふたつ目は「境界と移動」。国境や制度にとらわれることなく行き交う鳥のイメージは、複数の境界上で生きる人々に重ねられるだけでなく、人間がつくり出してきた境界を見つめなおすための視点を与えます。そして、みっつ目は「『平和』の鳩」。鳩は平和の象徴として親しまれる一方、日本では軍神（八幡神）の使いとして軍事的な象徴とも結びついてきました。作品と資料を通して、日本における平和表象としての鳩について考察します。現代美術のなかの鳥たちを探し、観察することを通して、わたしたちの社会を見つめます。",
       "medium": "mixed",
@@ -124233,32 +124491,67 @@
         {
           "id": "e9ebea60ceb8",
           "name": "塩見允枝子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "시오미 미에코"
+            },
+            "en": {
+              "name": "Mieko Shiomi"
+            }
+          }
         },
         {
           "id": "b1a8f2141509",
           "name": "長谷川潔",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "하세가와 키요시"
+            },
+            "en": {
+              "name": "Kiyoshi Hasegawa"
+            }
+          }
         },
         {
           "id": "c41b7a312a1f",
           "name": "入江早耶",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "이리에 사야"
+            },
+            "en": {
+              "name": "Saya Irie"
+            }
+          }
         },
         {
           "id": "cec60b66f5fd",
           "name": "ロバート・ラウシェンバーグ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "로버트 라우션버그"
+            },
+            "en": {
+              "name": "Robert Rauschenberg"
+            }
+          }
         },
         {
           "id": "cb22f0dff75b",
           "name": "パブロ・ピカソ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "파블로 피카소"
+            },
+            "en": {
+              "name": "Pablo Picasso"
+            }
+          }
         },
         {
           "id": "03958bf62af7",
@@ -124276,50 +124569,106 @@
         {
           "id": "8eb37e982478",
           "name": "キキ・スミス",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "키키 스미스"
+            },
+            "en": {
+              "name": "Kiki Smith"
+            }
+          }
         },
         {
           "id": "0fa588699f9b",
           "name": "シリーン・セノ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "시린 세노"
+            },
+            "en": {
+              "name": "Shirin Seno"
+            }
+          }
         },
         {
           "id": "6088d3c3500a",
           "name": "すずえり（鈴木英倫子）",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "스즈에리 (스즈키 에리코)"
+            },
+            "en": {
+              "name": "Suzueri (Suzuki Eriko)"
+            }
+          }
         },
         {
           "id": "a45fd6caceb2",
           "name": "宮崎静夫",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "미야자키 시즈오"
+            },
+            "en": {
+              "name": "Miyazaki Shizuo"
+            }
+          }
         },
         {
           "id": "b61cf12d2b95",
           "name": "アドハム・ファラマウィ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "아드함 파라마위"
+            },
+            "en": {
+              "name": "Adham Faramawy"
+            }
+          }
         },
         {
           "id": "f6a0f60139b7",
           "name": "ユン・ジンミ",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "윤진미"
+            },
+            "en": {
+              "name": "Yun Jinmi"
+            }
+          }
         },
         {
           "id": "4298fa4e23ec",
           "name": "柳原義達",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "야나기하라 요시타츠"
+            },
+            "en": {
+              "name": "Yanagihara Yoshitatsu"
+            }
+          }
         },
         {
           "id": "ddd767e8613f",
           "name": "米田知子",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "요네다 토모코"
+            },
+            "en": {
+              "name": "Yoneda Tomoko"
+            }
+          }
         },
         {
           "id": "6412370e046b",
@@ -124337,8 +124686,15 @@
         {
           "id": "f600252d31f7",
           "name": "田中一光",
-          "lang": null,
-          "tr": {}
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "다나카 잇코"
+            },
+            "en": {
+              "name": "Tanaka Ikko"
+            }
+          }
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Birding-in-Art/8-BA9-D036/2027-01-09",
@@ -174450,236 +174806,509 @@
     {
       "id": "924b2c8475cc",
       "name": "野田幸江",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "노다 유키에"
+        },
+        "en": {
+          "name": "Noda Yukie"
+        }
+      }
     },
     {
       "id": "8b974dd6992a",
       "name": "Suzu",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "스즈"
+        },
+        "ja": {
+          "name": "すず"
+        }
+      }
     },
     {
       "id": "33bb84217c2c",
       "name": "まこ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "마코"
+        },
+        "en": {
+          "name": "Mako"
+        }
+      }
     },
     {
       "id": "8cc77299bfc1",
       "name": "そうすけ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "소스케"
+        },
+        "en": {
+          "name": "Sosuke"
+        }
+      }
     },
     {
       "id": "50e1f1b518bf",
       "name": "ジャージー",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "저지"
+        },
+        "en": {
+          "name": "Jersey"
+        }
+      }
     },
     {
       "id": "677a1eb3ed02",
       "name": "DD",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "디디"
+        },
+        "ja": {
+          "name": "ディーディー"
+        }
+      }
     },
     {
       "id": "bd512ac2da1a",
       "name": "シマ・シマ子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "시마 시마코"
+        },
+        "en": {
+          "name": "Shima Shimako"
+        }
+      }
     },
     {
       "id": "e8de75fb31d9",
       "name": "タカムラヨォコ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "타카무라 요코"
+        },
+        "en": {
+          "name": "Takamura Yoko"
+        }
+      }
     },
     {
       "id": "0151671e6bca",
       "name": "エリオット・アーウィット",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "엘리엇 어윗"
+        },
+        "en": {
+          "name": "Elliott Erwitt"
+        }
+      }
     },
     {
       "id": "67b7f212dc7b",
       "name": "Lauren Diz",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "로렌 디즈"
+        },
+        "ja": {
+          "name": "ローレン・ディズ"
+        }
+      }
     },
     {
       "id": "a1d6a4d89693",
       "name": "Audrey Choi",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "오드리 최"
+        },
+        "ja": {
+          "name": "オードリー・チョイ"
+        }
+      }
     },
     {
       "id": "74fdc04272d4",
       "name": "Dj Cruz",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "디제이 크루즈"
+        },
+        "ja": {
+          "name": "DJクルーズ"
+        }
+      }
     },
     {
       "id": "3affbd090fb2",
       "name": "Jessica K. Freel",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "제시카 K. 프리엘"
+        },
+        "ja": {
+          "name": "ジェシカ・K・フリーエル"
+        }
+      }
     },
     {
       "id": "6c2f5e8c796d",
       "name": "Hua Gao",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "화 가오"
+        },
+        "ja": {
+          "name": "ファ・ガオ"
+        }
+      }
     },
     {
       "id": "755defa6527d",
       "name": "Masanobu Iga",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "마사노부 이가"
+        },
+        "ja": {
+          "name": "マサノブ・イガ"
+        }
+      }
     },
     {
       "id": "e7c0e1d29b03",
       "name": "Lina Kolawole",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "리나 콜라월레"
+        },
+        "ja": {
+          "name": "リナ・コラウォーレ"
+        }
+      }
     },
     {
       "id": "e6f817d57568",
       "name": "Claire Marie Manuel",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "클레어 마리 마누엘"
+        },
+        "ja": {
+          "name": "クレア・マリー・マヌエル"
+        }
+      }
     },
     {
       "id": "89caba1ff381",
       "name": "Fabio Takumi Nakamura",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "파비오 타쿠미 나카무라"
+        },
+        "ja": {
+          "name": "ファビオ・タクミ・ナカムラ"
+        }
+      }
     },
     {
       "id": "ccc04f639144",
       "name": "Lillian Ozawa",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "릴리안 오자와"
+        },
+        "ja": {
+          "name": "リリアン・オザワ"
+        }
+      }
     },
     {
       "id": "b5efdd8f8ed3",
       "name": "Diya Roy",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "디야 로이"
+        },
+        "ja": {
+          "name": "ディヤ・ロイ"
+        }
+      }
     },
     {
       "id": "e40fb9fe3c6c",
       "name": "Sydney Steel Flores",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "시드니 스틸 플로레스"
+        },
+        "ja": {
+          "name": "シドニー スティール フローレス"
+        }
+      }
     },
     {
       "id": "18c58ba84940",
       "name": "Fay Tayeb",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "페이 타이엡"
+        },
+        "ja": {
+          "name": "フェイ タイエブ"
+        }
+      }
     },
     {
       "id": "90932cef6ae7",
       "name": "Ea Wing",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "이아 윙"
+        },
+        "ja": {
+          "name": "イア ウィング"
+        }
+      }
     },
     {
       "id": "7a95eeac7b76",
       "name": "Taisuke Wada",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "타이수케 와다"
+        },
+        "ja": {
+          "name": "タイスケ ワダ"
+        }
+      }
     },
     {
       "id": "964412f25715",
       "name": "YOSHIHIRO SAKURAI",
-      "lang": null,
-      "tr": {}
+      "lang": "en",
+      "tr": {
+        "ko": {
+          "name": "요시히로 사쿠라이"
+        },
+        "ja": {
+          "name": "ヨシヒロ サクライ"
+        }
+      }
     },
     {
       "id": "e9ebea60ceb8",
       "name": "塩見允枝子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "시오미 미에코"
+        },
+        "en": {
+          "name": "Mieko Shiomi"
+        }
+      }
     },
     {
       "id": "b1a8f2141509",
       "name": "長谷川潔",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "하세가와 키요시"
+        },
+        "en": {
+          "name": "Kiyoshi Hasegawa"
+        }
+      }
     },
     {
       "id": "c41b7a312a1f",
       "name": "入江早耶",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "이리에 사야"
+        },
+        "en": {
+          "name": "Saya Irie"
+        }
+      }
     },
     {
       "id": "cec60b66f5fd",
       "name": "ロバート・ラウシェンバーグ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "로버트 라우션버그"
+        },
+        "en": {
+          "name": "Robert Rauschenberg"
+        }
+      }
     },
     {
       "id": "cb22f0dff75b",
       "name": "パブロ・ピカソ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "파블로 피카소"
+        },
+        "en": {
+          "name": "Pablo Picasso"
+        }
+      }
     },
     {
       "id": "8eb37e982478",
       "name": "キキ・スミス",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "키키 스미스"
+        },
+        "en": {
+          "name": "Kiki Smith"
+        }
+      }
     },
     {
       "id": "0fa588699f9b",
       "name": "シリーン・セノ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "시린 세노"
+        },
+        "en": {
+          "name": "Shirin Seno"
+        }
+      }
     },
     {
       "id": "6088d3c3500a",
       "name": "すずえり（鈴木英倫子）",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "스즈에리 (스즈키 에리코)"
+        },
+        "en": {
+          "name": "Suzueri (Suzuki Eriko)"
+        }
+      }
     },
     {
       "id": "a45fd6caceb2",
       "name": "宮崎静夫",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "미야자키 시즈오"
+        },
+        "en": {
+          "name": "Miyazaki Shizuo"
+        }
+      }
     },
     {
       "id": "b61cf12d2b95",
       "name": "アドハム・ファラマウィ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "아드함 파라마위"
+        },
+        "en": {
+          "name": "Adham Faramawy"
+        }
+      }
     },
     {
       "id": "f6a0f60139b7",
       "name": "ユン・ジンミ",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "윤진미"
+        },
+        "en": {
+          "name": "Yun Jinmi"
+        }
+      }
     },
     {
       "id": "4298fa4e23ec",
       "name": "柳原義達",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "야나기하라 요시타츠"
+        },
+        "en": {
+          "name": "Yanagihara Yoshitatsu"
+        }
+      }
     },
     {
       "id": "ddd767e8613f",
       "name": "米田知子",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "요네다 토모코"
+        },
+        "en": {
+          "name": "Yoneda Tomoko"
+        }
+      }
     },
     {
       "id": "f600252d31f7",
       "name": "田中一光",
-      "lang": null,
-      "tr": {}
+      "lang": "ja",
+      "tr": {
+        "ko": {
+          "name": "다나카 잇코"
+        },
+        "en": {
+          "name": "Tanaka Ikko"
+        }
+      }
     }
   ]
 }
