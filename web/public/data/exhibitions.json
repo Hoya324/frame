@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T00:00:56.682903+00:00",
+  "generated_at": "2026-11-28T01:32:49.903523+00:00",
   "exhibitions": [
     {
       "id": "aa1868e0dbbf",
@@ -105314,7 +105314,7 @@
           "description": "A photography exhibition introducing the landscapes of Hansen's disease sanatoriums and the people living there, photographed by Akira Kurosaki over many years. This exhibition features \"Komyōen ―Shōyō―\" (2022–2023), a photo series documenting the nature and architecture of Oku Komyōen, and \"Gunzo\" (2004–), which captures people Kurosaki met while visiting Hansen's disease sanatoriums across Japan. The venue is the Former Mokake Elementary and Junior High School Third Branch School (Komyō Gakuen), which remains within the National Sanatorium Oku Komyōen. Using the old school building remaining within the sanatorium as the venue, Kurosaki introduces the landscapes and people he has documented.\n\n[Related Event]\nTalk Show \"Let's Start from Okayama: Hansen's Disease Sanatoriums and Photography\"\nDate & Time: November 3, 2026, 13:00~\nSpeakers: Akira Kurosaki (Photographer), Tadashi Kimura (Curator), Kazuhisa Kuroo (Director, National Jukambō Museum / Archaeologist)\nVenue: Fureai Hall (within National Sanatorium Oku Komyōen)\nCapacity: 100 people (advance registration required)\n※Please check the official website for event details and application methods."
         }
       },
-      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-10/125f89ab/4e2fca38-4b5c-4a71-9bde-c0cfb26aea87.jpg",
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/c443dfd3/ae2d80b2-a862-41c3-b8d0-79ca12ebeb10.jpg",
       "description": "写真家・黒﨑彰が長年にわたり撮影してきた、ハンセン病療養所の風景と、そこで暮らす人々の姿を紹介する写真展。本展では、邑久光明園の自然や建築を記録した写真シリーズ《光明園 ―逍遙―》（2022–2023）と、全国のハンセン病療養所を訪ねるなかで出会った人々を撮影した《群像》（2004–）を展示する。会場は、国立療養所邑久光明園内に残る旧裳掛小・中学校第三分校（光明学園）。療養所のなかに残された旧学校建築を会場に、黒﨑が記録してきた風景と人々の姿を紹介する。\n\n[関連イベント]\nトークショー「岡山から始めよう―ハンセン病療養所と写真―」\n日時: 2026年11月3日13:00〜\n登壇者: 黒﨑彰（写真家）、キムラ タダシ（学芸員）、黒尾和久（国立重監房資料館部長・考古学者）\n会場: ふれあいホール（国立療養所邑久光明園内）\n定員: 100名（要事前申込み）\n※イベント詳細・お申し込み方法は公式ホームページよりご確認ください。",
       "medium": "photo",
       "exhibition_type": "solo",
@@ -105323,7 +105323,7 @@
       "price_min": null,
       "price_max": null,
       "start_date": "2026-10-31",
-      "end_date": "2027-01-31",
+      "end_date": "2026-12-27",
       "status": "ongoing",
       "open_hours": null,
       "venue": {
@@ -111639,7 +111639,7 @@
       "price_max": null,
       "start_date": "2026-11-28",
       "end_date": "2026-12-27",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "ec7e14bc9bb2",
@@ -111765,7 +111765,7 @@
       "price_max": null,
       "start_date": "2026-11-28",
       "end_date": "2026-12-13",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "56640e0e6822",
@@ -112944,7 +112944,7 @@
       "price_max": null,
       "start_date": "2026-11-28",
       "end_date": "2026-12-09",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "afe71f7d0299",
@@ -113592,7 +113592,7 @@
       "price_max": null,
       "start_date": "2026-11-18",
       "end_date": "2026-11-27",
-      "status": "ongoing",
+      "status": "past",
       "open_hours": null,
       "venue": {
         "id": "2f69486df037",
@@ -114753,7 +114753,7 @@
       "price_max": null,
       "start_date": "2026-11-28",
       "end_date": "2027-01-17",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "8dcc77c58ed9",
@@ -115994,7 +115994,7 @@
       "price_max": null,
       "start_date": "2026-11-28",
       "end_date": "2026-11-29",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "f46b9eafe809",
@@ -117363,7 +117363,7 @@
       "price_max": null,
       "start_date": "2026-11-28",
       "end_date": "2026-11-29",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "14e8cec0c494",
@@ -117852,7 +117852,7 @@
       "price_max": null,
       "start_date": "2026-11-28",
       "end_date": "2026-12-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "49e79bf83254",
@@ -119713,7 +119713,7 @@
       "price_max": null,
       "start_date": "2026-11-28",
       "end_date": "2026-12-20",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "d5f2b97f66b5",
@@ -121314,7 +121314,7 @@
       "price_max": null,
       "start_date": "2026-11-28",
       "end_date": "2026-12-03",
-      "status": "upcoming",
+      "status": "ongoing",
       "open_hours": null,
       "venue": {
         "id": "7a6765269871",
@@ -123803,6 +123803,545 @@
         }
       ],
       "source_url": "https://www.tokyoartbeat.com/events/-/Kouassi-Altered-Skin/ayacenter-guruguru-oasis/2026-12-05",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "82d5ac9f77ae",
+      "source": "tokyo_art_beat",
+      "title": "川内倫子 + 野田幸江 「それを生きる」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/40a929b1/b3a223d9-b545-418a-a3cb-10ac9a717554.png",
+      "description": "MtK Contemporary Artでは、10月31日（土）から12月22日（火）まで、川内倫子と野田幸江による2人展「それを生きる」を開催いたします。 本展では、川内倫子の写真作品シリーズ《4％》および《An interlinking》を中心に展示するとともに、野田幸江による植物を用いた大規模なインスタレーションをご紹介いたします。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-10-31",
+      "end_date": "2026-12-22",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "f51750bdd53d",
+        "name": "MtK Contemporary Art",
+        "lang": null,
+        "tr": {},
+        "region": "京都府",
+        "district": null,
+        "lat": 35.013787254640576,
+        "lng": 135.78505178924223
+      },
+      "artists": [
+        {
+          "id": "56ab92e60403",
+          "name": "川内倫子",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "카와우치 린코"
+            },
+            "en": {
+              "name": "Rinko Kawauchi"
+            }
+          }
+        },
+        {
+          "id": "924b2c8475cc",
+          "name": "野田幸江",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Rinko-Kawauchi-Sachie-Noda-Exhibition/3-EA8011-F/2026-10-31",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "d398a4709824",
+      "source": "tokyo_art_beat",
+      "title": "「In Black Out展 ～Across Mediums～」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/651a96f4/709a93b3-bfd0-41c2-a59c-f62b6c3c755b.jpg",
+      "description": "同じ姿を見つめても、同じものは生まれない。ひとりのモデルを通して交差する、作家それぞれの視点、感性、解釈。イラスト、写真、ドローイング、小説。異なる表現領域を横断する作家たちによる、In Black Out 初の主催展示。",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-11",
+      "end_date": "2026-12-13",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "ac97d40fd2bb",
+        "name": "ギャルリー・ジュイエ",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 쥘리에"
+          },
+          "en": {
+            "name": "Galerie Juillet"
+          }
+        },
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.710343675076,
+        "lng": 139.6470381407201
+      },
+      "artists": [
+        {
+          "id": "8b974dd6992a",
+          "name": "Suzu",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "33bb84217c2c",
+          "name": "まこ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "8cc77299bfc1",
+          "name": "そうすけ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "50e1f1b518bf",
+          "name": "ジャージー",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "677a1eb3ed02",
+          "name": "DD",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "bd512ac2da1a",
+          "name": "シマ・シマ子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e8de75fb31d9",
+          "name": "タカムラヨォコ",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/In-Black-Out-Exhibition-Across-Mediums/7-ACE63-E1/2026-12-11",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "40dbdf76b052",
+      "source": "tokyo_art_beat",
+      "title": "エリオット・アーウィット 「Elliott Erwitt to the Dogs, to the People」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/57d07c5b/678f00e7-dc29-4a1a-a77a-5cd7a3e020e0.jpg",
+      "description": "株式会社ベイクルーズが運営するアートギャラリー〈art cruise gallery by Baycrew's(以下、art cruise gallery)〉は、第15回目の展示として、Elliott Erwitt(エリオット・アーウィット)の個展『Elliott Erwitt to the Dogs, to the People』（以下、本展）を2026年12月11日（金）より開催いたします。\n\nエリオット・アーウィットの写真では、犬たちが世界の見え方を変えてしまいます。人間の膝よりも低い視点に立つと、脚の長さや身体の大小、視線の方向が、思いがけない関係を結び始めます。宙に浮いた犬と路面に落ちる影、飼い主と犬の似通った姿。日常の断片が、フレームの中で鮮やかな秩序を獲得します。その一瞬には、偶然を見逃さない観察眼と、画面の隅々にまで行き届いた構成意識が息づいています。本展では、犬が写る作品を中心に、恋人たちや家族、街の情景を捉えた代表作も交えながら、アーウィットの写真表現をたどります。犬の写真に際立つ距離や尺度のずれ、身ぶりの呼応、ユーモアと哀感は、人々を写した作品にも通じています。画面の一部に目を留めることで全体の意味が変わり、笑いのあとに、孤独や親密さが静かに姿を現す。その軽やかさは、見る者の感情や解釈に余地を残します。犬も人も、それぞれの生を営む存在として、同じ画面に収まっています。アーウィットの写真に触れることは、私たちが普段、何を見て、何を見落としているのかを問い直すことでもあります。親しみやすい犬たちを入り口に、見ることの機知と、写真が一瞬を持続させる力に出会う展覧会です。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-11",
+      "end_date": "2027-02-28",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "183df2495444",
+        "name": "art cruise gallery by Baycrew's",
+        "lang": "en",
+        "tr": {
+          "ko": {
+            "name": "art cruise gallery by Baycrew's"
+          },
+          "ja": {
+            "name": "art cruise gallery by Baycrew's"
+          }
+        },
+        "region": "麻布台、虎ノ門",
+        "district": null,
+        "lat": 35.66755,
+        "lng": 139.7469
+      },
+      "artists": [
+        {
+          "id": "0151671e6bca",
+          "name": "エリオット・アーウィット",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Elliott-Erwitt-Elliott-Erwitt-to-the-Dogs-to-the-People/art-cruise-gallery-by-baycrews/2026-12-11",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "011de670c96e",
+      "source": "tokyo_art_beat",
+      "title": "「KALEIDOSCOPE」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/296110ce/3584580c-3827-42cb-8606-e9bba3494bb1.jpg",
+      "description": "TUJ Art Gallery presents Kaleidoscope, a group exhibition by 14 senior Art program students at Temple University, Japan Campus. The exhibition features a diverse range of mediums, including painting, photography, drawing, digital media, installation, and books. With each participating artist using different media and exploring different objectives, we invite viewers to approach this show as if looking through a kaleidoscope.",
+      "medium": "photo",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-27",
+      "end_date": "2026-12-07",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "6274759d888d",
+        "name": "テンプル大学 ジャパンキャンパス",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "템플 대학교 재팬 캠퍼스"
+          },
+          "en": {
+            "name": "Temple University Japan Campus"
+          }
+        },
+        "region": "世田谷",
+        "district": null,
+        "lat": 35.64270137948371,
+        "lng": 139.67390802390844
+      },
+      "artists": [
+        {
+          "id": "67b7f212dc7b",
+          "name": "Lauren Diz",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a1d6a4d89693",
+          "name": "Audrey Choi",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "74fdc04272d4",
+          "name": "Dj Cruz",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "3affbd090fb2",
+          "name": "Jessica K. Freel",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "6c2f5e8c796d",
+          "name": "Hua Gao",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "755defa6527d",
+          "name": "Masanobu Iga",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e7c0e1d29b03",
+          "name": "Lina Kolawole",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e6f817d57568",
+          "name": "Claire Marie Manuel",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "89caba1ff381",
+          "name": "Fabio Takumi Nakamura",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "ccc04f639144",
+          "name": "Lillian Ozawa",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b5efdd8f8ed3",
+          "name": "Diya Roy",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "e40fb9fe3c6c",
+          "name": "Sydney Steel Flores",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "18c58ba84940",
+          "name": "Fay Tayeb",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "90932cef6ae7",
+          "name": "Ea Wing",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Kaleidoscope/448-B0723/2026-11-27",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "9eb0d1949d58",
+      "source": "tokyo_art_beat",
+      "title": "TAISUKE WADA 「T-RyGHT 5th anniversary winter『trust』」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/1520d4be/b6838033-a8a9-47dd-bcf5-5b52c3b045e5.jpg",
+      "description": "役者、アーティストとして活動する和田泰右の2026年冬の個展。会場でしか味わえない特別プログラムもご用意！ご期待ください。詳細は公式サイトよりご確認ください。",
+      "medium": "mixed",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-12-04",
+      "end_date": "2026-12-08",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "ac97d40fd2bb",
+        "name": "ギャルリー・ジュイエ",
+        "lang": "ja",
+        "tr": {
+          "ko": {
+            "name": "갤러리 쥘리에"
+          },
+          "en": {
+            "name": "Galerie Juillet"
+          }
+        },
+        "region": "武蔵野、多摩",
+        "district": null,
+        "lat": 35.710343675076,
+        "lng": 139.6470381407201
+      },
+      "artists": [
+        {
+          "id": "7a95eeac7b76",
+          "name": "Taisuke Wada",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Taisuke-Wada-T-Ry-GHT-5th-Anniversary-Winter-Trust/7-ACE63-E1/2026-12-04",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "16d7a548722b",
+      "source": "tokyo_art_beat",
+      "title": "YOSHIHIRO SAKURAI 「LATENT / RETARD — 潜像と遅延」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/ce8b5953/d54a8341-d21c-49c2-9c8f-8c7d51e47f8b.jpg",
+      "description": "本展は、2002年のパリ・オートクチュール&プレタポルテ・コレクションのバックステージを撮影した写真と、24年後の2026年仕事で訪れたミラノコレクションのバックステージを撮り下ろした新作で構成されます。前述の作品は、昨年に開催した個展「影の中の輝き ETUDE 25 to 48 L’éclat dans l’ombre」の作品とその発掘されたネガから未出品の作品を追加し選出されました。構想は、そうした過去の写真との再会から始まっています。24年前、自分自身が撮影したバックステージに、今再びカメラを持って立ったとき、どのような写真が生まれるのか。今回の撮影で櫻井は、2002年当時と同じカメラを用いて、2026年新たな作品の制作に臨みました。ひとつの視点が異なる時間で、それぞれに結んだ像。同じ主題を撮りながら、2つの作品群を隔てるのは24年という時間だけではありません。イメージをめぐる環境や条件、自身の経験が変化する中で、再び同じ場に立つとき、作家のまなざしの何が持続し、何が失われ、何が更新されるのか。その答えは24年を隔てた両者が対置されるとき、次第に浮かび上がってきます。\n\n2002年の写真には、モデルがレンズに視線を向けることなく、それぞれの時間に身を置く横顔や後ろ姿があります。シャンデリアの下に広がる空間、影に沈む黒いドレス。人物の仕草だけではなく、周囲の光景にも目を向ける写真からは、目撃者のような作家の視線が際立ちます。一方、新作には、被写体のまなざしがカメラと交わる瞬間も現れます。場を見つめる視線と、被写体に向き合う視線。両者の間には、撮影者と被写体との距離感の違いがうかがえます。スマートフォンを構える手が写り込む作品もあり、撮影をめぐる環境の変化も見て取れます。しかし、こうした差異は単純に過去と現在を分けるものではありません。同じカメラを通して写し出された二つの時代の光景は、何が変わり、何が変わらずにあるのかを見る者に問いかけます。本展タイトルの「LATENT」は、像を宿しながら、いまだ目に見えない状態を指す「潜像」に由来。「RETARD」は、フランス語で「遅延」を意味します。マルセル・デュシャンは《大ガラス》の制作ノートにおいて、「絵画」に代わる言葉として「遅延」を用いることを試みました。編集者・思想家の松岡正剛もまた、デュシャンのこの言葉を自身の思索と結びつけています。\n\n櫻井は松岡の著作を通じて「遅延」という言葉に出合い、かつて手にしたデュシャンの作品を改めて読み返しました。そこに見出したのは、自身の写真と、その後の歩みを言い表すような時間の捉え方でした。若い頃に撮影した写真が長い歳月を経て作品として見出され、その発見が新たな創作の契機となる。2002年の写真には、撮影された当時には知り得なかった未来の可能性が潜んでいたともいえます。「潜像」と「遅延」という二つの言葉は、過去のイメージが時間を経て新たな意味を創出し、現在の創作へとつながっていく、本展の構造と重なります。櫻井は1990年代後半、ファッションを学ぶためにパリへ渡りました。その後独学で写真を始め、再び渡仏した翌年、友人が関わるメゾンのショーを撮影したことが、バックステージにカメラを向けるきっかけとなります。華やかな舞台の中心ではなく、その周縁に生まれる身振りや沈黙、モデル自身が一瞬に目を留める姿勢は、当時の写真にも刻まれています。それらの作品群を見返すことは、単に過去の光景を見出すだけではなく、若い頃の機知が何に惹かれ、どのような距離から世界を見ていたのかを辿る道筋でもあります。偶然の出合いから始まった撮影は、24年後、同じファッションの現場に再び向き合うことで、自身の時間を見つめ直す行為へとつながります。そこには、作品の変遷だけでなく、一人の写真家の歩みが重なります。",
+      "medium": "photo",
+      "exhibition_type": "solo",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2026-11-28",
+      "end_date": "2026-12-19",
+      "status": "ongoing",
+      "open_hours": null,
+      "venue": {
+        "id": "c8b958e23bcb",
+        "name": "Goyo Gallery",
+        "lang": null,
+        "tr": {},
+        "region": "天王洲、品川",
+        "district": null,
+        "lat": 35.61978,
+        "lng": 139.7462
+      },
+      "artists": [
+        {
+          "id": "964412f25715",
+          "name": "YOSHIHIRO SAKURAI",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Yoshihiro-Sakurai-Latent-Retard/goyo-gallery/2026-11-28",
+      "featured": false,
+      "popularity_score": null
+    },
+    {
+      "id": "9f2b92d8bd24",
+      "source": "tokyo_art_beat",
+      "title": "「美術探鳥」",
+      "lang": null,
+      "tr": {},
+      "poster_image_url": "https://cdn.prod.tabdev.net/asset_files/uploaded/2026-11/d7ff69cb/8897c1af-82d4-4549-a8f4-ecd3160186e9.jpg",
+      "description": "鳥はわたしたちにとって身近な存在であると同時に、その姿や独自の生態が古くから芸術の着想源となってきました。現代においても、多くの作家が鳥に魅了され、そのイメージに新たな意味を見出しています。本展では、絵画・写真・映像などの作品や資料にあらわれる多様な鳥の表象を、3つのキーワードから紹介します。ひとつ目は「憧憬と好奇心」。鳥の姿や鳴き声、飛翔する能力への憧憬と深い好奇心から生まれた作品を紹介します。ふたつ目は「境界と移動」。国境や制度にとらわれることなく行き交う鳥のイメージは、複数の境界上で生きる人々に重ねられるだけでなく、人間がつくり出してきた境界を見つめなおすための視点を与えます。そして、みっつ目は「『平和』の鳩」。鳩は平和の象徴として親しまれる一方、日本では軍神（八幡神）の使いとして軍事的な象徴とも結びついてきました。作品と資料を通して、日本における平和表象としての鳩について考察します。現代美術のなかの鳥たちを探し、観察することを通して、わたしたちの社会を見つめます。",
+      "medium": "mixed",
+      "exhibition_type": "group",
+      "genre_tags": [],
+      "fee_type": "free",
+      "price_min": null,
+      "price_max": null,
+      "start_date": "2027-01-09",
+      "end_date": "2027-04-11",
+      "status": "upcoming",
+      "open_hours": null,
+      "venue": {
+        "id": "042a7eb54704",
+        "name": "広島市現代美術館",
+        "lang": null,
+        "tr": {},
+        "region": "広島県",
+        "district": null,
+        "lat": 34.38634398596582,
+        "lng": 132.4733578742362
+      },
+      "artists": [
+        {
+          "id": "e9ebea60ceb8",
+          "name": "塩見允枝子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b1a8f2141509",
+          "name": "長谷川潔",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "c41b7a312a1f",
+          "name": "入江早耶",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "cec60b66f5fd",
+          "name": "ロバート・ラウシェンバーグ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "cb22f0dff75b",
+          "name": "パブロ・ピカソ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "03958bf62af7",
+          "name": "松江泰治",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "마쓰에 다이지"
+            },
+            "en": {
+              "name": "Taiji Matsue"
+            }
+          }
+        },
+        {
+          "id": "8eb37e982478",
+          "name": "キキ・スミス",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "0fa588699f9b",
+          "name": "シリーン・セノ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "6088d3c3500a",
+          "name": "すずえり（鈴木英倫子）",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "a45fd6caceb2",
+          "name": "宮崎静夫",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "b61cf12d2b95",
+          "name": "アドハム・ファラマウィ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "f6a0f60139b7",
+          "name": "ユン・ジンミ",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "4298fa4e23ec",
+          "name": "柳原義達",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "ddd767e8613f",
+          "name": "米田知子",
+          "lang": null,
+          "tr": {}
+        },
+        {
+          "id": "6412370e046b",
+          "name": "キュンチョメ",
+          "lang": "ja",
+          "tr": {
+            "ko": {
+              "name": "큥초메"
+            },
+            "en": {
+              "name": "Kyun Chome"
+            }
+          }
+        },
+        {
+          "id": "f600252d31f7",
+          "name": "田中一光",
+          "lang": null,
+          "tr": {}
+        }
+      ],
+      "source_url": "https://www.tokyoartbeat.com/events/-/Birding-in-Art/8-BA9-D036/2027-01-09",
       "featured": false,
       "popularity_score": null
     }
@@ -136931,6 +137470,48 @@
       "country": "JP",
       "lat": 35.66232416484349,
       "lng": 139.73382950429917,
+      "website": null
+    },
+    {
+      "id": "f51750bdd53d",
+      "name": "MtK Contemporary Art",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "京都府",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.013787254640576,
+      "lng": 135.78505178924223,
+      "website": null
+    },
+    {
+      "id": "c8b958e23bcb",
+      "name": "Goyo Gallery",
+      "lang": null,
+      "tr": {},
+      "venue_type": "gallery",
+      "region": "天王洲、品川",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 35.61978,
+      "lng": 139.7462,
+      "website": null
+    },
+    {
+      "id": "042a7eb54704",
+      "name": "広島市現代美術館",
+      "lang": null,
+      "tr": {},
+      "venue_type": "other",
+      "region": "広島県",
+      "district": null,
+      "address": null,
+      "country": "JP",
+      "lat": 34.38634398596582,
+      "lng": 132.4733578742362,
       "website": null
     }
   ],
@@ -173865,6 +174446,240 @@
           "name": "Kwasi"
         }
       }
+    },
+    {
+      "id": "924b2c8475cc",
+      "name": "野田幸江",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8b974dd6992a",
+      "name": "Suzu",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "33bb84217c2c",
+      "name": "まこ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8cc77299bfc1",
+      "name": "そうすけ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "50e1f1b518bf",
+      "name": "ジャージー",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "677a1eb3ed02",
+      "name": "DD",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "bd512ac2da1a",
+      "name": "シマ・シマ子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e8de75fb31d9",
+      "name": "タカムラヨォコ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0151671e6bca",
+      "name": "エリオット・アーウィット",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "67b7f212dc7b",
+      "name": "Lauren Diz",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a1d6a4d89693",
+      "name": "Audrey Choi",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "74fdc04272d4",
+      "name": "Dj Cruz",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "3affbd090fb2",
+      "name": "Jessica K. Freel",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6c2f5e8c796d",
+      "name": "Hua Gao",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "755defa6527d",
+      "name": "Masanobu Iga",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e7c0e1d29b03",
+      "name": "Lina Kolawole",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e6f817d57568",
+      "name": "Claire Marie Manuel",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "89caba1ff381",
+      "name": "Fabio Takumi Nakamura",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ccc04f639144",
+      "name": "Lillian Ozawa",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b5efdd8f8ed3",
+      "name": "Diya Roy",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e40fb9fe3c6c",
+      "name": "Sydney Steel Flores",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "18c58ba84940",
+      "name": "Fay Tayeb",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "90932cef6ae7",
+      "name": "Ea Wing",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "7a95eeac7b76",
+      "name": "Taisuke Wada",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "964412f25715",
+      "name": "YOSHIHIRO SAKURAI",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "e9ebea60ceb8",
+      "name": "塩見允枝子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b1a8f2141509",
+      "name": "長谷川潔",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "c41b7a312a1f",
+      "name": "入江早耶",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "cec60b66f5fd",
+      "name": "ロバート・ラウシェンバーグ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "cb22f0dff75b",
+      "name": "パブロ・ピカソ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "8eb37e982478",
+      "name": "キキ・スミス",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "0fa588699f9b",
+      "name": "シリーン・セノ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "6088d3c3500a",
+      "name": "すずえり（鈴木英倫子）",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "a45fd6caceb2",
+      "name": "宮崎静夫",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "b61cf12d2b95",
+      "name": "アドハム・ファラマウィ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f6a0f60139b7",
+      "name": "ユン・ジンミ",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "4298fa4e23ec",
+      "name": "柳原義達",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "ddd767e8613f",
+      "name": "米田知子",
+      "lang": null,
+      "tr": {}
+    },
+    {
+      "id": "f600252d31f7",
+      "name": "田中一光",
+      "lang": null,
+      "tr": {}
     }
   ]
 }
